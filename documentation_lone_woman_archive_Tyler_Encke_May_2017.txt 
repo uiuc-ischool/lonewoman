@@ -1,0 +1,159 @@
+#####################################################
+MOVING SERVERS:
+
+If the site is ever moved to another server, make sure the settings.py file 
+has all of the correct values. Also check all html files for any hard coded
+links (I can't remember if there are any). 
+
+#####################################################
+BASE DIRECTORY: /home/tencke/public_html/
+
+#####################################################
+HOW TO: Add new page
+
+This section will partially explian how to add a new URL/Page
+
+Files in play:
+1. lonewoman/urls.py
+2. lonewoman/views.py or image_viewer/views.py (Typically it will be first)
+3. templates/image_viewer/*.html
+
+Steps.
+1. Add url pattern to urls.py
+2. Add code in views.py (if going through a method first)
+3. Add html file
+
+#####################################################
+WHERE TO FIND:
+
+HTML files: /lonewoman/templates/(image_viewer or maps or timeline)
+ CSS files: /lonewoman/static/(then depends could be global or journal [most common to be changing])/css
+  JS files: /lonewoman/static/(then depends could be global or journal [most common to be changing])/js
+
+#####################################################
+TIPS:
+
+Compile .py files commands (Makes it so you don't have to wait till files auto compile)
+1. python -m compileall -l /home/tencke/public_html/lonewoman/lonewoman
+or 2. python -m compileall -l /home/tencke/public_html/lonewoman/image_viewer
+may need: 3. sudo service apache2 restart
+
+Easiest way to customize side bar links:
+1. Open all html files in Sublime Text
+2. Ctrl + Shift + F 
+3. Find one of the files with the side bar links and then using find in file replace it with the new section of code.
+
+#####################################################
+MYSQL DATABASE:
+
+Use mySQL workbench and use a ssh tunnel
+
+User: lone
+Pass: #*mE&Zb4!482$y3W
+table: lostwoman
+
+#####################################################
+WHAT IS A FILE FOR:
+
+lonewoman/:
+       error_log.txt: Used for errors during the upload.
+        fixTropes.py: Deletes all tropes from database then adds them all back. This shouldn't be used.
+             keys.py: Never have used, should sync all keys from every document.
+           manage.py: Doesn't need to be changed ever.
+          README.txt: This file, used for help about the project.
+          syncSQL.py: Sync files to the database during the upload process. This file is known to have problems. I never got around to
+                  rewrittng it. If I did though the syncDocumentsAndAuthors is what will need to be rewritten. Primarily,
+                  making it more informative and work better for any document.
+      update_log.txt: The upload status file. Only positive info will show here.
+   uploaded_file.txt: Used during uploading to identify which file is being uploaded.
+
+lonewoman/citations/:
+            views.py: Citations formating. (identical code can be found at bottom of lonewoman/views.py)
+
+lonewoman/image_viewer/:
+           models.py: Models for the database. These should be set in stone. Unless there is going to be new types data in database.
+            views.py: This views file is typically for the image view to display the doucment images.
+
+lonewoman/image_viewer/templatetags:
+          scripts.py: Most likely won't need. It is used for getting the doc and XSLT formating
+
+lonewoman/lonewoman/:
+            forms.py: Used for the contact the editor form.
+         settings.py: Settings for django. Most likely to stay the same except when transfered to the NPS
+             urls.py: Url patterns for the site. Uses REGEX patterns. Each thing in <> is a variable passed to the method after the comma
+            views.py: The bulk of the site. Browse, upload, and citations(same as the citation file almost)
+
+lonewoman/maps:
+            views.py: Views file for the maps. Used to render pages for the maps.
+
+lonewoman/search:
+            views.py: Views file for searching. Handles all the searches.
+
+lonewoman/static: 
+                    : All the sites CSS, JS, and static Images are found here.
+
+lonewoman/static/lw_maps: 
+                    : Images for the maps
+
+lonewoman/templates:
+                    : All HTML files will be found here. 
+
+/lonewoman_content/XML_Archive/stylesheets/:
+   applyRichText.xsl: Used for styling and formating documents. Has JS code in here that could be modified.
+
+/lonewoman_content/:
+         config.json: Config file for the LonewomanSync.jar
+   LonwwomanSync.jar: Java program that downloads xlsx spreadsheet from google drive and uses the info on it to update databases.
+
+/lonewoman_content/CSV_Archive/:
+                    : CSV files used for uploading the places, people, etc.
+
+/lonewoman_content/PNG_Archive/:
+                    : All documents images will end up here. They are converted from PDF to PNG during upload using Ghostscript.
+
+/lonewoman_content/tmp_dl/:
+                    : Used to hold the google document while running LonewomanSync.jar
+
+/lonewoman_content/XML_Archive/:
+                    : All documents XML(TEI) files will be uploaded to here.
+#####################################################
+HOW TO FIX STUFF:
+
+File permission errors:
+  1. Add yourself to the group lonewoman on linux (sudo adduser USERNAME lonewoman)
+  2. chown -R tencke:lonewoman /home/tencke
+
+Citation issues:
+  1. Check spread sheet first. Make sure you are looking at column actually being used during sync.
+  2. If not a spreadsheet issue formatting is done in two different places mention in file descriptions above.
+
+Sync issues:
+  1. The sync tool code is in the LonewomanSync folder. I got a little sloppy with the code but it all is there
+  and most likely won't need to be touched. Also it is written in JAVA and compiled to a jar that lives
+  in lonewoman_content. Can be run using 
+  (java -jar /home/tencke/public_html/lonewoman_content/LonewomanSync.jar force /home/tencke/public_html/lonewoman_content/config.json)
+
+Internal Server Error:
+  1. Could mean anything: email tylerencke.root@gmail.com and I can forward any errors to you.
+  2. You can also just add your email to the settings.py and errors will be sent to you also.
+
+Email issues:
+  1. Check that the email is configured correctly in settings.py.
+  I.E. the password is correct, etc.
+
+Issues with one liners not showing up:
+  1. Most likely it is N/A'd or the stylesheets is not making it a link.
+  2. Check to make sure it is syncing correctly
+
+Oneliners showing when not supposed to:
+  1. Run the sync tool and check again.
+  2. Still showing, make sure it is the correct key.
+  3. Make sure it is N/A in the description
+  4. If here you'll have to do some figuring out.
+
+
+#####################################################
+NOTE! This is just a guide. There are a bunch of "extra" files, stuff is where it shouldn't be sometimes. 
+
+If you need more help than this guide you can email me and I should be able to help figure stuff out.
+
