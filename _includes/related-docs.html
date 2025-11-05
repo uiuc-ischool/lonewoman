@@ -1,0 +1,90 @@
+{% comment %}
+Related Documents for items sharing this page's group_id.
+Format: VersionType: "Title," Creator
+Order: Original → Direct Reprint → Full Reprint → Truncated Reprint → (others)
+Prevents duplicates and excludes the current page.
+{% endcomment %}
+
+{% if page.group_id %}
+  {% assign all_items = site.data[site.metadata] %}
+  {% assign group = all_items | where: "group_id", page.group_id %}
+  {% assign related = group | where_exp: "r", "r.objectid != page.objectid" %}
+
+  {% if related and related.size > 0 %}
+  <section class="related-documents">
+    <h3 class="h5 fw-bold">Related Documents:</h3>
+    <ul>
+      {%- assign preferred_order = "Original|Direct Reprint|Truncated Reprint" | split: "|" -%}
+      {%- assign seen = "|" -%}
+
+      {% comment %}{# ---- pass 1..N: preferred types in fixed order ---- #}{% endcomment %}
+      {% for t in preferred_order %}
+        {% for it in related %}
+          {% assign needle = "|" | append: it.objectid | append: "|" %}
+          {% unless seen contains needle %}
+            {% if it.version_type == t %}
+
+              {%- assign ttxt = it.title | strip -%}
+              {%- assign last = ttxt | slice: -1, 1 -%}
+              {%- if last == '”' or last == '"' -%}
+                {%- assign core = ttxt | slice: 0, ttxt.size | minus: 1 -%}
+                {%- assign pre = core | slice: -1, 1 -%}
+                {%- if pre == '.' or pre == '!' or pre == '?' or pre == ';' or pre == ':' or pre == ',' -%}
+                  {%- assign title_display = ttxt -%}
+                {%- else -%}
+                  {%- if last == '”' -%}{%- assign title_display = core | append: ',”' -%}{%- else -%}{%- assign title_display = core | append: ',"' -%}{%- endif -%}
+                {%- endif -%}
+              {%- elsif last == '.' or last == '!' or last == '?' or last == ';' or last == ':' or last == ',' -%}
+                {%- assign title_display = ttxt -%}
+              {%- else -%}
+                {%- assign title_display = ttxt | append: ',' -%}
+              {%- endif -%}
+
+              <li>
+                {{ it.version_type }}:
+                <a href="{{ '/items/' | append: it.objectid | append: '.html' | relative_url }}">"{{ title_display }}"</a>
+                {% if it.creator %} {{ it.creator }}{% endif %}
+              </li>
+
+              {%- assign seen = seen | append: it.objectid | append: "|" -%}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+
+      {% comment %}{# ---- final pass: anything not in preferred list and not yet printed ---- #}{% endcomment %}
+      {% for it in related %}
+        {% assign needle = "|" | append: it.objectid | append: "|" %}
+        {% unless seen contains needle %}
+          {% unless preferred_order contains it.version_type %}
+
+            {%- assign ttxt = it.title | strip -%}
+            {%- assign last = ttxt | slice: -1, 1 -%}
+            {%- if last == '”' or last == '"' -%}
+              {%- assign core = ttxt | slice: 0, ttxt.size | minus: 1 -%}
+              {%- assign pre = core | slice: -1, 1 -%}
+              {%- if pre == '.' or pre == '!' or pre == '?' or pre == ';' or pre == ':' or pre == ',' -%}
+                {%- assign title_display = ttxt -%}
+              {%- else -%}
+                {%- if last == '”' -%}{%- assign title_display = core | append: ',”' -%}{%- else -%}{%- assign title_display = core | append: ',"' -%}{%- endif -%}
+              {%- endif -%}
+            {%- elsif last == '.' or last == '!' or last == '?' or last == ';' or last == ':' or last == ',' -%}
+              {%- assign title_display = ttxt -%}
+            {%- else -%}
+              {%- assign title_display = ttxt | append: ',' -%}
+            {%- endif -%}
+
+            <li>
+              {{ it.version_type | default: 'Related' }}:
+              <a href="{{ '/items/' | append: it.objectid | append: '.html' | relative_url }}">"{{ title_display }}"</a>
+              {% if it.creator %} {{ it.creator }}{% endif %}
+            </li>
+
+            {%- assign seen = seen | append: it.objectid | append: "|" -%}
+          {% endunless %}
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+{% endif %}
