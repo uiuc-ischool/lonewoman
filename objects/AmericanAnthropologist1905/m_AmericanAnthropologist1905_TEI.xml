@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#aman"> American
+                     Anthropologist</orgName></title>
+               <publisher><orgName key="#anthroassoc">American Anthropological
+                  Association</orgName></publisher>
+               <editor/>
+               <biblScope unit="volume">7</biblScope>
+               <biblScope unit="issue">4</biblScope>
+               <date when="1905-08-29"/>
+               <pubPlace><placeName type="city" key="#ci_lanpenn">Lancaster</placeName>, <placeName
+                     type="state" key="#st_penn">Pennsylvania</placeName></pubPlace>
+               <pubPlace><placeName type="city" key="#ci_portland">Portland</placeName>, <placeName
+                     type="state" key="#st_or">Oregon</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#AmericanAnthropologist1905">Proceedings of the
+                     California Meeting of the American Anthropological Association, August
+                     29-September 2, 1905</title>
+                  <biblScope unit="page" from="732" to="744"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div>
+            <head><title type="main">PROCEEDINGS OF THE <placeName type="state" key="#st_cal"
+                     >CALIFORNIA</placeName> MEETING OF THE <orgName key="#anthroassoc">AMERICAN
+                     ANTHROPOLOGICAL ASSOCIATION</orgName>, <date notBefore="1905-08-29"
+                     notAfter="1905-09-02">AUGUST 29-SEPTEMBER 2, 1905</date></title></head>
+            <div type="section">
+               <head><title type="section">MINUTES OF THE MEETINGS OF THE COUNCIL, <date
+                        notBefore="1905-08-29" notAfter="1905-08-31"/></title></head>
+               <div n="1">
+                  <head><title type="subsection"><hi rend="bold">Meetings of <date when="1905-08-29"
+                              >August 29</date></hi></title></head>
+                  <p>A meeting of the Council was held in the <orgName key="#dptanthro">Department
+                        of Anthropology</orgName> at the <orgName key="#ucaffiliatedcolleges"
+                        >Affiliated Colleges of the University of California</orgName>, <placeName
+                        type="city" key="#ci_sf">San Francisco</placeName>, Tuesday, <date
+                        when="1905-08-29">August 29</date>, at 9:30 A. M. <persName key="#fput"
+                        >President Putnam</persName> in the chair; other members present: <persName
+                        type="author" key="#akroe">Dr A. L. Kroeber</persName> and <persName
+                        key="#rdix">Dr R. B. Dixon</persName>, with <persName key="#cpea">Dr Charles
+                        Peabody</persName>, who was elected Secretary <emph>pro tempore</emph> in
+                     the place of <persName key="#gmac">Dr George Grant MacCurdy</persName>, absent.
+                     The minutes of the meeting of the Council held <date when="1905-04-15">April
+                        15, 1905</date>, in <placeName type="city" key="#ci_nyc">New
+                        York</placeName>, were read and approved.</p>
+                  <p><rs><persName key="#fput">The President</persName></rs> stated to the Council
+                     that a vote had been taken by a circular sent to all of its members, and by
+                     this it had been decided to substitute <placeName type="city" key="#ci_sf">San
+                        Francisco</placeName> for <placeName type="city" key="#ci_portland"
+                        >Portland, Oregon</placeName>, as the place of meeting for the summer of
+                        <date when="1905">1905</date>.</p>
+                  <p>New members were elected as follows: <persName key="#sbar">Mr S. A.
+                        Barrett</persName>, <persName key="#tbish">Mrs T. B. Bishop</persName>,
+                        <persName key="#hbrown">Mr Herbert Brown</persName>, <persName key="#dbush"
+                        >Mr D. I. Bushnell, Jr</persName>, <persName key="#mcamp">Dr Mary G.
+                        Campbell</persName>, <persName key="#accon">Dr A. C. Connor</persName>,
+                        <persName key="#nbem">Dr N. B. Emerson</persName>, <persName key="#jfry"
+                        >Prof. J. Fryer</persName>, <persName key="#hhha">Mr H. H.
+                        Harrison</persName>, <persName key="#mrhar">Mrs R. C. Harrison</persName>,
+                        <persName key="#mrher">Mrs R. F. Herrick</persName>, <persName key="#ehues"
+                        >Mr E. W. Heusinger</persName>, <persName key="#chillt">Mr Charles
+                        Hill-Tout</persName>, <persName key="#whurst">Dr W. Hurst</persName>,
+                        <persName key="#glknapp">Dr G. L. Knapp</persName>, <persName key="#mllam"
+                        >Mrs M. L. LaMoreaux</persName>, <persName key="#cpmack">Mr C. P.
+                        Mackie</persName>, <persName key="#cmi">Dr C. Hart Merriam</persName>,
+                        <persName key="#agmor">Rev. A. G. Morice, O.M.I.</persName>, <persName
+                        key="#epu">Miss E. D. Putnam</persName>, <persName key="#hruck">Miss H.
+                        Rucker</persName>, <persName key="#cerum">Mr C. E. Rumsey</persName>,
+                        <persName key="#hru">Mr H. N. Rust</persName>, <persName type="author"
+                        key="#aet">Dr A. E. Taylor</persName>, <persName key="#jhwoods">Dr J. H.
+                        Woods</persName>, <persName key="#jhwright">Prof. J. H. Wright</persName>.
+                     Twenty-six in all.</p>
+                  <p>Moved: That the amendments to the constitution as recommended by the Council at
+                     its last meetings in <placeName type="city" key="#ci_phil"
+                        >Philadelphia</placeName> in <date when="1904-12">December, 1904</date>, and
+                     in <placeName type="city" key="#ci_nyc">New York</placeName> in <date
+                        when="1905-04">April, 1905</date>, be presented at the meeting to come of
+                           <rs><orgName key="#anthroassoc">the Association</orgName></rs>.
+                     Carried.</p>
+                  <p>Moved: That the annual meeting be held at <placeName type="city"
+                        key="#ci_ithaca">Ithaca, New York</placeName>, in <date when="1905-12"
+                        >December, 1905</date>. Carried.</p>
+                  <p>Adjourned.</p>
+                  <p>A meeting of the Council was called by <rs><persName key="#fput">the
+                           President</persName></rs> at 3:30 P.M., Tuesday, <date when="1905-08-29"
+                        >August 29, 1905</date>, at the <orgName key="#ucaffiliatedcolleges"
+                        >Affiliated Colleges</orgName>.</p>
+                  <p>New members were elected as follows: <persName key="#hhb">Mrs H. H.
+                        Bancroft</persName>, <persName key="#jfessclark">Mrs J. Fessenden
+                        Clark</persName>, <persName key="#mfgreen">Mrs F. H. Green</persName>,
+                        <persName key="#chitt">Miss Catherine W. Hittell</persName>, <persName
+                        key="#eshow">Mrs E. S. Howard</persName>, <persName key="#elmcl">Mr E. L.
+                        McLeod</persName>, <persName key="#emills">Miss Elizabeth
+                     Mills</persName>.</p>
+                  <p>Adjourned.</p>
+               </div>
+               <div n="2">
+                  <head><title type="subsection"><hi rend="bold">Meeting of <date when="1905-08-30"
+                              >August 30</date></hi></title></head>
+
+                  <p>A meeting of the Council was called by <rs><persName key="#fput">the
+                           President</persName></rs> at the <placeName key="#sfrancishotel">Hotel St
+                        Francis</placeName>, <placeName type="city" key="#ci_sf"> San
+                        Francisco</placeName>, Wednesday, <date when="1905-08-30">August 30,
+                        1905</date>, at 2 P. M.</p>
+                  <p>New members were elected as follows: <persName key="#jhbeatty">Mrs J. H.
+                        Beatty</persName> , <persName key="#ebpower">Mrs E. B. Power</persName>,
+                        <persName key="#hlryan">Mrs H. L. Ryan</persName>, <persName key="#dlspen"
+                        >Mrs Dorcas L. Spencer</persName> .</p>
+                  <p>Adjourned.</p>
+               </div>
+               <div n="3">
+                  <head><title type="subsection"><hi rend="bold">Meeting of <date when="1905-08-31"
+                              >August 31</date></hi></title></head>
+                  <p>A meeting of the Council was held at the <orgName type="institution"
+                        key="#in_ucb">University of California, Berkeley</orgName>, on Thursday,
+                        <date when="1905-08-31">August 31, 1905</date>, at 3 P. M.</p>
+                  <p>New members were elected as follows: <persName key="#afield">Miss Ada M.
+                        Field</persName>, <persName key="#fmonsen">Mr Frederick Monsen</persName>,
+                        <persName key="#jpeck">Mrs James S. Peck</persName>.</p>
+                  <p>Adjourned.</p>
+               </div>
+               <div>
+                  <head><title type="section">MINUTES OF THE MEETING OF <rs><orgName
+                              key="#anthroassoc">THE ASSOCIATION</orgName></rs>, <date
+                           notBefore="1905-08-29" notAfter="1905-08-31">AUGUST
+                     29-31</date></title></head>
+                  <div n="4">
+                     <head><title type="subsection"><hi rend="bold">Sessions of <date
+                                 when="1905-08-29">August 29</date></hi></title></head>
+                     <p>A session of <rs><orgName key="#anthroassoc">the Association</orgName></rs>
+                        was held in the <orgName key="#dptanthro">Department of
+                           Anthropology</orgName> at the <orgName key="#ucaffiliatedcolleges"
+                           >Affiliated Colleges of the University of California</orgName>,
+                           <placeName type="city" key="#ci_sf">San Francisco</placeName>, Tuesday,
+                           <date when="1905-08-29">August 29, 1905</date>, at 10:30 A. M. <persName
+                           key="#fput">President Putnam</persName> in the chair.</p>
+                     <p><persName key="#cpea">Dr Charles Peabody</persName> was elected Secretary
+                           <emph>pro tempore</emph> in the absence of <persName key="#gmac">Dr
+                           George Grant MacCurdy</persName>.</p>
+                     <p><rs><persName key="#fput">The President</persName></rs> gave an address of
+                        welcome, and explained the scope of anthropology in general and the work and
+                        needs of the science in particular on <placeName type="region"
+                           key="#re_paccoast">the Pacific coast</placeName>. <persName key="#fput"
+                           >The President</persName> said in part:</p>
+                     <p><emph>Members of the <orgName key="#anthroassoc">American Anthropological
+                              Association</orgName>,</emph></p>
+                     <p><emph>Ladies and Gentlemen</emph>: This is the first time the <orgName
+                           key="#anthroassoc">American Anthropological Association</orgName> has met
+                        on the <placeName type="region" key="#re_paccoast">Pacific
+                        coast</placeName>, and in my official capacity in connection with the
+                           <orgName type="institution" key="#in_ucb">University of
+                           California</orgName> I welcome you here most heartily. <rs><orgName
+                              key="#anthroassoc">This Association</orgName></rs> is American in the
+                        broadest sense. We have members in <placeName type="region"
+                           key="#re_southamerica">South America</placeName>, in <placeName
+                           type="country" key="#co_mexico2">Mexico</placeName>, and in the Dominion
+                        of <placeName type="country" key="#co_can">Canada</placeName>, so that we
+                        cover the whole continent of <placeName type="region" key="#re_americas"
+                           >America</placeName>. We also have foreign members. At least two of our
+                        members from <placeName type="country" key="#co_can">Canada</placeName> are
+                        present at this meeting, but, unfortunately, our members in southern lands
+                        and in <placeName type="region" key="#re_europe">Europe</placeName> are
+                        represented only by letters of regret. Next year there will be a large
+                        gathering of anthropologists from many parts of the world at the
+                        International Congress of Americanists to be held in <placeName
+                           type="region" key="#re_que">Quebec</placeName>, and that is the chief
+                        reason why many of our members are absent today.</p>
+                     <p>The objects of <rs><orgName key="#anthroassoc">our
+                           Association</orgName></rs> should be considered at each meeting, and in
+                        order to impress them upon you I will read the second article of our
+                        constitution, as follows: "The objects of <rs><orgName key="#anthroassoc"
+                              >the Association</orgName></rs> are to promote the science of
+                        Anthropology; to stimulate the efforts of American anthropologists; to
+                        coordinate Anthropology with other sciences; to foster local and other
+                        societies devoted to Anthropology; to serve as a bond of union among
+                        American anthropologists and American anthropological organizations present
+                        and prospective; and to publish and encourage the publication of matters
+                        pertaining to Anthropology."</p>
+                     <p>As we all know, anthropology begins with the effort to ascertain when man
+                        first appeared upon the earth&#8212;the geological history of man. It then
+                        considers the distribution of man over the earth; the thoughts of man as
+                        expressed through the medium of his hands; the institutions which man has
+                        established, the social organizations, the various means by which man has
+                        gradually secured the best interests of the different peoples. Our science
+                        is the study of man, and all that man has done physically and mentally. It
+                        is thus a broad study, and it has its bearings upon many sciences. Geology,
+                        astronomy, zoölogy, and botany all come into play in our researches, so that
+                        an anthropologist must have at least a general knowledge of these sciences
+                        or he cannot be an all-round anthropologist. Linguistics is a special branch
+                        of our science which requires special training and special adaptability, but
+                        it also requires a general knowledge of ethnology. A student of native
+                        languages must have some knowledge of the native peoples in order to get
+                        into close contact with them and thus obtain the most accurate results from
+                        his investigations.</p>
+                     <p><rs><orgName key="#anthroassoc">Our Association</orgName></rs> welcomes to
+                        its membership all who are interested in this great study. We wish to have
+                        every educated man and woman a member of <rs><orgName key="#anthroassoc">the
+                              Association</orgName></rs>. They should be with us. They should be
+                        engaged in aiding this work, because the study of the beginning of things
+                        leads us to a better understanding of our present condition. Many a blunder
+                        would have been avoided if we had taken up primitive ideas and studied their
+                        development instead of beginning along other lines in our endeavor toward
+                        human advancement. There is where we have made a mistake. There is where
+                        governments are making many mistakes in dealing with primitive peoples. We
+                        tread upon aboriginal customs and we outrage their aboriginal beliefs and
+                        superstitions, and then we wonder why the people arise and refuse to accept
+                        the laws and the supposed humane treatment that is offered to them.
+                        Governments do not take the advice of those who could teach the proper
+                        methods of dealing with alien races. It is the trained anthropologist who
+                        should guide and direct such work.</p>
+                     <p>As one of the means to this end we must encourage the publication of the
+                        results of anthropological research. During the few years of its existence
+                              <rs><orgName key="#anthroassoc">this Association</orgName></rs> has
+                        done much in that line. Our journal, the <emph><orgName type="publication"
+                              key="#aman">American Anthropologist</orgName></emph> (New Series), is
+                        published quarterly, and is now in its seventh volume. There are eleven
+                        volumes of the first series published by the <orgName type="organization"
+                           key="#anthrosociety">Anthropological Society</orgName> of <placeName
+                           type="state" key="#st_wa">Washington</placeName>. Each member is entitled
+                        to the publications of <rs><orgName key="#anthroassoc">the
+                              Association</orgName></rs>, beginning with the year of membership. We
+                        hope many new members will be added to <rs><orgName key="#anthroassoc">the
+                              Association</orgName></rs> and help it to carry on the good work.</p>
+                     <p>I should like to call your attention to what is being done in anthropology
+                        the world over, and particularly in the <placeName type="country"
+                           key="#co_usa">United States</placeName>, where there are several centers
+                        of active research and great museums devoted entirely or in part to
+                        anthropology; but as the time will not permit of such an extended review I
+                        can refer only to the important work that is being done at <placeName
+                           type="state" key="#st_wa">Washington</placeName>, <placeName type="city"
+                           key="#ci_nyc">New York</placeName>, <placeName type="city" key="#ci_chic"
+                           >Chicago</placeName>, <placeName type="city" key="#ci_phil"
+                           >Philadelphia</placeName>, <placeName type="city" key="#ci_pittsburg"
+                           >Pittsburg</placeName>, <placeName type="city" key="#ci_ca"
+                           >Cambridge</placeName>, <placeName type="city" key="#ci_nhaven">New
+                           Haven</placeName>, <placeName type="city" key="#ci_salemore"
+                           >Salem</placeName>, <placeName type="city" key="#ci_andover"
+                           >Andover</placeName>, and many other places.</p>
+                     <p>Here in <placeName type="sate" key="#st_cal">California</placeName> there
+                        have come into existence two centers of research &#8212;one in the south at
+                           <placeName type="city" key="#ci_la">Los Angeles</placeName>, the other
+                        here in <placeName type="city" key="#ci_sf">San Francisco</placeName> and
+                           <placeName type="city" key="#ci_berk">Berkeley</placeName>. Here a
+                           <orgName key="#dptanthro">Department of Anthropology</orgName> has been
+                        created through the interest and generosity of one of the regents of
+                              <rs><orgName type="institution" key="#in_ucb">the
+                           University</orgName></rs>, <persName key="#pahearst">Mrs Phœbe A.
+                           Hearst</persName>. The collections temporarily arranged in this building
+                        and in the building at <rs><orgName type="institution" key="#in_ucb"
+                              >Berkeley</orgName></rs>, together with the publications of <orgName
+                           key="#dptanthro">the department</orgName>, will give you some idea of
+                        what already has been accomplished through the interest of <persName
+                           key="#pahearst">Mrs Hearst</persName> in the <orgName key="#dptanthro"
+                           >Department of Anthropology</orgName> of the <orgName type="institution"
+                           key="#in_ucb">University of California</orgName>. Lack of time forbids a
+                        detailed account of the origin and growth of the department; I will simply
+                        call your attention to the pamphlet prepared especially for this meeting,
+                        copies of which await your acceptance. This gift from <persName
+                           key="#pahearst">Mrs Hearst</persName> to <rs><orgName type="institution"
+                              key="#in_ucb">the University</orgName></rs> can but be an incentive to
+                        others, patrons and students, to aid in making a great anthropological
+                        center here on the <placeName type="region" key="#re_paccoast">Pacific
+                           coast</placeName>.</p>
+                     <p>I now have the pleasure of inviting you all to remain, after the morning
+                        session, as the guests of <persName key="#pahearst">Mrs Hearst</persName>,
+                        who will be pleased to meet you in the adjoining hall where luncheon will be
+                        served. After the luncheon we will make an examination of the collections in
+                        the several halls of this building. Then we will reassemble for the reading
+                        of papers.</p>
+                     <p><persName key="#akroe">Dr A. L. Kroeber</persName>, Secretary of the
+                        Committee on Program and Arrangements, and <persName key="#fput">President
+                           Putnam</persName> gave an outline of the events, scientific and social,
+                        proposed for the week.</p>
+                     <p>The list of new members elected by the Council was read; there were
+                        twenty-six elections.</p>
+                     <p>The amendments to the constitution as recommended by the Council at its
+                        meetings in <placeName type="city" key="#ci_phil">Philadelphia</placeName>,
+                        in <date when="1904-12">December 1904</date>, and in <placeName type="city"
+                           key="#ci_nyc">New York</placeName> in <date when="1905-04">April
+                           1905</date>, were read to <rs><orgName key="#anthroassoc">the
+                              Association</orgName></rs> and adopted.</p>
+                     <p>The announcement of the meeting of the International Congress of
+                        Americanists at <placeName type="region" key="#re_que">Quebec</placeName> in
+                           <date when="1906-09">September 1906</date> was made.</p>
+                     <p>Letters of regret from <persName key="#wal">W. D. Alexander</persName>,
+                           <placeName type="city" key="#ci_hon">Honolulu</placeName>; <persName
+                           key="#sgette">Julius Gette, S. J.</persName>, <placeName type="city"
+                           key="#ci_nulato">Nulato, Alaska</placeName>; <persName key="#weroth">W.
+                           E. Roth</persName>, <placeName type="city" key="#ci_brisbane">Brisbane,
+                           Queensland</placeName>; <persName key="#clummis">Charles F.
+                           Lummis</persName>, <placeName type="city" key="#ci_la">Los
+                           Angeles</placeName>; <persName key="#tmhock">T. M. Hocken</persName>,
+                           <placeName type="country" key="#co_nz">New Zealand</placeName>; <persName
+                           key="#gmac">George Grant MacCurdy</persName>, <placeName type="city"
+                           key="#ci_nhaven">New Haven</placeName>; <persName key="#kstein">Karl von
+                           den Steinen</persName>, <placeName type="city" key="#ci_ber"
+                           >Steglitz-Berlin</placeName>; <persName key="#nleon">N. León</persName>,
+                           <placeName type="country" key="#co_mexico2">Mexico</placeName>; <persName
+                           key="#llejeal">L. Lejeal</persName>, and <orgName key="#anthrobombay">The
+                           Anthropological Society of Bombay</orgName> were laid before the members.
+                        Letters of regret were also received from <persName key="#hbrown">H.
+                           Brown</persName>, <placeName type="city" key="#ci_yuma">Yuma</placeName>;
+                           <persName key="#daboyle">David Boyle</persName>, <placeName type="city"
+                           key="#ci_tor">Toronto</placeName>; <persName key="#wbrig">W. T.
+                           Brigham</persName>, <placeName type="city" key="#ci_hon"
+                           >Honolulu</placeName>; <persName key="#fvcov">F. V. Coville</persName>,
+                           <placeName type="state" key="#st_wa">Washington</placeName>; <persName
+                           key="#gdorsey">G. A. Dorsey</persName>, <placeName type="city"
+                           key="#ci_chic">Chicago</placeName>; <persName key="#nbem">N. B.
+                           Emerson</persName>, <placeName type="city" key="#ci_hon"
+                           >Honolulu</placeName>; <persName key="#alfletcher">Miss Alice C.
+                           Fletcher</persName>, <placeName type="state" key="#st_wa"
+                           >Washington</placeName>; <persName key="#jwfew">J. Walter
+                           Fewkes</persName>, <placeName type="state" key="#st_wa"
+                           >Washington</placeName>; <persName key="#gbgrin">George Bird
+                           Grinnell</persName>, <placeName type="city" key="#ci_nyc">New
+                           York</placeName>; <persName key="#jwhast">J. W. Hastings</persName>,
+                           <placeName type="city" key="#ci_ca">Cambridge</placeName>; <persName
+                           key="#fhodge">F. W. Hodge</persName>, <placeName type="state"
+                           key="#st_wa">Washington</placeName>; <persName key="#ehew">E. L.
+                           Hewett</persName>, <placeName type="state" key="#st_wa"
+                           >Washington</placeName>; <persName key="#ahrd">A. Hrdlicka</persName>,
+                           <placeName type="state" key="#st_wa">Washington</placeName>; <persName
+                           key="#henshaw">H. W. Henshaw</persName>, <placeName type="state"
+                           key="#st_wa">Washington</placeName>; <persName key="#bhyde">B. Talbot B.
+                           Hyde</persName>, <placeName type="city" key="#ci_nyc">New
+                           York</placeName>; <persName key="#jwhudson">J. W. Hudson</persName>,
+                           <placeName type="city" key="#ci_chic">Chicago</placeName>; <persName
+                           key="#cpurdy">Carl Purdy</persName>, <placeName type="city"
+                           key="#ci_ukiah">Ukiah, California</placeName>; <persName key="#abjones"
+                           >A. B. Jones</persName>, <placeName type="city" key="#ci_rich"
+                           >Richmond</placeName>; <persName key="#wskahn">W. S.
+                           Kahnweiler</persName>, <placeName type="city" key="#ci_nyc">New
+                           York</placeName>; <persName key="#jmooney">James Mooney</persName>,
+                           <placeName type="state" key="#st_wa">Washington</placeName>; <persName
+                           key="#gpep">G. H. Pepper</persName>, <placeName type="city" key="#ci_nyc"
+                           >New York</placeName>; <persName key="#lvpan">L. van Panhuys</persName>,
+                           <placeName key="#hague">The Hague</placeName>; <persName key="#cerum">C.
+                           E. Rumsey</persName>, <placeName type="city" key="#ci_rside">Riverside,
+                           California</placeName>; <persName key="#psspark">P. S.
+                           Sparkman</persName>, <placeName type="city" key="#ci_vcenter">Valley
+                           Center, California</placeName>; <persName key="#hsymmes">H. S.
+                           Symmes</persName>, <placeName type="city" key="#ci_iwild">Idyllwild,
+                           California</placeName>; <persName key="#aseale">Alvin Seale</persName>,
+                           <orgName type="institution" key="#in_stanford">Stanford
+                           University</orgName>, <placeName type="state" key="#st_cal"
+                           >California</placeName>; <persName key="#cwiss">C. Wissler</persName>,
+                           <placeName type="city" key="#ci_nyc">New York</placeName>; <persName
+                           key="#hismith">H. I. Smith</persName>, <placeName type="city"
+                           key="#ci_nyc">New York</placeName>; <persName key="#amtozz">A. M.
+                           Tozzer</persName>, <placeName type="city" key="#ci_ca"
+                           >Cambridge</placeName>; <persName key="#avroman">A. C. Vroman</persName>,
+                           <placeName type="city" key="#ci_pa">Pasadena</placeName>; <persName
+                           key="#epvin">E. P. Vining</persName>, <placeName type="city" key="#ci_sf"
+                           >San Francisco</placeName>; <persName key="#hrvoth">H. R.
+                        Voth</persName>, <placeName type="city" key="#ci_newton">Newton,
+                           Kansas</placeName>; <persName key="#jewier">Miss J. E. Wier</persName>,
+                           <placeName type="city" key="#ci_reno">Reno, Nevada</placeName>; <persName
+                           type="author" key="#who">W. H. Holmes</persName> , <placeName
+                           type="state" key="#st_wa">Washington</placeName>; <persName key="#res">R.
+                           Etheridge</persName>, <placeName type="city" key="#ci_syd">Sydney, N. S.
+                           W.</placeName></p>
+                     <p><rs><orgName key="#anthroassoc">The Association</orgName></rs> proceeded to
+                        the presentation and discussion of papers.</p>
+                     <p><persName key="#fput">President Putnam</persName>, representing <persName
+                           key="#pahearst">Mrs Hearst</persName>, extended an invitation to luncheon
+                        at the <orgName key="#ucaffiliatedcolleges">Affiliated Colleges</orgName>
+                        following adjournment.</p>
+                     <p>Adjourned at 1:15 P. M.</p>
+                     <p>A session was held at the <orgName key="#ucaffiliatedcolleges">Affiliated
+                           Colleges</orgName> on Tuesday, <date when="1905-08-29">August 29</date>,
+                        at 3:40 P. M. <persName key="#fput">President Putnam</persName> in the
+                        chair.</p>
+                     <p>The list of additional new members elected by the Council was read; there
+                        were seven elections.</p>
+                     <p>The meeting proceeded to the presentation and discussion of papers.
+                        Adjourned 5:45 P. M.</p>
+                     <div n="5">
+                        <head><title type="subsection"><hi rend="bold">Sessions of <date
+                                    when="1905-08-30">August 30</date></hi></title></head>
+                        <p>Sessions of <rs><orgName key="#anthroassoc">the
+                              Association</orgName></rs> were held on Wednesday, <date
+                              when="1905-08-30">August 30, 1905</date>, at the <orgName
+                              type="musuem" key="#mu_calacademyofscience">California Academy of
+                              Sciences</orgName>, <placeName type="city" key="#ci_sf">San
+                              Francisco</placeName>, at 10:15 A. M. and 2:15 P. M. <persName
+                              key="#fput">President Putnam</persName> in the chair.</p>
+                        <p>Opening the session of the morning, <persName key="#lmloomis">Mr
+                              Loomis</persName>, Director of the <orgName type="museum"
+                              key="#mu_calacademyofscience">California Academy of
+                           Sciences</orgName>, welcomed <rs><orgName key="#anthroassoc">the
+                                 Association</orgName></rs> to the hospitality of <rs><orgName
+                                 type="museum" key="#mu_calacademyofscience">the
+                              Academy</orgName></rs>; later an invitation to luncheon at the
+                              <placeName key="#sfrancishotel">Hotel St Francis</placeName> was
+                           extended by <persName key="#alpbull">Mr Alpheus Bull</persName>, First
+                           Vice-President of <orgName type="museum" key="#mu_calacademyofscience"
+                              >the Academy</orgName>. During the opening remarks of <persName
+                              key="#fput">President Putnam</persName> reference was made to the
+                           final adjudication of the difficulties in the way of making peace between
+                              <placeName type="country" key="#co_jap">Japan</placeName> and
+                              <placeName type="country" key="#co_russia">Russia</placeName>.</p>
+                        <p>Papers were read and discussed at both sessions.</p>
+                        <p>On motion of <persName key="#cpea">Dr C. Peabody</persName>, seconded by
+                              <persName key="#chillt">Mr C. Hill-Tout</persName>, at the morning
+                           session, <rs><orgName key="#anthroassoc">the Association</orgName></rs>
+                           voted that a committee be appointed by <persName key="#fput">the
+                              President</persName> to report at the next regular meeting, for the
+                           investigation of the question whether an improvement or a readjustment of
+                           the names used in American archeology be feasible. At the afternoon
+                           session <rs><persName key="#fput">the President</persName></rs> announced
+                           the appointment of that committee, as follows: <persName key="#cpea">Dr
+                              C. Peabody</persName>, chairman; <persName key="#jhwright">Prof. John
+                              H. Wright</persName>, <persName key="#wkmoore">Mr W. K.
+                              Moorehead</persName>, <persName key="#fhodge">Mr F. W.
+                              Hodge</persName>, <persName key="#jdmcguire">Mr J. D.
+                              McGuire</persName>.</p>
+                        <p>The names of four additional new members elected by the Council were
+                           read.</p>
+                        <p>Adjournment of the morning session was at 12 M. [P. M.] and of the
+                           afternoon session at 5:15 P. M.</p>
+                     </div>
+                     <div n="6">
+                        <head><title type="subsection"><hi rend="bold">Sessions of <date
+                                    when="1905-08-31">August 31</date></hi></title></head>
+                        <p>In conjunction with the <orgName key="#caamfolklore">California Branch of
+                              the American Folklore Society</orgName>, sessions of <rs><orgName
+                                 key="#anthroassoc">the Association</orgName></rs> were held at the
+                              <orgName type="institution" key="#in_ucb">University of
+                              California</orgName>, <placeName type="city" key="#ci_berk">Berkeley,
+                              California</placeName>, on Thursday morning at outh Hall and in the
+                           afternoon at the building of the <orgName key="#dptanthro">Department of
+                              Anthropology</orgName>, <date when="1905-08-31">August 31,
+                           1905</date>.</p>
+                        <p>Papers were read and discussed at both sessions.</p>
+                        <p>After an abstract of Dr Kroeber's paper on "Systematic Nomenclature in
+                           American Ethnology" had been presented, a recommendation of <persName
+                              key="#fhodge">Mr F. W. Hodge</persName>, of <placeName type="state"
+                              key="#st_wa">Washington</placeName>, was quoted favoring the
+                           appointment of a committee to consider the subject. <persName key="#rdix"
+                              >Dr Dixon</persName> moved that a committee of seven or eight members
+                           be appointed by <rs><persName key="#fput">the President</persName></rs>
+                           to report at the next regular meeting of <rs><orgName key="#anthroassoc"
+                                 >the Association</orgName></rs> on the most desirable nomenclature
+                           for Indian linguistic families north of <placeName type="country"
+                              key="#co_mexico2">Mexico</placeName>. Seconded by <persName
+                              key="#cpea">Dr Peabody</persName>, the motion was carried.</p>
+                        <p>Before adjournment of the morning session, <persName key="#fput"
+                              >President Putnam</persName>, representing <persName key="#pahearst"
+                              >Mrs Hearst</persName>, extended an invitation to the members to
+                           luncheon at the building of the <orgName key="#dptanthro">Department of
+                              Anthropology</orgName> of the <orgName type="institution"
+                              key="#in_ucb">University of California</orgName>.</p>
+                        <p>At the afternoon session the list of three additional new members elected
+                           by the Council was read.</p>
+                        <p>Resolutions as follows were unanimously passed by <rs><orgName
+                                 key="#anthroassoc">the Association</orgName></rs>: Resolutions
+                           expressing appreciation of the courtesy and hospitality of <persName
+                              key="#pahearst">Mrs Phœbe A. Hearst</persName>, of the <orgName
+                              type="museum" key="#mu_calacademyofscience">Acadamy of
+                              Sciences</orgName> and of <persName key="#alpbull">Vice-President
+                              Bull</persName> and <persName key="#lmloomis">Director
+                              Loomis</persName>, of the <orgName type="institution" key="#in_ucb"
+                              >University of California</orgName> and <persName key="#biwheeler"
+                              >President Wheeler</persName>, of <persName key="#lburbank">Mr Luther
+                              Burbank</persName>, and of the <orgName type="institution"
+                              key="#stanford">Leland Stanford Junior University</orgName>; also
+                           expressing appreciation of the successful energy and direction of
+                              <persName key="#fput">President Putnam</persName>, of <rs><orgName
+                                 key="#anthroassoc">the Association</orgName></rs>, and of <persName
+                              type="author" key="#akroe">Dr Kroeber</persName>, the Secretary of the
+                           Committee on Program and Arrangements; also by the visiting members
+                           expressing their appreciation of the hospitality of the resident members.
+                           Remarks were made by <persName key="#chillt">Mr Hill-Tout</persName> and
+                              <persName key="#ckeeler">Mr Keeler</persName>.</p>
+                        <p><persName key="#fput">The President</persName> announced the Committee on
+                           Nomenclature of Indian Linguistic Families, as follows: <persName
+                              key="#fhodge">F. W. Hodge</persName>, chairman; <persName key="#fboas"
+                              >Franz Boas</persName>, <persName key="#rdix">R. B. Dixon</persName>,
+                              <persName key="#gdorsey">G. A. Dorsey</persName>, <persName
+                              type="author" key="#who">W. H. Holmes</persName>, <persName
+                              type="author" key="#akroe">A. L. Kroeber</persName>, <persName
+                              key="#jmooney">James Mooney</persName>.</p>
+                        <p>At the end of the session papers by <persName key="#cpmack">C. P.
+                              Mackie</persName>, <persName key="#gmac">George Grant
+                              MacCurdy</persName>, <persName key="#cmi">C. Hart Merriam</persName>,
+                              <persName key="#ajenks">Albert Ernest Jenks</persName>, <persName
+                              key="#akroe">A. L. Kroeber</persName>, <persName key="#jewier">Miss
+                              Jeanne Elizabeth Wier</persName>, <persName key="#nbem">N. B.
+                              Emerson</persName>, <persName key="#znuttall">Mrs Zelia
+                              Nuttall</persName>, <persName key="#aseale">Alvin Seale</persName>,
+                              <persName key="#alfletcher">Miss Alice C. Fletcher</persName>,
+                              <persName key="#alfletcher">Miss Alice C. Fletcher</persName>,
+                              <persName key="#jswanton">J. R. Swanton</persName>, and <persName
+                              type="author" key="#who">W. H. Holmes</persName>, were read by
+                           title.</p>
+                        <p><persName key="#fput">President Putnam</persName> announced that the next
+                           meeting of <orgName key="#anthroassoc">the Association</orgName> would be
+                           held in <placeName type="city" key="#ci_ithaca">Ithaca, New
+                              York</placeName>, in <date when="1905-12">December 1905</date>.</p>
+                        <p>Adjourned at 4:30 P. M.</p>
+                        <byline><persName key="#cpea">C. PEABODY</persName>, <emph>Secretary pro
+                              tempore</emph>.</byline>
+                     </div>
+                     <div>
+                        <head><title type="section">EXCURSIONS AND ENTERTAINMENTS </title></head>
+                        <p>On Tuesday, <date when="1905-08-29">August 29</date>, luncheon was
+                           tendered <orgName key="#anthroassoc">the Association</orgName> by
+                              <persName key="#pahearst">Mrs Phœbe A. Hearst</persName> in the
+                              <orgName key="#dptanthro">Department of Anthropology</orgName> at the
+                              <orgName key="#ucaffiliatedcolleges">Affiliated Colleges of the
+                              University of California</orgName> in <placeName type="city"
+                              key="#ci_sf">San Francisco</placeName>. In the afternoon an exhibition
+                           of the collections of <orgName key="#dptanthro">the Department</orgName>
+                           was held, the officers of <orgName key="#dptanthro">the
+                              Department</orgName> conducting the members of <orgName
+                              key="#anthroassoc">the Association</orgName> through the building and
+                           explaining the collections.</p>
+                        <p>On Wednesday, <date when="1905-08-30">August 30</date>, a luncheon was
+                           tendered <orgName key="#anthroassoc">the Association</orgName> by the
+                              <orgName type="musuem" key="#mu_calacademyofscience">California
+                              Academy of Sciences</orgName> at the <placeName key="#sfrancishotel"
+                              >St Francis Hotel</placeName>, Vice-President <persName key="#alpbull"
+                              >Alpheus Bull</persName> making an address of welcome. In the evening
+                           a dinner was given the visiting members of <orgName key="#anthroassoc"
+                              >the Association</orgName> by the resident members, at the <placeName
+                              key="#sfrancishotel">St Francis Hotel</placeName>.</p>
+                        <p>On Thursday, <date when="1905-08-31">August 31</date>, before the opening
+                           of the morning session, <persName key="#jcmerriam">Prof. J. C.
+                              Merriam</persName> conducted a party to the <placeName key="#emshell"
+                              >Emeryville Shellmound</placeName>, explaining the excavations made in
+                           the mound by himself and <persName key="#muhle">Dr Max Uhle</persName>.
+                           On the same day luncheon was tendered <orgName key="#anthroassoc">the
+                              Association</orgName> by <persName key="#pahearst">Mrs Phœbe A.
+                              Hearst</persName> in the building of the <orgName key="#dptanthro"
+                              >Department of Anthropology</orgName> of the <orgName
+                              type="institution" key="#in_ucb">University of California at
+                              Berkeley</orgName>. After luncheon the collection of plaster casts
+                           illustrative of ancient art was exhibited as arranged in this
+                           building.</p>
+                        <p>On Friday, <date when="1905-09-01">September 1</date>, an excursion was
+                           made to Mr Luther Burbank's home in <placeName type="city" key="#ci_sr"
+                              >Santa Rosa</placeName>. This excursion was arranged through the
+                           courtesy of <persName key="#lburbank">Mr Burbank</persName>, the <orgName
+                              key="#calpromo">California Promotion Committee</orgName>, and the
+                              <orgName key="#calnwrr">California Northwestern Railway</orgName>.
+                           Thirty-four members took part.</p>
+                        <p>On Saturday, <date when="1905-09-02">September 2</date>, an excursion was
+                           made to <orgName type="institution" key="#stanford">Leland Stanford
+                              Junior University</orgName>. The buildings and grounds were shown the
+                           party and luncheon was tendered by officers of <rs><orgName
+                                 type="institution" key="#stanford">the University</orgName></rs>.
+                           Twenty members took part in this excursion.</p>
+                     </div>
+                     <div>
+                        <head>
+                           <title type="section">PAPERS READ <hi rend="super">1</hi><note n="1"
+                                 place="foot"><hi rend="super">1</hi>
+                                 <p>The papers marked with an asterisk (*) are published in this
+                                    number of the <emph><orgName type="publication" key="#aman"
+                                          >American Anthropologist</orgName></emph>.</p><p><orgName
+                                       type="publication" key="#aman">AM. ANTH.</orgName>, N. S.,
+                                    7&#8212;49</p></note></title></head>
+                        <div n="7">
+                           <head><title type="subsection">
+                                 <emph>Sessions of <date when="1905-08-29">August
+                                 29</date></emph></title></head>
+                           <p><persName key="#fput">Dr Frederic Ward Putnam</persName>, Director of
+                              the <orgName type="museum" key="#mu_anthro">Museum of
+                                 Anthropology</orgName> of the <orgName type="institution"
+                                 key="#in_ucb">University of California</orgName>, and Curator of
+                              the <orgName type="museum" key="#mu_peabody">Peabody Museum</orgName>
+                              of <orgName type="institution" key="#in_harvard">Harvard
+                                 University</orgName>: <emph>Exhibition of Bones, Possibly Showing
+                                 the Work of Man, from Quaternary Caves of California</emph>.
+                              Discussed by <persName key="#mrher">Mrs Herrick</persName>, <persName
+                                 key="#chillt">Hill-Tout</persName>, <persName key="#jcmerriam">J.
+                                 C. Merriam</persName> .</p>
+                           <p><persName key="#chillt">Mr Charles Hill-Tout</persName>, Ethnological
+                              Survey of Canada: <emph>Some Features of the Language and Culture of
+                                 the Salish</emph>.* Discussed by <persName key="#rdix"
+                                 >Dixon</persName>, <persName key="#pegoddard">Goddard</persName>,
+                                 <persName key="#cmi">C. Hart Merriam</persName>, <persName
+                                 key="#akroe">Kroeber</persName>, <persName key="#sbar"
+                                 >Barrett</persName>.</p>
+                           <p><persName key="#cmi">Dr C. Hart Merriam</persName>, Chief of the
+                              Biological Survey, <placeName type="city" key="#ci_dc">Washington, D.
+                                 C.</placeName>: <emph>The Indian Population of California</emph>.*
+                              Discussed by <persName key="#mrher">Mrs Herrick</persName>, <persName
+                                 key="#elmcl">McLeod</persName>, <persName key="#sbar"
+                                 >Barrett</persName>.</p>
+                           <p><persName key="#rdix">Dr R. B. Dixon</persName>, <orgName
+                                 type="institution" key="#in_harvard">Harvard University</orgName>:
+                                 <emph>The Mythology of the Shasta-Achomawi</emph>.* Discussed by
+                                 <persName key="#chillt">Hill-Tout</persName>, <persName key="#cmi"
+                                 >C. H. Merriam</persName>.</p>
+                           <p><persName key="#cdubois">Miss Constance Goddard DuBois</persName>,
+                                 <placeName type="city" key="#ci_waterbury">Waterbury,
+                                 Connecticut</placeName>: <emph>Religious Ceremonies and Myths of
+                                 the Mission Indians</emph>.* (Illustrated with phonograph records.)
+                              Discussed by <persName key="#cmi">C. H. Merriam</persName>; <persName
+                                 key="#cpea">Peabody</persName>.</p>
+                        </div>
+                        <div n="8">
+                           <head><title type="subsection"><emph>Sessions of <date when="1905-08-30"
+                                       >August 30</date></emph></title></head>
+                           <p><persName key="#mrher">Mrs R. F. Herrick</persName>, <placeName
+                                 type="city" key="#ci_eureka">Eureka, California</placeName>:
+                                 <emph>The Indians of Humboldt Bay</emph>. Discussed by <persName
+                                 key="#chillt">Hill-Tout</persName>, <persName key="#ckeeler"
+                                 >Keeler</persName>, <persName key="#hru">Rust</persName>.</p>
+                           <p><persName key="#jcmerriam">Dr J. C. Merriam</persName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>The Exploration of Quaternary Caves in
+                                    <placeName type="state" key="#st_cal"
+                                 >California</placeName></emph>. Illustrated with lantern slides.
+                              Discussed by <persName key="#cpea">Peabody</persName>.</p>
+                           <p><persName key="#ahrd">Dr A. Hrdlicka</persName>, Assistant Curator,
+                              Physical Anthropology, <orgName type="museum" key="#mu_nationalmuseum"
+                                 >U. S. National Museum</orgName>: <emph>A Contribution to the
+                                 Physical Anthropology of California</emph>.<hi rend="super"
+                                 >1</hi><note n="2" place="foot"><hi rend="super">1</hi> To be
+                                 published by the University of California.</note></p>
+                           <p><persName key="#sbar">Mr S. A. Barrett</persName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>Presentation of a Map Showing the
+                                 Territory, Division, Villages, and Camp-Sites of the Pomo Indians
+                                 of California</emph>.<hi rend="super">1</hi><note n="2"
+                                 place="foot"><hi rend="super">1</hi> To be published by the
+                                 University of California.</note> Discussed by <persName key="#cmi"
+                                 >C. H. Merriam</persName>, <persName key="#rdix"
+                              >Dixon</persName>.</p>
+                           <p><persName key="#cmi">Dr C. Hart Merriam</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>: <emph>The
+                                 Chievor of the Tongva, a Mortuary Ceremony</emph>. Discussed by
+                                 <persName key="#cdubois">Miss DuBois</persName>, <persName
+                                 key="#rdix">Dixon</persName>, <persName key="#chillt"
+                                 >Hill-Tout</persName>.</p>
+                           <p><persName key="#psspark">Mr P. S. Sparkman</persName>, <placeName
+                                 type="city" key="#ci_vcity">Valley-Center, California</placeName>:
+                                 <emph>The Grammar of the Luiseño Language of Southern
+                                 California</emph>.* Discussed by <persName key="#chillt"
+                                 >Hill-Tout</persName>.</p>
+                           <p><persName key="#pmjones">Dr Philip Mills Jones</persName>, Secretary
+                              and Editor of the <orgName key="#camedsoc">Medical Society of the
+                                 State of California</orgName>: <emph>A New Method of Preserving
+                                 Specimens of Shell and other Perishable Materials</emph>.*
+                              Discussed by <persName key="#fput">Putnam</persName>.</p>
+                           <p><persName key="#cpea">Dr Charles Peabody</persName> and <persName
+                                 key="#wkmoore">Mr Warren K. Moorehead</persName>, <orgName
+                                 type="museum" key="#mu_philips">Archeological Museum of Philips
+                                 Academy</orgName>, <placeName type="city" key="#ci_andover"
+                                 >Andover, Massachusetts</placeName>: <emph>The Naming of Specimens
+                                 in American Archeology</emph>.<hi rend="super">2</hi><note n="3"
+                                 place="foot"><hi rend="super">2</hi> To be published in the next
+                                 issue of the <emph>American Anthropologist</emph>.</note> Discussed
+                              by <persName key="#chillt">Hill-Tout</persName>.</p>
+                           <p><persName key="#jcmerriam">Dr J. C. Merriam</persName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>The Excavations at Emeryville
+                                 Shellmound</emph>. (Illustrated with lantern slides.) Discussed by
+                                 <persName key="#rdix">Dixon</persName>, <persName key="#chillt"
+                                 >Hill-Tout</persName>, <persName key="#fput">Putnam</persName>.</p>
+                           <p><persName key="#hru">Mr H. N. Rust</persName>, <placeName type="city"
+                                 key="#ci_spasadena">South Pasadena</placeName>: <emph>A Puberty
+                                 Ceremony of the Mission Indians</emph>.<hi rend="super">2</hi><note
+                                 n="3" place="foot"><hi rend="super">2</hi> To be published in the
+                                 next issue of the <emph>American Anthropologist</emph>.</note>
+                              Discussed by <persName type="author" key="#akroe">Kroeber</persName>,
+                                 <persName key="#cdubois"> Miss DuBois</persName>, <persName
+                                 key="#chillt">Hill-Tout</persName>, <persName key="#fput"
+                                 >Putnam</persName>.</p>
+                           <p><persName type="author" key="#akroe">Dr A. L. Kroeber</persName>,
+                                 <orgName type="institution" key="#in_ucb">University of
+                                 California</orgName>: <emph><span type="trope" n="6"><span
+                                       type="trope" n="7">Exhibition of a Basket, now in the
+                                       Californian Academy of Sciences, from the Extinct Indians of
+                                       San Nicolas Island, California</span></span></emph>.
+                              Discussed by <persName key="#elmcl">McLeod</persName>, <persName
+                                 key="#hru">Rust</persName>.</p>
+                           <p><persName key="#fmonsen">Mr F. I. Monsen</persName>, <placeName
+                                 type="city" key="#ci_sf">San Francisco</placeName>:
+                                 <emph>Explorations in Northern Arizona and New Mexico</emph>.
+                              Discussed by <persName key="#fput">Putnam</persName>.</p>
+                        </div>
+                        <div n="9">
+                           <head><title type="subsection"><emph>Sessions of <date when="1905-08-31"
+                                       >August 31</date></emph></title></head>
+                           <p><persName type="author" key="#akroe">Dr A. L. Kroeber</persName>,
+                              Secretary of the <orgName key="#dptanthro">Department of
+                                 Anthropology</orgName>, <orgName type="institution" key="#in_ucb"
+                                 >University of California</orgName>: <emph>Systematic Nomenclature
+                                 in Ethnology</emph>.<hi rend="super">2</hi><note n="3" place="foot"
+                                    ><hi rend="super">2</hi> To be published in the next issue of
+                                 the <emph>American Anthropologist</emph>.</note> Discussed by
+                                 <persName key="#jcmerriam">J. C. Merriam</persName>, <persName
+                                 key="#cmi">C. H. Merriam</persName>, <persName key="#chillt"
+                                 >Hill-Tout</persName>, <persName key="#rdix">Dixon</persName>,
+                                 <persName key="#cpea">Peabody</persName>.</p>
+                           <p><persName key="#cmi">Dr C. Hart Merriam</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>Basket Cave Burial in California</emph>. Discussed by
+                                 <persName key="#elmcl">McLeod</persName>, <persName key="#fput"
+                                 >Putnam</persName>.</p>
+                           <p><persName key="#hru">Mr H. N. Rust</persName>, <placeName type="city"
+                                 key="#ci_spasadena">South Pasadena</placeName>: <emph>The Obsidian
+                                 Blades of California</emph>.<hi rend="super">1</hi><note n="2"
+                                 place="foot"><hi rend="super">1</hi> To be published by the
+                                 University of California.</note> Discussed by <persName key="#fput"
+                                 >Putnam</persName>.</p>
+                           <p><persName key="#sbar">Mr S. A. Barrett</persName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>Basket Designs of the Pomo
+                              Indians</emph>.* Discussed by <persName key="#cmi">C. H.
+                                 Merriam</persName>.</p>
+                           <p><persName key="#pegoddard">Dr P. E. Goddard</persName>, <orgName
+                                 key="#dptanthro">Department of Anthropology</orgName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>Mechanical Aids to the Study and Recording
+                                 of Language</emph>.* Discussed by <persName key="#fput"
+                                 >Putnam</persName>.</p>
+                           <p><persName key="#jcmerriam">Dr J. C. Merriam</persName>, <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>Some Suggestions Concerning the Origin of
+                                 the Calaveras Skull</emph>. (Illustrated with lantern slides.)
+                              Discussed by <persName key="#chillt">Hill-Tout</persName>.</p>
+                           <p><persName key="#ckeeler">Mr Charles Keeler</persName>, <placeName
+                                 type="city" key="#ci_berk">Berkeley</placeName>
+                              <emph>Creation Myths and Folk-tales of the Manua Islands,
+                              Samoa</emph>. Discussed by <persName key="#rdix">Dixon</persName>.</p>
+                           <p><persName key="#jtgoodman">Mr J. T. Goodman</persName>, <placeName
+                                 type="city" key="#ci_alam">Alameda</placeName>: <emph>Maya
+                                 Dates</emph>.* Discussed by <persName key="#fput"
+                              >Putnam</persName>.</p>
+                           <p><persName key="#ccwill">Mr. C. C. Willoughby</persName>, Assistant
+                              Curator, <orgName type="museum" key="#mu_peabody">Peabody
+                                 Museum</orgName> of <orgName type="institution" key="#in_harvard"
+                                 >Harvard University</orgName>: <emph>A Few Ethnological Specimens
+                                 Collected by Lewis and Clark</emph>.*</p>
+                           <p><persName key="#hru">Mr H. N. Rust</persName>, <placeName type="city"
+                                 key="#ci_spasadena">South Pasadena</placeName>: <emph>Exhibition of
+                                 Implements from San Miguel Island used for Cutting and Working
+                                 Shell Ornaments</emph>.</p>
+                           <p><persName key="#hswan">Prof. Howard Swan</persName>, <orgName
+                                 type="institution" key="#in_imperial">Imperial College,
+                                 Peking</orgName>: <emph>A Systematic Arrangement for Recording
+                                 Dialects</emph>.</p>
+                           <p><persName key="#who">Prof. W. H. Holmes</persName>, Chief of the
+                                 <orgName type="government" key="#gov_bureau">Bureau of American
+                                 Ethnology</orgName>, <placeName type="city" key="#ci_dc"
+                                 >Washington, D. C.</placeName>: <emph>Antiquity of Man in
+                                    <placeName type="region" key="#re_northamerica">North
+                                    America</placeName></emph>. Discussed by <persName key="#fput"
+                                 >Putnam</persName>, <persName key="#cpea">Peabody</persName>, and
+                                 <persName key="#hswan">Swan</persName>.</p>
+                           <p><persName key="#cfnew">Dr C. F. Newcombe</persName>, <placeName
+                                 type="city" key="#ci_vic">Victoria, B. C.</placeName>:
+                                 <emph>Exhibition of Northwestern Indian Designs</emph>. Discussed
+                              by <persName key="#chillt">Hill-Tout</persName>.</p>
+                        </div>
+                        <div n="10">
+                           <head><title type="subsection"><emph>Papers Read by
+                              Title</emph></title></head>
+                           <p><persName key="#clummis">Mr Charles F. Lummis</persName>, Secretary of
+                              the <orgName key="#swarchinst">Southwest Society of the Archæological
+                                 Institute of America</orgName>, <placeName type="city" key="#ci_la"
+                                 >Los Angeles</placeName>: <emph>Old Indian and Spanish Folk Songs
+                                 of the Southwest</emph>. (Illustrated with phonograph records.)</p>
+                           <p><persName key="#cpmack">Mr C. P. Mackie</persName>, <placeName
+                                 type="city" key="#ci_englewood">Englewood, New Jersey</placeName>:
+                                 <emph>A Plea for the More Critical Use of History in
+                                 Anthropological Research</emph>.</p>
+                           <p><persName key="#gmac">Dr George Grant MacCurdy</persName>, <orgName
+                                 type="institution" key="#in_yale">Yale University</orgName>:
+                                 <emph>Eoliths from England and Belgium</emph>.</p>
+                           <p><persName key="#cmi">Dr C. Hart Merriam</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>Basketry of California Indians</emph>.</p>
+                           <p><persName key="#ajenks">Dr Albert Ernest Jenks</persName>, Director of
+                              the Ethnological Survey for the Philippine Islands, Manila: <emph>The
+                                 Peopling of the Philippines</emph>.</p>
+                           <p><persName type="author" key="#akroe">Dr A. L. Kroeber</persName>,
+                                 <orgName type="institution" key="#in_ucb">University of
+                                 California</orgName>: <emph>Indian Systems of Consanguinity in
+                                 California</emph>.</p>
+                           <p><persName key="#jewier">Miss Jeanne Elizabeth Wier</persName>,
+                                 <orgName type="institution" key="#in_nsu">Nevada State
+                                 University</orgName>: <emph>The Washoe Indians of
+                              Nevada.</emph></p>
+                           <p><persName key="#nbem">Dr N. B. Emerson</persName>, <placeName
+                                 type="city" key="#ci_hon">Honolulu</placeName>: <emph>Introduction
+                                 to "Unwritten Literature of Hawaii."</emph></p>
+                           <p><persName key="#znuttall">Mrs Zelia Nuttall</persName>, Director of
+                              the Crocker Researches in Mexico for the <orgName key="#dptanthro"
+                                 >Department of Anthropology</orgName> of the <orgName
+                                 type="institution" key="#in_ucb">University of
+                              California</orgName>: <emph>The Earliest Historical Communications
+                                 between Japan and Mexico, from Original Documents Preserved in the
+                                 Archives of Japan, Recently Brought to Light by a Mexican
+                                 Diplomat</emph>.<hi rend="super">1</hi><note n="4" place="foot"><hi
+                                    rend="super">1</hi> To be published by the University of
+                                 California.</note></p>
+                           <p><persName key="#aseale">Mr Alvin Seale</persName>, <orgName
+                                 type="institution" key="#stanford">Leland Stanford Junior
+                                 University</orgName>: <emph>Ceremonies Relating to Sickness and
+                                 Death in the Solomon Islands</emph>.</p>
+                           <p><persName key="#alfletcher">Miss Alice C. Fletcher</persName>,
+                                 <placeName type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>The Earth Lodge and Its Migrations</emph>.</p>
+                           <p><persName key="#jmooney">Mr James Mooney</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>: <emph>The
+                                 Cheyenne Indians</emph>.</p>
+                           <p><persName key="#jmooney">Mr James Mooney</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>: <emph>The
+                                 Caloosa Tribe of Florida</emph>.</p>
+                           <p><persName key="#jswanton">Dr J. R. Swanton</persName>, <placeName
+                                 type="city" key="#ci_dc">Washington, D. C.</placeName>: <emph>The
+                                 Social Organization of American Tribes</emph>.*</p>
+                           <p><persName type="author" key="#who">Prof. W. H. Holmes</persName>,
+                                 <placeName type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>Architecture of the Aborigines of <placeName type="region"
+                                    key="#re_northamerica">North America</placeName></emph>.</p>
+                           <p><persName type="author" key="#who">Prof. W. H. Holmes</persName>,
+                                 <placeName type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>Use of Copper by the Aborigines of <placeName type="region"
+                                    key="#re_northamerica">North America</placeName></emph>.</p>
+                           <p><persName type="author" key="#who">Prof. W. H. Holmes</persName>,
+                                 <placeName type="city" key="#ci_dc">Washington, D. C.</placeName>:
+                                 <emph>Problematical Objects in the Prehistoric Archeology of
+                                    <placeName type="region" key="#re_northamerica">North
+                                    America</placeName></emph>.</p>
+                        </div>
+                        <div>
+                           <head><title type="section"> LETTERS OF ACKNOWLEDGMENT</title></head>
+                           <div n="11">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>. <persName
+                                    key="#pahearst">MRS PHŒBE A. HEARST</persName>, <emph><placeName
+                                       type="city" key="#ci_pleasanton">Pleasanton,
+                                       California</placeName></emph>. <salute><emph><rs><persName
+                                             key="#pahearst">My dear Madam:</persName></rs>
+                                    </emph></salute></opener>
+                              <p>At the meeting of the <orgName key="#anthroassoc">American
+                                    Anthropological Association</orgName> held at <placeName
+                                    type="city" key="#ci_berk">Berkeley</placeName>, <date
+                                    when="1905-08-31">August 31, 1905</date>, the following
+                                 resolution was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That <rs><orgName key="#anthroassoc">the
+                                       Association</orgName></rs> desires to express its
+                                 appreciation of the courtesy of <persName key="#pahearst">Mrs Phœbe
+                                    A. Hearst</persName> in extending to <orgName key="#anthroassoc"
+                                    >the Association</orgName> the very cordial invitation to
+                                 luncheon at <orgName key="#ucaffiliatedcolleges">the Affiliated
+                                    Colleges</orgName>, <placeName type="city" key="#ci_sf">San
+                                    Francisco</placeName>, on Tuesday, <date when="1905-08-29"
+                                    >August 29th</date>, and at <placeName type="city"
+                                    key="#ci_berk">Berkeley</placeName>, <date when="1905-08-31"
+                                    >August 31st</date>. <rs><orgName key="#anthroassoc">The
+                                       Association</orgName></rs> having held its meetings in the
+                                 buildings of the <orgName key="#dptanthro">Department of
+                                    Anthropology</orgName> of the <orgName type="institution"
+                                    key="#in_ucb">University of California</orgName> both in
+                                    <placeName type="city" key="#ci_sf">San Francisco</placeName>
+                                 and in <placeName type="city" key="#ci_berk">Berkeley</placeName>,
+                                       <rs><orgName key="#dptanthro">a Department</orgName></rs>
+                                 owing its initiation and its prosperity to her inspiration and
+                                 care, deeply feels the obligation which the science of anthropology
+                                 has to <persName key="#pahearst">Mrs Hearst</persName> and takes
+                                 this means of tendering to her its cordial recognition of her
+                                 important achievements. I am, <rs><persName key="#pahearst">dear
+                                       Madam</persName></rs>,</p>
+                              <closer><salute>Yours respectfully, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore</emph>.</salute></closer>
+                           </div>
+                           <div n="12">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>. <persName
+                                    key="#ejmol">E. J. MOLERA</persName>, ESQ., <emph>President of
+                                    the <orgName type="museum" key="#mu_calacademyofscience"
+                                       >California Academy of Sciences</orgName>, <placeName
+                                       type="city" key="#ci_sf">San Francisco</placeName></emph>.
+                                             <salute><emph><rs><persName key="#ejmol">My dear
+                                             Sir:</persName></rs>
+                                    </emph></salute></opener>
+                              <p>At a meeting of the <orgName key="#anthroassoc">American
+                                    Anthropological Association</orgName> held <date
+                                    when="1905-08-31">August 31st</date>, the following resolution
+                                 was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That <rs><orgName key="#anthroassoc">the
+                                       Association</orgName></rs> desires to express its
+                                 appreciation of the courtesy of the <orgName type="museum"
+                                    key="#mu_calacademyofscience">California Academy of
+                                    Sciences</orgName>, tendered by Vice-President <persName
+                                    key="#alpbull">Bull</persName> and <persName key="#lmloomis"
+                                    >Director Loomis</persName>, in extending to <rs><orgName
+                                       key="#anthroassoc">the Association</orgName></rs> the
+                                 hospitality of its building, the very cordial invitation to
+                                 luncheon at the <placeName key="#sfrancishotel">Hotel St
+                                    Francis</placeName>, and the welcome personally given by its
+                                 officers on Wednesday, <date when="1905-08-30">August 30,
+                                    1905</date>.</p>
+                              <closer><salute>Respectfully yours, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore</emph>.</salute></closer>
+                           </div>
+                           <div n="13">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>. PRESIDENT
+                                    <persName key="#biwheeler">BENJAMIN IDE WHEELER</persName>,
+                                       <emph><orgName type="institution" key="#in_ucb">University of
+                                       California</orgName>, <placeName type="city" key="#ci_berk"
+                                       >Berkeley, California</placeName></emph>.
+                                             <salute><emph><rs><persName key="#biwheeler">My dear
+                                             Sir</persName></rs>
+                                    </emph>:</salute></opener>
+
+                              <p>At a meeting of the <orgName key="#anthroassoc">American
+                                    Anthropological Association</orgName> held <date
+                                    when="1905-08-31">August 31st</date>, at <placeName type="city"
+                                    key="#ci_berk">Berkeley</placeName>, the following resolution
+                                 was unanimously adopted: <emph>Resolved </emph>: That <rs><orgName
+                                       key="#anthroassoc">the Association</orgName></rs> desires to
+                                 express its appreciation of the courtesy of the <orgName
+                                    type="institution" key="#in_ucb">University of
+                                    California</orgName> as tendered by <persName key="#biwheeler"
+                                    >President Wheeler</persName> in his cordial greeting of <date
+                                    when="1905-08-31">August 31st</date>.</p>
+                              <closer><salute>Respectfully yours, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore</emph>.</salute></closer>
+                           </div>
+                           <div n="14">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>. ACTING
+                                 PRESIDENT <persName key="#jcbranner">J. C. BRANNER</persName>,
+                                       <emph><orgName type="institution" key="#stanford">Leland
+                                       Stanford Junior University</orgName>, <placeName type="city"
+                                       key="#ci_paloalto">Palo Alto, California</placeName></emph>.
+                                             <salute><emph><rs><persName key="#jcbranner">My dear
+                                             Sir</persName></rs>
+                                    </emph>:</salute></opener>
+
+                              <p>At a meeting of the <orgName key="#anthroassoc">American
+                                    Anthropological Association</orgName> held at <placeName
+                                    type="city" key="#ci_berk">Berkeley</placeName>, <date
+                                    when="1905-08-31">August 31st</date>, the following resolution
+                                 was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That <rs><orgName key="#anthroassoc">the
+                                       Association</orgName></rs> desires to express its
+                                 appreciation of the courtesy of <orgName type="institution"
+                                    key="#stanford"> Leland Stanford Junior University</orgName> in
+                                 extending to <orgName key="#anthroassoc">the Association</orgName>
+                                 the very cordial invitation to visit <orgName type="institution"
+                                    key="#stanford">the University</orgName> and to luncheon on
+                                 Saturday, <date when="1905-09-02">September 2d</date>.</p>
+                              <closer><salute>Respectfully yours, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore</emph>.</salute></closer>
+                           </div>
+                           <div n="15">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>. <persName
+                                    key="#lburbank">MR LUTHER BURBANK</persName>, <emph><placeName
+                                       type="city" key="#ci_sr">Santa Rosa,
+                                    California</placeName></emph>. <salute>
+                                    <emph><rs><persName key="#lburbank">My dear
+                                       Sir</persName></rs></emph>:</salute>
+                              </opener>
+                              <p>At a meeting of the <orgName key="#anthroassoc">American
+                                    Anthropological Association</orgName> held at <placeName
+                                    type="city" key="#ci_berk">Berkeley</placeName>, <date
+                                    when="1905-08-31">August 31st</date>, the following resolution
+                                 was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That <orgName key="#anthroassoc">the
+                                    Association</orgName> desires to express its appreciation of the
+                                 courtesy of <persName key="#lburbank">Mr Luther Burbank</persName>
+                                 in extending to <rs><orgName key="#anthroassoc">the
+                                       Association</orgName></rs> the very cordial invitation to
+                                 visit his estate at <placeName type="city" key="#ci_sr">Santa
+                                    Rosa</placeName> on <date when="1905-09-01">September
+                                 1st</date>.</p>
+                              <closer><salute> Cordially yours, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore.</emph></salute></closer>
+                           </div>
+                           <div n="16">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-07">September 7, 1905</date>. <persName
+                                    key="#cpea">DR CHARLES PEABODY</persName>, <emph><placeName
+                                       type="city" key="#ci_ca">Cambridge,
+                                    Massachusetts</placeName></emph>. <salute><emph><rs><persName
+                                             key="#cpea">Dear Sir
+                                 </persName></rs></emph>:</salute></opener>
+                              <p>At a meeting of the Council of the <orgName key="#anthroassoc"
+                                    >American Anthropological Association</orgName>, held in
+                                    <placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>, the following
+                                 resolution was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That the Council expresses its appreciation
+                                 of the ability and self-sacrificing fidelity of <persName
+                                    key="#cpea">Dr Charles Peabody</persName> in his capacity of
+                                 Secretary <emph>pro tempore</emph> of the <placeName type="city"
+                                    key="#ci_sf">San Francisco</placeName> meeting of <orgName
+                                    key="#anthroassoc">the Association</orgName>.</p>
+                              <closer><salute>Respectfully, <persName type="author" key="#akroe">A.
+                                       L. KROEBER</persName>, <emph>Secretary, Committee of Program
+                                       and Arrangements</emph>.</salute></closer>
+                           </div>
+                           <div n="17">
+                              <opener><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-07">September 7, 1905</date>. <persName
+                                    key="#afo">MR A. W. FOSTER</persName>, <emph>President,
+                                       <placeName key="#calnwrr">California Northwestern
+                                       Railway</placeName>, Mutual Life Building, <placeName
+                                       type="city" key="#ci_sf">San Francisco</placeName></emph>.
+                                             <salute><emph><rs><orgName key="#afo">Dear
+                                             Sir</orgName></rs>
+                                    </emph>: </salute></opener>
+                              <p>At a meeting of the Council of the <orgName key="#anthroassoc"
+                                    >American Anthropological Association</orgName>, held in
+                                    <placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>, the following
+                                 resolution was unanimously adopted:</p>
+                              <p><emph>Resolved </emph>: That the Council of <orgName
+                                    key="#anthroassoc">the Association</orgName> desires to express
+                                 its appreciation of the courtesy of the <orgName key="#calnwrr"
+                                    >California Northwestern Railway</orgName> in tendering the use
+                                 of a special car to <orgName key="#anthroassoc">the
+                                    Association</orgName> for its excursion to <persName
+                                    key="#lburbank">Mr Luther Burbank</persName> in <placeName
+                                    type="city" key="#ci_sr">Santa Rosa</placeName>, <date
+                                    when="1905-09-01">September 1</date>.</p>
+                              <closer><salute>Respectfully, <persName type="author" key="#akroe">A.
+                                       L. KROEBER</persName>, <emph>Secretary, Committee of Program
+                                       and Arrangements</emph>.</salute></closer>
+                           </div>
+                           <div n="18">
+                              <opener>
+                                 <placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName>,
+                                    <date when="1905-09-07">September 7, 1905</date>. <persName
+                                    key="#rpjen">MR RUFUS P. JENNINGS</persName>, <emph>California
+                                    Promotion Committee, <placeName key="#mntgst">25 New Montgomery
+                                       St.</placeName>, <placeName type="city" key="#ci_sf">San
+                                       Francisco</placeName></emph>. <salute><emph><rs><persName
+                                             key="#rpjen">Dear Sir
+                                 </persName></rs></emph>:</salute></opener>
+                              <p>At a meeting of the Council of the <orgName key="#anthroassoc"
+                                    >American Anthropological Association</orgName>, held in
+                                    <placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                                    <date when="1905-09-05">September 5, 1905</date>, the following
+                                 resolution was unanimously adopted:</p>
+                              <p><emph>Resolved</emph>: That the Council of <rs><orgName
+                                       key="#anthroassoc">the Association</orgName></rs> desires to
+                                 express its appreciation of the courtesies and efforts extended by
+                                 the California Promotion Committee on behalf of <rs><orgName
+                                       key="#anthroassoc">the Association</orgName></rs>, in
+                                 connection with the meeting and excursions of <rs><orgName
+                                       key="#anthroassoc">the Association</orgName></rs> in
+                                    <placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                                    <date notBefore="1905-08-29" notAfter="1905-09-02">August 29th
+                                    to September 2d</date>.</p>
+                              <closer><salute>Respectfully, <persName key="#cpea">C.
+                                       PEABODY</persName>, <emph>Secretary pro
+                                    tempore</emph>.</salute></closer>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

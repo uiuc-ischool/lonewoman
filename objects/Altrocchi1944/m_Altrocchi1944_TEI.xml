@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#cfquarterly">California
+                     Folklore Quarterly</orgName></title>
+               <publisher/>
+               <editor><persName type="author" key="#sbh">Hustvedt, S. B.</persName></editor>
+               <editor><persName type="author" key="#atay">Taylor, Archer</persName></editor>
+               <biblScope unit="volume">3</biblScope>
+               <biblScope unit="issue"> 1</biblScope>
+               <date when="1944"/>
+               <pubPlace><placeName type="city" key="#ci_berk">Berkeley</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Altrocchi1944">The Wild Girl of the Santa Barbara
+                     Channel Islands</title>
+                  <biblScope unit="page" from="59" to="60"/>
+                  <author><persName type="author" key="#ral">Altrocchi, Rudolph</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <front>
+         <div>
+            <head><title type="section">Notes and Queries</title></head>
+            <p>[<persName type="group" key="#sbh; #atay">The editors</persName> will welcome as
+               contributions to this section of the <emph><orgName type="publication"
+                     key="#cfquarterly">California Folklore Quarterly</orgName></emph> either small
+               items of traditional materials or inquiries designed to elicit information about such
+               materials. In general, discussion of the materials here offered will be brief.
+               Records of facts likely to be lost or overlooked, and inquiries which our readers may
+               be able to answer&#8212;such items will be the typical ones.]</p>
+         </div>
+      </front>
+      <body>
+         <div type="section">
+            <head><title type="section"><emph><rs><persName type="nativeamerican" key="#lw">The Wild
+                           Girl of the Santa Barbara Channel
+               Islands</persName></rs></emph></title></head>
+            <p>I was very much interested in Mr. Fife's communication in the <date when="1943-04"
+                  >April, 1943</date>, issue (I, 149-150) about "<title type="article"
+                  key="#Fife1943">The Wild Girl of the Santa Barbara Channel Islands</title>." Allow
+               me a couple of remarks.</p>
+            <p>In answer to Mr. Fife's question, whether any readers had heard similar versions,
+               here is one that was told me in Santa Barbara in 1935.</p>
+            <p>This time it was the story of <rs><persName key="#man14">a man</persName></rs> who
+               had escaped from a civilized community to one of the islands west of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, preferring to live a wild,
+               solitary life. I was given neither the reason nor the date. When he died, so the
+               story goes, his relatives wanted to contest his will on the grounds that only an
+               insane man would so take to the woods. <rs><persName key="#judge">The
+                     judge</persName></rs> decreed, however, "that solitude and the desire for it do
+               not necessarily constitute insanity"! I wonder whether this might not be a popular
+               variant of the story of <rs><persName type="nativeamerican" key="#lw">the Santa
+                     Barbara girl</persName></rs>, with change of sex, plus testamentary
+               embellishments. If this case really happened, there might be a record of the judicial
+               proceedings.</p>
+            <p>As to her, I think she has little in common with such legends as that of <persName
+                  type="fictional" key="#rom">Romulus</persName> and <persName type="fictional"
+                  key="#rem">Remus</persName>. These boys were two of many abandoned babes, usually
+               twins. For in antiquity when a woman had twins, that was considered proof positive of
+               adultery, since one father can only beget one child at a time. Their lives were
+               rescued by supernatural means, usually by an animal foster mother; their exploits
+               spread through the folklore of many lands in many ages.</p>
+            <p>Then there are the modern abandoned babes, reported from <placeName type="country"
+                  key="#co_in">India</placeName>, <placeName type="region" key="#re_africacon"
+                  >Africa</placeName>, and even <placeName type="region" key="#re_europe"
+                  >Europe</placeName>. Such unwanted children, when they survive, are usually
+               subnormal, if not irretrievably bestial. A few, abandoned accidentally, survive by
+               their extraordinary wits; chief example in fiction, <name type="fictional" key="#tar"
+                  >Tarzan</name>. It so happens that I have made a rather elaborate study, soon to
+               be published, of such folkloristic motives.</p>
+            <p>As to the <rs><persName type="nativeamerican" key="#lw">Santa Barbara
+                  girl</persName></rs>, <title type="article" key="#Fife1943">Mr. Fife's
+                  story</title> seems to be a rejuvenated version of the tale told, as the editorial
+               footnote to his communication suggests, in the <title type="manuscript"
+                  key="#Nidever1878"><emph>Life and Adventures of George Nidever</emph></title>. I
+               might add that the story was also told, on the basis of Mr. Nidever's, in an old,
+               melodramatic French book by <persName xml:lang="fr" type="author" key="#fde">
+                  Ferdinand Denis</persName> and <persName xml:lang="fr" type="author" key="#vch"
+                  >Victor Chauvin</persName>, <emph><title type="chapter" key="#DenisChauvin1863"
+                     >Les vrais Robinsons</title></emph> (<placeName type="city" key="#ci_paris"
+                  >Paris</placeName>, <date when="1863">1863</date>), pp. 312-314, as "<title
+                  type="chapter" key="#DenisChauvin1863">L'Indienne de Santa Barbara</title>." As
+               the title of the book indicates, it treats only of real people accidentally stranded
+               in some uninhabited place <emph xml:lang="fr">a la</emph>
+               <name type="fictional" key="#rcr">Robinson Crusoe</name>. Quite correctly the
+                     <rs><persName type="nativeamerican" key="#lw">Santa Barbara
+                  woman</persName></rs> was included, for she was involuntarily "wild."</p>
+            <p><span type="trope" n="14">As a matter of fact, she was not wild, in the sense, for
+                  instance, of the "wild children." <span type="trope" n="3">On the contrary,
+                     according to <persName type="frontiersman" key="#gni">Mr. Nidever</persName>,
+                     she was most tractable, even amiable, and always laughing.</span>
+                  <span type="trope" n="8">She had in common with the "wild children" only the fact
+                     that she was of unknown origin and spoke no known language; she had in common
+                     with the Robinson Crusoes the accident of shipwreck, whereby, stranded alone in
+                           <rs><placeName type="island" key="#i_sn">a wild island</placeName></rs>,
+                     she survived through her ingenuity and resourcefulness, even achieving a
+                     certain contentment.</span></span> Such cases have been rather common,
+               especially in the age of exploration, as <rs><persName type="group" key="#fde; #vch"
+                     >the above-mentioned French compilers</persName></rs> prove.</p>
+            <p>The <rs><persName key="#man14">Santa Barbara man</persName></rs>, on the contrary,
+               represents the category of voluntary exiles. Some of them withdrew to the woods
+               because of despair, caused by unrequited love. An example of this type was recently
+               reported in <emph><orgName type="publication" key="#thetimes">Time</orgName></emph>
+                  (<date when="1943-09-27">September 27, 1943</date>, p. 40), "El Tarzan" or
+                  <persName key="#pbat">Pacifico Batista</persName>, of <placeName type="city"
+                  key="#ci_itacuara">Itacuarare</placeName>, <placeName type="country" key="#co_arg"
+                  >Argentina</placeName>. The photograph of this hairy wild man was reproduced in
+                     <rs><orgName type="publication" key="#thetimes">the same
+                  periodical</orgName></rs> (<date when="1943-10-11">October 11, 1943</date>, p.
+               32). Pacifico's is also an ancient motive; for its exploitation in literature see,
+               for example, <persName type="author" key="#jta">J. S. P. Tatlock</persName>, "The
+               Lunatic Lover," in <emph>Essays and Studies</emph>, Vol. 14, University of California
+               Publications in English (<date when="1943">1943</date>), pp. 43-48.</p>
+            <p>I suppose that a classification of these various stories might well turn on the
+               meaning of "wild." I see three categories of wild-living people: (1) <span
+                  type="trope" n="3"><span type="trope" n="8">Civilized adults stranded accidentally
+                     in an uninhabited place, usually an island; greatest example <name
+                        type="fictional" key="#rcr">Robinson Crusoe</name>, with many descendants
+                     and even ascendants in both fact and fiction. To this category, I repeat,
+                     belongs the <rs><persName type="nativeamerican" key="#lw">Santa Barbara
+                           woman</persName></rs>.</span></span> (2) Civilized adults who voluntarily
+               take to the woods, because of love despair, like our friend <persName key="#pbat"
+                  >Pacifico</persName>, because they are weary of civilization, like the
+                     <rs><persName key="#man14">Santa Barbara man</persName></rs>. (We need not
+               discuss here the pious withdrawal from the world of numerous medieval ascetics,
+               martyrs, and saints). (3) Children exposed at birth or forsaken in infancy who
+               survive by supernatural means, like <name type="fictional" key="#cyrus">Cyrus</name>,
+                  <name type="fictional" key="#rom">Romulus</name> and <name type="fictional"
+                  key="#rem">Remus</name>, and countless others, or by their wits (<name
+                  type="fictional" key="#tar">Tarzan</name>, etc.), or by chance ("wild" children of
+               modern times). This third category presents, I believe, a far more extensive
+               development in folklore than the others, which, however, often occasion and
+               accumulate folkloristic elements.</p>
+            <p><persName type="author" key="#ral">Rudolph Altrocchi</persName></p>
+            <p><emph><orgName type="institution" key="#in_ucb">University of California,
+                     Berkeley</orgName></emph></p>
+         </div>
+      </body>
+   </text>
+</TEI>

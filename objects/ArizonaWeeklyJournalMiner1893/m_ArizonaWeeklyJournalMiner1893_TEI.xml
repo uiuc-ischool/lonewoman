@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#azweeklyjournalminer"
+                     >Arizona Weekly Journal Miner</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">30</biblScope>
+               <biblScope unit="issue">10</biblScope>
+               <date when="1893-07-19">July 19, 1893</date>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#ArizonaWeeklyJournalMiner1893">An Island
+                     Transformed</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author><date
+                     when="1893-07-19">July 19,1893</date>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><placeName type="island" key="#i_sn">An
+                           Island Transformed.</placeName></rs></hi></title></head>
+            <p><span type="trope" n="5">A <rs><persName type="group" key="#mullettcrew">party of men
+                        engaged in craw-fishing</persName></rs> on <placeName type="island"
+                     key="#i_sn">San Nicolas island</placeName> relate to the <title type="article"
+                     key="#SanFranciscoChronicle1893_Jul7">San Diego Union</title> a strange tale of
+                  earthquakes, winds, storms and meteorological disturbances which occurred there
+                  about the <date when="1893-07-01">first of July</date>.</span>
+               <rs><placeName type="region" key="#re_coralharbor">Coral harbor</placeName></rs>, the
+               only little harbor possessed by <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, was completely filled up with sand during these
+               disturbances. Speaking of <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs>, the <title type="article"
+                  key="#SanFranciscoChronicle1893_Jul7">San Diego Union</title> says:</p>
+            <p>"<placeName type="island" key="#i_sn">San Nicolas</placeName> is the most westerly of
+               the group known as the <rs><placeName type="island" key="#i_chi">Santa Barbara
+                     islands</placeName></rs>, and is about 150 miles distant from <placeName
+                  type="city" key="#ci_sd">San Diego</placeName>. <rs><date notAfter="1868"
+                     >Twenty-five years ago</date></rs> it was covered with grass, which afforded
+               pasture for thousands of sheep, and its owners lived there in a fine residence.</p>
+            <p>"A strange transformation has been going on since then. It is now a windy, barren,
+               sandy waste, where but a few hundred sheep, without a shepherd, eke out a miserable
+               existence. It is but eight miles long and four wide, but wherever one digs can be
+               found human bones and skulls. In the distant past it was either densely populated, or
+               a burial ground, or a great battlefield.</p>
+            <p>["]<rs><date when="1853">Some fifty years ago</date></rs>
+               <rs><persName type="nativeamerican" key="#lw">the last inhabitant</persName></rs> was
+               found in the person of <rs><persName type="nativeamerican" key="#lw">an old
+                     woman</persName></rs>. A Santa Barbara otter hunter named <persName
+                  type="fronitersman" key="#gni">Nidever</persName> found her, and took her to
+                  <placeName key="#nideverhouse">his home</placeName>, where she died shortly after,
+               without being able to make any one understand the language. She was found in
+                     <rs><placeName type="region" key="#re_lwcave">a cave</placeName></rs>,
+               subsisting on fish which she caught with hooks made out of abalone shells. Her
+               discovery caused considerable interest in the scientific world at the time.</p>
+            <p>"<persName type="seaman" key="#jmu">Captain Mullet</persName>, who had visited
+                     <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> many
+               times during the <rs><date notBefore="1873" notAfter="1893">past twenty
+                  years</date></rs>, says he was glad to get away from it with <rs><persName
+                     type="group" key="#mullettcrew">his men</persName></rs>, and has visited it for
+               the last time."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

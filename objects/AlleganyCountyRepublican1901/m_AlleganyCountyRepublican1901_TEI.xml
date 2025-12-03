@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#alleganycr">Allegany County
+                     Republican</orgName></title>
+               <publisher/>
+               <editor/><biblScope unit="volume">81</biblScope><biblScope unit="issue">no.
+                  43</biblScope>
+               <date when="1901-10-25"/>
+               <pubPlace><placeName type="city" key="#ci_friendship">Friendship</placeName>,
+                     <placeName type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#AlleganyCountyRepublican1901">The Woman of San Nicolas
+                     Island. A Strange Story of the Pacific Coast</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="artcile">
+            <head><title type="main">
+                  <rs><persName type="nativeamerican" key="#lw">THE WOMAN OF SAN NICOLAS
+                        ISLAND</persName></rs></title>
+               <title type="sub">A Strange Story of the <placeName type="region" key="#re_paccoast"
+                     >Pacific Coast</placeName></title></head>
+            <p>THE story of <rs><persName type="nativeamerican" key="#lw">the Indian
+                     woman</persName></rs> left alone on the <placeName type="island" key="#i_sn"
+                  >Island of San Nicolas</placeName> for <rs><date notBefore="1835" notAfter="1853"
+                     >nearly twenty years</date></rs> has been written by a number of romancers who
+               gave but little heed to fact and free reign to imagination. From occurences that have
+               passed into history and are known to be authentic, this tale is drawn.</p>
+            <p><span type="trope" n="3">The <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">aborigines of San Nicolas Island</orgName></rs>
+                  were supposed to be of <orgName type="nativeamericantribes" key="#natam_aztec"
+                     >Aztec</orgName> or <orgName type="nativeamericantribes" key="#natam_toltecs"
+                     >Toltec</orgName> origin,</span> a peaceable people like all tribes indigenous
+               to the tropics.</p>
+            <p><span type="trope" n="11">War with the savage <rs><orgName type="group"
+                        key="#natam_aleuts; #natam_kodiak">Alaskan Indians</orgName></rs> had nearly
+                  exterminated <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >the Indians of San Nicholas</orgName></rs> when <rs><orgName
+                        type="missionfathers" key="#misfats">the Catholic fathers</orgName></rs> who
+                  founded <rs><orgName type="mission" key="#mi_mainlandmissions">the
+                        missions</orgName></rs> on <placeName type="region" key="#re_mld">the
+                     mainland</placeName> desired to bring <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the few remaining natives</orgName></rs> across
+                        <rs><placeName type="region" key="#re_sbchannel">the
+                     channel</placeName></rs> that they might teach them the Christian
+                  religion.</span> Accordingly, after repeated efforts to accomplish this, <rs><name
+                     type="ship" key="#sh_peoresnada">a schooner</name></rs> was sent to
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in <date
+                  when="1836">1836</date> for this purpose. Some time was consumed in gathering
+               together <persName type="group" key="#bhagroup">these people</persName> and their
+               effects.</p>
+            <p>As <rs><name type="ship" key="#sh_peoresnada">the last boat</name></rs> was leaving
+               the strand, <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs>
+               with <rs><persName type="nativeamerican" key="#lwchild">a young babe</persName></rs>
+               in her arms sprang on shore. <rs><persName type="nativeamerican" key="#lwchild">Her
+                     little girl</persName></rs>, a child of eight years, had slipped from her side
+               in the confusion&#8212;gone probably in search of some remembered trinket dear to her
+               childish heart&#8212;or, perhaps, run away, overcome with terror at the unusual
+               migration of <persName type="group" key="#bhagroup">her people</persName>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> besought them
+               to await her return, and hastened over the hill, calling as she went. The moments
+               passed&#8212;the white man is ever impatient, and he grumbled at the delay. An hour
+               went by, but <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+               had not returned. The wind was rising rapidly, and a storm was imminent. <rs><name
+                     type="ship" key="#sh_peoresnada">The schooner</name></rs> had signaled them
+               twice in the last half hour. The waters about <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> were shoal, and there was no safe
+               anchorage along its shores. The waves were running high upon the ledges surrounding
+               the little bay, and their crests were white with the foam of action. <rs><name
+                     type="ship" key="#sh_peoresnada">The ship</name></rs> signaled again, and with
+               a muttered imprecation and a gruff command, the boat pushed off to join <rs><name
+                     type="ship" key="#sh_peoresnada">the tossing vessel</name></rs>.</p>
+            <p>As soon as all were on board, <persName type="seaman" key="#chu">Captain
+                  Hubbard</persName> weighed anchor and stood away for deep water. When <persName
+                  type="group" key="#bhagroup">the relatives and friends</persName> learned that
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> had
+               been left behind, they besought <rs><persName type="seaman" key="#chu">the
+                     captain</persName></rs> with many tears, and with pleadings in their own
+               tongue, to return and bring her away.</p>
+            <p>The gale increased in fury and continued unabated for the space of a week. <rs><name
+                     type="ship" key="#sh_peoresnada">The heavy-laden schooner</name></rs> labored
+               hard, and disaster threatened.</p>
+            <p>When <placeName type="city" key="#ci_sp">San Pedro</placeName> Harbor was finally
+               reached, the <persName type="group" key="#bhagroup">San Nicholas Indians</persName>
+               were distributed between <rs><placeName type="mission" key="#mi_losangeles">Los
+                     Angeles</placeName></rs> and <rs><placeName type="mission" key="#mi_sgabriel"
+                     >San Gabriel</placeName></rs> missions, and <persName type="seaman" key="#chu"
+                  >Captain Hubbard</persName> departed for <placeName type="city" key="#ci_mo"
+                  >Monterey</placeName>, where he had orders to take on a cargo of lumber for
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName>.</p>
+            <p>On reaching <placeName type="region" key="#re_thegoldengate">the Golden
+                  Gate</placeName>, in rough weather, <rs><name type="ship" key="#sh_peoresnada">the
+                     improperly-laden craft</name></rs> capsized and was eventually blown out to
+               sea, and is supposed to have been taken by <rs><name type="ship" key="#sh_russian">a
+                     Russian vessel</name></rs>. The crew reached shore in safety, and it was always
+               Captain Hubbard's intention to return to <placeName type="island" key="#i_sn">San
+                  Nicholas</placeName> for <rs><persName type="nativeamerican" key="#lw">the lost
+                     woman</persName></rs>. <span type="trope" n="12">There was now no craft of any
+                  description except open boats and Indian canoes from <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName> to <placeName type="city" key="#ci_sd"
+                     >San Diego</placeName>, and no one could be found willing to risk a voyage to
+                     <placeName type="island" key="#i_sn">San Nicolas</placeName> in one of
+                  these.</span></p>
+            <p>It was generally known along the coast of <placeName type="state" key="#st_cal"
+                  >California</placeName> that <rs><persName type="nativeamerican" key="#lw">an
+                     Indian woman</persName></rs> and <rs><persName type="nativeamerican"
+                     key="#lwchild">her children</persName></rs> had been left upon the island of
+                  <placeName type="island" key="#i_sn">San Nicholas</placeName>, but as time passed
+               and they were not rescued, it came to be generally believed that all had perished.
+                     <rs><date from="1835" to="1853">Fifteen years</date></rs> slipped by, and in
+               the spring of <date when="1851">1851</date>
+               <persName type="frontiersman" key="#gni">Captain Nidever</persName>, of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, with <rs><persName
+                     type="frontiersman" key="#tje">one other white man</persName></rs> and a small
+               crew of <orgName type="nativeamericantribes" key="#natam_missionindians">Mission
+                  Indians</orgName>, visited <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> in <rs><name type="ship" key="#sh_nidever">a
+                  schooner</name></rs> in search of otter. They made a landing at the eastern end of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, and
+               walked along the southern shore a distance of five miles or more. <span type="trope"
+                  n="4"><persName type="frontiersman" key="#gni">Captain Nidever</persName>
+                  discovered footprints of a human being soon after landing. These were no doubt
+                  made when the ground had been soaked by the previous winter rains, for the
+                  impressions were deep and quite dry and hard. The footprints were small, and
+                        <rs><persName type="frontiersman" key="#gni">the captain</persName></rs>
+                  felt convinced that they were made by a woman. A short distance from the shore
+                  were found several circular, roofless huts made of brush, about six feet in height
+                  and the same in diameter. These inclosures were fully a mile apart, and near them
+                  were stakes of driftwood driven in the ground, from which were suspended pieces of
+                  seal's blubber out of the reach of wild animals. The blubber was comparatively
+                  fresh, and had no doubt been placed there but a few weeks previous.</span></p>
+            <p><span type="trope" n="4"><persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName> had landed upon <rs><placeName type="island" key="#i_sn">San
+                        Nicolas</placeName></rs> early in the morning, intending to remain during
+                  the day to search for seal and otter, but near noon a northwester began blowing,
+                  and he hastened back to <rs><name type="ship" key="#sh_nidever">the
+                        schooner</name></rs>. Here they remained at anchor for eight days in the lee
+                  of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, the sea
+                  being at times so rough and the wind so fierce that he expected momentarily to be
+                  driven from his anchorage. When the storm abated sufficiently, <persName
+                     type="frontiersman" key="#gni">Captain Nidever</persName> returned to
+                     <placeName type="island" key="#i_sn">Santa Barbara</placeName> without again
+                  landing upon <placeName type="island" key="#i_sn">the
+               island</placeName>.</span></p>
+            <p><span type="trope" n="4"><rs><date when="1852">The next year</date></rs> he once more
+                  visited <placeName type="island" key="#i_sn">San Nicholas</placeName> for game,
+                  landing near the same place as on his previous voyage. He and <rs><persName
+                        type="frontiersman" key="#cdi">the ship's mate</persName></rs> explored
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> nearly
+                  to its western extremity. The blubber found on the previous visit had been
+                  replaced by a fresh stock. In the crotch of a tree near the west end of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> they
+                  found a basket containing a garment made of the skins of the cormorant, cut in
+                  squares and neatly pieced together; with the ends of the feathers all pointing
+                  downward.</span> There were shell hooks, bone needles, a rope of sinew, and
+               various trinkets in the basket with the robe. These things <persName
+                  type="frontiersman" key="#gni">Captain Nidever</persName> scattered upon the
+               ground, thinking if they were replaced on his next visit to the tree it would be
+               conclusive evidence that <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> was still alive.<span type="trope" n="4">After several
+                  days spent in securing seal and otter upon the ground already explored, another
+                  wind storm came on, and the spot containing the basket was not re-visited; as on
+                  all previous voyages, <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was left to her fate and <rs><name type="ship"
+                        key="#sh_nidever">the schooner</name></rs> crossed to <placeName
+                     type="island" key="#i_sm">San Miguel Island</placeName> without her.</span></p>
+            <p><span type="trope" n="4">In <date when="1853-07">July, 1853</date>, <persName
+                     type="frontiersman" key="#gni">Captain Nidever</persName> again went to
+                     <placeName type="island" key="#i_sn">San Nicholas</placeName>, determined to
+                  rescue <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> if
+                  she could be found. Before, he had gone to find otter and seal; now he had a
+                  nobler quest.</span></p>
+            <p><span type="trope" n="4">He anchored midway of the northwestern shore of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, near
+                     <placeName type="region" key="#re_coralharbor">Corral Harbor</placeName>, where
+                     <persName type="group" key="#bhagroup">the natives</persName> had embarked in
+                     <date when="1836">1836</date>. At this point and at the western extremity of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> is
+                  found an abundance of good water, seal and fish. Here <persName
+                     type="frontiersman" key="#gni">Captain Nidever</persName> made camp, and with
+                        <rs><persName type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                        >his men</persName></rs> began a systematic search. On the second day a hut
+                  was discovered upon the ridge, and on approaching it, piles of ashes and bones
+                  were seen at its entrance.</span></p>
+            <p><span type="trope" n="4">Within the enclosure sat <rs><persName type="nativeamerican"
+                        key="#lw">the object of their search</persName></rs>, talking aloud to
+                  herself, and with a rude knife, manufactured from a piece of rusty iron hoop,
+                  washed up by the waves, she was diligently scraping blubber from a piece of seal
+                  skin.</span></p>
+            <p><span type="trope" n="3">She watched the approach of <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> with interest, but made no attempt at flight. She was
+                  clothed in a garment of cormorant skins which reached nearly to her ankles, and
+                  her throat and arms were bare. Her hair was yellowed by the sun and tangled, and
+                  her skin, where exposed, was brown, but where protected by her robe it was quite
+                  fair, showing her to be of <orgName type="nativeamericantribes" key="#aztec"
+                     >Aztec</orgName> or <orgName type="nativeamericantribes" key="#toltecs"
+                     >Toltec</orgName> origin.</span>
+               <span type="trope" n="1">She received <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                        visitors</persName></rs> with the quiet and dignity of a queen, greeting
+                  each with a bow and smile. She talked incessantly, but no word of hers could be
+                  understood, although <rs><persName type="group"
+                        key="#cook; #msh; #poli; #nsk; #hva">the Indians of the rescuing
+                        party</persName></rs> spoke several dialects. In her hut was a fire, and
+                  when <rs><persName type="frontiersman" key="#gni">the captain</persName></rs> and
+                        <rs><persName type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                        >his men</persName></rs> were seated, <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs> roasted roots, termed "carcomite," by
+                  Californians, which she served to <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        company</persName></rs> an [on] abalone shells.</span></p>
+            <p><!--this is where i stopped--><span type="trope" n="1">One day she took <rs><persName
+                        type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her new
+                        comrades</persName></rs> to a deep hidden grotto, where bubbled a cool
+                  spring from whence she drew her supply of water for cooking.</span> Here they
+               found several unique water jars woven by her of the island grasses, and lined with
+               asphaltum, which is plentiful on the western shore. The water jars resembled
+               wide-mouthed bottles, and would hold from two to six quarts. It was interesting to
+               watch her make baskets water tight. She would drop into them bits of asphaltum and
+               hot pebbles, whirling them deftly as the asphaltum liquified. It required skill and
+               patience,,<!--what do i do about this, double commas in the text--> but when they
+               were thoroughly galvanized with a thin coating the jars were both light and
+               durable.</p>
+            <p>A second spring near the above-mentioned grotto she used as a lavatory, and would
+               frequently visit it, for she was very cleanly in her habits.</p>
+            <p>At the expiration of a month, when <rs><name type="ship" key="#sh_nidever">the
+                     schooner</name></rs> was ready to depart, she was made to understand by signs
+               that she was to go on board. She evidenced the pathetic struggle she had waged with
+               want in the years of solitude by gathering together every fragment of food in her
+               possession. In the crevices of rocks and in other spots secure from the depredations
+               of the wild dogs which infested <placeName type="island" key="#i_sn">San
+                  Nicholas</placeName> she had laid up stores of bones and other refuse in
+               anticipation of some future "starvation time." These she insisted should be carried
+               with her. Once on board and the firebrand she had b[r]ought burned to ashes, she
+               clung closely to the stove, showing that she often suffered from cold, as well as
+               hunger.</p>
+            <p><placeName type="frontiersman" key="#gni">Captain Nidever</placeName> conveyed
+                     <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>
+               to <rs><placeName key="#nideverhouse">his home</placeName></rs> in <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, where she lived in
+                     <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">his
+                  family</persName></rs> until her death. She was supposed to be about fifty years
+               of age when rescued.</p>
+            <p><span type="trope" n="3">She had a docile, loving nature and was of a peculiarly
+                  happy disposition. How she had retained these qualities in her years of lonely
+                  life is a mystery. She became much attached to her new friends, and they in turn
+                  gave her a most cordial affection. She was naturally intelligent and full of
+                  resources, and soon learned to communicate with those about her. She told of her
+                  sorrow at the death of <rs><persName type="nativeamerican" key="#lwchild">her
+                        oldest child</persName></rs>, who was devoured by wild dogs on the day
+                     <persName type="group" key="#bhagroup">her people</persName> were taken from
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> by
+                     <persName type="seaman" key="#chu">Captain Hubbard</persName>. <rs><persName
+                        type="nativeamerican" key="#lwchild">The young babe</persName></rs> met a
+                  similar fate later, when <rs><persName type="nativeamerican" key="#lw">the
+                        mother</persName></rs>, driven by hunger, was forced to leave it unprotected
+                  to go in search of food.</span></p>
+            <p><span type="trope" n="10">Strange to say, <rs><persName type="nativeamerican"
+                        key="#lw">this woman</persName></rs> had formulated an apparently fluent
+                  language of her own, which no one was able to understand. <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">Three of the mission
+                        fathers</persName></rs>, versed in every Indian dialect on the <placeName
+                     type="state" key="#st_cal">California</placeName> coast, were quite unable to
+                  make themselves understood. Some of <rs><persName type="group" key="#bhagroup">the
+                        former inhabitants of San Nicolas</persName></rs> were brought from
+                        <rs><placeName type="mission" key="#mi_sgabriel">San
+                     Gabriel</placeName></rs> and <rs><placeName type="mission" key="#mi_losangeles"
+                        >Los Angeles</placeName></rs>, but they also were unable to converse with
+                  her or interpret her language. But few of her words have been remembered. Man she
+                  called "noche," the sky, "toygwah," a hide, "tocah."</span></p>
+            <p>Possibly <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">the Alaskian
+                     [sic] Indians</orgName></rs>, who overran <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName> in <rs><date notBefore="1800" notAfter="1814" cert="high"
+                     >the early part of the last century</date></rs>, left upon her memory an
+               indelible impression of their nomenclature, which superseded her native tongue in the
+               years when human association was denied. This is a question that might be settled
+               from the meagre [meager] vocabulary she has left by some enthusiastic, painstaking
+               student of philology.</p>
+            <p>Travelers abroad who visit <orgName type="museum" key="#mu_vaticanmuseum">the
+                  Vatican</orgName> in <placeName type="city" key="#ci_rom">Rome</placeName>, and
+               are permitted to view the priceless relics from many lands that have been gathered
+               there, will find among the collection a basket woven of island grasses, and within it
+               a wonderful feather robe made of the soft breasts of the cormorant. This garment was
+               fashioned by the deft fingers of Morenita, <rs><persName type="nativeamerican"
+                     key="#lw">the Indian woman</persName></rs>, when she dwelt alone upon the
+               island of <placeName type="island" key="#i_sn">San Nicolas</placeName>.</p>
+            <byline><title type="article" key="#MEDudley1901">Los Angeles Times</title>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>

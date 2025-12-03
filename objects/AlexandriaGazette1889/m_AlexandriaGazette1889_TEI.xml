@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#alexandria">Alexandria
+                     Gazette</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">90</biblScope>
+               <biblScope unit="issue">169</biblScope>
+               <date when="1889-07-18"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#AlexandriaGazette1889">A Veritable Female
+                     Crusoe.</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A Veritable <rs><persName type="nativeamericans" key="#lw"
+                        >Female Crusoe</persName></rs></title></head>
+            <p>The recent explorations on the <placeName type="island" key="#i_scl">Island of San
+                  Clemente</placeName>, which is due west from <placeName type="county"
+                  key="#co_delmar">Del Mar</placeName>, this county, but sixty miles, has aroused
+               interest in the history of <rs><placeName type="island" key="#i_chi">the other
+                     islands of the coast</placeName></rs>. <span type="trope" n="3">The
+                        <rs><placeName type="island" key="#i_chi">Santa Barbara
+                     Islands</placeName></rs> in <rs><date notBefore="1800" notAfter="1835">the
+                        early part of the present century</date></rs> were inhabited by <rs><orgName
+                        type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">Indians
+                        of comparative white complexion</orgName></rs>, who spoke a peculiar
+                  language. They are supposed to be descendent[s] of the <orgName
+                     type="nativeamericantribes" key="#natam_aztec">Aztec race</orgName> of historic
+                  fame.</span> There is no record of how <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                     people</orgName></rs> came to be upon <rs><placeName type="island" key="#i_chi"
+                     >the islands</placeName></rs> or when they first settled there, but it is
+               probable that <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>
+               were inhabited by them before the founding of the <orgName type="mission"
+                  key="#mi_mainlandmissions">California missions</orgName> by the <orgName
+                  type="missionfathers" key="#misfats">Franciscan friars</orgName>.</p>
+            <p>Otter, seal, foxes, and fishes were to be found in abundance on <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs> and in the adjacent
+               waters, and upon these <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     natives</orgName></rs> subsisted, using the flesh for food, the skins for
+               clothing and tents, and th[e] bones for making hunting implements. According to
+               tradition, <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">Indians from
+                     the Alaska Islands</orgName></rs> frequently made trips to the <rs><placeName
+                     type="island" key="#i_chi">Santa Barbara Islands</placeName></rs> for the
+               purpose of hunting. <span type="trope" n="11">During one of these visits <rs><orgName
+                        type="group" key="#natam_aleuts; #natam_kodiak">the Alaskans</orgName></rs>
+                  fell upon <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        natives</orgName></rs>, killing all the males, and, after hunting for some
+                  time, they left for the North, abandoning the women to their fate.</span></p>
+            <p>The <rs><persName type="group" key="#aji; #ndur; #misfats">mission
+                  fathers</persName></rs>, learning of the fate of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  women</orgName></rs>, determined to have them removed to <placeName type="region"
+                  key="#re_mld">the mainland</placeName>, and for this purpose engaged <rs><name
+                     type="ship" key="#sh_peoresnada">a schooner</name></rs>. Upon arriving at the
+                  <placeName type="island" key="#i_sn">Island of St. Nicholas</placeName>
+               <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >the men</persName></rs> proceeded to remove <persName type="group"
+                  key="#bhagroup">the women</persName> and such few personal effects as they had to
+                     <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>. When this had
+               been accomplished and all were ready for embarking <rs><persName
+                     type="nativeamericans" key="#lw">one of the women</persName></rs> made a sign
+               that she had forgotten <persName type="nativeamericans" key="#lwchild">her
+                  child</persName> and started back after it.</p>
+            <p>While she was gone a strong wind sprang up, which soon increased to a gale and
+               compelled <rs><name type="ship" key="#sh_peoresnada">the little schooner</name></rs>
+               to put to sea for safety. As the wind kept up for several days <rs><persName
+                     type="group" key="#chu; #isp">the captain</persName></rs> ran into <placeName
+                  type="city" key="#ci_sp">San Pedro</placeName>, intending to return for
+                     <rs><persName type="nativeamericans" key="#lw">the woman</persName></rs> who
+               had been left. At <placeName type="city" key="#ci_sp">San Pedro</placeName>
+               <persName type="group" key="#bhagroup">the Indians</persName> were disembarked and
+               taken to the missions at <rs><placeName type="mission" key="#mi_losangeles">Los
+                     Angeles</placeName></rs> and <rs><placeName type="mission" key="#mi_sgabriel"
+                     >San Gabriel</placeName></rs>, where they were cared for. From <placeName
+                  type="city" key="#ci_sp">San Pedro</placeName>
+               <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs> sailed to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and from there to
+                  <placeName type="city" key="#ci_mo">Monterey</placeName>, where she had been
+               ordered.</p>
+            <p>Thus was <rs><persName type="nativeamericans" key="#lw">a poor woman</persName></rs>
+               left upon <rs><placeName type="island" key="#i_sn">a bleak island</placeName></rs>
+               out in <rs><placeName type="region" key="#re_pacific">the broad expanse of the great
+                     Pacific</placeName></rs>, with no companions save the wild wolf and the Indian
+               dog, with which <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+               was infested.</p>
+            <p>The news of <rs><persName type="nativeamericans" key="#lw">the woman</persName></rs>
+               having been left behind spread rapidly, but no further effort was made to rescue her.
+               The natural supposition was that she had perished, and in the course of a few years
+               the subject had passed from the minds of the people.</p>
+            <p><span type="trope" n="4">In <date when="1851">1851</date>, just fifteen years later,
+                  a hunter named <persName type="frontiersman" key="#gni">Nidever</persName> and
+                        <rs><persName type="group" key="#tje; #nativeamericans">a couple of
+                        companions</persName></rs> visited the <placeName type="island" key="#i_sn"
+                     >island of San Nicholas</placeName> and were astonished to find indications
+                  which led them to believe <persName type="nativeamericans" key="#lw">the
+                     woman</persName> was still alive. Footprints which had been made in the
+                  previous rainy season were to be seen in the now dry and hard soil, and from the
+                  size and general appearance <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        hunters</persName></rs> concluded they had been made by a woman. Some small,
+                  circular enclosures made of brush were also discovered and in them some dried
+                  seal's blubber.</span></p>
+            <p><span type="trope" n="4">Further than this the huts gave no indication of having been
+                  inhabited for some time. A strong wind arising, the party put to sea without
+                  making any further discoveries. The next winter, <date when="1852">1852</date>,
+                     <persName type="frontiersman" key="#gni">Nidever</persName> again visited
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, and,
+                  upon arriving, immediately landed and searched for fresh signs of <persName
+                     type="nativeamericans" key="#lw">the woman</persName>. The huts discovered on
+                  the first trip were unchanged, but the seal blubber seemed to have been
+                  replenished by a fresh lot. Some wild dogs were found in the vicinity, and
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        hunters</persName></rs> thought it likely <rs><persName
+                        type="nativeamericans" key="#lw">the woman</persName></rs> had fallen a prey
+                  to these bea[s]ts, as they were quite ferocious.</span></p>
+            <p><span type="trope" n="4">In 1853 <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the same
+                        party</persName></rs> planned “another [sic] expedition for the purpose of
+                  hunting and making one more attempt to settle the question as to whether
+                        <rs><persName type="nativeamericans" key="#lw">the woman</persName></rs> was
+                  still alive. They searched about <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for some time, and were about despairing of success,
+                  when <rs><persName type="frontiersman" key="#cdi">one who had become separated
+                        from</persName></rs>
+                  <rs><persName type="group" key="#gni; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        rest</persName></rs> discovered an object some distance away, and upon
+                  approaching it he found it to be <persName type="nativeamericans" key="#lw">the
+                     long-looked for woman</persName>.</span> He at once signalled <rs><persName
+                     type="group" key="#gni; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     others</persName></rs>, and directed them to approach her from different
+               directions, in order to prevent her escape, should she be so disposed.</p>
+            <p><rs><persName type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The
+                     men</persName></rs> succeeded in getting quite close to her before they were
+               discovered. <span type="trope" n="1">Instead of showing signs of alarm, as they
+                  expected, <persName type="nativeamericans" key="#lw">the woman</persName> appeared
+                  quite pleased to see them, and received them with a smile which indicated that she
+                  was not in the least afraid. <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The
+                        hunters</persName></rs> assisted her to remove such articles of clothing and
+                  food to <rs><name type="ship" key="#sh_nidever">the boat</name></rs> as she was
+                  not disposed to leave behind.</span></p>
+            <p><span type="trope" n="3">In the course of a few days she had become at home in
+                        <rs><name type="ship" key="#sh_nidever">the boat</name></rs> and helped in
+                  whatever way she could in the work aboard.</span> After a month's hunting
+                     <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva; #lw">the
+                     party</persName></rs> sailed for <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, where <rs><persName type="nativeamericans" key="#lw">the
+                     woman</persName></rs> was regarded with wonder and curiosity. The people
+               treated her with the greatest kindness and consideration. She was taken to the
+               families of <rs><persName type="group" key="#gni; #cdi; #col">her
+                  rescuers</persName></rs>, where she remained until her death, which occurred in a
+               few years from overeating fruit, of which she was very fond.&#8212;<emph>San
+                  Francisco Chronicle.</emph></p>
+         </div>
+      </body>
+   </text>
+</TEI>
