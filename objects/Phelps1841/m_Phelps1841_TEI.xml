@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement/>
+                  <repository key="#in_harvard">William Dane Papers, Houghton Library, Harvard
+                     University</repository>
+                  <idno type="Bod">Logbook of the "Alert," Manuscript AmW 84, volume 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author><persName type="frontiersman" key="#wph">Phelps, William
+                           Dane.</persName></author>
+                     <title type="entry" key="#Phelps1841">"Sat 29," under "San Pedro"</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc/>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>By permission of the Houghton Library, Harvard University.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="entry">
+            <dateline><date when="1841-05-29">Sat 29</date></dateline>
+            <p>Continuation of the weather of <date when="1841-05-28">yesterday</date>.
+                     <rs><persName type="group" key="#phelpscrew">Crew</persName></rs> variously
+               Employed in ship[']s duty. <rs><persName type="group" key="#phelpscrew">The
+                     Boys</persName></rs> trying out the [sea] Elephant blubber on shore. At the
+               landing place of <placeName type="city" key="#ci_sp">St Pedro</placeName> there is
+               but one house, which is occupied by a <persName type="seaman" key="#for">Mr
+                  Foster</persName> and family and is kept for the purpose of receiving and
+               depositing goods for shipment and for the accommodation of passengers, the nearest
+               village being <rs><placeName type="city" key="#ci_la">the town of the
+                     angels</placeName></rs> above mentioned which is over 30 miles dist there are a
+               number of Rancho's [sic] situated between, the nearest of which is about 4 miles from
+               the beach.</p>
+            <p><span type="trope" n="6"> At <placeName key="#fosters">Foster's</placeName> there is
+                        <rs><persName type="nativeamerican" key="#bha">an old
+                  Indian</persName></rs>, and as he is the last of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">his
+                     race</orgName></rs>, [he] is an object of interest[.] he was one of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                        tribe</orgName>
+                  </rs> that formerly inhabited <rs><placeName type="island" key="#i_chi">the
+                        Islands</placeName>
+                  </rs> which form one side of <placeName type="region" key="#re_sbchannel">the
+                     canal of Santa Barbara</placeName>, all of which give evidence of having once
+                  been populated[.]</span> In <date when="1825">1825</date> the <placeName
+                  type="island" key="#i_sn">Island of St Nicholas</placeName> was the only one that
+               had not become depopulated, (how they became so is not known) at this time there were
+               on <placeName type="island" key="#i_sn">St Nicholas</placeName> about <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">30 men and 23
+                     women</orgName></rs>. <span type="trope" n="13">during <rs><date when="1825"
+                        >that year</date></rs>
+                  <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">a
+                        party of Russians</persName></rs> and <orgName type="nativeamericantribes"
+                     key="#natam_kodiak">Kodiacks</orgName> from <rs><placeName type="state"
+                        key="#re_russam">the Russian settlements on the NW</placeName></rs> of
+                        <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >about 25 men</persName></rs> were left at <rs><placeName type="island"
+                        key="#i_chi">these islands</placeName></rs> to hunt Otter, and after having
+                  many quarrels with the <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">Indians of St. Nicholas</orgName></rs>
+                  respecting <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >the women</orgName></rs>, <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the Russians</persName></rs> at length killed all <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     men</orgName></rs> with the exception of <rs><persName type="nativeamerican"
+                        key="#bha">this old fellow</persName></rs> who was badly wounded, having his
+                  head split open and a number of charges of buck shot fired into him.</span>
+               <span type="trope" n="13">He however managed to escape, <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the Russians</persName></rs> then became possessed of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     women</orgName></rs> and lived with them about a year,</span> when <span
+                  type="trope" n="11">having an opportunity to gratify the revenge, which may sleep
+                  in an Indian but never dies, they destroyed every one of <rs><persName
+                        type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the Russians</persName></rs> and <orgName type="nativeamericantribes"
+                     key="#natam_kodiak">Kodiacks</orgName> in their sleep.</span> About 4 or 5
+               years since there was but <rs><persName type="group" key="#lw; #bhagroup">three
+                     women</persName></rs> and (<persName type="nativeamerican" key="#bha">Black
+                  Hawk</persName> as my Boys have named him) the Indian above mentioned left and
+                  <persName type="seaman" key="#tro">Capt Robbins</persName> (from whom I have the
+               account) calling there with <rs><name type="ship" key="#sh_robbins">his
+                  vessel</name></rs> persuaded <rs><persName type="group" key="#bhagroup">two of the
+                     females</persName></rs> to go [to] <placeName type="city" key="#ci_sp">St
+                  Pedro</placeName>. <span type="trope" n="14"><rs><persName type="nativeamerican"
+                        key="#lw">the [sic] other</persName></rs> ran away to the mountains and it
+                  is said is sometimes seen by the hunters who still visit <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, but is too wild to be
+                  approached</span>. <persName type="nativeamerican" key="#bha">Black
+                  Hawk</persName> seems to be noncompass and the wounds on his head are the probable
+               cause.</p>
+            <p><span type="trope" n="11">While trying out the blubber to day on the beach
+                        <rs><persName type="nativeamerican" key="#bha">the old
+                     fellow</persName></rs> smelt out what was going on (he is also blind) and after
+                  eating at least 5 lbs of the raw stinking material to begin with, he continued to
+                  gorge himself with the scraps as they were tried out, till he could contain no
+                  more, when he stretched himself out on the rocks with a hot sun shining in his
+                  face and after chattering and laughing in his idiotic manner for three hours - he
+                  again resumed his station at the Try-pot, where he made a sumptous dinner - and
+                  before dark, he was enabled to partake of a supper - which wasin proportion to his
+                  Dinner &amp; breakfast.</span> The blubber yielded about 75 Gals of oil.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

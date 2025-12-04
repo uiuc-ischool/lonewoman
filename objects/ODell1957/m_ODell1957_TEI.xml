@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#odell_country">Country of
+                     the Sun": Southern California, An Informal History and Guide</orgName></title>
+               <author><persName type="author" key="#sod">O'Dell, Scott</persName></author>
+               <publisher><orgName type="publisher" key="#tcrowellco">Thomas Y. Crowell
+                     Company</orgName></publisher>
+               <date when="1957"/>
+               <pubPlace><placeName type="city" key="#ci_nyc">New York</placeName><placeName
+                     type="state" key="#st_ny">New York</placeName>
+               </pubPlace>
+               <note type="supplied">Source Note</note>
+               <bibl>
+                  <title type="appendix" key="#ODell1957">The Lost Woman of San Nicholas</title>
+                  <author><persName type="author" key="#sod">O'Dell, Scott</persName></author>
+                  <biblScope unit="page" from="174" to="176"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <head><title type="main" key="#odell_country">Country of the Sun</title></head>
+         <div>
+            <p><supplied>[...]</supplied></p>
+         </div>
+      </body>
+      <back>
+         <div type="appendix">
+            <head>3. <emph><rs><persName type="nativeamerican" key="#lw">The Lost Woman of San
+                        Nicholas</persName></rs></emph></head>
+            <p><orgName type="mission" key="#mi_venturamission">Mission San Buenaventura</orgName>
+               was given over to the secular authorities in <date when="1836">1836</date>; the
+               gardens and orchards quickly disappeared, and the mission lands were parceled out to
+               friends of the <persName key="#admin">administrator</persName>. New ranchos and old
+               thrived on plentiful rain, tall grass, and good prices, untouched by the war, until
+               the depression and drought of <rs><date notBefore="1860" notAfter="1865">the early
+                     sixties</date></rs> [<date notBefore="1860" notAfter="1865"
+                  >eighteen-sixties</date>]. Lands in the <placeName type="region"
+                  key="#re_scvalley">Santa Clara</placeName>, <placeName type="region"
+                  key="#re_ojvalley">Ojai</placeName>, and <placeName type="region"
+                  key="#re_sanbuenaventuravalley">San Buenaventura</placeName> Valleys then were
+               taken up by eastern capitalists bent upon finding oil.</p>
+            <p>In <date when="1866">1866</date> the town of <placeName type="city" key="#ci_ven">San
+                  Buenaventura</placeName> was incorporated and the first schoolhouse built. At
+                  <placeName type="city" key="#ci_sat">Saticoy</placeName> and <placeName
+                  type="city" key="#ci_spaula">Santa Paula</placeName>, ranches were subdivided into
+               small farms. The days of the dons were over. The land boom was on.</p>
+            <p>It was accelerated by the coming of the stagecoach. Travelers from <placeName
+                  type="city" key="#ci_sd">San Diego</placeName> and <placeName type="city"
+                  key="#ci_la">Los Angeles</placeName> and <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName> no longer had to arrive by horseback or on the occasional
+               sailing ships that anchored at <placeName type="city" key="#ci_ven"
+                  >Ventura</placeName>. Six-horse equipages rolled smartly into <rs><placeName
+                     type="city" key="#ci_ven">the town</placeName></rs> by way of the <placeName
+                  type="region" key="#re_simivalley">Simi</placeName>, <placeName type="region"
+                  key="#re_convalley">Conejo</placeName>, and <placeName type="region"
+                  key="#re_scvalley">Santa Clara</placeName> Valleys. From <placeName type="city"
+                  key="#ci_ven">Ventura</placeName> to <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, matters were somewhat different. The road followed the beach,
+               and at certain points the stage was forced to run hub-deep in the surf, often to wait
+               until the tide had gone out before proceeding up <rs><placeName type="region"
+                     key="#re_calcoast">the coast</placeName></rs>.</p>
+            <p><placeName type="county" key="#co_ventura">Ventura County</placeName> was formed in
+                  <date when="1873">1873</date>, by cutting off the southeasterly corner of
+                  <placeName type="county" key="#co_sb">Santa Barbara County</placeName>, and the
+               name shortened to "Ventura," though <rs><placeName type="city" key="#ci_ven">the
+                     county seat</placeName></rs> was still called San Buenaventura. Corralled by
+                     <rs><placeName type="county" key="#co_ventura">the new county</placeName></rs>
+               were also two islands: <placeName type="island" key="#i_an">Anacapa</placeName> and
+                  <placeName type="island" key="#i_sn">San Nicholas</placeName>.</p>
+            <p><placeName type="island" key="#i_an">Anacapa</placeName>, a barren mesa rising
+               steeply from the sea, where birds nested and sea lions sported among innumerable
+               caves, was a haunt of <orgName type="nativeamericantribes" key="#natam_Chumash">the
+                  Chumash Indians</orgName>, who sped across <rs><placeName type="region"
+                     key="#re_sbchannel">the channel</placeName></rs> in their canoes to snare birds
+               and gather shellfish. They always returned.</p>
+            <p>In later years sheep were pastured on the eastern half of <rs><placeName
+                     type="island" key="#i_an">the island</placeName></rs>, foraging among the
+               succulent, low-growing ice plants for both food and water. Latterly, it has housed a
+               powerful synchronized beacon to warn and guide ships sailing the coastal lanes.</p>
+            <p>It was <rs><placeName type="island" key="#i_an">this waterless
+                  island</placeName></rs> that indirectly changed the course of young James
+               Whistler's life. Employed to draw a map of <placeName type="island" key="#i_an"
+                  >Anacapa</placeName> for the Coast and Geodetic Survey, he found it impossible to
+               curb his talents, sketched in, for good measure, an imaginary flock of sea gulls. He
+               was fortunately fired for this piece of inspiration, and went on to become a
+               world-famous painter.</p>
+            <p><placeName type="island" key="#i_sn">San Nicholas</placeName> lies some fifty miles
+               from the mainland, a wind-scoured expanse that was once the home of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">a tribe of hardy
+                     Indians</orgName></rs> who wrested a precarious living from the kelp beds that
+               ring <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, and
+               occasional springs of sweet water. <span type="trope" n="13"><orgName
+                     type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName> and
+                        <rs><persName type="group" key="#1814huntingparty; #rfurcompany; #iba"
+                        >Russians</persName></rs>, drawn here by the abundance of fur-bearing sea
+                  otter, so decimated <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the tribe</orgName></rs> that in <date
+                     when="1835">1835</date>
+                  <orgName type="government" key="#gov_mexico">the Mexican government</orgName>
+                  removed <persName type="group" key="#bhagroup">the survivors</persName> to
+                     <placeName type="mission" key="#mi_sgabriel">Mission San
+                  Gabriel</placeName>.</span></p>
+            <p>All of <persName type="group" key="#bhagroup">the survivors</persName>, that is,
+               except <rs><persName type="nativeamerican" key="#lw">one young woman</persName></rs>.
+                  <span type="trope" n="9">At the last moment, as <rs><name type="ship"
+                        key="#sh_peoresnada">the rescue ship</name></rs> was sailing away from
+                     <placeName type="region" key="#re_calcoast">the coast</placeName>, she leaped
+                  into the sea and swam back to shore because <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs> had been left on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>.</span></p>
+            <p><rs><date when="1851">Sixteen years afterward</date></rs>
+               <persName type="frontiersman" key="#gni">Captain George Nidever</persName> returned
+               to <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> in a
+               sailing schooner called <name type="ship" key="#sh_peoresnada"><emph>Peor es
+                     Nada</emph>&#8212;Better than Nothing</name>. A West Virginian, he had trapped
+               through <placeName type="region" key="#re_rockies">the Rockies</placeName>, become a
+               seafarer in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and
+               finally began to hunt otter&#8212;the few that remained&#8212;among the <placeName
+                  type="island" key="#i_chi">Channel Islands</placeName>. It was in search of otter
+               that he came in the early spring of <date when="1851">1851</date>.</p>
+            <p><span type="trope" n="4">The first thing <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> saw as he stepped ashore in a small cove was a faint yet
+                  fresh footprint in the hard sand. He found other prints moving away from the edge
+                  of the sea toward steep cliffs that sheltered the cove. He knew the story of
+                        <rs><persName type="nativeamerican" key="#lw">the Lost Woman of San
+                        Nicholas</persName></rs> and was determined to find her if the footprints
+                  proved to be hers.</span></p>
+            <p><span type="trope" n="4">But as he left the cove, following her course up the cliff,
+                     <persName type="frontiersman" key="#gni">Nidever</persName> was met by the
+                  furious blast of a northwest wind. He glanced back and was alarmed to see that
+                        <rs><name type="ship" key="#sh_nidever" cert="high">his schooner</name></rs>
+                  was heeled over, tugging at its anchor. He quickly retraced his steps and sailed
+                  away from the coast before <rs><name type="ship" key="#sh_nidever" cert="high">the
+                        ship</name></rs> was blown ashore.</span></p>
+            <p><span type="trope" n="4"><rs><date when="1852">The following year</date></rs> he
+                  returned, still bent upon finding <rs><persName type="nativeamerican" key="#lw"
+                        >the lost woman</persName></rs>. But again a heavy wind sprang up as he was
+                  on the beach, and again he was forced to run out to sea.</span></p>
+            <p><span type="trope" n="4">
+                  <rs><date when="1853">The next year</date></rs> he was back.</span></p>
+            <p><span type="trope" n="4"><persName type="frontiersman" key="#gni">Nidever</persName>
+                  once more found the footprints in the cove, followed them up the cliff and across
+                  the mesa to an accumulation of rocks surrounded by a few windswept trees. Amid the
+                  rocks was a crude shelter of brush and whalebones.</span></p>
+            <p><span type="trope" n="4">
+                  <rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> was
+                  frightened when he spoke to her and tried to flee, but he restrained her.</span>
+               She was no longer young; the black hair that fell to her waist was streaked with
+               gray. She wore a strange garment contrived of the gleaming skins of cormorants. Her
+               only companions were five wild dogs. <rs><persName type="nativeamerican"
+                     key="#lwchild">Her child</persName></rs>, it seemed, had long since died.</p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> convinced <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> that he meant no
+               harm, and she consented to go back with him to the <placeName type="mission"
+                  key="#mi_sb">Mission of Santa Barbara</placeName>. And although no one there
+               understood her language, she lived happily enough for six weeks, then suddenly died
+               from the unaccustomed fare of fruits and meats.</p>
+            <p>[...]</p>
+         </div>
+      </back>
+   </text>
+</TEI>

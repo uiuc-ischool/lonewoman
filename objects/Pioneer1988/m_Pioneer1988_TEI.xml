@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#pioneer2"
+                  >Pioneer</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="11"/>
+               <biblScope unit="issue"/>
+               <date when="1988-11-01"/>
+               <pubPlace><placeName type="city" key="#co_mos">Moscow</placeName>, <placeName
+                     type="state" key="#co_russia">Russia</placeName>, <placeName type="country"
+                     key="#co_ussr">U.S.S.R.</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Pioneer1988">Forgotten Woman of San Nicolas</title>
+                  <biblScope unit="page" n="54"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <byline>[Translation by Tyler Muehl]</byline>
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">The Forgotten
+                        Woman of San Nicolas</persName></rs></title></head>
+            <p>In the <date from="1860" to="1869">1860s</date> off the <placeName type="region"
+                  key="#re_calcoast">coast of California</placeName> the famous story of the
+                     "<rs><persName type="nativeamerican" key="#lw">forgotten woman of San
+                     Nicolas</persName></rs>" arose. In <date when="1835">1835</date>
+               <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the Indian tribe
+                     [on] Ghalasat</orgName></rs> decided to abandon the land of their
+               ancestors--the small island '<placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>' along the <placeName type="region" key="#re_socalcoast"
+                  >southern coast of California</placeName>. Now it's difficult to say what drove
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     Indians</orgName></rs> to take this step. Was it the constant deceit by traders
+               who arrived there on their ships for fur commodities, or was it the predatory
+               extermination by hunters of sea lions and seals, or could it even have been the great
+               number of mean wild dogs that multiplied on <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs>? But it is known for certain that <rs><name
+                     type="fiction" key="#chow">the chief</name></rs> of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the tribe [on]
+                     Ghalasat</orgName></rs> turned to <rs><persName type="group" key="#chu; #isp"
+                     >the captain</persName></rs> of <rs><name type="ship" key="#sh_peoresnada">a
+                     Spanish ship</name></rs> with the request to take <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">his
+                  tribe</orgName></rs> to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>.</p>
+            <p><span type="trope" n="9">In search for <rs><name type="fictional" key="#ram">her
+                        brother</name></rs>, the Indian girl <name type="fictional" key="#kar"
+                     >Karana</name> jumped overboard immediately before the ship's departure and
+                  started swimming to the shore.</span> She found him in the abandoned settlement.
+               But after some time a tragic incident occurred: <rs><name type="fictional" key="#ram"
+                     >her brother</name></rs> became lost during a hunt. <name type="fictional"
+                  key="#kar">Karana</name> spent <rs><date from="1835" to="1853">18
+                  years</date></rs> on her own on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, constantly fighting for her life with the wild dogs
+               and occupying her time by hunting and fishing. It was only in <date when="1853"
+                  >1853</date> that <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">sailors</persName></rs>
+               from <rs><name type="ship" key="#sh_nidever">a ship</name></rs> discovered
+                     <rs><persName type="nativeamerican" key="#lw">the lone woman</persName></rs> on
+               the coast of <placeName type="island" key="#i_sn">San Nicolas Island</placeName>,
+               speaking with difficulty in a language they did not know, and they delivered her to
+               the <orgName type="mission" key="#mi_santabarbaramission">Catholic Mission of Santa
+                  Barbara</orgName>. <span type="trope" n="6">There she learned from <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">an old
+                     monk</persName></rs> that her entire tribe had been lost during a strong
+                  storm...</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

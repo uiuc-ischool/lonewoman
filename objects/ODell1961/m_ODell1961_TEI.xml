@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#horn">Horn Book
+                     Magazine</orgName></title>
+               <biblScope unit="volume" n="67"/>
+               <biblScope unit="issue" n="2"/>
+               <editor/>
+               <publisher/>
+               <date when="1961"/>
+               <pubPlace><placeName type="city" key="#ci_bo">Boston</placeName><placeName
+                     type="state" key="#st_ma">Massachusetts</placeName>
+               </pubPlace>
+               <bibl>
+                  <title type="article" key="#ODell1961">Newbery Award Acceptance</title>
+                  <author><persName type="author" key="#sod">O'Dell, Scott</persName></author>
+                  <biblScope unit="page" from="311" to="316"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><orgName type="publication" key="#horn">THE HORN BOOK
+                     MAGAZINE</orgName>
+               </title></head>
+            <dateline><emph><date when="1961-08">August, 1961</date></emph>
+            </dateline>
+            <head><title type="sub">NEWBERY AWARD ACCEPTANCE* <note n="1" place="bottom">*Given at a
+                     meeting of the <orgName key="#ala">American Library Association</orgName> in
+                        <placeName type="city" key="#ci_cl">Cleveland</placeName>, <date
+                        when="1961-07-11">July 11, 1961</date>. The Newbery Medal for "the most
+                     distinguished contribution to American literature for children " was awarded to
+                        <persName type="author" key="#sod">Mr. O'Dell</persName> for <emph>Island of
+                        the Blue Dolphins</emph> (<orgName type="publication" key="#houghton"
+                        >Houghton</orgName>).</note></title></head>
+            <byline>
+               <emph>By</emph>
+               <persName type="author" key="#sod">SCOTT O'DELL</persName></byline>
+            <div type="speech">
+               <p><persName type="author" key="#sjoh">SAMUEL JOHNSON</persName> has said that a man
+                  may turn over half a library to make a book. It is equally true that a writer may
+                  turn over a whole lifetime to make a book. Indeed, this is what I did when I wrote
+                     <emph>Island of the Blue Dolphins</emph>.</p>
+               <p>Down the corridors of memory, at the far end of that labyrinth, I saw clearly a
+                  certain night.</p>
+               <p>I was four years old and I had awakened out of a long sleep. The room was dark.
+                  The sea made faint sounds among the eaves, like mice stirring. From far off came
+                  the sound of waves breaking upon the beach. Though I listened, I heard nothing
+                  else.</p>
+               <p>Lying there in my small bed, in the deep night, it suddenly came to me that the
+                  house was deserted, that I was alone. Quickly I slid to the floor and groped along
+                  the hall to my mother's room. I felt the bed. It was empty.</p>
+               <p>At that instant I heard from a distance the sound of music. By some strange
+                  alchemy of love and fear and memory, standing there in the empty room, music and
+                        <rs><persName key="#msc">my mother</persName></rs> became one. I would find
+                  her where the music was. They would be together.</p>
+               <p>I tried to open the front door, but it was locked and the back door was locked
+                  too. Then I noticed that the window above the kitchen sink was open. I found a
+                  chair and climbed upon it and thus reached the window. (To this day I can feel the
+                  coldness of unwashed silverware on my bare feet.) I grasped the window sill,
+                  squirmed outside, hung for a moment, fell sprawling on the sand, and picked myself
+                  up.</p>
+               <p>Now the music was clear on the summer air. Against the sky I could see the glow of
+                  colored lights. I ran toward it, falling in the deep sand and getting up, running
+                  again, shirttails dragging at my ankles.</p>
+               <p>I came to a boardwalk. The walk led to a pavilion, to the source of the glowing
+                  lights, where clusters of people moved about. But the music was still farther,
+                  beyond them; and I went toward it, feeling my way through a forest of legs and a
+                  sea of dresses, to a place where couples drifted about.</p>
+               <p>There on a platform above them was the music and below the platform, the lights
+                  shining on her, was <rs><persName key="#msc">my mother</persName></rs>. Her back
+                  was toward me but I knew well the golden hair. With my last breath I ran across
+                  the floor, unaware of the eyes that must have been turned upon me. I stretched out
+                  my arms and clutched her dress and though she was whirling, held on. As she turned
+                  and stared down at this apparition in a nightshirt, at her son, I am forced to say
+                  that she was not so glad to see me as I was to see her.</p>
+               <p>You will not find this incident in <emph>Island of the Blue Dolphins</emph>, but
+                  you will find its meaning. The human heart, lonely and in need of love, is a
+                  vessel which needs replenishing.</p>
+               <p>I saw a boy of eight, towheaded and restless, who with other boys of his age went
+                  out on Saturday mornings in sun or rain in search of the world.</p>
+               <p>This was a small world, but a world in microcosm. It was bounded by the deep water
+                  and wharves and mud flats of <placeName type="city" key="#ci_sp">San
+                     Pedro</placeName> Harbor. By the cliffs and reefs of <placeName type="region"
+                     key="#re_pfirmin">Point Firmin</placeName> and <placeName type="region"
+                     key="#re_portbend">Portuguese Bend</placeName>. By the hills of <placeName
+                     type="city" key="#ci_pv">Palos Verdes</placeName>, aflame with wild mustard in
+                  spring, lion-colored in summer.</p>
+               <p>Many summer days we left the landlocked world and went to sea. How? Each of us on
+                  a separate log. The logs had been towed into the harbor in great rafts &#8212;
+                  from <placeName type="state" key="#st_or">Oregon</placeName>. They were twelve
+                  feet long or longer, rough with splinters and covered with tar. But to each of us
+                  young Magellans, they were proud canoes, dugouts fashioned by ax and fire.
+                  Graceful, fierce-prowed, the equal of any storm.</p>
+               <p>We freed them from the deep-water slips where they waited for the saw mill.
+                  Astride, paddling with our hands, we set to sea, to the breakwater and beyond. We
+                  returned hours later, the watery world encompassed.</p>
+               <p>These memories went into <emph>Island of the Blue Dolphins</emph>. You will find
+                  them in the book &#8212; where <name type="fictional" key="#kar">Karana</name>
+                  leaves <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> in
+                  search of <placeName type="region" key="#re_mld">the country that lies to the
+                     East</placeName>.</p>
+               <p>Many mornings we went into the <placeName type="city" key="#ci_pv">Palos
+                     Verdes</placeName> Hills. There we turned over every likely rock, looking for
+                  small monsters. We thrust our hands down every squirrel and coyote hole in our
+                  path. Commonly we found an owl. This was the prize of all prizes. lt was twice the
+                  size of your fur, soft-feathered, with great yellow eyes that blinked in the
+                  sudden sun.</p>
+               <p>What did we do with this creature of the nocturnal air? We killed it, of course.
+                  We wrung its neck. We cut off its legs. For the exposed tendons of an owl's legs,
+                  when pulled in a certain way, made the tiny claws open and retract in a ghastly
+                  simulation of life.</p>
+               <p>To this day, indeed to this very minute, I remember these depredations with
+                  horror.</p>
+               <p>This horror, muted but nonetheless real, you will find in the latter part of
+                     <emph>Island of the Blue Dolphins</emph>. The latter part of the book, only,
+                  because <rs><name type="fictional" key="#kar">my Indian girl</name></rs> began
+                  where youth begins. In the closed world of selfishness and cruelty where
+                  everything, whether of fur or feathers, whether it creeps or walks or flies, is an
+                  object of indifferent cruelty.</p>
+               <p>Down that dark corridor of time I also saw <persName key="#jiman">Jack
+                     Iman</persName>.</p>
+               <p>Freckled, with black eyes alert under a bang of black hair, a <rs><persName
+                        key="#jiman"><name key="#her">Hercules</name> in miniature</persName></rs>,
+                     <persName key="#jiman">Jack</persName> hated me the moment we met. For no other
+                  reason, I am certain, than that I was a city boy, lately come to <rs><placeName
+                        type="city" key="#ci_histown">his town</placeName></rs>. I also hated him.
+                  And for no other reason except that he hated me.</p>
+               <p>In all weather, during the school week and even on Sunday, <persName key="#jiman"
+                     >Jack</persName> pursued me. In class with his black eyes. On the school
+                  grounds with taunts. Off the school grounds with his fists. He was my nemesis. My
+                  tormentor. The embodiment to me of all evil.</p>
+               <p>Years later I read in the newspaper that <persName key="#jiman">Jack</persName>
+                  had become a prizefighter. Sometime later I saw him fight. I went to see him
+                  beaten. But the same <persName key="#jiman">Jack Iman</persName> I remembered,
+                  only with vaster muscles, was the victor. I went again and again to see him fight,
+                  each time hoping for his humiliation. Finally, after a year of fights <persName
+                     key="#jiman">Jack Iman</persName> was knocked out and carried groggily from the
+                  ring. To my surprise, sitting there at ringside, I somehow felt diminished.</p>
+               <p>I went back, using the privilege of a press badge, to his dressing room. I went
+                  there to introduce myself, for I was sure he wouldn't remember me, and to quietly
+                  gloat.</p>
+               <p>Though he was just returning from another world, <persName key="#jiman">Jack
+                     Iman</persName> recognized me at once. Unsteadily he came towards me, put his
+                  arms around my shoulders and wept.</p>
+               <p>That too is in <emph>Island of the Blue Dolphins</emph>. It lies in the heart of
+                  the episode of <name type="fictional" key="#kar">Karana</name> and <rs><name
+                        type="fictional" key="#tut">her enemy</name></rs>, <rs><name
+                        type="fictional" key="#tut">the Aleut girl</name></rs>. It also colors the
+                  climax of the book. For I believe and wished to say, with whatever power I might
+                  summon to the task, that we must forgive our enemies. Further, I believe that the
+                  hopes of civilization, unique and obscure as they are, really exist in the act of
+                  identification with our enemies.</p>
+               <p>Memories come from books, too, from that vital spring, the library. This is one of
+                  them, culled from many sources, that in spirit I used.</p>
+               <p>At <placeName key="#wranch">Warner's Ranch</placeName>, near my home in <placeName
+                     type="city" key="#ci_ju">Julian</placeName>, the <orgName
+                     type="nativeamericantribes" key="#natam_Cupenos
+                 ">Cupeño
+                     Indians</orgName> revolted in <date when="1851">1851</date>. Bereft of their
+                  ancestral lands by the Americans, impoverished and abused, they attacked under the
+                  leadership of <persName type="nativeamerican" key="#aga">Antonio Garra</persName>
+                  and burned a few buildings. The citizens of <placeName type="city" key="#ci_sd"
+                     >San Diego</placeName> sprang to arms, rode in pursuit of <persName
+                     type="nativeamerican" key="#aga">Garra</persName> and <rs><orgName
+                        type="nativeamericantribes" key="#natam_Cupenos">his men</orgName></rs>.
+                        <rs><orgName type="nativeamericantribes" key="#natam_Cupenos">The
+                        men</orgName></rs> scattered into the chapparal, but <persName
+                     type="nativeamerican" key="#aga">Garra</persName> was captured and brought to
+                  trial in <placeName type="city" key="#ci_sd">San Diego</placeName>.</p>
+               <p>He was first tried for murder, but the evidence was lacking. The charge was
+                  changed to theft. This also lacked evidence.</p>
+               <p>Hard pressed, the court decided on a charge of treason, based upon the fact that
+                     <persName type="nativeamerican" key="#aga">Garra</persName> had not paid his
+                  county taxes, and sentenced him to death.</p>
+               <p><persName type="nativeamerican" key="#aga">Garra</persName> joked with the firing
+                  squad as they marched him out of his cell. <rs><persName type="missionfather"
+                        key="#priest1">The attending priest</persName></rs> reprimanded him for his
+                  levity and said that his last minutes might more appropriately be spent in
+                  prayer.</p>
+               <p>To which <persName type="nativeamerican" key="#aga">Garra</persName> replied:
+                  "What is the reason? I am nothing. You are nothing. This, too, is nothing. "</p>
+               <p>And then, as the procession set off for the grave, he expressed the desire to walk
+                  in front, but was overruled by <rs><persName type="missionfather" key="#priest1"
+                        >the priest</persName></rs>, who again found his attitude undignified.</p>
+               <p>"Why is it undignified? " <persName type="missionfather" key="#priest1"
+                     >Garra</persName> asked.</p>
+               <p><rs><persName type="missionfather" key="#priest1">The priest</persName></rs>
+                  brought the procession to a halt. "I insist that you be more solemn. Kneel and
+                  listen to me while I pray. "</p>
+               <p><persName type="nativeamerican" key="#aga">Garra</persName> said, "I will listen,
+                  if it pleases you. But I will not kneel."</p>
+               <p><rs><persName type="missionfather" key="#priest1">The priest</persName></rs> got
+                  down on his knees and began to pray, but, upset by what had transpired, botched
+                  his Latin.</p>
+               <p>"Pardon me, Father," <persName type="nativeamerican" key="#aga">Garra</persName>
+                  said, "but these are the words you should use for what you are trying to say." And
+                  he supplied them from his brief studies at <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the mission</orgName></rs>, years before.</p>
+               <p><rs><persName type="missionfather" key="#priest1">The priest</persName></rs> drew
+                  himself up and began an argument which lasted until they reached the grave. In a
+                  final effort to establish decorum, he suggested that <rs><persName
+                        type="nativeamerican" key="#aga">the Indian</persName></rs> ask the pardon
+                  of all those present.</p>
+               <p>With the rifles pointed at his heart, <persName type="nativeamerican" key="#aga"
+                     >Garra</persName> smiled and said, "Yes, gentlemen, I ask your pardon for all
+                  my offenses, and I pardon you in return."</p>
+               <p>The rifles put a period to his words and he fell into the open grave.</p>
+               <p><span type="trope" n="3">If <persName type="nativeamerican" key="#aga">Antonio
+                        Garra</persName> had killed fifty Americans or ten, his name like Geronimo's
+                     would be remembered, but he belonged to <orgName type="nativeamericantribes"
+                        key="#natam_Cupenos">a peaceful tribe</orgName> which lived amicably with
+                     each other and with the other tribes of <placeName type="region"
+                        key="#re_socal">Southern California</placeName>, whose lives are unknown
+                     because they went in peace. <name type="fictional" key="#kar">Karana</name>
+                     belonged to such a tribe.</span></p>
+               <p>Places I have known, creatures I have loved are in <emph>Island of the Blue
+                     Dolphins</emph>. The islands &#8212; <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, <placeName type="island" key="#i_scruz">Santa
+                     Cruz</placeName>, <placeName type="island" key="#i_sm">San Miguel</placeName>,
+                     <placeName type="island" key="#i_scatalina">Catalina</placeName>, <placeName
+                     type="island" key="#i_an">Anacapa</placeName>, <placeName type="island"
+                     key="#i_ts">Todos Santos</placeName>, <placeName type="island" key="#i_smar"
+                     >San Martín</placeName>, the <placeName type="island" key="#i_lc"
+                     >Coronados</placeName> &#8212; seen at dawn and at sunset, in all weathers over
+                  many years. Dolphin and otter playing. A mother gull pushing her grown brood from
+                  the nest, watching them plummet a hundred feet into the sea, then flying down to
+                  herd them onto their new home, a rock safe from the tide.</p>
+               <p>And finally there is <persName type="nativeamerican" key="#car"
+                     >Carolina</persName>, <rs><persName type="nativeamerican" key="#car">the
+                        Tarascan girl</persName></rs> of sixteen, who lived on the shores of
+                     <placeName type="region" key="#re_pat">Lake Pátzcuaro</placeName> in <placeName
+                     type="region" key="#re_cmex">central Mexico</placeName>. She was one of nine
+                  children, the oldest daughter of <persName type="nativeamerican" key="#pfl">Pedro
+                     Flores</persName> who took care of the small quinta <rs><persName key="#jod">my
+                        wife</persName></rs> and I had rented for the summer.</p>
+               <p><span type="trope" n="3"><orgName type="nativeamericantribes"
+                        key="#natam_Tarascan">The Tarascans</orgName> are a great people. They were
+                     never conquered by the <orgName type="nativeamericantribes" key="#natam_aztec"
+                        >Aztecs</orgName>, the only tribe, incidentally, that did not fall under the
+                     Aztec yoke.</span> Nor did the <name type="nationality" key="#spanish"
+                     >Spaniards</name>, led by the incredibly cruel <persName key="#nbu"
+                     >Guzman</persName>, subdue them. When the Conquistadores took their capital
+                  city of <placeName type="city" key="#ci_tz">Tzintsuntsan</placeName>, <placeName
+                     type="city" key="#ci_tz">The Place of the Hummingbirds</placeName>, tortured
+                        <rs><persName key="#nbu">their king</persName></rs> by dragging him around
+                  the city square attached to the tail of a horse and at last tossed him into a
+                  bonfire, <orgName type="nativeamericantribes" key="#natam_Tarascan">the
+                     Tarascans</orgName> retreated into the high mountains.</p>
+               <p><persName type="nativeamerican" key="#car">Carolina</persName> was tall for a
+                     <orgName type="nativeamericantribes" key="#natam_Tarascan">Tarascan</orgName>,
+                  with small bones but broad shoulders. Her eyes were black and deep-set, slanted at
+                  the corners, and her black hair fell heavily to her waist. She stood in her bare
+                  feet squarely on the earth as if growing from it.</p>
+               <p><persName type="nativeamericantribes" key="#car">Carolina</persName>, when she
+                  first came to work for us, wore a long red skirt of closely woven wool. As a bride
+                        <rs><persName type="nativeamerican" key="#flo">her mother</persName></rs>
+                  had received the gift of sixty yards of this red cloth from her betrothed, a
+                  custom of <orgName type="nativeamericantribes" key="#natam_Tarascan">the
+                     Tarascans</orgName>. With it, by winding it around and around her waist, she
+                  made a skirt. At night she used it as a blanket for herself and her husband, and
+                  later for their children, against the fierce cold of the mountains. For each girl
+                  child she cut lengths of the cloth and this in turn became a skirt. The red skirt,
+                  the <emph>falda roja</emph> which <persName type="nativeamerican" key="#car"
+                     >Carolina</persName> wore, came to her in this fashion. She wore it proudly, as
+                  a shield against the world, in the way <name type="fictional" key="#kar"
+                     >Karana</name> wore the skirt of cormorant feathers. The two girls are much
+                  alike.</p>
+               <p>Through them I wanted to say to children and to all those who will listen that we
+                  have a chance to come into a new relationship to the things around us. Once,
+                        <rs><date notBefore="1660" notAfter="1731">in Defoe's day</date></rs>, we
+                  were cunning manipulative children, living in a palace of nature. In her brief
+                  lifetime, <name type="fictional" key="#kar">Karana</name> made the change from
+                  that world, where everything lived only to be exploited, to a new and more
+                  meaningful world. She learned first that we each must be an island secure unto
+                  ourselves. Then, that we must "transgress our limits," in reverence for all
+                  life.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

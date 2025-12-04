@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#OxnardDailyCourier1928"
+                     >Oxnard Daily Courier</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">21</biblScope>
+               <biblScope unit="issue">125</biblScope>
+               <date when="1928-02-21"/>
+               <pubPlace><placeName type="city" key="#ci_oxnard">Oxnard</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#dne">D. A. R. Luncheon</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><orgName type="organization" key="#daughters">D. A.
+                     R.</orgName> LUNCHEON.</title></head>
+            <p>"<orgName type="organization" key="#daughters">The Daughters of the American
+                  Revolution</orgName> stand for national defense and try to offset the communistic
+               and pacifist propaganda in <rs><placeName type="country" key="#co_usa">this
+                     country</placeName></rs>," said <persName key="#abr">Mrs. Alfred
+                  Brosseau</persName>, of <placeName type="city" key="#ci_dc">Washington, D.
+                  C.</placeName>, president general of <orgName type="organization" key="#daughters"
+                  >the Daughters of the American Revolution</orgName> at a luncheon held <rs><date
+                     when="1928-02-18" cert="high">Saturday</date></rs> in the <placeName
+                  key="#biltmore">Biltmore</placeName>, at <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> by the <orgName type="organization" key="#dar_sb">Santa
+                  Barbara</orgName>, <orgName type="organization" key="#dar_lc">La Cumbre</orgName>
+               and <orgName type="organization" key="#dar_gw">Golden West</orgName> chapters of
+                  <orgName type="organization" key="#daughters">the D. A. R.</orgName> "<rs><orgName
+                     type="military" key="#mi_navy">Our navy</orgName></rs> is in a deplorable
+               condition and although we do not want to exceed other nations in our navy program, we
+               must at least equal theirs for our own national defense." <persName key="#abr">Mrs.
+                  Brosseau</persName> stated that she was cleaning up old snags during her
+               administration, which include the raising of the million dollars for <placeName
+                  key="#consthall">Constitution hall</placeName> [sic], the memorial to <persName
+                  key="#mharrison">Mrs. Caroline Scott Harrison</persName>, first president general;
+               the memorial to the four organizers of <orgName type="organization" key="#daughters"
+                  >the D. A. R.</orgName>, and the student loan fund, which aids those young men and
+               women who have such a desire for education that they will give their first earnings
+               after graduation to repay their debt. The outstanding national need of the <orgName
+                  type="organization" key="#daughters">D. A. R.</orgName>, she said, is a hall which
+               can accommodate the hundreds of delegates coming to the conventions in <placeName
+                  type="city" key="#ci_dc">Washington</placeName>. The new $1,000,000 proposed
+                  <placeName key="#consthall">Constitution hall</placeName> [sic] will meet all the
+               requirements. <persName key="#mmetclaf">Mrs. Winfield B. Metcalf</persName> announced
+               that a tablet to the "<rs><persName type="nativeamerican" key="#lw">Lost Woman of San
+                     Nicolas Island</persName></rs>," will be unveiled by the <orgName
+                  type="organization" key="#dar_sb">Santa Barbara chapter</orgName> at 2 o'clock
+                     <rs><date when="1928-03-03" cert="high">next Saturday</date></rs> afternoon in
+               the garden of the <rs><orgName type="mission" key="#mi_santabarbaramission">Old
+                     Mission</orgName></rs>. This will be the first public ceremony ever to be held
+               in the garden of the <rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission</orgName></rs>. Permission has been granted by <persName
+                  type="missionfather" key="#aug">Father Augustine</persName> in honor of <persName
+                  key="#abr">Mrs. Brosseau</persName>. <orgName type="organization" key="#dar_gw"
+                  >Golden West Chapter</orgName> of <placeName type="county" key="#co_ventura"
+                  >Ventura county</placeName> is among those invited to attend. More than 110
+               members were present at the luncheon including <persName key="#mmeyer">Miss Walter B.
+                  Meyer</persName> and <persName key="#mcerny">Mrs. James Cerny</persName> of
+                  <placeName type="city" key="#ci_oxnard">Oxnard</placeName>. At the speaker's table
+               were the following past regents in addition to <persName key="#abr">Mrs.
+                  Brosseau</persName> and <persName key="#emoss">Miss Ethel M. Moss</persName>, who
+               presided: <persName key="#mgarland">Mrs. Arthur Garland</persName>, <persName
+                  key="#mfinger">Mrs. Henry J. Finger</persName>, <persName key="#msawyer">Mrs. Guy
+                  P. Sawyer</persName>, <persName key="#mkirk">Mrs. Charles Kirk</persName>, Mrs.
+               Winfield B. Metcalf, <persName key="#mbradley">Mrs. Mark Bradley</persName>,
+                  <persName key="#mherbert">Mrs. Clara E. Herbert</persName>, <persName
+                  key="#mkaime">Mrs. N. S. Kaime</persName> and <persName key="#mjackson">Mrs. Fred
+                  Jackson</persName>. <persName key="#emas">Miss Elizabeth Mason</persName>, regent
+               of <orgName type="organization" key="#dar_lc">La Cumbre chapter</orgName>, <persName
+                  key="#mpiper">Mrs. O. H. Piper</persName> of the <orgName type="organization"
+                  key="#dar_gw">Golden West chapter</orgName>, <persName key="#mpaulton">Mrs.
+                  William Paulton</persName> and <persName key="#mwells">Mrs. C. W. Wells</persName>
+               also were at the table. <persName key="#mmeyer">Mrs. Meyer</persName> reported a
+               charmingly appointed luncheon, pastel sweetpeas forming the floral decoration.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
