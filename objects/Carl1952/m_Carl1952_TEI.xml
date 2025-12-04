@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#wfolk">Western
+                     Folklore</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">1</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <date when="1952-04"/>
+               <pubPlace><placeName type="city" key="#ci_lb">Long Beach</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Carl1952">The Lost Woman of San Nicolas Island</title>
+                  <biblScope unit="page" from="123" to="124"/>
+                  <author><persName type="author" key="#rca">Carl, Robert L.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div type="section">
+               <head><title type="main">Notes and Queries</title></head>
+               <p>[<persName type="group" key="#sbh; #atay">The editors</persName> will welcome as
+                  contributions to this section of <emph><orgName type="publication" key="#wfolk"
+                        >Western Folklore</orgName></emph> small items of traditional materials and
+                  inquiries designed to elicit information about such materials. In general,
+                  discussion of the materials here offered will be brief. Records of facts likely to
+                  be lost or overlooked and inquiries which our readers may be able to answer will
+                  be the typical items.]</p>
+            </div>
+            <div type="section">
+               <p><supplied>[...]</supplied></p>
+            </div>
+            <div type="section">
+               <head><title type="section">
+                     <emph><rs><persName type="nativeamerican" key="#lw">The Lost Woman of San
+                              Nicolas Island</persName></rs></emph>.&#8212;</title></head>
+               <p><span type="trope" n="6">Off the coast of <placeName type="state" key="#st_cal"
+                        >California</placeName> stands <placeName type="island" key="#i_sn">San
+                        Nicolas Island</placeName>, once populated by <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">a tribe of
+                           peaceful seagoing Indians</orgName></rs>. So peaceful, in fact, that
+                     history recounts it led to their downfall and ultimate virtual extinction years
+                     before American pioneers fought their way through other Indian tribes in order
+                     to reach <placeName type="region" key="#re_local"
+                     >California</placeName>.</span></p>
+               <p>Because of constant raids by <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts">the Russian[s] and
+                     Aleuts</persName></rs>, these <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">island Indians</orgName></rs> were rescued back
+                  in <date when="1835">1835</date> by the <rs><orgName type="missionfathers"
+                        key="#misfats">Spanish padres</orgName></rs> of the <rs><orgName
+                        type="mission" key="#mi_mainlandmissions">mainland missions</orgName></rs>
+                  and from this results the strange tale of <rs><persName type="nativeamerican"
+                        key="#lw">the lost woman of San Nicolas</persName></rs>.</p>
+               <p><span type="trope" n="9">When <rs><name type="ship" key="#sh_peoresnada">the
+                           rescue ship</name></rs> was about to sail, <rs><persName
+                           type="nativeamerican" key="#lw">one of the women</persName></rs> jumped
+                     overboard crying that <rs><persName type="nativeamerican" key="#lwchild">her
+                           child</persName></rs> had been left behind.</span> Then, according to
+                  legend, a sudden storm drove <rs><name type="ship" key="#sh_peoresnada">the
+                        ship</name></rs> to sea before <rs><persName type="nativeamerican" key="#lw"
+                        >the woman</persName></rs> could return to <rs><name type="ship"
+                        key="#sh_peoresnada">the ship</name></rs> with <rs><persName
+                        type="nativeamerican" key="#lwchild">her baby</persName></rs>. <persName
+                     type="group" key="#bhagroup">The Indians</persName> aboard <rs><name
+                        type="ship" key="#sh_peoresnada">the ship</name></rs> were landed on
+                     <placeName type="city" key="#ci_sp">San Pedro</placeName> and taken to the
+                     <orgName type="mission" key="#mi_sg">Mission San Gabriel</orgName> where they
+                  soon died.</p>
+               <p>It wasn't until <date when="1853">1853</date>, some <rs><date from="1835"
+                        to="1853">eighteen years later</date></rs>, that <persName
+                     type="missionfather" key="#jru">Padre Gonzales</persName> of the <orgName
+                     type="mission" key="#mi_santabarbaramission">Santa Barbara Mission</orgName>
+                  induced <persName type="frontiersman" key="#gni">Captain George
+                  Nidever</persName>, an otter hunter, to attempt a trip to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> in order to find <rs><persName
+                        type="nativeamerican" key="#lw">the lost woman</persName></rs>. <persName
+                     type="frontiersman" key="#gni">Captain Nidever</persName> made three trips to
+                        <rs><placeName type="island" key="#i_sn">the wind-swept
+                     island</placeName></rs>, the last time taking <rs><persName type="group"
+                        key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">a group of Barbareno
+                        Indians</persName></rs>, who combed <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> from one end to the other. After an arduous
+                  search a basket filled with feathers was uncovered. Searchers scattered the
+                  feathers but later found them all back in the basket and redoubled their
+                  efforts.</p>
+               <p>It was <persName type="frontiersman" key="#gni">Captain Nidever</persName> who
+                  came upon <rs><persName type="nativeamerican" key="#lw">the lost
+                     woman</persName></rs> as she was skinning a seal in front of three small huts
+                  made of whale ribs. <rs><persName type="nativeamerican" key="#lw">The
+                        woman</persName></rs> showed no sign of being frightened and offered
+                        <rs><persName type="frontiersman" key="#gni">her visitor</persName></rs>
+                  food. <span type="trope" n="10"><span type="trope" n="13"><span type="trope"
+                           n="11">By signs she indicated <rs><persName type="nativeamerican"
+                                 key="#lwchild">her baby</persName></rs> had been killed years
+                           before. She told <rs><persName type="frontiersman" key="#gni">her
+                                 rescuer</persName></rs> how she had existed on sea food and seals
+                           killed with crude stone weapons, she showed them well-hidden caves and
+                           canyons where she hid when <rs><persName type="group"
+                                 key="#rfurcompany; #iba; #natam_aleuts">marauding Russians and
+                                 Aleuts</persName></rs> visited <rs><placeName type="island"
+                                 key="#i_sn">the lonely isle</placeName></rs> on foraging
+                           expeditions.</span></span></span></p>
+               <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> and
+                        <rs><persName key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his
+                        group</persName></rs> returned with her to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> where she created a great deal of
+                  excitement. It is reported that the <orgName type="mission"
+                     key="#mi_santabarbaramission">Santa Barbara Mission</orgName> where
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+                  staying, turned down a fabulous offer for her to join <rs><persName type="seaman"
+                        key="#tru">a circus</persName></rs> side show and tour the world.</p>
+               <p>Food on <rs><placeName type="region" key="#re_mld">the mainland</placeName></rs>
+                  was new to her, however, and the shock to her system after forty-five years of
+                  existing on sea food and seal meat soon caused her death.</p>
+               <p>Her dress of bird skins, her trinkets including woven grass bottles and wooden
+                  knives were sent to the <orgName type="museum" key="#mu_vaticanmuseum">Vatican
+                     Museum</orgName> in <placeName type="city" key="#ci_rom">Rome</placeName>,
+                  although history recounts some were destroyed in the great <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName> fire of <date when="1906"
+                  >1906</date>.</p>
+               <p><span type="trope" n="6">Her death marked the passing of the last living Channel
+                     Island Indian. She was the sole survivor of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">a hardy race of
+                           peaceful seagoing Indians</orgName></rs>, who had known a "shangri-la"
+                     for hundreds of years.</span></p>
+               <byline><persName type="author" key="#rca">ROBERT L.CARL</persName>
+                  <emph><placeName type="city" key="#ci_la">Los Angeles</placeName></emph></byline>
+            </div>
+            <div type="section">
+               <p><supplied>[...]</supplied></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
