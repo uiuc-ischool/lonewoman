@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper" key="#pittpress">Pittsburg Press</title>
+               <editor/>
+               <publisher/>
+               <biblScope unit="volume" n="21"/>
+               <biblScope unit="issue" n="39"/>
+               <date when="1904-02-09"/>
+               <pubPlace><placeName type="city" key="#ci_pittsburg">Pittsburg</placeName>,
+                     <placeName type="state" key="#st_penn">Pennsylvania</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#ThePittsburgPress1904">Relics Of A Vanished Race:
+                     Found On a Lonely Island Of California</title>
+                  <biblScope unit="page" n="17"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">RELICS OF <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">A VANISHED RACE</orgName></rs></title>
+               <title type="sub">Found on <rs><placeName type="island" key="#i_sn">a Lonely
+                        Island</placeName></rs> Off <placeName type="state" key="#st_cal"
+                     >California</placeName>.</title></head>
+            <p>Students of anthropology and ethnology are manifesting a lively interest in the
+               explorations now being conducted on the <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName>, off the coast of <placeName type="state" key="#st_cal"
+                  >California</placeName>, by some 25 young men of the <orgName type="museum"
+                  key="#mu_smithsonian">Smithsonian Institution</orgName> and <orgName
+                  type="institution" key="#stanford">Leland Stanford University</orgName>. The
+               exploring expedition has been at work several weeks and the news now comes from
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> that the
+               field has been found so interesting that the exploration will continue until
+                     <rs><date notBefore="1904-03" notAfter="1904-05">early
+               spring</date></rs>&#8212;probably longer. <rs><date when="1894">Ten years
+                  ago</date></rs> the late <persName key="#hearst">Senator Hearst</persName>, of
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName>, offered to sustain
+               an expedition of scientists, who should spend a summer season in exploring <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> and <placeName type="island"
+                  key="#i_scl">San Clemente</placeName> Islands, and to give the results of their
+               finds to the <rs><orgName type="institution" key="#in_ucb">State University at
+                     Berk[e]ley</orgName></rs>, in <placeName type="state" key="#st_cal"
+                  >California</placeName>; but there arose such a feeling of jealousy among several
+               of the leaders in the proposed expedition that <rs><persName key="#hearst">the
+                     senator</persName></rs> withdrew his offer.</p>
+            <p><span type="trope" n="5">The <placeName type="island" key="#i_chi">Channel
+                     Islands</placeName> constitute California's only archipelago with the possible
+                  exception of the <placeName type="island" key="#i_far">rocky and scanty Farallone
+                     Islands</placeName>. <rs><placeName type="island" key="#i_chi">The
+                        former</placeName></rs> have been objects of romantic legends, curiosity and
+                  mystery for a generation or more. Notwithstanding all <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs> are within 82 miles of the
+                     <placeName type="region" key="#re_calcoast">California shore</placeName>, they
+                  are solitary and unfrequented, and years roll by without visits to them of more
+                  than 20 people annually. Each island has its own particular, strange, uncanny
+                  traditions, and each has countless traces of occupation by thousands of
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                        >Indians</orgName></rs>.</span><span type="trope" n="6">When <persName
+                     type="seaman" key="#jca">Juan Rodriquez Cabrillo</persName>, the Portuguese
+                  navigator, sailed up the <placeName type="region" key="#re_calcoast">coast of
+                     California</placeName>, in <date when="1542">1542</date>, he stopped for a day
+                  or two at each of the <placeName type="island" key="#i_chi">Channel
+                     Islands</placeName>, and his records bear testimony that on the Islands of
+                     <placeName type="island" key="#i_sb">Santa Barbara</placeName>, <placeName
+                     type="island" key="#i_scatalina">Catalina</placeName>, <placeName type="island"
+                     key="#i_scl">San Clemente</placeName> and <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName> there were "<rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a
+                        vigorous and lusty race of natives</orgName></rs>, who thronged the shores
+                  of the little bays and headlands" and gazed in mute wonder at <rs><name
+                        type="ship" key="#sh_salvador; #sh_lavictoria">the white-sailed
+                     ships</name></rs> of <rs><persName type="group" key="#jca; #bfe">the
+                        navigators</persName></rs>. Today <rs><placeName type="island" key="#i_chi"
+                        >the islands</placeName></rs> stand as they did over 350 years ago, but
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        natives</orgName></rs> are only a memory, represented by immense quantities
+                  of stone implements, barrels of fine wampum and literal carloads of human
+                  bones.</span><placeName type="island" key="#i_sn">San Nicolas Island</placeName>,
+               which lies 80 miles immediately opposite the little City of <placeName type="city"
+                  key="#ci_ven">Can [sic] Buenaventura</placeName> (recently called by the more
+               modern and easy name of <placeName type="city" key="#ci_ven">Ventura</placeName>), is
+               the most interesting of all the <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName> from many points of view. As far back as the memory of any
+               person in <placeName type="region" key="#re_socal">Southern California</placeName>
+               runs, hundreds of white skeletons have dotted the valleys and hillsides. <span
+                  type="trope" n="5">Strange utensils of serpentine, sandstone and steatite are
+                  found there among the human bones, and <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> and <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">its inhabitants</orgName></rs> have a history so
+                  curious that it is difficult of comprehension.</span></p>
+            <p>Nothing more desolate than the general appearance of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> can be imagined. As far as the eye can
+               trace there are innumerable circular depressions, showing where primitive dwellings
+               once stood. Not a vestige remains of the materials used in the construction of these
+               rancherias. Hundreds of shell mounds are scattered about, and are found to consist of
+               astonishing numbers of mollusks, the bones of every species of fish found in the
+               channel, skeletons of seals, sea elephants, whales, sea otter, the island fox and
+               various aquatic birds. Without question these animals were used for food by
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     tribes</orgName></rs> that once thronged these boundaries. There are also
+               numerous canine skeletons, several of which indicate a species of bull terrier.
+               Judging from the immense quantities of dead land mollusks everywhere there must have
+               been a time when <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+               supported luxuriant vegetation. Of all this verdure nothing is seen to-day but a few
+               stunted thorn bushes, and now and then a cactus forlornly reaching its grotesque arms
+               out of the interminable sweeps of sand.</p>
+            <p>An examination of some of the mounds disclose[s] all sorts of curious utensils, stone
+               cooking pots, water ollas, mortars, pestles, drills, bone needles and fishhooks,
+               shell beads, charm stones, pipes, cups and a few arrow heads, spear points and swords
+               made of bone. <span type="trope" n="3">The absence of many weapons proves the
+                  peaceful attributes of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the islanders</orgName></rs>. Small imitations
+                  of boats and fishes carved from crystallized talc and serpentine also show a
+                  rudimentary knowledge of the art of sculpture.</span> In many places conical piles
+               of small black pebbles contrast oddly with white sand. In some instances these
+               pebbles were closely packed in abalone shells. No trace is seen of the "brush pens,"
+               in which the <rs><persName type="nativeamerican" key="#lw">lone woman of San
+                     Nicolas</persName></rs>
+               <rs><date from="1835" to="1853">for years</date></rs> found her only shelter from the
+               cutting wind and sand. Nature, ever unmindful of the individual, long since merged
+               the superhuman efforts of <rs><persName type="nativeamerican" key="#lw">this
+                     courageous life</persName></rs> into the universal fate of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">an entire
+                     race</orgName></rs>. Indeed, <span type="trope" n="6">every foot of
+                        <rs><placeName type="island" key="#i_sn">this strange
+                     island</placeName></rs> is eloquent of the extinction of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">an almost unheard of
+                        people</orgName></rs>.</span>&#8212;<rs><title type="article"
+                     key="#TheBrooklynDailyEagle1904">Brooklyn Eagle</title></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
