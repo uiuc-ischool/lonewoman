@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#latimesmag">Los Angeles
+                     Times Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">55</biblScope>
+               <date when="1936-08-09"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Bennett1936">Mrs. Robinson Crusoe: She Lived Isolated,
+                     for Eighteen Years on San Nicolas—Off our Southern California Shores. When They
+                     Rescued Her She Withered and Died in the Discomfort of our Cramped
+                     Civilization</title>
+                  <biblScope unit="page" n="3"/>
+                  <biblScope unit="page" n="14"/>
+                  <author><persName type="author" key="#wbe">Bennett, William
+                     Crosby</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">MRS. ROBINSON
+                        CRUSOE</persName></rs></title></head>
+            <byline>&#8212; BY <persName type="author" key="#wbe">WILLIAM CROSBY
+               BENNETT</persName></byline>
+            <p><span type="trope" n="8">She lived, isolated, for <rs><date notBefore="1835"
+                        notAfter="1853" cert="high">eighteen years</date></rs> on <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>&#8212;off our <placeName
+                     type="region" key="#re_socalcoast">Southern California
+                  shores</placeName>.</span>
+               <span type="trope" n="3">When they rescued her she withered and died in the
+                  discomfort of our cramped civilization[.]</span></p>
+            <p><span type="trope" n="8">THE original of Daniel Defoe's <name type="fictional"
+                     key="#rcr">Robinson Crusoe</name> was, as everyone knows, a sailor named
+                     <persName type="seaman" key="#ase">Alexander Selkirk</persName>, who, from
+                     <date when="1704">1704</date> to <date when="1709">1709</date>, was marooned on
+                  the island of <placeName type="island" key="#i_jf">Juan Fernandez</placeName>, 300
+                  miles west of <placeName type="country" key="#co_chile">Chile</placeName>, and
+                  from this bare record <rs><persName type="author" key="#dde">the
+                     author</persName></rs> made his masterpiece of ingenuity, reflection and
+                  adventure&#8212;a shrine destined to live as long as youthfulness exists in the
+                  world; but few are aware that a century and a half later, <rs><persName
+                        type="nativeamerican" key="#lw">another forlorn creature</persName></rs>
+                  dwelt alone on <rs><placeName type="island" key="#i_sn">an uninhabited
+                        island</placeName></rs>, off our <placeName type="region" key="#re_calcoast"
+                     >California coast</placeName>. And to make matters worse, this time it was
+                        <rs><persName type="nativeamerican" key="#lw">a female
+                     Crusoe</persName></rs>. Against Selkirk's five years' isolation, <rs><persName
+                        type="nativeamerican" key="#lw">this poor thing</persName></rs> lived in
+                  solitude for <rs><date notBefore="1835" notAfter="1853" cert="high"
+                        >eighteen</date></rs>, without even a man <name type="fictional"
+                     key="#friday">Friday</name> for company, and she probably would have ended her
+                  life on <rs><placeName type="island" key="#i_sn">this rugged crumb of land in the
+                        Pacific Ocean</placeName></rs>, unknown and unsung, had it not been for a
+                  chance discovery of her presence there.</span></p>
+            <p><span type="trope" n="4">It was on a sunny day in <date when="1835-07">July,
+                     1853</date>, that <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">a party of otter
+                        men</persName></rs> from <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> anchored <rs><name type="ship" key="#sh_nidever">their
+                        schooner</name></rs> off the northeastern coast of the Island of <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>, some eighty or ninety miles
+                  distant, and established a camp on shore. The party consisted of <persName
+                     type="frontiersman" key="#gni">Capt. Nidiver</persName>, a man named
+                        <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs>,
+                        <rs><persName type="frontiersman" key="#col">an Irish cook</persName></rs>
+                  and <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">a crew of
+                        mission Indians</persName></rs>. The evening after their arrival
+                        <rs><persName type="frontiersman" key="#gni">the captain</persName></rs> and
+                        <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> strolled
+                  a mile or so down the beach, enjoying their pipes and making plans for their work.
+                  It was a moonlight [moonlit] night, almost as bright as day, with the stars
+                  shining large and clear from a low sky. As they were about to retrace their steps
+                  toward the camp <persName type="frontiersman" key="#gni">Nidiver</persName>
+                  stopped suddenly, looked hurriedly around, and then knelt on his knee to examine
+                  the ground. Plainly outlined on the shore was the print of a slender, naked
+                  foot!</span></p>
+            <p><span type="trope" n="4">"My God!" <rs><persName type="frontiersman" key="#gni">the
+                        captain</persName></rs> exclaimed. "There is a woman on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>!" At dawn the next day
+                  he and <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> returned
+                  to the spot and found a basket of rushes hanging from a tree. It contained bone
+                  needles, thread made of sinews, shell fish-hooks, ornaments and a partly completed
+                  robe of birds' plumage, the feathers pointing downward, and so skillfully matched
+                  as to seem one continuous sheen of changeful luster. <persName type="frontiersman"
+                     key="#gni">Nidiver</persName> proposed leaving the things untouched, but
+                        <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> scattered
+                  them about, saying that if they were picked up it would be proof <rs><persName
+                        type="nativeamerican" key="#lw">the owner</persName></rs> was alive and had
+                  visited the place. Extending their search inland, they discovered several
+                  circular, roofless inclosures, made of woven brush. Near these shelters were
+                  poles, with dried meat hanging from elevated cross-pieces. In the fissures of the
+                  rocks, near a spring of fresh water, were wedged dried fish and seal blubber; but
+                  there was no sign of the near presence of <rs><persName type="nativeamerican"
+                        key="#lw">the one to whom the provisions
+               belonged</persName></rs>.</span></p>
+            <p><span type="trope" n="4">After several days' search <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> abandoned the task and started hunting the otters. This
+                  lasted for weeks and <rs><name type="ship" key="#sh_nidever">the well-loaded
+                        schooner</name></rs> was preparing for the return trip to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> when <persName
+                     type="frontiersman" key="#gni">Capt. Nidiver</persName> proposed further search
+                  for <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs>.</span></p>
+            <p><span type="trope" n="4">"If she is alive we ought to find her," he said. "If dead,
+                  we will look for her body even if we have to scrape <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> inch by inch."</span></p>
+            <p><span type="trope" n="4"><rs><persName type="frontiersman" key="#gni">The
+                        captain</persName></rs> ordered preparations made and <rs><persName
+                        type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        entire crew</persName></rs> started on what <rs><persName
+                        type="frontiersman" key="#col">the Irish cook</persName></rs> called a
+                  woman-ghost hunt. Near the head of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> they came across a bone house, skillfully interlaced
+                  with rushes. An olla and stove-in basket were near the door, but all around the
+                  weeds were untrampled and the whole place had a deserted look. Still <persName
+                     type="frontiersman" key="#gni">Nidiver</persName> urged <rs><persName
+                        type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his
+                        companions</persName></rs> on. After several days' march, a dangerous climb
+                  over slippery rocks brought them to a spot where there were fresh footprints made
+                  by the same slender naked foot. These were followed up the cliffs until they were
+                  lost in the thick moss that covered the ground. <rs><persName type="frontiersman"
+                        key="#cdi">Brown</persName></rs>, walking on ahead, sighted a moving object
+                  long way off on the hills. At first glance it appeared like a bird, but it moved
+                  about in such a singular manner that he advanced stealthily to find out what it
+                  really was. Drawing nearer, he was dumfounded [dumbfounded] to discover it was the
+                  head of a woman, barely visible above the low woven-brush sides of her roofless
+                  retreat in the bushes.</span></p>
+            <p>As <rs><persName type="frontiersman" key="#cdi">the sailor</persName></rs> approached
+               nearer, a pack of tamed wild dogs, crouching at the woman's feet, began to growl; but
+               without looking around she uttered a peculiar cry which immediately silenced them,
+               and they ran away to the hills. <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> halted within a few yards of her and, himself unseen,
+               watched every movement within the hut. Inside the inclosure was a mound of grass,
+               woven baskets filled with various articles and a rude knife made of a piece of iron
+               hoop, thrust into a wooden handle. A fire smoldered near and a pile of bones lay in
+               the ashes.</p>
+            <p><span type="trope" n="3">The complexion of <rs><persName type="nativeamerian"
+                        key="#lw">the woman</persName></rs>, he noted, was much fairer than the
+                  ordinary Indian, her personal appearance pleasing, features regular, her hair
+                  thick and brown, falling about her shoulders in a tangled mat.</span> From the
+               time he arrived within hearing, she kept up a continual talking to herself. She was
+               leaning forward, shading her eyes with her hand, watching the men from the schooner
+               crossing the flat land far below her dwelling. After looking at them for a while with
+               marked anxiety on her face, she crouched in terror, but immediately started up as if
+               to run. <rs><persName type="group" key="#msh; #poli; #nsk; #hva">The men on the
+                     flat</persName></rs> had not seen her, and <rs><persName type="frontiersman"
+                     key="#cdi">Brown</persName></rs>, putting his hat on the ramrod of his gun,
+               lifted and lowered it to attract their attention, and when he had done so, intimated
+               with signs that <rs><persName type="nativeamerian" key="#lw">the
+                  woman</persName></rs> was found, and that they should spread out in order to catch
+               her if she tried to escape.</p>
+            <p>Before <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> reached the cliff, <rs><persName type="frontiersman"
+                     key="#cdi">Brown</persName></rs> stepped around in sight and spoke. She gave a
+               frightened look, ran a few steps, but instantly controlling herself, stood still and
+               addressed him in an unknown tongue. She seemed to be between 40 and 50 years of age,
+               in fine physical condition, erect, with well-formed neck and [ar]ms and unwrinkled
+               face. She was dressed in a tunic-shaped garment, made of the satiny plumage of the
+               green cormorant, low in the neck, sleeveless, and reaching to the ankle. The dress
+               was similar to the one found in the tree. As <rs><persName type="group"
+                     key="#gni; #msh; #poli; #nsk; #hva">the men</persName></rs> came up, she
+               greeted them each in the way she had met <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs>, and with a simple dignity, not without its effect on
+               both Indians and white men, made them welcome and set about preparing [f]ood for them
+               from her scanty store.</p>
+            <p><span type="trope" n="1">There were several dialects spoken by <rs><persName
+                        type="group" key="#msh; #poli; #nsk; #hva">the Indian crew</persName></rs>,
+                  but none of them was able to converse with <rs><persName type="nativeamerican"
+                        key="#lw">the strange woman</persName></rs>, or understand a word she
+                  uttered, and they were obliged to let her know by signs that they were going to
+                  take her with them. <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> went through the motion of packing her things in
+                  baskets, shouldering them and walking in the direction of the beach. She
+                  understood instantly and made preparations to go with them. One of the heaviest
+                  loaded baskets she swung without any unusual effort over her back, and, taking a
+                  burning brand from the fire, followed after <rs><persName type="group"
+                        key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">the men</persName></rs> who
+                  were carrying her other possessions. Upon reaching <rs><name type="ship"
+                        key="#sh_nidever">the boat</name></rs>, she entered without hesitation,
+                  going forward to the bow, kneeling and holding to either side.</span> When
+                     <rs><name type="ship" key="#sh_nidever">the schooner</name></rs> was reached,
+               she went aboard without any trouble and sat down near the stove in the cabin and
+               quietly watched <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the men</persName></rs>
+               at their work. To replace her feather dress, which was subsequently sent to
+                  <placeName type="city" key="#ci_rom">Rome</placeName> and placed in the <orgName
+                  type="museum" key="#mu_vaticanmuseum">Vatican Museum</orgName>, <rs><persName
+                     type="frontiersman" key="#cdi">Brown</persName></rs> made her a petticoat of
+               ticking; and with a man's cotton shirt and gay handkerchief, her semi-civilized dress
+               was completed. While <rs><persName type="frontiersman" key="#cdi"
+                  >Brown</persName></rs> was sewing, she watched him closely and laughed at his
+               manner of using a needle. She showed him that her way was to puncture the cloth with
+               her bone needle and then put the thread through the holes. She signified that she
+               wished to try a threaded needle and <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> gave her sewing materials, but she could not thread the
+               needle. <span type="trope" n="10"><rs><persName type="frontiersman" key="#cdi"
+                        >Brown</persName></rs> did it for her and gave her an old coat of Capt.
+                  Nidiver's to mend, and while she took her first sewing lesson she told by signs
+                  portions of her life on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</span></p>
+            <p><span type="trope" n="10">From time to time she had seen ships pass, but none came to
+                  take her off. She watched as long as she could see them, and, after they were out
+                  of sight, she threw herself on the ground and cried, but after a time she walked
+                  over <rs><placeName type="island" key="#i_sn">the island</placeName></rs> until
+                  she forgot about it and could smile again. She had seen people on the beach
+                  several times. But she was afraid and hid until they had gone and then wept
+                  because she had not made herself known. She intimated that <rs><persName
+                        type="frontiersman" key="#cdi">Brown</persName></rs> had taken her by
+                  surprise and she would not run because she liked his face and felt he had been
+                  sent to take her to <persName type="group" key="#bhagroup">her people</persName>,
+                  who had gone away on <rs><name type="ship" key="#sh_peoresnada">a ship</name></rs>
+                  with white men. <rs><persName type="frontiersman" key="#cdi">The
+                     sailor</persName></rs> understood by her signs that at one time she had
+                        <rs><persName type="nativeamerican" key="#lwchild">a nursing
+                     baby</persName></rs>, which she represented by sucking her finger and placing
+                  her arm in the position of holding an infant at the breast. She waved her hand
+                  over the sea to indicate <rs><name type="ship" key="#sh_peoresnada">the
+                        ship</name></rs> sailed away, and then that she could not find <rs><persName
+                        type="nativeamerican" key="#lwchild">her child</persName></rs> and wept
+                  until she was very ill and lay prostrate for days in a bed of plants. She had
+                  nothing to eat but leaves. When she somewhat revived, she crawled to a spring and
+                  after a time, as her strength returned, she made a fire by rubbing a pointed stick
+                  she showed him along the groove of a flat stick until a spark was
+               struck.</span></p>
+            <p>Who was this mysterious woman? This was the question that <rs><persName
+                     type="frontiersman" key="#cdi">Brown</persName></rs> asked himself, and one
+               that naturally arises in our mind. In order to answer it in part, at least, it will
+               be necessary to begin quite far back in history. The <placeName type="island"
+                  key="#i_chi">Santa Barbara Islands</placeName>, on one of which this strangest of
+               strange romances was enacted, lie to the southward of the <placeName type="region"
+                  key="#re_sbchannel">Santa Barbara Channel</placeName>, <rs><placeName
+                     type="island" key="#i_an">the nearest of the group</placeName></rs> being some
+               twenty-five miles distant from <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. <rs><placeName type="island" key="#i_chi">The
+                     islands</placeName></rs> are named <placeName type="island" key="#i_an"
+                  >Anacapa</placeName>, <placeName type="island" key="#i_sr">Santa Rosa</placeName>,
+                  <placeName type="island" key="#i_sm">San Miguel</placeName>, <placeName
+                  type="island" key="#i_scruz">Santa Cruz</placeName>, <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>, <placeName type="island"
+                  key="#i_sb">Santa Barbara</placeName> and <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>. In the year <date when="1542">1542</date>, <persName
+                  type="seaman" key="#jca">Juan Rodriguez Cabrillo</persName>, the credited
+               discoverer of <placeName type="region" key="#re_spcal">California</placeName>, landed
+               on what is now known as <placeName type="island" key="#i_sm">San Miguel</placeName>
+               and christened it Isla de Posesion. He died on <rs><placeName type="island"
+                     key="#i_sm">the island</placeName></rs>
+               <rs><date when="1543">the following year</date></rs> and is buried in its sands,
+               although his grave has never been located. But delving still further into our
+               research we find that even berore Cabrillo's time <placeName type="region"
+                  key="#re_mld">the mainland</placeName> and <rs><placeName type="island"
+                     key="#i_chi">islands</placeName></rs> were inhabited by <rs><orgName
+                     type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a populous
+                     people</orgName></rs>, the origin of whom, however, is unknown.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas</placeName>, on which the scenes of
+               this wild romance are laid, was the outermost of <rs><placeName type="island"
+                     key="#i_chi">the group</placeName></rs>. It was at one time the abode of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                     people</orgName></rs> differing in customs and modes of life from those on
+                  <placeName type="region" key="#re_mld">the mainland</placeName> and neighboring
+                  islands.<span type="trope" n="3"> A scientist, named <persName type="author"
+                     key="#lce">De Cessac</persName>, engaged in collecting archeological specimens
+                  for the <orgName type="government" key="#gov_french">French government</orgName>,
+                  left a well authenticated record that the relics found on <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> were more elaborate and showed a superior
+                  workmanship to those he examined on the other islands and <placeName type="region"
+                     key="#re_mld">the mainland</placeName>.</span> He also found on <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> articles of warfare and domestic
+               use which evidently belonged to a northern tribe and were similar to those found by
+               him on the coast of <placeName type="region" key="#st_ak">Alaska</placeName>. Hence
+               he draws the inference that <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> was at one time the dwelling place of the north country
+               tribes.</p>
+            <p><span type="trope" n="11">It is also recorded that a ship from <placeName type="city"
+                     key="#ci_bo">Boston</placeName>, commanded by a <persName type="seaman"
+                     key="#whi">Capt. Whitmore</persName>, brought down from <placeName type="city"
+                     key="#ci_si">Sitka, Alaska</placeName>, a company of <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">Kodiaks</orgName> for the
+                  purpose of otter hunting on <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>. These were left as permanent settlers upon <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> and years of feud
+                  resulted in a massacre, in which every male islander was killed by the powerful
+                  and well-armed <orgName type="nativeamericantribes" key="#natam_kodiak"
+                     >Kodiaks</orgName>. The women were taken by <rs><orgName
+                        type="nativeamericantribes" key="#natam_kodiak">the victors</orgName></rs>,
+                  lived with them and bore children.</span>
+               <span type="trope" n="6">As the years passed <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> faded away strangely and rapidly, so that in <date
+                     when="1830">1830</date> less than twoscore men, women and children
+                  remained.</span></p>
+            <p>It was not until <date when="1835">1835</date> that the schooner <name type="ship"
+                  key="#sh_peoresnada">Peor es Nada</name>, commanded by <persName
+                  type="frontiersman" key="#iwi">Capt. Williams</persName>, collector of the port of
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName>, was sent by the
+                     <rs><persName type="group" key="#aji; #ndur; #misfats">church
+                     fathers</persName></rs> to fetch <persName type="group" key="#bhagroup">the
+                  benighted people of San Nicolas</persName> and place them under their spiritual
+               guidance. On the way over a severe storm suddenly overtook <rs><name type="ship"
+                     key="#sh_peoresnada">the ship</name></rs> and a landing on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> was made with extreme
+               difficulty. To make matters worse the wind continued to increase in fury. No time was
+               to be wasted. <persName type="group" key="#bhagroup">The islanders</persName>, some
+               twenty in number, were hurried in boats to <rs><name type="ship" key="#sh_peoresnada"
+                     >the schooner</name></rs> and she immediately set sail. In the excitement and
+               confusion it was not realized that <rs><persName type="nativeamerican" key="#lwchild"
+                     >an infant</persName></rs> had been left behind on <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>, but not many moments passed before
+                     <rs><persName type="nativeamerican" key="#lw">the frantic
+                  mother</persName></rs> made that fact known to <persName type="frontiersman"
+                  key="#chu; #iwi">the captain</persName> and with gestures implored him to return.
+               But on account of the storm and the fear of wrecking his vessel he dared not comply
+               with her request. <span type="trope" n="9">Finding it was useless and <rs><name
+                        type="ship" key="#sh_peoresnada">the ship</name></rs> was heading out to
+                  sea, <rs><persName type="nativeamerican" key="#lw">the mother</persName></rs>
+                  became desperate and in spite of all attempt[s] to detain her, threw herself into
+                  the water and started to swim toward the shore.</span> It was impossible to
+               attempt to save her and, as she soon vanished from sight in the terrific surf, she
+               was supposed to have perished.</p>
+            <p>After a rough passage, <rs><name type="ship" key="#sh_peoresnada">the
+                  schooner</name></rs> finally reached <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName>, where <persName type="group" key="#bhagroup">the
+                  islanders</persName> were sent to <placeName type="mission" key="#mi_sg">San
+                  Gabriel Mission</placeName>, fifteen miles away. It was the intention of <persName
+                  type="frontiersman" key="#iwi">Capt. Williams</persName> to return immediately to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> as soon as the storm
+               abated, to see if <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs> or <rs><persName type="nativeamerican" key="#lwchild"
+                     >child</persName></rs> were living, but <rs><name type="ship"
+                     key="#sh_peoresnada">the schooner</name></rs> received orders from the owners
+               to proceed at once to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               and thence to <placeName type="city" key="#ci_sf">San Francisco</placeName>. She
+               never reached <rs><placeName type="city" key="#ci_sf">the latter
+                  port</placeName></rs>, but was wrecked at the entrance to the <placeName
+                  type="region" key="#re_thegoldengate">Golden Gate</placeName>.</p>
+            <p><rs><date when="1850">Fifteen years</date></rs> passed and the uncertain fate of
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> and
+                     <rs><persName type="nativeamerican" key="#lwchild">child</persName></rs> was
+               forgotten apparently by everyone but <rs><orgName type="missionfathers"
+                     key="#misfats">the tender-hearted mission fathers</orgName></rs>. Vessels were
+               scarce, but in <date when="1850">1850</date> they managed to persuade one <persName
+                  type="seaman" key="#tje">Thomas Jeffries</persName>, who had come into the
+               possession of a small schooner, to visit <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and search for them. On his return he reported no sign
+               of human life there. But evidently <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> did not perish, although <rs><persName
+                     type="nativeamerican" key="#lwchild">her infant</persName></rs> did, and on
+                     <rs><placeName type="island" key="#i_sn">this sea-girt isle</placeName></rs>
+               she lived a solitary life for <rs><date notBefore="1835" notAfter="1853" cert="high"
+                     >eighteen years</date></rs>.</p>
+            <p>On arriving at <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                  <persName type="frontiersman" key="#gni">Capt. Nidiver</persName> placed
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> in the
+               care of <rs><persName key="#sni">his wife</persName></rs>. The news of her arrival
+               and her strange life spread rapidly, and the house was crowded with visitors. When
+               the ship <name type="ship" key="#sh_fremont">Fremont</name> came into port soon
+               after, <rs><persName type="seaman" key="#fremontcpt">the captain</persName></rs>
+               offered <persName type="frontiersman" key="#gni">Nidiver</persName> half of all he
+               would make if he would allow him to exhibit <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs> in <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName>. The offer was coldly refused. <persName type="frontiersman"
+                  key="#gni">Nidiver</persName> said that neither he nor <rs><persName key="#sni"
+                     >his wife</persName></rs> would for a moment consider that <rs><persName
+                     type="nativeamerican" key="#lw">the friendless creature</persName></rs> should
+               be made a show of for the curious.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The strange woman</persName></rs> was
+               bitterly disappointed when none of <persName type="group" key="#bhagroup">her
+                  kin</persName> could be found. <span type="trope" n="3">She was patient and
+                  cheerful, however, looking eagerly into every new face for recognition, and
+                  sometimes singing softly to herself. Soon she began to droop under civilization,
+                  probably missing the outdoor life of her island camp.</span> After a time she
+               became too weak to walk and was carried to the porch, where she dozed for hours in
+               the sunshine. Believing that a return to the old diet might help her, <persName
+                  key="#sni">Mrs. Nidiver</persName> procured seal meat and roasted it in ashes, but
+               when it was presented to her she could not eat the food. One day she fell from her
+               chair and immediately lapsed into unconsciousness. It was soon evident that she was
+               reaching the end of her life. <persName type="missionfather" key="#sanchez">Father
+                  Sanchez</persName>, a Catholic priest, was summoned and, after christening
+                     <rs><persName type="nativeamericant" key="#lw">the nameless
+                  creature</persName></rs> "Juana Marie," he administered the last rites of <orgName
+                  type="church" key="#ch_catholic">the church</orgName> to <rs><persName
+                     type="nativeamerican" key="#lw">the dying woman</persName></rs>. <span
+                  type="trope" n="3">Within the walled cemetery at the old <placeName type="mission"
+                     key="#mi_sb">Santa Barbara Mission</placeName>, under the shelter of its tower,
+                        <rs><persName type="nativeamerican" key="#lw">the heroine of San
+                        Nicolas</persName></rs> was interred and, to this day; should you ask, the
+                  Franciscan brothers will point out her grave.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

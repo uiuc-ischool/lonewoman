@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#harpers">Harper's New
+                     Monthly Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">97</biblScope>
+               <biblScope unit="issue">582</biblScope>
+               <date when="1898-11-01"/>
+               <pubPlace><placeName type="city" key="#ci_ithaca">Ithacay</placeName>, <placeName
+                     type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Bennett1898">Our Seaboard Islands of the
+                     Pacific</title>
+                  <biblScope unit="page" from="852" to="862"/>
+                  <author><persName type="author" key="#jbe">Bennett, John E.</persName></author>
+                  <note type="supplied">Sara can put document note here</note>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><placeName type="island" key="#i_chi">OUR SEABOARD
+                        ISLANDS</placeName></rs> ON <placeName type="region" key="#re_pacific">THE
+                     PACIFIC</placeName>.</title></head>
+            <byline>BY <persName type="author" key="#jbe">JOHN E. BENNETT</persName>.</byline>
+            <p>THERE are upon the southwest extremity of <placeName type="country" key="#co_usa">the
+                  United States</placeName>, and distributed along <rs><placeName type="region"
+                     key="#re_calcoast">the coast</placeName></rs> for three hundred miles, from the
+               latitude of <placeName type="city" key="#ci_sf">San Francisco</placeName> to that of
+                  <placeName type="city" key="#ci_sd">San Diego</placeName>, <rs><placeName
+                     type="island" key="#i_chi">certain islands</placeName></rs>, nine in number and
+               of various areas, about which neither geography nor history has much to say. These
+               are the only seaboard islands on <placeName type="region" key="#re_pacific">the
+                  Pacific</placeName> belonging to <orgName type="government" key="#gov_usa">the
+                  United States</orgName>, if we do not consider those of <placeName type="state"
+                  key="#st_ak">Alaska</placeName>, and those numerous tiny aits or eyots in the
+               waters of <placeName type="region" key="#re_sound">the Sound country</placeName>, nor
+                  <placeName type="island" key="#i_hawaii">the Hawaiian group</placeName>. There are
+               from <placeName type="region" key="#re_thegoldengate">the Golden Gate</placeName> to
+               the <placeName type="region" key="#re_britline">British line</placeName> a few rock
+               reefs or single cones sitting like black stacks here and there in the sea, and at
+               greater or less distances from the bluffy shores; but these have no claim to be
+               spoken of as islands; that dignity belongs alone to those insular elevations in the
+               ocean lying south of the thirty-eighth parallel, and ending, for us, at the
+                  <placeName type="region" key="#re_mexicanborder">Mexican boundary</placeName>.</p>
+            <p>Nature, however, taking no note of political division-lines, has not stopped at this
+               point the southern trend of her island deposition, but she has carried them on across
+               the line, along the mountainous coast of <placeName type="region" key="#re_baja"
+                  >Lower California</placeName>, where they are found under the names of San Marten,
+               San Geronimo, Cerros, Los Lobos, and so on, to the equator.</p>
+            <p>None of these are large, and the entire aggregate area of the nine belonging to us
+               does not exceed three hundred and fifty-one square miles, or less than two hundred
+               and twenty-five thousand acres. Separately they grade in size from one hundred and
+               seventy-six square miles, which is the area of <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>, to less than two square miles,
+               which is that of both <placeName type="island" key="#i_sb">Santa Barbara</placeName>
+               and the largest of <placeName type="island" key="#i_far">the Farallones</placeName>.
+               The others, measured in square miles, are <placeName type="island" key="#i_scruz"
+                  >Santa Cruz</placeName>, 115; <placeName type="island" key="#i_sr">Santa
+                  Rosa</placeName>, 112; <placeName type="island" key="#i_sm">San
+               Miguel</placeName>, 183; <placeName type="island" key="#i_scl">San
+                  Clemente</placeName>, 72; <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, 36; and <placeName type="island" key="#i_an"
+                  >Anacapa</placeName>, 12. They lie in the arid region, at an average distance of
+               thirty miles from <rs><placeName type="city" key="#re_mld">the
+                  mainland</placeName></rs>, and they are uniform in their aspect of desolation. For
+               the most part their surfaces present the characteristics of table-lands; some are
+               rounded hummocks; but <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName> is formed of two mountains, which pinch into sharp peaks
+               three thousand feet high, and spread below them a jumble of ridges and ravines, the
+               broken surface occasionally interrupted by small plateaus.</p>
+            <p><placeName type="island" key="#I_far">The Farallones group</placeName> is a granitic
+               dike, but the others are mostly lava. It is a heavy black basalt that lies massed in
+               its hardened meltings, and shows a surface often of smooth rounded lumps or
+               semi-spheroids, revealing the contracting effects of the extrusion of heat.</p>
+            <p>Sometimes along with the basalt there is country rock such as is found on
+                     <rs><placeName type="city" key="#re_mld">the mainland</placeName></rs>. This
+               rock has, by the action of the weather, become degraded, and often at the mouth of a
+               canyon on the lee side of <rs><placeName type="island" key="#i_far">the
+                     island</placeName></rs> there is spread a pleasant level of land. It has been
+               formed by the detritus borne down from the higher areas by the canyon's stream. This
+               has been deposited here, and it has built up the ocean floor beside the roots of
+                     <rs><placeName type="island" key="#i_far">the island</placeName></rs>. As it
+               arose, the sea was pushed back, until a little flat was made, and it stands there now
+               covered with its scrub oak, its juniper, or its wild gray grass, and meets the water
+               with a crescent shore, upon which the little wavelets softly lap as they rock in from
+               the stilly bay.</p>
+            <p>But upon the opposite side of <rs><placeName type="island" key="#i_far">the
+                     island</placeName></rs>, where the southwest winds, sweeping over the broad
+               field of the Pacific, throw the blue waters against the black gaunt rocks, the wild
+               elements war and play havoc. The white-frothed breakers roll and boom and burst, and
+               the feathery spray is flung high against the scowling cliffs, until their face is
+               varnished with a bath of spume.</p>
+            <p>And all along the cliffy coasts of <rs><placeName type="island" key="#i_chi">those
+                     sea-girt islands</placeName></rs> there have been hewn by the waves' resistless
+               action great caverns, with high arches above the entrances, and burrowed deeply by
+               successive chambers into the bowels of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs>. <placeName type="island" key="#i_scruz">Santa
+                  Cruz</placeName> abounds with these wonders of marine erosion, the largest of
+               which is <placeName type="region" key="#re_paintedcave">Painted Cave</placeName>. It
+               is a succession of arches, the outermost the highest, the others grading down as
+               depth in penetration is attained. Branching from either side of this range of
+               compartments are other openings, so that a labyrinth of recesses appears. For fifteen
+               hundred feet into the interior of the <placeName type="region" key="#re_paintedcave"
+                  >Painted Cave</placeName> the light will enter, and there can be seen upon the
+               walls and ceilings the infinite brilliant frescoes, red, green, yellow, and their
+               blends, deposited by the oozing mineral waters from above.</p>
+            <p>On the lee side of <rs><placeName type="island" key="#i_chi">the
+                  islands</placeName></rs> these grottos are floored with the stillest, softest,
+               serenest waters. The sea about the sheltered coasts is intensely blue and, when under
+               the shade of a bluff or beneath the roof of a cave, where the calms allay the waters
+               into glassy sheets, your boat will appear to be sitting upon the top of a neither
+               world, which spreads its innumerable population of fish and other life. Far down
+               gardens of maidenhair, algæ, and sea-ferns are seen, curved or laced by paths of
+               white sand, against which goldfish, the mackerel, sheep's-head and the yellowtail
+               show their floating bodies in repose, or moving slowly with rhythmic motion of gills
+               and tail. And over all that scene there is an atmosphere pellucid, balmy, soft as the
+               cloudless azure which overhangs it, and the sea is a shimmering breast of sunshine.
+               The breeze brushes your cheek like silken velvet, fans you into dreamy moods, or
+               suffuses you with gentlest slumbers.</p>
+            <p>But on the weather side of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> the water is rough, and this agitation of the surface
+               impairs your vision into the abyss below: a tapestry of froth edges the line of
+               shore, and the surging, ebullient billows drive in from the sea, plunge into the
+               caves, explode, roar, and fill them with their fury.</p>
+            <p>But the results of the erosion of the sea at the base of these island rocks are not
+               more curious than those of the rain and sun upon the cliffy faces of the lava.</p>
+            <p><span type="trope" n="5">The patient artists of nature have worked upon a surface
+                  scarified into strange devices by the contraction of the heated mass, and the wild
+                  scheme of embellishment has been accentuated and elaborated in remarkable details.
+                  What primarily were depressed lines have become deep gashes; smooth rounded bulges
+                  have been worn into jagged protuberances, sharp points, and keen hatchetlike
+                  blades of enormous size.</span></p>
+            <p><span type="trope" n="5">Much of this fantastic sculpturing strikingly resembles the
+                  effects of architecture. The castellated style predominates, and you are impressed
+                  with the profusion of spires, turrets, and towers, and parapets edging the outline
+                  of the tops with merlons and crenelles. And then there are Byzantium domes and
+                  Grecian columns, the entire filigreed with the tracery of the
+               arabesque.</span></p>
+            <p><span type="trope" n="5">And not alone have wave erosion and that of water from the
+                  clouds in their processes of island degradation wrought marvels in nature-carving,
+                  but the wearing action of the wind has been scarcely less effective. On <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>, more perhaps than upon any
+                  other of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>,
+                  is this phenomenon observable. Upon <rs><placeName type="island" key="#i_sn">this
+                        island</placeName></rs> there is a singular subsidence, forming a canyon
+                  some hundreds of feet deep and half a mile across. It contains many little peaks
+                  of cerulean slate draped with vari-colored foliage and sitting upon a ground of
+                  white sand which has been blown thither by the winds. These winds at some seasons
+                  strike strongly over <rs><placeName type="island" key="#i_sn">the
+                        islands</placeName></rs>, and effects of their exertions are everywhere
+                  presented. Now such is seen in a broad pebbly surface swept clean, the mosaics
+                  smoothly polished; again the feathery tiles have rasped the hard dark rocks,
+                  gouged them with the emaciated hollows, ofttimes threatening the very security of
+                  their posture. The sharp fine particles give teeth to the blasts, and these gnaw
+                  at the structure of whatever interposes.</span></p>
+            <p><span type="trope" n="5">At <placeName type="island" key="#i_far">the
+                     Farallones</placeName> the erosive agents have worked with queer caprice. This
+                  rock being granite, has been acted upon by the sea at all levels, and throughout
+                  the long period when it has been rising out of the watery depths. Through a long
+                  narrow hole, slanting, and communicating with the ocean, there comes at intervals
+                  a terrific stream of air, forced by the spasmodic heaving of the waves against the
+                  lower orifice.</span>
+               <rs><orgName type="government" key="#gov_usa">The government</orgName></rs>, which
+               uses <rs><placeName type="island" key="#i_far">this island</placeName></rs> for
+               light-house purposes, enclosed the upper end with the nozzle of a fog-horn, and every
+               few seconds there was blown an ear-splitting brawl, which was heard far out at sea
+               and above the din of the breaking rollers. It was allowed to roar only in foggy
+               weather, but it was eccentric in that it would only sound at high tide. When the tide
+               was low, although the weather might be very thick, the thing was silent. For lack of
+               its warning a ship went ashore upon the island rocks, and then it was that
+                     <rs><placeName type="island" key="#gov_usa">the government</placeName></rs>
+               abandoned its location on the wind hole and erected a steam-siren, or mechanical
+               fog-horn, which has since very faithfully performed the necessary service.</p>
+            <p><span type="trope" n="5">Another singular perforation in this island rock is a
+                  passageway about two hundred feet long, interested by several globose
+                  enlargements. One enters it on hands and knees, proceeds eighty feet, when it
+                  suddenly widens into a chamber about thirty feet in breadth and six or seven feet
+                  high. On the farther side the channel again contracts, proceeds, branches, becomes
+                  labyrinthine, and finally emerges to the surface in small unexplored holes. As
+                  though a ghastly circumstance was needed to make this boring grimly interesting,
+                  it is related that the first white person who entered this globular apartment
+                  found in it the skeleton of a woman. Her bones were delicate, and her teeth were
+                  freshly white. Who she was, how she came there, and for what reason, all this was
+                  sealed to the discoverer of her remains. These were withdrawn into the open and
+                  interred beneath a cairn of stones.</span></p>
+            <p>There is but little vegetation upon <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs>, and that much of the same character as is found upon
+                     <rs><placeName type="city" key="#re_mld">the mainland</placeName></rs>.
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>, however,
+               differing from the others in the numerous springs of fresh water&#8212;a circumstance
+               which has been availed of to make it a resort&#8212;has considerable verdure and may
+               groves of trees. Among these is the <emph>Lyono thamnus</emph>, a tree not found
+               elsewhere than upon <rs><placeName type="island" key="#i_chi">the
+                  islands</placeName></rs>. It has a stout branched trunk, and bears white blossoms
+               in June. <rs><placeName type="island" key="#i_scatalina">This island</placeName></rs>
+               is also decorated with various charming and refreshing flowers&#8212;white lilacs,
+               tree-poppies, and lavender, with ferns and lichens draping gloomy walls or weaving a
+               carpet over the broken surface. <placeName type="island" key="#i_scruz">Santa
+                  Cruz</placeName> also has a good stream of water, which allows the growth of
+               considerable vegetation.</p>
+            <p>But upon <rs><orgName type="island" key="#i_chi">the other islands</orgName></rs>
+               there is little else than a bleak desert, a waste of sand and cacti, the latter
+               interspersed with blackthorn, the glistening fleshy ice-plant covering terraces and
+               terraces of bluffs, which rise step by step to the plateaus above. A sparse growth of
+               grass brought up by the winter rains heightens the tawny aspect to a light faint
+               green, but the immense herds of sheep with which all these places are populated soon
+               eatthis off back to the bare brown earth; or if it is not devoured while green, it
+               dries into an ashy herbage&#8212;scant fodder for the hungry mouths.</p>
+            <p>These winter rains also supply the chief water sources of <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs>. They are caught in
+               holes in the rock surface called water-pots; in these the fluid collects, and for
+               several months after the lapse of the humid season it may remain sufficiently fresh
+               to be palatable: but after it stagnates or evaporates there is little of potable
+               moisture accessible, and vegetation would soon perish were it not for the heavy fogs,
+               which during three months of spring are so dense upon <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> and deposit such heavy dews as to
+               amount almost to showers. On <placeName type="island" key="#i_scl">San
+                  Clemente</placeName> there is a well from which a brackish liquid is pumped, and
+               on <placeName type="island" key="#i_far">the Farallones</placeName> there is a
+               mineral spring&#8212;pure water agreeably impregnated with iron and sulphur. But
+               beyond this the water-supply is not material, and frequently, in periods of long
+               drouths, with feed all consumed and water scarce, great sacrifices are made in sheep
+               life by the owners of these animals. There are in all perhaps sixty thousand sheep
+               maintained upon <rs><placeName type="island" key="#i_chi">the
+                  islands</placeName></rs>, and the number has a constant tendency to increase in
+               excess of the possible food-supply. When such a condition is conceived to have been
+               reached, a flat of wholesale execution goes out, and then it is that
+                  <emph>matanzas</emph>, or great abattoirs, are erected, in which thousands of
+               sheep are killed merely for their pelts, tallow, and glue. In <date when="1875"
+                  >1875</date>, on <placeName type="island" key="#i_scruz">Santa Cruz
+                  Island</placeName>, twelve thousand were thus slaughtered, and in <date
+                  when="1887">1887</date> twenty-five thousand were in like summary manner taken
+               off.</p>
+            <p>The few persons who herd these sheep comprise the populations of <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs>. An exception to this
+               is presented by <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, which, being a resort, has several thousand inhabitants,
+               gathered principally into its village, <placeName type="city" key="#ci_av"
+                  >Avalon</placeName>. The owners of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> are the proprietors of the sheep. In the early
+               fifties, when these lands were taken possession of, in some instances by the parties
+               who now own them, they were stocked with about two hundred sheep apiece. Fenced in by
+               their fluid barrier, there was no possibility of the animals' escaping, and small
+               danger of the preserved over being invaded by thieves. The stock was left to their
+               own shift, and their owners concerned themselves with other affairs in divers parts
+               of <placeName type="state" key="#st_cal">California</placeName>. But soon the sheep
+               had so multiplied that the island principalities came to be veritable El Dorados.
+               Thousands of dollars of annual income were derived from them, and are to-day, though
+               when first seized upon <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> were covered with heavy growths of rich grasses, which
+               had accumulated upon them through successive years of unmolestation, and which it
+               took even a large number of animals a long time to eat off, and the areas would then
+               support larger flocks than now. In those days, too, which were the early period of
+               California's settlement, the prices of wool and mutton were much in excess of present
+               quotations; so that a very few years of the earlier returns which these gentlemen
+               acquired through their island estates made them comfortably rich.</p>
+            <p>Of animals <emph>feræ naturæ</emph> upon <rs><placeName type="island" key="#i_chi"
+                     >these islands</placeName></rs> there are several species&#8212;wild hogs on
+                  <placeName type="island" key="#i_scruz">Santa Cruz</placeName> and <placeName
+                  type="island" key="#i_sr">Santa Rosa</placeName>, wild goats on <placeName
+                  type="island" key="#i_scatalina">Santa Catalina</placeName> and <placeName
+                  type="island" key="#i_scl">San Clemente</placeName>. Both of these were placed
+               there by whites, though the year of their introduction is not known. Originally
+               domestic, they have returned to a state of nature through neglect. Rats and mice are
+               also upon <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>,
+               having been cast thither by vessels wrecked upon their rocks; there are also a small
+               red fox and a skunk, which are indigenous mammals; but there are neither serpents,
+               frogs, not poisonous insects, these noxious things never having been transported
+               thither.</p>
+            <p>The tourist exploring the interior of the island caves will experience an unpleasant
+               shock when, after proceeding far into the grotto, he discovers that the place has
+               inhabitants; and the splash, panic, and roar which follow tell him that the occupants
+               are sea-lions. Quickly he must needs speed out, for they will plunge straight toward
+               him, dive under him, and he must be wary, else they will upset his boat, and once he
+               is in the water they will attack him, with possibly fatal results.</p>
+            <p>Sea-lions are abundant about all of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs>. At <placeName type="island" key="#i_an"
+                  >Anacapa</placeName> there is an enormous kelp-bed, where they breed and have
+               their metropolis. These carnivora are not fur-bearing, but are covered with hair
+               which grows upon a thick, unelastic hide. The hide has few uses, and the flesh is not
+               palatable, though Indians find many services for the former, and the latter has
+               furnished innumerable meals to both whites and natives. About <placeName
+                  type="island" key="#i_an">Anacapa</placeName>, too, there is a variety of
+               shell-fish, the most notable of which is the haliotis, or abalone. It is a univalve,
+               which seizes hold of a rock with its strong, muscular foot, and floats idly upward
+               upon the surface, its broad scooped shell shielding its body like a dark umbrella.
+               When disturbed it will suddenly contract, collapse, and its shell will be drawn over
+               the body tightly against the rock. These abalone are much sought, and their fisheries
+               sustain a numerous population of Italians and Chinese. The shell is iridescent, the
+               nacre being variegated blue and green or pink and white; they are exported to
+                  <placeName type="city" key="#ci_london">London</placeName>, where they are worked
+               up into mother-of-pearl of commerce, and so employed in the manufacture of buttons
+               and ornaments. The flesh of the animal is dried, and becomes a hard, soap-colored
+               ball as large as a woman's fist. It is sent to <placeName type="country"
+                  key="#co_china">China</placeName>, where it is used as food. The shells bring $30
+               per ton, while $90 is paid for a like quantity of the desiccated meat.</p>
+            <p>Upon <placeName type="island" key="#i_sn">San Nicolas</placeName>, the farthest
+               seaward of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>,
+               lying about sixty miles off shore, there are innumerable remnants of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">an aboriginal
+                     population</orgName></rs>. <span type="trope" n="5">Evidences appear upon all
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> of
+                  their [sic] having been the abode of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a race
+                        of people</orgName></rs> who have passed; but at <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> appear all the specimens that are found
+                  elsewhere, and many that have not been duplicated by any other spot. Immense
+                  mounds of abalone shells, some half an acre in extent, are among these
+                  curiosities, revealing the sites of periodic feasts of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        islanders</orgName></rs> upon this fish.</span> Among these piles are
+               scattered the shells of the limpey, mya, mussel, and other mollusks, while [white]
+               stone mortars and pestles, implements of bone and ornaments of teeth, are both
+               numerous and curious.</p>
+            <p>On a knoll two miles from <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> beach is an Indian burial-ground. A dozen or more grim
+               skeletons with their whitened skulls lie upon the shore, denuded of the sand in which
+               they were once interred. The wild winds have swept it away, and the rains and fogs
+               and the bleaching suns have been striving to dissolve and eradicate them, but they
+               still remain. Some of the skulls show evidences of the tragic manner in which
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">their
+                     owners</orgName></rs> met their deaths. <span type="trope" n="11"><orgName
+                     type="nativeamericantribes" key="#rfurcompany; #natam_inuit">The
+                     Innuits</orgName>, it is said, coming down from the Alaskan archipelagoes, fell
+                  upon <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">these
+                        harmless children of the south</orgName></rs>, massacred the man, and after
+                  a little while abandoned the women and the young, and carried off all they could
+                  steal.</span>
+               <span type="trope" n="3">This was long after <date when="1542">1542</date>, when
+                     <persName type="seaman" key="#jca">Cabrillo</persName>, the Spanish navigator,
+                  visited <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>,
+                  and found them tenanted by <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a mild
+                        and vigorous people</orgName></rs>, who, revelling [sic] in the soft ether
+                  of their climate, found their sustenance in the plenitudinous spontaneity of
+                  nature.</span></p>
+            <p>After the invasion of <orgName type="nativeamericantribes"
+                  key="#rfurcompany; #natam_inuit">the Innuits</orgName> and their departure,
+                  <persName type="group" key="#bhagroup">those who remaine</persName>d managed to
+               maintain themselves until <date when="1835">1835</date>, when <rs><persName
+                     type="group" key="#misfats; #ndur; #aji">the Franciscan friars</persName></rs>
+               went to <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>, and
+               gathering them all into boats, took them to <rs><placeName type="city" key="#re_mld"
+                     >the mainland</placeName></rs>, where they were mingled with <rs><orgName
+                     type="nativeamericantribes" key="#natam_missionindians">the
+                  neophytes</orgName></rs> of <rs><orgName type="mission" key="#mi_mainlandmissions"
+                     >the missions</orgName></rs>. It is related that after <rs><name type="ship"
+                     key="#sh_peoresnada">the last boat</name></rs> had pushed off from <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>
+               <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs> screamed for
+                     <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>,
+               which, in the excitement of the movement aboard the transports, she had forgotten.
+                  <span type="trope" n="9">She jumped out of <rs><name type="ship"
+                        key="#sh_peoresnada">the vessel</name></rs> and sped away to seek it.
+                        <rs><name type="ship" key="#sh_peoresnada">The boat</name></rs> continued
+                  its passage, and <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was left to her fate.</span>
+               <rs><persName type="nativeamerican" key="#lwchild">The baby</persName></rs> died, but
+                     <rs><persName type="nativeamerican" key="#lw">the lone and miserable
+                     creature</persName></rs> remained the solitary inhabitant of <rs><placeName
+                     type="island" key="#i_sn">the place</placeName></rs> for many year. In her old
+               age she was rescued and brought to <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, where she died soon after her arrival.</p>
+            <p>Of all the several islands <placeName type="island" key="#i_far">the
+                  Farallones</placeName> are the most remarkable, for the fact that they comprise
+               the rookeries of vast numbers of sea-fowl, which assemble there and breed. These lie
+               opposite <placeName type="region" key="#re_sfbay">the bay of San
+                  Francisco</placeName>, and they are used by <orgName type="government"
+                  key="#gov_usa">the government</orgName> for a light-house station. The maintenance
+               of this requires the residence upon <rs><placeName type="island" key="#i_far">the
+                     island</placeName></rs> of a small colony of persons who in the service of
+                  <orgName type="government" key="#gov_usa">the government</orgName> consent thus to
+               banish themselves from society. <rs><name type="ship" key="#sh_steamer1">The
+                     light-house steamer</name></rs> visits them every three months, then restocks
+               their larder. Aside from this their only communication with civilization is by an
+               occasional tag which may stop there to allow its captain to spy abroad from the
+               light-house tower for incoming craft. Sometimes such a landing is not possible, owing
+               to the height of the sea, and weeks may pass before the waters will subside so such
+               can be effected.</p>
+            <p>At nearly all times a strong cool wind prevails, and often in the afternoon it is
+               sifted through with fog. A high board fence has been erected to protect the
+               vegetation in the tiny patch of the light-house-tender's garden from being uprooted
+               by the wind. But even with that, plant life does not thrive&#8212;or rather it
+               thrives excessively, so that foliage becomes rank, and the fruit is a failure through
+               growing too fast. Cabbages spring up, rush quickly into an abundance of green heavy
+               leaves, but will not head. Onions and potatoes become immense in stalk and foliage,
+               but will not "bulb" or "tuber." The cause of this is the strong guano soil in which
+               the plants are grown; and the guano is deposited by the wild sea-fowl, which infest
+               all the <placeName type="island" key="#i_far">Farallones</placeName>, three in
+               number, making of them, in the opinion of ornithologists, the greatest bird islands
+               in the world.</p>
+            <p>There are eight varieties of these birds. They are the guillemot, commonly called the
+               murre, the gull, the auk or auklet, the sea-pigeon, the shag or cormorant, the ashy
+               petrel, the tufted puffin or sea-parrot, and the rock-wren. The first of these, the
+               murre, dominates in number and importance upon <rs><placeName type="island"
+                     key="#i_far">the island</placeName></rs>. It is a kind of duck, with a black
+               head, white breast, and bluish back, and sits upright like a penguin. Its food is
+               vegetable, dissection never having revealed the presence of fish. Its eggs are
+               valuable for food, and until recently and for many years they were extensively
+               gathers and sold in the <placeName type="city" key="#ci_sf">San Francisco</placeName>
+               market, about fifteen thousand dozen yearly being disposed of there, purchased mainly
+               by restaurants and boarding-houses, at an average price of twenty five cents per
+               dozen. The egg is about twice the size of that of a hen, is white or bluish-green,
+               and flecked with brown. When fresh it is indistinguishable from the hen product, but
+               it soon develops a fishy taste. The murre lays one egg upon a nest of roots or grass,
+               and proceeds to incubate the next generation. At night, when she is off duty, the
+               male succeeds her. If unmolested, the nest will thus be covered until the young is
+               hatched, when it will be guarded for a few weeks, then escorted off into the
+               indefinite distance of the sea.</p>
+            <p>But if the murre is disturbed by an egg-hunter and its single egg taken, it will
+               return and replace its successively stolen ovum until eight have been laid. It is
+               loath to leave its nest even when the despoiler approaches, and when he comes up she
+               leans away from him and moves over to the far side of the nest. But presently,
+               yielding to the alarm within her breast, she emits a sudden squawk and flies off,
+               flushing the entire rookery as she moves toward the sea, leaving the pickers to fill
+               their pouched shirts with the booty. They must hurry the work, for as soon as the
+               eggs are uncovered the gulls hover close and become thick upon the scene. These then
+               men much fight off, for they brazenly interpose themselves and battle with the humans
+               for the possession of the eggs.</p>
+            <p>The opportunity being open, the gull sweeps down upon the murre egg, seizes it in its
+               mouth and goes sailing aloft; cracks it in its bill and gobbles what of its contents
+               it can, the residue falling on the rocks below; then it takes another swoop away and
+               balances itself to spy out a new egg.</p>
+            <p>The gull's egg also is palatable. It is slightly smaller than that of the murre,
+               whitish and speckled, three eggs being a litter. The eggs of the other birds are
+               worthless for human uses, but their nests are raided by gulls and by each other. The
+               albuminous fluid of the cormorant egg will not coagulate, and the puffin's egg has a
+               repulsive fishy flavor. This bird has black plumage, with red beak and feet, while
+               the cormorant is a large light blue bird, and flies in pairs. The sea pigeon is dark
+               slate with some white in its wings; it has red feet, and lays a light blue egg. The
+               auk is as large as a pigeon, and is nocturnal in its habits. The patrel has a musky
+               smell, by the odor of which its nest is easily traceable.</p>
+            <p>The murres make their nests high up, and often in the open, but the others hide
+               theirs in the crevices of the rocks. Their note is loud, shrill, not pleasing to the
+               ear; all except the cheery little rock-wren, whose liquid warble is a sweet,
+               harmonious solo in the concern of shrieks and screams which ascend from the thousands
+               of feathered throats.</p>
+            <p>That <rs><placeName type="island" key="#i_chi">these islands</placeName></rs> were a
+               great repository of edible eggs became known in <rs><date notBefore="1850"
+                     notAfter="1859-12-31">the early fifties</date></rs>. At the time of the
+               discovery of this fact provisions were scarce and gold was plentiful in <placeName
+                  type="city" key="#ci_sf">San Francisco</placeName>, and the rookery eggs offered
+               in the markets of <rs><placeName type="city" key="#ci_sf">that city</placeName></rs>
+               brought one dollar a dozen. The opening of this new and free opportunity to acquire
+               wealth precipitated numbers of people upon <rs><placeName type="island" key="#i_chi"
+                     >the islands</placeName></rs> and in the business of egg-gathering. Quarrels
+               ensued between the competitors as to their respective "rights" in the premises, with
+               the result that a company was formed among a number of the pickers, which bought out
+               the claims of the others. This company managed to hold on to its advantages for some
+               years, not, however, without experiencing contests and encroachments, until the
+               bickerings ultimately grew so fierce as to attract the attention of the United States
+               district attorney at <placeName type="city" key="#ci_sf">San Francisco</placeName>.
+               He sent a detachment of government soldiers there and deported every egg-picker.</p>
+            <p>Following this the murres and gulls were permitted for a season to lay and hatch in
+               safety; but later, the government revealing no desire for revenue from the eggs,
+               those on the island allowed them to be picked on shares. This introduced a company of
+               about eighteen Greek and Italian egg-pickers into the nidus-robbing enterprise; but
+               disputes soon again arose, and ultimately to re-establish peace upon the islands it
+               became necessary to forbid permanently any traffic in the eggs. This has accordingly
+               been done by a recent order from Washington.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph">The Noontide Sun: The Field Journals of the Reverend Stephen
+                  Bowers, Pioneer California Archaeologist</title>
+               <publisher>Malki-Ballena Press</publisher>
+               <date when="1997"/>
+               <pubPlace><placeName type="city" key="#ci_ban">Banning</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Benson1997">Manuscript 6</title>
+                  <biblScope unit="page" from="230" to="235"/>
+                  <author><persName type="author" key="#abe">Benson, Arlene</persName></author><date
+                     when="1997"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <head><title type="main">MANUSCRIPT 6</title></head>
+         <p>[This fragment consists of pages 4 through 30 of what appears to be the first article in
+            a series; Manuscript 7 (below) seems to be the second. Beginning with information taken
+            from the journals of <persName type="seaman" key="#jca">Juan Rodriguez de
+               Cabrillo</persName>, the Portuguese explorer, and from various documents he found in
+            mission archives, <persName type="author" key="#sbo">Bowers</persName> appears to have
+            been searching for something that would shed light on the presumed disappearance of
+               <orgName type="nativeamericantribes" key="#natam_chumash">the Chumash</orgName>. This
+            initial section is followed by information obtained from <persName type="nativeamerican"
+               key="#omset">Omset</persName> (probably pronounced Omtset), an old Indian from
+               <placeName type="island" key="#i_sr">Santa Rosa Island</placeName>. <persName
+               type="nativeamerican" key="#omset">Omset</persName> told <persName type="author"
+               key="#sbo">Bowers</persName> that <rs><orgName type="nativeamericantribes"
+                  key="#natam_chumash">his tribe</orgName></rs> was called <orgName
+               type="nativeamericantribes" key="#natam_chumash">Chumash</orgName>. This name was
+            later adopted to identify the people of the <rs><placeName type="region"
+                  key="#re_calcoast">mainland coast</placeName></rs>, the <placeName type="island"
+               key="#i_chi">Channel Islands</placeName>, and the inland valleys who shared basic
+            linguistic and cultural traits. Although <persName type="author" key="#sbo"
+               >Bowers</persName> consistently called <rs><orgName type="nativeamericantribes"
+                  key="#natam_chumash">these people</orgName></rs> Santa Barbara Indians, he
+            apparently introduced the name Chumash into the literature. The next section of the
+            manuscript consists of an account of the <rs><persName type="nativeamerican" key="#lw"
+                  >Lone Woman of San Nicolas Island</persName></rs>, an Indian woman who was
+            abandoned on <rs><placeName type="island" key="#i_sn">this island</placeName></rs> for
+                  <rs><date notBefore="1835" notAfter="1853">nearly 20 years</date></rs>. Most of
+            the rest of the manuscript is devoted to descriptions of Chumash villages, with respect
+            to aesthetics and defense. Finally, <persName type="author" key="#sbo">Bowers</persName>
+            describes the "sweat lodge" of the California Indian, and includes a long and detailed
+            description of the architectural features of a Pomo dance house and of a dance held
+            within it. This description was copied by <persName type="author" key="#sbo"
+               >Bowers</persName> almost verbatim from a field notebook that is housed in the
+            Special Collections Library at the <orgName type="musuem" key="#mu_southwest">Southwest
+               Museum</orgName>. It was Bowers' custom to copy his notes, often word for word,
+            incorporating sections into finished manuscripts.]</p>
+         <div>
+            <p>[...]</p>
+            <p>About eighty miles southeast of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> is a <rs><placeName type="island" key="#i_sn">small
+                     island</placeName></rs>, some eight miles in length by three in breadth, named
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, which once supported
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a dense
+                     population</orgName></rs>. <span type="trope" n="3">As artificers in stone and
+                  bone they excelled <rs><orgName type="group"
+                        key="#natam_GabrilenoTongva; #natam_chumash">the inhabitants on the other
+                        islands</orgName></rs>, and those on the <placeName type="region"
+                     key="#re_mld">mainland</placeName>. The finest specimens of aboriginal
+                  workmanship I have seen in <placeName type="state" key="#st_cal"
+                     >California</placeName> came from <rs><placeName type="island" key="#i_sn">this
+                        island</placeName></rs>. But little is known of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     people</orgName></rs> who inhabited <placeName type="island" key="#i_sn">San
+                     Nicolas island</placeName>, except the records of the industry represented by
+                  these specimens.</span> Owing to its distance from the <placeName type="region"
+                  key="#re_mld">mainland</placeName> it seems not to have been discovered by
+                  <persName type="seaman" key="#jca">Cabrillo</persName>, <persName type="seaman"
+                  key="#gva">Vancouver</persName>, nor by any of the early or intermediate
+               explorers. It was visited by the early American fur traders, however, and was called
+               by them "Sea Otter Island." In the <date notBefore="1835-06" notAfter="1835-08"
+                  >summer of 1835</date> a <rs><name type="ship" key="#sh_peoresnada"
+                     >schooner</name></rs> was dispatched to <rs><placeName type="island"
+                     key="#i_sn">this island</placeName></rs> to bring off the <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">remnant of its
+                     inhabitants</orgName></rs>, now reduced to <persName type="group"
+                  key="#bhagroup">seventeen or eighteen individuals</persName>. The cause of their
+               declination is enshrouded in as great mystery as that of the <rs><orgName
+                     type="group" key="#natam_GabrilenoTongva; #natam_chumash">other
+                     islanders</orgName></rs>.</p>
+            <p>When all were supposed to be ready to sail, and <rs><name type="ship"
+                     key="#sh_peoresnada">the ship</name></rs> was about to weigh anchor,
+                     <rs><persName type="nativeamerican" key="#lw">one of the women</persName></rs>
+               requested permission to return for <rs><persName type="nativeamerican" key="#lwchild"
+                     >her child</persName></rs>, which she had left in a cañon nearby. But during
+               her absence a heavy wind commenced blowing and drove <rs><name type="ship"
+                     key="#sh_peoresnada">the vessel</name></rs> from <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>. In due time <rs><name type="ship"
+                     key="#sh_peoresnada">the schooner</name></rs> reached <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName> in <placeName type="county" key="#co_la">Los
+                  Angeles County</placeName>, where <persName type="group" key="#bhagroup">the
+                  Indians</persName> were landed, and she was immediately ordered north by her
+                     <rs><persName key="#jgo">owner</persName></rs>, but in attempting to enter the
+                  <placeName type="region" key="#re_thegoldengate">Golden Gate</placeName>, at
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName>, was capsized and
+               lost. <span type="trope" n="12">There being no other large craft on <rs><placeName
+                        type="region" key="#re_calcoast">this portion of the coast</placeName></rs>,
+                  no attempt was made to rescue this <rs><persName type="nativeamerican" key="#lw"
+                        >unfortunate woman</persName></rs>.</span> Indeed no effort was made to
+               learn her fate for <rs><date notBefore="1835" notAfter="1852">seventeen years
+                     afterward</date></rs>, although it was well known that she had been abandoned
+               on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. <span
+                  type="trope" n="4">In <date when="1851">1851</date>
+                  <rs><placeName type="island" key="#i_sn">the place</placeName></rs> was visited by
+                  a <rs><name type="ship" key="#sh_nidever">small schooner</name></rs> in quest of
+                  the eggs of waterfowl, when human tracks were discovered in the sand, which seemed
+                  to be those of a woman, but before search could be initiated a strong wind arose
+                  and drove <rs><persName type="group" key="#gni; #tje; #nativeamericans">the
+                        party</persName></rs> from <rs><placeName type="island" key="#i_sn">the
+                        inhospitable island</placeName></rs>. <rs><date when="1852">The following
+                        year</date></rs>
+                  <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was again
+                  visited by <rs><persName type="group" key="#gni; #cdi; #nativeamericans">this
+                        party</persName></rs>, who on going ashore found a large basket, woven from
+                  a species of grass, containing a gown made of bird's skins, a sinew rope, bone
+                  knife, fishhooks of shell, and other things, covered with the skin of a seal, but
+                  a second time they were driven from <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> by the wind.</span>
+               <span type="trope" n="1"><span type="trope" n="4">In the <date notBefore="1853-06"
+                        notAfter="1853-08">summer of 1853</date>
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was
+                     visited for the third time by <rs><persName type="group"
+                           key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">this
+                           party</persName></rs>, who succeeded in making a thorough exploration,
+                     finding the <rs><persName type="nativeamerican" key="#lw">object of their
+                           search</persName></rs> seated in a low circular enclosure of sage
+                     brush.</span> Within the enclosure was a smoldering fire, while without was a
+                  large pile of bones and another of ashes, showing this to have been her abode for
+                  several years. She was engaged in recovering the blubber from a seal skin, in
+                  which she employed a rude knife. She did not seem frightened, but met her
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >rescuers</persName></rs> with a smile and a bow. She wore a dress or gown made
+                  of bird skins, the feathers outside and pointing downward. Her hair was bleached
+                  by long exposure to a reddish brown, and hung down to her shoulders. <span
+                     type="trope" n="3">Her features were regular and her complexion fairer than the
+                     Indians on the mainland.</span> Though supposed to be about fifty years of age,
+                  her face was remarkably free from wrinkles. She willingly accompanied
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     party</persName></rs> on board their <rs><name type="ship" key="#sh_nidever"
+                        >vessel</name></rs>, and to the <placeName type="region" key="#re_mld"
+                     >mainland</placeName>.</span>
+               <span type="trope" n="14">During her <rs><date notBefore="1835" notAfter="1853"
+                        cert="high">eighteen years</date></rs> of exile she seems to have entirely
+                  forgotten her language.</span> Indians of various dialects were sent for, but none
+               could understand her, nor she them. The change of diet to which she was subjected
+               induced sickness, of which she died four weeks after reaching <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. <span type="trope" n="10">She made her
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >rescuers</persName></rs> understand by signs that she did not find
+                        <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  but that it had been killed by dogs, a peculiar species that became extinct on
+                        <rs><placeName type="island" key="#i_sn">this island</placeName></rs> but
+                  recently.</span></p>
+            <p>[...]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
