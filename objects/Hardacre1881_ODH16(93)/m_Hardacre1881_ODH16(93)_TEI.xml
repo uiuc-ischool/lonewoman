@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#omahadailyherald">Omaha Daily
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">16</biblScope>
+               <biblScope unit="issue">93</biblScope>
+               <date when="1880-01-26"/>
+               <pubPlace><placeName type="city" key="#ci_omaha">Omaha</placeName>, <placeName
+                     type="state" key="#st_neb">Nebraska</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Hardacre1881_ODH16(93)">Eighteen Years Alone</title>
+                  <biblScope type="page" n="3"/>
+                  <author><persName type="author" key="#eha">Emma Hardacre</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">EIGHTEEN YEARS ALONE.</hi></title> <title
+                  type="sub">[<emph>Concluded.</emph>]</title></head>
+            <div n="1" type="section">
+               <p>nothing was ever known of her tongue. A hide she called <emph>to-co</emph>
+                     (<emph>to</emph>-kay); a man, <emph>nache</emph> (nah-chey); the sky,
+                     <emph>te</emph>-gua (tay-gwah); the body, <emph>pinche</emph>
+                     (pin-<emph>oo</emph>-chey). She learned a few Spanish words: <emph>pan</emph>
+                  (bread), <emph>papas</emph> (potatoes), <emph>caballo</emph> (horse). Sometimes
+                  she called <persName type="frontiersman" key="#gni">Captain Nidiver</persName> in
+                  Spanish, <emph>tata</emph>, (father), sometimes <emph>nana</emph> (mother).</p>
+               <p><span type="trope" n="3">The gentleness, modesty and tact of <rs><persName
+                           type="nativeamerican" key="#lw">the untutored wild woman of the
+                           Pacific</persName></rs> were so foreign to ideas of the savage nature,
+                     that some parties believed that she was not an Indian, but a person of
+                     distinction cast away by shipwreck and adopted by <persName type="group"
+                        key="#bhagroup">the islanders</persName> before their removal from
+                           <rs><placeName type="island" key="#i_sn">their home</placeName></rs>.
+                     Others were certain, from her evident refinement, that she had not been long
+                     alone, but had drifted to <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> after <rs><persName type="nativeamerican" key="#lw">the
+                           Indian woman</persName></rs> perished in the surf, and had by mistake
+                     been taken for <rs><persName type="nativeamerican" key="#lw">the original
+                           savage</persName></rs>. The <rs><persName type="group"
+                           key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">old sailors who
+                           rescued her</persName></rs> affirm that she was an Indian, the same who
+                     jumped from <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs>
+                     to save <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs>. <rs><persName type="nativeamerican" key="#lw">The
+                           representative of a lost tribe</persName></rs>, she stands out from the
+                     Indians of the coast, the possessor of noble and distinctive traits; provident,
+                     cleanly, tasteful, amiable, imitative, considerate, and with a maternal
+                     devotion which civilization has never surpassed.</span></p>
+               <p>She was greatly disappointed when none of <persName type="group" key="#bhagroup"
+                     >her kindred</persName> were found. <span type="trope" n="3"><span type="trope"
+                        n="6">She drooped under civilization; she missed the out-door life of
+                              <rs><placeName type="island" key="#i_sn">her island
+                           camp</placeName></rs>. After a few weeks she became too weak to walk; she
+                        was carried on to the porch every day in a chair.</span></span> She dozed in
+                  the sunshine, while the children played around her. She was patient and cheerful,
+                  looking eagerly into every new face for recognition, and sometimes singing softly
+                  to herself. <persName key="#sni">Mrs. Nidiver</persName> hoped a return to her old
+                  diet would help her. She procured seal's meat, and roasted it in ashes. When
+                        <rs><persName type="nativeamerican" key="#lw">the sick woman</persName></rs>
+                  saw it, she patted her nurse's hands affectionately, but could not eat the food.
+                  She fell from her chair one morning, and remained insensible for hours. Seeing the
+                  approach of death, <persName key="#sni">Mrs. Nidiver</persName> sent for
+                        <rs><persName type="missionfather" key="#sanchez">a priest</persName></rs>
+                  to baptize <rs><persName type="nativeamerican" key="#lw">her
+                        <emph>protege</emph></persName></rs>. At first he refused, not knowing but
+                  that she had been baptized previously, although the burden of proof was against
+                  it. At length, heeding <rs><persName key="#sni">the kind Catholic lady's
+                        distress</persName></rs>, he consented to administer the rite,
+                  conditionally. As she was breathing her last, the sign of the cross was pressed on
+                  her cold brow, and <rs><persName type="nativeamerican" key="#lw">the unknown and
+                        nameless creature</persName></rs> was christened by <persName
+                     type="missionfather" key="#sanchez">Father Sanchez</persName>, in the beautiful
+                  Spanish "<rs><persName type="nativeamerican" key="#lw">Juana
+                  Marie</persName></rs>." In a walled cemetery, from whose portals gleam ghastly
+                  skull and cross-bones, close to <placeName type="mission" key="#mi_sb">the Santa
+                     Barbara Mission</placeName>, under the shelter of the tower, is the neglected
+                  grave of a devoted mother, <rs><persName type="nativeamerican" key="#lw">the
+                        heroine of San Nicolas</persName></rs>.</p>
+               <p>The abandonment of <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                  occurred <rs><date when="1835">forty-six years ago</date></rs>. <rs><persName
+                        type="nativeamerican" key="#lw">The survivor of eighteen years' solitary
+                        captivity</persName></rs> arrived in <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName> the <date when="1853-09-08">8th of September,
+                     1853</date>. <placeName key="#nideverhouse">Captain Nidiver's
+                  house</placeName>, where the stranger died, stands in sight of the ocean, and can
+                  be pointed out by any school-boy in <rs><placeName type="city" key="#ci_sb"
+                        >town</placeName></rs>. <persName type="frontiersman" key="#gni"
+                     >Nidiver</persName> and <rs><persName key="#sni">his wife</persName></rs> are
+                  living, and <persName key="#gnijr">their son George</persName> follows the sea, as
+                        <rs><persName type="frontiersman" key="#gni">his father</persName></rs> did
+                  before him. <persName type="frontiersman" key="#cdi">Carl Detman</persName>, or
+                        <rs><persName type="frontiersman" key="#cdi">Charlie Brown</persName></rs>,
+                  as he is called by the old sailors, may be found any day where the retired boatmen
+                  congregate. <persName type="seaman" key="#tje">Thomas Jeffries</persName> walks
+                  the streets in blouse, wide hat, and flowing gray hair. <persName key="#bri">Dr.
+                     Brinkerhoff</persName>, who attended <rs><persName type="nativeamerican"
+                        key="#lw">the woman of San Nicolas</persName></rs>, is a well-known
+                  physician of <rs><placeName type="city" key="#ci_sb">the city</placeName></rs>.
+                     <persName type="missionfather" key="#jru">Father Gonzales</persName> died a few
+                  years ago, after a continuous residence of more than a quarter of a century in
+                        <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                        Mission</orgName></rs>. For a long time he was partially paralyzed, and was
+                  carried about in a chair. I remember him as a little dark man, with eyes that
+                  blazed unnaturally from sunken sockets, his appearance rendered more startling by
+                  a white turban bound around his head. He is buried under the floor of <placeName
+                     type="mission" key="#mi_sbchapel">the old chapel</placeName>. The rambling
+                  mansion on <placeName key="#statestreet">State Street</placeName>, known as the
+                     <placeName key="#parkhotel">Park Hotel</placeName>, may have sheltered tourists
+                  who read <title type="article" key="#Hardacre1880_SM">this account</title>. <span
+                     type="trope" n="9">It was the first brick house built in <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName>, and was the private residence of
+                        <persName type="investor" key="#isp">Isaac Sparks</persName>, the lessee of
+                           <rs><name type="ship" key="#sh_peoresnada">the sail-boat</name></rs> from
+                     which, in <date when="1835">1835</date>, <rs><persName type="nativeamerican"
+                           key="#lw">the woman</persName></rs> jumped overboard.</span> "<placeName
+                     type="city" key="#ci_burtons">Burton's Mound</placeName>," a picturesque knoll,
+                  threaded by rows of olive trees, belongs to <persName type="investor" key="#lbu"
+                     >Lewis L. Burton</persName>, another lessee of the <emph><name type="ship"
+                        key="#sh_peoresnada">Peor es Nada</name></emph>. A <rs><persName
+                        key="#woman5">lady in San Francisco</persName></rs> has some of the
+                  islander's needles. <persName type="frontiersman" key="#gni">Nidiver</persName>
+                  and <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> retain her
+                  curious water-tight baskets. <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">The Mission fathers</persName></rs>
+                  sent her feather robes to <placeName type="city" key="#ci_rom">Rome</placeName>.
+                  They were made of the satiny plumage of the green cormorant, the feathers pointing
+                  downward, and so skillfully matched as to seem one continuous sheen of changeful
+                  luster.</p>
+               <p>The record of baptism is in the church register. Her grave will be pointed out to
+                  any one by <rs><orgName type="missionfathers" key="#misfats">the Franciscan
+                        brothers</orgName></rs> on the hill.</p>
+               <byline><title type="article" key="#Hardacre1880_SM"><emph>Scribner's
+                     Monthly</emph></title>.</byline>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

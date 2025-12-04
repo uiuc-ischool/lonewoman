@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement/>
+                  <repository key="#mda">Marla Daily,</repository>
+                  <idno type="Bod">Manuscript</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author><persName/></author>
+                     <title type="entry" key="#Hardacre1879">Historical Account of the California
+                        Female Robinson Crusoe</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc/>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p> </p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="entry">
+            <head><title type="main">Historical Account of the <del rend="strikethrough"
+                     >Californians</del>
+                  <rs><persName type="nativeamerican" key="#lw"><hi rend="underline">California</hi>
+                        <hi rend="underline">Female</hi>
+                        <hi rend="underline">Robinson</hi>
+                        <hi rend="underline">Crusoe</hi></persName></rs></title></head>
+            <p>The story briefly is this. Each fact corroberated personally by a research covering
+                     <rs><date from="1849" to="1879">thirty years</date></rs>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">A woman</persName></rs> living alone on
+                     <rs><placeName type="island" key="#i_sn">one of the Santa Barbara
+                     Islands</placeName></rs>, for over <rs><date from="1835" to="1853">eighteen
+                     years</date></rs>, was found by <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">a party of seal
+                     hunters</persName></rs>, and brought to <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName> in <date when="1853">1853</date>.</p>
+            <p>She died shortly after, and her country has never been established.</p>
+            <p>It has been supposed that she was an Indian from the fact that <persName type="group"
+                  key="#bhagroup">thirty Indians</persName>, comprising the total population, had
+               been removed from <rs><placeName type="island" key="#i_sn">the
+                  Island</placeName></rs> in <date when="1835">1835</date> [...] and brought to
+                  <placeName type="mission" key="#mi_sgabriel">San Gabriel</placeName>, to <del
+                  rend="strikethrough">work in the mission</del> be instructed by the <orgName
+                  type="missionfathers" key="#misfats">Mission Fathers</orgName>. <del
+                  rend="strikethrough"><rs><persName type="nativeamerican" key="#lw">One of the
+                        residents</persName></rs></del>
+               <span type="trop" n="9"><rs><persName type="nativeamerican" key="#lw">A
+                        woman</persName></rs> jumped overboard during the confusion of embarking and
+                  returned to <rs><placeName type="island" key="#i_sn">the
+                  Island</placeName></rs>[.]</span></p>
+            <p>The storm <del rend="strikethrough">necessitated the</del> her [...] at that time,
+               and [...] (<rs><name type="ship" key="#sh_peoresnada">the only one on the
+                     coast</name></rs>) [...] <del rend="strikethrough">[...]</del> after landing
+               [...] <del rend="strikethrough">[...] the next trip to <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName></del>
+               <span type="trop" n="12">thereby preventing the intended search for <rs><persName
+                        type="nativeamerican" key="#lw">the missing woman</persName></rs>
+               </span><del rend="strikethrough"><span type="trop" n="12">[...]</span></del><span
+                  type="trop" n="12"> for <rs><date from="1835" to="1850">fifteen
+                  years</date></rs>&#8212;no boat could be secured to take the rescue journey of
+                  seventy miles.</span>
+               <del rend="strikethrough">out of the [...] of traffic</del> The gold and excitement
+               brought sailors and craft to <placeName type="state" key="#st_cal"
+                  >California</placeName>, <del rend="strikethrough">so that</del> and in <date
+                  from="1851">1851</date>, <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">a mission father of Santa
+                     Barbara</persName></rs>, by the payment of two hundred dollars, <del
+                  rend="strikethrough">induced</del> succeeded in sending a [...] <hi
+                  rend="underline">craft</hi> to search <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">The father</persName></rs> had never
+               ceased his prayers that <rs><persName type="nativeamerican" key="#lw">the abandoned
+                     one</persName></rs> might be preserved until help reached her&#8212;but as year
+               after year passed, the probability of her death, was accepted by all those who knew
+               the circumstances. <del rend="strikethrough">[...]</del>
+               <rs><persName type="seaman" key="#tje">The Captain</persName></rs> reported that he
+               found no trace of occupation of <placeName type="island" key="#i_sn">San
+                  Nicholas</placeName>, and thus the matter was settled. His reports of fine otter
+               fishing in the vicinity of <rs><placeName type="island" key="#i_sn">this <del
+                        rend="strikethrough">[...]</del> island</placeName></rs>, and <del
+                  rend="strikethrough">[...]</del> [...] <rs><placeName type="island" key="#i_sn"
+                     >unknown island</placeName></rs>, [...] our <persName type="frontiersman"
+                  key="#gni">Captain Nidever</persName> of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, to go with <rs><name type="ship" key="#sh_nidever">his own
+                     boat</name></rs> and <rs><persName type="group" key="#tje; #nativeamericans">a
+                     crew of [...] Indians</persName></rs>
+               <rs><date when="1852">the following year</date></rs> as an otter hunt. Their camp was
+               made on the beach, and they worked busily for six weeks, secured a cargo of pelts,
+               and <del rend="strikethrough">in the midst of a</del> at the approach of a <del
+                  rend="strikethrough">[...]</del> storm, they made haste to shelter in the lee of
+                  <placeName type="island" key="#i_sm">San Miguel</placeName>. <rs><persName
+                     type="group" key="#gni; #tje; #nativeamericans">The sailors</persName></rs>
+               reported that <del rend="strikethrough">from the [...],</del>
+               <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs> ran <del
+                  rend="strikethrough">up and down the</del> along the edge of a cliff, in the
+               pelting storm, and <del rend="strikethrough">beconed</del> beckoned as they left
+               anchorage&#8212;the sheets of rain hid her from plain view&#8212;It was supposed to
+               be the ghost of <rs><persName type="nativeamerican" key="#lw">the woman who perished
+                     there</persName></rs>.</p>
+            <p><rs><date when="1853">The following year</date></rs>
+               <rs><name type="ship" key="#sh_nidever">the boat</name></rs> went again to the otter
+               grounds.&#8212;Camped in the same spot. Having no occasion to explore the precipitous
+               heights of <rs><placeName type="island" key="#i_sn">the
+               island</placeName></rs>&#8212;they <del rend="strikethrough">[...]</del> thus
+               remained close to shore, and as they</p>
+            <p>[...]</p>
+            <p>There is a doubt in my own mind, whether <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs> was Indian. There is a rumor that a very
+               short time before <rs><placeName type="island" key="#i_sn">the
+                  Island</placeName></rs> was depopulated, <rs><persName type="nativeamerican"
+                     key="#lw">a woman</persName></rs> was cast ashore from a wreck, and that
+               shortly after she gave birth to <rs><persName type="nativeamerican" key="#lwchild">a
+                     child</persName></rs>. This information has reached me since the material was
+               gathered for <title type="article" key="#Hardacre1880_SM">my article</title> as
+               originally published. The search for facts, was undertaken <del rend="strikethrough"
+                  >with</del> by four persons [...]<persName type="author" key="#ldi">Dr[.]
+                  Dimmick</persName>[,] <persName key="#hfo">Henry Chapman</persName>[, ...] artist,
+               and <persName key="#jcalkins">James Calkins</persName>, [...] all three residing in
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>&#8212;and now
+               deceased. They interested me in the subject, and by interpreters <del
+                  rend="strikethrough">all</del> the Spanish and Indian residents of <placeName
+                  type="city" key="#ci_sb">Santa Barabara</placeName>
+               <del rend="strikethrough">in</del> [...] <date when="1853">1853</date>
+               <del rend="strikethrough">and previous</del> were interrogated. At that time (1879)
+               the <rs><persName type="group" key="#gni; #cdi">principal actors</persName></rs> in
+               the rescue were living. As I sifted the material the doubt arose in my mind as to
+                  <del rend="strikethrough">her</del>
+               <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> being a
+               native Islander. Her manner of meeting <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                  rescuers</persName></rs>, was not that of a wild woman, but of one who had
+               knowledge of the amenities of life&#8212;Her entrance into <del rend="strikethrough"
+                  >white</del> civilized homes, was not that of a creature utterly unfamiliar with
+               house conveniences&#8212;her tact in meeting strangers, receiving their gifts
+               politely, and after they <hi rend="underline">were gone</hi>&#8212;distributing them
+               among the children of <rs><persName type="frontiersman" key="#gni">her
+                     host</persName></rs>. Her conversing continuously in a tongue unkown to
+               any&#8212;but evidently a language with which she was thoroughly familiar&#8212;no
+               hesitation&#8212;or forgotten phrases&#8212;no one of the various Indian tribes
+               obtainable could understand one word she uttered&#8212;A search was made for
+                  <persName type="group" key="#bhagroup">the people from San Nicholas</persName>,
+               but they were scattered over the country, and were never located. They were simply
+                  <orgName type="nativeamericantribes" key="#natam_missionindians">Mission
+                  Indians</orgName>&#8212;She told her story by expressive pantomime&#8212;and what
+               seemed to be an account of shipwreck&#8212;[...]&#8212;and looking for
+               rescue&#8212;the pictures on the walls of <rs><placeName type="region"
+                     key="#re_lwcave">the cave</placeName></rs> [...]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
