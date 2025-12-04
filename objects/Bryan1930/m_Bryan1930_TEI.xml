@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#art">Art and
+                     Archaeology</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="29"/>
+               <biblScope unit="issue" n="4"/>
+               <date when="1930-04-01"/>
+               <pubPlace><placeName type="city" key="#ci_con">Concord</placeName>, <placeName
+                     type="state" key="#st_nh">New Hampshire</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Bryan1930">San Nicolas Island, Treasure House of the
+                     Ancients: Part I</title>
+                  <biblScope unit="page" from="147" to="156"/>
+                  <author><persName type="author" key="#bbr">Bryan, Bruce</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><placeName type="island" key="#i_sn">SAN
+                        NICOLAS ISLAND</placeName>, TREASURE HOUSE OF THE ANCIENTS: PART
+                  I</hi></title></head>
+            <byline><emph>By</emph>
+               <persName type="author" key="#bbr">BRUCE BRYAN</persName></byline>
+            <p><span type="trope" n="11"><hi rend="bold">T</hi>HERE is no first record of <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName> in reality, because
+                  its existence was known in a vague sort of way long before it was ever mentioned
+                  in writing. Presumably it was first visited by a half-naked band of Indian
+                  warriors, paddling a great hollowed war-canoe through stormy waters to its barren
+                  wastes that offered nothing more than the seafood abounding about its shores. Were
+                  these Indians fleeing from the tide of the rising <orgName
+                     type="nativeamiercantribes" key="#natam_pueblo">Pueblo races</orgName>, or were
+                  they seeking a new home because of dissensions and rivalry in their own cultures
+                  on the <placeName type="region" key="#re_calcoast">California coast</placeName>?
+                  Whatever the underlying cause, the fact remains that only a hardy, aggressive race
+                  could have built up a permanent abode on the volcanic segment known as the
+                  "Passing Isle".</span></p>
+            <p>For years it has been customary to associate the name of <placeName type="island"
+                  key="#i_sn">San Nicolas Island</placeName> with a sand[-]swept, wind[-]torn,
+               desert spot in the vast Pacific, where a howling gale is eternally raging and where
+               heavy seas constantly thunder down upon its rocky coast. Fishermen go there
+               occasionally&#8212;that type of roving seaman who will go anywhere for
+               gain&#8212;since nowhere in the world do better or more enormous quantities of deep
+               sea fish abound. Pirates, smugglers, and rum-runners, too, haunt its vicinity. But
+               rarely do they land, and when near <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> they remain a good way off-shore. <span type="trope"
+                  n="5">It is feared through the curious natural phenomena of the elements that seem
+                  to have marked it for their own, and through which it has acquired an evil name.
+                  Yet as a field for archaeological research it has proven itself a veritable
+                  storehouse.</span></p>
+            <p><span type="trope" n="7">Numerous theories have been advanced from time to time as to
+                  the origin of the Indian tribes of <placeName type="state" key="#st_cal"
+                     >California</placeName>, and especially those of the outlying <placeName
+                     type="island" key="#i_chi">Channel Islands</placeName>. Some ethnologists have
+                  regarded them as the descendants of those prehistoric people who once inhabited
+                  most of the Southwest now attributed to the <orgName type="nativeamiercantribes"
+                     key="#natam_pueblo">Cliff Dwellers and Pueblos</orgName>. They believe that the
+                  later house-building aborigines drove out these people and forced them to move on
+                  to <placeName type="state" key="#st_cal">California</placeName>, where some of
+                  them took refuge along the coasts, while others ventured out onto <rs><placeName
+                        type="island" key="#i_chi">the islands</placeName></rs> and set up a culture
+                  of their own. Here they built up commerce with other islands and <placeName
+                     type="region" key="#re_mld">the mainland</placeName>, as evidenced by the many
+                  relics of their ancient trading found today.</span></p>
+            <p><span type="trope" n="7">Seemingly supporting this theory is the fact that the
+                  California tribes are an older racial type than the <orgName
+                     type="nativeamiercantribes" key="#natam_pueblo">Pueblos or Cliff
+                     Dwellers</orgName>. Skulls of both the coast and island Indians reveal distinct
+                  dolichocephalic types, whereas those of the more advanced inhabitants of the
+                  Southwest are clearly brachycephalic, or roundheaded. Too, the <orgName
+                     type="nativeamiercantribes" key="#natam_pueblo">Pueblos</orgName> indulged in
+                  the custom of early applying a cradle-board to the heads of their infants, thereby
+                  causing them to grow to maturity with a peculiarly flattened cranium in the
+                  occipital. No traces of such artificial deformities have ever been found on either
+                        <rs><placeName type="region" key="#re_calcoast">the coast</placeName></rs>
+                  or <rs><placeName type="island" key="#i_chi">islands</placeName></rs>. But many
+                  articles of trade from both areas have often been unearthed, from soapstone images
+                  to pottery fragments and burnt shards. If there was ever a meeting point of the
+                  two opposing cultures, it probably was in northern <placeName type="region"
+                     key="#re_dval">Death Valley</placeName>, where Pueblo shards of the most
+                  primitive black-on-white design and earliest coiled-ware are found in typical
+                  California Indian shell-mounds.</span></p>
+            <p><span type="trope" n="7">In <date when="1926">1926</date> the <orgName key="#lamus"
+                     >Los Angeles Museum of History, Science and Art</orgName> sent an expedition to
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName>, farthest
+                  to sea of the entire <rs><placeName type="island" key="#i_chi">Channel
+                        Group</placeName></rs>, where it remained for two months, from <rs><date
+                        from="1930-10-15" to="1930-12-14">October 15th until December
+                     14th</date></rs>. Composed of <persName key="#cwha">Charles W.
+                     Hatton</persName>, of the Museum's Indian Department,<persName key="#asa">
+                     Arthur R. Sanger</persName>, private collector, and <rs><persName type="author"
+                        key="#bbr">the writer</persName></rs>, as field archaeologist for
+                        <rs><orgName key="#lamus">the institution</orgName></rs>, the expedition
+                  returned with one of the largest and most complete collections of prehistoric
+                  Indian remains ever assembled on one trip. Among the material brought back and now
+                  on exhibition in <orgName key="#lamus">the Museum</orgName> are great stone
+                  mortars and carved pestles, bone- and shell-ornaments, beads of intricate and
+                  delicate carving, war-axes and clubs, abalone-shell fishhooks, and a number of
+                  fine examples of small fish images carved out of soapstone and pearl shell. Four
+                  complete skeletons were found, together with a heterogeneous collection of human
+                  and animal bones.</span></p>
+            <p><span type="trope" n="7">Several hitherto unestablished facts were proved by this
+                  trip, among others the certainty that the ancient Indian who dwelt in the most
+                  primitive of Stone Age environments on <rs><placeName type="island" key="#i_sn"
+                        >this barren island</placeName></rs> was possessed of all the physical
+                  characteristics, as to mind and body, of the average twentieth century human
+                  being! And yet each of the four complete skeletons shows some indication of
+                  disease. The most interesting of these is a large one of a native who lived to be
+                  an old man, which was discovered to have a disease of the spine that has contorted
+                  it entirely out of shape, evidencing that this particular creature must have been
+                  a hopeless cripple in his lifetime, in fact, a badly distorted
+               hunchback.</span></p>
+            <p>No organized expedition had visited <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> for the purpose of scientific research for years, although in
+               the past a number of well-known museums had made lesser investigations, among them
+               the <orgName type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName>
+               and the <orgName type="museum" key="#mu_southwest">Southwest Museum</orgName>.
+                  <persName key="#wabr">Dr. William A. Bryan</persName>, director of the <orgName
+                  key="#lamus">Los Angeles Museum</orgName>, had long been contemplating a trip to
+               one or another of the <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName> for the purpose of learning more of the habits and life of
+                     <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     islanders</orgName></rs> from what is left of their culture. <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> was finally settled upon as
+               being the most fertile field in that it is the most remote and least known. The
+               remains on <rs><placeName type="group"
+                     key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the nearer
+                     islands</placeName></rs> have been pretty well cleaned up, but inasmuch as it
+               is situated over a hundred miles offshore and is constantly swept by tempestuous
+               gales which drive great sheets of stinging sand before them, <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> presents another aspect of the case.</p>
+            <p>Completely encircled by dense beds of kelp through which small boats must thread a
+               precarious path, it is a desert place where nothing grows except a few straggling
+               weed-clumps and cactus-beds and perhaps four inches of buckthorn grass on small
+               stretches of the uplands. The sand is forever being shifted in great dunes from place
+               to place, uncovering one graveyard for the purpose of concealing another beneath tons
+               of billowing grains. Enormous quantities of it are blown into the ocean and it is a
+               fact that on one of the days toward the close of the expedition's stay there, the
+               combined forces of wind and rain had caused the north shore to present a muddied belt
+               of water extending out through the breakers for half a mile. It is for this reason,
+               since <rs><placeName type="island" key="#i_sn">the island</placeName></rs> is
+               gradually being blown into the sea, that it is often referred to as the "Passing
+               Isle".</p>
+            <p>Much prominence has been attached to it from time to time, however, through newspaper
+               and magazine accounts of the celebrated "<rs><persName type="nativeamerican"
+                     key="#lw">Lost Woman</persName></rs>" who was once marooned there for <rs><date
+                     from="1835" to="1853">a number of year</date></rs>s. Just where truth begins
+               and fiction ends in these stories is difficult to determine, but it is certain that
+               there was such a creature, and it is to this fact that archaeology owes a great debt.
+                  <span type="trope" n="7">Through her it can form a fairly accurate conception of
+                  what the ancient islander resembled, since <rs><persName type="nativeamerican"
+                        key="#lw">this woman</persName></rs> was removed from the place after having
+                  lived there alone for an indefinite period.</span> As to <rs><date from="1835"
+                     to="1853">the term of her isolation</date></rs>, accounts again vary. Some put
+               it at twelve years, some at eighteen, and most at twenty.</p>
+            <p>Briefly, according to Holder's "<title type="chapter" key="#Holder1910">Channel
+                  Islands of California</title>", one of the few incomplete and out-of-date
+               authorities of the subject, the history of the "<rs><persName type="nativeamerican"
+                     key="#lw">Lost Woman</persName></rs>" is this: <span type="trope" n="11">For
+                  some time the ancient islanders had been decimated by the raids of warlike tribes
+                  on <rs><placeName type="group"
+                        key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the islands
+                        about them</placeName></rs>, and possibly by tribes from <placeName
+                     type="region" key="#re_mld">the mainland</placeName>, although the Indians of
+                  the coast are not generally considered to have been as aggressive as <rs><orgName
+                        type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">those of
+                        the isles</orgName></rs>.</span>
+               <span type="trope" n="13">The <orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">Nicoleños</orgName> also suffered periodic attacks
+                  at the hands of the <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >Russians</persName></rs>, who made marauding trips down from the <placeName
+                     type="island" key="#i_aleutian">Aleutian Islands</placeName> in search of
+                  otter, seal, and sea elephant, and who not only preferred other people's game but
+                  were not at all averse to including in it <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the hapless natives</orgName></rs>. The men were
+                  killed and the women carried off.</span></p>
+            <p>In <date when="1830">1830</date>, however, undoubtedly urged by the <rs><persName
+                     type="group" key="#aji; #ndur; #misfats">Spanish mission
+                  fathers</persName></rs>, the <orgName type="government" key="#gov_mexico">Mexican
+                  government</orgName>, then holding <rs><placeName type="region" key="#re_upcal"
+                     >California</placeName></rs>, sent <rs><name type="ship" key="#sh_peoresnada">a
+                     boat</name></rs> under the command of a certain <persName type="investor"
+                  key="#isp">Captain Sparks</persName>, an otter hunter, to remove <rs><persName
+                     type="group" key="#bhagroup">the few remaining Indians from San
+                     Nicolas</persName></rs> to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. There, it was thought, they could be afforded better
+               protection and incidentally be converted to the ways of God. This boat, the
+                     <emph><name type="ship" key="#sh_peoresnada">Better Than Nothing</name></emph>,
+               rounded up and started back with <rs><persName type="group" key="#bhagroup">the few
+                     aborigines who were found on the island</persName></rs>. But suddenly one of
+               them, <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs>, cried
+               out that she had left <rs><persName type="nativeamerican" key="#lwchild">her
+                     baby</persName></rs> in the rush. Owing to the conditions of wind and tide so
+               well known, <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> could not
+               turn about and put back to shore. <span type="trope" n="9">So <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> jumped overboard
+                  and swam in.</span></p>
+            <p>The <emph><name type="ship" key="#sh_peoresnada">Better Than Nothing</name></emph>
+               left her there, and that was the last that was seen of her for a fifth of a century.
+               Years afterward, <persName type="frontiersman" key="#gni">Captain Nidever</persName>,
+               a Santa Barbaran, at the request of the <orgName type="mission"
+                  key="#mi_santabarbaramission">Mission of Santa Barbara</orgName>, made a special
+               trip to <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in
+               search of the woman, whom evidently some chance fisherman had caught sight of
+               wandering about the shore. <span type="trope" n="4">After three trips, <persName
+                     type="frontiersman" key="#gni">Nidever</persName> did find and bring her back.
+                  She had attempted to hide from him and twice had succeeded, but the last time he
+                  gave chase and caught her, persuading her that he did not intend to harm
+                  her.</span></p>
+            <p>Although Indians were brought from all over the surrounding country, none could
+               understand a word of her language. The question, therefore, naturally arises: <span
+                  type="trope" n="9">How did <persName type="investor" key="#isp">Captain
+                     Sparks</persName> of the <emph><name type="ship" key="#sh_peoresnada">Better
+                        Than Nothing</name></emph>, know that she jumped overboard to go back after
+                        <rs><persName type="nativeamerican" key="#lwchild">her
+                  child</persName></rs>?</span> No child was found with her, and certainly none was
+               brought with her to <placeName type="region" key="#re_mld">the mainland</placeName>.
+               A few of her words, though their meaning was not recognizable, were said to be of
+               Shoshonean origin. Her birdskin dress and various other accouterments were sent to
+               the <orgName type="museum" key="#mu_vaticanmuseum">Vatican museum</orgName> in
+                  <placeName type="city" key="#ci_rom">Rome</placeName> by <rs><persName
+                     type="group" key="#jru; #aji; #sanchez; #misfats">the mission
+                     fathers</persName></rs>. <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> himself cared for <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>, but she died within six weeks, the belief
+               being that the new food she was obliged to eat did not agree with her. She had been
+               found living in a hut made of whalebone and ribs with a brush fence erected about it
+               to break the wind, and a covering of seal skins.</p>
+            <p>Leaving from the <orgName key="#cayachtclub">California Yacht Club</orgName> at
+                  <placeName type="city" key="#ci_wilca">Wilmington</placeName> in a fifty-foot
+               cabin cruiser, powered with a Diesel engine, the Los Angeles Museum expedition's
+               first glimpse of <placeName type="island" key="#i_sn">San Nicolas</placeName>, at
+               seven o'clock the next morning, was one of a great gray and brown mountain looming
+               out of the sea against a rising sun, and encircled at the top by floating mist
+               wraiths. Although the trip over in the rather small "Idle Hour" was fairly rough, in
+               the early morning the ocean was calm enough to land provisions and equipment.</p>
+            <p>It is at this time that the seas that rush against <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> are supposed to be calmest, and the
+               first morning was spent in unloading. Among the stores was Mr. Sanger's seven-tube
+               radio, including a number of heavy batteries. After being rowed ashore, all these had
+               to be carried up a sixty- or seventy-foot bluff. Quarters were taken up at the shack
+               of the single inhabitant of <rs><placeName type="island" key="#i_sn">the
+                     isle</placeName></rs>, old <persName type="author" key="#nnel">Captain
+                  Nelson</persName>, whose unique position was a combination of caretaker of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+               sheepherder to the 2,500 head of half-wild sheep that roam its expanse. With the aid
+               of a wooden sled attached to his decrepit mare, "Mary", the last of the Museum's
+               stores were brought up and safely established at the camp.</p>
+            <p>The first few days were spent in exploring <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> and locating various sites in which to dig. Unlike
+               most excavations, the order of approach here was different, since there were no
+               strata by which to go. The method of procedure was sometimes to work together, and
+               more often to work a place alone, thereby having three separate research jobs going
+               at one time. The sand was soft on the shell-mounds, or kitchen-middens, and it was
+               not too much trouble for one man to move several tons a day. But after having dug
+               down often to a depth of five or six feet, next morning the site would be found
+               filled level again through the action of the wind.</p>
+            <p>The west end of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+               which juts out into a small point, or spit, is literally one vast kitchen-midden
+               composed of hundreds of shell-heaps. The south shore, however, was practically
+               barren. Moreover, this side is washed by the heaviest seas, and doubtless
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     Indians</orgName></rs> early decided that here was an unprofitable place in
+               which to live. The east shore juts into a long spit of sand almost a mile long, but
+               it has the fewest mounds of all, though here there are many indications of a much
+               older habitation.</p>
+            <p>Except for approximately one hundred and fifty yards of encircling shoreline
+                     <rs><placeName type="island" key="#i_sn">the entire island</placeName></rs> is
+               in reality a plateau, some eight hundred feet in height, and remarkably flat on top
+               for miles about. On the eastern half of this table is found the scant vegetation that
+               exists here, the western part being little more than sandy waste with curious
+               stretches of lime-formations much resembling small stalagmites and stalactites. A
+               number of evidences of Indian dwelling places were found on the highlands, those
+               above the west end seeming much older than the others as evidenced by the hard nature
+               of the soil and the scarcity of remains. But at times a great sand mound rises up,
+               covered in the sun with a glittering shell-heap, where here and there a bone-needle,
+               an awl, some fishhooks, exquisitely carved, or the top of a skull might be discovered
+               exposed to the air.</p>
+            <p>Arriving at the ages of the various relics found is a difficult question and can only
+               be done approximately. No trace of Spanish remains of the era of the
+                  <emph>conquistadores</emph> was uncovered, nor is there any record of one ever
+               having put foot on the shores of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, though they visited every other island of the <placeName
+                  type="island" key="#i_chi">Channel Group</placeName>. Legend persists that
+                  <persName type="seaman" key="#jca">Cabrillo</persName>, the intrepid leader of the
+               Spaniard geographers who first sailed through these waters, is buried in a lead
+               coffin somewhere on <placeName type="island" key="#i_sr">Santa Rosa
+                  Island</placeName>, a distance of over fifty miles away. <persName key="#asa"
+                  >Sanger</persName> has been looking for this grave for over twenty years, but so
+               far has found not the slightest clue.</p>
+            <p>It is certain that all of the objects encountered on <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> are at least one hundred years old, since the
+               last natives were removed in <date when="1830">1830</date>, with the exception of the
+               so-called "<rs><persName type="nativeamerican" key="#lw">Lost Woman</persName></rs>",
+               who was taken off in <date when="1850">1850</date> and who could not have left many
+               relics by herself. Nevertheless, the nature of the soil goes a long way in aiding the
+               archaeologist to determine the approximate period at which a particularly hard
+               formation of sandstone, which must be hacked into with the aid of a pick and which
+               yields up a skeleton or parts of one, was soft, loose sand as on the mounds. Again it
+               is a matter of osteology to arrive at the age of a handful of human teeth found in a
+               somewhat similar formation, and which are so decayed that holes are worn through the
+               hard, bright enamel. In each case, similar finds were removed from each other by a
+               distance of five miles in a straight line.</p>
+            <p>Near a sample of such teeth as these, <persName key="#cwha">Mr. Hatton</persName>
+               unearthed the body of what must once have been a great chief. It was situated in a
+               grave on the west end, buried in the conventional flexed posture, and had to be cut
+               out of sandstone of rocklike tenacity. Between the hands of this skeleton, which lay
+               on its face, was a large white spear-head. The rest of the day was spent in carefully
+               sifting out of the sand hundreds of small, square abalone-shell beads and the larger
+               pendants, from the quantity of which he must have had a coat sewn. Curiously, three
+               other skeletons lay close to this one, all in a direct line, the head of each pointed
+               toward the west. Only two skulls were brought in, however, including the first and
+               that of a woman who had been interred with only a necklace of large reddish
+               beads.</p>
+            <p>Merely skimming the tops of those mounds that appeared to be less productive than
+               others brought to light an almost unbelievable quantity of material. Likewise the
+               amount of castaway shells and bones gleaming on the surface was enormous. By crossing
+               one of these great middens on hands and knees and using the eyes even casually many
+               little shell fishhooks, bone-awls, harpoons, needles and the like were picked up.
+               Sometimes on top of the mounds and sometimes on the sides were found bowls of stone
+               and soapstone. Often these were revealed by a faint showing of the rim, to which they
+               were buried in the sand. The larger mortars had to be dragged for miles on crude
+               wooden sleds over the sands.</p>
+            <p>Great numbers of the relics found, especially the stoneware, were smashed most
+               completely and thoroughly. This work of demolition was undoubtedly done by
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     Indians</orgName></rs> themselves, and in a most businesslike manner. That
+               queer part of the religious belief of the ancient American Indians, which is often
+               encountered among other aboriginal tribes in various parts of the world, may account
+               for this wholesale destruction of personal utensils and household ware. It was
+               thought by the old Indians that any implement a man manufactured was like himself
+               possessed of a soul, or spirit. Therefore, when he died his bowls and other artifacts
+               were broken and buried with him, or close to him. In this way were they "killed", so
+               that their spirits might serve him in the next world!</p>
+            <p>Several different methods of effecting this breaking seem to have been practiced on
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>. For instance, many
+               of the bowls on the plateau were discovered with the bottoms alone smashed out. On
+               the mounds toward the west end they were literally broken into the smallest of
+               fragments. Others merely had a hole chopped into them. And in order to save
+               themselves the labor of making new ones, later <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">Indians</orgName></rs>
+               utilized these last by plugging up the holes with asphaltum, a tarry substance washed
+               up on the rocks by the sea. One of the mortars brought in by the expedition shows a
+               serrated line of chips around its rim, indicating the method by which they were
+               sometimes demolished in a professional way.</p>
+            <p>At times a series of fragments were unearthed that would fit together perfectly to
+               form a complete bowl. These were gathered up, the fragments numbered, and brought
+               back for restoration at <rs><orgName key="#lamus">the Museum</orgName></rs>. But
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the old
+                     inhabitants of San Nicolas</orgName></rs> apparently foresaw that something
+               like this would happen even to their broken utensils. Craftily they worked out a plan
+               to prevent it. The archaeologist might find a broken mortar of ten pieces, nine of
+               which went into place perfectly. The tenth would be a fragment of another bowl! And
+               the missing piece was never found, which leads one to think that it was probably
+               either ground into dust or thrown into the ocean.</p>
+            <p>For the first week or longer, everything come upon by the expedition had either been
+               found before by some previous explorer or else was hopelessly scattered by action of
+               the stinging sand and wind. Experience quickly demonstrated the futility of digging
+               haphazardly. To tum up anything at all, surface indications must first be revealed.
+               Otherwise one might dig on forever. In addition, it was decided that it would be wise
+               to construct several large screens to sift every inch of sand about a burial. This
+               was a precaution taken to save a skeleton down to the minutest beads and the smaller
+               finger and toe bones.</p>
+            <p>The first complete and untouched grave was found on the west central plateau by
+                  <persName key="#asa">Mr. Sanger</persName>, through the fact that the top of a
+               bleached skull protruded above the sand. When dug out and developed the skeleton was
+               found to be lying half on its side in a flexed position. The head was quite upright,
+               having slipped with the shifting of the earth. <span type="trope" n="7">The skeleton
+                  was that of a young man with a very Mongolian cast of skull.</span> A curious
+               ossification had joined the pelvis together in one piece so that it resembled nothing
+               so much as a saddle. Buried with it were a stone-axe, two throwing-stones shaped like
+               doughnuts, and a dish made of abalone-shell with the perforations plugged with the
+               usual asphaltum.</p>
+            <p>In an old bulletin reporting a former trip by the <orgName type="museum"
+                  key="#mu_smithsonian">Smithsonian Institution</orgName> to this island in the last
+               century, it was stated that most of the bodies were buried facing eastward. Contrary
+               to this, those found by the Los Angeles Museum expedition showed no indication of
+               orientation according to some ritual. It was also found that the average depth of the
+               graves was about eighteen inches, although this seemingly shallow interment may have
+               been due to the moving of the sand dunes.</p>
+            <p>Three other skeletons were found and developed for transportation, besides several
+               almost complete ones. <span type="trope" n="6">Every so often a scattered pile of
+                  bleached bones, which gave every appearance of being the last evidences of some
+                  wholesale slaughter, were stumbled upon.</span> It is impossible to say whether
+               these are due to the uncovering action of the wind, or whether previous collectors
+               had dug them out, taken only what they wanted, and left the rest to decay.</p>
+            <p><emph>(To be concluded in the May issue.)</emph></p>
+         </div>
+      </body>
+   </text>
+</TEI>

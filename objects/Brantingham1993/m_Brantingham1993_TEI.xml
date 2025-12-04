@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sbnewspress">Santa Barbara
+                     News Press</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1993-07-11"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Brantingham1993">Island Woman's Origins Still Hotly
+                     Debated</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#bbra">Brantingham,
+                     Barney</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">Island woman's origins still hotly debated</title>
+               <title type="sub"><placeName type="state" key="#st_ak">Alaska</placeName> theory,
+                  despite support, angers experts, traditionalists</title></head>
+            <byline>By <persName type="author" key="#bbra">Barney Brantingham</persName>
+               <orgName type="publication" key="#newspress">News-Press</orgName> Staff
+               Writer</byline>
+            <p>What would you think if <rs><persName type="nativeamerican" key="#lw">the storied
+                     Lone Woman of San Nicolas Island</persName></rs> turned out to have been an
+               Alaskan, not a <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >local Indian</orgName></rs>?</p>
+            <p>Ho, hum?</p>
+            <p>Or anger at anyone having the nerve to challenge one of our most cherished
+               legends?</p>
+            <p><persName type="author" key="#mda">Marla Daily</persName>, chronicler of <placeName
+                  type="island" key="#i_chi">the Channel Islands</placeName>, felt the savage whip
+               of scientists <rs><date when="1989">a few years ago</date></rs>.</p>
+            <p>That's because she ventured to suggest in <title type="article" key="#Daily1989">an
+                  article</title> in "<orgName type="publication" key="#cahistory">California
+                  History</orgName>" that the Alaskan scenario should be explored.</p>
+            <p>After she
+               <!--It would be great to know how to tag this paper and the meeting/conference.-->presented
+               a paper to archeologists meeting at the <orgName type="musuem"
+                  key="#mu_museumofnaturalhistory">Museum of Natural History</orgName> a
+               <!--and the date-->few years ago, she got letters slamming her ideas as absurd.</p>
+            <p>"People were upset. I got a bunch of letters that this was an absurd hypothesis," she
+               said.</p>
+            <p>"People don't want their bubbles to be burst.</p>
+            <p>"I'm not saying she is or isn't" Alaskan, <persName type="author" key="#mda"
+                  >Daily</persName> said, just that the question needs to be examined.</p>
+            <p>After my recent <!--we also need to find this and insert a key for a title-->Santa
+               Barbara Yesterdays column, <placeName type="city" key="#ci_lo">Los Olivos</placeName>
+               history buff <persName type="author" key="#jno">Jim Norris</persName> also questioned
+               the origin of "<rs><persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName></rs>."</p>
+            <p>That was what <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">Santa
+                     Barbara Mission padres</persName></rs> named <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> after she was rescued
+               in <date when="1853">1853</date> after <rs><date notBefore="1835" notAfter="1853">an
+                     18-year solitary sojourn</date></rs> on <rs><placeName type="island"
+                     key="#i_sn">the bleak island</placeName></rs>.</p>
+            <p>She was accidentally left behind when all other <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">Indians</orgName></rs>
+               were evacuated from <placeName type="island" key="#i_sn">San Nicolas</placeName> in
+               about <date when="1835">1835</date>. "No one says '<rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs>' was <orgName
+                  type="nativeamericantribes" key="#natam_Chumash">Chumash</orgName> except a
+                  <persName type="author" key="#jha">Harrington</persName> interviewee many years
+               after the event." <persName type="author" key="#jno">Norris</persName> said <persName
+                  type="author" key="#jha">John P. Harrington</persName> was a noted local
+               researcher into Chumash culture.</p>
+            <p>"I would suggest she was <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak"
+                     >Alaskan Indian</orgName></rs> left with otter hunters around <date
+                  notBefore="1805" notAfter="1820">1805-20</date>," <persName type="author"
+                  key="#jno">Norris</persName> said. <persName type="author" key="#jno"
+                  >Norris</persName> and <persName type="author" key="#mred">Michael
+                  Redmon</persName>, librarian at the <orgName key="#sbhistoricalsoc">Santa Barbara
+                  Historical Society Museum</orgName>, also questioned the authenticity of a
+               commonly used photo of "<rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs>," which appeared with <!--insert title key here-->my
+               column.</p>
+            <p><persName type="author" key="#mred">Redmon</persName> said Southern California
+               historians had raised questions about it. The woman pictured appears well-fed despite
+               her many years subsisting on island fare, and younger than someone described as
+               middle-aged.</p>
+            <p><persName type="author" key="#jno">Norris</persName> is suspicious of it. "Do we have
+               any other <placeName type="city" key="#ci_sb">Santa Barbara</placeName> photos from
+                  <date when="1853">1853</date>?" he asked.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> died seven
+               weeks after her rescue, apparently as a reaction to rich foods she was offered.</p>
+            <p>In <!--insert title key here-->her paper, <persName type="author" key="#mda"
+                  >Daily</persName>, of the <orgName type="organization"
+                  key="#santacruzislandfoundation">Santa Cruz Island Foundation</orgName>, raises
+               some key points. First of all, residents of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, one of the <rs><placeName type="island" key="#i_southernchi"
+                     >four southernmost channel islands</placeName></rs>, were <orgName
+                  type="nativeamericantribes" key="#natam_GabrilenoTongva">Gabrielino
+                  Indians</orgName>. Those of <rs><placeName type="island" key="#i_northernchi">the
+                     four northern ones</placeName></rs> were <orgName type="nativeamericantribes"
+                  key="#natam_Chumash">Chumash</orgName>, she said.</p>
+            <p>After being brought to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+               chattered on in a language no local Indian could understand, according to
+               accounts.</p>
+            <p><persName type="author" key="#eha">Emma Hardacre</persName>, a Santa Barbaran who
+               studied <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+               legend <rs><date from="1875" to="1880">years after Juana Maria's death</date></rs>,
+               doubted that she was an island Indian, according to <persName type="author"
+                  key="#mda">Daily</persName>. <span type="trope" n="3">She behaved like a woman
+                     "<title type="article" key="#Hardacre1880_SM">who had knowledge of the
+                     amenities of life,</title>" <persName type="author" key="#eha"
+                     >Hardacre</persName> said, not like someone raised on a barren
+               island.</span></p>
+            <p>Then there were the dogs. When otter hunters <persName type="frontiersman" key="#gni"
+                  >George Nidever</persName> and <rs><persName type="frontiersman" key="#cdi"
+                     >Charley Brown</persName></rs>, a German whose real name was <persName
+                  type="frontiersman" key="#cdi">Carl Dittman</persName>, rescued <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs>, they found wild
+               dogs on <placeName type="island" key="#i_sn">San Nicolas</placeName>.</p>
+            <p>"They were about the size and form of a coyote, of a black and white color,"
+                  <persName type="frontiersman" key="#gni">Nidever</persName> said. "<title
+                  type="article" key="#Hardacre1880_SM">I have seen the same kind of dogs among the
+                  Northwest Indians.</title>"</p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> went back to shoot the
+               dogs so he could run sheep there. <rs><persName key="#gnijr">His son</persName></rs>
+               later reported that <persName type="frontiersman" key="#gni">Nidever</persName> told
+               him they were "<title type="article" key="#Hardacre1880_SM">of the Alaskan
+                  breed."</title></p>
+            <p>"<rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">Indians from the
+                     north</orgName></rs>, particularly peoples from <placeName type="island"
+                  key="#i_ko">Kodiak Island</placeName> and the <placeName type="island"
+                  key="#i_aleutian">Aleutian Islands</placeName>, participated in the California sea
+               otter trade on and around <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> during <rs><date notBefore="1800" notAfter="1850">the first
+                     part of the 19th century</date></rs>," <persName type="author" key="#mda"
+                  >Daily</persName> said.</p>
+            <p>Juana Maria's story was fictionalized in the <date when="1961">1961</date> book by
+                  <persName type="author" key="#sod">Scott O'Dell</persName>, "Island of the Blue
+               Dolphins."</p>
+         </div>
+      </body>
+   </text>
+</TEI>
