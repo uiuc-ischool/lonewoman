@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#mwh">Morning World-Herald
+                  </orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">32</biblScope>
+               <biblScope unit="issue">53</biblScope>
+               <date when="1896-11-22"/>
+               <pubPlace><placeName type="city" key="#ci_omaha">Omaha</placeName>, <placeName
+                     type="state" key="#st_neb">Nebraska</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#MorningWorldHerald1896">San Nicolas' Last Woman.
+                     Feminine Robinson Crusoe Who Lived Alone More Than Seventeen Years. Deserted
+                     Island in the Pacific Long the Home of a Solitary Indian. History of the
+                     Removal of a Tribe and the Neglect of Its One Member</title>
+                  <biblScope unit="page" n="7"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">SAN NICOLAS' LAST
+                        WOMAN</persName></rs></title>
+               <title type="sub"><rs><persName type="nativeamerican" key="#lw">Feminine Robinson
+                        Crusoe</persName></rs> Who Lived Alone <rs><date from="1835" to="1853">More
+                        Than Seventeen Years</date></rs>.</title>
+               <title type="sub"><rs><placeName type="island" key="#i_sn">Deserted Island in the
+                        Pacific</placeName></rs> Long the Home of a <rs><persName
+                        type="nativeamerican" key="#lw">Solitary Indian</persName></rs>.</title>
+               <title type="sub">History of the Removal of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">a Tribe</orgName></rs> and the Neglect of
+                        <rs><persName type="nativeamerican" key="#lw">Its One
+                  Member</persName></rs>.</title></head>
+            <p>During the <date from="1896-06" to="1896-08">present summer</date>
+               <rs><persName type="author" key="#author5">the writer</persName></rs> made the
+               attempt to land on the island of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, an almost barren mass of sand lying sixty miles off the
+                  <placeName type="region" key="#re_socalcoast">coast of Southern
+                  California</placeName>, the extreme outlying point of <rs><placeName type="region"
+                     key="#re_calcoast">the coast</placeName></rs>, says a <rs><persName
+                     key="#correspondent6">correspondent</persName></rs> of the <orgName
+                  type="publication" key="#nypost">New York Post</orgName>. We passed the little
+                  <placeName type="island" key="#i_sb">island of Santa Barbara</placeName> late in
+               the afternoon, and at 7 o'clock were five miles from <rs><placeName type="island"
+                     key="#i_sn">the outer island</placeName></rs>. <rs><placeName type="island"
+                     key="#i_sn">This island</placeName></rs> lies in an area of constant gales and
+               is almost unapproachable except during the calm periods of the winter, and even then,
+               owing to the storms that suddenly rise, it is a dangerous place for yachts. <span
+                  type="trope" n="8">Notwithstanding this, <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> has had within two centuries <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">a vigorous native
+                        population</orgName></rs>, and with its barren shores is associated a true
+                  story that bears all the essentials of a romance of the Crusoe order.</span>
+               <rs><date when="1835">Within the present century</date></rs> the last of <persName
+                  type="group" key="#bhagroup">the natives</persName> were taken ashore by order of
+                     <rs><persName type="group" key="#aji; #ndur; #misfats">the priests at the Santa
+                     Barbara mission</persName></rs>, under instructions from the <orgName
+                  type="government" key="#gov_mexico">Mexican government</orgName>. <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">The
+                  Indians</orgName></rs> had been living there from time immemorial, subsisting on
+               fish (and shellfish), with which the waters abound. <rs><name type="ship"
+                     key="#sh_peoresnada">A vessel</name></rs> was sent to <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, and all <persName
+                  type="group" key="#bhagroup">the Indians</persName> were taken aboard with the
+               exception of <rs><persName type="nativeamerican" key="#lw">one woman</persName></rs>
+               whose <rs><persName type="nativeamerican" key="#lwchild">child or
+                  children</persName></rs> had been forgotten. It is believed that a gale was coming
+               on, and that <rs><persName type="group" key="#chu; #isp">the skipper</persName></rs>
+               found <rs><name type="ship" key="#sh_peoresnada">his little craft</name></rs> in
+               danger, and so put off. Others say that <rs><persName type="nativeamerican" key="#lw"
+                     >the woman</persName></rs> was purposely deserted. In any event, <rs><name
+                     type="ship" key="#sh_peoresnada">the boat</name></rs> sailed away, leaving her
+               standing alone on the beach, and being "only an Indian woman," it probably mattered
+               little to <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >the other hunters</persName></rs>, who were glad to get away from the rough
+               coast. When <persName type="group" key="#bhagroup">the Indians</persName> were landed
+               at <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, it was said to be
+               the intention of <rs><persName type="group" key="#chu; #isp">the
+                  captain</persName></rs> to return and rescue <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>, but not long after <rs><name type="ship"
+                     key="#sh_peoresnada">the sloop</name></rs> was wrecked, and so <rs><date
+                     from="1835" to="1853">the months and years</date></rs> slipped away, and the
+               story of <rs><persName type="nativeamerican" key="#lw">the lost woman</persName></rs>
+               became almost a legend, her appearance often being pictured by the story tellers of
+               the day and her one quaint cry of "Maneuauna!" being repeated to credulous listeners.
+                  <span type="trope" n="4"><rs><date from="1835" to="1852">Seventeen
+                     years</date></rs> went by, and <rs><persName type="nativeamerican" key="#lw"
+                        >the woman</persName></rs> was almost forgotten, until finally <persName
+                     type="missionfather" key="#jru">Padre Gonzales</persName>, excited by
+                  curiousity to learn her fate, hired <rs><persName type="frontiersman" key="#tje">a
+                        resident of Santa Barbara</persName></rs> to make a careful search for her,
+                  and as a result three unsuccessful trips were made to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>. On the last <persName
+                     type="frontiersman" key="#gni">Captain Niderer [Nidever]</persName> took
+                        <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">several
+                        Indians</persName></rs> and after futile attempts succeeded in landing. They
+                  soon found evidence that some one lived on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, discovering a basket containing
+                  feathers. This they disturbed, and upon visiting it the following day found the
+                  feathers replaced.</span></p>
+            <p><span type="trope" n="4">It was evident that <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs> was avoiding them, so they formed a line
+                  as well as they could across <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> and marched in regular order 200 yards apart. Even
+                  then they could not find her, and it was only when they had nearly given up the
+                  hunt that <rs><persName type="frontiersman" key="#cdi">one of the
+                     party</persName></rs> finally stumbled upon three huts and <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs>, who was sitting
+                  on the ground skinning a seal, with a wild dog beside her, who growled fiercely at
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        strangers</persName></rs>.</span>
+               <span type="trope" n="8"><rs><persName type="frontiersman" key="#cdi">The
+                        man</persName></rs> signalled to <rs><persName type="group"
+                        key="#gni; #col; #cook; #msh; #poli; #nsk; #hva">the others</persName></rs>,
+                  and <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the entire
+                        party</persName></rs> were soon gathered about <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs>, who had lived a
+                  life as remarkable as that of <persName type="fictional" key="#rcr"
+                     >Crusoe</persName>.</span> She could not understand a word that was said. <span
+                  type="trope" n="1"><rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva"
+                        >The Indians of the party</persName></rs>, thinking that she was a sacred
+                  person, fell on their knees before her. She was a comely woman, 40 or 50 years of
+                  age, dressed in the skins of sea birds, or shags, which were fastened to sealskin.
+                  About her were baskets cleverly made, and to the windward of her hut, which was
+                  made of the ribs of a whale, she had built a windbrake of birch and grass. She had
+                  dishes of stone in which she ground roots of various kind, and her clothes were
+                  sewed with thread made from sealskin and with needles from the bones of birds. She
+                  consented to go aboard <rs><name type="ship" key="#sh_nidever">the
+                     vessel</name></rs>, and was carried to <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName> with all her belongings, which were considered great
+                  curiosities, her dress of skins being sent to <placeName type="city" key="#ci_rom"
+                     >Rome</placeName> to <rs><persName key="#pop">the pope</persName></rs>
+                  [sic].</span></p>
+            <p>At <placeName type="city" key="#ci_sb">Santa Barbara</placeName> she lived in the
+               family of <rs><persName type="frontiersman" key="#gni">one of her
+                  rescuers</persName></rs>, and though Indians from all over <rs><placeName
+                     type="region" key="#st_cal">the state</placeName></rs> visited her, no one
+               could be found who could understand her. <span type="trope" n="3">She was a perfect
+                  child, playing for hours at a time and making signs which could not be
+                  interpreted. She was baptized and given a Spanish name, and at her death was
+                  buried in the old mission graveyard, having survived the change from savage to
+                  civilized life less than two months.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

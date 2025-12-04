@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#morningoregonian">Morning
+                     Oregonian</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">36</biblScope>
+               <biblScope unit="issue">11,197</biblScope>
+               <date when="1897-07-23"/>
+               <pubPlace><placeName type="city" key="#ci_portand">Portland</placeName>, <placeName
+                     type="state" key="#st_or">Oregon</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#MorningOregonian1897">Islands of Skulls In the Pacific
+                     Ocean that are Veritable Golgothas. Not Far From the Pacific Coast, and a
+                     Scientific Party Is Now Exploring Them</title>
+                  <biblScope unit="page" n="7"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <hi rend="bold"><rs><placeName type="island" key="#i_chi">ISLANDS OF
+                           SKULLS</placeName></rs></hi>
+               </title>
+               <title type="sub">IN THE <placeName type="region" key="#re_pacific">PACIFIC
+                     OCEAN</placeName> THAT ARE <rs><placeName type="island" key="#i_chi">VERITABLE
+                        GOLGOTHAS</placeName></rs>.</title>
+               <title type="sub">Not Far From the <placeName type="region" key="#re_paccoast"
+                     >Pacific Coast</placeName>, and a Scientific Party Is Now Exploring
+                  Them.</title></head>
+            <p>A party of young scientists acting under the auspices of <orgName type="institution"
+                  key="#in_harvard">Harvard university</orgName>, at <placeName type="city"
+                  key="#ci_ca">Cambridge, Mass.</placeName>, and <orgName type="institution"
+                  key="#in_stanford">Leland Stanford, Jr., university</orgName> [sic], at <placeName
+                  type="city" key="#ci_paloalto">Palo Alto, Cal.</placeName>, are now exploring the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName>, off the
+                  <placeName type="region" key="#re_calcoast">coast of California</placeName>, and
+               they have sent word to the <placeName type="region" key="#re_mld"
+                  >mainland</placeName> that their archaeological and ethnological discoveries have
+               been so marvelously rich that the expedition will be prolonged several months, says
+               the <orgName type="publication" key="#stlouisglobe">St. Louis
+                  Globe-Democrat</orgName>. The <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName> have long been known among the old-time residents as the
+                     <rs><placeName type="island" key="#i_chi">Golgotha of the
+                  Pacific</placeName></rs>, for nowhere else in the world are there probably as many
+               human bones and skeletons lying exposed to the elements as in the <placeName
+                  type="island" key="#i_chi">Channel Islands</placeName>. There are several spots on
+                  <placeName type="island" key="#i_sn">San Nicolas Island</placeName> where whole
+               acres of rocks and sandy waste are thickly strewn with human bones. Only <rs><date
+                     when="1896">a year ago</date></rs> several men came home to <placeName
+                  type="city" key="#ci_ven">Ventura</placeName> from <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> with a barrel of Indian crude
+               implements, and over 200 whitened skulls, which the men said they had picked from
+               among the thousands of skulls. A dozen of these fast-crumbling skulls were sent to
+               the <orgName type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName> at
+                  <placeName type="city" key="#ci_dc">Washington</placeName>, and also to <orgName
+                  type="institution" key="#in_harvard">Harvard university [sic]</orgName> at
+                  <placeName type="city" key="#ci_ca">Cambridge</placeName>. The ethnologists at
+               both institutions were immediately interested, and they declared the skulls were
+               those of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a race
+                     of Indian giants</orgName></rs>. <orgName type="institution" key="#in_harvard"
+                  >Harvard university</orgName> lost no time in sending an expedition to explore the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName>
+               scientifically.</p>
+            <p>Probably no region in the United States offers greater inducements to students in
+               anthropology and ethnology than <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs>. <rs><date when="1887">Ten years ago</date></rs> a
+               resident of <placeName type="city" key="#ci_sf">San Francisco</placeName> offered to
+               pay the expenses of an expedition of scientists who should spend a summer in
+               exploring <placeName type="island" key="#i_sn">San Nicolas</placeName> and <placeName
+                  type="island" key="#i_scl">San Clemente</placeName> islands, and to give the
+               results of their finds to the <orgName type="government" key="#gov_usa">United
+                  States</orgName> at <placeName type="city" key="#ci_berk">Berkeley</placeName>,
+               but there arose such jealously among the leaders of the proposed expedition that the
+               offer was withdrawn. <span type="trope" n="5">The <placeName type="island"
+                     key="#i_chi">Channel islands</placeName> constitute California's only
+                  archipelago, with the possible exception of the <placeName type="island"
+                     key="#i_far">rocky and scanty Farallon islands</placeName>. They have been
+                  objects of romantic legends, curiosity and mystery for two generations or
+                  more.</span></p>
+            <p><span type="trope" n="5">Notwithstanding that all <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs> are within 82 miles of the
+                     <placeName type="region" key="#re_calcoast">California shore</placeName>, and
+                  they are solitary and unfrequented, and years roll by with visits to them of fewer
+                  than 20 people. Each island has its own particular traditions, and each has
+                  countless traces of an occupation by thousands of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                        >Indians</orgName></rs>.</span><span type="trope" n="6">When <persName
+                     type="seaman" key="#jca">Juan Rodriquez Cabrillo</persName>, the Portuguese
+                  navigator, sailed up the <placeName type="region" key="#re_calcoast">coast of
+                     California</placeName> in <date when="1542">1542</date>, he stopped for a day
+                  or two at each of the <placeName type="island" key="#i_chi">Channel
+                     islands</placeName>, and his records bear testimony that on the islands of
+                     <placeName type="island" key="#i_sb">Santa Barbara</placeName>, <placeName
+                     type="island" key="#i_scatalina">Catalina</placeName>, <placeName type="island"
+                     key="#i_scl">San Clemente</placeName> and <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>, there was "<rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a
+                        vigorous and lusty race of natives</orgName></rs>, who thronged the shores
+                  of the little bays and headlands</span><span type="trope" n="6">," and gazed in
+                  wonder at <rs><name type="ship" key="#sh_salvador; #sh_lavictoria">the
+                        white-sailed ship</name></rs> of <rs><persName type="group" key="#jca; #bfe"
+                        >the navigators</persName></rs>. Today <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs> stand as they did more than 350
+                  years ago, but <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        natives</orgName></rs> are only a memory represented by immense quantities
+                  of stone implements, barrels of fine wampum and literally cartloads of human
+                  bones.</span></p>
+            <p><placeName type="island" key="#i_sn">San Nicolas island</placeName>, which lies 80
+               miles off the little city of <placeName type="city" key="#ci_ven">San
+                  Buenaventura</placeName>, or, as recently called by the modern and easier name,
+                  <placeName type="city" key="#ci_ven">Ventura</placeName>, is the most interesting
+               of all the <placeName type="island" key="#i_chi">Channel islands</placeName>, from
+               many points of view. As far back as the memory of any person in <placeName
+                  type="region" key="#re_socal">Southern California</placeName> runs, hundreds of
+               white skeletons have dotted the valleys and hillsides. <span type="trope" n="5"
+                  >Strange utensils of serpentine, sandstone and steatite are found there among the
+                  human bones, and <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">its inhabitants</orgName></rs> have a history so
+                  curious that it is difficult of comprehension.</span></p>
+            <p><span type="trope" n="6">In <date when="1835">1835</date>
+                  <rs><persName type="group" key="#aji; #ndur; #misfats">the Franciscan padres in
+                        the Santa Barbara mission</persName></rs>, learning that there were but
+                        <rs><persName type="group" key="#bhagroup">16 of the strange Indian
+                        race</persName></rs> then living, determined to rescue them from
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. They
+                  went over in <rs><name type="ship" key="#sh_peoresnada">a sloop</name></rs> and
+                  succeeded, as they thought, in getting all on board. At the last moment
+                        <rs><persName type="nativeamerican" key="#lw">an Indian
+                     woman</persName></rs> returned for <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs>, and, one of the frequent storms of
+                  the <rs><placeName type="island" key="#i_chi">Channel islands</placeName></rs>
+                  springing up, <rs><name type="ship" key="#sh_peoresnada">the sloop</name></rs> was
+                  driven away. <rs><name type="ship" key="#sh_peoresnada">The sloop</name></rs> went
+                  on the rocks off <placeName type="region" key="#re_pc">Point
+                     Conception</placeName> and <rs><persName type="group" key="#bhagroup">all on
+                        board</persName></rs> were lost.</span></p>
+            <p><span type="trope" n="4"><rs><date when="1851">Sixteen years later</date></rs>
+                  <persName type="frontiersman" key="#gni">Captain George Nidever</persName> and
+                        <rs><persName type="group" key="#tje; #nativeamericans">two
+                     men</persName></rs> went from <rs><placeName type="region" key="#re_calcoast"
+                        >the coast</placeName></rs> in <rs><name type="ship" key="#sh_nidever">a
+                        sloop</name></rs> to hunt sea otters off <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>. On landing they, like <name
+                     type="fictional" key="#rcr">Crusoe</name>, were astonished to discover human
+                  footprints in the sand. They saw no one, however, and a storm compelled them to
+                  put to sea. <span type="trope" n="5">It was <rs><date when="1853">two years
+                           later</date></rs> that <rs><persName type="frontiersman" key="#gni">the
+                           captain</persName></rs>, revolving in his mind the sight of the
+                     footprints in <rs><placeName type="island" key="#i_sn">the uncanny
+                           island</placeName></rs>, determined to go and discover and bring over
+                           <rs><persName type="nativeamerican" key="#lw">the lonely
+                        woman</persName></rs> of whom he had vaguely heard.</span>
+                  <rs><persName type="grouop" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                        >Men</persName></rs> accompanied him, and at length they saw on the
+                  surf-beaten shore <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs>, with long, tawny hair, dressed in a queer garb of
+                  colored bird skins and scraping with a bone knife the blubber from a
+                  seal.</span><span type="trope" n="1"><span type="trope" n="4">They surrounded and
+                     approached her stealthily. Although suddenly confronted, she did not appear to
+                     be in the least afraid, but smiled, and then falling on her knees, prayed to
+                     the sun.</span> She offered no objections when, by signs, she was made to
+                  understand that she was to go with them in <rs><name type="ship" key="#sh_nidever"
+                        >the boat</name></rs>.</span></p>
+            <p>They reached <placeName type="city" key="#ci_sb">Santa Barbara</placeName> across the
+               rough sea, and the first thing <rs><persName type="nativeamerican" key="#lw">the
+                     Indian woman</persName></rs> saw was <persName key="#ssh">Dr. S. L.
+                  Shaw</persName>, who is still living at the age of 80 years, riding a horse. She
+               had never seen a spectacle like it, and thought <rs><persName key="#ssh">the
+                     man</persName></rs> and horse were one, and she knelt on the shore and offered
+               her devotions to it. <span type="trope" n="6">Two weeks afterward <rs><persName
+                        type="nativeamerican" key="#lw">the last inhabitant of rock-ribbed,
+                        tempest-beaten San Nicolas</persName></rs> died from eating food to which
+                  she was unaccustomed, and the curtain fell on <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     race</orgName></rs> forever.</span> In speaking of that death at a meeting of
+               the <orgName type="organization" key="#socalmedicalsociety">Southern California
+                  Medical Society</orgName> the other day, <persName key="#wli">Dr. Walter
+                  Lindley</persName> said that if <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> could have been spared for a few years a story of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">one of the
+                     strangest races</orgName></rs> that ever lived in the <placeName type="region"
+                  key="#re_sw">Southwest</placeName> and had had no contamination from the whites
+               might have been learned. <rs><persName type="nativeamerican" key="#lw">The
+                     woman</persName></rs>, known as the "Lone Woman of San Nicolas," has been the
+               subject of a score of romances and poems, and food for a lot of philosophy of the
+                  <placeName type="region" key="#re_paccoast">coast</placeName>.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is 10 miles long and
+               four miles across at the widest point. Its topography shows a nearly level plateau
+               with an elevation of from 800 to 1000 feet. Two-thirds of the surface is covered with
+               drifting sand, and the remainder grows a species of nutritious grass and moss, on
+               which 1000 sheep find pasture. Several springs have been discovered, but the water is
+               slightly brackish. Of late years the island is rarely visited, except by
+               sheep-shearers and shell-gatherers, who make annual trips in schooners, fishing
+               smacks or Chinese junks. The only safe landing place is at <placeName type="region"
+                  key="#re_coralharbor">Coral harbor</placeName>, a pretty cove, formed by two
+               sandstone arms thrust out from the main barrier of the shore. The entrance is only
+               six or seven yards across, and the water within is as placid as a lake, and
+               sufficiently deep to float a vessel of 20 tons burden. On the bleak, silvery strip of
+               beach immense white pelicans are to be seen at almost any season of the year,
+               promenading with stately dignity. On the approach of a dingy they spread their heavy
+               pointed wings and vanish over the rocks. Further up the slope of the beach there is a
+               dilapidated shearing shed and a weather-worn shanty, belonging to the Chinese
+               shell-gatherers, who haunt these cliffs during late summer and fall.</p>
+            <p>Nothing more desolate than the general appearance of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> can be imagined. As far as the eye can
+               trace there are barren levels, with innumerable circular depressions, showing where
+               primitive dwellings once stood. Not a vestige remains of the materials used in the
+               constructions of these rancherias. Hundreds of shell mounds are scattered about, and
+               are found to consist of astonishing numbers of mollusks, the bones of every species
+               of fish found in the channel, skeletons of seals, sea elephants, whales, sea otters,
+               the island fox and various aquatic birds. Without question these animals were used
+               for food by <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     tribes that once thronged the island</orgName></rs>. There are also numerous
+               canine skeletons, several of which indicate a species of bull terrier. Judging from
+               the immense quantities of dead land mollusks everywhere, there must have been a time
+               when <rs><placeName type="island" key="#i_sn">the island</placeName></rs> supported
+               luxuriant vegetation. Of all this verdure, nothing is seen today but a few stunted
+               horn bushes, and now and then a cactus forlornly reaching its grotesque arms out of
+               the sweeps of sand. An examination of some of the mounds discloses all sorts of
+               curious utensils, stone cooking pots, water ollas, mortars, pestles, drills, bone
+               needles and fish hooks, shell beads, charm stones, pipes, cups and a few arrow heads,
+               spear points and swords made of bone. <span type="trope" n="3">The absence of many
+                  weapons proves the peaceful attributes of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the islanders</orgName></rs>. Small imitations
+                  of boats and fishes carved from crystallized talc and serpentine also show a
+                  rudimentary knowledge of the art of sculpture.</span> In many places conical piles
+               of small black pebbles contrast oddly with the white sand. In some instances these
+               pebbles were closely packed in abalone shells. No trace is seen of the brush pens, in
+               which the <rs><persName type="nativeamerican" key="#lw">lone woman of San
+                     Nicholas</persName></rs>
+               <rs><date from="1835" to="1853">for years</date></rs> found her only shelter from the
+               cutting wind and sand. <span type="trope" n="6">Every foot of <rs><placeName
+                        type="island" key="#i_sn">this strange island</placeName></rs> is eloquent
+                  of the extinction of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">an almost unheard of
+                  people</orgName></rs>.</span></p>
+            <p>A trip along the west coast of <placeName type="island" key="#i_sn">San Nicolas
+                  island</placeName> over a vast extent of shell mounds sets one to wondering how it
+               was possible for a limited population to consume such prodigious numbers of mollusks.
+               In fact, the infinite variety of mollusca of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> is said by biologists not to be exceeded in any other known
+               region of equal area. <span type="trope" n="5">The shore line is of coarse sandstone,
+                  burrowed by the pounding surf into fantastic alcoves, bridges, columns and caves.
+                  Sometimes these savage cuts form rude effigies bearing surprising likeness to
+                  living creatures. One of the most conspicuous is the exact counterpart of the
+                  neck, breast and body of a bird with an alert, hooded head. This piece of nature's
+                  sculpture must be 40 feet long, and beheld from a distance looks as perfect as if
+                  fashioned by man.</span> Going westward from this gnawed, surf-lashed wall, the
+               ground makes a gentle descent to a wide mesa, terminating in a step [steep]
+               escarpment.</p>
+            <p>The atmosphere from this elevation is so deliciously clear that the eye can readily
+               distinguish the peak tops of all the <placeName type="island" key="#i_chi">channel
+                  islands</placeName>, although several of them are 40 miles away. Immediately at
+               one's feet there stretches away a dreary desert. A singular characteristic of the
+               place were heaps of the bones of whales, their arrangement and packing so
+               systematically correct as to have withstood a century's sweep of winds over this
+               exposed point. Only one human skeleton has ever been found here. All around are casts
+               of roots of trees in the shifting sand, ranging all the way in size from coarse fiber
+               to several inches in diameter. These semi-petrefactions are intact, the wind having
+               swept them clean of the loose earth. They yield a metallic ring when tapped with a
+               rock or shell. A still more remarkable feature of this desert is a sparse stone
+               forest, the broken columns or trunks of trees composed of indurated sand.</p>
+            <p>At the extreme western end of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> there is a colossal precipice 1000 feet in height, its
+               chasmed and slitted face softened by a luxuriant growth of emerald moss and lichens.
+               The strangest of all the sights on <rs><placeName type="island" key="#i_sn">this
+                     island</placeName></rs> is to be seen on the broad plateau south of the Chinese
+               camp at <placeName type="region" key="#re_coralharbor">Coral harbor</placeName>. Here
+               acres of the sand are littered with thousands of disjointed skeletons. Measurements
+               have been made by several scientists of the thigh, leg and arm bones, and literally
+               bushels of skulls and other parts of the human frame have been brought to <placeName
+                  type="city" key="#ci_la">Los Angeles</placeName> from <placeName type="island"
+                  key="#i_sn">San Nicolas island</placeName> for investigation. A physician recently
+               counted there over 13200 skulls in one locality. Some were almost dropping to pieces
+               from long exposure to the sun and water.</p>
+            <p>The general opinion is that the physique of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indian race</orgName></rs> that swarmed over
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> then was
+               much larger than that of any civilized race today, and that some of them must have
+               been 7 feet 8 inches tall. The skulls of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">this extinct tribe</orgName></rs> often measure
+               several inches more than some of the large skulls of today. Many skulls found lying
+               about on <rs><placeName type="island" key="#i_sn">the island</placeName></rs> show
+               that <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">their
+                     possessors</orgName></rs> must have suffered death from a club or blunt
+               battle-ax. No one has yet found a skull on <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> that shows marks of a bullet. There are many collar-bones and
+               shoulder-blades broken and crushed, so it is evident that their owners were killed by
+               some blunt instrument like a warclub or bowlder. Scientists say the favorite weapon
+               in warfare with the <orgName type="group" key="#rfurcompany; #natam_aleuts">Aleutian
+                  savage tribe</orgName> a century or more ago was a club or bludgeon, and this fact
+               fits with the stray tradition that the <orgName type="group"
+                  key="#rfurcompany; #natam_aleuts">Aleutians</orgName> came down and completely
+               destroyed <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     people</orgName></rs> on the <placeName type="island" key="#i_chi">Channel
+                  islands</placeName> about <date when="1780">1780</date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#newyorkher">New York
+                            Herald </orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume"/>
+                    <biblScope unit="issue">116</biblScope>
+                    <date when="1891-04-26"/>
+                    <pubPlace/>
+                    <bibl>
+                        <title type="article" key="#Miller1891">""Mrs. Robinson Crusoe of
+                            California. De Foe's Hero Outdone by an Heroic Indian Woman of Cunning
+                            Intelligence. Twenty-five years alone. Joaquin Miller's Quaint Sketch of
+                            the Lonely Denizen of an Island Off the Western Coast."</title>
+                        <biblScope unit="page" n="13"/>
+                        <author><persName type="author" key="#jmill"> Miller, Joaquin.
+                            </persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican"
+                                    key="#lw">MRS. ROBINSON CRUSOE</persName></rs>, OF <placeName
+                                type="state" key="#st_cal">CALIFORNIA</placeName>.</hi></title>
+                    <title type="sub"><hi rend="bold"><rs><persName type="fictional" key="#rcr">De
+                                    Foe's Hero</persName></rs> Outdone by an <rs><persName
+                                    type="nativeamerican" key="#lw">Heroic Indian Woman of Cunning
+                                    Intelligence</persName></rs>.</hi></title>
+                    <title type="sub"><hi rend="bold"><date from="1835" to="1860">TWENTY-FIVE YEARS
+                                ALONE.</date></hi></title>
+                    <title type="sub"><hi rend="bold">Joaquin Miller's Quaint Sketch of the
+                                    <rs><placeName type="island" key="#i_sn">Lonely Denizen of an
+                                    Island</placeName></rs> Off the <rs><placeName type="region"
+                                    key="#re_paccoast">Western
+                    Coast</placeName></rs>.</hi></title></head>
+                <div type="section">
+                    <p>A GREAT deal has been written about <rs><persName type="nativeamerican"
+                                key="#lw">the extraordinary little woman</persName></rs> who lived
+                        all alone on <rs><placeName type="island" key="#i_sn">one of our
+                                islands</placeName></rs> for <date from="1835" to="1853">nearly a
+                            quarter of a century</date>, but some of the facts seem to have escaped
+                        notice. <span type="trope" n="3">I shall write them down here as briefly as
+                            possible for the use of the coming <rs><persName type="author"
+                                    key="#dde">De Foe</persName></rs>.</span>
+                        <span type="trope" n="8">In the first place <rs><persName
+                                    type="nativeamerican" key="#lw">this woman</persName></rs>,
+                            although an Indian, was almost white and of extraordinary intelligence
+                            and sensibility.</span></p>
+                    <p>The late <persName key="#bri">Dr. Brinkerhoff</persName>, of <placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName>, who attended her in
+                        her last illness, told me that he thought perhaps she was not of Indian
+                        extraction at all. But to get on with the facts. When <rs><orgName
+                                type="missionfathers" key="#misfats">the Jesuit
+                            priests</orgName></rs> founded their settlement at <placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName> they began to gather
+                        in all the docile or friendly Indians and utilize as well as civilize them.
+                        After some years they found out that <rs><placeName type="island"
+                                key="#i_sn">one of the small islands</placeName></rs> lying off
+                        about twenty miles from their harbor of <placeName type="city" key="#ci_sb"
+                            >Santa Barbara</placeName> was inhabited. <span type="trope" n="3"
+                                    ><rs><orgName type="missionfathers" key="#misfats">The
+                                    priests</orgName></rs> visited <rs><placeName type="island"
+                                    key="#i_sn">the island</placeName></rs> and found <rs><orgName
+                                    type="nativeamericantribes" key="#natam_NicolenoTongva">the most
+                                    intelligent and gentle people</orgName></rs> there that had yet
+                            been discovered on the continent. They were loyal, affectionate, and
+                            loved their <rs><placeName type="island" key="#i_sn">narrow and lonely
+                                    little home</placeName></rs> in the sea above all things.</span>
+                        They had never visited <placeName type="region" key="#re_mld">the main
+                            land</placeName>. They had no wood to build boats with, and so
+                            <placeName type="region" key="#re_mld">the long black and barren
+                            mountain of land</placeName> away to the south was as inaccessible to
+                        them as is the moon to us.</p>
+                    <p><span type="trope" n="5">They had queer little houses of stone on the one low
+                            cliff, and they were very skillful in spearing fish and capturing all
+                            sorts of sea birds. They made mocassins [sic] for their feet out of
+                            sealskins, for seals were and are to this day so abundant there that you
+                            can scarcely walk about without treading on some of the little baby
+                            seals. And all along to right and left, as you pass by, you see the
+                            mild-eyed mother seal nursing her baby at her breast, as she half rests
+                            and reclines against a rock, and lifts her kind, human eyes to yours, as
+                            if to ask you please not hurt her little hairy baby.</span></p>
+                </div>
+                <div type="section">
+                    <head><title type="main">THEIR FOOD AND CLOTHING.</title></head>
+                    <p><span type="trope" n="5">I found the eggs of water fowl so plentiful when I
+                            visited <rs><placeName type="island" key="#i_sn">this little
+                                    island</placeName></rs>
+                            <date notBefore="1871">almost twenty years ago</date> to gather material
+                            for an English magazine that it was absolutely impossible to walk about
+                            without crushing great numbers under foot.</span>
+                        <span type="trope" n="3">And <rs><orgName type="nativeamericantribes"
+                                    key="#natam_NicolenoTongva">these simple natives</orgName></rs>
+                            dressed their bodies not in furs, but in feathers. They skinned the sea
+                            lions and out of the skins they made remarkably beautiful garments of
+                            all hues and fashions.</span></p>
+                    <p><span type="trope" n="3">And this wonderful skill in all their simple walks
+                            of life, together with their perfect docility&#8212;for it seems they
+                            knew nothing at all about war or even an[g]er&#8212;tempted <persName
+                                type="group" key="#aji; #ndur; #misfats">the monks</persName> to
+                            undertake the transportation of the whole tribe, numbering less than two
+                            hundred, to their settlement at <placeName type="city" key="#ci_sb"
+                                >Santa Barbara</placeName>.</span></p>
+                    <p><span type="trope" n="3">And so they sent <rs><name type="ship"
+                                    key="#sh_peoresnada">their ship</name></rs>, and contriving to
+                            get <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                    >the simple and confiding islanders</orgName></rs> all on board
+                            they hoisted sail for <placeName type="region" key="#re_mld">the
+                                mainland</placeName>.</span></p>
+                    <p>After a time <rs><orgName type="nativeamericantribes"
+                                key="#natam_NicolenoTongva">the poor prisoners</orgName></rs> became
+                        alarmed, and fearing they were to be taken from <rs><placeName type="island"
+                                key="#i_sn">their beloved island</placeName></rs> forever, attempted
+                        to escape over the sides of <rs><name type="ship" key="#sh_peoresnada">the
+                                ship</name></rs> into the sea. <span type="trope" n="9">But
+                                    <rs><persName type="group"
+                                    key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                                    >the cunning Spanish soldiers and sailors</persName></rs> had
+                            taken precautions against this, and <rs><persName type="nativeamerican"
+                                    key="#lw">only one</persName></rs> managed to leap into the sea
+                            and swim back to <rs><placeName type="island" key="#i_sn">the
+                                    island</placeName></rs>.</span></p>
+                    <p>Now <rs><orgName type="missionfathers" key="#misfats">the
+                            monks</orgName></rs> told various stories about this woman's reason for
+                        escaping back to <rs><placeName type="island" key="#i_sn">the lonely
+                                island.</placeName></rs> One was to the effect that she had hidden
+                        away <rs><persName type="nativeamerican" key="#lwchild">her
+                            babe</persName></rs> in the rocks on consenting to go on board <rs><name
+                                type="ship" key="#sh_peoresnada">the ship</name></rs>, so as to make
+                        sure that it at least should not be torn from its happy little home in the
+                        sea and made to serve the strangers, and then finding she was being carried
+                        away to return no more, she, in her desperation, dashed through her guards
+                        and so got away. A kindlier story is to the effect that <rs><persName
+                                type="nativeamerican" key="#lwmother">her mother</persName></rs> hid
+                                <rs><persName type="nativeamerican" key="#lwchild">the
+                                babe</persName></rs>, but that she did not know it and thought it
+                        had been forgotten. Still another version of the story runs to the effect
+                        that <rs><persName type="nativeamerican" key="#lwchild">the
+                            child</persName></rs> was about to be devoured by numbers of dogs that
+                        were left behind, and that she leaped into the sea to save it. But this is
+                        the most unkindly and the hardest of all the versions of this extraordinary
+                        story. For to believe this last is to believe that <rs><persName
+                                type="nativeamerican" key="#lwchild">the little
+                            child</persName></rs> was indeed destroyed by the dogs; since
+                                <rs><persName type="nativeamerican" key="#lw">the
+                            mother</persName></rs> when found there and taken to <placeName
+                            type="region" key="#re_mld">the mainland</placeName>
+                        <date when="1853">nearly a quarter of a century ago</date> was found
+                        entirely alone.</p>
+                    <p>My own notion of the matter is that <rs><orgName type="missionfathers"
+                                key="#misfats">the Jesuit fathers</orgName></rs> entrusted the
+                        capture and transportation of <rs><orgName type="nativeamericantribes"
+                                key="#natam_NicolenoTongva">the simple natives</orgName></rs>
+                        entirely to some cruel leader of their few seamen and soldiers; that with
+                        the usual high handed audacity of the early Spaniards he decoyed them all on
+                        board, and only this one could get away. I see no reason for believing there
+                        was any baby in the case at all.</p>
+                </div>
+                <div type="section">
+                    <head><title type="main">LEFT ALONE FOR YEARS.</title></head>
+                    <p>And now years and years rolled by. A beautiful little city blossomed out at
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, only
+                        twenty miles away from <rs><persName type="nativeamerican" key="#lw">the
+                                lonely woman</persName></rs> on <rs><placeName type="island"
+                                key="#i_sn">her silent little island</placeName></rs>. A huge stone
+                        cathedral, still standing there with its frieze of human skulls set in
+                        stonelike cement, was reared by the hands of the converts and the captives;
+                        but she saw nothing, knew nothing of this. For her there was no change day
+                        after day, <rs><date from="1835" to="1853">year after year</date></rs>. The
+                        same rise and fall of the sea, the same solemn march of the seasons, the
+                        same silent marching and countermarching of the stars above her and about
+                        her on the edge of the sea, the same endless, awful monotony of the rising
+                        and the going down of the sun and the moon and the stars. And that was all.
+                        It seems incredible to think that any set of human beings could have been so
+                        entirely brutal as to leave <rs><persName type="nativeamerican" key="#lw"
+                                >this woman</persName></rs> there <rs><date from="1835" to="1853"
+                                >all these years</date></rs> so utterly and so desolately alone.
+                            <span type="trope" n="8">She did not even have the goats of <name
+                                type="fictional" key="#rcr">Robinson Crusoe</name>, to say nothing
+                            of <persName type="fictionel" key="#friday">his man Friday</persName>
+                            and like creatures.</span> She had only the dogs. And they became so
+                        numerous and so wild, as we shall presently see, as to be the greatest
+                        terrors.</p>
+                    <p>But it should here be explained as a sort of justification of <rs><orgName
+                                type="missionfathers" key="#misfats">the Jesuit
+                            fathers</orgName></rs> that they had hardily got their religious
+                        settlement solidly founded when they were recalle[d] by the King of Spain,
+                        or at least made powerless by the confiscation of nearly all their
+                        privileges and their property. And so other people took their places, and
+                        time swept on.</p>
+                </div>
+                <div type="section">
+                    <head><title type="main">WAITING FOR SUCCOE [SUCCOR].</title></head>
+                    <p>After years and years gold was found in <placeName type="state" key="st_ca"
+                            >California</placeName> and ships began to sail by in great numbers. One
+                        ship after another reported seeing a lone figure like that of a human being
+                        standing on a little pyramid of heaped up stones and looking out after the
+                        ship till lost to sight.</p>
+                    <p>Finally inquiry in and around <placeName type="city" key="#ci_sf">San
+                            Francisco</placeName> revived the story about <rs><persName
+                                type="nativeamerican" key="#lw">the lone woman</persName></rs> who
+                        had been left for <rs><date from="1835" to="1853">so many years</date></rs>
+                        on <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                        the circumstances as I have set them down, so far as the facts were known at
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                    <p>But everybody was busy getting gold. We had no lighthouse or government
+                        stations then as now. Our acquisition of the vast seashore out here was new.
+                        We had not yet explored or set foot on the half of our possessions. And so
+                        time still swept on and <rs><persName type="nativeamerican" key="#lw">the
+                                lone w[o]man</persName></rs> was still left with her wild dogs in
+                                <rs><placeName type="island" key="#i_sn">the desolate little
+                                island</placeName></rs> off the salubrious harbor of <placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                    <p>And now one of the great steamers carrying gold and passengers, <name
+                            type="ship" key="#sh_generalscott">the General Scott</name>, was wrecked
+                        on <rs><placeName type="island" key="#i_an">a still smaller
+                                island</placeName></rs> not far off.</p>
+                    <p>The wreckers and others saw <rs><persName type="nativeamerican" key="#lw">the
+                                woman</persName></rs> not infrequently now. And the story went about
+                        that the little pyramid of rocks was gradually growing higher and
+                                <rs><persName type="nativeamerican" key="#lw">the lone and desolate
+                                figure</persName></rs> that mounted it taller and taller as time
+                        went by.</p>
+                    <p>Finally the American spirit could endure this idea of lone and endless
+                        captivity no longer. <rs><persName type="group" key="#gni; #cdi">Two
+                                men</persName></rs> from <placeName type="city" key="#ci_bo"
+                            >Boston</placeName> and some others from I know not where hired <name
+                            type="ship" key="#sh_nidever">a small ship</name> and sailed straight
+                        for the relief of <rs><persName type="nativeamerican" key="#lw">the poor
+                                desolate prisoner</persName></rs>. She stood high and lone on the
+                        heap of stones and waited for their coming.</p>
+                    <p>And what could have been her thoughts? Would they, too, pass on and away to
+                        the left and to the right as a thousand other ships had passed? Would they
+                        come to her? Could they come? And what if they should come? Would they
+                        devour her; [sic] as the wild dogs that gathered about her were waiting to
+                        devour her? Landing without trouble, for the ocean here is still and restful
+                        as a rule, they walked away over the sea birds' eggs and through the swarms
+                        of seal straight up toward <rs><persName type="nativeamerican" key="#lw">the
+                                feather clad figure</persName></rs> on the high heap of stones. It
+                        did not attempt to run away.</p>
+                </div>
+                <div type="section">
+                    <head><title type="main">HER PITIABLE PLIGHT.</title></head>
+                    <p>And here is the grimmest and most pathetic part of it all; she could not run
+                        away without danger of being devoured by the horde of wild dogs that
+                        literally sat in a circle around her, waiting, watching for her to come
+                        down.</p>
+                    <p>She had been years building her little fortress, and she had built it with
+                        all the care and skill of a trained engineer. Here was a stone house for her
+                        provisions; there a cell for water, and here one worn and crooked pass where
+                        she could possibly beat back the dogs with her club as long as she had
+                        strength. But when strength failed her? She had not been unmindful of
+                        failing strength in the end, however, and so had built a little tower on
+                        top, where she could at the last lie down and die.</p>
+                    <p>One of <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the rescuing
+                                party</persName></rs> told me that she surely could have held out
+                        but a little time longer.</p>
+                    <p>Strange as it may seem, she laughed at the pity offered her. She would not
+                        come down to them, but when they came up into her little retreat she laughed
+                        outright and hid her face in her rich robe of feathers. <span type="trope"
+                            n="14">In fact, as this same man told me, she laughed almost
+                            continually, perhaps to the poor creature's only form of
+                            expression.</span> For, of course, she could not understand one word
+                        that any one spoke to her. <span type="trope" n="6">And one of the
+                            interesting things about it all is when they got her to <placeName
+                                type="city" key="#ci_sb">Santa Barbara</placeName> not one of
+                                    <rs><orgName type="nativeamericantribes"
+                                    key="#natam_NicolenoTongva">her tribe</orgName></rs> was left
+                            alive to talk with her.</span></p>
+                    <p><span type="trope" n="14"><persName key="#bri">Dr. Brinkerhoff</persName>,
+                            who was then the principal citizen in <placeName type="city"
+                                key="#ci_sb">Santa Barbara</placeName> and <rs><persName
+                                    key="#brinkwife">whose widow</persName></rs> is still there to
+                            verify all that has been said, told me that he took from <rs><name
+                                    type="ship" key="#sh_nidever">the boat</name></rs> himself when
+                                    <rs><persName type="group"
+                                    key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                    party</persName></rs> got back from <rs><placeName type="island"
+                                    key="#i_sn">the island</placeName></rs> with her and that she
+                            began to laugh as soon as he took hold of her hand to help her ashore.
+                            And he further told me that as he walked up <rs><placeName type="city"
+                                    key="#ci_sb">town</placeName></rs> with her toward <placeName
+                                key="#brinkhouse">his house</placeName> they met <rs><persName
+                                    key="#riderhorseman; #mrni; #jsh; #ssh">a man in the street on
+                                    horseback</persName></rs>, and that on the sight of
+                                    <rs><persName key="#riderhorseman; #mrni; #jsh; #ssh">this man
+                                    on horseback</persName></rs> she sat right flat down in the dust
+                            and laughed and laughed as if she could never stop laughing.</span></p>
+                </div>
+                <div type="section">
+                    <head><title type="main"><persName type="showman" key="#pba">BARNUM</persName>
+                            WANTED HER.</title></head>
+                    <p>Of course the strange story and the news of the rescuing from <rs><placeName
+                                type="island" key="#i_sn">the island</placeName></rs> soon spread
+                        all over the world. <persName type="showman" key="#pba">Barnum</persName>
+                        sent <rs><persName type="seaman" key="#tru">a man</persName></rs> all the
+                        way from his <placeName type="city" key="#bridgeport">Bridgeport</placeName>
+                        home to secure her for his "greatest show on earth," and the <orgName
+                            type="government" key="#castate">State of California</orgName> promised
+                        to make ample provision for her comfort and well being at home.</p>
+                    <p>But before <rs><persName type="seaman" key="#tru">Barnum's
+                            agent</persName></rs> arrived or <rs><persName type="nativemerican"
+                                key="#lw">the poor little laughing creature</persName></rs> had
+                        fairly ceased to laugh at the sight of the first horse she had ever seen she
+                        felt ill.</p>
+                    <p>All was done by the good people of <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> that could possibly be done. <span type="trope"
+                            n="3">She had the best of care and certainly the best of physicians
+                            attended her. But she rapidly declined and one day while sitting on the
+                            grass eating a piece of watermelon she suddenly turned her face away to
+                                    <rs><placeName type="island" key="#i_sn">her
+                                island</placeName></rs>, looked a moment, and then sank down on the
+                            grass, dead!</span></p>
+                    <p>They found a great many fishhooks hidden away in her new clothes and also a
+                        number of needles, for fishhooks and needles were the wonder and the delight
+                        of her heart, and this gave rise to the idea that was getting ready to swim
+                        back to <rs><placeName type="island" key="#i_sn">her
+                        island</placeName></rs>. But <persName key="#bri">Dr.
+                            Brinkherhoff</persName> assured me that she was perfectly content in
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and had no
+                        notion of running away. He said, with reason, that it was but natural that
+                        she should, after her long enforced habits of hoarding of things, hide away
+                        fishhooks and needles, as the two things were important to her in her
+                        pitifully limited vision of life.</p>
+                    <p>She left many things of very cunning workmanship still to be seen in
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. But her
+                        gorgeous robe of feathers, made entirely from the few green feathers found
+                        on the heads of certain ducks and composed of more than one thousand pieces
+                        was sent to <rs><persName key="#pop">the Pope</persName></rs> and is to be
+                        seen in <orgName type="museum" key="#mu_vaticanmuseum">the
+                        Vatican</orgName>.</p>
+                    <p>She caught these ducks with fishhooks made of bone and sinew. She sewed her
+                        robe of ever so many pieces together with sinews taken from the backs of
+                        seal, her only needle being a sharpened bone. No wonder that all the wealth
+                        of <placeName type="state" key="#st_cal">California</placeName>, to her, was
+                        not worth so much as a few fishhooks and needles.</p>
+                    <byline><persName type="author" key="#jmill">JOAQUIN MILLER.</persName></byline>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#pacificdiscovery">Pacific
+                     Discovery</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">7</biblScope>
+               <biblScope unit="issue">1</biblScope>
+               <date when="1954"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#Meighan1954">The Nicoleño</title>
+                  <biblScope unit="page" from="22" to="27"/>
+                  <author><persName type="author" key="#cme">Meighan, Clement W.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">The Nicoleño</orgName></title></head>
+            <byline><persName type="author" key="#cme">CLEMENT W. MEIGHAN</persName></byline>
+            <head><title type="sub"><rs><placeName type="island" key="#i_sn">'Desert' San Nicolas
+                        Island</placeName></rs> once supported <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">1,000
+                        Indians</orgName></rs>, yet white men call it worthless</title></head>
+            <p><placeName type="island" key="#i_sn">SAN NICOLAS ISLAND</placeName>, <rs><placeName
+                     type="island" key="#i_sn">a small semi-desert patch of land</placeName></rs>
+               southwest of <placeName type="city" key="#ci_la">Los Angeles</placeName> and 55 miles
+               from <rs><placeName type="region" key="#re_calcoast">the coast</placeName></rs>, has
+               long attracted the attention of archeologists. <rs><date notBefore="0950"
+                     notAfter="1450">Between 500 and 1,000 years ago</date></rs>, <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> supported several Indian
+               villages and maintained <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">a population</orgName></rs> which has been
+               estimated at more than a thousand people. Such a population is not exceedingly dense
+               by modern standards, but the usual Indian populations were quite sparse and a
+               population of a thousand on San Nicolas' 32 square miles would represent a very
+               crowded settlement by aboriginal standards.</p>
+            <p>The abundant archeological remains which have been reported by numerous scientific
+               expeditions to <placeName type="island" key="#i_sn">San Nicolas</placeName> indicate
+               that <rs><placeName type="island" key="#i_sn">the island</placeName></rs> had many
+               attractions for a native people. This comes as a surprise to the modern visitor, for
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> has little in the way
+               of scenic or climatic attractions. Indeed, early visitors to <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> were unanimous in
+               reporting it to be a dismal place for anyone to live. There are no harbors suitable
+               even for small boats, the land is mostly a sandy waste without trees of any kind,
+               sand storms due to the heavy winds are frequent, and a cold and clammy fog shrouds
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> much of
+               the time. <span type="trope" n="6"><placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> is definitely not one of the resort spots of <placeName
+                     type="state" key="#st_cal">California</placeName>, and except for some
+                  short-lived attempts to raise sheep on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs>, it has been of use only for scientific and
+                  military purposes.</span></p>
+            <p>At the present time, <placeName type="island" key="#i_sn">San Nicolas</placeName> is
+               under the control of the <rs><placeName type="region" key="#re_pmugu">U. S. Naval Air
+                     Missile Test Center, Pt. Mugu</placeName></rs>. Through the cooperation of
+                  <persName type="military" key="#eco">Captain E. M. Condra, Jr.</persName>,
+               Commander of <rs><orgName type="military" key="#pointmugu">that
+                  station</orgName></rs>, <rs><persName type="author" key="#cme">the
+                     writer</persName></rs>, accompanied by <persName type="author" key="#heb">H. E.
+                  Eberhart</persName> of the <orgName type="institution" key="#in_ucla">University
+                  of California (Los Angeles)</orgName>, was permitted to spend several days on
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> early in <date
+                  when="1953">1953</date> for the purpose of recording and mapping the archeological
+               remains of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> is now closed to
+               casual visitors, and formal permission from <rs><orgName type="military"
+                     key="#mi_navy">the Navy</orgName></rs> is necessary for visiting <rs><orgName
+                     type="military" key="#pointmugu">this installation</orgName></rs>.</p>
+            <p>The remains of former Indian villages are found in all parts of <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>. These village locations are
+               usually on top of sand dunes, and they are marked by a litter of sea-shells, animal
+               bones, burned stones from fire-places, and discarded tools and weapons. Such a
+               location is called a kitchen midden &#8212; it is a spot covered with the debris of
+               everyday living and representing a location where people once lived for some length
+               of time. A total of 68 such extinct villages, some of them covering several acres,
+               have been located on <placeName type="island" key="#i_sn">San Nicolas</placeName>.
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">The
+                     Indians</orgName></rs> had their houses on top of the dunes, amidst the
+               discarded refuse of cooking over open fires. They also buried their dead, accompanied
+               by offerings of shell beads and other ornaments, in the sandy midden soil.</p>
+            <p>It should be noted that not all of San Nicolas' 68 villages were occupied at the same
+               time. From what is known of the living pattern of California Indians, it seems
+               certain that the <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians of San Nicolas</orgName></rs> moved from place to place as the food
+               supplies of each region were depleted. Even in the small area of <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>, there was probably a seasonal
+               migration to favored spots for fishing, hunting birds, and perhaps gathering some
+               wild plant food. Aside from this consideration, we do not yet know how long each of
+               the village areas was used. The total number of villages covers a time span of
+               several hundreds, perhaps even thousands of years, and some village locations must
+               have been abandoned long before others came into use. Thus, not more than five or six
+               of the villages may have been actually inhabited at one time. The problem of
+               determining which villages were contemporaneous remains to be solved by future
+               archeological work.</p>
+            <p><span type="trope" n="6">The objects found in the soil of the extinct villages
+                  provide us with practically all the knowledge we have of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the people who lived
+                        on San Nicolas</orgName></rs> in <rs><date notAfter="1492">pre-Columbian
+                        times</date></rs>. Although we know that there were <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">Indians on San
+                        Nicolas</orgName></rs> at <rs><date notBefore="1542">the time of the Spanish
+                        entry into <placeName type="region" key="#re_spcal"
+                        >California</placeName></date></rs>, <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     people</orgName></rs> became extinct early in the historic period and only
+                  fragments of their language and culture have been preserved. It is not known for
+                  certain what destroyed <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Indian culture of San
+                  Nicolas</orgName></rs>, but most likely it disappeared under the same causes which
+                  affected the other southern California Indians: removal to the <rs><orgName
+                        type="mission" key="#mi_mainlandmissions">Spanish missions</orgName></rs>,
+                  new diseases to which the Indians had no resistance, and adoption by the Indians
+                  of the white man's way of life. In addition, <rs><persName type="group"
+                        key="#rfurcompany; #iba; #1814huntingparty">early traders</persName></rs>
+                  placed <rs><orgName type="nativeamericantribes" key="#natam_aleuts">Aleut
+                        fur-hunters</orgName></rs> on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, and according to one account these killed most of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        native inhabitants</orgName></rs>.</span></p>
+            <p>For the sake of convenience, the <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">Indians of San Nicolas</orgName></rs> have been
+               called the <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                  >Nicoleño</orgName> by <persName type="author" key="#akroe">Professor A. L.
+                  Kroeber</persName> of the <orgName type="institution" key="#in_ucb">University of
+                  California</orgName>. This is of course not the Indians' name for themselves, but
+               it serves as a simple way of referring to the "<rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">people of San
+                     Nicolas</orgName></rs>."</p>
+            <p><span type="trope" n="6"><rs><persName type="nativeamerican" key="#lw">The very last
+                        of the Nicoleño</persName></rs> lived until <date when="1853"
+                  >1853</date>.</span> Some years earlier, in <date when="1835">1835</date>,
+                  <persName type="group" key="#bhagroup">a handful of Indians</persName> remaining
+               on <placeName type="island" key="#i_sn">San Nicolas</placeName> were removed to the
+                  <placeName type="mission" key="#mi_sb">Mission at Santa Barbara</placeName>.
+                     <rs><persName type="nativeamerican" key="#lw">A lone woman</persName></rs> was
+               somehow left behind and lived entirely alone on <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> for <rs><date from="1835" to="1853">18
+                     years</date></rs> until she was at last found and taken to <rs><placeName
+                     type="region" key="#re_mld">the mainland</placeName></rs> in <date when="1853"
+                  >1853</date>. <span type="trope" n="8"><rs><persName type="nativeamerican"
+                        key="#lw">This woman</persName></rs>, referred to in popular accounts of the
+                  period as the "<rs><persName type="nativeamerican" key="#lw">Lost Woman of San
+                        Nicolas</persName></rs>," could no doubt have told a story which would
+                  eclipse Daniel Defoe's tale of Robinson Crusoe.</span> The true meaning of the
+               word "solitude" is certainly conveyed by the image of the "<rs><persName
+                     type="nativeamerican" key="#lw">Lost Woman</persName></rs>" spending a lifetime
+               alone on <rs><placeName type="island" key="#i_sn">a barren and windy
+                     island</placeName></rs>, yet within sight of the mountains of <rs><placeName
+                     type="region" key="#re_mld">the mainland</placeName></rs> and probably within
+               sight of occasional fishing boats which visited <rs><placeName type="region"
+                     key="#re_socal">the region</placeName></rs>.</p>
+            <p><span type="trope" n="6">By the time <rs><persName type="nativeamerican" key="#lw"
+                        >the last Nicoleño</persName></rs> had been taken to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>, all of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     people</orgName></rs> who had been removed <rs><date when="1835">18 years
+                        earlier</date></rs> had died.</span> Nobody could be found who spoke the
+               woman's language, and since it was not possible to communicate with her except by
+               sign language, the details of the woman's life on <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> can never be known. A sprinkling of
+               scattered observations by <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the people who
+                     discovered <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs></persName></rs> are all that remain &#8212; four words
+               of her language, some comments on her material possessions, and a few inferences
+               about her life on <placeName type="island" key="#i_sn">San Nicolas</placeName>. One
+               of the first things she saw when she reached <rs><placeName type="region"
+                     key="#re_mld">the mainland</placeName></rs> was <rs><persName
+                     key="#riderhorseman; #mrni; #jsh; #ssh">a man riding a horse</persName></rs>, a
+               sight which amazed and delighted her [to] no end. Perhaps no detail of her story is
+               so indicative of the complete isolation in which <rs><persName type="nativeamerican"
+                     key="#lw">this woman</persName></rs> had lived for <rs><date from="1835"
+                     to="1853">almost two decades</date></rs>.</p>
+            <p>When found, the "<rs><persName type="nativeamerican" key="#lw">Lost
+                  Woman</persName></rs>" was living in a small brush enclosure on one of the shell
+               middens. Her meager possessions included a knife made of a rusty piece of a hoop,
+               baskets and wooden containers for food and water, fishing lines, and cords for
+               snaring seals. She was wearing a dress made of bird skins which hung down to her
+               knees.</p>
+            <p>Unfortunately, the "<rs><persName type="nativeamerican" key="#lw">Lost
+                     Woman</persName></rs>" died only 7 weeks after she had been "rescued" from
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>. The illness which
+               caused her death was no doubt some disease which had little effect on the whites but
+               proved devastating to one whose <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">race</orgName></rs> had never had contact with it.
+               The few objects that the "<rs><persName type="nativeamerican" key="#lw">Lost
+                     Woman</persName></rs>" had made to sustain her life on <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> were scattered, and no trace of them remains.
+               It will always be a source of regret to scientists that the information which
+                     <rs><persName type="nativeamerican" key="#lw">the "Lost Woman"</persName></rs>
+               could have given about <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">her people</orgName></rs> died with her.</p>
+            <p>There remain to us the many objects, thousands of which have already been recovered,
+               which lie buried in the old villages of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> and which throw much light on the former life of the <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleño</orgName>.
+               Objects which are directly connected with the business of making a living are most
+               common, and it is these which indicate the attractions <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> had for <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">its Indian
+                     inhabitants</orgName></rs>. For <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indian</orgName></rs>, <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> offered a steady and assured food supply, and
+               this is what permitted the many villages and the relatively large population. Like
+               nearly all of the California Indians, the <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">Nicoleño</orgName> had no agriculture; their
+               livelihood depended entirely upon the food resources they could hunt and gather.
+               Despite its lack of scenic attractions and its often unpleasant climate, <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> was very favorable to a people
+               with such a hunting-gathering economy. Indeed, by comparison with most other regions
+               of the West, <placeName type="island" key="#i_sn">San Nicolas</placeName> was a land
+               flowing with milk and honey to its <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">Indian settlers</orgName></rs>.</p>
+            <p><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">The
+                  Nicoleño</orgName>, like <rs><orgName type="nativeamericantribes"
+                     key="#natam_inuit">the modern Eskimo</orgName></rs>, must have lived on a diet
+               that was almost exclusively meat. The few plants on <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> could not have provided more than a small
+               portion of the food consumed. In addition, nearly all the food <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">the Nicoleño</orgName> ate
+               came from the sea, for there are virtually no land animals on <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> (there are only three, to be
+               exact &#8212; a lizard, a mouse, and a diminutive fox).</p>
+            <p>Marine mammals, including seals, sea lions, and sea otters, were a major source of
+               Nicoleño food supply. These were apparently either snared or clubbed, but they do not
+               appear to have been hunted with bows and arrows for arrow points are extremely rare
+               on the island. Among the marine mammals available was <emph>Mirounga</emph>, the
+               elephant seal, which is one of the biggest animals ever hunted by any American Indian
+               people. <placeName type="island" key="#i_sn">San Nicolas</placeName> is one of the
+               favored spots for these huge pinnipeds, the adult males of which reach a weight of
+               5,000 pounds. Since they are not now molested on <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName>, the marine mammals have become extremely tame and are
+               little concerned with the occasional humans who visit their beaches. Elephant seals
+               basking on the beach did not even turn their heads to watch <rs><persName
+                     type="group" key="#meighangroup">the writer's party</persName></rs> walking
+               within ten feet of them. No doubt the sea mammals had reason to be more alert when
+               they were hunted by <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                  >the Nicoleño</orgName>.</p>
+            <p>Fishing also provided an important share of the Nicoleño larder. This is seen in the
+               great numbers of fish bones which are found in the middens and is also attested by
+               quantities of aboriginal fish hooks which have been found. <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">The Nicoleño</orgName>
+               used two kinds of fish hooks; one is simply a straight piece of bone, sharpened on
+               both ends and technically called a gorge &#8212; the other type of hook was curved,
+               barbless, and made of pieces of marine shell (usually abalone, although mussel shell
+               and the red top shell were also used). Both kinds of hooks have been proven effective
+               for Pacific fishing by recent experimenters. Unfortunately, no study has been made of
+               the fish bones from <placeName type="island" key="#i_sn">San Nicolas</placeName> to
+               determine which species was the favored catch of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Indians</orgName></rs>. Jaw bones of the California sheepshead
+                  (<emph>Pimelometopon pulchrum</emph>) are common in the shell middens, but there
+               are also many species not yet determined.</p>
+            <p>Marine birds and migratory waterfowl were also of considerable importance to the
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">San
+                     Nicolas Indians</orgName></rs>. The bones of many birds (also unidentified as
+               to species) are found, and beads, whistles, and bone awls were commonly made from the
+               long bones of birds.</p>
+            <p>Perhaps their most easily obtained food was derived from the various kinds of
+               shellfish which could be gathered by hand. The rocky shores of <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> afford a favorable environment
+               for many species of shellfish. The sand dunes of the ancient villages are covered
+               with scattered limpets, mussels, and thousands upon thousands of abalone shells. Many
+               other species of shells, and also the remains of sea urchins, occur in lesser
+               numbers. Common artifacts from the village sites are curved pieces of sea mammal ribs
+               which had the same size and function as the tire-irons used by modern man to detach
+               abalone shells from the rocks.</p>
+            <p>This brief listing of food resources indicates clearly how favorable <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> was for supporting an aboriginal
+               population. But like all other human groups, <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">the Nicoleño</orgName> were not solely concerned with
+               the food quest. They must have had music, folk-beliefs, social regulations, and a
+               religion of some sort. Such aspects of life are seldom indicated in material remains,
+               however. These are the things the "<rs><persName type="nativeamerican" key="#lw">Lost
+                     Woman</persName></rs>" could perhaps have told about, but lacking an
+               eye-witness report our knowledge of the less tangible parts of Nicoleño culture is
+               largely conjectural.</p>
+            <p>It is known from the objects found at the village sites and with the burials of the
+               dead that <orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Nicoleño</orgName> devoted a large amount of time to the production of "art
+               objects" and other things which were not utilitarian but served primarily for
+               esthetic satisfaction. Among the most striking of these specimens are effigies of sea
+               mammals and whales, carved with great care from blocks of soapstone (steatite). Most
+               of the effigies appear to have been found with burials. It is logical to surmise that
+               killer whales and similar striking animals of the sea may have played a large part in
+               Nicoleño religious beliefs, since the Indians' lives were oriented to the sea. Whale
+               bones were commonly used as grave markers and sometimes occur in graves with the
+               deceased. Other non-utilitarian objects which have been found include a great variety
+               of beads and pendants made of shell, bone, and stone. At least 14 different species
+               of shells were used in the production of the shell ornaments, and some sort of mass
+               production technique was no doubt used to make the commoner types of shell beads.</p>
+            <p><span type="trope" n="6">Although <orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Nicoleño</orgName> passed into oblivion without
+                  making an impression of any sort on our own historical traditions, archeologists
+                  will continue to be interested in reconstructing the life of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">these little-known
+                        people</orgName></rs>.</span> As further archeological work is carried out,
+               we may expect to learn more about their adaptation to their specialized environment,
+               their industries and manufactures, and perhaps their customs and beliefs. As a
+               passing comment, it may be worth some reflection that <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the "primitive"
+                     aborigines</orgName></rs> managed to make a living for many people on
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, whereas our own
+               technological society has managed to get nothing of economic value from
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in
+                     <rs><date notBefore="1845">the last hundred years</date></rs>. In any case, the
+               study of <orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Nicoleño</orgName> has barely begun, and there is no doubt that important finds
+               await the archeologists' shovels.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
