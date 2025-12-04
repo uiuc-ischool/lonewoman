@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#calfarmer">California Farmer
+                     and Journal of Useful Sciences</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">33</biblScope>
+               <biblScope unit="issue">16</biblScope>
+               <date when="1860-06-08"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Taylor1860_13(16)">California Notes. The Indianology
+                     of California. [Continued.] Miscellaneous.</title>
+                  <biblScope unit="page" n="122"/>
+                  <author><persName type="author" key="#ata">Taylor, Alex S.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><placeName type="state" key="#st_cal">CALIFORNIA</placeName>
+                  NOTES.</title></head>
+            <byline>BY <persName type="author" key="#ata">ALEX. S. TAYLOR</persName>.</byline>
+            <head><title type="sub"><hi rend="bold">THE INDIANOLOGY OF <placeName type="state"
+                        key="#st_cal">CALIFORNIA</placeName>. [CONTINUED.]</hi></title></head>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Miscellaneous.</hi></title></head>
+               <p>VALUABLE accounts of the Indians of the frontiers of <placeName type="state"
+                     key="#st_cal">California</placeName> and <placeName type="state" key="#st_or"
+                     >Oregon</placeName>, between the ocean and the mountains bounding the
+                     <placeName type="region" key="#re_sacvalley">Sacramento Valley</placeName> on
+                  the west, may be found in the <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName> Golden Era, of <date when="1856-03">March 1856</date>, by
+                     <persName key="#lhu">Dr. Lorenzo Hubbard</persName>, and by <rs><persName
+                        key="#writer">a German writer</persName></rs> in <date when="1856-05">May
+                     1856</date>. Also, interesting narratives of the Indian countries of <placeName
+                     type="county" key="#co_trinity">Trinity</placeName>, <placeName type="county"
+                     key="#co_mendco">Mendocino</placeName> and Humboldt bay and <placeName
+                     type="county" key="#co_hum">county</placeName> are given in the <orgName
+                     type="publication" key="#humboldttimes">Humboldt Times</orgName> of <date
+                     when="1856-04">April 1856</date>, written by <persName key="#lwo">Mr. Lewis K.
+                     Wood</persName>, who therein gives an account of the death of <persName
+                     type="author" key="#jgr">Dr. Josiah Gregg</persName> (author of "Commerce of
+                  the Prairies," and a celebrated Indianologist), who was companion with <persName
+                     key="#lwo">Wood</persName> in his travels thereabouts in <date from="1849"
+                     to="1850">1849-50</date>. A number of highly interesting letters on the Indians
+                  of <placeName type="state" key="#st_az">Arizona</placeName> and <placeName
+                     type="city" key="#ci_son">Sonora</placeName>, written by <persName
+                     type="author" key="#cpa">Mr. Chas. P. Pajeeick</persName>, were published in
+                  the <orgName type="publication" key="#sfchronicle">San Francisco Daily California
+                     Chronicle</orgName>, of <date when="1854-05">May 1854</date>, bound volumes of
+                  which are in the <orgName type="institution" key="#in_mercantile">San Francisco
+                     Mercantile Library</orgName>; and herein we would mention that the fine
+                  collection of <placeName type="state" key="#st_cal">California</placeName> bound
+                  newspaper volumes in <rs><orgName type="institution" key="#in_mercantile">this
+                        library</orgName></rs> are of very great value to the Indianologist, and are
+                  to be found nowhere else. In the <orgName type="publication" key="#sherald">San
+                     Francisco Daily Herald</orgName> of <date from="1853-08" to="1853-11">August to
+                     November 1853</date>, may also be found accounts of the travels, etc., of
+                  Capts. <persName type="frontiersman" key="#jwa">Walker</persName> and <persName
+                     key="#aub">Aubrey</persName> in the new <placeName type="region"
+                     key="#re_mexind">Mexican-Indian countries</placeName>. The <orgName
+                     type="publication" key="#mariposatimes">Mariposa Times</orgName> of <date
+                     when="1856-07">July 1856</date>, also contains along account of the Indians and
+                  the discovery of <placeName type="region" key="#re_yosemitevalley">Yosemite
+                     Valley</placeName>; other country papers doubtless contain valuable notes on
+                  the California and Oregon Indians. On the Indians of Mexico, etc. etc., valuable
+                  memoirs by <persName type="author" key="#bma">Brandtz Mayer</persName> and others
+                  may be found in the <orgName type="musuem" key="#mu_smithsonian"
+                     >Smithsonian</orgName> contributions to knowledge. A lengthy letter of great
+                  acumen, on the hidden <emph>Idiania</emph> of <placeName type="country"
+                     key="#co_guat">Guatamala</placeName> and <placeName type="state" key="#st_chi"
+                     >Chiapas</placeName>, by a writer signing himself the <persName type="author"
+                     key="#bou">Abbe De Bourbourg</persName>, may be found in the <orgName
+                     type="publication" key="#nydtribune">New York Tribune</orgName>, of <date
+                     when="1855-11">November 1855</date>; this letter asserts great discoveries in
+                  the history, languages and traditions of the half-civilized Indians of
+                        <rs><placeName type="group" key="#co_guat; #st_chi">those
+                        countries</placeName></rs>. Also, a letter of <persName key="#ahu">Alex.
+                     Humboldt</persName> to <persName key="#fah">Dr. F. Ahrendt</persName>, of
+                     <placeName type="city" key="#ci_guat">Guatamala city</placeName>, appears in
+                        <rs><orgName type="publication" key="#nydtribune">the Tribune</orgName></rs>
+                  of <rs><date when="1855">the same year</date></rs>, treating of Bourbourgs
+                  [Bourbourg's] Indiania and the notes made by <persName key="#hes">Mr.
+                     Hesse</persName>, the Prussian Minister to <placeName type="country"
+                     key="#co_guat">Guatamala</placeName> in <date when="1852">1852</date>. The
+                  story of the hidden races of <placeName type="region" key="#re_ceam">Central
+                     America</placeName>, is also noted in the journey of <persName key="#tme">Mr.
+                     Thomas F. Meagher</persName> in <rs><placeName type="region" key="#re_ceam"
+                        >those countries</placeName></rs>, published in <orgName type="publication"
+                     key="#harpers">Harper's Magazine</orgName>, for <date when="1860-02">February
+                     1860</date>, and Von Tempsky's travels in the <rs><placeName type="region"
+                        key="#re_ceam">same countries</placeName></rs> in the <date when="1858-07"
+                     >July-1858</date>-number of <orgName type="publication" key="#harpers"
+                     >Harper's</orgName>, also makes note of similar facts. An invaluable
+                  bibliography on <placeName type="region" key="#re_ceam">Central
+                     America</placeName> may be found in the able work of <persName key="#esq">Mr.
+                     E. G. Squiers</persName> [sic] (new edition <date when="1859">1859</date>), on
+                        <rs><placeName type="region" key="#re_ceam">that country</placeName></rs>,
+                  and it is not saying too much, to say, that this work of <persName key="#esq"
+                     >Squiers</persName> [sic], like all his works on geography and American
+                  Ethnography, has no superior in the English language treating on any other
+                  country.</p>
+               <p>A valuable collection of Spanish manuscripts on <placeName type="state"
+                     key="#st_tx">Texas</placeName>, by <persName type="missionfather" key="#jmo"
+                     >Friar de Morfi</persName>, and on <placeName type="country" key="#co_mex"
+                     >Mexico</placeName> by <placeName type="misionfather" key="#gfi">Friar Garcia y
+                     Figueroa</placeName>, executed under the orders of <persName key="#riv">Viceroy
+                     Rivillagigedo</persName>, in <date when="1792">1792</date>, in 32 volumes, was
+                  offered for sale in the <orgName type="publication" key="#nycronica">New York
+                     Spanish La Cronica</orgName>, of <date when="1853-05">May 1853</date>.</p>
+               <p>We mention the foregoing newspaper narratives, as they are not generally known to
+                  the Indianologist residing out of <placeName type="state" key="#st_cal"
+                     >California</placeName>, which country has so immensely stimulated inquiries
+                  into the history, language and countries of the <emph>Autoethonia</emph> of North
+                  America.</p>
+               <p><persName key="#cna">Mr. Charles Nahl</persName>, the artist, of <placeName
+                     type="city" key="#ci_sf">San Francisco</placeName>, has executed some of the
+                  most spirited and faithful sketches of our Indians, their dances, burials, etc.,
+                  copies of which have been published in <orgName type="publication"
+                     key="#hutchingsmag">Hutchings' Magazine</orgName> and other <placeName
+                     type="state" key="#st_cal">California</placeName> journals. The following
+                  additional names of tribes and clans of <rs><placeName type="state" key="#st_cal"
+                        >our State</placeName></rs> and <rs><placeName type="state" key="#st_or"
+                        >Oregon</placeName></rs> are herein noted, that they may not be lost:</p>
+               <p><orgName type="publication" key="#dailyalta">The Alta California</orgName> of
+                     <date when="1858-06">June 1858</date>, mentions from <persName key="#ach"
+                     >Chamisso</persName> (the savan of <rs><persName type="group"
+                        key="#romanzovedped">Kotzebues Russian Pacific Expedition of <date
+                           when="1816">1816</date>)</persName></rs>, the following names of the
+                  Indian clans or Rancherias of the vicinity of <placeName type="region"
+                     key="#re_sfbay">San Francisco Bay</placeName>, numbers of whom were neophytes
+                  of <orgName type="mission" key="#mi_dolores">Dolores Mission</orgName>: "The
+                     <orgName type="nativeamericantribes" key="#natam_guymen">Guymen</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_utschium">Utschium</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_olumpali">Olumpali</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_soclan">Soclan</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_sonomi">Sonomi</orgName> all
+                  speak one tongue, and form a majority of those residing at <rs><orgName
+                        type="mission" key="#mi_dolores">the Mission</orgName></rs>. The <orgName
+                     type="nativeamericantribes" key="#natam_chulpun">Chulpun</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_umpin">Umpin</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_kosmitas">Kosmitas</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_bolbones">Bolbones</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_pittemen">Pittemen</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_lamames">Lamames</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_apalamnes">Apalamnes</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_tcholovones"
+                     >Tcholovones</orgName>, live near <placeName type="region" key="#re_sacriver"
+                     >the Sacramento</placeName> and speak one tongue&#8212;the last named are
+                  allies with the Spaniards to war on the other tribes. The <orgName
+                     type="nativeamericantribes" key="#natam_suysum">Suysum</orgName> (or <orgName
+                     type="nativeamericantribes" key="#natam_suysum">Suisun</orgName>) <orgName
+                     type="nativeamericantribes" key="#natam_numpal">Numpal</orgName> and <orgName
+                     type="nativeamericantribes" key="#natam_tamal">Tamal</orgName> tribes live in
+                  the north and north-west (side of <rs><placeName type="region" key="#re_sfbay">the
+                        bay</placeName></rs>). The <orgName type="nativeamericantribes"
+                     key="#natam_ululatos">Ululatos</orgName> live north of the <orgName
+                     type="nativeamericantribes" key="#natam_suysum">Suisuns</orgName>, and very few
+                  ever came to <rs><orgName type="mission" key="#mi_dolores">the
+                     Mission</orgName></rs>."</p>
+               <p>The Indians of <placeName type="county" key="#co_klam">Klamath</placeName>,
+                     <placeName type="county" key="#co_hum">Humboldt</placeName> and <orgName
+                     type="county" key="#co_mendco">Mendocino</orgName> counties, and of <placeName
+                     type="region" key="#re_rogue">Rogue River</placeName> and the <placeName
+                     type="state" key="#st_cal">California</placeName> and <placeName type="state"
+                     key="#st_or">Oregon</placeName> ocean frontiers, are the <orgName
+                     type="nativeamericantribes" key="#natam_klamaths">Klamaths</orgName> and the
+                     <orgName type="nativeamericantribes" key="#natam_tututanys">Tututanys</orgName>
+                  of <rs><placeName type="region" key="#re_rogue">that river</placeName></rs>
+                  section; the <orgName type="nativeamericantribes" key="#natam_hoopahs"
+                     >Hoopahs</orgName>, and the <orgName type="nativeamericantribes"
+                     key="#natam_ukiahs">Ukiahs</orgName> of <placeName type="county"
+                     key="#co_mendco">Mendocino</placeName>, those given in <persName
+                     type="frontiersman" key="#tag">Taggart</persName>'s letter in these notes, and
+                  those of Hubbard's below mentioned; the <orgName type="nativeamericantribes"
+                     key="#natam_umpquas">Umpquas</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_kowooses">Kowooses</orgName> or <orgName
+                     type="nativeamericantribes" key="#natam_kowooses">Cooses</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_macanootoony">Macanootoony's</orgName>
+                  of the <placeName type="region" key="#re_umpquariver">Umpqua river</placeName>
+                  section, <orgName type="nativeamericantribes" key="#natam_nomeecults">Nomee
+                     Cults</orgName>, and <orgName type="nativeamericantribes"
+                     key="#natam_nomeelacks">Nomee Lacks</orgName> of <placeName type="county"
+                     key="#co_tehama">Tehama county</placeName>; the <orgName
+                     type="nativeamericantribes" key="#natam_copahs">Copahs</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_hanags">Hanags</orgName>. <orgName
+                     type="nativeamericantribes" key="#natam_yatuckets">Yatuckets</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_terwars">Terwars</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_tolowas">Tolowas</orgName>, of
+                  the lower <placeName type="region" key="#re_klriver">Klamath river</placeName>;
+                  the <orgName type="nativeamericantribes" key="#natam_wylaks">Wylaks</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_noobimucks"
+                     >Noobimucks</orgName> of <placeName type="county" key="#co_trinity">Trinity
+                     county</placeName> mountains west from <placeName type="city" key="#ci_sac"
+                     >Sacramento</placeName> plains; the <orgName type="nativeamericantribes"
+                     key="#natam_modoes">Modoes</orgName> of <placeName type="region"
+                     key="#re_kllake">Klamath Lake</placeName>, the <orgName
+                     type="nativeamericantribes" key="#natam_ylackas">Ylackas</orgName> of
+                     <placeName type="region" key="#re_pitt">Pitt River</placeName>, the <orgName
+                     type="nativeamericantribes" key="#natam_ukas">Ukas</orgName> and <orgName
+                     type="nativeamericantribes" key="#natam_shastas">Shastas</orgName> of
+                     <placeName type="county" key="#co_shasta">Shasta county</placeName>; the
+                     <orgName type="nativeamericantribes" key="#natam_potoachos"
+                  >Potoachos</orgName>, <orgName type="nativeamericantribes" key="#natam_shushawees"
+                     >Shushawees</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_piscatchees">Piscatchees</orgName>, of the <placeName type="region"
+                     key="#re_mariposab">Mariposa bottoms</placeName> and vicinity, the <orgName
+                     type="nativeamericantribes" key="#natam_yosahmittis">Yosahmittis</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_monos">Monos</orgName> of
+                     <placeName type="region" key="#re_mercedmts">Merced River
+                  mountains</placeName>, and the <orgName type="nativeamericantribes"
+                     key="#natam_yukulmey">Yukulmey</orgName> of <placeName type="region"
+                     key="#re_yubariv">Yuba River</placeName>. The proper name of <placeName
+                     type="region" key="#re_russianriv">Russian river</placeName> in <placeName
+                     type="county" key="#co_sonoma">Sonoma county</placeName>, is <placeName
+                     type="region" key="#re_russianriv">Canimairo</placeName>, after <rs><orgName
+                        type="nativeamericantribes" key="#natam_canimairo">the celebrated
+                        Indians</orgName></rs> of those parts as stated in the <orgName
+                     type="publication" key="#petalumajournal">Petaluma Journal</orgName>. The
+                     <orgName type="nativeamericantribes" key="#natam_nemshous">Nemshous</orgName>,
+                  as stated by <persName key="#jsu">General Sutter</persName>, roamed ( <date
+                     notAfter="1846">prior to 1846</date>), between the <placeName type="region"
+                     key="#re_bear">Bear</placeName> and <placeName type="region" key="#re_american"
+                     >American</placeName> rivers; across <placeName type="region"
+                     key="#re_sacriver">the Sacramento</placeName> were the <orgName
+                     type="nativeamericantribes" key="#natam_yolos">Yolos</orgName> and <orgName
+                     type="nativeamericantribes" key="#natam_colusas">Colusas</orgName>; north of
+                  the <placeName type="region" key="#re_amfork">American Fork</placeName> were the
+                     <orgName type="nativeamericantribes" key="#natam_bashonees"
+                  >Bashonees</orgName>. On the banks of the river north of <placeName key="#forthel"
+                     >Fort Helvetia</placeName>, roamed the <orgName type="nativeamericantribes"
+                     key="#natam_veshanacks">Veshanacks</orgName>, the <orgName
+                     type="nativeamericantribes" key="#natam_touserlemnies">Touserlemnies</orgName>
+                  and <orgName type="nativeamericantribes" key="#natam_youcoolumnis"
+                     >Youcoolumnis</orgName>; between <placeName type="region" key="#re_american"
+                     >the American</placeName> (plain and hills) and <placeName type="region"
+                     key="#re_mokalumne">the Mokalumne</placeName> roamed the <orgName
+                     type="nativeamericantribes" key="#natam_walacumnies">Walacumnies</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_cosumnies"
+                  >Cosumnies</orgName>, <orgName type="nativeamericantribes" key="#natam_solumnees"
+                     >Solumnees</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_mokelumnees">Mokelumnees</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_suraminis">Suraminis</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_yosumnis">Yosumnis</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_lacomnis">Lacomnis</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_kiskies">Kis Kies</orgName>
+                  and <orgName type="nativeamericantribes" key="#natam_omochumnies"
+                     >Omochumnies</orgName>. South of these were the <orgName
+                     type="nativeamericantribes" key="#natam_yachachumnes">Yachachumnes</orgName>
+                  (of <placeName type="region" key="#re_calaverasb">Calaveras bottom</placeName>)
+                  and the <orgName type="nativeamericantribes" key="#natam_tuolumnes"
+                     >Tuolumnes</orgName>. The <orgName type="nativeamericantribes"
+                     key="#natam_olanches">Olanches</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_monos">Monos</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_siquirionals">Siquirionals</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_wasakshes">Wasakshes</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_cowhuillas"
+                     >Cowhuillas</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_chokimanves">Chokimanves</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_tenisichs">Tenisichs</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_yocolles">Yocolles</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_paloushiss"
+                     >Paloushiss</orgName>, <orgName type="nativeamericantribes"
+                     key="#natam_wikachumnis">Wikachumnis</orgName>, <orgName
+                     type="nativeamericantribes" key="#natam_openoches">Openoches</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_taches">Taches</orgName>,
+                     <orgName type="nativeamericantribes" key="#natam_nutonetoos"
+                     >Nutonetoos</orgName> and <orgName type="nativeamericantribes"
+                     key="#natam_choemimnees">Choemimnees</orgName>, roamed from <placeName
+                     type="region" key="#re_tuo">the Tuolumne</placeName> to <placeName
+                     type="region" key="#re_kingsriv">Kings river</placeName> and <placeName
+                     type="region" key="#re_tejonriv">the Tejon</placeName>, on the east of
+                     <placeName type="region" key="#re_sanjriver">the San Joaquin</placeName>, the
+                     <placeName type="region" key="#re_tulakes">Tulare lakes</placeName> and in
+                     <placeName type="region" key="#re_sierranevada">the Sierra Nevada</placeName>,
+                  as stated by <persName key="#ebe">Lieut. Beale</persName> in <date when="1856"
+                     >1856</date>.</p>
+               <p><span type="trope" n="14">In relation to <rs><persName type="nativeamerican"
+                           key="#lw">the Indian woman</persName></rs> found on the <placeName
+                        type="island" key="#i_sn">island of San Nicholas</placeName> by <persName
+                        type="frontiersman" key="#gni">Mr. Nidever</persName>, of <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>, in <rs><date
+                           notBefore="1853-09" notAfter="1853-11">the Fall of 1853</date></rs>,
+                        <title type="article" key="#SantaBarbaraGazette1856">the Gazette of that
+                        place</title>, remarks that</span> "<span type="trope" n="14">she had lost
+                     all knowledge of her language, and could only converse by signs and
+                     gestures.["]</span> In the year <date when="1811">1811</date>, <rs><name
+                        type="ship" key="#sh_charon">a ship</name></rs> owned by <orgName key="#bp"
+                     >Boardman and Pope</orgName> of <placeName type="city" key="#ci_bo"
+                     >Boston</placeName>, commanded by <persName type="seaman" key="#whi">Capt.
+                     Whittemore</persName>, trading on <rs><placeName type="region"
+                        key="#re_calcoast">this coast</placeName></rs>, took from <placeName
+                     type="city" key="#ci_si">Sitka</placeName> some thirty <rs><persName
+                        type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                        >Kodiak Indians</persName></rs> to <placeName type="island" key="#i_chi">the
+                     islands of the Channel</placeName>, for the purpose of killing sea-otter, and
+                  left them there till his return from the coasts of <placeName type="region"
+                     key="#re_baja">Lower California</placeName>, etc. <span type="trope" n="11">A
+                     dispute afterwards arose between the <rs><persName type="group"
+                           key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                           >Kodiaks</persName></rs> and <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the islanders</orgName></rs>, caused by the
+                     seizure of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                           >the women</orgName></rs> by <rs><persName type="group"
+                           key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                           >the Kodiaks</persName></rs>, who thereon slaughtered all <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           males</orgName></rs>, old and young on <placeName type="island"
+                        key="#i_sn">San Nicholas</placeName>, a very few only escaped.</span>
+                  <persName type="seaman" key="#whi">Capt. Whittemore</persName> returned at
+                        <rs><date when="1812">the end of a year</date></rs> and carried his
+                        <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                        >Kodiaks</persName></rs> back to <rs><placeName type="state"
+                        key="#re_russam">Russian-America</placeName></rs>. <rs><name type="ship"
+                        key="#sh_charon">Whittemore's vessel</name></rs> was afterwards (<date
+                     when="1812">1812</date>) captured by the British man-of-war <name type="ship"
+                     key="#sh_phoebe">Phoebe</name>, near the <placeName type="island" key="#i_san"
+                     >Sandwich Islands</placeName>, and he taken prisoner to <placeName
+                     type="country" key="#co_eng">England</placeName>. It seems that the
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">San
+                        Nicholas Indians</orgName></rs>, from being more distant, were not all taken
+                  off till <date when="1836">1836</date>, that is the few (seven in number) left by
+                  the <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                        >Kodiaks</persName></rs>.["] <rs><persName type="nativeamerican" key="#lw"
+                        >The woman</persName></rs> spoken of above made her escape from <persName
+                     type="group" key="#bhagroup">the party of 1836</persName>, and was not found
+                  till <date when="1853">1853</date>, as above mentioned; she died a short while
+                  afterwards in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. <span
+                     type="trope" n="5">Some of the California Indians have been known to live to a
+                     great old age. The <orgName type="publication" key="#placeram">Placerville
+                        American</orgName> in <date when="1858">1858</date>, tells of <rs><persName
+                           type="nativeamerican" key="#woman10">a woman</persName></rs> of
+                        <placeName type="region" key="#re_ccreek">Clear Creek</placeName>, living at
+                     the advanced age of two hundred (200) years ! and gives a very curious
+                     description of her; she retained a vivid recollection of her youth, when
+                     earthquakes and convulsions were very frequent. An old Carmel Indian of the
+                     name of <persName type="nativeamerican" key="#indian5">Fernando</persName>, who
+                     was blind, and was a servant of <persName type="missionfather" key="#jse">Padre
+                        Junipero</persName>, and the first Spaniards, died in <placeName type="city"
+                        key="#ci_mo">Monterey</placeName> in <date when="1852-11">November
+                        1852</date>, said to be over one hundred and fifty years of age; he was a
+                     great favorite among the people of <placeName type="city" key="#ci_mo"
+                        >Monterey</placeName>. An Indian, <persName type="nativeamerican" key="#pla"
+                        >Placide</persName>, died in <date when="1858-09">September 1858</date>, at
+                        <orgName type="mission" key="#mi_venturamission">San Buenaventura
+                        Mission</orgName>, whose age was over one hundred and thirty-seven years; he
+                     worked at the building of <rs><orgName type="mission" key="#mi_venturamission"
+                           >the Mission</orgName></rs>
+                     <rs><date notBefore="1776">over eighty-four years ago</date></rs>, and danced
+                     at a fandango only a short time before his death; he was both blind and deaf
+                     when he died.</span></p>
+               <p>All the Indians of the <placeName type="region" key="#re_spcal">ante-1800
+                     Californias</placeName> and <placeName type="state" key="#st_nm">New
+                     Mexico</placeName> seem to have used the shell-dime money with strings. From
+                  north to south in <placeName type="state" key="#st_cal">the <emph>present</emph>
+                     California</placeName> up to <placeName type="region" key="#re_colriver"
+                     >Columbia river</placeName> they burnt the dead in some tribes, and in others
+                  buried them. These modes of sepulture differed every few leagues.</p>
+               <p>The following is the number of Indians within the State boundaries, given by
+                     <persName key="#the">Superintendent Henley</persName> to the <orgName
+                     type="government" key="#gov_indianbureau">Indian Bureau</orgName> in <date
+                     when="1856">1856</date>, and published in the California journals of <date
+                     when="1857-06">June 1857</date>: At the <placeName key="#klrivres">Indian
+                     reservation on the Klamath river</placeName>, 2500; at the <placeName
+                     key="#nlacke">Nome Lacke[e]</placeName>, 2000; at the <placeName
+                     key="#mendfarm">Mendocino farm</placeName>, 500; at <placeName key="#thefresno"
+                     >the Fresno</placeName>, 900; at <placeName type="region" key="#re_tejonriv"
+                     >the Tejon</placeName>, 700; at the <placeName key="#nomecolt">Nome
+                     Cult</placeName> attached to <placeName key="#nlacke">Nome
+                  Lacke[e]</placeName>, 3000; at the <placeName type="region" key="#re_kingsriv"
+                     >King's river</placeName> attached to <placeName key="#thefresno"
+                     >Fresno</placeName>, 400; making in all, 10,000 souls in the reservations under
+                  the care of Indian agents. From the best information he states, the approximate
+                  number of Indians <emph>outside</emph> the reservations, to be as follows: In
+                     <placeName type="county" key="#co_sbern">San Bernardino</placeName> and
+                     <placeName type="county" key="#co_sdcounty">San Diego</placeName> counties,
+                  8000; in <placeName type="county" key="#co_la">Los Angeles</placeName>, <placeName
+                     type="county" key="#co_sb">Santa Barbara</placeName>, <placeName type="county"
+                     key="#co_slo">San Luis Obispo</placeName>, <placeName type="county"
+                     key="#co_monterey">Monterey</placeName>, <placeName type="county"
+                     key="#co_sclara">Santa Clara</placeName> and <placeName type="county"
+                     key="#co_scruz">Santa Cruz</placeName> counties, 2000; in <placeName
+                     type="county" key="#re_thlare">Tulare</placeName> and <placeName type="county"
+                     key="#co_mariposa">Mariposa</placeName> counties, 2500; in <placeName
+                     type="county" key="#co_tuol">Tuolumne</placeName>, <placeName type="county"
+                     key="#co_calaveras">Calaveras</placeName>, <placeName type="county"
+                     key="#co_sjoaquin">San Joaquin</placeName>, <placeName type="county"
+                     key="#co_alameda">Alameda</placeName> and <placeName type="county"
+                     key="#co_ccosta">Contra Costa</placeName> counties, 4100; in <placeName
+                     type="county" key="#co_sac">Sacramento</placeName>, <placeName type="county"
+                     key="#co_eldor">El Dorado</placeName> and <placeName type="county"
+                     key="#co_placer">Placer</placeName> counties, 3500; in <placeName type="county"
+                     key="#co_sutter">Sutter</placeName>, <placeName type="county" key="#co_yuba"
+                     >Yuba</placeName>, <placeName type="county" key="#co_nevada">Nevada</placeName>
+                  and <placeName type="county" key="#co_sierra">Sierra</placeName> counties, 3500;
+                  in <placeName type="county" key="#co_butte">Butte</placeName>, <placeName
+                     type="county" key="#co_shasta">Shasta</placeName> and <placeName type="county"
+                     key="#co_siski">Siskiyou</placeName> counties, 5500; in <placeName
+                     type="county" key="#co_klam">Klamath</placeName>, <placeName type="county"
+                     key="#co_hum">Humbol[t]t</placeName> and <placeName type="county"
+                     key="#co_trinity">Trinity</placeName> counties, 6500; in <placeName
+                     type="county" key="#co_mendco">Mendocino</placeName>, <placeName type="county"
+                     key="#co_colusi">Colusi</placeName>, <placeName type="county" key="#co_yolo"
+                     >Yolo</placeName>, <placeName type="county" key="#co_napa">Napa</placeName>,
+                     <placeName type="county" key="#co_sonoma">Sonoma</placeName> and <placeName
+                     type="county" key="#co_marin">Marin</placeName> counties, 15,000. Total in all,
+                  61,500 Indians in and out of the reservations within <rs><placeName type="state"
+                        key="#st_cal">the State</placeName></rs> limits. The estimates of State
+                  officers and other writers from <date from="1851" to="1856">1851 to 1856</date>,
+                  make the number in <rs><placeName type="state" key="#st_cal">the
+                     State</placeName></rs> from 125,000 to 220,000 during the period between those
+                  years; a large allowance being made for the <orgName type="nativeamericantribes"
+                     key="#natam_mohave">Mohave</orgName> and <rs><orgName
+                        type="nativeamericantribes" key="#natam_colriv">Colorado river
+                        Indians</orgName></rs>, including to the mouth of <rs><placeName
+                        type="region" key="#re_coloradoriver">the last river</placeName></rs> at the
+                  gulf; <rs><orgName type="nativeamericantribes" key="#natam_colriv">these
+                        last</orgName></rs> are as yet but very little known to the world. We are
+                  inclined to place the number within the above limits, i. e., between the
+                     <placeName type="region" key="#re_orline">Oregon line</placeName> and
+                     <placeName type="region" key="#re_gulf">the Gulf</placeName>, at not far short
+                  of 120,000, in say, <date when="1852">1852</date>. Since that time hundreds of
+                        <rs><orgName type="nativeamericatribes" key="#natam_colriv">these
+                        Indians</orgName></rs> have been killed off by the whites on the frontiers,
+                  by themselves in little and big wars, and by disease; but mostly by an army of
+                  rum-sellers in every hole and corner of <rs><placeName type="state" key="#st_cal"
+                        >the State</placeName></rs>, have they been slayed and demolated. As a
+                  general thing the frontier-squatters and rovers show them little mercy, and would
+                  rather, according to all accounts, shoot them than a coyote. It is difficult to
+                  say what <rs><orgName type="government" key="#gov_usa">our
+                     Government</orgName></rs> will come to, when this <rs><orgName
+                        type="nativeamericatribes" key="#natam_colriv">class of American
+                        Arabs</orgName></rs> get sufficient headway in the cities and <placeName
+                     type="country" key="#co_usa">the country</placeName> at large. Possibly they
+                  may amalgamate with the tribes between the <placeName type="region"
+                     key="#re_fnpar">49th parallel</placeName> and the <placeName type="region"
+                     key="#re_ispan">Isthmus of Panama</placeName>, and make with them and their
+                  congeners, a mixed race of strange habits to overrun again the continent of
+                     <placeName type="region" key="#re_northamerica">North America</placeName>, and
+                  set up a new system and civilization&#8212;make a Pacific American empire.</p>
+               <p><persName key="#lhu">Dr. Hubbard</persName>, in his notes (<date when="1856"
+                     >1856</date>) on the Indians of <placeName type="region" key="#re_rogue">Rouge
+                     River</placeName> and <placeName type="region" key="#re_sore">South
+                     Oregon</placeName>, on the ocean, before alluded to, gives the following list
+                  of names of Rancherias and clans of the <orgName type="nativeamericantribes"
+                     key="#natam_lototen">Lototen</orgName> or <orgName type="nativeamericantribes"
+                     key="#natam_tutatamys">Tutatamys</orgName> tribe, with the accompanying short
+                  vocabulary.</p>
+               <list>
+                  <item n="1">1. <orgName type="nativeamericantribes" key="#natam_masonah">Masonah
+                        Band</orgName>, 70 souls; chief's name, <persName type="nativeamerican"
+                        key="#cle">Clemma</persName>; location, <placeName type="region"
+                        key="#re_coqriv">Coquille river</placeName>.</item>
+                  <item n="2">2. <orgName type="nativeamericantribes" key="#natam_chockrelatan"
+                        >Chockrelatan Band</orgName>, 108 souls; chief's name, <persName
+                        type="nativeamerican" key="#chet">Chetakos</persName>; location, <placeName
+                        type="region" key="#re_coqforks">Coquille forks</placeName>.</item>
+                  <item n="3">3. <orgName type="nativeamericantribes" key="#natam_quatomah">Quatomah
+                        Band</orgName>, 130 souls, in three villages; chief's name, <persName
+                        type="nativeamerican" key="#hah">Hahulteah</persName>; location, <placeName
+                        type="region" key="#re_flcreek">Flores' creek</placeName>.</item>
+                  <item n="4">4. <orgName type="nativeamericantribes" key="#natam_laquaacha"
+                        >Laquaacha Band</orgName>,&#8212;&#8212;; location, <placeName type="region"
+                        key="#re_elkriv">Elk river</placeName>.</item>
+                  <item n="5">5. <orgName type="nativeamericantribes" key="#natam_cosulhenten"
+                        >Cosulhenten Band</orgName>, 27 souls; chief's name, <persName
+                        type="nativeamerican" key="#cha">Chatalhakeah</persName>; location,
+                        <placeName type="region" key="#re_portor">Port Orford</placeName>.</item>
+                  <item n="6">6. <orgName type="nativeamericantribes" key="#natam_yuquache">Yuquache
+                        Band</orgName>, 100 souls; chief's name, <persName type="nativeamerican"
+                        key="#ahc">Ahchessee</persName>; location, <placeName type="region"
+                        key="#re_yugua">Yugua creek</placeName>.</item>
+                  <item n="7">7. <orgName type="nativeamericantribes" key="#natam_chetlessenten"
+                        >Chetlessenten Band</orgName>, 50 souls; chief's name, <persName
+                        type="nativeamerican" key="#ene">Enetus</persName>; location, <placeName
+                        type="region" key="#re_pistolriv">Pistol river</placeName>.</item>
+                  <item n="8">8. <orgName type="nativeamericantribes" key="#natam_yahshutes"
+                        >Yah-Shutes Band</orgName>, 120 souls; chief's name, <persName
+                        type="nativeamerican" key="#cal">Calwawesit</persName>; location, <placeName
+                        type="region" key="#re_rogue">Rogue river</placeName>.</item>
+                  <item n="9">9. <orgName type="nativeamericantribes" key="#natam_wishtanatan"
+                        >Wishtanatan Band</orgName>, 60 souls; chief's name, <persName
+                        type="nativeamerican" key="#nel">Nelyetahneka</persName>; location,
+                        <placeName type="region" key="#re_whales">Whales head</placeName>.</item>
+                  <item n="10">10. <orgName type="nativeamericantribes" key="#natam_cheahtoc"
+                        >Cheahtoc Band</orgName>, 180 souls; chief's name, <persName
+                        type="nativeamerican" key="#nels">Nelyetahneska</persName> ; location,
+                        <placeName key="#chetko">Chetko</placeName>.</item>
+                  <item n="11">11. <orgName type="nativeamericantribes" key="#natam_tototen">Tototen
+                        Band</orgName>, 10 souls; chief's name, <persName type="nativeamerican"
+                        key="#tal">Talmanetesa</persName>; location, six miles above the mouth of
+                        <placeName type="region" key="#re_rogue">Rogue river</placeName>.</item>
+                  <item n="12">12. <orgName type="nativeamericantribes" key="#natam_sisticoosta"
+                        >Sisticoosta Band</orgName>, 130 souls; chief's name, <persName
+                        type="nativeamerican" key="#yac">Yachamsee</persName>; location, above
+                        <placeName type="region" key="#re_bigbend">Big Bend</placeName>, of
+                        <placeName type="region" key="#re_rogue">Rogue river</placeName>.</item>
+                  <item n="13">13. <orgName type="nativeamericantribes" key="#natam_maquelnoteer"
+                        >Maquelnoteer Band</orgName>, 120 soul[s]; chief's name, <persName
+                        type="nativeamerican" key="#talli">Tallialtus</persName>; location, 14 miles
+                     above the month of <placeName type="region" key="#re_rogue">Rogue
+                        river</placeName>&#8212;In all, 1205 souls in <rs><placeName type="country"
+                           key="#co_usa">the nation</placeName></rs>.</item>
+               </list>
+            </div>
+            <div type="section">
+               <head><title type="section">VOCABULARY.</title></head>
+
+               <list>
+                  <item n="1">head</item>
+                  <item n="2">mouth</item>
+                  <item n="3">eye</item>
+                  <item n="4">nose</item>
+                  <item n="5">ear</item>
+                  <item n="6">chin</item>
+                  <item n="7">hair</item>
+                  <item n="8">neck</item>
+                  <item n="9">teeth</item>
+                  <item n="10">tongue</item>
+                  <item n="11">lips</item>
+                  <item n="12">forehead</item>
+                  <item n="13">shoulder</item>
+                  <item n="14">arm</item>
+                  <item n="15">elbow</item>
+                  <item n="16">wrist</item>
+                  <item n="17">leg</item>
+                  <item n="18">hand</item>
+                  <item n="19">breast</item>
+                  <item n="20">fingers</item>
+                  <item n="21">knee</item>
+                  <item n="22">toes</item>
+                  <item n="23">foot</item>
+                  <item n="24">fire</item>
+                  <item n="25">air or wind</item>
+                  <item n="26">water</item>
+                  <item n="27">land</item>
+                  <item n="28">ocean</item>
+                  <item n="29">mountain</item>
+                  <item n="30">stars, sun and</item>
+                  <item n="31">moon</item>
+               </list>
+
+               <list>
+                  <item n="1">hwissee</item>
+                  <item n="2">hwuttah</item>
+                  <item n="3">hwunereye</item>
+                  <item n="4">hwish</item>
+                  <item n="5">hwusserrah</item>
+                  <item n="6">hweatal</item>
+                  <item n="7">singah</item>
+                  <item n="8">huchquas</item>
+                  <item n="9">kowlawo</item>
+                  <item n="10">sah-stu</item>
+                  <item n="11">starmessee</item>
+                  <item n="12">hownitkee</item>
+                  <item n="13">hwulte</item>
+                  <item n="14">hwoquarne</item>
+                  <item n="15">hwutzela</item>
+                  <item n="16">hupelaskee</item>
+                  <item n="17">hwutsneh</item>
+                  <item n="18">hwullah</item>
+                  <item n="19">hwutsaway</item>
+                  <item n="20">hwulasucah</item>
+                  <item n="21">hwoquot</item>
+                  <item n="22">hockwaresucah</item>
+                  <item n="23">hockware</item>
+                  <item n="24">hwun</item>
+                  <item n="25">tlsee</item>
+                  <item n="26">tichut</item>
+                  <item n="27">nunesah</item>
+                  <item n="28">leshack</item>
+                  <item n="29">nat-sun</item>
+                  <item n="30">tihulse</item>
+               </list>
+
+               <list>
+                  <item n="1">prarie</item>
+                  <item n="2">rain</item>
+                  <item n="3">snow</item>
+                  <item n="4">woman</item>
+                  <item n="5">child</item>
+                  <item n="6">father</item>
+                  <item n="7">mother</item>
+                  <item n="8">free</item>
+                  <item n="9">beads</item>
+                  <item n="10">gun</item>
+                  <item n="11">bow &amp; arrows</item>
+                  <item n="12">fish-net</item>
+                  <item n="13">comb</item>
+                  <item n="14">blanket</item>
+                  <item n="15">shirt</item>
+                  <item n="16">come</item>
+                  <item n="17">go</item>
+                  <item n="18">stay</item>
+                  <item n="19">one</item>
+                  <item n="20">two</item>
+                  <item n="21">three</item>
+                  <item n="22">four</item>
+                  <item n="23">five</item>
+                  <item n="24">six</item>
+                  <item n="25">seven</item>
+                  <item n="26">eight</item>
+                  <item n="27">nine</item>
+                  <item n="28">ten</item>
+               </list>
+
+               <list>
+                  <item n="1">kloosunkarshe</item>
+                  <item n="2">yass</item>
+                  <item n="3">yesstessahmantes-</item>
+                  <item n="4">nah</item>
+                  <item n="5">tsach</item>
+                  <item n="6">scharchah</item>
+                  <item n="7">stah</item>
+                  <item n="8">schahah</item>
+                  <item n="9">thun</item>
+                  <item n="10">quamunsiwash or</item>
+                  <item n="11">shell money</item>
+                  <item n="12">tukush</item>
+                  <item n="13">chutolkla</item>
+                  <item n="14">uschu</item>
+                  <item n="15">setiloquet</item>
+                  <item n="16">star</item>
+                  <item n="17">hsreah</item>
+                  <item n="18">unretah</item>
+                  <item n="19">sahtasre</item>
+                  <item n="20">setah</item>
+                  <item n="21">klusha</item>
+                  <item n="22">narke</item>
+                  <item n="23">tarke</item>
+                  <item n="24">tinche</item>
+                  <item n="25">squallah</item>
+                  <item n="26">kostahne</item>
+                  <item n="27">chittah</item>
+                  <item n="28">nahhuzendah</item>
+                  <item n="29">klundah</item>
+                  <item n="30">quiesse</item>
+               </list>
+            </div>
+            <div type="section">
+               <p><span type="trope" n="3">Our revered father-in-law <persName key="#dhi">Captain
+                        (of the seas) Daniel A. Hill</persName>, a native of <placeName type="city"
+                        key="#ci_belle">Bellerica [Billerica], Massachusetts</placeName>, and we are
+                     proof to say, a most truthful observing man, assured us, from an intimate
+                     acquaintance with the Indians and <orgName type="missionfathers" key="#misfats"
+                        >Mission Friars</orgName>, <date from="1823" to="1833">from 1823, to
+                        1833</date>, and from that time a constant resident at <placeName
+                        type="city" key="#ci_sb">Sta. Barbara</placeName>, to <date when="1860-05"
+                        >May 1860</date>, that <rs><orgName type="missionfathers" key="#misfats">the
+                           Priests</orgName></rs> tried every possible method to christianize and
+                     civilize the Indiania; with what effect, is well known. As he is a devout
+                     Catholic, and knew <rs><orgName type="mission" key="#mi_mainlandmissions">all
+                           the old Missionaries</orgName></rs>, during the most flourishing periods
+                     of <orgName type="mission" key="#mi_mainlandmissions">the
+                     Missions</orgName>&#8212;some of whom he avers were saints&#8212;he had every
+                     opportunity to judge of the capacity of the California <emph>Gentilidad</emph>;
+                     their great enemies were the Devil, and his chief earthly agent, King
+                     Alcohol.</span></p>
+               <p><persName type="author" key="#hre">Hugo Reed</persName>, in his notes (<date
+                     when="1852">1852</date>) on the Los Angeles county Indians, mentioned before in
+                  these papers, says, the greater part of them belonged to one nation. His
+                  vocabulary agrees with that of <orgName type="mission" key="#mi_sg">San Gabriel
+                     Mission</orgName>, elsewhere given. Being related by blood, war was not carried
+                  on amongst them, but only with the outsiders. Those of <placeName type="city"
+                     key="#ci_jur">Jurupa</placeName>, in the present <placeName type="county"
+                     key="#co_sbern">San Bernardino county</placeName>, were not their kith, and
+                  were looked upon with contempt&#8212;these last came from the <placeName
+                     type="region" key="#re_sierranevada">Eastern Sierras</placeName>. The Chief of
+                  each lodge took his name (followed by <emph>ic</emph>) from the lodge. The
+                  following is a list of the rancherhias, or lodges, related in his notes
+                  aforesaid:</p>
+               <p><placeName key="#yanga">Yanga</placeName>, <placeName key="#sibagna"
+                     >Sibagna</placeName>, <placeName key="#isanth">Isanthcagna</placeName>,
+                     <placeName key="#sisit">Sisitcanogna</placeName>, <placeName key="#sonagna"
+                     >Sonagna</placeName>, <placeName key="#acur">Acuragna</placeName>, <placeName
+                     key="#asucs">Asucsagna</placeName>, <placeName key="#cucomogna"
+                     >Cucomogna</placeName>, <placeName key="#passin">Passinogna</placeName>,
+                     <placeName key="#awigna">Awigna</placeName>, <placeName key="#chokis"
+                     >Chokisgna</placeName>, <placeName key="#nic">Nicaugna</placeName>, <placeName
+                     key="#pinio">Piniocagna</placeName>, <placeName key="#toybip"
+                     >Toybipet</placeName>, <placeName key="#hutuc">Hutucgna</placeName>, <placeName
+                     key="#aleup">Aleupkigna</placeName>, <placeName key="#maugna"
+                     >Maugna</placeName>, <placeName key="#haham">Hahamogna</placeName>, <placeName
+                     key="#cabeug">Cabeugna</placeName>, <placeName key="#pasc"
+                  >Pascegna</placeName>, <placeName key="#houtgna">Houtgna</placeName>, <placeName
+                     key="#suagna">Suagna</placeName>, <placeName key="#pubug">Pubugna</placeName>,
+                     <placeName key="#tibih">Tibihagna</placeName>, <placeName key="#chowigna"
+                     >Chowigna</placeName>, <placeName key="#harasg">Harasgna</placeName>;
+                        <rs><placeName type="island" key="#i_scl">Kinkipan</placeName></rs> was
+                     <placeName type="island" key="#i_scl">San Clemente island</placeName>;
+                        <rs><placeName type="island" key="#i_scatalina">Pineugna</placeName></rs>
+                  was <placeName type="island" key="#i_scatalina">San [Santa] Catalina
+                     island</placeName>.</p>
+            </div>
+            <div type="section">
+               <p><persName type="author" key="#hre">Reed</persName> says also they do count further
+                  than ten, as follows:</p>
+
+               <list>
+                  <item n="1">eleven</item>
+                  <item n="2">twelve</item>
+                  <item n="3">one time</item>
+                  <item n="4">two times</item>
+                  <item n="5">three "</item>
+                  <item n="6">four "</item>
+                  <item n="7">five "</item>
+                  <item n="8">ten "</item>
+                  <item n="9">twenty "</item>
+                  <item n="10">one hundred times</item>
+                  <item n="11">I hear</item>
+                  <item n="12">thou hearest</item>
+                  <item n="13">I heard</item>
+                  <item n="14">thou hearest</item>
+                  <item n="15">he heard</item>
+                  <item n="16">I shall hear</item>
+                  <item n="17">thou shall hear</item>
+                  <item n="18">he shall hear</item>
+               </list>
+
+               <list>
+                  <item n="1">wehesmahar coy puca</item>
+                  <item n="2">wehesmahar coy weh</item>
+                  <item n="3">pucushe</item>
+                  <item n="4">wehes</item>
+                  <item n="5">puhes</item>
+                  <item n="6">watsahes</item>
+                  <item n="7">mahares</item>
+                  <item n="8">wehes mahares</item>
+                  <item n="9">wehis wehesmahar</item>
+                  <item n="10">wehes-wehes-mahares-</item>
+                  <item n="11">wehes-mahar</item>
+                  <item n="12">non im nahacua</item>
+                  <item n="13">oanahacua</item>
+                  <item n="14">non himhacua</item>
+                  <item n="15">o-a-nimhacua</item>
+                  <item n="16">mane himhacua</item>
+                  <item n="17">nop nomhacua</item>
+                  <item n="18">opamhacua</item>
+                  <item n="19">minepamhacua</item>
+               </list>
+               <p>I speak, thou speakest, he speaks; I spoke, thou spokest, he spoke; I will speak,
+                  thou wilt speak, he will speak&#8212;commence as the above, but end in
+                     <emph>sirauaj</emph>; neither the person, or sense, altering the verb, but the
+                  pronoun preceding it.</p>
+            </div>
+            <div>
+               <p>He also notes,
+                  "<!--If we ever have time for it, it would be interesting to know what this account is and to link to it-->that
+                  their language is simple, rich and abounding in comprehensive terms; they have
+                  many phrases to which <emph>we</emph> have no equivalent. They have a great many
+                  liquid sounds, and their gutturals are so softened down as to become quite
+                  agreeable to the ear." These notes of our lamented friend are invaluable to the
+                  American Indianologist, and have now become extremely scarce.</p>
+               <p>We have thus endeavored to cursorily collect and collate variegated material, and
+                  to refer to abundant matter elsewhere existing, for the use of him who will be
+                  competent, in the future, to write the <emph>Monarchia Indiana
+                  Californicus</emph>, or give elementary food to the <orgName
+                     type="nativeamericantribes" key="#natam_hiawatha">California
+                  Hiawatha</orgName>, or the <orgName type="nativeamericantribes"
+                     key="#natam_auracania">California Auracania</orgName>. It is to be hoped this
+                  son of thunder will not be a thief of other men's brains, like so many of our lazy
+                  contemporaries&#8212;not to call them by a worse name.</p>
+               <p>That portion of <placeName type="region" key="#re_northamerica">North
+                     America</placeName>, between the <placeName type="region" key="#re_fnpar">49th
+                     parallel</placeName> and the <placeName type="region" key="#re_ispan">Isthmus
+                     of Panama</placeName>, is capable of easily supporting a population of three
+                  hundrred [hundred] millions of human souls. It will need such a sea as the
+                     <placeName type="region" key="#re_pacific">Pacific Ocean</placeName> to display
+                  its commerce and its prowess, for the land is illimitable in its resources of
+                  climate, soil and productions. The exploration of the precious metals, and their
+                  diffusion amongst men, will draw forth new developments of the human character,
+                  and every thing old will have passed away. We cannot conceive&#8212;it is not
+                  permitted to us to be known or penetrated, by the Divine Creator&#8212;the
+                  wonderful nature of the aspect of human affairs <rs><date when="2000">one hundred
+                        and forty short years from 1860</date></rs>&#8212;a mere breath of time. The
+                  settlement of all this region will permeate and influence the utmost bound of the
+                  Earth and its human races, and we cannot allow ourselves to doubt, for their
+                  better happiness and government, and the glory of our Maker. <span type="trope"
+                     n="6">Our great-grandchildren may witness in their old age the marvels of <date
+                        when="2000">A. D. 2000</date>; and a Californian, in each population of that
+                     mighty American empire, will recount to his hearers the perils, the adventures,
+                     the workings, the troubles, and struggles, of his ancestors, from <date
+                        from="1848" to="2000">A. D. 1848 to A. D. 2000</date>. Everything of the
+                     past will have then in <date when="2000">A. D. 2000</date> felt the
+                     magnet&#8212;been brought to the touchstone of <placeName type="state"
+                        key="#st_cal">California</placeName>. Men will count one, two, ten, thirty,
+                     seventy, a hundred, and [a] hundred and fifty years, after the discovery of the
+                     gold and silver of <placeName type="state" key="#st_cal"
+                     >California</placeName>, which set the ball in motion to roll down south over
+                     the land, bringing strange changes over the face of Nature, Society, of
+                     Commerce and of Government. The prior old-world-things will be dead, dead,
+                     dead&#8212;only live in the Books of the multitudinous great libraries of the
+                     empire. The work, then, before us, in the <emph>Indiania</emph> of our
+                     Continent, is no child's play&#8212;it is the enterprise of giants and prudent
+                     soldiers, and, at present, all this is merely in its adolescence and
+                     infancy.</span></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

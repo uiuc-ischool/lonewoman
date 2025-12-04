@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#almance">Almance
+                     Gleaner</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">47</biblScope>
+               <biblScope unit="issue">21</biblScope>
+               <date when="1921-06-30"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheAlmanceGleaner1921">Alone For Eighteen Years.
+                     Indian Woman, Abandoned on Desert Island, Finally Found by Party of Otter
+                     Hunters.</title>
+                  <biblScope unit="page" n="8"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+                  <date when="1921-06-30"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">ALONE FOR <rs><date from="1835" to="1853"
+                           >EIGHTEEN YEARS</date></rs></hi></title>
+               <title type="sub"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw"
+                           >Indian Woman</persName></rs>, Abandoned on <rs><placeName type="island"
+                           key="#i_sn">Desert Island</placeName></rs>, Finally Found by
+                           <rs><persName type="group"
+                           key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                           >Party of Otter Hunters</persName></rs>.</hi></title></head>
+            <p><span type="trope" n="4"><span type="trope" n="5">On <placeName type="island"
+                        key="#i_sn">San Nicholas island</placeName>, which is uninhabited, a
+                           <rs><persName type="group"
+                           key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                           >party of sea-otter hunters</persName></rs>, landing to chance their
+                     luck, found, to their amazement, the imprint of human feet on the sandy
+                     shore&#8212;imprints freshly made.</span></span> They scattered in search. But,
+               the wind shifting and commencing to blow hard, they had to regain <rs><name
+                     type="ship" key="#sh_nidever">their vessel</name></rs> before the maker of the
+               marks could be found. It was undeniable, however, a human being lived on this
+                     <rs><placeName type="island" key="#i_sn">bleak, wind-blown
+                  island</placeName></rs> of sand and tall brushwood.</p>
+            <p><span type="trope" n="4">On returning to <placeName type="region" key="#re_mld">the
+                     mainland</placeName> they reported the strange discovery, but nothing was done
+                  until <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">a Roman
+                        Catholic priest</persName></rs> was so moved by the news that he persuaded
+                        <rs><persName type="frontiersman" key="#gni">the captain</persName></rs> of
+                        <rs><name type="ship" key="#sh_nidever">a small schooner</name></rs> to sail
+                  with him for <placeName type="island" key="#i_sn">San Nicolas</placeName>.</span>
+               <span type="trope" n="8">After two days' searching he discovered this <rs><persName
+                        type="nativeamerican" key="#lw">lonely Crusoe</persName></rs>&#8212;the
+                  first of a new kind.</span>
+               <span type="trope" n="14">For he found inside a low hut of driftwood a woman more
+                  like a beast than a person.</span></p>
+            <p><span type="trope" n="14">She was clad in otter skins, and the feathered skins of the
+                  sea-fowl, and her companion was an otter, which she had caught very young and
+                  tamed.</span></p>
+            <p><span type="trope" n="14"><rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">The priest</persName></rs> with
+                  difficulty got her story, for she had almost forgotten how to speak.</span> Many
+               years previously <persName type="group" key="#natam_NicolenoTongva; #bhagroup">the
+                  small tribe of Indians to which she belonged</persName>&#8212;inhabitants of
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> from time
+               past&#8212;had been shifted by <orgName type="government" key="#gov_span">the
+                  government</orgName> to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. <span type="trope" n="9">As they were being taken on board,
+                     <persName type="nativeamerican" key="#lwchild">her baby</persName> had fallen
+                  into the sea, and she had leaped after him, and in the dusk had been given up as
+                  drowned.</span> She reached the shore, however, to find <persName
+                  type="nativeamerican" key="#lwchild">the child</persName> was dead. In utter
+               loneliness she had lived there for <rs><date from="1835" to="1853">18
+                  years</date></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

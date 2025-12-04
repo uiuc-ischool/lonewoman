@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#calfarmer">California Farmer
+                     and Journal of Useful Sciences</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">12</biblScope>
+               <biblScope unit="issue">11</biblScope>
+               <date when="1860-05-04"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Taylor1860_12(11)">"Santa Barbara," in "California
+                     Notes. The Indianology of California. [Continued.] No. 7. Santa Ynez and the
+                     Santa Barbara County Indians</title>
+                  <biblScope unit="page" n="82"/>
+                  <author><persName type="author" key="#ata">Taylor, Alex S.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><placeName type="state" key="#st_cal">CALIFORNIA</placeName>
+                  NOTES.</title></head>
+            <byline>BY <persName type="author" key="#ata">ALEX. S. TAYLOR</persName>.</byline>
+            <head><title type="sub"><hi rend="bold">THE INDIANOLOGY OF <placeName type="state"
+                        key="#st_cal">CALIFORNIA</placeName>. [CONTINUED.]</hi></title></head>
+            <div type="section">
+               <p><supplied>[...]</supplied></p>
+            </div>
+            <div type="section">
+               <head><title type="section"><placeName type="city" key="#ci_sb">SANTA
+                        BARBARA</placeName>.</title></head>
+               <div>
+                  <head><title type="column">Present Spanish Names.</title></head>
+                  
+                  <list>
+                     <item n="1">Sitio de la Mission or Mission site</item>
+                     <item n="2"><placeName key="#possas">Las Possas</placeName></item>
+                     <item n="3"><placeName key="#lasing">La Singaguita</placeName></item>
+                     <item n="4"><placeName key="#samission">San Antonio</placeName></item>
+                     <item n="5"><placeName key="#sjmission">San Jose</placeName></item>
+                     <item n="6"><placeName key="#smmission">San Miguel</placeName></item>
+                     <item n="7"><placeName key="#lpatira">La Patira</placeName></item>
+                     <item n="8"><placeName key="#lgolita">La Golita</placeName></item>
+                     <item n="9"><placeName key="#lasarmos">Las Cañada de las
+                        Armos</placeName></item>
+                     <item n="10"><placeName key="#teckolote">El Teckolote</placeName></item>
+                     <item n="11"><placeName key="#dospueblos">Los Dos Pueblos</placeName></item>
+                     <item n="12"><placeName key="#delcorral">La Cañada del
+                        Corral</placeName></item>
+                     <item n="13"><placeName key="#sanmarcos">San Marcos</placeName></item>
+                  </list>
+               </div>
+               <div>
+                  <head><title type="column">Former Indian Names.</title></head>
+                  
+                  <list>
+                     <item n="1">Tanayam</item>
+                     <item n="2">Otenashmo</item>
+                     <item n="3">Cashwah</item>
+                     <item n="4">Silpoponemew</item>
+                     <item n="5">Escumawash</item>
+                     <item n="6">Saughpileel</item>
+                     <item n="7">Alwaththalam</item>
+                     <item n="8">Chuah</item>
+                     <item n="9">Texmaw</item>
+                     <item n="10">Helapoonuch</item>
+                     <item n="11">Mickiewee</item>
+                     <item n="12">Kaughii</item>
+                     <item n="13">Mistaughchnewaugh</item>
+                  </list>
+               </div>
+               <div>
+                  
+                  <list>
+                     <head><title type="column">Distance from the Mission.</title> <title type="sub"
+                           >about</title></head>
+                     <item n="1">about</item>
+                     <item n="2">" 2 miles</item>
+                     <item n="3">" 3 "</item>
+                     <item n="4">" 4 "</item>
+                     <item n="5">" 6 "</item>
+                     <item n="6">" 6 "</item>
+                     <item n="7">" 7 "</item>
+                     <item n="8">" 6 "</item>
+                     <item n="9">" 12 "</item>
+                     <item n="10">" 15 "</item>
+                     <item n="11">" 18 "</item>
+                     <item n="12">" 22 "</item>
+                     <item n="13">" 25 "</item>
+                  </list>
+               </div>
+               <div>
+                  <p>Concerning the Islands of <placeName type="island" key="#i_sm">San
+                        Miguel</placeName>, <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> and <placeName type="island" key="#i_sr">Santa
+                        Rosa</placeName>, not a native of these Islands is now to be found in or
+                     near <rs><orgName type="mission" key="#mi_santabarbaramission">this
+                           Mission</orgName></rs>, nor one who could give any information of
+                     them.</p>
+                  <p>Among the Indians of Santa Barbara exist some traditions that do not extend to
+                     more than one century, which is not to be surprised at on account of being in
+                     their uncivilized state of gentilism before, and consequently, no care taken to
+                     give them to posterity. Those received from their fathers, and grandfathers,
+                     they know; but of their great-grandfathers and ancestors, then can scarcely
+                     know anything. About the passing of ships, they know nothing more than from
+                     time to time seeing one pass at a great distance.</p>
+                  <p>When <rs><orgName type="missionfathers" key="#misfats">the Franciscan
+                           Missionary Fathers</orgName></rs> arrived in <placeName type="region"
+                        key="#re_spcal">California</placeName> they found tribes of Indians
+                     scattered along <rs><placeName type="region" key="#re_calcoast">the
+                           Coast</placeName></rs>, from <placeName type="city" key="#ci_sd">San
+                        Diego</placeName> to the <placeName type="region" key="#re_sfbay">bay of San
+                        Francisco</placeName>, and varying in number to about two thousand, in each
+                     of the larger tribes. They enlightened them with the light of the Gospel, and
+                     founded for them <orgName type="mission" key="#mi_mainlandmissions">the
+                        Missions</orgName> to be seen at the present day. <span type="trope" n="3"
+                        >They were of a generous, and generally docile nature, copper-colored, and
+                        highly favored by the Omnipotent Arm in strength and other corporeal
+                        qualities.</span></p>
+                  <p>The boats they then used were canoes <emph>cut out of trees</emph>, or made of
+                        <emph>timber joined with chords</emph>, and these tarred (with asphalte?
+                     [asphaltum]) and not capable of carrying more than four persons. Their houses
+                     were not made of stone, but of timber and reeds, in a bee-hive shape.</p>
+                  <p>Along <rs><placeName type="region" key="#re_calcoast">the
+                        coast</placeName></rs> and <rs><placeName type="island" key="#i_chi"
+                           >islands</placeName></rs> each tribe generally spoke a different
+                     language, but understood sufficient of their neighboring idioms for the purpose
+                     of commerce. With regard to grammatical construction in their language, it is
+                     superfluous to say they knew it not. The foregoing vocabulary of <placeName
+                        type="island" key="#i_scruz">Santa Cruz</placeName> has been taken from one
+                     of its natives. Take notice that it has to be pronounced like English, as it
+                     has been so written, and accurately, as the gutteral sound of the language
+                     would permit. </p>
+                  <p>The Indians['] name of the <placeName type="island" key="#i_scruz">Island of
+                        Santa Cruz</placeName> was Limooh or Limoo-eh. For the <placeName
+                        type="island" key="#i_sr">island of Santa Rosa</placeName> the name was
+                     Hurmal, that of <placeName type="island" key="#i_sm">San Miguel</placeName> was
+                     Two-a-can, that of <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                     was Ghalashat.</p>
+                  <p>For the foregoing vocabulary and notes <rs><persName type="author" key="#ata"
+                           >the compiler</persName></rs> is indebted to the kindness of the
+                        <persName key="#tbr">Rt. Rev. Teodoro Amat</persName>, Catholic Bishop of
+                     the <orgName type="church" key="#ch_diocese">Diocese of Monterey</orgName>.</p>
+                  <p><rs><persName type="nativeamerican" key="#indian1">The Indian</persName></rs>,
+                     who gave the information, did not know the names of elk, wolf, beaver,
+                     squirrel, hare, duck, pigeon, tufted quail, nor the term for one thousand.</p>
+                  <p><rs><persName key="#american">An old American resident</persName></rs> of
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> informs me
+                     that the <placeName type="island" key="#i_chi">Santa Barbara
+                        islands</placeName> were pretty thickly populated in <rs><date
+                           notBefore="1800" notAfter="1816">the early part of this century prior to
+                           1816</date></rs>. <span type="trope" n="11">They had such bloody wars
+                        among themselves, for the fishing-grounds of each island, or each rancheria,
+                        that <rs><orgName type="missionfathers" key="#misfats">the
+                           priests</orgName></rs> had them all brought over to <rs><placeName
+                              type="region" key="#re_mld">the main land</placeName></rs> and placed
+                        in the Missions of <rs><orgName type="mission" key="#mi_santabarbaramission"
+                              >Santa Barbara</orgName></rs>, <rs><orgName type="mission"
+                              key="#mi_slo">San Luis Obispo</orgName></rs>, <rs><orgName
+                              type="mission" key="#mi_venturamission">San
+                           Buenaventura</orgName></rs>, <rs><orgName type="mission" key="#mi_sy"
+                              >Santa Ynez</orgName></rs> and <rs><orgName type="mission"
+                              key="#mi_pur">La Purisima</orgName></rs>; but that very few, if any,
+                        are now left in those vicinities.</span></p>
+                  <p><rs><placeName type="island" key="#i_chi">The islands</placeName></rs> off the
+                     coast of <rs><placeName type="county" key="#co_sb">Santa
+                        Barbara</placeName></rs>, <rs><orgName type="county" key="#co_sdcounty">San
+                           Diego</orgName></rs> and <rs><orgName type="county" key="#co_la">Los
+                           Angeles</orgName></rs> countries [counties], are <placeName type="island"
+                        key="#i_sm">San Miguel</placeName>, <placeName type="island" key="#i_scruz"
+                        >Santa Cruz</placeName>, <placeName type="island" key="#i_sr">Santa
+                        Rosa</placeName>, <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName>, <placeName type="island" key="#i_sb">Santa
+                        Barbara</placeName>, <placeName type="island" key="#i_scatalina">Santa
+                        Cataline</placeName> and <placeName type="island" key="#i_scl">San
+                        Clemente</placeName>, and they are mentioned by <persName type="seaman"
+                        key="#jca">Cabrillo</persName> in <date when="1542">1542</date>, as being
+                     inhabited, and by <persName type="seaman" key="#svi">Viscaino</persName>'s in
+                        <date when="1602">1602</date>, as (some of them) being very populous. <span
+                        type="trope" n="3">On <placeName type="island" key="#i_scatalina">Santa
+                           Catalina</placeName>, Viscaino's vessels stopped several days, and were
+                        treated by <rs><orgName type="nativeamericantribes" key="#natam_Catalineno"
+                              >the Indians</orgName></rs> with great hospitality.</span>
+                     <rs><persName type="author" key="#carp">The historian of the
+                           expedition</persName></rs> mentions the existence of a rude temple and
+                     worship of the sun by <rs><orgName type="nativeamericantribes"
+                           key="#natam_Catalineno">the natives</orgName></rs>, and of an immense
+                     black crow (probably the Condor), which was an object of great veneration among
+                     them, and on the shooting of which by <rs><persName key="#spsol">a Spanish
+                           soldier</persName></rs>, <rs><orgName type="nativeamericantribes"
+                           key="#natam_Catalineno">the Indians</orgName></rs> set up an awful
+                     howling of tremor and fear. This veneration of the Great Bird of <placeName
+                        type="region" key="#re_nwamerica">Northwest America</placeName> seems to
+                     have been universal among the California Indians; a reference will be found
+                     made to this subject in <persName type="author" key="#ahe">Dr.
+                        Herman</persName>'s Ornithological Notes in the tenth volume of Railroad
+                     Reports.</p>
+                  <p><span type="trope" n="11">Great havoc was committed on these <rs><orgName
+                              type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >island-tribes</orgName></rs> by the Indians of the main land, and
+                              <rs><orgName type="nativeamericantribes"
+                              key="#natam_aleuts; #natam_kodiak">those from the
+                           Northwest</orgName></rs>. We believe these <rs><orgName type="group"
+                              key="#natam_aleuts; #natam_kodiak">Northwest Indians</orgName></rs>
+                        were <rs><persName type="group"
+                              key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                              >Kodiaks and others, in the employ of the Russians</persName></rs> of
+                           <placeName type="city" key="#ci_bodega">Bodega</placeName> and <placeName
+                           type="city" key="#ci_si">Sitka</placeName>, in search of sea-otters,
+                        fur-seals, and avelones [abalones], who used to make raids on their own
+                        account. In <persName type="author" key="#hre">Hugo Reid</persName>'s
+                        account of the Indians of <placeName type="county" key="#co_la">Los Angeles
+                           county</placeName>, published in the <orgName type="publication"
+                           key="#lastar">Los Angeles Star</orgName>, in <date when="1852"
+                           >1852</date>, it is stated that <rs><orgName type="missionfathers"
+                              key="#misfats">the Missionaries</orgName></rs> gathered <rs><orgName
+                              type="group" key="#natam_aleuts; #natam_kodiak">the
+                           enemies</orgName></rs> from caves on <rs><placeName type="island"
+                              key="#i_chi">the islands</placeName></rs> of many of <rs><orgName
+                              type="nativeamericantribes" key="#natam_GabrilenoTongva">the San
+                              Clemente Indians</orgName></rs>, <rs><date notBefore="1825"
+                              notAfter="1833">between 1825 and 1833</date></rs>, and had them
+                        decently buried, and what was singular <emph>every one of the skulls were
+                           found with a double row of teeth, both on the lower and upper
+                        jaw</emph>.</span> How true this statement is can only be ascertained by
+                     disentombing the bodies, which, it seems, were buried either at <rs><orgName
+                           type="mission" key="#mi_sg">San Gabriel</orgName></rs>, <rs><placeName
+                           type="mission" key="#mi_sd">San Diego</placeName></rs>, or <rs><orgName
+                           type="mission" key="#mi_jc">Juan Capistrano</orgName></rs> Missions.</p>
+                  <p><span type="trope" n="11"><span type="trope" n="6">In one of the raids of these
+                              <orgName type="nativeamericantribes" key="#natam_kodiak">Kodiak
+                              Indians</orgName> they are said to have killed every Indian on the
+                              <placeName type="island" key="#i_sn">island of San
+                              Nicholas</placeName> execpt <rs><orgName type="nativeamericantribes"
+                                 key="#natam_NicolenoTongva">two or three women</orgName></rs>; and
+                           only a short time ago appeared an account in the California journals of
+                                 <rs><persName type="nativeamerican" key="#lw">one of these
+                                 females</persName></rs> (or <rs><persName type="nativeamerican"
+                                 key="#lw">the last inhabitant of the island</persName></rs>)
+                           having, with great difficulty, been taken off by the old California
+                           hunter, <persName type="frontiersman" key="#gni">George
+                              Nidever</persName>, and carried to <placeName type="city" key="#ci_sb"
+                              >Santa Barbara</placeName> in a semi-demented state.</span></span></p>
+                  <p><span type="trope" n="6"><rs><persName type="frontiersman" key="#gni">An
+                              American otter hunter</persName></rs>, who has been engaged among the
+                           <placeName type="island" key="#i_chi">Santa Barbara Islands</placeName>
+                        for the last six years, and who has visited every one of the California
+                        islands, from <placeName type="island" key="#i_cedros">Cedros
+                           island</placeName> to <placeName type="island" key="#i_far">the
+                           Farallones</placeName>, informs me that the remains of <rs><orgName
+                              type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >the Indians</orgName></rs> in <placeName type="island" key="#i_chi"
+                           >the Channel islands</placeName>, from <placeName type="island"
+                           key="#i_scatalina">Santa Catalina</placeName>, up, indicate a very
+                        numerous population of <rs><orgName type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >Indians</orgName></rs>. There are supposed to be no <rs><orgName
+                              type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >Island Indians</orgName></rs> left now, neither on <rs><placeName
+                              type="region" key="#re_mld">the main land</placeName></rs>, or
+                        elsewhere, certainly none at their former homes.</span> On all these
+                     islands, he says, the remains of their huts, and signs of rancherias, from
+                     sea-shells, are very abundant. He says, in coming down from the North, in
+                     winter, the <placeName type="island" key="#i_sm">island of San
+                        Miguel</placeName>, <emph>alias</emph> San Lucas, <emph>alias</emph> Juan
+                     Rodriguez, <emph>alias</emph> Isle Possession, <emph>alias</emph> San Bernardo,
+                     where <persName type="seaman" key="#jca">Cabrillo</persName>, the discoverer of
+                        <placeName type="state" key="#st_cal">California</placeName>, in <date
+                        when="1543">1543</date>, is said to have died, would be, without doubt, the
+                     first one reached by vessels as the old navigators used.</p>
+                  <p><emph>[TO BE CONTINUED.]</emph></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

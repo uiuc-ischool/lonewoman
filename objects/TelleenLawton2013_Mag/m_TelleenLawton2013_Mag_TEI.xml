@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magzine"><orgName type="publication" key="#sbseasons">Santa Barbara
+                     Seasons</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="2013-07"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TelleenLawton2013_Mag">The Lost Woman of San Nicolas
+                     Island</title>
+                  <biblScope unit="page" from="66" to="68"/>
+                  <author><persName type="author" key="#kla">Telleen-Lawton,
+                     Karen</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <rs><persName type="nativeamerican" key="#lw">The Lone Woman of San Nicolas
+                        Island</persName></rs></title></head>
+            <byline><emph>By <persName type="author" key="#kla">Karen
+                  Telleen-Lawton</persName></emph></byline>
+            <byline><emph>Illustrations by <persName type="author" key="#kbo">Katie
+                     Borden</persName></emph></byline>
+            <p>Along a rugged sandstone shoreline, elephant seals crowd the occasional coves,
+               hauling out seasonally for birthing and mating. From 907-foot <placeName
+                  type="region" key="#re_jacksonhill">Jackson Hill</placeName>, <rs><placeName
+                     type="region" key="#re_pacific">the Pacific</placeName></rs> undulates in every
+               direction, allowing a backside view of <placeName type="island" key="#i_sb">Santa
+                  Barbara Island</placeName> 28 miles northeast. <rs><persName key="#fju">A
+                     late-19th-century Basque sheepherder</persName></rs> captured San Nicolas
+               Island’s essence, musing, "I have never felt a more irritating, searching,
+               penetrating wind than this wraith of the spirits of <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, yet I found <placeName type="island"
+                  key="#i_sn">this island</placeName> most attractive, from its very
+               desolation."</p>
+            <p>More than a century later, I stood above the wind-whipped waves at <placeName
+                  type="region" key="#re_rockcrusher">Rock Crusher</placeName>, a dramatic beach on
+               San Nicolas’s northwest. The isolation of <rs><placeName type="island" key="#i_sn"
+                     >this outermost Channel Island</placeName></rs> is undeniable, yet recent
+               stunning discoveries have brought it into the news. Within its 22 square miles,
+               history is being reclaimed, bucketful by bucketful.</p>
+            <p>In <rs><date notAfter="1835">the early 19th century</date></rs>, <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> was home to <rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman</persName></rs>, whose story was
+               immortalized in Scott O’Dell’s <date when="1960">1960</date> novel <emph>Island of
+                  the Blue Dolphins</emph>. He romanticized the life of an abandoned woman,
+                  "<persName type="fictional" key="#kar">Karana</persName>," into a <emph>Robinson
+                  Crusoe</emph>-like adventure. Recent finds are allowing <rs><persName
+                     type="nativeamerican" key="#lw">the real Lone Woman</persName></rs> to emerge,
+               revealing clues about her fight for survival in that tumultuous time.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The Lone Woman</persName></rs> and
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     Nicoleño tribe</orgName></rs> were related to the <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">mainland Tongva
+                     (Gabrielino) Indians</orgName></rs>. They hunted and fished the rich marine
+               resources: sea lions and otters, fish and shellfish. Archaeologists have unearthed at
+               least 22 village sites dating between 6,000 and 3,000 years ago.</p>
+            <p>In the <rs><date notBefore="1800" notAfter="1899">1800s</date></rs>, <rs><orgName
+                     type="organization" key="#rfurcompany">Russia</orgName></rs> sent <rs><persName
+                     type="group"
+                     key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                     >otter-fur hunters</persName></rs> down the <placeName type="region"
+                  key="#re_paccoast">Pacific coast</placeName>, conscripting <orgName
+                  type="nativeamericantribes" key="#natam_aleuts">Aleutian Indians</orgName> for
+               labor. Letters tell of a violent conflict between <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                     >Russians</persName></rs> and <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">Nicoleños</orgName> in <date when="1814">1814</date>,
+               resulting in <rs><persName type="nativeamerican" key="#Nicolenoman1">a
+                     Nicoleño</persName></rs> killing <rs><persName type="nativeamerican"
+                     key="#aleman1">a hunter</persName></rs>. In response, <rs><persName
+                     type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">the
+                     Russians</persName></rs> apparently decimated <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the native
+                     population</orgName></rs>. In <date when="1835-11">November 1835</date>,
+                  <persName type="group" key="#bhagroup">the remaining Nicoleños</persName>, minus
+                     <rs><persName type="nativeamerican" key="#lw">one woman</persName></rs>, were
+               removed to <placeName type="city" key="#ci_sp">San Pedro</placeName>.</p>
+            <p>O’Dell’s fiction depicts <persName type="fictional" key="#kar">Karana</persName>
+               running away from <rs><name type="ship" key="#sh_peoresnada">the rescue
+                  ship</name></rs> in a vain search for <rs><persName type="fictional" key="#ram"
+                     >her lost younger brother</persName></rs>. In fact, it’s unknown why
+                     <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+               stayed. What is known is that she lived alone in a cave for <rs><date from="1835"
+                     to="1853">18 years</date></rs> before <persName type="frontiersman" key="#gni"
+                  >Captain George Nidever</persName> brought her to <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. She died seven weeks later, on <date
+                  when="1853-10-19">October 19, 1853</date>, and was baptized <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs>.</p>
+            <p>For the next century, a few fishermen, abalone divers and sheepherders inhabited
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. Ranching
+               families&#8212;including <rs><persName type="group" key="#mkim">the
+                     Kimberlys</persName></rs>, <rs><persName type="group" key="#ell; #jel"
+                     >Elliots</persName></rs> and <rs><persName type="group" key="#rag"
+                     >Agees</persName></rs>&#8212;maintained as many as 15,000 sheep.</p>
+            <p>The <orgName type="military" key="#mi_navy">U.S. Navy</orgName> took possession of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in the
+                     <rs><date notBefore="1930" notAfter="1939-12-31">1930s</date></rs>. Its mission
+               was weapons testing, but environmental laws eventually brought the mandate to return
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> to
+               sustainable health. Sea otters, extirpated in the <rs><date notBefore="1801"
+                     notAfter="1899">1800s</date></rs>, were reintroduced in the <rs><date
+                     notBefore="1995" notAfter="1999-12-31">late 1990s</date></rs>, but the program
+               ended in <date when="2012">2012</date> because the otters wouldn’t stay.</p>
+            <p>The Lone Woman’s story fascinated island adventurers. Letters and maps pinpointed
+                     <rs><placeName type="region" key="#re_lwcave">her cave</placeName></rs>; its
+               location was well known into <rs><date from="1853" notAfter="1899">the late
+                     1800s</date></rs>. Then it was literally buried in history. Seven surveys of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> between
+                  <date from="1926" to="2002">1926 and 2002</date> turned up no evidence of a
+               habitable cave.</p>
+            <p>Meanwhile, Navy archaeological studies uncovered the Nicoleños’ rich ways of life.
+               Middens revealed beads and tools originating from thousands of miles away. This spoke
+               to the centrality of <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> despite its physical separation. Excavations uncovered
+               dogs buried ceremoniously, some with repaired bones underscoring their high value.
+               But years of inquiry and diggings had frustrated the <rs><persName type="author"
+                     key="#ssc">Navy’s San Nicolas archaeologist</persName></rs>, <persName
+                  type="author" key="#ssc">Steven Schwartz</persName>, who was determined to unearth
+               the <rs><placeName type="region" key="#re_lwcave">Lone Woman’s
+               cave</placeName></rs>.</p>
+            <p>In <date when="2010">2010</date>, after 20 years of work, <persName type="author"
+                  key="#ssc">Schwartz</persName> received an inquiry from <persName type="author"
+                  key="#sby">Scott Byram</persName> of <orgName type="institution" key="#in_ucb"
+                  >U.C. Berkeley</orgName>. <persName type="author" key="#sby">Byram</persName>
+               sought to verify information on an old map he was using. After answering his
+               questions, <persName type="author" key="#ssc">Schwartz</persName> asked for any cave
+               references on the map. <persName type="author" key="#sby">Byram</persName> replied
+               with a letter containing specific compass directions to <rs><placeName type="region"
+                     key="#re_lwcave">the cave</placeName></rs> "formerly inhabited by <rs><persName
+                     type="lostwoman" key="#lw">a wild Indian woman</persName></rs>." The location
+               was near <placeName type="region" key="#re_rockcrusher">Rock Crusher</placeName>,
+               under a sandstone ledge <persName type="author" key="#ssc">Schwartz</persName> had
+               tested repeatedly. An exultant <persName type="author" key="#ssc"
+               >Schwartz</persName>, along with C.S.U. coastal archaeologist <persName type="author"
+                  key="#rve">René L. Vellanoweth</persName>, were determined to dig deeper.</p>
+            <p>With renewed vigor, they returned to the spot armed with cameras, buckets and student
+               labor. But with each fruitless foot, their uncertainty grew about the location.
+               Finally, after removing more than 40,000 bucketfuls of sand, <rs><placeName
+                     type="region" key="#re_lwcave">the cave</placeName></rs> was revealed more than
+               16 feet below the current surface. Vegetative devastation during the sheep ranching
+               era had led to extreme erosion, filling the cavern within a matter of decades.</p>
+            <p><rs><placeName type="region" key="#re_lwcave">The cave</placeName></rs> is more than
+               75 feet deep. After removing some one million pounds of sand, researchers have yet to
+               uncover most of the floor. <persName type="author" key="#ssc">Schwartz</persName>
+               hopes the floor level will expose any artifacts that weren’t spirited away in the
+               decades before <rs><placeName type="region" key="#re_lwcave">the
+                  cave</placeName></rs> filled. While the inside is very dark, its size, warmth and
+               protection from San Nicolas’s difficult weather make it ideal living quarters. It is
+               large enough for a small village. <persName type="author" key="#ssc"
+                  >Schwartz</persName> is 90% sure that this was <rs><placeName type="region"
+                     key="#re_lwcave">the Lone Woman’s home</placeName></rs>.</p>
+            <p>Meanwhile, another fortuitous discovery is shedding additional light on the Lone
+               Woman’s solitary life. In <date when="2010">2010</date>, researchers from <orgName
+                  type="institution" key="#in_uofo">University of Oregon</orgName>, <orgName
+                  type="institution" key="#in_calstatela">Cal State Los Angeles</orgName> and the
+                  <orgName type="military" key="#mi_navy">Navy</orgName> were following an ancient
+               sediment layer, seeking evidence of the island’s earliest occupation. Suddenly they
+               spied a box cache eroding from a beach cliff on the north side. Timing was critical,
+               since snowy plover nesting season would soon close the area, and winter storms could
+               erode the boxes into the sea.</p>
+            <p>The other project was abandoned and the precarious cache carefully excavated. Two
+               redwood boxes held more than 200 artifacts from the time of confluence of <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleño</orgName>,
+                     <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">native
+                     Alaskan</orgName></rs> and European cultures: <date notBefore="1800"
+                  notAfter="1899">the 19th century</date>. Among them were harpoons with copper
+               blades, a smoking pipe, a brass button and projectile points with redwood shafts. The
+               cache may be one of several <rs><persName type="nativeamerican" key="#lw">the Lone
+                     Woman</persName></rs> is thought to have maintained while on different parts of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.</p>
+            <p>With these two discoveries fresh in the news, <orgName key="#2012chisymp">the 2012
+                  Channel Islands Symposium</orgName> commanded the excitement of a rock-star
+               gathering. The discoveries were first announced there to standing-room-only crowds
+               and subsequently detailed at a plethora of scientific meetings. <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleño
+                  descendants</orgName> have been enthusiastic participants.</p>
+            <p>These glimpses into the life of <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">Nicoleños</orgName> and <rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman</persName></rs> allow
+               researchers to ground the <emph>Island of the Blue Dolphins</emph> in reality.
+               Twenty-first-century teachers can present O’Dell’s book as both a timeless literary
+               classic and a novel reflecting its own time period’s cultural, historical and
+               political biases.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> suffered twin
+               19th-century catastrophes: the Nicoleño cultural tragedy and an ecological erosion
+               disaster. In turn, the erosion may have preserved some of this important history by
+               burial. But how much more is still buried or already eroded into the sea? The
+               haunting beauty of <rs><placeName type="island" key="#i_sn">this isolated
+                     island</placeName></rs> likely harbors many more secrets.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
