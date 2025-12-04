@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl type="article">
+                              <title type="newspaper"><orgName type="publication" key="#dailypress"
+                                          >Daily Press</orgName></title>
+                              <editor/>
+                              <publisher/><biblScope unit="vol" n="7"/>
+                              <biblScope unit="issue" n="163"/>
+                              <pubPlace><placeName type="city" key="#ci_sb">Santa
+                                          Barbara</placeName>, <placeName type="state" key="#st_cal"
+                                          >California</placeName></pubPlace>
+                              <date when="1879-01-29"/>
+                              <bibl><title type="article" key="#Stuart1879_Jan29">A Female Crusoe.
+                                          The Lone Woman of San Nicolas Island. A Wonderful Romance
+                                          in Real Life---Eighteen Years Alone on the Island of San
+                                          Nicolas, on the Coast of Southern California</title>
+                                    <biblScope unit="page" n="3"/>
+                                    <author><persName type="author" key="#ast">Stuart, Absalom
+                                                B.</persName></author></bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A
+                                                FEMALE CRUSOE</persName></rs>.</title>
+                              <title type="sub"><rs><emph><persName type="nativeamerican" key="#lw"
+                                                  >THE LONE WOMAN OF SAN NICOLAS
+                                                ISLAND</persName></emph>.</rs></title></head>
+                        <byline><emph>Correspondence of <title type="article" key="#Stuart1878">The
+                                          Winona Republican</title>.</emph></byline>
+                        <head><title type="sub"><hi rend="bold">A Wonderful Romance in Real
+                                                  Life---<rs><date from="1835" to="1853">Eighteen
+                                                  Years</date></rs> Alone on the <placeName
+                                                type="island" key="#i_sn">Island of San
+                                                Nicolas</placeName>, on the <placeName type="region"
+                                                key="#re_socalcoast">Coast of Southern
+                                                California</placeName>.</hi></title>
+                              <title type="sub"><emph>(Concluded.)</emph></title></head>
+                        <p><span type="trope" n="4">A third voyage by <rs><persName
+                                                type="frontiersman" key="#gni">Mr.
+                                          N.</persName></rs> and <rs><persName type="group"
+                                                key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">six
+                                                others</persName></rs>, four of whom were
+                                                <rs><persName type="group"
+                                                key="#cook; #msh; #poli; #nsk; #hva"
+                                                >Indians</persName></rs> from <orgName
+                                          type="mission" key="#mi_santabarbaramission">Santa Barbara
+                                          Mission</orgName>, was made to <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs> in <date when="1853-07">July,
+                                          1853</date>; and, although otter hunting was the main
+                                    object of the visit, <rs><persName type="nativeamerican"
+                                                key="#lw">the Indian woman</persName></rs> was not
+                                    forgotten. They landed on the northeast side of <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs> early in the day, and having
+                                    selected their camping site, all but one, <rs><persName
+                                                type="nativeamerican" key="#cook">the
+                                                cook</persName></rs>, started for the head of
+                                                <rs><placeName type="island" key="#i_sn">the
+                                                island</placeName></rs>. Near there were observed
+                                    fresh footprints leading from the beach to the ridge or higher
+                                    elevation, but were soon lost in moss-covered ground, which
+                                    ended the search for the day. The following day they were more
+                                    successful. One of the party, <rs><persName type="frontiersman"
+                                                key="#cdi">Mr. Brown</persName></rs>, discovered
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                object of their search</persName></rs> at a
+                                    distance, and cautiously approaching in an opposite direction
+                                    from the <rs><persName type="group"
+                                                key="#gni; #col; #msh; #poli; #nsk; #hva">balance of
+                                                the party</persName></rs>, got quite close to her
+                                    without being observed. She was in one of her pens, or wind
+                                    breaks, clothed in a garment made of the skins of the shag,
+                                    without sleeves, low necked, and, as observed when standing up,
+                                    extending almost to the ankles. She was sitting cross legged,
+                                    skinning seal blubber with a rude knife made of a piece of hoop
+                                    iron driven into a piece of wood. There was no covering on her
+                                    head excepting a thick mass of matted hair of a yellowish-brown
+                                    color, due to the exposure to the sun and air. The hair was
+                                    short, looking as though the free ends had rotted off. She would
+                                    occasionally raise her hand and shade her eyes and look toward
+                                                <rs><persName type="group"
+                                                key="#gni; #col; #msh; #poli; #nsk; #hva">the other
+                                                men</persName></rs> on a sandy plain near the beach,
+                                    whom she evidently saw. There were two or three of the wild dogs
+                                    around the enclosure, which began to growl as <rs><persName
+                                                type="frontiersman" key="#cdi">Mr.
+                                          Brown</persName></rs> approached, but ran off at the
+                                    bidding of <rs><persName type="nativeamerican" key="#lw">their
+                                                mistress</persName></rs>. The <rs><persName
+                                                type="group"
+                                                key="#gni; #col; #msh; #poli; #nsk; #hva">balance of
+                                                the party</persName></rs> were now signaled in order
+                                    that she might be captured if she attempted to escape. To the
+                                    surprise of all she made no attempt to get away, but greeted
+                                    each one as they approached with a bow and a smile, and
+                                    chattered all the while in a dialect which none of them
+                                    understood, although <rs><persName type="group"
+                                                key="#msh; #poli; #nsk; #hva">the
+                                          Indians</persName></rs> accompanying <persName
+                                          type="frontiersman" key="#gni">Mr. Nidever</persName> were
+                                    acquainted with several Indian dialects. She was talking
+                                    apparently to herself, from the time <rs><persName
+                                                type="frontiersman" key="#cdi">Mr.
+                                          Brown</persName></rs> approached within hearing distance
+                                    until she was made aware of his presence.</span></p>
+                        <p><span type="trope" n="1">Within the enclosure was a fire smouldering, and
+                                    a large ash pile outside showed that to have been her abiding
+                                    place for some time. She was very hospitable, preparing a meal
+                                    from her limited store of roots, before named, and serving
+                                                <rs><persName type="group"
+                                                key="#gni; #col; #msh; #poli; #nsk; #hva">the
+                                                party</persName></rs> with a grace and bearing that
+                                    surprised them all.</span><span type="trope" n="3">The
+                                    expression of her face was pleasing, her features were regular,
+                                    and her complexion was much fairer and her form more symmetrical
+                                    than that of the Indian women on the main land; and she is
+                                    believed to have belonged to <rs><orgName
+                                                type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">a different and superior
+                                                race</orgName></rs>; which opinion is strengthened
+                                    by the fact that <persName type="author" key="#lce">Mons. Leon
+                                          de Cessac</persName>, a Frenchman, now engaged in
+                                    collecting archæological and other specimens of bygone years on
+                                    the <placeName type="region" key="#re_paccoast">Pacific
+                                          coast</placeName> of <rs><placeName type="region"
+                                                key="#re_northamerica">North</placeName></rs> and
+                                          <placeName type="region" key="#re_southamerica">South
+                                          America</placeName> for <rs><orgName type="museum"
+                                                key="#mu_parismuseum">a Paris museum</orgName></rs>,
+                                    finding many things on the <placeName type="island" key="#i_sn"
+                                          >island, San Nicolas</placeName>, similar to those
+                                    previously collected in <placeName type="state" key="#st_or"
+                                          >Oregon</placeName>, <placeName type="region"
+                                          key="#re_washingtonterritory">Washington
+                                          Territory</placeName> and further north, and unlike
+                                    anything found on either <rs><placeName type="region"
+                                                key="#re_mld">the main land</placeName></rs> or
+                                                <rs><placeName type="island" key="#i_chi">the other
+                                                islands</placeName></rs>. Also, the skulls and other
+                                    bones of the human skeleton found there are unlike those found
+                                    in other sections of <placeName type="region" key="#re_socal"
+                                          >Southern California</placeName>. A notable observation is
+                                    the absence of any evidence of syphilis, a striking contrast
+                                    with other human bones found in this latitude.</span> I have had
+                              the privilege of examining several skulls exhumed on <rs><placeName
+                                          type="island" key="#i_chi">other islands</placeName></rs>
+                              showing very plainly the ravages of this disease in those who have
+                              passed away probably centuries ago.</p>
+                        <p>Near her enclosure were several stakes, between which was stretched a
+                              rope made of the seal sinews, supporting seal and sea elephant
+                              blubber. And further on were three huts, made of whales' ribs, covered
+                              with brush, but giving no evidence of having been lately occupied. By
+                              signs and other means of communication she was made aware that they
+                              wanted her to accompany them, and without any apparent hesitation, she
+                              made ready to follow. She filled a basket&#8212;such as were common
+                              among the Indians of this coast for packing on their backs&#8212;with
+                              provisions, fishing tackle and other articles, and taking it on one
+                              arm and a fire brand in the other hand she followed <rs><persName
+                                          type="group"
+                                          key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">the
+                                          company</persName></rs>.</p>
+                        <p>In their course to where <rs><name type="ship" key="#sh_nidever">the
+                                          schooner</name></rs> lay at anchor they found a beautiful
+                              spring of water issuing from the bank above the beach, under a
+                              shelving rock. The cracks, or fissures, in this rock were stuck full
+                              of bones, and there were other evidences of an encampment of
+                                          <rs><persName type="nativeamerican" key="#lw">the lone
+                                          inhabitant of the island</persName></rs>. These bones were
+                              used for nourishment, obtained by sucking; they were dried and
+                              re-sucked many times, showing that occasionally she was put upon short
+                              rations, but at the time of her discovery appeared to have an
+                              abundance, such as it was. She retained all her teeth, but they were
+                              worn low, supposed to be due to her chewing tough and solid articles
+                              of food. Her age appeared to be about fifty years.</p>
+                        <p>Further on was another spring near the beach, under the bank. Here she
+                              indicated a desire to bathe, and was permitted to do so by the
+                                          <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">balance of
+                                          the party</persName></rs> retiring out of sight. After her
+                              bath she joined <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">the
+                                          others</persName></rs>, and went direct to the shore-boat
+                              and thence to <rs><name type="ship" key="#sh_nidever">the
+                                          schooner</name></rs>. She was prevailed upon to abandon
+                              her fire-brand and seal blubber before leaving the beach. Going aboard
+                                          <rs><name type="ship" key="#sh_nidever">the
+                                          schooner</name></rs>, she went directly to the stove and
+                              warmed herself, indicating that she knew what the stove was for. She
+                              ate heartily of the food of <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                          crew</persName></rs>, appeared to enjoy it, and it agreed
+                              with her. <rs><persName type="frontiersman" key="#cdi">Mr.
+                                          Brown</persName></rs> made her a skirt of ticking, with
+                              which, and a sailor's cotton shirt and a black neck tie, her dress was
+                              complete. She assisted in making her dress, but could not see to
+                              thread her needle. Her sewing was quite rude. She appeared
+                              much pleased with her new dress.</p>
+                        <p>The following day she went ashore with <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                          men</persName></rs>, who made a separate shelter for her,
+                              which she occupied about a month, the time spent on <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs>
+                              otter hunting. She was quite industrious, carrying wood and water
+                              without being asked. <span type="trope" n="10">She appeared contented
+                                    and happy, frequently singing and chattering to herself.
+                                                <rs><persName type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >The men</persName></rs> could not understand what
+                                    she said, nor she they, but <rs><persName type="frontiersman"
+                                                key="#gni">Mr. N.</persName></rs> said it was truly
+                                    wonderful how she could converse with them by signs.</span> She
+                              occupied a portion of her time making water vessels of grass and
+                              asphaltum, a substance plentiful both on <rs><placeName type="island"
+                                          key="#i_sn">the island</placeName></rs> and <placeName
+                                    type="region" key="#re_calcoast">shore of the main
+                                    land</placeName>. The grass was plaited into a shape resembling
+                              a demijohn, but wider at the top, and lined with asphaltum. She would
+                              put in several small pieces of the last mentioned substance then drop
+                              on them small stones or pebbles about the size of hulled walnuts,
+                              heated sufficiently to melt the asphaltum, and grasping the neck with
+                              both hands, the lower end on the ground, give it a rapid rotary motion
+                              for several minutes and then empty the stones on the ground. The
+                              vessels had a continuous coating on the inside, and are reported to
+                              have been water tight, the lining even resisting the heat of the sun
+                              when covered with water. She had both stone and earthen vessels in
+                              which to boil water and cook if desired. To procure seal blubber she
+                              could kill the seals with a club when on land sunning themselves, or
+                              snare them with her sinew ropes. She obtained fire by rubbing two dry
+                              sticks together. One of them partly flat, had a groove along its
+                              entire length; the other was pointed and fitted into the groove, in
+                              which it was rubbed rapidly backward and forward until it burned.</p>
+                        <p><span type="trope" n="1">As usual a storm compelled <rs><persName
+                                                type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva; #lw"
+                                                >the party</persName></rs> to leave <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs>, and embarking with <rs><persName
+                                                type="nativeamerican" key="#lw">their Island
+                                                Queen</persName></rs>, soon found themselves at sea
+                                    in a storm. She made signs that she could stop the storm, and
+                                    obtaining permission she knelt on the deck facing the quarter
+                                    whence the wind came, and commenced muttering something supposed
+                                    to be a prayer. <span type="trope" n="10">She soon got up, and
+                                          continued the prayer at intervals during the day,
+                                          apparently without fear, and when the wind began to abate
+                                          she turned to <rs><persName type="group"
+                                                  key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                  >her fellow voyagers</persName></rs>, and with a
+                                          smile made signs that her prayers had been
+                                          answered.</span></span></p>
+                        <p><span type="trope" n="10">When they came in sight of <placeName
+                                          type="island" key="#i_scruz">Santa Cruz
+                                    Island</placeName>, off <rs><placeName type="region"
+                                                key="#re_socalcoast">this coast</placeName></rs>,
+                                    she told them by signs that it was an island, and indicated from
+                                    there how she had seen, from <rs><placeName type="island"
+                                                key="#i_sn">her island</placeName></rs>, ships pass
+                                    up and down, but never land. Also, that she had seen the
+                                                <rs><persName type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >Nidever party</persName></rs> the previous day to
+                                    her discovery as they passed to the head of <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs>. She was afraid to make herself
+                                    known until she knew that there was no danger to her
+                                    person.</span> There were many places of concealment on
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, and unless taken unawares she
+                              would have been hard to find.</p>
+                        <p><span type="trope" n="3">As she was about to land at <placeName
+                                          type="city" key="#ci_sb">Santa Barbara</placeName>, an ox
+                                    team passed, which so delighted her that she talked, laughed,
+                                    danced, and gesticulated, and before that excitement ended
+                                                <rs><persName
+                                                key="#riderhorseman; #mrni; #jsh; #ssh">a man on
+                                                horseback</persName></rs> approached which gave her
+                                    even more pleasure than the appearance of the ox team. At first
+                                    it was supposed that she thought the man and horse constituted
+                                    one animal; but, if so, the mistake was soon corrected, for on
+                                    landing she went up to the horse and carefully examined it. The
+                                    examination gave her additional pleasure; she would turn to
+                                                <rs><persName type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >her late companions</persName></rs> and laughing,
+                                    request them to look at the horse. She straddled the thumb of
+                                    the left hand by the two forefingers of the right, and moved
+                                    them to represent the horse and <rs><persName
+                                                key="#riderhorseman; #mrni; #jsh; #ssh"
+                                                >rider</persName></rs> as they passed along the
+                                    beach.</span></p>
+                        <p>She was taken to the <placeName key="#nideverhouse">house of Mr.
+                                    Nidever</placeName>, where she became the center of attraction.
+                                          <rs><persName type="group"
+                                          key="#jru; #aji; #sanchez; #misfats">The Mission
+                                          Fathers</persName></rs> took a great interest in
+                              her&#8212;sending to <rs><orgName type="mission" key="#mi_losangeles"
+                                          >Los Angeles</orgName></rs> and other places, hoping to
+                              find some one who could converse with her, but failed. Even the
+                                    <orgName type="nativeamericantribes" key="#natam_pepimaros"
+                                    >Pepimaros Indians</orgName>, who were said to have had an
+                              acquaintance with <rs><orgName type="nativeamericantribes"
+                                          key="#natam_NicolenoTongva">the Indians on the
+                                          island</orgName></rs>, could not understand her.</p>
+                        <p><rs><persName type="group"
+                                          key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni"
+                                          >The family of Mr. N.</persName></rs> became very much
+                              attached to her, and although <rs><persName type="seaman"
+                                          key="#fremontcpt">the captain</persName></rs> of the brig
+                                    <name type="ship" key="#sh_fremont">Fremont</name> offered
+                              largely for the privilege of taking her to <placeName type="city"
+                                    key="#ci_sf">San Francisco</placeName> and placing her on
+                              exhibition, it was refused; also an offer of a thousand dollars from
+                                          <rs><persName type="seaman" key="#tru">another
+                                          party</persName></rs> for a like purpose was refused.</p>
+                        <p><span type="trope" n="3">Many people called on her and she received them
+                                    kindly, but the afternoon was her favorite time for receiving
+                                    calls; when she would put on her shag-skin dress and entertain
+                                    her callers with a song-dance. She cared nothing for money,
+                                    giving it to the children when given to her. She did not wish to
+                                    sleep in a bed, and when in bed, did not desire bed covering,
+                                    but was careful not to expose her person. Her manners were not
+                                    rude, and in many things she was more refined than many who
+                                    enjoy civilized privileges; yet in many things she was very much
+                                    like a child. She wanted everything which she saw that appeared
+                                    pleasant to the eye or seemed good to the taste, and if fruit
+                                    was withheld from her she would plead for it in such a
+                                    child-like manner that it was hard to refuse her.</span></p>
+                        <p>When found, she was in excellent physical condition, strong and active;
+                              but the eating of fruit and vegetables brought on a diarrhæa or
+                              dysentery in about three weeks after she landed, and that, in
+                              connection with an injury to the spine received by falling from a
+                              porch, terminated her life four weeks later, or seven weeks from the
+                              time she landed. During her sickness she reluctantly permitted
+                                          <rs><persName type="frontiersman" key="#sni">her kind
+                                          hostess</persName></rs> to dress her in flannel
+                              underclothes, and took her bed under proper covering, but positively
+                              refused to return to her former plain diet, as was proposed by some of
+                              those who called to see her. Her dress of shag skins, basket and
+                              trinkets were given to <rs><persName type="missionfather" key="#jru"
+                                          >Father Gonzales</persName></rs>, of <rs><orgName
+                                          type="mission" key="#mi_santabarbaramission">the
+                                          Mission</orgName></rs>, who, it is said, sent them to
+                                    <placeName type="city" key="#ci_rom">Rome</placeName>.</p>
+                        <p>I may in a future letter give additional particulars concerning this
+                              truly interesting personage.</p>
+                        <byline><persName type="autho" key="#ast">A. B. STUART.</persName></byline>
+                  </div>
+            </body>
+      </text>
+</TEI>

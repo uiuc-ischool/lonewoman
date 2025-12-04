@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#teachingchla">Teaching
+                     Children's Literature: Issues, Pedagogy, Resources</orgName></title>
+               <publisher>Modern Language Association of America</publisher>
+               <editor/>
+               <date when="1992"/>
+               <pubPlace><placeName type="city" key="#ci_nyc">New York</placeName>, <placeName
+                     type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Stott1992">Native American Narratives and the
+                     Children's Literature Curriculum</title>
+                  <biblScope unit="page" from="46" to="47"/>
+                  <author><persName type="author" key="#jst">Stott, Jon C.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="excerpt">
+            <p><supplied>[...]</supplied></p>
+            <p>In presenting novels dealing with native peoples, instructors should notice a basic
+               paradox. Traditional literatures were essentially communal. Tricksters, legendary
+               heroes, and historical personages were important as they reflected cultural values
+               rather than as individuals. Novels, on the other hand, deal with individual
+               personalities. Thus we should be aware that, no matter how factually accurate an
+               author may be in the treatment of physical and cultural traits of the characters, in
+               dealing with the inner lives of specific characters and in methods of presentation,
+               the writer of a children's novel about native peoples may be more influenced than he
+               or she realizes by the attitudes and conventions of Western literature. This point
+               may be demonstrated by comparing two novels by <rs><persName type="group"
+                     key="#sod; #jcge">nonnative writers</persName></rs> with two native
+               writers.</p>
+            <p><persName type="author" key="#sod">Scott O'Dell</persName>'s <emph>Island of the Blue
+                  Dolphins</emph> is the account of a California native girl's <rs><date from="1835"
+                     to="1853" cert="high">eighteen years</date></rs> of isolation on <rs><placeName
+                     type="island" key="#i_sn">an offshore island</placeName></rs>. In <emph>Julie
+                  of the Wolves</emph>, <persName type="author" key="#jcge">Jean Craighead
+                  George</persName> describes <rs><name type="fictional" key="#jul">a modern Alaskan
+                     Eskimo girl</name></rs> surviving an arctic winter with the aid of a pack of
+               wolves. Both are based on extensive research into the cultural and geographical
+               aspects; however, in structure and presentation of <rs><persName type="group"
+                     key="#kar; #jul">the main characters</persName></rs>, both use conventions of
+               the Western novel. As survival novels, they follow the pattern of separation,
+               survival, rescue, and reunion. The greater part of each focuses on the physical and
+               psychological endurance of the central character. "How to do it" chapters detail the
+               ways the isolated individual remembers and utilizes the techniques of her culture to
+               obtain physical necessities. Chapters centering on the inner life often reveal the
+               character recalling the spiritual elements of the social group and understanding
+               their value.</p>
+            <p>Inherent in the conventions of the survival novel as they are used in these two books
+               are adventure and psychological analysis. In life-threatening situations,
+                     <rs><persName type="group" key="#kar; #jul">the central
+                  characters</persName></rs> must display considerable physical ability and inner
+               courage. However, by the very nature of their situations, they are unique. They face
+               inner and outer pressures not normally encountered by members of the culture. Thus,
+               unlike traditional native narratives, <rs><persName type="group" key="#kar; #jul">the
+                     characters</persName></rs> are not representative. As <rs><persName
+                     type="group" key="#kar; #jul">the central figures</persName></rs> in their
+               novels, they are the subject of detailed study and their inner conflicts are fully
+               presented. Filled with hatred of the <orgName type="nativeamericantribes"
+                  key="#natam_aleuts">Aleuts</orgName>, who killed her father and brother, <rs><name
+                     type="fictional" key="#kar">Karena</name></rs> [<name type="fictional"
+                  key="#kar">Karana</name>], in <emph>Island of the Blue Dolphins</emph>, must learn
+               to overcome her intense loathing. <name type="fictional" key="#jul">Julie</name>, who
+               is fleeing to <placeName type="city" key="#ci_sf">San Francisco</placeName> in
+               George's novel, comes to understand the value of the old ways, which she had
+               originally scorned.</p>
+            <p>In addition to conventions of the survival novel, <persName type="author" key="#jcge"
+                  >George</persName> includes in <emph>Julie of the Wolves</emph> elements of
+               pastoralism. The contrasts between a sullied, artificial, complex urban world
+               representing progress, greed, anxiety, and ambition, and a rural world that is
+               natural, pure, and calm, are reflected in that between <placeName type="city"
+                  key="#ci_sf">San Francisco</placeName>, <placeName type="city" key="#ci_ba"
+                  >Barrow</placeName>, and <placeName type="city" key="#ci_ka">Kangik</placeName>,
+               on the one hand, and the seal camp and the tundra, on the other. In the end,
+                     <rs><name type="fictional" key="#jul">the heroine</name></rs> discovers that
+               she cannot recover the ideal world and must return to <rs><name type="fictional"
+                     key="#julfather">her father</name></rs>, who has capitulated to the values of
+               civilization. <persName type="author" key="#jcge">George</persName> also incorporates
+               aspects of the problem novel, a genre widely used in young adult fiction of <rs><date
+                     notBefore="1970" notAfter="1992">the past two decades</date></rs>. Julie's
+               difficulties are increased by government intervention, which disrupts her happy life
+               by sending her to school and by attempting to send <rs><name type="fictional"
+                     key="#julfather">her father</name></rs> to <placeName type="country"
+                  key="#co_viet">Vietnam</placeName>; by her uncle's alcoholism; by peer pressures
+               to accept the modern ways; and by the failure of <rs><name type="fictional"
+                     key="#julfather">her father</name></rs> to maintain his cultural integrity.</p>
+            <p>Neither <persName type="author" key="#sod">O'Dell</persName> nor <persName
+                  type="author" key="#jcge">George</persName> would claim to be presenting insiders'
+               narratives; they are <rs><persName type="group" key="#sod; #jcge">knowledgeable and
+                     sympathetic outsiders</persName></rs>. Two authors who do write from the inside
+               are <persName type="author" key="#mpa">Markoosie</persName>, an <orgName
+                  type="nativeamericantribes" key="#natam_inuit">Inuit</orgName> from arctic
+                  <placeName type="country" key="#co_can">Canada</placeName>, the author of
+                  <emph>Harpoon of the Hunter</emph>, and <persName type="author" key="#jhi">Jamake
+                  Highwater</persName>, the author of <emph>Anpao: An American Indian
+               Odyssey</emph>, who until recently claimed to be of <orgName
+                  type="nativeamericantribes" key="#natam_blackfoot">Blackfoot</orgName>-<orgName
+                  type="nativeamericantribes" key="#natam_cherokee">Cherokee</orgName> heritage. In
+               both these works we see a mixture of novelistic techniques and conventions of
+               traditional narratives. <emph>Harpoon of the Hunter</emph> is a naturalistic survival
+               story in which <name type="fictional" key="#karmik">Kamik</name>, a young <orgName
+                  type="nativeamericantribes" key="#natam_inuit">Inuit</orgName>, travels with
+               several other villagers in pursuit of a rabid polar bear. Although the other members
+               of the party are all killed, he survives and is rescued. However, when several
+               members of his family and <rs><name type="fictional" key="#karmikwife">his new
+                     wife</name></rs> drown crossing broken river ice, he commits suicide, running
+               himself onto his harpoon. <name type="fictional" key="#anp">Anpao</name> is a highly
+               symbolic, almost surrealistic account of a young man's journey to the Sun. If the
+               Sun, who is his father, will remove the scar <rs><name type="fictional" key="#anp"
+                     >the youth</name></rs> wears on his face, he may return to earth to marry.
+               However, when <name type="fictional" key="#anp">Anpao</name> returns to his village,
+               he finds that the arrival of the white man signals destruction to his people. With
+               his bride and a faithful few, he travels beneath the waters of a nearby lake, where
+               life everlasting can be found.</p>
+            <p><supplied>[...]</supplied></p>
+         </div>
+      </body>
+   </text>
+</TEI>

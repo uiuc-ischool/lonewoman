@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl type="article">
+                              <title type="newspaper"><orgName type="publication" key="#dailypress"
+                                          >Daily Press</orgName></title>
+                              <editor/>
+                              <publisher/><biblScope unit="vol" n="7"/>
+                              <biblScope unit="issue" n="162"/>
+                              <pubPlace><placeName type="city" key="#ci_sb">Santa
+                                          Barbara</placeName>, <placeName type="state" key="#st_cal"
+                                          >California</placeName></pubPlace>
+                              <date when="1879-01-28"/>
+                              <bibl><title type="article" key="#Stuart1879_Jan28">A Female Crusoe.
+                                          The Lone Woman of San Nicolas Island. A Wonderful Romance
+                                          in Real Life---Eighteen Years Alone on the Island of San
+                                          Nicolas, on the Coast of Southern California</title>
+                                    <biblScope unit="page" n="1"/>
+                                    <author><persName type="author" key="#ast">Stuart, Absalom
+                                                B.</persName></author></bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A
+                                                FEMALE CRUSOE</persName></rs>.</title>
+                              <title type="sub"><rs><emph><persName type="nativeamerican" key="#lw"
+                                                  >THE LONE WOMAN OF SAN NICOLAS
+                                                ISLAND</persName></emph>.</rs></title>
+                              <title type="sub">A Wonderful Romance in Real Life---<rs><date
+                                                from="1835" to="1853">Eighteen Years</date></rs>
+                                    Alone on the <placeName type="island" key="#i_sn">Island of San
+                                          Nicolas</placeName>, on the <placeName type="region"
+                                          key="#re_socalcoast">Coast of Southern
+                                          California</placeName>.</title></head>
+                        <byline><emph>Correspondence of <title type="article" key="#Stuart1878">The
+                                          Winona Republican</title>.</emph></byline>
+                        <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA,
+                                    Cal.</placeName>, <date when="1878-12-18">Dec. 18,
+                              1878</date>.&#8212;</dateline>
+                        <p><span type="trope" n="8">I well recollect with what boyish pleasure and
+                                    absorbing interest I followed <rs><name type="fictional"
+                                                key="#rcr">Robinson Crusoe</name></rs> in his lonely
+                                    travels and daily occupations on the <placeName type="island"
+                                          key="#i_jf">island of Juan Fernandez</placeName>, little
+                                    thinking that in later years I would find a similar case on
+                                                <rs><placeName type="region" key="#re_socalcoast"
+                                                >this far-off coast</placeName></rs>; but such is
+                                    the fact, and my narrative is not only based upon facts, but is
+                                    fact, the knowledge of the circumstances having been obtained
+                                    from <rs><persName type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >the discoverers</persName></rs>, <rs><persName
+                                                type="group"
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >captors</persName></rs> and <rs><persName
+                                                key="#bri">the physician</persName></rs> who
+                                    attended during the last sickness of <rs><persName
+                                                type="nativeamerican" key="#lw">my feminine
+                                                "Crusoe,"</persName></rs> the <rs><persName
+                                                type="nativeamerican" key="#lw">heroine of San
+                                                Nicolas Island</persName></rs>.</span></p>
+                        <p>Having heard that <rs><persName type="nativeamerican" key="#lw">an Indian
+                                          woman</persName></rs> had lived a lonely life of <rs><date
+                                          from="1835" to="1853">eighteen
+                                    years</date></rs>&#8212;<date from="1835" to="1853">from 1835 to
+                                    1853</date>&#8212;on <rs><placeName type="island" key="#i_sn"
+                                          >one of the <rs><placeName type="island" key="#i_chi">many
+                                                  islands off this
+                                          coast</placeName></rs></placeName></rs>, I was anxious to
+                              learn more about it than the varying and contradictory reports in
+                              general circulation gave me, but was not able to do so until a short
+                              time ago, when, through an interpreter, I consulted <persName
+                                    type="frontiersman" key="#gni">Messrs. George Nidever</persName>
+                              and <rs><persName type="frontiersman" key="#cdi">Charles
+                                          Brown</persName></rs>, two of <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                          party</persName></rs> who brought her from <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs> to
+                                          <rs><placeName type="city" key="#ci_sb">this
+                                          place</placeName></rs>, and <persName key="#sni">Mrs.
+                                    Nidever</persName>, who had charge of her after she landed.
+                                    <persName key="#sni">Mrs. Nidever</persName> was consulted
+                              through an interpreter conversant with the Spanish language. <persName
+                                    type="frontiersman" key="#gni">Mr. Nidever</persName> is well
+                              advanced in years, about eighty, but retains his faculties to a good
+                              degree. A frontiersman from early life, he spent many years as trapper
+                              and huntsman among the Indians of the northwest previous to coming
+                              here in <date when="1835">1835</date>. He became expert in the use of
+                              the rifle, and maintains his reputation even to the present day.
+                              Without the aid of glasses he can put a pistol ball into the head of a
+                              gopher at twenty five feet. Although an American by birth he now
+                              converses entirely in the Spanish language. [Not
+                              "entirely."&#8212;ED]</p>
+                        <p><persName type="frontiersman" key="#gni">Mr. Nidever</persName> said: "My
+                              occupation has been that of otter hunting. When I came here, in <date
+                                    when="1835">1835</date> I found two other Americans, <persName
+                                    type="investor" key="#isp">Isaac J. Sparks</persName> and
+                                    <persName type="investor" key="#lbu">Lewis T. Burton</persName>,
+                              engaged in the same business. They chartered <rs><name type="ship"
+                                          key="#sh_peoresnada">a schooner</name></rs> of twenty tons
+                              burden, built at <placeName type="city" key="#ci_mo"
+                                    >Monterey</placeName>, called <emph><name type="ship"
+                                          key="#sh_peoresnada">Peor es Nada</name></emph> (<rs><name
+                                          type="ship" key="#sh_peoresnada">Better than
+                                          Nothing</name></rs>,) for a trip to the coast of
+                                    <placeName type="region" key="#re_baja">Lower
+                                    California</placeName>, on an otter expedition, leaving
+                                    <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                              about the first of <date when="1835-05">May, 1835</date>. I did not
+                              accompany the expedition. Not being as successful as those in charge
+                              expected, <rs><date when="1835-08">three months later</date></rs> the
+                                          <emph><name type="ship" key="#sh_peoresnada">Peor es
+                                          Nada</name></emph> put into <placeName type="city"
+                                    key="#ci_sp">San Pedro</placeName>, the port or landing of
+                                    <placeName type="city" key="#ci_la">Los Angeles</placeName>, on
+                              her return trip[.] From <placeName type="city" key="#ci_sp">San
+                                    Pedro</placeName> she went to the <placeName type="island"
+                                    key="#i_sn">Island of San Nicolas</placeName>, about seventy
+                              miles southwest from <placeName type="city" key="#ci_sp">San
+                                    Pedro</placeName> and a little further southeast from <placeName
+                                    type="city" key="#ci_sb">Santa Barbara</placeName> for the
+                              purpose of removing <persName type="group" key="#bhagroup">the Indians
+                                    then on the island</persName> to <rs><placeName type="region"
+                                          key="#re_mld">the main land</placeName></rs>, and returned
+                              with <persName type="group" key="#bhagroup">eighteen men, women and
+                                    children</persName> as told me by <persName type="investor"
+                                    key="#isp">Isaac J. Sparks</persName>[.] How long <rs><orgName
+                                          type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                          >the Indians</orgName></rs> had been residents of
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, how they got there, and by whose
+                              authority they were removed, I know not. <rs><persName
+                                          type="nativeamerican" key="#bha">One of the
+                                          Indians</persName></rs>, rather dwarfed in intellect, but
+                              possessing the physical strength three or four ordinary men, remained
+                              at <placeName type="city" key="#ci_sp">San Pedro</placeName>[;]
+                                          <rs><persName type="group"
+                                          key="#Nicolenowoman1; #Nicolenowoman2">two of the
+                                          women</persName></rs> were taken as concubines by
+                                          <rs><persName type="group"
+                                          key="#laresident1; #laresident2">two
+                                    Americans</persName></rs> living in <placeName type="county"
+                                    key="#co_la">Los Angeles County</placeName>; <persName
+                                    type="group" key="#bhagroup">the balance of the party</persName>
+                              divided, part going to <rs><orgName type="mission"
+                                          key="#mi_losangeles">Los Angeles</orgName></rs> and part
+                              to <placeName type="mission" key="#mi_sg">San Gabriel
+                                    Mission</placeName>. <rs><persName type="group"
+                                          key="#laresident1; #laresident2">Those two
+                                    men</persName></rs> who selected <rs><persName type="group"
+                                          key="#Nicolenowoman1; #Nicolenowoman2">their
+                                          concubines</persName></rs> from <persName type="group"
+                                    key="#bhagroup">the party</persName> took an active part in
+                              having <persName type="group" key="#bhagroup">the Indians</persName>
+                              removed."</p>
+                        <p>According to the information I have obtained from <rs><persName
+                                          type="group" key="#gni; #cdi; #sni">the three persons
+                                          consulted</persName></rs> through the interpreter, the
+                              history of <rs><persName type="nativeamerican" key="#lw">the Indian
+                                          woman</persName></rs>, <rs><persName type="nativeamerican"
+                                          key="#lw">the feminine Crusoe</persName></rs>, is as
+                              follows[:] <span type="trope" n="9">She was absent gathering wood when
+                                          <persName type="group" key="#bhagroup">the
+                                          others</persName> were taken away but returned to the camp
+                                    or quarters and finding them deserted, followed in time to be
+                                    taken aboard <rs><name type="ship" key="#sh_peoresnada">the
+                                                schooner</name></rs>, but not finding <rs><persName
+                                                type="nativeamerican" key="#lwchild">her
+                                                children</persName></rs> there, one <rs><persName
+                                                type="nativeamerican" key="#lwchild">a babe at the
+                                                breast</persName></rs> and <rs><persName
+                                                type="nativeamerican" key="#lwchild">the
+                                                other</persName></rs> about three years old, she
+                                    plunged into the water and swam ashore in search of them.</span>
+                              Unable to find <rs><persName type="nativeamerican" key="#lwchild">her
+                                          children</persName></rs>, she returned to the beach just
+                              in time to see <rs><name type="ship" key="#sh_peoresnada">the
+                                          schooner</name></rs> leaving. She called to <rs><persName
+                                          type="group"
+                                          key="#bhagroup; #1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                                          >those on board</persName></rs>, but the only reply she
+                              got and which she remembered to the day of her death, was
+                                    "<emph>mañana</emph>," pronounced mah-nyah-nah, the Spanish word
+                              for "to-morrow," evidently meaning that <rs><name type="ship"
+                                          key="#sh_peoresnada">the schooner</name></rs> would return
+                              for her to-morrow or the following day. She threw herself down on the
+                              beach and cried long and bitterly. She did not find <rs><persName
+                                          type="nativeamerican" key="#lwchild">her
+                                          children</persName></rs>, and supposed they were either
+                              taken off by <rs><name type="ship" key="#sh_peoresnada">the
+                                          schooner</name></rs> or carried away and devoured by the
+                              wild dogs on <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>. She became very sick and lay a
+                              long time without either water or food, but finally recovered and
+                              forgot her grief in wandering about <rs><placeName type="island"
+                                          key="#i_sn">the island</placeName></rs>. She lived on a
+                              plant resembling the cabbage, called by Californians "palosanto," and
+                              a root known by the name of "corcomite;" also a yellow root, the name
+                              of which was not given, and seal or sea-lion blubber. As she had
+                              abalone-shell fish hooks and lines made of the sinews of the seal, it
+                              is probable she supplied herself with fish from the ocean.</p>
+                        <p>An approaching storm and night coming on, the water being quite shoal
+                              about <rs><placeName type="island" key="#i_sn">the
+                                    island</placeName></rs> and unsafe for a vessel during a high
+                              wind, they were compelled to leave for the safety of <rs><name
+                                          type="ship" key="#sh_peoresnada">the schooner</name></rs>,
+                              intending to return at a future time for <rs><persName
+                                          type="nativeamerican" key="#lw">the deserted
+                                          woman</persName></rs>. <rs><name type="ship"
+                                          key="#sh_peoresnada">The vessel</name></rs> ran before the
+                              gale and reached <placeName type="city" key="#ci_sp">San
+                                    Pedro</placeName> harbor in safety; <span type="trope" n="12"
+                                    >but circumstances did not permit a return prior to the loss of
+                                                <rs><name type="ship" key="#sh_peoresnada">the
+                                                schooner</name></rs> in a storm a few weeks later,
+                                    and the distance to <rs><name type="ship" key="#sh_peoresnada"
+                                                >the island</name></rs> was too great to be safely
+                                    made in the small shore boats.</span></p>
+                        <p><span type="trope" n="4">In <date when="1851">1851</date>
+                                    <persName type="frontiersman" key="#gni">Mr. Nidever</persName>
+                                    visited <rs><placeName type="island" key="#i_sn">the
+                                                island</placeName></rs> otter hunting, and saw signs
+                                    of a human inhabitant. He saw a footprint made during the
+                                    previous rainy season, sunken deeply in the now dry, hard
+                                    ground, and from the size judged it to be that of a woman. Also,
+                                    three small circular enclosures about two hundred yards from the
+                                    beach and about a mile apart. They were about six feet in
+                                    diameter, made of brush, the walls five feet high, with a small
+                                    opening on one side. Near these openings were sticks of
+                                    drift-wood stuck in the ground in the form of a tripod,
+                                    supporting dried seal blubber. These enclosures appeared to be
+                                    simply wind breaks, affording no protection from the rain. The
+                                    investigation was pursued no further, as an approaching storm
+                                    compelled them to leave <rs><placeName type="island" key="#i_sn"
+                                                >the island</placeName></rs>. <persName
+                                          type="frontiersman" key="#gni">Mr. Nidever</persName>
+                                    having seen many otters on his first trip to <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs> made a second during <rs><date
+                                                from="1852-12" to="1853-02">the Winter of
+                                                1852</date></rs>, and being requested by
+                                                <rs><persName type="group"
+                                                key="#jru; #aji; #sanchez; #misfats">the Mission
+                                                Fathers</persName></rs> of <rs><orgName
+                                                type="mission" key="#mi_santabarbaramission">Santa
+                                                Barbara</orgName></rs>, had determined to make a
+                                    careful hunt for <rs><persName type="nativeamerican" key="#lw"
+                                                >the supposed lone inhabitant of the
+                                                island</persName></rs>. The head of <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs> being better supplied with fresh
+                                    water, closer to the beachand better facilities for fishing, and
+                                    the altitude such as to command a view of the greater portion of
+                                                <rs><placeName type="island" key="#i_sn">the
+                                                island</placeName></rs> and <rs><placeName
+                                                type="region" key="#re_calcoast"
+                                          >coast</placeName></rs> he supposed if alive she would be
+                                    found there, and made his arrangements accordingly.
+                                                <rs><persName type="group"
+                                                key="#gni; #tje; #nativeamericans">He and his
+                                                party</persName></rs> found the same, or similar
+                                    enclosures, above mentioned, and the tripod sticks supporting
+                                    renewed pieces of blubber. In the neighborhood of the huts or
+                                    wind breaks, were seven or eight wild dogs about the size of a
+                                    cayote, (a small wolf on this coast), and in color black and
+                                    white. <rs><persName type="frontiersman" key="#gni">Mr.
+                                                N.</persName></rs> said he had seen the same kind of
+                                    dogs among the Northwest Indians. They appeared to be very wild.
+                                    Within half a mile of the head of <rs><placeName type="island"
+                                                key="#i_sn">the island</placeName></rs> they
+                                    discovered a basket in the crotch of a bush or small tree,
+                                    covered with a seal skin, and containing a dress made of shag's
+                                    skins (the shag is a species of duck on <rs><placeName
+                                                type="region" key="#re_calcoast">this
+                                                coast</placeName></rs> that can neither walk nor
+                                    fly,) carefully folded up, and several square pieces of skin
+                                    similar to those of which the dress was made. Also a rope made
+                                    of seal sinews, abalone shell fish-hooks, bone needles, etc. As
+                                    it was late and time for them to return to <rs><name type="ship"
+                                                key="#sh_nidever">their boat</name></rs> for the
+                                    night, <rs><persName type="frontiersman" key="#gni">Mr.
+                                                N.</persName></rs> scattered the contents of the
+                                    basket on the ground, so that upon his return he could judge of
+                                    the presence or absence of <rs><persName type="nativeamerican"
+                                                key="#lw">the owner</persName></rs>, by finding them
+                                    gathered up or remaining as he left them. The following four or
+                                    more days were busily spent in otter hunting, and before the
+                                    search for <rs><persName type="nativeamerican" key="#lw">the
+                                                Indian woman</persName></rs> was renewed a southeast
+                                    gale compelled them to seek a more hospitable harbor at the
+                                          <placeName type="island" key="#i_sm">island of San
+                                          Miguel</placeName>. </span></p>
+                        <byline><emph>Continued to-morrow</emph></byline>
+                  </div>
+            </body>
+      </text>
+</TEI>
