@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#pacdisc">Pacific
+                     Discovery</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">13</biblScope>
+               <date when="1960"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Norris1960">Desert San Nicolas</title>
+                  <biblScope unit="page" from="10" to="13"/>
+                  <author><persName type="author" key="#rno">Norris, R. M.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div n="1" type="article">
+            <head><title type="main"> DESERT <placeName type="island" key="#i_sn">SAN
+                     NICOLAS</placeName> AND <rs><persName type="nativeamerican" key="#lw">THE LAST
+                        NICOLEÑO</persName></rs></title>
+               <title type="sub"><emph><rs><date notBefore="1835" notAfter="1853" cert="high"
+                           >Eighteen years</date></rs> alone on <rs><placeName type="island"
+                           key="#i_sn">California's desert island</placeName></rs>, <rs><persName
+                           type="nativeamerican" key="#lw">an Indian woman</persName></rs> outdid
+                        <name type="fictional" key="#rcr">Robinson
+               Crusoe</name></emph></title></head>
+            <byline><persName type="author" key="#rno">Robert M. Norris</persName></byline>
+            <p>SIXTY MILES south of <placeName type="region" key="#re_phuenemo">Port
+                  Huenemo</placeName> lies <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, <rs><placeName type="island" key="#i_sn">a barren,
+                     flat-topped island</placeName></rs> of about twenty square miles. Of all
+                     <rs><placeName type="island" key="#i_chi">the southern California
+                     islands</placeName></rs>, <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> is the most distant from shore. Politically, it is a part of
+                  <placeName type="county" key="#co_ventura">Ventura County</placeName>, although
+               the county authorities there, like most other southern Californians, are seldom
+               concerned with it.</p>
+            <p>An unknown visitor to <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> shortly before the turn of the century was much impressed
+               with the wind-swept desolation he saw there; <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> seemed to him to be blowing into the sea. This
+               traveler referred to <placeName type="island" key="#i_sn">San Nicolas</placeName> as
+               the "<rs><placeName type="island" key="#i_sn">Passing Island</placeName></rs>," an
+               appropriate name in many respects. <span type="trope" n="6"><rs><date
+                        notBefore="1800" notAfter="1899-12-31">The past century</date></rs> has seen
+                  the disappearance of the last of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Channel Island
+                        Indians</orgName></rs>&#8212;<rs><persName type="nativeamerican" key="#lw"
+                        >the famous Lost Woman of San Nicolas</persName></rs>&#8212;and even the
+                  dogs that lived with <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Indians</orgName></rs>.</span> Now, there
+               are only one or two survivors of the thousands of sheep that were grazed on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> after
+                  <date when="1860">1860</date>. As if this weren't enough, the persistent winds and
+               occasional rains are carrying <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> itself into the sea, particle by particle.</p>
+            <p>Although <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was
+               named by <persName type="seaman" key="#svi">Sebastián Viscaino</persName> in <date
+                  when="1602">1602</date>, the first white man to see it was probably <persName
+                  type="seaman" key="#bfe">Ferrelo</persName>, <rs><persName type="seaman"
+                     key="#bfe">Cabrillo's pilot</persName></rs>, who left <placeName type="island"
+                  key="#i_scruz">Santa Cruz Island</placeName>
+               <date when="1543-02">one February day in 1543 </date>in a small launch to search for
+               other islands reported off the inner group. Doubtless, many travelers during
+                     <rs><date notBefore="1600" notAfter="1700">the 17th and 18th
+                  centuries</date></rs> passed close by <rs><placeName type="island" key="#i_sn">San
+                     Nicolas</placeName></rs>, but few of these took the trouble to land and fewer
+               still bothered to comment on it in their journals. The lack of even a fair anchorage
+               and the forbidding, barren appearance of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> probably caused many of these early travelers to seek
+               other more favored landfalls. By <rs><date notBefore="1800" notAfter="1835">the early
+                     part of the 19th century</date></rs>, when many trading ships were operating
+               illegally in Californian waters, <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> had more frequent visitors because of the relative safety
+               afforded by its isolation. Many of these traders and hunters found it advisable to
+               elude the Spanish authorities by spending some of their time at the outer islands.
+               One of these men, a <persName type="seaman" key="#whi">Captain Whettemore</persName>,
+               who was in the sea otter trade, visited <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> in <date when="1811">1811</date>. He landed his otter hunters,
+               a group of thirty well-armed <orgName type="nativeamericantribes" key="#natam_aleuts"
+                  >Aleutian Indians</orgName> from <placeName type="city" key="#ci_si"
+                  >Sitka</placeName>. <rs><persName type="seaman" key="#whi">The
+                  Captain</persName></rs> had business in <placeName type="region" key="#re_baja"
+                  >Baja California</placeName> which did not require <rs><orgName
+                     type="nativeamericantribes" key="#natam_aleuts">his crew of otter
+                     hunters</orgName></rs> and he therefore sailed without them, returning a few
+               months later. <span type="trope" n="11">During his absence <orgName
+                     type="nativeamericantribes" key="#natam_aleuts">the Aleuts</orgName> got into a
+                  dispute with <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >the islanders</orgName></rs>, probably about the women, and systematically
+                  butchered all the poorly armed island men and boys, or so the story
+               goes.</span></p>
+            <p><span type="trope" n="11">Word of the massacre eventually reached <persName
+                     type="group" key="#aji; #ndur; #misfats">the Mission padres</persName> at
+                     <orgName type="mission" key="#mi_santabarbaramission">Santa Barbara</orgName>
+                  who arranged with <persName type="seaman" key="#isp">Captain Sparks</persName> of
+                  that city to set out with <rs><name type="ship" key="#sh_peoresnada">his little
+                        schooner</name></rs>, the <emph><name type="ship" key="#sh_peoresnada">Peor
+                        es Nada</name></emph> ("<rs><name type="ship" key="#sh_peoresnada">Better
+                        than Nothing</name></rs>"), to bring back the remaining women. <persName
+                     type="investor" key="#isp">Captain Sparks</persName> sailed in <date
+                     when="1835">1835</date>, twenty-four years after <orgName
+                     type="nativeamericantribes" key="#natam_aleuts">the Aleuts</orgName> had done
+                  their terrible work.</span> When the <emph><name type="ship" key="#sh_peoresnada"
+                     >Peor es Nada</name></emph> reached <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, <persName type="group" key="#bhagroup">seven or eight
+                  women</persName> were taken aboard&#8212;some accounts say as many as twenty.
+                  <span type="trope" n="9"><rs><persName type="nativeamerican" key="#lw">One of the
+                        women</persName></rs> either hung back when the rest went aboard, or later
+                  jumped over the side and swam ashore, supposedly protesting that she had forgotten
+                        <rs><persName type="nativeamerican" key="#lwchild">her
+                  child</persName></rs>; it is not clear what actually happened.</span> In any
+               event, she alone remained on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, for faced with a developing storm <persName
+                  type="investor" key="#isp">Captain Sparks</persName> feared to wait in San
+               Nicolas' dangerous anchorage and set sail, intending to return for <rs><persName
+                     type="nativeamerican" key="#lw">the Indian woman</persName></rs> later on.
+                  <persName type="group" key="#bhagroup">The islanders</persName> were landed at
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and later taken to
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName>. A short time after his
+               return to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <persName
+                  type="investor" key="#isp">Captain Sparks</persName> sailed for <placeName
+                  type="city" key="#ci_sf">San Francisco</placeName> in the <emph><name type="ship"
+                     key="#sh_peoresnada">Peor es Nada</name></emph> and was lost at sea. <span
+                  type="trope" n="6">During the following years, <persName type="group"
+                     key="#bhagroup">the islanders</persName>, who were eventually taken to <orgName
+                     type="mission" key="#mi_sg">Mission San Gabriel</orgName>, all died, and
+                        <rs><persName type="nativeamerican" key="#lw">the last survivor of their
+                        race</persName></rs>, still on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, was probably forgotten by nearly everyone but
+                        <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the padres
+                        at Mission Santa Barbara</persName></rs>.</span> They remained hopeful that
+               one day <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+               might be found because they continued to receive occasional reports from visitors to
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> who
+               claimed to have seen a woman's footprints on the beach sands. Finally, in <date
+                  when="1853">1853</date>, <persName type="missionfather" key="#jru">Padre
+                  Gonzales</persName> of <rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >the Mission</orgName></rs> persuaded <persName type="frontiersman" key="#gni"
+                  >Captain Nidever</persName> of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> to go in search of <rs><persName type="nativeamerican"
+                     key="#lw">the last surviving Nicoleño</persName></rs>.</p>
+            <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> failed to find
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> on
+               either his first or his second visits. However, he did find unmistakable evidence
+               that she was still living. Thus encouraged, he made the third trip accompanied by
+                     <rs><persName type="frontiersman" key="#cdi">Mr. Charles Brown</persName></rs>
+               and a number of <orgName type="nativeamericantribes" key="#natam_Barbareno">Barbareño
+                  Indians</orgName>. <rs><persName type="frontiersman" key="#cdi"
+                  >Brown</persName></rs> landed on the southeastern end of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>&#8212;on the large sand
+               spit. Here he arranged <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">his Indians</persName></rs> in line, a
+               hundred yards or so apart, but within speaking distance, and had them move slowly
+               forward, painstakingly combing every inch of <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName>
+               </rs>. Late in the morning they came upon a hut made of whale ribs and brush, near
+               which they found a basket of feathers. <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> ordered <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">the Indians</persName></rs> to scatter the
+               feathers and temporarily abandoned the search. Later the same day, upon revisiting
+               the hut, they found that the feathers had been replaced in the basket, but still no
+               woman was in sight.</p>
+            <p>The next day when the search was renewed, <rs><persName type="frontiersman"
+                     key="#cdi">Brown</persName></rs> caught sight of a figure struggling up the
+               hill toward the hut and bearing a heavy load. By the time <rs><persName
+                     type="frontiersman" key="#cdi">Brown</persName></rs> and <rs><persName
+                     type="group" key="#cook; #msh; #poli; #nsk; #hva">the Indians</persName></rs>
+               reached the hut, <rs><persName type="nativeamerican" key="#lw">the Indian
+                     woman</persName></rs> was sitting skinning a sea lion, guarded by her dog who
+               growled menacingly as <rs><persName type="frontiersman" key="#cdi"
+                  >Brown</persName></rs> and <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">the Indians</persName></rs> approached.
+                  <span type="trope" n="1">She rose as <rs><persName type="frontiersman" key="#cdi"
+                        >Brown</persName></rs> drew close, and bowed toward him. When <rs><persName
+                        type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                     Indians</persName></rs> reached the hut, and saw her, they all knelt. Upon
+                  seeing people of er own race, she came toward them and offered them food.</span>
+               <span type="trope" n="10">She indicated by signs&#8212;none of <rs><persName
+                        type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                     Indians</persName></rs> could understand her language&#8212;that she would have
+                  come to them, even if they had not first found her. <rs><persName
+                        type="frontiersman" key="#cdi">Brown</persName></rs> and <rs><persName
+                        type="group" key="#gni; #col; #cook; #msh; #poli; #nsk; #hva">his
+                        party</persName></rs> spent the following month on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> and gradually learned
+                  from <rs><persName type="nativeamerican" key="#lw">the lone woman</persName></rs>
+                  how she had lived alone <rs><date notBefore="1835" notAfter="1853">eighteen
+                        years</date></rs> by catching fish, abalones, and sea urchins which were
+                  plentiful along <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> shore. She showed them how she occasionally crept up on
+                  a sleeping sea lion and killed it with a heavy rock.</span></p>
+            <p>On the way back to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, the
+               weather was bad and the sea rough and she was much frightened. <span type="trope"
+                  n="10">She begged the sailors to placate the wind or sea gods, or so they
+                  interpreted her signs.</span> She recognized all <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> and had names for them. Upon landing
+               at <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, she was terrified
+               at her first sight of horses and cattle and doubtless much impressed with
+                     <rs><placeName type="city" key="#ci_sb">the city</placeName></rs> itself. In
+               all likelihood she was born on <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> and had never been away before.</p>
+            <p>After her arrival on <placeName type="region" key="#re_mld">the mainland</placeName>,
+               she was cared for by <persName type="frontiersman" key="#gni">Captain
+                  Nidever</persName> and quickly adapted herself to the strange ways of the people
+               in whose midst she found herself. She became a favorite in the community and spent
+               much of her time visiting the various Mexican families and dancing for them.
+                     <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">The padres at
+                     Mission Santa Barbara</persName></rs> christened her Juana Maria, to which the
+               townspeople added <name type="ship" key="#sh_peoresnada">Peor es Nada</name> in
+               memory of <rs><name type="ship" key="#sh_peoresnada">the little schooner</name></rs>
+               that had brought <persName type="group" key="#bhagroup">her relatives</persName> to
+                  <placeName type="region" key="#re_mld">the mainland</placeName> years earlier.
+               Although <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the padres
+                     at the Mission</persName></rs> had Indians from all over <placeName
+                  type="region" key="#re_socal">southern California</placeName> brought to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, none could speak
+               her language. Only <rs><persName type="nativeamerican" key="#natamwoman1">one very
+                     old woman</persName></rs> was even able to understand any of her words.
+                     <rs><persName type="nativeamerican" key="#lw">Juana Maria Peor es
+                     Nada</persName></rs> was therefore forced to make all her desires known by
+               means of sign language.</p>
+            <p>After only six weeks in <placeName type="city" key="#ci_sb">Santa
+               Barbara</placeName>, she sickened and died, most probably because of the great change
+               in diet. She was about 45 years old at the time. It is reasonably certain, however,
+               that her last days in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               were happy ones because <persName type="frontiersman" key="#gni">Captain
+                  Nidever</persName> did his best to see that she was comfortable and not in need.
+                  <span type="trope" n="6">With her passing went the last member of a once numerous
+                  and prosperous people.</span></p>
+            <p>For some years after the departure of <rs><placeName type="nativeamerican" key="#lw"
+                     >the Lone Woman</placeName></rs>, <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> had no inhabitants save the foxes, mice, lizards and the more
+               or less itinerant birds. <rs><date notBefore="1860">Sometime after 1860</date></rs>,
+               sheep were brought to <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> and gazed by a succession of solitary herders, many of
+               whom were Basques. As is so often the case, the efficient sheep ate the short island
+               grass faster than it could grow, and large tracts of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> formerly protected by grass and
+               chaparral were laid bare to the savage attack of wind and rain. About <date
+                  when="1940">1940</date>, when <rs><orgName type="military" key="#mi_navy">the
+                     military</orgName></rs> removed the last of the herders and most of the sheep,
+               many deep gullies and barren tracts of sand dunes had spread over areas formerly
+               covered by short, thick island grass. Thousands of bleached, empty snail shells cover
+               the drifting sand where vegetation once flourished. In recent years, with no sheep to
+               interfere, the grass is gradually creeping back over the bare spots and loose
+               sand.</p>
+            <p>Surprisingly enough, even <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> did not escape the wild enthusiasm associated with the land
+               boom of <rs><date notBefore="1880" notAfter="1889-12-31">the 1880's</date></rs> in
+                  <placeName type="region" key="#re_socal">southern California</placeName>. In <date
+                  when="1886">1886</date>, an unusually optimistic real estate promoter divided
+                     <rs><placeName type="island" key="#i_sn">the entire island</placeName></rs>
+               into lots. It is not known whether any of there were sold, but if they were, we have
+               no record of any owners coming to claim their share of <rs><placeName type="island"
+                     key="#i_sn">California's desert island</placeName></rs>.</p>
+            <p>Today, <placeName type="island" key="#i_sn">San Nicolas</placeName> is a Naval
+               reservation and is closed to the public. <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">The Indians</orgName></rs> and their dogs are gone;
+               the sheep herders and their sheep are gone&#8212;only the descendants of the foxes,
+               lizards and mice are there to form a living link with the past.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

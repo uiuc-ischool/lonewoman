@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#nydtribune">New York
+                            Daily Tribune</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">53</biblScope>
+                    <biblScope unit="issue">17,048</biblScope>
+                    <date when="1893-07-19"/>
+                    <pubPlace><placeName type="city" key="#ci_nyc">New York</placeName><placeName
+                            type="state" key="#st_ny">New York</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#NewYorkDailyTribune1893">"Personal." </title>
+                        <biblScope unit="page" n="6"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><emph>PERSONAL.</emph></title>
+                </head>
+                <p><persName key="#ccly">Colonel J. Colton Lynes</persName>, of the <orgName
+                        type="institution" key="#in_asg">Agricultural College of South
+                        Georgia</orgName>, who is now seeking to obtain some consular or diplomatic
+                    appointment, has already had considerable experience abroad as translator and
+                    bookkeeper of the <orgName type="government" key="#gov_usleg">United States
+                        Legation</orgName> at <placeName type="city" key="#ci_paris"
+                        >Paris</placeName>. All the correspondence between <persName key="#bismarck"
+                        >Bismarck</persName>, <persName key="#washburne">Washburne</persName> and
+                        <persName key="#thiers">Thiers</persName> was translated by <persName
+                        key="#ccly">Colonel Lynes</persName> and transcribed into a volume now in
+                    the archives in <placeName type="city" key="#ci_dc">Washington</placeName>.</p>
+                <p><persName key="#vlp">Mr. Van Leer Polk</persName>, of <placeName type="city"
+                        key="#ci_nash">Nashville, Tenn.</placeName>, who will soon sail for
+                        <placeName type="city" key="#ci_cal">Calcutta</placeName>, where he will
+                    represent the <orgName type="government" key="#gov_usa">United States
+                        Government</orgName> as Consul-General, says that he means to give up his
+                    home style of dress and drink, and to live like the natives. He thinks this is
+                    the secret of escaping cholera and other diseases in foreign lands.</p>
+                <p><persName key="#cluth">Carl Luther</persName>, a counsellor in the <orgName
+                        type="government" key="#gov_gml">German Ministry of Labor</orgName>, who
+                    died a few days ago in <placeName type="city" key="#ci_scho"
+                        >Schoenebeck</placeName>, <placeName type="country" key="#co_ger"
+                        >Germany</placeName>, was a direct descendant of <persName key="#jluth"
+                        >Jacob Luther</persName>, the youngest brother of <persName key="#mluth"
+                        >Martin Luther</persName>. His father, <persName key="#aluth">August
+                        Christian Valentin Gottleib Luther</persName>, bore a striking resemblance
+                    to <rs><persName key="#mluth">the great leader of the
+                        Reformation</persName></rs> in <placeName type="country" key="#co_ger"
+                        >Germany</placeName>. A <persName key="#luthbrother">young
+                        brother</persName> of <rs><persName key="#cluth">the dead
+                        man</persName></rs> was killed in the battle of <placeName type="city"
+                        key="#ci_privat">St. Privat</placeName>. Direct descendants of <persName
+                        key="#mluth">Martin Luther</persName>, through his son, <persName
+                        key="#pluth">Dr. Paul Luther</persName>, body physician of the Elector of
+                        <placeName type="city" key="#ci_sax">Saxony</placeName>, still live in
+                        <placeName type="country" key="#co_ger">Germany</placeName>. Among them is
+                        <persName key="#pluth1">Deacon Paul Luther</persName>, of <placeName
+                        type="city" key="#ci_krem">Kremmen</placeName>. The family in each
+                    generation has usually had several members in the church. A number of the female
+                    descendants of the reformer have married into the families of the nobility.</p>
+                <p>The <persName key="#dfb">Rev. D. F. Bradley</persName>, pastor of the <orgName
+                        type="church" key="#ch_pcc">Park Congregational Church</orgName> of
+                        <placeName type="city" key="#ci_gr">Grand Rapids, Mich.</placeName>, was
+                    born at <placeName type="city" key="#ci_bk">Bangkok, Siam</placeName>, in <date
+                        when="18557">1857</date>, of missionary parents. He remained in <placeName
+                        type="country" key="#co_th">Siam</placeName> until <date when="1877"
+                        >1877</date>, acquiring among other things, a knowledge of the Siamese
+                    language. He is a graduate of <orgName type="institution" key="#in_obc">Oberlin
+                        College</orgName>, <placeName type="state" key="#st_oh"
+                    >Ohio</placeName>.</p>
+                <p><orgName key="#vap">The Virginia press</orgName> is urgently recommending the
+                    appointment of <persName key="#jwd">Senator John W. Daniel</persName>, of
+                            <rs><placeName type="state" key="#st_va">that State</placeName></rs>, to
+                    succeed <persName key="#blatch">Justice Blatchford</persName> on the Supreme
+                    Bench. <persName key="#jwd">Senator Daniel</persName> is a close friend of
+                        <persName key="#dbh">Senator David B. Hill</persName>, and an ardent
+                    advocate of free coinage, neither of which qualifications is likely to be of
+                    much weight with <persName key="#gcl">President Cleveland</persName>.</p>
+                <p><persName type="seaman" key="#ogl">Captain Oscar G. Lenge</persName>, who has
+                    just died at his home in <placeName type="city" key="#ci_chic"
+                        >Chicago</placeName>, was the first Swede to settle in <rs><placeName
+                            type="city" key="#ci_chic">that city</placeName></rs>. He also, in <date
+                        when="18338">1838</date>, opened the first drug store anywhere in that
+                    neighborhood. <persName type="seaman" key="#ogl">Captain Lenge</persName>
+                    obtained his title from his marine experience. He was for a period connected
+                    with the <orgName type="military" key="#mi_navy">United States</orgName> and
+                        <orgName type="military" key="#mi_engnavy">English navies</orgName>, and
+                    subsequently was engaged in the merchant marine service just previous to his
+                    coming to <placeName type="city" key="#ci_chic">Chicago</placeName>.</p>
+                <p><persName type="seaman" key="#mtl">Captain Milton T. Russel</persName>, of
+                        <placeName type="city" key="#ci_dm">Des Moines, Iowa</placeName>, has just
+                    published the reminiscences of his prison life in and escape from <placeName
+                        key="#libby">Libby Prison</placeName> during the war. He was captain of
+                        <orgName type="military" key="#mi_51ia">Company A, Fifty-first Indiana
+                        Infantry</orgName>, and was captured with Colonel Streight's command, near
+                        <placeName type="city" key="#ci_rga">Rome, Ga.</placeName>, during that
+                    fearless and famous raid into the heart of the Southern Confederacy.</p>
+                <p><span type="trope" n="8">A recent earthquake at <placeName type="island"
+                            key="#i_sn">San Nicholas Island</placeName>, near <placeName type="city"
+                            key="#ci_sb">Santa Barbara, Cal.</placeName>, has revived interest in
+                        the story of <rs><persName type="nativeamerican" key="#lw">the old Indian
+                                woman</persName></rs> who led a <name type="fictional" key="#rcr"
+                            >Crusoe</name> life on <rs><placeName type="island" key="#i_sn">the
+                                island</placeName></rs> for <rs><date notBefore="1835"
+                                notAfter="1853">many years</date></rs>.</span> She was left there by
+                    accident in <date when="1836">1836</date>, and her existence forgotten until
+                            <rs><date when="1855">twenty years later</date></rs>, when <rs><persName
+                            type="frontiersman" key="#gni">a Santa Barbara hunter</persName></rs>,
+                    who had visited <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for otters, found her there and brought her to
+                        <placeName type="region" key="#re_mld">the mainland</placeName>. <span
+                        type="trope" n="14">She had entirely forgotten her language, and in
+                        consequence the story of her hermitage was never known.</span> Three months
+                    after her rescue she died, and was buried by the <rs><persName type="group"
+                            key="#jru; #aji; #sanchez; #misfats">mission
+                    fathers</persName></rs>.</p>
+                <p><persName key="#meara">Mr. Henry O'Meara</persName>, of <placeName type="city"
+                        key="#ci_bo">Boston</placeName>, who was the poet at the recent dedication
+                    of the <persName key="#farragut">Farragut</persName> statue in <rs><placeName
+                            type="city" key="#ci_bo">that city</placeName></rs>, has been invited to
+                    contribute a hymn for the parliament of religions to be held at the World's
+                    Fair.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

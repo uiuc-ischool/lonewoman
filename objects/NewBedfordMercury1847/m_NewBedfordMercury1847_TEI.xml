@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#newbedfordmercury"
+                     >New-Bedford Mercury</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">40,</biblScope>
+               <biblScope unit="issue">4</biblScope>
+               <date when="1847-01-15"/>
+               <pubPlace><placeName type="city" key="#ci_bedford">Boston</placeName>, <placeName
+                     type="state" key="#st_ma">Massachusetts</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#NewBedfordMercury1847">A Female Crusoe</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#dne"> </persName>
+                  </author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A Female
+                        Crusoe</persName></rs>.</title></head>
+            <byline>&#8212;A correspondent of the <title type="article" key="#TheBostonAtlas1847"
+                  >the Boston Atlas</title> has furnished the following narrative:&#8212;</byline>
+            <p>Off the coast of <placeName type="region" key="#re_upcal">Alta
+               California</placeName>, about two degrees distant, bearing nearly west from
+                  <placeName type="region" key="#re_pointsp">Point San Pedro</placeName>, which is
+               in the latitude of 33 43 N. and longitude 118 14 W., will be found a small island,
+               called by the Spaniards <rs><placeName type="island" key="#i_sn">Saint
+                     Nicholas</placeName></rs>. <span type="trope" n="15"><span type="trope" n="3"
+                           ><rs><placeName type="island" key="#i_sn">This island</placeName></rs>
+                     was formerly inhabited by <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">an inoffensive, indolent race of
+                           Indians</orgName></rs>, who subsisted almost entirely upon fish, which
+                     they caught from the rocks and muscles, which they found in the sands of the
+                     beach. They were <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">a listless, quiet race of
+                        beings</orgName></rs>, who seldom had communication with others of the human
+                     family, and who had but few wants, and fewer cares.</span></span></p>
+            <p>About the year <date when="1818">eighteen hundred and eighteen</date> or <date
+                  when="1820">twenty</date>, <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">the
+                     Russians</persName></rs>, form <rs><placeName type="state" key="#re_russam"
+                     >their settlements at the North</placeName></rs>, landed on <rs><placeName
+                     type="island" key="#i_sn">this Island</placeName></rs> a party of <orgName
+                  type="nativeamericantribes" key="#natam_kodiak">Kodiac Indians</orgName>, for the
+               purpose of hunting the sea otter, which, at that period, abounded in those waters.
+               This party remained on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> for more than two years, and were the means of sowing
+               the seeds of disease and contention amongst its <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">unsuspecting and
+                     unsophisticated inhabitants</orgName></rs>.</p>
+            <p>Some ten or twelve years after the departure of <orgName type="nativeamericantribes"
+                  key="#natam_kodiak">the Kodiacs</orgName>, <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">this
+                  tribe</orgName></rs> had become diminished to about twenty or thirty individuals,
+               when <rs><persName key="#ppi">the Governor</persName></rs> of the <orgName
+                  type="government" key="#gov_dptcalifornia"> department of California</orgName>
+               sent over <rs><name type="ship" key="#sh_peoresnada">a small vessel</name></rs> and
+               removed them to <placeName type="region" key="#re_mld">the main</placeName>.</p>
+            <p>In the last boat, which was embarking with the last of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">this
+                  people</orgName></rs>, (some six or eight perhaps in number) to convey them to
+                     <rs><name type="ship" key="#sh_peoresnada">the vessel</name></rs>, which was to
+               carry them from <rs><placeName type="island" key="#i_sn">the home of their
+                     nativity</placeName></rs> forever, was <rs><persName type="nativeamerican"
+                     key="#lwhusband">one of the tribe</persName></rs>, small in stature, not far
+               advanced in years, and <rs><persName type="nativeamerican" key="#lw">his dusky
+                     mate</persName></rs>, then in the bloom of life.<span type="trope" n="9"> The
+                  order had been given to shove from the shore; the oars had dipped in the wave,
+                        <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> was rising
+                  on the foaming surf when, with the impulse of the moment as it were, <rs><persName
+                        type="nativeamerican" key="#lw">this young and blooming bride of the red
+                        man</persName></rs>, the imprints of whose footstep had been the last left
+                  on the sands of <rs><placeName type="island" key="#i_sn">her island
+                        home</placeName></rs>, waved an adieu to <rs><persName type="nativeamerican"
+                        key="#lwhusband">her chosen mate</persName></rs>, plunged into the abyss,
+                  "strove through the surge," and, in another moment, stood alone on the shores of
+                        <rs><placeName type="island" key="#i_sn">her native
+                  land</placeName></rs>.</span> She turned to give the last lingering look to
+                     <rs><persName type="nativeamerican" key="#lwhusband">her departing
+                     help-mate</persName></rs>; and then, gathering around her form the flowing
+               mantle, wet by the ocean wave, in an instant disappeared forever from the sight of
+               her astonished and sorrowing companions.</p>
+            <p><rs><name type="ship" key="#sh_peoresnada">The vessel</name></rs> weighed anchor,
+               spread her canvass [sic]; and, in forty-eight hours, <rs><persName type="group"
+                     key="#bhagroup">this remnant of the inhabitants of San Nicholas</persName></rs>
+               were landed on <placeName type="region" key="#re_pointsp">Point San
+               Pedro</placeName>, houseless and forlorn.</p>
+            <p><span type="trope" n="1"><span type="trope" n="8">From that period to the
+                     present&#8212;if she be not dead, or has not left within the past eighteen
+                     months&#8212;has resided alone, on the <placeName type="island" key="#i_sn"
+                        >Isle of San Nicholas</placeName>, <rs><persName type="nativeamerican"
+                           key="#lw">this female Crusoe</persName></rs>, the monarch of all she
+                     surveys.</span>
+                  <span type="trope" n="3">She preferred to part even with <rs><persName
+                           type="nativeamerican" key="#lwhusband">her chosen mate</persName></rs>,
+                     and sever every human tie that could be binding, rather than leave
+                           <rs><placeName type="island" key="#i_sn">the home of her
+                           birth</placeName></rs>&#8212;that lonely little Isle, that had been to
+                     her a world, which she cared not to exchange for the abode of civilized man,
+                     with all its promised luxuries.</span></span></p>
+            <p><span type="trope" n="8"><span type="trope" n="1">Since <rs><persName
+                           type="nativeamerican" key="#lw">our Crusoe</persName></rs> became the
+                     sole monarch of <rs><placeName type="island" key="#i_sn">the
+                        Isle</placeName></rs>, <placeName type="island" key="#i_sn">San
+                        Nicholas</placeName> has been visited perhaps ten or twelve different times,
+                     by different individuals; but there she has continued to be found, with none to
+                     dispute her right&#8212;alone, solitary and forsaken.</span></span></p>
+            <p><span type="trope" n="1">Her dress, or covering, is composed of the skins of small
+                  birds, which she kills with stones, and sews them together with a needle of bone
+                  and the light sinews of the hair seal, sometimes found dead amongst the rocks. Her
+                  only food is a shell fish, of the muscle species, with now and then a still
+                  smaller fish, which the surf sometimes throws on to the beach. She never remains
+                  long in one spot; but is constantly wandering around the shores of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, sleeping, which she
+                  seldom does in small caves and crevices in the rock.</span></p>
+            <p><span type="trope" n="14">During the few last years it has been very difficult to
+                  obtain any communication with her. At the approach of the white man she flees, as
+                  from an evil spirit; and the only way to detain her is by running her down, as you
+                  would the wild goat of the mountain, or the young fawn of the plains.</span></p>
+            <p><span type="trope" n="14">Those who have seen her at the latest period, report that
+                  she appears to have lost all knowledge of language; that she makes only a wild
+                  noise, altogether inhuman; and, when taken and detained against her will, becomes
+                  frightened and restless; that the moment she is liberated, she darts off, and
+                  endeavors to secrete [secret] herself in the wild grass, or amongst the rocks
+                  which hang over the never ceasing surf.</span></p>
+            <p><span type="trope" n="14">Every endeavor has been made, and every inducement offered,
+                  by different individuals, to prevail upon her to leave <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, but in vain. The only
+                  home she appears to desire, is <rs><placeName type="island" key="#i_sn">her own
+                        little isle</placeName></rs>. Her last hope, if she has any, is, to finish
+                  her journey alone. She has no wish now, to hear again the sweet music of speech.
+                  Its sounds are no longer music in her ear&#8212;and, as for civilized man, his
+                  tameness is shocking even to her dormant senses.</span></p>
+            <p>To all appearance, she is strong, healthy, and content to be alone. What can
+               reconcile her to her lot, who can conjecture? Humanity may hope that contentment may
+               continue to be hers, to the last hour; for she is destined to lie down and die alone,
+               on the cold shore of <rs><placeName type="island" key="#i_sn">her isolated
+                     home</placeName></rs>, with no one to administer to her last wants, and none to
+               cover her cold body, when the spirit shall have left the clay.</p>
+            <p><span type="trope" n="8">But the story of <rs><persName type="nativeamerican"
+                        key="#lwhusband">our Crusoe's chosen mate</persName></rs>, the companion of
+                  her early life, has yet to be told.</span> He saw her for the last time, as we
+               have stated, when she stood alone on the shores of <rs><placeName type="island"
+                     key="#i_sn">her own Isle</placeName></rs>; when the boat with himself and his
+               companions was dashing through the wild surf, that broke in uninterrupted succession
+               upon the rocks which encircled <rs><placeName type="island" key="#i_sn">the resting
+                     place of his fathers</placeName></rs>, and which he was then leaving forever.
+               With the <rs><persName type="group" key="#bhagroup">remnant of the family from San
+                     Nicholas</persName></rs>, <rs><persName type="nativeamerican" key="#lwhusband"
+                     >our hero</persName></rs> was landed at <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName>, and there left, with the others who had accompanied him, to
+               find a home in that land of strangers.</p>
+            <p><placeName type="city" key="#ci_sp">San Pedro</placeName>, it may be known, is a
+               bleak, barren, bluff point, running out into the blue waters of the Pacific, on which
+               no verdure is to be seen, and but one solitary abode of man, rising amidst the
+               desolation which surrounds it. The <placeName type="city" key="#ci_la">Pueblo de los
+                  Angelos</placeName> is situated ten leagues distant with one farm house between
+               the one on the point and those of <rs><placeName type="city" key="#ci_sp">the
+                     town</placeName></rs>. The <placeName type="mission" key="#mi_sg">mission of
+                  San Gabriel</placeName> lies yet farther on, some three or four leagues; where, at
+               that time, might be found, perhaps three or four hundred converted Indians.</p>
+            <p>But <rs><persName type="nativeamerican" key="#lwhusband">our hero</persName></rs>, as
+               he may be called, never left the beach on which he was first landed. Alone and
+               friendless, there he remained, an isolated being, till life ceased to animate his
+               frame. True it is, that several times he was induced, and once or twice forced, to
+               venture as far as <placeName type="city" key="#ci_la">the Pueblo</placeName> and even
+               the <placeName type="mission" key="#mi_sg">mission of San Gabriel</placeName>; but he
+               always, as soon as at liberty, returned and resumed his old station on the beach, or
+               fixed himself on the rocks which hung around <rs><placeName type="region"
+                     key="#re_pointsp">the Point</placeName></rs>. And there he might always be
+               seen, a solitary outcast, as it were, and more constantly when the sun was going
+               down, with his eyes gazing on that celestial orb as it sank into the western horizon,
+               a direction which he well knew pointed to <rs><placeName type="island" key="#i_sn"
+                     >the lost but never forgotten home of his nativity</placeName></rs>.</p>
+            <p>With difficulty he sustained the wants of nature by fishing about the rocks,
+               gathering muscles, and sometimes receiving a scanty pittance of corn from the house
+               on <rs><placeName type="region" key="#re_pointsp">the Point</placeName></rs>, or a
+               few pence from a passing stranger.</p>
+            <p>He studiously avoided, as far as possible, all intercourse with his fellow men, and
+               sought to live and die in solitude; and so did he continue to live a life which
+               manifestly appeared a burthen to him, till one morning, as the sun rose, not two
+               years past, his body was found upon the beach a stiffened corpse stretched out, and
+               bleaching, as it were, in the white foam on the surf, which was thrown about his
+               lifeless remains as the mighty wave broke on the shore.</p>
+            <p>It is presumed his death was accidental&#8212;that whilst searching for shell fish,
+               in the night, [amongst the cliffs, he must have fallen from an eminence,] and thus
+               [terminated his solitary existence.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
