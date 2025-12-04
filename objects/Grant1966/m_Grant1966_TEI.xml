@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper">The Rock Paintings of the Chumash: A Study of California
+                  Indian Culture</title>
+               <publisher>University of California Press</publisher>
+               <date when="1966"/>
+               <pubPlace><placeName type="city" key="#ci_berk">Berkeley</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Grant1966">Appendix A: San Nicolas Island</title>
+                  <biblScope unit="page" from="129" to="132"/>
+                  <author><persName type="author" key="#cgr">Grant, Campbell</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="appendix">
+            <head><title type="main">APPENDIX A</title>
+               <title type="sub"><placeName type="island" key="#i_sn">San Nicolás
+                  Island</placeName></title></head>
+            <p>South and southeast of the <placeName type="island" key="#i_northernchi">Santa
+                  Barbara Channel Islands</placeName> are four more islands. The three largest are
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>, <placeName
+                  type="island" key="#i_scl">San Clemente</placeName>, and <placeName type="island"
+                  key="#i_sn">San Nicolás</placeName>, all of which had permanent settlements. The
+               smallest, <placeName type="island" key="#i_sb">Santa Barbara Island</placeName>, was
+               used intermittently, probably as a fishing camp. All of these islands were in the
+               territory of the Shoshonean-speaking <orgName type="nativeamericantribes"
+                  key="#natam_GabrilenoTongva">Gabrieliño</orgName>. <placeName type="island"
+                  key="#i_sn">San Nicolás</placeName> lies about 65 miles from the nearest shore and
+               has been a source of very fine artifacts, perhaps the finest that have been taken
+               from the Chumash-Gabrieliño region.</p>
+            <p><span type="trope" n="8">All we know of the culture of the historic <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">San Nicolás
+                        islanders</orgName></rs> comes from the accounts of <rs><persName
+                        type="nativeamerican" key="#lw">the lost woman of San
+                     Nicolás</persName></rs>, a Crusoe-like tale of <rs><persName
+                        type="nativeamerican" key="#lw">an Indian woman</persName></rs>, abandoned
+                  for <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                     years</date></rs> on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs></span>. As the story includes the only detailed
+               eye-witness account of the way of life of a Channel Island Indian, it is worth
+               retelling.</p>
+            <p>In <date when="1811">1811</date>, <rs><name type="ship" key="#sh_charon">a Boston
+                     trading vessel </name></rs> took a party of <orgName
+                  type="nativeamericantribes" key="#natam_kodiak">Kodiak Indians</orgName> from
+                  <placeName type="city" key="#ci_si">Sitka</placeName> in <rs><placeName
+                     type="state" key="#re_russam">Russian America</placeName></rs> to <placeName
+                  type="island" key="#i_sn">San Nicolás</placeName> to hunt otter. They were left on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for a
+               period of months while <rs><name type="ship" key="#sh_charon">the ship</name></rs>
+               went south to <placeName type="region" key="#re_baja">Baja California</placeName>.
+               There was fighting with <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the native islanders</orgName></rs> over the women,
+               and many men were killed by <rs><orgName type="nativeamericantribes"
+                     key="#natam_kodiak">the Kodiaks</orgName></rs>. When the otter hunters were
+               picked up by <rs><name type="ship" key="#sh_charon">their ship</name></rs>, all
+               contact with <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was
+               broken for twenty-four years.</p>
+            <p>In <date when="1835">1835</date>, a schooner with the unhappy name of <emph><name
+                     type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> (<rs><name
+                     type="ship" key="#sh_peoresnada">"Worse Than Nothing"</name></rs>) sailed from
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> on an otter hunt in
+                  <placeName type="region" key="#re_baja">Baja California</placeName>. Aboard was a
+               trapper from the <placeName type="region" key="#re_rockies">Rocky
+                  Mountains</placeName> named <persName type="frontiersman" key="#bwi">Bill
+                  Williams</persName>.<hi rend="super">1</hi><note n="1" place="bottom">
+                  <p>
+                     <hi rend="super">1</hi> There is a possibility this may have been the almost
+                     legendary mountain man, <persName type="frontiersman" key="#bwi">Bill
+                        Williams</persName>. In <date when="1833">1833</date>
+                     <persName type="frontiersman" key="#jwa">Joseph Reddeford Walker</persName> was
+                     sent by <persName key="#bbo">Captain Bonneville</persName> to explore the
+                     country to the west of <placeName type="region" key="#re_greatsaltlake">the
+                        Great Salt Lake</placeName>. With him went a party of over forty seasoned
+                     trappers including <persName type="fronterisman" key="#ago">Alexis
+                        Godey</persName>, <persName type="frontiersman" key="#bwi">Bill
+                        Williams</persName>, <persName type="frontiersman" key="#zle">Zenas
+                        Leonard</persName>, <persName type="frontiersman" key="#gni">George
+                        Nidever</persName>, and <persName type="frontiersman" key="#jme">Joe
+                        Meek</persName>. <rs><persName type="group" key="#walkerparty">The
+                           party</persName></rs> reached <placeName type="region" key="#re_local"
+                        >California</placeName>, discovering the <placeName type="region"
+                        key="#re_yosemitevalley">Yosemite Valley</placeName> on the way, and
+                     wintered at <placeName type="city" key="#ci_mo">Monterey</placeName>. Most of
+                     these men returned to <placeName type="region" key="#re_rockies">the
+                        Rockies</placeName> but several, including <persName type="frontiersman"
+                        key="#gni">Nidever</persName>, stayed in <placeName type="region"
+                        key="#re_local">California</placeName>. It is known that <persName
+                        type="frontiersman" key="#bwi">Williams</persName> and others returned to
+                        <placeName type="region" key="#re_local">California</placeName> on a number
+                     of occasions, attracted by the case of horse stealing from the big ranchos and
+                           <rs><orgName type="missions" key="#mi_mainlandmissions"
+                           >missions</orgName></rs>. In writing of the <persName type="frontiersman"
+                        key="#bwi">Bill Williams</persName> who went with the <emph><name
+                           type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> to <placeName
+                        type="island" key="#i_sn">San Nicolás</placeName>, <persName
+                        type="frontiersman" key="#gni">Nidever</persName> wrote, '"I remember
+                     distinctly . . . a man named <persName type="frontiersman" key="#bwi"
+                        >Williams</persName>, a former acquaintance of mine in <placeName
+                        type="region" key="#re_rockies">the Rocky Mountains</placeName>. . . .
+                        <persName type="frontiersman" key="#bwi">Williams</persName> of the
+                        <placeName key="#cranch">Chino Ranch</placeName> in <placeName type="county"
+                        key="#co_la">Los Angeles County</placeName>, and who was with me in
+                           <rs><placeName type="region" key="#re_rockies">the Mts.</placeName></rs>,
+                     he with <persName type="frontiersman" key="#rbe">Col. Bean</persName> having
+                     shown the white feather in our first engagement with the Indians on the
+                        <placeName type="region" key="#re_arkriver">Ark. River</placeName>. He
+                     afterwards took <rs><persName type="nativeamerican" key="#Nicolenowoman1">one
+                           of the Indian women</persName></rs> [from <placeName type="island"
+                        key="#i_sn">San Nicolás</placeName>] to live with."</p>
+               </note> Three months later the crew put in at <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName> and were given a special job by <rs><orgName
+                     type="missionfathers" key="#misfats">the local missionaries</orgName></rs>.
+                     <rs><orgName type="missionfathers" key="#misfats">The
+                  Franciscans</orgName></rs> were scraping the bottom of the heathen barrel, and
+                     <rs><orgName type="church" key="#ch_catholic">the church</orgName></rs> decided
+               to remove the remnants of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the San Nicolás islanders</orgName></rs> to
+                  <placeName type="region" key="#re_mld">the mainland</placeName>. The <emph><name
+                     type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> sailed for
+                  <placeName type="island" key="#i_sn">San Nicolás</placeName> with instructions to
+               round up all <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs> and bring them back to <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName>.</p>
+            <p>This turned out to be a simple enough job. Between the <orgName
+                  type="nativeamericantribes" key="#natam_kodiak">Kodiak</orgName> massacre and the
+               diseases left by otter hunters, there were only <persName type="group"
+                  key="#bhagroup">eighteen Indians</persName> left. One, <rs><persName
+                     type="nativeamerican" key="#lw">a young woman</persName></rs>, was left behind
+               because she had gone looking for <rs><persName type="nativeamerican" key="#lwchild"
+                     >her child</persName></rs>. Due to the stormy weather, <rs><name type="ship"
+                     key="#sh_peoresnada">the schooner</name></rs> could not wait for her and sailed
+               for <placeName type="region" key="#re_mld">the mainland</placeName>. <persName
+                  type="group" key="#bhagroup">The "rescued" Indians</persName> were sent to
+                  <placeName type="city" key="#ci_la">Los Angeles</placeName> and <placeName
+                  type="mission" key="#mi_sg">Mission San Gabriel</placeName>. It was the intention
+               to send <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> back to pick
+               up <rs><persName type="nativeamerican" key="#lw">the missing woman</persName></rs>,
+               but the <emph><name type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> was
+               sunk soon after, and no attempt was made to look for her until <date when="1850"
+                  >1850</date>. <rs><date when="1850">That year</date></rs> a search was made on
+                  <placeName type="island" key="#i_sn">San Nicolás</placeName> for <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs>. No trace of her was
+               found and all thought of further search was abandoned. In <date when="1852"
+                  >1852</date>, <persName type="frontiersman" key="#gni">George Nidever</persName>,
+               a fur trapper who had come to <placeName type="region" key="#re_local"
+                  >California</placeName> with the famous <persName type="fronterisman" key="#jwa"
+                  >Walker</persName> exploration party in <date when="1833">1833</date>, sailed to
+                  <placeName type="island" key="#i_sn">San Nicolás</placeName> with an <rs><orgName
+                     type="nativeamericantribes" key="#natam_Chumash">Indian</orgName></rs> crew to
+               look for sea-gull eggs, which were in great demand locally. They saw fresh footprints
+               near some brush huts but before they could carry out a search, one of the savage
+               northwesters hit them. After eight days of storm, they sailed for <placeName
+                  type="region" key="#re_mld">the mainland</placeName> and reported signs of
+                     <rs><persName type="nativeamerican" key="#lw">the missing
+                  Indian</persName></rs>.</p>
+            <p>The following winter, <persName type="frontiersman" key="#gni">Nidever</persName>
+               returned to <placeName type="island" key="#i_sn">San Nicolás</placeName> to hunt
+               otter. He had instructions from <persName type="missionfather" key="#jru">Father
+                  Gonzales</persName> to make every effort to find <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs>. Soon after landing,
+               they again saw fresh footprints in the sand and numbers of wild dogs. In a bush, they
+               found a basket, covered with a piece of seal skin. In the basket were several bird
+               skins, cut square, a long twisted sinew rope and some bone needles. They spread the
+               contents around on the ground with the intention of seeing if they were replaced at a
+               later visit. Again a storm came up and they returned to <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>.</p>
+            <p>The next spring, <persName type="frontiersman" key="#gni">Nidever</persName> sailed
+               for <placeName type="island" key="#i_sn">San Nicolás</placeName>, prepared to stay
+               several months. They found a good spring near the western end of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> with human footprints
+               around it. They relocated the basket and found that it had been refilled with its
+               contents and hung on a bush. By following the footprints, <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> was seen near some
+               huts made of whale ribs and brush. She was stripping blubber from a piece of sealskin
+               as she watched the hunters closing in on her. She showed no sign of fear and
+               chattered away at <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                     Chumash crewmen</persName></rs> in an unintelligible language. After a while
+               she roasted some roots on the fire in the shelter and offered them to <rs><persName
+                     type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                     visitors</persName></rs>. Blubber was drying on stakes and suspended from sinew
+               ropes. There were a number of baskets nearby, some in various stages of manufacture,
+               and two bottle-shaped water baskets. Other articles were fishhooks and needles of
+               bone, fishing lines of sinew, and a large rope for snaring sleeping seals.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> was about 50
+               years of age, of medium height and rather stocky. Her dress was made of cormorant
+               skins, sleeveless, tied at the waist with a cord and reaching to the ground. She
+               indicated that during the rainy season she lived in a nearby cave. <persName
+                  type="frontiersman" key="#gni">Nidever</persName>, by sign language, told
+                     <rs><persName type="frontiersman" key="#lw">the woman</persName></rs> they had
+               come to take her away, and she at once packed up her belongings in baskets, including
+               a very ripe seal's head, and followed the men to a spring near shore where her things
+               were left. She was then taken aboard <rs><name type="ship" key="#sh_nidever">the
+                     schooner</name></rs> and given a meal of hardtack and beans, which she ate with
+               relish.</p>
+            <p>The following day, the otter hunters set up a camp near the middle of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> and <rs><persName
+                     type="nativeamerican" key="#lw">the Indian woman</persName></rs> kept the camp
+               supplied with wood and with water, which she carried in her water baskets. <persName
+                  type="frontiersman" key="#gni">Nidever</persName> saw her lining such a water
+               basket one day:</p>
+            <p>She had built a fire and had several small stones about the size of a walnut heating
+               in it. Taking one of the vessels, which was in shape and size very like a demijohn,
+               excepting that the neck and mouth were much longer, she dropped a few or asphaltum
+               within it and as soon as the stones were well heated they were dropped in on top of
+               the asphaltum. They soon melted, when, resting the bottom of the vessel on the
+               ground, she gave a rotary motion with both hands until the interior was completely
+               covered with asphaltum.</p>
+            <p>About a month later <rs><persName type="nativeamerican" key="#lw">the Indian
+                     woman</persName></rs> was brought back to <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName> and lived with the Nidevers. <span type="trope" n="3"
+                  >She was immensely good-humored and spent much time singing and dancing.</span>
+               Many people came to see <rs><persName type="nativeamerican" key="#lw">the famous
+                     "lost woman,"</persName></rs> and attempts were made to understand her language
+               but with no success. The few words that were recorded are <emph>to-co</emph>, a hide;
+                  <emph>na-che</emph>, a man; <emph>te-gua</emph>, the sky; and <emph>pinche</emph>,
+               the body. On the basis of these four words, <persName type="author" key="#akroe"
+                  >Kroeber</persName> stated that <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the San Nicolás islanders</orgName></rs> spoke a
+               Shoshonean dialect.<hi rend="super">2</hi><note n="2" place="bottom"><p>
+                     <hi rend="super">2</hi> Bleak, deserted <placeName type="island" key="#i_sn"
+                        >San Nicolás Island</placeName> is deserted no longer. The <orgName
+                        type="military" key="#mi_navy">U. S. Navy</orgName> has taken over
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                     built a large missile tracking station, doubtless destroying much prehistoric
+                     material in the construction of airfields and elaborate military installations.
+                     The inevitable scrawled and carved names are appearing in the cave of the
+                     killer whales.</p></note></p>
+            <p>The abrupt change of diet from dried seal blubber to the rich and varied <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> foods proved too much for
+                     <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>.
+               She became very weak and, within seven weeks, was dead. <rs><orgName
+                     type="missionfathers" key="#misfats">The Mission padres</orgName></rs> were
+               content, however; she had been baptized <rs><persName type="nativeamerican" key="#lw"
+                     >Juana Maria</persName></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#godsacre"> God's Acre at
+                     Mission Santa Barbara: The History of the Mission Cemetery and Its Famous Dead
+                  </orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1958"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Geiger2008">The Story of Juana María</title>
+                  <biblScope unit="page" n="15" from="18" to="20"/>
+                  <author><persName type="author" key="#gma">Maynard, Geiger</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div>
+               <head><title type="section">IDENTIFICATION OF TOMBS</title></head>
+            </div>
+            <div>
+               <p>[...]</p>
+            </div>
+            <div>
+               <p>46. This is a bronze plaque on the wall of <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the mission</orgName></rs> tower dedicated to
+                        "<rs><persName type="nativeamerican" key="#lw">Juana María</persName></rs>,
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Indian</orgName></rs> Woman Abandoned on <placeName type="island"
+                     key="#i_sn">San Nicolas Island</placeName>
+                  <rs><date notBefore="1835" notAfter="1853">Eighteen Years</date></rs>. Found and
+                  Brought to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> by
+                     <persName type="frontiersman" key="#gni">Capt. George Nidever</persName> in
+                     <date when="1853">1853</date>. <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> Chapter. <orgName type="organization" key="#daughters"
+                     >Daughters of the American Revolution</orgName>. <date when="1928"
+                  >1928</date>." Though buried in <rs><placeName key="#sbmissioncemetary">the
+                        mission cemetery</placeName></rs>, the location of the grave is unknown. The
+                  extraordinary story of her life will be told after we give a description of the
+                  friars' vaults.</p>
+            </div>
+            <div>
+               <p>[...]</p>
+            </div>
+            <div>
+               <figure>
+                  <p><emph>Plaque dedicated to <rs><persName type="nativeamerican" key="#lw">Juana
+                              María</persName></rs>, the woman of <placeName type="island"
+                           key="#i_sn">San Nicolas Island</placeName>.</emph></p>
+               </figure>
+            </div>
+            <div>
+               <p>[...]</p>
+            </div>
+            <div>
+               <head><title type="section">THE STORY OF <persName type="nativeamerican" key="#lw"
+                        >JUANA MARÍA</persName></title></head>
+               <p>In <date when="1835">1835</date>, the <hi rend="underline"><name type="ship"
+                        key="#sh_peoresnada">Peor es Nada</name></hi>, owned by a man named
+                     <persName type="investor" key="#isp">Sparks</persName>, whose captain was
+                     <persName type="seaman" key="#chu">Charles Hubbard</persName>, was engaged in
+                  otter hunting along <placeName type="region" key="#re_calcoast">the California
+                     coast</placeName>. <rs><name type="ship" key="#sh_peoresnada">The
+                     vessel</name></rs> approached <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName>, about twenty-five miles southwest from the coast of
+                     <placeName type="county" key="#co_la">Los Angeles County</placeName>, to remove
+                     <persName type="group" key="#bhagroup">the few remaining Indians</persName>,
+                  less than twenty to <rs><placeName type="region" key="#re_mld">the
+                        mainland</placeName></rs>. The story to follow is related by <persName
+                     type="frontiersman" key="#gni">George Nidever</persName> as he heard it some
+                  years after the event from <persName type="investor" key="#isp">Sparks</persName>
+                  himself and as <persName type="frontiersman" key="#gni">Nidever</persName> in
+                  person became a part of the story in <date when="1853">1853</date>.</p>
+               <p>After <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the sailors</persName></rs> had gathered <persName type="group"
+                     key="#bhagroup">the Indians</persName> on the beach of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, <rs><persName
+                        type="nativeamerican" key="#lw">one of the women</persName></rs> asked to
+                  return to her village for <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs> who had been left behind. She was given permission.
+                  During her absence a strong wind came up, and fearing for the schooner's safety if
+                  they waited longer, <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the men</persName></rs> sailed off without <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> to the harbor of
+                     <placeName type="city" key="#ci_sp">San Pedro</placeName>. They intended to
+                  return to <rs><placeName type="island" key="#i_sn">the island</placeName></rs> but
+                        <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> was needed
+                  for coastal traffic. While going into <placeName type="region" key="#re_sfbay">San
+                     Francisco Bay</placeName>
+                  <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> capsized and
+                  drifted out to sea, the men being saved. The story soon got around that a
+                        <rs><persName type="nativeamerican" key="#lw">lone woman</persName></rs> had
+                  been left on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                  As years passed on, it was judged that she had perished. <rs><date when="1852"
+                        >Seventeen years passed</date></rs> before anything was done to ascertain
+                  her fate.</p>
+               <p>In <date when="1852">1852</date>, <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> and his men went over to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> to hunt seagulls' eggs and
+                  discovered a woman's footprints in the soil. Further evidence that certain
+                  shelters on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                  had been recently visited led to the conclusion that <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> was still probably
+                  alive. When <persName type="missionfather" key="#jru">Fr. González
+                     Rubío</persName> of <orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission Santa Barbara</orgName> heard of this, he asked <persName
+                     type="frontiersman" key="#gni">Nidever</persName> to make all possible attempts
+                  to search for <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs>. A second visit to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> was made by <persName
+                     type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">C.B. Dittman</persName>. Fresh footprints were
+                  found. Moreover on the limb of a bush <rs><persName key="#gni; #cdi">the
+                        men</persName></rs> found a basket of grass covered with a piece of sealskin
+                  which contained such artifacts as bone needles and a long sinew rope. These
+                     <persName type="frontiersman" key="#gni">Nidever</persName> purposely scattered
+                  on the ground, knowing that if he returned there and found the artifacts replaced,
+                  he would be absolutely sure of the presence of a human being on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>. <persName
+                     type="frontiersman" key="#gni">Nidever</persName> returned to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> and remained there during
+                  the winter season. In <date when="1853-07">July of 1853</date>, he set out again
+                  for <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                  accompanied by <persName type="frontiersman" key="#cdi">Dittman</persName> and
+                  four <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">mission
+                        Indians</persName></rs>. More recent footprints were found. The basket he
+                  had displaced with its contents was replaced as he had originally found it. He was
+                  now assured that <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was alive.</p>
+               <p>From near the top of the ridge of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> where he had seen the footprints the day before,
+                     <persName type="frontiersman" key="#cdi">Dittman</persName> scanned a large
+                  section of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                  and in the distance saw a small dark object in motion. He went cautiously towards
+                  it and seen [soon] discerned that it was a human being. On closer approach he saw
+                  that it was <rs><persName type="nativeamerican" key="#lw">the Indian
+                        woman</persName></rs>. He signaled to <rs><persName
+                        key="#gni; #col; #cook; #msh; #poli; #nsk; #hva">the other men of his
+                        company</persName></rs> who were searching elsewhere. As <rs><persName
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> were approaching <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs>, she was found to be stripping a piece
+                  of sealskin. They surrounded her so as to prevent her escape. <rs><persName
+                        type="nativeamerican" key="#lw">The woman</persName></rs> was not in the
+                  least perturbed. She smiled and bowed and jabbered to herself. The <rs><persName
+                        type="group" key="#cook; #msh; #poli; #nsk; #hva">Indians</persName></rs>
+                  with <persName type="frontiersman" key="#cdi">Dittman</persName> did not
+                  understand her. <persName type="frontiersman" key="#gni">Nidever</persName>
+                  finally came upon the scene. <rs><persName type="nativeamerican" key="#lw">The
+                        woman</persName></rs> had not forgotten the social graces: she went to
+                  roasting roots over a fire and invited <rs><persName
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> to eat.</p>
+               <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> had been
+                  found at a place where she could view the greater part of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, where the best
+                  springs were located, and where the best fish and seal were available. She was
+                  about fifty years of age, of medium height, rather thick-set, strong and active.
+                  Her hair was dull brown and matted. She had fashioned a dress from the skin of a
+                  stag [shag?]. This reached nearly down to her feet. She had a spare dress of the
+                  same make in one of her baskets. <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> made signs to her to follow him, and, after gathering her
+                  effects, she complied. She entered the boat and afterwards <rs><name type="ship"
+                        key="#sh_nidever">the schooner</name></rs>. <rs><persName
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The
+                     men</persName></rs> gave her other clothes and she apeared to enjoy her new
+                  food. <rs><persName key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The
+                        men</persName></rs> remained on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for a month or so, engaged in their hunting,
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                  accompanying them, working on baskets and going for food and water.</p>
+               <p><rs><name type="ship" key="#sh_nidever">The ship</name></rs> headed for <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>. <span type="trope" n="3"
+                     >When <rs><persName type="nativeamerican" key="#lw">the Indian
+                        woman</persName></rs> landed on shore and saw an ox-cart and a horse with
+                           <rs><persName key="#riderhorseman; #mrni; #jsh; #ssh">its
+                           rider</persName></rs>, she clapped her hands and danced. She continued to
+                     talk and laugh to herself.</span> In <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> she was taken to the Nidever house and there maintained.
+                  She became the talk of <rs><placeName type="city" key="#ci_sb">the
+                        town</placeName></rs> and many people came to see her. <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">The mission
+                        fathers</persName></rs> came down almost immediately. Indian from various
+                  missions north and south were called in an attempt to find out if they could
+                  understand her or she them. All these efforts were in vain. <span type="trope"
+                     n="3"><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs>
+                     remained in good humor, danced and sang for her hosts.</span>
+                  <persName type="missionfather" key="#jru">Fr. González Rubío</persName>, with the
+                  consent of <persName type="frontiersman" key="#gni">Nidever</persName>, obtained
+                  the woman's dresses, bone needles and other curiosities, and sent them to
+                     <placeName type="city" key="#ci_rom">Rome</placeName>. Seven weeks from the day
+                  she arrived, she took ill from eating too much fruit. <persName
+                     type="missionfather" key="#sanchez">Fr. Francisco Sánchez</persName> of
+                     <orgName type="mission" key="#mi_mainlandmissions">the missions</orgName>
+                  baptized her conditionally and gave her the name <persName type="nativeamerican"
+                     key="#lw">Juana María</persName>. She died shortly afterwards. <persName
+                     type="frontiersman" key="#gni">Nidever</persName> made a rough coffin for her
+                  and she was interred in <rs><placeName key="#sbmissioncemetary">the mission
+                        cemetery</placeName></rs>.</p>
+               <p><persName type="missionfather" key="#jru">Fr. González Rubío</persName> conducted
+                  the funeral services and entered the fact in the burial register:</p>
+               <p>"No. 1183. On <date when="1853-10-19">October 19, 1853</date>, I gave
+                  ecclesiastical burial in <rs><placeName key="#sbmissioncemetary">the
+                        cemetery</placeName></rs> to the remains of <persName type="nativeamerican"
+                     key="#lw">Juana María</persName>, <rs><persName type="nativeamerican" key="#lw"
+                        >the Indian woman</persName></rs> brought from <placeName type="island"
+                     key="#i_sn">San Nicolas Island</placeName>, and since there was no one who
+                  could understand her language, she was baptized conditionally by <persName
+                     type="missionfather" key="#sanchez">Fr. Sánchez</persName>. Signed: <persName
+                     type="missionfather" key="#jru">Fr. González Rubío</persName>."</p>
+               <p>Thus passed into eternity <rs><persName type="nativeamerican" key="#lw">one of the
+                        most resourceful and valiant women of history</persName></rs>. The location
+                  of her grave is unknown. Her incredible story will never be forgotten in
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. The newspapers
+                  of <placeName type="state" key="#st_cal">California</placeName> in <date
+                     when="1853">1853</date> published long accounts of her discovery and <persName
+                     type="frontiersman" key="#gni">Nidever</persName> wrote up the story, which has
+                  been published in [by] <persName type="author" key="#wel">William Henry
+                     Ellison</persName> under the title <hi rend="underline"><title
+                        type="manuscript" key="#nidever1878">Life and Adventures of George Nidever
+                        (1802 - 1883)</title></hi>.</p>
+               <p>[...]</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

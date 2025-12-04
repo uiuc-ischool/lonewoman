@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="monograph">
+               <title type="main" key="#Geiger1970">Juana Maria: The Lone Woman of San Nicholas
+                  Island</title>
+               <author><persName type="author" key="#gma">Maynard, Geiger</persName></author>
+               <publisher><orgName type="publisher" key="#serrashop">Serra Shop, Old
+                     Mission</orgName></publisher>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <date when="2008">1907</date>
+               <bibl type="excerpt">
+                  <biblScope unit="page" from="1" to="2"/>
+                  <author><persName type="author" key="#gma">Maynard, Geiger
+                     </persName></author><title type="main" key="#Geiger1970">Juana Maria: The Lone
+                     Woman of San Nicholas Island</title>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <front>
+         <div type="cover">
+            <head><title type="main">
+                  <hi rend="bold"><rs><persName type="nativeamerican" key="#lw">JUANA
+                           MARIA</persName></rs></hi></title>
+               <title type="sub"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw">The
+                           Lone Woman of San Nicholas Island</persName></rs></hi></title></head>
+            <byline><hi rend="bold">by <persName type="author" key="#gma">Maynard Geiger</persName>,
+                  O.F.M., PH.D.</hi></byline>
+         </div>
+         <div type="titlepage">
+            <head><title><supplied>[...]</supplied>
+                  <hi rend="bold"><date notBefore="1853" notAfter="1835"
+                  >1835-1853</date></hi></title></head>
+            <p><supplied>[...]</supplied></p>
+            <p>Published by the <orgName type="publisher" key="#serrashop">Serra Shop OLD
+                  MISSION</orgName>, <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                  <placeName type="state" key="#st_cal">California</placeName></p>
+         </div>
+      </front>
+      <body>
+         <div type="excerpt">
+            <p><span type="trope" n="5"><span type="trope" n="4">Few events in the history of early
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> caused a
+                     greater stir and sensation than the discovery in <date when="1853">1853</date>
+                     of <rs><persName type="nativeamerican" key="#lw">an Indian
+                        woman</persName></rs> on <placeName type="island" key="#i_sn">San Nicolas
+                        Island</placeName> who had lived there alone for <rs><date notBefore="1835"
+                           notAfter="1853" cert="high">eighteen years</date></rs>. And few events in
+                     Santa Barbara's long colorful history have engaged people's imagination and
+                     interest as much as the almost incredible story of <rs><persName
+                           type="nativeamerican" key="#lw">Juana Maria</persName></rs>. Had this
+                     story been written as fiction it would have been rejected. But the story is
+                     true. <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">The
+                           Franciscan padres of Mission Santa Barbara</persName></rs> were involved
+                     in her discovery.</span></span> Today they are involved in telling her
+               story.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> lies out in
+                  <placeName type="region" key="#re_pacific">the Pacific</placeName> about seventy
+               miles from <placeName type="city" key="#ci_sp">San Pedro</placeName>. It is nine
+               miles long and three and a half miles wide. It had been inhabited by <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">Indians</orgName></rs>
+               from the earliest times. In <date when="1811">1811</date>
+               <rs><name type="ship" key="#sh_charon">a ship</name></rs> belonging to <orgName
+                  key="#bp">Pope and Boardman</orgName> of <placeName type="city" key="#ci_bo"
+                  >Boston</placeName>, brought about thirty <orgName type="nativeamericantribes"
+                  key="#natam_kodiak">Kodiaks</orgName> from <placeName type="state"
+                  key="#re_russam">Russian Alaska</placeName> to <placeName type="island"
+                  key="#i_sn">San Nicolas Island</placeName> to hunt otter and seal.</p>
+            <p>They were left there with provisions to be picked up again <rs><date when="1812">in a
+                     year</date></rs> and <rs><name type="ship" key="#sh_charon">the
+                  ship</name></rs> sailed further south. Meanwhile[,] a feud broke out between
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the native
+                     Indians</orgName></rs> and the <orgName type="nativeamericantribes"
+                  key="#natam_kodiak">Kodiaks</orgName>. The majority of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the native
+                     men</orgName></rs> were killed by <rs><orgName type="nativeamericantribes"
+                     key="#natam_kodiak">the newcomers</orgName></rs> [...]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

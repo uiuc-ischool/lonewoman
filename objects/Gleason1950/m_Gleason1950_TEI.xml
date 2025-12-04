@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="monograph"><orgName type="publication" key="#gleason_islandsofca"
+                            >Islands of California: Their History, Romance and Physical
+                            Characteristics</orgName></title>
+                    <publisher>Sea Publications</publisher>
+                    <date when="1950-01-01"/>
+                    <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="chapter" key="#Gleason1950">San Nicolas</title>
+                        <biblScope unit="page" from="89" to="91"/>
+                        <author><persName type="author" key="#jdgl">Gleason,
+                            Duncan</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:lang="en">
+        <body>
+            <div type="chapter">
+                <head><title type="main"><placeName type="island" key="#i_sn">SAN
+                            NICOLAS</placeName></title></head>
+                <p><placeName type="island" key="#i_sn">San Nicolas</placeName> stands as the
+                    southern outpost of the <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName>, 53 miles off the nearest point of <rs><placeName
+                            type="region" key="#re_calcoast">the coast</placeName></rs>. Here the
+                    winds blow strong, scouring <rs><placeName type="island" key="#i_sn">this
+                            wasting island</placeName></rs> into grains of stinging sand, forming a
+                    long spit reaching out from the eastern end, south of which is the safest
+                    anchorage on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>. <span type="trope" n="3">Eight miles long and but
+                        three in width, <rs><placeName type="island" key="#i_sn">the
+                                island</placeName></rs> was once inhabited by <rs><orgName
+                                type="nativeamericantribes" key="#natam_NicolenoTongva">a superior
+                                race of almost white Indians</orgName></rs> (likely due to a sojourn
+                        of various trading ships).</span></p>
+                <p><span type="trope" n="11"><rs><persName type="group"
+                                key="#1814huntingparty; #rfurcompany; #iba">The
+                            Russians</persName></rs> with their savage <orgName
+                            type="nativeamericantribes" key="#natam_aleuts">Aleut hunters</orgName>
+                        in quest of sea otter found these women to their liking and killed the men
+                        who tried to defend them. By the time the otter were exterminated, only a
+                        small remnant of <rs><orgName type="nativeamericantribes"
+                                key="#natam_NicolenoTongva">the tribe</orgName></rs>
+                        remained.</span> In <date when="1835">1835</date>
+                    <rs><persName type="group" key="#aji; #ndur; #misfats">the Padres of the mission
+                            at Santa Barbara</persName></rs>, thinking to save <rs><orgName
+                            type="nativeamericantribes" key="#natam_NicolenoTongva">the pagan
+                            souls</orgName></rs> on <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs>, decided to remove them to <placeName
+                        type="state" key="#st_cal">the mainland</placeName>.</p>
+                <p>An ambitious Mexican named <persName key="#jgo">Joaquin Gomez</persName>, had
+                    built <rs><name type="ship" key="#sh_peoresnada">a little schooner</name></rs>
+                    at <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. He was
+                    evidently not too well pleased with the result of his labors, for he christened
+                    her <emph><name type="ship" key="#sh_peoresnada">Peor es Nada</name></emph>,
+                    which freely translated means "Better Than Nothing." Captained by <persName
+                        type="seaman" key="#chu">Charles Hubbard</persName>, <rs><name type="ship"
+                            key="#sh_peoresnada">the vessel</name></rs> sailed to <rs><placeName
+                            type="island" key="#i_sn">the tiny island</placeName></rs> and gathered
+                    up <persName type="group" key="#bhagroup">the surviving inhabitants</persName>.
+                    A storm was coming on and <persName type="seaman" key="#chu">Captain
+                        Hubbard</persName> made hurried preparations to leave, when <rs><persName
+                            type="nativeamerican" key="#lw">one of the women</persName></rs> found
+                    that <rs><persName type="nativeamerican" key="#lwchild">her babe</persName></rs>
+                    was not on board. <span type="trope" n="9">The safety of <rs><name type="ship"
+                                key="#sh_peoresnada">the vessel</name></rs> demanded an immediate
+                        departure but <rs><persName type="nativeamerican" key="#lw">the frantic
+                                mother</persName></rs> dove from the rail and swam for
+                    shore.</span></p>
+                <p>The <emph><name type="ship" key="#sh_peoresnada">Peor es Nada</name></emph>
+                    reached <placeName type="city" key="#ci_sp">San Pedro</placeName> and <persName
+                        type="group" key="#bhagroup">the Indians</persName> were distributed among
+                    the various missions while <rs><persName type="nativeamerican" key="#lw">the
+                            woman</persName></rs> on <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> was all but forgotten. <span type="trope" n="4"
+                        >Three attempts were made to find her during <rs><date from="1835" to="1853"
+                                >the next eighteen years</date></rs> and in <date when="1853"
+                            >1853</date>
+                        <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">a number of
+                                men</persName></rs> went over with <rs><persName type="frontierman"
+                                key="#gni">Captain George Midevar [Nidever]</persName></rs>, who
+                        combed the desolate wastes of <rs><placeName type="island" key="#i_sn">the
+                                island</placeName></rs>. At last, under a shelter made of whalebone
+                        and brush, she was found, clad in a garment fashioned from bird skins and
+                        feathers.</span>
+                    <span type="trope" n="10">By signs <rs><persName type="nativeamerican" key="#lw"
+                                >the frightened woman</persName></rs> made it be known that
+                                <rs><persName type="nativeamerican" key="#lwchild">the
+                                baby</persName></rs> had been killed by wild dogs.</span> She was
+                    taken to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and
+                    christened <rs><persName type="nativeamerican" key="#lw">Juana
+                        Maria</persName></rs>. <span type="trope" n="6">Though she was given the
+                        best of care, she lived but six weeks, and <rs><persName
+                                type="nativeamerican" key="#lw">the last inhabitant of San
+                                Nicolas</persName></rs> was dead.</span></p>
+                <p>Sheep were raised on <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                    at various times and during the great Los Angeles real estate boom of the
+                            <rs><date notBefore="1880-01-01" notAfter="1889-12-31">'80s</date></rs>,
+                    town lots were laid out on <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs>. It is now a <rs><placeName type="region"
+                            key="#re_pmugu">Naval Reserve</placeName></rs> and is surrounded by
+                    restricted areas except for two short stretches of shoreline.</p>
+                <p>Aids to navigation consist of lights on the east end, north side, and south side
+                    about 2 1/2 miles from the eastern end. These beacons nightly send their
+                    cheering beams across the lonely waters.</p>
+                <p>Probably the most extensive abalone beds in the world are located here, due to
+                    the remoteness of <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> and the restricted areas surrounding it.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

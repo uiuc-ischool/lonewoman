@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dailypress">Daily
+                     Press</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">9</biblScope>
+               <biblScope unit="issue">162</biblScope>
+               <date when="1881-04-13"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="review" key="#GFM1881">An Earthly Paradise. A Stranger's View of
+                     Santa Barbara, and Her Surroundings</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#gfm">M., G. F.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div n="1" type="section">
+               <head><title type="main"><rs><placeName type="city" key="#ci_sb">AN EARTHLY
+                           PARADISE</placeName></rs>.</title>
+                  <title type="sub">A Stranger's View of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> and her Surroundings.</title></head>
+               <byline>(Correspondence of the <!--add ref to this doc when acquired-->Clinton[,]
+                  Mass., <orgName type="publication" key="#clintoncourier"
+                  >Courier</orgName>.)</byline>
+               <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA, Cal.</placeName>, <date
+                     when="1881-01">Jan. 1881</date>.</dateline>
+               <p>At <placeName type="region" key="#re_pc">Point Conception</placeName> the
+                     <placeName type="region" key="#re_socalcoast">[co]ast of California</placeName>
+                  makes a sudden turn from a southerly to an easterly direction, and runs east and
+                  west for fifty miles. About midway on <rs><placeName type="region"
+                        key="#re_socalcoast">this coast</placeName></rs> facing toward the south and
+                  entirely surrounded by mountains lies <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>. The cold winds have no chance to get at this little
+                  valley, protected as it is by the <placeName type="region" key="#re_santaynezmts"
+                     >Santa Inez range</placeName>. [sic] which rises 4,000 feet above the sea. The
+                  normal southerly direction of the coast line is continued from <placeName
+                     type="region" key="#re_pc">Point Conception</placeName> to below <placeName
+                     type="city" key="#ci_la">Los Angeles</placeName> by <rs><placeName
+                        type="region" key="#i_chi">high and mountainous islands</placeName></rs>, on
+                  one of which, <placeName type="island" key="#i_sn">San Nicholas</placeName>,
+                        <rs><persName type="nativeamerican" key="#lw">an Indian
+                     woman</persName></rs> spent <rs><date from="1835" to="1853">eighteen
+                        years</date></rs> alone. <rs><title type="article" key="#Hardacre1880_SM"
+                        >The story</title></rs> of this woman's solitary confinement was given in
+                  full in <title type="article" key="#Hardacre1880_SM"
+                     ><emph>Scribner's</emph></title> for <rs><date when="1880-09">September
+                        last</date></rs>. <rs><placeName type="region" key="#i_chi">These
+                        islands</placeName></rs> form a barrier against all storms and soften the
+                  asperity of all winds blowing from the sea. There we see that nature has done all
+                  in her power to make the climate perfect.</p>
+               <p>The mean winter temperature is 58° F. and the difference between the Winter and
+                  the Summer is only 15°; then it is never cold in the Winter or hot in the Summer.
+                  It is very seldom that a frost is experienced, and therefore the flowers bloom the
+                  year through. Formerly nearly all the houses were made of adobe, but since the
+                  Americans have come, neat little cottages and elegant dwellings have sprung up,
+                  and fine business blocks have been built. A great many of the old adobes still
+                  exist, however, and add a picturesque appearance to <rs><placeName type="city"
+                        key="#ci_sb">the town</placeName></rs>. They are built of sun-dried bricks
+                  and retain their muddy color; the roofs are covered with tiles. Imagine a red
+                  earthenware drain-tile cut in halves longitudinally, making a semi-cylinder; these
+                  are placed in rows on their convex surfaces, lapping over like shingles; then to
+                  cover the cracks between two tiles, a third is placed over them on its concave
+                  face. The whole makes a heavy and not very protective, but yet a very picturesque
+                  covering.</p>
+               <p>The main business thoroughfare is <placeName key="#state">State
+                  street</placeName>, and extends back two miles, directly from the steamboat wharf.
+                  The smaller streets branch off to the right and left like lesser arteries.</p>
+            </div>
+            <div n="2" type="section">
+               <head><title type="section"><placeName key="#arling">THE
+                     ARLINGTON</placeName></title></head>
+               <p>[is] the principal hotel, and is unequalled [sic] south of <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName>. The grounds are filled with choice
+                  varieties of semi-tropical plants and deer captured in the mountains. Nearly every
+                  little cottage has its pretty garden patch, and the people seem to vie with each
+                  other [in] keeping their grounds neat and inviting. In many of these gardens can
+                  be seen from seventy-five to ninety varieties of roses, geranium hedges,
+                  heliotrope, and fuchsias trained over the piazzas and full of blossoms, calla
+                  lilies four feet high and almost as common as weeds. The streets are shaded by the
+                  peculiar eucalyptus and the pepper tree. The eucalyptus or blue gum is a native of
+                     <placeName type="country" key="#co_aus">Australia</placeName>, and grows
+                  straight and spindling to an immense height. The pepper has all of the grace of
+                  the willow, and is in addition an evergreen which in the Winter is covered with
+                  long panicles of bright red berries. In <rs><placeName type="region"
+                        key="#re_socal">this country</placeName></rs> these trees grow so fast that
+                  in five years they will shade a house. In short, <rs><placeName type="city"
+                        key="#ci_sb">the whole town</placeName></rs> is one continuous garden.</p>
+               <p>On <rs><date when="1881-11-24">Thanksgiving day</date></rs>
+                  <rs><persName key="#preacher">one of the local preachers</persName></rs> delivered
+                  a sermon in which he showed that his congregation had cause to be profoundly
+                  thankful for their good fortune in having such a place as <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> to live in, discoursing to some length
+                  on the different advantages of the same. Then, thinking he had dwelt long enough
+                  on earthly matters, he proceeded to say that the best of things must have an end,
+                  that they all must die some time and go to another world. He then endeavored to
+                  describe the abode of the blessed, and exhorted his listeners to so live that they
+                  should go there after death. In short the general impression left on the minds of
+                  his hearers was that heaven was really a very good place to go if&#8212;if [sic]
+                  they could not live in <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>. It is needless to say that the inhabitants of
+                        <rs><placeName type="city" key="#ci_sb">this earthly
+                     paradise</placeName></rs> thought it a remarkably fine sermon.</p>
+               <p>Among the foothills, about 300 feet above the sea level, stands</p>
+            </div>
+            <div n="3" type="section">
+               <head><title type="section"><rs><placeName type="mission" key="#mi_sb">THE OLD
+                           MISSION</placeName></rs></title></head>
+               <p>built by <rs><orgName type="missionfathers" key="#misfats">the Spanish
+                        padres</orgName></rs>, <rs><date notAfter="1781">one hundred years
+                        ago</date></rs>. It is built of adobe and sandstone in the Moorish style of
+                  architecture, is painted white, and with its two towers is a land mark for the
+                  country around. <rs><placeName type="mission" key="#mi_sb">This
+                        Mission</placeName></rs> is a curious and interesting place. It is still
+                  kept up and there are five monks residing there at the present time. The walls are
+                  eight feet thick, and are covered on the inside with pictures, some of which were
+                  painted in <placeName type="country" key="#co_spain">Spain</placeName>, long
+                  before <rs><placeName type="mission" key="#mi_sb">the Mission</placeName></rs>
+                  itself was built. There are also a great many carvings in wood, marvelously well
+                  done; these were executed by the Mexican Indians. We made the acquaintance of
+                     <persName type="missionfather" key="#francoir">Padre Francoir</persName>, who
+                  showed and explained to us the many interesting features of the place. In the
+                  vestry room we saw the antique vestments of <rs><orgName type="church"
+                        key="#ch_catholic">the Church</orgName></rs> heavily wrought in gold and
+                  silver by the Spanish nuns; huge solid silver candlesticks and golden anchors.
+                  Then with great care <persName type="missionfather" key="#francoir">Father
+                     Francoir</persName> unlocked a little gold casket, and lying beneath a glass
+                  plate was disclosed a bit of a bone formerly belonging to <persName key="#barb"
+                     >Santa Barbara</persName> herself. Away up in the old tower is a chime of
+                  bells, not especially musical, but "Like sweet bells jingled, out of tune and
+                  harsh." They seem to think it is necessary to ding them at all hours of the day
+                  and night, and they certainly do make a most infernal racket. At a little distance
+                  in the rear are <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs> water works, which furnish <rs><placeName type="city"
+                        key="#ci_sb">the city</placeName></rs> with water. The water is brought from
+                  a mountain ca–on and is exceedingly hard.</p>
+            </div>
+            <div n="4" type="section">
+               <head><title type="section">REMARKABLE EQUESTRIANISM.</title></head>
+               <p>The amusements prevalent here are, first, horseback riding&#8212;every one
+                  rides&#8212;they use the little broncho ponies and the great Mexican saddles,
+                  which almost cover up diminutive steeds. But to see riding, one must see the
+                  Mexicans themselves. Imagine a swarthy skinned, black-haired individual in a white
+                  sombrero and fiery red necktie, galloping along a little "calico" horse, with long
+                  flapping stirrup leathers, a Mexican bit and bridle, with the lines ending in a
+                  lash, which is twirled in the right hand of the rider. How they can ride! Not
+                  according to our severe method in the East, but easily and gracefully. It is said
+                  they can spread a blanket on the ground, run a horse onto it and turn him there. I
+                  have seen them ride along at full speed and pick a hat from the ground. They are
+                  like Centaurs. So much for the "Greaser." He can ride and throw the riata. These
+                  are his only accomplishments. <rs><placeName type="city" key="#ci_sb">The
+                        town</placeName></rs> is fast becoming a New England settlement. The
+                  Mexicans are being pushed to the wall and very bitter they feel toward the
+                  Americans, who are taking possession of <rs><placeName type="state" key="#st_cal"
+                        >their beautiful country</placeName></rs>.</p>
+               <p>Another amusement is picnic[k]ing on the beach and surf bathing; the water is so
+                  warm that one can go in any season of the year. A ride of six miles up into the
+                  mountains takes one to the <placeName type="region" key="#sulspr">Hot Sulphur
+                     Springs</placeName>, where one can take a bath in different springs in the
+                  rocks with the temperature varying from 115 degrees F. to 50 degrees; 115 degrees
+                  is fully hot enough, and just about as much as one can stand. <rs><placeName
+                        type="region" key="#sulspr">These springs</placeName></rs> are said to be a
+                  sure cure for all rheumatic complaints.</p>
+               <p>A ride of fifteen miles takes one to the big ranches of <placeName key="#holranch"
+                     >Hollister</placeName>, <placeName key="#cooranch">Cooper</placeName> and
+                     <placeName key="#storanch">Stow</placeName>. <rs><persName type="group"
+                        key="#holl; #coop">The first two men</persName></rs> raise almonds, English
+                  walnut[s], (which are grown in their perfection here), apricot s [sic], limes,
+                  etc. <persName type="frontiersman" key="#coop">Cooper</persName> raises the same
+                  variety, but devotes the greater part of attention to olives and to the production
+                  of olive oil. He is now producing an immense quantity, and although his price per
+                  bottle is 25 cents more than that of the French oil, he cannot begin to supply the
+                  market. <rs><placeName type="group" key="#holranch; #cooranch; #storanch">These
+                        ranches</placeName></rs> were formerly over-run with grasshoppers, which
+                  came over from the <emph>mesa</emph> (table-lands) opposite, in clouds. Now the
+                  farmers go over in the breeding season and plow all of the eggs under ground. In
+                  this way they avoid the huge swarms.</p>
+               <p>The farmers here cannot afford to raise vegetables for the market, the Chinese
+                  gardeners being their competitors. It is astonishing to see how cheaply they can
+                  afford to sell. A family can get all they can use in a day for five cents; for
+                  example, one can get two bunches of celery, two quarts of tomatoes, some turnips
+                  and a carrot, for the regular sum of five cents. They raise as a general thing six
+                  crops a year from a single piece of ground.</p>
+               <p>In the character of any one who has lived any time in <placeName type="state"
+                     key="#st_cal">California</placeName>, cordiality is the first thing noticed;
+                  the ability to tell big yarns is the next; (by the way I hope the readers of the
+                     <!--add ref to this doc when acquired--><orgName type="publication"
+                     key="#courant"><emph>Courant</emph></orgName> will not think that I have lived
+                  here long enough to be influenced.) Every where the stranger is welcomed and made
+                  to feel at home immediately. It is so different here in this respect from cold
+                     <placeName type="region" key="#re_ne">New England</placeName>. I suppose it is
+                  all due to the climate. In my next letter I hope I may have something interesting
+                  to say of a journey on horse-back from <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> to <placeName type="city" key="#ci_la">Los
+                     Angeles</placeName>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
