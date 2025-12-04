@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#latimesmag">Los Angeles
+                     Times Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1932-10-23"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#McGroarty1932">The Forgotten Woman of San Nicolas
+                     Island</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#jmcg">McGroarty, John
+                     Steven</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">SEEN FROM THE <emph>Green Verdugo Hills</emph></title></head>
+            <opener><emph><rs><persName type="nativeamerican" key="#lw">The Forgotten Woman of San
+                        Nicolas Isle</persName></rs></emph></opener>
+            <byline>A Page Conducted by <persName type="author" key="#jmcg">John Steven
+                  McGroarty</persName></byline>
+            <p>THERE awhile back, who should hail us on a street of the roaring town but tall,
+               young, broad-shouldered <persName key="#lat">Lyn Atkinson</persName>, the man who
+               built the great <placeName key="#coolidgedam">Coolidge Dam</placeName> in <placeName
+                  type="state" key="#st_az">Arizona</placeName> in jig time and put it there to stay
+               until Gabriel blows his horn.</p>
+            <p><rs><persName key="#conductor">Conductor</persName></rs>, said this <persName
+                  key="#lat">Lyn</persName> to us, <rs><persName key="#conductor">Conductor of the
+                     Synagogue</persName></rs>, he said, how would you like to voyage out to sea for
+               a couple of days, or maybe three, or until the cows come home, in <rs><name
+                     type="ship" key="#sh_ship1">a ship</name></rs> that I have?</p>
+            <p>It was taking advantage of us. No time was at our disposal. The grindstone at home
+               was waiting for our nose. Tethers were on our feet. Work upon which bread and butter
+               depended stared us in the face. And, yet, with all that, here was <rs><persName
+                     key="#lat">this young fellow</persName></rs> putting before us a temptation
+               that we couldd not resist.</p>
+            <p><rs><name type="ship" key="#sh_ship1">A ship</name></rs>, and the sea waiting for it.
+                     <rs><name type="ship" key="#sh_ship1">A bonnie ship</name></rs> with a skipper
+               and a cook and everybody else that a ship should have with it. And the blood of long
+               generations of sailormen in our veins. The old Phoenicians for ancestors. The
+               grindstone faded from memory, and the tethers fell from our feet. And so, with the
+               evening tide, we put out to sea.</p>
+            <p>Name your port and it is there that we shall sail, said <rs><persName key="#lat">the
+                     master of the ship</persName></rs>. And then we saw an opportunity to fulfill
+               and [an] old desire. Point her nose to the <placeName type="island" key="#i_sn">Isle
+                  of San Nicolas</placeName>, we answered. And <rs><persName key="#lat">the
+                     master</persName></rs> said aye, aye, sir.</p>
+            <p>It was of an early afternoon that we came upon the coast of <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, the sea sunny and quiet as a lake, a great
+               flock of gray gulls and pelicans to welcome us, and seals bobbing up, as full of
+               curiosity as the proverbial cat.</p>
+            <p>Now, in the old books of history and legend, you will see it said that the <placeName
+                  type="island" key="#i_sn">Isle San Nicolas</placeName> is the loneliest and most
+               desolate spot on all God's round earth. It was so spoken of by the earliest voyagers
+               and is so spoken of still. And it is, in truth, one of the very loneliest of all
+               places. Yet, shining there in the sun, and the wide blue sea around it, that Sunday
+               morning, it seemed only as something very beautiful to us.</p>
+            <p>We could discern no sign of human life anywhere. <rs><name type="ship"
+                     key="#sh_ship1">Our ship</name></rs> had to stand well out to sea because of
+               the vast beds of kelp that surrounded <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. And, besides, there is not the ghost of a harbor,
+               even, on all its thirty miles of shore lines. But, suddenly through the glass,
+                     <rs><persName key="#lat">the master</persName></rs> did see signs of life. Down
+               to the shore a man came running, waving his hands in signal.</p>
+            <p>It is <name type="fictional" key="#rcr">Robinson Crusoe</name>, himself we said. And
+               so, in great haste <rs><persName key="#lat">the captain</persName></rs> and
+                     <rs><persName type="group" key="#latgroup">the sailors</persName></rs> lowered
+               a launch and we pushed through the winding channels of kelp to a shallow crescent of
+               beach to greet the apparition.</p>
+            <p>But he was no apparition at all. Instead he was a man from far-off <placeName
+                  type="state" key="#st_me">Maine</placeName> whose home now is <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> where he dwells with a
+               famlly, <rs><persName key="#woman1">a woman of Nebraska</persName></rs> for wife, a
+               lovely blue-eyed child whose name is <persName key="#frances">Frances</persName>, and
+               a Phoenician of the name of <persName key="#daly">Daly</persName> who helps with the
+               sheep that pasture on the bleak, windswept hills.</p>
+            <p>We had a happy day with them all, and the honor of their company for dinner on
+                     <rs><name type="ship" key="#sh_ship1">the ship</name></rs>. And all the tales
+               of <rs><placeName type="island" key="#i_sn">the island</placeName></rs> they knew
+               were told to us.</p>
+            <p>We came at last to the one great story that <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> has to tell&#8212;the story of <rs><persName
+                     type="nativeamerican" key="#lw">the forgotten woman</persName></rs> who lived
+               there alone through <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                     years</date></rs> of what must have been as deep a tragedy as the world has
+               ever known. A tale long familiar to us, and to the scene of which we had now at last
+               come.</p>
+            <p>We could think of little else as the bright day fled. Of little else than
+                     <rs><persName type="nativeamerican" key="#lw">this brown woman</persName></rs>
+               left alone on <rs><placeName type="island" key="#i_sn">that loneliest of
+                     isles</placeName></rs> through the long, dragging, desolate, tragic years.</p>
+            <p>The way it was, <rs><persName type="group" key="#aji; #ndur; #misfats">the Franciscan
+                     Padres of the Santa Barbara Mission</persName></rs>, long ago, learning that
+               there was <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                     small tribe of Indians</orgName></rs> on <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName>, sent <name type="ship" key="#sh_peoresnada">a
+                  boat</name> to bring them to <placeName type="mission" key="#mi_sb">the
+                  Mission</placeName> where they could be baptized in the Christian faith and bent
+               to the uses of civilization.</p>
+            <p>The feat was duly accomplished. But, as <rs><name type="ship" key="#sh_peoresnada"
+                     >the boat</name></rs> was about to sail, <rs><persName type="nativeamerican"
+                     key="#lw">this woman</persName></rs> discovered that <rs><persName
+                     type="nativeamerican" key="#lwchild">her baby</persName></rs> had been left
+               behind. A storm was brewing. <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >The sailors</persName></rs> would not wait. <span type="trope" n="9">So,
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                  plunged into the sea, swam to the shore and was left behind, not to be remembered
+                  again until <rs><date notBefore="1835" notAfter="1853">eighteen years</date></rs>
+                  had passed.</span></p>
+            <p>Then they found her. She had built a hut of whale bones covered with grass, and had
+               woven a garb for her body from the feathers of birds. <rs><persName
+                     type="nativeamerican" key="#lwchild">The baby</persName></rs> she had risked
+               her own life to save had died when still a baby. Then the <rs><date notBefore="1835"
+                     notAfter="1853">eighteen years</date></rs> of a completely solitary life went
+               on for her. Never a human voice in her ears, no human hand to touch, no companion
+               save the birds and the animals of the sea. The same silent, voiceless sky above her
+               day after day. Lost and desolate, with only God to know.</p>
+            <p>They brought her then to <placeName type="mission" key="#mi_sb">the Mission at Santa
+                  Barbara</placeName>, poured the waters of Jordan on her head, and in one short
+               month laid her in a quiet grave among the many graves that are there and which you
+               can see when you go. A grave that was less lonely, indeed, than the living grave
+               where she had apent those lonely, tragic years on <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>.</p>
+            <p>We submit this tale to women of <rs><orgName type="institution" key="#synagogue">the
+                     Synagogue</orgName></rs> wherever they may be and who think their lot is hard.
+               Let them consider <persName type="nativeamerican" key="#lw">the woman of San
+                  Nicolas</persName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

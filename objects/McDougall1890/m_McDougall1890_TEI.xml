@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal" key="#overlandmonthly">Overland Monthly</title>
+               <publisher/><editor/>
+               <biblScope unit="volume" n="16"/>
+               <biblScope unit="issue" n="93"/>
+               <date when="1890-09"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <publisher/>
+               <bibl>
+                  <title type="article" key="#McDougall1890">A Woman's Log of 1849</title>
+                  <biblScope unit="page" from="273" to="280"/>
+                  <author><persName type="author" key="#wmcd">McDougall, William
+                     H.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <front>
+         <div type="section">
+            <head><title type="main">A WOMAN'S LOG OF <date when="1849">1849</date>.</title>
+               <title type="sub">FROM THE DIARY OF <persName type="author" key="#mjmc">MRS. JOHN
+                     MCDOUGALL</persName>.</title></head>
+            <p>[THESE notes are, as their title purports, brief daily jottings at sea, without
+               attempt at literary form. They were made on the first outward trip of the "<name
+                  type="ship" key="#sh_california">California</name>" &#8212; a name that shall be
+               to our children's children a classic, as is the <name type="ship" key="#sh_mayflower"
+                  >Mayflower</name>.</p>
+            <p><persName type="author" key="#mjmc">Mrs. McDougall</persName> was one of the
+               comparatively few women passengers of <rs><name type="ship" key="#sh_california">that
+                     vessel</name></rs> when, on <date when="1849-02-28">February 28, 1849</date>,
+               it entered the <placeName type="region" key="#re_sfbay">Bay of San
+                  Francisco</placeName>, &#8212; whose waters it was the first steamship ever to
+               break.</p>
+            <p>Of that voyage of <rs><name type="ship" key="#sh_california">our western
+                  Argo</name></rs> and its Argonauts much has been written. But of its return trip
+               &#8212; for which the world (this province being quite out of it) waited intently
+               &#8212; this is, so far as I know, the first published record.</p>
+            <p>Concerning most of those who are mentioned in these notes, inquiry has elicited but
+               little. Some, however, are of local, and others of national, distinction. The
+                  <persName key="#eca">Major Canby</persName> is the <persName key="#eca">General E.
+                  R. S. Canby</persName> of the Civil and Indian wars. <persName key="#jstev"
+                  >Colonel J. D. Stevenson</persName> was one of the first United States military
+               commanders of <placeName type="region" key="#re_paccoast">the Pacific
+                  Coast</placeName>, and largely influential in the forming of the State government
+               of <placeName type="state" key="#st_cal">California</placeName>. He is still, at the
+               age of ninety years, actively engaged in the practice of law in <placeName
+                  type="city" key="#ci_sf">San Francisco</placeName>, &#8212; the picture of hale
+               and courtly age. From him I learned that <persName key="#wpa">Doctor (William C.)
+                  Parker</persName> was one of his staff, and now lives at <placeName type="city"
+                  key="#ci_sc">Santa Cruz</placeName>; and that the <persName key="#rma">Colonel (R.
+                  B.) Mason</persName> is the one who was for a time the Military Governor of
+                  <placeName type="state" key="#st_cal">California</placeName>. The <persName
+                  key="#swil">Mr. Willey</persName> is the <persName key="#swil">Rev. Dr. S. H.
+                  Willey</persName> to whom <placeName type="state" key="#st_cal"
+                  >California</placeName> is, perhaps, mainly indebted for its <rs><orgName
+                     type="institution" key="#in_ucb">University</orgName></rs>, and who is still
+               prominent in educational and religious affairs. To <persName key="#jfol">Captain (J.
+                  L.) Folsom</persName>, then Quartermaster, is imputed the distinction of chiefly
+               determining the metropolis of <rs><placeName type="region" key="#re_calcoast">the
+                     coast</placeName></rs> to be at <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName>, and not at <placeName type="city" key="#ci_ben"
+                  >Benicia</placeName>, by retaining the federal offices at <rs><placeName
+                     type="city" key="#ci_sf">the former city</placeName></rs>, &#8212; or
+               sand-hills, &#8212; which was done against strenuous opposition. <persName key="#owh"
+                  >Rev. (O. C.) Wheeler</persName>, who came to the territory as a missionary, has
+               been for many years an official of the <orgName type="company" key="#spacrrco"
+                  >Southern Pacific Railroad Company</orgName>. <persName key="#mogden">Mrs.
+                  Ogden</persName>, was the wife of <persName key="#ogden">Major Ogden</persName>,
+               of <persName type="military" key="#psm">General Persifer F. Smith</persName>'s
+               company.</p>
+            <p>Of <name type="ship" key="#sh_california">the California</name> herself I learn
+               merely that, after her disuse in the passenger traffic, she served some years in the
+               Australian coal trade, and a few years since was "dismantled and broken up."</p>
+            <p><rs><title type="article" key="#McDougall1890">The diary</title></rs> is given
+               substantially as written, with some omissions &#8212; not indicated in the text
+               &#8212; and a few notes and conjectures indicated by brackets.</p>
+            <byline><emph><persName type="author" key="#wmcd">W. H. McD.</persName></emph>]
+            </byline>
+         </div>
+      </front>
+      <body>
+         <div type="section">
+            <p><emph><date when="1849-05-01">May 1, Tuesday Morning</date></emph>. &#8212; This is
+               the day we are to bid adieu to <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName> and, with the exception of leaving <rs><persName
+                     type="author" key="#wmcd">my husband</persName></rs> [then absent, I believe,
+               at the mines] and three or four friends, I confess I leave it without regret.</p>
+            <p>The morning is very gloomy and unpleasant. We left Mr. Bawden's house at half past
+               nine o'clock and walked down to the point, <persName key="#jstev">Colonel John
+                  Stevenson</persName> and <persName key="#wpa">Doctor Parker</persName> overtaking
+               us on the way. <persName key="#owh">Mr.</persName> and <persName key="#mwhe">Mrs.
+                  Wheeler</persName>, <persName key="#mgo">Mrs. Goodwin</persName>, <persName
+                  key="#jfol">Captain Folsom</persName>, and <persName key="#gri">Mr.</persName> and
+                  <persName key="#mgr">Mrs. Grimes</persName> came down to <rs><name type="ship"
+                     key="#sh_california">the steamer</name></rs> soon afterward. We sat and talked
+               some time, &#8212; made merry, or tried to, but many were the sad hearts. Friends
+               were parting, perhaps forever; some with a long and dangerous journey before them,
+               and others . . . . where comforts cannot be procured even for gold. <persName
+                  key="#baw">Mr.</persName> and <persName key="#mbaw">Mrs. Bawden</persName>,
+                  <persName key="#jstev">Colonel Stevenson</persName>, <persName key="#wpa">Doctor
+                  Parker</persName>, and myself embarked on <rs><name type="ship"
+                     key="#sh_whaleboat">a whale boat</name></rs> for <rs><name type="ship"
+                     key="#sh_california">the steamer</name></rs> at half past ten. Found <name
+                  type="ship" key="#sh_california">the California</name> as cold and cheerless as
+               ever, though much cleaner than on her trip up.</p>
+            <p>At two o'clock we left <placeName type="city" key="#ci_sf">San Francisco</placeName>
+               for <placeName type="city" key="#ci_sa">Saucelito</placeName>, where we have lain
+               ever since, getting on water. Had a very poor dinner of roast beef and yams about
+               three o'clock. I regretted very much leaving <persName key="#baw">Mr.
+                  Bawden</persName>, <persName key="#jstev">the Colonel</persName>, and
+                     <rs><persName key="#wpa">the Doctor</persName></rs>, who have shown me great
+               kindness since I have been in <placeName type="state" key="#st_cal"
+                  >California</placeName>; <rs><persName type="group" key="#jstev; #wpa">the two
+                     latter</persName></rs> seem more like brothers than anything else.</p>
+            <p><placeName type="city" key="#ci_sa">Saucelito</placeName> is a little cove in among
+               the hills, a very picturesque place although the hills are barren of trees. Very fine
+               water here, and easy of access for vessels.</p>
+            <p><emph>Eight o'clock</emph>. &#8212; We are just done tea, and being tired, cold, and
+               low-spirited, I determined to go to bed, hoping to waken <rs><date when="1849-05-02"
+                     >tomorrow morning</date></rs> in the <placeName type="region" key="#re_mobay"
+                  >Bay of Monterey</placeName>.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-02">May 2, Wednesday</date></emph>. &#8212; Was quite sick
+                     <rs><date when="1849-05-01">last night</date></rs>, but after breakfast felt
+               able to go on deck and take a look at <placeName type="city" key="#ci_mo"
+                  >Monterey</placeName>. It has one of the most beautiful situations I ever saw, on
+               the sides of several hills, which, sloping back from <rs><placeName type="region"
+                     key="#re_mobay">the bay</placeName></rs>, are partially covered with dark
+               pines, and partly with nothing but green grass. It has the appearance of beautiful
+               green meadows, but I am told it is all parched up later in the year.</p>
+            <p>We arrived here about ten o'clock. <persName key="#eca">Major Canby</persName> and
+                  <persName key="#swil">Mr. Willey</persName> came on board. They seem like old
+               friends, as we came out from <placeName type="city" key="#ci_nola">New
+                  Orleans</placeName> together. [Their voyage from that port to <placeName
+                  type="city" key="#ci_cha">Chagres</placeName> was on the <name type="ship"
+                  key="#sh_falcon">Falcon</name>, the first steamer to sail from <rs><placeName
+                     type="country" key="#co_usa">the States</placeName></rs> on the California
+               route, leaving <placeName type="city" key="#ci_nola">New Orleans</placeName>
+               <date when="1848-12-18">December 18, 1848</date>.] <persName key="#meca">Mrs.
+                  Canby</persName> sent me a package of letters, a most beautiful bouquet, some eggs
+               and dried apples, by <persName key="#rma">Colonel Mason</persName> ; all very
+               acceptable presents, as we had a hard time to get anything to eat on <rs><name
+                     type="ship" key="#sh_california">the steamer</name></rs>.</p>
+            <p>At twelve o'clock we hoisted anchor and went out to sea. The sea is always very rough
+               passing <placeName type="region" key="#re_pc">Point Conception</placeName>
+                  [<placeName type="region" key="#re_pcarmel">Point Carmel</placeName>?]. Too sick
+               to write.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-03">May 3, Thursday Morning</date></emph> &#8212; We were
+               awakened <rs><date when="1849-05-02">last night</date></rs> at twelve o'clock by the
+               most alarming of all sounds at sea, &#8212; "<rs><name type="ship"
+                     key="#sh_california">The ship</name></rs> is on fire!" Great was the
+               excitement; the women and children were screaming; gentlemen, just roused from sleep,
+               coming out half dressed, to inquire what was the matter; others running with water.
+               It was some time before the ladies would be assured there was no danger. The fire, as
+               it was supposed to be, proved to be only the friction of the wheel where it went into
+               a mortise, I believe. There would have been danger if it had not been discovered in
+               time.</p>
+            <p>The sea is still very rough, and neglecting to have our port-holes closed, both
+                  <persName key="#gmc">George</persName> [<persName key="#gmc">George
+                  McDougall</persName>, her brother-in-law] and I had our staterooms filled with
+               water, and he had a fine salt shower-bath.</p>
+            <p>At half-past one o'clock we dropped anchor off the port of <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, a very pretty place on an inclined plane
+               that ascends gradually from the beach. About midway to the top of the hill is a
+               mission with a very fine church, &#8212; gardens, orchards, etc., attached to it.
+               With Yankee enterprise it might be made one of the garden spots of the earth, as all
+               kinds of fruits and flowers grow almost spontaneously. But the people are so indolent
+               that we could get no supplies for <rs><name type="ship" key="#sh_california">the
+                     ship</name></rs>, not even milk, though we could see from <rs><name type="ship"
+                     key="#sh_california">the ship</name></rs> hundreds of cows grazing over the
+               hills. The harbor is very bad for ships, as the kelp grows so thick that it is almost
+               impossible to get a ship through it. It grows twenty feet long, and is strong as a
+               cable.</p>
+            <p>In coming to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> we passed
+                     <rs><placeName type="island" key="#i_sn">an island</placeName></rs> about sixty
+               miles from <rs><placeName type="region" key="#re_calcoast">the
+               coast</placeName></rs>, on which there is <rs><persName type="nativeamerican"
+                     key="#lw">a lone woman</persName></rs> living. <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba">The Russians</persName></rs>,
+                     <rs><date when="1814">some years ago</date></rs>, had <rs><persName
+                     type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">a
+                     party</persName></rs> there catching otter; a storm coming up they were obliged
+               to put out to sea, leaving <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">some
+                     of their party</persName></rs> on shore. They afterwards returned and got them
+               all off but <rs><persName type="nativeamerican" key="#lw">this woman</persName></rs>,
+               who has lived there alone ever since.</p>
+            <p><span type="trope" n="14"><rs><date notBefore="1846">Some three years ago</date></rs>
+                  they caught her, but she was perfectly wild and had lost her speech, so they left
+                  her.</span></p>
+            <p>About four o'clock we hoisted anchor and left <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName>. Sea rough; seasick!</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-04">May 4, Friday</date></emph>. &#8212; Was awakened this
+               morning by <persName key="#turner">Turner</persName> [her man-servant], who brought
+               me in some tea and nice toast, &#8212; very acceptable, as we do not breakfast until
+               after nine. After breakfast went on deck to look at the <placeName type="mission"
+                  key="#mi_stjohn">Mission of St. John's</placeName>, situated in a small valley
+               surrounded with hills, which at this season of the year are covered with flowers. If
+               it could always be spring in <placeName type="state" key="#st_cal"
+                  >California</placeName> it would be a beautiful country, but nine months of the
+               year it is parched and barren. They have no lightning here.</p>
+            <p>Between three and four o'clock we entered the harbor of <placeName type="city"
+                  key="#ci_sd">San Diego</placeName>, the entrance to which is very narrow and
+               sometimes hazardous. After you are in you are completely surrounded with hills
+               covered with grass and flowers, but not a tree to be seen. We anchored near the
+               shore, on which were two or three small huts and a few graves of foreigners, on the
+               side of the hill with a white railing around, in full view to remind us of what may
+               be our destiny before we reach home.</p>
+            <p>The ship <name type="ship" key="#sh_edith">Edith</name> was in the harbor landing
+               government troops, for the line of <placeName type="country" key="#co_usa">the United
+                  States</placeName> is only four or five miles below. The town of <placeName
+                  type="city" key="#ci_sd">San Diego</placeName> we saw in the distance, some three
+               or four miles around <rs><placeName type="region" key="#re_sdharbor">the
+                     bay</placeName></rs>, but it looked barren and desolate. After remaining about
+               an hour we set off again a short while before dark.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-06">May 6, Sunday</date></emph>. &#8212; <persName
+                  key="#tho">Captain Thomas</persName> read the Episcopal service in the cabin. Most
+               of the lady passengers responded. It is the first time I ever heard it at sea and it
+               reminded me of home.</p>
+            <p>Am now writing in my berth. Have been reading "The Inheritance," by <persName
+                  type="author" key="#mturn">Miss Turner</persName>. After tea <persName
+                  key="#forbes">Captain Forbes</persName> and <persName key="#mogden">Mrs.
+                  Ogden</persName> gave us some sacred music on the accordion and with their voices.
+               We have run 251 miles in the last twenty-four hours.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-07">May 7, Monday</date></emph>. &#8212; Great excitement
+               last night, &#8212; <rs><persName key="#man20">a man</persName></rs> missing and
+               supposed to be overboard. Of course all his faults were buried in the deep with him,
+               and he was eulogized as the best fireman, most capable man on the ship, etc. About
+               breakfast time he was discovered in the carpenter's room enjoying a comfortable
+               sleep. <rs><persName key="#spaniard1">One poor Spaniard</persName></rs> today lost
+               seven pounds of gold dust overboard; all, it is said, the poor fellow had.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-08">May 8, Tuesday</date></emph>. &#8212; Doubled
+                  <placeName key="#re_lucas">Cape St. Lucas</placeName> about twelve o'clock
+                     <rs><date when="1849-05-07">last night</date></rs>. Felt sick all day owing to
+               want of proper food, as we have yery [very] little but mutton. Anchored off the port
+               of <placeName type="city" key="#ci_maz">Mazatlan</placeName> about ten o'clock
+               to-night.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-09">May 9, Wednesday</date></emph>. &#8212; Early <rs><date
+                     when="1849-05-09">this morning</date></rs> we came into the bay. After
+               breakfast <persName key="#mbaw">Mrs. Bawden</persName>, <persName key="#mgr">Mrs.
+                  Grimes</persName>, <persName key="#mogden">Mrs. Ogden</persName>, <persName
+                  key="#msmi">Mrs. Smith</persName>, Messrs. <persName type="author" key="#gau"
+                  >Gaur</persName>, <persName key="#tho">Thomas</persName>, <persName key="#mur"
+                  >Murphy</persName>, <persName key="#brow">Brown</persName>, <persName key="#rma"
+                  >Colonel Mason</persName>, and I, went ashore together in one of the ship's boats.
+               We went to <placeName key="#motthouse">Captain Mott's house</placeName> and found it
+               very cool and pleasant, and the ladies very agreeable. <persName key="#talbott">Mr.
+                  Talbott</persName> went with <persName key="#mbaw">Mrs. Bawden</persName>,
+                  <persName key="#mgr">Mrs. Grimes</persName>, and myself, to some of the stores,
+               bought a few articles, and returned to <rs><placeName key="#motthouse">Mr.
+                     Mott's</placeName></rs>, where we had a very fine luncheon of fruits, melons,
+               etc. Took a walk to the beach; went into <placeName key="#kellyhouse">Mr. Kelly's
+                  house</placeName> &#8212; found it quite a palace. <persName key="#kel"
+                  >Mr.</persName> and <persName key="#mkel">Mrs.</persName> and <persName
+                  key="#misskel">Miss Kelly</persName> were very agreeable and we had a delightful
+               call. <persName key="#talbott">Mr. Talbott</persName> got one of the Custom House
+               boats and came off with us to <rs><name type="ship" key="#sh_california">the
+                     ship</name></rs>. Were delighted with <placeName type="city" key="#ci_maz"
+                  >Mazatlan</placeName>.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-10">May 10</date>, Thursday</emph>. &#8212; Entered the
+               port of <placeName type="city" key="#ci_sblas">San Blas</placeName> this morning.
+               Mrs. Bawden's birthday. She treated the ladies to some champagne and cake, and
+                  <persName key="#turner">Turner</persName> brought us a very nice lunch, and we had
+               a cozy little time in our rooms ; &#8212; as there is a door between we can throw
+               them into one.</p>
+            <p>The site of <placeName type="city" key="#ci_sblas">San Blas</placeName> is very
+               romantic, &#8212; hills and valleys overlooking a bay dotted with islands; most of
+               them, though, of barren rocks. <rs><placeName type="city" key="#ci_sblas">The
+                     town</placeName></rs> itself is a poor, miserable village with thatched houses.
+               A large party of Americans arrived here today from across the country, on their way
+               to <placeName type="state" key="#st_cal">California</placeName>. May their golden
+               dreams be realized ! as their ideas of comfort never can be.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-11">May 11, Friday</date></emph>. &#8212; A very beautiful
+               morning. The passengers very much frightened by <rs><name type="ship"
+                     key="#sh_california">the steamer</name></rs> stopping suddenly and with a great
+               jar about four o'clock <rs><date when="1849-05-11">this afternoon</date></rs>. Some
+               of the machinery out of order and soon rectified.</p>
+         </div>
+         <div type="section">
+            <p><emph>May 13, Sunday</emph>. &#8212; and what a Sunday it is! We are in the port of
+                  <placeName type="city" key="#ci_aca">Acapulco</placeName>. The passengers have
+               most of them gone on shore, and the natives are flocking on board by dozens, running
+               fore and aft, up and clown stairs, chattering in Spanish. It is impossible to read,
+               and the day is excessively warm, <rs><placeName type="region" key="#re_acapulcobay"
+                     >the bay</placeName></rs> is entirely shut in by hills, and there can be no
+               breeze. This is probably the best protected harbor in the world.</p>
+            <p>We hear at this place of <rs><name type="group" key="#sh_mcdougall5; #sh_mcdougall6"
+                     >two ships</name></rs> that are out at sea without a drop of water. Some of the
+               passengers came off here in a small boat, procured water, and went off in search of
+               their ship, but could not find her. Several other attempts have been made to find the
+               ship, but as yet without success. Three or four beacon fires are lighted on the
+               different hills tonight. Heaven grant they may see them and be enabled to reach
+                     <rs><placeName type="city" key="#ci_aca">this port</placeName></rs>, for to die
+               of thirst must be horrible. <rs><persName key="#jfol">The captain</persName></rs> of
+                     <rs><name type="ship" key="#sh_california">our steamer</name></rs> is taking on
+               a large supply of water, in the hope that we may fall in with them tomorrow. It is
+               said here that four men came from <placeName type="country" key="#co_pan"
+                  >Panama</placeName> here in <rs><name type="ship" key="#sh_whaleboat">a whale
+                     boat</name></rs>, alternately sailing and rowing, in eighteen days, &#8212; a
+               distance of thirteen hundred miles. It seems almost incredible.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-14">May 14, Monday</date></emph>. &#8212; We left
+                  <placeName type="city" key="#ci_aca">Acapulco</placeName> this morning, and are
+               again in the open sea, not to leave it again until we arrive at <placeName
+                  type="country" key="#co_pan">Panama</placeName>, if we meet with no misfortune.
+               Have not seen anything of the ships that are in distress.</p>
+            <p>[Later.] &#8212; About three o'clock this afternoon we came in sight of a sail. The
+               captain, thinking it might be one of the ships, came alongside of her, and on hailing
+               her and asking if she wanted anything, they cried out, "Water."</p>
+            <p>They had been eighty days out from <placeName type="city" key="#ci_val"
+                  >Valparaiso</placeName>, and had been on short allowance of water for forty days.
+                     <rs><persName key="#jfol">The captain</persName></rs> sent them two large casks
+               of water and some fruit and melons, for which they seemed very grateful, and sent in
+               return four large hams and a box of champagne, over which we had a very merry dinner
+               ; indeed, I have not seen so much enjoyment and good feeling among the passengers
+               since we left.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-17">May 17, Thursday</date></emph>. &#8212; We are very
+               short of coal, and as there is a pretty fair wind today the engine is stopped and all
+               sails set. We are going at the rate of four or five miles an hour, &#8212; slow
+               traveling. <rs><persName key="#jfol">The captain</persName></rs> kept us a day at
+                  <placeName type="city" key="#ci_sblas">San Blas</placeName>, where there was
+               plenty of coal, and did not get any. He is certainly to be blamed for not supplying
+                     <rs><name type="ship" key="#sh_california">the ship</name></rs> better, but
+                     <rs><persName key="#hobbs">Mr. H</persName></rs> &#8212; &#8212; ,
+                     <rs><persName type="author" key="#gau">Mr. G &#8212; &#8212; </persName></rs>,
+                     <rs><persName key="#mbaw">Mrs. B &#8212; &#8212; </persName></rs>, and
+                     <rs><persName key="#mgr">Mrs. G &#8212; &#8212; </persName></rs>, can grumble
+               enough for the whole ship, so I take it easy.</p>
+            <p>Went on deck after tea. <persName key="#tho">Captain Thomas</persName> sang us "The
+               Bride" and "The Rose of Allandale." Afterward <persName key="#forbes">Captain
+                  Forbes</persName> got out his accordion and played while he and <persName
+                  key="#tho">Captain Thomas</persName> sang. We are over seven hundred miles from
+                  <placeName type="country" key="#co_pan">Panama</placeName> yet.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-18">May 18, Friday</date></emph>. &#8212; Last night
+                     <rs><persName key="#sailor5">one of the sailors</persName></rs> was heard to
+               say something to <rs><persName key="#sailor6">one of his companions</persName></rs>
+               that sounded very much like mutiny, and was construed as such by <persName
+                  key="#johnson">Mr. Johnson</persName>, who heard it. We reported it to
+                     <rs><persName key="#jfol">the captain</persName></rs> and it spread like
+               wildfire. Great excitement prevailed, for all expected that before morning blood
+               would be shed. Measures were instantly taken to resist an attack. All the gentlemen
+               passengers were put on the watch, eight at a time, for four hours. The muskets and
+               arms were all brought out of the hold and put in order. Every part of <rs><name
+                     type="ship" key="#sh_california">the ship</name></rs> was watched. It was
+               supposed to be the intention of the sailors, twenty­four in number, to kill all the
+               passengers when they were asleep, and then to rob <rs><name type="ship"
+                     key="#sh_california">the ship</name></rs>, as there is a large amount of gold
+               on board. Very little sleeping was done by any on board, and the watch was kept up
+               all night until after breakfast.</p>
+            <p>But it proved a jolly morning, for <persName key="#hobbs">Mr. Hobbs</persName>, who
+               can make fun out of anything, got some persons to prefer charges against several of
+               those on watch. Had a mock court. Mr. "<persName key="#oregon">Oregon</persName>," as
+               he is called, was dressed up with <emph>chapeau</emph> and sword, and made orderly
+               sergeant to bring up the criminals, who, after some funny remarks and questions, were
+               fined six bottles of champagne, which were brought out and drunk in great glee.</p>
+            <p>Withal we had a very jolly morning, but before dinner they all got impatient at the
+               slow rate we were going, only from half a mile to two miles an hour, and after some
+               debate a few questions were written down, signed, and sent in to <rs><persName
+                     key="#jfol">the captain</persName></rs>, &#8212; as to how much coal he had and
+               when he was going to use it, &#8212; which he answered very satisfactorily to them,
+               and they were in better spirits by teatime. But <rs><persName key="#jfol">the
+                     captain</persName></rs> seems very much depressed. We have a fine wind,
+               however, now. The watch is to be kept up tonight again. Heaven grant we may all get
+               safely home!</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-19">May 19, Saturday</date></emph>. &#8212; Another court
+               martial this morning served to while away the tedious hours. The men were busy all
+               day fixing the wheels, and about three o'clock we were off again with the steam.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-20">May 20, Sunday</date></emph>, &#8212; and a very lovely
+               morning. Had two very refreshing showers before eleven o'clock, at which time we
+               assembled on deck, and, with a very calm sea below us and a bright sky above,
+                  <persName key="#tho">Captain Thomas</persName> read the Episcopal service. It was
+               very solemn and impressive, and will long be remembered by me. It seems as though we
+               were nearer our Creator amidst the vast ocean, and the prayers and hymns seem
+               addressed to Him in person. This evening, <persName key="#mogden">Mrs.
+                  Ogden</persName>, <persName key="#mbaw">Mrs. Bawden</persName>, <persName
+                  key="#tho">Captain Thomas</persName>, <persName key="#johnson">Mr.
+                  Johnson</persName>, and Mr. "<persName key="#oregon">Oregon</persName>," have been
+               singing some sacred music on deck. It was really very sweet but made me sad, for
+               thoughts of home would intrude.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-21">May 21, Monday</date></emph>. &#8212; Passed today some
+               beautiful islands, among them the islands of <placeName type="island" key="#i_mon"
+                  >Montroso</placeName> and <placeName type="island" key="#i_qui">Quibo</placeName>,
+                     <rs><placeName type="island" key="#i_qui">the latter</placeName></rs> just one
+               mountain standing alone in the ocean. It can be seen with the naked eye for forty
+               miles. News again tonight that the coal is out. Mesdames &#8212; &#8212;, &#8212;
+               &#8212;, and &#8212; &#8212;, have the fidgets, and keep <rs><name type="ship"
+                     key="#sh_california">the whole ship</name></rs> in an uproar with their
+               scolding. <rs><persName key="#jfol">The captain</persName></rs> is burning up
+               everything that can be spared.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-22">May 22, Tuesday</date></emph>. &#8212; Passed <rs><name
+                     type="group"
+                     key="#sh_mcdougall1; #sh_mcdougall2; #sh_mcdougall3; #sh_mcdougall4">four
+                     ships</name></rs>, two large and two small ones. Have been cutting <rs><name
+                     type="ship" key="#sh_california">the ship</name></rs> to pieces for fuel.
+               Burned all the second deck, chicken coops, settees, and everything that could be
+               turned into fuel, and still very uncertain about reaching <placeName type="island"
+                  key="#i_tab">the island of Taboga</placeName>, as the wind and tide are very much
+               against us. Have burned several thousand dollars' worth of good timber, yesterday and
+               today.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-23">May 23, Wednesday</date></emph>. &#8212; <rs><date
+                     when="1849-05-22">Last night</date></rs>, about ten o'clock, we dropped anchor
+               about four miles from the island of <placeName type="island" key="#i_tab"
+                  >Taboga</placeName>. Directly afterward the awning caught on fire, and there was
+               another cause of alarm for the ladies. It was soon extinguished, and no harm done.
+               Early this morning <persName key="#forbes">Captain Forbes</persName> took a boat and
+               went to <rs><placeName type="island" key="#i_tab">the island</placeName></rs> for
+               coal to take us in to <placeName type="country" key="#co_pan">Panama</placeName>.
+               Returned about two o’clock, when we got up steam and came into the port. Arrived
+               about five o'clock and anchored very near <name type="ship" key="#sh_oregon">the
+                  Oregon</name>. <persName key="#gmc">George</persName> went on board of her and
+               found <persName key="#jhu">John F. Hughs</persName> there. Wrote to <persName
+                  key="#jhu">John</persName> [her husband] and to <persName key="#wpa">Doctor
+                  Parker</persName> for <persName key="#gmc">George</persName>, and sent on board of
+               her. About ten o'clock she put out for <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName>. Everything looks very green and beautiful, particularly the
+               islands in the bay.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-24">May 24, Thursday</date></emph>. &#8212; About nine
+               o'clock we bade adieu &#8212; forever, I hope &#8212; to <name type="ship"
+                  key="#sh_california">the California</name>. The tide was so low we had to walk a
+               long way on the rough rocks. When we got to <persName key="#far">Mr.
+                  Farand</persName>'s house we were very tired. Found <rs><placeName
+                     key="#farandhouse">the house</placeName></rs> very cool and pleasant, and he
+               was very kind to us and tried to get us a house, but not succeeding we came to the
+                  <placeName key="#americanhotel">American Hotel</placeName>, where <persName
+                  key="#mbaw">Mrs. Bawden</persName>, <persName key="#mgr">Mrs. Grimes</persName>,
+               and I, got one room between us. Have had a great deal of company; most of the
+               gentlemen passengers of <name type="ship" key="#sh_california">the California</name>
+               have called. I found <persName key="#coo">Mr. Coombs</persName> here.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-25">May 25, Friday</date></emph>. &#8212; Have had company
+               all day. <persName key="#hobbs">Mr. Hobbs</persName> and <persName key="#warren">Mr.
+                  Warren</persName> took supper with us. <persName key="#larr">Mr.
+                  Larrentree</persName> brought us some tea from his stores and <persName key="#mgr"
+                  >Mrs. Grimes</persName> made it. Had a very cozy time.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-26">May 26, Saturday</date></emph>. &#8212; Roused
+                     <rs><date when="1849-05-26">this morning</date></rs> very early, thinking the
+               baggage was going off early, but it did not get off until nearly noon. Company all
+               day again. <rs><persName type="group" key="#woman11; #woman12">Two English
+                     ladies</persName></rs>, who are in distress, were here <rs><date
+                     when="1849-05-26">this evening</date></rs> with <persName key="#tho">Captain
+                  Thomas</persName> ; seemed very agreeable and I pity them. The men who were to
+               take us over to <placeName type="city" key="#ci_cruces">Cruces</placeName> want to
+               charge for three or four mules that did not go with the baggage at all, and as
+                  <persName key="#gmc">George</persName> will not submit to be humbugged, we have
+               determined not to go until <rs><date when="1849-05-28">Monday</date></rs>. The people
+               are firing thousands of fire­crackers to-night. It almost deafens us.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-27">May 27, Sunday</date></emph> &#8212; at home ! but it
+               would puzzle a lawyer to find any Sabbath in <placeName type="country" key="#co_pan"
+                  >Panama</placeName>. Shops all open, all kinds of labor going on as usual, and in
+               addition, a circus and cock-fight. <persName key="#scl">Mr. St. Clair</persName>
+               breakfasted with us, and he and <rs><persName key="#mscl">his wife</persName></rs>
+               dined with us. <persName key="#coo">Mr. Coombs</persName> brought me a large box of
+               guava jelly. In the evening got all ready to start in the morning for <placeName
+                  type="city" key="#ci_cruces">Cruces</placeName>.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-28">May 28, Monday</date></emph>. &#8212; Awakened this
+               morning at three o'clock by <rs><persName key="#muleteer">our
+                  muleteer</persName></rs>, who &#8212; as a great wonder for New Granadans &#8212;
+               was punctual to his appointment. But the men who are to carry me did not arrive until
+               nearly six o'clock, at which time we set out; <persName key="#sue">Sue</persName>
+               [her little daughter] on a native's back and I in a hammock between two men, with six
+               others following to rest them. Formed the advance guard, and kept ahead of most of
+               the party until we got out about eight miles, when we all stopped on the bank of a
+               stream and ate breakfast. Quite a picnic, and all seemed highly delighted so far; but
+               they changed their minds soon after, for the roads were very bad. <persName
+                  key="#mho">Mrs. Hoyer</persName> was thrown from her horse into the mud. My men
+               gave out, and just at dark we met <persName key="#turner">Turner</persName> on a
+               fresh mule. I got on the mule man-fashion, (as it would have been very dangerous for
+               me to have ridden over that road any other way,) one man leading the mule and one on
+               each side of me, while <persName key="#gmc">George</persName> walked on behind. [This
+               fashion, it is recorded, had been set by <rs><persName key="#mwhe">the wife of
+                        <persName key="#owh">Rev. O. C. Wheeler</persName></persName></rs> and a
+               lady companion, while crossing <rs><placeName type="region" key="#re_ispan">the
+                     Isthmus</placeName></rs>, with the other <name type="ship" key="#sh_falcon"
+                  >Falcon</name> passengers, in January.] Thus we went on through the narrow
+               mountain passes, in the dark and mud, [attended, as others' tragic experience
+               abundantly proved, by imminent peril of murder and robbery,] and got to <placeName
+                  type="city" key="#ci_cruces">Cruces</placeName> about eight o'clock. I saw
+                  <persName key="#haws">Mr. Haws</persName>, the crazy man, about two miles from
+               town, his mule fastened, and he lying on the ground. <persName key="#sue"
+                  >Sue</persName> and <persName key="#frank">Frank</persName> got in about half an
+               hour after, and we went to bed very thankful that we were safe.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-29">May 29, Tuesday</date></emph>. &#8212; The charge of
+               the alcalde was twenty dollars for one miserable room and three naked cots for one
+               night ! At eight this morning <persName key="#mbaw">Mrs. Bawden</persName>, <persName
+                  key="#mgr">Mrs. Grimes</persName>, <persName key="#mho">Mrs. Hoyer</persName>,
+                  <persName key="#hobbs">Mr. Hobbs</persName>, <persName key="#gmc"
+                  >George</persName>, and myself, started down the river in <rs><name type="ship"
+                     key="#sh_whaleboat">a whaleboat</name></rs> that <persName key="#hobbs">Mr.
+                  Hobbs</persName> had engaged for us. We were nearly used up, but without meeting
+               with any accident other than getting very wet &#8212; for it rained, in torrents
+               &#8212; and being frightened at two parties of tigers and panthers, we arrived
+               safely, at nine o'clock, at <placeName type="city" key="#ci_cha">Chagres</placeName>,
+               and went on board <name type="ship" key="#sh_orus">the Orus</name>, a miserable,
+               dirty boat.</p>
+         </div>
+         <div type="section">
+            <p><emph><date when="1849-05-30">May 30, Wednesday</date></emph>. &#8212; <rs><date
+                     when="1849-05-30">This morning</date></rs>
+               <name type="ship" key="#sh_orus">the Orus</name> got up steam and went down to
+               &#8212;&#8212;&#8212; Bay, where we dined. But some of the passengers, being
+               discontented, wanted to go on the <rs><name type="ship" key="#sh_tay">English
+                     steamer</name></rs> [<name type="ship" key="#sh_tay">the Tay</name> (?) of the
+               Royal Mail line]. They would not give <persName key="#gmc">George</persName> any
+               peace until he agreed to go with them. They gave <rs><persName key="#capttay">the
+                     captain</persName></rs> fifty dollars to put [us] on board <rs><name
+                     type="ship" key="#sh_tay">the English steamer</name></rs>. Retired soon after
+               tea, and about ten o'clock we got under way.</p>
+         </div>
+      </body>
+      <back>
+         <div type="section">
+            <p>[The voyage was continued on <name type="ship" key="#sh_tay">the Tay</name> &#8212;
+               touching at <placeName type="city" key="#ci_cart">Cartagena</placeName>, "a
+               magnificent but ruinous city " &#8212; to <placeName type="city" key="#ci_king"
+                  >Kingston</placeName>, <placeName type="country" key="#co_jam"
+               >Jamaica</placeName>, at which port they arrived on <date when="1849-06-04">June
+                  4</date>.</p>
+            <p>At <placeName type="city" key="#ci_king">Kingston</placeName>, "the most lovely spot
+               I ever saw," <persName type="author" key="#mjmc">Mrs. McDougall</persName> with her
+               brother-in-law and <persName key="#mgr">Mrs. Grimes</persName>, and Messrs. <persName
+                  key="#warren">Warren</persName>, <persName key="#hobbs">Hobbs</persName>,
+                  <persName key="#true">True</persName>, and <persName key="#perry"
+               >Perry</persName>, took rooms at the suburban place of <persName key="#mfer">Mrs.
+                  Ferron, a creole lady</persName>, where they remained six days. Visits were made
+               to the residence of Santa Ana &#8212; " rather plain in appearance, being a red brick
+               house, large, but not fitted with the same taste that most of the residences are"
+               &#8212; and to other points of interest.</p>
+            <p>On <date when="1849-06-10">Sunday, June 10</date>, the party sailed on <name
+                  type="ship" key="#sh_ida">the brig Ida</name>, <persName key="#fou">Captain
+                  Foulkes</persName> (?) commanding, for <placeName type="city" key="#ci_phil"
+                  >Philadelphia</placeName>. On <rs><date when="1849-06-15">the
+                  fifteenth</date></rs> they were becalmed in a perilous passage among the
+                  <placeName type="region" key="#hogstye">Hog Stye reefs</placeName> and neighboring
+               islands and shoals. Much apprehension was felt. On the next day mention is made in
+                     <rs><title type="article" key="#McDougall1890">the diary</title></rs> of a
+               "present of a book and a clean towel, from <persName key="#mrswarren">Mrs.
+                  Warren</persName>, both very scarce articles." The tedium of the voyage was
+               relieved by music, &#8212; of voice and the accordion, &#8212; by rigging-climbing
+               for wagers, and on two occasions by the mimicries of <rs><persName key="#fou">Captain
+                     &#8212;&#8212; </persName></rs>, who masqueraded in the outer dress of a lady
+               passenger.</p>
+            <p>The last page of <rs><title type="article" key="#McDougall1890">the
+                  diary</title></rs> is quite illegible. <rs><name type="ship" key="#sh_ida">The
+                     brig</name></rs> came safely to her destination, but on what date I am
+               uninformed.</p>
+            <byline>
+               <emph><persName type="author" key="#wmcd">W. H. McD.</persName></emph></byline>
+         </div>
+      </back>
+   </text>
+</TEI>
