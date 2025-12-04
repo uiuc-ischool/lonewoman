@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#histsocsocalquarterly"
+                     >Historical Society of Southern California Quarterly </orgName></title>
+               <publisher>University of California Press</publisher>
+               <editor/>
+               <biblScope unit="volume">41</biblScope>
+               <biblScope unit="issue">3</biblScope>
+               <date when="1959"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#Romer1959">The Last of the Canaliños</title>
+                  <biblScope unit="page" from="241" to="246"/>
+                  <author><persName type="author" key="#mro">Romer, Margaret</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div n="1" type="article">
+            <head><title type="main">
+                  <hi rend="bold">The Last of the Canalinos</hi></title></head>
+            <byline><hi rend="bold"><emph>By</emph>
+                  <persName type="author" key="#mro">Margaret Romer</persName></hi></byline>
+            <p><span type="trope" n="8"><rs><date notBefore="1835" notAfter="1853" cert="high"
+                        >EIGHTEEN YEARS</date></rs> ALONE on a <rs><placeName type="island"
+                        key="#i_sn">desert island</placeName></rs>! <rs><persName
+                        type="nativeamerican" key="#lw">A woman Robinson Crusoe</persName></rs>
+                  without benefit of tropical verdure or a helper like "<name type="fictional"
+                     key="#friday">Friday</name>."</span>
+               <span type="trope" n="3">A saga of nerve, courage, self-reliance &#8212; of pure
+                  heroism. This is the true story of <rs><persName type="nativeamerican" key="#lw"
+                        >Juana Maria</persName></rs>.</span></p>
+            <p><rs><placeName type="island" key="#i_chi">A chain of islands</placeName></rs> dots
+               the waters off <placeName type="region" key="#re_socalcoast">the Southern California
+                  coast</placeName> from <placeName type="region" key="#re_mexicanborder">the
+                  Mexican border</placeName> to <placeName type="region" key="#re_pc">Point
+                  Conception</placeName> above <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>. <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, <rs><placeName type="island" key="#i_scatalina">the popular
+                     island vacation paradise</placeName></rs>, is the best known of these. The
+               outermost of <rs><placeName type="island" key="#i_sn">the chain</placeName></rs> is
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, some seventy-five
+               miles off shore &#8212; unsheltered, wind-torn, rugged and barren. It is only about a
+               third as large as <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>.</p>
+            <p><span type="trope" n="3"><rs><date notAfter="1835">Early in the 1800's</date></rs>
+                  <placeName type="island" key="#i_chi">the Channel Islands</placeName> supported
+                  about 20,000 <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">
+                        peaceful Indians</orgName></rs> of a high culture level.</span> They were
+               known as <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     Canalinos</orgName></rs>. Even <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> had a thousand or so <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">inhabitants</orgName></rs>. The sea was rich in
+               fish and seals. Especially numerous were the sea otter, gentle little mammals whose
+               luxuriant fur brought fancy prices in the markets of <placeName type="region"
+                  key="#re_europe">Europe</placeName>. Otter hunters had a field day. In their
+               greed, they exterminated the otter and decimated <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the human
+                     population</orgName></rs> of <rs><placeName type="island" key="#i_chi">the
+                     Islands</placeName></rs>. <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">The
+                     Indians</orgName></rs> tried to protect their natural heritage and many an
+               unequal battle was fought &#8212; bullets against arrows. Finally only a score of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs> was left on <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>. To protect them from complete annihilation, <orgName
+                  type="government" key="#gov_mexico">the Mexican Government</orgName> sent
+                  <persName type="seaman" key="#chu">Charles Hubbard</persName> of the little
+               schooner appropriately named, <emph>"<name type="ship" key="#sh_peoresnada">Peor es
+                     Nada</name></emph> meaning "Better than Nothing," to bring <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  natives</orgName></rs> to <placeName type="region" key="#re_mld">the
+                  mainland</placeName> where they could live in security under the protection of
+                     <rs><orgName type="missions" key="#mi_mainlandmissions">the
+                  Missions</orgName></rs> and also receive the blessings of Christian teaching.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is surrounded by dense
+               beds of kelp making landing hazardous. The hunters who visited <rs><placeName
+                     type="island" key="#i_sn">the Island</placeName></rs> usually disembarked on a
+               long low sandspit at the eastern end, that was relatively kelp free. Here <persName
+                  type="seaman" key="#chu">Captain Hubbard</persName> anchored <rs><name type="ship"
+                     key="#sh_peoresnada">his little craft</name></rs> and struggled to hold it
+               against the wind while <persName type="group" key="#bhagroup">the natives</persName>
+               brought their possessions aboard.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs> was a young
+               Indian mother with <rs><persName type="nativeamerican" key="#lwchild">an
+                     infant</persName></rs> of about two years &#8212; just the age, as every mother
+               knows, when babies get into everything and you have to have them on a rope to keep
+               track of them! So <rs><persName type="nativeamerican" key="#lwchild">Juana Maria's
+                     baby</persName></rs> toddled off and disappeared just at a critical time. All
+               were aboard but <rs><persName type="nativeamerican" key="#lw">the young
+                     mother</persName></rs> who was frantically searching for <rs><persName
+                     type="nativeamerican" key="#lwchild">her baby</persName></rs>. Meanwhile the
+               wind rose to a gale. The restless waters swirled around <rs><placeName type="island"
+                     key="#i_sn">the Island</placeName></rs> from both sides and met in a churning
+               tumult causing <rs><name type="ship" key="#sh_peoresnada">the little
+                  craft</name></rs> to bob around like a leaf. <persName type="seaman" key="#chu"
+                  >Captain Hubbard</persName> had all he could do to manage <rs><name type="ship"
+                     key="#sh_peoresnada">the vessel</name></rs>. After what seemed to him a
+               reasonable wait, he pulled up the anchor and, in spite of the pleas of the other
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs>, sailed off.</p>
+            <p><rs><name type="ship" key="#sh_peoresnada">The schooner</name></rs> had barely left
+               shore when <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+               came running up the beach carrying <rs><persName type="nativeamerican" key="#lwchild"
+                     >the baby</persName></rs>. <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">The natives</orgName></rs> begged <rs><persName
+                     type="seaman" key="#chu">the Captain</persName></rs> to turn back, but he
+               either could not, or would not. But he assured them he would return for <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> and <rs><persName
+                     type="nativeamerican" key="#lwchild">child</persName></rs> the next day.</p>
+            <p>On shore, <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+               was terrified at seeing <rs><name type="ship" key="#sh_peoresnada">the
+                  boat</name></rs> sail off without her. She ran along the beach screaming,
+                  <emph>"Mane-quauna!&#8212;Mane-quauna!"</emph>
+               <persName type="group" key="#bhagroup">Her friends on board</persName> looked on
+               helplessly and tried to wave her assurance. <rs><persName type="nativeamerican"
+                     key="#lw">The young mother</persName></rs> stopped and stared &#8212; stunned
+               &#8212; and watched <rs><name type="ship" key="#sh_peoresnada">the
+                  schooner</name></rs> until it faded into the horizon. The first shock over, she
+               settled down to wait for the boat's return. Surely they would come back for her and
+                     <rs><persName type="nativeamerican" key="#lwchild">the
+               baby</persName></rs>.</p>
+            <p><persName type="seaman" key="#chu">Captain Hubbard</persName> landed <persName
+                  type="group" key="#bhagroup">his human cargo</persName> at <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName>, where the <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">San Nicolonians</orgName> were met by <rs><persName
+                     type="group" key="#aji; #ndur; #misfats">Franciscan
+                  missionaries</persName></rs> and taken to <orgName type="mission" key="#mi_sg">San
+                  Gabriel Mission</orgName>. Urgent orders awaited <rs><persName type="seaman"
+                     key="#chu">the Captain</persName></rs>. The <emph><name type="ship"
+                     key="#sh_peoresnada">Peor es Nada</name></emph> was to sail at once for
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName>. He turned in his
+               report of the mission just completed, including a notation that <rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> and <rs><persName
+                     type="nativeamerican" key="#lwchild">child</persName></rs> were still on
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>. The paper
+               was duly filed. The second trip to <rs><placeName type="island" key="#i_sn">San
+                     Nicolas</placeName></rs> would have to wait until his return from
+                     <rs><placeName type="city" key="#ci_sf">the north</placeName>
+               </rs>.</p>
+            <p>As <rs><name type="ship" key="#sh_peoresnada">the wobbly little schooner</name></rs>
+               was sailing through <placeName type="region" key="#re_thegoldengate">the Golden
+                  Gate</placeName>, she was hit by an unusually heavy storm, capsized, drifted out
+               to sea, and eventually went to the bottom. But her crew was saved.</p>
+            <p>At <orgName type="mission" key="#mi_sg">Mission San Gabriel</orgName>, <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">Juana Maria's
+                     people</orgName></rs> tried to tell <rs><orgName type="missionfathers"
+                     key="#misfats">the good priests</orgName></rs> of the young mother's plight,
+               but there was not an Indian to be found who understood the Island language. <span
+                  type="trope" n="3">No one else knew about <rs><persName type="nativeamerican"
+                        key="#lw">Juana Maria</persName></rs> and <rs><persName
+                        type="nativeamerican" key="#lwchild">her innocent little trouble-making
+                        toddler</persName></rs>.</span></p>
+            <p>The day following the departure of <persName type="group" key="#bhagroup">her
+                  people</persName>, <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs> paced the hard sand of the beach watching for the sail
+               that would bring her rescue. It didn't come. Day followed day . . . week followed
+               week. Hope finally died in her heart and she accepted the fact that she had been
+               deserted &#8212; forgotten. <rs><persName type="nativeamerican" key="#lwchild">The
+                     baby</persName></rs> died, either by illness or accident &#8212; nobody knows.
+                  <span type="trope" n="3"><rs><persName type="nativeamerican" key="#lw">The young
+                        mother</persName></rs> wept, as any mother would. She dug a small deep grave
+                  on a hillside and buried <rs><persName type="nativeamerican" key="#lwchild">the
+                        child</persName></rs> &#8212; the last human companion she was to know for
+                        <rs><date notBefore="1853" notAfter="1853" cert="high">eighteen
+                     years</date></rs>. In her loneliness she made pets of young otters, and the
+                  dogs that were left behind were her friends.</span></p>
+            <p><rs><persName type="nativeamerican" key="#lw">The lone inhabitant of San
+                     Nicolas</persName></rs> continued to live as <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                  people</orgName></rs> had always lived. But now she must do everything for herself
+               &#8212; hunt, fish, even make the fish-lines and fish-hooks; and awls and knives from
+               the hard wood of the scrub oaks. She built herself new houses as <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                  people</orgName></rs> had built them. Whale ribs from the occasional dead whales
+               washed up on the shore, stuck upright in the ground for walls, and thatched with
+               brush. There was a seal rookery nearby where she occasionally killed a seal for a
+               dietary change from fish and shell-fish. She made dresses from their skins and
+               fish-lines from the sinews. The fishhooks she fashioned from shells. There were
+               plenty of utensils left by <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the other natives</orgName>
+               </rs>, but baskets, bowls and bottles woven from grasses wore out, so she had to
+               weave more of them. She made dresses, too, from the feathered skins of cormorants.
+               One of these is now on exhibit at <orgName type="museum" key="#mu_vaticanmuseum">the
+                  Vatican</orgName>.</p>
+            <p><rs><placeName type="island" key="#i_sn">The Island</placeName></rs> rises to a peak
+               of some 900 feet. On the slope of this hill <rs><persName type="nativeamerican"
+                     key="#lw">Juana Maria</persName></rs> made her horne at a spot that commanded a
+               view of the landing spit and of a large portion of <rs><placeName type="island"
+                     key="#i_sn">the Island</placeName></rs>. An excellent spring was close at hand,
+               and a seal rookery as well as the best fishing were directly below. Her domicile
+               consisted of three whalebone houses with a brush wall on the windward side. The
+               torrential rains of winter, the howling winds, the booming of the sea in the caves
+               below &#8212; of all these, <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs> was not afraid. She had but one terror &#8212; the
+               hunters who occasionally visited <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs> &#8212; for it was men like them who had killed most of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     people</orgName></rs>. From her vantage point she could see them land, and she
+               remained in hiding and watched until they went away.</p>
+            <p>It was generally accepted that <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> was uninhabited, but hunters frequently reported that they had
+               seen evidences of human habitation there. At first these statements were discredited,
+               but they persisted. Then, too, there was a rumor that <rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> and <rs><persName
+                     type="nativeamerican" key="#lwchild">a child</persName></rs> had been left on
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> at the
+               time <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     natives</orgName></rs> were removed to <placeName type="region" key="#re_mld"
+                  >the mainland</placeName>. This probably came from the crew of the <emph><name
+                     type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> who were rescured
+               [rescued] from the wreck at the entrance to <placeName type="region" key="#re_sfbay"
+                  >San Francisco Bay</placeName>. But nothing was done about it for <rs><date
+                     notBefore="1835" notAfter="1850" cert="high">seventeen long
+               years</date></rs>.</p>
+            <p><span type="trope" n="4">Then in <date when="1852">1852</date>, <persName
+                     type="frontiersman" key="#gni">George Nidever</persName>, a respected old sea
+                  captain of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, went
+                  over to <rs><placeName type="island" key="#i_sn">San Nicolas</placeName></rs> to
+                  hunt for seagulls' eggs. He found the eggs &#8212; and more &#8212; human
+                  footprints. He and <rs><persName type="group" key="#gni; #tje; #nativeamericans"
+                        >his crew</persName></rs> discovered, also, that some of the crude shelters
+                  on <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> had been
+                  recently visited.</span></p>
+            <p><span type="trope" n="4">Returning to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, <persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName> told of his findings. <persName type="missionfather"
+                     key="#jru">Father Gonzales Rubio</persName> was pastor of <rs><orgName
+                        key="#sbparishchurch">the Mission parish</orgName></rs> and also
+                  Vicar-General of <orgName type="church" key="#ch_diocese">the Diocese of
+                     Monterey</orgName>. When <rs><persName type="missionfather" key="#jru">the good
+                        Father</persName></rs> heard the news he became greatly interested and asked
+                        <rs><persName type="frontiersman" key="#gni">the Captain</persName></rs> to
+                  make a thorough search of <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs>.</span></p>
+            <p><span type="trope" n="4"><persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName> and a citizen named <persName type="frontiersman" key="#cdi"
+                     >C. B. Dittman</persName> made another trip to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> in an effort to find <rs><persName
+                        type="nativeamerican" key="#lw">the "lost woman."</persName></rs> Beside
+                  more fresh footprints, they found in the crotch of a bush, a basket of woven grass
+                  containing various artifacts including shell fishhooks and a long rope of sinew,
+                  all neatly covered with a piece of sealskin. <persName type="frontiersman"
+                     key="#gni">Nidever</persName> deliberately scattered these things on the ground
+                  and left the spot. Returning some time later, he found the articles replaced and
+                  the basket returned to the crotch as before. Now he was convinced. But
+                        <rs><persName type="frontiersman" key="#gni; #cdi; #nativeamericans">the
+                        men</persName></rs> returned to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> without finding <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs>.</span></p>
+            <p><span type="trope" n="4">Wise old <persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName> guessed the truth. He reasoned that <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> was probably
+                  hiding from them from fear, due to the tragic experience of <rs><orgName
+                        type="nativeamerican" key="#natam_NicolenoTongva">her tribe</orgName></rs>.
+                  He suggested that they organize a rescue party comprised mostly of Indians.
+                  Perhaps then she would come out of hiding.</span></p>
+            <p><span type="trope" n="4">On the next attempt, in <date when="1853-07">July of
+                     1853</date>, <persName type="frontiersman" key="#cdi">Captain
+                     Nidever</persName> and <persName type="frontiersman" key="#cdi">Mr.
+                     Dittman</persName> took along four <rs><persName type="group"
+                        key="#cook; #msh; #poli; #nsk; #hva">Indians</persName></rs>. They planned
+                  to search <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>
+                  canyon by canyon. Landing at the sandspit at the east end, they prepared to march
+                  the entire nine-mile length, scanning every square foot of ground. One of the men
+                  must necessarily come upon her. It was arranged that whoever found her was to
+                  place his hat on the muzzle of his gun, raise it high and shout. Then
+                        <rs><persName type="frontiersman"
+                        key="#gni; #cdi; #cook; #msh; #poli; #nsk; #hva">the men</persName></rs>
+                  would close in around her and "capture" her. They did not know what to expect.
+                  Would she resist &#8212; perhaps fight and scratch? Would they have to take her by
+                  force?</span></p>
+            <p><span type="trope" n="4">The march began. It was slow and difficult. Up and down
+                  steep hillsides, over deep gullies, across tedious sand dunes. At last, <persName
+                     type="frontiersman" key="#cdi">Mr. Dittman</persName> found her, and gave the
+                  signal. She was sitting in the sun outside one of her huts, busily engaged in
+                  stripping a piece of sealskin. <rs><persName type="frontiersman"
+                        key="#gni; #cook; #msh; #poli; #nsk; #hva">The other men</persName></rs>
+                  closed in, and her dogs growled as they approached.</span></p>
+            <p>When <persName type="nativeamerican" key="#lw">Juana Maria</persName> saw that the
+               strangers were men of her own race, she called off her dogs and came forward happily
+               to greet them. She treated them as guests and offered them food. Though they could
+               not converse, they seemed to understand each other.</p>
+            <p><persName type="nativeamerican" key="#lw">Juana Maria</persName> was then about fifty
+               years of age, with brown hair. <span type="trope" n="3">She was of medium height,
+                  well built &#8212; a perfect physique, and in perfect health. Shy and quiet, yet
+                  self-assured.</span> She wore a dress of feathered cormorant skins that came
+               almost to her ankles.</p>
+            <p><rs><persName type="frontiersman" key="#gni; #cdi; #cook; #msh; #poli; #nsk; #hva"
+                     >The rescue party</persName>
+               </rs> remained a few weeks longer to hunt and to study both <rs><placeName
+                     type="island" key="#i_sn">the Island</placeName></rs>, and the "lost woman's"
+               way of life. When they left, she went with them willingly, no doubt looking forward
+               to being re-united with <persName type="group" key="#bhagroup">her people</persName>.
+               She took a few of her possessions with her, including some seal skins and a few
+               dresses of feathered cormorant skins, and her treasured shell "jewels" which she kept
+               in "jewel boxes" made of two abalone shells hinged together with tar that had drifted
+               up on the beach.</p>
+            <p>She was ill at ease on the voyage across the water, but recognized the other
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName> as they passed
+               and called them by their Indian names. <span type="trope" n="3">Once on <placeName
+                     type="region" key="#re_mld">the mainland</placeName>, she clapped her hands
+                  like a child when she first saw an ox-cart and <rs><persName
+                        key="#riderhorseman; #mrni; #jsh; #ssh">a man on
+                  horseback</persName></rs>.</span>
+               <persName type="frontiersman" key="#gni">Captain Nidever</persName> took her to
+                     <rs><placeName key="#nideverhouse">his home</placeName></rs> where
+                     <rs><persName key="#sni">his wife</persName></rs> took care of her and did
+               everything possible for her comfort and pleasure. She became the pet of
+                     <rs><placeName type="city" key="#ci_sb">the town</placeName></rs>. It was as if
+               the people were trying to atone for the wrong done her so long ago.</p>
+            <p><span type="trope" n="6">The <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">good padres of the
+                     Mission</persName></rs> sent a messenger to tell <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     people</orgName></rs> of her rescue, only to learn that the other <persName
+                     type="group" key="#bhagroup">San Nicolonians</persName> had all died of
+                  illness.</span> They sent for Indians from all the tribes around in an effort to
+               find someone who could understand her language. None did. They did not even know her
+               name, so <persName type="missionfather" key="#sanchez">Father Francisco
+                  Sanchez</persName> of <orgName type="mission" key="#mi_santabarbaramission">the
+                  Santa Barbara Mission</orgName> baptized her <rs><persName type="nativeamerican"
+                     key="#lw">Juana Maria</persName></rs>.</p>
+            <p><span type="trope" n="3">After living alone so long, <rs><persName
+                        type="nativeamerican" key="#lw">Juana Maria</persName></rs> had become
+                  completely uninhibited &#8212; a child of nature. Naive, she conformed to no
+                  customs. She would sing whenever she felt like it &#8212; which was most of the
+                  time, for she was a happy soul. Though her voice was not of the prima donna class,
+                  it was at least a spontaneous expression of joy. Seldom walking, she usually went
+                  dancing along with a hop-skip-and-jump, or on the run. She loved to go visiting
+                  from house to house among the Indians and Mexicans. Everyone loved her.</span></p>
+            <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> acted as her
+               guardian and he provided liberally to keep her well dressed and comfortable.
+                     <rs><persName type="seaman" key="#tru">A traveling show</persName></rs> offered
+               him a large sum of money to allow them to take her on the road for exhibition. To his
+               credit, he refused the offer.</p>
+            <p><span type="trope" n="3">But the food of civilization did not agree with
+                        <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>.
+                  She developed stomach trouble. By that time, too, she knew that she would never
+                  see <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        people</orgName></rs> again. Hopelessness and acute gastritis combined to
+                  take their toll. In spite of the best medical care available, the joyous voice was
+                  hushed, the dancing steps ceased. In less than three months after her "rescue,"
+                     <persName type="missionfather" key="#jru">Padre Gonzales Rubio</persName> spoke
+                  the Last Rites and laid to rest in <placeName key="#sbmissioncemetary">the
+                     cemetery of Mission Santa Barbara</placeName>,<rs><persName
+                        type="nativeamerican" key="#lw"> the brave, resourceful child of
+                        God</persName></rs>, <rs><persName type="nativeamerican" key="#lw">Juana
+                        Maria</persName></rs>.</span></p>
+         </div>
+         <div type="section">
+            <head>
+               <title type="section"><hi rend="bold">REFERENCES</hi></title></head>
+            <div>
+               <p><bibl><author key="#chi">Hillinger, Charles</author>; <title type="monograph"
+                        key="#Hillinger1958"><emph>The California Islands</emph></title>.
+                        <publisher>Academy Publishers</publisher>, <pubPlace key="#ci_la">Los
+                        Angeles</pubPlace>, <date when="1958">1958</date>.</bibl></p>
+            </div>
+            <div>
+               <p><bibl>
+                     <author key="#cho">Holder, Charles Frederick</author>; <title type="monograph"
+                        key="#Holder1910"><emph>The Channel Islands of California</emph></title>.
+                        <publisher>A. C. McClurg &amp; Co.</publisher>, <pubPlace key="#ci_chic"
+                        >Chicago</pubPlace>, <date when="1910">1910</date>.</bibl></p>
+            </div>
+            <div>
+               <p><bibl>
+                     <author key="#gma">Geiger, Maynard, O.F.M., Ph.D.</author>; <title
+                        type="pamphelt" key="#Geiger2008"><emph>God's Acre</emph></title>. (a
+                     pamphlet) Published by <publisher>the Franciscan Fathers, Old
+                        Mission</publisher>, <pubPlace><placeName type="city" key="#ci_sb">Santa
+                           Barbara, California</placeName></pubPlace>, <date when="1958"
+                     >1958</date>.</bibl></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

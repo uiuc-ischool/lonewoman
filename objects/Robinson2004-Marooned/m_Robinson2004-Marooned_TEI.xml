@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                     Times</orgName></title>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <editor/>
+               <publisher/>
+               <date when="2004-06-15"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName><placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Robinson2004-Marooned">Marooned</title>
+                  <author><persName type="author" key="#jro">Robinson, Joe </persName></author>
+                  <biblScope unit="page" n="F1" from="F4" to="F5"/>
+               </bibl></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">Marooned</hi></title></head>
+            <div>
+               <byline><hi rend="bold">By <persName type="author" key="#jro">JOE
+                     ROBINSON</persName></hi></byline>
+            </div>
+            <div>
+               <byline><affiliation><hi rend="bold"><emph>Special to <orgName type="publication"
+                              key="#latimes">The Times</orgName></emph></hi></affiliation></byline>
+            </div>
+            <div>
+               <p><emph><placeName type="island" key="#i_sn">San Nicolas
+                  Island</placeName></emph></p>
+            </div>
+            <div type="section">
+               <p><hi rend="bold">A</hi> near-gale screams the loneliness of <rs><placeName
+                        type="island" key="#i_sn">this remote outpost</placeName></rs>,
+                        <rs><placeName type="island" key="#i_sn">an overgrown boulder that's a
+                        whipping post for weather</placeName></rs> sweeping across <placeName
+                     type="region" key="#re_pacific">the Pacific</placeName>. It's spring, sunny
+                  &#8212; and about 45 degrees with wind chill. Winter jackets are zipped to the
+                  neck. Gloves would be nice. And you start to wonder how <rs><persName
+                        type="nativeamerican" key="#lw">a woman</persName></rs> dressed in only
+                  cormorant feathers could have survived alone for <rs><date from="1835" to="1853"
+                        >18 years</date></rs> in <rs><placeName type="island" key="#i_sn">this
+                        blasted, treeless landscape</placeName></rs> where even the ravaged rocks
+                  tell you they got a raw deal. "They found her right around here," shouts <persName
+                     type="author" key="#ssc">Steven Schwartz</persName>, an archeologist and
+                  environmental planner for the <orgName type="military" key="#mi_navy">U.S.
+                     Navy</orgName>. Tall, genial and sporting a gray beard circa <persName
+                     key="#kro">Kenny Rogers</persName>' mid-"Gambler" period, <persName
+                     type="author" key="#ssc">Schwartz</persName> is straining to be heard over a
+                  thundering wind that delivers the sharp tang of seal droppings from the throng of
+                  flippers on the rocks below. <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> is home to a radar and missile tracking installation, but
+                  that's not why <persName type="author" key="#ssc">Steve Schwartz</persName> has
+                  marooned himself here every week for <rs><date from="1999" to="2004">the last 15
+                        years</date></rs>.</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Solving an island
+                  mystery</hi></title></head>
+               <p>He's been trying to solve a mystery, to rescue from a century and a half of fable,
+                        <rs><persName type="nativeamerican" key="#lw">a survivor</persName></rs> who
+                  came to be known as <rs><persName type="nativeamerican" key="#lw">the Lone Woman
+                        of San Nicolas</persName></rs>.</p>
+               <p><persName type="author" key="#ssc">Schwartz</persName> waves his arm to indicate
+                  the area where she was discovered in <date when="1853">1853</date>: a scene of
+                  rolling dunes, blown down to the bedrock in places and upholstered in
+                  2,000-year-old abalone shells.</p>
+               <p><rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">The Lone
+                        Woman's ancestors</orgName></rs> left the shells here at what is now one of
+                  the richest archeologist sites in <placeName type="country" key="#co_usa">the
+                     U.S.</placeName> They are reminders of 8,000 years of indigenous settlement on
+                        <rs><placeName type="island" key="#i_sn"
+                     ><emph>Ghalas-at</emph></placeName></rs>, as <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        inhabitants</orgName></rs> called <rs><placeName type="island" key="#i_sn"
+                        >their island</placeName></rs>. An arid plateau ringed by cliffs and thick
+                  tangles of kelp, <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> was protected from invaders through the years by its
+                  lack of safe harbors.</p>
+               <p>Then, <rs><date notBefore="1800" notAfter="1814">in the early 19th
+                     century</date></rs>, the world's lust for otter coats led <rs><persName
+                        type="group" key="#1814huntingparty; #rfurcompany; #iba">Russian fur
+                        traders</persName></rs> to drop off armed <rs><orgName type="group"
+                        key="#natam_aleuts; #natam_kodiak">native Alaskan hunters</orgName></rs>.
+                  They were supposed to say for a few weeks, but the outing turned into a year.
+                     <span type="trope" n="11">The <rs><orgName type="group"
+                           key="#natam_aleuts; #natam_kodiak">stir-crazed Alaskans</orgName></rs>
+                     are said to have gone on a rampage, wiping out most of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">the local
+                           men</orgName></rs>.</span> By <date when="1835">1835</date> a population
+                  that once numbered 300 had shrunk to just seven.</p>
+               <p>Though the <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Nicoleños</orgName> had been self-sufficient since Europeans were scratching
+                  cave walls, the <orgName type="mission" key="#mi_santabarbaramission">Santa
+                     Barbara Mission</orgName> decided to sponsor a rescue operation &#8212; or at
+                  least that's the conventional wisdom. <persName type="author" key="#ssc"
+                     >Schwartz</persName> notes that <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">the missions</orgName></rs> had a high fatality
+                  rate among <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >their Indian workers</orgName></rs>, who had no immunity to European
+                  diseases. <rs><persName type="missionfather" key="#misfats">The
+                     padres</persName></rs> may have wanted to replenish <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">their labor
+                        force</orgName></rs>.</p>
+               <p><rs><name type="ship" key="#sh_peoresnada">A schooner</name></rs> under the helm
+                  of <persName type="seaman" key="#chu">Capt. Charles Hubbard</persName> sailed for
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+                  arriving off its rugged northern tip. <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >The crew</persName></rs> set out across the dunes, rounded up six of
+                     <persName type="group" key="#bhagroup">the natives</persName> and took them
+                  back to <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs>. But, as
+                        <rs><name type="ship" key="#sh_peoresnada">the vessel</name></rs> bucked
+                  offshore in a swelling storm, <rs><persName type="nativeamerican" key="#lw">one
+                        woman</persName></rs> remained unaccounted for.</p>
+               <p><span type="trope" n="9">Some sources say <rs><persName type="nativeamerican"
+                           key="#lw">the woman</persName></rs> was "away in the mountains," while
+                     the most popular explanation would become the defining, mythic tale. In this
+                     version, <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> boards <rs><name type="ship" key="#sh_peoresnada">the
+                           ship</name></rs> but then, as it heads for open waters, realizes that
+                           <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs> has been left behind. Desperate, she plunges over the
+                     rail into rolling waves to save <rs><persName type="nativeamerican"
+                           key="#lwchild">her daughter</persName></rs>.</span></p>
+               <p><span type="trope" n="9"><persName type="author" key="#ssc">Schwartz</persName>
+                     has scoured the literature, artifacts and museums to separate facts from
+                     embroidery. "The story of her jumping overboard does not show up <rs><date
+                           notBefore="1880">until the 1880s</date></rs>," he says. "By then the
+                     Victorian era is well underway, and literature takes on a flowery, even
+                     romantic flavor</span>."</p>
+               <p>The more likely scenario: With the storm threatening to slam <rs><name type="ship"
+                        key="#sh_peoresnada">the schooner</name></rs> onto the rocks and
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> probably wracked by their abduction, <rs><persName
+                        type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the crew</persName></rs> panicked and turned the rudder back toward
+                     <placeName type="region" key="#re_mld">the mainland</placeName> without doing
+                  much of a head count. "The earliest firsthand accounts simply state that she was
+                  mistakenly left behind," says <persName type="author" key="#ssc"
+                     >Schwartz</persName>.</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Out of sight, not
+                  mind</hi></title></head>
+               <p><hi rend="bold">E</hi>ITHER way, people in the coastal settlements knew that
+                        <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs> had
+                  been abandoned. Why were there no rescue attempts?</p>
+               <p>The usual alibi is that <persName type="seaman" key="#chu">Hubbard</persName> had
+                  intended to go back but had orders to take a shipment of lumber to <placeName
+                     type="city" key="#ci_mo">Monterey</placeName>. Within a month, <rs><name
+                        type="ship" key="#sh_peoresnada">the schooner</name></rs> had foundered at
+                  the entrance to <placeName type="region" key="#re_sfbay">San Francisco
+                     Bay</placeName>, and its crew ditched it. <span type="trope" n="12">Most
+                     accounts blame a lack of available ships in <rs><date notBefore="1833"
+                           notAfter="1839">the mid-1830s</date></rs> for the failure of anyone to
+                     step in and make the crossing.</span></p>
+               <p><span type="trope" n="12"><persName type="author" key="#ssc">Schwartz</persName>,
+                     who had assembled a stash of shipping data from a former job with the <orgName
+                        type="military" key="#mi_armycorp">Army Corp of Engineers</orgName>, didn't
+                     buy it. He investigated further with local marine historians.</span></p>
+               <p>"<span type="trope" n="12">There were plenty of boats big enough to get out here,"
+                     he says. "It didn't take a huge boat. It's just: Was there really reason enough
+                     to go back for <rs><persName type="nativeamerican" key="#lw">one
+                           Indian</persName></rs>?</span>"</p>
+               <p>So she was left atop <rs><placeName type="island" key="#i_sn">a vacant
+                        rock</placeName></rs> to scour the horizon for a human trace and began a
+                  long confrontation with a social animal's deepest fears.</p>
+               <p><persName type="author" key="#ssc">Schwartz</persName> says that sometimes when
+                  he's out there poking around amid the artifacts he can feel some of the isolation
+                  that must have haunted her as she wandered the paths <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her family and
+                        friends</orgName></rs> would never amble again. "On the west end of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, where
+                  you can't see any buildings or people, all of a sudden you get this sense of what
+                  it's like to be alone . . . the overwhelming sounds of the surf, the gulls
+                  crying."</p>
+               <p>If he'd been stranded here, <persName type="author" key="#ssc">Schwartz</persName>
+                  is sure that "the hardest part would have been the loneliness, the wondering if
+                  someone were coming back for me, or if I was left for good . . . after some time
+                  you probably have to give up hope. That day [was] probably the worst of all."</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Deep fear</hi></title></head>
+               <p><hi rend="bold">E</hi>VEN the gods tremble in the presence of absence. Creation
+                  stories abound with deities who feel the urge to liven the cosmic black hole with
+                  company. The desolation of separation saves its best shots, though, for the social
+                  animal.</p>
+               <p>"It's loneliness that makes the loudest noise," wrote philosopher <persName
+                     type="author" key="#eho">Eric Hoffer</persName>. For <rs><persName
+                        type="nativeamerican" key="#lw">a deserted Nicoleño woman</persName></rs>,
+                  it no doubt thundered up the arroyos and over the thrashing surf, drowning out all
+                  with the echo of what was no longer there. Humans are adaptable creatures, but how
+                  do you begin to adjust to a life without a single other human in it?</p>
+               <p>"It wouldn't surprise me if she went through the stage of grief that people go
+                  through when they lose their loved ones, coming finally to a stage of acceptance,"
+                  says <persName type="author" key="#lpa">Larry Palinkas</persName>, a psychologist
+                  and professor at <orgName type="institution" key="#in_ucsd">UC San Diego</orgName>
+                  who has studied the effects of isolation on researchers in <placeName
+                     type="region" key="#re_ant">Antarctica</placeName>.</p>
+               <p><placeName type="island" key="#i_sn">San Nicolas</placeName> in <date from="1800"
+                     to="1899">the 19th century</date> may as well have been <placeName
+                     type="region" key="#re_ant">Antarctica</placeName>. Exiled well east from the
+                  northern and southern <placeName type="group" key="#i_northernchi; #i_southernchi"
+                     >Channel Island groups</placeName>, <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> is ideal for solitary confinement. On a rare
+                  clear day, <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                  could have sighted some of <rs><placeName type="island" key="#i_chi">the other
+                        islands</placeName></rs> and even the outlines of <placeName type="region"
+                     key="#re_mld">the mainland</placeName>. But most of the year the relentless fog
+                  and clouds that cloaks <rs><placeName type="island" key="#i_sn">this desert
+                        isle</placeName></rs> would have shut her off from even a glimpse of the
+                  rest of the world.</p>
+               <p>Prolonged isolation can cause serious psychological and even physical havoc for a
+                  species designated for contact. "When you get cut off from the group, you're much
+                  more likely to feel sad, blue, depressed, hopeless," says <persName type="author"
+                     key="#dam">Daniel Amen</persName>, a brain imagery specialist who teaches at
+                     <orgName type="institution" key="#in_ucirvine">UC Irvine</orgName> College of
+                  Medicine.</p>
+               <p>Loneliness isn't an affliction of the meek. It's a basic human state, the
+                  biochemical prod for us to follow our social mandate, which is good for species
+                  propagation and vital gray matter.</p>
+               <p>"We're programmed to be connected with other people," <persName type="author"
+                     key="#dam">Amen</persName> says. Talking and smiling and simply being with
+                  other people "regulates certain systems in our brains and makes them work better."
+                  A lack of social stimulation can cause dendrites, the conduits through which
+                  information flows to brain cells, to shrink and disappear.</p>
+               <p>Surrounded by the reminders of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">her family and friends</orgName></rs> &#8212;
+                  huts, tools, bowls, necklaces &#8212; but no hands, eyes or voices, <rs><persName
+                        type="nativeamerican" key="#lw">the marooned woman</persName></rs> had to
+                  find a way through a life unwitnessed and unshared. What thoughts could have
+                  overridden the despair to keep her brain healthy and prevent a descent into
+                  madness or a leap off one of numerous nearby cliffs?</p>
+               <p>Like <persName type="author" key="#ssc">Schwartz</persName>, <persName
+                     type="author" key="#dam">Amen</persName> only has to hear of the woman's fate
+                  to be drawn in. "She needed to keep hope about connection again," he says. "She
+                  probably was able to develop her own rich internal life."</p>
+               <p>At first, one of her biggest challenges would have been overcoming certain
+                  Nicoleño taboos that would have made essential survival tasks off-limits, says
+                     <persName type="author" key="#ssc">Schwartz</persName>. "In her culture,
+                  activities were ascribed to male or female. It was probably taboo for her to touch
+                  a fish hook, [or] a spear for catching seals. She would really have had to grapple
+                  with that and overcome it."</p>
+               <p>One thing that might have helped her cope with the social void was that <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> was by no means absent of
+                  life. Close your eyes on her part of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, and you are far from alone. Cormorants squawk.
+                  Hordes of sea elephants and sea lions debate the fine points of beachfront
+                  property with the restraint of a soccer mob in full riot. There were also dogs on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.</p>
+               <p>"That's huge," says <persName type="author" key="#dam">Amen</persName>. "If you're
+                  connected to your animals, you're connected. You can talk to them, interact with
+                  them, feed them, have a relationship with them. The other thing that does is it
+                  gives her purpose. She could say, 'Hey, we gotta eat today, we have to explore
+                  today.'"</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Seafood smorgasbord</hi></title></head>
+               <p>The pickings on land were sparse &#8212; only a few roots and tubers. But, as
+                     <persName type="author" key="#ssc">Schwartz</persName> discovered from digging
+                  through archeological sites, nature had stocked the local waters with a supply of
+                  more than 100 species of fish. Unlike the marooned fishermen, <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> had the skills
+                  from her culture to make use of the bounty.</p>
+               <p>She probably continued to eat as she had with <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     family</orgName></rs>, beside a fire in a protected part of a hut framed by
+                  whale bones and covered with seal skins. She could have used marcasite stones to
+                  spark a flame, but "it would have been easier to keep one going all the time,"
+                  says <persName type="author" key="#ssc">Schwartz</persName>. "A typical meal would
+                  most likely be fish or shellfish, probably prepared every way known to man: raw,
+                  boiled, grilled, smoked. Maybe some bulbs too."</p>
+               <p>On the island's northern edge, near one of the springs where <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> got her fresh
+                  water, there's a mountain of evidence for her menu, and how she fashioned it.</p>
+               <p><persName type="author" key="#ssc">Schwartz</persName> pulls off a dirt road and
+                  parks his military-issue, cream-colored van alongside the mother lode of middens.
+                  Twenty acres of sand dunes loom 120 feet above the beach, blanketed as far as the
+                  eye can see with tools, utensils and seafood leftovers &#8212; as if they were
+                  plopped down an hour ago.</p>
+               <p>"The whole culture is just kind of laying here, if you know how to read it," says
+                     <persName type="author" key="#ssc">Schwartz</persName>.</p>
+               <p>Tiptoeing uphill between shells and artifacts to avoid crunching history,
+                        <rs><persName type="author" key="#ssc">the archeologist</persName></rs>
+                  leans over and picks up part of an abalone shell with a doughnut hole-sized gap in
+                  the middle. "It's a fish hook blank," he says. <rs><persName type="nativeamerican"
+                        key="#lw">The island woman</persName></rs> would have worked it down from
+                  the hole into a j-shaped hook.</p>
+               <p>A prize 10-inch stone pestle more than 1,000 years old sits undisturbed on the
+                  sand. <persName type="author" key="#ssc">Schwartz</persName> picks up a bone tool
+                  of a type <rs><persName type="author" key="#lw">the woman</persName></rs> would
+                  have used for prying abalone meat from its shell. Most of the materials date from
+                  AD 700 to 800. The dinnerware is here too: mortars that served the fare. "Seasoned
+                  archeologists say they see more in one day here than they have in a 20-year
+                  career," <persName type="author" key="#ssc">Schwartz</persName> says, grinning
+                  atop one of 538 archeological sites on <rs><placeName type="island" key="#i_sn"
+                        >his treasure isle</placeName></rs>, owned and protected by <orgName
+                     type="military" key="#mi_navy">the U.S. Navy</orgName>.</p>
+               <p><persName type="author" key="#ssc">Schwartz</persName> says that <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> fished and foraged
+                  the tidal pools and grasses. She may have hunted sea mammals or found them already
+                  dead on the beach. A 2-foot-long section of vertebrae hints at part of the Lone
+                  Woman's diet. The bones are from a dolphin spine. <persName type="author"
+                     key="#ssc">Schwartz</persName> speculates that the hill was used for spotting
+                  dolphin schools offshore.</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Pyrrhic rescue</hi></title></head>
+               <p><rs><persName type="author" key="#lw"><hi rend="bold">T</hi>HE
+                     WOMAN</persName></rs> forged on &#8212; five, 10, 17 years &#8212; alone but
+                  not entirely forgotten. <title type="article" key="#McDougall1890">The
+                     journal</title> of <rs><persName type="author" key="#mjmc">a
+                        passenger</persName></rs> who sailed to <placeName type="region"
+                     key="#re_norcal">Northern California</placeName> during the Gold Rush fever of
+                     <date when="1849">1849</date> [<date when="1890">1890</date>], for instance,
+                  described <rs><placeName type="island" key="#i_sn">a Channel
+                     Island</placeName></rs> "on which there is <rs><persName type="nativeamerican"
+                        key="#lw">a lone woman</persName></rs> living."</p>
+               <p>In the <date notBefore="1852-03" notAfter="1852-05">spring of 1852</date>
+                  <rs><persName type="group" key="#tje; 
+                  #natam_missionindians">a
+                        hunting party</persName></rs> led by Santa Barbara hunter <persName
+                     type="frontiersman" key="#gni">George Nidever</persName> set off for <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> in search of gull eggs and
+                  sea otters. He didn't find any eggs, but he did stumble onto footprints on the
+                  beach and pieces of dried seal blubber hanging from poles. Tantalized, <persName
+                     type="frontiersman" key="#gni">Nidever</persName> went back to <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>
+                  <rs><date when="1852">later in the year</date></rs> and discovered more clues:
+                  fresh footprints and a basket someone had placed in a bush.</p>
+               <p>Rough seas drove him back to <placeName type="region" key="#re_mld">the
+                     mainland</placeName> without finding <rs><persName type="nativeamerican"
+                        key="#lw">the castaway</persName></rs>. He was now convinced, though, that
+                        <rs><persName type="nativeamerican" key="#lw">one very resourceful
+                        woman</persName></rs> was still alive somewhere on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>.</p>
+               <p>Fired up by the new evidence, <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">Santa Barbara
+                     missionaries</persName></rs> pressed <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> to go back and find her. His team arrived in <date
+                     when="1853">1853</date>. One of his men, <persName type="frontiersman"
+                     key="#cdi">Carl Dittman</persName>, was combing the northwest dunes when he saw
+                  what he said looked like "<title type="manuscript" key="#Dittman1878">a small
+                     black object about the size of a crow, which seemed to be in motion.</title>"
+                     <span type="trope" n="14">As he approached, the crow grew and changed colors.
+                     In fact, the greenish feathers came from a much larger bird, a cormorant, and
+                     this one seemed to have arms, not wings.</span></p>
+               <p><span type="trope" n="14">As <persName type="frontiersman" key="#cdi"
+                        >Dittman</persName> watched, <rs><persName type="nativeamerican" key="#lw">a
+                           woman</persName></rs> appeared from beneath the feathers.</span></p>
+               <p>"<title type="manuscript" key="#Dittman1878"><span type="trope" n="14">I didn't
+                        know if she would bite or scratch</span></title>," <span type="trope" n="14"
+                     >he said later.</span> "<title type="manuscript" key="#Dittman1878"><span
+                        type="trope" n="14">She had a brush fence about 2 feet high to break the
+                        wind, and right in front she sat facing me. She was skinning a seal before I
+                        came up to her.</span></title>"</p>
+               <p><persName type="frontiersman" key="#gni">Nidever</persName> reported passing two
+                  growling dogs on his way up to the dune. silenced them with a command. She put the
+                  seal aside and gestured for <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> and <rs><persName type="group"
+                        key="#cdi; 
+                        #col; #cook; #msh; #poli; #nsk; 
+                        #natam_missionindians"
+                        >his men</persName></rs> to share roots around the fire in her hut.</p>
+               <p><rs><persName type="group"
+                        key="#gni; #cdi; 
+                  #col; #cook; #msh; #poli; #nsk; 
+                  #natam_missionindians"
+                        >The crew</persName></rs> included <rs><persName type="group"
+                        key="#cook; #msh; #poli; #nsk; #hva">a couple of Native
+                     Americans</persName></rs>, most likely <orgName type="nativeamericantribes"
+                     key="#natam_Chumash">Chumash</orgName>, who couldn't understand the woman's
+                  language. Still, she seemed ecstatic to have company. Having no doubt stored
+                  plenty of topics for conversation, she "jabbered to herself," <persName
+                     type="frontiersman" key="#gni">Nidever</persName> said.</p>
+               <p>"<rs><persName type="nativeamerican" key="#lw">The old woman</persName></rs> was
+                  of medium height, but rather thick," he reported. "She must have been about 50
+                  years old, but she was still strong and active. Her face was pleasing as she was
+                  continually smiling. Her teeth were entire but worn to the gums."</p>
+               <p>Making friends easily, she joined in with chores around the camp, as <rs><persName
+                        type="group"
+                        key="#gni; #cdi; 
+                  #col; #cook; #msh; #poli; #nsk; 
+                  #natam_missionindians"
+                        >the men</persName></rs> spent three weeks hunting otter. When it came time
+                  to leave, she gathered every scrap of her possessions &#8212; a necklace, fish
+                  hooks, a bone needle, awl, stone mortar rope, and all available food, including a
+                  rotting seal's head with brains spilling out. And then the winds that had swirled
+                  through millennia of hut-building and fishing parties snapped the sails of
+                        <rs><name type="ship" key="#sh_nidever">the schooner</name></rs> and swept
+                        <rs><persName type="nativeamerican" key="#lw">the last native of the Channel
+                        Islands</persName></rs> to the world beyond the horizon. She clapped and
+                  danced without a trace of self-consciousness &#8212; one benefit of isolation
+                  &#8212; as <placeName type="region" key="#re_mld">the mainland</placeName> drew
+                  near.</p>
+               <p>News of the rescue raced through the small town of <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>. Residents flocked to see her at
+                     <placeName key="#nideverhouse">Nidever's home</placeName>. But no local Indian
+                  could decipher her dialect. Some scholars would later contend that this proved she
+                  was a descendant of <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak"
+                        >the Alaskan otter hunters</orgName></rs>. At Schwartz's suggestion,
+                  however, <rs><persName key="#pmu">a UCLA linguistics professor</persName></rs>
+                  recently investigated, focusing on four words <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs> spoke to one of her rescuers. <span
+                     type="trope" n="6">The linguist's study suggests that the woman's language was
+                     similar to those of natives closer to <placeName type="city" key="#ci_sd">San
+                        Diego</placeName> and <rs><placeName type="island" key="#i_southernchi">the
+                           southern Channel Islands</placeName></rs> &#8212; <orgName
+                        type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                        >Gabrieleño</orgName> or <orgName type="nativeamericantribes"
+                        key="#natam_Luisenos">Luiseño</orgName> &#8212; evidence that <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> was a native
+                        <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Nicoleño</orgName>. <rs><persName type="nativeamerican" key="#lw">The last
+                           of a once-thriving culture</persName></rs>.</span></p>
+               <p>Language gap aside, <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was gregarious and clearly enjoyed the attention,
+                  signing and dancing for her audiences. She marveled at horses, ox carts, clothes
+                  and mostly the food, gorging on fresh fruit.</p>
+               <p>But in a twist out of Greek tragedy, <rs><persName type="nativeamerican" key="#lw"
+                        >the woman</persName></rs> whom <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the mission</orgName></rs> named Juana Maria
+                  came down with dysentery and within two weeks of leaving <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, she died.</p>
+               <p>"She lasted <rs><date from="1835" to="1853">18 years</date></rs> on <rs><placeName
+                        type="island" key="#i_sn">an island</placeName></rs> by herself but only two
+                  weeks when she got back to 'civilization,'" says <persName type="author"
+                     key="#jjo">John Johnson</persName>, archeology curator at the <orgName
+                     type="museum" key="#mu_sbmuseum">Santa Barbara Museum of Natural
+                     History</orgName> and an expert on local Native American cultures. "There's a
+                  lesson there."</p>
+               <p>A legacy too. Surrounded by the tools, pendants and household appliances of the
+                  society that helped one rugged individual to survive, <persName type="author"
+                     key="#ssc">Schwartz</persName> knows there's something even worse than the
+                  loneliness of a single soul. It's a culture that is missing a part of itself. As
+                  he stands jacket flapping on the dunes, he knows that <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the woman's
+                        people</orgName></rs> were also ours.</p>
+            </div>
+            <div>
+               <p><emph><persName type="author" key="#jro">Joe Robinson</persName> is author of
+                     "Work to Live."</emph></p>
+               <p><emph>The cover collage by <persName key="#sti">Susan Tibbles</persName> includes
+                     a photo of an Indian woman whose identity remains a mystery. Some say she may
+                     be <rs><persName type="nativeamerican" key="#lw">the Lone Woman of San Nicolas
+                           Island</persName></rs>, but experts say this isn't true.</emph></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

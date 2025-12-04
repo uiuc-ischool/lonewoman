@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                     Times</orgName></title>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <editor/>
+               <publisher/>
+               <date when="2004-06-15"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName><placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Robinson2004-Adrift">Adrift in a Sea of
+                     Fiction</title>
+                  <author><persName type="author" key="#jro">Robinson, Joe</persName></author>
+                  <biblScope unit="page" n="F5"/>
+               </bibl></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="column"><hi rend="bold">MEDIA</hi></title></head>
+            <head><title type="main"><hi rend="bold">Adrift in a sea of fiction</hi></title></head>
+            <p><hi rend="bold">T</hi>HE best-known castaways &#8212; <persName key="#tha">Tom
+                  Hanks</persName> and his volleyball, for example, and <name type="fictional"
+                  key="#rcr">Robinson Crusoe</name> &#8212; come from the world of make-believe. One
+               way to tolerate the idea of enduring years without human contact, apparently, is to
+               fictionalize it. <persName type="author" key="#dde">Daniel Defoe</persName>
+               transformed Scotsman <persName type="seaman" key="#ase">Alexander Selkirk</persName>,
+               who spent <rs><date from="1705" to="1709-02-02">four years</date></rs> on
+                     <rs><placeName type="island" key="#i_jf">an island off Chile</placeName></rs>,
+               into <name type="fictional" key="#rcr">Crusoe</name> &#8212; and gave him <rs><name
+                     type="fictional" key="#friday">a sidekick</name></rs> for company. In <rs><date
+                     notBefore="1960" notAfter="1965">the early 1960s</date></rs>, <persName
+                  type="author" key="#sod">Scott O'Dell</persName> converted the Lone Woman's tale
+               into a popular children's novel, "Island of the Blue Dolphins."</p>
+            <p>This idealized version, about <rs><persName type="group" key="#lw; #kar">a stranded
+                     girl</persName></rs> who makes friends with the animals on <rs><placeName
+                     type="island" key="#i_sn">her island</placeName></rs>, is a long-running hit on
+               the elementary school circuit, where two generations of fourth-graders have followed
+               her adventures. O'Dell's weaving of fact and fable fools many.</p>
+            <p>"Professional people who think they know all there is to know about the <placeName
+                  type="island" key="#i_chi">[Channel] islands</placeName> think the 'Blue Dolphin'
+               story is true," says <placeName type="island" key="#i_sn">San Nicolas</placeName>
+               archeologist <persName type="author" key="#ssc">Steven Schwartz</persName>. "I've
+               gone on the Web . . . and you can get all kinds of things about how that book is how
+               it happened. It is so untrue. A lot of the information we know came out after the
+               book."</p>
+            <p><span type="trope" n="9"><persName type="author" key="#sod">O'Dell</persName> uses
+                  the legend's dramatic dive overboard as a central device &#8212; in this case,
+                        <rs><name type="fictional" key="#kar">the girl</name></rs> goes back for
+                        <rs><name type="fictional" key="#ram">her brother</name></rs>.</span> In the
+               novel, <orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Nicoleños</orgName> flee to avoid the arrival of <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                     >vicious otter hunters</persName></rs>, who did play a role on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, just not this one.
+                     <rs><name type="fictional" key="#kar">The girl</name></rs> suffers many trials
+               but is eventually rescued. She lives on to star in a sequel, "Zia."</p>
+            <p><persName type="author" key="#ssc">Schwartz</persName> knows he's up against a
+               gripping narrative.</p>
+            <p>"When people want me to talk, they're always so disappointed, because I just give
+               them the facts."</p>
+            <byline> &#8212;<persName type="author" key="#jro">JOE ROBINSON</persName></byline>
+         </div>
+      </body>
+   </text>
+</TEI>

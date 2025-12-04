@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph" key="#Roberts1947">The Lone Woman of San Nicolas: A Tale of
+                  Mission Santa Barbara</title>
+               <publisher><orgName type="publisher" key="#stanpress">Stanford University
+                     Press</orgName></publisher>
+               <editor/>
+               <date when="1948"/>
+               <pubPlace><placeName type="city" key="#ci_london">London</placeName>, <placeName
+                     type="country" key="#co_eng">England</placeName></pubPlace><biblScope
+                  unit="page" from="3" to="31"/>
+               <bibl>
+                  <title type="monograph" key="#Roberts1947">The Lone Woman of San Nicolas: A Tale
+                     of Mission Santa Barbara</title>
+                  <biblScope unit="page" from="1" to="31"/>
+                  <author><persName type="author" key="#hro">Roberts, Helen M.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="monograph">
+            <div type="section">
+               <head><title type="section"/>INTRODUCTION</head>
+               <p>THIS is the story of <rs><persName type="nativeamerican" key="#lw">a lone Indian
+                        woman</persName></rs> who was marooned on <rs><placeName type="island"
+                        key="#i_sn">a bleak island</placeName></rs> in <placeName type="region"
+                     key="#re_sbchannel">the Santa Barbara Channel</placeName>. She was rescued
+                  after <rs><date from="1835" to="1853">many years</date></rs>, and when she at last
+                  reached <placeName type="mission" key="#mi_sb">Mission Santa Barbara</placeName>
+                  she found both joy and sorrow within its shelter.</p>
+               <p><orgName type="mission" key="#mi_santabarbaramission">Mission Santa
+                     Barbara</orgName> was founded <rs><date when="1786">nearly seventy years
+                        earlier</date></rs>. From the gentle slopes of the <rs><placeName
+                        type="region" key="#re_santaynezmts">Santa Ines Mountains</placeName></rs>,
+                        <rs><orgName type="mission" key="#mi_santabarbaramission">this tenth
+                        Mission</orgName></rs>, the "<rs><orgName type="mission"
+                        key="#mi_santabarbaramission">Queen of the Missions</orgName></rs>,"
+                  overlooks <rs><placeName type="region" key="#re_pacific">the
+                     ocean</placeName></rs> and <rs><placeName type="island" key="#i_chi">the
+                        distant islands of the Santa Barbara Channel</placeName></rs>.</p>
+               <p>Very soon after its founding, <orgName type="nativeamericantribes"
+                     key="#natam_chumash">Chumash Indians</orgName> came to <rs><placeName
+                        type="mission" key="#mi_sb">the Mission</placeName></rs> in large numbers.
+                  Under the padres' skillful training they learned to build their own adobe houses,
+                  which they whitewashed neatly inside and out. Their Indian village was arranged
+                  around a large plaza, where <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the children and young people</orgName></rs>
+                  learned to garden. <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">The older Indians</orgName></rs>, too, learned
+                  many valuable skills&#8212;carpentering, tanning, weaving, sewing, gardening, and
+                  cattle raising. Altogether, six hundred <orgName type="nativeamericantribes"
+                     key="#natam_chumash">Chumash Indians</orgName> worked faithfully under the
+                  guidance of <rs><orgName type="missionfathers" key="#misfats">the
+                     padres</orgName></rs>.</p>
+               <p>Building activity at <placeName type="mission" key="#mi_sb">Mission Santa
+                     Barbara</placeName> was a continuous process. New and larger structures were
+                  built to replace the earlier ones. After <persName type="seaman" key="#gva"
+                     >Captain Vancouver</persName> visited <rs><placeName type="mission"
+                        key="#mi_sb">the Mission</placeName></rs> in <date when="1793">1793</date>,
+                  he wrote in his book that he considered <rs><placeName type="mission" key="#mi_sb"
+                        >Santa Barbara</placeName></rs> the best-constructed and the best-kept of
+                  all <orgName type="mission" key="#mi_mainlandmissions">the Missions</orgName> he
+                  had seen. At a still later period, the fourth church was constructed. This is the
+                  church which is widely known and admired today. Its six-foot-thick sandstone walls
+                  are crowned with two massive bell towers. The beauty and grandeur of
+                        <rs><placeName type="mission" key="#mi_sb">this Mission
+                     building</placeName></rs> have influenced architecture even beyond borders of
+                     <placeName type="state" key="#st_cal">California</placeName>.</p>
+               <p>Still other structures at <placeName type="mission" key="#mi_sb">Mission Santa
+                     Barbara</placeName> have endured for more than a century. A large reservoir
+                  which collected water from the hills is still in use. The beautiful fountain where
+                        <rs><persName type="nativeamerican" key="#lw">Juana</persName></rs> looked
+                  at her reflection continues to flow today. But standing empty and unused is the
+                  long basin where <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the Indian women</orgName></rs> formerly washed
+                  their clothes and rinsed them in fresh water spouting from a cement bear's
+                  head.</p>
+               <p><orgName type="mission" key="#mi_santabarbaramission">Mission Santa
+                     Barbara</orgName> had its difficult period too. When news came that <persName
+                     key="#bouc">the pirate Bouchard</persName> was within a few miles of
+                        <rs><placeName type="mission" key="#mi_sb">this Mission</placeName></rs>,
+                  soldiers and <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >Indians</orgName></rs> prepared to defend it, but he did not attack.
+                  <!--when?-->A few years later, enemy Indians attacked it in force. Fires swept
+                  over the hills, burned the trees, threatened <rs><placeName type="mission"
+                        key="#mi_sb">the Mission</placeName></rs>, and blackened its vineyards. At
+                  another time there was a drought so serious that the people marched through the
+                  streets and prayed for rain.</p>
+               <p>One of the greatest blows to <orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission Santa Barbara</orgName>, as well as to <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">the other Missions</orgName></rs>, was the decree
+                  of secularization. <rs><date notBefore="1831" notAfter="1841">About ten years
+                        after <placeName type="country" key="#co_mexico2">Mexico</placeName> became
+                        an independent nation</date></rs>, the new government decided on a plan
+                  which would remove the <rs><orgName type="mission" key="#mi_mainlandmissions"
+                        >California Missions</orgName></rs> from the control of <rs><orgName
+                        type="church" key="#ch_catholic">the Church</orgName></rs>. The first step
+                  was to "free" <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >the Indians</orgName></rs> from the padres' rule. But when <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">few
+                        Indians</orgName></rs> seemed eager for this "freedom," another step was
+                  taken. Only <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >Indians</orgName></rs> who were free would be allowed to vote in their
+                  village election. Because most of <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the Indians</orgName></rs> were devoted to
+                        <rs><orgName type="missionfathers" key="#misfats">the padres</orgName></rs>,
+                  even this decree had little effect.</p>
+               <p>In the following year, <date when="1834">1834</date>, the actual decree of
+                  secularization was passed. This act provided that <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">the
+                        Indians</orgName></rs> and <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">the Mission property</orgName></rs> were to be
+                  removed from the control of <rs><orgName type="missionfathers" key="#misfats">the
+                        Franciscan padres</orgName></rs>. Administrators, or "secular" officials,
+                  were then to govern both <rs><orgName type="mission" key="#mi_mainlandmissions"
+                        >the Missions</orgName></rs> and <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the Indians</orgName></rs>. Inventories were
+                  taken at <rs><orgName type="mission" key="#mi_mainlandmissions">all the
+                        Missions</orgName></rs>, and the new officials in charge received salaries
+                  which were paid out of the Missions' earnings. Mexican padres were to replace
+                        <rs><orgName type="mission" key="#mi_mainlandmissions">the Spanish
+                        Franciscans</orgName></rs>. Under this secular control, both <rs><orgName
+                        type="missionfathers" key="#misfats">the padres</orgName></rs> and
+                        <rs><orgName type="nativeamericantribes" key="#natam_missionindians">the
+                        poor Mission Indians</orgName></rs> suffered. <rs><placeName type="mission"
+                        key="#mi_sb">Mission buildings and ranches</placeName></rs> were sadly
+                  neglected, and <rs><orgName type="mission" key="#mi_santabarbaramission"
+                        >Mission</orgName></rs> prosperity gradually came to an end.</p>
+               <p>During this difficult period, however, <rs><persName type="missionfather"
+                        key="#sanchez">a new padre</persName></rs> came to <placeName type="mission"
+                     key="#mi_sb">Mission Santa Barbara</placeName> in the company of <persName
+                     type="missionfather" key="#fmo">Bishop Diego, California's first
+                     bishop</persName>. This young Mexican priest, <persName type="missionfather"
+                     key="#sanchez">Father Francisco Sanchez</persName>, was a man of unusual zeal
+                  and devotion. For <rs><date from="1842" to="1884">forty-two years</date></rs> he
+                  worked among California's Indians and Mexicans. Today he is probably better known
+                  readers of <emph>Ramona</emph> as Father Salvierderra, a man beloved by all. In
+                     <date when="1853">1853</date>, when <rs><persName type="nativeamerican"
+                        key="#lw">the Lone Woman of San Nicolas</persName></rs> reached <placeName
+                     type="mission" key="#mi_sb">Mission Santa Barbara</placeName>, it was this same
+                  understanding <persName type="missionfather" key="#sanchez">Father
+                     Sanchez</persName> who welcomed her and later baptized her at <rs><placeName
+                        type="mission" key="#mi_sb">the Mission</placeName></rs> which had sheltered
+                  many of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        people</orgName></rs>.</p>
+            </div>
+            <div type="section">
+               <p><orgName type="mission" key="#mi_santabarbaramission">MISSION SANTA
+                     BARBARA</orgName></p>
+               <p>CALENDAR</p>
+               <p><date when="1786">1786</date> Founding of <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the Mission</orgName></rs>, December 4</p>
+               <p><date when="1820">1820</date> Dedication of the present church</p>
+               <p><date when="1834">1834</date> Secularization</p>
+               <p><date when="1842">1842</date> Arrival of <persName type="missionfather"
+                     key="#sanchez">Father Sanchez</persName></p>
+               <p><date when="1846">1846</date> Sale of <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the Mission</orgName></rs></p>
+               <p><date when="1865">1865</date> Return of <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">the Mission</orgName></rs> to the <orgName
+                     type="church" key="#ch_catholic">Catholic Church</orgName></p>
+            </div>
+            <div type="section">
+               <head><title type="section"><rs><persName type="nativeamerican" key="#lw">THE LONE
+                           WOMAN OF SAN NICOLAS</persName></rs></title></head>
+               <p>THE cold gray fog settled down over <placeName type="island" key="#i_sn">the rocky
+                     island of San Nicolas</placeName>, farthest westward of the <placeName
+                     type="island" key="#i_chi">Santa Barbara Channel Islands</placeName>. <name
+                     type="fictional" key="#gelma">Gelma</name> stood on the beach and shivered.
+                  Even her cloak of smooth sea-otter skin could not shut out the cold and dampness
+                  of such a day. She stared at the cliff where breakers were dashing high above the
+                  jagged rocks, adding their constant pounding roar to the screeching of sea
+                  gulls.</p>
+               <p>"If only the sun would shine!" <name type="fictional" key="#gelma">Gelma</name>
+                  said to <rs><name type="fictional" key="#gsister">her sister</name></rs>. "When I
+                  see nothing but fog day after day, I am restless and unhappy."</p>
+               <p><rs><name type="fictional" key="#gsister">The older Indian woman</name></rs>
+                  touched Gelma's arm and pointed seaward. "Look!" she urged. "The fog is drifting
+                  now. Maybe it will blow away and you can have your sunshine. All of us will be
+                  happier if the sun shines."</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> noticed a tiny patch of water
+                  where blue waves danced and sparkled in a shaft of light. Suddenly the patch
+                  widened, showing the sunlight which soon flooded the island with its warmth. And
+                  offshore, tossing about on the choppy waves was a small boat.</p>
+               <p>"A boat! A boat!" shouted <name type="fictional" key="#gelma">Gelma</name>.</p>
+               <p><rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Indians</orgName></rs> hurried out of their huts to see the welcome sight.
+                     <name type="fictional" key="#gelma">Gelma</name> darted into her hut and
+                  carried <rs><persName type="nativeamerican" key="#gjuan">her small
+                     boy</persName></rs> to the shore to watch the arrival of the rowboat. As it
+                  came closer she could see several people. <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">Indians</orgName></rs> were rowing the boat, but
+                        <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >three white men</persName></rs> were in it too.</p>
+               <p>"Those are not Russians," said <name type="fictional" key="#gelma">Gelma</name>,
+                  surprised.</p>
+               <p>"They are strangers," agreed <rs><name type="fictional" key="#gsister">her
+                        sister</name></rs>. "<orgName type="organization" key="#rfurcompany">Russian
+                     fur traders</orgName> said they would never come here again. But perhaps these
+                  palefaces are traders too.</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> watched the village children
+                  shouting and laughing as they ran along the narrow strip of sandy beach. Even one
+                  day of sunshine brought joy to young and old alike. And now, visitors! She put
+                        <rs><persName type="nativeamerican" key="#gjuan">her small
+                     son</persName></rs> down on the beach and wished for his sake that all the days
+                  could be warm and bright like this one.</p>
+               <p>As the rowboat nosed up on the beach, <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">Indians</orgName></rs> crowded around it.
+                  Children tumbled into it and climbed out again, carrying strange fruits in their
+                  brown hands. <rs><name type="fictional" key="#indian6">One of the
+                     Indians</name></rs> who had come in the boat spoke for <rs><persName
+                        type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the white men</persName></rs> in a language that <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        islanders</orgName></rs> could partly understand.</p>
+               <p>"We come from <orgName type="mission" key="#mi_mainlandmissions"
+                     >Missions</orgName> on <rs><placeName type="region" key="#re_mld"
+                        >mainland</placeName></rs>," he said slowly.</p>
+               <p>At first <name type="fictional" key="#gelma">Gelma</name> did not pay much
+                  attention to his words. She did not understand "<orgName type="mission"
+                     key="#mi_mainlandmissions"> Missions</orgName>." She was far more interested in
+                  the bright clothes <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the Indians</orgName></rs> were wearing. Gaily
+                  striped blankets were wrapped around their shoulders covering most of their
+                  clothes except the blue-gray trousers. It was not until <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">the strange
+                        Indians</orgName></rs> offered fruit to <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        islanders</orgName></rs> that <name type="fictional" key="#gelma"
+                     >Gelma</name> became really interested in their explanations.</p>
+               <p>"At <rs><orgName type="mission" key="#mi_mainlandmissions">Missions</orgName></rs>
+                  we grow beautiful fruit&#8212;apples, peaches, plums, pears, and oranges." The
+                  man's words were not so interesting as the sweet fruit he offered. Except for an
+                  occasional wild berry, this fruit was the first that <name type="fictional"
+                     key="#gelma">Gelma</name> had ever tasted. She ate one piece hungrily, then
+                  reached for another to give to <rs><persName type="nativeamerican" key="#lwchild"
+                        >her little boy</persName></rs>.</p>
+               <p>"What are <rs><orgName type="mission" key="#mi_mainlandmissions">these
+                        Missions</orgName></rs>?" asked <rs><name type="fictional" key="#gchief">the
+                        chief of the island</name></rs>. "Tell us more!"</p>
+               <p><rs><name type="fictional" key="#indian6">The visiting Indian</name></rs> looked
+                  around him and pointed to <rs><placeName type="island" key="#i_sn">the barren
+                        island</placeName></rs> where few trees grew and where huts were made of
+                  whale skeletons covered with furs. "At <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">Missions</orgName></rs> are warm huts,
+                  comfortable beds, plenty of food three times a day."</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> sighed. Was it possible that any
+                  place had such good things? "Does sun shine at <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">Missions</orgName></rs>?" she asked, trembling at
+                  her own boldness.</p>
+               <p><rs><name type="fictional" key="#indian6">The strange Indian</name></rs> nodded
+                  and smiled. "Sun all year long," he promised. "<rs><placeName type="mission"
+                        key="#mi_sb">Wonderful church</placeName></rs> and <rs><orgName
+                        type="missionfathers" key="#misfats">gray-robed padres</orgName></rs>.
+                  Beautiful music!</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> shook her head, not understanding
+                  about <rs><placeName type="mission" key="#mi_sb">the church</placeName></rs> and
+                        <rs><orgName type="missionfathers" key="#misfats">the padres</orgName></rs>.
+                  She wondered about the music too. There was little music on <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName>, and that little was
+                  mournful and shrill. But at that moment <rs><name type="fictional" key="#indian7"
+                        >one of the Indians</name></rs> and <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the white men</persName></rs> began to sing a joyous song. <rs><name
+                        type="fictional" key="#indian6">The other Indian</name></rs> took something
+                  shiny from the bottom of the boat, held it to his lips, and played sweet music
+                  that made <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        islanders</orgName></rs> long to dance.</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> needed nothing more to persuade
+                  her to go away to <rs><placeName type="region" key="#re_mld">the
+                        mainland</placeName></rs>, but it was not her place to speak. She had
+                  nothing to say about what <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">her people</orgName></rs> would do. The
+                        <rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission</orgName></rs> song ended far too soon to suit her. Then <rs><name
+                        type="fictional" key="#gchief">the island chief</name></rs> spoke simply.
+                  "Do <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >Indians</orgName></rs> live at <rs><placeName type="mission" key="#mi_sb"
+                        >this Mission</placeName></rs>?"</p>
+               <p><rs><name type="fictional" key="#indian6">The first Mission Indian</name></rs>
+                  answered, "Hundreds of <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">Indians</orgName></rs> live there! <rs><persName
+                        type="group" key="#aji; #ndur; #misfats">Padres</persName></rs> sent us here
+                  to ask you to come and join us."</p>
+               <p>"We play much but we work too," <rs><name type="fictional" key="#indian7">the
+                        other</name></rs> added eagerly.</p>
+               <p><rs><name type="fictional" key="#gchief">The Chief</name></rs> called <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the men of the
+                        village</orgName></rs> into his hut for a council meeting. <name
+                     type="fictional" key="#gelma">Gelma</name> listened anxiously to the voices
+                  which were louder than usual. She smiled when <rs><name type="fictional"
+                        key="#gchief">the Chief</name></rs> announced solemnly, "We go to
+                        <rs><placeName type="mission" key="#mi_sb">Mission</placeName></rs>."</p>
+               <p><rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">All the
+                        islanders</orgName></rs> began to crowd closer to the boat until
+                        <rs><orgName type="nativeamericantribes" key="#natam_missionindians">the
+                        Mission Indians</orgName></rs> waved them back. "Wait! they shouted. "We
+                  must return to <rs><name type="ship" key="#sh_peoresnada">our ship</name></rs>,
+                  which is anchored offshore. Then we can bring another rowboat. We have room for
+                  only a few this time. While we are gone, get ready everything you wish to take
+                  with you!" But <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Indians</orgName></rs> refused to go until
+                  they could all leave <rs><placeName type="island" key="#i_sn">their
+                        island</placeName></rs> at once.</p>
+               <p>After the boat had disappeared into the fog, <rs><name type="fictional"
+                        key="#gchief">the Chief</name></rs> called <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">his
+                     people</orgName></rs> together for a few minutes. "Pack only what you really
+                  need!" he ordered. <span type="trope" n="13">"But leave nothing of value behind
+                     you for <orgName type="organization" key="#rfurcompany">Russian fur
+                        traders</orgName> to steal."</span></p>
+               <p><name type="fictional" key="#gelma">Gelma</name> took <rs><persName
+                        type="nativeamerican" key="#lwchild">her little boy</persName></rs>, hurried
+                  to her sister's hut, and began sorting furs and baskets of food. "Always
+                  sunshine," she murmured. "Warm days, good food, and wonderful music." She was so
+                  happy that she tried to sing the chant <rs><name type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans; #indian6; #indian7"
+                        >the strangers</name></rs> had sung.</p>
+               <p>"Why, <name type="fictional" key="#gelma">Gelma</name>!" <rs><name
+                        type="fictional" key="#gsister">her sister</name></rs> said. "You are
+                  singing for the first time in many years."</p>
+               <p>Gelma's eyes grew bright. "I am happy for <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">all of us</orgName></rs>, but mostly for
+                        <rs><persName type="nativeamerican" key="#gjuan">the little
+                     one</persName></rs>."</p>
+               <p><rs><name type="fictional" key="#gsister">The older woman</name></rs> sorted her
+                  few belongings while <rs><name type="group" key="#gschild; #gsgirl">her
+                        children</name></rs> danced in and out of the hut. Never before had there
+                  been such great excitement on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName>. At last <rs><name type="fictional" key="#gschild">one of
+                        the children</name></rs> shouted shrilly, "The boats are coming!"</p>
+               <p><rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">The
+                        villagers</orgName></rs> hurried to the beach to watch. When the boats were
+                  close to the shore, <rs><name type="fictional" key="#gchief">the Chief</name></rs>
+                  gave final orders to <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">his people</orgName></rs>. "Bring all your
+                  supplies to the beach! And toss the fur coverings from your huts into the
+                  sea."</p>
+               <p>Now that <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> were ready to leave <rs><placeName type="island"
+                        key="#i_sn">the only home they had ever known</placeName></rs>, they were
+                  silent&#8212;all but <name type="fictional" key="#gelma">Gelma</name>, who felt
+                  nothing but joy over leaving <rs><placeName type="island" key="#i_sn">the dismal
+                        island</placeName></rs>. "Take this pile of furs for <rs><persName
+                        type="nativeamerican" key="#gjuan">my baby</persName></rs>," she said to
+                        <rs><name type="fictional" key="#gsgirl">her sister's oldest
+                     child</name></rs>.</p>
+               <p>"No!" cried <rs><name type="fictional" key="#gsgirl">the girl</name></rs>. "I'll
+                  take care of <rs><persName type="nativeamerican" key="#lwchild">your little
+                        boy</persName></rs>!"</p>
+               <p>At that moment the boats reached shore. "Hurry!" cried <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">the Mission
+                        Indians</orgName></rs>. "A storm is coming! No time to lose! We'll help
+                  you!"</p>
+               <p>The soldiers showed <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Indians</orgName></rs> where to sit in the
+                  bottom of the boat. They pushed women and frightened children into their places.
+                  Suddenly <name type="fictional" key="#gelma">Gelma</name> remembered the good furs
+                  still covering the whale-bone hut. She and <rs><name type="fictional"
+                        key="#gsister">her sister</name></rs> were both widows with no man to help
+                  them. She ran back to the hut. In a moment she had stripped off the furs and
+                  tossed them into the sea. She was glad to see the breakers snatch them away where
+                     <orgName type="organization" key="#rfurcompany">no trader</orgName> would get
+                  them. By the time she returned to the beach, the first boat had pushed away from
+                  shore. As she stopped to pick up her supplies, impatient hands pushed her into the
+                  other boat.</p>
+               <p>Separated now from <rs><name type="group"
+                        key="#gsister; #gschild; #gsgirl; #natam_NicolenoTongva">her sister's
+                        family</name></rs> and <rs><persName type="nativeamerican" key="#gjuan">her
+                        child</persName></rs>, <name type="fictional" key="#gelma">Gelma</name> was
+                  frightened among so many strangers. The waves through which they were rowing grew
+                  higher with every passing moment. The fog banks were shifting across the blue-gray
+                  water and shutting out both the other boat and <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> from sight.</p>
+               <p>With one hand <name type="fictional" key="#gelma">Gelma</name> clung tightly to
+                  her package of furs, and with the other she gripped the edge of the boat. To calm
+                  her fears she thought of the perfect days ahead when she and <rs><persName
+                        type="nativeamerican" key="#lwchild">her son</persName></rs> would enjoy the
+                  warm sunshine and the fine <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">Mission</orgName></rs> food.</p>
+               <p>At last the rowboat drew close to <rs><name type="ship" key="#sh_peoresnada">the
+                        large, winged ship</name></rs>. <name type="fictional" key="#gelma"
+                     >Gelma</name> was the first to climb on board and hurry to the wide deck.
+                  Standing beside <rs><persName type="group" key="#chu; #isp">the
+                     captain</persName></rs> she watched for the other boat to appear out of the
+                  fog. Even before she caught a glimpse of it, she heard screams she recognized.
+                  Then she saw the crowded boat and <rs><name type="fictional" key="#gsister">her
+                        sister</name></rs> trying to quiet the screams of <rs><name type="fictional"
+                        key="#gsgirl">the little girl</name></rs>. But where was <rs><persName
+                        type="nativeamerican" key="#lwchild">Gelma's small boy</persName></rs>? What
+                  had happened to <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs>?</p>
+               <p>Gelma's heart was like lead. She shouted to <rs><name type="fictional"
+                        key="#gsister">her sister</name></rs>, but the little girl's screams drowned
+                  out her words. She shook the captain's arm. "Send a boat back! <rs><persName
+                        type="nativeamerican" key="#lwchild">My baby</persName></rs> has been left
+                  behind!" But <rs><persName type="group" key="#chu; #isp">the
+                     captain</persName></rs> only shook his head.</p>
+               <p><span type="trope" n="9">Panic gripped <name type="fictional" key="#gelma">the
+                        young mother</name>. There was no time to lose. If she waited, someone might
+                     stop her. She could not forsake <rs><persName type="nativeamerican"
+                           key="#gjuan">her child</persName></rs>. She ran to the other side of the
+                     ship, tore off her fur cloak and leaped into the water.</span></p>
+               <p><name type="fictional" key="#gelma">Gelma</name> was a strong young woman,
+                  toughened by years of struggle against nature. She swam easily enough for a short
+                  distance. But never before had she tried a long swim against mountainous waves and
+                  opposing tides. At first she swam breathlessly in a hurry to reach shore. But soon
+                  her breath came in gasps that forced her to rest. On and on she swam, steadily,
+                  wearily, carried off her course time after time.</p>
+               <p>Often <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was
+                  swallowed up in a fog bank, but she could tell the right direction by the booming
+                  of the breakers against the cliffs. At last a long, sweeping breaker lifted her
+                  and swept her high up on the shallow beach. There she lay, too beaten and bruised
+                  to be able to move for a long time.</p>
+               <p>Staggering, stumbling, she found her way to her hut. But she found no sign of
+                        <rs><persName type="nativeamerican" key="#gjuan">her child</persName></rs>.
+                  Blankets, food, and <rs><persName type="nativeamerican" key="#lwchild"
+                        >baby</persName></rs> were gone! She dragged herself out into the bitter
+                  cold evening. She called frantically for <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs>. Then she crept back inside the
+                  shelter and sank down in a heap.</p>
+               <p>All that night <name type="fictional" key="#gelma">Gelma</name> lay in a stupor.
+                  In the morning a streak of sunshine came through the fog and wakened her. She
+                  listened a moment for the sound of her baby's breathing, but she heard only the
+                  beating of her heart. All at once she clearly realized the dreadful truth. She was
+                  alone, alone on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName>, miles and miles away from <persName type="group"
+                     key="#bhagroup">her people</persName>.</p>
+               <p>Her grief, loneliness, and despair drove her screaming out of the hut. She raced
+                  up the rocky shore to a cliff. But there were only the sea gulls to scream back at
+                  her. Fog surrounded <rs><placeName type="island" key="#i_sn">her
+                        island</placeName></rs> like walls. She knew now that she was completely
+                  forsaken and that she should not expect anyone to come back for her.</p>
+               <p>Her screaming ceased. She was hungry and cold. She wandered from hut to hut. They
+                  were all deserted and empty. She could not find even a blanket or scrap of fur.
+                  There was no fire remaining in any of the huts. Because of a shortage of wood, the
+                  island houses had been made of parts of whale skeletons covered over with furs.
+                  But the furs were gone now, and the white bones of the wide open mouths were all
+                  that remained of the village. She pried some mussels away from rocks at the
+                  water's edge, scooped them out of their shells, and gulped them down raw.</p>
+               <p>"I must make fire to keep myself alive," she thought. "Without fire or clothing I
+                  will soon perish."</p>
+               <p>Patiently she gathered dried grasses and leaves. In the shelter of her whale-skull
+                  hut she ground them to a powder. For hours she twirled a stick around in a small
+                  hole, faster and faster, never giving up until a few sparks set fire to the
+                  powdery grass. She sighed a long, weary sigh. "Never can I let my fire go out,"
+                  she muttered to herself. "Now there is no one to help me. I must learn to depend
+                  upon myself and I must keep myself strong. Some day I may be rescued!"</p>
+               <p>Fortunately, that evening <name type="fictional" key="#gelma">Gelma</name> found a
+                  worn sea-otter skin, full of small holes which she patched from scraps cut from
+                  the ragged edges. It would last her a long time if she wore it only in the coldest
+                  weather.</p>
+               <p>When roots and shellfish became scarce on the island, <name type="fictional"
+                     key="#gelma">Gelma</name> thought of the foods at <rs><placeName type="mission"
+                        key="#mi_sb">the Mission</placeName></rs>&#8212;the juicy peaches, pears,
+                  and plums she had sampled. Sometimes in her dreams she was surrounded with mounds
+                  of food and <persName type="group" key="#bhagroup">her old friends</persName>, who
+                  were watching her eat it. Then her waking was still harder to bear.</p>
+               <p>When <name type="fictional" key="#gelma">Gelma</name> began to feel the cold
+                  wintry fogs, she wove grasses into a kind of skirt. But when the wind roared
+                  across <rs><placeName type="island" key="#i_sn">the island</placeName></rs> or the
+                  wet fog settled on it for days and weeks, there was not nearly enough warmth in
+                  her grass skirt and the worn skin cloak.</p>
+               <p><rs><name type="fictional" key="#gelma">The desolate Indian woman</name></rs>
+                  searched <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for
+                  any supplies that might have been left behind. She found a few flint knives and
+                  used them in making bone fishhooks and needles, and for digging roots. Every day
+                  she climbed up to the lookout rock, always with a faint hope that a ship might
+                  return for her.</p>
+               <p>Once when <name type="fictional" key="#gelma">Gelma</name> sighted a whale
+                  stranded in the shallow water, she shouted for the first time in many moons. She
+                  recalled those gay days long ago when all <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the islanders</orgName></rs> had cut and dried
+                  enough whale meat for the entire season. But with one knife and one pair of hands,
+                  only a small amount of meat could be cut. After a few days the odor of the rapidly
+                  spoiling meat along the shore sickened <name type="fictional" key="#gelma"
+                     >Gelma</name> until she could scarcely eat. But her hunger drove her on. She
+                  had to eat.</p>
+               <p>Years dragged by. There was little difference between the seasons on
+                        <rs><placeName type="island" key="#i_sn">her bleak island</placeName></rs>.
+                  Rain in winter, fog in summer, and only an occasional sunny day! <name
+                     type="fictional" key="#gelma">Gelma</name> could tell the passing of the years
+                  by the shortening of the days, when it grew dark earlier than usual. On what
+                  seemed the shortest day she made a deep notch in the whale bone at the right of
+                  her doorway.</p>
+               <p>One day in spring she heard a new sound and found a drift log bumping against the
+                  jagged rocks beyond the cliff. Quickly she swam out to it and tugged with all her
+                  strength to free it. After many hours she freed it from the rocks and pushed it
+                  before her to the shore, where she pulled it up on the beach to dry.</p>
+               <p>"A dugout canoe," she murmured to herself. "With it I can paddle to the nearest
+                  island. Or when the wind is right I can drift to <rs><placeName type="region"
+                        key="#re_mld">the mainland</placeName></rs>." In her thoughts she always
+                  added "to <rs><persName type="nativeamerican" key="#gjuan">my
+                  baby</persName></rs>." But then she quickly turned her thoughts to something else
+                  because she could never be sure whether <rs><persName type="nativeamerican"
+                        key="#gjuan">her child</persName></rs> had been sleeping safely in the
+                  bottom of the boat or whether&#8212;She dared not think about that. She had to
+                  keep busy.</p>
+               <p>She spent many long hours digging into the log with her flint knives. It might
+                  take a lifetime to hollow out a canoe. Her knives might not last until she had
+                  finished it. When she had cut a small hole she laid a fire in it to burn it out.
+                  But the log had been soaked with water, and it showed little sign of drying. The
+                  dismal fogs kept it too damp to burn. Her fire kept smouldering, and then she
+                  would have to relight it.</p>
+               <p>As the years dragged by, <name type="fictional" key="#gelma">Gelma</name> cut
+                  notches in the log as well as in the whale bone to mark the passage of time. Even
+                  with these two records she became uncertain about the exact number of years. She
+                  shrugged her bony shoulders. "What difference does the time make?" she thought.
+                  "It may be five years or ten. Or it may be all my life."</p>
+               <p>Yet each spring with the coming of the new green leaves on the scrubby bushes and
+                  with the coming of the green grasses and occasional wild flowers, she again felt
+                  new hope. She noticed the large flocks of birds that stopped at <rs><placeName
+                        type="island" key="#i_sn">her island</placeName></rs>&#8212;birds on their
+                  way to better climates. She could not fly away with them as she wished, but she
+                  could at least use them for food.</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> built little bird traps of twigs
+                  and grasses. When she found how easily she could catch birds in them, she built
+                  many more traps and scattered them over <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs>. She needed the food desperately. Then after a
+                  while she began to think of all the little skins. What a beautiful dress they
+                  would make! Unlike anything ever seen before. Of course there would be no one to
+                  see her dress, but she would find joy in it, and besides, the feathers would help
+                  keep her warm.</p>
+               <p>Very carefully she saved every bird skin, tiny or large. She rubbed them with
+                  seaweed and dried them tenderly to preserve the pretty feathers. In the long,
+                  dreary evenings beside her fire, she sewed these skins together with a fishbone
+                  needle and with thread made of fiber. The colors pleased <name type="fictional"
+                     key="#gelma">the lonely woman</name>. Yet always she kept whispering,
+                        "<rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission</orgName></rs> clothes! <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">Mission</orgName></rs> clothes!" and then,
+                        "<rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission</orgName></rs> food!" until the words formed a sort of chant while she
+                  sewed.</p>
+               <p>With every passing year there were more gashes on her log and her whale bone.
+                  There were more than she could count on all her fingers. Yet no ship had come for
+                  her! Sometimes, watching from her lookout on a clear day, she would think she saw
+                  a sail; but, before she could be sure of it, a fog bank would blot it from sight.
+                  Sometimes she thought she saw people landing on her beach, but always it was just
+                  a dream, a dreadfully disappointing dream.</p>
+               <p>It had been years now since <name type="fictional" key="#gelma">Gelma</name> had
+                  spoken aloud. What use was speech when there was no one to hear her? She thought a
+                  great deal and sometimes even moved her mouth in silent words. But only the
+                  screaming sea gulls, the barking sea lions, and the constantly pounding waves kept
+                  her company.</p>
+               <p>For a short time after her return to <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> she had thrown fish to the sea lions, hoping to coax
+                  them to come close enough to be her friends. Then for a while she had scarcely
+                  enough food for herself. At last she decided it was better for the herds of sea
+                  lions to catch their own fish, as long as she had to eat whatever she could find
+                  and whenever she had the chance. Unlike all other creatures she could not leave
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>!</p>
+               <p>At last she finished the bird-skin dress and sewed it up over her body. A wild
+                  sense of freedom came over her the moment she wore it. She knew that the dugout
+                  canoe was little more than half done and that she could not hope to get away from
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. But
+                  she could leap from rock to rock and spread her feather-covered arms like wings in
+                  her wild dance. From one end of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> to the other she sped, almost like a great bird
+                  ready to sail away into the sky. She laughed and shouted wildly at the sea gulls,
+                  which screamed back at her and flew away as if mocking her helplessness.</p>
+               <p>Her shouting and laughter grew louder as she raced back toward her hut. Even when
+                  she saw <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">white men and
+                        Indians</persName></rs> she paid no attention. They must be another of her
+                  many dreams. This time she would not think about them. But when they spoke in a
+                  strange tongue she realized it was no dream.</p>
+               <p>"Come! Come back to <rs><placeName type="region" key="#re_mld">the
+                        mainland</placeName></rs> with us!" they cried. <span type="trope" n="10"
+                     >They made their meaning clear by using signs.</span> They tried to tell her
+                  that from <rs><name type="ship" key="#sh_nidever">their whaling ship</name></rs>
+                  they had seen the movement of the bright colors as she danced, and they had come
+                  to rescue her.</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> was afraid. She was terrified and
+                  happy at the same time. She ate the food they offered her; then she climbed
+                  silently into the boat, still dazed by the thought of their sudden appearance
+                  after <rs><date from="1835" to="1853">eighteen long years</date></rs> of waiting.
+                  As they rowed out to <rs><name type="ship" key="#sh_nidever">the whaling
+                        ship</name></rs>, <name type="fictional" key="#gelma">Gelma</name> would not
+                  look back at <rs><placeName type="island" key="#i_sn">her island
+                        prison</placeName></rs>. Never again did she want to see its cold forbidding
+                  shores! On board <rs><name type="ship" key="#sh_nidever">the ship</name></rs> she
+                  ate all the fruit and bread <rs><persName type="group" key="#gni; #cdi; #col">the
+                        palefaces</persName></rs> offered her. She held out her hand for more. After
+                        <rs><date notBefore="1835" notAfter="1853">eighteen years</date></rs> of
+                  near-starvation, would she ever have enough food again? She kept shaking her head
+                  to make sure it was not a dream. Then she gripped the railing of the ship and knew
+                  she was not dreaming.</p>
+               <p>Closer to <rs><placeName type="region" key="#re_mld">the mainland</placeName></rs>
+                  the fog cleared away. Suddenly the sun shone on <rs><placeName type="city"
+                        key="#ci_sb">a small city</placeName></rs> of dazzling white houses roofed
+                  with red tiles. It shone still brighter on <rs><placeName type="mission"
+                        key="#mi_sb">a beautiful building</placeName></rs> farther up the hill. All
+                  of this was much grander than any of Gelma's dreams. Could this be the wonderful
+                        <rs><orgName type="mission" key="#mi_santabarbaramission"
+                     >Mission</orgName></rs> she had longed for <rs><date from="1835" to="1853">all
+                        these years</date></rs>? After hoping in vain, were her dreams really coming
+                  true?</p>
+               <p>Anxiously she watched the shore, longing for a glimpse of <persName type="group"
+                     key="#bhagroup">her people</persName>, who would be waiting to welcome her. Her
+                  heart pounded wildly. Where were all <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">the Indians</orgName></rs>? She could not see
+                        <rs><orgName type="nativeamericantribes" key="#natam_missionindians">an
+                        Indian</orgName></rs> anywhere.</p>
+               <p>When the rowboat at last reached shore, <persName key="#sni">Mrs.
+                     Nidever</persName>, the wife of the ship's captain, opened her arms and held
+                        <rs><name type="fictional" key="#gelma">the forlorn woman</name></rs>
+                  tightly. But <name type="fictional" key="#gelma">Gelma</name> was dazed and
+                  bewildered. Her eyes kept searching for others, for <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her own dark-skinned
+                        people</orgName></rs>, to welcome her. <persName type="missionfather"
+                     key="#sanchez">Gray-robed Father Sánchez</persName> greeted her with a friendly
+                  smile and led <rs><name type="group" key="#gelma; #sni">both the women</name></rs>
+                  into the shelter and quiet of <rs><placeName type="mission" key="#mi_sb">the
+                        deserted Mission</placeName></rs>. But <name type="fictional" key="#gelma"
+                     >Gelma</name> was frightened even more when she saw the strange candlelight
+                  flickering on the altar.</p>
+               <p><span type="trope" n="6">"Where are <persName type="group" key="#bhagroup">my
+                        people</persName>?" <name type="fictional" key="#gelma">Gelma</name> kept
+                     asking, over and over again. She repeated her words in a dreadful, wailing
+                     chant. But it was many weeks before she had learned enough of her friend's
+                     Spanish to understand about the fate of <persName type="group" key="#bhagroup"
+                        >the Indians</persName>. When new rulers had given <persName type="group"
+                        key="#bhagroup">the Indians</persName> their freedom, they had left
+                           <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                           Mission</orgName></rs>. Some of them were working on neighboring ranchos
+                     and some had disappeared completely. Gelma's heart felt numb. Then her
+                     loneliness returned, more dreadful than before.</span></p>
+               <p><span type="trope" n="6"><name type="fictional" key="#gelma">Gelma</name> asked
+                     the same pitiful questions of every visitor to <rs><placeName type="mission"
+                           key="#mi_sb">the Mission</placeName></rs>. "Where are <persName
+                        type="group" key="#bhagroup">my people</persName>? Where are <persName
+                        type="group" key="#bhagroup">the Indians from San Nicolas
+                     Island</persName>?"</span></p>
+               <p><span type="trope" n="6">Kindly <persName type="missionfather" key="#sanchez"
+                        >Father Sánchez</persName> showed her all the orchards that <rs><orgName
+                           type="nativeamericantribes" key="#natam_missionindians">the
+                           Indians</orgName></rs> had planted. Perhaps <persName type="group"
+                        key="#bhagroup">her people</persName> had helped to build the sparkling
+                     fountain and the laundering trough. They might have helped decorate
+                           <rs><placeName type="mission" key="#mi_sb">the wonderful white
+                           church</placeName></rs>. But where were they now? Were some of them in
+                     those unmarked graves in <rs><placeName key="#sbmissioncemetary">the Mission
+                           churchyard</placeName></rs>?</span></p>
+               <p><name type="fictional" key="#gelma">Gelma</name> shook her head sadly. "Let me
+                  become a <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                        >Mission Indian</orgName></rs> too. Let me do what I can to help
+                        <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                        Mission</orgName></rs> that once gave shelter to many of <persName
+                     type="group" key="#bhagroup">my people</persName>."</p>
+               <p>So <rs><persName type="missionfather" key="#sanchez">the padre</persName></rs>
+                  spent many hours with her, teaching her about the Mission God. Sometimes <name
+                     type="fictional" key="#gelma">Gelma</name> knelt alone on the smooth tiles
+                  inside <rs><placeName type="mission" key="#mi_sb">the church</placeName></rs>.
+                  Sometimes she lighted an altar candle and prayed in her native tongue. "Let me see
+                  just one of <persName type="group" key="#bhagroup">my people</persName>! Just
+                  one!" she would repeat again and again.</p>
+               <p>Days were passing much more swiftly than they had seemed to pass on <placeName
+                     type="island" key="#i_sn">the island of San Nicolas</placeName>. In just two
+                  weeks <name type="fictional" key="#gelma">Gelma</name> would be baptized in the
+                  wonderful <rs><placeName type="mission" key="#mi_sb">Mission
+                     church</placeName></rs>. Often she wandered forlornly up into the hills beyond
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. She kept hoping
+                  to meet some of <persName type="group" key="#bhagroup">her island
+                     people</persName>. Sometimes she wondered whether she would recognize them
+                  after so many years.</p>
+               <p>Meanwhile all the people in the village were very kind to her. They gave her more
+                  rich food than she could possibly eat. They were planning a big fiesta for the day
+                  when she would be baptized Juana María. In return for their kindness, <name
+                     type="fictional" key="#gelma">Gelma</name> had promised to dance a new bird
+                  dance in the same costume she had been wearing when she came to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+               <p>One morning she was practicing her new dance skipping, leaping, gliding across the
+                  balcony of <rs><placeName key="#nideverhouse">the Nidever house</placeName></rs>.
+                  She could not keep her thoughts on her dance; she kept thinking, instead, of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">all her
+                        people</orgName></rs>. As she danced close to the railing, she glanced down
+                  into the street below. Suddenly she stood still and clung tightly to one of the
+                  posts. She stared at <rs><name type="fictional" key="#gjuan">a young
+                     Indian</name></rs>, dressed in <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">Mission</orgName></rs> clothes, who was
+                  walking past the house.</p>
+               <p>"Stop! Stop!" she shouted in her native tongue.</p>
+               <p><rs><name type="fictional" key="#gjuan">The young man</name></rs> looked up at her
+                  and shook his head. Then he replied in smooth-flowing Spanish that <name
+                     type="fictional" key="#gelma">Gelma</name> could not follow. But there was
+                  something in his fine, earnest young face that reminded <name type="fictional"
+                     key="#gelma">Gelma</name> of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">her people.</orgName></rs> As he walked away
+                  from her across the field toward <rs><placeName type="mission" key="#mi_sb">the
+                        Mission</placeName></rs> he seemed even more familiar to her. She watched
+                  him until at last he disappeared down the long, arched corridors.</p>
+               <p><name type="fictional" key="#gelma">The lonely Indian woman</name> stood on the
+                  balcony, lost in her memories. Could it be that her dreams, her new prayers, were
+                  about to come true?</p>
+               <p>"<name type="fictional" key="#gelma">Gelma</name>! <name type="fictional"
+                     key="#gelma">Gelma</name>!" It was <persName key="#sni">Mrs. Nidever</persName>
+                  calling her. "Come, <name type="fictional" key="#gelma">Gelma</name>! Your lunch
+                  is waiting for you!"</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> looked at <rs><persName
+                        key="#sni">her friend</persName></rs> a moment and sighed. "I can't eat,"
+                  she said in halting Spanish. "I must go to <rs><placeName type="mission"
+                        key="#mi_sb">the Mission</placeName></rs>." In a mixture of her two
+                  languages she tried to tell <persName key="#sni">Mrs. Nidever</persName> about
+                        <rs><name type="fictional" key="#gjuan">the young Indian</name></rs> who had
+                  just walked by and gone to <rs><placeName type="mission" key="#mi_sb">the
+                        Mission</placeName></rs>. "He looks like <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">my
+                     people</orgName></rs>! He looks like my . . . ."</p>
+               <p><persName key="#sni">Mrs. Nidever</persName> put her arm around <name
+                     type="fictional" key="#gelma">the trembling Indian woman</name>. "We can ask
+                     <persName type="missionfather" key="#sanchez">Father Sánchez</persName>," she
+                  said. "He will surely know who <rs><name type="fictional" key="#gjuan">the young
+                        man</name></rs> is."</p>
+               <p>Gelma's dark eyes glowed. "Could&#8212;could I have a new dress to wear?" she
+                  asked wistfully. "A Mission dress or else a Spanish dress?"</p>
+               <p><persName key="#sni">Mrs. Nidever</persName> showed her an old sea chest, filled
+                  with treasures from all parts of the world. "Which would you like to wear, <name
+                     type="fictional" key="#gelma">Gelma</name>?" she asked gently. "You may make
+                  your choice."</p>
+               <p>Admiringly, <name type="fictional" key="#gelma">Gelma</name> chose a long,
+                  rustling black dress and a gay embroidered shawl. She longed for beautifully
+                  embroidered satin slippers, too, but there were none to fit her feet. "We can make
+                  new slippers for you in time for the fiesta," promised <persName key="#sni">Mrs.
+                     Nidever</persName>. "Now you are dressed just like a Spanish señora!"</p>
+               <p><rs><name type="group" key="#gelma; #sni;">The two women</name></rs> walked across
+                  the fields. <name type="fictional" key="#gelma">Gelma</name> lingered a moment to
+                  admire her reflection in the beautifully clear water of the fountain. Then she
+                  hurried over to the <rs><placeName type="mission" key="#mi_sb">Mission
+                        church</placeName></rs> where <persName type="missionfather" key="#sanchez"
+                     >Father Sánchez</persName> was standing. She waited for <persName key="#sni"
+                     >Mrs. Nidever</persName> to speak.</p>
+               <p>"Good evening, <rs><persName type="missionfather" key="#sanchez"
+                     >Padre</persName></rs>! <name type="fictional" key="#gelma">Gelma</name> wants
+                  to know if you can tell us about <rs><name type="fictional" key="#gjuan">a certain
+                        young Indian</name></rs> who passed by our house a short time ago,"
+                  explained <persName key="#sni">Mrs. Nidever</persName>.</p>
+               <p><persName type="missionfather" key="#sanchez">Father Sánchez</persName> looked at
+                  Gelma's fine new clothing and smiled at her. "Oh, yes! <rs><name type="fictional"
+                        key="#gjuan">The boy</name></rs> has come from <orgName type="mission"
+                     key="#mi_sg">San Gabriel Mission</orgName>," he answered in a friendly manner.
+                  "His name is <name type="fictional" key="#gjuan">Juan</name>, almost the same as
+                        <rs><persName type="nativeamerican" key="#lw">Juana</persName></rs>, which
+                  will be your own name after your baptism. He is an orphan, about twenty years old,
+                  and he has come to look after our beautiful gardens, that have been long
+                  neglected. He is a fine boy! He has a good voice, too, and will be a great help in
+                  our choir. And he has strong and willing hands to devote to <rs><orgName
+                        type="mission" key="#mi_santabarbaramission">his
+                  Mission</orgName></rs>."</p>
+               <p><name type="fictional" key="#gelma">Gelma</name> smiled and raised her head
+                  proudly. She lifted her rustling skirts a little, the way Spanish ladies did, and
+                  tiptoed down the aisle toward the front of <rs><placeName type="mission"
+                        key="#mi_sb">the church</placeName></rs>. Then she knelt on the cool tile
+                  floor, bowed her head, and clasped her hands very tightly.</p>
+               <p>She couldn't be absolutely sure that <name type="fictional" key="#gjuan"
+                     >Juan</name> was one of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">her San Nicolas people</orgName></rs>. But in
+                  her heart she was sure that he was really <rs><persName type="nativeamerican"
+                        key="#lwchild">her own son</persName></rs>. They would both be <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">Mission
+                        Indians</orgName></rs> and do whatever they could to help <rs><persName
+                        type="missionfather" key="#sanchez">the good padre</persName></rs>.</p>
+               <p>At first <name type="fictional" key="#gelma">Gelma</name> prayed slowly,
+                  falteringly. Then her words burst forth in torrents of thanks which helped to wash
+                  from her memory all the old sorrow of her lonely years. New hope and a new-found
+                  happiness were being born within her.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

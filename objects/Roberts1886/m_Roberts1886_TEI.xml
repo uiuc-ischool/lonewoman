@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#Roberts1886">Santa Barbara
+                     and Around There</orgName></title>
+               <publisher><orgName type="publisher" key="#robertsbrothers">Robers
+                  Brothers</orgName></publisher>
+               <editor/>
+               <date when="1886"/>
+               <pubPlace><placeName type="city" key="#ci_bo">Boston</placeName>, <placeName
+                     type="state" key="#st_ma">Massachusetts</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Roberts1886">Chapter II: Along the Pacific
+                     Shore.</title>
+                  <biblScope unit="page" from="27" to="44"/>
+                  <author><persName type="author" key="#ero">Roberts, Edwards.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text xml:lang="en">
+      <body>
+         <div type="book_chapter">
+            <head><title type="main">CHAPTER II.</title>
+               <title type="sub">ALONG THE <rs><placeName type="region" key="#re_paccoast">PACIFIC
+                        SHORE</placeName></rs>.</title></head>
+            <div n="1">
+               <p>THE <placeName type="region" key="#re_sbvalley">Santa Barbara valley</placeName>
+                  has an average width of from two to four miles, and is forty-five miles long. It
+                  extends from <placeName type="region" key="#re_gaviotapass">Gaviota
+                     Pass</placeName>, a narrow passage across the <placeName type="region"
+                     key="#re_santaynezmts">Santa Ynez range</placeName>, to <rs><placeName
+                        type="region" key="#re_princon">Rincon Hill</placeName></rs>, and is divided
+                  into three distinct districts. That of <placeName type="city" key="#ci_car"
+                     >Carpenteria</placeName> lies between <rs><placeName type="region"
+                        key="#re_princon">Rincon</placeName></rs> and <placeName type="region"
+                     key="#re_ortegahill">Ortega Hill</placeName>, and next to it is <rs><placeName
+                        type="city" key="#ci_montecito">El Montecito</placeName></rs>, which borders
+                  the bay and stretches back to the foothills. The third division, the longest of
+                  all, is the <placeName type="region" key="#re_sbvalley">Santa Barbara
+                     valley</placeName> proper. In it are <rs><placeName type="city" key="#ci_sb"
+                        >the town</placeName></rs>, the <placeName type="city" key="#ci_goleta"
+                     >village of Goleta</placeName>, and the large fruit and nut ranches nestled at
+                  the base of <rs><placeName type="region" key="#re_santaynezmts">the
+                        range</placeName></rs>.</p>
+               <p>[...]</p>
+               <p><rs><placeName type="island" key="#i_northernchi">The islands</placeName></rs> are
+                  named <placeName type="island" key="#i_sr">Santa Rosa</placeName>, <placeName
+                     type="island" key="#i_scruz">Santa Cruz</placeName>, <placeName type="island"
+                     key="#i_sm">San Miguel</placeName> and <placeName type="island" key="#i_an">Ana
+                     Capa</placeName>. They are private property, and are used for sheep-ranges. The
+                  ground contains many curious Indian implements, and on <placeName type="island"
+                     key="#i_sm">San Miguel</placeName> the Spanish explorer <persName type="seaman"
+                     key="#jca">Cabrillo</persName> was buried. <rs><placeName type="island"
+                        key="#i_northernchi">The islands</placeName></rs> are of various shape and
+                  size, one being more than twenty miles long and covered with hills that have an
+                  elevation of two thousand feet above sea level. All are the home of myriads of
+                  birds, and along their beaches are vast quantities of abalone shells, which are
+                  gathered, shipped to <placeName type="country" key="#co_france"
+                  >France</placeName>, and made into buttons.</p>
+               <p>On <rs><placeName type="island" key="#i_sn">the smallest island
+                     [sic]</placeName></rs> was enacted the tragedy of <rs><persName
+                        type="nativeamerican" key="#lw">the "Lost Woman of San
+                     Nicholas,"</persName></rs> which at <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> is a familiar tale. The story begins with the removal of
+                     <persName type="group" key="#bhagroup">a number of Indians</persName> from
+                     <placeName type="island" key="#i_sn">San Nicholas</placeName>, in <date
+                     when="1836">1836</date>. Just as they were embarking, <rs><persName
+                        type="nativeamerican" key="#lw">one of the women</persName></rs> discovered
+                  that <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  had been left behind. Returning for it, she was abandoned by <persName
+                     type="group"
+                     key="#bhagroup; #1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >her companions</persName>, who were obliged by a coming storm to set sail for
+                     <placeName type="region" key="#re_mld">the mainland</placeName>. It was
+                  intended to return so soon as the weather permitted, but years passed away, and
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> in
+                  time was forgotten and left to her fate.</p>
+               <p><span type="trope" n="4"><rs><date when="1851">Twenty years later</date></rs>, a
+                     hunter named <persName type="frontiersman" key="#gni">George
+                     Nidever</persName>, of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>, visited <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs> for otters. While there, he determined to look
+                     for <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>.
+                     After careful search he found three huts made of whale-ribs and brush, and from
+                     where they stood extended an open plain, in the centre of which <persName
+                        type="frontiersman" key="#gni">Nidever</persName> saw <rs><persName
+                           type="nativeamerican" key="#lw">the object of his
+                     journey</persName></rs>. The woman's dress was made of skins and feathers, and
+                     her hair hung in tangled masses from her bare head. <span type="trope" n="1"
+                        >When discovered, she was cutting blubber from a seal which she had killed,
+                        but on seeing <rs><persName type="frontiersman" key="#gni">her
+                              visitor</persName></rs> she received him with every manifestation of
+                        delight, and readily accompanied him to <rs><name type="ship"
+                              key="#sh_nidever">his boat</name></rs>.</span></span> Signs were made
+                  [for] her to enter it, and on her doing so, <persName type="frontiersman"
+                     key="#gni">Nidever</persName> sailed across the bay, and brought <rs><persName
+                        type="nativeamerican" key="#lw">his charge</persName></rs> to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+               <p>Her arrival there created great excitement, and hundreds called at <placeName
+                     key="#nideverhouse">Nidever's house</placeName> to see her. Although she could
+                  not have been more than fifty years old, she was gray-haired and emaciated. <span
+                     type="trope" n="14">Her expression was one of blank ignorance, and her skin was
+                     dry and wrinkled. Her language, strange as it may seem, considering the
+                     comparatively short time she had been lost, was unintelligible to all. Those
+                     who considered themselves masters of every Indian tongue, could not understand
+                     a word that she said.</span> Owing to this fact, the story of her hermitage was
+                  never known. What became of <rs><persName type="nativeamerican" key="#lwchild">the
+                        child</persName></rs> she returned from <rs><name type="ship"
+                        key="#sh_peoresnada">the boat</name></rs> to find on <date when="1836">that
+                     fatal day in 1836</date>, is a matter of pure conjecture. How long it lived and
+                  where it was buried were facts that could not be discovered. <span type="trope"
+                     n="14"><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs>
+                     appeared to have lost all human instincts, and to every question asked made no
+                     answer that could be understood.</span> In three months after her rescue she
+                  died, and was buried by <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">the Mission
+                  fathers</persName></rs>.</p>
+               <p><rs><persName type="frontiersman" key="#gni">George Nidever</persName></rs>, the
+                  hero of the rescue, was a well-known character. <rs><persName key="#sni">His
+                        widow</persName></rs> still lives at <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, and the stories of her husband's good qualities and
+                  bravery are innumerable. In all accounts he is pictured as a second
+                  Leatherstocking, &#8212; brave and honest, and familiar with Nature and Indians,
+                  the sea and its islands. In an essay on "Courage," <persName type="author"
+                     key="#reme">Ralph Waldo Emerson</persName> quotes a ballad regarding pure
+                  courage, of which <persName type="frontiersman" key="#gni">Nidever</persName> is
+                  the subject.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

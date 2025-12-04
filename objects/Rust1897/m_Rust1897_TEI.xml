@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="pamphlet">Catalogue of Pre-historic Relics from San Nicolas Island,
+                  California</title>
+               <publisher/>
+               <editor/>
+               <date when="1897"/>
+               <pubPlace><placeName type="city" key="#ci_pa">Pasadena</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="pamphlet" key="#Rust1897">Catalogue of Pre-historic Relics from San
+                     Nicolas Island, California</title>
+                  <biblScope unit="page" from="1" to="4"/>
+                  <author><persName type="author" key="#hru">Rust, Horatio
+                     Nelson</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <p><placeName type="island" key="#i_sn">SAN NICOLAS ISLAND</placeName> is about eight by
+            four miles in extent and lies about eighty miles off the <placeName type="region"
+               key="#re_calcoast">California coast</placeName> southwest of <placeName type="city"
+               key="#ci_la">Los Angeles city</placeName>. <rs><placeName type="island" key="#i_sn"
+                  >The island</placeName></rs> is now nearly bare of vegetation, being wind-swept
+            the greater part of the year so that it is unfit for human habitation.</p>
+         <p>It is properly called a desert, having very little water, nearly bare of vegetation,
+            deserted by man and nearly so by animal life. The wind sweeps over <rs><placeName
+                  type="island" key="#i_sn">the island</placeName></rs> so constantly that campers
+            find it difficulty to sustain themselves for a brief visit and the seal and otter
+            hunters prefer to live on shipboard during the season that a vessel can safely anchor in
+            the vicinity. <rs><placeName type="island" key="#i_sn">The island</placeName></rs> once
+            supported quite <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                  large population</orgName></rs>, as evidenced by the implements of stone, bone,
+            shell and wood which are found in the graves of their dead and upon the wind-swept
+            surface.</p>
+         <p><span type="trope" n="11"><span type="trope" n="13">Tradition tells us that <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the early
+                        inhabitants</orgName></rs> of the <placeName type="island" key="#i_sn"
+                     >Island San Nicolas</placeName> were a weak and defenceless people; that they
+                  were reduced in numbers by <rs><persName type="group"
+                        key="#rfurcompany; #iba; #1814huntingparty">the Russians</persName></rs> who
+                  came to <rs><placeName type="placeName" key="#i_chi">the Islands</placeName></rs>
+                  for furs, bringing <rs><persName type="group"
+                        key="#natam_aleuts; #natam_kodiak; #1814huntingparty">Alaskan
+                        Indians</persName></rs> and that hostile Indians from the mainland also
+                  visited them and that <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty; #natam_mainlandindians"
+                        >these visitors</persName></rs> killed <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     men</orgName></rs> to secure their otter skin clothing and carried off
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        women</orgName></rs>, thus reducing them, until about <date>1835</date> when
+                  the <orgName type="government" key="#gov_mexico">Mexican government</orgName> sent
+                  a <rs><name type="ship" key="#sh_peoresnada">sloop called the "Better than
+                        Nothing"</name></rs> commanded by a sea otter hunter named <persName
+                     type="investor" key="#isp">Sparks</persName> to bring the <persName
+                     type="group" key="#bhagroup">seven or eight persons that remained</persName> to
+                  the <placeName type="region" key="#re_mld">mainland</placeName>.</span></span></p>
+         <p>They induced them all to come to the beach, but <rs><persName type="nativeamericans"
+                  key="#lw">one poor mother</persName></rs> having left <rs><persName
+                  type="nativeamericans" key="#lwchild">her child</persName></rs> returned for it,
+            when <rs><persName type="investor" key="#isp">this noble white man</persName></rs>
+            sailed away leaving <rs><persName type="nativeamericans" key="#lw">the poor
+                  woman</persName></rs> and <rs><persName type="nativeamericans" key="#lwchild">her
+                  child</persName></rs> to the mercy of the wild dogs that inhabited <rs><placeName
+                  type="island" key="#i_sn">the island</placeName></rs>. Imagine her desolation!
+            They said that she would not live long so they did not return for her.</p>
+         <p><span type="trope" n="4">In <date>1853</date>, <persName type="frontiersman" key="#gni"
+                  >George Nidever</persName> and <rs><persName type="frontiersman" key="#cdi"
+                     >Charles Brown</persName></rs>, sea otter hunters living at <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, having seen human tracks on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> determined
+               to find who it was and later they related to <persName key="#dth">D. W.
+                  Thompson</persName> of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> as follows:</span></p>
+         <p><span type="trope" n="4">We went to <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> three times before we found her. On the last trip we
+               took some <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">Indians and two or three
+                     white men</persName></rs>. We took all on shore except <rs><persName
+                     type="nativeamerican" key="#cook">the cook</persName></rs>. Excepting her to
+               hide, we scattered two or three hundred yards apart to cover the whole ground. We saw
+               small tracks indicating a woman's foot, and found a basket containing some feathers
+               which we scattered and found them gathered together again the same day, showing that
+               she had been there.</span></p>
+         <p><span type="trope" n="4">Continuing the hunt the next morning we found her at her hut
+               which she had formed of whale bone and brush[.]</span> She was sitting by a fire. She
+            had a brush fence two feet high around her hut to keep off the wind. She was skinning a
+            seal. When she saw <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                  Indians</persName></rs> of her own class she offered them food, and exhibited no
+            fear. We made signs to her to induce her to go with us which she did readily, taking
+            along all she had. She carried a seal's head. Arriving at the water she washed herself
+            and we have her some biscuit, which she seemed to enjoy, and made skirts for her out of
+            bed ticking and sailor clothes. We stayed about one month and she camped with us living
+            on the same, [sic] food we used, gathering fuel and water for herself and showing no
+            disposition to leave us. <span type="trope" n="15">She busied herself making baskets,
+               working on several at a time, but finishing none.</span><span type="trope" n="3">She
+               would dance and play like a child and showed a kindly disposition.</span></p>
+         <p>When she reached <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+            <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the
+               priests</persName></rs> tried to learn her history but no one could understand her
+            talk and communication with her was made by signs. <span type="trope" n="6"><persName
+                  type="group" key="#bhagroup">Her friends</persName> who left <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> before her were all
+               dead.</span> She was named after <rs><name type="ship" key="#sh_peoresnada">the
+                  little vessel that rescued her, "Better than Nothing"</name></rs>.</p>
+         <p><span type="trope" n="3">She enjoyed going from house to house and as <persName
+                  type="frontiersman" key="#cdi">Brown</persName> said "was happy as a lady". She
+               would dance Indian dances to amuse the lookers[-]on, and was delighted with clothes
+               given her.</span></p>
+         <p>All persons treated her kindly and <persName type="frontiersman" key="#gni"
+               >Nidever</persName> generously gave her a home at <placeName key="#nideverhouse">his
+               house</placeName>, refusing <rs><persName type="seaman" key="#tru">an
+                  offer</persName></rs> from some one who wished to exhibit her for money. But the
+            change was too sudden and great. After about five weeks she sickened and died under
+                  <rs><placeName key="#nideverhouse">Nidever's roof</placeName></rs>.</p>
+         <p>She was apparently about forty-five years of age. <rs><persName type="group"
+                  key="#jru; #aji; #sanchez; #misfats">The priests</persName></rs> acquired from
+               <persName type="frontiersman" key="#gni">Nidever</persName> her dress, bone needles
+            and knives of bone and wood, nails pointed for catching fish, a rope neatly twisted of
+            sinews, bottles made of grass and dishes of wood. <span type="trope" n="6">They sent
+               them to <placeName type="city" key="#ci_rom">Rome</placeName>, relics of
+                     <rs><persName type="nativeamericans" key="#lw">the last inhabitant of San
+                     Nicolas</persName></rs>.</span></p>
+         <p>The following list of specimens were found on <rs><placeName type="island" key="#i_sn"
+                  >this island</placeName></rs> during the <rs><date notBefore="1897-06-01"
+                  notAfter="1897-08-31">summer of 1897</date></rs> and represent nearly all the
+            necessary implements of a pre-historic family as well as the tools and manufactured
+            ornaments and implements from a pre-historic workshop, a very remarkable find.</p>
+         <p>Especial interest centers about the site of this workshop. It was located on a ridge of
+            earth and shells lying parallel with the southwest coast line, and the largest part of
+            the following mentioned specimens were found there.</p>
+         <p>The steatite deposit nearest is on <rs><placeName type="island" key="#i_scatalina"
+                  >Catalina Island</placeName></rs> 50 miles away. The serpentine is from <placeName
+               type="region" key="#re_pblanca">Piedras Blancas</placeName>[.]</p>
+         <p>The picks formed from water worn boulders exhibit a wonderful degree of skill in forming
+            them as they did, this with only rude stone tools. With these they were enabled to
+            quarry the steatite from which they formed cooking vessels and all about the workshop
+            were these picks of all sizes from the larger ones used in quarrying to the small ones
+            used to break holes in shells preparatory to using the drills shown on card No. 23.</p>
+         <p>The drills shown on No[.] 23 of sandstone were very effective as shown on card No. 5,
+            when the round drill exactly fits the hole made in the shell preparatory to finishing
+            the hooks.</p>
+         <p>These hooks (commonly called fish hooks) I think were worn as ornaments and used to
+            attach other ornaments to the person rather than for fishing[.]</p>
+         <p>Card No. 26 shows the stone files used in finishing the hooks and other ornaments.</p>
+         <p>Card No. 5 shows the work of smaller drills and files and the stone worker's efforts at
+            ornamentation.</p>
+         <p>The stone knife on No. 8 with redwood handle indicates Alaskan origin.</p>
+         <p>Thus I have endeavored to gather the facts from the most reliable sources.</p>
+         <list>
+            <item n="1">Card No. 1 Set of shells like those used.</item>
+            <item n="2">" " 2 6 shell knives.</item>
+            <item n="3">" " 3 33" discs ready to be perforated by the picks.</item>
+            <item n="4">" " 4 26" perforated ready for the drills.</item>
+            <item n="5">" " 5 40 stones and shells showing the drill work.</item>
+            <item n="6">" " 6 45 completed hooks of shell, imperfect.</item>
+            <item n="7">" " 7 25 whale and seal teeth.</item>
+            <item n="8">" " 8 7 bone whistles[,] 2 barbed spears[,] 1 Alaska knife.</item>
+            <item n="9">" " 9 9 bone awls.</item>
+            <item n="10">" " 10 21 bone knives and awls.</item>
+            <item n="11">" " 11 39" awls, different forms.</item>
+            <item n="12">" " 12 9" rib bones pointed, 7 used for making arrow-heads.</item>
+            <item n="13">" " 13 13 bird bone needles and 6 seal whiskers.</item>
+            <item n="14">" " 14 18 bone awls.</item>
+            <item n="15">" " 15 19 awls of different forms.</item>
+            <item n="16">" " 16 8 bone awls, 9 seal bone awls (seal penis).</item>
+            <item n="17">" " 17 13 bone knives.</item>
+            <item n="18">" " 18 8 bone knives.</item>
+            <item n="19">" " 19 11 " " large.</item>
+            <item n="20">" " 20 6 " " larger.</item>
+            <item n="21">" " 21 6 " implements.</item>
+            <item n="22">" " 22 27 stone picks, small.</item>
+            <item n="23">" " 23 18 sand stone drills.</item>
+            <item n="24">" " 24 12 small stone implements.</item>
+            <item n="25">" " 25 31 spear and arrow heads.</item>
+            <item n="26">" " 26 stone files.</item>
+         </list>
+         <list>
+            <item n="1">10 mortars and pestles 4 to 10 inches in diameter.</item>
+            <item n="2">1 metate and mano.</item>
+            <item n="3">Petrified vetebra grooved and used for hammer.</item>
+            <item n="4">2 human skulls, 1 wild dog, 1 fox.</item>
+            <item n="5">2 steatite bowls&#8212;cooking vessels&#8212;both imperfect.</item>
+            <item n="6">9 stone picks from 3 to 13 inches long for quarrying stone.</item>
+            <item n="7">28 stone knives or scrapers, mostly quartz flakes&#8212;rude.</item>
+            <item n="8">11 stone net sinkers with natural holes.</item>
+            <item n="9">18 stone rings 2 to 5 inches in diameter.</item>
+            <item n="10">8 large bone implements, perhaps spades.</item>
+            <item n="11">1 necklace of center of 150 keyhole limpets.</item>
+            <item n="12">1 necklace of 25 cowries.</item>
+            <item n="13">7 whale barnacles.</item>
+            <item n="14">6 saucer shaped concretions from graves.</item>
+         </list>
+         <p>Besides the above there is a variety of perforated shells and some trifles found in the
+            same place which go with the collection.</p>
+         <p>The cards upon which the specimens are mounted are 9x14 inches.</p>
+         <byline><persName type="author" key="#hru">HORATIO N. RUST</persName>. <placeName
+               type="city" key="#ci_spasadena">South Pasadena, California</placeName>.</byline>
+      </body>
+   </text>
+</TEI>
