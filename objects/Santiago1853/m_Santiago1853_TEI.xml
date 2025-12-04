@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sherald">San Francisco
+                     Daily Herald </orgName></title>
+               <publisher><orgName type="publisher" key="#foy">Foy,
+                  Nugent&amp;Co.</orgName></publisher>
+               <editor/>
+               <biblScope unit="volume">4</biblScope>
+               <biblScope unit="issue">132</biblScope>
+               <date when="1853-10-11"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Santiago1853">From Santa Barbara. </title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#san">Santiago</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">From <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>.</hi></title>
+               <title type="sub">[Correspondence of the <orgName type="publication" key="#sherald"
+                     >San Francisco Herald</orgName>.]</title>
+               <title type="sub">ARRIVALS AT <placeName type="city" key="#ci_sb">SANTA
+                     BARBARA</placeName>____IMPROVEMENTS IN TRADE____THE <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >NATIVES</orgName></rs> AND THEIR HABITS____MORE OF THE <rs><persName
+                        type="nativeamericans" key="#lw">WILD WOMAN</persName></rs>____CAPTAIN
+                  BURKE'S RETURN____SQUATTER TROUBLES BECOMING SETTLED____QUARTZ GOLD AND COPPER
+                  ORE____ACCIDENT____THE WEATHER____<orgName type="mission"
+                     key="#mi_santabarbaramission">MISSION OF SANTA
+               BARBARA</orgName>.</title></head>
+            <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA</placeName>, <date
+                  when="1853-10-07">Oct. 7, 1853</date>.</dateline>
+            <p><rs><persName type="author" key="#editorher">EDITOR OF THE
+                  HERALD</persName></rs>:&#8212;<date when="1853-10-06">Yesterday</date> was a busy
+               day at <rs><placeName type="city" key="#ci_sb">this place</placeName></rs>. We had
+               five arrivals&#8212;the steamers <name type="ship" key="#sh_goliah">Goliah</name> and
+                  <name type="ship" key="#sh_thomashunt">Thomas Hunt</name>, and the brig <name
+                  type="ship" key="#sh_fremont">Fremont</name>, from <placeName type="city"
+                  key="#ci_sf">San Francisco</placeName>; the steamer <name type="ship"
+                  key="#sh_losangeles">Los Angeles</name>, from <placeName type="city" key="#ci_sd"
+                  >San Diego</placeName>, and the brig <name type="ship" key="#sh_joinville">Prince
+                  de Joinville</name>, from the <placeName type="island" key="#i_sr">Island of Santa
+                  Rosa</placeName>. The beach at the landing-place was strewn with goods of every
+               description. In no other day <date when="1853">this year</date> has so much
+               merchandise been unladen here. Though <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> exhibits no improvement in number of buildings or increase in
+               population, still its trade has augmented very considerably. The valleys back of, and
+               surrounding it, has <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               alone as their mart, and yearly the wants of the native Californians become greater
+               and more extravagant. Though they refuse to adopt some of our labor-saving
+               inventions, they show a disposition rivalius [sic] in dress and imitate us in many of
+               our habits. In horseback exercises they certainly have nothing to learn, but in their
+               vehicles it would be difficult for any people to be more clumsy; and yet they
+               steadily decline substituting our style of carts or wagons instead. Occasionally one
+               of the wealthier classes indulges in the use of a carriage, and when they do,
+               invariably they choose the oldest and clumsiest style.</p>
+            <p><span type="trope" n="14">A short time since I called to see the <rs><persName
+                        type="nativeamericans" key="#lw">Wild Indian woman</persName></rs>, of whom
+                        <rs><orgName type="publication" key="#sherald">your paper</orgName></rs> has
+                  already spoke.</span> She is living with <persName type="frontiersman" key="#gni"
+                  >Mr. George Nidever</persName>, an old trapper, who has been on <rs><placeName
+                     type="region" key="#re_socalcoast">this coast</placeName></rs> for the <date
+                  from="1835" to="1853">last eighteen years</date>. She was brought by <rs><persName
+                     type="frontiersman" key="#gni">this gentleman</persName></rs> from the
+                  <placeName type="island" key="#i_sn">Island of San Nicolas</placeName>, seventy
+               miles distant, and not, as before published, from the <placeName type="island"
+                  key="#i_scatalina">Island of Catalina.</placeName> No person has yet been found
+               that can speak or understand her language. <span type="trope" n="10">By signs she has
+                  told <rs><persName type="frontiersman" key="#gni">Mr. N.</persName></rs> that
+                     <persName type="nativeamericans" key="#lwchild">her child</persName> was killed
+                  and torn to pieces by the wild dogs with which <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> is overrun.</span> Her only dress
+               was a sort of gown, sitting high upon the shoulders and reaching nearly to the knees,
+               made of the skins and feathers of wild ducks, sewed together with the sinews of the
+               seal. The handicraft shown in the manufacture of her needles, sewing stuff, baskets,
+               water vessels&#8212;to make all of which a piece of the blade of an old knife seems
+               to have been her only tool&#8212;is certainly curious. The water jugs are made of
+               split sea-grass woven tightly together in flask form, and the borrom and part of the
+               sides daubed over with asphaltum, springs of which are on <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs>. She has a piece of
+               netting made of sinews, some eight feet square, the knitting of which is precisely
+               similar to that made for fishing. <span type="trope" n="11">Her food seems to have
+                  been chiefly the fat of the seal. Of this she brought some twenty pounds with her.
+                  It is rancid and smells awfully; still she relishes it.</span> She is very fond of
+               shell-fish, coffee, and liquor of every sort; but does not care for beef, pork,
+               bread, nor tea. <span type="trope" n="3">In person she is by far the best looking
+                  Indian, male or female, that I have ever seen on <rs><placeName type="region"
+                        key="#re_socalcoast">this coast</placeName></rs>. She has a large, full eye;
+                  her forehead is low and broad; her nose slightly aquiline and finely formed; her
+                  mouth is rather large, and indicates great firmness; he protruding lower lip gives
+                  a haughty tone to her look, and her well set chin fully sustains this trait. She
+                  is of medium stature, very masculine in appearance, and shows very little evidence
+                  of advanced age.</span>
+               <span type="trope" n="6">Undoubtedly she is the last of <rs><orgName
+                        type="nativeamericans" key="#natam_NicolenoTongva">her
+                  race</orgName></rs>.</span></p>
+            <p>By the <name type="ship" key="#sh_wednesday">steamer of Wednesday</name>, <persName
+                  type="seaman" key="#burke">Captain Burke</persName>, once a noted man on
+                     <rs><placeName type="region" key="#re_socalcoast">this coast</placeName></rs>,
+               arrived here, after an absence of <date from="1840" to="1853">thirteen years</date>.
+                  <persName type="seaman" key="#burke">Capt. Burke</persName> settled in <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> in <date when="1825"
+                  >1825</date>, and married into one of the wealthy native families. He is
+               father-in-law to <persName key="#jke">John Keys, Esq.</persName>, one of the heaviest
+               merchants south of <placeName type="city" key="#ci_sf">San Francisco</placeName>, and
+               universally known for his princely hospitality.</p>
+            <p>The troubles which threatened some time back in reference with Squatters, are nearly
+               subsided, and a very good feeling exists between the American and native
+               population.</p>
+            <p>I was shown <date when="1853-10-07">to-day</date> some specimens of quartz gold and
+               copper ore taken from a spot about fifty miles distant. Both are very rich.</p>
+            <p>A <persName key="#man8">young man</persName> from <rs><placeName type="city"
+                     key="#ci_sb">your city</placeName></rs> fell from his horse <rs><date
+                     when="1853-10-06">yesterday</date></rs>, while riding in company with <persName
+                  key="#mcc">Mr. McCahill</persName>, of the firm of <orgName type="company"
+                  key="#co_taaffe">Taaffe, McCahill &amp; Co.</orgName>, and sustained severe,
+               though not serious injury to his right ankle.</p>
+            <p>The weather here for a few days past has been excessively hot, owing to the great
+               fires in the mountains in the vicinity.</p>
+            <p>Should any of the good people of <rs><placeName type="city" key="#ci_sb">your
+                     city</placeName></rs> ever deem in worth their while to visit <rs><placeName
+                     type="city" key="#ci_sb">this town</placeName></rs>, let me advise them not to
+               leave it without visiting <rs><placeName type="mission" key="#mi_sb">the old
+                     Mission</placeName></rs>, or rather what remains of it. <rs><placeName
+                     type="mission" key="#mi_sb">The Church</placeName></rs> is now one of the
+               finest in <placeName type="state" key="#st_cal">California</placeName> in exterior
+               appearance, and internally it is the best adorned and most tastefully arranged that I
+               have yet seen. It contains eleven large paintings and about twenty small ones, all of
+               them excellently executed&#8212;indeed, a few are <emph>chef d'ouvres</emph>. The
+               ruins of <rs><placeName type="mission" key="#mi_sb">what was once a large Mission
+                     settlement</placeName></rs> lie scattered in every direction about
+                     <rs><placeName type="mission" key="#mi_sb">the Church</placeName></rs>.
+               Especially interesting amoung these ruins are the almost complete vestiges of a
+               viaduct, reservoir, mill, and holy bathing houses. The walls, arches, cement and
+               stone-work of each of these are in good condition; but they now stand merely the
+               evidence of former use. A <persName key="#friar1">Friar</persName> of the Franciscan
+               order officiates at <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs>.</p>
+            <byline><persName type="author" key="#san">SANTIAGO</persName>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>

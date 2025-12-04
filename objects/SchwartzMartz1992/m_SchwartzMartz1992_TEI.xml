@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#paccoastarch">Pacific Coast
+                     Archaeological Society Quarterly</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="28"/>
+               <biblScope unit="issue" n="4"/>
+               <date when="1992-09-01"/>
+               <pubPlace><placeName type="city" key="#costamesa">Costa Mesa</placeName>, <placeName
+                     type="state" key="#st_ca">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SchwartzMartz1992">Overview of the Archaeology of San
+                     Nicolas Island, Southern California</title>
+                  <biblScope unit="page" from="46" to="73"/>
+                  <author><persName type="author" key="#ssc">Schwartz, Steven J.
+                     Schwartz</persName></author>
+                  <author><persName type="author" key="#patmartz">Martz,
+                     Patricia</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">AN OVERVIEW OF THE ARCHAEOLOGY OF <placeName
+                        type="island" key="#i_sn">SAN NICOLAS ISLAND</placeName>, <placeName
+                        type="region" key="#re_socal">SOUTHERN
+               CALIFORNIA</placeName></hi></title></head>
+            <byline><persName type="author" key="#ssc">Steven J. Schwartz</persName> and <persName
+                  type="author" key="#patmartz">Patricia Martz</persName></byline>
+            <div type="section">
+               <head><title type="section">ABSTRACT</title></head>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName>, the outermost
+                  of the <placeName type="island" key="#i_southernchi">southern Channel
+                     Islands</placeName>, has been investigated for over 100 years, but little of it
+                  has been adequately analyzed and published. The available reports, which are
+                  mostly unpublished, show that <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> was occupied as early as 6,000 years ago. Midden
+                  samples reveal a wide variety of shellfish, fish, and sea mammal bone indicating a
+                  marine subsistence focus. Burials and a variety of artifacts, such as pestles,
+                  bowl fragments, bone implements, basketry impressions, cobble tools, shell beads,
+                  and fishhooks, reflect a broad range of cultural activities and suggest permanent
+                  settlement. These data form the basis for planning further work in terms of
+                  contemporary research goals to better understand the island's prehistory and human
+                  adaptations to this restricted environment.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">INTRODUCTION AND BACKGROUND</title></head>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> is located
+                  approximately 120 km southwest of <placeName type="city" key="#ci_la">Los
+                     Angeles</placeName> and 102 km from the nearest point of land at <placeName
+                     type="region" key="#re_pmugu">Point Mugu, California</placeName> (Fig. 1). It
+                  is 14 km long and 5 km wide. At the time of European contact, <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> was occupied by
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Indians</orgName></rs> who probably spoke one of the Cupan languages in the
+                  Takic family, which is part of the Uto-Aztecan linguistic stock. <span
+                     type="trope" n="6">This assumption is based on a few words that were recorded
+                     as spoken by <rs><persName type="nativeamerican" key="#lw">the last
+                           survivor</persName></rs>, a woman who was left behind on <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName> when <rs><persName
+                           type="group" key="#bhagroup">the remaining small
+                        population</persName></rs> was removed to <placeName type="region"
+                        key="#re_mld">the mainland</placeName> in <date when="1835">1835</date>
+                     (Bean and Smith <date when="1978">1978</date>; Eisen <date when="1905"
+                        >1905</date>; Meighan and Eberhart <date when="1953"
+                  >1953</date>).</span></p>
+               <p>There was archaeological interest in <placeName type="island" key="#i_sn">San
+                     Nicolas Island</placeName> as early as the <date from="1870" to="1879"
+                     >1870s</date>. Investigators such as <persName type="author" key="#psc">Paul
+                     Schumacher</persName>, <persName type="author" key="#lce">Léon de
+                     Cessac</persName>, <persName type="author" key="#sbo">Stephen
+                  Bowers</persName>, <persName type="author" key="#bbr">Bruce Bryan</persName>,
+                     <persName key="#mrog">Malcolm Rogers</persName>, <persName type="author"
+                     key="#awo">Arthur Woodward</persName> (<date>n.d.</date>), and <persName
+                     key="#porr">Phil Orr</persName> (<date when="1945">1945</date> and <date
+                     when="1946">1946</date>) have all worked on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>. Numerous surveys and excavations
+                  have been conducted, though for the most part these investigations have gone
+                  unreported. As <persName type="author" key="#cme">Meighan</persName> and <persName
+                     type="author" key="#heb">Eberhart</persName> (<date when="1953"
+                  >1953</date>:113) remarked,</p>
+               <p>None of these collections have been published except for brief notes on
+                  exceptional pieces. Although many of the collections were made by untrained
+                  individuals in the days before scientific records were kept, it is nonetheless
+                  regrettable that despite some 15,000 specimens from <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> preserved in American museums so little is
+                  known of the island's archaeology.</p>
+               <p>Meighan and Eberhart's paper "Archaeological Resources of San Nicolas Island,
+                  California" (<date when="1953">1953</date>) marked a major shift in archaeological
+                  studies on <placeName type="island" key="#i_sn">San Nicolas Island</placeName>. As
+                  the title implies, the shift was toward looking at archaeological sites as
+                  "resources" which could be used to answer specific research questions. The
+                  majority of subsequent work has been question-oriented and the level of
+                  documentation has increased dramatically.</p>
+               <p><persName key="#reinman">Fred Reinman</persName> began work at <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName> during the <date
+                     notBefore="1956" notAfter="1959">late 1950s</date>. His investigations include
+                  the excavation of six burial sites (Reinman and Townsend <date when="1960"
+                     >1960</date>), a survey of the upper plateau of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> (Reinman <date when="1962"
+                     >1962</date>), and a series of test excavations to clarify cultural sequences
+                  at SNI-11 and SNI-16 (Lauter <date>n.d.</date>a and <date>n.d.</date>b; <persName
+                     key="#reinman">Reinman</persName>
+                  <date>n.d.</date>a and <date>n.d.</date>b; <persName key="#reinman"
+                     >Reinman</persName> and <persName key="#lauter">Lauter</persName>
+                  <date>n.d.</date>a). In addition, an intensive, systematic survey of the entire
+                  island was conducted by <persName key="#reinman">Reinman</persName> in <date
+                     from="1983" to="1984">1983-1984</date> as a resource management project. The
+                  purpose of this survey was to locate all of the visible archaeological resources,
+                  provide information regarding integrity and eligibility for the <orgName
+                     key="#nationalregister">National Register of Historic Places</orgName>, and
+                  provide recommendations for further research and management (Reinman and Lauter
+                     <date>n.d.</date>b).</p>
+               <p>In spite of all of the attention that the island's archaeological resources have
+                  received, only ten of the 500 known sites have been excavated and reported on
+                  specifically. Of the ten, one is located on the central plateau, two are on the
+                  southern shore, and seven are on the northwest shore (Fig. 2).</p>
+               <p>Although ten sites have been excavated, five of these investigations were limited
+                  to removal of exposed burials; the midden areas were not tested (Reinman and
+                  Townsend <date when="1960">1960</date>). Sites SNI-38 and SNI-51 were tested by
+                     <persName key="#croz">Rozaire</persName> (<date when="1959">1959</date>) for
+                  the express purpose of locating woven materials for an analysis of the weaving
+                  technique; some midden analysis was performed incidentally. Three sites, SNI-11,
+                  SNI-16, and SNI-79, have been examined primarily for midden constituents (Reinman
+                     <date when="1964">1964</date>). Of these, the most fully reported to date is
+                  SNI-11, which was the subject of two Master's theses (Clevenger <date>n.d.</date>;
+                     <persName key="#bleitz">Bleitz-Sanburg</persName>
+                  <date>n.d.</date>a), part of a dissertation (Salls <date>n.d.</date>b), and a site
+                  report (Reinman <date>n.d.</date>a). SNI-16 was the basis for one Master's thesis
+                  (Lauter <date>n.d.</date>a) emphasizing chronology.</p>
+               <p>This lack of reporting has resulted in a very limited knowledge of the island's
+                  archaeology. Future research should increase understanding of the cultural
+                  processes. To this end, a preliminary research design has been developed, and
+                  archaeological investigations are currently being conducted by <orgName
+                     key="#csula">California State University, Los Angeles (CSULA)</orgName>, under
+                  the direction of <persName type="author" key="#patmartz">Patricia Martz</persName>
+                  . [sic] Excavations were also conducted by <orgName key="#csuf">California State
+                     University, Fullerton</orgName>, and <persName key="#chaffey">Chaffey
+                     College</persName> in <date when="1991">1991</date>, and these data will be
+                  analyzed at <orgName key="#csula">CSULA</orgName> and integrated into a
+                  comprehensive research design. This review of the past archaeological work on
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName> reflects
+                  the current interest in developing new research into the prehistory of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                  provides the background for these studies.</p>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-11, Thousand Springs Site</title></head>
+                  <p>The Thousand Springs site is the only extensively excavated site on
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> that
+                     has been adequately reported. The site is located on the island's northwest
+                     coast near one of the main water sources, near a rocky intertidal zone. SNI-11
+                     is a large dune site measuring some 450 by 200 m. The site is subdivided into
+                     four mounds designated A, B, C, and D. At least three strata are observable in
+                     Mound B. The site was tested on two occasions &#8212; first by the <orgName
+                        key="#uclaarchsur">UCLA Archaeological Survey</orgName> in <date when="1959"
+                        >1959</date> (Reinman and Townsend <date when="1960">1960</date>) and then
+                     by <orgName key="#csula">CSULA</orgName> in <date from="1977" to="1979"
+                        >1977-79</date> (Reinman <date>n.d.</date>a). The site is still considered
+                     to have excellent research potential.</p>
+                  <p>A series of column samples were taken in <date when="1959">1959</date> by the
+                        <orgName key="#uclaarchsur">UCLA Archaeological Survey</orgName>. The depth
+                     of the midden varied in the units, ranging from 38 to 56 cm below the present
+                     surface. Three samples from three locations along the western edge of Mound A
+                     were examined for midden constituents. Analysis revealed that four main
+                     shellfish species were present in the midden: abalone, tegula, mussel, and sea
+                     urchin. The exploitation of these species changed through time. The procurement
+                     of mussels remained relatively constant, while abalone usage increased and
+                     tegula usage decreased. The usage of sea urchin increased and then decreased
+                     through time and seemed to fluctuate more than the others (Reinman <date
+                        when="1964">1964</date>).</p>
+                  <p>In <date from="1977" to="1979">1977-79</date>
+                     <orgName key="#csula">CSULA</orgName> excavated fifteen 1.5- by 1.5-m test
+                     units. The material was screened through 1/4-inch mesh. A number of radiocarbon
+                     dates have been processed from this site making it the best-dated site on
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                     (Table 1).</p>
+                  <p>Based on a preliminary analysis prior to the submission of the radiocarbon
+                     samples, <persName key="#reinman">Reinman</persName> suggested that the
+                     artifacts indicate a good stratigraphic context with Late Period fish hooks in
+                     the upper Stratum I, and bone fish gorges, leaf-shaped projectile points, and
+                     bifaces in the lower strata (<date>n.d.</date>a). However, a review of the
+                     radiocarbon dates reveals some stratigraphic inconsistencies and indicates the
+                     need for a re-evaluation of the sampling and processing procedures, as well as
+                     a better understanding of the post-depositional processes of a sand dune midden
+                     site. For example, Mound B, Stratum I, has a 2469-2046 B.C. (4419-3996 B.P.)
+                     date and an A.D. 1280-1387 (670-536 B.P.) date at 10-20 cm. A date of 4894-4846
+                     B.C. (6844-6796 B.P.) overlies that of 2869-2701 B.C. (4819-4651 B.P.) in
+                     Stratum III. Mound A contains only Stratum I, and the base of the mound, dated
+                     at 399-123 B.C. (2349-2073 B.P.), is overlain by a date of 3036-2896 B.C.
+                     (4986-4846 B.P).[sic] at the 30-40 cm level. The site is complex, with four
+                     mounds (A,B,C,D); three strata (I, II, III) are represented in Mounds B and C.
+                     The strata are separated by light-colored sand with few cultural materials. All
+                     three strata had surface expressions on sloping sides and eroded tops of the
+                     mounds.</p>
+                  <p>All of the dates are from charcoal samples, which leaves us with at least three
+                     possible explanations: (1) some of the charcoal may have been contaminated with
+                     asphaltum which would produce an older date: (2) the charcoal samples were not
+                     in their original stratigraphic context; and (3) the stratigraphy of the site
+                     is not as undisturbed as it appears. Additional radiocarbon samples, obsidian
+                     sourcing, and soils and geomorphological studies are needed to resolve these
+                     issues.</p>
+                  <p><persName key="#bleitz">Bleitz</persName> (<date when="1991">1991</date>)
+                     provides an analysis of a basketry impression found in a lump of asphaltum
+                     recovered from Stratum III, Mound B, at a depth of 90 cm. The impression is
+                     from a basket which was made by the coiling technique. The coiling was
+                     clockwise. This find may push the introduction of coiled basketry into
+                        <placeName type="state" key="#st_cal">California</placeName> back earlier
+                     than 2000 B.C.</p>
+                  <p><persName key="#salls">Salls</persName> (<date>n.d.</date>b) analyzed the fish
+                     remains from SNI-11 as part of his dissertation research. Two test units were
+                     analyzed, one from Mound A which contained materials assigned to Stratum I, and
+                     one from Mound B which represented Strata II and III.</p>
+                  <p>The intensity of fishing at this site resembles that of modem commercial
+                     fisheries. A total of 43,404 specimens were recovered, the equivalent of 5,293
+                     per cubic meter. The total minimum number of individuals was 2,193. The fish
+                     specimens per cubic meter are more than five times as many compared to what may
+                     be the densest site on <placeName type="island" key="#i_scl">San Clemente
+                        Island</placeName>, Eel Point (SCI-43C), even though that sample was
+                     screened with 1/8-inch mesh compared to the 1/4-inch mesh used at SNI-11.</p>
+                  <p>The exceptionally wide diversity of fishes recovered from SNI-11 (some 70
+                     species) indicates a non-selective fishery. There does not appear to be a
+                     preferred species such as was documented for <placeName type="island"
+                        key="#i_scl">San Clemente Island</placeName> where sheephead was the most
+                     common species at every site examined (Salls <date>n.d.</date>b). The fish
+                     sample from SNI-11 indicates a watercraft-oriented strategy where hook-and-line
+                     fishing was extremely important &#8212; many were rock and kelp fishes. Dip
+                     nets, drift or gill nets, and beach seines were also probably used, as
+                     indicated by the presence of small schooling fish such as sardines and
+                     silversides.</p>
+                  <p>The analysis disclosed that 78% of the bones were from the head, while only 22%
+                     were other body parts. One possible explanation for this anomaly is that
+                     preparation and cooking methods may have exposed the vertebrae to differential
+                     preservation rates. Many large bowls, mortars, and pestles have been recovered
+                     from <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. It
+                     has been proposed that the grinding implements were used for processing fish.
+                     An alternate interpretation is that the fish were prepared for off-site or
+                     off-island consumption, in which case the heads were removed for transport to
+                     reduce bulk.</p>
+                  <p>Eighteen otoliths from SNI-11 were examined for seasonality data (Huddleston
+                        <date>n.d.</date>; Salls <date>n.d.</date>b). Seasonality readings were
+                     obtainable on all specimens. Seventeen of the otoliths, representing 94% of the
+                     sample, were captured in the winter season, from approximately early October to
+                     mid-May. Only a single specimen was from a fish caught in the summer. The 17
+                     otoliths with rings indicating winter capture were subdivided into fall and
+                     late winter/early spring periods. Eleven (65%) were fall (early October to the
+                     end of December). The remaining six fish were caught during the late
+                     winter/early spring (early March to mid-May).</p>
+                  <p>Analysis of the mammal and bird bone (Bleitz-Sanburg <date>n.d.</date>a)
+                     indicates an emphasis on the hunting of fur-bearing marine mammals. There is a
+                     gradual decrease over time in the acquisition of large pinnipeds, such as
+                     elephant seals and sea lions. Although the quantities do not indicate that they
+                     were a primary focus, there was a marked increase in the procurement of
+                     dolphins and porpoises.</p>
+                  <p>The complex of birds identified at SNI-11 suggests a pattern of exploitation
+                     centered offshore and around the kelp beds, which was incidental to a more
+                     generalized fishing procurement strategy. The range of bird species appears to
+                     diminish in the Late Period.</p>
+                  <p>A wide variety of mammals is characteristic for the Late Period. The
+                     distribution of mammalian fauna reflects an insular shore-based collecting and
+                     hunting pattern, which was dominated during the late occupation by an
+                     intensified exploitation of offshore fauna foraging in and around the kelp
+                     beds.</p>
+                  <p>Lithic analysis was undertaken on 7,000 debitage flakes recovered from Mound B
+                     (Clevenger <date>n.d.</date>). Based on this analysis, it is proposed that the
+                     lithic manufacturing strategy represents an attempt by the inhabitants of
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> to
+                     make use of locally-available lithic materials and limit dependence on
+                     off-island resources. <persName key="#clevenger">Clevenger</persName>
+                     determined that they were using relatively small, coarse-textured
+                     metasedimentary and metavolcanic cobbles, available in conglomorate bed
+                     exposures on the island, as a source of raw material rather than imported
+                     lithic material of better quality. <rs><placeName type="island" key="#i_sn">The
+                           island</placeName></rs> is formed of sedimentary rock, and the materials
+                     favored by flintknappers, such as cherts and volcanics, are not available.
+                        <persName key="#clevenger">Clevenger</persName> describes the tool
+                     production method as a "split cobble reduction strategy" using a bipolar
+                     flaking technique. The tools made in this manner, while rather crude in
+                     appearance, were evidently adequate for the processing of fish and
+                     shellfish.</p>
+                  <p>Obsidian hydration measurements were made on two small flakes from this site
+                     (Table 2). Interpretation of the measurements is problematical because the
+                     obsidian was not sourced and the samples were not recovered from the same or
+                     equivalent depositional contexts as the radiocarbon samples. If, based on
+                     information from <placeName type="regionn" key="#re_mld">the
+                        mainland</placeName> (e.g., <placeName key="#orangeco">Orange
+                        County</placeName>), we were to make the assumption that the obsidian is
+                     from <placeName key="#coso">Coso</placeName>, there is a considerable range of
+                     age estimates for hydration rates proposed for Coso obsidian. For example, the
+                     range for five microns is from 712-3125 years B.P. (Hall <date when="1988"
+                        >1988</date>:37). Interpretation may be possible in the future through the
+                     dating of carbon, which may be available in curated column samples recovered
+                     from the same depositional contexts as the obsidian. Lacking this information
+                     it is not possible to say more than that the hydration rims of 5.4 and 7.7 are
+                     consistent with the stratigraphy.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-14</title></head>
+                  <p>SNI-14 is located on the northwest coast of <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs>. It is a sparse shell midden,
+                     approximately 165 by 105 m in extent and 10-50 cm deep, capping a large sand
+                     dune. The site is situated near a rocky shoreline area. SNI-14 was
+                     test-excavated by the <orgName key="#uclaarchsur">UCLA Archaeological
+                        Survey</orgName> in <date when="1959">1959</date> to recover an exposed
+                     burial (Reinman and Townsend <date when="1960">1960</date>).</p>
+                  <p>The burial was a primary inhumation of an infant. It was tightly flexed and
+                     lying on its right side. The orientation was undetermined. No pathologies were
+                     noted. Metric data are available in <persName key="#rootenberg"
+                        >Rootenberg</persName> (<date when="1960">1960</date>). Accompanying the
+                     burial were 11 spire-lopped olivella beads and a bone implement made from a
+                     mammal long bone.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-15</title></head>
+                  <p>SNI-15 is situated above a rock intertidal shore on the northwest coast of
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. It
+                     consists of patches of midden on two large dunes connected by a low saddle. The
+                     occupation debris is 10-20 cm deep and extends over an area 260 by 140 m.
+                     SNI-15 was test-excavated by the <orgName key="#uclaarchsur">UCLA
+                        Archaeological Survey</orgName> in <date when="1959">1959</date> to recover
+                     an exposed burial (Reinman and Townsend <date when="1960">1960</date>).</p>
+                  <p>A single burial was found weathering out of the sand at the base of the dune.
+                     It was a primary inhumation of a young adult female in a tightly flexed
+                     position, lying on the right side. The skull exhibited some degree of occipital
+                     protrusion or "bunning." Metric data are available in <persName
+                        key="#rootenberg">Rootenberg</persName> (<date when="1960">1960</date>).
+                     Associated with the burial were 568 tubular bird-bone beads in the chest and
+                     neck regions, perhaps indicating a necklace. Several of the bone beads were
+                     incised. A steatite bead and a bone awl were also with the burial.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-16</title></head>
+                  <p>SNI-16 is located on the northwest coast of <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs>. It is a typical dune site,
+                     consisting of patches of shell midden capping a large dune approximately 2,580
+                     m in length and some 25 m high. Observable midden covers an area of about 428
+                     by 123 m. SNI-16 has been tested on three different occasions (Reinman and
+                     Townsend <date when="1960">1960</date>; Reinman <date when="1964">1964</date>;
+                     Lauter <date>n.d.</date>b).</p>
+                  <p>A burial area was excavated by the <orgName key="#uclaarchsur">UCLA
+                        Archaeological Survey</orgName> in <date when="1958">1958</date> (Reinman
+                     and Townsend <date when="1960">1960</date>). The burial area was located on the
+                     landward end of the dune. It was approximately 15-20 m below the midden remains
+                     on the top of the dune and followed what would seem to be the preferred burial
+                     pattern in that it was off the main midden in a fairly level area.</p>
+                  <p>Forty-three 5- by 5-foot squares were excavated to depths ranging from 24 to 36
+                     inches. Much of the excavation area had been previously disturbed by relic
+                     hunters. The most productive area was located in the most heavily disturbed
+                     portion of the site. In this area, in addition to Burials 2 and 3, a large
+                     number of abalone and mussel shell pendants of many types, stone and bone
+                     pendants, and large numbers of scattered human and animal bones were found.
+                     Scattered among the bones, pendants, and burials were many small basketry
+                     fragments containing red ochre, as well as a number of beads of steatite and
+                     shell. On the surface were scattered a number of skull and long-bone fragments.
+                     In addition to these, a number must have been destroyed by the extensive
+                     erosion that has taken place on this end of <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs>.</p>
+                  <p>In all, three burials were recovered that could be considered undisturbed.
+                     Burial 1 was a young female buried face down, tightly flexed. The burial
+                     exhibited exostosis of the auditory meatus and occipital protrusion or
+                     "bunning," congenitally-missing mandibular third molars, and an abscessed tooth
+                     (Rootenberg <date when="1960">1960</date>). No artifacts were recovered with
+                     this burial. Burial 2 was a male in a tightly-flexed sitting position with the
+                     skull partially protruding through its covering of asphaltum-coated matting or
+                     basketry. The hands were covering the face. Several steatite and bone beads and
+                     pendants accompanied this burial. Burial 3 was an infant either wrapped in
+                     asphaltum-coated matting or placed in a basket. It was unaccompanied by
+                     artifacts. Metric data for these burials are available in <persName
+                        key="#rootenberg">Rootenberg</persName> (<date when="1960">1960</date>).</p>
+                  <p>A total of 394 artifacts was recovered from this excavation. Of this number 147
+                     were shell pendants. Most were unassociated with the recovered burials but were
+                     found in the other excavation units. A number of them can be attributed to
+                     burials previously destroyed by erosion, but many were also found in various
+                     units either out of the disturbed area or below the level of disturbance. In
+                     several of the units human mandibles, skull fragments, and long bones were
+                     found in situations of partial articulation as well as in complete disorder.
+                     Some of these bone assemblages might possibly represent the practice of
+                     reburial. Excavation to a depth of 36 inches to sterile sand failed to reveal
+                     any deeper burials.</p>
+                  <p>Additional work was performed at the site in <date when="1962">1962</date>
+                     (Reinman <date when="1964">1964</date>) to explore the midden area. The site
+                     was divided into four separate mounds (designated from the seaward end to
+                     inland as Mounds A, B, C, and D). Midden remains are found on each of the four
+                     mounds and each was tested during the excavation. Eleven 5- by 5-foot pits were
+                     excavated (one in Mound A, four in Mounds B and C, and two in Mound D). The
+                     maximum midden depth of 36 inches was found on Mound A and the shallowest on
+                     Mound B, where the midden ended between 0 and 6 inches from the surface. In
+                     addition to the excavation of the units, column samples were taken from each
+                     mound to provide data on the midden constituents. Two radiocarbon samples were
+                     processed (Table 1).</p>
+                  <p>The total number of artifacts recovered in the excavations, including those
+                     gathered from the surface, was 138; 98 were stone, 25 bone, and 14 shell. In
+                     addition, a single basketry impression was found on Mound B. A total of 19
+                     cubic yards of midden was excavated, with the greatest amount taken from Mound
+                     C.</p>
+                  <p>The most recent excavations at SNI-16 were directed toward establishing a
+                     chronology specific to the island (Lauter <date>n.d.</date>a,
+                     <date>n.d.</date>b). The excavations centered on known midden areas and
+                     artifacts noted on the surface. Eight 1.5- by 1.5-m units were excavated.</p>
+                  <p>The midden consisted of several strata that were identifiable by their color.
+                     Abalone shells and shell lenses occurred frequently in all test pits. Mussel,
+                     tegula, land snail, and sea urchin were abundant in every pit and at most
+                     levels. Tegula, sea urchin, and land snails were found primarily in pockets or
+                     lenses and may represent a single processing event. These pockets are
+                     distributed throughout the site and occasionally may be seen eroding out of the
+                     surface or sides of the dune in small piles. Chiton, limpet, norissia,
+                     olivella, and astrea were found in all pits as were fish, bird, and sea mammal
+                     bone. Artifacts total 708; 347 are utilitarian objects and 361 are
+                     ornamental.</p>
+                  <p>Obsidian hydration measurements were made on three flakes found in the
+                     excavations and two from previous excavations (Table 2). Three have been
+                     sourced to <placeName key="#coso">Coso</placeName> and one to <placeName
+                        key="#casadiablo">Casa Diablo</placeName> (Janet Scalise, personal
+                     communication, <date when="1993">1993</date>). As mentioned previously,
+                     accurate interpretation of the measurements would require sourcing of the
+                     obsidian and the dating of carbon from the same depositional contexts as the
+                     obsidian.</p>
+                  <p>One burial was recovered in the <date when="1979">1979</date> excavations. The
+                     burial was a primary inhumation, positioned on its left side, loosely flexed,
+                     and oriented toward the north. It has been identified as a probable female
+                     about 35-40 years of age with no evident pathologies (Salls
+                     <date>n.d.</date>a). Associated objects included a side-notched projectile
+                     point fragment, a sea mammal tooth pendant, a sea mammal effigy, a clam shell
+                     ring, a worked clam shell object, and three steatite pendants, two of which had
+                     biconical perforations. The remains were in very poor condition due to natural
+                     decomposition.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-18</title></head>
+                  <p>SNI-18 is located near the northwest tip of <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs> with major rocky intertidal zones
+                     both to the east and west sides of the site. These adjacent areas currently are
+                     a major rookery for western gulls, Brandt's comorants, and California sea
+                     lions. It is a very high dune site, about 700 by 175 m, consisting of shell
+                     midden scattered over the top and sides. It is probably the largest remaining
+                     site on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                     Excavations were undertaken by the <orgName key="#uclaarchsur">UCLA
+                        Archaeological Survey</orgName> in <date when="1959">1959</date> centering
+                     on an exposed burial area (Reinman and Townsend <date when="1960"
+                     >1960</date>).</p>
+                  <p>Burial 1 was observed weathering out of the sand on top of the dune. Burials 2
+                     and 3 were discovered about 100 feet east, also eroding out of the midden.
+                     Burials 2 and 3 had been disturbed. The skeletons were not articulated, and the
+                     bones ranged in depth from the surface to 35 inches. It is possible that they
+                     are reburials that were disturbed when the graves were dug for Burials 4 and 5,
+                     which were immediately below. The only artifact associated with Burial 4 was a
+                     large ball of yellow ochre in the pelvic region. Burial 5 was slightly below
+                     this burial and somewhat to the west; it was evidently the cause for the
+                     disturbance of the previous burials. It was an adult male, tightly flexed,
+                     lying on the left side, with several artifacts in association. Included were a
+                     hafted point, four complete abalone fishhooks, a stone pipe, and a possible
+                     "treasure box" consisting of four interlocking abalone shells that contained an
+                     incised steatite pebble. The "treasure box" was situated directly over this
+                     burial but at only 8 inches from the surface, while the skeleton was at a depth
+                     of 36 inches.</p>
+                  <p>Burial 2 exhibits exostosis of the auditory meatus. Burial 4 exhibits occipital
+                     protrusion or "bunning." Burial 4 also has an osteoma at the juncture of the
+                     left parietal, frontal, and sphenoid sutures (possibly caused by an old
+                     injury), and on the rear of the left parietal along the left lambdoid suture.
+                     Burials 2, 4, and 5 had abscessed teeth. Metric data are available in <persName
+                        key="#rootenberg">Rootenberg</persName> (<date when="1960">1960</date>).</p>
+                  <p>In excavating the burials, two hearths were uncovered. The first was 4 feet in
+                     diameter and 17 inches thick, extending from 17 to 34 inches from the surface.
+                     Within the pit at the 34-inch level was a series of stones in a triangular
+                     arrangement; within this area was the greatest concentration of ash, shell
+                     fragments, pieces of asphaltum, a large quantity of sea urchin spines, and a
+                     few scattered artifacts. The latter included a stone pestle, a bone awl, pieces
+                     of rock with asphaltum, and scattered burnt animal bone (sea lion, bird, and
+                     fish bones as well as badly charred pieces of whale vertebra). The second
+                     hearth was a double fire pit, 91 inches in length, 58 inches wide, and in the
+                     form of two overlapping circles. It too contained ash, shell fragments, sea
+                     urchin spines in great quantity, pieces of asphaltum, and a large number of
+                     artifacts. Included were a stone pestle, two cores, a chopper, a bone wedge
+                     with asphaltum, a stone net sinker, two bone awls, a bone spatulate object, and
+                     a broken stone slab covered with asphaltum.</p>
+                  <p>No further burials were recovered, and only a few artifacts were recovered from
+                     the other pits, including a bone gorge, the broken tip of an awl or flaker, and
+                     some fishhook fragments and blanks. A total of 128 artifacts were recovered
+                     from the excavations. One shell sample from the burial area was submitted for
+                     radiocarbon analysis (Table 1).</p>
+                  <p>Two dog burials were also found, both completely articulated. They were not
+                     accompanied by artifacts.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-38, Daytona Beach Site</title></head>
+                  <p>The Daytona Beach site is located on the southeast coast of <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs> adjacent to a large
+                     sandy beach. There is a rocky intertidal area just to the east. The site was
+                     heavily impacted when the current barge landing was constructed. The remaining
+                     site area covers some 160 by 140 m. The site contains a wide variety of
+                     cultural materials.</p>
+                  <p><persName key="#croz">Rozaire</persName> undertook excavation of SNI-38
+                     primarily to learn more about weaving skills of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           islanders</orgName></rs> (Rozaire <date when="1959">1959</date>, <date
+                        when="1967">1967</date>). Six 5- by 5-foot squares were excavated. Midden
+                     depth was a maximum of four feet. Two possible occupations are represented by
+                     differing colors of soil, the lower layer being decidedly more brown than
+                     black. The side-wall profile of one unit revealed a sterile overburden of three
+                     feet. The excavated portion of the site has since been destroyed to make room
+                     for the current barge landing, although some deposit still remains to the east.
+                     Woven sea-grass specimens, cordage, and limited evidence of basketry
+                     impressions were found.</p>
+                  <p>Over three dozen examples of woven sea grass were recovered. All examples have
+                     plain, two-element S-twining. The warps and wefts were essentially small
+                     bundles of untwisted sea grass. About 20 examples of twisted cordage made from
+                     sea grass were also recovered. Structurally, most were S-strand with two
+                     Z-yarns. These findings were consistent with Rozaire's (<date when="1957"
+                        >1957</date>) earlier proposal that twining techniques are culturally
+                     distinctive and that S-twining is associated with Uto-Aztecan peoples.</p>
+                  <p>A feature consisting of 130 tarred pebbles was recovered near the only burial
+                     recovered during the excavations. The feature measured 33 by 25 inches and was
+                     at a depth of 15 inches. A second concentration of 19 tarred pebbles was
+                     recovered at a depth of 26 inches in another pit.</p>
+                  <p>The excavations yielded 75 stone artifacts, 23 bone artifacts, 61 fishhooks, 19
+                     fishhook blanks, 10 shell beads, 4 specimens of woven sea-grass, and 7 of
+                     cordage. Numerous shellfish species, crustaceans, sea mammals, fish, and bird
+                     remains were also recovered.</p>
+                  <p>One burial was recovered. It is possible that it was in a flexed position. It
+                     appeared to have been placed in a small depression with a considerable amount
+                     of charcoal. From the condition of the skeleton, it is assumed that the burning
+                     in the pit occurred prior to interment. Scattered within the pit were fragments
+                     of woven sea-grass and some small concentrations of unwoven sea-grass.</p>
+                  <p>A second burial was later recovered at or near SNI-38 in <date when="1960"
+                        >1960</date> (Rozaire <date when="1970">1970</date>). The burial was exposed
+                     in a cut bank about 914 m from the shoreline. No midden soil was associated
+                     with the burial though scattered shell was observed on the surface nearby. The
+                     skeleton was contained within an oval grave pit which measured about 58 by 94
+                     cm and was situated a maximum of 84 cm below the surface. The burial was
+                     tightly flexed, in a ventral position, and face down with the head pointing to
+                     the south. The individual was a male in his early twenties. The two hemispheres
+                     of the frontal bone had not united, thus producing a metopic suture from bregma
+                     to nasion. The only associated cultural materials were a few bits of woven sea
+                     grass and fragments of cordage which may, together, constitute the remnants of
+                     a cape or shroud.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-40</title></head>
+                  <p>SNI-40 is located near the west coast of the island overlooking a rocky
+                     intertidal area which is currently used heavily by sea lions. The site area
+                     measures some 300 by 100 m. Depth of the observed midden is in excess of one
+                     meter. A number of exposed burials were recovered by the <orgName
+                        key="#uclaarchsur">UCLA Archaeological Survey</orgName> in <date when="1959"
+                        >1959</date> (Reinman and Townsend <date when="1960">1960</date>).</p>
+                  <p>The dune itself is about 805 m in length, running from northwest to southeast.
+                     It is about 61 m wide and perhaps 23 m high. The burial area was on the inland
+                     slope of the dune in a level space 3 to 6 m below the top of the southwest
+                     side. The burials were all found in sterile sand with the midden seemingly
+                     skirting the edge of the area and continuing on beyond for about 15 m, but only
+                     on the eastern side.</p>
+                  <p>A 30-foot trench was laid out in a north-south direction over an area disturbed
+                     by previous looting. This was later extended into a larger grid encompassing
+                     some 88 five-foot squares, of which 57 were excavated, and from which 20
+                     burials and 136 cubic yards of earth were removed. With the burials were found
+                     75 artifacts, exclusive of 5,384 shell beads of varying types. Twenty-five of
+                     the artifacts were abalone shell dishes. A sample of olivella beads was
+                     submitted for radiocarbon analysis (Table 1).</p>
+                  <p>Since the burial area was in sterile sand, no stratigraphy was noted, with the
+                     exception of three features. All three consisted of a burned layer of sand,
+                     charcoal, and large quantities of land-snail shells.</p>
+                  <p>Burials 1 and 12 evidenced exostosis of the auditory meatus. Burial 15
+                     exhibited several wormian bones along the lambdoid and possibly the sagittal
+                     sutures. Burials 4 and 9 exhibit occipital protrusion or "bunning." Burials 1,
+                     3, and 4 have congenitally missing mandibular third molars. Burials 4 and 16
+                     have dental abscesses. Burial 6 was missing four teeth, possibly due to an
+                     accident. Several teeth were missing from Burial 9 indicating periodontal
+                     involvement. Metric data are available in <persName key="#rootenberg"
+                        >Rootenberg</persName> (<date when="1960">1960</date>).</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-51, <placeName type="region"
+                           key="#re_dutchharbor">Dutch Harbor</placeName></title></head>
+                  <p>The Dutch Harbor site is located at the west end of <placeName type="region"
+                        key="#re_dutchharbor">Dutch Harbor</placeName>, near the center of the
+                     southern shore of <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs>. The site covers an area of about 325 by 100
+                     meters. <placeName type="region" key="#re_dutchharbor">Dutch Harbor</placeName>
+                     is the largest sandy beach on <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs>. The site is located near the western end of the
+                     beach, and there is also a rocky intertidal area nearby. The site was tested in
+                        <date when="1958">1958</date> (Rozaire <date when="1959">1959</date>, <date
+                        when="1967">1967</date>), with the primary intent of recovering woven
+                     material, and in <date when="1960">1960</date> to obtain datable materials in
+                     stratigraphic context (Rozaire <date when="1970">1970</date>).</p>
+                  <p>Fourteen pieces of woven sea grass were recovered and all but two have some
+                     remains of selvage. The basic weave is plain two-element S-twining, with
+                     braided three- and four-element S-twining found in the top selvage of four
+                     specimens. Over 20 pieces of twisted sea grass cordage were uncovered. All were
+                     S-strand, with two Z-yarns, except for one piece of S-strand with two S-yarns.
+                     These findings were consistent with Rozaire's (<date when="1957">1957</date>)
+                     earlier proposal.</p>
+                  <p>The original excavation consisted of eight 5-foot squares. The squares were
+                     excavated to a depth of only 36 inches due to limited time. A bulldozer cut
+                     revealed that the midden extended to a maximum depth of nine feet below the
+                     surface.</p>
+                  <p>Twenty stone artifacts, three bone artifacts, and 10 fishhooks were recovered
+                     along with 16 specimens of woven sea-grass. Numerous shellfish species, sea
+                     mammal, fish, and bird remains were also recovered.</p>
+                  <p>The 1960 excavation consisted of four 5-foot squares. Two were excavated to
+                     sterile soil and two were terminated at depths of 30 and 54 inches due to time
+                     constraints. A portion of a cut bank was excavated to obtain some woven sea
+                     grass eroding from the cut. The woven sea-grass was encountered at a depth of
+                     about 6 feet in association with sea-grass cordage, a bone tool fragment, two
+                     scrapers, and charcoal.</p>
+                  <p>The four excavated units revealed a clear stratigraphic profile which had
+                     numerous lenses. The profile probably reflects the slow build-up of the midden
+                     in an active dune area. Numerous artifacts were recovered from the surface as
+                     well as from below the surface. In general, artifact yield greatly decreased
+                     below 48 inches.</p>
+                  <p>Two burials were also recovered at this time: one inhumation and one cremation.
+                     The cremation was found eroding out of the side of a cut bank 14 inches below
+                     the surface and several hundred yards above the road. The fragmented and
+                     charred bones were contained in a saucer-shaped depression, 35 by 24 inches,
+                     which had been excavated seven inches into the compacted yellowish sand. The
+                     soil in the bottom of the pit was slightly reddish and was covered by a thin
+                     layer (less than 1/2 inch thick) of chunks of charcoal. Charcoal and dark earth
+                     filled the rest of the pit; it was in this matrix above the thin charcoal layer
+                     that most of the fragmented human bone occurred. Though the bones were
+                     carefully exposed, there was no apparent pattern to give a clue to original
+                     position. It would appear that the remains constitute a secondary burial
+                     following cremation. In the course of burning, the bones had been poked around
+                     to assure that they were completely charred by the fire. Over 1,300 shell and
+                     bone beads were scattered throughout the pit. These appear to have been thrown
+                     loosely into the cremation fire during burning rather than as a necklace.
+                     Interestingly, over half of the beads were not charred. The cremation pit also
+                     contained a few small chunks of red and yellow ochre and five pieces of small
+                     rock, shell, and animal bone fragments. Approximately 100 tarred pebbles were
+                     scattered about in small clusters of three or four above the cremation. The
+                     cremation was associated with the remnant of a shallow, compacted, dark-colored
+                     midden 10 to 14 inches thick (Rozaire <date when="1967">1967</date>, <date
+                        when="1970">1970</date>).</p>
+                  <p>The inhumation was discovered about 25 feet north of the cremation, weathering
+                     out of a small gully about two feet deep. The bones were disarticulated, broken
+                     in some instances, and mixed and scattered over an area of about 41 inches
+                     square, indicating a secondary burial. The skull was upright facing west. Some
+                     small scraps of woven sea grass and fragments of cordage were associated with
+                     the bones (Rozaire <date when="1970">1970</date>).</p>
+                  <p>Charcoal from the cremation and shell samples from an unknown location within
+                     the excavated areas were submitted for radiocarbon analysis. The radiocarbon
+                     determinations appear to be stratigraphically consistent (Table 1).</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-56, Redeye Site</title></head>
+                  <p>SNI-56 is located on the northwest coast of <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs> in an area known locally as
+                     Redeye. It is adjacent to a small sandy beach with rocky intertidal areas to
+                     the east and west. A number of water sources are nearby. The site extends over
+                     a 300 by 175 m area of grassy hummocks and patches of midden. It displays an
+                     extremely wide array of cultural materials. Three burials were excavated by the
+                        <orgName key="#uclaarchsur">UCLA Archaeological Survey</orgName>, one in
+                        <date when="1952">1952</date> and two in <date when="1959">1959</date>. A
+                     small surface collection was also made by <persName key="#reinman"
+                        >Reinman</persName> and <persName key="#sjtownsend">Townsend</persName>
+                        (<date when="1960">1960</date>).</p>
+                  <p>Burial 1, with the exception of the skull, was not salvaged. The skull was
+                     resting on a spool-shaped object made from a whale vertebra (Meighan and
+                     Eberhart <date when="1953">1953</date>). The 1959 excavation centered on two
+                     exposed burials and consisted of eight 6- by 6-foot units. Burials 2 and 3 were
+                     found weathering out of the sand in an area down from the main dune area in the
+                     same location from which Burial 1 was recovered in <date when="1952"
+                        >1952</date>. Other artifacts found with the burials at this site include
+                     the following: Burial 2 had five unmodified abalone shells, and Burial 3 was
+                     accompanied by a few spire-lopped olivella beads, a perforated stone ring, four
+                     unmodified abalone shells, and three fish gorges of bird and mammal bone.</p>
+                  <p>Burial 2 was a young adult female. This was a primary inhumation in a tightly
+                     flexed position lying on the left side and oriented toward the west. A
+                     cylindrical growth was observed extending downward between the right mastoid
+                     and the right occipital condyle. The growth has an articular facet on the
+                     anterior portion and may have articulated with the transverse process of the
+                     atlas. If so, it would have limited vertical head movement and horizontal
+                     movement to the left. The skull exhibits occipital protrusion or "bunning." The
+                     dentition exhibits congenitally-missing third molars (Rootenberg <date
+                        when="1960">1960</date>).</p>
+                  <p>Burial 3 was the primary inhumation of a young adult male. It was in a tightly
+                     flexed supine position oriented toward the north. The skull exhibits occipital
+                     protrusion or "bunning." Metric data for both burials are available in
+                        <persName key="#rootenberg">Rootenberg</persName>
+                     <date when="1960">(1960</date>).</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNI-79, Powerhouse Site</title></head>
+                  <p>The Powerhouse site is located on the central plateau at about the center of
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                        <placeName key="#celerycreek">Celery Creek</placeName>, one of the major
+                     drainages on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, is located just to the west. The site was tested by
+                     the <orgName key="#uclaarchsur">UCLA Archaeological Survey</orgName> (Reinman
+                        <date when="1964">1964</date>).</p>
+                  <p>SNI-79 is a rather large site, covering a slightly raised knoll some 370 m long
+                     and 115 m wide. Crude core tools of various kinds as well as bowl fragments,
+                     pestles, and other implements were found scattered over the surface of the
+                     midden. The midden consists of a lightly compacted sandy soil overlying a
+                     lighter-colored sandy layer and is only slightly darker than the surrounding
+                     soil. Small shrubs and grasses cover the surface, making a survey of the site
+                     difficult.</p>
+                  <p>Five 5- by 5-foot test pits were excavated to a depth of 24 inches. Three of
+                     the pits (1, 3, and 5) were screened through 1/8-inch mesh, with all of the
+                     material from Pit 3 saved for laboratory analysis (Reinman <date when="1964"
+                        >1964</date>).</p>
+                  <p>A total of 143 artifacts was recovered, including the surface collection. Nine
+                     cubic yards of midden were excavated. This gives an average of 14.5 artifacts
+                     per cubic yard (excluding the 12 from the surface collection). The catalog from
+                     this site reveals a relatively high percentage of stone artifacts compared to
+                     the other sites excavated. The amount of shell in the midden was also
+                     considerably less than at other sites, with only 80.3 grams of shell per cubic
+                     foot of midden.</p>
+                  <p>Both fishhooks and hook blanks were recovered from all levels of the midden. In
+                     addition, a few stone tools (drill, reamer, file) which were apparently used in
+                     the manufacture of fishhooks were also found. There were also a number of
+                     pestles and bowl fragments on the surface and in the excavations. Two small
+                     fragments of bone were clearly tools, either a wedge or pry fragment and a
+                     broken pointed object, probably an awl or flaker. Two other bone fragments, one
+                     covered with asphaltum and the other a small, incised fragment, constitute the
+                     remaining bone artifacts. Of the 26 shell objects, 22 are either fishhooks or
+                     fishhook blanks. The remaining four artifacts include a perforated norissia
+                     shell and three fragments of abalone covered with asphaltum.</p>
+                  <p>Radiocarbon samples have not been submitted from SNI-79; however, one fishhook
+                     has been identified as a Late Period type (Strudwick <date>n.d.</date>) which
+                     may indicate that the site was occupied during this period. Five major food
+                     shells were identified: abalone, mussel, tegula, sea urchin, and limpet.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">SNl-351</title></head>
+                  <p>In <date when="1991">1991</date> and <date when="1992">1992</date> the <orgName
+                        key="#csula">California State University, Los Angeles</orgName>
+                     archaeological field school conducted test excavations at SNI-351, a shell
+                     midden and lithic site situated on the central plateau. This site was selected
+                     to provide information that can be compared with the shoreline sites, SNI-11
+                     and -16.</p>
+                  <p>SNI-351 has been affected by both wind and water erosion. Portions of the site
+                     are dissected by ravines, and there are large areas that have been deflated and
+                     resemble a desert pavement of lithics, pebbles, and caliche.</p>
+                  <p>The main cultural deposit consists of a stabilized sand dune containing a shell
+                     midden. The dune midden deposit forms an L-shaped mound above a large ravine at
+                     the south-central portion of the site. The mound covers an area approximately
+                     10.5 by 4 m in a generally east-west direction and 7.5 by 4 m north-south.</p>
+                  <p>Additional midden deposits are found below the mound in sandy/silty soil to the
+                     east and north. These deposits do not extend more than 10 to 15 m beyond the
+                     central dune.</p>
+                  <p>Another smaller shell midden sand dune is situated within the northwestern
+                     portion of the site. The depths of the midden deposits range from 50 to 110
+                     cm.</p>
+                  <p>A number of small, discrete shell deposits with little or no depth were
+                     recorded within the terrace extending toward the east. A series of shovel test
+                     pits extending from the midden area to the east were excavated and screened.
+                     These contained only surface material and helped to define the extent of the
+                     main midden area.</p>
+                  <p>A total of 23 1.5- by 1.5-m units were excavated. The material was screened
+                     through 1/8-inch mesh. The residues left in the screen were bagged and sorted
+                     in the lab. This resulted in the retrieval of otoliths and small fish bones,
+                     beads, and flaked stone.</p>
+                  <p>Preliminary analysis indicates that the bulk of the midden constituents
+                     consists of marine shell. The main shellfish types are abalone, mussel, tegula,
+                     and owl limpet. The majority of the bones are fish, followed by sea mammal.
+                     Morning glory seeds are plentiful and some are burned. Artifacts include small
+                     amounts of asphaltum, including plugs; olivella beads and bead detritus; flaked
+                     stone cobbles, including bifaces; a few flakes and shatter of exotic materials
+                     such as obsidian, Monterey chert, and quartz; and a few bone tools. Although a
+                     few whole pestles, bowl fragments, a metate, and a mano were recovered from the
+                     surface, groundstone artifacts were rare within the subsurface deposit.
+                     Features consisted mainly of deposits of burned shell and bone, soil stains,
+                     and hearths.</p>
+               </div>
+            </div>
+            <div type="section">
+               <head><title type="section">SUMMARY</title></head>
+               <p>Some summary figures will help to put the current state of knowledge into some
+                  perspective. Five sites have been excavated for the recovery of exposed burials.
+                  Only five sites have been tested in terms of defining midden constituents.</p>
+               <p>SNI-11 is the best documented of the tested sites. However, there are still some
+                  areas of additional analysis that would prove fruitful. Additional radiocarbon
+                  samples should be processed and sourcing of the obsidian samples should be
+                  performed to correct inconsistences and clarify the stratigraphic sequences.
+                  Geomorphological studies may provide useful data regarding the post-depositional
+                  processes of a sand dune midden deposit. Additional analysis of the reptilian,
+                  crustacean, and botanical remains should be conducted. A synthesis report should
+                  be prepared and published.</p>
+               <p>SNI-16 has been adequately sampled, though reporting of this site is incomplete. A
+                  detailed analysis of the faunal remains compared against the SNI-11 sample would
+                  be very instructive in defining shoreline activities and subsistence strategy. An
+                  attempt should be made to obtain radiocarbon dates from the same depositional
+                  contexts as the obsidian. A synthesis report should be prepared and published.</p>
+               <p>Additional sampling of SNI-79 would be very fruitful. Until recently, this was the
+                  only site on the plateau that had been tested. Additional sampling and analysis
+                  would provide information for comparisons with shoreline sites and with SNI-351, a
+                  recently excavated plateau site that appears to have more shell.</p>
+               <p>The analyses of the materials recovered from SNI-351 have not been completed. The
+                  data from these studies can be used to determine the type of site, length, season,
+                  and time of occupation, and to compare SNI-351 with the shoreline sites. The
+                  results of these analyses may provide clues to why this location on the central
+                  plateau was selected for occupation. The nearest water source may have been
+                     <placeName key="#celerycreek">Celery Creek</placeName>. This creek and its
+                  tributaries are dry today, but it is obvious that water played an important role
+                  in the formation of the numerous ravines that dissect the plateau. Shellfish
+                  processing and consumption appear to be the main activities conducted at the site,
+                  but since the site is not situated at a convenient distance from the ocean, it is
+                  probable that the shellfish were used to sustain the population while they were
+                  concentrating on some other activity. Some propositions to be evaluated are that
+                  the site was situated near an important plant resource or near a cobble
+                  conglomerate bed exposure. Other factors that may have played a part in the
+                  selection of this location are the elevation and view of <rs><placeName
+                        type="group"
+                        key="#i_an; #i_scl; #i_sm; #i_sn; #i_sb; #i_scatalina; #i_scruz; #i_sr">the
+                        other islands</placeName></rs> and the practical consideration that the site
+                  would be free of kelp flies and other coastal pests that plague people while
+                  processing shellfish at the shoreline during certain seasons.</p>
+               <p>Environmental reconstruction is needed using geology, geomorphology, paleoclimate,
+                  soils, flora, and fauna analysis. Sourcing the origins of the artifacts and the
+                  flora and fauna remains, and determining the means and the energy expenditure
+                  required to get them, is another important line of inquiry.</p>
+               <p>Additional testing of SNI-38 and SNI-51 should be conducted to provide an adequate
+                  sample. This, coupled with additional research on existing collections, would
+                  provide solid comparative data to examine differences between the northwest
+                  shoreline, plateau, and south shore.</p>
+               <p>The other sites have only been tested in terms of burial recovery and thus do not
+                  provide any midden materials that could address archaeological research questions
+                  such as cultural change, diet, ecological adaptation, and environment. In
+                  addition, a number of other sites on the island have been excavated but not
+                  reported. These include investigations by <persName key="#mrog">Malcolm
+                     Rogers</persName> and <persName key="#gcarter">George Carter</persName> in
+                     <date when="1930">1930</date>, <persName type="author" key="#awo">Arthur
+                     Woodward</persName> in <date from="1939" to="1941">1939-1941</date>, and
+                     <persName key="#porr">Phil Orr</persName> in <date when="1941">1941</date>. The
+                  collections and notes from some of the unreported investigations are still in
+                  existence, and a more complete analysis of these museum collections would add
+                  substantially to our understanding of <placeName type="island" key="#i_sn">San
+                     Nicolas Island</placeName> prehistory. A synopsis of Malcolm Rogers's work from
+                  the <date from="1930" to="1939">1930s</date> will serve as an indication of this
+                  untapped potential.</p>
+               <p>Under the auspices of the <orgName key="#sdmusofman">San Diego Museum of
+                     Man</orgName>, <persName key="#mrog">Malcolm Rogers</persName>, accompanied by
+                     <persName key="#gcarter">George Carter</persName>, spent one month on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in
+                     <date when="1930">1930</date> surveying and collecting. The team collected 45
+                  cases of specimens (including 33 burials) which were taken to <orgName
+                     key="#sdmusofman">the San Diego museum</orgName> where the collection was
+                  cataloged. Only a preliminary manuscript describing the fieldwork was completed
+                  (Rogers <date>n.d.</date>), though his field notes are on file at the <orgName
+                     type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName> in
+                     <placeName type="city" key="#ci_dc">Washington</placeName>.</p>
+               <div type="subsection">
+                  <head><title type="subsection">Chronology</title></head>
+                  <p><persName key="#lauter">Lauter</persName> (<date>n.d.</date>a,
+                        <date>n.d.</date>b) describes the island's chronology in terms of three
+                     cultural phases (Early, Intermediate, Late). At that time (<date when="1982"
+                        >1982</date>) there were no dated sites that could be designated as Early
+                     Phase, pre-3000 B.C. The Early Phase includes the Paleo-Indian Tradition, ca.
+                     13,000 to 11,000 B.C., and the subsequent culture complexes in <placeName
+                        type="region" key="#re_socal">southern California</placeName> known as the
+                     San Dieguito Tradition, the Hunting Period, the Encinitas Tradition, the
+                     Millingstone Horizon, and the Early Period (Warren <date when="1968"
+                        >1968</date>, Wallace <date when="1978">1978</date>, C. King <date
+                        when="1981">1981</date>). This was the time of adaptation to the
+                     environmental changes of the Holocene, followed by regional developments
+                     emphasizing use of plant foods and the first use of marine resources (Moratto
+                        <date when="1984">1984</date>). The earliest sites on the island are dated
+                     to the Early Phase. These include SNI-11, Mound B, Stratum III; SNI-21; and
+                     SNI-339.</p>
+                  <p>The Intermediate Phase, ca. 3000 to 1000 B.C., includes SNI-40, SNI-16, and
+                     Strata II and III of SNI-11. This phase corresponds to Warren's Encinitas
+                     Tradition (<date when="1968">1968</date>), Wallace's Period III: Diversified
+                     Subsistence (<date when="1978">1978</date>), and King's Middle Period (<date
+                        when="1981">1981</date>). It is characterized by the introduction of the
+                     mortar and pestle used in the processing of acorns and other hard seeds. The
+                     atlatl is used for hunting, and marine resources are exploited along the
+                     coast.</p>
+                  <p>Late Phase sites, ca. 1000 B.C. to historic contact, include SNI-51, SNI-18,
+                     and Stratum I of SNI-11. Late Phase sites can be related to Warren's Shoshonean
+                     Tradition <date when="1968">(1968</date>), Wallace's Late Prehistoric Horizon
+                        (<date when="1955">1955</date>), and King's Late Period (<date when="1981"
+                        >1981</date>). Late Period populations are characterized by a diversified
+                     subsistence, increased population density, reliance on maritime resources,
+                     social complexity, trade, and large permanent communities. The introduction of
+                     the bow and arrow, pottery, a monetary system, and artistic elaboration also
+                     mark this period (King <date when="1981">1981</date>, Wallace <date when="1955"
+                        >1955</date>, Warren <date when="1968">1968</date>).</p>
+                  <p>In <date when="1988">1988</date>, a number of additional radiocarbon dates were
+                     processed from SNI-11 (Breschini et al. <date when="1992">1992</date>). These
+                     dates introduce an element of confusion regarding the chronology and
+                     stratigraphy of the site (Table 1). One date from the 140-150 cm level of
+                     Stratum III is 5033-4729 B.C., which falls within the Early Phase. This
+                     suggests an earlier occupation of the site than previously estimated. However,
+                     consideration must be given to the fact that this date is problematic because
+                     it overlies Stratum III, 170-190 cm, which has a later date of 2919-2505
+                     B.C.</p>
+               </div>
+            </div>
+            <div type="section">
+               <head><title type="section">FUTURE DIRECTIONS</title></head>
+               <p>Islands are a natural laboratory for the study of cultural and biological systems
+                  and human adaptation. The ocean provides a barrier to many forms of terrestrial
+                  life, the physical boundaries are clearly delineated, and <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> provides specific
+                  circumscribed environmental constraints and opportunities. The <placeName
+                     type="island" key="#i_chi">Channel Islands</placeName> have abundant resources
+                  that were important to human populations. They are discrete geographic units with
+                  significant variation in the nature of resources and provide an ideal context to
+                  test hypotheses about cultural-environmental interactions.</p>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> provides a
+                  particularly favorable environment for archaeological research. As one of the
+                  smallest of the <placeName type="island" key="#i_chi">Channel Islands</placeName>
+                  and the farthest from <placeName type="region" key="#re_mld">the
+                     mainland</placeName>, it is a discrete geographical unit with sufficient
+                  resource and environmental variation to test hypotheses about human adaptive
+                  systems. For example, it is likely that the entire settlement system is
+                  represented in the archaeological deposits, and because <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> is small, it may be
+                  possible to identify all of the components and to examine change through time.
+                  Although there has been some damage due to erosion, construction, and collecting,
+                  archaeological preservation is generally good. An important plus is that because
+                  of the absence of burrowing animals, stratigraphic contexts are largely
+                  undisturbed.</p>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> was remote
+                  (there is no evidence of a land bridge), small, wind-swept, semi-arid, sparsely
+                  vegetated, and the only terrestrial animals are the island fox, a mouse, and a
+                  lizard. Assuming that these conditions are approximately similar to those of the
+                  past few thousand years, the island population clearly faced some environmental
+                  challenges. The materials recovered from the archaeological excavations can be
+                  analyzed to reconstruct the prehistoric environment and to address questions
+                  regarding prehistoric human adaptation.</p>
+               <p>The major research domains that have been identified for <placeName type="island"
+                     key="#i_sn">San Nicolas Island</placeName> prehistory are as follows:</p>
+               <div type="subsection">
+                  <head><title type="subsection">Paleoenvironmental influences</title></head>
+                  <p>Recent paleoenvironmental research has produced a wealth of information
+                     regarding environmental change during the Holocene (Anderson <date>n.d.</date>;
+                     Schimmelmann <date>n.d.</date>; Stine <date>n.d.</date>; Wigand
+                        <date>n.d.</date>). Paleoenvironmental reconstructions can be used to
+                     identify the environmental factors that may have influenced hunter-gatherer
+                     adaptations on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>. This information can be used to address questions
+                     regarding environment and cultural behavior. For example, two models have been
+                     proposed regarding subsistence change on the <placeName type="island"
+                        key="#i_chi">Channel Islands</placeName>. The environmental model attributes
+                     subsistence change to environmental factors such as sea temperature (Glassow
+                        <date>n.d.</date>a, <date>n.d.</date>b; Glassow, Wilcoxon, and Erlandson
+                        <date when="1988">1988</date>; Walker and Snethkamp <date>n.d.</date>). The
+                     alternative model proposes that prehistoric exploitation strategies and the
+                     pressure of human predation on limited island resources provides the best
+                     explanation for diachronic changes in settlement and subsistence patterns
+                     (Bleitz-Sanburg <date>n.d.</date>a, <date>n.d.</date>b; Bleitz-Sanburg and
+                     Salls <date>n.d.</date>; Raab <date>n.d.</date>; Raab and Yatsko <date
+                        when="1990">1990</date>; Reinman <date when="1964">1964</date>; Salls
+                        <date>n.d.</date>b).</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Settlement systems</title></head>
+                  <p>We do not know the size of the prehistoric population on <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName> or whether it was
+                     occupied on a continuous basis. Unlike mainland territories where the
+                     boundaries are ill-defined and many parts of the settlement pattern have been
+                     lost, <placeName type="island" key="#i_sn">San Nicolas Island</placeName>
+                     provides a relatively finite and manageable sample universe for the analysis of
+                     settlement patterns and population size. If it is assumed that the location of
+                     sites in a particular area reflects a pattern of adaptive behavior, the
+                     reconstruction of the settlement pattern can be used to examine a broad range
+                     of cultural and environmental factors that may have influenced hunter-gatherer
+                     adaptations on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</p>
+                  <p>This line of inquiry is important. Although the locations of all of the sites
+                     that are visible on the surface have been mapped, additional investigations are
+                     needed to identify site function and to reconstruct the configuration of the
+                     settlement pattern. There is some information regarding material culture and
+                     faunal remains from a few of the coastal sites. but there is a lack of
+                     information about site function and how the aboriginal population used various
+                     areas of the island, especially the upper central plateau.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Subsistence strategies</title></head>
+                  <p>There is a preponderance of data indicating a marine subsistence focus;
+                     however, very little is known regarding the subsistence patterns on <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName>. The emphasis has
+                     been on the investigation of coastal sites; little is known about subsistence
+                     on the central plateau, and even less is known about aboriginal utilization or
+                     availability of plant foods. For example, it is not known whether the large
+                     number of mortars and pestles found on the island were used for the preparation
+                     of plant materials or pounding fish and shellfish. (See also the discussion of
+                     paleoenvironmental influences.)</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Island cultural chronology</title></head>
+                  <p>Culture sequences have been formulated for southern California prehistory
+                     (Wallace <date when="1978">1978</date>; Warren <date when="1968">1968</date>;
+                     King <date when="1981">1981</date>; Chartkoff and Chartkoff <date when="1984"
+                        >1984</date>; Moratto <date when="1984">1984</date>). These can be used as a
+                     source of information to test hypotheses regarding the prehistory of <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName>.</p>
+                  <p><persName key="#raab">Raab</persName> and <persName key="#yatsko"
+                        >Yatsko</persName>
+                     <date when="1990">(1990</date>) suggest that these reconstructions may not
+                     accurately reflect cultural development on the <placeName type="island"
+                        key="#i_chi">Channel Islands</placeName>, particularly the earliest cultural
+                     periods. For example, radiocarbon dates and recent information regarding
+                     aboriginal fisheries on the <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName> suggest that aboriginal occupation began as early as
+                     8,500 B.C. on <placeName type="island" key="#i_sm">San Miguel
+                        Island</placeName>, 7,700 B.C.on <placeName type="island" key="#i_scl">San
+                        Clemente Island</placeName>, and 6,200 B.C. on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> (Raab and Yatsko <date
+                        when="1990">1990</date>; <persName key="#salls">Salls</persName>
+                     <date>n.d.</date>a). <persName key="#raab">Raab</persName> and <persName
+                        key="#yatsko">Yatsko</persName> propose that these data reveal some of the
+                     earliest fully maritime cultural adaptations in the Western Hemisphere and that
+                     maritime adaptations were an important aspect of coastal Paleo-Indian
+                     adaptation (<date when="1990">1990</date>).</p>
+                  <p>According to <persName key="#erlandson">Erlandson</persName> (<date when="1958"
+                        >1985</date>), sea-level rise during the Holocene may have obliterated most
+                     of the evidence of early maritime adaptations along <placeName type="region"
+                        key="#re_paccoast">the mainland coast</placeName> and encouraged a return to
+                     more terrestrial resources exploitation as the estuaries were drowned or filled
+                     with silt. Recent modelling by <persName key="#pierson">Pierson</persName>,
+                        <persName key="#shiller">Shiller</persName>, and <persName key="#slater"
+                        >Slater</persName> (<date>n.d.</date>) indicates that at 6550 B.C.
+                        <placeName type="island" key="#i_sn">San Nicolas Island</placeName> may have
+                     had 25% more land mass than at present, and at 9050 B.C. the land mass may have
+                     been over three times the current size.</p>
+                  <p>Based on a survey and collection of artifacts on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> in <date when="1930">1930</date>,
+                        <persName key="#mrog">Malcolm Rogers</persName> proposed that three cultural
+                     periods are represented on <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs>. The early sites appeared to contain small
+                     quantities of marine shell and to lack bone or artifacts. As land snail shells
+                     were plentiful, he suggested that the earliest culture exploited them. Later
+                     the sites contain pink abalone, and house floors were observed between the
+                     piles of shell (<date>n.d.</date>).</p>
+                  <p>The Canaliño period is the second cultural sequence described by <persName
+                        key="#mrog">Rogers</persName>. This period is characterized by many house
+                     pits of a size that would accommodate a family. Dogs were introduced to
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> at
+                     this time. The first shell fishhooks appear, and midden constituents include
+                     black abalone, mussel shells, and a high percentage of fish bone. Later during
+                     this period, community houses measuring 30 to 40 feet in diameter appear. Six
+                     of these were described (Rogers <date>n.d.</date>).</p>
+                  <p>The third period in Rogers's cultural sequence is the Shoshonean. This period
+                     is characterized by the presence of cremations, metates, obsidian projectile
+                     points, and perhaps the sweat house. Cremations were found in eight village
+                     sites near the west end directly over Canaliño-period deposits. <persName
+                        key="#mrog">Rogers</persName> suggests that the Shoshonean occupation does
+                     not date to any antiquity.</p>
+                  <p>The culture sequences that have been proposed for <placeName type="region"
+                        key="#re_socal">southern California</placeName> and <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> can be tested using carefully
+                     collected, calibrated, and interpreted radiocarbon samples. The anomalous dates
+                     that have been recovered both from <placeName type="island" key="#i_sn">San
+                        Nicolas Island</placeName> and <placeName type="island" key="#i_scl">San
+                        Clemente Island</placeName> indicate that there are a number of problems to
+                     be solved. Since marine shell is more abundant than charcoal, it will be very
+                     important to solve the problems that interfere with the accurate dating of this
+                     material, such as contamination, upwelling, and the fact that different species
+                     vary in their habitat and ingestion of organisms in equilibrium with older
+                     seawater. Contamination of charcoal samples, perhaps with asphaltum, and the
+                     interpretation of radiocarbon dates in light of the complex stratigraphy of
+                     shell mounds also need to be addressed.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Social organization</title></head>
+                  <p>Archaeological, ethnographic, and historic data indicate that at the time of
+                     European contact <orgName type="nativeamericantribes" key="#natam_chumash">the
+                        Chumash</orgName> and possibly <orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">the Gabrielino</orgName> were organized at the
+                     chiefdom level of social complexity (C. King <date when="1981">1981</date>; L.
+                     King <date when="1982">1982</date>; Martz <date when="1984">1984</date>). A
+                     general trend toward greater complexity is proposed for the Pacific Coast
+                     groups beginning around 2000 B.C. (Chartkoff and Chartkoff <date when="1984"
+                        >1984</date>). This social complexity included a system of social
+                     differentiation with hereditary political leaders at the top of the status
+                     ladder, followed by religious practitioners and craft specialists. This elite
+                     group controlled the procurement and distribution of surplus resources and had
+                     differential access to wealth. The rise of complexity is attributed to the high
+                     productivity of the Pacific Coast resource base as well as the social
+                     institutions that managed them.</p>
+                  <p>It will be particularly interesting to address the question of whether a trend
+                     toward greater social complexity was present on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName>, and to examine the basis for
+                     social organization, the level of complexity, and the development of this
+                     society through time.</p>
+                  <p>Island-specific craft specialization industries have been identified on
+                        <placeName type="island" key="#i_scatalina">Santa Catalina</placeName> and
+                        <placeName type="island" key="#i_scruz">Santa Cruz</placeName> islands
+                     (Arnold <date when="1987">1987</date>, <date when="1991">1991</date>; Rosen
+                        <date when="1980">1980</date>). Because islands are relatively isolated and
+                     limited in resource variety, it is proposed that craft specialization and the
+                     development of a specialized manufacturing industry would be necessary to
+                     ensure adequate supplies of resources that are not available on <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs>. This would be a
+                     significant adaptive device and, as <persName key="#arnold">Arnold</persName>
+                     <date when="1987">(1987</date>) suggests, an impetus for the development and
+                     maintenance of social complexity.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Regional interaction and trade</title></head>
+                  <p>Although ethnographic sources and historic accounts provide numerous
+                     descriptions of trade between the <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName> and <placeName type="region" key="#re_mld">the
+                        mainland,</placeName> there is no information regarding the part that was
+                     played by <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                           >the inhabitants of San Nicolas Island</orgName></rs>. Trade is very
+                     important to our understanding of San Nicolas prehistory because it involves
+                     the exchange of ideas as well as economic goods and can provide information
+                     regarding craft specialization and social complexity. In addition to artifact
+                     manufacturing areas indicating craft specialization and the production of
+                     surplus for trade, the presence of exotic plant and animal remains, raw
+                     materials, and finished artifacts would indicate trade.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Cultural affiliation</title></head>
+                  <p><span type="trope" n="4">There is no mention of <rs><orgName
+                              type="nativeamericantribes" key="#natam_NicolenoTongva">the Indians of
+                              San Nicolas Island</orgName></rs> in the diaries of the European
+                        explorers, and virtually all of the current ethnographic information
+                        regarding <rs><orgName type="nativeamericantribes"
+                              key="#natam_NicolenoTongva">these people</orgName></rs> is based on
+                        the artifacts of <rs><persName type="nativeamerican" key="#lw">the "Lone
+                              Woman of San Nicolas Island"</persName></rs> at the time of her
+                        discovery.</span> According to <persName type="author" key="#akroe"
+                        >Kroeber</persName>, who analyzed four words spoken by <rs><persName
+                           type="nativeamerican" key="#lw">the "Lone Woman,"</persName></rs>
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName> was
+                     occupied by Shoshonean speakers at the time of European contact (Eisen <date
+                        when="1905">1905</date>). Based on archaeological and linguistic evidence,
+                     people speaking this language are thought to represent an intrusive desert
+                     culture group who displaced the Hokan speakers who were the original
+                     inhabitants of the <placeName type="city" key="#ci_la">Los Angeles</placeName>,
+                        <placeName key="#orangeco">Orange County</placeName>, <placeName
+                        key="#inlandemp">Inland Empire</placeName>, and <placeName type="island"
+                        key="#i_southernchi">southern Channel Islands</placeName> region. The
+                     direction, nature, extent, and time of this intrusion is subject to debate with
+                     some placing the intrusion at about A.D. 750 and others arguing for an earlier
+                     occupation at about 1000 B.C.</p>
+                  <p>Some possibilities regarding cultural affiliation of the populations occupying
+                     the <placeName type="island" key="#i_southernchi">southern Channel
+                        Islands</placeName> are based on studies of human osteology on <placeName
+                        type="island" key="#i_scl">San Clemente Island</placeName> (Titus
+                        <date>n.d.</date>). <persName key="#titus">Titus</persName> suggests that
+                     two distinct genetic populations occupied <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs>. The earliest population is
+                     attributed to the widely distributed Hokan-speaking peoples and the more recent
+                     genetic population to the relatively recent Shoshonean speakers and ancestors
+                     of <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                        Gabrielino people</orgName> of the <placeName type="city" key="#ci_la">Los
+                        Angeles</placeName> Basin and <placeName type="city" key="#ci_sana">Santa
+                        Ana</placeName> River watershed. The correlation between a genetic
+                     population and a linguistic grouping must be viewed with caution. However, it
+                     would be important to determine whether distinct genetic populations can be
+                     identified for <placeName type="island" key="#i_sn">San Nicolas
+                        Island</placeName> and to reconstruct the sequence of occupation.</p>
+                  <p>In addition, further analysis of preserved woven sea-grass and basketry
+                     impressions may reveal weaving techniques that can be attributed to a
+                     particular cultural affiliation (Rozaire <date when="1959">1959</date>, <date
+                        when="1967">1967</date>, <date when="1970">1970</date>, <date>n.d.</date>).
+                     Variations in fishhook types may also provide important clues (Strudwick
+                        <date>n.d.</date>). If found in good stratigraphic contexts, this
+                     information can be compared with data regarding changes in
+                     settlement-subsistence strategies through time.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Technology</title></head>
+                  <p>Very little is known about the technology of <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName>. Ethnographic information is not
+                     available, and the material culture must be reconstructed from archaeological
+                     data. According to early investigators, the sites contain an abundance of
+                     mortars and pestles, projectile points are rare, and metates are absent.
+                     Steatite effigies, shell beads and fishhooks, bone tools, and woven sea grass
+                     are also reported (Benson <date>n.d.</date>; Bryan <date when="1927"
+                        >1927</date>; Meighan and Eberhart <date when="1953">1953</date>; Schumacher
+                        <date>n.d.</date>). De Cessac's observations in <date when="1878"
+                        >1878</date> are particularly interesting. He noted that many of the
+                     artifacts are different from those he had encountered on the coast of
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and the
+                     islands of <placeName type="island" key="#i_scruz">Santa Cruz</placeName>,
+                        <placeName type="island" key="#i_an">Anacapa</placeName>, and <placeName
+                        type="island" key="#i_sm">San Miguel</placeName>. <persName type="author"
+                        key="#lce">De Cessac</persName> was particularly impressed by the
+                     workmanship, originality, and beauty of the bird and fish effigies, the "stone
+                     vases," and the mortars and pestles. In addition to finished pieces, he
+                     evidently observed and collected items representing entire sequences of
+                     manufacture (<persName type="author" key="#rhe">Heizer</persName>
+                     <date when="1951"> 1951</date>).</p>
+                  <p>The flaked cobble stone-tool industry identified by <persName key="#clevenger"
+                        >Clevenger</persName> (<date>n.d.</date>) provides an interesting contrast
+                     to the groundstone craftsmanship described by <persName type="author"
+                        key="#lce">de Cessac</persName>. <persName key="#clevenger"
+                        >Clevenger</persName> proposed that <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the inhabitants of SNI-11</orgName></rs> were
+                     using locally-available cobbles as a source of raw material rather than
+                     imported lithic materials of better quality. Additional studies are needed to
+                     determine whether this lithic-procurement and manufacturing system is an
+                     island-wide adaptive system and represents an attempt to limit dependence on
+                     off-island resources, or whether it was confined to coastal fish- and
+                     shellfish-processing sites as the least expensive tool source. Further studies
+                     regarding lithic procurement and manufacture, stone tool use, and tool kits
+                     should provide additional insights regarding stone tool traditions and craft
+                     specialization.</p>
+                  <p>The numerous fishhooks, fishhook blanks, fish gorges, cordage, drills, net
+                     gages, weights, and other related items recovered and observed on
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                     provide the opportunity to trace the development of fishing technology through
+                     time. The discovery of shaped and utilized shell fragments at SNI-38 opens
+                     another line of inquiry regarding the use of shell, perhaps as a substitute for
+                     wood (Dana Bleitz-Sanburg and Jane Rosenthal, personal communication, <date
+                        when="1993">1993</date>). Shell bead and detritus features have been
+                     observed on the surface of various sites along the coast, and bead making may
+                     have been an important island industry.</p>
+               </div>
+               <div type="subsection">
+                  <head><title type="subsection">Site formation and post-depositional
+                        processes</title></head>
+                  <p>The formation of the archaeological sites on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> can be attributed to a variety of
+                     natural and cultural processes. In addition, natural and cultural
+                     post-depositional processes such as wind and water erosion, sedimentation,
+                     sand-dune formation, sheep ranching, and military activities have modified the
+                     sites and obscured the archaeological record. The patterns produced by these
+                     processes are often mistaken for cultural patterning; therefore a comprehensive
+                     understanding of their effects is critical for interpretations of site
+                     chronology, stratigraphy, spatial organization, and function (Erlandson and
+                     Rockwell <date when="1987">1987</date>).</p>
+               </div>
+            </div>
+            <div type="section">
+               <head><title type="section">ACKNOWLEDGMENTS</title></head>
+               <p>This research has been supported by the <placeName type="region" key="#re_pmugu"
+                     >Naval Air Weapons Station, Point Mugu</placeName>, and <orgName key="#csula"
+                     >California State University, Los Angeles</orgName>. <persName
+                     key="#amschwartz">Audrey McNulty Schwartz</persName> provided editorial
+                  assistance and <persName key="#bleitz">Dana Bleitz</persName> prepared the base
+                  map for site locations. Their efforts are greatly appreciated. Special thanks are
+                  owed <persName key="#kdixon">Keith Dixon</persName>, <persName key="#bpadon">Beth
+                     Padon</persName>, and <persName key="#jrosenthal">Jane Rosenthal</persName> for
+                  their invaluable editing assistance. Thanks are also due to the unknown reviewer
+                  and to <persName key="#raab">Mark Raab</persName> and <persName key="#salls">Roy
+                     Salls</persName> for their very insightful and helpful critiques.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">REFERENCES CITED</title></head>
+               <div>
+                  <p><persName><persName type="author" key="#rsanderson">Anderson, R.
+                           Scott</persName></persName></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>High Elevation Vegetation Dynamics and Paleoclimates: The
+                           Late-Quaternary Record from California's Sierra Nevada</emph>. Paper
+                        presented at the 27th Annual Meeting of the <orgName key="#soccaarch"
+                           >Society for California Archaeology</orgName>, <date from="1993-04-07"
+                           to="1993-04-11">April 7-11, 1993</date>, <placeName key="#asilomar"
+                           >Asilomar</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><persName><persName key="#arnold">Arnold, Jeanne E.</persName></persName></p>
+                  <p><bibl><date when="1987">1987</date></bibl></p>
+                  <p><bibl>Craft Specialization in the Prehistoric Channel Islands, California.
+                              <emph><orgName key="#ucpubanth">University of California Publications
+                              in Anthropology</orgName></emph> 18. <orgName type="publisher"
+                           key="#ucalpress">University of California Press</orgName>, <placeName
+                           type="city" key="#ci_berk">Berkeley</placeName>.</bibl></p>
+                  <p><bibl><date when="1991">1991</date></bibl></p>
+                  <p><bibl>Transformation of a Regional Economy: Sociopolitical Evolution and the
+                        Production of Valuables in Southern California. <emph><orgName
+                              type="publication" key="#aman">Antiquity</orgName></emph> 65
+                        :953-962.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#lbe">Bean, Lowell J.</persName>, and
+                           <persName type="author" key="#csmith">Charles R.
+                     Smith</persName></bibl></p>
+                  <p><bibl><date when="1978">1978</date></bibl></p>
+                  <p><bibl>Gabrielino. In, <emph><orgName key="#handnoramind">Handbook of North
+                              American Indians, Vol. 8: California</orgName></emph>, ed. by
+                           <persName type="author" key="#rhe">Robert F. Heizer</persName>. pp.
+                        538-549. <orgName type="museum" key="#mu_smithsonian">Smithsonian
+                           Institution</orgName>, <placeName type="city" key="#ci_dc">Washington,
+                           D.C.</placeName></bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#asbenson">Benson, Arlene
+                        S.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl>The Noontide Sun: The Field Notes and Unpublished Manuscripts of the Rev.
+                        Stephen Bowers. Master's thesis, <orgName key="#csula">California State
+                           University, Los Angeles</orgName>. [<date when="1982"
+                     >1982</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#bleitz">Bleitz-Sanburg, Dana E.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>The Changing Exploitation of Mammalian and Avian Food Resources at
+                           SNl-11, San Nicolas Island, California</emph>. Master's thesis, <orgName
+                           key="#csula">California State University, Los Angeles</orgName>. [<date
+                           when="1987">1987</date>]</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl><emph>The Wavy Turban</emph> (Astraea undosa) <emph>on Santa Catalina
+                           Island: An Ecological Analysis and Zooarchaeological Assessment</emph>.
+                        Paper presented at the 24th Annual Meeting of the <orgName key="#soccaarch"
+                           >Society for California Archaeology</orgName>, <date from="1990-04-04"
+                           to="1990-04-07">April 4-7, 1990</date>, <placeName key="#fostercity"
+                           >Foster City</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#bleitz">Bleitz-Sanburg, Dana E.</persName>, and <persName
+                           key="#salls">Roy A. Salls</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Fishheads, Spearheads, and Sheepheads: Prehistoric Maritime
+                           Exploitation and the Effect on the Stable State of Marine Fauna/
+                           Resources</emph>. Paper presented at the Southern California Data-Sharing
+                        Meeting of the <orgName key="#soccaarch">Society for California
+                           Archaeology</orgName>, <placeName type="city" key="#ci_la">Los
+                           Angeles</placeName>, <date when="1987">1987</date>. Manuscript on file,
+                        Institute of Archaeology, <orgName type="institution" key="#in_ucla"
+                           >University of California, Los Angeles</orgName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#gbreschini">Breschini, Gary</persName>,
+                           <persName type="author" key="#thaversat">Trudy Haversat</persName>, and
+                           <persName key="#erlandson">Jon Erlandson</persName></bibl></p>
+                  <p><bibl><date when="1992">1992</date></bibl></p>
+                  <p><bibl><emph>California Radiocarbon Dates</emph>, 7th edition. <orgName
+                           key="#coyotepress">Coyote Press</orgName>, <placeName type="city"
+                           key="#ci_sal">Salinas</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#bbr">Bryan, Bruce</persName></bibl></p>
+                  <p><bibl><date when="1927">1927</date></bibl></p>
+                  <p><bibl>Collecting Indian Relics on a Desert Island. <emph><orgName
+                              key="#museumgraphic">Museum Graphic</orgName></emph> 1(4):145-150.
+                           <orgName type="musuem" key="#mu_museumofnaturalhistory">Los Angeles
+                           County Museum of Natural History</orgName>, <placeName type="city"
+                           key="#ci_la">Los Angeles</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><persName type="author" key="#jlchartkoff">Chartkoff, Joseph L.</persName>, and
+                        <persName type="author" key="">Kerry Kona Chartkoff</persName></p>
+                  <p><bibl><date when="1984">1984</date></bibl></p>
+                  <p><bibl><emph>The Archaeology of California</emph>. <orgName type="publisher"
+                           key="#stanpress">Stanford University Press</orgName>, <placeName
+                           key="#stanford">Stanford</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#clevenger">Clevenger, Joyce M.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl>The Split Cobble Reduction Technology on San Nicolas Island, California.
+                        Master's thesis, <orgName key="#csulb">California State University, Long
+                           Beach</orgName>. [<date when="1982">1982</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#gei">Eisen, Gustav</persName></bibl></p>
+                  <p><bibl><date when="1905">1905</date></bibl></p>
+                  <p><bibl>An Account of the Indians of the Santa Barbara Islands in California.
+                           <emph>Sitzungsberichte der Konig/ichen Bohmischen Gesellschaft der
+                           Wissenschaften, Mathematisch-Naturwissenschaftliche Classe, Jahrgang
+                           1904</emph>. Prag.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#erlandson">Erlandson, Jon M.</persName></bibl></p>
+                  <p><bibl><date when="1985">1985</date></bibl></p>
+                  <p><bibl>Early Holocene Settlement and Subsistence in Relation to Coastal
+                        Paleogeography: Evidence from CA-SBA-1807. <emph><orgName type="publication"
+                              key="#jcgb">Journal of California and Great Basin
+                              Anthropology</orgName></emph> 7:103-109.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#erlandson">Erlandson, Jon M.</persName>, and <persName
+                           type="author" key="#tkrockwell">Thomas K. Rockwell</persName></bibl></p>
+                  <p><bibl><date when="1987">1987</date></bibl></p>
+                  <p><bibl>Radiocarbon Reversals and Stratigraphic Discontinuities: The Effects of
+                        Natural Formation Processes on Coastal California Archaeological Sites. In,
+                           <emph>Natural Formation Processes and the Archaeological Record</emph>,
+                        ed. by <persName type="author" key="#dtnash">D.T. Nash</persName> and
+                           <persName type="author" key="#mdoetraglia">M.D. Petraglia</persName>, pp.
+                        51-73. BAR International Series 352, <placeName key="#oxford"
+                           >Oxford</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#maglassow">Glassow, Michael
+                        A.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>An Archaeological Overview of the Northern Channel Islands</emph>.
+                        Report prepared for the <orgName key="#warchcen">Western Archaeological
+                           Center, National Park Service</orgName>, <placeName key="#tucson"
+                           >Tucson</placeName>. [<date when="1977">1977</date>]</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl><emph>The Red Abalone Midden layers of the Northern Channel Islands: A
+                           Preliminary Report on Their Chronology and Implications for Environmental
+                           Change</emph>. Paper presented at the 18th Annual Meeting of the <orgName
+                           key="#soccaarch">Society for California Archaeology</orgName>, <date
+                           from="1984-03-29" to="1984-03-31">March 29-31, 1984</date>, <placeName
+                           type="city" key="#ci_sal">Salinas</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#maglassow">Glassow, Michael</persName>,
+                           <persName type="autor" key="#lwilcoxon">Larry Wilcoxon</persName>, and
+                           <persName key="#erlandson">Jon Erlandson</persName></bibl></p>
+                  <p><bibl><date when="1988">1988</date></bibl></p>
+                  <p><bibl>Cultural and Environmental Change During the Early Period of Santa
+                        Barbara Prehistory. In, <emph>The Archaeology of Prehistoric
+                           Coastlines</emph>, ed. by <persName type="author" key="#gbailey">Geoff
+                           Bailey</persName> and <persName type="author" key="#jparkington">John
+                           Parkington</persName>, pp. 64-77. <orgName key="#camupress">Cambridge
+                           University Press</orgName>, <placeName key="#cambridge"
+                           >Cambridge</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="city" key="#mchall">Hall, M.C</persName>.</bibl></p>
+                  <p><bibl><date when="1988">1988</date></bibl></p>
+                  <p><bibl>For the Record: Notes and Comments on "Obsidian Exchange in Prehistoric
+                        Orange County." <emph><orgName key="#paccoastarch">Pacific Coast
+                              Archaeological Society Quarterly</orgName></emph> 24
+                     (4):34-48.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#rhuddleston">Huddleston,
+                        Richard</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl>Otoliths from SNI-11, San Nicolas Island, California. Manuscript on file,
+                           <orgName key="#sciresearchsys">Scientific Research Systems</orgName>,
+                           <placeName key="#elmonte">El Monte, California</placeName>. [<date
+                           when="1977">1977</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#cking">King, Chester</persName></bibl></p>
+                  <p><bibl><date when="1981">1981</date></bibl></p>
+                  <p><bibl><emph>The Evolution of Chumash Society: A Comparative Study of Artifacts
+                           Used in Social System Maintenance in the Santa Barbara Channel Region
+                           Before A.D. 1804</emph>. Ph.D. dissertation, <orgName key="#ucdavis"
+                           >University of California at Davis</orgName>. University Microfilms,
+                           <placeName key="#annarbor">Ann Arbor</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#lking">King, Linda</persName></bibl></p>
+                  <p><bibl><date when="1982">1982</date></bibl></p>
+                  <p><bibl><emph>Medea Creek Cemetery: late Inland Chumash Patterns of Social
+                           Organization, Exchange and Warfare</emph>. Ph.D. dissertation, <orgName
+                           type="institution" key="#in_ucla">University of California at Los
+                           Angeles</orgName>. University Microfilms, <placeName key="#annarbor">Ann
+                           Arbor</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#lauter">Lauter, Gloria A.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>Defining an Intermediate Period in San Nicolas Island, California,
+                           Chronology: Test Excavations at SNI-16</emph>. Master's thesis, <orgName
+                           key="#csunorth">California State University, Northridge</orgName>. [<date
+                           when="1982">1982</date>]</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl><emph>Establishing a Cultural Sequence for San Nicolas Island: Test
+                           Excavations at SNl-16</emph>. In, Mugu Lagoon/San Nicolas Island
+                        Ecological Research Symposium. Manuscript on file, <placeName type="region"
+                           key="#re_pmugu">Naval Air Weapons Station</placeName>, <placeName
+                           type="region" key="#re_pmugu">Point Mugu</placeName>. [<date when="1983"
+                           >1983</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#patmartz">Martz,
+                     Patricia</persName></bibl></p>
+                  <p><bibl><date when="1984">1984</date></bibl></p>
+                  <p><bibl><emph>Social Dimensions of Chumash Mortuary Populations in the Santa
+                           Monica Mountains Region</emph>. Ph.D. dissertation, <orgName
+                           key="#ucriver">University of California at Riverside</orgName>.
+                        University Microfilms, <placeName key="#annarbor">Ann
+                        Arbor</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#cme">Meighan, Clement W.</persName>, and
+                           <persName type="author" key="#heb">Hal Eberhart</persName></bibl></p>
+                  <p><bibl><date when="1953">1953</date></bibl></p>
+                  <p><bibl>Archaeological Resources of San Nicolas Island, California.
+                              <emph><orgName type="publication" key="#aman">American
+                              Antiquity</orgName></emph> 19(2):109-125.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#mjmoratto">Moratto, Michael
+                        J.</persName></bibl></p>
+                  <p><bibl><date when="1984">1984</date></bibl></p>
+                  <p><bibl><emph><orgName type="publication" key="#caarchaeology">California
+                              Archaeology</orgName></emph>. <orgName key="#academicpress">Academic
+                           Press</orgName>, <placeName key="#orlando"
+                     >Orlando</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#porr">Orr, Phil C.</persName></bibl></p>
+                  <p><bibl><date when="1945">1945</date></bibl></p>
+                  <p><bibl>Return to San Nicolas. <emph><orgName key="#museumleaflet">Museum
+                              Leaflet</orgName></emph> 20(7):75-79. <orgName type="museum"
+                           key="#mu_sbmuseum">Santa Barbara Museum of Natural History</orgName>,
+                           <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.</bibl></p>
+                  <p><bibl><date when="1945">1946</date></bibl></p>
+                  <p><bibl>Anthropology. In, <emph>Annual Report for the Year 1945</emph>, pp.
+                        11-12. <orgName type="museum" key="#mu_sbmuseum">Santa Barbara Museum of
+                           Natural History</orgName>, <placeName type="city" key="#ci_sb">Santa
+                           Barbara</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#gwpearson">Pearson, Gordon W.</persName>,
+                           <persName type="author" key="#jrpilcher">J.R. Pilcher</persName>,
+                           <persName type="author" key="#mgbaille">M.G. Baille</persName>, <persName
+                           key="#dmcorbett">D.M. Corbett</persName>, and <persName key="#fqua">F.
+                           Qua</persName></bibl></p>
+                  <p><bibl><date when="1986">1986</date></bibl></p>
+                  <p><bibl>High-Precision 14C Measurement of Irish Oaks to Show the Natural 14C
+                        Variations from AD 1840-5210 BC. <emph><orgName key="#radiocarbo"
+                              >Radiocarbon</orgName></emph> 28:911-934.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#gwpearson">Pearson, Gordon W.</persName>,
+                        and <persName type="author" key="#mstuiver">Minze
+                     Stuiver</persName></bibl></p>
+                  <p><bibl><date when="1986">1986</date></bibl></p>
+                  <p><bibl>High-Precision Calibration of the Radiocarbon Time Scale, AD 500-2500 BC.
+                              <emph><orgName key="#radiocarbo">Radiocarbon</orgName></emph>
+                        28:839-862.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#pierson">Pierson, Larry J.</persName>, <persName
+                           key="#shiller">Gerald I. Shiller</persName>, and <persName key="#slater"
+                           >Richard Slater</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Archaeological Resource Study: Morro Bay to Mexican Border, Final
+                           Report</emph>. Report on file, Minerals Management Service, <orgName
+                           type="government" key="#gov_deptinterior">U.S. Department of the
+                           Interior</orgName>, <placeName key="#camarillo">Camarillo</placeName>.
+                        [1987]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#raab">Raab, L. Mark</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Eaten Out of House and Home: Residential Mobility of Maritime
+                           Hunter- Gatherers on Prehistoric San Clemente Island, California</emph>.
+                        Manuscript on file, Center for Public Archaeology, California State
+                        University, Northridge. [1989]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#raab">Raab, Mark L.</persName>, and <persName
+                           key="#yatsko">>Andrew Yatsko</persName></bibl></p>
+                  <p><bibl><date when="1990">1990</date></bibl></p>
+                  <p><bibl>Prehistoric Human Ecology of Quinquina, a Research Design for
+                        Archaeological Studies on San Clemente Island, Southern California.
+                              <emph><orgName type="publication" key="#paccoastarch">Pacific Coast
+                              Archaeological Society Quarterly</orgName></emph>
+                        26(2/3):10-37.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#reinman">Reinman, Fred M.</persName></bibl></p>
+                  <p><bibl><date when="1962">1962</date></bibl></p>
+                  <p><bibl>New Sites on San Nicolas Island, California. <emph><orgName
+                              key="#archsruvannrep">Archaeological Survey Annual
+                           Report</orgName></emph> 4:1 l-21. <orgName type="institution"
+                           key="#in_ucla">University of California, Los
+                     Angeles</orgName>.</bibl></p>
+                  <p><bibl><date>1964</date></bibl></p>
+                  <p><bibl>Maritime Adaptation on San Nicolas Island, California: A Preliminary and
+                        Speculative Evaluation. <emph><orgName key="#archsruvannrep">Archaeological
+                              Survey Annual Report</orgName></emph> 6:51-75, <orgName
+                           type="institution" key="#in_ucla">University of California, Los
+                           Angeles</orgName>.</bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>Test Excavations at the Thousand Springs Site: Sni-11, San Nicolas
+                           Island, California</emph>. Manuscript on file, <placeName type="region"
+                           key="#re_pmugu">Naval Air Weapons Station, Point Mugu</placeName>. [<date
+                           when="1982">1982</date>]</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl><emph>New Data From San Nicolas Island, California</emph>. Manuscript on
+                        file, <placeName type="region" key="#re_pmugu">Naval Air Weapons Station,
+                           Point Mugu</placeName>. [<date when="1985">1985</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#reinman">Reinman, Fred M.</persName>, and <persName
+                           key="#lauter">Gloria A. Lauter</persName></bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>Fishhooks, Gorges. and Shell Beads: Time Markers on San Nicolas
+                           Island, California</emph>. Paper presented at the <orgName
+                           key="#socamerarch">Society for American Archaeology</orgName> Annual
+                        Meeting, <placeName type="city" key="#ci_sd">San Diego</placeName>, <date
+                           when="1981">1981</date>. Manuscript on file, <placeName type="region"
+                           key="#re_pmugu">Naval Air Weapons Station, Point
+                     Mugu</placeName>.</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl>San Nicolas Island Cultural Resource Survey Report, Vols. 1-3. Manuscript
+                        on file, <placeName type="region" key="#re_pmugu">Naval Air Weapons Station,
+                           Point Mugu</placeName>. [<date when="1984">1984</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#reinman">Reinman, Fred M.</persName>, and <persName
+                           key="#sjtownsend">Sam-Joe Townsend</persName></bibl></p>
+                  <p><bibl><date when="1960">1960</date></bibl></p>
+                  <p><bibl>Appendix 2: A Petroglyph Cave on San Nicolas Island. In, Six Burial Sites
+                        on San Nicolas Island. <emph><orgName key="#archsruvannrep">Archaeological
+                              Survey Annual Report</orgName></emph> 2:101-106. <orgName
+                           type="institution" key="#in_ucla">University of California, Los
+                           Angeles</orgName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#mrog">Rogers, Malcolm J.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Report of Archaeological Investigations on San Nicolas Island in
+                           1930</emph>. Bureau of American Ethnology manuscript no. 2124(2). On
+                        file, National Anthropological Archives, <orgName type="museum"
+                           key="#mu_smithsonian">Smithsonian Institution</orgName>, <placeName
+                           type="city" key="#ci_dc">Washington, D.C.</placeName> [<date when="1930"
+                           >1930</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#rootenberg">Rootenberg, Sheldon</persName></bibl></p>
+                  <p><bibl><date when="1960">1960</date></bibl></p>
+                  <p><bibl>Appendix 4: Cranial and Post-Cranial Measurements and Observations for
+                        San Nicolas Island Skeletal Remains. In, Six Burial Sites on San Nicolas
+                        Island. <emph><orgName key="#archsruvannrep">Archaeological Survey Annual
+                              Report</orgName></emph> 2: 115-130. <orgName type="institution"
+                           key="#in_ucla">University of California, Los
+                     Angeles</orgName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#mdrosen">Rosen, Martin
+                     D.</persName></bibl></p>
+                  <p><bibl><date when="1980">1980</date></bibl></p>
+                  <p><bibl>Archaeological Investigations at Two Prehistoric Santa Catalina Island
+                        Sites: Rosski (SCaI-45) and Miner's Camp (SCal-118). <emph><orgName
+                              type="publication" key="#paccoastarch">Pacific Coast Archaeological
+                              Society Quarterly</orgName></emph> 16 ( l/2):26-60.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#croz">Rozaire, Charles E.</persName></bibl></p>
+                  <p><bibl><date when="1959">1959</date></bibl></p>
+                  <p><bibl>Archeological Investigations at Two Sites on San Nicolas Island,
+                        California. <emph><orgName type="publication" key="#masterkey"
+                              >Masterkey</orgName></emph> 33(4):129-152. <orgName type="museum"
+                           key="#mu_southwest">Southwest Museum</orgName>, <placeName type="city"
+                           key="#ci_la">Los Angeles</placeName>.</bibl></p>
+                  <p><bibl><date when="1967">1967</date></bibl></p>
+                  <p><bibl>The Southwest Museum's Field Work on San Nicolas Island. In.
+                        Archaeological Explorations on San Nicolas Island, by <persName
+                           type="author" key="#bbr">Bruce Bryan</persName>, pp. 139-149.
+                           <emph>Southwest Museum Papers</emph> 22. <orgName type="museum"
+                           key="#mu_southwest">Southwest Museum</orgName>, <placeName type="city"
+                           key="#ci_la">Los Angeles</placeName>.</bibl></p>
+                  <p><bibl><date when="1970">1970</date></bibl></p>
+                  <p><bibl>Archaeological Considerations Regarding the Southern California Islands.
+                           <emph>Proceedings of the Symposium on the Biology of the California
+                           Islands</emph>, <persName key="#rnphilbrick">Ralph N.
+                           Philbrick</persName>, ed., pp. 327-336. <orgName key="#sbbotgar">Santa
+                           Barbara Botanical Gardens, Inc.</orgName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Twined Weaving and Western North American Prehistory</emph>. Ph.D.
+                        dissertation, <orgName type="institution" key="#in_ucla">University of
+                           California, Los Angeles</orgName>. [<date when="19575"
+                        >1957</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#salls">Salls, Roy A.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date>a</bibl></p>
+                  <p><bibl><emph>Skeletal Analysis of Burial - Pit 1.5S/24E. Sni-16 San Nicolas
+                           Island, California</emph>. Manuscript on file, <placeName type="region"
+                           key="#re_pmugu">Naval Air Weapons Station, Point Mugu</placeName>. [<date
+                           when="1981">1981</date>]</bibl></p>
+                  <p><bibl><date>n.d.</date>b</bibl></p>
+                  <p><bibl><emph>Prehistoric Fisheries of the California Bight</emph>. Ph.d.
+                        dissertation, <orgName type="institution" key="#in_ucla">University of
+                           California, Los Angeles</orgName>. [<date when="1988"
+                     >1988</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#aschimmelmann">Schimmelmann,
+                           Arndt</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>High Resolution Paleoclimatic Information from Varved Marine
+                           Sediments of the Southern California Borderland</emph>. Paper presented
+                        at the 27th Annual Meeting of the <orgName key="#soccaarch">Society for
+                           California Archaeology</orgName>, <date from="1993-04-07" to="1993-04-11"
+                           >April 7-11, 1993</date>, <placeName key="#asilomar"
+                        >Asilomar</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#psc">Schumacher, Paul</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Continuation of Contents of Boxes Forwarded to Empire Warehouse in
+                           San Francisco</emph>. Manuscript on file, Smithsonian Institution
+                        Archive, Record Unit 305, accession no. 4199. [<date when="1875"
+                        >1875</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#sstine">Stine, Scott</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Extreme Drought During Medieval Time, and Its Possible Influence on
+                           Human Populations of California</emph>. Paper presented at the 27th
+                        Annual Meeting of the <orgName key="#soccaarch">Society for California
+                           Archaeology</orgName>, <date from="1993-04-07" to="1993-04-11">April
+                           7-11, 1993</date>, <placeName key="#asilomar"
+                        >Asilomar</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#ihstrudwick">Strudwick, Ivan
+                        H.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Temporal and Areal Considerations Regarding the Prehistoric
+                           Circular Fishhook of Coastal California</emph>. Master's thesis, <orgName
+                           key="#csulb">California State University, Long Beach</orgName>. [<date
+                           when="1986">1986</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#mstuiver">Stuiver, Minze</persName>, and
+                           <persName type="author" key="#gwpearson">Gordon W.
+                        Pearson</persName></bibl></p>
+                  <p><bibl><date when="1986">1986</date></bibl></p>
+                  <p><bibl>High-Precision Calibration of Radiocarbon Time Scale, AD 1950-500 BC.
+                              <emph><orgName key="#radiocarbo">Radiocarbon</orgName></emph>
+                        28:805-838.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#mstuiver">Stuiver, Minze</persName>,
+                           <persName type="author" key="#gwpearson">Gordon W. Pearson</persName>,
+                        and <persName key="#tbraziunas">Tom Braziunas</persName></bibl></p>
+                  <p><bibl><date when="1986">1986</date></bibl></p>
+                  <p><bibl>Radiocarbon Age Calibration of Marine Samples Back to 9000 Cal Yr BP
+                              <emph><orgName key="#radiocarbo">Radiocarbon</orgName></emph> 28
+                        :980-1021.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#mstuiver">Stuiver, Minze</persName>, and
+                           <persName type="author" key="#pjreimer">P.J. Reimer</persName></bibl></p>
+                  <p><bibl><date when="1986">1986</date></bibl></p>
+                  <p><bibl>A Computer Program for Radiocarbon Age Calibration. <emph><orgName
+                              key="#radiocarbo">Radiocarbon</orgName></emph> 28:
+                     1022-1030.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName key="#titus">Titus, Michele D.</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Evidence for Prehistoric Occupation of Sites on San Clemente Island
+                           by Hokan and Uta-Aztecan Indians</emph>. M.A. thesis, <orgName
+                           type="institution" key="#in_ucla">University of California, Los
+                           Angeles</orgName>. [<date when="1987">1987</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#plwalker">Walker, Phillip L.</persName>,
+                        and <persName type="author" key="#pesnethkamp">Pandora E.
+                           Snethkamp</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl>Final Report, Archaeological Investigations on San Miguel Island--1982,
+                        Prehistoric Adaptations to the Marine Environment. Office of Public
+                        Archaeology, Social Process Research Institute, <orgName key="#ucsb"
+                           >University of California, Santa Barbara</orgName>. [<date when="1984"
+                           >1984</date>]</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#wjwallace">Wallace, William
+                        J.</persName></bibl></p>
+                  <p><bibl><date when="1955">1955</date></bibl></p>
+                  <p><bibl>A Suggested Chronology for Southern California Coastal Archaeology.
+                              <emph><orgName key="#swjouranth">Southwestern Journal of
+                              Anthropology</orgName></emph> 11 (3):214-230.</bibl></p>
+                  <p><bibl><date when="1978">1978</date></bibl></p>
+                  <p><bibl>Post-Pleistocene Archeology, 9000 to 2000 B.C. In. <emph>Handbook of
+                           North American Indians, Vol. 8: California</emph>, ed. by <persName
+                           type="author" key="#rhe">Robert F. Heizer</persName>, pp. 25-36. <orgName
+                           type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName>,
+                           <placeName type="city" key="#ci_dc">Washington,
+                     D.C.</placeName></bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#cnwarren">Warren, Claude
+                        N.</persName></bibl></p>
+                  <p><bibl><date when="1968">1968</date></bibl></p>
+                  <p><bibl>Cultural Tradition and Ecological Adaptation on the Southern California
+                        Coast. In, Archaic Prehistory in the Western United States, ed. by <persName
+                           key="#cirwinwill">C. Irwin-Williams</persName>. <emph><orgName
+                              key="#enwucont">Eastern New Mexico University Contributions in
+                              Anthropology</orgName></emph> 1(3):1-14. <placeName key="#portales"
+                           >Portales</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#pwigand">Wigand,
+                     Peter</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Dynamics of Great Basin Plant Communities During the La.st 12,000
+                           Years as a Proxy for the Holocene Climate of California</emph>. Paper
+                        presented at the 27th Annual Meeting of the <orgName key="#soccaarch"
+                           >Society for California Archaeology</orgName>, <date from="1993-04-07"
+                           to="1993-04-11">April 7-11, 1993</date>, <placeName key="#asilomar"
+                           >Asilomar</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><persName type="author" key="#awo">Woodward, Arthur</persName></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl>Archaeology. In, <emph>Progress Report of the Los Angeles Museum-Channel
+                           Islands Biological Survey: Fourth Expedition; San Nicolas, San Miguel,
+                           Santa Rosa and Santa Cruz Islands. July 21 to August 19, 1939</emph>, by
+                           <persName type="author" key="#dme">Don Meadows</persName>, pp. 35- 36.
+                        Manuscript on file, <orgName type="museum" key="#mu_museumofnaturalhistory"
+                           >Los Angeles County Museum of Natural History</orgName>, <placeName
+                           type="city" key="#ci_la">Los Angeles</placeName>.</bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

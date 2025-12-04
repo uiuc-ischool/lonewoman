@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#oxnarddailycourier">Oxnard
+                     Daily Courier</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">21</biblScope>
+               <biblScope unit="issue">33</biblScope>
+               <date when="1927-08-10"/>
+               <pubPlace><placeName type="city" key="#ci_oxnard">Oxnard</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Sheridan1927_21(33)">The Lost Woman of San
+                     Nicolas</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#esh">Sheridan, Edwin M.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <rs><persName type="nativeamerican" key="#lw">THE LOST WOMAN OF SAN
+                        NICOLAS</persName></rs>
+               </title></head>
+            <byline><persName type="author" key="#esh">E. M. Sheridan</persName>.</byline>
+            <div>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> is not
+                  classified as one of the <placeName type="island" key="#i_chi">Channel
+                     Islands</placeName>, but it belongs to what navigators term <placeName
+                     type="region" key="#re_cortezshoal">Cortez' Shoal</placeName>. <placeName
+                     type="island" key="#i_chi">The islands in the Channel group</placeName> are
+                     <placeName type="island" key="#i_sm">San Miguel</placeName>, <placeName
+                     type="island" key="#i_sr">Santa Rosa</placeName>, <placeName type="island"
+                     key="#i_scruz">Santa Cruz</placeName> and <placeName type="island" key="#i_an"
+                     >Anacapa</placeName>. Those in <placeName type="region" key="#re_cortezshoal"
+                     >Cortez' Shoal group</placeName> are <placeName type="island"
+                     key="#i_scatalina">St. Catalina</placeName>, <placeName type="island"
+                     key="#i_scl">San Clemente</placeName> and <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>, and also included is what is known as <placeName
+                     type="region" key="#re_johnrock">John Bogg's Rock</placeName>, seven miles
+                  northward from the northern extremity of <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, also <placeName type="island" key="#i_sb">Santa Barbara
+                     Island</placeName>, a mere rock midway between <placeName type="island"
+                     key="#i_scatalina">Catalina</placeName> and <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>.</p>
+               <p>It is with <placeName type="island" key="#i_sn">San Nicolas</placeName> that this
+                  article has to deal and because of the wonderful story of <rs><persName
+                        type="nativeamerican" key="#lw">the Indian woman</persName></rs> who was
+                  left alone on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                  in <rs><date notBefore="1830" notAfter="1839">the [<date notBefore="1830"
+                           notAfter="1839">eighteen-</date>]thirties</date></rs> and who subsisted
+                  there for <rs><date from="1835" to="1853" cert="high">18 years</date></rs>
+                  following. <placeName type="island" key="#i_sn">San Nicolas</placeName> lies 80
+                  miles southward from <placeName type="city" key="#ci_ven">Ventura</placeName> and
+                        <rs><placeName type="region" key="#re_mld">the mainland</placeName></rs> and
+                  nearly as many miles from any other land of presentable size, the nearest being
+                  the <placeName type="island" key="#i_scatalina">island of Santa
+                     Catalina</placeName>, 60 miles away. In dimension it is about one-third the
+                  size of <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>. It
+                  has springs of water on it, is reasonably well watered by winter rains and will
+                  support several thousand head of sheep. It is wind-swept and at times large
+                  sections of it are covered with shifting sands. It is about nine miles in
+                  diameter.</p>
+               <p>There has been much written of <rs><persName type="nativeamerican" key="#lw">the
+                        Indian woman</persName></rs> who was left on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> and much, of course, that was not
+                  true. According to the best authorities <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> in its earlier days sustained <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">a large Indian
+                        population</orgName></rs>. The story begins with the removal of <persName
+                     type="group" key="#bhagroup">a number of Indian women</persName> from
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in
+                     <date when="1836">1836</date>. According to <persName key="#jni">John
+                     Nidever</persName>, who was an uncle of the late <persName key="#jacobni">Jacob
+                     Nidever</persName> of <placeName type="county" key="#co_ventura">Ventura
+                     County</placeName> and others who hunted otter about <rs><placeName
+                        type="island" key="#i_sn">the island</placeName>
+                  </rs> as early as <date when="1835">1835</date>, <rs><persName type="group"
+                        key="#natam_aleuts; #natam_kodiak">the Alaska Indians</persName></rs> were
+                  in the habit of making periodic visits to <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs> for otter and other skins, with
+                        <rs><persName type="group" key="#1814huntingparty; #rfurcompany; #iba">their
+                        Russian masters</persName></rs>.</p>
+               <p><span type="trope" n="11">They were savage people, the <orgName
+                        type="nativeamericantribes" key="#natam_kodiak">Alaskan Kadiacs</orgName>,
+                     and made fierce attacks against all who attempted otter hunting on any of
+                           <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>.
+                     They were supplied with firearms and were dangerous foes even to the white men
+                     who were as well armed, and much more so to <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           natives</orgName></rs>, who had only bows and arrows and stone implements
+                     of warfare. In <date when="1836">1836</date>
+                     <rs><persName type="groups"
+                           key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                           >a party of these Indians</persName></rs> who were left on <rs><placeName
+                           type="island" key="#i_chi">the islands</placeName></rs> by <rs><name
+                           type="ship" key="#sh_ilmena">a Russian vessel</name></rs>, chased
+                        <persName type="frontiersman" key="#gni">Nidever</persName> and
+                           <rs><persName type="group" key="#nidevergroup1836">his
+                        party</persName></rs> to their landing, and were only repulsed by a sharp
+                     fire which killed several of their men. The chase was on the water in boats,
+                     and the contest was in trying to prevent them landing at the only practicable
+                     place.</span></p>
+               <p><span type="trope" n="11">According to the best authority, a party of
+                           <rs><persName type="group"
+                           key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                           >these Indians</persName></rs> took possession of <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName> for the purpose of
+                     hunting otter, and finally took possession of the women, and slew every man and
+                     male child on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, in the massacre that ensued. When <rs><persName
+                           type="group"
+                           key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                           >the Alaskans</persName></rs> abandoned <placeName type="island"
+                        key="#i_sn">San Nicolas</placeName>, after the hunt was over, they left the
+                     women to their fate.</span> It was some years subsequent to this that
+                        <rs><persName type="group" key="#aji; #ndur; #misfats">the
+                     padres</persName></rs> employed <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >men on the mainland</persName></rs> to go to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> and remove <persName type="group"
+                     key="#bhagroup">the survivors</persName>.</p>
+               <p><span type="trope" n="3">Recent investigations made of <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs> and those things
+                     left by <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           residents of the islands</orgName></rs> shows that <rs><orgName
+                           type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           former inhabitants</orgName></rs> were of the <orgName
+                        type="nativeamericantribes" key="#natam_toltecs">Toltec</orgName> or
+                        <orgName type="nativeamericantribes" key="#natam_aztec">Aztec
+                        races</orgName>, and hence, it is said came the white skin and pleasant
+                     manner of <rs><persName type="nativeamerican" key="#lw">the rescued Indian
+                           woman</persName></rs>.</span> The following is the story as told in an
+                  early day by <persName type="frontiersman" key="#gni">Nidever</persName>, the man
+                  who finally rescued <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs>:</p>
+            </div>
+            <div>
+               <div>
+                  <head><title type="section">Story of the Rescue By <persName type="frontiersman"
+                           key="#gni">Nidever</persName>.</title></head>
+                  <p>I arrived on <rs><placeName type="region" key="#re_socalcoast">the
+                           coast</placeName></rs> in <date when="1834-11">1834, in the month of
+                        November</date>. In the early part of the following year, <date when="1835"
+                        >1835</date>, I came to <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> and engaged in otter hunting, which I have followed
+                     almost uninterrupted until within a few years. (This statement was made in
+                           <rs><date notBefore="1870" notAfter="1875">the early [<rs><date
+                                 notBefore="1870" notAfter="1875"
+                           >eighteen-</date></rs>]seventies</date></rs>.) At the beginning of <date
+                        when="1835">1835</date>
+                     <persName type="investor" key="#isp">Isaac J. Sparks</persName> and <persName
+                        type="investor" key="#lbu">Lewis T. Burton</persName>, Americans, also otter
+                     hunters, settled here and chartered the schooner "<name type="ship"
+                        key="#sh_peoresnada">Peores-Nada</name>," (worse than nothing), for the trip
+                     to the <placeName type="region" key="#re_baja">lower California</placeName>
+                     coast. <rs><name type="ship" key="#sh_peoresnada">The schooner</name></rs> was
+                     commanded by <persName type="seaman" key="#chu">Chas. Hubbard</persName>, who
+                     was hired by <rs><persName key="#jgo">the owner of <rs><name type="ship"
+                                 key="#sh_peoresnada">the schooner</name></rs></persName></rs>, a
+                     Spaniard at <placeName type="city" key="#ci_mo">Monterey</placeName>.
+                           <rs><persName type="group"
+                           key="#1835crew; #chu; #iwi; #jsjo; #jdy; #natam_hawaiian; #nativeamericans"
+                           >The crew</persName></rs> placed in her by <persName type="investor"
+                        key="#isp">Sparks</persName> and <persName type="investor" key="#lbu"
+                        >Burton</persName> was, with two or three exceptions composed of <orgName
+                        type="nativeamericantribes" key="#natam_hawaiian">Kanakas</orgName>, natives
+                     of <placeName type="island" key="#i_hawaii">Hawaii</placeName>. The "<name
+                        type="ship" key="#sh_peoresnada">Peores-Nada</name> left <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName> the latter part of <date
+                        when="1835-04">April, 1835</date>. <rs><date notBefore="1835-07">About three
+                           months after</date></rs> she returned to <placeName type="city"
+                        key="#ci_sp">San Pedro</placeName> and from there went directly to the
+                     island of <placeName type="island" key="#i_sn">San Nicolas</placeName> for the
+                     purpose of taking off <persName type="group" key="#bhagroup">the
+                        Indians</persName> then living there. <persName type="investor" key="#isp"
+                        >Sparks</persName>, who hunted with me several years afterwards, told me the
+                     story, but I cannot now recollect who authorized or caused their removal. I
+                     remember distinctly, however, that a man by the name of <persName
+                        type="frontiersman" key="#bwi">Williams</persName>, a former acquaintance of
+                     mine in <placeName type="region" key="#re_rockies">the Rocky
+                        Mountains</placeName>, took an interest and was one of <rs><persName
+                           type="group"
+                           key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                           >the party that assisted in the removal</persName></rs>. Also
+                           <rs><persName type="frontiersman" key="#iwi">a man</persName></rs> from
+                        <placeName type="city" key="#ci_la">Los Angeles</placeName> was of
+                           <rs><persName type="group"
+                           key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                           >the party</persName></rs>. The circumstance of leaving <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> alone on
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was,
+                     as near as I can recollect, from what <persName type="investor" key="#isp"
+                        >Sparks</persName> told me, as follows:</p>
+               </div>
+               <div>
+                  <head><title type="section"> Removal of <persName type="group" key="#bhagroup">the
+                           Indians</persName>.</title></head>
+                  <p>Having got all <persName type="group" key="#bhagroup">the Indians</persName>
+                     together on the beach and ready for embarking, <rs><persName
+                           type="nativeamerican" key="#lw">one of them</persName></rs> made signs
+                     that <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs> had been left behind, whereupon she was allowed to go
+                     back and fetch it. She was gone some time, when a strong wind springing up,
+                     they did not [dare to wait] longer for her, fearing for the safety of <rs><name
+                           type="ship" key="#sh_peoresnada">the schooner</name></rs>.</p>
+                  <p>The water, which is quite shoal about <rs><placeName type="island" key="#i_sn"
+                           >the island</placeName></rs>, becomes exceedingly rough in a storm, and
+                     there is no harbor of any kind that would afford shelter in a heavy gale. They
+                     ran before the wind and reached <placeName type="city" key="#ci_sp">San
+                        Pedro</placeName> in safety. Here <persName type="group" key="#bhagroup">the
+                        Indians</persName> were put ashore, some being taken to <rs><placeName
+                           type="mission" key="#mi_losangeles">Los Angeles</placeName></rs> and some
+                     to the <orgName type="mission" key="#mi_sg">Mission of San Gabriel</orgName>.
+                     It was the intention of <rs><persName type="seaman" key="#chu">the
+                           captain</persName></rs> of <rs><name type="ship" key="#sh_peoresnada">the
+                           schooner</name></rs> to return for <rs><persName type="nativeamerican"
+                           key="#lw">the woman</persName></rs> who had been left on <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs>, as soon as
+                     possible. From <placeName type="city" key="#ci_sp">San Pedro</placeName> the
+                        "<name type="ship" key="#sh_peoresnada">Peores-Nada</name> came direct to
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, took
+                        <persName type="investor" key="#isp">Sparks</persName> and <rs><persName
+                           type="frontiersman" key="#gni">myself</persName></rs> over to <placeName
+                        type="island" key="#i_sr">Santa Rosa Island</placeName>, and then sailed for
+                        <placeName type="city" key="#ci_mo">Monterey</placeName>, where she had been
+                     ordered to take a cargo of lumber to <placeName type="city" key="#ci_sf">San
+                        Francisco</placeName>. At the entrance to <placeName type="region"
+                        key="#re_thegoldengate">the Golden Gate</placeName> the "<name type="ship"
+                        key="#sh_peoresnada">Peores-Nada</name> capsized and her crew were washed
+                     ashore. It was afterwards reported that <rs><name type="ship"
+                           key="#sh_peoresnada">the schooner</name></rs> drifted out to sea and was
+                     picked up by <name type="ship" key="#sh_russian">a Russian vessel</name>,
+                     though this report was never confirmed. <span type="trope" n="12">There were
+                        now no craft of any kind larger than the Indian canoe, and the boats of the
+                        otter hunters, left on <rs><placeName type="region" key="#re_socalcoast">the
+                              coast</placeName></rs>, in the southern waters, and none cared to
+                        attempt the passage of <rs><placeName type="region" key="#re_sbchannel">the
+                              channel</placeName></rs> to <placeName type="island" key="#i_sn">San
+                           Nicolas</placeName> in an open boat.</span> It was soon known throughout
+                           <rs><placeName type="region" key="#re_socalcoast">the
+                        coast</placeName></rs> that <rs><persName type="nativeamerican" key="#lw">an
+                           Indian woman</persName></rs> was left on <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs>. But so far as I can learn no
+                     attempt was ever made to rescue her. As the years passed by all thought that
+                     she had perished.</p>
+               </div>
+               <div>
+                  <head><title type="section">Visit Shows Signs of Life.</title></head>
+                  <p><span type="trope" n="4">In <date when="1851">1851</date> I had occasion to
+                        visit <placeName type="island" key="#i_sn">San Nicolas Island</placeName>. I
+                        found signs that led me to believe that <rs><persName type="nativeamerican"
+                              key="#lw">the woman</persName></rs> still survived, or that a human
+                        being was living upon <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs>. I had with me a man named <persName
+                           type="seaman" key="#tje">Tom Jeffries</persName>. He and I, with one of
+                              <rs><persName key="#nativeamericans">the Indian crew</persName></rs>
+                        landed near the lower end of <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs> and walked along the beach, and on the bank,
+                        close to the beach, for a distance of five or six miles. Soon after starting
+                        out we found the footprints of a human being, that, in all probability, had
+                        been made during the previous rainy season. They were distinctly defined,
+                        and for their size we concluded that they were those of a woman. We also
+                        discovered three small circular enclosures, about 200 yards back from the
+                        beach, something like a mile apart and situated on slightly rising ground.
+                        They were circular in shape, six of [or] seven feet in diameter, with walls
+                        perhaps five or six feet high, made of brush. Near these huts, or
+                        enclosures, there were stakes of driftwood stuck in the ground, and
+                        suspended upon them, at a height of five or six feet, were pieces of dried
+                        blubber, which had the appearance of having been placed there within a month
+                        or two, as they were still in a good state of preservation. With these
+                        exceptions there was nothing about the enclosures, or wind-breaks, as I
+                        would call them, that indicated that they had been occupied for years. We
+                        had come ashore early in the morning, and after finding the footprints and
+                        wind-breaks, we intended to make further search, but before noon a strong
+                        wind sprung up, and we hastened back to <rs><name type="ship"
+                              key="#sh_nidever">the schooner</name></rs>. We were hardly on board
+                        when the wind increased to a gale and continued to blow for about eight
+                        days, so strong at times that we expected to be blown out to sea. We were on
+                        the south side of <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs>, or under its lee, and in a measure protected
+                        from the wind, but the sea was so rough that we found it almost impossible
+                        to remain at anchor. Once our anchor dragged and we were compelled [to]
+                        improvise a second by filling a bag with stones. The eighth day, the wind
+                        having gone down, we were enabled to leave <rs><placeName type="island"
+                              key="#i_sn">the island</placeName></rs>.</span></p>
+               </div>
+               <div>
+                  <head><title type="section">
+                        <rs><persName type="frontiersman" key="#gni">Narrator</persName></rs> Makes
+                        Second Visit.</title></head>
+                  <p><span type="trope" n="4">In the <rs><date notBefore="1851-12"
+                              notAfter="1852-02">winter of 1852</date></rs> I made a second trip to
+                              <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                        for otter, having seen large number of otter on my previous trip. On this
+                        trip I was accompanied by <rs><persName type="frontiersman" key="#cdi"
+                              >Charles Brown</persName></rs>. We landed, as on our former visit, at
+                        the lower end of <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs>. We took <persName key="#nativeamericans">two
+                           Indians</persName> ashore with us and left them in charge of <rs><name
+                              type="ship" key="#sh_nidever">the boat</name></rs>, while
+                              <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> and
+                        I walked along the beach, towards the head of <rs><placeName type="island"
+                              key="#i_sn">the island</placeName></rs>. We went partly to see where
+                        the otter lay, and partly to see if we could find any sign of <rs><persName
+                              type="nativeamerican" key="#lw">the Indian woman</persName></rs>, as
+                           <persName type="missionfather" key="#jru">Father Gonzales</persName>, to
+                        whom we had reported the discoveries made on our former visit, assured us
+                        that there was no longer any doubt of her being alive. We had decided to go
+                        to the head of <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs>, as, for various reasons, we concluded that if
+                        she was alive she would be most likely to be found there. The water is
+                        better and more abundant there, and it is a better place for both fish and
+                        seal. We visited the huts that <persName type="seaman" key="#tje"
+                           >Jeffries</persName> had discovered and found them and their surroundings
+                        unchanged, except that it seemed to me that the seal blubber, which I had
+                        seen on my former visit, had been removed and fresh blubber hung in its
+                        place.</span></p>
+                  <p><span type="trope" n="4">In the neighborhood of the huts near the shore we saw
+                        seven or eight wild dogs. They were about the size and form of a coyote, of
+                        a black and white color. I have seen the same kind of dogs among the
+                        northwest Indians. They were very wild and ran off as soon as they saw us.
+                        When within about half a mile of the head of <rs><placeName type="island"
+                              key="#i_sn">the island</placeName></rs>, we saw a low, sandy flat that
+                        extended from one side of <rs><placeName type="island" key="#i_sn">the
+                              island</placeName></rs> to the other. Here, we thought, in all
+                        probability, she must be living, as the ground to the north and east of this
+                        flat was high and exposed to the wind. After searching around for some time
+                        and finding no sign of her, we were about to return, having concluded that
+                        the dogs must have eaten her, as not even her bones were to be found, when I
+                        discovered in the crotch of a bush or small tree, a basket, and upon
+                        throwing off the piece of seal skin that covered it, we found within,
+                        carefully laid together a dress made of shag skins cut in square pieces, a
+                        rope made of sinew, and several small articles, such as abalone fish-hooks,
+                        bone needles, etc.</span></p>
+                  <p><span type="trope" n="4">After examining them <rs><persName type="frontiersman"
+                              key="#cdi">Brown</persName></rs> proposed replacing them and returning
+                        the basket to the tree where we found it, but I scattered the contents upon
+                        the ground, telling him that if upon our return we should find them replaced
+                        in the basket it would be positive proof of the woman's existence. As it was
+                        not [now] quite late we returned to <rs><placeName type="ship"
+                              key="#sh_nidever">the schooner</placeName></rs>, intending to renew
+                        the search at the first opportunity, as the extreme head of <rs><placeName
+                              type="island" key="#i_sn">the island</placeName></rs> was still
+                        unexplored by us. For the next few days, however, we were busy hunting
+                        otter, and about the fourth or fifth day a southeast wind began to blow,
+                        which soon increased to a gale. We waited about six or seven days for it to
+                        go down and then, with some difficulty, we ran over to the <placeName
+                           type="island" key="#i_sm">San Miguel Island</placeName>.</span></p>
+               </div>
+               <div>
+                  <head><title type="section">Discovery of <rs><persName type="nativeamerican"
+                              key="#lw">the Woman</persName></rs>.</title></head>
+                  <p><span type="trope" n="4">I next fitted out a hunt on <placeName type="island"
+                           key="#i_sn">San Nicolas</placeName> in <date when="1853-07">July,
+                           1853</date>. My crew consisted of <rs><persName type="frontiersman"
+                              key="#cdi">Charles Brown</persName></rs>, <rs><persName
+                              type="frontiersman" key="#col">one Irishman</persName></rs> and
+                              <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">four
+                              Mission Indians</persName></rs>. This time I went with the intention
+                        of making a thorough search for <rs><persName type="nativeamerican"
+                              key="#lw">the missing woman</persName></rs>. We arrived off
+                              <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                        in the early part of the day and anchored opposite the middle of the
+                        southeast side about 10 a. m. <rs><persName type="frontiersman" key="#cdi"
+                              >Brown</persName></rs> and I went on shore to see where the otter lay
+                        and to select a suitable camping place. We left two of <rs><persName
+                              type="group" key="#cook; #msh; #poli; #nsk; #hva">our
+                              Indians</persName></rs> in charge of <rs><name type="ship"
+                              key="#sh_nidever">the boat</name></rs>. We then kept along the shore
+                        without finding any signs of <rs><persName type="nativeamerican" key="#lw"
+                              >the Indian woman</persName></rs>, until we reached the head of
+                              <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                        Here I sat down to rest while <rs><persName type="frontiersman" key="#cdi"
+                              >Brown</persName></rs> went around the head of <rs><placeName
+                              type="island" key="#i_sn">the island</placeName></rs> and down some
+                        distance on the other side. When he returned he told me that he had seen
+                        fresh tracks of <rs><persName type="nativeamerican" key="#lw">the Indian
+                              woman</persName></rs> and had followed them from the beach up over the
+                        bank, but on the side of the ridge that formed the head of <rs><placeName
+                              type="island" key="#i_sn">the island</placeName></rs> he had lost
+                        them, the ground being covered with moss. I was at first disposed to think
+                        that <rs><persName type="group" key="#col; #cook; #msh; #poli; #nsk; #hva"
+                              >our men</persName></rs> from <rs><name type="ship" key="#sh_nidever"
+                              >the schooner</name></rs> had gone over there, but a moment's
+                        reflection convinced me that it would be impossible for them to get in
+                        advance of us, and besides, <rs><persName type="frontiersman" key="#cdi"
+                              >Brown</persName></rs> said the tracks were too small to have been
+                        made by either of <rs><persName type="group"
+                              key="#col; #cook; #msh; #poli; #nsk; #hva">our
+                        men</persName></rs>.</span></p>
+               </div>
+            </div>
+            <div>
+               <p>(<title type="article" key="#Sheridan1927_21(34)">To Be Continued
+                  Tomorrow</title>)</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

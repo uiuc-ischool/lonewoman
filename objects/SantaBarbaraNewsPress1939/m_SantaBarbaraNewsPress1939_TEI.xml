@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sbnewspress">Santa Barbara
+                     News Press</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">96</biblScope>
+               <biblScope unit="issue">298</biblScope>
+               <date when="1939-08-22"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SantaBarbaraNewsPress1939">'Wild' Woman's Homesite Is
+                     Located</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">'Wild' Woman's Homesite Is Located</title></head>
+            <p><span type="trope" n="8">An almost-forgotten story of <rs><persName
+                        type="nativeamerican" key="#lw">an early day female Robinson
+                        Crusoe</persName></rs> who for <rs><date notBefore="1835" notAfter="1853">18
+                        years</date></rs> braved the loneliness of rock-bound <placeName
+                     type="island" key="#i_sn">San Nicholas island</placeName> off <placeName
+                     type="region" key="#re_socalcoast">Santa Barbara's coast</placeName> was
+                  revived yesterday with the return of an expedition from the <placeName
+                     type="island" key="#i_chi">Channel islands</placeName>.</span></p>
+            <p><persName type="author" key="#awo">Arthur Woodward</persName>, director of history
+               and anthropology of the <orgName type="museum" key="#mu_lacountymuseum">Los Angeles
+                  museum</orgName>, said there the expedition apparently located the site of the hut
+               occupied by <rs><persName type="nativeamerican" key="#lw">the Indian
+                  woman</persName></rs>, who later was baptized at the <placeName type="mission"
+                  key="#mi_sb">Santa Barbara Old Mission</placeName> as Juana Maria.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> was left
+               alone on <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> in
+                  <date when="1835">1835</date>, by <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >an expedition</persName></rs> that had been sent from <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> to remove <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Indians</orgName></rs> from <rs><placeName type="island" key="#i_sn">the
+                     place</placeName></rs>. Just as <rs><name type="ship" key="#sh_peoresnada">the
+                     boat</name></rs> was being loaded with <persName type="group" key="#bhagroup">
+                  Indians</persName> and a storm approached, <rs><persName type="nativeamerican"
+                     key="#lw">Juana Maria</persName></rs> ran from the gathering, scampered up the
+               hills, and cried she had forgotten <rs><persName type="nativeamerican" key="#lwchild"
+                     >her baby</persName></rs>.</p>
+            <p><rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >The expedition</persName></rs> was forced to depart because of the storm, and
+                     <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs> was
+               soon forgotten. For <rs><date notBefore="1835" notAfter="1853" cert="high">18
+                     years</date></rs> she lived alone on <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs>, <persName type="author" key="#awo"
+                  >Woodward</persName> said. <rs><persName type="nativeamerican" key="#lwchild">Her
+                     baby</persName></rs> died meanwhile. <rs><persName type="nativeamerican"
+                     key="#lw">The woman</persName></rs> lived by fishing and hunting with
+               snares.</p>
+            <p><span type="trope" n="6"><span type="trope" n="14">In <date when="1853">1853</date>,
+                     an expedition headed by <persName type="frontiersman" key="#gni">George
+                        Nidever</persName> of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> visited <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs> and captured <rs><persName type="nativeamerican"
+                           key="#lw">the half-wild woman</persName></rs>, who could speak the
+                     language only of <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">her tribe</orgName></rs>, all of whom were
+                     then dead. She died six weeks later and was buried at the <placeName
+                        type="mission" key="#mi_sb">Santa Barbara
+               mission</placeName>.</span></span></p>
+            <p><persName type="author" key="#awo">Woodward</persName> said the expedition returning
+               today also had found what appeared to be the "mint" of early-day <placeName
+                  type="state" key="#st_cal">California</placeName>. On <placeName type="island"
+                  key="#i_scruz">Santa Cruz</placeName> and <placeName type="island" key="#i_sr"
+                  >Santa Rosa </placeName>islands, he said, he found 1,700 fine stone drills used to
+               make beads, which served as the currency for the early day <rs><orgName
+                     type="nativeamericantribes" key="#natam_chumash">Indians</orgName></rs>.</p>
+            <p><span type="trope" n="7"><placeName type="island" key="#i_sr">Santa Rosa</placeName>,
+                     <placeName type="island" key="#i_scruz">Santa Cruz</placeName>, <placeName
+                     type="island" key="#i_sn">San Nicholas</placeName> and <placeName type="island"
+                     key="#i_sm">San Miguel</placeName> islands were visited during which nearly 200
+                  village sites were inspected and from which relics were obtained, <persName
+                     type="author" key="#awo">Woodward</persName> said.</span></p>
+            <p>This ever fascinating story of <persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName> is to be told and portions of it dramatized over <orgName
+                  key="#ktms">KTMS</orgName> at 7 o'clock <rs><date when="1939-08-22"
+                  >tonight</date></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                     Times</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">73</biblScope>
+               <date when="1954-07-05"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Sell1954">Tiny Skeleton Recalls 1835 Island Saga.
+                     Bones Believed Those of Mystery Hermit's Child</title>
+                  <biblScope unit="page" from="1" to="2"/>
+                  <author><persName type="author" key="#tse">Sell, Ted</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">Tiny Skeleton Recalls <date when="1835">1835</date>
+                  <rs><placeName type="island" key="#i_sn">Island</placeName></rs> Saga</title>
+               <title type="sub"> Bones Believed Those of <rs><persName type="nativeamerican"
+                        key="#lwchild">Mystery Hermit's Child</persName></rs></title></head>
+            <byline>BY <persName type="author" key="#tse">TED SELL</persName>
+            </byline>
+            <div n="1">
+               <p><persName type="author" key="#asa">Arthur R. Sanger</persName> has a skeleton in
+                  his closet.</p>
+               <p>Actually, of course, it isn't really in his closet but in a display case in a
+                  small compartment off Sanger's living room at
+                  <address><street>2910 S Budlong Ave.</street></address></p>
+               <p>And it isn't a skeleton that <persName type="author" key="#asa">Sanger</persName>
+                  is ashamed of. Indeed, he's proud of it.</p>
+               <p>The skeleton, <persName type="author" key="#asa">Sanger</persName> believes, is
+                  that of <rs><persName type="nativeamerican" key="#lwchild">the dead
+                        child</persName></rs> of the <rs><persName type="nativeamerican" key="#lw"
+                        >19th century hermit of San Nicolas Island</persName></rs>.</p>
+               <p><rs><persName type="nativeamerican" key="#lw">The hermit</persName></rs>, a figure
+                  or mystery in <placeName type="region" key="#re_socal">Southern
+                     California</placeName> history, was <rs><persName type="nativeamerican"
+                        key="#lw">a woman</persName></rs> left behind and alone when the last of the
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">San
+                        Nicolas Indians</orgName></rs> were removed from <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> in <date when="1835"
+                     >1835</date>.</p>
+               <p><span type="trope" n="9">As the <name type="ship" key="#sh_peoresnada">Peor es
+                        Nada</name> started to sail, <rs><persName type="nativeamerican" key="#lw"
+                           >an Indian woman</persName></rs> leaped ashore to gather up (so history
+                     has it) <rs><persName type="nativeamerican" key="#lwchild">her
+                        baby</persName></rs>, overlooked when the surviving score of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Indians</orgName></rs> were brought to <name type="ship"
+                        key="#sh_peoresnada">the ship</name>.</span></p>
+            </div>
+            <div n="2">
+               <head><title type="sub"><hi rend="bold">Marooned on <placeName type="island"
+                           key="#i_sn">Island</placeName></hi></title></head>
+               <p>A storm drove away <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>
+                  and <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+                  doomed to <rs><date notBefore="1835" notAfter="1853" cert="high">18 lonely
+                        years</date></rs> on the <rs><placeName type="island" key="#i_sn"
+                        >wind-whipped island</placeName></rs>.</p>
+               <p>When she was taken off by <rs><name type="ship" key="#sh_nidever">another
+                        vessel</name></rs> in <date when="1853">1853</date>, she told <rs><persName
+                        type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                        rescuers</persName></rs> that <rs><persName type="nativeamerican"
+                        key="#lwchild">her baby</persName></rs> had been killed by wild dogs years
+                  earlier.</p>
+               <p>Sanger's skeleton, he believes, is that of <rs><persName type="nativeamerican"
+                        key="#lwchild">the child</persName></rs> for whose life <rs><persName
+                        type="nativeamerican" key="#lw">a mother</persName></rs> became a solitary
+                  seal hunter on <placeName type="island" key="#i_sn">San Nicolas</placeName>.</p>
+               <p>Found in a mound atop another mound of sand, Sanger's skeleton was buried with
+                  beads which, he has determined, must have been imported to <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> at a fairly late
+                  date.</p>
+            </div>
+            <div n="3">
+               <head><title type="sub"><hi rend="bold">Of Recent Origin</hi></title></head>
+               <p>The fact that the skeleton itself had not been uncovered by the constant gales
+                  sweeping <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+                     <persName type="author" key="#asa">Sanger</persName> says, is evidence that the
+                  grave was of fairly recent origin. Most relics, <rs><persName type="author"
+                        key="#asa">the independent 68-year old archeologist</persName></rs> said,
+                  are unearthed by the winds rearranging island sands.</p>
+               <p>The skeleton is that of a small child, buried according to Indian custom in a
+                  fetal position. "The Indians believed," <persName type="author" key="#asa"
+                     >Sanger</persName> explained, "that a man sould leave the world in the position
+                  in which he entered it." <span type="trope" n="7">The skeleton is only one of
+                     literally thousands of Indian relics <persName type="author" key="#asa"
+                        >Sanger</persName> has stored, carefully numbered, at his home. A master log
+                     records the date and place and circumstances of discovery of myriads of Indian
+                     mortars and pestles, effigies, ornaments, beads and other
+                  discoveries.</span></p>
+            </div>
+            <div n="4">
+               <head><title type="sub"><hi rend="bold">Discoveries in Museum</hi></title></head>
+               <p>Addional thousands of Sanger's discoveries are at the <orgName type="museum"
+                     key="#mu_americanindian">Museum of the American Indian</orgName> in <placeName
+                     type="city" key="#ci_nyc">New York</placeName>. <persName type="author"
+                     key="#asa">Sanger</persName>, for 30 years a real estate broker some of the
+                  time, archeologist the rest, pursued some of his work for the <orgName
+                     type="organization" key="#heyefoundation">Heye Foundation</orgName>, operators
+                  of <rs><orgName type="musuem" key="#mu_americanindian">the
+                  museum</orgName></rs>.</p>
+               <p>An additional 85 of his finds are at the <orgName type="museum"
+                     key="#mu_lacountymuseum">Los Angeles County Museum</orgName>, he said.</p>
+               <p>Most of the relics were found, <persName type="nativeamerican" key="#lw"
+                     >Sanger</persName> said, on the <rs><placeName type="island" key="#i_chi">seven
+                        Channel Islands</placeName></rs> spread like a rocky crescent athwart the
+                  offshore waters.</p>
+               <p>Some relics also came from excavations <persName type="author" key="#asa"
+                     >Sanger</persName> made 17 miles north of <placeName type="island"
+                     key="#ci_malibu">Malibu</placeName> in the <foreign xml:lang="sp"><placeName
+                        type="region" key="#re_arroyo">Arroyo Sequit</placeName></foreign>.</p>
+            </div>
+            <div n="5">
+               <head><title type="sub"><hi rend="bold"><orgName type="nativeamericantribes"
+                           key="#natam_Chumash">Chumash Tribe</orgName> Relics</hi></title></head>
+               <p><span type="trope" n="3">Much of the finds were those of the <orgName
+                        type="nativeamericantribes" key="#natam_Chumash">Chumash Tribe</orgName>, a
+                     relatively advanced Indian nation living in the <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> district and, <persName type="author"
+                        key="#asa">Sanger</persName> says, on the <placeName type="island"
+                        key="#i_chi">Channel Islands</placeName>.</span></p>
+               <p><span type="trope" n="3">The beadwork and other artifacts show great patience and
+                     no little skill at working with crude implements.</span></p>
+               <p>They were collected during 30 years of exploring by <persName type="author"
+                     key="#asa">Sanger</persName>, a bachelor. From <date when="1909">1909</date> to
+                     <date when="1945">1945</date> he maintained his own auxiliary schooner, the
+                  72-foot <name type="ship" key="#sh_olddreamer">Old Dreamer</name>, for his
+                  archeological trips to <rs><placeName type="island" key="#i_chi">the seven
+                        islands</placeName></rs>.</p>
+               <p>In <date when="1945">1945</date> he traded <name type="ship" key="#sh_olddreamer"
+                     >the schooner</name> for a 16-foot trailer in which he and <rs><persName
+                        key="#amu">his sister, Mrs. Agnes Sanger Mulden</persName></rs>, now explore
+                  the <placeName type="country" key="#co_usa">United States</placeName>.</p>
+            </div>
+            <div n="6">
+               <head><title type="sub"><hi rend="bold">3 Times Around <placeName type="country"
+                           key="#co_usa">U.S.</placeName></hi></title></head>
+               <p>"We've been completely around <rs><placeName type="coutnry" key="#co_usa">the
+                        country</placeName></rs> three times since then," he said.</p>
+               <p><span type="trope" n="3">But Sanger's first love is archeological research in to
+                     the customs and history of the coastal Indians&#8212;with emphasis on the
+                     history of the ill-fated <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                           >Channel Islands natives</orgName></rs> destroyed, as it were, by the
+                     idyllic life they led on <rs><placeName type="island" key="#i_chi">the
+                           islands</placeName></rs> where the things needed for life were brought
+                     easily.</span></p>
+               <p><span type="trope" n="13">Other archeologists and anthropologists have speculated
+                     that the ease of life on <rs><placeName type="island" key="#i_chi">the
+                           storm-swept islands</placeName></rs> was indeed the factor which made
+                           <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           Indians</orgName></rs> easy prey to <rs><persName type="group"
+                           key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                           >marauding Russians</persName></rs> and <orgName
+                        type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName> during
+                     sea-otter expeditions of the <rs><date notBefore="1760" cert="high">late
+                           18th</date></rs> and <rs><date notAfter="1835" cert="high">early
+                           19th</date></rs> centuries.</span></p>
+               <p>It was to save the last <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">San Nicolas Islanders</orgName></rs> from
+                        <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the raiders</persName></rs> that the <name type="ship" key="#sh_peoresnada"
+                     >Peor Es Nada</name> visited <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> in <date when="1835">1835</date>&#8212;and left
+                        <rs><persName type="nativeamerican" key="#lw">the single
+                     woman</persName></rs> ashore.</p>
+            </div>
+            <div n="7">
+               <head><title type="sub"><hi rend="bold">Bitter Over Closing</hi></title></head>
+               <p>Of governmental closing of <rs><placeName type="island" key="#i_chi">the
+                        islands</placeName></rs>, <persName type="author" key="#asa"
+                     >Sanger</persName> has bitter words. He fears that closing many of the best
+                  archeological hunting grounds will mean the irrevocable loss of relics they
+                  contain.</p>
+               <p>"The wind uncovers them," he explained, "and they'll disintegrate. They should let
+                  the pot hunters collect them, to save them."</p>
+               <p><persName type="author" key="#asa">Sanger</persName> says, however, that
+                     <placeName type="region" key="#re_mld">mainland</placeName> diggings, such as
+                  those at the <foreign xml:lang="sp"><placeName type="region" key="#re_arroyo"
+                        >Arroyo Sequit</placeName></foreign>, should be excavated only under
+                  direction of trained archeologists.</p>
+               <p>"But the situation is different there," he adds. "There's no danger of them being
+                  lost unless careless diggers haul them away. On <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs>, the things will be lost."</p>
+            </div>
+            <div n="8">
+               <head><title type="sub"><hi rend="bold">Five Navy-Controlled</hi></title></head>
+               <p>Of the <rs><placeName type="island" key="#i_chi">seven islands</placeName></rs>,
+                  five are under partial or complete control of <orgName type="military"
+                     key="#mi_navy">the Navy</orgName>, <persName type="author" key="#asa"
+                     >Sanger</persName> said. They are <placeName type="island" key="#i_scruz">Santa
+                     Cruz</placeName>, <placeName type="island" key="#i_sn">San Nicolas</placeName>,
+                     <placeName type="island" key="#i_sm">San Miguel</placeName>, <placeName
+                     type="island" key="#i_sr">Santa Rosa</placeName> and <placeName type="island"
+                     key="#i_scl">San Clemente</placeName>. <rs><placeName type="island"
+                        key="#i_scl">The last</placeName></rs> has been blasted by <orgName
+                     type="military" key="#mi_navy">Navy</orgName> guns as a bombardment range.</p>
+               <p>Among the items carefully saved by <persName type="author" key="#asa"
+                     >Sanger</persName> are several skulls, in two of which arrow heads are firmly
+                  imbedded as a result of what apparently was tribal warfare or murder.</p>
+               <p>Another skull, <persName type="author" key="#asa">Sanger</persName> said, belongs
+                  to a skeleton which he found practically intact. In the spinal column of that
+                  skeleton, he pointed out, is welded firmly a large spear point, apparently driven
+                  through the victim in what <persName type="author" key="#asa">Sanger</persName>
+                  thinks might have been a ritual murder. The skull, with teeth not worn down by
+                  Indian eating habits, is different from those of Indians found nearby.</p>
+            </div>
+            <div n="9">
+               <head><title type="sub"><hi rend="bold">Good Luck Effigies</hi></title></head>
+               <p>Also in Sanger's collection are whale effigies, used to bring good luck to Indian
+                  fishermen, he explained. All have been laboriously shaped from rock and are
+                  complete to the sculptured spray spout. One is worn by constant rubbing which
+                     <persName type="author" key="#asa">Sanger</persName> says apparently took the
+                  place of prayer for good fishing.</p>
+               <p>Other effigies are of a grizzly bear and sea turtles.</p>
+               <p>Indian beads&#8212;for the most part made of handworked abalone shell
+                  flakes&#8212;and trade beads, imported by Russian and Spanish explorers, also fill
+                  display cases in Sanger's cabinets.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

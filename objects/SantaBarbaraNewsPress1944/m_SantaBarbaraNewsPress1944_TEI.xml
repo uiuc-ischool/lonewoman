@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sbnewspress">Santa Barbara
+                     News Press</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">81</biblScope>
+               <biblScope unit="issue">112</biblScope>
+               <date when="1944-02-20"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SantaBarbaraNewsPress1944">'Woman of San Nicholas' Not
+                     Myth: New Proof Found at Old Mission</title>
+                  <biblScope unit="page" n="7"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">'<rs><persName type="nativeamerican" key="#lw">Woman of San
+                        Nicolas</persName></rs>' Not Myth New Proof Found At <rs><placeName
+                        type="mission" key="#mi_sb">Old Mission</placeName></rs></title></head>
+            <div n="1">
+               <p>Incontrovertible evidence that lifts the story of Juana Maria, <rs><persName
+                        type="nativeamerican" key="#lw">the woman of San Nicolas
+                     island</persName></rs>, from the realms of legend to fact has been uncovered in
+                  the archives of <rs><placeName type="mission" key="#mi_sb">the Old
+                        Mission</placeName></rs>, it was revealed during the past week by
+                        <rs><orgName type="missionfathers" key="#misfats">the mission
+                        fathers</orgName></rs>- as the result of research by two students at
+                        <rs><placeName type="mission" key="#mi_sb">the mission</placeName></rs>,
+                  Fraters <persName type="missionfather" key="#bcr">Blaise Cronin,
+                  O.F.M.</persName>, and <persName type="missionfather" key="#khe">Kenneth
+                     Henriques, O.F.M.</persName></p>
+               <p>The story, many times told in the years since the chain of incidents first took
+                  place, has had a place in California history, but has always been looked at
+                  askance by authoritative sources. Discovery of Juana Maria's burial record in the
+                  mission archives dispels the last shred of doubt of its veracity.</p>
+            </div>
+            <div n="2">
+               <p><hi rend="bold">LEFT BEHIND</hi></p>
+               <p>Briefly, Juana Maria's story is this: In <date when="1835">1835</date> the
+                  schooner <name type="ship" key="#sh_peoresnada">Peor Es Nada</name> (There Is
+                  Nothing Worse) was commissioned to remove the last of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> off lonely <placeName type="island" key="#i_sn">San
+                     Nicolas island</placeName>. <rs><persName type="nativeamerican" key="#lw">One
+                        of the Indian women</persName></rs> noticed <rs><persName
+                        type="nativeamerican" key="#lwchild">her child</persName></rs> was missing
+                  and at the time of departure went in search of <rs><persName type="nativeamerican"
+                        key="#lwchild">the infant</persName></rs>. A storm forced <rs><name
+                        type="ship" key="#sh_peoresnada">the schooner</name></rs> to return to
+                     <placeName type="region" key="#re_mld">the mainland</placeName>, and
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+                  left marooned. <span type="trope" n="12">The <name type="ship"
+                        key="#sh_peoresnada">Peor Es Nada</name>, the only vessel on <rs><placeName
+                           type="region" key="#re_socalcoast">the coast</placeName></rs> large
+                     enough to make the hazardous voyage to <rs><placeName type="island" key="#i_sn"
+                           >the island</placeName></rs>, subsequently was wrecked and <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> was left to her
+                     own devices on <rs><placeName type="island" key="#i_sn">the rocky bit of
+                           land</placeName></rs>.</span></p>
+               <p>In <date when="1853">1852</date>
+                  <persName type="frontiersman" key="#gni">Captain George Nidever</persName> and
+                     <persName type="frontiersman" key="#cdi">Carl Dittmann</persName> (referred to
+                  as <rs><persName type="frontiersman" key="#cdi">Charlie Brown</persName></rs> by
+                     <persName type="frontiersman" key="#gni">Nidever</persName>), at <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> to gather seagull
+                  eggs, discovered traces of human life along the shore. <title type="manuscript"
+                     key="#Nidever1878">Nidever's memoirs</title>, edited and published by <persName
+                     type="author" key="#wel">Dr. William H. Ellison</persName> of the <rs><orgName
+                        type="institution" key="#in_sbstate">State college</orgName></rs> faculty in
+                     <date when="1937">1937</date>, related the incident and subsequent events, as
+                  do also the <title type="manuscript" key="#Dittman1878">unpublished memoirs of
+                     Dittmann</title>.</p>
+            </div>
+            <div n="3">
+               <p><hi rend="bold">CAREFUL SEARCH</hi></p>
+               <p>By the following year <persName type="frontiersman" key="#gni">Nidever</persName>
+                  and <persName type="frontiersman" key="#cdi">Dittmann</persName> had proved beyond
+                  a doubt there was a living human being on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> and two padres at <rs><placeName type="mission"
+                        key="#mi_sb">the Old Mission</placeName></rs>, Fathers <persName
+                     type="missionfather" key="#jru">Gonzalez Rubio</persName> and <persName
+                     type="missionfather" key="#sanchez">Sanchez</persName>, asked them to make an
+                  attempt to find <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs>. <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">A searching
+                        party</persName></rs> found <rs><persName type="nativeamerican" key="#lw"
+                        >the woman</persName></rs>, who had seen no other human face for <rs><date
+                        notBefore="1835" notAfter="1853" cert="high">18 years</date></rs>, and
+                  returned her to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>.</p>
+               <p><persName type="nativeamerican" key="#gni">Captain Nidever</persName> took
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> into
+                     <placeName key="#nideverhouse">his home</placeName> and apparently she was very
+                  happy, although she spoke a language no one could understand and thus could
+                  communicate with none of the people about her. However, she sickened and died
+                  seven weeks after she had been brought to <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>.</p>
+               <p>On her deathbed, <persName type="missionfather" key="#sanchez">Father
+                     Sanchez</persName> gave her conditional baptism and the Christian name of
+                        <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>.
+                  She was buried in the <rs><placeName type="mission" key="#mi_sb">Old
+                        Mission</placeName></rs> cemetery <date when="1853-10-19">Oct. 19,
+                     1853</date>.</p>
+            </div>
+            <div n="4">
+               <p><hi rend="bold">START OF A LEGEND</hi></p>
+               <p>Thus started the legend of <rs><persName type="nativeamerican" key="#lw">the woman
+                        of San Nicolas</persName></rs>. Despite the documentary evidence of
+                     <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Dittmann</persName>, both widely known for their
+                  honesty, there still were doubting Thomases who said, in effect, "We're from
+                  Missouri. Show us the records."</p>
+               <p>The late <persName type="frontiersman" key="#fen">Father Zephrin Engelhardt,
+                     O.F.M.</persName>, historian of the <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">California missions</orgName></rs>, spent a great
+                  deal of time searching for the lost burial record without avail. Then, on the
+                  evening <date when="1944-01-10">Jan. 10 of this year</date>, <rs><persName
+                        type="group" key="#bcr; #khe">the two student-brothers</persName></rs>,
+                  doing research for <rs><title type="article" key="#Cronin1944">an
+                     article</title></rs> for the student publication, "Priestly Studies," found the
+                  entry in the mission’s Death Records of Presidio Santa Barbara (Entierros de los
+                  de Razon e Indios).</p>
+               <p>The left-hand margin of the page carries the notation:</p>
+               <p><hi rend="bold">1183</hi></p>
+               <p><hi rend="bold"><rs><persName type="nativeamerican" key="#lw">Juana
+                           Maria</persName></rs></hi></p>
+               <p xml:lang="sp"><hi rend="bold">India adlta.</hi></p>
+               <p>Text of the entry is:</p>
+               <p xml:lang="sp">
+                  <hi rend="bold">"En <date when="1853-10-19">19 Octo de 1853</date> di sepulta ecca
+                     cemento as cadaver de <rs><persName type="nativeamerican" key="#lw">Juana
+                           Maria</persName></rs> India traida de la <placeName type="island"
+                        key="#i_sn">Isla de S. Nicolas</placeName>, a como no habia qu. le
+                     entendiese su idioma fue bautizada sub condicione pr el <persName
+                        type="missionfather" key="#sanchez">P. Sanchez</persName>; y pa qe consto lo
+                     firmo. <persName type="missionfather" key="#jgo">Fr. Jo Ms de Js.
+                        Gonzz</persName>."</hi></p>
+               <p>The translation is:</p>
+               <p><hi rend="bold">"On the <date when="1853-10-19">19 of October of 1853</date> I
+                     gave ecclesiastical burial in this cemetery to the mortal remains of
+                           <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+                     an Indian brought from the <placeName type="island" key="#i_sn">Island of San
+                        Nicolas</placeName>, and since there was no one who understood her language
+                     she was baptised conditionally by <persName type="missionfather" key="#sanchez"
+                        >Father Sanchez</persName>; and that this may stand as true I sign it.
+                        <persName type="missionfather" key="#jgo">Father Jose Maria de Jesus
+                        Gonzalez</persName>."</hi></p>
+               <p>The entry is the 1,183rd in the record book and appears opposite page 114.</p>
+               <p><hi rend="bold"><persName type="frontiersman" key="#gni">CAPTAIN GEORGE
+                        NIDEVER</persName> (above), early-day <placeName type="city" key="#ci_sb"
+                        >Santa Barbara</placeName> trading vessel owner and otter trapper, who
+                     brought <rs><persName type="nativeamerican" key="#lw">Juana
+                        Maria</persName></rs>, <rs><persName type="nativeamerican" key="#lw">the
+                           Woman of San Nicholas</persName></rs>, from her <placeName type="island"
+                        key="#i_sn">lonely island</placeName> and cared for her in his home until
+                     her death, told the story of her rescue in <title type="manuscript"
+                        key="#Nidever1878">his journal</title>, a facsimile of a portion of the last
+                     page of which is reproduced at the left. The picture and facsimile were used to
+                     illustrate Dr. William Ellison's book, published <date when="1937">1937</date>,
+                     on the life of <persName type="frontiersman" key="#gni">Captain
+                        Nidever</persName>.</hi></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#airtime">Air
+                  Time</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">4</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <date when="2013-06" from="2013-06" to="2013-08"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#Sauers2013_AirTime">Lost Indian Cave Found on San
+                     Nicolas Island</title>
+                  <biblScope unit="page" from="21" to="22"/>
+                  <author><persName type="author" key="#psa">Sauers, Patricia</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><placeName type="region" key="#re_lwcave"
+                           >Lost Indian cave</placeName></rs> found on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName></hi></title></head>
+            <byline>BY <persName type="author" key="#psa">PATRICIA SAUERS</persName></byline>
+            <p><hi rend="bold">LATE <rs><date when="2012">LAST YEAR</date></rs>, NAVY ARCHAEOLOGIST
+                     <persName type="author" key="#ssc">STEVEN SCHWARTZ</persName></hi> uncovered
+                     <rs><placeName type="region" key="#re_lwcave">a hidden cave</placeName></rs> on
+                  <placeName type="island" key="#i_sn">San Nicolas Island</placeName>
+                     (<rs><placeName type="island" key="#i_sn">SNI</placeName></rs>). <rs><date
+                     notAfter="1990">For more than 20 years</date></rs>
+               <persName type="author" key="#ssc">Schwartz</persName> has been looking for the home
+               of the "<rs><persName type="nativeamerican" key="#lw">Lone Woman</persName></rs>,"
+               the inspiration for Scott O’Dell’s <date when="1960">1960</date> Newbery
+               Medal-winning novel <emph>The Island of the Blue Dolphins</emph>. <rs>The book</rs>
+               is based on the abandonment and retrieval of <rs><persName type="nativeamerican"
+                     key="#lw">an American Indian woman</persName></rs> who lived alone on
+                     <rs><placeName type="island" key="#i_sn">SNI</placeName></rs> for <rs><date
+                     from="1835" to="1853">18 years</date></rs> &#8212; <date from="1835" to="1853"
+                  >from 1835 to 1853</date>. <persName type="author" key="#ssc">Schwartz</persName>
+               believes <rs><placeName type="region" key="#re_lwcave">the cave he
+                     uncovered</placeName></rs> may answer the question that has long eluded
+               researchers: "How did she live for <rs><date from="1835" to="1853">those 18
+                     years</date></rs>?"</p>
+            <p>There are a number of sources that discuss cave sites on <rs><placeName type="island"
+                     key="#i_sn">SNI</placeName></rs> showing evidence of Indian occupation, but
+               only one cave site had been discovered: the "<placeName type="region"
+                  key="#re_caveofwhales">Cave of the Whales</placeName>," which contains pictographs
+               and petroglyphs primarily depicting sea life such as killer whales. There is little
+               evidence of occupation within <rs><placeName type="region" key="#re_caveofwhales">the
+                     cave</placeName></rs> and the cave floor is located just above the high-tide
+               line, so during stormy weather waves crash in &#8212; making habitation unlikely.</p>
+            <p>During archaeological surveys conducted in recent decades, no cave site other than
+               the <placeName type="region" key="#re_caveofwhales">Cave of the Whales</placeName>
+               had been located. This led to the conclusion that if there was a cave where
+                     <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+               lived, it had either collapsed or been buried in <rs><date from="1853" to="2012">the
+                     intervening decades</date></rs>.</p>
+            <p>During research into the ranching history of <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs>, a map was located which clarified the question of
+               a second cave site. A <orgName key="#uscoastsurvey">U.S. Coast and Geodetic
+                  Survey</orgName> map by <persName type="military" key="#sfo">Stehman
+                  Forney</persName> from the summer of <date when="1879">1879</date> clearly shows
+               the location of "<rs><placeName type="region" key="#re_lwcave">Indian
+                     Cave</placeName></rs>."</p>
+            <p><rs><placeName type="region" key="#re_lwcave">This cave</placeName></rs> is near
+               &#8212; but definitely distinct from &#8212; the <placeName type="region"
+                  key="#re_caveofwhales">Cave of the Whales</placeName>. The map shows a survey
+               station, named "<rs><placeName type="region" key="#re_lwcave">Cave</placeName></rs>,"
+               using the normal symbol for a survey station, but near this, the annotation
+                     "<rs><placeName type="region" key="#re_lwcave">Indian Cave</placeName></rs>"
+               &#8212; without the survey station symbol &#8212; appears to denote a specific place
+               name. This map established the clear location of a second cave and erased all notions
+               of <rs><placeName type="group" key="#re_caveofwhales; #re_lwcave">the two
+                     caves</placeName></rs> being separate references to the same geographic
+               feature.</p>
+            <p>During <rs><date notAfter="1990" to="2012">the next 20 years</date></rs>, various
+               attempts were made to locate <rs><placeName type="region" key="#re_lwcave">the
+                     cave</placeName>
+               </rs>. The map, while detailed, did not aid in the search because of the complex
+               nature of the shoreline and the scale of the map. Surface surveys and auger and
+               shovel sampling were conducted at all four locations with no success.</p>
+            <p>"It was not possible to locate one specific spot as the location of the
+                     <rs><placeName type="region" key="#re_lwcave">Indian Cave</placeName></rs>,"
+                  <persName type="author" key="#ssc">Schwartz</persName> said. "There were at least
+               four topographic features in the immediate vicinity that could be evidence of a
+               collapsed or buried cave."</p>
+            <p>A recently obtained copy of the field notes which accompany the 1879 map from
+                  <persName type="author" key="#sby">Scott Byram</persName>, a researcher at the
+                  <orgName type="institution" key="#in_ucb">University of California,
+                  Berkeley</orgName>, provided a more specific location for <rs><placeName
+                     type="region" key="#re_lwcave">the cave</placeName></rs> and precise distance
+               and bearing from the cave survey station to the <rs><placeName type="region"
+                     key="#re_lwcave">Indian Cave</placeName></rs>.</p>
+            <p>With this very specific location and some help from California State University, Los
+               Angeles (<rs><orgName type="institution" key="#in_calstatela">CSULA</orgName></rs>)
+               students, <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs> was
+               finally located in early <date when="2012">2012</date>. This involved clearing
+               vegetation and removing recently deposited sediments that were filling <rs><placeName
+                     type="region" key="#re_lwcave">the cave</placeName></rs>. Excavations proceeded
+               down to where a rounded sandstone boulder was found, likely indicating the floor of
+                     <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs>. At
+               that point, work by the team stopped so as not to impact the deposit or begin
+               excavation without proper approvals. As the site was being cleaned up for
+               photographs, a glass bottle was recovered from the bottom of the cleared area. The
+               bottle is a Gothic-style condiment bottle that dates <date notBefore="1840"
+                  notAfter="1865">between 1840 and 1865</date>. Such a date would be consistent with
+               the cave’s use by <rs><persName type="nativeamerican" key="#lw">the Lone
+                     Woman</persName></rs>.</p>
+            <p>The thought that <rs><placeName type="region" key="#re_lwcave">the
+                  cave</placeName></rs> was actually the home of <rs><persName type="nativeamerican"
+                     key="#lw">the Lone Woman of SNI</persName></rs> for <rs><date from="1835"
+                     to="1853">those 18 lonely years</date></rs> brought <persName type="author"
+                  key="#ssc">Schwartz</persName> and the team to ask the question, "So what did she
+               do for <rs><date from="1835" to="1853">18 years</date></rs>?" The team hopes
+                     <rs><placeName type="region" key="#re_lwcave">this cave site</placeName>
+               </rs> will provide an answer once work resumes.</p>
+            <p>"It’s very rare in archaeology to be able to pinpoint any find to a specific
+               individual," <persName type="author" key="#ssc">Schwartz</persName> said. "To have
+               such a narrow time period that you’re looking at is exactly what we need to pinpoint
+               the context of these finds. It’s just something you never see around here."</p>
+            <p><rs><placeName type="region" key="#re_lwcave">The cave</placeName></rs> is currently
+               referred to as "<rs><placeName type="region" key="#re_lwcave">Lost Indian
+                     Cave</placeName></rs>" due to the fact that its location was lost for many
+               years. Once it can be firmly established that it was the home of the <rs><persName
+                     type="nativeamerican" key="#lw">Lone Woman of San Nicolas
+                  Island</persName></rs>, it may then be referred to as the "<rs><placeName
+                     type="region" key="#re_lwcave">Lone Woman Cave</placeName></rs>."</p>
+            <p><rs><placeName type="island" key="#i_sn">SNI</placeName>
+               </rs> is located in <placeName type="region" key="#re_pacific">the Pacific
+                  Ocean</placeName> off the <placeName type="region" key="#re_socalcoast">coast of
+                  Southern California</placeName>, 60 miles south of <placeName type="region"
+                  key="#re_pmugu">Point Mugu</placeName>. About nine miles long and three miles
+               wide, <rs><placeName type="island" key="#i_sn">the 14,562-acre
+                  island</placeName></rs> has been owned by <orgName type="military" key="#mi_navy"
+                  >the Navy</orgName> since <date when="1933">1933</date> as a weapons testing and
+               training facility. <rs><placeName type="island" key="#i_sn">SNI</placeName></rs> is
+               critical to performing the Sea Range mission and provides a cornerstone for
+               supporting a wide variety of test, evaluation, training and experimentation
+               operations. In conjunction with Navy Region Southwest’s environmental team, the
+                  <orgName type="military" key="#mi_navair">NAVAIR Range Sustainability
+                  Office</orgName>, which includes archaeologists, ensures that testing can be
+               conducted without compromising any of the island’s flora, fauna, or historical
+               resources.</p>
+            <p>"Our archeologists work incredibly hard and are dedicated to being good stewards of
+               the natural and cultural resources on <rs><placeName type="island" key="#i_sn"
+                     >SNI</placeName></rs>, and their efforts allow <orgName type="military"
+                  key="#mi_nawcwd">NAWCWD</orgName> to continue its use of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> for testing in support of
+               the warfighter. Having read <rs>the book</rs> in grade school and personally
+               witnessed the valuable history being discovered throughout the years on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, I am
+               inspired by the integrity of our folks working on this project and their continued
+               perseverance in piecing together the true story of <rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman</persName></rs> as well as the
+               many other untold stories on <rs><placeName type="island" key="#i_sn"
+                  >SNI</placeName></rs>," said <persName type="author" key="#ssc"
+                  >Schwartz</persName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

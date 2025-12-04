@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#caarchaeology"> California
+                     Archaeology</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">5</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <date when="2013-12"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#SchwartzVellanoweth2013">Lone Woman's Cave Found on
+                     San Nicolas Island</title>
+                  <biblScope unit="page" from="391" to="393"/>
+                  <author><persName type="author" key="#ssc">Schwartz, Steven J.</persName></author>
+                  <author><persName type="author" key="#rve">Vellanoweth, René
+                     L.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div n="1" type="section">
+               <head><title type="sectiontitle">NEWS AND NOTES</title></head>
+               <byline><emph>Compiled by <persName type="author" key="#ski">Shelly
+                        Davis-King</persName>, <orgName key="#sking">Davis-King &amp;
+                        Associates</orgName>
+                  (<email>shellydk@frontiernet.net</email>)</emph></byline>
+               <p><hi rend="bold">News and Notes</hi> contains expanded treatment of archaeological
+                  issues, descriptions of unusual artifacts and sites, summaries of fieldwork, SCA
+                  organizational and awards news, important new legislation, and an honoring of our
+                  colleagues who have passed on. This edition includes information on the discovery
+                  of <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs> where
+                        <rs><persName type="nativeamerican" key="#lw">the Tongva Lone
+                        Woman</persName></rs> lived and <persName type="author" key="#ffe">Frank
+                     Fenenga</persName> honored in Sands of Time. </p>
+            </div>
+            <div n="2" type="article">
+               <head><title type="main"><hi rend="bold">
+                        <rs><placeName type="region" key="#re_lwcave">Lone Woman's
+                           Cave</placeName></rs> Found on <placeName type="island" key="#i_sn">San
+                           Nicolas Island</placeName></hi></title></head>
+
+               <p><orgName type="military" key="#mi_navy">Navy</orgName> archaeologist <persName
+                     type="author" key="#ssc">Steve Schwartz</persName>, teaming with archaeology
+                  students from <orgName type="institution" key="#in_calstatela">California State
+                     University, Los Angeles</orgName> (<rs><orgName type="institution"
+                        key="#in_calstatela">CSULA</orgName></rs>) under the direction of <persName
+                     type="author" key="#rve">René Vellanoweth</persName>, have uncovered
+                        <rs><placeName type="region" key="#re_lwcave">the long lost
+                     cave</placeName></rs> where <rs><persName type="nativeamerican" key="#lw">the
+                        Lone Woman of San Nicolas Island</persName></rs> was reported to have lived
+                  during her <date notBefore="1835" notAfter="1853">18 years of isolation</date>.
+                        <rs><persName type="nativeamerican" key="#lw">The Lone Woman</persName></rs>
+                  was found working in a brush covered windbreak on the west end of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, but early accounts
+                  state she was actually living in a cave nearby. <span type="trope" n="4"
+                           ><rs><placeName type="region" key="#re_lwcave">The cave</placeName></rs>
+                     was explored in the years immediately after her discovery, but the location of
+                           <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs>
+                     was lost over the intervening years.</span> Numerous archaeologists have
+                  surveyed <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, but
+                  no cave was ever reported other than <placeName type="region"
+                     key="#re_caveofwhales">the Cave of the Whales</placeName> rock art site. As it
+                  turns out, <rs><placeName type="region" key="#re_lwcave">the Lone Woman's
+                        cave</placeName></rs> had become completely buried by sand that became
+                  dislodged by subsequent sheep ranching on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs>. <rs><placeName type="region" key="#re_lwcave"
+                        >The cave</placeName></rs> holds the prospect of an unprecedented
+                  archaeological record from <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the earliest island inhabitants</orgName>
+                  </rs> to <rs><persName type="nativeamerican" key="#lw">the very last
+                        occupant</persName></rs>.</p>
+               <p> The key piece of information that led to the discovery of <rs><placeName
+                        type="region" key="#re_lwcave">the cave site</placeName></rs> was an <date
+                     when="1879">1879</date> U.S. Coast Survey map that shows the location of
+                     "<placeName type="region" key="#re_lwcave">Indian Cave</placeName>." However,
+                  the map was not detailed enough to pinpoint the cave's location precisely as the
+                  shoreline is actually more complex than shown on the map and <rs><placeName
+                        type="region" key="#re_lwcave">the cave</placeName></rs> had become
+                  completely buried, with no visible trace of its location. Testing in the area for
+                  more than 20 years failed to uncover any evidence of a cave or any occupation for
+                  that matter, but one location always looked promising. The break in the story came
+                  when <orgName type="institution" key="#in_ucb">U.C. Berkeley</orgName> researcher,
+                     <persName type="author" key="#sby">Scott Byram</persName>, discovered the field
+                  notes that accompany the <date when="1879">1879</date> U.S. Coast Survey map. The
+                  field notes specify that <rs><placeName type="region" key="#re_lwcave">the
+                        cave</placeName></rs> on the map was, in fact, <rs><placeName type="region"
+                        key="#re_lwcave">the cave</placeName></rs> where <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs> was believed
+                  to have lived, and the map includes a detailed drawing showing precise distance
+                  and compass bearing from the closest survey station (the location of which could
+                  be approximated). This pointed to the same spot that always seemed the most likely
+                  location for <rs><placeName type="region" key="#re_lwcave">the
+                     cave</placeName></rs>. With this information, it was determined that
+                        <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs> must
+                  be at this spot, but was likely deeply buried, far deeper than anyone had
+                  expected. A field crew consisting of <orgName type="institution"
+                     key="#in_calstatela">CSULA</orgName> archaeology students made a herculean
+                  effort to remove an estimated one million pounds of sand, all by hand, one bucket
+                  load at a time.</p>
+               <p>
+                  <rs><placeName type="region" key="#re_lwcave">The cave</placeName></rs> had become
+                  completely buried by windborne and waterborne sediments. The early history of
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName> saw the
+                  development of a sheep ranch in <date when="1857">1857</date>, which triggered an
+                  era of extreme erosion due to loss of vegetation. This placed large amounts of
+                  blowing sand into the system, which allowed <rs><placeName type="region"
+                        key="#re_lwcave">the cave</placeName></rs> to be completely buried within a
+                  short period of time. The top of <rs><placeName type="region" key="#re_lwcave">the
+                        cave</placeName></rs> entrance was buried under two meters of sand, with a
+                  total of seven meters deposited over the presumed <date notBefore="1850"
+                     notAfter="1859-12-31">1850s</date> floor of <rs><placeName type="region"
+                        key="#re_lwcave">the cave</placeName></rs>. The first evidence of occupation
+                  encountered were two sets of initials with the date of <date when="1911-09-11"
+                     >September 11, 1911</date>, indicating that <rs><placeName type="region"
+                        key="#re_lwcave">the cave</placeName></rs> was at least still partially open
+                  at that time. A midden layer with dark soil, shell, bone, and lithics was
+                  encountered at seven meters below the surface. Excavations were stopped at that
+                  point, pending review and approval by <orgName type="military" key="#mi_navy">the
+                     Navy</orgName> to proceed. <rs><placeName type="region" key="#re_lwcave">The
+                        cave</placeName></rs> opening that was exposed is three meters high, five
+                  meters wide, and 18 meters deep. <rs><placeName type="region" key="#re_lwcave">The
+                        cave</placeName></rs> goes much deeper. This can be seen in a cavity at the
+                  rear of <rs><placeName type="region" key="#re_lwcave">the cave</placeName></rs>,
+                  which extends for at least an estimated five more meters. <rs><placeName
+                        type="region" key="#re_lwcave">The cave</placeName></rs> is an ancient sea
+                  cave in an 80,000-year-old marine terrace, which has been uplifted a few meters
+                  above sea level. <rs><placeName type="region" key="#re_lwcave">The
+                        cave</placeName></rs> developed along a fault line, which is clearly visible
+                  in the roof of <rs><placeName type="region" key="#re_lwcave">the
+                     cave</placeName></rs>.</p>
+               <p> Given the large size of <rs><placeName type="region" key="#re_lwcave">the
+                        cave</placeName></rs>, it is believed to hold evidence not only of <date
+                     notBefore="1835" notAfter="1853" cert="high">the Lone Woman's 18 years of
+                     occupation</date>, but also of previous occupation perhaps going back to
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        original inhabitants</orgName></rs> of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>. <rs><placeName type="region"
+                        key="#re_lwcave">The cave</placeName></rs> is in an ideal location on
+                        <rs><placeName type="island" key="#i_sn">an island</placeName></rs> that has
+                  extreme weather conditions, so it seems likely that <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the earliest
+                        settlers</orgName></rs> would have found <rs><placeName type="region"
+                        key="#re_lwcave">the cave</placeName></rs> and occupied it from the very
+                  earliest times. The deposits in <rs><placeName type="region" key="#re_lwcave">the
+                        cave</placeName></rs> are completely undisturbed and were laid down in what
+                  appears to be a season-by-season record of occupation. This record has the
+                  potential to reveal the entire ecological history of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> during historic times, as well as
+                  serving as a cap providing incredible preservation of the prehistoric deposits
+                  beneath. Future work in <rs><placeName type="island" key="#i_sn">the
+                        cave</placeName></rs> is likely to answer many of the outstanding questions,
+                  including the timing of the original occupation of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> and how <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs> survived her
+                     <date notBefore="1835" notAfter="1853" cert="high">18 years of
+                  isolation</date>. A detailed report of findings to date is in process.</p>
+            </div>
+            <div n="3">
+               <byline>
+                  <emph><persName type="author" key="#ssc">Steven J. Schwartz</persName>, <orgName
+                        type="military" key="#mi_nawcwd">Naval Air Warfare Center Weapons
+                        Division</orgName>, <placeName type="region" key="#re_pmugu">Point
+                        Mugu</placeName> (retired)</emph>
+                  <emph><persName type="author" key="#rve">René L. Vellanoweth</persName>, <orgName
+                        type="institution" key="#in_calstatela">California State University, Los
+                        Angeles</orgName></emph></byline>
+            </div>
+         </div>
+
+
+
+      </body>
+   </text>
+</TEI>

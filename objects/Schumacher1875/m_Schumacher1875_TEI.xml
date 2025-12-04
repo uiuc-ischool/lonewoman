@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#overlandmonthly">Overland
+                     Monthly</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">15</biblScope>
+               <biblScope unit="issue">4</biblScope>
+               <date when="1875-10"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Schumacher1875">Some Remains of a Former
+                     People</title>
+                  <biblScope unit="page" from="374" to="379"/>
+                  <author><persName type="author" key="#psc">Schumacher, Paul</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">SOME REMAINS OF <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">A FORMER
+                        PEOPLE</orgName></rs>.</title></head>
+            <p><rs><placeName type="island" key="#i_chi">THE group of islands</placeName></rs> off
+                     <rs><placeName type="region" key="#re_socalcoast">our southern
+                     coast</placeName></rs>, of which <placeName type="island" key="#i_sm">San
+                  Miguel</placeName> is the northernmost and <placeName type="island" key="#i_scl"
+                  >San Clemente</placeName> the farthest south, are reported by our oldest
+               navigators as having been inhabited. In fact, <persName type="seaman" key="#jca"
+                  >Cabrillo</persName>, who discovered <placeName type="state" key="#st_cal"
+                  >California</placeName> and some of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> in <date when="1542">1542</date>, makes the statement
+               that he found them thickly populated by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">an
+                     ingenious people</orgName></rs>. Some collections of the remains of
+                     <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a former
+                     race</orgName></rs> have been found on <rs><placeName type="island"
+                     key="#i_chi">these islands</placeName></rs> at different times, and have
+               reached the rooms of <orgName type="museum" key="#mu_smithsonian">the Smithsonian
+                  Institution</orgName>. Another quite large collection, made by myself on
+                  <placeName type="region" key="#re_mld">the adjacent main-land</placeName>, was
+               sent on; also, facts and conclusions reported, which induced <persName type="author"
+                  key="#sba">Professor Spencer F. Baird</persName> to arrange an archæological
+               exploring expedition to <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs>, which commenced operations in <rs><date
+                     when="1875-05">May of this year</date></rs> under my direction, and lasted
+               nearly three months. On our way down, our party was accommodated by the revenue
+               cutter <emph><name type="ship" key="#sh_rush">Rush</name></emph>, <persName
+                  type="seaman" key="#baker">Captain Baker</persName>, then on her southern cruise,
+               which gave us easy access to <placeName type="island" key="#i_sm">San Miguel
+                  Island</placeName>.</p>
+            <p><rs><placeName type="island" key="#i_sm">This island</placeName></rs> is a barren
+               lump of sand, rising boldly from the sparkling ocean as we go south, and facing the
+               sun in its descent from the meridian. There are some brown hills on <rs><placeName
+                     type="island" key="#i_sm">the island</placeName></rs>&#8212;one forming the
+               main ridge and the highest; but their dry and dusty appearance impresses the traveler
+               with a dreariness not more comforting than the many light dunes and sandy slopes,
+               over which the north-west winds whirl the sand in fog­like clouds that strike the
+               practical eye with awe while roaming over these shifting hills. <placeName
+                  type="region" key="#re_cuylerharbor">Cuyler Harbor</placeName>, which makes in on
+               the eastern side of <rs><placeName type="island" key="#i_sm">the
+                  island</placeName></rs>, offers good shelter in north-west winds, and is well
+               protected against a southwester by a reef stretching from the shore to <rs><placeName
+                     type="island" key="#i_sm">the islet</placeName></rs> which lies in the entrance
+               of the small harbor, leaving <rs><placeName type="region" key="#re_sbchannel">the
+                     main channel</placeName></rs> on its northeastern side. High dunes rise from
+               the bay at an angle of forty-five degrees, formed actually by the weight of the
+               shifting sand, which rolls down the incline as if liquid. On landing, we found it
+               necessary to wade through a mass of this steep loose sand to at least a height of
+               eighty feet, where alone we could find a base on the top of a shell-heap to erect the
+               tents for our small party.</p>
+            <p>We found large shell deposits all over <rs><placeName type="island" key="#i_sm">the
+                     island</placeName></rs>, especially on the rocky northern end, about a mile
+               from the harbor, near a spring. Another and larger spring is near the house. We found
+               the kitchen refuse of a former population, covering a very large space. In traveling
+               from here along the shore toward the north-western end, we passed many shell-mounds
+               of greater or less extent, of which the surface findings are pretty well picked up by
+               collectors and amateur <emph>curio</emph>-hunters, leaving only the heavy rude stone
+               implements we occasionally met, as nobody cared particularly to be heavily loaded in
+               traveling over these seemingly bottomless hills. We found on one of these shell
+               deposits&#8212;thanks to their weight and insignificant appearance&#8212;very
+               interesting and rare specimens of mortars, which showed the different stages of the
+               manufacture of this utensil. At the north-west end, which is the farthest point of
+                     <rs><placeName type="island" key="#i_sm">the island</placeName></rs> from
+                  <placeName type="region" key="#re_cuylerharbor">Cuyler Harbor</placeName>, are
+               undoubtedly found the largest shell-mounds on <rs><placeName type="island"
+                     key="#i_sm">the island</placeName></rs>, but located on ever-shifting sand. We
+               selected a wrong season, as the sand, driven by fierce north-west winds, had covered
+               most of these deposits, and had made the two coves, which make in on both sides of
+               the point, inaccessible for a boat-landing. Our findings, which we gathered in a
+               week, were best procured, as we had learned during our previous explorations, in the
+               graves. They corresponded in the main with the style of burial on <placeName
+                  type="region" key="#re_mld">the main-land</placeName>, where the grave­trench is
+               partitioned into smaller rooms, although the materials used for this purpose are not
+               slabs of sandstone as found in <placeName type="county" key="#co_slo">San Luis Obispo
+                  County</placeName>, but mainly whalebones and split red wood; the skeletons lying
+               closely packed from two to six feet underground, in an irregular state, with knees
+               drawn up and arms stretched out on the sides of the body or resting over the chest.
+               The implements we found buried in the common way about the skull.</p>
+            <p>Sick and scaled by the exposure to the grinding sand, and under constant fear of
+               losing our tents in the brisk blows that lasted day and night during our stay, we
+               were glad to be able to charter a schooner which we found in port, owned by <orgName
+                  type="company" key="#stockcompany">the Stock-raising Company</orgName> (who were
+               engaged shearing their starving sheep), to take us to <placeName type="island"
+                  key="#i_scruz">Santa Cruz Island</placeName>.</p>
+            <p><placeName type="island" key="#i_scruz">Santa Cruz</placeName> is probably the
+               prettiest island of <rs><placeName type="island" key="#i_chi">the
+                  group</placeName></rs>; in picturesqueness it equals and in vegetation excels
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>. It is
+               mountainous, with large stretches of <emph>mesa</emph>-land, especially at the
+               eastern and western ends, where fine valleys and picturesque bluffs and ravines
+               occur. Timber is found in many places on <rs><placeName type="island" key="#i_scruz"
+                     >the island</placeName></rs>, and quite extensive groves of conifers north of
+                  <placeName type="region" key="#re_prisonersharbor">Prisoner's Harbor</placeName>,
+               while stunted oak-trees grow on the high rocky hills and sides of the steep gulches,
+               and low willows in the cañons. It is <rs><placeName type="island" key="#i_scruz">the
+                     largest island</placeName></rs> of <rs><placeName type="island" key="#i_chi"
+                     >the group</placeName></rs>, and has a fair shelter in <placeName type="region"
+                  key="#re_prisonersharbor">Prisoner's Harbor</placeName>, and in several places
+               upon the west side, such as <placeName type="region" key="#re_smugglerscove"
+                  >Smuggler's Cove</placeName>, <placeName type="region" key="#re_coche">Coche
+                  Prietos</placeName>, and <placeName type="region" key="#re_forneyscove">Forney's
+                  Cove</placeName>. There is good water in different springs and creeks found all
+               over <rs><placeName type="island" key="#i_scruz">the island</placeName></rs> the year
+               round. It is owned by <orgName type="company" key="#scruzislandcompany">the Santa
+                  Cruz Island Wool-growing Company</orgName>, which seems to be a profitable
+               concern. Near a good wharf at <placeName type="region" key="#re_prisonersharbor"
+                  >Prisoner's Harbor</placeName> stands a substantial adobe building, and back of it
+               extends a beautiful valley which afforded us good camping-ground.</p>
+            <p>Our party spent about a month on <rs><placeName type="island" key="#i_scruz">this
+                     island</placeName></rs>, during which time we were active in making
+               explorations all along its shores of fifty-eight miles in extent. Here we met the
+               courteous officers of the steamer <emph><name type="ship" key="#sh_hassler"
+                     >Hassler</name></emph> engaged in making soundings round <rs><placeName
+                     type="island" key="#i_scruz">the island</placeName></rs>. <rs><persName
+                     type="seaman" key="#taylor">The captain</persName></rs> and all the officers
+               offered their assistance in the most friendly manner to convey our party to such
+               places as lay in their route of sailing and would not interfere with their own duty.
+                     <rs><persName type="military" key="#cpat">The Superintendent of the United
+                     States Coast Survey</persName></rs>, <persName type="military" key="#cpat"
+                  >Captain C. P. Patterson</persName>, in view of the fact that the exploration was
+               made at the expense of <rs><orgName type="governement" key="#gov_usa">the
+                     Government</orgName></rs>, and for the national display at the coming <orgName
+                  key="#centennial">Centennial Exposition</orgName>, having requested <persName
+                  type="seaman" key="#taylor">Captain Taylor</persName>, the commander of the
+                     <emph><name type="ship" key="#sh_hassler">Hassler</name></emph>, to extend such
+               help as he might deem proper, it gave us a great advantage in prosecuting our work,
+               and saved much expense.</p>
+            <p>Our main attention was again directed to finding and examining graves. The mode of
+               burial is similar to that on <placeName type="island" key="#i_sm">San Miguel
+                  Island</placeName>, in the shell-mounds, and not separated from the kitchen refuse
+               as described by <rs><persName type="author" key="#author3">a writer</persName></rs>
+               in the <orgName type="publication" key="#overlandmonthly">OVERLAND</orgName> of <date
+                  when="1874-10">October, 1874</date>, the adjacent ground being too rocky for the
+               tools of <rs><orgName type="nativeamericantribes" key="#natam_chumash">the former
+                     population</orgName></rs>. Although each burying-ground we dug up yielded but
+               poorly in comparison with such places on <placeName type="region" key="#re_mld">the
+                  neighboring main-land</placeName>, our findings on <rs><placeName type="island"
+                     key="#i_scruz">this island</placeName></rs> were numerous, and many forms are
+               new to science. We made here a collection of about thirty cases. The main articles we
+               gathered were: Pots of magnesia-mica, worked in a wonderful manner out of solid
+               pieces of this material, some specimens being thirty inches in diameter; mortars and
+               pestles of sandstone; plates (<emph>tortillas</emph>) of magnesia-mica; bowls, cups,
+               and spade­weights of serpentine; perforated sinkers; fish-hooks of shell and bone,
+               very ingeniously made, especially those of bone; borers of all descriptions; a full
+               set of tools for the manufacture of fish-hooks, together with the hooks in different
+               stages of finish; a wooden sword, richly inlaid with shells; bone whistles and bone
+               flutes; paints; shell-money, and money of pebble-stones; all kinds of shell-beads and
+               ornamental carvings; brushes of soap-wood, used as combs; wooden utensils; a stone
+               canoe, well modeled and finished; several canoes of wood; spoons; stone knives; flint
+               lances, spear-heads, and arrow-points; specimens of iron knives and lances; part of a
+               cradle, showing yet plainly the mode of making it; a large painted wooden carving;
+               pipes; drinking-cups of stone; lamps; sling-balls; all kinds of bone carvings;
+               remains of baskets, mats, and net-work; and many stone implements, the use of which
+               is not yet ascertained.</p>
+            <p>The burying-grounds at <placeName type="region" key="#re_smugglerscove">Smuggler's
+                  Cove</placeName>, <placeName type="region" key="#re_coche">Coche
+                  Prietos</placeName>, <placeName type="region" key="#re_almos">Almos</placeName>,
+                  <placeName type="region" key="#re_poso">Poso</placeName>, <placeName type="region"
+                  key="#re_forneyscove">Forney's Cove</placeName>, and <placeName type="region"
+                  key="#re_secretharbor">Secret Harbor</placeName> gave the best results. There is a
+               report that a cave exists on <rs><placeName type="island" key="#i_scruz">the
+                     island</placeName></rs>, showing remains of former habitation. We have been
+               unable to ascertain anything proving the fact, and were assured by <persName
+                  type="military" key="#sfo">Stehman Forney</persName>, of <orgName
+                  key="#uscoastsurvey">the United States Coast Survey</orgName>, then doing the last
+               of the topography of <placeName type="island" key="#i_scruz">Santa Cruz
+                  Island</placeName>, that no such cave exists. <rs><persName type="military"
+                     key="#sfo">This gentleman</persName></rs>, and <persName type="military"
+                  key="#green">Captain Greenwell</persName>, of the <orgName key="#uscoastsurvey"
+                  >United States Coast Survey</orgName>, kindly rendered us their good services, and
+               furnished information concerning <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> and <placeName type="region" key="#re_mld"
+                  >main-land</placeName> between <placeName type="region" key="#re_pointsal">Point
+                  Sal</placeName> and <placeName type="region" key="#re_sanbuenaventuravalley">San
+                  Buenaventura Valley</placeName>.</p>
+            <p>While at <rs><placeName type="island" key="#i_scruz">this island</placeName></rs> we
+               enjoyed the visits of <persName type="author" key="#rothrock">Doctor
+                  Rothrock</persName>, <persName type="author" key="#loew">Dr. Loew</persName>, and
+               the zoölogist <persName type="author" key="#henshaw">Henshaw</persName>, all members
+               of the scientific corps of <persName type="group" key="#wheelerexpedition">Lieutenant
+                  Wheeler's Exploring Expedition</persName>. Being on their way to <placeName
+                  type="city" key="#ci_la">Los Angeles</placeName>, the rendezvous for the members
+               of that expedition, they made a close connection with <rs><placeName type="island"
+                     key="#i_scruz">the island</placeName></rs> by the <emph><name type="ship"
+                     key="#sh_hassler">Hassler</name></emph>, and, having a few days' spare time,
+               joined us in our rough camp at <placeName type="region" key="#re_forneyscove"
+                  >Forney's Cove</placeName>, to observe our excavations, and also do some work
+               themselves in their respective branches.</p>
+            <p>At <placeName type="island" key="#i_scruz">Santa Cruz</placeName> we chartered the
+               schooner <emph><name type="ship" key="#sh_staroffreedom">Star of
+                  Freedom</name></emph> to convey us to <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>. We reached <rs><placeName type="island" key="#i_sn">that
+                     island</placeName></rs> on a dark night, with the wind blowing lively, which
+               compelled <rs><persName type="seaman" key="#baker">the captain</persName></rs> to
+               select the south end of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> as an anchorage. We fancied a campaign worse, if
+               possible, than that at <placeName type="island" key="#i_sm">San Miguel</placeName>,
+               as <rs><placeName type="island" key="#i_sn">the island</placeName></rs> appeared to
+               be a faint lump in a thick fog-like cloud of sand which was whirled densely over
+                     <rs><name type="ship" key="#sh_staroffreedom">our neat craft</name></rs>,
+               although we were a half-mile off shore. <rs><persName type="seaman" key="#baker">The
+                     captain</persName></rs>, with a shrill-sounding voice, recited his usual spicy
+               prayers with much vehemence; on the sand-spit, not far off, the breakers, which form
+               a half-mile in length, rise to a great height, and cause a roaring like thunder; at
+               intervals we heard the howling sea-lions in the kelpy water, if not at their rookery
+               on the near shore; which, with the darkness, the annoying sand, and the furious wind
+               rattling the anchor-chain in madness, gave the impression that we had left rather
+               than landed. With good prospects to lose our anchor and find ourselves the next
+               morning probably at <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, we awaited the coming dawn, trusting ourselves to the
+               captain's care. The next morning was beautifully clear and almost calm; the sea was
+               still rough, and as the swells, caused by a strong current that passes the south end,
+               swept the shore in an angle, care had to be taken to prevent <rs><name type="ship"
+                     key="#sh_staroffreedom">the boat</name></rs> going broadside on, which is
+               equivalent to capsizing.</p>
+            <p><rs><placeName type="island" key="#i_sn">The island</placeName></rs> is a lump of
+               soft coarse yellowish-gray sandstone, about 500 feet in height. The broad backbone,
+               which seems almost level on its top, falls off on both sides in steep gulches and
+               ravines, where the eye is met by innumerable cave-like carvings done by the grinding
+               sand. The eastern end is sandy; dunes stretching there across <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, beginning with the
+               depression at the end of which the house is located. The vegetation of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> is like that of
+                  <placeName type="island" key="#i_sm">San Miguel</placeName>, ruined by
+               overstocking it with sheep, which are here found in like starving condition. On the
+               eastern end, near the house, we found some malva-bushes cleaned of their foliage to
+               the reach of a sheep, which gave them the appearance of scrub oak-trees when seen
+               from a distance. There are a few trees near the house, where a strong never-ceasing
+               spring supplies the necessary water, which has a somewhat sweetish taste. The
+               shifting sand has almost buried the adobe house, and its old inmate, the
+               superintendent of <orgName type="company" key="#stockcompany">the Stock-raising
+                  Company</orgName>. Farther on to the north-eastward, at the so-called <placeName
+                  type="region" key="#re_chineseharbor">Chinese Harbor</placeName>, is another
+               spring with good water. It is at the eastern end, on the dunes, where we found the
+               shell-mounds abundantly, although some are found at intervals all along the shore
+               from the house toward the sand-spit on the south end, beyond which but few small ones
+               exist; also a few on the western shores. The mode of burial on <rs><placeName
+                     type="island" key="#i_sn">this island</placeName></rs> is different from that
+               previously investigated. The bodies rest in distinct graves by themselves, lying on
+               their backs, feet drawn up, and arms folded over the chest; the head either resting
+               on the occiput, the side, or sunk to the breast. The skeletons, as a rule, were
+               facing the east, although other directions were observed. Some show signs of having
+               been buried in matting coated with asphaltum. Most of the skeletons and implements
+               are laid bare by the winds. Our <emph>modus operandi</emph> was here changed; spade
+               and pick were dispensed with, and in the first days our party went over the
+               shell-mounds and piled the findings in heaps, which afterward were conveyed to the
+               boat by horses procured of <rs><persName key="#sancatgov">the
+                  "governor"</persName></rs> of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> (as <rs><persName key="#sancatgov">the old
+                     man</persName></rs> styles himself), and thence taken by water to our
+               camping-ground for a careful packing in boxes brought with us from <placeName
+                  type="city" key="#ci_sf">San Francisco</placeName>. We obtained 127
+               mortars&#8212;a heavy collection by itself&#8212;about 200 pestles, cups, trinkets, a
+               small lot of quite unique sculptures, and some articles new to science.</p>
+            <p>The money deposits on <rs><placeName type="island" key="#i_sn">this
+                     island</placeName></rs> are remarkable. In some places on the shell-mounds we
+               noticed, apart from the skeletons, and not buried with them, numerous small heaps of
+               shells of the <emph>Olivella bipicata</emph>, and some of the land­shell <emph>Helix
+                  strigosa</emph>; also, a uniform size of pebbles, seemingly blackened by fire,
+               averaging in quantity from a half to one cubic foot, which were evidently stored
+               there, and afterward exposed to the drifts of sand, forming conspicuous diminutive
+               hillocks. We found as many as sixty of these deposits on one shell­mound. This, with
+               the position of some of the implements we observed, seems to point to the fact that
+               the last inhabitants were taken off suddenly. We found, for instance, instead of
+               being buried with the dead, any mortars set in the ground to the rim, the pestle
+               either resting in its opening or lying alongside, as if it had done its duty only
+               some days before.</p>
+            <p>The last island visited was <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>. It appears to be a long mountain removed from its base and
+               planted in the wide ocean, whose waters are here wonderfully clear on account of the
+               micaceous bottom. This mountain, seventeen miles in length, descends in innumerable
+               steep gulches and ravines, and often abruptly ends in perpendicular bluffs, some of
+               which are over a thousand feet high. About five miles from its western end
+                     <rs><placeName type="island" key="#i_scatalina">the island</placeName></rs> is
+               almost cut in two by a remarkable isthmus, forming on the northern side <placeName
+                  type="region" key="#re_isthmuscove">Isthmus Cove</placeName>, and on the other,
+               the southern side, the fine but small port of <placeName type="region"
+                  key="#re_catalinaharbor">Catalina Harbor</placeName>. The eastern and western
+               parts of <rs><placeName type="island" key="#i_scatalina">the island</placeName></rs>
+               are connected only by narrow strips of made land, not forty feet above water, and
+               about 600 yards from ocean to ocean. <rs><placeName type="island" key="#i_scatalina"
+                     >The island</placeName></rs> is well known, and belongs to <persName
+                  type="investor" key="#jli">James Lick</persName>, and is settled by squatters,
+               mostly engaged in stock-raising, fishing, etc. Some mining has been done on
+                     <rs><placeName type="island" key="#i_scatalina">the island</placeName></rs>,
+               but to no advantage. It is well timbered, with plenty of water in wells and springs.
+               The Government barracks are still in good condition, and offer shelter to picnic
+               parties from <placeName type="region" key="#re_mld">the neighboring
+                  main-land</placeName>, also to sheep-shearers in the time of wool-clip. In front
+               of the porch we made our collection of rattle-snakes, that creep out from under the
+               brick base of the building to indulge a healthy digestion in the warm sunlight.</p>
+            <p>The archæology of <rs><placeName type="island" key="#i_scatalina">this
+                     island</placeName></rs> is said to have been ransacked by <rs><persName
+                     key="#sancatgentle">a scientific gentleman of merit</persName></rs>, who
+               lingered formerly around the picturesque isthmus. He told me himself, some time ago,
+               that he had even spotted the "fat boy"&#8212;meaning the image of the temple to the
+               sun, as reported by <persName type="missionfather" key="#asc">Padre de la
+                  Ascension</persName>, of <persName type="seaman" key="#jca">Cabrillo</persName>
+               fame, whose narratives he studied in the original. To my deep regret I found that
+               there was but little left for our party to gather, and nothing new to science. Even
+               the thick singularly-shaped cranium, much of a <emph>dolichocephalic</emph> pattern,
+               has already been described by <persName type="author" key="#bharte">Bret Harte
+               </persName>as the prehistoric skull of the <orgName type="nativeamericantribes"
+                  key="#natam_stanislaus">Stanislaus</orgName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
