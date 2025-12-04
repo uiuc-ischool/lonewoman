@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title type="monograph"><orgName type="publication" key="#sciexped">The Scientific
+                     Expedition of Leon de Cessac to California, 1877-1879 &amp; A Bibliography of
+                     the Chumash and their Predecessors</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1964"/>
+               <pubPlace><placeName type="city" key="#ci_berk">Berkeley</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#ReichlenHeizer1964">Scientific Expedition of Leon de
+                     Cessac to California, 1877-1879</title>
+                  <biblScope unit="page" from="9" to="22"/>
+                  <author><persName type="author" key="#hrei">Henry Reichlan</persName></author>
+                  <author><persName type="author" key="#rhe">Robert F. Heizer</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="book_chapter">
+            <head><title type="main">THE SCIENTIFIC EXPEDITION OF <persName type="author" key="#lce"
+                     >LEON DE CESSAC</persName> TO <placeName type="state" key="#st_cal"
+                     >CALIFORNIA</placeName>, <date from="1877" to="1879"
+               >1877-1879</date></title></head>
+            <byline><persName type="author" key="#hrei">Henry Reichlan</persName> and <persName
+                  type="author" key="#rhe">Robert F. Heizer</persName></byline>
+            <div type="section">
+               <p>The story of the French scientific expedition to the <placeName type="region"
+                     key="#re_paccoast">Pacific Coast</placeName> of <placeName type="region"
+                     key="#re_northamerica">North America</placeName> initiated in <date when="1875"
+                     >1875</date>, and entrusted to <persName key="#apin">Alphonse Pinart</persName>
+                  and <persName type="author" key="#lce">Léon de Cessac</persName>, has never been
+                  written. Of the two expedition leaders, <persName type="author" key="#lce"
+                     >Cessac</persName> alone published a quite brief preliminary report on his own
+                  research in <placeName type="state" key="#st_cal">California</placeName>,<hi
+                     rend="superscript">1</hi><note>1. <persName type="author" key="#lce">Cessac,
+                        Léon de</persName>. Rapport sur une mission au Pérou et en Californie. Arch.
+                     Missions scientifiques et littéraires, <placeName type="city" key="#ci_paris"
+                        >Paris</placeName>, 3<hi rend="superscript">e</hi> série, IX, p. 333-334,
+                        <date when="1882">1882</date>.</note> and <persName key="#hamy">Dr.
+                     Hamy</persName> published a still more summary report based upon [information
+                  in] some letters sent by the two travellers.<hi rend="superscript">2</hi><note>2.
+                        <persName key="#hamy">Hamy, E.&#8212;T</persName>. Rapport sur la mission de
+                     MM. <persName key="#apin">Pinart</persName> ed de <persName type="author"
+                        key="#lce">Cessac</persName> dans les deuz Amériques. Arch. Missions
+                     scientifiques et littéraires, <placeName type="city" key="#ci_paris"
+                        >Paris</placeName>, 3<hi rend="superscript">e</hi> série, IX, p. 323-332,
+                        <date when="1882">1882</date>.</note> The documents collected by <persName
+                     key="#apin">Pinart</persName> were primarily of a linguistic character and
+                  remained unknown in <placeName type="country" key="#co_france">France</placeName>.
+                  Not until <date when="1951">1951</date> were [copies] of the vocabularies
+                  collected from the last California mission natives found by chance in the <orgName
+                     type="institution" key="#bancroft">Bancroft Library</orgName> and published
+                  through the efforts of the <orgName type="institution" key="#in_ucb">University of
+                     California</orgName>.<hi rend="superscript">3</hi><note>3. <persName
+                        type="author" key="#rhe">Heizer, R. F.</persName> California Indian
+                     Linguistic Records: The Mission Indian Vocabularies of <persName key="#apin"
+                        >Alphonse Pinart</persName>. Anthropological Records, XV, No. 1. <placeName
+                        type="city" key="#ci_berk">Berkeley</placeName>, <date when="1952"
+                        >1952</date>.</note></p>
+               <p>Less than two years after his return to <placeName type="country" key="#co_france"
+                     >France</placeName>, <persName type="author" key="#lce">Léon de
+                     Cessac</persName> mysteriously disappeared and his notes, drawings, and
+                  photographs, which were taken charge of by <persName key="#hamy">Dr.
+                     Hamy</persName> in <date when="1881-12">December, 1881</date>, having been left
+                  at Cessac's last known address in <placeName type="city" key="#ci_paris"
+                     >Paris</placeName>, the <placeName key="#hoteldbres">Hotel du
+                     Brésil</placeName>, <placeName key="#ruelgo">rue Le Goff</placeName>, have not
+                  been found to this date. <persName key="#hamy">Dr. Hamy</persName>, Director of
+                  the <orgName key="#museedeth">Musée d'Ethnographie du Trocadéro</orgName>, who was
+                  responsible for the expedition to the <orgName key="#minisdelins">Ministère de
+                     l'Instruction publique</orgName> and keeper of the collections and of the
+                  notes, not only promoted his version of Cessac's death in <date when="1881"
+                     >1881</date>, but from that time seems to have done everything possible to
+                  conceal the work and results of this expedition. After patient research which we
+                  have done in the archives of the <orgName type="museum" key="#mu_parismuseum"
+                     >Musée de l'Homme</orgName> and the <orgName key="#minisdelins">Ministère de
+                     l'Instruction publique</orgName>, we can explain in part the strange attitude
+                  of <persName key="#hamy">Dr. Hamy</persName>, who, it would appear, had the
+                  problem of suppressing gossip and protecting <persName key="#apin">Alphonse
+                     Pinart</persName> who, like himself, was from <placeName key="#boulsumer"
+                     >Boulogne-sur-Mer</placeName>, son of <rs><persName key="#mastermarq">the
+                        master of the forges of Marquise</persName></rs>, a highly respected person
+                  and a friend of his family. The documents which we have been able to consult in
+                  the <orgName key="#natarch">National Archives</orgName><hi rend="superscript"
+                     >4</hi><note>4. We hope to publish later all of these documents in a more
+                     detailed study of the travels and works of <persName key="#apin"
+                        >Pinart</persName> and <persName type="author" key="#lce">de
+                        Cessac</persName> in <placeName type="country" key="#co_usa"
+                        >America</placeName>.</note> have revealed to us the dramatic circumstances
+                  which marked this expedition from the beginning and which so quickly led the
+                  unfortunate <persName type="author" key="#lce">Cessac</persName> to misery and
+                  downfall. Actually, this expedition which was proposed on <date when="1875-02-08"
+                     >February 8, 1875</date>,<hi rend="superscript">5</hi><note>5. This first, very
+                     ambitious project comprised research in the western regions already visited by
+                        <persName key="#apin">Pinart</persName>
+                     <date from="1870" to="1872">between 1870 and 1872</date>&#8212; the <placeName
+                        type="island" key="#i_aleutian">Aleutian Islands</placeName> and the coast
+                     of the Bering Sea&#8212; as well as the basin of the Mackenzie River, the
+                     interior of <placeName type="state" key="#st_ak">Alaska</placeName>, <placeName
+                        key="#britcol">British Columbia</placeName>, and <placeName type="state"
+                        key="#st_cal">California</placeName>.</note> received the support of the
+                     <orgName key="#minisdelins">Ministère de l'Instruction publique</orgName> only
+                  after the offer was made by <persName key="#apin">Pinart</persName> to assume the
+                  total cost of the travel and the sojourn for himself and his companion, <persName
+                     type="author" key="#lce">Cessac</persName>; the government participated only to
+                  the extent of a small annual subvention to the latter. But scarcely two years
+                  later <persName key="#apin">Pinart</persName>, who had spent with the utmost
+                  abandon the fortune placed at his disposal by <rs><persName key="#mastermarq">his
+                        father</persName></rs>, was practically ruined and faced the impossibility
+                  of meeting his obligations. Moreover, the plans had been greatly modified, and
+                     <persName key="#apin">Pinart</persName> left for the <placeName type="country"
+                     key="#co_usa">United States</placeName> alone while <persName type="author"
+                     key="#lce">Cessac</persName> accompanied <persName key="#fouq">Professor
+                     Fouqué</persName> on a geological exploration of the island of <placeName
+                     key="#santorin">Santorin</placeName>.<hi rend="superscript">6</hi><note>6.
+                        <persName type="author" key="#lce">Léon de Cessac</persName> was known
+                     especially for his research in physiography and volcanology, and he had already
+                     carried out a rewarding four year trip to the <placeName key="#capever">Cape
+                        Verde</placeName> archipelago. He was working in the laboratory of <orgName
+                        key="#hauetu">Hautes-Etudes du Collège de France</orgName> under the
+                     direction of <persName key="#deville">Professor Ste. Calire Deville</persName>
+                     and <persName key="#fouq">Professor Fouqué</persName> and was one of a group of
+                     naturalists who studied the specimens collected by <persName key="#apin"
+                        >Pinart</persName> on his first trip. <persName type="author" key="#lce"
+                        >Cessac</persName> published "Etude microscopique et analyse chimique de
+                     quelques roches de l'Alaska" in <persName key="#apin">Pinart,
+                        A.&#8212;L.</persName>, Voyages à la côte Nord-Quest de l'Amérique ecécutés
+                     durant les années <date from="1870" to="1872">1870-72</date>. <placeName
+                        type="city" key="#ci_paris">Paris</placeName>, <date when="1875"
+                     >1875</date>. l<hi rend="superscript">re</hi> partie: Histoire naturelle, p.
+                     19-27.</note></p>
+               <p>It was not until the beginning of <date when="1877">1877</date> that <persName
+                     key="#apin">Pinart</persName> and <persName type="author" key="#lce"
+                     >Cessac</persName> found themselves reunited in <placeName type="city"
+                     key="#ci_lima">Lima</placeName>, on their way to <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName>. This lasted only a short time, as
+                     <persName key="#apin">Pinart</persName> departed soon for <placeName
+                     type="city" key="#ci_val">Valparaiso</placeName> where he left on a long trip
+                  to <placeName key="#oceania">Oceania</placeName> on the French ship <hi
+                     rend="underline"><name type="ship" key="#sh_leseig">Le Seignelay</name></hi>.
+                     <persName type="author" key="#lce">Cessac</persName> waited several months for
+                     <persName key="#apin">Pinart</persName> in <placeName type="country"
+                     key="#co_peru">Peru</placeName>, in the greatest doubt and still entirely
+                  ignorant of the catastrophic financial situation of his collaborator. In the month
+                  of <date when="1877-06">June</date>, at the invitation of <persName key="#serres"
+                     >Admiral Serres</persName>, <persName type="author" key="#lce"
+                     >Cessac</persName> was able to sail on the frigate <hi rend="underline"><name
+                        type="ship" key="#sh_lamag">La Magicienne</name></hi>&#8212;with all the
+                  collections made in the course of a month's excavation at <placeName key="#ancon"
+                     >Ancon</placeName>&#8212;and finally arrived in <placeName type="state"
+                     key="#st_cal">California</placeName>.</p>
+               <p>In <placeName type="city" key="#ci_sf">San Francisco</placeName>, <persName
+                     type="author" key="#lce">Cessac</persName> learned that the large island of
+                     <placeName type="island" key="#i_scruz">Santa Cruz</placeName>, which is thirty
+                  miles south of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, was
+                  under the control of <rs><orgName key="#woolco">a French wool
+                     company</orgName></rs>.<hi rend="superscript">7</hi><note>7. The French
+                     contribution to the populating of <placeName type="state" key="#st_cal"
+                        >California</placeName> after the discovery of gold in <date when="1848"
+                        >1848</date> was very important. It may be said that, after the Mexicans, it
+                     was the largest non-American group in <placeName type="state" key="#st_cal"
+                        >California</placeName>
+                     <date from="1850" to="1860">between 1850 and 1860</date>. For additional
+                     information refer to: <persName key="#levy">Lévy, D.</persName>, Les Français
+                     en Californie, <placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                        <date when="1884">1884</date>; and <persName key="#wyllis">Wyllis,
+                        R.&#8212;K.</persName>, The French in California and Sonora. Pacific
+                     Historical Review, I, p. 337-359. <placeName type="city" key="#ci_gl"
+                        >Glendale</placeName>, <date when="1932">1932</date>.</note> Lacking
+                  financial means and without news of <persName key="#apin">Pinart</persName>, who
+                  had gone directly to <placeName type="country" key="#co_france">France</placeName>
+                  after his journey in the Pacific, <persName type="author" key="#lce"
+                     >Cessac</persName> accepted an invitation to visit <rs><placeName type="island"
+                        key="#i_scruz">the island</placeName></rs> and there to do archaeological
+                  research. <placeName type="island" key="#i_scruz">Santa Cruz</placeName> is one of
+                  the eight <placeName type="island" key="#i_chi">Channel Islands</placeName> which
+                  extend for a distance of one hundred and fifty miles along the coast of <placeName
+                     type="region" key="#re_socal">southern California</placeName>. When <persName
+                     type="seaman" key="#jca">Cabrillo</persName> discovered <rs><placeName
+                        type="region" key="#re_upcal">California</placeName></rs> in <date
+                     when="1542">1542</date>
+                  <rs><placeName type="island" key="#i_chi">these islands</placeName></rs> had a
+                  dense population of people who used canoes, lived principally on fish and sea
+                  mammals, and maintained constant communication with the inhabitants of the
+                  villages on the mainland shore.</p>
+               <p>Filled with enthusiasm by the first results at <placeName type="island"
+                     key="#i_scruz">Santa Cruz</placeName>, <persName type="author" key="#lce"
+                     >Cessac</persName> soon undertook new excavations on the other
+                     islands&#8212;<placeName type="island" key="#i_an">Anacapa</placeName>,
+                     <placeName type="island" key="#i_sr">Santa Rosa</placeName>, <placeName
+                     type="island" key="#i_sm">San Miguel</placeName>, and <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>&#8212;and then on <placeName type="region"
+                     key="#re_mld">the mainland</placeName>. He was able to gather together in
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, where he stayed
+                  for some time, a magnificient [sic] collection of about four thousand specimens.
+                  In the meantime, <persName type="author" key="#lce">Cessac</persName> felt the
+                  effect of the jealousy of another archaeologist, <persName type="author"
+                     key="#psc">Paul Schumacher</persName>, who <date from="1873" to="1880">between
+                     1873 and 1880</date> was employed by the <orgName type="government"
+                     key="#gov_usa">United States government</orgName> to excavate and form
+                  archaeological collections for the <orgName type="museum" key="#mu_smithsonian"
+                     >Smithsonian Institution</orgName>. <persName type="author" key="#psc"
+                     >Schumacher</persName> used all his resources to create the greatest
+                  difficulties for <persName type="author" key="#lce">Cessac</persName> and even
+                  tried to persuade <rs><persName key="#smithsec">the Secretary</persName></rs> of
+                  the <orgName type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName>
+                  to have the United States Senate pass an act prohibiting the exportation of
+                  prehistoric objects. But <rs><persName key="#smithsec">the
+                     Secretary</persName></rs> refused to do so and the threat was dispelled. This
+                  incident shows that the difficulties which <persName type="author" key="#lce"
+                     >Cessac</persName> describes in his report<hi rend="superscript">8</hi><note>8.
+                        <persName type="author" key="#lce">Cessac, Léon de</persName>. <hi
+                        rend="underline">Op. cit.</hi>, p. 339.</note> were very real.</p>
+               <p>On <date when="1878-07-02">July 2, 1878</date>, shortly after his arrival in
+                     <placeName type="city" key="#ci_sf">San Francisco</placeName>, <persName
+                     key="#apin">Pinart</persName> rejoined <persName type="author" key="#lce"
+                     >Cessac</persName> in <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> and decided at last to tell him of the situation. He
+                  informed <persName type="author" key="#lce">Cessac</persName> that he was ruined,
+                  that the contract established in <date when="1875">1875</date> was broken, the
+                  expedition cancelled,<hi rend="superscript">9</hi><note>9. Actually, <persName
+                        key="#apin">Pinart</persName> was about to conclude a new arrangement with
+                     the <orgName key="#minisdelins">Ministère de l'Instruction publique</orgName>.
+                     Abandoning his former projects, he asked for a new five year expedition to the
+                     Southwestern <placeName type="country" key="#co_usa">United States</placeName>,
+                        <placeName type="country" key="#co_mexico">Mexico</placeName>, the Antilles,
+                        <placeName type="region" key="#re_ceam">Central America</placeName>, and the
+                     Andean region of <placeName type="region" key="#re_southamerica">South
+                        America</placeName>, and an annual allotment of 25,000 francs in exchange
+                     for giving to the <orgName key="#museedeth">Musée d'Ethnographie du
+                        Trocadéro</orgName> his entire collection, among which was the famous Boban
+                     collection of Mexican archaeology. Thanks to the influence of <persName
+                        key="#hamy">Dr. Hamy</persName>, Pinsrt's request was apparently accepted
+                     without difficulty. The agreement provided the allotment of 10,000 francs to
+                        <persName type="author" key="#lce">Léon de Cessac</persName>.</note> and
+                  that he could not furnish him with the promised help. <persName type="author"
+                     key="#lce">Cessac</persName> had worked alone in <placeName type="state"
+                     key="#st_cal">California</placeName> for a year and, full of confidence, had
+                  borrowed from various businessmen or from French friends in <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName> and in the vicinity of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> large sums of money and
+                  material which had permitted him to pursue his archaeological investigations and
+                  natural history researches without interruption. However, <persName type="author"
+                     key="#lce">Cessac</persName> faced this tragic situation courageously. He
+                  refused to return to <placeName type="country" key="#co_france"
+                  >Franc</placeName>e, and while waiting to obtain the remainder of the meager
+                  subvention which had been alloted [sic] to him by <orgName type="governmen"
+                     key="#gov_usa">the government</orgName>, sought desperately for a way to pay
+                  back his creditors and to save his collections. After having accompanied <persName
+                     key="#apin">Pinart</persName><hi rend="superscript">10</hi><note>10. <persName
+                        key="#apin">Alphonse Pinart</persName> stayed only three months in
+                        <placeName type="state" key="#st_cal">California</placeName>, <date
+                        from="1878-07-01" to="1878-10-31">from the beginning of July to mid-October,
+                        1878</date>. He made several excavations in the vicinity of <placeName
+                        type="region" key="#re_tulakes">Tulare Lake</placeName>, but principally
+                     [carried out] linguistic investigations among the few Indian survivors of the
+                     former missions between <placeName type="city" key="#ci_sf">San
+                        Francisco</placeName> and <placeName type="city" key="#ci_ven">San
+                        Buenaventura</placeName>. The vocabularies recorded at this time are those
+                     in the <orgName type="institution" key="#bancroft">Bancroft Library</orgName>
+                     which were published by the <orgName type="institution" key="#in_ucb"
+                        >University of California</orgName> in <date when="1952">195</date>2 (see
+                     note 3). Around the <date when="1878-10-15">fifteenth of October</date>
+                     <persName key="#apin">Pinart</persName> left <placeName type="state"
+                        key="#st_cal">California</placeName> to go to <placeName type="city"
+                        key="#ci_son">Sonora [Mexico]</placeName>. Later on he once more met
+                        <persName type="author" key="#lce">Cessac</persName> in <placeName
+                        type="city" key="#ci_sf">San Francisco</placeName>, at the end of <date
+                        when="1879-04">April, 1879</date>.</note> for a time to the early missions
+                  of <orgName type="mission" key="#mi_mon">Monterey</orgName>, <orgName
+                     type="mission" key="#mi_lasol">La Soledad</orgName>, and <orgName
+                     type="mission" key="#mi_sanant">San Antonio</orgName>, <persName type="author"
+                     key="#lce">Cessac</persName> established himself with all his collections in
+                     <placeName type="city" key="#ci_slo">San Luis Obispo</placeName>, at the house
+                  of MM. <persName key="#frederik">Frédérik</persName> and <persName key="#dallidet"
+                     >Dallidet</persName>, the only friends, probably, who would still grant him
+                  credit.</p>
+               <p>From this time on it becomes more and more difficult to follow the activities of
+                     <persName type="author" key="#lce">Cessac</persName> in <placeName type="state"
+                     key="#st_cal">California</placeName> where he remained for still another year.
+                  According to certain statements in his published report and letters kept in the
+                     <orgName key="#natarch">National Archives</orgName>, we know that <date
+                     from="1878-07" to="1878-10">from the month of July to the month of October,
+                     1878</date>, he made very fruitful ethnographic studies among the Indians at
+                     <orgName type="mission" key="#mi_mon">Monterey</orgName> and <orgName
+                     type="mission" key="#mi_sanant">San Antonio</orgName> [missions]. In <placeName
+                     type="city" key="#ci_sb
+                           ">Santa Barbara</placeName>
+                  he succeeded in completing his earlier work and started, at least with drawings
+                  and photography, "a collection of ethnic types." <span type="trope" n="6">Finally,
+                     at <orgName type="mission" key="#mi_venturamission">San Buenaventura</orgName>
+                     [mission] where he had found a couple of old Indians&#8212;the last surviving
+                     natives of <placeName type="island" key="#i_scruz">Santa Cruz</placeName> and
+                        <placeName type="island" key="#i_sr">Santa Rosa</placeName>&#8212;he was
+                     able, "from their information, to reconstruct the ethnography of the <orgName
+                        type="nativeamericantribes" key="#natam_chumash">Choumas [sic]</orgName>,
+                     occupants of <rs><placeName type="group" key="#i_scruz; #i_sr">these
+                           islands</placeName></rs>."</span> But, after <date when="1878-12"
+                     >December</date>, "obliged for lack of funds to give up all the work which
+                  required the assistance of helpers," <persName type="author" key="#lce"
+                     >Cessac</persName> devoted himself exclusively to solitary research pertaining
+                  to natural history. Living by hunting and by that which he could chance upon in
+                  the rancherias where, thanks to his good nature and his usefulness, he found only
+                  friends, he traversed untiringly the deserted beaches and interior mountains,
+                  gathering important collections of mollusks, birds, insects, plants, and fossils
+                  which he sent to <persName key="#lorq">M. Lorquin</persName>, merchant-naturalist
+                  in <placeName type="city" key="#ci_sf">San Francisco</placeName>, who undertook to
+                  sell or trade them.<hi rend="superscript">11</hi><note>11. According to an
+                     inventory sent by <persName key="#apin">Pinart</persName> to the <orgName
+                        key="#minisdelins">Ministère de l'Instruction publique</orgName> on <date
+                        when="1879-07-26">July 26, 1879</date>, it seems that <persName
+                        type="author" key="#lce">Cessac</persName> had collected at this time, for
+                     the <orgName key="#musdhist">Muséum d' Histoire</orgName>, a group of 300
+                     geological and paleontological specimens, 500 birds and mammals, 300 reptiles,
+                     5,000 insects, 20,000 mollusks, and 10,000 plants. In his report published in
+                        <date when="1881">1881</date>
+                     <persName type="author" key="#lce">Cessac</persName> claims to have sent to the
+                        <orgName key="#mu_parismuseum">Muséum</orgName>, before his return to
+                        <placeName type="country" key="#co_france">France</placeName>, "35 skulls or
+                     mammal skeletons, 136 mammals with hides, 1,500 birdskins, several thousand
+                     insects, 600 fossils, and 2,000 local plants."</note></p>
+               <p>All of the efforts and sacrifices having been in vain, <persName type="author"
+                     key="#lce">Cessac</persName>, weakened by sickness, decided to leave <placeName
+                     type="state" key="#st_cal">California</placeName>. We know absolutely nothing
+                  about the last months spent in this country [<placeName type="state" key="#st_cal"
+                     >California</placeName>], nor of the conditions and date of his departure.<hi
+                     rend="superscript">12</hi><note>12. All of the records of the French Consulate
+                     in <placeName type="city" key="#ci_sf">San Francisco</placeName> in which we
+                     would have been able to find the information were destroyed during the
+                     earthquake and fire of <date when="1906">1906</date>.</note> He reached
+                     <placeName type="city" key="#lehav">Le Havre</placeName> about the <date
+                     when="1880-01-15">15th of January, 1880</date>, by the steamer <hi
+                     rend="underline"><name type="ship" key="#sh_france">France</name></hi> coming
+                  from <placeName type="state" key="#st_ny">New York</placeName>. He had succeeded
+                  in sending to <placeName type="city" key="#ci_paris">Paris</placeName> the entire
+                  archaeological collections made in <rs><placeName type="island" key="#i_chi">the
+                        islands</placeName></rs>, but he left in the care of <persName
+                     key="#dallidet">M. Dallidet</persName> at <placeName type="city" key="#ci_slo"
+                     >San Luis Obispo</placeName> his precious ethnographic collections and the
+                  notes pertaining to the excavations on <placeName type="region" key="#re_mld">the
+                     mainland</placeName>, as well as part of the natural history collections
+                  intended for the <orgName type="museum" key="#mu_parismuseum"
+                  >Muséum</orgName>.</p>
+               <p>On the <date when="1879-02">20th of February</date>
+                  <persName type="author" key="#lce">Cessac</persName> wrote a letter to <persName
+                     key="#charmes">M. Charmes</persName>, Director of Sciences and Letters in the
+                     <orgName key="#minisdelins">Ministère de l'Instruction publique</orgName>, in
+                  which he explained his present financial situation.<hi rend="superscript"
+                     >13</hi><note>13. Here is a particularly explicity passage from this document:
+                     "I have the honor of sending you a list of people to whom I owe the sum of a
+                     little more than 12,000 francs, which represents the financial deficit of my
+                     three year travels in <placeName type="country" key="#co_usa"
+                        >America</placeName>. This deficit was the inevitable result of the
+                     circumstances in which I found myself placed from the outset of my trip,
+                     circumstances resulting from a situation which I was unable to foresee or
+                     imagine. This was the complete financial ruin, too long unadmitted, of my
+                     collaborator, <persName key="#apin">M. Alphonse Pinart</persName>, who had
+                     taken until himself all of the expense of my trip."</note>
+                  <persName type="author" key="#lce">Cessac</persName> still owed his various
+                  California creditors 12,330 francs in addition to "sundry expenses of returning"
+                  and the rent of the house where he had stored his collections in <placeName
+                     type="city" key="#ci_slo">San Luis Obispo</placeName>. In spite of further
+                  urgent requests by <persName type="author" key="#lce">Cessac</persName>,
+                        <rs><persName key="#minister">the Minister</persName></rs> did not respond
+                  and even refused to grant him a loan. Harassed by lawyers and threatened by the
+                  police, Cessac frequently changed his residence. Before long he stopped all
+                  regular work in an endeavor to devote himself to the study of American archaeology
+                  and to arrange the publication of his California specimens. First of all, he sent
+                  off to <rs><orgName key="#minisdelins">the Ministry</orgName></rs> an article on
+                  the zoomorphic sculptures of steatite from <placeName type="island" key="#i_sn"
+                     >San Nicolas Island</placeName>, which was published two years later<hi
+                     rend="superscript">14</hi><note>14. <persName type="author" key="#lce">Cessac,
+                        L. de</persName>. Observations sur des fétiches de pierre sculptée en forme
+                     d'animaux découverts à l'île de San Nicolas (Californie). Rev Ethnogr., I, p.
+                     30-40, <placeName type="city" key="#ci_paris">Paris</placeName>, <date
+                        when="1882">1882</date>. This work was translated into English by <persName
+                        key="#nanheiz">Mrs. Nancy E. Heizer</persName> and published with notes in
+                     the Reports of the University of California Archaeological Survey, No. 12, pp.
+                     1-3. <placeName type="city" key="#ci_berk">Berkeley</placeName>, <date
+                        when="1951">1951</date>.</note> with his <hi rend="underline">Renseignements
+                     ethnographiques sur les Comanches</hi>.<hi rend="superscript">15</hi><note>15.
+                        <persName type="author" key="#lce">Cessac, L. de</persName>. Renseignements
+                     ethnographiques sur les Comanches recueillis de la bouche d'un trappeur qui fut
+                     13 and leur prisonnier. Rev. Ethnogr., I, p. 94-118, <placeName type="city"
+                        key="#ci_paris">Paris</placeName>, <date when="1882">1882</date>. This
+                     information was recorded by <persName type="author" key="#lce"
+                        >Cessac</persName> in <date when="1878-02">February, 1878</date>, when he
+                     was in the area of the former <placeName type="city" key="#ci_pur">Mission of
+                        La Purísima</placeName>.</note> He drafted two very important manuscripts
+                  which, unfortunately have disappeared: a vocabulary of twelve hundred words of the
+                  Samala language of <orgName type="mission" key="#mi_sy">Santa Inez</orgName>
+                  [mission]; and a study of "Samala medicine." We know from the unpaid bills sent
+                  later on to <rs><persName key="#minister">the Minister</persName></rs> that
+                     <persName type="author" key="#lce">Cessac</persName> had made a large number of
+                  drawings and a hundred engraved steel plates intended to illustrate a work on the
+                  archaeology of the <placeName type="island" key="#i_chi">[Channel]
+                     islands</placeName>.</p>
+               <p>In <date notBefore="1881-09" notAfter="1881-10">September or October, 1881</date>,
+                     <persName type="author" key="#lce">Cessac</persName> finally disappeared from
+                  the <placeName key="#hoteldbres">Hotel du Brésil</placeName>, abandoning
+                  manuscripts and specimens and leaving a new debt of 1,100 francs. He was
+                  considered dead, and, <rs><orgName key="#minisdelins">the Ministry</orgName></rs>
+                  having quickly paid off the majority of his creditors, it would seem that nobody
+                  undertook the least investigation. But there exists in the archives of the
+                     <orgName key="#minisdelins">Ministère de l'Instruction publique</orgName> a
+                  short letter addressed to <persName key="#hamy">Dr. Hamy</persName> several months
+                  later by a former diplomat from the district of <placeName key="#souillac"
+                     >Souillac</placeName> in <placeName key="#lot">Lot</placeName>, which indicated
+                  the presence in <rs><placeName key="#souillac">this town</placeName></rs> of the
+                  traveler-naturalist <persName type="author" key="#lce">Leon de Cessac</persName>!
+                  The town hall of <placeName key="#souillac">Souillac</placeName>, to which we
+                  wrote, put us in contact with <persName key="#bouchier">M. J.-B.
+                     Bouchier</persName>, an [sic] historian of this charming country and animating
+                  spirit of "Amis du Vieux <placeName key="#souillac">Souillac</placeName>," who at
+                  once wrote to us, "I will be delighted to discuss with you about this
+                  extraordinary fellow, this scholar, this acrimonious lampoonist, this truculent
+                  poet, this bohemian as proud as Artaban and as poor as a beggar. I had thought to
+                  revive this astonishing character. Your letter will be the lash of the whip which
+                  is going to persuade me, and from today on I am going to try to contact those who
+                  knew him and record their recollections." Incidentally, <persName key="#bouchier"
+                     >M. Bouchier</persName> was kind enough to have sent to us a copy of the death
+                  certificate, dated <date when="1891-02-14">February 14, 1891</date>: "<persName
+                     type="author" key="#lce">Jean François Armand Léon Cessac</persName>, former
+                  scientific explorer, native of <placeName key="#gourdon">Gourdon</placeName> ...
+                  died last night at six o'clock in <placeName key="#souillac">Souillac</placeName>,
+                  aged 49 years." Thus we possess not only the proof of the "survival" for ten years
+                  of <persName type="author" key="#lce">Léon de Cessac</persName>, but facts which
+                  have suddenly thrown light on a totally unsuspected aspect of the character of
+                  this picturesque and appealing person who had become, on the banks of the
+                     <placeName key="#dordogne">Dordogne</placeName>, the "Compère Philos,"
+                  bedrabbled poet and vagabond.<hi rend="superscript">16</hi><note>16. Thanks to
+                        <persName key="#bouchier">M. Bouchier</persName>, to whom we must express
+                     appreciation here, we were able to obtain several bits of verse written by the
+                     "Compère Philos" and which were reprinted in the form of small, slim volumes.
+                     For example, Times bouffones et brutales (15 p. <placeName key="#perigueux"
+                        >Périgueux</placeName>, <date when="1884">1884</date>), and La Dufourade,
+                     poème héroï-burlesque (14 p., <placeName key="#cahors">Cahors</placeName>,
+                        <date when="1887">1887</date>) where <persName type="author" key="#lce"
+                        >Cessac</persName> fiercely ridicules, with a <hi rend="underline"
+                        >gascon</hi> humor, the <persName key="#dufour">Baron Dufour</persName>,
+                     powerful politician of <placeName key="#quercy">Quercy</placeName>. But if most
+                     often he destroys his enemies with a sharp and strong Gallic pen, sometimes the
+                     memory of the past and his despair show through quatrains which, though
+                     mediocre, are to us very moving.</note></p>
+               <p>The great value of Cessac's<hi rend="superscript">17</hi><note>17. The major part
+                     of the collection, about 3,000 specimens, is at present in the <orgName
+                        type="museum" key="#mu_parismuseum">Musée de l'Homme</orgName>. It is not at
+                     the instigation of <persName key="#porr">Dr. Phil C. Orr</persName> of the
+                        <orgName type="museum" key="#mu_sbmuseum">Santa Barbara Museum of Natural
+                        History</orgName>, and Professors <persName type="author" key="#akroe">A. L.
+                        Kroeber</persName> and <persName key="#jrowe">John Rowe</persName> that one
+                     of us [<persName type="author" key="#rhe">H.R.</persName>] has undertaken since
+                        <date when="1946">1946</date> only one hundred and fifty specimens had been
+                     catalogued through the efforts of <persName key="#hkelley">Mr. Harper
+                        Kelley</persName> in order to be shown in the public exhibition hall. Later
+                     nearly a thousand pieces, among which were all the worked flints from
+                        <placeName type="island" key="#i_scruz">Santa Cruz Island</placeName>, were
+                     again located in a storage area of unidentified collections from the <orgName
+                        key="#museedeth">Musée d'Ethnographie</orgName>. Another part of the
+                     collection, comprising about 300 pieces and coming mostly from <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName>, is at present in
+                     the <orgName key="#musant">Musée des Antiquités nationales de
+                        Saint-Germain-en-Laye</orgName>. It was given by <persName type="author"
+                        key="#lce">Cessac</persName> himself to <persName key="#admiralparis"
+                        >Admiral Paris</persName> for the <orgName key="#louvre">Musée de la Marine
+                        in the Louvre</orgName>.</note> archaeological collection lies in the fact
+                  that it was gathered before modern disturbances had much affected the earth of
+                        <rs><placeName type="island" key="#i_chi">the California
+                        archipelago</placeName></rs>. <placeName type="island" key="#i_sm">San
+                     Miguel Island</placeName>, which remains unoccupied, is the only island
+                  relatively intact. On <placeName type="island" key="#i_sr">Santa Rosa</placeName>
+                  a U. S. Air Force radar station maintains a detachment of two hundred men;
+                     <placeName type="island" key="#i_scl">San Clemente</placeName> has a large jet
+                  airfield to which is attached an important military force; <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> is occupied by <rs><placeName
+                        key="#snnavy">a U. S. Marine missile launching station</placeName></rs>.
+                  Nonscientific archaeological collecting pursued for nearly a century, intensive
+                  erosion due to disappearance of the natural vegetation through overgrazing by
+                  sheep, and the presence of important military installations have here destroyed
+                  and there modified the archaeological sites to such a degree that it would be
+                  difficult if not impossible to now make a collection of equal value to that of
+                     <persName type="author" key="#lce">Léon de Cessac</persName>.</p>
+               <p>Among the most interesting objects collected on <placeName type="island"
+                     key="#i_scruz">Santa Cruz Island</placeName>, where <persName type="author"
+                     key="#lce">Cessac</persName> spent more than four months, are a series of flint
+                  burins which are the first examples of this type of tool known in <placeName
+                     type="state" key="#st_cal">California</placeName>.<hi rend="superscript"
+                     >18</hi><note>18. <persName type="author" key="#rhe">Heizer, R. F.</persName>
+                     and <persName key="#hkelley">H. Kelley</persName>. Burins and Bladelets in the
+                     Cessac Collection from Santa Cruz Island, California. Proc. Amer. Philos. Soc.,
+                     vol. 106, no. 2, pp. 94-105. <placeName type="city" key="#ci_phil"
+                        >Philadelphia</placeName>, <date when="1962">1962</date>.</note> Burins are
+                  more typically associated with the Upper Paleolithic levels in <placeName
+                     type="region" key="#re_europe">Europe</placeName>&#8212;Aurignacian, Solutrean,
+                  Magdalenian&#8212;and their presence in the New World has only been known for
+                        <rs><date from="1954" to="1964">the last ten years</date></rs>. The majority
+                  of American burins are associated with the Paleo-Indian level with an antiquity of
+                  five to ten thousand years. But one may state that the examples from <placeName
+                     type="island" key="#i_scruz">Santa Cruz</placeName> reported by <persName
+                     type="author" key="#lce">Cessac</persName> date from our era, and apparently
+                  from within <rs><date from="0964" to="1964">the last thousand years</date></rs>.
+                  The scant information furnished by <persName type="author" key="#lce"
+                     >Cessac</persName> on his Santa Cruz Island excavations allow us to conclude
+                  that the burins as well as the whole flint industry which accompanied
+                  them&#8212;from the tiny drills used to bore the shell ornaments to the large hand
+                  picks for fashioning receptacles of sandstone or steatite&#8212;belong to the
+                  mountainous region of the interior and were gathered in "established workshops,
+                  some on the vast barren plateaus, others in the numerous caves" near quarries
+                  furnishing the particular blonde flint so characteristic of <rs><placeName
+                        type="island" key="#i_scruz">this island</placeName></rs>. One must honor
+                  the professional conscience of <persName type="author" key="#lce">Léon de
+                     Cessac</persName>, who, without particular knowledge of the prehistory of the
+                  area and at a time when, even in <placeName type="region" key="#re_europe"
+                     >Europe</placeName>, the majority of excavators interested themselves in
+                  searching for single beautiful pieces, patiently collected in the pre-Columbian
+                  workshops hundreds of microlithic flakes and tools.</p>
+               <p>During <rs><date from="1878-05-12" to="1878-06-30">the last three weeks of May and
+                        June, 1878</date></rs>, on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName>, <persName type="author" key="#lce">Cessac</persName> was
+                  able to bring together a very important collection of archaeological specimens,
+                  exhibiting for the most part characteristics quite different from those of
+                        <rs><placeName type="group"
+                        key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the other
+                        [Channel] islands</placeName></rs>. It comprised a remarkable series of bird
+                  and sea mammal effigies of steatite. These zoomorphic sculptures were published by
+                  their discoverer<hi rend="superscript">14</hi><note>14. <persName type="author"
+                        key="#lce">Cessac, L. de</persName>. Observations sur des fétiches de pierre
+                     sculptée en forme d'animaux découverts à l'île de San Nicolas (Californie). Rev
+                     Ethnogr., I, p. 30-40, <placeName type="city" key="#ci_paris"
+                     >Paris</placeName>, <date when="1882">1882</date>. This work was translated
+                     into English by <persName key="#nanheiz">Mrs. Nancy E. Heizer</persName> and
+                     published with notes in the Reports of the University of California
+                     Archaeological Survey, No. 12, pp. 1-3. <placeName type="city" key="#ci_berk"
+                        >Berkeley</placeName>, <date when="1951">1951</date>.</note> who fortunately
+                  supplied some detailed information on the circumstances of their finding, and
+                  later <persName key="#hamy">Hamy</persName> spoke of them in connection with a
+                  figurine of the same type found at <placeName key="#lytton">Lytton</placeName>, at
+                  the confluence of the Frazer and Thompson rivers<hi rend="superscript"
+                     >19</hi><note>19. <persName key="#hamy">Hamy, E.&#8212;T. A</persName> propos
+                     d'une figureine en stéatite découverte près de Lytton, Colombie anglaise. J.
+                     Soc. Américanistes, <placeName type="city" key="#ci_paris">Paris</placeName>,
+                     III, p. 104-145, <date when="1901">1901</date>.</note> [<placeName
+                     key="#britcol">British Columbia</placeName>]. It is believed that they are
+                  religious representations which must have played a role in the ritual of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">this
+                        little island population</orgName></rs> which lived seventy miles from
+                        <rs><placeName type="region" key="#re_mld">the mainland</placeName></rs> and
+                  who probably observed a cult dedicated to the divinities of the air and the
+                  water.</p>
+               <p>At the time of Cessac's travels the last of the Niminokotch&#8212;the name given
+                  by certain <orgName type="nativeamericantribes" key="#natam_chumash">Chumash
+                     groups</orgName> of the coast to the <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">San Nicolas islanders</orgName></rs>, according
+                  to <persName type="author" key="#lce">Cessac</persName>&#8212;had been gone for
+                  many years. <rs><placeName type="island" key="#i_sn">The island</placeName></rs>
+                  was, furthermore, the locale of a marooning which received great notoriety in
+                     <placeName type="state" key="#st_cal">California</placeName>. In <date
+                     when="1835">1835</date> the survivors of the Indian population, <rs><persName
+                        type="group" key="#bhagroup">about seven people</persName></rs>, were
+                  brought to <orgName type="mission" key="#mi_mainlandmissions">the Franciscan
+                     missions</orgName> on <placeName type="region" key="#re_mld">the
+                     mainland</placeName>. <rs><persName type="nativeamerican" key="#lw">One
+                        woman</persName></rs> was overlooked, however, having been away in the
+                  hills. The sea otter hunters occasionally caught sight of <rs><persName
+                        type="nativeamerican" key="#lw">this solitary woman</persName></rs>, but it
+                  was not until <date when="1853">1853</date> that <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     crew</persName></rs> of <rs><name type="ship" key="#sh_nidever">a
+                     ship</name></rs> searched for her and brought her to the <orgName
+                     type="mission" key="#mi_santabarbaramission">mission of Santa
+                  Barbara</orgName>. <span type="trope" n="3"><span type="trope" n="6">There she
+                        lived only a few months before the benefits of civilization&#8212;among
+                        which was probably the excess of food&#8212;caused her death.</span></span>
+                  Her story excited the popular imagination and numerous accounts were published
+                  concerning the woman who lived alone for eighteen years on the abandoned island of
+                     <placeName type="island" key="#i_sn">San Nicolas</placeName>.<hi
+                     rend="superscript">20</hi><note>20. <persName type="author" key="#rhe">Heizer,
+                        R. F.</persName> and <persName type="author" key="#els">A. B.
+                        Elsasser</persName>. Original Accounts of the Lone Woman of San Nicolas
+                     Island. Reports of the University of California Archaeological Survey, No. 55.
+                        <placeName type="city" key="#ci_berk">Berkeley</placeName>, <date
+                        when="1961">1961</date>.</note></p>
+               <p>In the Cessac collection coming from <rs><placeName type="island" key="#i_sn">this
+                        island</placeName></rs> there must be noted too the quite complete series of
+                  bone and schist tools as well as finely worked ornamented pieces of large
+                  iridescent shells&#8212;<hi rend="underline">Mytilus</hi>, <hi rend="underline"
+                     >Haliotis</hi>, <hi rend="underline">Norisia</hi> or <hi rend="underline"
+                     >Hinnites</hi>&#8212;which are abundant on the beaches, and steatite vessels. A
+                  very important group of specimens made of <hi rend="underline">Haliotis</hi>
+                  shells and gathered in a workshop<hi rend="superscript">21</hi><note>21. <persName
+                        key="#hamy">Hamy, E.&#8212;T. A</persName> L'industrie hameçonnière chez les
+                     anciens habitants d'archipel californien. Rev. Ethnogr., <placeName type="city"
+                        key="#ci_paris">Paris</placeName>, IV, p. 6-13, fig. 6-32, <date when="1885"
+                        >1885</date>.</note> admirably illustrates the manufacture of fishhooks. A
+                  remarkable industrial material from the <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> region was steatite, a soft stone, easy to work and capable
+                  of sustaining high temperatures. The Indians had observed the peculiar
+                  fire-resistant qualities of steatite and from it made thin-walled vessels for
+                  cooking food and melting asphalt. Most of them are spherical, some in the form of
+                  boats, others in the form of ladles or pans with short handles. Very likely the
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">Indians
+                        of San Nicolas</orgName></rs> procured the raw material (the steatites and
+                  peculiarly fine and varicolored talcs) locally, but trade with the coast of
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> certainly
+                  existed. The travel between <placeName type="island" key="#i_chi">the
+                     islands</placeName> and <placeName type="region" key="#re_mld">the
+                     mainland</placeName> was carried on by means of wooden canoes composed of
+                  planks, the latter sometimes very numerous and irregularly shaped and joined by
+                  sewing, <hi rend="superscript">22</hi><note>22. In the Cessac collection we have
+                     come across several small wooden pieces undoubtedly belonging to boats of this
+                     type.</note> with seams calked by natural asphalt which is to be found on the
+                  beaches.</p>
+               <p>In his report <persName type="author" key="#lce">Cessac</persName> had already
+                  observed with rare perception the presence in the archaeological material from
+                     <placeName type="island" key="#i_sn">San Nicolas</placeName> "of some objects
+                  which are indisputable evidence of the stay which the <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">Kodiak [Kaniagmiut]</orgName>
+                  made on <rs><placeName type="island" key="#i_sn">this island</placeName></rs>." We
+                  have indeed found several implements of ivory and bone, one of which is the
+                  harpoon point reproduced in figure 2<hi rend="underline">a</hi>,<hi
+                     rend="superscript">23</hi><note>23. One of us [<persName type="author"
+                        key="#rhe">H.R.</persName>] had called this very interesting specimen to the
+                     attention of <persName key="#gourhan">M. Lerio-Gourhan</persName> who published
+                     some drawings of it in his Archéologie du Pacifique-Nord, p. 379, fig. 760 and
+                     map 31, <placeName type="city" key="#ci_paris">Paris</placeName>, <date
+                        when="1946">1946</date>.</note>which is of Aleut origin. These objects were
+                  doubtless left at <placeName type="island" key="#i_sn">San Nicolas</placeName> by
+                  sea otter hunters sent by <rs><orgName type="organization" key="#rfurcompany">the
+                        Russians</orgName></rs> from their base at <placeName type="island"
+                     key="#i_ko">Kodiak</placeName> or <placeName type="city" key="#ci_si"
+                     >Sitka</placeName> at the time when, <persName key="#kuskov">Kuskov</persName>
+                  having established <placeName key="#fortross">Fort Ross</placeName> to the north
+                  of <placeName type="city" key="#ci_bodega">Bodega Bay</placeName>, <persName
+                     key="#rezanov">Rezanov</persName> hoped to seize <placeName type="region"
+                     key="#re_upcal">California</placeName> from Spanish control in <rs><date
+                        notBefore="1800" notAfter="1830">the early nineteenth
+                  century</date></rs>.</p>
+               <p><span type="trope" n="6">Among the ethnographic objects from <placeName
+                        type="state" key="#st_cal">California</placeName> which escaped destruction
+                     and which were later found in the <orgName type="museum" key="#mu_parismuseum"
+                        >Musée de l'Homme</orgName> are several rare specimens collected by
+                        <persName type="author" key="#lce">Cessac</persName> from the last survivors
+                     of <orgName type="nativeamerican" key="#natam_chumash">the Chumash
+                        tribe</orgName> who occupied <placeName type="region" key="#re_calcoast">the
+                        coast</placeName> and certain of the <placeName type="island" key="#i_chi"
+                        >Channel Islands</placeName>.</span> Attention should be called to a large
+                  mat made of reed and deerskin strips as well as some coiled baskets, one of which
+                  is a unique rectangular shape (fig. 2<hi rend="underline">b</hi>). This basket,
+                  which still has its cover, was undoubtedly made in a mission since the shape seems
+                  to be European-inspired. There are also two marvellously worked wooden bowls (fig.
+                     2<hi rend="underline">c</hi>) which have preserved the form of pre-Columbian
+                  spherical steatite pots or sandstone mortars. It is known from Spanish records
+                  that <rs><orgName type="nativeamerican" key="#natam_chumash">these
+                        people</orgName></rs> made such wooden receptacles&#8212;for example,
+                     <persName type="seaman" key="#mco">Costanso</persName>, in <date when="1769"
+                     >1769</date>, describes them "as well made as if turned on the wheel"&#8212;but
+                  until now we knew only that such pieces once existed. Also, three large whistles
+                  made of deer bone were fortunately saved by <persName type="author" key="#lce"
+                     >Cessac</persName>. They are of the same type as those found in archaeological
+                  deposits, and one may assume that <orgName type="nativeamerican"
+                     key="#natam_chumash">the Chumash</orgName> continued to make them until quite
+                  recent times. Given the slight information which we possess on the natives of the
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> region, it is
+                  certain that the Cessac collection provides us with very important information on
+                  material culture. One regrets all the more the disappearance of additional
+                  ethnographic and archaeological specimens abandoned by <persName type="author"
+                     key="#lce">Cessac</persName> at <placeName type="city" key="#ci_slo">San Luis
+                     Obispo</placeName> which, it seems, were never sent to <placeName
+                     type="country" key="#co_france">France</placeName>.<hi rend="superscript"
+                     >24</hi><note>24. No surviving document permits us to believe that the <orgName
+                        key="#minisdelins">Ministère de l'Instruction publique</orgName> had carried
+                     out the resuest of <persName key="#dallidet">M. Dallidet</persName>, sent in
+                        <date when="1882-08">August, 1882</date>, by <persName key="#vaumean">M.
+                        Vauvert e Méan</persName>, French consul in <placeName type="city"
+                        key="#ci_sf">San Francisco</placeName>, who demanded a payment of 3,000
+                     francs for rent.</note></p>
+               <p>Concerning the manuscripts and illustrations left at the <placeName
+                     key="#hoteldbres">Hotel du Brésil</placeName>, it is known from the
+                  correspondence between <rs><orgName key="#minisdelins">the Ministry</orgName></rs>
+                  and the <orgName key="#museedeth">Musée d'Ethnographie</orgName> that they were
+                  taken possession of by <persName key="#hamy">Dr. Hamy</persName> in the last days
+                  of <date when="1881-12">December, 1881</date>. The summary inventory of the
+                  articles received and recorded by a clerk in <rs><orgName key="#minisdelins">the
+                        Ministry</orgName></rs> indicates that there were&#8212;over and above
+                  numerous papers, books, drawing notebooks, and ethnographic items&#8212;one
+                  hundred steel engravings, a Spanish manuscript, and two manuscripts of <persName
+                     type="author" key="#lce">M. de Cessac</persName> "of which one is on the
+                  subject of Samala medicine." Incidentally, <rs><orgName key="#minisdelins">the
+                        Ministry</orgName></rs> sent to <persName key="#hamy">Dr. Hamy</persName>,
+                  for the library of the <orgName key="#museedeth">Musée d'Ethnographie</orgName>,
+                  an additional allotment of documents having to do with <persName type="author"
+                     key="#lce">Cessac</persName> (this might have been sent by his family?) of
+                  which we do not have a detailed account. All of these documents were still in the
+                  hands of <persName key="#hamy">Dr. Hamy</persName> in <date when="1898"
+                     >1898</date> since he had the responsibility at this time, <persName
+                     type="author" key="#lce">Cessac</persName> having been dead for seven years,
+                  "of publishing the results of the Cessac mission and notably the beautiful series
+                  of quarto ethnographic drawings which this traveler left us."<hi
+                     rend="superscript">25</hi><note>25. Letter from <persName key="#hamy">Dr.
+                        Hamy</persName> to the <orgName key="#minisdelins">Ministère de
+                        l'Instruction publique</orgName> dated <date when="1898-06-08">8 June
+                        1898</date> (<orgName key="#bibnat">National Archives of
+                     France</orgName>).</note></p>
+               <p>Of all these irreplaceable documents, only one survived<hi rend="superscript"
+                     >26</hi><note>26. There exist ten photographic prints made by <persName
+                        type="author" key="#lce">Cessac</persName> which we found in old files of
+                     the photographic library of the <orgName type="museum" key="#mu_parismuseum"
+                        >Musée de l'Homme</orgName>. They had been sent by <persName type="author"
+                        key="#lce">Cessac</persName> to the <orgName key="#labanthro">Labratoire
+                        d'Anthropologie du Muséum</orgName> with a collection of more than one
+                     hundred skulls and six skeletons from the <placeName type="island" key="#i_chi"
+                        >[Channel] islands</placeName>. These photographs, of which we have
+                     reproduced one example (fig. 2<hi rend="underline">d</hi>), bear the sole
+                     comment "Samala Indian, Santinex Mission," and all are of the same individual.
+                     The ornaments shown in figure 2<hi rend="underline">d</hi> were not found among
+                     the collections of the <orgName type="museum" key="#mu_parismuseum">Musée de
+                        l'Homme</orgName>.</note> and that because of the fact that it passed into
+                  private hands. This was the original manuscript of the famous account of <persName
+                     type="missionfather" key="#boscana">Father Geronimo Boscana</persName> of the
+                  former <placeName type="mission" key="#mi_stjohn">mission of San Juan
+                     Capistrano</placeName>, which <persName type="author" key="#lce"
+                     >Cessac</persName> discovered and acquired at <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>, as we know from his statement on page
+                  341 of his report.<hi rend="superscript">26</hi><note>26. There exist ten
+                     photographic prints made by <persName type="author" key="#lce"
+                        >Cessac</persName> which we found in old files of the photographic library
+                     of the <orgName type="museum" key="#mu_parismuseum">Musée de l'Homme</orgName>.
+                     They had been sent by <persName type="author" key="#lce">Cessac</persName> to
+                     the <orgName key="#labanthro">Labratoire d'Anthropologie du Muséum</orgName>
+                     with a collection of more than one hundred skulls and six skeletons from the
+                        <placeName type="island" key="#i_chi">[Channel] islands</placeName>. These
+                     photographs, of which we have reproduced one example (fig. 2<hi
+                        rend="underline">d</hi>), bear the sole comment "Samala Indian, Santinex
+                     Mission," and all are of the same individual. The ornaments shown in figure
+                        2<hi rend="underline">d</hi> were not found among the collections of the
+                        <orgName type="museum" key="#mu_parismuseum">Musée de
+                     l'Homme</orgName>.</note> It is not impossible that the "Spanish manuscript"
+                  listed in the inventory of the documents abandoned at the <placeName
+                     key="#hoteldbres">Hotel du Brésil</placeName> is the Boscana manuscript, and
+                  one may guess that <persName key="#hamy">Dr. Hamy</persName> then sent it to
+                     <persName key="#apin">Alphonse Pinart</persName> for study. But might <persName
+                     type="author" key="#lce">Cessac</persName> himself have sent it to <persName
+                     key="#apin">Pinart</persName> before his return to <placeName type="country"
+                     key="#co_france">France</placeName>? Be that as it may, the Boscana manuscript
+                  was sold with the Pinart library<hi rend="superscript">27</hi><note>27. The
+                     Boscana manusript appears as number 130, page 21, of the catalogue published at
+                     the time of the sale titled, Catalogue de livres rares et précieux, manuscrits
+                     et imprimés principalement sur l'Amérique et sur les langues du monde entier
+                     composant le bibliothèque de M. Alph.&#8212;L. Pinart et comprenant en totalité
+                     la bibliothèque mexico-guatémalienne de M. l'abbé Brasseur de Bourbourg."
+                        <placeName type="city" key="#ci_paris">Paris</placeName>, <date when="1883"
+                        >1883</date>.</note> in <date when="1883">1883</date>, and very fortunately
+                  the <orgName key="#bibnat">Bibliothèque Nationale</orgName> acquired it.<hi
+                     rend="superscript">28</hi><note>28. <persName key="#morel">Morel-Fatio,
+                        A.</persName> "Catalogue des manuscripts espagnols et des manuscrits
+                     portugais." Bibliothéquw nationale. P. 359, <placeName type="city"
+                        key="#ci_paris">Paris</placeName>, <date when="1892">1892</date>.</note> It
+                  would be of the greatest interest at last to publish a fascimile of this unique
+                  document which is so important for the ethnography of this region of <placeName
+                     type="state" key="#st_cal">California</placeName> and which we know only
+                  through English accounts, of which the first is that published in <date
+                     when="1846">1846</date> by <persName type="author" key="#arob"
+                     >Robinson</persName>.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">REFERENCES</title></head>
+               <p>1. <persName type="author" key="#lce">Cessac, Léon de</persName>. Rapport sur une
+                  mission au Pérou et en Californie. Arch. Missions scientifiques et littéraires,
+                     <placeName type="city" key="#ci_paris">Paris</placeName>, 3<hi
+                     rend="superscript">e</hi> série, IX, p. 333-334, <date when="1882"
+                  >1882</date>.</p>
+               <p>2. <persName key="#hamy">Hamy, E.&#8212;T</persName>. Rapport sur la mission de
+                  MM. <persName key="#apin">Pinart</persName> ed de <persName type="author"
+                     key="#lce">Cessac</persName> dans les deuz Amériques. Arch. Missions
+                  scientifiques et littéraires, <placeName type="city" key="#ci_paris"
+                     >Paris</placeName>, 3<hi rend="superscript">e</hi> série, IX, p. 323-332, <date
+                     when="1882">1882</date>.</p>
+               <p>3. <persName type="author" key="#rhe">Heizer, R. F.</persName> California Indian
+                  Linguistic Records: The Mission Indian Vocabularies of <persName key="#apin"
+                     >Alphonse Pinart</persName>. Anthropological Records, XV, No. 1. <placeName
+                     type="city" key="#ci_berk">Berkeley</placeName>, <date when="1952"
+                  >1952</date>.</p>
+               <p>4. We hope to publish later all of these documents in a more detailed study of the
+                  travels and works of <persName key="#apin">Pinart</persName> and <persName
+                     type="author" key="#lce">de Cessac</persName> in <placeName type="country"
+                     key="#co_usa">America</placeName>.</p>
+               <p>5. This first, very ambitious project comprised research in the western regions
+                  already visited by <persName key="#apin">Pinart</persName>
+                  <date from="1870" to="1872">between 1870 and 1872</date>&#8212; the <placeName
+                     type="island" key="#i_aleutian">Aleitian Islands</placeName> and the coast of
+                  the Bering Sea&#8212; as well as the basin of the Mackenzie River, the interior of
+                     <placeName type="state" key="#st_ak">Alaska</placeName>, <placeName
+                     key="#britcol">British Columbia</placeName>, and <placeName type="state"
+                     key="#st_cal">California</placeName>.</p>
+               <p>6. <persName type="author" key="#lce">Léon de Cessac</persName> was known
+                  especially for his research in physiography and volcanology, and he had already
+                  carried out a rewarding four year trip to the <placeName key="#capever">Cape
+                     Verde</placeName> archipelago. He was working in the laboratory of <orgName
+                     key="#hauetu">Hautes-Etudes du Collège de France</orgName> under the direction
+                  of <persName key="#deville">Professor Ste. Calire Deville</persName> and <persName
+                     key="#fouq">Professor Fouqué</persName> and was one of a group of naturalists
+                  who studied the specimens collected by <persName key="#apin">Pinart</persName> on
+                  his first trip. <persName type="author" key="#lce">Cessac</persName> published
+                  "Etude microscopique et analyse chimique de quelques roches de l'Alaska" in
+                     <persName key="#apin">Pinart, A.&#8212;L.</persName>, Voyages à la côte
+                  Nord-Quest de l'Amérique ecécutés durant les années <date from="1870" to="1872"
+                     >1870-72</date>. <placeName type="city" key="#ci_paris">Paris</placeName>,
+                     <date when="1875">1875</date>. l<hi rend="superscript">re</hi> partie: Histoire
+                  naturelle, p. 19-27.</p>
+               <p>7. The French contribution to the populating of <placeName type="state"
+                     key="#st_cal">California</placeName> after the discovery of gold in <date
+                     when="1848">1848</date> was very important. It may be said that, after the
+                  Mexicans, it was the largest non-American group in <placeName type="state"
+                     key="#st_cal">California</placeName>
+                  <date from="1850" to="1860">between 1850 and 1860</date>. For additional
+                  information refer to: <persName key="#levy">Lévy, D.</persName>, Les Français en
+                  Californie, <placeName type="city" key="#ci_sf">San Francisco</placeName>, <date
+                     when="1884">1884</date>; and <persName key="#wyllis">Wyllis,
+                     R.&#8212;K.</persName>, The French in California and Sonora. Pacific Historical
+                  Review, I, p. 337-359. <placeName type="city" key="#ci_gl">Glendale</placeName>,
+                     <date when="1932">1932</date>.</p>
+               <p>8. <persName type="author" key="#lce">Cessac, Léon de</persName>. <hi
+                     rend="underline">Op. cit.</hi>, p. 339.</p>
+               <p>9. Actually, <persName key="#apin">Pinart</persName> was about to conclude a new
+                  arrangement with the <orgName key="#minisdelins">Ministère de l'Instruction
+                     publique</orgName>. Abandoning his former projects, he asked for a new five
+                  year expedition to the Southwestern <placeName type="country" key="#co_usa">United
+                     States</placeName>, <placeName type="country" key="#co_mexico"
+                     >Mexico</placeName>, the Antilles, <placeName type="region" key="#re_ceam"
+                     >Central America</placeName>, and the Andean region of <placeName type="region"
+                     key="#re_southamerica">South America</placeName>, and an annual allotment of
+                  25,000 francs in exchange for giving to the <orgName key="#museedeth">Musée
+                     d'Ethnographie du Trocadéro</orgName> his entire collection, among which was
+                  the famous Boban collection of Mexican archaeology. Thanks to the influence of
+                     <persName key="#hamy">Dr. Hamy</persName>, Pinsrt's request was apparently
+                  accepted without difficulty. The agreement provided the allotment of 10,000 francs
+                  to <persName type="author" key="#lce">Léon de Cessac</persName>.</p>
+               <p>10. <persName key="#apin">Alphonse Pinart</persName> stayed only three months in
+                     <placeName type="state" key="#st_cal">California</placeName>, <date
+                     from="1878-07-01" to="1878-10-31">from the beginning of July to mid-October,
+                     1878</date>. He made several excavations in the vicinity of <placeName
+                     type="region" key="#re_tulakes">Tulare Lake</placeName>, but principally
+                  [carried out] linguistic investigations among the few Indian survivors of the
+                  former missions between <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName> and <placeName type="city" key="#ci_ven">San
+                     Buenaventura</placeName>. The vocabularies recorded at this time are those in
+                  the <orgName type="institution" key="#bancroft">Bancroft Library</orgName> which
+                  were published by the <orgName type="institution" key="#in_ucb">University of
+                     California</orgName> in <date when="1952">195</date>2 (see note 3). Around the
+                     <date when="1878-10-15">fifteenth of October</date>
+                  <persName key="#apin">Pinart</persName> left <placeName type="state" key="#st_cal"
+                     >California</placeName> to go to <placeName type="city" key="#ci_son">Sonora
+                     [Mexico]</placeName>. Later on he once more met <persName type="author"
+                     key="#lce">Cessac</persName> in <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName>, at the end of <date when="1879-04">April,
+                  1879</date>.</p>
+               <p>11. According to an inventory sent by <persName key="#apin">Pinart</persName> to
+                  the <orgName key="#minisdelins">Ministère de l'Instruction publique</orgName> on
+                     <date when="1879-07-26">July 26, 1879</date>, it seems that <persName
+                     type="author" key="#lce">Cessac</persName> had collected at this time, for the
+                     <orgName key="#musdhist">Muséum d' Histoire</orgName>, a group of 300
+                  geological and paleontological specimens, 500 birds and mammals, 300 reptiles,
+                  5,000 insects, 20,000 mollusks, and 10,000 plants. In his report published in
+                     <date when="1881">1881</date>
+                  <persName type="author" key="#lce">Cessac</persName> claims to have sent to the
+                     <orgName key="#musdhist">Muséum</orgName>, before his return to <placeName
+                     type="country" key="#co_france">France</placeName>, "35 skulls or mammal
+                  skeletons, 136 mammals with hides, 1,500 birdskins, several thousand insects, 600
+                  fossils, and 2,000 local plants."</p>
+               <p>12. All of the records of the French Consulate in <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName> in which we would have been able to find
+                  the information were destroyed during the earthquake and fire of <date when="1906"
+                     >1906</date>.</p>
+               <p>13. Here is a particularly explicity passage from this document: </p>
+               <p>"I have the honor of sending you a list of people to whom I owe the sum of a
+                  little more than 12,000 francs, which represents the financial deficit of my three
+                  year travels in <placeName type="country" key="#co_usa">America</placeName>.</p>
+               <p>"This deficit was the inevitable result of the circumstances in which I found
+                  myself placed from the outset of my trip, circumstances resulting from a situation
+                  which I was unable to foresee or imagine. This was the complete financial ruin,
+                  too long unadmitted, of my collaborator, <persName key="#apin">M. Alphonse
+                     Pinart</persName>, who had taken until himself all of the expense of my
+                  trip."</p>
+               <p>14. <persName type="author" key="#lce">Cessac, L. de</persName>. Observations sur
+                  des fétiches de pierre sculptée en forme d'animaux découverts à l'île de San
+                  Nicolas (Californie). Rev Ethnogr., I, p. 30-40, <placeName type="city"
+                     key="#ci_paris">Paris</placeName>, <date when="1882">1882</date>. This work was
+                  translated into English by <persName key="#nanheiz">Mrs. Nancy E.
+                     Heizer</persName> and published with notes in the Reports of the University of
+                  California Archaeological Survey, No. 12, pp. 1-3. <placeName type="city"
+                     key="#ci_berk">Berkeley</placeName>, <date when="1951">1951</date>.</p>
+               <p>15. <persName type="author" key="#lce">Cessac, L. de</persName>. Renseignements
+                  ethnographiques sur les Comanches recueillis de la bouche d'un trappeur qui fut 13
+                  and leur prisonnier. Rev. Ethnogr., I, p. 94-118, <placeName type="city"
+                     key="#ci_paris">Paris</placeName>, <date when="1882">1882</date>. This
+                  information was recorded by <persName type="author" key="#lce">Cessac</persName>
+                  in <date when="1878-02">February, 1878</date>, when he was in the area of the
+                  former <placeName type="city" key="#ci_pur">Mission of La
+                  Purísima</placeName>.</p>
+               <p>16. Thanks to <persName key="#bouchier">M. Bouchier</persName>, to whom we must
+                  express appreciation here, we were able to obtain several bits of verse written by
+                  the "Compère Philos" and which were reprinted in the form of small, slim volumes.
+                  For example, Times bouffones et brutales (15 p. <placeName key="#perigueux"
+                     >Périgueux</placeName>, <date when="1884">1884</date>), and La Dufourade, poème
+                  héroï-burlesque (14 p., <placeName key="#cahors">Cahors</placeName>, <date
+                     when="1887">1887</date>) where <persName type="author" key="#lce"
+                     >Cessac</persName> fiercely ridicules, with a <hi rend="underline">gascon</hi>
+                  humor, the <persName key="#dufour">Baron Dufour</persName>, powerful politician of
+                     <placeName key="#quercy">Quercy</placeName>. But if most often he destroys his
+                  enemies with a sharp and strong Gallic pen, sometimes the memory of the past and
+                  his despair show through quatrains which, though mediocre, are to us very
+                  moving.</p>
+               <p>17. The major part of the collection, about 3,000 specimens, is at present in the
+                     <orgName type="museum" key="#mu_parismuseum">Musée de l'Homme</orgName>. It is
+                  not at the instigation of <persName key="#porr">Dr. Phil C. Orr</persName> of the
+                     <orgName type="museum" key="#mu_sbmuseum">Santa Barbara Museum of Natural
+                     History</orgName>, and Professors <persName type="author" key="#akroe">A. L.
+                     Kroeber</persName> and <persName key="#jrowe">John Rowe</persName> that one of
+                  us [<persName type="author" key="#rhe">H.R.</persName>] has undertaken since <date
+                     when="1946">1946</date> only one hundred and fifty specimens had been
+                  catalogued through the efforts of <persName key="#hkelley">Mr. Harper
+                     Kelley</persName> in order to be shown in the public exhibition hall. Later
+                  nearly a thousand pieces, among which were all the worked flints from <placeName
+                     type="island" key="#i_scruz">Santa Cruz Island</placeName>, were again located
+                  in a storage area of unidentified collections from the <orgName key="#museedeth"
+                     >Musée d'Ethnographie</orgName>.</p>
+               <p>Another part of the collection, comprising about 300 pieces and coming mostly from
+                     <placeName type="island" key="#i_sn">San Nicolas Islan</placeName>d, is at
+                  present in the <orgName key="#musant">Musée des Antiquités nationales de
+                     Saint-Germain-en-Laye</orgName>. It was given by <persName type="author"
+                     key="#lce">Cessac</persName> himself to <persName key="#admiralparis">Admiral
+                     Paris</persName> for the <orgName key="#louvre">Musée de la Marine in the
+                     Louvre</orgName>.</p>
+               <p>18. <persName type="author" key="#rhe">Heizer, R. F.</persName> and <persName
+                     key="#hkelley">H. Kelley</persName>. Burins and Bladelets in the Cessac
+                  Collection from Santa Cruz Island, California. Proc. Amer. Philos. Soc., vol. 106,
+                  no. 2, pp. 94-105. <placeName type="city" key="#ci_phil">Philadelphia</placeName>,
+                     <date when="1962">1962</date>.</p>
+               <p>19. <persName key="#hamy">Hamy, E.&#8212;T. A</persName> propos d'une figureine en
+                  stéatite découverte près de Lytton, Colombie anglaise. J. Soc. Américanistes,
+                     <placeName type="city" key="#ci_paris">Paris</placeName>, III, p. 104-145,
+                     <date when="1901">1901</date>.</p>
+               <p>20. <persName type="author" key="#rhe">Heizer, R. F.</persName> and <persName
+                     type="author" key="#els">A. B. Elsasser</persName>. Original Accounts of the
+                  Lone Woman of San Nicolas Island. Reports of the University of California
+                  Archaeological Survey, No. 55. <placeName type="city" key="#ci_berk"
+                     >Berkeley</placeName>, <date when="1961">1961</date>.</p>
+               <p>21. <persName key="#hamy">Hamy, E.&#8212;T. A</persName> L'industrie hameçonnière
+                  chez les anciens habitants d'archipel californien. Rev. Ethnogr., <placeName
+                     type="city" key="#ci_paris">Paris</placeName>, IV, p. 6-13, fig. 6-32, <date
+                     when="1885">1885</date>.</p>
+               <p>22. In the Cessac collection we have come across several small wooden pieces
+                  undoubtedly belonging to boats of this type.</p>
+               <p>23. One of us [<persName type="author" key="#rhe">H.R.</persName>] had called this
+                  very interesting specimen to the attention of <persName key="#gourhan">M.
+                     Lerio-Gourhan</persName> who published some drawings of it in his Archéologie
+                  du Pacifique-Nord, p. 379, fig. 760 and map 31, <placeName type="city"
+                     key="#ci_paris">Paris</placeName>, <date when="1946">1946</date>.</p>
+               <p>24. No surviving document permits us to believe that the <orgName
+                     key="#minisdelins">Ministère de l'Instruction publique</orgName> had carried
+                  out the resuest of <persName key="#dallidet">M. Dallidet</persName>, sent in <date
+                     when="1882-08">August, 1882</date>, by <persName key="#vaumean">M. Vauvert e
+                     Méan</persName>, French consul in <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName>, who demanded a payment of 3,000 francs for rent.</p>
+               <p>25. Letter from <persName key="#hamy">Dr. Hamy</persName> to the <orgName
+                     key="#minisdelins">Ministère de l'Instruction publique</orgName> dated <date
+                     when="1898-06-08">8 June 1898</date> (<orgName key="#bibnat">National Archives
+                     of France</orgName>).</p>
+               <p>26. There exist ten photographic prints made by <persName type="author" key="#lce"
+                     >Cessac</persName> which we found in old files of the photographic library of
+                  the <orgName type="museum" key="#mu_parismuseum">Musée de l'Homme</orgName>. They
+                  had been sent by <persName type="author" key="#lce">Cessac</persName> to the
+                     <orgName key="#labanthro">Labratoire d'Anthropologie du Muséum</orgName> with a
+                  collection of more than one hundred skulls and six skeletons from the <placeName
+                     type="island" key="#i_chi">[Channel] islands</placeName>. These photographs, of
+                  which we have reproduced one example (fig. 2<hi rend="underline">d</hi>), bear the
+                  sole comment "Samala Indian, Santinex Mission," and all are of the same
+                  individual. The ornaments shown in figure 2<hi rend="underline">d</hi> were not
+                  found among the collections of the <orgName type="museum" key="#mu_parismuseum"
+                     >Musée de l'Homme</orgName>.</p>
+               <p>27. The Boscana manusript appears as number 130, page 21, of the catalogue
+                  published at the time of the sale titled, Catalogue de livres rares et précieux,
+                  manuscrits et imprimés principalement sur l'Amérique et sur les langues du monde
+                  entier composant le bibliothèque de M. Alph.&#8212;L. Pinart et comprenant en
+                  totalité la bibliothèque mexico-guatémalienne de M. l'abbé Brasseur de Bourbourg."
+                     <placeName type="city" key="#ci_paris">Paris</placeName>, <date when="1883"
+                     >1883</date>.</p>
+               <p>28. <persName key="#morel">Morel-Fatio, A.</persName> "Catalogue des manuscripts
+                  espagnols et des manuscrits portugais." Bibliothéquw nationale. P. 359, <placeName
+                     type="city" key="#ci_paris">Paris</placeName>, <date when="1892"
+                  >1892</date>.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

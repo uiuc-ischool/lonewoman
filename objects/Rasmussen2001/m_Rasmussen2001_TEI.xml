@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes"> Los Angeles
+                     Times</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="2001-03-18"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Rasmussen2001">L.A. Then and Now; Woman’s Lonely Saga
+                     Left a Mystery</title>
+                  <biblScope unit="page" n="B3"/>
+                  <author><persName type="author" key="#cra">Rasmussen, Cecilia</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="column">
+                  <hi rend="bold"><hi rend="underline"><placeName type="city" key="#ci_la"
+                           >L.A.</placeName> Then and Now</hi></hi></title></head>
+            <byline><hi rend="underline"><persName type="author" key="#cra">Cecilia
+                     Rasmussen</persName></hi></byline>
+            <head><title type="main">Woman's Lonely Saga Left a Mystery</title></head>
+            <p><hi rend="bold">Alone on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for <rs><date from="1835" to="1853" cert="high">18
+                        years</date></rs>, <rs><persName type="nativeamerican" key="#lw">Juana
+                        Maria</persName></rs> proved quite resourceful. She cast fishing lines with
+                  hooks made from shells. She built a hut of whale bones. She replaced her worn
+                  clothing with garments made from the feathers of cormorants.</hi></p>
+            <p><span type="trope" n="6">The world knows of <persName type="nativeamerican"
+                     key="#ish">Ishi</persName>, ballyhooed as "<rs><persName type="nativeamerican"
+                        key="#ish">the last wild California Indian</persName></rs>" and the last of
+                  his <orgName type="nativeamericantribes" key="#natam_yahi">Yahi tribe</orgName>,
+                  who stumbled out of the wilderness into the gold mining town of <placeName
+                     type="city" key="#ci_oro">Oroville</placeName> in <date when="1911"
+                  >1911</date>.</span></p>
+            <p><span type="trope" n="6">But <rs><date when="1853">more than 50 years
+                     earlier</date></rs>, <rs><persName type="nativeamerican" key="#lw">another sole
+                        survivor</persName></rs>, the "<rs><persName type="nativeamerican" key="#lw"
+                        >Lone Woman</persName></rs>" whom <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">the priests</persName></rs> named Juana
+                  Maria, was taken from the only home she had ever known and where she lived alone
+                  for <rs><date from="1835" to="1853">18 years</date></rs>&#8212;<placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName>.</span></p>
+            <p>The mystery of her origins may be tied up with another and sadder story: the
+               notorious massacre that wiped out most of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the men of the island</orgName></rs> when she would
+               have been a young child.</p>
+            <p><rs><placeName type="island" key="#i_sn">This wind-swept
+               wilderness</placeName></rs>&#8212;one of <rs><placeName type="group"
+                     key="#i_sn; #i_scl">two Channel Islands now under <orgName type="military"
+                        key="#mi_navy">Navy</orgName> control</placeName></rs>&#8212;was named for
+                     <rs><persName key="#saintn">a saint</persName></rs>, but it served as the
+               setting for sinners, in the massacre of <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">the Nicoleno tribe</orgName>.</p>
+            <p>For thousands of years <orgName type="nativeamericantribebs"
+                  key="#natam_NicolenoTongva">Nicolenos</orgName> had scratched out a living on
+                     <rs><placeName type="island" key="#i_sn">this 3-by-9-mile semidesert
+                     island</placeName></rs>, navigating its choppy waters in their canoes. <span
+                  type="trope" n="3">These <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">handsome natives</orgName></rs> lived peacefully
+                  for many generations&#8212;but the arrival of <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                        >sea otter hunters</persName></rs> at <placeName type="region"
+                     key="#re_calcoast">California's coast</placeName> ended that.</span></p>
+            <p>In <date when="1811">1811</date>, when <rs><persName type="nativeamerican" key="#lw"
+                     >Juana Maria</persName></rs> would have been at least a toddler, <rs><persName
+                     type="group"
+                     key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                     >hunters</persName></rs> began scouring <placeName type="region"
+                  key="#re_calcoast">the California coast</placeName> for the "soft gold" of
+               extraordinarily lush otter pelts with a ruthlessness that almost brought the
+               creatures to extinction. <rs><persName type="seaman" key="#wwad">An American sea
+                     captain</persName></rs> under contract to a <rs><orgName type="organization"
+                     key="#rfurcompany">Russian-American trading company</orgName></rs> had hired
+                     <rs><persName type="group" key="#1814huntingparty; #natam_kodiak">30 fierce
+                     Kodiak Indians</persName></rs> from <placeName type="state" key="#re_russam"
+                  >Alaska</placeName> to hunt otters. He dropped them off on remote <placeName
+                  type="island" key="#i_sn">San Nicolas Island</placeName>.</p>
+            <p><span type="trope" n="11"><rs><persName type="group"
+                        key="#1814huntingparty; #natam_kodiak">The Kodiaks</persName></rs> lost no
+                  time in slaughtering almost all of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the native males</orgName></rs> and taking
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        women</orgName></rs> as slaves. And then <rs><persName type="group"
+                        key="#1814huntingparty; #natam_kodiak">the Kodiaks</persName></rs>
+                  disappeared. History, isn't clear on whether they simply left, or whether <orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleno
+                     women</orgName> avenged <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">their husbands</orgName></rs> by killing
+                        <rs><persName type="group" key="#1814huntingparty; #natam_kodiak">the
+                        murderers</persName></rs> as they slept.</span></p>
+            <p>Some scholars speculate that <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs> was younger than her contemporaries believed, and may
+               have been the child of a forced coupling between <orgName type="nativeamericantribes"
+                  key="#natam_kodiak">a Kodiak man</orgName> and a <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleno</orgName> widow.
+               Other historians believe that she arrived with her family <rs><date notBefore="1811"
+                     >sometime after the massacre</date></rs>, and was not a <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleno</orgName> at
+               all.</p>
+            <p>From the two songs and four words transcribed by <rs><persName type="author"
+                     key="#jha">Juana Maria's rescuer</persName></rs> [sic], <persName type="author"
+                  key="#pmu">Pamela Munro</persName> of <orgName type="institution"
+                  key="#in_uclalinguistics">UCLA's Department of Linguistics</orgName> found that
+               her language showed the influence of the <orgName type="nativeamericantribes"
+                  key="#natam_Luisenos">Luisenos</orgName> of <placeName type="county"
+                  key="#co_sdcounty">Northern San Diego County</placeName> and of the <orgName
+                  type="nativeamericantribes" key="#natam_juanenos">Juanenos</orgName> near
+                  <placeName type="city" key="#mi_stjohn">San Juan Capistrano</placeName>. Both
+               traded with the <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">American
+                     Indians of the Channel Islands</orgName></rs>.</p>
+            <p>By <date when="1835">1835</date>, <persName type="group" key="#bhagroup">about 20
+                  Nicolenos</persName> remained, <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs> among them. Unable to hold off Mexican and American
+               forces or better-armed tribes, they were removed by <rs><persName type="group"
+                     key="#aji; #ndur; #misfats">the missionaries</persName></rs> of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+            <p><span type="trope" n="9">As they were boarding <name type="ship" key="#sh_peoresnada"
+                     >the schooner Peor es Nada</name>, <rs><persName type="nativeamerican"
+                        key="#lw">Juana Maria</persName></rs> discovered <rs><persName
+                        type="nativeamerican" key="#lwchild">her infant</persName></rs> was missing
+                  and dived overboard.</span> Ashore, she frantically searched for the baby basket
+               she had fastened to a tree. Finding signs that <rs><persName type="nativeamerican"
+                     key="#lwchild">her child</persName></rs> had been eaten by wild dogs, she sat
+               alone, weeping for days, near death.</p>
+            <p>Meanwhile, <persName type="group" key="#bhagroup">the other Nicolenos</persName>
+               aboard ship were taken to <placeName type="city" key="#ci_la">Los
+               Angeles</placeName>, and most went to the <orgName type="mission" key="#mi_sg">San
+                  Gabriel Mission</orgName>. A Nicoleno named <rs><persName type="nativeamerican"
+                     key="#bha">Black Hawk</persName></rs>, who had suffered a head injury during
+               the massacre <rs><date notBefore="1811" notAfter="1814">more than two decades
+                     earlier</date></rs>, moved in with some hunters at <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName>. He soon became blind, and fell from a steep
+               bank and drowned.</p>
+            <p>Plans to rescue <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName>
+               </rs> were put on hold while the <name type="ship" key="#sh_peoresnada">Peor es
+                  Nada</name> hauled lumber to <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName>, where it capsized and sank. Ships were few and far between
+               then, and interest in her rescue faded.</p>
+            <p>Alone on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+                     <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+               proved quite resourceful. She cast fishing lines with hooks made from shells. She
+               built a hut of whale bones. She replaced her worn clothing with garments made from
+               the feathers of cormorants.</p>
+            <p>At night, she silently crept to the seams in cliff crags to snatch the sleeping birds
+               from their roosts. She used a bone needle and threads made of seal sinews to sew
+               their shiny green feathers together, carefully matching them so the finished garment
+               looked to be made from solid material.</p>
+            <p><span type="trope" n="9">In <date when="1850">1850</date>, <rs><date when="1850">15
+                        years after <rs><persName type="nativeamerican" key="#lw">Juana
+                              Maria</persName></rs> jumped ship</date></rs>, <persName
+                     type="missionfather" key="#jru">Father Gonzales</persName> of the <orgName
+                     type="mission" key="#mi_santabarbaramission">Santa Barbara Mission</orgName>
+                  paid shipowner <persName type="seaman" key="#tje">Thomas Jeffries</persName> $200
+                  to find her.</span> But <persName type="seaman" key="#tje">Jeffries</persName> was
+               more interested in the money, and his half-hearted attempt failed; he merely circled
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> without
+               touching land.</p>
+            <p>Still, his casual search led to her rescue. Jeffries' tales of frolicking seals and
+               barking sea otters caught the attention of <persName type="frontiersman" key="#gni"
+                  >George Nidever, a Santa Barbara fur trapper and adventure-seeker</persName>.
+               Twice, <persName type="frontiersman" key="#gni">Nidever</persName> sailed to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> to hunt sea otters
+               and valuable sea gull eggs, all the while looking for <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs>.</p>
+            <p>They found her footprints and possessions scattered far and wide. <rs><persName
+                     key="#sailor1">One crewman</persName></rs> claimed he saw her running along the
+               shore, beckoning and shouting. But fierce wind and rain kept <rs><name type="ship"
+                     key="#sh_nidever">the ship</name></rs> away. In <date when="1853">1853</date>,
+                  <persName type="frontiersman" key="#gni">Nidever</persName> and <rs><persName
+                     type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his
+                     crew</persName></rs> made a third trip. This time they found "<rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman of San Nicolas
+                  Island</persName></rs>."</p>
+            <p><rs><persName type="frontiersman" key="#cdi">A crew member</persName></rs> spotted
+               her high on a ridge, surrounued by several dogs, skinning a seal with a knife made
+               from a piece of iron hoop. Talking to herself as she worked, she occasionally paused
+               to watch the men's progress. Unaware that <rs><persName type="frontiersman"
+                     key="#cdi">a crew member</persName></rs> was closing in from behind, she first
+               silenced the dogs with a "shrieking cry," then crouched in terror when she saw
+               him.</p>
+            <p>When <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">all the
+                  men</persName></rs> were seated around her, she relaxed and served them a meal of
+               roasted roots. They believed her to be about 40 or 50 years old, of medium height and
+               a "rather thick build." Her hair, once black, was now densely matted and bleached to
+               a dull brown. "Her features were pleasant with an unwrinkled face," wrote <persName
+                  type="frontiersman" key="#gni">Nidever</persName>, "but her teeth were worn to the
+               gums." She wore a sleeveless, ankle-length garment tied at the waist and sewn from
+               cormorant skins. A second such dress was in a basket nearby.</p>
+            <p>After their meal, she placed her belongings in her baskets, which <rs><persName
+                     type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> carried as she accompanied them back to <rs><name
+                     type="ship" key="#sh_nidever">the schooner</name></rs>. She stopped along the
+               way to wash herself.</p>
+            <p>For a month, <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the crew</persName></rs>
+               camped on the beach hunting sea otters, while she supplied them with water and
+               firewood and made baskets. <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The men</persName></rs>
+               stuffed a dead sea otter pup and hung it by a string from the ceiling of her
+               shelter.</p>
+            <p><rs><persName type="frontiersman" key="#cdi">A crew member</persName></rs> who
+               coveted her feather garment sewed her a petticoat of cotton ticking and swapped it,
+               along with a man's shirt and black necktie, for one of her two dresses. One was later
+               sent to <rs><placeName type="museum" key="#mu_vaticanmuseum">the
+                  Vatican</placeName></rs>, where it disappeared.</p>
+            <p>In <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, she moved in with
+                     <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">the
+                  Nidevers</persName></rs>, who protected her from being exhibited as some kind of
+               freak. Although no one understood her, she nonetheless told her story vividly in sign
+               language. <span type="trope" n="3">She sang and danced for a steady stream of curious
+                  guests. She accepted their gifts politely, but when they left, she gave the
+                  presents to the Nidever children. She returned the kindness with small gifts of
+                  shells, necklaces, bone needles and baskets.</span></p>
+            <p>Local Indians tried in vain to converse with her, but no one could understand her
+               language. Messengers were sent to find <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">her kinsmen</orgName></rs>, but none were
+               located.</p>
+            <p>Juana Maria's fondness for green corn, vegetables and fresh fruit caused severe
+               attacks of dysentery. ln her weakness, she fell from <rs><placeName
+                     key="#nideverhouse">Nidever's porch</placeName></rs> and injured her spine.</p>
+            <p>On <date when="1853-10-18">Oct. 18, 1853</date>, only seven weeks after her arrival,
+               she died. On her deathbed, she was christened <rs><persName type="nativeamerican"
+                     key="#lw">Juana Maria</persName></rs>. She was buried in <rs><persName
+                     type="group" key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">the
+                     Nidever family</persName></rs> plot at the <placeName key="#sbmissioncemetary"
+                  >Santa Barbara Mission cemetery</placeName>. <rs><date when="1928-03-03"
+                     cert="high">Nearly 75 years later</date></rs>, the <orgName type="organization"
+                  key="#daughters">Daughters of the American Revolution</orgName> placed a plaque
+               commemorating her.</p>
+            <p>Nearly a century after her brief sojourn in American civilization, her solitary life
+               became immortalized in the character of <name type="fictional" key="#kar"
+                  >Karana</name> in the children's novel "Island of the Blue Dolphins."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

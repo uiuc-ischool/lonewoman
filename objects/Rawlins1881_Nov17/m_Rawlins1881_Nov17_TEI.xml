@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dailypress">Daily
+                     Press</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">10</biblScope>
+               <biblScope unit="issue">41</biblScope>
+               <date when="1881-11-17"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Rawlins1881_Nov17">The Heroine of San Nicholas. A
+                     Woman's Life for Eighteen Years on a Desert Island. A Modern Fact More
+                     Marvellous Than the Time-Honored Fiction of Robinson Crusoe.</title>
+                  <biblScope unit="page" n="6"/>
+                  <author><persName type="author" key="#jhra">Rawlins, J. H.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw"
+                           >THE HEROINE OF SAN NICHOLAS</persName></rs>.</hi></title>
+               <title type="sub"><hi rend="bold">A Woman's Life For <rs><date from="1835" to="1853"
+                           >Eighteen Years</date></rs> on <rs><placeName type="island" key="#i_sn">a
+                           Desert Island</placeName></rs>.</hi></title>
+               <title type="sub">A Modern Fact More Marvellous Than the Time-Honored Fiction of
+                     <persName type="fictional" key="#rcr">Robin[s]on
+               Crusoe</persName>.</title></head>
+            <byline><persName type="author" key="#jhra">BY J. H. RAWLINS</persName>.</byline>
+            <p><rs><date notAfter="1833">Sometime prior to the year 1833</date></rs> the <orgName
+                  type="missionfathers" key="#misfats">Mission Fathers</orgName> of <placeName
+                  type="region" key="#re_baja">Lower California</placeName>, in their efforts to
+               christianize and accustom to honest labor the Indian tribes on the coast, had placed
+               them on various islands of the <placeName type="island" key="#i_chi">Santa Barbara
+                  group</placeName>, to pu[r]sue the fishery of otter and seal. One of these,
+                  <placeName type="island" key="#i_sn">San Nicholas</placeName>, scarcely eight
+               miles long by four broad, was after some time abandoned, and the whole of <persName
+                  type="group" key="#bhagroup">its inhabitants</persName> were brought away in
+                     <rs><name type="ship" key="#sh_peoresnada">a vessel</name></rs> sent by
+                     <rs><persName type="group" key="#aji; #ndur; #misfats">the good
+                     fathers</persName></rs>. While they were leaving, a gale sprung up, and it was
+               at the same time discovered that <rs><persName type="nativeamerican" key="#lwchild">a
+                     child</persName></rs> had been left behind. <rs><persName type="nativeamerican"
+                     key="#lw">The mother</persName></rs>, a half-breed Indian woman of superior
+               intelligence to her race, implored <rs><persName type="group" key="#chu; #isp">the
+                     captain</persName></rs> to send a boat ashore for it. He refused, on the ground
+               of peril to all the rest, if they did not put at once to sea. <span type="trope"
+                  n="9">Frantic and excited at the lo[s]s of <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs>, <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> leaped into the
+                  sea and swam back to <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> in search of it.</span>
+               <rs><name type="ship" key="#sh_peoresnada">The vessel</name></rs> sailed, but having
+               been wrecked off <placeName type="city" key="#ci_sf">San Francisco</placeName>, no
+               return was practicable, and for <rs><date notBefore="1833" notAfter="1848">fifteen
+                     years</date></rs> no steps were taken to ascertain if <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> was living or not.
+                  <persName type="missionfather" key="#jru">Father Gonzales</persName>, having never
+               forgotten her disappearance, offered at length a reward of $200 for the rescue of
+                     <rs><persName type="nativeamerican" key="#lw">woman</persName></rs> or
+                     <rs><persName type="nativeamerican" key="#lwchild">child</persName></rs>, and
+               the result, <rs><date notBefore="1851">after three years more</date></rs>, was the
+               discovery of <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+               on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, still in
+               good mental and bodily health, but with the power of articulate speech gone. The
+               vouchers for this extraordinary narrative, and its details, were recently given at
+               length in <title type="article" key="#Hardacre1880_SM"><emph>Scribner's
+                     Monthly</emph></title>. The relics of this <rs><persName type="nativeamerican"
+                     key="#lw">female Crusoe</persName></rs> are still to be found at <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+            <floatingText>
+               <body>
+                  <lg>
+                     <l>A tale of mother's love, so deep,</l>
+                     <l>Long solitude, self-sacrifice&#8212;</l>
+                     <l>It glorifies <rs><placeName type="island" key="#i_sn">an islet
+                              steep</placeName></rs></l>
+                     <l>That in the far Pacific lies,</l>
+                     <l>Where, 'midst despairs, and hopes, and fears,</l>
+                     <l><rs><persName type="nativeamerican" key="#lw">A woman</persName></rs> lived
+                        for <rs><date from="1835" to="1853">eighteen years</date></rs>.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>Alone her footstep trod it's [sic] strand,</l>
+                     <l>Alone she watched the pathless sea.</l>
+                     <l>Of sex marked by Creator's hand</l>
+                     <l>For kindred, love, society;</l>
+                     <l>On the small isle, <placeName type="island" key="#i_sn">St.
+                           Nicholas</placeName>;</l>
+                     <l>What fiction could such fact surpass?</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>'Twas thus: <persName type="group" key="#bhagroup">It's [sic]
+                           dwellers</persName>, scarce a source&#8212;</l>
+                     <l>Women and children, youth and age&#8212;</l>
+                     <l>Were leaving its ungenial shore&#8212;</l>
+                     <l>'Twas midst a sudden tempest's rage&#8212;</l>
+                     <l>In <rs><name type="ship" key="#sh_peoresnada">schooner sent by wise
+                              command</name></rs></l>
+                     <l>Of <orgName type="missionfathers" key="#misfats">Mission Fathers</orgName>
+                        on <placeName type="region" key="#re_mld">mainland</placeName>.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>The wind blew hard, the waves were tossed</l>
+                     <l>To fury, and, as died the day,</l>
+                     <l>Beat on the rugged rock-walled coast,</l>
+                     <l>And rolled into the open bay,</l>
+                     <l>Then rose, more mournful than the gale,</l>
+                     <l>A widow's cry, a woman's wail.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>"<rs><persName type="nativeamerican" key="#lwchild">My babe</persName></rs>!
+                        Oh God! 'tis left behind!</l>
+                     <l>'Twas in the arms, I heard and thought,</l>
+                     <l>Of sailor, that I here might find</l>
+                     <l>What most on earth I loved and sought.</l>
+                     <l>Oh! let <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> to
+                        land return;</l>
+                     <l>A mother's prayer you cannot spurn."</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>"Mark you those crested waves that break</l>
+                     <l>On rocks ere long to be our grave,</l>
+                     <l>If we no open water seek?</l>
+                     <l>To-morrow we return to save,"</l>
+                     <l><rs><persName type="group" key="#chu; #isp">The master</persName></rs> said,
+                        and gave command</l>
+                     <l>To leave at once <rs><placeName type="island" key="#i_sn">the dangerous
+                              strand</placeName></rs>.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="9"><rs><persName type="nativeamerican" key="#lw">The
+                                 frantic mother</persName></rs>, midst the roar</span></l>
+                     <l><span type="trope" n="9">Of storm-tossed wave and tempest wild,</span></l>
+                     <l><span type="trope" n="9">Leaps midst their foam, swims, drifts to
+                           shore,</span></l>
+                     <l><span type="trope" n="9">In desperate quest of <rs><persName
+                                 type="nativeamerican" key="#lwchild">her lost
+                           child</persName></rs>.</span></l>
+                     <l>Man gauges the star depths above;</l>
+                     <l>What lore can sound a mother's love?</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="3"><rs><persName type="nativeamerican" key="#lw">A
+                                 woman not devoid of grace</persName></rs>,</span></l>
+                     <l><span type="trope" n="3">Widowed, yet young, reserved in mein,</span></l>
+                     <l><span type="trope" n="3">Of medium height, of Indian race,</span></l>
+                     <l><span type="trope" n="3">Had vanished, by no eye was seen,</span></l>
+                     <l><span type="trope" n="3">For <date from="1835" to="1853">eighteen
+                              years</date>; alas! <rs><persName type="nativeamerican" key="#lwchild"
+                                 >her child</persName></rs>,</span></l>
+                     <l><span type="trope" n="3">Unfound, a prey to creatures wild.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>Vanished from sight, but not from mind;</l>
+                     <l>Who could forget that thrilling cry?</l>
+                     <l>Did she <rs><persName type="nativeamerican" key="#lwchild">the babe she
+                              sought</persName></rs> e'er find?</l>
+                     <l>Lived she, or did she, lingering die?</l>
+                     <l>Thus mused <rs><persName type="group" key="#chu; #isp">the
+                              captain</persName></rs>, vowed to seek</l>
+                     <l>Again <rs><placeName type="island" key="#i_sn">the isle and rocky
+                              creek</placeName></rs>.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><rs><name type="ship" key="#sh_peoresnada">A schooner</name></rs> in those
+                        seas alone,</l>
+                     <l>She daily plies her coasting trade,</l>
+                     <l>Whose growing wants, each day more shown,</l>
+                     <l>Cast private needs and cares in shade,</l>
+                     <l>Till she is shipwrecked, the crew all saved,</l>
+                     <l>The scene upon each heart engraved.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>Dead or alive, one Father's mind</l>
+                     <l>The question haunts year after year;</l>
+                     <l><rs><persName type="nativeamerican" key="#lw">Woman</persName></rs> or
+                              <rs><persName type="nativeamerican" key="#lwchild"
+                           >child</persName></rs> perchance to find,</l>
+                     <l>Someone to <rs><placeName type="island" key="#i_sn">that lone
+                              isle</placeName></rs> shall steer.</l>
+                     <l>Though now full <rs><date notBefore="1833" notAfter="1848">fifteen
+                              years</date></rs> had sped,</l>
+                     <l>And seek the lost, all else thought dead.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">What task, with gold to win, is hard?</span></l>
+                     <l><span type="trope" n="4">What toil will not be gladly braved?</span></l>
+                     <l><span type="trope" n="4">Ere long a bounteous reward,</span></l>
+                     <l><span type="trope" n="4">For <rs><persName type="nativeamerican"
+                                 key="#lwchild">child</persName></rs> or long-lost <rs><persName
+                                 type="nativeamerican" key="#lw">woman</persName></rs>
+                        saved,</span></l>
+                     <l><span type="trope" n="4">Secured <rs><name type="ship" key="#sh_nidever"
+                                 >another vessel small</name></rs>,</span></l>
+                     <l><span type="trope" n="4">Whose <rs><persName type="frontiersman" key="#gni"
+                                 >master</persName></rs> searched [the] island all.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Two hours, and he its limits [paced]</span></l>
+                     <l><span type="trope" n="4">In length, its breadth he trod in one;</span></l>
+                     <l><span type="trope" n="4">Fox and wild dog his keen eye traced,</span></l>
+                     <l><span type="trope" n="4">Then, hid behind a sandy dune,</span></l>
+                     <l><span type="trope" n="4">He found a curious dwelling made,</span></l>
+                     <l><span type="trope" n="4">Of ribs of whales, in circles laid.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Of human trace no more, but seal</span></l>
+                     <l><span type="trope" n="4">And otter, countless on the strand;</span></l>
+                     <l><span type="trope" n="4">Listeners at home new interest feel,</span></l>
+                     <l><span type="trope" n="4">Seal-fishers and a larger band</span></l>
+                     <l><span type="trope" n="4">Remanned the bark, which cleft the waves</span></l>
+                     <l><span type="trope" n="4">Of seventy miles, and reached those
+                        caves.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">A second time from shore to shore</span></l>
+                     <l><span type="trope" n="4"><rs><placeName type="island" key="#i_sn">The
+                                 isle</placeName></rs> is searched, midst summer's glow,</span></l>
+                     <l><span type="trope" n="4">Gay butterflies the grass flit o'er,</span></l>
+                     <l><span type="trope" n="4">The cactus blooms, the wild flowers
+                        blow.</span></l>
+                     <l><span type="trope" n="4">In vain, no further trace they found,</span></l>
+                     <l><span type="trope" n="4">Of human life its brief space round.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Six weeks they plied their fishery,</span></l>
+                     <l><span type="trope" n="4">And once <rs><persName key="#sailor1">a
+                                 sailor</persName></rs>, [']midst a gale,</span></l>
+                     <l><span type="trope" n="4">Upon a cliff, surveyed on high</span></l>
+                     <l><span type="trope" n="4"><rs><persName type="nativeamerican" key="#lw">A
+                                 moving form</persName></rs>; his cheek grew pale;</span></l>
+                     <l><span type="trope" n="4">Along the ledge it swiftly ran,</span></l>
+                     <l><span type="trope" n="4">Shouted or beckoned, ghost or man.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Then disappeared. <rs><date notBefore="1848"
+                                 notAfter="1851">Three years passed by</date></rs>,</span></l>
+                     <l><span type="trope" n="4">And just before <rs><persName type="group"
+                                 key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                 band</persName></rs> returned,</span></l>
+                     <l><span type="trope" n="4">Walking by night, their leader's eye,</span></l>
+                     <l><span type="trope" n="4">'Neath moon full orbed, that almost
+                        burned,</span></l>
+                     <l><span type="trope" n="4">So bright its blaze&#8212;still searching
+                           round,</span></l>
+                     <l><span type="trope" n="4">Saw a small footprint on soft ground.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">"<rs><persName type="nativeamerican" key="#lw">The
+                                 woman of the isle</persName></rs>, my God!</span></l>
+                     <l><span type="trope" n="4">And she lives still, these prints
+                        confess;"</span></l>
+                     <l><span type="trope" n="4">He lifts his voice, "Yes, here she
+                           trod&#8212;</span></l>
+                     <l><span type="trope" n="4">A female foot in slenderness."</span></l>
+                     <l><span type="trope" n="4">He rends the air in Spanish tongue,</span></l>
+                     <l><span type="trope" n="4">Searching ravines and rocks among.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Next morn still searched, found in a
+                        tree,</span></l>
+                     <l><span type="trope" n="4">A basket of wove rushes made,</span></l>
+                     <l><span type="trope" n="4">Filled with such useful housewifery</span></l>
+                     <l><span type="trope" n="4">As thread and needles, bone; there laid</span></l>
+                     <l><span type="trope" n="4">With robe of featherwork, fine sewn,</span></l>
+                     <l><span type="trope" n="4">And ornaments of wood and stone.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Elsewhere, a larder of dried meat,</span></l>
+                     <l><span type="trope" n="4">Secured from birds and beasts of prey;</span></l>
+                     <l><span type="trope" n="4">And wedged in clefts beneath the feet</span></l>
+                     <l><span type="trope" n="4">Dried fish, securely stowed away.</span></l>
+                     <l><span type="trope" n="4">But further sign of woman there</span></l>
+                     <l><span type="trope" n="4">No eye could trace, in earth or air.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">A few more weeks, and all prepare</span></l>
+                     <l><span type="trope" n="4">To leave <rs><placeName type="island" key="#i_sn"
+                                 >the isle</placeName></rs>, <rs><persName type="frontiersman"
+                                 key="#gni">their leader</persName></rs> sure</span></l>
+                     <l><span type="trope" n="4"><rs><persName type="nativeamerican" key="#lw">The
+                                 long-lost woman</persName></rs> still is there;</span></l>
+                     <l><span type="trope" n="4">And once more, moved by golden lure,</span></l>
+                     <l><span type="trope" n="4">He seeks again the hut of bone,</span></l>
+                     <l><span type="trope" n="4">Where once had lived some creature lone.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Again saw footsteps, and a head</span></l>
+                     <l><span type="trope" n="4">Creeping and hiding in the break;</span></l>
+                     <l><span type="trope" n="4">Some wild dogs round about it sped,</span></l>
+                     <l><span type="trope" n="4">And heard a voice to them that spake,</span></l>
+                     <l><span type="trope" n="4">At which they bounded to the hill,</span></l>
+                     <l><span type="trope" n="4">Trained, clearly, by a human will</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="4">Thus was she found, with fear half wild,</span></l>
+                     <l><span type="trope" n="4">Than most of Indian blood more fair,</span></l>
+                     <l><span type="trope" n="4"><span type="trope" n="1"><span type="trope" n="3"
+                                 >With countenance refined and mild.</span></span></span></l>
+                     <l><span type="trope" n="4"><span type="trope" n="1"><span type="trope" n="3"
+                                 >With long, thick, matted, soft brown
+                        hair;</span></span></span></l>
+                     <l><span type="trope" n="4"><span type="trope" n="1"><span type="trope" n="3"
+                                 >Shading her eyes, transfixed with dread,</span></span></span></l>
+                     <l><span type="trope" n="4"><span type="trope" n="1"><span type="trope" n="3"
+                                 >At sight of man&#8212;old memories dead.</span></span></span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="1"><span type="trope" n="3">But soon true womanhood
+                              she showed;</span></span></l>
+                     <l><span type="trope" n="1"><span type="trope" n="3">Clad in a tunic, feather
+                              formed,</span></span></l>
+                     <l><span type="trope" n="1"><span type="trope" n="3">Her heart like coals new
+                              kindle glowed.</span></span></l>
+                     <l><span type="trope" n="1"><span type="trope" n="3">As to expected guests it
+                              warmed,</span></span></l>
+                     <l><span type="trope" n="1"><span type="trope" n="3">And with her sex's social
+                              mood</span></span></l>
+                     <l><span type="trope" n="1"><span type="trope" n="3">From roasted roots she
+                              offered food.</span></span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>Found to be lost, amidst her kind,</l>
+                     <l>Lost, too, all she had known of speech,</l>
+                     <l>For soon she drooped, though glad in mind,</l>
+                     <l>By gentleness endeared to each;</l>
+                     <l>And in her noon of life she died.</l>
+                     <l>With loving hearts and homes [be]side.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="10">But not before she oft revealed,</span></l>
+                     <l><span type="trope" n="10">By signs, how passed those lingering
+                        years,</span></l>
+                     <l><span type="trope" n="10">Nor her wild grief, at first concealed,</span></l>
+                     <l><span type="trope" n="10">For <rs><persName type="nativeamerican"
+                                 key="#lwchild">her lost babe</persName></rs>, devoured her
+                           [tear]s,</span></l>
+                     <l><span type="trope" n="10">Her terror, then her deep despair,</span></l>
+                     <l><span type="trope" n="10">Then calmness, left to linger there.</span></l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l>She died, her very name unknown.</l>
+                     <l>Her place of birth, her years, her creed,</l>
+                     <l>Not without veneration shown</l>
+                     <l>For some great Spirit, sought in need;</l>
+                     <l>And, [as] she died, the good divine</l>
+                     <l>Traced on her brow the Christian's sign.</l>
+                  </lg>
+                  <p> </p>
+                  <lg>
+                     <l><span type="trope" n="8">Such is the story, every page</span></l>
+                     <l><span type="trope" n="8">As gospel in its details true</span></l>
+                     <l><span type="trope" n="8">To men well-known, advanced in age,</span></l>
+                     <l><span type="trope" n="8">Its very relics, clear to view</span></l>
+                     <l><span type="trope" n="8">Of <rs><persName type="nativeamerican" key="#lw"
+                                 >female Crusoe</persName></rs>, often told</span></l>
+                     <l><span type="trope" n="8">In <placeName type="state" key="#st_cal"
+                              >Californian land of gold</placeName>.</span></l>
+                  </lg>
+                  <p> </p>
+               </body>
+            </floatingText>
+            <byline><emph>From the <orgName type="publication" key="#wrexadv">Wrexham (Wales,)
+                     Advertiser</orgName>, <date when="1881-05-28">May 28,
+               1881</date>.</emph></byline>
+            <!--We haven't found this doc, yet, but if we find it we should link it here-->
+         </div>
+      </body>
+   </text>
+</TEI>

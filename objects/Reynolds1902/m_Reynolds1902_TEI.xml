@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#laherald">Los Angeles
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">29</biblScope>
+               <biblScope unit="issue">236</biblScope>
+               <date when="1902-05-25"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Reynolds1902">The Lost Woman of San Nicolas</title>
+                  <biblScope unit="page" from="8" to="9"/>
+                  <author><persName type="author" key="#jre">Reynolds, James E.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw"><hi rend="bold"
+                              ><emph>The</emph> Lost Woman of San
+                  Nicolas</hi></persName></rs></title></head>
+            <p>"That is <placeName type="island" key="#i_sn">San Nicolas island</placeName>, where
+                     <rs><orgName type="missionfathers" key="#misfats">the Mission
+                  fathers</orgName></rs> say <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs> lived alone, cut off from the rest of the world for
+                     <rs><date from="1835" to="1853" cert="high">neary twenty
+               years</date></rs>."</p>
+            <p><rs><persName key="#guide2">The guide</persName></rs> pointed due south to where on
+               the horizon a low, indistinct cloud could barely be discerned.</p>
+            <p>A party of sightseers had climbed up on the mountain trail north of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> to the summit of one of the
+               peaks, and had viewed with delight <rs><placeName type="city" key="#ci_sb">the little
+                     town</placeName></rs>, transfigured by distance and the height from which we
+               looked, the round foothills about it covered with the soft midwinter green, the
+               silver ribbon of the surf edging the dark blue of <rs><placeName type="region"
+                     key="#re_sbchannel">the channel</placeName></rs>, and beyond, thirty to fifty
+               miles away, yet seeming only a quarter as far, the islands of <placeName
+                  type="island" key="#i_sr">Santa Rosa</placeName>, <placeName type="island"
+                  key="#i_scruz">Santa Cruz</placeName> and <placeName type="island" key="#i_an"
+                  >Anacapa</placeName>. <rs><persName key="#guide2">The guide</persName></rs> had
+               shown us between sea and sky the dot he called <placeName type="island" key="#i_sb"
+                  >Santa Barbara island</placeName>, and then drew our attention to <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>.</p>
+            <p>He was not able to give us the particulars of the story, but next day, sitting on the
+               Mission portico overlooking the gardens, the yellow, weather-beaten walls speaking of
+               the long-ago Spanish days, we heard the pathetic tale from one who had been almost an
+               actor in it, old <persName type="missionfather" key="#fpu">Padre
+               Pujol</persName>.</p>
+            <p>"I knew <persName key="#mga">Mercedes Garciduena</persName> when she was a slip of a
+               girl attending <orgName type="mission" key="#mi_santabarbaramission">the Mission
+                  school</orgName>," said <rs><persName type="missionfather" key="#fpu">the
+                     padre</persName></rs>. "It is <rs><date notAfter="1842">more than sixty years
+                     ago now</date></rs>, yet I remember <rs><persName key="#mga">the handsome
+                     child</persName></rs> as if it were last week. She was the gayest and
+               brightest, and with all her willfullness, <rs><persName key="#mga">the best-loved of
+                     Padre Juan's pupils</persName></rs>. When she grew up and fell in love with
+                  <persName key="#pol">dashing young Pedro Olivas</persName>, it was to
+                     <rs><persName type="missionfather" key="#fpu">the old priest</persName></rs>
+               that she owed her father's reluctant consent to her marriage.</p>
+            <p>"<persName key="#pol">Pedro</persName> was the best vaquero within a hundred miles of
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and in the
+               processions on fiestas and the "Sixteenth" he was the finest rider as well as the
+               handsomest man among the caballeros. But although a really superior fellow of his
+               class, he was hardly a match for <persName key="#mga">Mercedes</persName>.
+                     <rs><persName key="#sgar">Her father</persName></rs>, a blue-blooded Spaniard,
+               who had been exiled from <placeName type="country" key="#co_mexico"
+                  >Mexico</placeName> after one of the political upheavals, felt bitter about the
+               marriage; for although poor, he was proud as <persName key="#lucifer"
+                  >Lucifer</persName>.</p>
+            <p>"As things came out, it was a great pity that the marriage ever took place; but
+               neither <persName type="missionfather" key="#pjuan">Padre Juan</persName> nor any one
+               else could foresee that after <rs><date notAfter="1846">ten years of
+                  exile</date></rs>
+               <persName key="#sgar">Senor Garciduena</persName> was to be recalled to his Mexican
+               honors, and that <rs><persName key="#pol">the son-in-law</persName></rs> whom he
+               could tolerate in poverty would be unendurable in prosperity. But so God willed it.
+                  <persName key="#mga">Mercedes</persName> had to make the hard choice between
+                     <rs><persName key="#sgar">her father</persName></rs> and <rs><persName
+                     key="#pol">her husband</persName></rs>; and loyalty refusing to leave
+                     <rs><persName key="#pol">her husband</persName></rs>, she saw <rs><persName
+                     key="#sgar">her father</persName></rs> go from her forever. It caused her the
+               deepest pain she had ever known, for although he had never been quite the same to her
+               since the marriage, she loved him passionately. Pobrecita, it was only the beginning
+               of her troubles. Bravely she choked her sobs, and smiled with the dull ache in her
+               breast, until her mind was engrossed with other cares.</p>
+            <p>"<rs><date when="1846">A month or two after the birth of <rs><persName
+                           key="#mgachild">her baby</persName></rs></date></rs>, <persName
+                  key="#pol">Pedro</persName> was given charge of a band of Indians, who were to
+               slaughter the cattle on <placeName type="island" key="#i_sn">San Nicolas</placeName>.
+               This is <rs><placeName type="island" key="#i_sn">a strange little
+                  island</placeName></rs>, with periods of fertility and barrenness. For a few years
+               it may be richly covered with alfilaria, and considering its size, is the best of
+                     <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> for
+               stock-raising. Then, without any apparent cause, the sea will pile up on the sand on
+               the beach, and the wind began to drive it inland, covering the rich pasture, and
+               making a desert of almost the whole island. Such a period had come after several
+               years of profitable stock-raising, and the cattle were to be killed for the hides and
+               tallow. As the work would take two or three months, <persName key="#mga"
+                  >Mercedes</persName> elected to go with <rs><persName key="#pol">her
+                     husband</persName></rs>.</p>
+            <p>"Just before they left, I was ordered to the <orgName type="mission" key="#mi_sf">San
+                  Francisco mission</orgName>, and only when I returned <rs><date notAfter="1851"
+                     >five years later</date></rs>, did I hear the sad story of Pedro's death and
+               Mercedes' disappearance.</p>
+            <p>"<persName key="#pol">Pedro</persName>, it appeared, having completed his work, and
+               seen to the shipment of the hides and tallow on <rs><name type="ship"
+                     key="#sh_amvessel">one of the big American vessels</name></rs> that in those
+               days came around <placeName type="region" key="#re_chorn">the Horn</placeName> to buy
+               these products, had come to <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> in <rs><name key="#sh_amvessel">a small boat</name></rs> to
+               make arrangements for bringing off his men and their families.</p>
+            <p>"It was the year <date when="1846">1846</date>, and <persName key="#pol"
+                  >Pedro</persName>, reaching <rs><placeName type="city" key="#ci_sb">the
+                     town</placeName></rs>
+               <rs><date when="1846-08">early in August</date></rs>, found it in wild excitement
+               ever the threatened American invasion. More history had been made in <rs><date
+                     from="1846-05" to="1846-08">the few months of his absence</date></rs> on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> than in
+               all his life in <placeName type="city" key="#ci_sb">Santa Barbara</placeName> before.
+               The Bear Flag rebellion had taken place, and war had now broken out between <orgName
+                  type="government" key="#gov_mexico">Mexico</orgName> and <orgName
+                  type="government" key="#gov_usa">the United States</orgName>. <persName key="#ppi"
+                  >Pio Pico</persName>, the governor, had impressed all able-bodied men into a force
+               to resist attack; and <persName key="#pol">Pedro</persName>, nothing loath, since he
+               knew all would be well on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> for a few weeks, was ordered to join the force. A few
+               days later <persName type="military" key="#sto">Commedore Stockton</persName>
+               anchored off <rs><placeName type="city" key="#ci_sb">the town</placeName></rs> and
+               demanded its surrender. When this was refused, a body of sailors landed, and in the
+               fighting that followed several men were killed. Poor Pedro's daring made him one of
+               the first victims.</p>
+            <p>"More than a month passed before <rs><name type="ship" key="#sh_peoresnada">the boat
+                     for which he had come</name></rs> could be dispatched to <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>. <persName type="group"
+                  key="#bhagroup">The Indian families</persName> were then brought over, but
+                  <persName key="#mga">Mercedes</persName> was left behind. It was a cold, damp
+               evening when <rs><name type="ship" key="#sh_peoresnada">the open boat</name></rs>
+               reached the landing place, and clouds banking up on the horizon gave promise of an
+               early storm. <rs><persName type="group" key="#chu; #isp">The captain</persName></rs>,
+               knowing that if a storm should come, it might be a week before he could land
+                  <persName type="group" key="#bhagroup">his passengers</persName> at <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, determined to put back the
+               same night, feeling secure that by sailing at once he could land before the storm
+               should break. <rs><persName key="#mgachild">Mercedes' little one</persName></rs> had
+               been ailing, and rather than expose <rs><persName key="#mga">the
+                  infant</persName></rs> to the cold and rain of the long night voyage, she said she
+               would wait until <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>
+               should return for the belongings of the camp. <rs><persName type="nativeamerican"
+                     key="#Nicolenowoman4">One of the Indian women</persName></rs> wished to remain
+               with her, but <persName key="#mga">Mercedes</persName> refused to separate her from
+                  <persName type="group" key="#bhagroup">her friends</persName>. <rs><name
+                     type="ship" key="#sh_peoresnada">The boat</name></rs> was expected to return in
+               a few days; and in the confusion of the hurried embarkation, the cruelty of leaving
+               her alone with the heart-breaking news <rs><name type="ship" key="#sh_peoresnada">the
+                     boat</name></rs> had brought, was little noticed by <persName type="group"
+                  key="#bhagroup">the stolid Indians</persName> and <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >the rough boatmen</persName></rs>.</p>
+            <p>"The troublous times caused the elapse of two weeks before <rs><name type="ship"
+                     key="#sh_peoresnada">the boat</name></rs> again set out for <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>; <persName
+                  type="missionfather" key="#pjuan">Padre Juan</persName>, consumed with anxiety for
+                  <persName key="#mga">Mercedes</persName>, went with it; but on reaching
+                     <rs><placeName type="island" key="#i_sn">the island</placeName>
+               </rs>, he could find no trace of <persName key="#mga">Mercedes</persName> and
+                     <rs><persName key="#mgachild">her babe</persName></rs>. The crew spent two days
+               in gathering up the effects of the camp, and <persName type="missionfather"
+                  key="#pjauan">Padre Juan</persName> searched high and low without avail. In the
+               house she had occupied moldy fragments of food, rusted cooking utensils and the dust
+               gave evidence that she had been absent many days. Knowing that boats from <placeName
+                  type="city" key="#ci_sp">San Pedro</placeName> sometimes visited <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, the sailors concluded
+               she had been taken to <placeName type="region" key="#re_mld">the mainland</placeName>
+               by one of them; and with this hope <persName type="missionfather" key="#pjuan">Padre
+                  Juan</persName> was obliged to content himself.</p>
+            <p>"Inquiries up and down <placeName type="region" key="#re_socalcoast">the mainland
+                  coast</placeName>, however, failed to get any response that would throw light upon
+               her disappearance. Never a word came to disclose the fate of <rs><persName key="#mga"
+                     >the poor girl</persName></rs>. It remained one of the dark mysteries of the
+               sea. Some thought a smuggling vessel might have picked her up and carried her to a
+               far distant land. Smugglers were not uncommon, although <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName> is farther out than they usually thought it
+               necessary to stay. The favorite theory among the people of <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> was that <persName key="#mga"
+                  >Mercedes</persName>, alone on <rs><placeName type="island" key="#i_sn">that
+                     desolate isle</placeName></rs>, brooding over her father's relentlessness,
+               Pedro's death and her child's illness, became unbalanced and destroyed both
+                     <rs><persName key="#mgachild">her baby</persName></rs> and herself.</p>
+            <p>"Padre Juan's declining years were clouded and his life shortened by the tragic fate
+               of <rs><persName key="#mga">his favorite</persName></rs>. He spent much of his time
+               in making inquiries among such travelers and seafaring men as came to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>. Especially he cultivated the
+               smugglers and their friends. As his hopes died away, he sunk into apathy, hardly
+               noticing anything about him, and rousing himself only to ask <rs><orgName
+                     type="missionfathers" key="#misfats">his brothers of the Mission</orgName></rs>
+               whether he had been to blame for his part in bringing about Mercedes' marriage. He
+               died within two years, and was buried at his request in the mound yonder overlooking
+               the sea.</p>
+            <p>"Years and years passed away. In the many alterations brought by the American, the
+               discovery of gold, the great influx of people and the changes in the mode of life,
+                     <rs><placeName type="island" key="#i_chi">the smaller islands</placeName></rs>
+               were almost forgotten, and the story of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> became a faint memory. So far as is known <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> was never visited again
+               until the spring of <date when="1864">1864</date> a party from <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> explored the lesser islands in quest of
+               game.</p>
+            <p>"Finding the rocks and coves of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> thickly peopled with otters, <rs><persName type="group"
+                     key="#gni; #tje; #natam_missionindians">the hunters</persName></rs> remained
+               several days. <rs><persName type="frontiersman" key="#tje">One of
+                  them</persName></rs>, going a mile or so into the interior, found a rude hut built
+               against a huge rock overlooking a little valley. In front of the hut a fireplace
+               contained the ashed of a recent fire, and hanging inside was what appeared to be the
+               dress of a woman. Before leaving <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>
+               <rs><persName type="group" key="#gni; #tje; #natam_missionindians">all the
+                     party</persName></rs> went to see the place. They concluded it must have been
+               the camp of hunters that had been there but a short time before, and they wondered at
+               the smallness of the hut, its air of permanency, and more than all, at the old
+               dress.</p>
+            <p>"When they returned to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               and told what they had seen, the story of <persName key="#mga">Mercedes
+                  Garciduena</persName> was revived. A painful interest stirred the community.
+               People that remembered <rs><persName key="#mga">the bright, handsome
+                  girl</persName></rs>, her happy childhood, sorrowful wedded life and strange
+               disappearance looked at one another with the question in their eyes they could hardly
+               put into words. <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva; #pjaun">A
+                     party</persName></rs> was quickly made up to go to <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> and search it from end to end. I was
+               asked to be one of the party, because, of the few now left of those who had known and
+               loved her in the happy days of her youth, I seemed to be the nearest.</p>
+            <p>"Never can I forget the morning we found her. One of those beautiful spring mornings
+               when the sea is laughing, the sky cloudless, the poppies and lilies gathered in tens
+               of thousands to dance their joy, as if earth had no such thing as sorrow. The sands
+               had retreated from <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs>, and once again it was a garden of loveliness. It seemed a
+               mockery that this should be the scene of such a story."</p>
+            <p><rs><persName type="missionfather" key="#pjuan">The priest</persName></rs> paused,
+               gazing for some moments into vacancy, his eyes filling with tears. Then, before he
+               went on, he spent some time in counting the beads of his rosary.</p>
+            <p>"Poor lost <persName key="#mga">Mercedes</persName> was found. But <rs><persName
+                     key="#mga">the gay and handsome Spanish girl</persName></rs> we knew <rs><date
+                     from="1846" to="1864">eighteen years</date></rs> before was <rs><persName
+                     key="#mga">an aged, decrepit woman</persName></rs>, her once bright faculties
+               heavy and dull. We found her within a mile of the western end of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, where we landed.
+                     <rs><persName type="seaman" key="#gni">The captain</persName></rs> and I came
+               suddenly upon her seated in a camp formed by a low wall of rocks. She was weaving
+               willow shoots together, making a kind of basket. Her dress was of feathers held in a
+               network of sinew cords. Under a roof of boughs in a corner of the enclosure hung the
+               dress of faded cloth, which the hunters had seen, and which had evidently been
+               carefully kept during her <rs><date from="1846" to="1864">eighteen years of
+                     solitude</date></rs>. Who shall tell why?</p>
+            <p>"<rs><persName type="group" key="#msh; #poli; #nsk; #hva">Two or three of the
+                     men</persName></rs>, extended in a line across the valley, were gradually
+               approaching, and, watching these attentively, she did not at first perceive us. When
+               at last we called her attention to ourselves, she at once arose, without any sign of
+               fear or surprise, and making a curtsey, gave us a smiling welcome as she beckoned us
+               into the camp. In speaking with her we found that while she apparently understood all
+               we said, her speech was to us unintelligible.</p>
+            <p>"When <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva; #pjaun">the
+                     party</persName></rs> had assembled and we asked her to go down to <rs><name
+                     type="ship" key="#sh_nidever">the boat</name></rs>, she hesitated with a look
+               of perplexity; then, going outside, she began to pick the flowers. Having gathered a
+               large bunch, she walked about fifty yards away and knelt down. We followed her
+               movements curiously. Unable to see what she was doing, we drew nearer, and then saw
+               she had spread the flowers over a little mound surmounted by a rude cross. In a few
+               minutes she was ready to go.</p>
+            <p>"Arrived here, the whole people, Spanish and American, those who had known her in the
+               old days as well as those who had come since, seemed to vie with each other to make
+               pleasant the rest of her life. But there was little that could be done. Her wants
+               were few, and her mind remained darkened, only gentleness and a desire to do little
+               kindnesses showing itself like an instinct. She was never able to give a clear
+               account of her life upon <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. In a few months she sickened and died, and attended by
+               the whole population in funeral procession, she was laid to rest by the side of
+                  <persName type="missionfather" key="#pjuan">Padre Juan</persName>, who loved her
+               so well, and had sorrowed for her so grievously.</p>
+            <p>"God rest her soul," said <rs><persName type="missionfather" key="#fpu">the
+                     padre</persName></rs>, in conclusion, and we all reverently echoed "Amen."</p>
+            <byline><persName type="author" key="#jre">JAMES E. REYNOLDS</persName>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>
