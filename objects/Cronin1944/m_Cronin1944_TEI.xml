@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#priestly">Priestly
+                     Studies</orgName></title>
+               <editor/>
+               <biblScope unit="volume" n="12"/>
+               <biblScope unit="issue" n="2"/>
+               <date when="1944"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName><placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Cronin1944">Juana Maria</title>
+                  <biblScope unit="page" from="68" to="75"/>
+                  <author><persName type="author" key="#bcr">Cronin, Blaise</persName></author><date
+                     when="1944"/>
+                  <note type="supplied">Sara can put note here</note>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">Juana
+                        Maria</persName></rs></title></head>
+            <byline><persName type="missionfather" key="#bcr">BLAISE P. CRONIN</persName>,
+               O.F.M.</byline>
+            <p><note place="top"><emph>The recent discovery of a long-lost document in the
+                        <placeName key="#sbmarchive">Santa Barbara Mission Archives</placeName>
+                     calls for a recounting of the authentic story of <rs><persName
+                           type="nativeamerican" key="#lw">a long-lost Indian Woman</persName></rs>,
+                        <persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName>.</emph></note></p>
+            <p>A burial register might seem a strange place to get a thrill. But death record no.
+               1183, in an aged burial register at <orgName type="misson"
+                  key="#mi_santabarbaramission">the Old Mission Santa Barbara</orgName>, is not just
+               an ordinary tombstone write-up, beginning simply with a name, continuing with two
+               dates and closing with a "requiescat." Behind entry 1183 is a story thrilling as an
+               epic; a love "strong as death;" a strange incident haunting the shadowy region which
+               separates fact from fiction.</p>
+            <p><span type="trope" n="5">The story is almost unbelievable. It sounds like something
+                  from between the covers of a fairy tale book.</span> As told by <rs><persName
+                     key="#cdi; #gni">the two California pioneers</persName></rs> who played the
+               major roles in its climax, it came in time to be looked upon by some as a good yarn
+               -- such as only men of the sea can conjure up -- and nothing more.</p>
+            <p>The story is that of <rs><persName type="nativeamerican" key="#lw">an abandoned
+                     Indian girl</persName></rs>, <rs><persName type="nativeamerican" key="#lw"
+                     >Juana Maria</persName></rs>. The only extant authentic accounts of her strange
+               adventure are those of <persName type="frontiersman" key="#gni">Captain George
+                  Nidever</persName> and <persName type="frontiersman" key="#cdi">Charles
+                  Dittmann</persName> (alias, "<rs><persName type="frontiersman" key="#cdi">Charley
+                     Brown</persName></rs>") whose narratives have all the fresh qualities of being
+               those of eye-witnesses. The strange tale needs no romantic back-drops or highly
+               dramatic embellishments. In itself it contains all the elements of tragedy, romance,
+               nobility, courage and even a touch of the humorous.</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> provides the
+               locale of the life of <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs>. This <rs><placeName type="island" key="#i_sn">lonely,
+                     desolate and windswept isle</placeName></rs> lies 70 miles almost directly
+               south of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, being 120
+               miles directly west of the California costal city of <placeName type="city"
+                  key="#ci_os">Oceanside</placeName>.</p>
+            <p><rs><placeName type="island" key="#i_sn">The island</placeName></rs> once had
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a swarming
+                     Indian population</orgName></rs>. <span type="trope" n="3">Where <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">these
+                        Indians</orgName></rs> came from is not known, but writers (with what proof
+                  it is difficult to say), speak of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">these Indians</orgName></rs> being of a superior
+                  physical make-up; the women being tall, light-complexioned and handsome. Remains
+                  and relics indicate <orgName type="nativeamericantribes" key="#natam_aztec"
+                     >Aztec</orgName> or <orgName type="nativeamericantribes" key="#natam_toltecs"
+                     >Toltec</orgName> origin, and this would account for Juana Maria's fair
+                  features and pleasing manners.</span> How <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the numerous population of this
+                  island</orgName></rs> dwindled to the meager 20 or so <persName type="group"
+                  key="#bhagroup">natives</persName> by the year <date when="1835">1835</date> is
+               variously conjectured. <span type="trope" n="11">The common opinion is that
+                        <rs><persName type="group"
+                        key="#rfurcompany; #natam_aleuts; 
+                  #natam_kodiak">the
+                        savage North West Indians</persName></rs> frequently raided the
+                        <rs><placeName type="island" key="#i_chi">islands of the Santa Barbara
+                        Channel</placeName></rs>.</span> The only available information on this
+               point is given on page 255 in the <title type="monograph" key="#Mason1883">History of
+                  Santa Barbara County</title> (documentation is not given).</p>
+            <p>"In <date when="1811">1811</date>
+               <rs><name type="ship" key="#sh_charon">a ship</name></rs> owned by <orgName key="#bp"
+                  >Boardman and Pope</orgName>, of <placeName type="city" key="#ci_boston"
+                  >Boston</placeName>, commanded by <persName type="seaman" key="#whi">Captain
+                  Whittemore</persName>, trading on <rs><placeName type="region" key="#re_calcoast"
+                     >this coast</placeName></rs>, took from the port of <placeName type="city"
+                  key="#ci_si">Sitka, Russian America</placeName>, <orgName
+                  type="nativeamericantribes" key="#natam_kodiak">about 30 Kodiac Indians</orgName>,
+               a part of <rs><orgName type="nativeamericantribes" key="#natam_kodiak">the hardy
+                     tribe</orgName></rs> inhabiting the <rs><placeName type="island" key="#i_ko"
+                     >island of Kodiac</placeName></rs>, to <rs><placeName type="island"
+                     key="#i_chi">the islands of the Santa Barbara Channel</placeName></rs>, for the
+               purpose of killing sea-otter, which were then very numerous. <persName type="seaman"
+                  key="#whi">Captain Whittemore</persName>, after landing <rs><orgName
+                     type="nativeamericantribes" key="#natam_kodiak">the Kodiacs</orgName></rs> on
+                     <rs><placeName type="island" key="#i_chi">these islands</placeName></rs>, and
+               placing in their hands fire-arms and the other necessary implements of the chase,
+               sailed away to the <placeName type="region" key="#re_baja">lower coast of
+                  California</placeName> and <placeName type="region" key="#re_southamerica">South
+                  America</placeName>. <span type="trope" n="11">In the absence of <rs><name
+                        type="ship" key="#sh_charon">the ship</name></rs>, a dispute arose between
+                        <rs><orgName type="nativeamericantribes" key="#natam_kodiak">the
+                        Kodiacs</orgName></rs> and <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the natives of the islands</orgName></rs>,
+                  originating in the seizure of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the females</orgName></rs> by <rs><orgName
+                        type="nativeamericantribes" key="#natam_kodiak">the former</orgName></rs>.
+                        <rs><orgName type="nativeamericantribes" key="#natam_kodiak">The
+                        Kodiacs</orgName></rs> possessing more activity, endurance, and knowledge of
+                  war, and possessing superior weapons, slaughtered the males without mercy, old and
+                  young. On the <placeName type="island" key="#i_sn">island of San
+                     Nicholas</placeName> not a male, old or young, was spared.</span>
+               <rs><date notBefore="1811" notAfter="1812">At the end of a year</date></rs>,
+                  <persName type="seaman" key="#whi">Captain Whittemore</persName> returned to
+                     <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>, took
+                     <rs><orgName type="nativeamericantribes" key="#natam_kodiak">the
+                     Kodiacs</orgName></rs> on board and carried them back to <placeName type="city"
+                  key="#ci_si">Sitka</placeName>."</p>
+            <p>In the year <date when="1835">1835</date>
+               <persName type="group" key="#bhagroup">the remnant of Indians still surviving on San
+                  Nicolas Island</persName> watched the labored action of <rs><name type="ship"
+                     key="#sh_peoresnada">a 20 ton ship</name></rs> headed for the shore. Perhaps
+               they wondered if it would make it, for <rs><name type="ship" key="#sh_peoresnada">the
+                     ship</name></rs> went under the not too complimentary name of "Peor es Nada."
+               Depending on the degree of excellence you care to attribute to <rs><name type="ship"
+                     key="#sh_peoresnada">this sea-going schooner</name></rs>, you may translate her
+               name: "better than nothing," "worse than nothing," or "there is nothing worse." There
+               is no eye-witness account of the exact nature of events that followed upon the
+               arrival of the "<name type="ship" key="#sh_peoresnada">Peor es Nada</name>."
+                  <persName type="frontiersman" key="#gni">Nidever</persName> received an account of
+               the events from <persName type="investor" key="#isp">Isasc Sparks</persName> who had
+               chartered <rs><name type="ship" key="#sh_peoresnada">the vessel</name></rs> for this
+               trip. But <persName type="frontiersman" key="#gni">Nidever</persName> tells us that
+               he cannot remember the exact details, though he is under the impression that
+                  <persName type="investor" key="#isp">Sparks</persName> told him it happened in the
+               following manner. They were to remove <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs> from <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, and this was being done
+               under the authorization of someone in <placeName type="city" key="#ci_la">Los
+                  Angeles</placeName>. <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">The Indians</orgName></rs> had been gathered
+               together at the beach preparatory to embarking on the "<name type="ship"
+                  key="#sh_peoresnada">Peor es Nada</name>" when <rs><persName type="nativeamerican"
+                     key="#lw">one of the women</persName></rs> made signs that she was going back
+               to her rancheria for <rs><persName type="nativeamerican" key="#lwchild">her
+                     child</persName></rs> who had been overlooked in the confusion. While
+                     <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>
+               was looking for <rs><persName type="nativeamerican" key="#lwchild">her
+                     child</persName></rs> a strong wind sprang up. <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >The sailors</persName></rs>, fearing for the safety of <rs><name type="ship"
+                     key="#sh_peoresnada">the schooner</name></rs>, put off from shore and ran
+               before the wind.</p>
+            <p>This simple account of the abandoning of the unfortunate <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs> to a solitary life
+               on <rs><placeName type="island" key="#i_sn">a lonely isle</placeName></rs> has been
+               variously amplified -- but with what basis it is difficult to determine. <persName
+                  type="author" key="#eha">Mrs. Hardacre</persName>, <title type="article"
+                  key="#Hardacre1880_SM">writing in the September 1880 edition of Scribner's
+                  Monthly</title>, depicts the storm as already reaching a violent stage before
+                     <rs><name type="ship" key="#sh_peoresnada">the vessel</name></rs> even landed.
+               In the consequent confusion and excitement in evacuating <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>, <rs><persName type="nativeamerican"
+                     key="#lwchild">the child of Juana Maria</persName></rs> was left behind.
+                     <rs><persName type="nativeamerican" key="#lw">The mother</persName></rs> did
+               not discover that <rs><persName type="nativeamerican" key="#lw">her
+                  child</persName></rs> was missing until she was already aboard the "<name
+                  type="ship" key="#sh_peoresnada">Peor es Nada</name>." <span type="trope" n="9"
+                  >Frantically she pleaded with <rs><persName type="group" key="#chu; #isp">the
+                        captain</persName></rs>, but to no avail. She became desperate, and jumping
+                  overboard struck out through "the kelpy waters for the shore</span>." No one made
+               any attempt to save her, and "in a moment she was lost in the seething waves" as the
+                     "<rs><name type="ship" key="#sh_peoresnada">ship</name></rs> staggered through
+               the waves." The magazine <orgName type="publication" key="#camag"
+                  >Californian</orgName>, in <title type="article" key="#Gibbons1893">its Oct.
+                  edition of <date when="1893-10">1893</date></title>, carried <title type="article"
+                  key="#Gibbons1893">an article</title> by <persName type="author" key="#jgi">James
+                  Gibbons</persName>, in which <rs><persName type="author" key="#jgi">the
+                     author</persName></rs> remarks that from the reports handed down we can infer
+               that <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+               returned to the shore before <rs><name type="ship" key="#sh_peoresnada">the
+                     schooner</name></rs> was at any great distance. <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >The sailors</persName></rs> made signs to her that they would be back
+               "manana." "She put her head on the ground and laid on the ground and cried; and they
+               never came back." And then <persName type="author" key="#fhdud">Mrs.
+                  Dudley</persName>, in an article entitled, "The Tragedy of San Nicholas Island,"
+               published in <orgName type="publication" key="#satpostla">the Saturday Post</orgName>
+               of <date when="1901-06-01">June 1, 1901</date>, represents <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs> as having two
+               children. She writes that as the last boat was to push off from shore, "<rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> with <rs><persName
+                     type="nativeamerican" key="#lwchild">a young babe</persName></rs> in her arms
+               sprang on shore. <rs><persName type="nativeamerican" key="#lwchild">Her little
+                     girl</persName></rs>, a child of 8 years, had slipped from her side in the
+               confusion -- gone possibly in search of some remembered trinket dear to her childish
+               heart -- or perhaps overcome with terror at the unusual migration of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                  people</orgName></rs>." And thus has immagination added its bit to the story.</p>
+            <p>Returning to <title type="manuscript" key="#Nidever1878">the Nidever account</title>
+               (the only reliable one of the lot), we find that <rs><persName type="group"
+                     key="#chu; #isp">the commander of the schooner</persName></rs> did intend to
+               return to <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. But
+                     <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs>, which was in
+               popular demand, was ordered immediately to <placeName type="city" key="#ci_mo"
+                  >Monterey</placeName> to carry a load of lumber to <placeName type="city"
+                  key="#ci_sf">San Francisco</placeName>. Entering <placeName type="region"
+                  key="#re_thegoldengate">the Golden Gate</placeName> the "<name type="ship"
+                  key="#sh_peoresnada">Peor es Nada</name> capsized and washed out to sea. <span
+                  type="trope" n="12">There was now no other vessel on <rs><placeName type="region"
+                        key="#re_calcoast">the coast</placeName></rs> that was fit to attempt the
+                  trip to <placeName type="island" key="#i_sn">San Nicolas</placeName>.</span>
+               <span type="trope" n="8">This sealed the fate of <rs><persName type="nativeamerican"
+                        key="#lw">Juana Maria</persName></rs>, and destined her to a life that was
+                  to make that of <name type="fictional" key="#rcr">Robinson Crusoe</name> look like
+                  a picnic in comparison.</span></p>
+            <p><span type="trope" n="8">The <placeName type="island" key="#i_sn">Island of San
+                     Nicolas</placeName> was a far cry from any romantic environ of <rs><placeName
+                        type="island" key="#i_jf">a South Sea island</placeName></rs>, and could by
+                  no stretch of the imagination be termed a little bit of heaven that fell out of
+                  the blue one day.</span> Though calm and serene at certain seasons, the
+               surrounding waters were not so throughout the entire year. <span type="trope" n="5">A
+                  good idea of the climatic conditions of <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> is given by <persName type="author" key="#sbo"
+                     >Stephen Bowers</persName>, Ph. D., who wrote in the</span>
+               <title type="article" key="#Bowers1892">Ventura Observer, <date when="1892-12-20"
+                     >Dec. 20, 1892</date></title>.</p>
+            <p>"<span type="trope" n="5"><title type="article" key="#Bowers1892"><rs><persName
+                           type="author" key="#sbo">The writer</persName></rs> spent 3 weeks on
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in
+                        <date when="1889-10">October 1889</date>, and several times during his stay
+                     saw the sea lashed into fury, the waves and spray rolled up 30 feet high, and
+                     dashed against the rock-ribbed shore with a noise like thunder, and seemed to
+                     cause the very atmosphere to tremble. Never before had we witnessed such a wild
+                     and fierce struggle of the waves, though for many years accustomed to the
+                     ocean. One whole day and two nights we could not leave our tent, which was
+                     securely anchored to the side of a hill, because of the high wind and drifting
+                     sand</title></span>."</p>
+            <p><rs><placeName type="island" key="#i_sn">This desolated island</placeName></rs>, with
+               its roaming wild dogs and extremes of weather, was "home" to <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs> for <rs><date
+                     from="1835" to="1853" cert="high">18 years</date></rs>. And up and down
+                     <rs><placeName type="region" key="#re_calcoast">the coast</placeName></rs> it
+               was known that <rs><persName type="nativeamerican" key="#lw">an Indian
+                     woman</persName></rs> had been aban-doned on <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>. But nothing was done to ascertain the
+               nature of her fate. Time rolled on, and all believed she was dead.</p>
+            <p>Seventeen years later, in <date when="1852">1852</date>, <persName
+                  type="frontiersman" key="#gni">Captain George Nidever</persName>, having purchased
+                     <rs><name type="ship" key="#sh_nidever">a schooner</name></rs> of his own, made
+               a trip to <placeName type="island" key="#i_sn">San Nicolas</placeName> for seagull
+               eggs which were in great demand at the time. Arriving in the early morning he and
+                     <rs><persName type="frontiersman" key="#cdi">a companion</persName></rs> walked
+               up the beach and found at a short distance from the shore footprints made by a human
+               being. They were well-defined in the mud and quite small, evidently those of a woman.
+               Further on they found circular huts, but these showed no signs of recent use. Outside
+               these huts, however, they found stakes containing seal blubber which <persName
+                  type="frontiersman" key="#gni">Nidever</persName> conjectured to be about 4 months
+               old. They had seen enough to convince them of the existence of some human being and
+               intended to make a further search -- but the invariable gale arose and they were hard
+               pressed to get <rs><name type="ship" key="#sh_nidever">the ship</name></rs> back to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. When <persName
+                  type="missionfather" key="#jru">Fr. Gonzalez Rubio</persName> of <rs><orgName
+                     type="mission" key="#mi_santabarbaramission">the Old Mission</orgName></rs>
+               heard of the discovery he requested <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> to make a thorough search for <rs><persName
+                     type="nativeamerican" key="#lw">the long lost woman</persName></rs>.</p>
+            <p>In <rs><date notBefore="1852-12" notAfter="1853-02">the winter of the same
+                     year</date></rs>
+               <persName type="frontiersman" key="#gni">Nidever</persName> fitted out for another
+               trip to <placeName type="island" key="#i_sn">San Nicolas</placeName>. This time he
+               took along <persName type="frontiersman" key="#cdi">Carl Dittmann</persName>. As
+                  <persName type="frontiersman" key="#cdi">Dittmann</persName> and <persName
+                  type="frontiersman" key="#gni">Nidever</persName> were walking up <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, they found in the crotch
+               of one of the bushes a basket woven of grass. It contained a gown made of the skin of
+               the shag (cormorant), bone needles, a sinew rope and some fishhooks made of abalone
+               shells. After examining the things they were on the point of replacing them when it
+               occurred to <persName type="frontiersman" key="#gni">Nidever</persName> to scatter
+               them about. If they found them replaced when they made their next visit, they would
+               know for certain that <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> still lived. But a strong wind caused the swells to run
+               so heavy that they had to sail to <placeName type="island" key="#i_sm">San Miguel
+                  Island</placeName>.</p>
+            <p>In <date when="1853">1853</date>
+               <persName type="frontiersman" key="#gni">Nidever</persName> again made the trip to
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. This time
+               he had in his crew, besides <persName type="frontiersman" key="#cdi"
+                  >Dittmann</persName>, an Irishman called "<rs><persName type="frontiersman"
+                     key="#col">Colorado</persName></rs>," and <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">four Mission Indians</persName></rs>.
+                  <persName type="frontiersman" key="#cdi">Dittmann</persName> remarks in <title
+                  type="manuscript" key="#Dittman1878">his manuscript</title> that <persName
+                  type="frontiersman" key="#gni">Nidever</persName> was not very sanguine about
+               finding <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>, as
+               he had come to the conclusion that the wild dogs had devoured her. After landing on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, <persName
+                  type="frontiersman" key="#gni">Nidever</persName> and <persName
+                  type="frontiersman" key="#cdi">Dittmann</persName> walked a good 6 miles up the
+               beach to the head of <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> where they again discovered footprints. But the approach
+               of evening forced them to return to <rs><name type="ship" key="#sh_nidever">the
+                     ship</name></rs>. In the simple account each of <rs><persName key="#cdi; #gni"
+                     >the pioneers</persName></rs> gives of the events of this first day, there is
+               nothing of the romantic quality of <title type="article" key="#Hardacre1880_SM">Mrs.
+                  Hardacre's narrative</title>: <rs><persName key="#gni; #cdi">the two
+                     sailors</persName></rs> strolling down the beach enjoying their pipes; the
+               limpid <placeName type="state" key="#st_cal">California</placeName> night; the moon
+               burning with an amber hue; the fragrance in the air. "<span type="trope" n="4">As
+                        <rs><persName key="#cdi; #gni">the comrades</persName></rs> were about to
+                  retrace their steps, <persName type="frontiersman" key="#gni">Nidever</persName>
+                  stopped, looked quickly about him, then stooped and closely examined something on
+                  the ground. In the weird moonlight, plainly outlined on the lonely shore, was the
+                  print of a slender, naked foot. '<rs><persName type="nativeamerican" key="#lw">The
+                        woman of San Nicolas</persName></rs>! My God, she is living.'</span>" --
+               Well, at least it sounds good.</p>
+            <p>Immediately after breakfast the following morning, <rs><persName
+                     key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">the entire
+               crew</persName></rs>, with the exception of <rs><persName type="nativeamerican"
+                     key="#cook">the cook</persName></rs>, began what was to be a memorable day.
+                  "<persName type="frontiersman" key="#col">Colorado</persName>" and <rs><persName
+                     type="group" key="#msh; #poli; #nsk; #hva">the three Indians</persName></rs>
+               struck out over the sandy stretch where on the previous trip the grass basket with
+               its gown and bone needles had been found. This they found with its contents carefully
+               replaced. In the meantime <persName type="frontiersman" key="#cdi"
+                  >Dittmann</persName> and <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> went off in another direction. When <persName
+                  type="frontiersman" key="#gni">Nidever</persName> grew tired and sat down to rest,
+                     <rs><persName type="frontiersman" key="#cdi">Charley Brown</persName></rs>
+               (Dittmann) continued his search around the head of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> and up to the top of the ridge. From
+               this vantage point <persName type="frontiersman" key="#cdi">Dittmann</persName>
+               espied something far up ahead which he thought to be a crow -- and whatever it was it
+               definitely moved. Approaching cautiously he discovered it to be <rs><persName
+                     type="nativeamerican" key="#lw">the Indian woman</persName></rs>.</p>
+            <p>She was facing in the opposite direction and hence did not notice him, though she
+               apparently looked up every now and then and shaded her eyes to watch <rs><persName
+                     key="#col; #msh; #poli; #nsk; #hva">the men</persName></rs> searching down on
+               the sandy stretch. Her dress was a garment made of skins of the shag with the
+               feathers pointing downwards. This sleeveless gown reached to her ankles, and was
+               girded about the middle with a rope of sinew.</p>
+            <p><persName type="frontiersman" key="#cdi">Dittmann</persName> attracted the attention
+               of <rs><persName key="#col; #msh; #poli; #nsk; #hva">the other men</persName></rs> by
+               holding aloft his hat on the end of a ramrod and waving it up and down. <span
+                  type="trope" n="1"><rs><persName key="#col; #msh; #poli; #nsk; #hva">The
+                        men</persName></rs> approached from the front, and <rs><persName
+                        type="nativeamerican" key="#lw">the Indian woman</persName></rs> watched
+                  them without being in the least disturbed or excited. While <rs><persName
+                        key="#col; #msh; #poli; #nsk; #hva">the men</persName></rs> circled about in
+                  order to prevent her escape, <persName type="frontiersman" key="#cdi"
+                     >Dittmann</persName> stepped from the screening bushes and confronted her. He
+                  expected her to register alarm; to his surprise she bowed and smiled and seemed
+                  delighted to see him, apparently no more affected than if his visit were an
+                  everyday occurrence. She kept up a rapid conversation with herself, nobody
+                  understanding a word. As each of <rs><persName key="#col; #msh; #poli; #nsk; #hva"
+                        >the men</persName></rs> approached she bowed, smiled and spoke to
+                  them.</span></p>
+            <p><span type="trope" n="1"><rs><persName key="#cdi; #col; #msh; #poli; #nsk; #hva">The
+                        searchers</persName></rs> then signaled <persName type="frontiersman"
+                     key="#gni">Nidever</persName> who came to the ridge and received the same
+                  cordial welcome. Immediately she set about to prove herself quite a hostess by
+                  roasting some roots which she passed around to <rs><persName
+                        key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">the men</persName></rs>,
+                  indicating that they should eat.</span></p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> gives a description of
+               her as she appeared when discovered. She was heavy-set and of medium height,
+               appearing to be about fifty years old. Her features were pleasing and were made more
+               so by the fact that she was continually smiling. Though she was missing no teeth they
+               were badly worn, due probably to her constant diet of seal blubber. Her hair was a
+               dull brown color and was thickly matted.</p>
+            <p>Since <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the Fathers at
+                     the Santa Barbara Mission</persName></rs> had requested her return, <persName
+                  type="frontiersman" key="#gni">Nidever</persName> attempted to convey to her the
+               idea of departure; but she did not seem to understand what he meant. <persName
+                  type="frontiersman" key="#cdi">Dittmann</persName>, being a little better at
+               pantomine, went through the motions of packing her things, placing them on his back
+               and heading for the beach. At the same time he said "vamos." This she apparently
+               understood, for <persName type="frontiersman" key="#cdi">Dittman</persName> writes:
+               "upon hearing it her face brightened up and she set to work with alacrity to get
+               ready." <rs><persName key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">The
+                     men</persName></rs> had their hands full because she took practically
+               everything she had. When they reached the beach she climbed in to <rs><name
+                     type="ship" key="#sh_nidever">the small rowboat</name></rs> without any
+               hesitation, and then crawled forward on hands and knees to the bow where she knelt
+               holding on to both sides. That afternoon <persName type="frontiersman" key="#cdi"
+                  >Dittmann</persName> set to work on a petticoat for <rs><persName
+                     type="nativeamerican" key="#lw">the rescued woman</persName></rs>. The sum
+               total of his labor ended in an ensemble which consisted of a skirt, a man's shirt, a
+               black necktie and an old coat. This was her apparel during the following month she
+               remained with <rs><persName key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >the men</persName></rs> on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>.</p>
+            <p>That <rs><persName type="nativeamerican" key="#lw">the rescued woman</persName></rs>
+               had seen hard times was evidenced from fact that she saved every bone and scrap. From
+               this private store gradually accumulated she would from time to time extricate the
+               bones, sucking them over and over. <span type="trope" n="3">Though her <rs><date
+                        from="1835" to="1853" cert="high">18 years</date></rs> of solitude had been
+                  trying she still retained a heart that was young, and gay, and could find
+                  amusement in the smallest things. A baby otter <rs><persName
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> killed and stuffed afforded her great amusement.</span></p>
+            <p>After a month of hunting <rs><persName
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                  rescuers</persName></rs> and <rs><persName type="nativeamerican" key="#lw"
+                     >rescued</persName></rs> headed back for <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName>. A short distance from <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>
+               <rs><name type="ship" key="#sh_nidever">the vessel</name></rs> ran into one of those
+               invariable storms. <span type="trope" n="1">When the wind began to blow strongly
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> gave
+                  evidence of her belief in a supernatural power. She made signs to <rs><persName
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> that she would quiet the wind and waves. She knelt for
+                  sometime, apparently engaged in prayer. When the wind finally abated she looked at
+                        <rs><persName key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        men</persName></rs> and smiled, as if to say that her prayers had really
+                  brought about the quieting of the storm.</span></p>
+            <p><rs><name type="ship" key="#sh_nidever">The ship</name></rs> finally put into
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and the news of her
+               rescue spread rapidly. Half <rs><placeName type="city" key="#ci_sb">the
+                     town</placeName></rs>, including Fathers <persName type="missionfather"
+                  key="#sanchez">Sanchez</persName>, <persName type="missionfather" key="#jru"
+                  >Gonzalez</persName>, and <persName type="missionfather" key="#aji"
+                  >Jimeno</persName>, was at <placeName key="#nideverhouse">Nidever's
+                  house</placeName> that night. During the following weeks <rs><persName
+                     type="group" key="#jru; #aji; #sanchez; #misfats">the Fathers
+                     Mission</persName></rs> at the endeavored to find Indians from different parts
+               of <rs><placeName type="county" key="#co_sb">the county</placeName></rs> who might
+               understand her; but to no avail.</p>
+            <p><span type="trope" n="3">Inspite of this handicap of language she was always gay and
+                  happy, taking special delight in playing with <rs><persName type="group"
+                        key="#ini; #gnijr; #jacobni; #mrni; #mrfni">the Nidever
+                     children</persName></rs>. Naturally many curious visitors came to see her, and
+                  for these she would dance and occasionally don her bird-skin dress. <span
+                     type="trope" n="10">In a short time she became so proficient in sign language
+                     that <rs><persName key="#gni; #sni">the Nidevers</persName></rs> were able to
+                     understand many things she wanted to say. She made known the fact that on that
+                     day <rs><date when="1835">18 years before</date></rs>she had not found
+                           <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs>, and wandered about <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs> for many days without so much as
+                     a bit of food.</span></span></p>
+            <p><span type="trope" n="3">Some who have written of <rs><persName type="nativeamerican"
+                        key="#lw">the heroine of San Nicolas</persName></rs> claimed that her
+                  gentility indicated she was not <rs><persName type="nativeamerican" key="#lw">the
+                        original Indian</persName></rs> abandoned on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, but was <rs><persName
+                        type="nativeamerican" key="#lw">a marooned senorita</persName></rs> who had
+                  been cast on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                  by shipwreck. Though there can be no doubt of her noble and distinctive traits,
+                  any account which makes her out as anything but an Indian is purely
+                  fictitious.</span></p>
+            <p>The happy days she spent in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> were to terminate even more abruptly than had her
+                     <rs><placeName type="island" key="#i_sn">Santa Barbara</placeName></rs> exile.
+               Just seven weeks after her arrival <persName type="missionfather" key="#sanchez"
+                  >Father Sanchez</persName> of <rs><orgName type="mission"
+                     key="#mi_santabarbaramission">the Old Mission</orgName></rs> was called to the
+               bedside of <rs><persName type="nativeamerican" key="#lw">the dying
+                  woman</persName></rs>. He gave her conditional baptism and the Christian name of
+                     <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>. Her
+               mortal remains were finally laid to rest in the <rs><placeName
+                     key="#sbmissioncemetary">Old Mission cemetery</placeName></rs> on the <date
+                  when="1853-10-19">19th of October, in the year 1853</date>.</p>
+            <p>That is the story of <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs>, <persName type="nativeamerican" key="#lw">the lone woman
+                  of San Nicolas Island</persName>. This strange tale has come down to us in the
+                  <title type="manuscript" key="#Nidever1878">written accounts of <persName
+                     type="frontiersman" key="#gni">George Nidever</persName></title> and and <title
+                  type="manuscript" key="#Dittman1878">Carl Dittmann</title>, and has been a popular
+               tradition in <placeName type="state" key="#st_cal">California</placeName> for
+                     <rs><date notBefore="1853" notAfter="1944">nearly a hundred
+               years</date></rs>.</p>
+            <p>When methodical historians came to write the history of <placeName type="state"
+                  key="#st_cal">California</placeName>, they sought confirmation of the story in the
+               official records of <orgName type="mission" key="#mi_santabarbaramission">Santa
+                  Barbara's old Mission</orgName>. When no document was found attesting the alledged
+               baptism by <persName type="missionfather" key="#sanchez">Fr. Sanchez</persName>, an
+               element of doubt began to enshroud the story. <persName type="missionfather"
+                  key="#fen">Fr. Zephyrin Engelhardt, O.F.M.</persName>, the famed historian of the
+               California Missions, spent a great deal of time looking for the missing entry. The
+               fruitlessness of his search prompted him to write in his <title type="monograph"
+                  key="#Engelhardt1923">Santa Barbara Mission</title>: "Were it not that <persName
+                  type="frontiersman" key="#gni">Mr. Nidever's</persName> fame for veracity appears
+               above suspicion, we should declare the whole story a myth, for the reason that, after
+               a close examination of the Baptismal Registers at <rs><orgName type="mission"
+                     key="#mi_santabarbaramission">the Mission and at the Parish Church of Santa
+                     Barbara</orgName></rs>, we failed to discover any entry regarding the woman's
+               Baptism in either <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                     Mission</orgName></rs> or the <placeName key="#sbparishchurch">Parish
+                  Church</placeName>. Likewise, there is no record noted of her burial in <placeName
+                  key="#sbmissioncemetary">the Mission Cemetery</placeName> . . . a document or
+               paper containing the story of <rs><persName type="nativeamerican" key="#lw">the Lone
+                     Woman</persName></rs> we cannot verify. We found no such account among the
+               numerous papers in <placeName key="#sbmarchive">the Archives</placeName> nor anywhere
+               else."</p>
+            <p>In <date when="1932-05">May of 1932</date>
+               <persName type="missionfather" key="#fen">Fr. Zephyrin</persName> was approached
+               again on this same subject by <persName type="author" key="#wel">Dr. William Henry
+                  Ellison</persName>, a professor at the <orgName type="institution"
+                  key="#in_sbstate">Santa Barbara State College</orgName>, who was editing the
+               personal memoirs of <persName type="frontiersman" key="#gni">Captain George
+                  Nidever</persName> in a volume entitled, <title type="manuscript"
+                  key="#Nidever1878">The Life and Adventures of George Nidever</title>. <persName
+                  type="author" key="#wel">Dr. Ellison</persName> writes: "In a conversation with
+                  <persName type="missionfather" key="#fen">Father Engelhardt</persName> in <date
+                  when="1932-05">May, 1932</date>, <rs><persName type="author" key="#wel">the
+                     editor</persName></rs> asked <rs><persName type="missionfather" key="#fen">the
+                     Mission historian</persName></rs> if there were any further light on the
+               question of the baptism and burial of <rs><persName type="nativeamerican" key="#lw"
+                     >the Indian woman</persName></rs>. He said he knew of none but that he would
+               reexamine the Mission records. In a letter from him to <persName type="author"
+                  key="#wel">William Ellison</persName>, <date when="1932-05-14">May 14,
+               1932</date>, he says: 'The Baptismal Register from <date from="1851" to="1858">1851
+                  to 1858</date> has no <persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName> entered by <persName type="missionfather" key="#sanchez">Fr.
+                  Sanchez</persName> or anyone else . . . I believe it will never be cleared up, as
+               there is no document extant in our archives . . .'"</p>
+            <p>On the evening of <date when="1944-01-19">January 19, 1944</date>, two clerics of
+                  <orgName type="mission" key="#mi_santabarbaramission">the Old Mission</orgName>,
+                  <persName type="missionfather" key="#bcr">Frater Blaise Cronin</persName> and
+                  <persName type="missionfather" key="#khe">Frater Kenneth Henriques</persName>,
+               were doing some research on the <persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName> incident for an article to appear in their student publication
+                  <orgName type="publication" key="#priestly">Priestly Studies</orgName>. In the
+               lower left hand corner opposite page 114 of the Burial Register of the Santa Barbara
+               Presidio they found the following entry:</p>
+
+            <p>1183 <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs> India
+               adlta.</p>
+
+            <p>En <date when="1853-10-19">19 de Octe de 1853</date> di sepulta ecca en
+                     <rs><placeName key="#sbmissioncemetary">este cemento</placeName></rs> al
+               cadaver de <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+               india traida de la <placeName type="island" key="#i_sn">Isla de S.
+                  Nicolas</placeName>, y como no habia qn. le entendiese su idioma fue bautizada,
+               sub condicione pr el <persName type="missionfather" key="#sanchez">P.
+                  Sanchez</persName>; y pa qe conste lo firmo. <persName type="missionfather"
+                  key="#jru">Fr. J<hi rend="superscript">e</hi> Mar de J<hi rend="superscript"
+                     >S</hi> Gonz<hi rend="superscript">z</hi></persName></p>
+            <p>(<persName type="nativeamerican" key="#lw">Juana Maria</persName> Indian woman. On
+               the <date when="1853-10-19">19th of October of 1853</date> I gave ecclesiastical
+               burial in <rs><placeName key="#sbmissioncemetary">this cemetery</placeName></rs> to
+               the mortal remains of <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs> an Indian brought from the <placeName type="island"
+                  key="#i_sn">Island of San Nicolas</placeName>, and since there was no one who
+               understood her language she was baptized conditionally by <persName
+                  type="missionfather" key="#sanchez">Fr. Sanchez</persName>; and that this may
+               stand as true I sign it. <persName type="missionfather" key="#jru">Father Jose Maria
+                  de Jesus Gonzalez</persName>).</p>
+            <p>The story of <rs><persName type="nativeamerican" key="#lw">Juana
+                  Maria</persName></rs> was presumably the basis of <persName type="author"
+                  key="#vhe">Victor Herbert</persName>'s opera, Natoma. But it is a far cry from the
+               real life story of <rs><persName type="nativeamerican" key="#lw">Juana
+                     Maria</persName></rs>. That the life of <rs><persName type="nativeamerican"
+                     key="#lw">Juana Maria</persName></rs> has the broad sweep of an epic can hardly
+               be denied. In the hands of a capable writer it may easily become another "Ramona" --
+               a thrilling and remarkable page in the story of <placeName type="state" key="#st_cal"
+                  >California</placeName> in the Mission days.</p>
+            <div>
+               <head><title type="section">Bibliography</title></head>
+               <div>
+                  <p><bibl><author><persName type="author" key="#sbo">Bowers,
+                           Stephen</persName></author>, "<title type="article" key="#Bowers1892">The
+                           Lone Woman of San Nicolas Island</title>," <publisher><orgName
+                              type="publication" key="#venturaobserver">Ventura
+                           Observer</orgName></publisher>, <date when="1892-12-20">Dec. 20,
+                           1892</date>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="frontiersman" key="#cdi">Dittmann,
+                              Carl</persName></author>, <title type="manuscript" key="#Dittman1878"
+                           >Narrative of a Seafaring Life on the Coast of California</title>, MS.
+                           <date when="1878">1878</date>, unpub., in <orgName type="institution"
+                           key="#bancroft">Bancroft Lib</orgName>., <pubPlace><placeName type="city"
+                              key="#ci_berk">Berkeley, Calif</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#fhdud">Dudley, Mrs.
+                           F.H.</persName></author>, "<title type="article" key="#FHDudley1901">The
+                           Tragedy of San Nicholas Island</title>," <publisher><orgName
+                              type="publication" key="#satpostla">Saturday
+                           Post</orgName></publisher>, <date when="1901-06-01">June 1,
+                        1901</date>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#fen">Engelhardt, O.F.M., Fr.
+                              Zephyrin</persName></author>, <title type="monograph"
+                           key="#Engelhardt1923">Santa Barbara Mission</title>, (<publisher><orgName
+                              type="publisher" key="#jamesh">James H. Barry
+                           Co.</orgName></publisher>, <pubPlace><placeName type="city" key="#ci_sf"
+                              >San Francisco, Calif.</placeName></pubPlace>, <date when="1923"
+                           >1923</date>), <biblScope unit="page" from="449" to="452">pp.
+                           449-452</biblScope>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#jgi">Gibbons, James
+                           M.</persName></author>, "<title type="article" key="#Gibbons1893">The
+                           Wild Woman of San Nicolas Island</title>," <publisher><orgName
+                              type="publication" key="#camag">Californian</orgName></publisher>,
+                           <date when="1893-10">Oct. 1893</date>, <biblScope unit="volume" n="4">VoL
+                           IV</biblScope>, <biblScope unit="issue" n="5">No.
+                     5.</biblScope></bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#eha">Hardacre, Mrs. Emma
+                           C.</persName></author>, "<title type="article" key="#Hardacre1880_SM"
+                           >Eighteen Years Alone</title>," <publisher><orgName type="publication"
+                              key="#scribners">Scribner's Monthly</orgName></publisher>, <date
+                           when="1880-09">Sept. 1880</date>, <biblScope unit="volume" n="20">Vol.
+                           XX</biblScope>, <biblScope unit="page" from="657" to="664">pp.
+                           657-664</biblScope>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="author" key="#jmas">Mason, Jesse
+                           D.</persName></author>, <title type="monograph" key="#Mason1883">History
+                           of Santa Barbara and Ventura Counties</title>, (<publisher><orgName
+                              type="publisher" key="#thompsonwest">Thompson and
+                           West</orgName></publisher>, <pubPlace><placeName type="city"
+                              key="#ci_oakland">Oakland, Calif.</placeName></pubPlace>, <date
+                           when="1883">1883</date>), <biblScope unit="page" n="255"
+                           >p.255</biblScope>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="frontiersman" key="#gni">Nidever,
+                           George</persName></author>, <title type="manuscript" key="#Nidever1878"
+                           >The Life and Adventures of George Nidever, as dictated to E.F.
+                           Murray</title>, ed. by <editor><persName type="author" key="#wel">William
+                              Henry Ellison</persName></editor>, (<publisher><orgName
+                              type="publisher" key="#ucalpress">University of California
+                              Press</orgName></publisher>, <pubPlace><placeName type="city"
+                              key="#ci_berk">Berkeley, Calif.</placeName></pubPlace>, <date
+                           when="1937">1937</date>).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="missionfather" key="#jse">Serra, O.F.M., Fr.
+                              Junipero</persName>
+                        </author>, Entierros de los de razon e Indios, Book of Burial of the
+                        Presidio S. Barbara, commenced in <date when="1782">1782</date> by
+                              <author><persName type="missionfather" key="#jse"
+                           >Serra</persName></author>, opposite <biblScope unit="page" n="144">p.
+                           144</biblScope>.</bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

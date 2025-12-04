@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#overlandmonthly">Overland
+                     Monthly</orgName></title>
+               <editor><persName type="author" key="#bharte">Bret Harte</persName></editor>
+               <biblScope unit="volume">78</biblScope>
+               <biblScope unit="issue">5</biblScope>
+               <date when="1921-11"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Clifford1921">Hona Maria</title>
+                  <biblScope unit="page" from="11" to="13"/>
+                  <author><persName type="author" key="#jclif">Clifford,
+                     Josephine</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">Hona
+                        Maria</persName></rs></title>
+               <title type="sub"><emph>The story of <rs><persName type="nativeamerican" key="#lw"
+                           >this lonely Indian woman-hermit</persName></rs>, who lived entirely
+                     alone for <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                           years</date></rs>, on one of <rs><placeName type="island" key="#i_chi"
+                           >the islands of the Santa Barbara Channel</placeName></rs>, is now but a
+                     tradition with the present generation.</emph></title></head>
+            <byline><hi rend="bold">Written by <persName type="author" key="#jcliff">Josephine
+                     Clifford</persName> in <date when="1872">1872</date>.</hi></byline>
+
+            <p>SOUTHWARD from the quaint town of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, beyond the <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> Bay&#8212;with its high-arching isles, summery winds and the
+               softened splendor of semi-tropical skies&#8212;five leagues out in the ocean, the
+                  <placeName type="island" key="#i_sn">island of San Nicolas</placeName> lifts its
+               brown, rugged outline from the surging waters. Hidden from <placeName type="region"
+                  key="#re_mld">the mainland</placeName> by <placeName type="island" key="#i_scruz"
+                  >Santa Cruz</placeName>, an island of greater magnitude, the sun seems to rise
+               from the purpled rim of the waters, and to set where the golden seas meet the horizon
+               of the golden skies. The waves wash far up the sloping, sandy shore, and, receding,
+               leave bright shells, tangled kelp, and smooth, wave-polished stones. The seals sun
+               themselves on the crystalized rocks, and gaze at the intruder with almost human eyes.
+               The sea-wasps shake their delicate wings in the bright atmosphere; and strange birds
+               call from the high branches of unfamiliar trees. Deep pools lie hidden in lonely
+               gorges, and fold their secrets forever in theiir [sic] dark bosoms. The wild dogs
+               bark from the shelving rocks, and, with uncanny faces dart into the close ravine.</p>
+            <p>Years and years ago ere the energies of the white settlers had made their impress
+               upon the wilderness along the Pacific shore, <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">a tribe of Indians</orgName></rs> existed on
+                     <rs><placeName type="island" key="#i_sn">this now desolate
+                  isle</placeName></rs>. Of what they thought, suffered, hoped or accomplished, we
+               have only scanty tradition. Now and then a pirate's craft anchored along the quiet
+               shore, and, departing, told no tale. <span type="trope" n="3">Sometimes the friendly
+                  voice of <rs><orgName type="missionfathers" key="#misfats">the mission
+                        fathers</orgName></rs> stole across the calm bay; and the shadow of the
+                  Cross, planted in the wilderness, threw its benign influence even over
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        undeveloped children of the sun</orgName></rs>.</span> But <rs><orgName
+                     type="missionfathers" key="#misfats">the Fathers</orgName></rs> sleep, and left
+               no record.</p>
+            <p>Thirty-six years ago the famine found <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">this isolated band</orgName></rs>, and clutched
+               them with its gaunt, relentless hand. The parched earth refused her sustenance; the
+               trees stood bare and leafless in the hot wind; the streams ran dry, and the rocks
+               glittered white and salt under the fervid sun. The wild game famished and died; and
+               the fierce preyed upon each other. <span type="trope" n="3">With pitying horror,
+                  these human beings stared into each other's faces, and, with stoical fortitude,
+                  crawled away to die alone.</span> Whether <persName type="group"
+                  key="#aji; #ndur; #misfats">the Mission Fathers</persName> learned of their
+               distress, or whether urged by other motives, it is not known; but they fitted out
+                     <rs><name type="ship" key="#sh_peoresnada">a boat</name></rs>, which sailed to
+                  <placeName type="island" key="#i_sn">San Nicholas</placeName> and brought away
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     survivors</orgName></rs>&#8212;eighteen in all. As the <rs><persName
+                     type="group" key="#bhagroup">rescued islanders</persName></rs> were brought
+               down to the shore where <rs><placeName type="ship" key="#sh_peoresnada">the
+                     boat</placeName></rs> was anchored, <rs><persName type="nativeamerican"
+                     key="#lw">one of the women</persName></rs>&#8212;who afterwards gave her name
+               as <rs><persName type="nativeamerian" key="#lw">Hona
+               Maria</persName></rs>&#8212;darted away, over the sandy shore, over rough rocks,
+               through tangled ravines, with savage eagerness, to bring <rs><persName
+                     type="nativeamerican" key="#lwchild">her only child </persName></rs> which, by
+               some oversight, had been left behind. They waited for her re-appearance&#8212;they
+               waited long. The skies darkened; the winds arose and tossed the unsteady boat from
+               her frail anchorage, and <rs><persName type="group" key="#chu; #isp">the reluctant
+                     captain</persName></rs> was compelled to put out to sea; and <rs><persName
+                     type="nativeamerican" key="#lw">Hona Maria</persName></rs> was left alone on
+                     <rs><placeName type="island" key="#i_sn">that desolate, sea-walled
+                     isle</placeName></rs>.</p>
+            <p>The thick fog shut down over the ocean, and the heavy swell of the waves tossed
+                     <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> rapidly toward
+                  <placeName type="region" key="#re_mld">the mainland</placeName>. <span
+                  type="trope" n="6"><rs><persName type="group" key="#bhagroup">The rescued
+                        Indians</persName></rs> were kindly cared for by the humane people of
+                        <rs><placeName type="city" key="#ci_sb">Santa Barbara</placeName></rs>; but,
+                  either from past suffering or the unaccustomed influences of civilization, they
+                  died or dispersed to wilder surroundings.</span>
+               <span type="trope" n="12"><rs><name type="ship" key="#sh_peoresnada">The
+                     boat</name></rs> was wrecked, preventing another expedition to <rs><placeName
+                        type="island" key="#i_chi">the islands</placeName></rs>, and for years was
+                  not replaced.</span>
+               <rs><persName type="nativeamerican" key="#lw">Hona Maria</persName></rs> was supposed
+               to have died, and no heart turned to <rs><placeName type="island" key="#i_sn">the
+                     lonely island</placeName></rs>.</p>
+            <p><rs><date notBefore="1835" notAfter="1853" cert="high">Eighteen solitary
+                  years</date></rs> had passed. <span type="trope" n="4">White faces peered over the
+                  rocky battlement of mountains, and browned under the <placeName type="state"
+                     key="#st_cal">California</placeName> sun. Avenues of communication and commerce
+                  were opened, and the mysteries of <rs><placeName type="state" key="#st_cal">the
+                        Golden State</placeName></rs> were penetrated. <persName type="frontiersman"
+                     key="#gni">Captain Nidever</persName>, a resident of <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>, fitted <rs><name type="ship"
+                        key="#sh_nidever">a schooner</name></rs> at <placeName type="city"
+                     key="#ci_mo">Monterey</placeName>, and, in one of his cruises, anchored at the
+                  tragic island of <placeName type="island" key="#i_sn">San Nicholas</placeName>. On
+                  wandering over <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, he found traces of human life; ashes yet warm&#8212;a
+                  footprint in the soil. But again the storm beat down upon the shore and compelled
+                  the small crew to put to sea. With clear skies and becalmed seas they
+                  returned.</span><span type="trope" n="1">Again, the smoldering fire&#8212;the
+                  trace in the sand; and, after a short search, to their amazement <rs><persName
+                        type="nativeamerican" key="#lw">Hona Maria</persName></rs>
+                        herself&#8212;<rs><persName type="nativeamerican" key="#lw">the Hermit
+                        Monarch</persName></rs> of <rs><placeName type="island" key="#i_sn">this
+                        lonely isle</placeName></rs>! Without the least sign of surprise she gazed,
+                  for the first time in <rs><date notBefore="1835" notAfter="1853" cert="high"
+                        >eighteen years</date></rs>, upon human faces.</span><span type="trope"
+                  n="10">In unintelligible language, but with expressive, savage gestures, she made
+                  them understand that the dogs killed <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs>.</span> This was the burden of her
+               limited expressions&#8212;this longing for human sympathy amid her tragic
+               desolation&#8212;bursting the bondage of unintelligible language, and making the
+               grand sorrow of her savage heart known and felt.</p>
+            <p><span type="trope" n="1">A rude hut, constructed of interlaced branches, sticks and
+                  leaves, constituted her shelter. A fantastic robe of gayly feathered birdskins,
+                  neatly dressed and adroitly stitched with fine tendons, by the aid of needles
+                  manufactured from fish bones, covered her dusky limbs, and another of brighter
+                  hues were ready for time of need, or possibly reserved for her solitary festivals.
+                  Many rude treasures, collected during her hermitage, were transferred to <rs><name
+                        type="ship" key="#sh_nidever">the boat</name></rs>, and afterward landed at
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.</span> With
+               astonishment she beheld <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. Her rapid glance took in the coast and the placid valley,
+               girdled by the rugged mountains, sloping to the bay. From the narrow limits of
+                     <rs><placeName type="island" key="#i_sn">her island-home</placeName></rs>, the
+               sea only was vast, stretching away beyond the range of vision. The boundless view of
+               land presented a new and strange geographical development to her uneducated mind.
+                  <span type="trope" n="3">A "<rs><persName key="#riderhorseman; #mrni; #jsh; #ssh"
+                        >solitary horseman</persName></rs>" galloping along the smooth beach caused
+                  her ecstasies of delight, which she expressed in long, wild peals of laughter and
+                  fantastic dances. A team with oxen completed her amusement.</span>
+               <span type="trope" n="3">She observed the unfamiliar actions of people and animals
+                  with child-like pleasure, yet never forgot <rs><persName type="nativeamerican"
+                        key="#lwchild">her lost child</persName></rs>, nor the horrible manner of
+                  its death.</span>
+               <span type="trope" n="3">She was proud of the attention she received, pleased with
+                  gifts and kindness, like a child in a new creation.</span> She spoke a dialect
+               entirely different from the native Spanish or Indians of the <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> region. A short time previous to her death,
+               which occurred six months after her departure from <rs><placeName type="island"
+                     key="#i_sn">her native island</placeName></rs>, <rs><persName
+                     type="nativeamerican" key="#natamwoman1">an Indian woman</persName></rs> was
+               found who could interpret her strange tongue. She had not much to tell. A life more
+               colorless, devoid of imagery or experience, it is impossible to conceive. The effect
+               of long seclusion, upon her mind so crude and undeveloped, can not be conjectured. In
+               her solitary abode she knew the ways of the birds of the air and the fishes of the
+               sea, and fashioned nets to capture them, which, with seals and roots, furnished her
+               sustenance.</p>
+            <p><rs><persName type="seaman" key="#tru">Large sums of money</persName></rs> were
+               refused by <persName type="frontiersman" key="#gni">Captain Nidever</persName> for
+               the possession of <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs>, as an attractive addition to a museum; but she was kindly
+               guarded at his private residence, and in <date when="1853">1853</date> she passed to
+               the spirit-land. <rs><persName key="#tbr">The Bishop</persName></rs> took possession
+               of her ingeniously manufactured robes and carried them to <placeName type="city"
+                  key="#ci_rom">Rome</placeName>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">Hona Maria</persName></rs> sleeps on
+               the quiet hillside; and her strange fate, hitherto, has been a dim tradition.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
