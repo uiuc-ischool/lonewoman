@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                     Times</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">70</biblScope>
+               <date when="1951-07-09"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#LosAngelesTimes1951">Indians Once Lived on Channel
+                     Islands</title>
+                  <biblScope unit="page" from="2" to="3"/>
+                  <biblScope unit="page" n="18"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                        >Indians</orgName></rs> Once Lived on <placeName type="island" key="#i_chi"
+                     >Channel Islands</placeName>
+               </title>
+               <title type="sub">Hundreds of Years Ago Southland Was Ancient Utopia of
+               Peace</title></head>
+            <p>Illustrated on Page 3, Part 1 <placeName type="region" key="#re_socal">Southern
+                  California</placeName>, mecca of millions of people today, was an ancient utopia
+               hundreds of years ago during a golden age of peace and prosperity perhaps unequalled
+               in world history.</p>
+            <p>Long before the Spanish explorer <persName type="seaman" key="#jca"
+                  >Cabrillo</persName> sailed up the <placeName type="region" key="#re_calcoast"
+                  >California coast</placeName>, <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">Southland
+                     Indians</orgName></rs> lived a blithe and carefree existence in a land of
+               plenty, fishing, hunting and braving the seas on adventurous cruises in fantastic
+               plank boats sewed together with thongs and caulked with asphaltum.</p>
+            <p>Hubs of this ancient "shangri-la" were such offshore garden spots as <placeName
+                  type="island" key="#i_scatalina">Catalina</placeName>, <placeName type="island"
+                  key="#i_scl">San Clemente</placeName>, <placeName type="island" key="#i_sb">Santa
+                  Barbara</placeName>, <placeName type="island" key="#i_an">Anacapa</placeName>,
+                  <placeName type="island" key="#i_scruz">Santa Cruz</placeName>, <placeName
+                  type="island" key="#i_sr">Santa Rosa</placeName>, <placeName type="island"
+                  key="#i_sm">San Miguel</placeName> and <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> Islands. On these then lush isles the little known early day
+               Indians of the coastal plain settled and flourished. <span type="trope" n="8">And on
+                        <rs><placeName type="island" key="#i_chi">these islands</placeName></rs>
+                  also have been chronicled some of the most fantastic stories of all time, among
+                  them the true-life tale of <rs><persName type="nativeamerican" key="#lw">the lost
+                        woman of San Nicolas Island,</persName></rs> who lived a lonely Robinson
+                  Crusoe existence for <rs><date notBefore="1835" notAfter="1835">18
+                     years</date></rs> on <rs><placeName type="island" key="#i_sn">the now desolate
+                        wind-gnawed isle</placeName></rs>.</span></p>
+            <div n="1" type="section">
+               <head><title type="section">Facts Uncovered</title></head>
+               <p>While the average Californian today knows less about the local <placeName
+                     type="island" key="#i_chi">channel islands</placeName> than of <placeName
+                     type="island" key="#i_hawaii">Hawaii</placeName>, scientists during the years
+                  have slowly but surely been piecing together the life pattern of the ancient
+                  coastal redmen.</p>
+               <p>Recent expeditions to <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> by <persName key="#spe">Stuart Peck</persName>, museum
+                  technician of the anthropology department of the <orgName type="institution"
+                     key="#in_ucla">University of California at Los Angeles</orgName>, and <persName
+                     key="#dri">David Rice</persName>, chairman of the Archeological Survey
+                  Association of Southern California, have revealed a few more meager details of the
+                  peaceful, serene life which <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        Indians</orgName></rs> of <rs><placeName type="island" key="#i_chi">the once
+                        populous islands</placeName></rs> enjoyed.</p>
+               <p><span type="trope" n="3">Indian artifacts uncovered at <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> by <persName key="#dri"
+                        >Rice</persName> and <persName key="#spe">Peck</persName> were all of a
+                     peaceful nature such as beads, fish hooks, bone awls and trinkets.</span></p>
+            </div>
+            <div n="2" type="section">
+               <span type="trope" n="3"/>
+               <head><title><span type="trope" n="3">Lived In Peace</span></title></head>
+               <span type="trope" n="3"/>
+               <p><span type="trope" n="3">No war clubs, stone hatchets or arrowheads were found,
+                     leading scientists to the belief that the ancient residents of <placeName
+                        type="island" key="#i_chi">the channel isles</placeName> lived in a coastal
+                     paradise free from fear and strife.</span>
+                  <span type="trope" n="6">Their very peacefulness, history recounts, led to their
+                     downfall and ultimate virtual extinction years before American pioneers fought
+                     their way through other hostile Indian tribes of the great midwest to
+                     California's gold fields.</span></p>
+               <p><span type="trope" n="13">Raiding ships of <rs><persName type="group"
+                           key="#rfurcompany">Russian[s]</persName></rs> and <orgName
+                        type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName> from the
+                     far north wrought havoc among these peaceful peoples of <rs><placeName
+                           type="island" key="#i_chi">the islands</placeName>
+                     </rs> to mark the end of the golden era.</span> Thus it came about that kindly
+                        <rs><orgName type="missionfathers" key="#misfats">Spanish
+                     Padres</orgName></rs> of <rs><orgName type="mission" key="#mi_mainlandmissions"
+                        >the mainland missions</orgName></rs> began more than 150 years ago to serve
+                  as saviors of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">this
+                        hardy race of sailing redmen</orgName></rs>.</p>
+            </div>
+            <div n="3" type="section">
+               <head><title type="main">Raided by Cossacks</title></head>
+               <p><span type="trope" n="13">Strangely enough, it was <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">the Indians of
+                           San Nicolas Island</orgName></rs>, named by Spanish explorers for the
+                     patron saint of <placeName type="country" key="#co_russia">Russia</placeName>,
+                     that suffered most from the raiding cossacks [sic], who killed the men and
+                     carried off the women during frequent otter hunting voyages along
+                           <rs><placeName type="region" key="#re_calcoast">the coast</placeName>
+                     </rs>.</span></p>
+               <p><span type="trope" n="3">Because of these raids which decimated <rs><orgName
+                           type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           prosperous and happy tribes of the islands</orgName></rs>, <rs><orgName
+                           type="missionfathers" key="#misfats">the Spanish Padres</orgName></rs>
+                     sent rescue parties to <placeName type="island" key="#i_sn">San Nicolas
+                        Island</placeName>, last of <placeName type="island" key="#i_chi">the
+                        channel isles</placeName> to be inhabited, back in <date when="1835"
+                        >1835</date>, and thereby resulted the strange tale of <rs><persName
+                           type="nativeamerican" key="#lw">the lost woman of San
+                        Nicolas</persName></rs>.</span></p>
+            </div>
+            <div n="4" type="section">
+               <head><title type="main"> Survivors Rounded Up</title></head>
+               <p>A <persName type="investor" key="#isp">Capt. Sparks</persName>, an otter hunter,
+                  was the emissary of the <persName type="group" key="#aji; #ndur; #misfats">Santa
+                     Barbara Mission padres</persName> who set sail in <date when="1835">1835</date>
+                  for <placeName type="island" key="#i_sn">San Nicolas Island</placeName>
+                  accompanied by <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >a squad of Spanish soldiers</persName></rs> on the little otter hunting
+                  ship <name type="ship" key="#sh_peoresnada">Peor es Nada</name>, which translated
+                  meant "better than nothing."</p>
+               <p>At <rs><placeName type="island" key="#i_sn">the lonely island</placeName></rs>,
+                  nearly 70 miles off the coast of <placeName type="region" key="#re_ph">Port
+                     Hueneme</placeName>, they rounded up the survivors, <persName type="group"
+                     key="#bhagroup">some 18 San Nicolenos</persName>, and loaded them aboard
+                  ship.</p>
+               <p><span type="trope" n="9"> The <name type="ship" key="#sh_peoresnada">Peor es
+                        Nada</name> was about to sail when <rs><persName type="nativeamerican"
+                           key="#lw">one of the women</persName></rs> jumped overboard crying that
+                           <rs><persName type="nativeamerican" key="#lw">her baby</persName></rs>
+                     had been left behind.</span> Before she could return, the story goes, a sudden
+                  storm drove <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> to sea
+                  and she was left behind.</p>
+               <p><span type="trope" n="6"><rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">The Indians</orgName></rs> were landed on
+                        <placeName type="city" key="#ci_sp">San Pedro</placeName>, taken to the
+                        <placeName type="mission" key="#mi_sg">Mission San Gabriel</placeName> where
+                     they soon pined away and died.</span>
+                  <persName type="investor" key="#isp">Capt. Sparks</persName> and the <name
+                     type="ship" key="#sh_peoresnada">Peor es Nada</name> was lost soon afterward on
+                  a trip to <placeName type="city" key="#ci_sf">San Francisco</placeName> and never
+                  had a chance to return to <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>.</p>
+            </div>
+            <div n="5" type="section">
+               <head><title key="#main"> Legend Grew Up</title></head>
+               <p>A legend grew up on <placeName type="region" key="#re_mld">the
+                     mainland</placeName> about <rs><persName type="nativeamerican" key="#lw">the
+                        lost woman</persName></rs> and in <date when="1853">1853</date>
+                  <persName type="missionfather" key="#jru">Padre Gonzales</persName> of the
+                     <orgName type="mission" key="#mi_santabarbaramission">Santa Barbara
+                     Mission</orgName> induced <persName type="frontiersman" key="#gni">Capt. George
+                     Nidever</persName>, another otter hunter, to seek her. <persName
+                     type="frontiersman" key="#gni">Capt. Nidever</persName> made three trips to
+                        <rs><placeName type="island" key="#i_sn">the lonely wind-swept
+                        island</placeName></rs>, the last time accompanied by <rs><persName
+                        type="frontiersman" key="#cdi">Charles Brown</persName></rs> of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> and <rs><persName
+                        type="group" key="#col; #cook; #msh; #poli; #nsk; #hva">a group of Barbareno
+                        Indians</persName></rs>, who fanned out on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> and combed it from one end to the
+                  other.</p>
+               <p>The first trace of <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was found after an arduous search when a basket filled
+                  with cormorant feathers was found on a hillside. Searchers scattered the feathers
+                  but later found them back in the basket and redoubled their efforts.</p>
+               <p>Shortly afterward <persName type="frontiersman" key="#gni">Capt.
+                     Nidever</persName> came upon <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> as she was busily skinning a seal in front of three
+                  small huts made of whale ribs covered with brush and surrounded by a two-foot high
+                  brush fence to break the wind.</p>
+            </div>
+            <div n="6" type="section">
+               <head><title type="main"> No Signs of Fear</title></head>
+               <p>
+                  <rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> showed no
+                  signs of fear according to records left by <rs><persName type="frontiersman"
+                        key="#cdi">Brown</persName></rs>, and offered <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        visitors</persName></rs> food. <span type="trope" n="10">By signs she
+                     indicated that <rs><persName type="nativeamerican" key="#lwchild">her
+                           baby</persName></rs> had been killed years before by wild dogs which
+                     infested <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                     and that she had existed on sea food and seals killed with crude stone
+                     weapons.</span></p>
+               <p>During the month that <persName type="frontiersman" key="#gni">Capt.
+                     Nidever</persName> and <rs><persName type="group"
+                        key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his party</persName></rs>
+                  spent on <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                  <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> showed
+                  them how she killed the seals at night, made sinew fish lines from them and hooks
+                  from abalone which abounded alo[n]g the shore. She also showed them well hidden
+                  caves and canyons where she hid when <rs><persName type="group" key="#rfurcompany"
+                        >marauding Russians</persName></rs> and <orgName type="nativeamericantribes"
+                     key="#natam_aleuts">Aleuts</orgName> visited <rs><placeName type="island"
+                        key="#i_sn">the lonely isle</placeName></rs> on foraging and pilfering
+                  expeditions.</p>
+               <p>After gaining an idea of the lonely existence which <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> had led for
+                        <rs><date notBefore="1835" notAfter="1853" cert="high">18 years</date></rs>,
+                     <persName type="frontiersman" key="#gni">Capt. Nidever</persName> and
+                        <rs><persName type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                        >his group</persName></rs> returned with her to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> where she was taken into the <orgName
+                     type="mission" key="#mi_santabarbaramission">Santa Barbara Mission</orgName>.
+                     <persName type="missionfather" key="#jru">Padre Gonzales</persName> christened
+                  her Juana Maria, to which the people of <rs><placeName type="city" key="#ci_sb"
+                        >the town</placeName></rs> added "Peor Es Nada."</p>
+            </div>
+            <div n="7" type="section">
+               <head><title type="main">Shunned Circus Offer</title></head>
+               <p><span type="trope" n="3">Her language was not understood but <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> appeared happy
+                     with her new friends and spent much of her time dancing.</span>
+                  <persName type="frontiersman" key="#gni">Capt. Nidever</persName>, the story goes,
+                  turned down a fabulous offer for her to join <rs><persName type="seaman"
+                        key="#tru">a circus sideshow</persName></rs> and tour the world. Food on
+                     <placeName type="region" key="#re_mld">the mainland</placeName> was new to her,
+                  however, and apparently fresh fruits and meats were too great a shock for her
+                  system after 45 years of existing on sea food and seal meat, because after six
+                  weeks at <rs><placeName type="mission" key="#mi_sb">the mission</placeName></rs>
+                  she took sick and died.</p>
+               <p>Her dress of bird skins, and her trinkets including bone awls, wooden knives,
+                  woven grass bottles and sinew fish lines were given to <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">the padres at the
+                     mission</persName></rs> and later most of them were sent to <orgName
+                     type="museum" key="#mu_vaticanmuseum">the Vatican Museum</orgName> in
+                     <placeName type="city" key="#ci_rom">Rome</placeName>, although history
+                  recounts that some were destroyed in the great <placeName type="city" key="#ci_sf"
+                     >San Francisco</placeName> fire of <date when="1906">1906</date>.</p>
+            </div>
+            <div n="8" type="section">
+               <head><title type="main"> Was Sole Survivor</title></head>
+               <p><span type="trope" n="6">Her death marked the passing of the last living Channel
+                     Island Indian. She was the sole survivor of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">a hardy race of
+                           peaceful seagoing pioneers</orgName></rs>, who had known a utopia for
+                     hundreds of years.</span></p>
+               <p>Scientists who have scoured <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> many times down through the years have never definitely
+                  located the hillside upon which her whalebone huts were built.</p>
+               <p>Theory that <placeName type="island" key="#i_sn">San Nicolas</placeName> and other
+                  off shore islands may have been a vacation mecca for Indians during the hundreds
+                  of years following the Pliocene depression, when the sea stood 1500 feet below its
+                  present level, is belied by the hundreds of camp sites, huge shell mounds and
+                  kitchen middens which cover the entire area of <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>.</p>
+            </div>
+            <div n="9" type="section">
+               <head><title type="main"> Sites Checked</title></head>
+               <p>Fire-blackened earth in the huge kitchen middens at <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> are from two to six feet in depth,
+                     <persName key="#dri">Rice</persName> and <persName key="#spe">Peck</persName>
+                  discovered on their recent expedition. Some were found high on the top of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, some
+                  700 to 800 feet above sea level and more than a mile from the ocean shore.</p>
+               <p>The two scientists checked more than 100 village sites on <rs><placeName
+                        type="island" key="#i_sn">the rugged island</placeName></rs>, finding
+                  evidences of Indian inhabitation along the shores and on the high plateau which
+                  tops <rs><placeName type="island" key="#i_sn">the wind-swept
+                  isle</placeName></rs>. Discoveries included some graves, various kinds of mortars
+                  and pestles, bone awls, abalone fish hooks, shell and stone beads, asphalt caches,
+                  several soapstone carvings obviously Indian toys and scores of other artifacts.
+                  Much of the soapstone was apparently imported from <placeName type="island"
+                     key="#i_scatalina">Santa Catalina Island</placeName>. <persName key="#spe"
+                     >Peck</persName> and <persName key="#dri">Rice</persName> also found some
+                  obsidian which was believed to be from <placeName type="region" key="#re_mld">the
+                     mainland</placeName>.</p>
+            </div>
+            <div n="10" type="section">
+               <head><title type="main">Tools Found</title></head>
+               <p>Huge "workshop areas" were found near most of the camp sites located by the
+                  scientific party. In one area, high on the plateau and near the quarters now
+                  occupied by <rs><orgName type="military" key="#mi_navy">a small navy
+                        group</orgName></rs> at <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, a campsite was located where more than 200 broken mortars
+                  were discovered, some elaborately carved and others showing indications that they
+                  had once been inlaid with abalone shell set it asphalt.</p>
+               <p>Along the beaches <persName key="#spe">Peck</persName> and <persName key="#dri"
+                     >Rice</persName> found tons of unused flakes and discarded tools, revealing a
+                  long and dense population on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> in the past. Test pits showed depths of three feet
+                  over large areas. Near the beaches there was literally no place one could stop
+                  during a five-mile trek, without seeing broken stone ships and tools and the ever
+                  present huge shell piles. Occupation and important work centers also occurred
+                  inland, especially on high points.</p>
+            </div>
+            <div n="11" type="section">
+               <head><title type="main">Caves Located</title></head>
+               <p>At points along the rugged southwest shore of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>
+                  <rs><persName type="group" key="#spe; #dri">the party</persName></rs> located two
+                  caves, obviously occupied by <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">Indians</orgName></rs> in the long ago. Ancient
+                  carvings of sharks, fish and other things adorned the walls of the larger of the
+                  two caves. The second, well hidden by high cliffs and offshore rocks, was covered
+                  to a depth of many feet with abalone shells while its fire-blackened walls gave
+                  evidence of long use.</p>
+               <p>Proper excavation, <persName key="#dri">Rice</persName> and <persName key="#spe"
+                     >Peck</persName> believe, would probably reveal remains of the sewed-plank
+                  boats, caulked with asphalt, that <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">these bold sailors</orgName></rs> paddled across
+                  the many miles between <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> and <placeName type="region" key="#re_mld">the
+                     mainland</placeName> and to adjoining islands.</p>
+            </div>
+            <div n="12" type="section">
+               <head><title type="main"> Other Findings</title></head>
+               <p>Previous scientists who have visited <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> have characterized its western sand-dune covered end as a
+                  "perfect golgotha" of Indian lore. <persName key="#chap">Capt.
+                     Chappelle</persName> of <placeName type="island" key="#i_scatalina"
+                     >Catalina</placeName>, who made many trips to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>, is credited with having found abalone
+                  shells soldered together with asphalt to form boxes in which beads and trinkets
+                  were buried.</p>
+               <p>He also found graves on the great sand spit at the eastern end of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, each marked with
+                  whalebone. Other scientists reported finding a wooden coffin, but it was believed
+                  to have been of later vintage than the Indian occupation. <persName key="#dri"
+                     >Rice</persName> and <persName key="#spe">Peck</persName> found some evidences
+                  of cremation.</p>
+            </div>
+            <div n="13" type="section">
+               <head><title type="main"> Now Missile Center</title></head>
+               <p>Today <placeName type="island" key="#i_sn">San Nicolas</placeName>, farthest
+                  seaward of all <placeName type="island" key="#i_chi">the channel
+                     islands</placeName>, is a part of the Navy's big guided missile center at
+                     <placeName type="region" key="#re_pmugu">Point Magu</placeName> [Mugu].</p>
+               <p><span type="trope" n="5">But scientists occasionally are allowed to visit
+                           <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                     delve into the mysteries of the past along the cave-infested, wind-gnawed shore
+                     where the wind and the sand have worked marvels in cutting out exquisite
+                     traceries, lattices and serrations in the weird canyons which lead up to its
+                     usually fog-shrouded plateau-like top which rises to a peak some 907 feet above
+                     sea level.</span></p>
+               <p><span type="trope" n="5">There the howling wind ceaselessly uncovers and covers
+                     again the hundreds of Indian skeletons, trinkets and tools which still remain
+                     undiscovered.</span></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

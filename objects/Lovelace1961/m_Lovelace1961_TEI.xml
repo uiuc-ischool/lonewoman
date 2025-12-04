@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#horn">Horn Book
+                     Magazine</orgName></title>
+               <editor/>
+               <biblScope unit="volume">67</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <date when="1991"/>
+               <pubPlace><placeName type="city" key="#bo">Boston</placeName><placeName type="state"
+                     key="#st_ma">Massachusetts</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Lovelace1961">Scott O'Dell: A Biographical
+                     Note</title>
+                  <biblScope unit="page" from="316" to="319"/>
+                  <author><persName type="author" key="#mlo">Maud Hart Lovelace</persName></author>
+                  <note type="supplied">Sara can put note here</note>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><persName type="author" key="#sod">SCOTT
+                        O'DELL</persName></hi></title> <title type="sub">A BIOGRAPHICAL
+               NOTE</title></head>
+            <byline><emph>By</emph>
+               <persName type="author" key="#mlo">MAUD HART LOVELACE</persName></byline>
+            <p><hi rend="bold">S</hi>COTT O'DELL's earliest recollections are of a house standing on
+               stilts beside the <placeName type="region" key="#re_pacific">Pacific
+                  Ocean</placeName>. The tide came up beneath it. This was on what is now <placeName
+                  type="island" key="#i_ti">Terminal Island</placeName>, near <placeName type="city"
+                  key="#ci_la">Los Angeles</placeName>, where he was born. <rs><persName key="#bsc"
+                     >His father</persName></rs> was a railroader, and the family moved frequently,
+               keeping to the same general area. Never during Scott's boyhood was he far from the
+               wash of the sea. This is one of several factors which explain the ring of authority
+               in <emph>Island of the Blue Dolphins</emph>.</p>
+            <p>From his home in <placeName type="city" key="#ci_sp">San Pedro</placeName>, where he
+               lived from ages six to nine, he could almost see <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName>, <rs><placeName type="island" key="#i_sn">the island on
+                     which <rs><persName type="nativeamerican" key="#lw">an Indian
+                        girl</persName></rs> had once lived alone for <rs><date from="1835"
+                           to="1853" cert="high">eighteen years</date></rs></placeName></rs>.
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName> then was a roaring port,
+               overrun by seamen from tramp steamers and even a few sailing vessels. <rs><orgName
+                     key="#odellelemsc">The school</orgName></rs> took its temper from
+                     <rs><placeName type="city" key="#ci_sp">the town</placeName></rs>, with fights
+               in the school yard every day. Scott's schoolmates were the sons of Portuguese and
+               Italian fishermen, and at first did not take kindly to the <rs><persName
+                     type="author" key="#sod">blue-eyed, Scotch-Irish, too-literate
+                     O'Dell</persName></rs>. He was the butt of jokes and the target of bullies, and
+               school was a frightening ordeal. Fortunately, he could hold his own in the pigmy
+               battles, and no doubt he already had some of the effortless charm which is so much a
+               part of him now. At last he was allowed to join the crowd on a Saturday expedition to
+               the beach.</p>
+            <p>Racing to their favorite cove, the boys stripped, climbed a steep bank, and leaped
+               joyfully into the surf. <persName type="author" key="#sod">Scott</persName> did not
+               mention not knowing how to swim. He would have preferred drowning to confessing such
+               damning ignorance. He leaped, along with the rest, and somehow dogpaddled to
+               shore.</p>
+            <p>After that, such excursions filled every Saturday . . . in summer, almost every day.
+               The boys swam. They dug cockles and steamed them in a washtub borrowed from an
+               amiable mother. Someone always brought along a long loaf of chewy Italian bread. They
+               gathered abalones and searched submerged rocks for little devilfish and came to know
+               the world of beach and sea.</p>
+            <p>By the time he entered <orgName type="institution" key="#in_longbeach">Long Beach
+                  Polytechnic High School</orgName>, Scott's present easy gregariousness was
+               established. He excelled in water polo and the 440-yard dash. With little effort he
+               achieved fine grades, and in <!--when was this exactly, for sure?-->his sophomore
+               year found time to make a collection of synopses of forty plays . . . not for a
+               school project, but for fun.</p>
+            <p>He started college at California's <orgName type="institution" key="#in_occidental"
+                  >Occidental</orgName> when the emphasis was chiefly on military training and
+               getting into World War One. But the war ended, and he had the inspired idea that
+               attending a different college every year would be a fine way to see the world. So he
+               moved on to the <orgName type="institution" key="#in_uofwis">University of
+                  Wisconsin</orgName>. He ended there with only a B average.</p>
+            <p>"I was chagrined. I wanted top grades but wasn't used to working for them."</p>
+            <p>At <orgName type="institution" key="#in_stanford">Stanford</orgName>, he revolted
+               against the curriculum, which seemed to reserve the most fascinating subjects for
+               seniors and graduate students. He became a special student, and took twelve hours of
+               philosophy, including the beginning course and the one most advanced, also courses in
+                  <persName type="author" key="#wsh">Shakespeare</persName> and Russian Literature.
+               Then, gorged with learning, he went to <placeName type="city" key="#ci_hollywood"
+                  >Hollywood</placeName> and taught a mail-order course in photoplay writing,
+               producing a textbook on the subject.</p>
+            <p>This was the glamorous <placeName type="city" key="#ci_hollywood"
+                  >Hollywood</placeName> of <persName key="#gga">Greta Garbo</persName> and
+                  <persName key="#rva">Rudolph Valentino</persName>, and soon <persName
+                  type="author" key="#sod">Scott</persName> was working in <orgName key="#paramount"
+                  >Paramount</orgName>'s technical department preparing sets. He changed to <orgName
+                  key="#mecto">Mecto-Goldwyn-Mayer</orgName> and was sent to <persName type="city"
+                  key="#ci_rom">Rome</persName> for the filming of <emph>Ben Hur</emph>. In off
+               hours, he studied at the <orgName type="institution" key="#urome">University of
+                  Rome</orgName>, and this ended his unorthodox college career.</p>
+            <p>When the last wheel in Ben Hur's chariot race had turned, he went to <placeName
+                  type="city" key="#ci_flo">Florence</placeName> and wrote
+               <!--It would be cool to know which one-->a novel.</p>
+            <p>"<emph>Pinfeathers</emph>. It was an appropriate title," he says. For after he
+               returned to <placeName type="city" key="#ci_nyc">New York</placeName>, an agent
+               advised him to write it off to experience, all 100,000 words of it.</p>
+            <p>Back in <placeName type="city" key="#ci_hollywood">Hollywood</placeName>, he kept on
+               writing, worked on magazines and newspapers, and ranched with <rs><persName
+                     key="#bsc">his father</persName></rs>, who had bought an orange grove near
+                  <placeName type="city" key="#ci_cla">Claremont</placeName>. Here <persName
+                  type="author" key="#sod">Scott</persName> discovered the old Spanish families of
+               the <placeName type="region" key="#re_pva">Pomona Valley</placeName>, visiting their
+               ranchos and listening to evocative tales of the past. This led to his fine historical
+               novel, <emph>Hill of the Hawk</emph>. He wrote
+               <!--It would be cool to know which one-->three novels in all and <emph>Country of the
+                  Sun</emph>, an informal history of the nine <placeName type="region"
+                  key="#re_socal">Southern California</placeName> counties.</p>
+            <p>It was in the period of the early novels that he owned <rs><name key="#ericveb">Eric
+                     von Ebrochtal</name></rs>, the nobly handsome German shepherd, brother of <name
+                  key="#sthe">Strongheart</name>, who shared his life for
+               <!--when? would be cool to know?-->seven years.</p>
+            <p>"I took him with me everywhere. I stayed only in hotels that would accept him. He
+               never saw a kennel."</p>
+            <p>During Eric's final illness, <rs><persName type="author" key="#sod">his
+                     master</persName></rs> nursed him with loving sorrow, played a fan upon him
+               through long hot summer nights. When <persName type="author" key="#sod"
+                  >Scott</persName> tells of his death, it sounds like the death of <rs><name
+                     type="fictional" key="#ron">Karana's dog</name></rs>, <name type="fictional"
+                  key="#ron">Rontu</name>.</p>
+            <p>"Slowly, he walked to where I was standing and fell at my feet. I put my hand on his
+               chest. I could feel his heart beating, very slowly . . . and then no more."</p>
+            <p>There are French Poodles around <placeName key="#stoneapple">Stoneapple
+                  Farm</placeName> in <placeName type="city" key="#ci_ju">Julian</placeName>,
+                  <placeName type="state" key="#st_cal">California</placeName>, where <persName
+                  type="author" key="#sod">Scott</persName> lives now. He is married to his gay,
+               exciting <persName key="#jod">Dorsa</persName>, daughter of <persName key="#wra"
+                  >Mr.</persName> and <persName key="#mwra">Mrs. William H. Rattenbury</persName> of
+                  <placeName type="city" key="#ci_nb">New Britain</placeName>, <placeName
+                  type="state" key="#st_ct">Connecticut</placeName>, and <placeName type="city"
+                  key="#ci_cla">Claremont</placeName>. She gives, he says, valuable editorial advice
+               and even types his manuscripts. The poodles romp about the book-lined living room,
+               snooze beside the huge fireplace, sniff appreciatively in the roomy old-fashioned
+               kitchen, and keep quiet in their master's study.</p>
+            <p><placeName type="city" key="#ci_ju">Julian</placeName> is not far from two Indian
+               reservations, and <persName type="author" key="#sod">Scott</persName> is
+               knowledgeable about the <orgName type="nativeamericantribes" key="#natam_Cupenos"
+                  >Cupeños</orgName> and the <orgName type="nativeamericantribes"
+                  key="#natam_Luisenos">Luiseños</orgName> but he learned more about the Indian
+               temperament, he says, from the <orgName type="nativeamericantribes"
+                  key="#natam_Tarascan">Tarascan Indians</orgName> whom he and <persName key="#jod"
+                  >Dorsa</persName> came to know during a summer near <placeName type="region"
+                  key="#re_pat">Lake Pátzcuaro</placeName> in <placeName type="country"
+                  key="#co_mexico2">Mexico</placeName>.</p>
+            <p>They lived in the guest cottage on an estate cared for by <rs><persName
+                     type="nativeamerican" key="#pfl">the Indian father of nine
+                  children</persName></rs>. <persName type="nativeamerican" key="#car"
+                  >Carolina</persName>, the sixteen-year-old eldest, was <rs><persName
+                     type="nativeamerican" key="#car">the O'Dells' cook</persName></rs>. The others
+               hung around all day and in late afternoon came inside to chatter over chocolate and
+                  <emph>buñuelos</emph> with the friendly, relaxed, soft-voiced <emph><rs><persName
+                        type="author" key="#sod">señor</persName></rs></emph> and the blonde smiling
+                        <emph><rs><persName key="#jod">señora</persName></rs></emph>. This family
+               sponsored <rs><persName type="group" key="#jod; #sod">the Americans</persName></rs>
+               at secret <orgName type="nativeamericantribes" key="#natam_Tarascan"
+                  >Tarascan</orgName>
+               <emph>fiestas</emph>, helped them obtain a native canoe.</p>
+            <p>"We used to take <persName type="nativeamerican" key="#car">Carolina</persName> to
+               the Friday market," <persName type="author" key="#sod">Scott</persName> says.
+               "Anything we bought as a gift for her she would take home carefully to share with her
+               brothers and sisters."</p>
+            <p>It is not hard, when he talks of <persName type="nativeamerican" key="#car"
+                  >Carolina</persName>, to see <name type="fictional" key="#kar">Karana</name>
+               caring for <rs><name type="fictional" key="#ram">her little brother</name></rs>.</p>
+            <p>Scott O'Dell's life brought him naturally a knowledge of Indians, dogs, and the
+               ocean; and he was born with an inability to keep away from writing. So he gave us the
+               moving legend of <name type="fictional" key="#kar">Karana</name>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

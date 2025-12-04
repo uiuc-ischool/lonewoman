@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dne">Los Angeles
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">36</biblScope>
+               <biblScope unit="issue">134</biblScope>
+               <date when="1891-08-31"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#LosAngelesHerald1891">A Ghastly Spot. San Nicolas
+                     Island Covered With Human Bones. Thousands of Skeletons Strewn on the Beach for
+                     a Distance of Five Miles. An Old Indian Graveyard.</title>
+                  <biblScope unit="page" n="7"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><placeName type="island" key="#i_sn">A GHASTLY
+                        SPOT</placeName></rs>.</title>
+               <title type="sub"><placeName type="island" key="#i_sn">SAN NICOLAS ISLAND</placeName>
+                  COVERED WITH HUMAN BONES.</title>
+               <title type="sub">Thousands of Skeletons Strewn on the Beach for a Distance of Five
+                  Miles. An Old Indian Graveyard.</title></head>
+            <p><rs><persName type="group" key="#prospecting">The party</persName></rs> who recently
+               went to <placeName type="island" key="#i_sn">San Nicolas Island</placeName> on a
+               prospecting tour with a view to taking up government land, returned after a two days'
+               visit on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. They
+               concluded not to exhaust their rights on land so valueless, says the <title
+                  type="article" key="#TheWeeklyFreePress1891">Ventura Free Press</title>.</p>
+            <p>From <persName key="#ffaz">Frank Fazzio</persName>, who took them over, some
+               interesting details of the trip are learned. <rs><placeName type="island" key="#i_sn"
+                     >The island</placeName></rs> is about four miles wide by twelve miles long, and
+               is located some seventy miles off <rs><placeName type="region" key="#re_calcoast"
+                     >this coast</placeName></rs>, almost due south of here. The soil has all been
+               blown off and the rocks are almost entirely bare and destitute of soil, giving the
+               whole island a very barren appearance. On the western side sand is about the only
+               thing seen and this had been blown from the beach clear to the top of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, 700 or 800 feet high.
+                  <span type="trope" n="7">On the other side of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, the east side, they found human
+                  bones for a distance of five miles along the beach. They were very thick and
+                  looked as if it had been a graveyard. They also discovered the remains of human
+                  bodies on the ridge which runs lengthwise through <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>. In some places two skeletons were
+                  seen close together as if they had been buried together in the same grave. The
+                  wind had blown off what covering of soil had been thrown over them, and it looked
+                  quite ghastly. Bones wore [were] thickly strewn along this ridge for upwards of
+                  three miles. From appearances upwards of 3000 or 4000 <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs> must have been buried there.</span></p>
+            <p>A shanty, which had been built on the west side, was found buried clear to the roof
+               in sand. There are now about 2000 sheep on <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> and from a sort of rough grass they seem to keep
+               fat. <rs><persName type="group" key="#prospecting">The party</persName></rs> went
+               into <rs><placeName type="region" key="#re_lwcave">a cave</placeName></rs> which
+               afforded <rs><persName type="nativeamerican" key="#lw">an Indian
+                  woman</persName></rs>, the sole occupant of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>, a home for <rs><date from="1846"
+                     to="1853">seven years</date></rs>. <span type="trope" n="9">It seems that when
+                     <persName type="group" key="#bhagroup">her party</persName> was leaving
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, that
+                  she jumped overboard and swam ashore in the night</span>. Years went by before she
+               was taken off. <rs><persName type="group" key="#prospecting">The
+                  party</persName></rs> enjoyed the trip immensely, but soy [say] <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> is not worth much.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

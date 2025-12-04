@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                     Times</orgName></title>
+               <biblScope unit="volume">49</biblScope>
+               <biblScope unit="issue"/>
+               <date when="1929-12-28"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#LosAngelesTimes1929">Fish-Hook Has Sad History: Crude
+                     Instrument Loaned to Santa Barbara Museum for Years used by Lone Woman
+                     Crusoe</title>
+                  <biblScope unit="page" n="9"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">FISH-HOOK HAS SAD HISTORY</title>
+               <title type="sub">Crude Instrument Loaned to <orgName type="museum"
+                     key="#mu_sbmuseum">Santa Barbara Museum</orgName> For Years Used by
+                        <rs><persName type="nativeamerican" key="#lw">Indian Woman
+                     Crusoe</persName></rs></title></head>
+            <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA</placeName>, <date
+                  when="1929-12-27">Dec. 27</date>.&#8212;</dateline>
+            <p>A fish hook laboriously fashioned by [h]and with a stone implement from a segment of
+               abalone shell, said to [h]ave been used in providing the necessities of life by
+                     <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>
+               [w]ho, history relates, lived alone on <placeName type="island" key="#i_sn">San
+                  Nicolas Island</placeName> for <rs><date from="1835" to="1853" cert="high"
+                     >eighteen [y]ears</date></rs>, has been loaned to the <orgName type="museum"
+                  key="#mu_sbmuseum">San[t]a Barbara Museum of Natural History</orgName> [by]
+                     <rs><persName key="#jrock">Mr.</persName></rs> and <persName key="#mrsrock"
+                  >Mrs. John F. Rock</persName>. <persName key="#jrock">Rock</persName> procured the
+               fish hook, which is [a]bo[ut] half an inch in diameter and shaped much like the
+               figure 5, from <persName key="#jog">[J]ohn Ogan</persName>, in whose family it was
+               treasured for more than sixty years [a]n[d] who obtained the treasure from <persName
+                  type="frontiersman" key="#gni">Capt. Nidever</persName>, who rescued <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> from her long stay
+               alone on <placeName type="island" key="#i_sn">the barren island</placeName>, it is
+               said.</p>
+            <p>History says that when <persName type="group" key="#bhagroup">the Indians</persName>
+               were being taken from the <placeName type="island" key="#i_chi">[S]anta Barbara
+                  Islands</placeName> by govern[m]ent order, since they were unable [t]o obtain a
+               living there, <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+               [wa]s among <persName type="group" key="#bhagroup">those on board</persName>
+               <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> [be]ing brought to
+                     <rs><placeName type="city" key="#ci_sb">this city</placeName></rs>. When [a]
+               long way from <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+               two men [d]iscovered that <rs><persName type="nativeamerican" key="#lwchild">her
+                     baby</persName></rs> had been [o]verlooked and was not on <rs><name type="ship"
+                     key="#sh_peoresnada">the [boa]t</name></rs>. <span type="trope" n="9"
+                        ><rs><persName type="group" key="#chu; #isp">The captain</persName>
+                  </rs> refused to re[t]urn to <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for <rs><persName type="nativeamerican"
+                        key="#lwchild">the child</persName></rs>, [so] <rs><persName
+                        type="nativeamerican" key="#lw">the mother</persName></rs> leaped overboard
+                  and swam back to <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and <rs><name type="ship" key="#sh_peoresnada">the
+                        boat</name></rs> with the other <persName type="group" key="#bhagroup"
+                     >Indians</persName> on board, came on to this port.</span> After a time the
+               incident was forgotten. <rs><date when="1853">Eighteen years later</date></rs>
+               <persName type="seaman" key="#gni">Capt. Nidever</persName> in cruising about
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, found
+               human tracks in the sand, which he investigated, since <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> was not supposed to be inhabited, and
+               found <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>
+               who had survived the <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                     years</date></rs> without human companionship, <rs><persName
+                     type="nativeamerican" key="#lwchild">her baby</persName></rs> having died.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

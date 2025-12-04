@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles Times
+                  </orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">47</biblScope>
+               <biblScope unit="issue"/>
+               <date when="1928-02-28"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#LosAngelesTimes1928">Story of Lost Woman
+                     Retold</title>
+                  <biblScope unit="page" n="14"/>
+                  <author><persName type="author" key="#dne"/></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"> STORY OF <rs><persName type="nativeamericans"
+                           key="#lw">LOST WOMAN</persName></rs> RETOLD </hi></title>
+               <title type="sub"><emph>Legend of <placeName type="island" key="#i_sn">San Nicolas
+                        Island</placeName> Revived in Ceremony</emph></title>
+               <title type="sub"><emph>Plaque Placed in Grounds of <orgName type="mission"
+                        key="#mi_santabarbaramission">Santa Barbara Mission</orgName></emph></title>
+               <title type="sub"><emph><orgName type="church" key="#ch_catholic">Church</orgName>
+                     and Laity Combine in Paying Late Tribute</emph></title></head>
+            <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA</placeName>, <date
+                  when="1928-02-27">Feb. 27.</date>&#8212;</dateline>
+            <p>One of the greatest honors it is possible to bestow on a human being&#8212;posthumous
+               recognition&#8212;was awarded <rs><persName type="nativeamericans" key="#lw">Juana
+                     Maria</persName></rs>, "<persName type="nativeamericans" key="#lw">The Lost
+                  Woman of San Nicolas Island</persName>," when the <orgName type="organization"
+                  key="#daughters">Daughters of the American Revolution</orgName> led by <persName
+                  key="#abr">Mrs. Alfred Brosseau</persName>, president-general, <orgName
+                  type="missionfathers" key="#misfats">mission fathers</orgName> and laymen placed a
+               plaque in her memory in the gardens of the <rs><orgName type="mission"
+                     key="#mi_santabarbaramission">old mission</orgName></rs> here. <span
+                  type="trope" n="3">And those who gathered for the ceremony heard once again the
+                  story of sacrifice and peril of <rs><persName type="nativeamericans" key="#lw">the
+                        old woman</persName></rs>.</span></p>
+            <p>The story told of the <persName type="group" key="#aji; #ndur; #misfats">mission
+                  fathers</persName> pressing all <rs><orgName type="nativeamericantribes"
+                     key="#natam_missionindians">the Indians</orgName></rs> into service in
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and then recruiting
+               the <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">island
+                     Indians</orgName></rs>. Because of its distance from <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> was left alone until <date when="1835">1835</date>, when
+                     <rs><name type="ship" key="#sh_peoresnada">the only large schooner on the
+                     coast</name></rs> visited <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and brought <persName type="group" key="#bhagroup">the
+                  twenty surviving Indians</persName> away from <rs><placeName type="island"
+                     key="#i_sn">their native land</placeName></rs>.</p>
+            <p><span type="trope" n="9">As they drew away from the shore, <rs><persName
+                        type="nativeamericans" key="#lw">one of the women</persName></rs> realized
+                  that <persName type="nativeamericans" key="#lwchild">her baby</persName> was not
+                  on board, and after frantically appealing in vain to <rs><persName type="group"
+                        key="#chu; #isp">the captain</persName></rs> to turn back, she jumped
+                  overboard and disappeared in the waves.</span></p>
+            <p><span type="trope" n="3"><persName type="group" key="#bhagroup">The
+                     natives</persName> were distributed among <orgName type="mission"
+                     key="#mi_mainlandmissions">the various missions</orgName>, and <rs><name
+                        type="ship" key="#sh_peoresnada">the ship</name></rs> itself was wrecked
+                  near <placeName type="region" key="#re_thegoldengate">Golden Gate</placeName>
+                  before an opportunity came to return for <rs><persName type="nativeamericans"
+                        key="#lw">the woman</persName></rs> who made such a sacrifice.</span></p>
+            <p><rs><persName type="nativeamericans" key="#lw">The woman of San
+                  Nicolas</persName></rs> became part of the lore of the <rs><placeName type="city"
+                     key="#ci_sb">Spanish settlement here</placeName></rs>. <rs><date
+                     notBefore="1835" notAfter="1850">Fifteen years</date></rs> later, fishermen
+               after sea otters reported having seen a figure running up and down the beach of
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> again arousing
+               interest in the legend of <persName type="nativeamericans" key="#lw">the lost
+                  woman</persName>.</p>
+            <p><persName type="frontiersman" key="#gni">Capt. George Nidever</persName>, whose
+                     <rs><persName key="#gnijr">son</persName></rs> still lives here, fitted out
+                  <name type="ship" key="#sh_nidever">a ship</name> and left for <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>, but failed to find any traces
+               of her until his third trip, when he was rewarded with a footprint of a slender foot
+               in the sand. For days <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> was searched, and <rs><persName type="nativeamericans"
+                     key="#lw">the woman</persName></rs> was found. <span type="trope" n="3">After
+                  attempting to flee, she changed her mind and received each with dignity.</span>
+               She was brought to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and
+               placed in the care of <persName key="#sni">Capt. Nidever's Spanish wife</persName>.
+               She could speak only in sign language, as there were few, if any, of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">her own
+                  tribe</orgName></rs> living then on <rs><placeName type="region"
+                     key="#re_socalcoast">the coast</placeName></rs>.</p>
+            <p>Before a month had elapsed, her new life and mode of living so affected her that she
+               became ill and died. Just before she died, <rs><persName type="missionfather"
+                     key="#jru">one of the mission fathers</persName></rs> christened her
+                     <rs><persName type="nativeamericans" key="#lw">Juana Maria</persName></rs>, and
+               she was buried in the <rs><placeName type="mission" key="#mi_sb">old mission
+                     grounds</placeName></rs>.</p>
+            <p><span type="trope" n="10"><rs><persName type="nativeamericans" key="#lw">Juana
+                        Maria</persName></rs> had pictured to <rs><persName key="#sni">Mrs.
+                        Nidever</persName></rs> through signs, that <persName type="nativeamerican"
+                     key="#lwchild">her child</persName> probably had been killed by wild dogs
+                  before she could leave <rs><name type="ship" key="#sh_peoresnada">the
+                     ship</name></rs> which first attempted to remove her from <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

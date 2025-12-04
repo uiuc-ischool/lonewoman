@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#laherald">Los Angeles
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">25</biblScope>
+               <biblScope unit="issue">355</biblScope>
+               <date when="1898-09-20"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#LosAngelesHerald1898">Catalina Chatter. The Summer
+                     Season's Premature End. Duyckinck's Thousand Fish</title>
+                  <biblScope unit="page" n="9"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><placeName type="island" key="#i_scatalina"
+                        >CATALINA</placeName> CHATTER</hi></title>
+               <title type="sub"><hi rend="bold">The Summer Season's Premature End.</hi></title>
+               <title type="sub"><hi rend="bold">Duyckinck's Thousand Fish</hi>
+               </title></head>
+            <byline><placeName type="city" key="#ci_av">AVALON</placeName>, <placeName type="island"
+                  key="#i_scatalina">Catalina Island</placeName>, <date when="1898-09-19">Sept
+                  19</date>.&#8212;</byline>
+            <p>Slowly and before its time <rs type="island" key="#i_scatalina">the island</rs> is
+               being depopulated. <date when="1898-09-18" cert="medium">Yesterday</date> a crowd
+               came over on <rs><name type="ship" key="#sh_steamer2">the steamer</name></rs> at 1
+               oclock, but returned at 3 oclock. September is the most delightful month here, but
+               habit and school terms are unreasoning tyrants.</p>
+            <p><persName key="#smc">Capt. "Sandy" McDonald</persName> is telling the boys about a
+               wonderful dog that he rescued last week, who had managed to follow his mistress from
+                  <placeName type="city" key="#ci_lb">Long Beach</placeName> to the isthmus after
+               she had left him on the <placeName type="region" key="#re_mld">mainland</placeName>,
+               disconsolate and alone.</p>
+            <p><persName key="#hgr">Herbert Gregg</persName> entertained Misses <persName
+                  key="#gmccrea">Gertrude</persName> and <persName key="#mmc">Mae McCrea</persName>,
+                  <persName key="#fgr">Frances</persName>, <persName key="#dgr">Dorothy</persName>
+               and <persName key="#agr">Alice Groff</persName> and <persName key="#efu">Edith
+                  Furrey</persName>, Messrs. <persName key="#bpo">Burnham</persName> and <persName
+                  key="#hpo">Harry Polley</persName> at a candy pull <rs><date when="1898-09-17"
+                     >Saturday afternoon</date></rs>.</p>
+            <p><persName key="#duy">Mr. Duyckinck</persName>, who holds the record for the number of
+               fish caught this season on rod and reel, is now bending all his efforts to catch the
+               thirty-three fish necessary to make his total 1000 fish. Saturday he was out with
+                  <persName key="#mjoe">Mexican Joe</persName> and caught fifteen yellowtail. The
+               fish were found at the isthmus and in great numbers, but the limited time that he had
+               to spend there did not allow him to get any more fish.</p>
+            <p><rs><placeName key="#church">The church on the hill</placeName></rs> is to be
+               enlarged during <rs><date notBefore="1898-12" notAfter="1899-02">the
+                  winter</date></rs>. The additional room will be fitted out and used as a meeting
+               and club room for those who stay here all winter. Magazines will be on the tables.
+               Over $550 has been raised for the purpose.</p>
+            <p><persName type="author" key="#cbr">Dr. C. W. Bryson</persName> and <persName
+                  key="#jco">J. Todd Cook</persName> secured seven goat heads the other day.
+                  <persName key="#nho">N. Howard</persName>, <rs><persName key="#lcr"
+                  >Mr.</persName></rs> and <persName key="#mlcr">Mrs. L. C. Craig</persName> and
+                  <persName key="#hco">H. M. Corlett</persName> also secured four fine heads.</p>
+            <p>The yacht <name type="ship" key="#sh_sandiego">San Diego</name> returned from
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName> yesterday. <rs><date
+                     when="1898-09-20">This afternoon</date></rs> the <name type="ship"
+                  key="#sh_sandiego">San Diego</name> will leave on an exploration trip to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>. A search will be
+               made for the <placeName type="region" key="#re_lwcave">Cave of the Lost
+                  Woman</placeName>, who was marooned on <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs>
+               <rs><date when="1835">years ago</date></rs>. The party will consist of <persName
+                  key="#edo">E. L. Doran</persName>, <persName key="#ssm">Sid Smith</persName> and
+                  <persName type="author" key="#cho">C. F. Holder</persName>.</p>
+            <p>The <placeName key="#hotelpasadena">Hotel Pasadena</placeName> has closed for the
+               season.</p>
+            <p><persName key="#mcr">Miss Craig</persName> of <placeName type="city" key="#ci_pa"
+                  >Pasadena</placeName> is the guest of <rs><persName key="#jba">Mr.</persName></rs>
+               and <persName key="#mjb">Mrs. J. B. Banning</persName>.</p>
+            <p><rs><persName key="#pga">Mr.</persName></rs> and <persName key="#mpga">Mrs. Parry
+                  Gavin</persName> have returned to their home in <placeName type="city"
+                  key="#ci_pa">Pasadena</placeName> after spending <rs><date notBefore="1898-06"
+                     notAfter="1989-08">the summer</date></rs>
+               <rs><placeName type="city" key="#ci_av">here</placeName></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
