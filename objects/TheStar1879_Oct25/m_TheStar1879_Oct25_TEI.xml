@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#chrchust"
+                  >Star</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue">3,601</biblScope>
+               <date when="1879-10-25"/>
+               <pubPlace><placeName type="city" key="#ci_chrchu">Christchurch</placeName>,
+                     <placeName type="country" key="#co_nz">New Zealand</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheStar1879_Oct25">A Female Crusoe</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A <rs><persName type="nativeamerican" key="#lw">FEMALE
+                        CRUSOE</persName></rs>.</title></head>
+            <p>The <orgName type="publication" key="#sfcall">San Francisco <emph>Call</emph>
+                  [sic]</orgName> contains <title type="article" key="#SanFranciscoChronicle1879">an
+                  interesting account</title> of <rs><persName type="nativeamerican" key="#lw">an
+                     Indian woman</persName></rs> who was accidentally abandoned on <placeName
+                  type="island" key="#i_sn">San Nicolas Island</placeName>, off the <placeName
+                  type="region" key="#re_socalcoast">coast of Southern California</placeName>, and
+               spent <rs><date notBefore="1835" notAfter="1853" cert="high">18 years</date></rs>
+               alone there before she was rescued. The fact of her existence was discovered by
+                     <rs><persName type="frontiersman" key="#gni">a man</persName></rs> who went
+               from the <rs><placeName type="region" key="#re_mld">mainland</placeName></rs> to hunt
+               for otters and who found footprints sunk deeply in the ground. He was unable to
+               follow up these indications till <rs><date when="1853">nearly three
+               years</date></rs>, when <rs><persName type="frontiersman" key="#cdi"
+                  >one</persName></rs> of <rs><persName type="group"
+                     key="#col; #cook; #msh; #poli; #nsk; #hva">a party who accompanied
+                     him</persName></rs> came suddenly upon <rs><persName type="nativeamerican"
+                     key="#lw">the object of their search</persName></rs>. She was in a small
+               circular enclosure made of brushwood, about five feet high and six feet in diameter,
+               with a small opening on one side. She was clothed with a garment made of skins of the
+               shag, a species of duck that can neither walk nor fly. This garment reached almost to
+               her ankles when she stood erect. She was sitting cross-legged, skinning seal-blubber
+               with a rude knife made of a piece of hoop-iron driven into a piece of wood. There was
+               no covering on her head, except a thick matted mass of hair, of yellowish brown
+               colour, probably owing to exposure to the sun and the weather; it was short, as if
+               the ends had rotted off. There were some wild dogs on <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>, a few of which kept near her, and
+               seemed to regard her as a mistress. She had lived on a plant resembling cabbage,
+               called by Californians <emph>palo santo</emph>, and a root known by the name of
+                  <emph>coreomite</emph> [corcomite], also blubber of the various kinds of seals,
+               &amp;c. She had a rude apparatus for catching shellfish, and strong fishing lines
+               made of seal sinews, which seemed to indicate that she fished in the ocean. <span
+                  type="trope" n="3">The expression of her face was pleasing, her features were
+                  regular, her complexion much fairer and her form more symmetrical than that of the
+                  Indian woman [sic] on the adjoining <rs><placeName type="region" key="#re_mld"
+                        >mainland</placeName></rs>. Some suspect that she belonged to <rs><orgName
+                        type="nativeamericantribes" key="#natam_aleuts">a tribe much further
+                        north</orgName></rs>.</span>
+               <span type="trope" n="10">She could not understand anything said to her in any of the
+                  Indian dialects of <placeName type="region" key="#re_socal">South
+                     California</placeName>, but she had a wonderful capacity for conversing by
+                  signs.</span> She retained all her teeth, but they were worn low, supposed to be
+               due to her chewing tough and hard articles of food. Her age appeared to be about 50
+               years. She bowed to all who came near her, greeting them with a smile. <span
+                  type="trope" n="1">she freely accompanied <rs><persName type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her discoverers</persName></rs> to <rs><name type="ship"
+                        key="#sh_nidever">their vessel</name></rs>, but her conduct at once
+                  convinced them that she retained the virtue of female modesty.</span> She showed
+               singular dexterity in making water-vessels from grass and asphaltum, a substance
+               which is plentiful both on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and the <rs><placeName type="region" key="#re_mld"
+                     >mainland</placeName></rs>. She seemed to recognise various appliances of
+               civilization. She died about seven weeks after reaching the <rs><placeName
+                     type="region" key="#re_mld">mainland</placeName></rs>, partly from the effects
+               of a fall, partly from dysentery, brought on by eating fruits and vegetables.
+                  <persName type="missionfather" key="#jru">Padre Gonzalez</persName>, the superior
+               of the <orgName type="mission" key="#mi_santabarbaramission">mission of Santa
+                  Barbara</orgName>, has sent her dress of shagskins, and her basket and implements
+               to <placeName type="city" key="#ci_rom">Rome</placeName>, to the <rs><orgName
+                     type="museum" key="#mu_vaticanmuseum">Museum of the
+               Propaganda</orgName></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper">
+                  <orgName type="publication" key="#saltlaketribune">The Salt Lake Tribune</orgName>
+               </title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">81</biblScope>
+               <biblScope unit="issue">59</biblScope>
+               <date when="1910-06-12"/>
+               <pubPlace><placeName type="city" key="#ci_slc">Salt Lake City</placeName>, <placeName
+                     type="state" key="#st_utah">Utah</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheSaltLakeTribune1910">The Attractive Isles. The
+                     Channel Islands of California: a Book for the Angler, Sportsman, and Tourist.
+                     By Charles Frederick Holder With Nearly 150 Illustrations from Photographs, and
+                     Twelve Maps, Published by A. C. McClurg &amp; Co., Chilcago</title>
+                  <biblScope unit="page" n="39"/>
+                  <author>
+                     <persName type="author" key="#dne"> </persName>
+                  </author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <p>
+               <title type="main">
+                  <hi rend="bold">LITERARY NOTES</hi>
+               </title>
+            </p>
+            <p><persName type="author" key="#cho">Charles F. Holder</persName>, author of "<title
+                  type="monograph" key="#Holder1910">The Channel Islands of California</title>,"
+               published by <orgName type="publisher" key="#mcclurg">McClurg &amp; Co.</orgName>, is
+               an authority on sea angling. He has fished everywhere and has established a code of
+               ethics in angling that has done more to elevate sport in the <rs><date
+                     notBefore="1800" notAfter="1899">nineteenth century</date></rs> than any one
+               else. <span type="trope" n="8">In his <title key="#Holder1910">present book</title>
+                  he describes the famous <rs><persName type="nativeamerican" key="#lw">lost woman
+                        of San Nicolas</persName></rs>, one of his trips being made to discover the
+                  home of this <rs><persName type="nativeamerican" key="#lw">the strangest
+                        Crusoe</persName></rs> of <rs><date notBefore="1800" notAfter="1899">the
+                        century</date></rs>.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

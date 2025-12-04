@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#elmira">Elmira (NY)
+                            Telegram</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume"/>
+                    <biblScope unit="issue"/>
+                    <date when="1913-03-02"/>
+                    <pubPlace><placeName type="city" key="#ci_elm">Elmira</placeName>, <placeName
+                            type="state" key="#st_ny">New York</placeName></pubPlace>
+                    <bibl>
+                        <title type="main" key="#TheTelegram1913">BEAUTIFUL SANTA BARBARA AN
+                            OUT-OF-DOOR PARADISE</title>
+                        <biblScope unit="page"/>
+                        <author/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">BEAUTIFUL <placeName type="city"
+                                key="#ci_sb">SANTA BARBARA</placeName> AN OUT-OF-DOOR
+                        PARADISE</hi></title></head>
+                <div type="section">
+                    <p>It Is the Riviera of the Great <placeName type="region" key="#re_paccoast"
+                            >Pacific Coast</placeName>, and Was Named For <rs><persName key="#barb"
+                                >a Girl</persName></rs> Killed By <rs><persName key="#dio">Her
+                                Father</persName></rs>&#8212;<rs><persName key="#barb">Daughter of a
+                                Roman General Who Perished a Christian
+                            Martyr</persName></rs>&#8212;<placeName type="region" key="#re_upcal"
+                            >California</placeName> Found in <date when="1542">1542</date>, and
+                        Explored <rs><date when="1592">Just Fifty Years After</date></rs>
+                        <persName type="seaman" key="#cco">Columbus</persName> Discovered <placeName
+                            type="country" key="#co_usa">America</placeName>&#8212;<placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName> Is the Place Where
+                        Tired People Come to Soak Up Sunshine&#8212;It Is Rich, But
+                        Democratic&#8212;A Single Grapevine Covers an Acre, Produces Ten Tons of
+                        Grapes, Is Eight Feet in Circumference at the Base&#8212;Walnuts Yield $200
+                        or More to the Acre.</p>
+                </div>
+                <div type="section">
+                    <head><title type="section">Editor Telegram:</title></head>
+                    <p>Please inform us how <placeName type="state" key="#st_cal"
+                            >California</placeName> compares in size with <placeName type="state"
+                            key="#st_penn">Pennsylvania</placeName>?</p>
+                    <p>Ans.&#8212;There cannot be a comparison. <placeName type="state"
+                            key="#st_cal">California</placeName> has 99,463,681 acres. To get a
+                        comparative idea you can take the states of <placeName type="state"
+                            key="#st_me">Maine</placeName>, <placeName type="state" key="#st_vt"
+                            >Vermont</placeName>, <placeName type="state" key="#st_nh">New
+                            Hampshire</placeName>, <placeName type="state" key="#st_ma"
+                            >Massachusetts</placeName>, <placeName type="state" key="#st_ct"
+                            >Connecticut</placeName>, <placeName type="state" key="#st_ri">Rhode
+                            Island</placeName>, <placeName type="state" key="#st_ny">New
+                            York</placeName>, <placeName type="state" key="#st_penn"
+                            >Pennsylvania</placeName>, <placeName type="state" key="#st_nj">New
+                            Jersey</placeName>, <placeName type="state" key="#st_de"
+                            >Delaware</placeName> and <placeName type="state" key="#st_md"
+                            >Maryland</placeName>, and spreading them all out together over
+                            <placeName type="state" key="#st_cal">California</placeName> there would
+                        be an uncovered margin of 13,774 square miles, or more than enough in excess
+                        to make more than ten states like <placeName type="state" key="#st_ri">Rhode
+                            Island</placeName>. <placeName type="state" key="#st_cal"
+                            >California</placeName> is "some" state.</p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">NUMBER VII.</hi>
+                        </title></head>
+                    <p>There is more than one outdoor paradise in <placeName type="state"
+                            key="#st_cal">California</placeName>. In the list do not fail to include
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. The
+                        climate has attracted invalids and persons in search of health and pleasure
+                        since the earliest settlement of the <placeName type="region"
+                            key="#re_paccoast">Pacific coast</placeName>. While <placeName
+                            type="region" key="#re_upcal">California</placeName> was still a part of
+                            <placeName type="country" key="#co_mexico2">Mexico</placeName>, many
+                        refined and aristocratic Spanish families made it their home and contributed
+                        to the charm of social life. A few descendants of the early Spanish settlers
+                        still reside there. They have become thoroughly Americanized, but may easily
+                        be identified by their names, their features and complexions and the
+                        graceful manners of their race.</p>
+                    <p><placeName type="mission" key="#mi_sb">The mission of Santa
+                            Barbara</placeName> is the best preserved in <placeName type="state"
+                            key="#st_cal">California</placeName>, its monastery is the most
+                        extensive, it is an educational institution of high standard, and its
+                        influence is the widest of any in the state.</p>
+                    <p>Many people consider <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> the most desirable place of residence for families
+                        of wealth and leisure in the <placeName type="country" key="#co_usa">United
+                            States</placeName>, if not in the world. The climate and environment are
+                        very much like those of the <placeName type="region" key="#re_rivera"
+                            >Riviera of France</placeName>. It is the only place of resort in the
+                            <placeName type="country" key="#co_usa">United States</placeName> which
+                        has a mountain range on one side of it, and an ocean on the other, and where
+                        the climate permits the population to live in comfort the year around. It is
+                        often called the <placeName type="city" key="#ci_newport"
+                            >Newport</placeName> of the Pacific, but is more democratic and
+                        cosmopolitan than the queen of the Atlanic resorts. No social tyranny is
+                        recognized; the habits and customs of the people are not so artificial;
+                        everybody lives as nearly as possible to nature: [sic] there is no rivalry
+                        in dress or dinner parties, or other forms of display; all classes spend
+                        most of their time out-of-doors, and the belle of <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> shows to the best advantage in a
+                        Khaki suit, astride a mustang climbing a mountain trail, rather than at a
+                        ball or garden party. The population is made up mostly of
+                        "remitters"&#8212;that is in this instance people who have retired from
+                        business, widows of large means, and others who are able to live luxuriously
+                        upon the proceeds of investments elsewhere. Many people from <placeName
+                            type="city" key="#ci_sf">San Francisco</placeName> spent part of the
+                        winters in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                        owning or renting bungalows, which are of all sizes. There are colonies of
+                        people from the big eastern cities of <placeName type="city" key="#ci_bo"
+                            >Boston</placeName> and <placeName type="city" key="#ci_nyc">New
+                            York</placeName>. The richest resident is a petroleum prince, who has
+                        figured in the divorce courts.</p>
+                    <p>Between <rs><placeName type="mission" key="#mi_sb">the
+                            mission</placeName></rs> and the sea runs the main street of the town, a
+                        wide, well-paved thoroughfare, more than two miles long, which is lined on
+                        both sides with business blocks, banks, mercantile establishments, and the
+                        best bookstores and curio shops to be found on the <placeName type="region"
+                            key="#re_paccoast">Pacific coast</placeName>. The high class of goods
+                        they keep is an index to the wealth and culture of the community. There is a
+                        line of trolley cars running from the beach to the mission and a wide and
+                        beautiful boulevard follows the shore line for several miles. At the
+                        northern end are bath houses, and a bathing pier near a plaza, where a band
+                        plays every afternoon. There is sea bathing the year round, and one of the
+                        finest bath houses in the land. There are several sanitariums and hot
+                        medicinal springs at an elevation of 1,300 feet. One may spend an entire
+                        winter in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and
+                        follow a different drive or trail every day.</p>
+                    <p>In fact, no city in <placeName type="state" key="#st_cal"
+                            >California</placeName> has so many beautiful drives and trails for
+                        motors, carriages and saddle horses. The <placeName type="region"
+                            key="#re_santaynezmts">Santa Ynez range of mountains</placeName> is
+                        broken by innumerable canyons and gorges, and between them lie broad table
+                        lands, which are occupied as ranches, olive groves and walnut orchards.
+                        There is a drive or a trail through every canyon, and one of them known as
+                            <placeName type="region" key="#re_cumbre">La Cumbre trail</placeName>,
+                        twelve miles long, offers a continuous panorama of glorious scenery. It
+                        crosses the mountains through a pass a little less than 4,000 feet above the
+                        seas. Another trail reaches the summit of the range by a climb of twelve to
+                        fourteen miles, and is equally attractive. The lowest pass is 2,224 feet,
+                        but it is possible to climb nearly 8,000 either on horseback or by
+                        motor.</p>
+                    <p>In <placeName type="city" key="#ci_sb">Santa Barbara</placeName> there is no
+                        rivalry in architecture or extravagance. The great competition is in
+                        flowers, plants and vegetable gardens. Most of the residences are of the
+                        villa type, simple and often severe. The ideal house is of shingles, stained
+                        brown, with wide porches hidden by climbing roses and other vines and
+                        furnished with hammocks and easy chairs. The fact that the temperature
+                        rarely varies more than twelve to fifteen degrees from one year's end to
+                        another, and is always moderatley warm, enables everybody to live in the
+                        open air, and is, of course, a blessing to the infirm and weary, and has a
+                        wholesome influence. People from the east go to <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> to be soaked in sunshine, and
+                        play golf 365 days in the year. The villa population is quite exclusive and
+                        has a society of its own. During the winter season the two great hotels, the
+                            <placeName key="#potterhotel">Potter</placeName>, probably as large as
+                        the largest on the coast, and one of the finest, and the <placeName
+                            key="#arling">Arlington</placeName>, which has recently been erected
+                        upon the site of an old house of the same name, are filled with eastern
+                        people. During the summer middle west and western people take advantage at
+                        the hotels of the lower rates. The <placeName key="#potterhotel">Potter
+                            hotel</placeName> is very close to the ocean, where the sea bathers
+                        revel, and the great lawn on that side is in fact a perfect ocean of
+                        flowers.</p>
+                    <p>The <placeName key="#arling">Arlington hotel</placeName> is also attractive.
+                        It belongs to <persName key="#ripley">E. P. Ripley</persName>, president of
+                        the <orgName type="company" key="#sfrail">Santa Fe railroad</orgName>, and
+                        he is the man who controlled the contracting company which built the
+                        Lackawanna railroad from <placeName type="city" key="#ci_bing"
+                            >Binghamton</placeName> to <placeName type="city" key="#ci_buffalo"
+                            >Buffalo</placeName> about <date when="1880">1880</date>. One of his
+                        subcontractors was the late <persName key="#jbmc">John B.
+                            McDonald</persName>, who made fame and wealth as the builder of the
+                            <placeName type="city" key="#ci_nyc">New York city</placeName> subway.
+                            <persName key="#ripley">Mr. Ripley</persName> in <date when="1880"
+                            >1880</date>, was in a way, Mr. McDonald's financial backer. The writer
+                        saw <persName key="#ripley">Mr. Ripley</persName> recently in <placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName>, and he looks almost
+                        as strong as he did <rs><date notAfter="1883">over thirty years
+                            ago</date></rs>. <rs><placeName key="#arling">His hotel</placeName></rs>
+                        is built of concrete and steel and is after the mission style of
+                        architecture, has 300 rooms and cost nearly a half million dollars. The
+                        mission idea is carried out in every room and corridor, the woodwork being
+                        left in the rough and stained a dark brown by the use of petroleum. There
+                        are no ceilings. The heavy rafters are left uncovered; the walls are rough
+                        plaster, painted to match the woodwork; the floors are red tiles and even
+                        the bath tubs are of mission design.</p>
+                    <p>The mission style of architecture with its strong but simples [sic] lines,
+                        [with its ...] Moors and introduced into <placeName type="country"
+                            key="#co_mex">Mexico</placeName>, was used by the <orgName
+                            type="missionfathers" key="#misfats">Franciscan missionaries</orgName>
+                        because they found it the best suited to the climate. That was the reason it
+                        was adopted in the south of <placeName type="country" key="#co_spain"
+                            >Spain</placeName>. The brick and tile did not reflect, but absorbed the
+                        glare of the sun. The cloisters are cool at noonday and the thick walls are
+                        proof agianst the dampness of the rainy season. It is being used more and
+                        more for public buildings, school houses, hotels, and nearly all the new
+                        schools and public edifices are being built after the mision design. The
+                        government architects planned the conventional granite for the federal
+                        post-office at <placeName type="city" key="#ci_rside">Riverside,
+                            Cal.</placeName>, but to the end that a harmonious architectrure should
+                        prevail in the city, <persName key="#taft">President Taft</persName>
+                        directed that the Riverside post-office should conform to the mission
+                        style.</p>
+                    <p>All about <placeName type="city" key="#ci_sb">Santa Barabara</placeName> is
+                        attractive. The entire amphitheater inclosed by the <placeName type="region"
+                            key="#re_santaynezmts">Santa Ynez mountains</placeName> on the one side
+                        and the <placeName type="region" key="#re_pacific">Pacific ocean</placeName>
+                        on the other, is entirely taken up by rich ranchmen, who own large estates
+                        and keep most of their lands in natural parks. They visit in automobiles and
+                        on horseback; they wear sombreros and comfortable clothing; they take pride
+                        in their crops and orchards and brag about their walnuts and their olives.
+                        This is the walnut country par excellence, and it is the best paying crop.
+                        The trees require ten years to mature, but give no further trouble. It is
+                        only necessary to keep down the weeds and loosen the surface of the soil
+                        with plow and harrow. Walnut trees are not subject to diseases like fruit
+                        trees. The nuts require no refrigeration, cannot spoil on the hands of the
+                        grower, and sell for not less than twelve cents a pound on the cars. The
+                        average profit to the grower is $200 an acre. Walnut orchards are mostly
+                        limited in area. The largest in <placeName type="state" key="#st_cal"
+                            >California</placeName> has only 350 acres, and most of them are of less
+                        than twenty acres. But the business is extending rapidly.</p>
+                    <p>The walnut acreage will soon be increased when the entire <placeName
+                            type="region" key="#re_golita">Golita valley</placeName> is irrigated.
+                        Irrigation will enable the farmers to extend the walnut and lemon groves and
+                        grow more beans, for these three are great staples. <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> has been boring a hold through
+                        the <placeName type="region" key="#re_santaynezmts">Santa Ynez range of
+                            mountains</placeName> for a large and permanent water supply. The tunnel
+                        is seven by nine feet in size and 7,000 feet through the mountain. Aqueducts
+                        were designed for both sides and the aqueducts' supply of water for
+                        drinking, irrigation, etc., will be enough for a population of 250,000
+                        people. No one dreams that <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> will ever have such a population. The new scheme is
+                        to irrigate the <placeName type="region" key="#re_golita">Golita
+                            valley</placeName>.</p>
+                    <p>Writing of lemons, it is worth mention that <persName type="group"
+                            key="#crocker">the Crocker family</persName> have an enormous lemon
+                        ranch in the <placeName type="region" key="#re_montvalley">Montecito
+                            valley</placeName>, just over a ridge from <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName>, with a large stone packing house
+                        and all the appurtenances and ship their crops by the train load. It is the
+                        most extensive and complete lemon ranch in <placeName type="country"
+                            key="#co_usa">America</placeName>, with 2,000 acres of trees. The crops
+                        are truly wonderful. In this temperature, and in a soil of surpassing
+                        richness, everything grows. All the plants known to the temperature and
+                        semi-temperate regions live happily together. The palm and the pine, the
+                        apple and the oleander[,] the maple and the magnolia grow side by side with
+                        equal vigor. Roses bloom and strawberry beds give ripened fruit every month.
+                        The cultivation of vegetables and small fruits for the local market, is the
+                        most profitable kind of farming, however, as hotels and boarding houses
+                        consume large quantities of both. The cultivation of flowers and plants is
+                        also a profitable business. On the main street of <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> is a concern which imports
+                        shrubs, vines, plants and trees from everywhere and acclimates them for
+                            <placeName type="state" key="#st_cal">California</placeName>. You can
+                        see nearly a half hundred kinds of palms, camphor and cinnamon trees,
+                        papyrus, bamboos of all sorts and sizes, hibiscus, agavas, bread-fruit, and
+                        other strange plants that you read about in Robinson Crusoe, the Swiss
+                        Family Robinson and other tales of the <placeName type="region"
+                            key="#re_southsea">South Sea</placeName> islands.</p>
+                    <p>Out in <placeName type="region" key="#re_montpark">Montecito park</placeName>
+                        an oil and steel magnate named <persName key="#gillespie"
+                            >Gillespie</persName> has a great show place. It took eight years to
+                        construct the palace and surroundings at a cost of more than $3,000,000. It
+                        is first of all a palm park. But it is more. The home is copied after some
+                        Roman villa, and the grounds likewise. This palace and palm park is open to
+                        visitors at certain hours each day when <persName key="#gillespie">Mr.
+                            Gillespie</persName> is away. The house has a great plunge like to the
+                        Roman baths. The water runs into high reservoirs, which as they are located
+                        along the descending hillside in front are tapped by pipes from which the
+                        palms are watered. <persName key="#gillespie">Mr. Gillespie</persName> has
+                        been traveling the world over for many years looking for new varieties of
+                        palms[.] He now has about eighty distinct varieties and has sold single
+                        plants for as much as $500. A Buffalo man, the head of the <orgName
+                            type="company" key="#paac">Pierce-Arrow Automobile company</orgName>,
+                        occupies the palace this winter.</p>
+                    <p>Some of the finest grapes in <placeName type="state" key="#st_cal"
+                            >California</placeName> are grown about <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> the vines having been imported
+                        from <placeName type="country" key="#co_spain">Spain</placeName> in the
+                        early days by the <orgName type="missionfathers" key="#misfats">Franciscan
+                            fathers</orgName> who taught the natives how to make wine as well as
+                        olive oil. The largest grape vine in the world, it is said, grows in
+                            <placeName type="region" key="#re_carpvalley">Carpinteria
+                            valley</placeName>, a few miles from <placeName type="city" key="#ci_sb"
+                            >Santa Barbara</placeName>. It was planted in <date when="1843"
+                            >1843</date> by a Spanish farmer and has yielded ten tons of grapes in a
+                        single season. It spreads over an acre of ground and is supported by
+                        seventy-eight posts. If it were not pruned so closely every season it would
+                        cover a much larger area. Six inches from the ground the trunk measures
+                        eight and one-half feet in circumference, and where it reaches the trellis
+                        and begins to spread, about six and one-half feet from the ground, the girth
+                        is five feet seven inches. There are several other very large vines int he
+                        same neighborhood. One of the largest ever known was cut down and sent to
+                        the Philadelphia centennial exposition in <date when="1876">1876</date>, as
+                        a sample of California products and was a great advertisment for
+                                <rs><placeName type="state" key="#st_cal">the
+                        state</placeName></rs>.</p>
+                    <p>It will be of interest to all who love the words and music of the song "The
+                        Rosary," to know the words were written in <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> by <persName key="#camrogers"
+                            >Cameron Rogers</persName>. He is an artist; he lives there and from his
+                        studio window there is a most entrancing view. It was set to music by
+                            <persName key="#enevin">Ethelbert Nevin</persName>. Nearby to the scenes
+                        of beauty in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                        one can find the greasy conditions of a rich oil country. Crude petroleum
+                        gushes up from the earth and sea at <placeName type="city" key="#ci_summer"
+                            >Summerland</placeName>, a town near <placeName type="city" key="#ci_sb"
+                            >Santa Barbara</placeName>. It is occupied by a colony of Spiritualists.
+                        It looks like one of the old fashioned oil towns of <placeName type="state"
+                            key="#st_penn">Pennsylvania</placeName>. The first petroleum was
+                        discovered on the hillside, and the veins were followed down to the ocean,
+                        where what the Californians call "submarine wells" have been bo[r]ed and
+                        piped and are now flowing regularly. The oil comes up first through the
+                        sand, and then piped through the water and thence to the reservoirs on
+                        shore. The people of <placeName type="city" key="#ci_summer"
+                            >Summerland</placeName> were the first to discover the adaptability of
+                        crude petroleum for making roads. It was an accident. The first man to use
+                        the crude petroleum on a road was so lazy that he shoveled the refuse from
+                        an oil tank into the street to get rid of it, when he should have carted it
+                        off to some dumping ground. The oil immediately absorbed the dust, and the
+                        heavy metal wheels which passed over it packed it down into a hard, smooth
+                        surface like asphaltum which shed the rains and was never muddy or dusty.
+                        His neighbors then put oil on the roadways in front of their houses to keep
+                        down the dust, and the practice finally became general and is now used
+                        effectively in every part of the country[.]</p>
+                    <p>The history of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                        is very romantic, but <rs><placeName type="city" key="#ci_sb">the
+                                town</placeName></rs> acquired its name from a tragedy, due to a
+                        father's killing of his daughter, and after her it was named. <rs><persName
+                                key="#barb">Santa Barbara</persName></rs> was one of the early
+                        martyrs. She was born in <placeName type="region" key="#re_asiaminor">Asia
+                            Minor</placeName>, and was the daughter of <rs><persName key="#dio">a
+                                Roman general</persName></rs>. She was converted to Christianity
+                        when she was sixteen years old, in the year A. D. <date when="0223"
+                            >233</date>, during the reign of <persName key="severus">Alexander
+                            Severus</persName>, an emperor frindly to the Christians. His successor,
+                            <persName key="#maximinus">Maximinus</persName>, was a thorough pagan
+                        and ordered all Christian converts put to death. The father of <persName
+                            key="#barb">Barbara</persName> was <persName key="#dio"
+                            >Deoscorus</persName>, and he concealed her, hoping to persuade her to
+                        recant. When he was unable to do so he inflicted upon her cruel torments,
+                        which she bore with wonderful fortitude for a girl of seventeen, and he
+                        finally slew her with his own hand. Her piety, her steadfastness for the
+                        faith, and her example had great influence with the young Christians and
+                        caused her to be canonized by both the Greek and Roman Catholic churches.
+                        She suffered martyrdom at <placeName type="city" key="#ci_nico">Nicomedia,
+                            Asia Minor</placeName> about <date when="0235">235 A. D.</date> It was
+                        not by a monk that <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> was named but by <rs><persName type="seaman"
+                                key="#jca">a Portuguese explorer</persName></rs>, as will later
+                        apear.</p>
+                    <p>Off the coast of <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> is <rs><placeName type="island" key="#i_chi">an
+                                archipelago of mountainous islands</placeName></rs>, the largest
+                        being called <placeName type="island" key="#i_sm">San Miguel</placeName>,
+                            <placeName type="island" key="#i_sr">Santa Rosa</placeName> and
+                            <placeName type="island" key="#i_scruz">Santa Cruz</placeName>. When the
+                        Spaniards first discovered the country they were all inhabited, but after
+                                <rs><placeName type="mission" key="#mi_sb">the
+                            mission</placeName></rs> was established <rs><orgName type="group"
+                                key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                                >the island families</orgName></rs> were persuaded by the
+                                <rs><persName type="group" key="#aji; #ndur; #misfats"
+                                >friars</persName></rs> to move over to <placeName type="region"
+                            key="#re_mld">the mainland</placeName> and settle near by. <persName
+                            type="seaman" key="#jca">Juan Rodnguez [Rodríguez] Cabrillo</persName>,
+                        the discoverer of <placeName type="state" key="#st_cal"
+                            >California</placeName>, is buried upon the island of <placeName
+                            type="island" key="#i_sm">San Miguel</placeName>, although no trace of
+                        his grave remains. He was the first European who is known to have explored
+                        the <placeName type="region" key="#re_paccoast">Pacific coast</placeName> of
+                        what is now the <placeName type="country" key="#co_usa">United
+                            States</placeName>. He was a navigator of enterprise, courage and tact,
+                        and although a Portuguese by birth, spent most of his life in the service of
+                            <placeName type="country" key="#co_spain">Spain</placeName> like
+                            <persName type="seaman" key="#cco">Columbus</persName> and <persName
+                            type="seaman" key="#vespucci">Americus Vespucci</persName>, who were
+                        Italians.</p>
+                    <p>About the middle of <date when="1542-10">October 1542</date>, just fifty
+                        years after <persName type="seaman" key="#cco">Columbus</persName>
+                        discovered America, <persName type="seaman" key="#jca">Cabrillo</persName>
+                        landed on the beach of what is now <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName>, and was met by natives in their canoes, who
+                        received him with demonstrations of curiosity and kindness, and exchanged
+                        presents with him. He remained some time, exploring the surrounding country,
+                        which in his reports to <rs><persName key="#riv">the viceroy</persName></rs>
+                        of <placeName type="country" key="#co_mex">Mexico</placeName> was described
+                        as of great attractiveness and fertility. He crossed to the islands of
+                            <placeName type="island" key="#i_sr">Santa Rosa</placeName>, <placeName
+                            type="island" key="#i_scruz">Santa Cruz</placeName> and <placeName
+                            type="island" key="#i_sm">San Miguel</placeName> and made the latter his
+                        headquarters, while he continued his explorations northward to a point many
+                        leagues north of the <placeName type="region" key="#re_sfbay">bay of San
+                            Francisco</placeName>, although he never found the <placeName
+                            type="region" key="#re_thegoldengate">Golden Gate</placeName>. It is
+                        difficult to determine how far north he went, but we know from his
+                        narratives that he was driven back by bad weather and returned to <placeName
+                            type="island" key="#i_sm">San Miguel</placeName> to recover from a
+                        fracture of his right arm, but he grew worse instead of better and on <date
+                            when="1543-01-08">January 8, 1543</date>, he died and was buried on
+                                <rs><placeName type="island" key="#i_sm">that
+                            island</placeName></rs>.</p>
+                    <p><placeName type="city" key="#ci_sb">Santa Barbara</placeName> was given its
+                        name by <persName type="seaman" key="#svi">Sebastian Viscaino</persName>,
+                        another Portuguese epxlorer, who set sail from <placeName type="city"
+                            key="#ci_aca">Acapulco</placeName> with three large caravels and a
+                        transport, carrying 200 soldiers and three Carmelite friars. <persName
+                            type="missionfather" key="#asc">Antonio de la Ascension</persName>, one
+                        of the friars, took copious notes of all they saw and heard along
+                                <rs><placeName type="region" key="#re_calcoast">the
+                                coast</placeName></rs>, made a map of considerable detail and as
+                        directed by the explorer named each bay, cape, island and other conspicuous
+                        landmark after the particular saint whose festival occurred nearest to the
+                        day of discovery. On <date when="1602-12-04">December 4, 1602</date>, the
+                        party landed at <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName>, and that being the anniversary of <persName
+                            key="#barb">Santa Barbara</persName>, her name was given to the bay and
+                        the country that surrounds it.</p>
+                    <p>Although <persName type="seaman" key="#svi">Viscaino</persName> was not the
+                        first discoverer of <placeName type="state" key="#st_cal"
+                            >California</placeName>, his voyage was the most important because of
+                        the maps of <rs><placeName type="region" key="#re_calcoast">the
+                                coast</placeName></rs> and the authentic information which <persName
+                            type="missionfather" key="#asc">Padre Antonio</persName> and the other
+                        friars were able to furnish <placeName type="region" key="#re_europe"
+                            >Europe</placeName> in regard to that part of the world. The island of
+                            <placeName type="island" key="#i_scruz">Santa Cruz</placeName> recieved
+                        its name from the fact that one of the early explorers lost there a crucifix
+                        of great sanctity, which was found by the natives and restored as the vessel
+                        was about to sail. <span type="trope" n="4">A romantic narrative relates how
+                            in <date when="1851">18[5]1</date>
+                            <persName type="frontiersman" key="#gni">George Nidever</persName>, a
+                            ranchero, of <placeName type="city" key="#ci_sb">Santa
+                                Barbara</placeName>, found human footprints upon the sandy beach of
+                            the island of <placeName type="island" key="#i_sn">St.
+                                Nichalas</placeName>, close to <placeName type="island"
+                                key="#i_scruz">Santa Cruz</placeName>, which was supposed to be
+                            uninhabited. He was reminded of a story that had been widely circulated
+                            about <rs><persName type="nativeamerican" key="#lw">an Indian
+                                    woman</persName></rs> who had been abandoned there and made a
+                            thorough search. On the first day he wa unsuccessful; on the second day
+                            he found evidences of human existence, including a basket rudely made of
+                            reeds; on the [third] day he found three small huts [made] of the ribs
+                            of a whale and cove[red] with brush. In one of these huts [was]
+                                    <rs><persName type="nativeamerican" key="#lw">an Indian
+                                    woman</persName></rs>, with long hair fa[ll]ing over her bare
+                            shoulders, and we[ar]ing a single garmet made of [the] skins of
+                            birds.</span> She showed no ala[rm] but when <persName
+                            type="frontiersman" key="#gni">Mr. Nidever</persName>, and his
+                        co[m]panions, approached she offered th[em] roots and a piece of blubber to
+                        [eat.] <span type="trope" n="14">She had entirely lost the faculty [of]
+                            speech.</span> When <persName type="frontiersman" key="#gni">Mr.
+                            Nidever</persName> told [her] that she was to accompany him to
+                            <placeName type="region" key="#re_mld">[the] mainland</placeName>[,] she
+                        understood read[ily,] showed much pleasure and gather[ed] together her
+                        little belongings, wh[ich] consisted of baskets woven of gra[ss,] jars
+                        filled with pebbles and other [little] mementoes. Upon reaching <placeName
+                            type="city" key="#ci_sb">Sa[nta] Barbara</placeName>
+                        <persName type="frontiersman" key="#gni">Mr. Nidever</persName> took her to
+                        [his] home, where she was kindly cared [for] until her death three or four
+                        ye[ars] later. Although she was never able [to] express herself so as to be
+                        under[stood,] she had not forgotten the art of ho[use]keeping, and performed
+                        the duties [of] a servant as long as her health p[er]mitted.</p>
+                    <p>Investigation developed the [...] that in the year <date when="1835"
+                            >1835</date>
+                        <rs><persName type="group" key="#aji; #ndur; #misfats">the
+                            padres</persName></rs> [sent] <rs><name type="ship" key="#sh_peoresnada"
+                                >a schooner</name></rs> to <rs><placeName type="island" key="#i_chi"
+                                >the islands</placeName></rs> to collect [all] the Indians that
+                        remained there [and] take them over to the missions. Wh[en] they were ready
+                        to depart <rs><persName type="nativeamerican" key="#lw">one of [the]
+                                women</persName></rs> could not find <rs><persName
+                                type="nativeamerican" key="#lwchild">her child</persName></rs>,
+                        [and] ran from the boat into the woods [...] search for her. Before her
+                        return [a] violent storm arose, and as there [was] no harbor and the
+                        anchorage was [...] secure, it became necessary to [...] out into the open
+                        sea[.] <rs><persName type="group" key="#chu; #isp">The
+                            cap[tain]</persName></rs> intended to return for <rs><persName
+                                type="nativeamerican" key="#lw">the woman</persName></rs>, [...] for
+                        several days the ship was dr[iven] southward by the violence of the [gale]
+                        and finally landed its passengers [...] <placeName type="city" key="#ci_sp"
+                            >San Pedro</placeName>, now the port of <placeName type="city"
+                            key="#ci_la">[Los] Angeles</placeName>. A few days later <rs><persName
+                                type="group" key="#chu; #isp">the [cap]tain</persName></rs> started
+                        northward with a [...] of lumber for <placeName type="city" key="#ci_mo"
+                            >Monterey</placeName>, intending [to] stop at <rs><placeName
+                                type="island" key="#i_sn">the island</placeName></rs> and take on
+                                <rs><persName type="nativeamerican" key="#lw">[the]
+                            woman</persName></rs>, but another gale capsized <rs><name type="ship"
+                                key="#sh_peoresnada">[the] schooner</name></rs> and all hands were
+                        lo[st. <span type="trope" n="8">So] <rs><persName type="nativeamerican"
+                                    key="#lw">the woman</persName></rs> was forgotten and re[main]ed
+                            for sixteen years alone, like <name type="fictional" key="#rcr"
+                                >Ro[bin]son Crusoe</name>.</span> It was believed that <rs><persName
+                                type="nativeamerican" key="#lwchild">[the] child</persName></rs>
+                        died shortly after the deser[tion,] from exposure to the weather.</p>
+                    <p>Until the discovery of gold in <placeName type="state" key="#st_cal"
+                            >[Cal]ifornia</placeName>, and the rapid development [of] <placeName
+                            type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                            type="city" key="#ci_sac">Sacramento</placeName> and o[ther] places
+                        farther north <placeName type="city" key="#ci_sb">Santa
+                            Bar[bara]</placeName> was second only in importance [to] <placeName
+                            type="city" key="#ci_mo">Monterey</placeName>, on <rs><placeName
+                                type="region" key="#re_calcoast">the coast</placeName></rs>. The
+                        terr[...] occupied by <rs><orgName type="missionfathers" key="#misfats">the
+                                missionaries</orgName></rs> [was] divided into four districts, in
+                        each [...] which was a presido, or military [p]rison, and the officers
+                        exercised [...] civil and military jurisdiction. <placeName type="city"
+                            key="#ci_mo">[Mon]terey</placeName> was the official seat of the
+                        [gov]ernor, and the commandant at <placeName type="city" key="#ci_sb"
+                            >S[anta] Barbara</placeName> was second in author[ity.] Thus it happend
+                        that after the d[eath] of <persName key="#arrell">Governor
+                            Arrellago</persName>, in <date when="1825">182[5</date>, ...] <persName
+                            key="#argu">Captain Arguello</persName>, commandant [of] <placeName
+                            type="city" key="#ci_sb">Santa Barbara</placeName>, exercised authority
+                        [un]til a new governor arrived. After [the] Mexican war <persName
+                            key="#argu">Arguello</persName> remained [at] <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName>, and became one of [the] most
+                        influential men of <placeName type="state" key="#st_cal"
+                            >Cal[ifornia</placeName>,] where he resided for thirty-four y[ears.]
+                        Another important commander [...] <placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName> was <persName key="#rompsr">Lieutenant [Rom]mualdo
+                            Pacheco</persName>, and of a promin[ent] family. He left a son,
+                            <persName key="#rompjr">Romualdo</persName>, [who] became governor of
+                        the state, and [a] member of the house of repre[senta]tives. His family
+                        still reside in [the] neighborhood.</p>
+                    <p>At the time of the arrival of <persName type="frontiersman" key="#jcfre"
+                            >Ca[ptain] John C. Fremont</persName> and his little [...] in <date
+                            when="1846">1846</date>, <persName key="#rcar">Lieutenant Raimundo
+                            Ca[...]</persName> was commander at <placeName key="#presidio">the
+                            presidio</placeName>, [and] <placeName type="mission" key="#mi_sb">the
+                            misssion</placeName> and the property [which] surrounded it were held by
+                            <persName key="#nicden">Nichola[s ...] Den</persName> and <persName
+                            type="seaman" key="#danhill">Daniel Hill</persName>, two Ameri[cans]
+                        under a lease from the <orgName type="government" key="#gov_mexico">Mexican
+                            [... gov]ernment</orgName> for a yearly rental of $1,[...] The lease
+                        covered all the lands [...] buildings of the missionary except [the] church
+                        and the monastery. Some li[...] head of cattle, 1,700 head of sheep [...]
+                        many horses were also included. [The] bishop of the <placeName type="state"
+                            key="#st_cal">California</placeName> diocese [en]deavored in vain to
+                        resist the a[...] of the government, and his death [was] hastened by his
+                        failure. He died [in] <date when="1846">1846</date> and is buried in
+                                <rs><placeName type="mission" key="#mi_sb">the
+                            Mi[ssion]</placeName></rs> church.</p>
+                    <p><persName type="seaman" key="#danhill">Daniel Hill</persName>, the lessee,
+                        was a [Cape] Cod sea captain who first visited <rs><placeName type="region"
+                                key="#re_calcoast">[the] coast</placeName></rs> in command of a
+                        trading ve[ssel] in <date when="1882">1822</date>, en route to the
+                            <placeName type="island" key="#i_hawaii">Haw[aiian] Islands</placeName>,
+                        and was so much taken [with] the climate and surroundings of <placeName
+                            type="city" key="#ci_sb">S[anta] Barbara</placeName>, that he brought
+                        his [wife] and family and settled there in 1[...] starting a trading store,
+                        bought [...] and cattle and became the richest [man] in the community.
+                        Nicholas A. [...] an Irish physician, married H[ill's] daughter. He arrived
+                        in <date when="1836">1836</date> and [prac]ticed medicine while he raised
+                        ca[ttle.] Before his death he, too, had be[come] very rich and was the owner
+                        of [...] large ranches as well as 10,000 ca[ttle.]</p>
+                    <p>Several of the residences of [the] Spanish and Mexican colonial p[...] are
+                        still standing, although they [have] been considerably altered on mo[...]
+                        lines. The best description of life [in] <placeName type="city" key="#ci_sb"
+                            >Santa Barbara</placeName> at that period may [be] found in Dana's "Two
+                        Years Be[fore] the Mast," which in the days of [...] youth was a universally
+                        popular [...]</p>
+                    <p>(To Be Continued.)</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
