@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#coldspringsrec">Cold Spring
+                     Recorder</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">64</biblScope>
+               <biblScope unit="issue">3305</biblScope>
+               <date when="1930-07-25"/>
+               <pubPlace><placeName type="city" key="#ci_coldsprings">Cold Springs</placeName>,
+                     <placeName type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheColdSpringRecorder1930">Crusoe Not in It With
+                     Indian Woman Recluse</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">
+                     <name type="fictional" key="#rcr">Crusoe</name> Not in It With <rs><persName
+                           type="nativeamerican" key="#lw">Indian Woman
+                  Recluse</persName></rs></hi></title></head>
+            <p><span type="trope" n="8">The story of <rs><persName type="nativeamerican" key="#lw">a
+                        woman "Robinson Crusoe"</persName></rs> who lived alone, on <rs><placeName
+                        type="island" key="#i_sn">an Island</placeName></rs> for <rs><date
+                        notBefore="1835" notAfter="1853" cert="high">20 long years</date></rs> is
+                  told by <persName type="author" key="#rmo">Dr. Roy L. Moodie</persName>, who has
+                  been delving into the records of old native life in the region of <placeName
+                     type="city" key="#ci_sm">Santa Monica, Calif</placeName>., in his study of
+                  prehistoric diseases in <placeName type="country" key="#co_usa"
+                     >America</placeName>.</span></p>
+            <p><span type="trope" n="8"><rs><persName type="nativeamerican" key="#lw">The feminine
+                        Crusoe</persName></rs> had been a member of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">a small group of
+                        Indians</orgName></rs> which lived on <placeName type="island" key="#i_sn"
+                     >San Nicholas island</placeName>, off the <placeName type="state" key="st_cal"
+                     >California</placeName> coast, about 100 years ago.</span>
+               <persName type="group" key="#misfats; #ndur; #aji">The Spanish fathers</persName>
+               persuaded <persName type="group" key="#bhagroup">the group</persName> to leave
+                     <rs><placeName type="island" key="#i_sn">their lonely island</placeName></rs>
+               and find better protection at the <placeName type="mission" key="#mi_sb">Santa
+                  Barbara mission</placeName>. But <rs><persName type="nativeamerican" key="#lw"
+                     >this woman</persName></rs> refused to come. All alone she demonstrated her
+               self-sufficiency in the world by making her home of whale ribs and brush, and by
+               living off the abundant fish, abalones, birds, seals and some plant products. She
+               made her clothing of bird skins. <span type="trope" n="6">When at last she was
+                  brought to <rs><placeName type="mission" key="#mi_sb">the mission</placeName></rs>
+                  she died within six weeks.</span></p>
+            <p><span type="trope" n="6"><rs><placeName type="island" key="#i_sn">The
+                        island</placeName></rs> possesses many relics of aboriginal life, but none
+                  so romantic as the record of <rs><persName type="nativeamerican" key="#lw">the
+                        last woman</persName></rs>, <persName type="author" key="#rmo">Doctor
+                     Moodie</persName> said.</span>&#8212;<title type="article"
+                  key="#TheDailyStar1930">Kansas City Star's Science Service</title>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

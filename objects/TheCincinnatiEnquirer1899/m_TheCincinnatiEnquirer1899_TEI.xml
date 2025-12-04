@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <title type="newspaper"><orgName type="publication" key="#cincienq"
+                                          >Cincinnati Enquirer</orgName></title>
+                              <publisher/>
+                              <editor/>
+                              <biblScope unit="volume">56</biblScope>
+                              <biblScope unit="issue">84</biblScope>
+                              <date when="1899-03-25"/>
+                              <pubPlace><placeName type="city" key="#ci_cinci"
+                                          >Cincinnati</placeName>, <placeName type="state"
+                                          key="#st_oh">Ohio</placeName></pubPlace>
+                              <bibl>
+                                    <title type="article" key="#TheCincinnatiEnquirer1899">Woman.
+                                          Hermit of San Nicholas. Her Unbroken Solitude of Eighteen
+                                          Years. Small Island in the Pacific Which Has Proved a
+                                          Treasure House for the Archaeologists</title>
+                                    <biblScope unit="page" n="14"/>
+                                    <author/>
+                              </bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main"><rs><persName type="nativeamerican" key="#lw"
+                                                >WOMAN</persName></rs></title>
+                              <title type="sub"><rs><persName type="nativeamerican" key="#lw">Hermit
+                                                of San Nicholas</persName></rs>.</title>
+                              <title type="sub">Her Unbroken Solitude of <rs><date notBefore="1835"
+                                                notAfter="1853">Eighteen Years.</date></rs></title>
+                              <title type="sub"><rs><placeName type="island" key="#i_sn">Small
+                                                Island</placeName></rs> in the <placeName
+                                          type="region" key="#re_pacific">Pacific</placeName> Which
+                                    Has Proved a Treasure House For the
+                              Archaeologists.</title></head>
+                        <byline>[<placeName type="city" key="#ci_sf">San Francisco[,]
+                                    Cali.</placeName>]</byline>
+                        <p>About 80 miles off the coast of <placeName type="city" key="#ci_la">Los
+                                    Angeles</placeName> to the southwest lies <placeName
+                                    type="island" key="#i_sn">the Island of San Nicolas</placeName>.
+                              Its shores are wind-swept and forbidding, it has neither tree nor
+                              shrub on its entire area, and its surface is largely composed of loose
+                              and shifting sands. <rs><placeName type="island" key="#i_sn">The
+                                          island</placeName></rs> is a tableland, 500 to 600 feet
+                              high, about nine miles in length, with an average width of about four
+                              miles.</p>
+                        <p><placeName type="island" key="#i_sn">San Nicolas</placeName> has not
+                              always been as we now find it. At one time it had forests of trees and
+                              was densely populated. As late as <date when="1853">1853</date>
+                              <persName type="frontiersman" key="#gni">Captain Nidever</persName>,
+                              of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                              speaks of bushes. That it was densely populated is evidenced by the
+                              immense mounds of sea shells, principally abalone, which are yet found
+                              on the tableland of the interior. One row or rick of shells, as high
+                              as a man's head and almost a mile in length, must have required
+                              centuries to form.</p>
+                        <p><span type="trope" n="6">But little is known of the character of the
+                                    early inhabitants, although there are many persons still living
+                                    who saw the last remnant of <rs><orgName
+                                                type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">the race of Indians who
+                                                formerly inhabited the island</orgName></rs> in the
+                                    person of "<rs><persName type="nativeamerican" key="#lw">The
+                                                Lone Woman of San
+                              Nicolas</persName></rs>."</span></p>
+                        <p><persName type="author" key="#sbo">Dr. Stephen Bowers</persName>, of
+                                    <placeName type="city" key="#ci_la">Los Angeles</placeName>, had
+                              the story of <rs><persName type="nativeamerican" key="#lw">this
+                                          woman</persName></rs>, who for <rs><date notBefore="1835"
+                                          notAfter="1853">18 years</date></rs> was the sole
+                              inhabitant of <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, directly from the lips of
+                                    <persName type="frontiersman" key="#gni">Captain John [sic]
+                                    Nidever</persName>, who took her from <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs> to
+                                    <placeName type="city" key="#ci_sb">Santa Barbara</placeName> in
+                                    <date when="1853">1853</date>. </p>
+                        <p>In the early days <rs><persName type="group"
+                                          key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                          >the Russians</persName></rs> made occasional visits to
+                                    <placeName type="island" key="#i_sn">San Nicolas
+                                    Island</placeName> in quest of the valuable fur of the sea
+                              otter. On one occasion they brought with them <rs><orgName
+                                          type="group" key="#natam_aleuts; #natam_kodiak"
+                                          >natives</orgName></rs> from <placeName type="state"
+                                    key="#re_russam">Alaska</placeName>, who were left on
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs> to prosecute the work of capturing
+                              otter, while they returned to the North. While <rs><persName
+                                          type="group"
+                                          key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                          >the Russians</persName></rs> were absent, these
+                                          <rs><orgName type="group"
+                                          key="#natam_aleuts; #natam_kodiak">Alaska
+                                          Indians</orgName></rs>, having been taught the use of
+                              firearms, took possession of <rs><orgName type="nativeamericantribes"
+                                          key="#natam_NicolenoTongva">the women of the
+                                          island</orgName></rs> and killed all <rs><orgName
+                                          type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                          >the native men and male children</orgName></rs>. <span
+                                    type="trope" n="13">When the <rs><name type="ship"
+                                                key="#sh_ilmena">Russian ships</name></rs> came
+                                    again they carried away <rs><orgName type="group"
+                                                key="#natam_aleuts; #natam_kodiak">the
+                                                Alaskans</orgName></rs> back to their home and
+                                    the</span></p>
+                  </div>
+                  <div type="section">
+                        <head><title type="section"><span type="trope" n="13"><span type="trope"
+                                                n="13"><rs><orgName type="nativeamericantribes"
+                                                  key="#natam_NicolenoTongva">WOMEN</orgName></rs>
+                                                WERE LEFT TO THEIR
+                              FATE.</span></span></title></head>
+                        <p>Subsequently <rs><persName type="group" key="#ndur; #aji; #misfats">the
+                                          mission fathers</persName></rs> on <placeName
+                                    type="region" key="#re_mld">the mainland</placeName> dispatched
+                              the schooner <name type="ship" key="#sh_peoresnada">Peores [Peor es]
+                                    Nada</name> to <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs> to bring away <persName
+                                    type="group" key="#bhagroup">the remaining
+                                    inhabitants</persName>, <rs><name type="ship"
+                                          key="#sh_peoresnada">the vessel</name></rs> sailing about
+                                    <date when="1835-08-01">the 1st of August, 1835</date>.</p>
+                        <p>After <persName type="group" key="#bhagroup">the Indian women</persName>
+                              were collected on the beach ready for embarking <rs><persName
+                                          type="nativeamerican" key="#lw">one of
+                                    them</persName></rs> made signs that <rs><persName
+                                          type="nativeamerican" key="#lwchild">her
+                                    child</persName></rs> had been left behind, and she was
+                              permitted to go in search of it. While she was absent a violent wind
+                              suddenly arose and they were compelled to set sail and leave
+                                          <rs><persName type="nativeamerican" key="#lw">the
+                                          unfortunate woman</persName></rs> and <rs><persName
+                                          type="nativeamerican" key="#lwchild">her
+                                    child</persName></rs> behind. <rs><name type="ship"
+                                          key="#sh_peoresnada">The schooner</name></rs> ran before
+                              the wind to <placeName type="city" key="#ci_sp">San Pedro</placeName>,
+                              where <persName type="group" key="#bhagroup">the Indians</persName>
+                              were landed, and later it was wrecked in the attempt to enter
+                                    <placeName type="region" key="#re_thegoldengate">the Golden
+                                    Gate</placeName>. <span type="trope" n="12">There being no other
+                                    craft larger than Indian canoes on this portion of
+                                                <rs><placeName type="region" key="#re_socalcoast"
+                                                >the coast</placeName></rs>, no effort was made to
+                                    rescue <rs><persName type="nativeamerican" key="#lw">the
+                                                woman</persName></rs>, and the fact of her
+                                    abandonment gradually passed out of mind.</span></p>
+                        <p><span type="trope" n="4">In <date when="1853-07">July 1853</date>,
+                                          <persName type="frontiersman" key="#gni">Captain
+                                          Nidever</persName>, of <placeName type="city" key="#ci_sb"
+                                          >Santa Barbara</placeName>, having learned the story of
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                abandoned woman</persName></rs>, set sail for
+                                          <placeName type="island" key="#i_sn">San
+                                          Nicolas</placeName> with the avowed intention of finding
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                woman</persName></rs>. His crew consisted of
+                                          <persName type="frontiersman" key="#cdi">Charles
+                                          Brown</persName>, <rs><persName type="frontiersman"
+                                                key="#col">an Irishman</persName></rs> who name has
+                                    not been preserved, and <rs><persName type="group"
+                                                key="#cook; #msh; #poli; #nsk; #hva">four Mission
+                                                Indians</persName></rs>. <rs><persName
+                                                type="nativeamerican" key="#lw">The
+                                          woman</persName></rs> was finally found in a little
+                                    wickiup, or circular inclosure, made of brush. </span>
+                              <span type="trope" n="1">When <rs><persName
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >the men</persName></rs> came upon her she was
+                                    removing the blubber from a seal. She arose with dignity,
+                                    saluting <rs><persName
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >the strangers</persName></rs> with a smile. She was
+                                    dressed in a gown made of bird skins, which was was cut low in
+                                    the neck and reached to her ankles. Her hair was a yellowish
+                                    brown, probably owing in part to exposure, and she appeared to
+                                    be about 50 years of age. After roasting some nuts for her
+                                    guests, of which they partook with a relish, they made signs for
+                                    her to accompany them to <rs><name type="ship" key="#sh_nidever"
+                                                >the vessel</name></rs>, which she did without
+                                    hesitation.</span>
+                              <rs><persName type="nativeamerican" key="#lw">The
+                                    woman</persName></rs> gave evidence of having seen much
+                              suffering during the <rs><date from="1835" to="1853">18
+                                    years</date></rs> of her isolation, but she was very cheerful
+                              and remained so to the last.</p>
+                        <p>On reaching <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                              <rs><persName type="nativeamerican" key="#lw">the rescued
+                                          castaway</persName></rs> became an object of great
+                              interest.</p>
+                  </div>
+                  <div type="section">
+                        <head><title type="section">THREE OF <rs><orgName type="missionfathers"
+                                                key="#misfats">THE MISSION
+                                    FATHERS</orgName></rs>&#8212;</title></head>
+                        <p><persName type="missionfather" key="#jru">Gonzales</persName>, <persName
+                                    type="missionfather" key="#sanchez">Sanchez</persName> and
+                                    <persName type="missionfather" key="#aji"
+                              >Jimeno</persName>&#8212;came to see her, and although they were
+                              acquainted with many dialects yet they could not understand hers, nor
+                              could she understand them. Indians were brought from <rs><placeName
+                                          type="city" key="#ci_sy">Santa Ynez</placeName></rs>,
+                                          <rs><placeName type="city" key="#ci_la">Los
+                                          Angeles</placeName></rs> and other places, but none were
+                              able to converse with her.</p>
+                        <p><span type="trope" n="14">It is probable that she had entirely forgotten
+                                    her own dialect and during the <rs><date from="1835" to="1853"
+                                                >18 weary years</date></rs> of her solitude had
+                                    constructed another known only to herself.</span>
+                              <span type="trope" n="10">She soon became quite adept in conversing by
+                                    signs, and gave <persName type="frontiersman" key="#gni">Captain
+                                          Nidever</persName> to understand that when she went back
+                                    for <rs><persName type="nativeamerican" key="#lwchild">her
+                                                child</persName></rs> she found that it had been
+                                    killed and devoured by dogs, which had so prostrated her that
+                                    she had no heart to return to <rs><name type="ship"
+                                                key="#sh_peoresnada">the ship</name></rs>. She had
+                                    sometimes seen ships sailing past <rs><placeName type="island"
+                                                key="#i_sn">the island</placeName></rs>, but none
+                                    ever came to rescue her.</span></p>
+                        <p><span type="trope" n="3">The food of civilization, of which she partook
+                                    to excess, did not agree with her, and she died about four weeks
+                                    after landing at <placeName type="city" key="#ci_sb">Santa
+                                          Barbara</placeName>. </span> After her death her gown of
+                              birdskins and various trinkets were sent to the <orgName type="museum"
+                                    key="#mu_vaticanmuseum">Vatican</orgName> at <placeName
+                                    type="city" key="#ci_rom">Rome</placeName>.</p>
+                        <p><placeName type="island" key="#i_sn">San Nicolas</placeName> has proved
+                              to be a veritable treasure house for the archaeologist and relic
+                              hunter. Tons of relics of <rs><orgName type="nativeamericantribes"
+                                          key="#natam_NicolenoTongva">the aboriginal
+                                          inhabitants</orgName></rs> have been unearthed and carried
+                              away&#8212;and still a small party from <placeName type="island"
+                                    key="#i_southernchi">Santa Catalina Islands</placeName>,
+                              consisting of <persName key="#chap">A. B. Chappell</persName>, one of
+                              the characters of <rs><placeName type="island" key="#i_scatalina">the
+                                          island</placeName></rs>, better known as "<rs><persName
+                                          key="#chap">Chappie</persName></rs>," who was guide to the
+                              expedition, this being his fifth trip; <persName key="#wga">William
+                                    Garnish</persName>, of <placeName type="city" key="#ci_ashland"
+                                    >Ashland, Wis</placeName>.; <persName key="#lfr">Mrs. L. E.
+                                    Francher</persName>, of <placeName type="city"
+                                    key="#ci_mansfield">Mansfield, Ohio</placeName>; <persName
+                                    key="#mdi">Mrs. Martha Dickinson-Hammond</persName>, and
+                                    <persName key="#gth">Hon. George C. Thaxter</persName>, of
+                                    <placeName type="city" key="#ci_redlands"
+                              >Redlands</placeName>&#8212;chartered the schooner <name type="ship"
+                                    key="#sh_nellie">Nellie</name> and proceeded to <placeName
+                                    type="island" key="#i_sn">San Nicolas</placeName> in search of
+                              adventure and curios. The <rs><persName type="frontiersman" key="#gni"
+                                          >Captain</persName></rs> landed <rs><persName type="group"
+                                          key="#wga; #chap; #lfr; #mdi; #gth">the
+                                    party</persName></rs> and then sailed away, promising to return
+                              at the end of one month and pick up <rs><persName type="group"
+                                          key="#wga; #chap; #lfr; #mdi; #gth">the marooned relic
+                                          hunters</persName></rs>.</p>
+                        <p><span type="trope" n="4">It was a custom with <rs><orgName
+                                                type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">the
+                                          Indians</orgName></rs>, at the death of one of their
+                                    tribe, to bury with him for ready use in the happy hunting
+                                    grounds</span></p>
+                  </div>
+                  <div type="section">
+                        <head><title type="section"><span type="trope" n="4">ALL HIS TREASURES AND
+                                          EFFECTS.</span></title></head>
+                        <p><span type="trope" n="4">Hence it is necessary to find their burial
+                                    places to find their treasures. These burial places were nearly
+                                    always in the vicinity of the waters, and the skeletons are
+                                    found invariably interred in a sitting posture, with the arms
+                                    clasped about the knees.</span></p>
+                        <p><span type="trope" n="3">The fact that <rs><orgName
+                                                type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">the Indians of San
+                                                Nicolas</orgName></rs> buried their dead in coffins
+                                    is made the basis for the claim that they attained to a higher
+                                    state of civilization than those of <rs><placeName type="island"
+                                                key="#i_chi">the other islands</placeName></rs> or
+                                    of <rs><placeName type="region" key="#re_mld">the
+                                                mainland</placeName></rs>, as no other tribes have
+                                    been known to use coffins.</span></p>
+                        <p>It appears also that caste was observed among them, for all were not thus
+                              buried. The coffins frequently yielded a rich harvest, and the
+                              articles found in them were almost invariably perfectly preserved. The
+                              coffins were neatly constructed of plank from an inch to an inch and a
+                              half thick, but from what source it was derived furnishes another
+                              opportunity for conjecture. They were cemented together, made
+                              waterproof and airtight with asphaltum, and usually measured about two
+                              feet square and four feet long. They contained, with one exception, a
+                              single skeleton each. The exception contained three. <span
+                                    type="trope" n="3"><span type="trope" n="7">One of the skulls
+                                          was an enormous one, measuring 22 inches in circumference,
+                                          with an extraordinary high forehead and cranial
+                                          development indicating a high order of intellect. The
+                                          other two were much smaller, giving occasion for the
+                                          belief that they might have been a chief and his two
+                                          wives.</span></span> That one was a chief of importance is
+                              shown from the fact that a fine pestle taken from this coffin was
+                              found to be inlaid with a shell in the handle.</p>
+                        <p>When opened the hair on one of the skulls was apparently in a per fect
+                              [sic] state of preservation, but as soon as the air was admitted it
+                              fell into impalpable powder, while the odor was so overpowering that
+                              it was two days before the contents of the coffin could be
+                              examined.</p>
+                        <p><span type="trope" n="5"><span type="trope" n="4">Invariably the relic
+                                          hunter came to know when he was coming upon a coffin, for
+                                          he always found the skeleton of a dog, with a shell
+                                          fishhook or earring, buried about 18 inches above the
+                                          coffin.</span></span></p>
+                        <p><span type="trope" n="5"><span type="trope" n="4">It seems evident from
+                                          appearances that the bodies were not placed in the coffins
+                                          immediately at death, but were left to decay to some
+                                          extent, at least, for it was impossible that the three
+                                          bodies the skeletons of which were found in a single
+                                          coffin could have been placed in so small a
+                                    space.</span></span></p>
+                  </div>
+                  <div type="section">
+                        <head><title type="section"><span type="trope" n="5"><span type="trope"
+                                                n="4">THE GRAVES CONTAINING
+                                    COFFINS</span></span></title></head>
+                        <p><span type="trope" n="5"><span type="trope" n="4">Were also marked with
+                                          headstones or monuments of whalebones, usually monstrous
+                                          ribs or large sections of the vertebrae.</span></span></p>
+                        <p><span type="trope" n="5"><span type="trope" n="4">The treasure boxes
+                                          found in the coffins consist of two abalone shells, one
+                                          inverted over the other, the upper one being the smaller,
+                                          so as to fit inside the lower, and the two are then
+                                          tightly plastered together with asphaltum. Those opened
+                                          contained pearls, earrings, fishhooks, whistles,
+                                          bracelets, wampum, &amp;c. The usual place for finding
+                                          wampums, however, is in the mouth of the
+                                    cadaver.</span></span></p>
+                        <p><span type="trope" n="5"><span type="trope" n="4">Many of the skulls when
+                                          found are encased in shells deftly placed all over and
+                                          about them. One skull taken out had a wicker basket
+                                          inverted over it, which some solicitous friend thought to
+                                          preserve to its owner in the spirit world by pouring
+                                          asphaltum into it and clapping it on the head. They
+                                          neglected to coat it on the outside, however, and when
+                                          found the only trace of the basket was its outline in the
+                                          asphaltum.</span></span></p>
+                        <p><span type="trope" n="5"><span type="trope" n="4">Enormous shell mounds
+                                          are found in all parts of <rs><placeName type="island"
+                                                  key="#i_sn">the island</placeName></rs>, and are
+                                          more numerous as the interior is reached, where, though
+                                          miles from the water's edge, the whole surface of the
+                                          ground is seemingly covered with shells, presenting a
+                                          picture of unparalleled brillance in the sunlight. Many of
+                                          these shells are yet whole and of most extraordinary size.
+                                          The coloring is exquisite, the garishness having been
+                                          softened only by age, many of them, no doubt, being
+                                          centuries old.</span></span></p>
+                        <p><rs><placeName type="island" key="#i_sn">The island</placeName></rs> has
+                              but one human inhabitant, <rs><persName key="#fju">the lone shepherd
+                                          of San Nicolas</persName></rs>. His is not an enviable
+                              lot, although he seems to enjoy his isolation. A few sheep are kept on
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, though in the absence of bushes
+                              and grass one wonders how they exist. Their principal food is a
+                              thick-leaved, waxy "ice" plant, which grows out of the sand at the
+                              eastern end of <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>. The sheperd's sole companion is
+                              his dog.</p>
+                        <p>The old stone hut at the western end of <rs><placeName type="island"
+                                          key="#i_sn">the island</placeName></rs>, put up by Chinese
+                              fishermen many years ago, aptly illustrates the general character of
+                              the weather of <placeName type="island" key="#i_sn">San
+                                    Nicolas</placeName>. There is no harbor on <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs>, and
+                              on account of the violent winds which come up without a moment's
+                              notice it is unsafe for vessels to lie at anchor there. The
+                              hut&#8212;about 15 by 30 feet in size, and built with heavy walls of
+                              stone&#8212;originally on the level surface, has now the appearance of
+                              a Kansas dug-out. The winds have heaped the sands about it until only
+                              the roof is visible above the surrounding level.</p>
+                  </div>
+            </body>
+      </text>
+</TEI>
