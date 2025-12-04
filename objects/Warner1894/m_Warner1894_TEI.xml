@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#laherald">Los Angeles
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <date when="1894-12-25"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#Warner1894">Catalina Island's Lost Tribe. Strange
+                     People Who Lived by Themselves. Dialect of the California Indian Unknown to
+                     Them. A Raid by Sea After Hunters Cost the Natives Many Lives--The Squaw
+                     Hermit</title>
+                  <biblScope unit="page" n="11"/>
+                  <author><persName type="author" key="#jwar">Warner, Juan José</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">CATALINA ISLAND'S LOST
+                  TRIBE</orgName></rs>.</title>
+               <title type="sub"><rs><orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">Strange People Who Lived by
+                        Themselves</orgName></rs>.</title>
+               <title type="sub">Dialect of the California Indian Unknown to Them.</title>
+               <title type="sub">A Raid by Sea After <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >Hunters</persName></rs> Cost <rs><orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">the Natives</orgName></rs> Many
+                        Lives&#8212;<rs><persName type="nativeamerican" key="#lw">The Squaw
+                        Hermit</persName></rs>.</title></head>
+            <div type="section">
+               <p><span type="trope" n="7">In a paper by <persName type="author" key="#cho">Mr. C.
+                        F. Holder</persName> printed in <orgName type="publication" key="#laherald"
+                        >THE HERALD</orgName> of <date when="1894-11-30">November 30th</date>,
+                     mention is made of a theory regarding <rs><placeName type="island" key="#i_chi"
+                           >the islands lying off the coast and to the south</placeName></rs> of
+                        <placeName type="region" key="#re_pc">Point Concepcion</placeName>, to the
+                     effect that <rs><placeName type="island" key="#i_chi">the
+                        islands</placeName></rs> are vestiges of a sunken continent that was
+                     inhabited by a race of people other than found upon the American continent at
+                     the time of its discovery by Europeans.</span></p>
+               <p><span type="trope" n="7">In support of this theory it is stated by <rs><persName
+                           type="author" key="#cho">the writer</persName></rs> that <persName
+                        key="#carr">Dr. Carr</persName> found human skulls upon the island of
+                        <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>
+                     differing so far from the skulls of people now inhabiting the earth as to
+                     warrant a belief that they were the skulls of an entirely different and extinct
+                     race.</span> It may be pertinent to enquire of <persName type="author"
+                     key="#cho">Mr. Holder</persName> what length of time human skulls would retain
+                  their form and structure if exposed on the surface or buried in the ground, under
+                  climatic conditions like those of <placeName type="island" key="#i_scatalina"
+                     >Santa Catalina</placeName>. Another circumstance referred to by <persName
+                     type="author" key="#cho">Mr. Holder</persName> in support of the theory is that
+                        <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs>
+                  brought from the island of <placeName type="island" key="#i_sn">St.
+                     Nicholas</placeName> could not speak any one of the dialects spoken by the
+                  Indians along the shore of California.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">SCRAPS OF INDIAN HISTORY.</title></head>
+               <p>At the time of the founding of the <orgName type="mission"
+                     key="#mi_mainlandmissions">missions of Upper California</orgName>, the islands
+                  of <placeName type="island" key="#i_sr">Santa Rosa</placeName>, <placeName
+                     type="island" key="#i_scruz">Santa Cruz</placeName> and <placeName
+                     type="island" key="#i_scatalina">Catalina</placeName> were all inhabited by
+                        <rs><orgName type="group" key="#natam_GabrilenoTongva; #natam_chumash"
+                        >Indians</orgName></rs>, brought over to the <placeName type="region"
+                     key="#re_mld">mainland</placeName> and incorporated into the <rs><orgName
+                        type="nativeamericantrives" key="#natam_missionindians">Indian communities
+                        of the missions</orgName></rs>. Intercourse had previously been kept up
+                  between the <rs><orgName type="group" key="#natam_GabrilenoTongva; #natam_chumash"
+                        >Indians living on the islands</orgName></rs> and <rs><orgName
+                        type="nativeamericantrives" key="#natam_missionindians">those on the
+                        mainland</orgName></rs>, and from their proximity to the <placeName
+                     type="region" key="#re_mld">mainland</placeName>, the <orgName
+                     type="missionfathers" key="#misfats">mission fathers</orgName> had no
+                  difficulty in gathering them into the fold of the <orgName type="church"
+                     key="#ch_catholic">Roman Catholic church</orgName>. The distance to <placeName
+                     type="island" key="#i_sn">St. Nicholas</placeName> however, was so great that
+                     <orgName type="missionfathers" key="#misfats">the fathers</orgName> and the
+                  soldiers, who guarded them, had no intercourse with the <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">inland
+                        [island] tribes</orgName></rs>.</p>
+               <p>In <date when="1832">1832</date> there were, and had been for many years,
+                        <rs><placeName type="group" key="#village1; #village2">two Indian
+                        villages</placeName></rs> in the town of <placeName type="city" key="#ci_la"
+                     >Los Angeles</placeName>; one was <rs><placeName type="region" key="#village1"
+                        >near the intersection of Aliso and Alameda streets</placeName></rs>, the
+                  people of which were of and they spoke the same dialect as the <orgName
+                     type="group" key="#natam_GabrilenoTongva">San Gabriel Indians</orgName>. The
+                  other village was <rs><placeName type="region" key="#village2">near where the
+                        crossing of Eighth and San Pedro streets now is</placeName></rs>. These
+                  people, or their ancestors, had come from <placeName type="island"
+                     key="#i_scatalina">Santa Catalina</placeName>, and their dialect differed
+                  slightly from that of <rs><placeName type="region" key="#village1">the other
+                        village</placeName></rs>.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">POTTERY WORKERS.</title></head>
+               <p>There were in <rs><placeName type="region" key="#village2">this latter
+                        village</placeName></rs> some elderly men who were stonecutters. These men
+                  occasionally visited <rs><placeName type="island" key="#i_scatalina">their
+                        "fatherland,"</placeName></rs> and occupied themselves with making pots and
+                  other cooking utensils from soapstone found on <rs><placeName type="island"
+                        key="#i_scatalina">the island</placeName></rs>. The utensils they disposed
+                  of at the missions and to the inhabitants of <rs><placeName type="city"
+                        key="#ci_la">the town</placeName></rs>. It was known to the people of
+                  California that in <date when="1818">1818</date>, or about that time, <rs><name
+                        type="ship" key="#sh_ilmena">a vessel</name></rs> belonging to the <orgName
+                     type="organization" key="#rfurcompany">Russian-American Fur company</orgName>,
+                  engaged in hunting sea fur-bearing animals, with <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">a
+                        crew of Kodiac Indian hunters</persName></rs>, visited the <placeName
+                     type="island" key="#i_sn">island of St. Nicholas</placeName>, and while there a
+                  dispute arose between <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the other [otter] hunters</persName></rs> and <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        natives</orgName></rs>. During a battle that followed nearly all
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        natives</orgName></rs> were killed. It was known in <rs><date
+                        notBefore="1840" notAfter="1843">the early part of the fourth decade of this
+                        century</date></rs> to a few men who were engaged in hunting sea otter
+                  around <rs><placeName type="island" key="#i_chi">the islands lying off this
+                        coast</placeName></rs> that there were <rs><persName type="group"
+                        key="#bhagroup">native inhabitants living on the island of St.
+                        Nicholas</persName></rs>.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">TAKEN FROM <rs><placeName type="island" key="#i_sn">THE
+                           ISLAND</placeName></rs>.</title></head>
+               <p>In <date when="1836">1836</date>
+                  <persName key="#jsjo">Captain James Johnson</persName> and <persName
+                     type="frontiersman" key="#iwi">Isaac Williams</persName>, both residents of
+                     <placeName type="city" key="#ci_la">Los Angeles</placeName>, sent <rs><name
+                        type="ship" key="#sh_peoresnada">a boat</name></rs> to <rs><placeName
+                        type="island" key="#i_sn">that island</placeName></rs> to bring
+                        <rs><persName type="group" key="#bhagroup">the Indians</persName></rs> to
+                     <placeName type="city" key="#ci_la">Los Angeles</placeName>. Only seven people
+                  were found, and comprised <rs><persName type="group" key="#bhagroup; #lw; #bha">an
+                        elderly man and woman, a man and woman about 40 years of age respectively,
+                        one girl of about 18 years and two boys of 14 or 15 years
+                     each</persName></rs>. While <rs><persName type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the boat's crew</persName></rs> were busy with other matters <rs><persName
+                        type="nativeamerican" key="#lw">the old woman</persName></rs> escaped.
+                        <rs><persName type="group" key="#bhagroup">The remaining six</persName></rs>
+                  were taken to <placeName type="city" key="#ci_la">Los Angeles</placeName> and
+                  taken into the families of <persName key="#jsjo">Captain Johnson</persName> and
+                     <persName type="frontiersman" key="#iwi">Mr. Williams</persName> as servants,
+                  and were treated in the same manner as other Indian servants. They did not speak
+                  the same dialect of any of the Indians of the mainland with the exception of
+                        <rs><persName type="group" key="#Nicolenowoman8; #halfbreeds">the
+                        girl</persName></rs>, who was a halfbreed; <rs><persName type="group"
+                        key="#bhagroup">the others</persName></rs> were all Indians and not
+                  distinguishable from the native Indian of California.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">A CHARACTER AT <placeName type="city" key="#ci_sp">SAN
+                        PEDRO</placeName>.</title></head>
+               <p><span type="trope" n="6">Whether from a radical change in their diet or from some
+                     other cause, <rs><persName type="group" key="#bhagroup">the islanders that were
+                           brought to Los Angeles</persName></rs> soon fell sick and it was not long
+                     before all of them were dead, except <persName type="nativeamerican" key="#bha"
+                        >the old man</persName>, who recovered with the loss of his sight.</span> He
+                  found his way to <placeName type="city" key="#ci_sp">San Pedro</placeName>, where
+                  he lived a number of years, spending most of his time along the beach gathering
+                  such shellfish for food as he could find on the rocks at low tide.</p>
+               <p>Some years later <persName type="frontiersman" key="#gni">George
+                     Neidever</persName> of <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, who devoted much of his time to hunting sea otter, was at
+                  the <placeName type="island" key="#i_sn">Island of St. Nicholas</placeName> and
+                  brought from thence to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>
+                  <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> that had
+                  been left by <rs><persName type="group" key="#jsjo;  #iwi">the Johnson and
+                        Williams party</persName></rs>. <span type="trope" n="14">She was very old
+                     and owing to her lonely life had lost the power of speech.</span> There was
+                  nothing in her physical appearance to distinguish her from the Indian race on this
+                  coast.</p>
+            </div>
+            <byline><persName type="author" key="#jwar">J. J. WARMER [Warner]</persName>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>

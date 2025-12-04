@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#rochestordemocrat">Democrat
+                     and Chronicle</orgName></title>
+               <biblScope unit="volume">53</biblScope>
+               <biblScope unit="issue">88</biblScope>
+               <editor/>
+               <publisher/>
+               <date when="1885-03-29"/>
+               <pubPlace><placeName type="city" key="#ci_roc">Rochestor</placeName><placeName
+                     type="state" key="#st_ny">New York</placeName></pubPlace>
+               <note type="supplied">Source Note</note>
+               <bibl>
+                  <title type="article" key="#Witter1885_DAC">Sanitarium of the West. Rambles About
+                     San Francisco and Down the Pacific Coast. Stories of Spanish Fathers. Barbara,
+                     the Saint--The Lost Woman of San Nicolas--Remains of the Old Museum--Traces of
+                     the Mound Builders--Golden Gate.</title><author><persName type="author"
+                        key="#fwi">Fred Spalding Witter</persName></author>
+                  <note type="supplied">Document Note</note>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><placeName type="city" key="#ci_sb">SANITARIUM OF THE
+                        WEST</placeName></rs></title>
+               <title type="sub">Rambles About <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName> and Down <placeName type="region" key="#re_paccoast">the
+                     Pacific Coast</placeName>.</title>
+               <title type="sub">STORIES OF <rs><orgName type="missionfathers" key="#misfats"
+                        >SPANISH FATHERS</orgName></rs></title>
+               <title type="sub"><persName key="#barb">Barbara</persName>, the
+                        Saint&#8212;<rs><persName type="nativeamerican" key="#lw">The Lost Woman of
+                        San Nicolas</persName></rs>&#8212;Remains of the Old Museum&#8212;Traces of
+                     <orgName type="nativeamericantribes" key="#natam_moundbuilders">the Mound
+                     Builders</orgName>&#8212;<placeName type="region" key="#re_thegoldengate"
+                     >Golden Gate</placeName>.</title></head>
+            <byline><emph>Correspondence of the <orgName type="publication" key="#rochestordemocrat"
+                     >Democrat and Chronicle</orgName></emph>.</byline>
+            <dateline><rs><placeName type="city" key="#ci_sf">SAN FRANCISCO</placeName></rs>, <date
+                  when="1885-03-14">March 14, 1885</date>.&#8212;</dateline>
+            <p><rs><orgName type="missionfathers" key="#misfats">The early Spanish
+                  fathers</orgName></rs> of <placeName type="region" key="#re_paccoast">the Pacific
+                  coast</placeName> gave the missions [sic] towns they founded the names and
+               patronage of particular saints that had become worthy of a place in their calendar.
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName> was called in honor
+               of <persName key="#fran">Saint Francis</persName>, <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName> from <persName key="#pete">Saint
+                  Peter</persName>, <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+               which is popularly known as <rs><placeName type="city" key="#ci_sb">the sanitarium of
+                     the Pacific coast</placeName></rs>, by reason of the medicinal properties in
+               its climate, bears the name of <persName key="#barb">Barbara</persName>, the saint.
+               She was an only child, of great beauty and intelligence. <persName key="#dio"
+                  >Descorus</persName>, her father, was an idolater, of noble birth and great
+               wealth. <persName key="#dio">Descorus</persName> shut her up in a tower to monopolize
+               her affections. He gave her musical instruments and tutors, and fitted up her
+               apartments gorgeously. Through a tract, she learned of <persName key="#ori"
+                  >Origen</persName>, with whom she found means to communicate and by whom she was
+               converted and baptised. <rs><persName key="#dio">Her father</persName></rs> wanted
+               her to marry <rs><name type="fictional" key="#man13">a distinguished man of the
+                     time</name></rs>, but <persName key="#barb">Barbara</persName> opposed it so
+               persistently that he gave it up for a time. On his subsequent return from a long
+               journey, he repaired to the tower and asked <rs><persName key="#barb">his
+                     daughter</persName></rs> if she would relent and marry the man, when she gave
+               him the touching reply that her love for him would not permit her to leave him in his
+               old age for a husband. The answer so pleased <rs><persName key="#dio">the idolatrous
+                     parent</persName>
+               </rs>that he released her from the tower and took her home. On entering her father's
+               house and finding it filled with idols, she inquired, "Of what use are these
+               ridiculous puppets!" <persName key="#dio">Descorus</persName> upbraided her for her
+               want of respect for the gods, and gave her up to punishment for her Christianity. The
+               judge tried to shake her faith in the religion of Jesus, but she clung firmly to a
+               faith that was [has] taught so many how to live and how to die. <rs><persName
+                     key="#dio">Her father</persName></rs> asked to be her executioner, and as soon
+               as <rs><persName key="#dio">this unnatural and inhumane parent</persName></rs> had
+               struck off her head he fell dead at her feet. Such is the affectious story of
+                  <persName key="#barb">Barbara</persName>, a martyr of hystory [history] who has
+               given her name and memory to <rs><persName type="city" key="#ci_sb">one of the most
+                     beautiful cities</persName></rs> on <rs><placeName type="region"
+                     key="#re_paccoast">this coast</placeName></rs>. She suffered martyrdom in the
+               reign of <persName key="#max">Maximus I</persName>. She is a star of the first
+               magnitude in the constellation of saints, and is honored with particular devotion in
+               the Latin, Greek, Muscovite and Syriac calendar.</p>
+            <p><span type="trope" n="1">Nature has made <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> beautiful for situation, as the person, life and character
+                  of <rs><persName key="#barb">the saint</persName></rs> were whose name it bears. A
+                  combination of ocean, bay, mountain, vale, hill, climate and sky contributes to
+                  this. <placeName type="region" key="#re_paccoast">The Pacific coast</placeName>
+                  which trends from the northwest to the southeast, makes an abrupt turn at
+                     <placeName type="region" key="#re_pc">Point Conception</placeName>, and runs
+                  directly east one hundred miles, so that <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> sets [sits] a queen on that shore with her feet in the bay
+                  and her face to the south and the ocean.</span> The <placeName type="region"
+                  key="#re_santaynezmts">Santa Ynez mountains,</placeName> 3,500 feet high, are
+               parallel to that shore, a few miles north of it, standing like a long row of
+               sentinels to watch and defend it. The long narrow valley between them and the sea is
+               fifty miles long and five wide, protected from the cold winds of the north by the
+               mountains, and from the damp fogs and winds of the ocean by the mountainous islands
+               of the shore. In that favored and protected spot of earth, known as <placeName
+                  type="region" key="#re_sbvalley">Santa Barbara valley</placeName> the climate has
+               an average of 54° in winter, 60° in spring, 68° in the summer, all the seasons of the
+               year being one even-tempered sweetness, long drawn out. It is a climate that will
+               beat <placeName type="city" key="#ci_mentone">Mentone</placeName> in the <placeName
+                  type="region" key="#re_sfrance">south of France</placeName>, or <placeName
+                  type="city" key="#ci_venice">Venice</placeName>, "<rs><placeName type="city"
+                     key="#ci_venice">the pride of the sea</placeName></rs>," or <placeName
+                  type="country" key="#co_greece">Greece</placeName>, the summer land of eloquence,
+               poetry and song. <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, a
+               town of 5,000 inhabitants, with its palatial residences, adobe houses, masts of
+               trade, cultured inhabitants, air redolent of perfume, and the everlasting bloom of
+               its roses, lies between the mountains on the one side and the Mega on the other,
+               which intervenes between it and the sea.</p>
+            <floatingText>
+               <span/>
+               <body>
+                  <lg type="trope-group" n="1">
+                     <l>"In the fairest of valleys, on an evergreen shore,</l>
+                     <l>By mountains walled in and an ocean before,</l>
+                     <l>With her brow on the hills and her feet to the sea;</l>
+                     <l><rs><placeName type="city" key="#ci_sb">Santa Barbara</placeName></rs>
+                        stands&#8212;the queen that's to be.</l>
+                     <l>'Tis the land of all lands where Flora in pride</l>
+                     <l>Each month of the year has a rose by her side.</l>
+                     <l>Flowers, bright-hued, most fragrant and rare,</l>
+                     <l>Like rainbows entwining her, perfuming the air."</l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>That which adds health to the climate and gives interest to the scenery of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> are <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs> that rest on the placid
+               bosom of <placeName type="region" key="#re_pacific">the Pacific</placeName>, over
+               which nature has thrown a garment of enchantment. One never wearies looking at their
+               smoky, hazy outlines. They are like so many angelic [countenances?] and watch over
+               the interests of [?], amusement and commerce. The first in order is the <placeName
+                  type="island" key="#i_sr">Santa Rosa island</placeName>, which is next to the
+               largest. <placeName type="island" key="#i_scruz">Santa Cruz island</placeName> is the
+               largest, having in it 60,000 acres. It is twenty-seven miles from the shore, and upon
+               it are 50,000 sheep. It is particularly adapted to sheep raising as it is free from
+               the [?] weed, which is such a detriment to [w]ool growing. There they are allowed to
+               [ro]am at will and are rounded up twice a year [at] shearing time. <placeName
+                  type="island" key="#i_scruz">Santa Cruz</placeName> has a very [go]od harbor in
+               which ships may anchor safely in a storm. <placeName type="island" key="#i_an">The
+                  Anna Capas</placeName> are [th]ree in number&#8212;a trio sisterhood of islands.
+                  <placeName type="island" key="#i_sm">[San] Miguel</placeName> and <placeName
+                  type="island" key="#i_scatalina">San[ta] Catalina</placeName> are among
+                     <rs><placeName type="island" key="#i_chi">[these] emerald
+                  jewels</placeName></rs> of <placeName type="region" key="#re_pacific">the Pacific
+                  ocean</placeName>. [Seve]nty miles from the shore is <placeName type="island"
+                  key="#i_sn">San Nicolas island</placeName>, the sixth of <rs><placeName
+                     type="island" key="#i_chi">the group</placeName></rs> that cluster [around] the
+               Bay of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. It is
+               [celeb]rated for having been the residence for <rs><date notBefore="1835"
+                     notAfter="1853" cert="high">[eighte]en years</date></rs> of "<rs><persName
+                     type="nativeamerican" key="#lw">The lost woman of San Nicolas</persName></rs>."
+               As her name is famous, and as [her sto]ry has been told in romance, I will give the
+               bare facts about her as I found them to be without any added ornament, and leave the
+               fiction to the pen of the novelist.</p>
+            <p>The island of <placeName type="island" key="#i_sn">San Nicolas</placeName> was once
+               densely populated. This is attested by the skulls and bones and other evidences of
+               human abode that are found there. The <rs><orgName type="group"
+                     key="#rfurcompany; #natam_aleuts; #natam_kodiak">Alaska Indians</orgName></rs>
+               frequently visited <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> to hunt for the furs of the other [otter]. They took their
+               women with them on these hunts, and on returning after the hunt was over, they left
+               them on <rs><placeName type="island" key="#i_sn">the island</placeName></rs> to their
+               fate. By order of <rs><orgName type="government" key="#gov_mexico">the
+                     government</orgName></rs> in <date when="1835">1835</date>, <persName
+                  type="group" key="#bhagroup">the Indians</persName> were all removed from
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. <span
+                  type="trope" n="7">Just before they were to embark, and carry away every human
+                  inhabitant, as it was supposed, <rs><persName type="nativeamerican" key="#lw">a
+                        white Indian woman</persName></rs> begged for the privilege of going ashore
+                  for <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>,
+                  which she had accidentally left.</span> She was gone a long time in a fruitless
+               search for <rs><persName type="nativeamerican" key="#lwchild">her
+                     offspring</persName></rs>. The wind blew a gale, the water was shallow, there
+               was no one who was seeking <rs><persName type="nativeamerican" key="#lw">the lost
+                     one</persName></rs>. They set sail, intending to return for <rs><persName
+                     type="nativeamerican" key="#lw">the lost woman of San Nicolas</persName></rs>,
+               but <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> becoming
+               unseaworthy, she was left to her fate. It was generally known that there was a woman
+               abandoned on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+               but no attempt was made for her deliverance. As the world soon forgets, so
+                     <rs><persName type="nativeamerican" key="#lw">the woman of San
+                     Nicolas</persName></rs> was forgotten as the years passed away. <span
+                  type="trope" n="4">After <rs><date when="1851">a lapse of sixteen
+                     years</date></rs>, <rs><persName type="frontiersman" key="#gni">a
+                        man</persName></rs> who landed on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> found that it was inhabited by some one. The
+                  footprints of a human being sunk deep in the ground that was dry and hard, were
+                  seen. The hardness of the ground was an indication that they had been made a long
+                  time. From their diminutive size they evidently belonged to a woman. Circular
+                  inclosures, made of brush, six or seven feet through were seen, where someone had
+                  lived. Near the huts were sticks driven in the ground and dried blubber hanging on
+                  them, thus prepared for food.</span></p>
+            <p><span type="trope" n="4">In <date when="1852">1852</date>
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> was visited again,
+                  and another hunt was made for <rs><persName type="nativeamerican" key="#lw">the
+                        long lost woman</persName></rs>. The huts were seen that had been seen
+                  before, but the old blubber had been taken away, and new food of the kind hung in
+                  its place. Wild dogs were found which ran away at the approach of civilized man.
+                  In a basket covered with seal skins that they found in a bush-heap was a dress
+                  made of shag skins, cut in square pieces, a rope made of sinew, and several
+                  smaller articles, such as fish hooks and bone needles. <rs><persName
+                        type="frontiersman" key="#gni; #tje">The discoveries [discoverers] of these
+                        proofs</persName></rs> that there lived on <rs><placeName type="island"
+                        key="#i_sn">that island</placeName></rs> a human being, scattered them on
+                  the ground, and on their return they found them gathered together and placed in
+                  the basket again.</span></p>
+            <p><span type="trope" n="4">
+                  <rs><persName type="group" key="#ndur; #jru; #aji; #sanchez; #misfats">The
+                        Catholic fathers of the "Old mission,"</persName></rs> the foremost in every
+                  good word and work, offered a reward to anyone who would find <rs><persName
+                        type="nativeamerican" key="#lw">the lost woman</persName></rs>, and a third
+                  effort was made in <date when="1853">1853</date> to discover <rs><persName
+                        type="nativeamerican" key="#lw">the prodigal</persName></rs> about whom
+                  there was such a mystery, and in whom the world of <rs><placeName type="region"
+                        key="#re_paccoast">this coast</placeName></rs> that had forgotten, was
+                  beginning to take an interest. Fresh tracks of <rs><placeName
+                        type="nativeamerican" key="#lw">the woman</placeName></rs> were found. They
+                  belonged to very small feet and were like those that were seen in the first
+                  attempt to find <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs>. Huts made of whale ribs and covered with brush were
+                  discovered. At length an object was seen in the distance that appeared to be
+                  moving. <span type="trope" n="1">Going towards it, they saw <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> that for
+                           <rs><date notBefore="1835" notAfter="1853">eighteen years</date></rs> had
+                     reigned queen of <placeName type="island" key="#i_sn">San Nicolas</placeName>,
+                     her subjects being the wild animals, her robe a dress of bird skins she had
+                     made, and her throne the hut she had bullt [sic], she was seated in an
+                     inclosure so that only her head and shoulders could be seen. Two or three dogs
+                     were about her that disappeared at the command of <rs><persName
+                           type="nativeamerican" key="#lw">their sovereign</persName></rs>. She was
+                     seated on some grass that covered the ground and served her as a bed. Her dress
+                     was neatly made of bird skins extending to her ankles, the feather[s] of which
+                     pointed downward. Her head covered with a thick mat of yellowish brown hair,
+                     and her shoulders rounded in their fullness, were bare. She was occupied in
+                     stripping blubber from a piece of sealskin which she held across her knee, and
+                     using for that purpose a rude knife made of an iron hook. In her hut was a fire
+                     beside which she sat talking to herself, and occasionally shading her eyes with
+                     her hand, looked at <rs><persName type="group"
+                           key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        men</persName></rs> that were in search of her. <span type="trope" n="3">She
+                        received them with much courtesy, bowing and smiling and showing that
+                              <rs><persName type="nativeamerican" key="#lw">this last child of
+                              nature</persName></rs> had much of the politeness of a true
+                        woman.</span> She took some roots from a bag, roasted them in the fire and
+                     gave them to <rs><persName type="group"
+                           key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                        men</persName></rs> to eat.</span> She gathered up all her food which was
+                  her chief concern owing to the famines she had experienced, washed herself at the
+                  spring, and followed <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> cheerfully to the boat.</span> On being taken to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> she manifested much delight on
+               seeing the sights of civilization. She became a universal favorite and was presented
+               with many gifts. Passengers on <rs><name type="ship" key="#sh_panama">the Panama
+                     steamer</name></rs> that landed there, all wanted to see <rs><placeName
+                     type="nativeamerican" key="#lw">the lost woman of San Nicolas</placeName></rs>.
+               She related by signs her experience on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, as she spoke a language that none of the Indians knew,
+               and none of <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the
+                     Spanish fathers</persName></rs>, versed in Indian dialects, could understand.
+                  <span type="trope" n="3">Civilization which prolongs the life of some, shortened
+                  that of <rs><persName type="nativeamerican" key="#lw">the woman of San
+                        Nicolas</persName></rs>. An excessive love of fruit led to her death in
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> at the age of
+                  50.</span> She was buried with the honors of <orgName type="church"
+                  key="#ch_catholic">the Catholic church</orgName> by the <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">Franciscan Fathers</persName></rs>, and
+               her dress and trinkets were sent to <placeName type="city" key="#ci_rom"
+                  >Rome</placeName> and placed in <rs><orgName type="museum" key="#mu_vaticanmuseum"
+                     >that receptacle of the world's curiosities</orgName></rs>.</p>
+            <p><span type="trope" n="5">The story of <rs><persName type="nativeamerican" key="#lw"
+                        >the lost woman of San Nicolas</persName></rs> will always remain a
+                  wonderment. Her ingenuity is seen in the pails she made out of grass that could
+                  hold water, by smearing them [with] melted asphaltum, and in her bird-skin
+                  dresses, her bone needles, her knife of iron hoop, and the language she invented
+                  and spoke. It is inexplicable to all who have learned her story how a woman could
+                  live <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                     years</date></rs> on an island around which the waves were beating an
+                  inhospitable requiem to hope, getting her food and cooking it without even those
+                  facilities which are common to the savage, and making her dresses neatly without
+                  the aid of needles except what she carved out of bone.</span>
+               <span type="trope" n="1">She laid aside one dress for <rs><date notBefore="1835"
+                        notAfter="1853" cert="high">eighteen years</date></rs> to be worn when the
+                  white men should come of which she had a presentiment. She built her own house,
+                  protected herself from the cold, gained supreme control over the wild beasts about
+                  her, and preserved her love for men and women for well nigh two decades of human
+                  life alone in the wild. With no previous knowledge of civilization, solitude
+                  appeared to have educated her for it. An ordinary woman would have perished with
+                  dispondency [sic] in such a desolate, hungry, naked, shelterless outlook. She is,
+                  and will remain to the last event of recorded time, an example to the world how
+                  the genius of a woman can brighten and what her powers of cheerful endurance can
+                  be, on an inhabitable shore, without friends, or tools, or shelter, or clothes, or
+                  food, or encouragement. O heroism, thy name is woman.</span></p>
+            <p><span type="trope" n="7">
+                  <rs><orgName type="missionfathers" key="#misfats">The Dominican
+                     friars</orgName></rs> were the forerunners of civilization on <rs><placeName
+                        type="region" key="#re_paccoast">this coast</placeName></rs>, and early
+                  recognized the advantages and beauties of <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, and established <rs><orgName type="mission"
+                        key="#mi_santabarbaramission">a mission</orgName></rs> there on a commanding
+                  eminence. Its white towers served as a landmark far out to sea, and may be seen
+                  glimmering in the sunlight long before any signs of the town come to view. The
+                  mission building is 160 feet in length and 30 feet wide with walls six feet thick,
+                  the stone hewn out of solid rock. Two solid stone towers run up in front to the
+                  height of 57 feet through which winding stairways ascend to the top, and on which
+                  melodious chimes of bells have been ringing out tidings of the Catholic faith
+                  since the days of the Indians and for one hundred years. They look as dilapidated
+                  and as ancient as the bell in <placeName key="#independencehall">Independence
+                     Hall</placeName> that rung <rs><orgName type="government" key="#gov_usa">our
+                        nation</orgName></rs> into being and some of them have had to be recast. A
+                  wing of the building extends 220 feet long and 100 feet wide. <rs><orgName
+                        type="mission" key="#mi_santabarbaramission">This far-famed "Old
+                        Mission,"</orgName></rs> the pride of Protestant and Catholic alike, was
+                  twenty years in building and is well nigh 100 years old. That event is to be
+                  celebrated with centennial exercises next year. In it are wooden wardrobes, hewn
+                  out of the wood by the Indians, containing the vestments of the priests brought
+                  from <placeName type="country" key="#co_spain">Spain</placeName>, old and costly,
+                  the statues of Saints <persName key="#barb">Barbara</persName> and <persName
+                     key="#fran">Francil [Francis]</persName>, <rs><persName key="#fran">the
+                        latter</persName></rs> being the patron and saint of the Franciscan order, a
+                  garden of choice trees, plants and flowers where a woman is never allowed to
+                  enter, the vaults where the fathers and the Franciscan brothers are buried, the
+                  tomb of <rs><persName type="missionfather" key="#fmo">the first Catholic bishop of
+                           <placeName type="region" key="#local"
+                     >California</placeName></persName></rs>, ancient pottery dug out of the tombs
+                  of the Indians and <orgName type="nativeamericantribes" key="#natam_moundbuilders"
+                     >the mound builders</orgName>, the old Spanish statues of Jesus with
+                  representations of blood streaming from side, hands and feet. Everything in and
+                  around <rs><orgName type="mission" key="#mi_santabarbaramission">the Old
+                        Mission</orgName></rs> bears the evidence of age. Its furnishings were
+                  transported from <placeName type="country" key="#co_spain">Spain</placeName> under
+                  the auspices of its being it was built. The old mill, gone to decay, the adobe
+                  houses, crumbled to ruins, the Indian burial ground in which the Indians are
+                  buried in trenches, the brick tiled roofs, the excavated mines in which the
+                  Indians worked, all cluster around this ancient edifice, show the antiquity of
+                        <rs><orgName type="mission" key="#mi_santabarbaramission">this
+                        mission</orgName></rs>, and the generations that have come and gone since
+                  its foundations were laid. I found there six Franciscan friars, besides
+                        <rs><orgName type="missionfathers" key="#misfats">the
+                  fathers</orgName></rs>, wearing the color and dress of that order&#8212;gray
+                  gowns, cowls, cables and sandals, living on the plainest food, and sworn to a life
+                  of celi[b]acy, chastity, and poverty. They eschew the loveliness of womanhood and
+                  the pleasures and gaities of life, wear their sandals and their gray, and shut
+                  themselves up in their cells&#8212;those living tombs&#8212;from a world which
+                  attracts only to show its emptiness, and elevates only to depress. If the
+                  happiness of the soul in future life is proportionate to the abstemiousness of the
+                  body in this, what then must be the rewards in store for the Franciscan
+                  brotherhood!</span></p>
+            <p><span type="trope" n="7">The mounds of <orgName type="nativeamericantribes"
+                     key="#natam_moundbuilders">the mound builders</orgName> dot <rs><placeName
+                        type="region" key="#re_paccoast">this coast</placeName></rs> all along from
+                     <placeName type="region" key="#re_mtshasta">Mount Shasta</placeName> to
+                     <placeName type="city" key="#ci_sd">San Diego</placeName>. They are especially
+                  numerous in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and
+                  their vessels and implements of war and industry are in the homes, curiosity shops
+                  and marts of trade of its citizens. <span type="trope" n="6">Their mounds, telling
+                     in silence and yet most eloquently of the pre-historic existence of races in
+                     the long-gone-by, rise in <placeName type="city" key="#ci_montecito"
+                        >Montecito</placeName>, in <placeName type="city" key="#ci_car"
+                        >Carpenteria</placeName>, among the <placeName type="region"
+                        key="#re_santaynezmts">Santa Ynez mountains</placeName>, and from <placeName
+                        type="region" key="#re_pc">Point Conception</placeName> to the Meza. At
+                        <placeName type="region" key="#re_princon">Point Rancon [sic]</placeName>
+                     several hundred acres are covered at a depth of from two to fifteen feet with
+                     the debris of what was once a large populatoin. Relics of all kinds are
+                     exhumed&#8212;mortars, pestles, hammers, knives, arrow and lance heads,
+                     utensils of various kinds, all laboriously carved from the hardest stone. At
+                     one place more than ten tons of relics were dug up. <rs><placeName
+                           type="island" key="#i_chi">The islands</placeName></rs> already spoken of
+                     are rich in these remains, and large quantities of them have been dug out of
+                     their sea-girt homes, where they have rested for thousands of years, and
+                     shipped away to foreign museums and colleges, to awaken aspirations that can
+                     never be gratified, in students of other lands, to know who, what, where and
+                     when were <orgName type="nativeamericantribes" key="#natam_moundbuilders">the
+                        Mound Builders</orgName>.</span></span></p>
+            <p>The Santa Barbarians are a cultured, refined, amusement-loving people. It appears
+               that the best mannered and educated of eastern circles of society, have floated on
+               the tidal wave that had broken on that shore, and, in that little [?] between the
+               mountains, the islands and the sea&#8212;a sweet valley of rest have settled down to
+               breath[e] in its fragrant air, bathe in its ocean tides, and bask in its perennial
+               sunshine. I have found in no other community of the same size, not the center of
+               great schools so many polite, well-informed man and women, and free public library in
+               a building that is an imposing monument to the belevolence, of 4,000 volumes,
+               containing departments of shells, minerals and natural history, founded by the
+               munificence of a Vale, a Dominick, a Calkins and others, is proof of the culture of
+               the place. In the homes of the people I found libraries of classical, scientific,
+               historical and periodical lore, shells from all seas properly arranged and
+               classified, sea mosses and ferns arranged in like manner and pressed into ponderous
+               volumes, geological specimens carefully prepared over their Latin names and placed in
+               costly cabinets, birds stuffed in glass coverings, from the gay bird of paradise to
+               the unpretentious thrush of the wild wood. The love of amusement among the Santa
+               Barbarians is equal to their love of learning. It finds expression in the various
+               walks and drives about the city. Horseback riding is common and popular, and ladies
+               attain excellence in equestrianship. Carriage drives are numerous and excellent, amid
+               scenery that is unparalleled, under skies that are cloudless, and in air that is
+               balm-ladened [balm-laden]. The beach of the ocean, hard, smooth and dry, is a good
+               road for a ride or drive and well used. The canons of the mountains, wild, weird and
+               picturesque, are used for recreations of that character. The foot paths over the
+               hills and up the mountains are good places for the exercise of pedestrianship, the
+               gaining of health and the enjoyment of pleasure.</p>
+            <p>The productions of <placeName type="city" key="#ci_sb">Santa Barbara</placeName> are
+               its pride as well as its climate and scenery. It is a land where there is a scant
+               rain fall&#8212;no irrigation, and yet the cereals and vegetables and nuts of all
+               kinds, of both temperate and tropical regions, grow there. The lima bean, the orange,
+               the lemon, the prune, the rubber tree, the cork in its lightness and the aloe in its
+               bitterness, all fructify in that soil. Tomatoes ripen the winter through. That is the
+               only place on earth where I have found a rose fair once a year. A Santa Barbara
+               pumpkin grew last year to the size of 800 pounds. The grape is the being of fruit in
+               that latitude in size and sweetness. <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> is the home of "the Centennial grape vine," a section of which
+               was taken to the Centenial at <placeName type="city" key="#ci_phil"
+                  >Philadelphia</placeName>. It covers a place twenty-five feet long and twenty
+               wide. Who has not heard of the twig of grape that a lover gave to the girl of his
+               choice to whip her horse with on her homeward way, and in the commemoration of the
+               event, she planted it, which afterwards became more distinguished for its fruitage
+               than any other vine in <placeName type="county" key="#co_sb">Santa Barbara
+                  county</placeName>?</p>
+            <p>The distance by ocean from <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> to <rs><placeName type="city" key="#ci_sf">this
+                     city</placeName></rs> is 288 miles, and the time in making it is two nights and
+               a day. <rs><name type="ship" key="#sh_srsteamer">The Santa Rosa
+               steamer</name></rs>&#8212;a floating palace&#8212;was my conveyance home from
+                     <rs><placeName type="city" key="#ci_sb">that city</placeName></rs> to
+                     <rs><placeName type="city" key="#ci_sf">this</placeName></rs>. She is 348 feet
+               long and 24 feet depth of hold, and has a compound engine of 3,000 horse-power, two
+               complete iron decks going the whole length of the boat, nine water-tight bulk-heads
+               (which admit of carrying 1,500 tons of water ballast), fifty-eight state-rooms, 188
+               berths, six life-boats, eight metal life-rafts, four anchors, 450 cork
+               life-preservers, patent logue to measure ahead, 400 electric lights of 6,400 candle
+               power. Each state-room is lighted with electricity and heated with steam. <rs><name
+                     type="ship" key="#sh_srsteamer">The steamer</name></rs> has a gross tonage of
+               3,000 tons, and cost $600,000. The cabin is vulcanized cherry and mahogany, and
+               upholstered throughout with silk plush and damask imported from <placeName
+                  type="country" key="#co_france">France</placeName> especially for <rs><name
+                     type="ship" key="#sh_srsteamer">the boat</name></rs>. It requires six carcasses
+               of beef, twelve sheep, six hogs, six dozen of poultry and 500 pounds of fish and game
+               for passengers and crew in her rough trip of a thousand miles. She was built at
+                  <placeName type="city" key="#ci_chester">Chester, Pa.</placeName>, is capable of
+               carrying 375 passengers, and was brought around <placeName type="region"
+                  key="#re_chorn">Cape Horn</placeName> in <date when="1884-02">February of last
+                  year</date> by <persName type="seaman" key="#cjo">Captain Johnson</persName>, her
+               gentlemanly commander. In the twilight of the morning we entered <rs><placeName
+                     type="region" key="#re_thegoldengate">the Golden Gate</placeName></rs>, first
+               called by that name in the "Geographical Memoirs of California" in <date when="1848"
+                  >1848</date>, expressive of the commerce that enters it and the gold within.
+                  <persName type="missionfather" key="#jse">Father Junipero</persName> entered in
+                  <date when="1769">1769</date>, exclaiming, "there is the port, to which <persName
+                  key="#fran">St. Francis</persName> has led us&#8212;blessed be his holy name," and
+                     <rs><placeName type="region" key="#re_sfbay">the bay within</placeName></rs>
+               was called <placeName type="region" key="#re_sfbay">San Francisco bay</placeName> in
+               honor of <rs><persName key="#fran">the saint</persName></rs>. <placeName
+                  type="region" key="#re_thegoldengate">The golden gate</placeName> is five miles
+               long and from on to two miles wide, and is the long narrow entrance into <placeName
+                  type="region" key="#re_sfbay">San Francisco bay</placeName>. <rs><placeName
+                     type="region" key="#re_sfbay">That bay</placeName></rs> is seventy miles long,
+               two-thirds of it being south of the entrance and the whole of it being at right
+               angles to the entrance. On the right as you enter in, is <placeName key="#fortpoint"
+                  >Fort Point</placeName>, garrisoned by United States soldiers and mounted with
+               cannon. Its frowning guns are capable, on account of that advantageous position, of
+               annihilating the navy of an enemy. Farther down <rs><placeName type="region"
+                     key="#re_thegoldengate">the channel</placeName></rs> and at the right also is
+                  <placeName type="region" key="#re_bp">Black Point</placeName>, the residence and
+               headquarters of the commandant of <rs><placeName key="#fortpoint">the
+                     fort</placeName></rs>. <placeName type="island" key="#i_sleatras">Slcatraz
+                  [Alcatraz] island</placeName> on the left, rising a black huge mass of rock above
+                     <rs><placeName type="region" key="#re_sfbay">the bay</placeName></rs>, is a
+               military prison where officers and soldiers from all parts of <placeName
+                  type="country" key="#co_usa">the United States</placeName> are put for offenses
+               against military discipline. <rs><placeName type="island" key="#i_ybi">Goat
+                     island</placeName></rs> is soon passed which belongs to <rs><orgName
+                     type="government" key="#gov_usa">the govenrnment</orgName></rs>. There are some
+               of the water-works of the city. The railroad comapnies have had covitous [sic] eyes
+               on <rs><placeName type="island" key="#i_ybi">Goat island</placeName></rs> for a long
+               time. By building a pier to it they can then unite the commerce of land and sea, but
+                     <rs><orgName type="government" key="#gov_usa">the government</orgName></rs>
+               cannot be bribed to sell it. <name type="ship" key="#sh_srsteamer">The Santa
+                  Rosa</name> lands at her pier and underneath the stars and stripes that there
+               float over the gathered commerce of all nations, we are again at home, in
+                     <rs><placeName type="city" key="#ci_sf">this great city of the Pacific
+                     shore</placeName></rs>&#8212;<placeName type="city" key="#ci_sf">San
+                  Francisco</placeName>.</p>
+            <p>In <date when="1847">1847</date>, <rs><placeName type="city" key="#ci_sf">this
+                     city</placeName></rs> had 459 inhabitants. In <date when="1848">1848</date> it
+               was a cluster of houses among the sand hills, rimmed around by <rs><placeName
+                     type="region" key="#re_sfbay">the bay</placeName></rs> like the edge of a
+               saucer. Now it has reached the greatness of a population of 250,000, and is the
+               financial, commercial, business, legal, intellectual, social, moral, religious and
+               news center of the western side of this continent. "<placeName type="city"
+                  key="#ci_rom">Rome</placeName> sat upon her seven hills and ruled the world," but
+                  <placeName type="city" key="#ci_sf">San Francisco</placeName> sits upon more than
+               twice that number and sways her scepter over a greater empire than that of the
+               Romans.</p>
+            <byline><persName type="author" key="#fwi">FRED SPALDING WITTER</persName>. </byline>
+         </div>
+      </body>
+   </text>
+</TEI>

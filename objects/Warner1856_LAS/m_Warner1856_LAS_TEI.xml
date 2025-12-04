@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#lastar">Los Angeles
+                     Star</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">6</biblScope>
+               <biblScope unit="issue">31</biblScope>
+               <date when="1856-12-13"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Warner1856_LAS">Lost Woman of the Island</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#jwar">Warner, Juan José</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">Interesting Narrative.</hi></title></head>
+            <p><title type="article" key="#Russell1856_HCF">The November number of <emph>Hutching's
+                     California Magazine</emph></title>, contains a "narrative of <rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> who was <rs><date
+                     notBefore="1835" notAfter="1853">eighteen years</date></rs> alone upon the
+                  <placeName type="island" key="#i_sn">Island of San Nicolas</placeName>, <placeName
+                  type="region" key="#re_calcoast">coast of California</placeName>" by <persName
+                  type="author" key="#cru">C. J. W. Russell</persName>, the above narrative is
+               pretty highly colored, and made to assume quite a romantic tone,&#8212;the incident
+               of <rs><persName type="nativeamerican" key="#lwchild">a child</persName></rs> being
+               devoured by dogs, and the agonized feelings of <rs><persName type="nativeamerican"
+                     key="#lw">the mother</persName></rs> consequent on the deplorable event,
+               heightening the effect&#8212;differing slightly from the generally received account
+               of the affair. As the immediate kindred of that solitary individual were for some
+               time residents of <placeName type="city" key="#ci_la">Los Angeles</placeName>, we
+               have made some effort to collect the most remarkable and reliable facts connected
+               with their history and that of <rs><persName type="nativeamerican" key="#lw">the
+                     solitary survivor</persName></rs>.</p>
+            <p>To the <persName type="author" key="#jwar">Hon. J. J. Warner</persName>, than whom no
+               man is better acquainted with modern transactions on this coast&#8212;we are indebted
+               for the facts herein contained:&#8212;</p>
+            <p>Most of <rs><placeName type="island" key="#i_chi">those islands</placeName></rs>
+               forming the group to the south of <placeName type="region" key="#re_pc">Point
+                  Conception</placeName>, were, at the time of the subjugation of <placeName
+                  type="region" key="#re_spcal">upper California</placeName> by <orgName
+                  type="institution" key="#ch_catholic">the Cross</orgName>, and <rs><orgName
+                     type="government" key="#gov_span">Spanish arms</orgName></rs>, inhabited by
+                     <rs><orgName type="group" key="#natam_GabrilenoTongva; #natam_chumash"
+                     >Indians</orgName></rs> of the same race as those along <placeName
+                  type="region" key="#re_mld">the main</placeName>. In the earlier period of
+                  <orgName type="missions" key="#mi_mainlandmissions">the Missions</orgName>, which
+               were established within the present limits of <rs><placeName type="state"
+                     key="#st_cal">this State</placeName></rs>, <rs><orgName type="group"
+                     key="#natam_GabrilenoTongva; #natam_chumash">the inhabitants of those islands
+                     nearest the coast</orgName></rs> were brought over and incorporated with the
+               neophites [sic] of <rs><orgName type="mission" key="#mi_santabarbaramission">Santa
+                     Barbara</orgName></rs>, <rs><orgName type="mission" key="#mi_venturamission"
+                     >San Buenaventura</orgName></rs>, and <rs><orgName type="mission" key="#mi_sg"
+                     >San Gabriel</orgName></rs>. The <placeName type="island" key="#i_sn">Island of
+                  San Nicolas</placeName>, being much farther seaward, <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  natives</orgName></rs> holding no intercourse with those of the <placeName
+                  type="region" key="#re_mld">main land</placeName>, and but little, if any, with
+               those of <rs><placeName type="island" key="#i_chi">the islands adjacent to the
+                     coast</placeName></rs>, were undisturbed.</p>
+            <p><span type="trope" n="13"><span type="trope" n="11">In the prosecution of the
+                     business of collecting furs along this coast by the <orgName
+                        type="organization" key="#rfurcompany">Russian Fur Company</orgName>, a
+                     large party of traders and hunters, composed of <rs><persName type="group"
+                           key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #halfbreeds"
+                           >Russians, half breeds and Codiac Indians</persName></rs>, were in <date
+                        when="1818">1818</date>, hunting and trading at the <placeName type="island"
+                        key="#i_sn">Island of San Nicolas</placeName>. During their stay at
+                           <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>,
+                     jealousies sprung up, and with them difficulties and broils occurred between
+                           <rs><persName type="group"
+                           key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #halfbreeds"
+                           >the hunters</persName></rs> and <rs><orgName type="nativeamericanribes"
+                           key="#natam_NicolenoTongva">natives</orgName></rs>. <rs><orgName
+                           type="nativeamericanribes" key="#natam_NicolenoTongva">The
+                           inhabitants</orgName></rs> were simple and harmless, their numbers
+                     insufficient to cause internal discord, and their remote situation offered no
+                     opportunity to cultivate the science of war. <rs><persName type="group"
+                           key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #halfbreeds"
+                           >The hunters and traders</persName></rs> were the reverse of harmlessness
+                     and simplicity, and without difficulty or loss on their part, exterminated all
+                     of <rs><orgName type="nativeamericanribes" key="#natam_NicolenoTongva">the
+                           inhabitants</orgName></rs> which they could discover, except a small
+                     number of the females, whom they carried away with them on their
+                     departure.</span></span>
+               <rs><persName type="group" key="#bhagroup">Two men and two women</persName></rs> were
+               undiscovered in their hiding-place, and after the sailing of the hunting party,
+               remained the only inhabitants of <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>. <span type="trope" n="3">Their numbers were increased
+                  by the slow but gradual course of nature until <date when="1836">1836</date>, when
+                  the population consisted of <rs><persName type="group" key="#bhagroup">seven
+                        persons, four males and three females</persName></rs>, <rs><persName
+                        type="nativeamericans" key="#lw">one of whom</persName></rs>, of about
+                  twenty years of age, was of a fairer tint than <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        companions</orgName></rs>.</span></p>
+            <p>The Otter hunters, from <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               and <placeName type="city" key="#ci_la">Los Angeles</placeName>, who from <date
+                  when="1830">1830</date> to <date when="1836">1836</date> in the prosecution of
+               their business along the shore of the <placeName type="region" key="#re_mld">main
+                  land</placeName> and the <rs><placeName type="island" key="#i_chi">neighboring
+                     Islands</placeName></rs>, sometimes extended the scene of their operations to
+                     <rs><placeName type="island" key="#i_sn">the more remote
+                  Island</placeName></rs>. <span type="trope" n="3">The reports which they gave of
+                  the <rs><persName type="nativeamerican" key="#lw">timid half breed
+                        maiden</persName></rs> of <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, occasioned considerable sensation among their fellow
+                  hunters who had not visited <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs>, or who, on their visits, had not been so fortunate
+                  as to discover <rs><orgName type="nativeamericanribes" key="#natam_NicolenoTongva"
+                        >the inhabitants</orgName></rs>, who invariably sought to avoid the
+                  observation of strangers.</span> Repeated attempts were made by the hunters at
+               various times, to induce this <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">solitary family</orgName></rs> to hold intercourse
+               with them, but which were only partially successful. In the <rs><date
+                     notBefore="1836-06" notAfter="1836-08">summer of 1836</date></rs>,
+                     <rs><persName type="group" key="#jsjo; #iwi">an American and an
+                     Englishman</persName></rs>, residents of <placeName type="city" key="#ci_la"
+                  >Los Angeles</placeName>, sent <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >an expedition</persName></rs> from <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName> to <placeName type="island" key="#i_sn">San Nicolas</placeName>
+               for the purpose of bringing away <rs><persName type="group"
+                     key="#natam_NicolenoTongva; #bhagroup">this family</persName></rs>. After much
+               delay and difficulty in accomplishing this object, they succeeded in getting
+                     <rs><persName type="group" key="#bhagroup">six of the seven
+                  persons</persName></rs> on board of their vessel and sailed for <placeName
+                  type="city" key="#ci_sp">San Pedro</placeName>. <span type="trope" n="6">They were
+                  brought to <placeName type="city" key="#ci_la">Los Angeles</placeName>, where from
+                  the change of diet and habits, they soon sickened and died, with the exception of
+                        <rs><persName type="nativeamerican" key="#bha">one old man</persName></rs>
+                  and <rs><persName type="nativeamerican" key="#Nicolenowoman3">one middle-aged
+                        female</persName></rs>.</span>
+               <rs><persName type="nativeamerican" key="#bha">The former</persName></rs> became
+               blind in consequence of his sickness, but instinctively found his way to the oceans'
+               shore, where, recovering his health, he for many years was the most notable object
+               that met the eye of the visitor or traveler at <placeName type="city" key="#ci_sp"
+                  >San Pedro</placeName>. He was unfortunately drowned, by falling from a steep bank
+               into the ocean. The latter lived for many years in the family of <rs><persName
+                     key="#man10">one of our most respectable citizens</persName></rs>, in whose
+               care she was at the time of her death. <span type="trope" n="1"><rs><persName
+                        type="nativeamerican" key="#lw">The solitary female</persName></rs> that was
+                  left on <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>, in
+                  consequence of her flight from those who brought away her relatives, remained
+                  there in regal solitude.</span> She was frequently seen by the hunters who visited
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> in
+               subsequent years, but all efforts to hold communication with her were unsuccessful,
+               as she invariably fled from the approach of every human being.</p>
+            <p>About <date when="1853">1853</date> or <date when="1854">1854</date>, <persName
+                  type="trapper" key="#gni">Mr. George Niedeever</persName>, who for many years had
+               been engaged in otter hunting, and had frequently visited <rs><placeName
+                     type="island" key="#i_sn">the Island</placeName></rs>, found her, old, infirm,
+               and decriped [decrepit], suffering from hunger, and succeeded in removing her from
+               her solitary and lonesome abode.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

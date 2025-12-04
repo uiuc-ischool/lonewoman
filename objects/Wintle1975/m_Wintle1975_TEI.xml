@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph" key="#piedpipers">The Pied Pipers</title>
+               <editor>Fisher, Emma</editor>
+               <editor>Wintle, Justin</editor>
+               <biblScope unit="pages" from="1" to="320"/>
+               <date when="1975"/>
+               <pubPlace><placeName type="city" key="#nyc">New York</placeName>, <placeName
+                     type="state" key="#ny">NY</placeName></pubPlace>
+               <publisher><orgName type="publisher" key="#paddington">Paddington Press
+                     Ltd.</orgName></publisher>
+               <bibl>
+                  <title type="chapter" key="#Wintle1975">Scott O'Dell</title>
+                  <biblScope unit="page" from="171" to="181"/>
+                  <author><persName type="author" key="#jwi">Wintle, Justin</persName></author>
+                  <date when="1975"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="chapter">
+            <head><title type="chapter"><hi rend="bold"><emph>12</emph></hi></title> <title
+                  type="main"><persName type="author" key="#sod"><hi rend="bold"><emph>Scott
+                           O'Dell</emph></hi></persName></title></head>
+            <byline>Interviewed by <persName type="author" key="#jwi">Justin
+               Wintle</persName></byline>
+            <p>Another author who turns to the past for subjects is <persName type="author"
+                  key="#sod">Scott O'Dell</persName>; but unlike <persName type="author" key="#jai"
+                  >Joan Aiken</persName> he deals in history realistically, as a way of exploring
+               social equations that are still present in his own society on the <placeName
+                  type="region" key="#re_paccoast">West Coast of the United States</placeName>. Many
+               of his themes are well established in the annals of American literature. <emph>The
+                  King's Fifth</emph> is a full-blooded tale about a corrupting and divisive lust
+               for gold among a band of early Spanish settlers. <emph>Sing Down The Moon</emph>
+               tells of the suffering of an Indian tribe pushed forever westward by the European
+               conquest. <span type="trope" n="8"><emph>Island Of The [sic] Blue Dolphins</emph>,
+                  winner of the <date when="1961">1961</date> Newberry [sic] Award and later made
+                  into a film of the same title, is about <rs><persName type="group" key="#lw; #kar"
+                        >an Indian girl</persName></rs> left alone on <rs><placeName type="island"
+                        key="#i_sn">an island</placeName></rs> off <placeName type="region"
+                     key="#re_paccoast">the coast of California</placeName>, an American equivalent
+                  of <emph>Robinson Crusoe</emph>.</span></p>
+            <p>O'Dell's preoccupations are probably best explained by his long and eventful life.
+               Officially, he was born in <placeName type="city" key="#ci_la">Los
+                  Angeles</placeName> just after the turn of the century; unofficially in <date
+                  when="1899">1899</date>. <persName key="#bsc">His father</persName> was a railroad
+               man, and the family moved around what was then the frontier land of <placeName
+                  type="region" key="#re_socal">Southern California</placeName>. After leaving high
+               school <persName type="author" key="#sod">O'Dell</persName> attended the <orgName
+                  type="institution" key="#in_uofwis">University of Wisconsin</orgName>, where,
+               already determined to become a writer, he quickly became disillusioned with his
+               academic courses. He abandoned the idea of graduation and concentrated simply on
+               those subjects that appealed to him&#8212;psychology, philosophy, English and
+               history. This, he claims, has given him "a sense of comradeship with the students of
+               today."</p>
+            <p>Having left <placeName type="state" key="#st_wi">Wisconsin</placeName>, <persName
+                  type="author" key="#sod">Scott O'Dell</persName> went into films, and, among other
+               productions, worked as a second cameraman on the original version of <emph>Ben
+                  Hur</emph>. He spent <!--it would be cool to know which-->a year with the <orgName
+                  type="military" key="#mi_airforce">Air Force</orgName> in <placeName type="state"
+                  key="#st_tx">Texas</placeName> during World War Two, and subsequently became the
+               book editor of <rs><orgName type="publication" key="#ladailynews">a Los Angeles
+                     newspaper</orgName></rs>. He wrote a number of books for adults during
+                     <rs><date notBefore="1950" notAfter="1959">the fifties</date></rs>, and in
+                     <rs><date notBefore="1960" notAfter="1969">the sixties</date></rs> his books
+               for children. In <date when="1972">1972</date> he was awarded the Hans Christian
+               Andersen Author's Medal.</p>
+            <p><persName type="author" key="#sod">Scott O'Dell</persName> lives near <placeName
+                  type="city" key="#ci_sd">San Diego</placeName>, within striking distance of the
+                     <rs><placeName type="region" key="#re_mexicanborder">Mexican
+                  border</placeName></rs>, with <rs><persName key="#ehall">his second
+                     wife</persName></rs>, who edits the popular journal <emph><orgName
+                     type="publication" key="#psychtoday">Psychology Today</orgName></emph>.</p>
+            <div type="interview">
+               <p>Q</p>
+               <p><emph>Your recent children's books have been written for what is referred to as
+                     the Young Adult market. Why is that?</emph></p>
+               <p>A</p>
+               <p>For one thing we've found that here in <rs><placeName type="country" key="#co_usa"
+                        >the States</placeName></rs> children read more advanced books than parents
+                  and educators thought they could or would. Furthermore, there's a dearth of books
+                  for young adults, because they're not nearly as profitable for publisher or
+                  author. But there's an important need, so the last two books I've done have been
+                  in this field. One has just come out, called <emph>Child of Fire</emph>. The
+                  background is the <placeName type="region" key="#re_mexicanborder">Mexican
+                     border</placeName>, just south of here. The story concerns five Chicano gangs
+                  and presents a problem that the ancestors of these boys met 400 years ago. Young
+                  Spaniards of the <date from="1500" to="1599">sixteenth-century</date>, yearning
+                  for adventure, came to <placeName type="region" key="#re_americas">the
+                     Americas</placeName> in search of gold. Their descendants, living in
+                        <rs><placeName type="country" key="#co_usa">modern America</placeName></rs>,
+                  have the same desire for adventure, but no place to find it except in the world of
+                  drugs and pointless warfare. The Chicano, for all his proud heritage, is a
+                  prisoner of the <emph>barrio</emph>, a second-class citizen. <emph>Child of
+                     Fire</emph> deals with his problem, both realistically and symbolically and, I
+                  hope, with some understanding.</p>
+               <p>Q</p>
+               <p><emph>Many of your books (one is tempted to say all your books) are concerned with
+                     traditional American themes, particularly themes of the frontier&#8212;conquest
+                     of new lands, what it's like to be midway between having laws made for you and
+                     making them for yourself, the conflict of interests between the old tribes and
+                     the new settlers, and the sense of opportunity given to youth. Is this because
+                     of the life you've led?</emph></p>
+               <p>A</p>
+               <p>I've been asked that question before, and I've never given what I thought was an
+                  adequate answer. I've led a very full life, gone to many schools, done a lot of
+                  things, lived abroad extensively, been in a couple of wars. A mixed up sort of
+                  life, perhaps. I think the fact that I've written about the past has to do with
+                  this. It's not necessarily an escape (though I think there's part of that in it),
+                  or an attempt to look back at calmer times; rather I have the feeling that the
+                  present is the past and the past is the present. The fundamental human is about
+                  the same as he was a couple of thousand years ago. The basic changes have not been
+                  vast. Human needs for love, affection, understanding, a chance to succeed at
+                  something, are about the same. Although I may write about a <rs><name
+                        type="fictional" key="#bmo">Navajo girl</name></rs> (<emph>Sing Down The
+                     Moon</emph>), I feel that she is a contemporary. I just wanted to pay a tribute
+                  to the human spirit, and the fact that this spirit happened to be in an Indian
+                  girl is really incidental. I'm not interested in <orgName
+                     type="nativeamericantribes" key="#natam_navajo">the Navajos</orgName>
+                  particularly&#8212;they're not my favorite tribe even. They were
+                  marauders&#8212;they rode in and took the crops of other Indians, after the
+                  harvest sometimes. But there was this thing that happened at the <placeName
+                     type="region" key="#re_canyonchelly">Canyon de Chelly</placeName>. <persName
+                     type="frontiersman" key="#cca">Carson</persName> and <rs><orgName
+                        type="government" key="#gov_usa">the government</orgName></rs> rounded up
+                  the Indians and drove them to <placeName key="#fortsumner">Fort
+                  Sumner</placeName>. The important thing was the story. If the story is a good
+                  story children will read it for the suspense, and you can use suspense to do
+                  things. In <emph>Sing Down The Moon</emph> I wanted to call children's attention
+                  to the fact that there are such things as endurance, as loyalty to your family,
+                  loyalty to the place where you live. Nowadays people are dispersed, can live
+                  anywhere they want to. That's the trouble here in <placeName type="state"
+                     key="#st_cal">California</placeName>&#8212;we're just a bunch of uprooted
+                  people. You don't know your neighbor and he never speaks to you. But this
+                        <rs><name type="fictional" key="#bmo">Navajo girl</name></rs>&#8212;she did
+                  want to go back to where her family had lived and have a child and live in a cave
+                  on the side of <rs><placeName type="region" key="#re_canyonchelly">the
+                        Canyon</placeName></rs>. Even though she knows <rs><orgName
+                        type="nativeamericantribes" key="#natam_navajo">her people</orgName></rs>
+                  were driven out, she still goes back and starts over again. I hope there's a
+                  lesson in this, an inspiration for children. It's very strong in me, this
+                  didactic, inspirational thing. I had a lot of circuit writers and educators in my
+                  family, going back for 150, 200 years. While I'm not formally religious, I think
+                  this messianic thing has rubbed off on me. I want to teach and say something to
+                  people. Adults have pretty well established their lives, but you can say something
+                  to children. If you can get their attention and their affection, then there is
+                  something that can really be done with children. You can tell a story and add
+                  something that might be of interest and importance in their lives. It is
+                  messianic. As I said I've had a particularly full life, which I've lived and don't
+                  want to talk about; and for the most part, with the possible exception of
+                     <emph>The Child Of Fire</emph> (which has some of my life in it) I have written
+                  about times before l was born. Perhaps leaving the present and going back
+                  furnishes sustenance of an emotional kind. But things haven't changed very much,
+                  so it doesn't matter what period you write about.</p>
+               <p>Q</p>
+               <p><emph>Your books are full of respect for that human quality of endurance you
+                     referred to; but I can't see that there would be as much opportunity for
+                     children or young people to demonstrate such a quality here in <placeName
+                        type="state" key="#st_cal">California</placeName> as there was perhaps when
+                     you were young, when <rs><placeName type="state" key="#st_cal">the
+                           State</placeName></rs> was still opening up.</emph></p>
+               <p>A</p>
+               <p>That's part of it. There are things like the <orgName key="#sla">SLA</orgName>
+                     (<orgName key="#sla">Symbionese Liberation Army</orgName>), but all they want
+                  to do is shoot off their guns. Like <rs><orgName key="#sla">these
+                     kids</orgName></rs> who held up a bank for a million dollars just to prove they
+                  could get it. There's a need. They had nothing to do. They didn't have a job and
+                  they didn't have transportation. You can't walk in <placeName type="state"
+                     key="#st_cal">California</placeName>, so it's bad if you don't have
+                  transportation. But here are things to do. Not necessarily here, but if they went
+                  to <placeName type="region" key="#re_africacon">Africa</placeName> they could do a
+                  lot. There are millions of kids starving over there. There are challenges all over
+                  the world, but nobody's bothered to point them out to the young. Their horizons
+                  are so narrow that they don't know anybody ever existed. They don't know that
+                     <persName key="#gca">Caesar</persName> existed, or <persName key="#alex"
+                     >Alexander the Great</persName>, or <persName key="#aei">Einstein</persName>,
+                  or anybody else. They're alone. They haven't got transportation. Maybe their old
+                  man's out of a job. They've gone hungry a couple of times, and they're all mixed
+                  up. There's <persName key="#phe">this Hearst girl</persName> backing the <orgName
+                     key="#sla">SLA</orgName>. It's so stupid, even the liberals are
+                  antagonized.</p>
+               <p>Q</p>
+               <p><emph>Even so, she'll probably go down as a folk-hero among some
+                  people.</emph></p>
+               <p>A</p>
+               <p>Oh sure, particularly if they don't analyze the escapade. For instance, that four
+                  million dollars' worth of food. It's just people cramming their stomachs for a
+                  couple of meals; instead they could have set up a center where really poor people
+                  could benefit&#8212;people who are poor materially and mentally and physically. A
+                  center like that, if properly funded, might have taken care of 500 people a day
+                  with a modest meal for a long time. Instead of this they bought a lot of groceries
+                  and threw them around. They were only interested in making a display and showing
+                  their guns. I've written against the gun. <emph>The Island Of The Blue
+                     Dolphins</emph> was a direct protest against the gun, and the killing of
+                  animals and the killing of people.</p>
+               <p>Q</p>
+               <p><emph>That's <rs>another book</rs> that has <rs><name type="fictional" key="#kar"
+                           >an Indian girl</name></rs> as its heroine. Why is it that you write so
+                     sympathetically about the Indians?</emph></p>
+               <p>A</p>
+               <p>I think it is accidental, in the sense that I've lived in <rs><placeName
+                        type="state" key="#st_cal">a country of Indians</placeName></rs>. The story
+                  of <rs><name type="fictional" key="#kar">an Indian girl</name></rs> who lives
+                        <rs><date from="1835" to="1853">eighteen years</date></rs> on <rs><placeName
+                        type="island" key="#i_sn">an island</placeName></rs> alone is a dramatic
+                  idea, so I used it as a vehicle for what I wanted to say. If she had been a girl
+                  from <placeName type="state" key="#st_ia">Iowa</placeName> or <name type="ship"
+                     key="#sh_mayflower">the Mayflower</name> I still would have done it, because of
+                  the situation. The same with the <name type="fictional" key="#bmo">Navajo
+                     girl</name> in <emph>Sing Down The Moon</emph>, a ready-made situation about
+                        <rs><orgName type="nativeamericantribes" key="#natam_navajo">a people who
+                        were persecuted, uprooted and driven from their homes</orgName></rs>. Again,
+                     <emph>The Black Pearl</emph> is based on a legend current down there below
+                     <placeName type="city" key="#ci_sd">San Diego</placeName>. <persName
+                     type="author" key="#jstein">Steinbeck</persName> also used it. Our stories are
+                  quite alike up to the time when <rs><name type="ship" key="#sh_fictionalpearl">the
+                        pearl</name></rs> is sold: then they diverge. I think of all this as just an
+                  accident, that I was born out here. If I'd been born in <placeName type="region"
+                     key="#re_mwest">the Middle West</placeName> and stayed in <placeName
+                     type="region" key="#re_mwest">the Middle West</placeName>, I would come into
+                  contact with different legends, probably about early French voyages and so forth.
+                  In <emph>Child of Fire</emph> it's a <rs><name type="fictional" key="#mca">young
+                        Spaniard</name></rs>. They are people I've grown up with, people I do know.
+                  I have Indian friends, just as I have Spanish and Mexican friends. There's quite a
+                  difference between the Spanish and the Mexicans, who are really Indians, or who
+                  have Indian blood in them. There are also a lot of different tribes in <placeName
+                     type="country" key="#co_mexico2">Mexico</placeName>. For instance I lived a
+                  summer in <placeName type="city" key="#ci_pat">Patzcuaro</placeName>, where the
+                     <orgName type="nativeamericantribes" key="#natam_Tarascan">Tarascan
+                     Indians</orgName> live, about 9,000 feet above the sea. They were never
+                  conquered by any Indian tribe, not even by the <orgName
+                     type="nativeamericantribes" key="#natam_aztec">Aztecs</orgName>. They lived in
+                  a beautiful little city called <placeName type="city" key="#ci_tz"
+                     >Zinzunzan</placeName>, "<rs><placeName type="city" key="#ci_tz">the place of
+                        the hummingbirds</placeName></rs>." Then <persName key="#nbu"
+                     >Guzman</persName>, a Spaniard looking for gold, came with his five men. He
+                  talked with <persName key="#tng">the King</persName>, and told him "We come for
+                  gold." <persName key="#tng">The King</persName> had never seen gold. Instead he
+                  gave <persName key="#nbu">Guzman</persName> beautiful garments made of hummingbird
+                  feathers which he promptly threw away. <persName key="#nbu">Guzman</persName> was
+                  sure <persName key="#tng">the King</persName> was lying, so he tied him to the
+                  tail of a horse, dragged him round the square and threw him on a bonfire.
+                  Immediately all the <orgName type="nativeamericantribes" key="#natam_Tarascan"
+                     >Tarascans</orgName>, who had never been conquered before, disappeared into the
+                  high mountains, and they're still there today. That's a long story. But there was
+                        <rs><persName type="nativeamerican" key="#car">a girl</persName></rs> in
+                     <placeName type="city" key="#ci_pat">Patzcuaro</placeName>, one of eleven
+                     <orgName type="nativeamericantribes" key="#natam_Tarascan">Tarascan</orgName>
+                  children, and we took her on as our cook. I modeled <rs><name type="fictional"
+                        key="#kar">my Indian girl</name></rs> on her. This illustrates the
+                  mechanism. If I had been in the <placeName type="region" key="#re_mwest">Middle
+                     West</placeName> it would have been somebody else.</p>
+               <p>Q</p>
+               <p><emph>Your books are all told in the first person, through the eyes of the
+                     protagonist. Is that because many of them are based on stories you've heard
+                     word of mouth?</emph></p>
+               <p>A</p>
+               <p>I think it's the easiest way to write, though some of my adult books have been
+                  written in the third person. Though I don't think you'd find any evidence of it in
+                  my present writing, I have been influenced by <persName type="author" key="#jcon"
+                     >Conrad</persName>. I was a great admirer of his for many years. What he did
+                  was more complex than I am able to handle. Sometimes he would have three
+                  narrators&#8212;the author, <name type="fictional" key="#marlow">Marlow</name> and
+                     <name type="fictional" key="#jim">Lord Jim</name>, for example&#8212;each
+                  telling different parts of the same story as they saw it. I think writing in the
+                  first person is easier because you don't have to work so hard for suspension of
+                  disbelief. When you read that "I did it" there's a tendency to believe what you're
+                  being told. You get an almost automatic identification which I think is so
+                  important in a story. In <emph>Child of Fire</emph> I have a device which goes
+                  back to the <name type="fictional" key="#marlow">Marlow</name> situation in
+                  Conrad. I use <rs><name type="fictional" key="#del">a parole officer</name></rs>,
+                  in charge of fifty children, who tells the story of <rs><name type="fictional"
+                        key="#mca">one particular boy</name></rs>. It has drawbacks of course,
+                  because you can only report what you have seen. I have a situation in which the
+                  boy leaves <placeName type="city" key="#ci_sd">San Diego</placeName> and goes on a
+                  tuna clipper to <placeName type="country" key="#co_ec">Ecuador</placeName>, where
+                  there's a mutiny and where he's thrown in prison. ln the end he escapes and gets
+                  back to <placeName type="city" key="#ci_sd">San Diego</placeName>. Well, he has to
+                  tell this story; there's no other way of getting it. It's not as dramatic as it
+                  would have been if the <rs><name type="fictional" key="#del">parole
+                     officer</name></rs> had gone with him, and so had been able to tell the story
+                  himself, like an omnipotent observer. But that was obviously impossible. So there
+                  are penalties.</p>
+               <p>Q</p>
+               <p><emph>I understand you are now working on a novel about <persName key="#wty"
+                        >William Tyndale</persName>, the first Englishman to do a creditable version
+                     of the Bible. Although this is obviously set in the past, it doesn't seem to
+                     have much else to do with your other children's books. Are you doing this as an
+                     extension of your own messianic tendencies?</emph></p>
+               <p>A</p>
+               <p>I'm terribly interested in his story. He wanted every ploughboy to read the Bible
+                  as it came from the original Greek and Hebrew, not as it came from the Vulgate,
+                  and not as the priest read it in the pulpit. This is what <persName key="#wty"
+                     >Tyndale</persName> wanted to do, and this is what <persName key="#wty"
+                     >Tyndale</persName> did&#8212;and he did it so beautifully that when the King
+                  James version came along they used 70 to 75 per cent of Tyndale in it. Today we
+                  speak Tyndale. It's extraordinary if you compare the passages he translated from
+                  the Greek with the same passages in the Latin. If you are really concerned with
+                  something it gets into the fabric of the story and is transmitted to the reader.
+                  That was <persName type="author" key="#dhlaw">D. H. Lawrence</persName>'s feeling,
+                  and it's certainly one I share. I have only done things that I've been really
+                  enthusiastic about, stories that have stirred me. With <persName key="#wty"
+                     >Tyndale</persName>, and with this messianic quirk of mine, I feel that I am
+                  performing a mission; it may be a little grandiloquent to call it that, yet that
+                  is my feeling. Children speak the language, but they don't know where the hell it
+                  came from. They don't know whom to credit for it, and they certainly don't know
+                  Tyndale's story, how the man lived in attics and burrows and was pursued by spies
+                  all over <placeName type="country" key="#co_ger">Germany</placeName>, <placeName
+                     type="country" key="#co_hol">Holland</placeName> and <placeName type="country"
+                     key="#co_bel">Belgium</placeName>, attempting to seize him and take him back to
+                     <placeName type="country" key="#co_eng">England</placeName>. His Bible was
+                  smuggled into <placeName type="country" key="#co_eng">England</placeName>. It had
+                  to be, because it was against the law to own it or read it. He very calmly gave up
+                  his life for this purpose. He was a hero. Today children don't feel there are
+                  important things to do. They take it out on sports&#8212;the football players and
+                  the baseball players are heroes, so that at any given time we've got 5,000 heroes.
+                  But this is a very empty thing; it's heroism delegated. Nobody enjoys sports more
+                  than I do, but I don't enjoy them for that reason. I don't think they should be
+                  used as a substitute for the meaningful things in life that never occur to
+                  children brought up by fathers who are crazy about sports in houses where there
+                  aren't any books. And our divorce statistics and our crime statistics are
+                  frightening. In this county alone, <placeName type="county" key="#co_sdcounty">San
+                     Diego</placeName>, there are 23,000 parolees. In other words, sometime this
+                  afternoon you have been in contact with two or three parolees in <rs><placeName
+                        type="county" key="#co_sdcounty">this area</placeName></rs>. You can't miss
+                  them. And what do you do with them? I'm on a board of directors for one of these
+                  crash programs. We run a tranquillity house where we have twenty or so very young
+                  girls and boys who have drug problems. They live in this house and police
+                  themselves under certain restrictions and rules. What we're trying to do is put
+                  them back in the mainstream. We've been most successful when they've gotten jobs
+                  or something to do, and don't have to sit round the house all day, which is
+                  lethal.</p>
+               <p>Q</p>
+               <p><emph>But one can see why they get like that in an overdeveloped urban
+                     society.</emph></p>
+               <p>A</p>
+               <p>Young people are terribly restricted on the basis of what we consider important.
+                     <placeName type="country" key="#co_usa">The country</placeName> is poisoned by
+                  money, so that anybody who doesn't get rich and make a lot of it is considered a
+                  failure. There's none of the old idea, still around in some places of the world,
+                  that you do your work because you enjoy doing it. Well, the unions have taken over
+                  now. If you're a checker at a Safeway store, you get five dollars ninety-five
+                  cents an hour, and benefits, so you don't have to worry about a lot of things, the
+                  quality of your work for one thing. It's very easy of course to sit here having
+                  something quite different to do and talk in general terms. I think it's partly the
+                  way schools are run today. Think of the past, when children weren't children but a
+                  real part of the family. If the father was a stonemason then the son was a
+                  stonemason; and if the mother worked at a loom making tapestries, then the
+                  daughter learned to make tapestries. The family was monolithic, as <orgName
+                     type="nativeamericantribes" key="#natam_Tarascan">the Tarascans</orgName> are
+                  in <persName type="country" key="#co_mexico2">Mexico</persName> today. The family
+                  was very strong, and the children learned trades and were proud of them. By the
+                  age of ten or so they were adults. I think children should be given adult
+                  responsibilities as soon as possible. Of course, child labor has been abused, as
+                  it was in the Industrial Revolution. What we're doing though is extending
+                  childhood to infinity, protecting our children from what, for Christ's sake?
+                  They're much smarter than we are, much smarter than their parents, certainly in
+                  worldly ways. We need to change the fabric of the family so there are books in the
+                  home and mothers and fathers reading to their children, instead of this generation
+                  gap, children wanting to get out of the house as fast as they can because of
+                  restrictions. How this is to be done I don't know. It probably isn't possible.
+                  There's some element that is missing. In the Orient the father is honored, and the
+                  grandfather and the grandmother are honored. There is honor. But here in
+                     <placeName type="country" key="#co_usa">America</placeName>, when you get to be
+                  over forty you might as well be dead.</p>
+               <p>Q</p>
+               <p>In <emph>The King's Fifth </emph> it certainly suprised me that <rs><name
+                        type="fictional" key="#esa">a boy of fifteen</name></rs> was entrusted with
+                  the post of cartographer on a large exploring vessel.</p>
+               <p>A</p>
+               <p>It's an example of what I'm talking about. For instance, our captains and your
+                  captains who sailed to the Far East usually retired at the age of thirty.</p>
+               <p>Q</p>
+               <p><emph>There is real evidence that a skill like that could be acquired by the time
+                     you were fifteen in the Spanish Empire?</emph></p>
+               <p>A</p>
+               <p>They learned these skills when they were very young. <persName type="seaman"
+                     key="#flu">Coronado</persName> was <emph>only</emph> twenty-nine when he led
+                  his great expedition. In this story I've just published, <emph>Child of
+                     Fire</emph>, <rs><name type="fictional" key="#mca">the boy</name></rs> was
+                  inspired by <persName type="seaman" key="#flu">Coronado</persName>. But are there
+                  any Coronados around today! There aren't, but there are still things to do. We
+                  shouldn't try to make adults out of children too quickly; but we can still give
+                  them a sense of responsibility. We can give girls the knowledge that marriage
+                  won't solve all their problems, either when they're at junior high, or preferably
+                  before. They must realize that, though it's a wonderful idea, there will be more
+                  problems, more responsibilities after than before they're married. They have to
+                  learn that in marriage you're in trouble if you expect to find in your mate all
+                  the men in the world or all the women in the world. I don't think children are
+                  prepared for marriage at all. I think the statistics prove it, particularly here
+                  in <placeName type="country" key="#co_usa">America</placeName>. <placeName
+                     type="state" key="#st_cal">California</placeName> is the worst of
+                  all&#8212;something like one divorce in every two and one-half marriages. But if
+                  you tried to teach sex in the schools, the parents wouldn't stand for it. So the
+                  kids educate themselves, without good examples or good sexual relationships. They
+                  just bat their heads around until hopefully they find something workable. I'm all
+                  for divorce as an escape from horrors, but I still think it's a frightening
+                  indication.</p>
+               <p>Q</p>
+               <p><emph>Have you had any children yourself?</emph></p>
+               <p>A</p>
+               <p>No. <rs><persName key="#ehall">My wife</persName></rs> (we're both previously
+                  divorced) has <rs><persName type="group" key="#daughter1; #son1">two
+                        children</persName></rs>&#8212;<rs><persName key="#daughter1">a girl who's
+                        twenty-four and married twice</persName></rs>, and <rs><persName key="#son1"
+                        >a boy still at school</persName></rs>.</p>
+               <p>Q</p>
+               <p><emph>One can see how this society is bad for marriage. But on the other hand one
+                     might say that marriage is bad for this society. To you, obviously, marriage is
+                     important.</emph></p>
+               <p>A</p>
+               <p>I think it's terribly important. It's an anchor. I don't think you can have much
+                  without it, except chaos. There are so many things involved. Children first of
+                  all. You can say that children would be better off herded, as <persName
+                     type="author" key="#gsh">Shaw</persName> suggested, and taken away from their
+                  parents. It's an interesting theory, but it doesn't work. The human psyche is a
+                  very fragile thing. Children demand, must have, love. Most children don't have it,
+                  and that's one of our troubles. Children need to feel they have a place, that
+                  they're not some object, and that they have a designated and honorable role in a
+                  family where everybody contributes. American children don't contribute. They do
+                  what they want to do, or what they can get away with. And that's what they're
+                  brought up to do. It's difficult to argue with them, so parents don't argue with
+                  them. They are afraid to attack the problem because if they talk too much then the
+                  children will leave the house. The family is certainly fragmented. I would like to
+                  have it all go back to the farm, where children grew up knowing how to use a hoe
+                  and milk a cow. To live out in the country and raise a lot of the things that you
+                  use&#8212;that to me is the ideal life. It may be impossible, but it's still
+                  ideal. The last thing that ninety-nine out of a hundred people want to do is get
+                  up at four in the morning and milk a cow. But it's a wonderful life because once
+                  again the family can become monolithic, one depending upon the other. In the past
+                  there have been disadvantages to this&#8212;little schooling and a lot of
+                  isolation. But now with television it's quite different. This is what I'd like to
+                  see. How you get it in an overpopulated industrial society I don't know. Anyway
+                  people don't want it. They want what they've got now&#8212;a lot of sports and
+                  TV.</p>
+               <p>Q</p>
+               <p><emph>You're obviously a man of faith. Perhaps the most powerful moment in all
+                     your books occurs at the end of </emph>The Black Pearl, <emph>when despite the
+                     fact that <rs><name type="ship" key="#sh_fictionalpearl">the pearl</name></rs>
+                     has wrought such misfortune to the community, <rs><persName type="fictional"
+                           key="#rsa">the boy</persName></rs> still takes it back to the church
+                     where it is enshrined. Where did that come from?</emph></p>
+               <p>A</p>
+               <p>I think it's just a logical working out of the plot. At present <emph>The Black
+                     Pearl</emph> is being made into a motion picture. I've read the script[,] not
+                  that I have any say in it. What the producer does is to have <rs><persName
+                        type="fictional" key="#rsa">the boy</persName></rs> sell <rs><name
+                        type="ship" key="#sh_fictionalpearl">the pearl</name></rs> and buy food and
+                  clothing for the town. It's the <orgName key="#sla">SLA</orgName> idea again.</p>
+               <p>Q</p>
+               <p><emph>And exactly what you avoided.</emph></p>
+               <p>A</p>
+               <p>Yes. I said to him, Well, it's dramatic, but I don't like it because, and I'm not
+                  a Catholic, you're criticizing <orgName type="church" key="#ch_catholic">the
+                     Catholic Church</orgName>. In essence <rs><name type="ship"
+                        key="#sh_fictionalpearl">this pearl</name></rs> could buy twenty or
+                  twenty-five thousand dollars' worth of groceries, but in my version <rs><name
+                        type="ship" key="#sh_fictionalpearl">the pearl</name></rs> exists and
+                  everybody can come and look at it and feel that it belongs to them. That's the
+                  theory in <orgName type="church" key="#ch_catholic">the Catholic Church</orgName>,
+                  that the Cathedral and the <persName key="#mary">Virgin</persName> are yours. I've
+                  seen Indians who have come hundreds of miles to <placeName type="city"
+                     key="#ci_mc">Mexico City</placeName> to see the <rs><persName key="#mary"
+                        >Guadalupe Virgin</persName></rs>. These Indians come with a vision of the
+                     <persName key="#mary">Virgin</persName> in their eyes and nothing else. They'd
+                  walk over you and never notice. Adoration, excitement! So the way I closed
+                     <emph>The Black Pearl</emph> seemed the logical way.</p>
+               <p>Q</p>
+               <p><emph>How much research goes into your books?</emph></p>
+               <p>A</p>
+               <p>Certainly a lot for <emph>The King's Fifth</emph>. That was an overly ambitious
+                  book when I first started it. All the cities were allegorical cities. I woke up
+                  one morning and found that I was competing with <persName type="author" key="#dal"
+                     >Dante</persName>. So I quit that and started over.</p>
+               <p>Q</p>
+               <p><emph>Are your books intended as a way through the barriers between children and
+                     their parents, the problem we have discussed?</emph></p>
+               <p>A</p>
+               <p>Yes&#8212;I think the written word is one of the few great resources we have. I
+                  don't think our television, with its violence and overdisplay of firearms and
+                  bosoms and everything, is helpful at all. I have a dedication to the idea of
+                  trying to reach this young group that hasn't been abandoned yet, to reach them
+                  with a few simple comments about life. I get a lot of letters from children,
+                  particularly on <emph>Island of the Blue Dolphins</emph>. They like the idea of
+                  fighting for survival; they are challenged by it and they would like to try it
+                  themselves.</p>
+               <p>Q</p>
+               <p><emph>Do you have any opinions about the commune movement which has been going on
+                     for <rs><date notAfter="1964" to="1974">ten years or s</date></rs>o now? It
+                     seems a variation on the idea of the return to the farm and a closer family
+                     existence.</emph></p>
+               <p>A</p>
+               <p>In the beginning I was critical about it because I didn't understand what they
+                  were trying to do. Then it became associated with marijuana, which, incidentally,
+                  I don't think is as bad as cigarettes. It has been degraded by the word "hippy"
+                  and by long hair. People don't realize of course that for thousands of years young
+                  men wore their hair long. What disappoints me about this youth revolution though,
+                  is that very little has come out of it artistically. The best is from the <orgName
+                     key="#beatles">Beatles</orgName>&#8212;they've made a contribution. But in
+                  poetry and prose and art there has been very little. They attend Woodstock by the
+                  thousands, but that's not productive. The same group with the same excitement 500
+                  years ago would have built cathedrals beautiful to look at.</p>
+               <p>Q</p>
+               <p><emph>Perhaps it's a lack of independence among the gatherers at Woodstock that
+                     you find hard to take?</emph></p>
+               <p>A</p>
+               <p>I do think independence is a very important thing if you can combine it with the
+                  family. <rs><persName key="#bsc">My father</persName></rs> was an autocrat who
+                  couldn't care less about his children. I never had a good relationship with him,
+                  so I can't speak too much from experience about the family. But I still think we
+                  should try to restore it.</p>
+               <p>Q</p>
+               <p><emph>Would that help to solve the other problems in <placeName type="country"
+                        key="#co_usa">America</placeName>&#8212;the racial problem, for
+                     instance?</emph></p>
+               <p>A</p>
+               <p>It would help. I don't think you can solve the Black problem by any one approach.
+                  It's a tremendous task and all acts of good will help.</p>
+               <p>Q</p>
+               <p><emph>Do you still have stories you want to write?</emph></p>
+               <p>A</p>
+               <p>I have a lot more&#8212;three or four at the moment. But it's difficult to get to
+                  them because when I quit smoking <rs><date when="1970">four years ago</date></rs>
+                  I found that I could no longer write at the typewriter. Now I write with a pen. It
+                  takes longer to get myself together, using a pen, and I work more slowly.</p>
+               <dateline>
+                  <placeName type="state" key="#st_cal">California</placeName>, <date when="1974"
+                     >1974</date></dateline>
+               <note type="contributers_note"><emph>Among the many books <persName type="author"
+                        key="#sod">Scott O'Dell</persName> has written are:</emph> Island of the
+                  Blue Dolphins (<date when="1960">1960</date>, Newberry [sic] Award Winner); The
+                  King's Fifth (<date when="1966">1966</date>, a Newberry [sic] Honor Book); The
+                  Black Pearl (<date when="1967">1967</date>, also a Newberry [sic] Honor Book); The
+                  Dark Canoe (<date when="1968">1968</date>); Journey to Jericho (<date when="1969"
+                     >1969</date>); Sing Down the Moon (<date when="1970">1970</date>); The Treasure
+                  of Top-el-Bampo (<date when="1972">1972</date>) <emph>and</emph> The Cruise of the
+                  Arctic Star (<date when="1973">1973</date>).</note>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

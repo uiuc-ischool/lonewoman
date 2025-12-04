@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#dailyindependent"
+                            >Santa Barbara Daily Independent</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">18</biblScope>
+                    <biblScope unit="issue">98</biblScope>
+                    <date when="1892-02-29"/>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName>,<placeName type="state" key="#st_cal"
+                            >California</placeName>.</pubPlace>
+                    <bibl>
+                        <title type="article" key="#Yates1892_29Feb">"The Lost Woman. A Grossly
+                            Erroneous Version of the Story. Joaquin Miller Writes History to Suit
+                            Himself—The Location of the Channel Islands—That 'Castle.'" </title>
+                        <biblScope unit="page" n="4"/>
+                        <author><persName type="author" key="#lya"> Yates, Lorenzo Gordin.
+                            </persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican"
+                                    key="#lw">THE LOST WOMAN</persName></rs>.</hi></title>
+                    <title type="sub"><hi rend="bold">A Grossly Erroneous Version of the
+                        Story.</hi></title>
+                    <title type="sub"><hi rend="bold"><persName type="author" key="#jmill">Joaquin
+                                Miller</persName> Writes History to Suit Himself&#8212;The Location
+                            of the <placeName type="island" key="#i_chi">Channel
+                            Islands</placeName>&#8212;That "Castle."</hi></title></head>
+                <p>The story of <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> who lived for <rs><date from="1835" to="1853"
+                            >eighteen years</date></rs> alone on <placeName type="island"
+                        key="#i_sn">San Nicolas island</placeName> has been written of frequently
+                    and by some of our best writers. <persName type="author" key="#hhj">Mrs. Helen
+                        Hunt Jackson</persName> thought the theme worthy an article from her pen,
+                    and <persName type="author" key="#brinkwife">Mrs. Lucy A. Brinkerhoff</persName>
+                    furnished a readable and well-written sketch. Hardly a newspaper in
+                            <rs><placeName type="state" key="#st_cal">the state</placeName></rs> has
+                    lacked one or more articles concerning <rs><persName type="nativeamerican"
+                            key="#lw">the lone dweller</persName></rs> on <rs><placeName
+                            type="island" key="#i_sn">the faraway island</placeName></rs>. Indeed
+                    the subject has been written up so many times that I supposed everyone must be
+                    acquainted with the salient points of the story. In this, however, I was
+                    mistaken for even now comes the
+                        <!--WHEN WE FIND THIS, WE NEED TO LINK IT--><orgName type="publication"
+                        key="#cts">Cincin[n]ati Times Star</orgName> with an account of the story
+                    written by no less a person than <persName type="author" key="#jmill">Joaquin
+                        Miller</persName>, the long-haired poet of <placeName type="region"
+                        key="#re_sierranevada">the Sierras</placeName>. To a person unfamiliar with
+                    the truth concerning <rs><persName type="nativeamerican" key="#lw">the lost
+                            woman</persName></rs>, <title type="article" key="#Miller1891">Mr.
+                        Miller's sketch</title> would be found very romantic and interesting, but to
+                    people who are in possession of the truth smacks too strongly of the novelist
+                    for it is grossly erroneous in almost every part. Probably <persName
+                        type="author" key="#jmill">Mr. Miller</persName> has bcome so habituated to
+                    the use of the well-known poetic license that he finds it impossible to restrain
+                    his pen to the straight and narrow path of truth.</p>
+                <p>I do not purpose to infli[ct] the whole known history of <rs><persName
+                            type="nativeamerican" key="#lw">the remarkable woman</persName></rs>
+                    upon my readers. I simply wish to note some of the grossest errors fa[llen] into
+                    by <persName type="author" key="#jmill">Mr. Miller</persName>, and perhaps show
+                    that the people living on <placeName type="region" key="#re_calcoast">the
+                        coast</placeName> are not the hard-hearted race he would make them out.</p>
+                <p>First, I wish to call attention to the error <persName type="author" key="#jmill"
+                        >Mr. Miller</persName> makes in regard to the location of <placeName
+                        type="island" key="#i_sn">San Nicolas island</placeName>. He says it is only
+                    twenty miles from <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.
+                    To people who live here this statement is preposterous. <placeName type="island"
+                        key="#i_scruz">Santa Cruz</placeName> is the nearest land off shore from
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and by a
+                    straight line that is twenty five miles distant. But <rs><persName
+                            type="nativeamerican" key="#lw">the woman</persName></rs> lived on
+                        <placeName type="island" key="#i_sn">San Nicolas island</placeName>, which
+                    is still more distant. By reference to the chart issued by the <orgName
+                        key="#uscoastsurvey">U. S. Coast and Geodetic Survey</orgName> we find
+                        <placeName type="island" key="#i_sn">San Nicolas</placeName> is forty-nine
+                    miles from <placeName type="island" key="#i_scruz">Santa Cruz</placeName>, and
+                    that by a straight line drawn from <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> to <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> the distance is seventy-seven and one half miles. But to
+                    draw this line we must pass over the great island of <placeName type="island"
+                        key="#i_scruz">Santa Cruz</placeName>.</p>
+                <p><persName type="author" key="#jmill">Mr. Miller</persName> says the steamer <name
+                        type="ship" key="#sh_generalscott">Winfield Scott</name> was wrecked on
+                            <rs><placeName type="island" key="#i_an">a still smaller
+                            island</placeName></rs> than <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName>, not far away. This is an error also. <rs><name
+                            type="ship" key="#sh_generalscott">The steamer</name></rs> was wrecked
+                    on the middle <placeName type="ship" key="#i_an">Anacapa</placeName>, distant
+                    forty-nine miles from <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName>. Wouldn't a person need a wonderful pair of eyes and a
+                    powerful glass to enable an object no larger than <rs><persName
+                            type="nativeamerican" key="#lw">a woman</persName></rs> to be seen
+                    forty-nine miles away[?] Yet <persName type="author" key="#jmill">Mr.
+                        Miller</persName> says: "The wreckers and [ot]hers saw <rs><persName
+                            type="nativeamerican" key="#lw">the woman</persName></rs> [not]
+                    infrequently." <persName type="author" key="#gda">Prof. George
+                        Davidson</persName>, of the <rs><orgName key="#uscoastsurvey">[U.] S. Coast
+                            and Geodetic Survey</orgName></rs>, in commenting on the savage of
+                        <persName type="seaman" key="#jca">Cabrillo</persName> through the
+                        <placeName type="region" key="#re_sbchannel">Santa Barbara
+                        Channel</placeName> and speaking of the <placeName type="island" key="#i_sb"
+                        >Santa Barbara island</placeName> which lies between <placeName
+                        type="region" key="#re_mld">the mainland</placeName> and <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> says "Supposing he
+                        (<persName type="seaman" key="#jca">Cabrillo</persName>) sailed from the
+                    north harbor of <placeName type="island" key="#i_scatalina">Santa Catalina
+                        island</placeName> to the throat of the <placeName type="region"
+                        key="#re_sbchannel">Santa Barbara channel</placeName> reckoned as lying
+                    between <placeName type="ship" key="#i_an">Anacapa island</placeName> and
+                        <placeName type="region" key="#re_ph">Point H[ueneme]</placeName> he passed
+                    not nearer than fifteen miles to <placeName type="island" key="#i_sb">Santa
+                        Barbara island</placeName> and fourty-two miles to <placeName type="island"
+                        key="#i_sn">San Nicolas island</placeName>. The former (<placeName
+                        type="island" key="#i_sb">Santa Barbara</placeName>) is visible in clear
+                    weather with a sharp loockout; the latter (<placeName type="island" key="#i_sn"
+                        >San Nicolas</placeName>) is not visible unless by extrodinary
+                    refraction."</p>
+                <p>What did <persName type="author" key="#jmill">Mr. Miller</persName> mean when he
+                    used this expression, "and so the long, black and barren mountains of land away
+                    to the south was as inaccessible to them as the moon is to us." There is no land
+                    south of <placeName type="island" key="#i_sn">San Nicolas island</placeName>.
+                    The vast, the boundless waste of the <placeName type="island" key="#re_pacific"
+                        >Pacific ocean</placeName> only is seen or found.</p>
+                <p>He says: "They had queer little houses of stone [on] the one low cliff." This
+                    assertion will be a genuine surprise to any one who has made a study of
+                            <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                            island aborigines</orgName></rs>. The fact is, ordinarily their
+                    dwellings were mean shelters made of brush and their most pretentious buildings
+                    were made by thrusting the ribs of stranded whales into the ground around a
+                    circle: the upper ends brought together to a peak, and the whole covered with
+                    the skins of seals and similar animals, the seams being sewed together with
+                    sinews.</p>
+                <p><persName type="author" key="#jmill">Mr. Miller</persName> draws a very pathetic
+                    picture of <rs><persName type="nativeamerican" key="#lw">the lone
+                            woman</persName></rs> standing on a pyramid of heaped-up stones[,]
+                    watching the ships pass by. He tells how she spent years in building her little
+                    fortress, "and she built it with all the ease and skill of a trained engineer."
+                    This and the little tower she had built on top, "where she could at last lie
+                    down and die," make a mighty pretty little edifice, and we actually hesitate ere
+                    we lay our vandal hands on it and topple it over. But we must. The cool, calm,
+                    unaffected, unromantic fact is, that it is all arrant bosh&#8212;the most
+                    unmitigated sentimental rot&#8212;good for fiction, but mighty mean for fact.
+                            <rs><persName type="nativeamerican" key="#lw">The woman</persName></rs>
+                    built no castle at all. She accepted her lot and was contented to industriously
+                    accumulate provisions without wasting her time in posing as a feathered biped on
+                    a pile of rocks.</p>
+                <p>Now, one word as to why <rs><persName type="nativeamerican" key="#lw">the
+                            woman</persName></rs> was not rescued sooner. <rs><placeName
+                            type="island" key="#i_sn">The island</placeName></rs> on which she lived
+                    is a good ways from <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>. It is a difficult place on which to land&#8212;there is
+                    only one place where it can be done in safety&#8212;and the prevalence of heavy
+                    gales of wind in many months of the year prevents most people from ever visiting
+                    it, yet many attempts were made, though it was not certain <rs><persName
+                            type="nativeamerican" key="#lw">the woman</persName></rs> was alive.
+                        <persName type="author" key="#jmill">Mr. Miller</persName> affirms that the
+                    ocean at <placeName type="island" key="#i_sn">San Nicolas</placeName> is smooth
+                    and the landing easy. This is all guess work on his part, and I do not believe
+                    he ever was on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> at all. He probably mistook it for <placeName
+                        type="ship" key="#i_an">Anacapa</placeName>.</p>
+                <p>I will close this article by quoting from the statement of <persName
+                        type="frontiersman" key="#gni">John [sic] Nidever</persName>, who commanded
+                            <rs><persName type="group"
+                            key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                            party</persName></rs> that rescued her. There were <persName
+                        type="group" key="#cook; #msh; #poli; #nsk; #hva">four Mission
+                        Indians</persName>, <persName type="frontiersman" key="#cdi">Charles
+                        Brown</persName> and <rs><persName type="frontiersman" key="#col">an
+                            Irishman</persName></rs> in the company (nary a Boston bean [...] in the
+                    lot, though <persName type="author" key="#jmill">Miller</persName> says the
+                    [...]</p>
+                <p>[...] the ground within the enclosure, and which no doubt served as a bed.</p>
+                <p>Within the enclosure&#8212;made of whale ribs, covered with brush&#8212;was a
+                    smouldering fire, and without a large pile of ashes and another of bones, which
+                    would indicate that this had been her abode for a long time. <span type="trope"
+                        n="1">To the surprise of <persName type="frontiersman" key="#cdi"
+                            >Brown</persName>, <rs><persName type="nativeamerican" key="#lw">the
+                                woman</persName></rs> recieved him with much dignity and politeness,
+                        bowing and smiling with ease and self-possession. As fast as <rs><persName
+                                type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                >the men</persName></rs> came up she greeted them in the same way.
+                                <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">The
+                                men</persName></rs> seated themselves on the ground around,
+                                <rs><persName type="nativeamerican" key="#lw">the
+                            woman</persName></rs> all the while talking, (womanlike) although not a
+                        word of hers could be understood, although <rs><persName type="group"
+                                key="#msh; #poli; #nsk; #hva">one Indian</persName></rs> spoke
+                        several dialects. From a sack or bag made of grass she took some roots,
+                        known among the Californians as the "carcomites," and another root whose
+                        name I did not learn, and placed them in the fire. When they were roasted
+                        she offered them to us to eat.</span> We were now desirous of taking her on
+                    board <rs><name type="ship" key="#sh_nidever">the schooner</name></rs>. We
+                    commenced by making signs for her to go with us, but she seemed unable to
+                    comprehend them till we intimated that she must gather up all her food, when she
+                    set about the work with the greatest alacrity." After she arrived in <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>
+                    <persName type="frontiersman" key="#gni">Mr. Nidever</persName> took her to
+                        <placeName key="#nideverhouse">his home</placeName> where she lived from
+                    that time on. <persName type="seaman" key="#hcar">Capt. Henry Carnes</persName>
+                    saw <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> and
+                    describes her as being rather small, with weather-beaten dark skin.</p>
+                <byline><persName type="author" key="#lya">LORENZO G. YATES</persName>.</byline>
+            </div>
+        </body>
+    </text>
+</TEI>

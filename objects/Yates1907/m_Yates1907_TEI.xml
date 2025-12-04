@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="magazine">
+               <title type="main" key="#Yates1907">Historic Facts and Fancies: History and Landmarks
+                  Section of California Federated Women's Clubs</title>
+               <editor><persName type="author" key="#jbu">Mrs. J. A. Bunting, <placeName type="city"
+                        key="#ci_cen">Centerville</placeName></persName>
+                  <persName type="author" key="#jth">Mrs. J.E. Thane, <placeName type="city"
+                        key="#ci_niles">Niles</placeName></persName>
+                  <persName type="author" key="#fst"> Mrs. F.A. Stuart, <placeName type="city"
+                        key="#ci_paloalto">Palo Alto</placeName></persName></editor>
+               <publisher><orgName type="publisher" key="#stanley">Stanley-Taylor
+                  Company</orgName></publisher>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <date when="1907">1907</date>
+               <bibl type="article">
+                  <title type="main" key="#Yates1907">Lost Woman of San Nicolas Island</title>
+                  <biblScope unit="page" from="104" to="105"/>
+                  <author><persName type="author" key="#lya">Yates, Lorenzo
+                     Gordin</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <rs><persName type="nativeamerican" key="#lw">Lost Woman of San Nicholas
+                        Island</persName></rs>
+               </title></head>
+            <byline>(Some extracts from an article in <title type="article" key="#Yates1896"
+                     ><emph>Overland Monthly</emph></title>, <date when="1896-05">May 1896</date>,
+               by <persName type="author" key="#lya">L. G. Yates</persName>, of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>.)</byline>
+            <p><placeName type="island" key="#i_sn">SAN NICHOLAS ISLAND</placeName>, one of the
+               group of the <placeName type="island" key="#i_chi">Santa Barbara Islands</placeName>,
+               is about nine miles in length and four in width; water is plentiful; was formerly
+               densely populated, but now is a treeless waste&#8212;the result of fire and the
+               pasturage of sheep.</p>
+            <p><span type="trope" n="11">We learn by tradition that the <orgName type="group"
+                     key="#rfurcompany; #natam_aleuts; #natam_kodiak">Alaska Indians</orgName>, who
+                  were placed upon <rs><placeName type="island" key="#i_sn">this
+                     island</placeName></rs> to trade with <orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the natives</orgName>, killed off the male
+                  inhabitants and took possession.</span> In <date when="1835">1835</date>
+               <rs><persName type="group" key="#aji; #ndur; #misfats">the padres</persName></rs>
+               sent <name type="ship" key="#sh_peoresnada">a vessel</name> to remove the women and
+               children. <span type="trope" n="9">This was accomplished, with the exception of
+                        <rs><persName type="nativeamerican" key="#lw">one woman</persName></rs>, who
+                  jumped into the surf and swam ashore to hunt for <rs><persName
+                        type="nativeamerican" key="#lwchild">her child</persName></rs>, who had
+                  accidentally been left behind.</span></p>
+            <p>The next we hear of the <rs><persName type="nativeamerican" key="#lw">lone
+                     woman</persName></rs> was in <date when="1850">1850</date>, after a lapse of
+               fifteen years., <span type="trope" n="8">when <persName type="frontiersman"
+                     key="#gni">Captain Nidever</persName>, of <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, visited <rs><placeName type="island" key="#i_chi"
+                        >the islands</placeName></rs> and discovered traces of recent habitation;
+                  but it was not until <date when="1853">1853</date> that the <rs><persName
+                        type="nativeamerican" key="#lw">female Robinson Crusoe</persName></rs> was
+                  found and removed to <placeName type="region" key="#re_mld">the
+                     mainland</placeName>, where from the sudden and complete change of manner of
+                  living, she soon died.</span><span type="trope" n="6">She had outlived
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        people</orgName></rs> and found no one able to converse with her in her
+                  almost forgotten language. It is supposed she was the last of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     race</orgName></rs>; her clothing, made from skins, and needles of bone, were
+                  deposited in <orgName type="museum" key="#mu_vaticanmuseum">the Vatican</orgName>,
+                  at <placeName type="city" key="#ci_rom">Rome</placeName>.</span></p>
+            <p><span type="trope" n="6">But the incidents connected with her stay upon and removal
+                  from <rs><placeName type="island" key="#i_sn">the island</placeName></rs> will
+                  soon be forgotten, although the refuse heaps of <orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">its former
+                     inhabitants</orgName> will remain as evidence of <orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">a lost
+                  people</orgName>.</span></p>
+            <p>Who can realize the utter and wretched loneliness of the <rs><persName
+                     type="nativeamerican" key="#lw">poor creature</persName></rs>, who spent
+                     <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                  years</date></rs> among the deserted homes of <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                  ancestors</orgName></rs>, where the ground was whitened by their bleaching
+               bones?</p>
+         </div>
+      </body>
+   </text>
+</TEI>

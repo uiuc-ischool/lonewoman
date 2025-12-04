@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#touringtopics">Touring
+                     Topics</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">20</biblScope>
+               <biblScope unit="issue">7</biblScope>
+               <date when="1928"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Wolfe1928">The Lost Woman of San Nicolas</title>
+                  <biblScope unit="page" n="31"/>
+                  <biblScope unit="page" n="48"/>
+                  <biblScope unit="page" n="50"/>
+                  <author><persName type="author" key="#gwo">Wolfe, Gordon</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <emph><rs><persName type="nativeamerican" key="#lw">The Lost Woman of San
+                           Nicolas</persName></rs></emph>
+               </title></head>
+            <byline><emph>By</emph>
+               <persName type="author" key="#gwo">Gordon Wolfe</persName>
+            </byline>
+            <p>THE afternoon breeze had fallen off to a whisper and the sea was like glass as we
+               landed in the little cove. We busied ourselves about the camp fire and made
+               everything snug for the night. The sun sank back of the island hills and supper was
+               finished by the time full darkness had come. Afterward, we sat in the ruddy circle of
+               the firelight, each thinking his own thoughts. There was almost no sound by then, for
+               the wind had died entirely away, only the faintest lapp-lapping of tiny waves on the
+               beach telling us how close we were to <placeName type="region" key="#re_pacific">the
+                  Pacific</placeName>.</p>
+            <p>That morning we had left <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, <persName type="seaman" key="#tom">Tomás</persName> and I,
+               for a cruise of a day or two among the <rs><placeName type="island" key="#i_chi"
+                     >closer islands in the channel</placeName></rs>. <persName type="seaman"
+                  key="#tom">Tomás</persName> is an old Mexican boatman and knows all <rs><placeName
+                     type="island" key="#i_chi">these islands</placeName></rs> well. More than that,
+               he is something of a philosopher, having seen much of the world and talked to many
+               people. He has a small but seaworthy launch, and for years has plied his trade up and
+               down <rs><orgName type="island" key="#re_socalcoast">that rocky coast</orgName></rs>,
+               whenever he can charter. That evening we had run into such a calm that he had
+               concluded it was safe to anchor close-in in the cove in the lee of <placeName
+                  type="island" key="#i_scruz">Santa Cruz</placeName>, and spend the night ashore,
+               where we might have the comfort and companionship of an open fire.</p>
+            <p>"<persName type="seaman" key="#tom">Tomás</persName>," I broke the long silence, "I
+               wouldn't mind being shipwrecked on <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs> for a month or so, if I were sure of being rescued
+               then. A fellow could have a fine time of it for a while. There are fish in the tide
+               pools and many kinds of shellfish on the rocks, plenty of firewood on the mountain
+               side and good water in the canyons. Why, it'd be great."</p>
+            <p><rs><persName type="seaman" key="#tom">The old Mexican</persName></rs> looked up, his
+               weather-seamed face a powerful etching against the blackness beyond the firelight. He
+               nodded. "Sí, you are right. It would be far from bad on <rs><placeName type="island"
+                     key="#i_chi">these islands</placeName></rs> that have trees and water and are
+               sheltered from the winds. But there are others not so favored, such as parts of
+                  <placeName type="island" key="#i_sm">San Miguel</placeName>, the next island west
+               but one, and <placeName type="island" key="#i_scl">San Clemente</placeName>. But
+               worst of all is <placeName type="island" key="#i_sn">San Nicolás</placeName>."</p>
+            <p>"Why is it the worst?"</p>
+            <p>"Sometime, when you are not so hurried, I shall take you there and you shall see for
+               yourself. That <placeName type="island" key="#i_sn">San Nicolás</placeName> is many
+               miles further out than <rs><placeName type="island" key="#i_chi">the other
+                     islands</placeName></rs>, so that there is no protection from the winds that
+               blow from the ends of the earth. It is barren, for if there were trees, the wind
+               would soon uproot them. There is perhaps short brush and cactus hiding in the depths
+               of the arroyos where the wind cannot get at them so well, and scant patches of grass
+               here and there. That is all.</p>
+            <p><span type="trope" n="5">"<rs><placeName type="island" key="#i_sn">That
+                        island</placeName></rs> is no more than a mountain peak sticking a little
+                  way above the waves. It is perhaps eight miles long, of lava rock, and there is
+                  much sand. Where that sand comes from, I do not know. Though the wind forever
+                  blows it into the sea, there is always much left. <emph><rs><persName
+                           type="author" key="#gwo">Señor</persName></rs></emph>, I have been
+                  anchored back of <rs><placeName type="island" key="#i_sn">that
+                     island</placeName></rs> when the wind came up with a puff and howled through
+                  the rigging, and I have seen that sand hanging in the air to the lee of the hills,
+                  so thick that it was like a cloak that hangs from a woman's shoulders. Then down
+                  it comes, tons and tons of it, like fine rain, and it stings so that you cannot
+                  face it and sizzles into the sea on every side. And the surf booms high on the
+                  black reefs.</span></p>
+            <p><span type="trope" n="5"><span type="trope" n="6">"But <rs><placeName type="island"
+                           key="#i_sn">that island</placeName></rs> is dying. The winds have carved
+                     into its heart and the waves gnaw forever at its feet and some day the two of
+                     them will eat it quite away. It is doomed. And the winds that never cease are
+                     always uncovering the grave-things of <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the ancient people</orgName></rs> that lived
+                     there in the dim time of long ago. Here a skull, there a stone knife or mortar
+                     or ornament. Uncovered today and tomorrow buried deep under the shifting sands,
+                     while that devil-wind has gone over the next dune and begins digging all over
+                     again.</span></span></p>
+            <p><span type="trope" n="5">"Then perhaps that wind will bring with it the fog, and its
+                  cold fingers coil close to the slopes and shut off the rest of the world. That fog
+                  is so thick that you can see no further than your own length and you are lost. The
+                  sand no longer dances, but crawls, with a low moaning sound, the voice of those
+                  murdered ones whose bones dot the dunes. Their ghosts still haunt the lonely
+                  arroyos and you can almost feel them as they creep by in the mist. It is
+                        <rs><placeName type="island" key="#i_sn">a dying land and a land of the
+                        dead</placeName></rs>."</span></p>
+            <p>"You don't paint a pretty picture. If it's like you say, I wouldn't want to be cast
+               away there."</p>
+            <p>"Yes, it is bad. Everytime I go there, I say I shall never return, but there is
+               something about it, the sadness and the loneliness, that pulls me back. It is bad,
+               but <placeName type="island" key="#i_sn">San Nicolás</placeName> had <rs><persName
+                     type="nativeamerican" key="#lw">one castaway</persName></rs> who lived alone
+               there, not a month, but <rs><date from="1835" to="1853">years and years, more than a
+                     score</date></rs>. Have you heard of <rs><placeName type="island" key="#i_sn"
+                     >the lost woman of San Nicolás</placeName></rs>?"</p>
+            <p>I had not and I told him so.</p>
+            <p>"It is a sad story, <emph><rs><persName type="author" key="#gwo"
+                     >señor</persName></rs></emph>, and pitiful. <span type="trope" n="7">You know,
+                  when the <name type="nationality" key="#spanish">Spaniards</name> first sailed up
+                        <rs><placeName type="region" key="#re_socalcoast">this
+                     coast</placeName></rs>, all <rs><placeName type="island" key="#i_chi">these
+                        islands</placeName></rs> were thick with <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                        >people</orgName></rs>. There are piles of abalone shells that must have
+                  taken many people many centuries to gather. I have taken <emph>profesores</emph>
+                  and others interested in such things out to these heaps and we have dug up many
+                  skeletons and stone tools and weapons from the black dirt.</span></p>
+            <p><span type="trope" n="6">"Then the <name type="nationality" key="#spanish"
+                     >Spaniards</name> came and took many of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                        island people</orgName></rs> to <placeName type="region" key="#re_mld">the
+                     mainland</placeName>, so that their souls might be the better watched over by
+                        <rs><orgName type="missionfathers" key="#misfats">the good
+                     padres</orgName></rs> at <rs><orgName type="mission" key="#mi_mainlandmissions"
+                        >the missions</orgName></rs>. Many sickened and died for their homes and
+                  others married into the larger tribes of the coast and forgot the tongue of their
+                  fathers.</span><span type="trope" n="11"> Then came the seal and sea-otter
+                  hunters, <name type="nationality" key="#americans">Americans</name> and
+                        <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >Russians and Indians of the warring tribes far to the
+                  north</persName></rs>. These were far more cruel than the <name type="nationality"
+                     key="#spanish">Spaniards</name>. They shot the island men just for sport and
+                  carried away the women.</span> So in time it came about that all <rs><orgName
+                     type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     people</orgName></rs> were gone from every island save <placeName type="island"
+                  key="#i_sn">San Nicolás</placeName>, far out from <rs><placeName type="region"
+                     key="#re_socalcoast">the coast</placeName></rs> and seldom visited.</p>
+            <p>"The <orgName type="government" key="#gov_mexico">Mexican government</orgName> of
+                  <placeName type="region" key="#re_local">California</placeName> thought it best to
+               bring to shore what remained of <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">the San Nicolános</orgName>. <rs><name type="ship"
+                     key="#sh_peoresnada">A small schooner</name></rs> was chartered and sent out
+               for them. They were at last rounded up in the badlands and taken down to <rs><name
+                     type="ship" key="#sh_peoresnada">the vessel</name></rs>. Then <rs><persName
+                     type="nativeamerican" key="#lw">a young woman</persName></rs> cried out that
+               she had left <rs><persName type="nativeamerican" key="#lwchild">her
+                  baby</persName></rs> behind her in all the confusion, and must go back for him.
+               But <rs><persName type="group" key="#chu; #isp">the captain</persName></rs> and the
+                  <name type="nationality" key="#mexicans">Mexicans</name> could not understand her,
+               since she spoke a different language than the Indians of the mainland. Also, the wind
+               had started to blow with a fury and he feared to lie-to any longer, lest <rs><name
+                     type="ship" key="#sh_peoresnada">the ship</name></rs> be capsized. So he
+               ordered the anchor to be lifted. <span type="trope" n="9"><rs><persName
+                        type="nativeamerican" key="#lw">The poor woman</persName></rs> saw that, and
+                  ran and leaped into the sea before they could prevent her, and the last they saw,
+                  as <rs><name type="ship" key="#sh_peoresnada">the vessel</name></rs> heeled back
+                  before that wind, she was swimming straight toward the landing on the sand spit
+                  where the wild currents meet and struggle.</span></p>
+            <p>"<rs><name type="ship" key="#sh_peoresnada">The schooner</name></rs> put about and
+               after a stormy passage, made <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> and landed <persName type="group" key="#bhagroup">its
+                  passengers</persName>. Perhaps <rs><persName type="group" key="#chu; #isp">that
+                     captain</persName></rs> meant to go back after <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> in a few days;
+               perhaps he thought she had drowned in the surf. No one knows now. Anyway, before he
+               did go back, he headed for a trip to the north and <rs><name type="ship"
+                     key="#sh_peoresnada">his vessel</name></rs> was never heard from again. So
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> became
+               lost and forgotten.</p>
+            <p>"Months came and went and turned into years and the only ones who ever visited
+                     <rs><placeName type="island" key="#i_sn">that lonely island</placeName></rs>
+               were the hunters. They saw only the seals and otters that they killed, so they
+               thought <placeName type="island" key="#i_sn">San Nicolás</placeName> deserted.</p>
+            <p>"Then one day, <rs><date when="1853">twenty years later</date></rs>, <rs><persName
+                     type="group" key="#tje; #nativeamericans">a party</persName></rs> went inland
+               further than usual and found traces where some one had lived not long before. <span
+                  type="trope" n="9">Their story finally reached the ear of <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">the padre at the mission
+                        in Santa Barbara</persName></rs> and then he remembered hearing of
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> who
+                  had leaped from <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>
+                  there, a generation before.</span> So he persuaded <rs><persName
+                     type="frontiersman" key="#gni">a sea captain</persName></rs> who lived nearby,
+               to take him out and they searched, but found nothing. Then they went back again and
+               found traces that brought them back for a third time. This time they took
+                     <rs><persName type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">a
+                     good many others</persName></rs> to help them search.</p>
+            <p>"They stretched out in a line, close enough to cover every foot of the ground and
+               went forward. They searched the sand dunes, with no luck, and then came to the rough
+               lava hills. Here they must be careful, on account of the danger and also on account
+               of the many caves and holes dug out by the wind, in which she might be hiding. After
+               much time they came to the highest of the hills and when they had toiled part way up,
+               one of <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                     Indians</persName></rs> came upon her suddenly. <rs><persName
+                     type="nativeamerican" key="#lw">The poor creature</persName></rs> had built a
+               low fence to break the wind and inside it she had made a hut of whalebones found on
+               the beach. She was sitting there at the door of the hut with a half wild dog at her
+               side. When she saw that <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">the man</persName></rs> was the same color
+               as herself she bowed as though she knew him.</p>
+            <p><span type="trope" n="14">"She appeared to have forgotten most of the words of her
+                  own language.</span> Perhaps you and I would forget, too, with never a soul to
+               talk with for <rs><date from="1833" to="1853">twenty long years</date></rs>.
+                     <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">The
+                     Indians</persName></rs> could no more understand her than <rs><persName
+                     type="group" key="#gni; #cdi; #col; #jru; #aji; #sanchez; #misfats">the
+                     whites</persName></rs>, since she spoke a different tongue. <span type="trope"
+                  n="10"><rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva; #jru; #aji; #sanchez; #misfats"
+                        >The party</persName></rs> stayed there till bad weather drove them away,
+                  seeking to learn of her life there by signs and guesses. As near as they could
+                  understand, <rs><persName type="nativeamerican" key="#lwchild">the
+                     baby</persName></rs> had died or been killed long before. A dog or two had been
+                  left behind; they were her only company. There was water in one of the rugged
+                  arroyos and many abalones and mussels along the shores. Sometimes at night she
+                  would sneak up and kill the young seals with stones. She caught the sea birds and
+                  made dresses of their skins. Several times she had seen seal hunters, but knowing
+                  their cruelty she had hidden away till they had gone. Thus had she
+               lived.</span></p>
+            <p>"They took her aboard <rs><name type="ship" key="#sh_nidever">the vessel</name></rs>
+               and returned to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. She
+               marveled at the size of the houses and when she saw horses and cattle, fell down to
+               her knees in fright. Because of her tragic history, she was quite a curiosity. <span
+                  type="trope" n="3">She seemed childish&#8212;perhaps her brain had turned a little
+                  from the loneliness. But she appeared to enjoy herself and went every night with
+                  the Mexicans to their dances and fiestas. Especially, she liked to see them
+                  dance.</span>
+               <span type="trope" n="6"><rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">The padre</persName></rs> tried to find
+                     <persName type="group" key="#bhagroup">her people</persName>, who had been
+                  taken away so long before. They had been sent to <rs><orgName type="mission"
+                        key="#mi_sp">a mission in the south</orgName></rs> and when he got word, it
+                  was only that they were dead, having pined away for <rs><placeName type="island"
+                        key="#i_sn">their native island</placeName></rs>.</span>
+               <rs><date from="1833" to="1853" cert="high">Twenty years</date></rs>, with no one to
+               talk to; then, people all around her once more, but unable to understand or be
+               understood&#8212;that was her life. But the new food she had to eat did not agree
+               with her and within the second month she sickened and died, carrying her story to the
+               grave with her.</p>
+            <p>"And so <placeName type="island" key="#i_sn">San Nicolás</placeName> was left
+               lonelier than ever, with only the seals and the gulls to face the sand laden winds
+               and the roaring surf."</p>
+            <p><persName type="seaman" key="#tom">Tomás</persName> stopped speaking and
+                     <rs><persName type="group" key="#tom; #gwo">the two of us</persName></rs> sat
+               looking into the bed of coals, saying nothing. <span type="trope" n="6">But in my
+                  mind's eye I was looking back through <rs><date from="1835" to="1928">the years of
+                        half a century and more</date></rs>, seeing clearly that '<rs><persName
+                        type="nativeamerican" key="#lw">lost woman</persName></rs>' keeping her
+                  lonely vigil on the <placeName type="island" key="#i_sn">windswept, dying island
+                     of San Nicolás</placeName>.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#overlandmonthly">Overland
+                     Monthly</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">27</biblScope>
+               <biblScope unit="issue">161</biblScope>
+               <date when="1896-05"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Yates1896">The Deserted Homes of a Lost People: The
+                     Santa Barbara Channel Islands</title>
+                  <biblScope unit="page" from="538" to="544"/>
+                  <author><persName type="author" key="#lhu">Hubbard, Lorenzo</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">THE DESERTED HOMES OF <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">A LOST PEOPLE</orgName></rs>.</title>
+               <title type="sub">THE <placeName type="island" key="#i_chi">SANTA BARBARA CHANNEL
+                     ISLANDS</placeName>.</title></head>
+            <p><span type="trope" n="6">FEW of the thousands of people who pass within sight of
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> off
+                     <placeName type="region" key="#re_socalcoast">the coast of Southern
+                     California</placeName> know that <rs><placeName type="island" key="#i_chi">the
+                        outlying and in most instances entirely uninhabited islands</placeName></rs>
+                  were formerly the homes of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">a
+                        people</orgName></rs> who have within a few decades become entirely
+                  extinct.</span></p>
+            <p>Some of <rs><placeName type="island" key="#i_chi">these islands</placeName></rs> form
+               the southerly line of the <placeName type="region" key="#re_sbchannel">Santa Barbara
+                  Channel</placeName>. From the combined causes of the sheltering islands seaward,
+               the <placeName type="region" key="#re_santaynezmts">Santa Ynez Mountains</placeName>
+               on <placeName type="region" key="#re_mld">the main land</placeName>, the sudden trend
+               of the coast line towards the east, and the presence of large quantities of petroleum
+               rising from the bottom and covering large areas of the surface of the water, the
+               ocean is nearly always calm and smooth.</p>
+            <p>When in <date when="1542">1542</date>
+               <persName type="seaman" key="#jca">Cabrillo</persName>, the famous Portuguese
+               navigator, sailed from the west coast of <placeName type="country" key="#re_newsp"
+                  >New Spain</placeName>, and discovered and visited <placeName type="island"
+                  key="#i_chi">the islands</placeName>, he found them thickly populated, as was also
+               the adjacent coast.</p>
+            <p><persName type="seaman" key="#bfe">Ferrelo</persName>, one of Cabrillo's officers and
+               the historian of the expedition, in speaking of this region, says: "They anchored
+               opposite a valley, very beautiful and very populous, the land being level, with many
+               trees" (<persName type="author" key="#carp">Carpinteria</persName>). "Here came
+               canoes with fish to barter; they remained great friends; . . . they held on their
+               voyage along the coast about ten leagues, and there were always many canoes, for all
+               this coast is very populous, . . . and they pointed out to us the villages, and named
+               them by their names."</p>
+            <p>Here follow the names of twenty-five villages, some of which are as follows:
+                  "<placeName type="city" key="#ci_xucu">Xucu</placeName>," "<placeName type="city"
+                  key="#ci_xab">Xabaagua</placeName>," "<placeName type="city" key="#ci_pot"
+                  >Potoltuc</placeName>," "<placeName type="city" key="#ci_nac">Nacbuc</placeName>,"
+                  "<placeName type="city" key="#ci_gua">Gua</placeName>," "<placeName type="city"
+                  key="#ci_inc">Incpupu</placeName>," and other names equally euphonious. . . .
+               "They go clothed with skins; they said that inland there were many towns."</p>
+            <p>The island "<placeName type="island" key="#i_scruz">Limun</placeName>" (<placeName
+                  type="island" key="#i_scruz">Santa Cruz</placeName>), the largest of
+                     <rs><placeName type="island" key="#i_chi">the group</placeName></rs>, was said
+               to be "very populous," and that it contained the following villages: "<placeName
+                  type="city" key="#ci_niq">Niquipos</placeName>," "<placeName type="city"
+                  key="#ci_max">Maxul</placeName>," "<placeName type="city" key="#ci_xugua"
+                  >Xugua</placeName>," "<placeName type="city" key="#ci_nitel">Nitel</placeName>,"
+                  "<placeName type="city" key="#ci_macamo">Macamo</placeName>," and "<placeName
+                  type="city" key="#ci_nim">Nimitopal</placeName>."</p>
+            <p>"<placeName type="island" key="#i_sr">Nicalque</placeName>" (<placeName type="island"
+                  key="#i_sr">Santa Rosa</placeName>), the next in importance, the navigators at
+               first supposed was a portion of <placeName type="island" key="#i_scruz"
+                  >Limun</placeName>, and called the two <placeName type="island" key="#slucas">La
+                  Isla de San Lucas</placeName>.</p>
+            <p>The island of "<placeName type="island" key="#i_sm">Ciquimuymu</placeName>"
+                  (<placeName type="island" key="#i_sm">San Miguel</placeName>), was also very
+               thickly inhabited.</p>
+            <p>"<placeName type="island" key="#i_an">Enneeapah</placeName>" (<placeName
+                  type="island" key="#i_an">Anacapa</placeName>), the eastern-most of <placeName
+                  type="island" key="#i_chi">the Channel Islands</placeName> proper, was not visited
+               by <persName type="seaman" key="#jca">Cabrillo</persName>. The name <placeName
+                  type="island" key="#i_an">Anacapa</placeName> is a corruption of Vancouver's
+               spelling of the Indian name of <rs><placeName type="island" key="#i_an">the
+                     island</placeName></rs>.</p>
+            <p><persName type="author" key="#gda">Professor George Davidson</persName>, late of the
+                  <orgName key="#uscoastsurvey"> United States Coast and Geodetic Survey,</orgName>
+               in his valuable Appendix to the "Report of the Survey for <date when="1866"
+                  >1886</date>," says that, "<persName type="seaman" key="#gva">Vancouver</persName>
+               in his text names it Enneeapah, but <persName key="#engraver">the engraver</persName>
+               has spelled it Enecapah on the chart, and subsequent compilers have endeavored to
+               give it a Spanish form. The Indian deep guttural pronunciation is En-ni-ah-pagh."</p>
+            <p>When <persName type="seaman" key="#jca">Cabrillo</persName> cruised along
+                     <rs><placeName type="region" key="#re_socalcoast">the coast</placeName></rs> of
+               what is now called <placeName type="region" key="#re_socal">Southern
+                  California</placeName>, he found <placeName type="region" key="#re_mld">the
+                  mainland</placeName> between <placeName type="region" key="#re_pc">Point
+                  Concepcion</placeName> and <placeName type="city" key="#ci_ven">San
+                  Buenaventura</placeName> dotted by villages inhabited by aborigines who were at
+               that time peaceably inclined toward their strange visitors. The old navigators inform
+               us that they found "seventeen populous villages or towns within a distance of eleven
+               miles along the shore of the <placeName type="region" key="#re_sbchannel">Santa
+                  Barbara Channel</placeName>." <rs><placeName type="island" key="#i_chi">The
+                     islands</placeName></rs>, distant from twenty-five to one hundred miles from
+                     <rs><placeName type="region" key="#re_socalcoast">the coast</placeName></rs>,
+               were thickly inhabited by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                     >tribes</orgName></rs>, who, though speaking different languages or dialects,
+               were closely related to those of the mainland, and were branches of the same family
+               or stock.</p>
+            <p>After Cabrillo's departure there is a wide gap in the history of <rs><placeName
+                     type="region" key="#re_socal">the region</placeName></rs>, until some two
+               hundred and twenty-five years later, the revered <persName type="missionfather"
+                  key="#jse">Father Junipero Serra</persName> and his associates established
+                  <orgName type="mission" key="#mi_mainlandmissions">the Franciscan
+                  missions</orgName> at the most densely populated localities. From these central
+               points of ecclesiastical and temporal authority, which soon became like walled
+               cities, with their busy hum of labor, <rs><orgName type="missionfathers"
+                     key="#misfats">the padres</orgName></rs> enthusiastically and conscientiously
+               worked to civilize and christianize the untutored natives, and when this could not be
+               accomplished by fair means, their retainers were sent out to capture them and bring
+               them in by force, keeping them close prisoners within the walled surroundings of
+                     <rs><orgName type="mission" key="#mi_mainlandmissions">the
+                  missions</orgName></rs>, until by moral suasion they should become reconciled to
+               the restraint upon their wonted liberty and freedom of action. As <rs><orgName
+                     type="nativeamericantribes" key="#natam_missionindians">these
+                     neophytes</orgName></rs> became tamed and well under the control of
+                     <rs><orgName type="missionfathers" key="#misfats">the padres</orgName></rs>,
+               they were sent out to help the Spaniards capture and bring others into the fold.</p>
+            <p>As time went on <rs><orgName type="missionfathers" key="#misfats">the
+                     padres</orgName></rs> extended their dominion until <rs><placeName
+                     type="island" key="#i_chi">the outlying islands</placeName></rs> were
+               conquered, and <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">their
+                     inhabitants</orgName></rs> brought to <placeName type="region" key="#re_mld"
+                  >the mainland</placeName> for more complete subjection to the influence of
+               civilization, until the last remnants of <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     natives</orgName></rs> of the islands <placeName type="island" key="#i_sm">San
+                  Miguel</placeName>, <placeName type="island" key="#i_sr">Santa Rosa</placeName>,
+                  <placeName type="island" key="#i_scruz">Santa Cruz</placeName>, <placeName
+                  type="island" key="#i_an">the Anacapas</placeName>, <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>, <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, and <placeName type="island" key="#i_scl">San
+                  Clemente</placeName>, were removed to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>, all except one notable instance which has furnished the
+               subject of many a romantic story, the facts of which will be narrated further on.</p>
+            <p>Previous to the final removal, however, <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">the
+                     Russian fur traders</persName></rs> of <rs><placeName type="state"
+                     key="#re_russam">the North</placeName></rs> had made inroads upon <rs><orgName
+                     type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     natives</orgName></rs>. At first they were friendly and bartered with
+                     <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     peaceful inhabitants</orgName></rs> for the skins of sea otter and seals, which
+               at that time abounded on the shores. <span type="trope" n="11"><span type="trope"
+                     n="13">After they had gained the confidence of <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           natives</orgName></rs>, they brought down some of the treacherous
+                        <orgName type="nativeamericantribes" key="#natam_inuit">Innuits</orgName> of
+                           <rs><placeName type="state" key="#re_russam">the North</placeName></rs>,
+                     leaving them upon <rs><placeName type="island" key="#i_chi">the
+                           islands</placeName></rs> to trade with <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           natives</orgName></rs> to better advantage; <rs><persName type="group"
+                           key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                           >the Russians</persName></rs> making visits at stated times, to gather up
+                     the accumulations of their subordinates, and furnish them supplies for carrying
+                     on the barter. From tradition, we learn that these <rs><orgName
+                           type="nativeamericantribes" key="#natam_aleuts">Northern
+                           Indians</orgName></rs> finally massacred large numbers of <rs><orgName
+                           type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           unsuspecting natives</orgName></rs>, carrying away with them everything
+                     of value belonging to <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           inhabitants</orgName></rs>.</span></span></p>
+            <p>I formed one of a party, which some years ago spent several weeks on one of the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName> collecting
+               ethnological specimens for the <orgName type="institution" key="#mu_smithsonian"
+                  >Smithsonian Institution</orgName>. <span type="trope" n="11">We exhumed a large
+                  number of skeletons of <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        former inhabitants</orgName></rs>, and at one place found where a large
+                  number, probably two or three hundred, had been buried; they had evidently been
+                  thrown into heaps without system or ceremony, a majority of the skulls showing
+                  evidence of their owners having been killed by the driving of some blunt-pointed
+                  instrument through the temporal bone, or into the socket of the eye.</span> There
+               was also an almost entire absence of the usual deposits made with the dead bodies
+               when buried by their own people,&#8212;which would indicate either that they had been
+               thrown into a heap and left unburied and afterwards covered by the drifting sand, or
+               they had been hurriedly and unceremoniously buried by enemies, or by friends who had
+               not time nor opportunity to perform the usual ceremonies, nor to deposit the
+               individual belongings, as was their custom.</p>
+            <p>It may be doubted whether <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     original inhabitants</orgName></rs> of <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> selected the sites for their
+               habitations in consideration of their romantic positions or grand scenic
+               surroundings, but they certainly did occupy some of the most sightly positions to be
+               found in their territory, probably from the combined objects of being near the source
+               of food supply, water, fuel, and positions commanding a view of the surrounding
+               country, to guard against being surprised by an approaching enemy.</p>
+            <p>During the greater portion of the year no shelter was needed, or at most a brush
+               shelter was sufficient, although <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     natives</orgName></rs> built houses of the ribs of stranded whales. These were
+               set up on end in the ground in the form of a circle. The concave curves, being
+               towards the center, brought the upper ends together at the top, and the outside was
+               probably covered by stretching seal skins over the frame, making a substantial wind
+               and water proof building in the form of an old-fashioned bee-hive.</p>
+            <p>In the exploration before mentioned, I found the remains of buildings of this
+               character in which the portions of the bones imbedded in the soil were pre served
+               [sic] <emph>in situ</emph>, the portions above ground having disappeared, indicating
+               that the houses were ancient, the bones of the whale being very durable, as is shown
+               by the large numbers of such bones which were to be found in the neighborhood of the
+               rancherias, or villages, a long time subsequent to the disappearance of <rs><orgName
+                     type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     Indians</orgName></rs> from <rs><placeName type="island" key="#i_chi">the
+                     region</placeName></rs>. Bones of whales were also used in the burial places to
+               indicate the position of the bodies. <persName type="author" key="#psc">Mr. Paul
+                  Schumacher</persName> during his explorations of <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> and <rs><placeName type="region"
+                     key="#re_socalcoast">coast</placeName></rs> in <date when="1875">1875</date>,
+               sometimes mistook the remains of these houses for indications of burial places.</p>
+            <p><persName type="seaman" key="#bfe">Ferrelo</persName>, in writing of <emph>El Pueblo
+                  de los Canoas</emph> ("which is called <placeName type="city" key="#ci_ven"
+                  >Xucu</placeName>"), which <persName type="author" key="#gda">Professor
+                  Davidson</persName> locates as the <placeName type="city" key="#ci_ven">San
+                  Buenaventura</placeName> of today, says, "And they saw on the land a village of
+               Indians near the sea, and the houses large in the manner of those of <placeName
+                  type="country" key="#re_newsp">New Spain</placeName>" (Mexico).</p>
+            <p>Natural caves, of which large numbers exist around the shores of <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs>, were also used by
+               untold generations of <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                     >inhabitants</orgName></rs>. Some of these caves worn in the face of the
+               perpendicular basaltic cliffs, are accessible only from the ocean; others are
+               situated inland. During a recent visit to <rs><placeName type="island" key="#i_chi"
+                     >the islands</placeName></rs>, our party explored several of these aboriginal
+               strongholds, or cave dwellings, in some of which we found Kitchen-middings, or
+               Kjokken moddings, several feet in depth, among which we found shells, bones of birds,
+               seals, sea-otter, and fish, fragments of rope made of sea grass, and a few fragments
+               of stone implements. Some of the grass ropes were braided in three strands, others
+               twisted like ordinary rope used at the present day. The largest cave on <placeName
+                  type="island" key="#i_an">the Anacapas</placeName>, into which we rowed our boat,
+               consists of a chamber of perhaps four hundred feet in width, running back about one
+               hundred and fifty feet from the arched entrance, with a dome-shaped roof perhaps one
+               hundred feet in height, rising from the circumference in a regular curve to the
+               center, the floor being partly covered by water edged by a pebbly beach, forming a
+               grand hall which would accommodate a large number of people.</p>
+            <p>In passing along the bluffs in which [t]he caves are situated, they present a
+               panorama of unique and beautiful scenery where the richness of color and peculiarity
+               of outline are unequaled at any other point. The water for a great portion of the
+               distance is perfectly smooth, and so transparent that the flora and fauna of its
+               depths may be as easily studied as upon the surface; bright orange-colored fishes
+               darting in and out among the dark green seaweeds, the shells, corallines, and other
+               inhabitants of the deep, can there be seen in their native element.</p>
+            <p>At other points rock-shelters, or shallow caves, had been occupied, some of which are
+               some distance from the sea shore. Near the eastern end of <placeName type="island"
+                  key="#i_sr">Santa Rosa Island</placeName> there are quite a number of the
+               rock-shelters which project above the general surface. One isolated rock-shelter in
+               the side of a cañon at some distance from the sea, and at a height of some thirty or
+               forty feet from the bottom of the cañon or ravine, had its floor covered with refuse,
+               and a few human bones were found in the debris, possibly the remains of some of
+                     <rs><orgName type="nativeamericantribes" key="#natam_chumash">the former
+                     inhabitants</orgName></rs> who had sought shelter from their enemies or been
+               outcasts from their kind, had died, and left their bones unburied.</p>
+            <p>Human bones are often found buried in the spaces occupied by depressions which mark
+               the sites of these ancient dwellings, especially in instances where the rancherias or
+               former dwelling places occupied the only convenient spot in which the soil could be
+               easily excavated.</p>
+            <p>On the middle <placeName type="island" key="#i_an">Anacapa</placeName>, a short
+               distance from the only buildings upon <placeName type="island" key="#i_an">the
+                  island</placeName>, we found a rock-shelter or cave facing towards <placeName
+                  type="region" key="#re_mld">the main</placeName> land, which would afford shelter
+               from the storms of winter, which generally come from the southeast, south, or
+               southwest. We found an extensive deposit of refuse at this point, and also at other
+               places on <rs><placeName type="island" key="#i_an">this island</placeName></rs>;
+               although <persName type="author" key="#psc">Mr. Schumacher</persName> informs us that
+               he "passed <rs><placeName type="island" key="#i_an">this island</placeName></rs> from
+               all sides but could not discover any shell deposits."</p>
+            <p>The Ancient Mariners, or Navigators, remained on <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> from <date when="15420-11-23"
+                  >November 23rd, 1542</date>, until <date when="1543-01-19">January 19th,
+                  1543</date>, and reported <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     inhabitants</orgName></rs> as very poor. "They eat nothing but fish, they sleep
+               on the ground, all their business and employment is to fish; in each house they say
+               there are fifty souls, they live very swinishly, they go naked."</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> is about nine
+               miles in length and four miles in width, and contains about 322 square miles. The
+               water on <rs><placeName type="island" key="#i_sn">the island</placeName></rs> is
+               plentiful, but brackish; it was formerly densely populated, but is now a treeless
+               waste, the result of its having been denuded of its former natural growth of trees
+               and other vegetation by fire, and the pasturage of sheep.</p>
+            <p><span type="trope" n="11">We learn from tradition that <rs><orgName type="group"
+                        key="#natam_aleuts; #natam_kodiak">the Alaska Indians</orgName></rs> placed
+                  upon <rs><placeName type="island" key="#i_sn">this island</placeName></rs> to
+                  trade with <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >the natives</orgName></rs>, killed off the male inhabitants and took
+                  possession. Later, when they left <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, they abandoned the women and children.</span></p>
+            <p>In <date when="1835">1835</date>, some years after <rs><orgName type="group"
+                     key="#natam_aleuts; #natam_kodiak">the Alaskans</orgName></rs> had departed,
+                     <rs><persName type="group" key="#aji; #ndur; #misfats">the
+                  padres</persName></rs> sent <rs><name type="ship" key="#sh_peoresnada">a
+                     vessel</name></rs> to remove the women and children from <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>. <span type="trope" n="9"
+                  >This was accomplished with the exception of <rs><persName type="nativeamerican"
+                        key="#lw">one woman</persName></rs> who jumped into the surf and swam ashore
+                  to hunt for <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs>, which had accidentally been left behind.</span>
+               <span type="trope" n="8">The next we hear of <rs><persName type="nativeamerican"
+                        key="#lw">the lone woman</persName></rs> was in <date when="1850"
+                     >1850</date>, after a lapse of fifteen years, when <persName
+                     type="frontiersman" key="#gni">Captain Nidever</persName> of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> visited <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, and discovered traces
+                  of recent habitation, but it was not until <date when="1853">1853</date> that
+                        <rs><persName type="nativeamerican" key="#lw">the female Robinson
+                        Crusoe</persName></rs> was found and removed to <placeName type="region"
+                     key="#re_mld">the main land</placeName>, where, from the sudden and complete
+                  change of manner of living, she soon died.</span>
+               <span type="trope" n="6">She had outlived <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">her people</orgName></rs>, and found no one able
+                  to converse with her in her almost forgotten language. It is supposed she was the
+                  last of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        race</orgName></rs>.</span>
+               <rs><persName type="nativeamerican" key="#lwchild">Her child</persName></rs>, for
+               whom she returned, is said to have been killed by dogs, which were abundant upon
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> at the
+               time of its occupation by <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs>. These dogs have since
+               become extinct.</p>
+            <p><span type="trope" n="6">The child's dress, together with other relics found with
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>,
+                  including needles of bone, clothing made of skins, and the like, were deposited in
+                     <orgName type="museumn" key="#mu_vaticanmuseum">the Vatican</orgName> at
+                     <placeName type="city" key="#ci_rom">Rome</placeName>, but the incidents
+                  connected with her stay upon, and removal from, <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, will soon be forgotten, although
+                  the refuse heaps of the thousands of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">its former inhabitants</orgName></rs> will
+                  remain for ages as the only evidence of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">a lost people</orgName></rs>.</span></p>
+            <p>Who can realize the utter and wretched loneliness of <rs><persName
+                     type="nativeamerican" key="#lw">the poor creature</persName></rs> who spent
+                     <rs><date notBefore="1835" notAfter="1853" cert="high">eighteen
+                  years</date></rs> among the deserted homes and hearths of generations of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     ancestors</orgName></rs>, whose bleaching bones were exposed by the action of
+               the prevailing winds, until the surface of the ground was whitened by their
+               numbers?</p>
+            <p>Some of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>
+               nearest to <placeName type="region" key="#re_mld">the mainland</placeName> are
+               occupied by the white race, who have taken away or destroyed nearly all the
+               destructible evidences of its former occupation. The majority of the smaller
+                     <rs><placeName type="island" key="#i_chi">islands</placeName></rs> have been
+               used as pasture, and the only human occupants are the nomadic sheep shearers, who
+               remain only during the shearing seasons; an occasional visit from a sealing party, or
+               fishermen, and of late years by parties of Chinamen, who have collected immense
+               quantities of abalones (<emph>Haliotis</emph>), the soft parts of which are dried and
+               shipped to <placeName type="country" key="#co_china">China</placeName>, and the
+               shells sold by the ton for the manufacture of buttons and jewelry.</p>
+            <p>The whalers and seal hunters have plied their vocations so persistently that the
+               large marine animals which supplied an important part of the wants of <rs><orgName
+                     type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     aborigines</orgName></rs>, have been almost exterminated, and the abalones,
+               which furnished <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     natives</orgName></rs> with a permanent food supply, have been shipped to far
+               off <placeName type="region" key="#re_asia">Asia</placeName> to serve as food for the
+               over-populated dominions of <rs><orgName type="government" key="#gov_china">the
+                     Oriental Empire</orgName></rs>.</p>
+            <p>The deserted homes of <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the lost
+                     people</orgName></rs> remain in almost unbroken solitude, the silence broken
+               only by the moaning of the winds, the muffled rolling of the ever moving surf, the
+               harsh discordant screaming of the sea birds, and the sonorous deep-toned barking of
+               seals and sea lions.</p>
+            <p><emph><persName type="author" key="#lya">Lorenzo Gordin Yates</persName>, F. L.
+                  S.</emph></p>
+            <p><emph>Corresponding Member <orgName type="organization" key="#anthrosociety"
+                     >Anthropological Society</orgName>.</emph></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#adventuremag">Adventure
+                     Magazine</orgName></title>
+               <publisher/>
+               <editor><persName type="author" key="#apr">Proctor, Albert A.</persName></editor>
+               <date when="1930-02-01"/>
+               <pubPlace><placeName type="city" key="#ci_ny">New York</placeName>, <placeName
+                     type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Woodward1930">A Female Robinson Crusoe</title>
+                  <biblScope unit="page" from="140" to="141"/>
+                  <author><persName type="author" key="#awo">Woodward, Arthur</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A FEMALE ROBINSON
+                        CRUSOE</persName></rs></title></head>
+            <byline>By <persName type="author" key="#awo">ARTHUR WOODWARD</persName></byline>
+            <p><span type="trope" n="8"><persName type="trapper" key="#ase">ALEXANDER
+                     SELKIRK</persName> had his <persName type="author" key="#dde">DeFoe</persName>
+                  who made much over the short sojourn of <rs><persName type="trapper" key="#ase"
+                        >the Scotsman</persName></rs> on <placeName type="island" key="#i_jf">Juan
+                     Fernandez Island</placeName>, but in reality <persName type="trapper"
+                     key="#ase">Selkirk</persName> was but <persName type="fictional" key="#rcr">a
+                     transient Crusoe</persName> compared to <rs><persName type="nativeamerican"
+                        key="#lw">the Indian woman</persName></rs> who was abandoned, alone, on the
+                  bleak island of <placeName type="island" key="#i_sn">San Nicolas</placeName> off
+                  the <placeName type="region" key="#re_socalcoast">Southern California
+                     coast</placeName>, for <date notBefore="1835" notAfter="1853">eighteen
+                     years</date>.</span></p>
+            <p>About <date when="1810">1810</date> or <date when="1811">1811</date>
+               <rs><persName type="group" key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts"
+                     >Russian fur hunters</persName></rs> cruised into the <placeName type="region"
+                  key="#re_socalcoast">Southern California waters</placeName> seeking new hunting
+               grounds. The greatly prized sea otter then existed in great numbers in the foam
+               churned seas that lashed the <placeName type="island" key="#i_chi">Santa Barbara
+                  Channel Islands</placeName>. <span type="trope" n="11"><span type="trope" n="13"
+                     >Thither <rs><persName type="group" key="#1814huntingparty; #rfurcompany; #iba"
+                           >the Russians</persName></rs> and their imported <rs><orgName
+                           type="nativeamericantribes" key="#natam_aleuts">Aleutian Island
+                           hunters</orgName></rs> repaired, and slaughtered not only the fur bearing
+                     animals but the human inhabitants as well.</span></span></p>
+            <p><span type="trope" n="11"><span type="trope" n="13">The tiny, fog bound island of
+                        <placeName type="island" key="#i_sn">San Nicolas</placeName>, or Ghalas-at,
+                     as it was termed in the Chumash language, was the spot <rs><persName
+                           type="group" key="#1841huntingparty; #rfurcompany; #natam_aleuts">the
+                           savage northern raiders</persName></rs> visited more often than any
+                     other.</span></span> The numerous clashes took rapid toll of <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">the simple
+                  islanders</orgName> who were left after <rs><orgName type="missionfathers"
+                     key="#misfats">the mission padres</orgName></rs> had drafted numbers of them to
+               work in <rs><orgName type="mission" key="#mi_mainlandmissions">the mainland
+                     missions</orgName></rs> at <placeName type="city" key="#mi_sb">Santa
+                  Barbara</placeName>, <placeName type="city" key="#mi_ventura">Ventura</placeName>,
+                  <placeName type="city" key="#mi_losangeles">Fernando</placeName> and <placeName
+                  type="city" key="#mi_sgabriel">San Gabriel</placeName>.</p>
+            <p>By <date when="1835">1835</date> the <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">San Nicoleños</orgName> were reduced to but
+                     <rs><persName type="group" key="#bhagroup">a handful</persName></rs>, and
+                     <rs><persName type="group" key="#aji; #ndur; #misfats">the mission
+                     authorities</persName></rs>, seeking to save the lives of these pitiful few,
+               sent <name type="ship" key="#sh_peoresnada">a boat</name> to <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> to bring the remnant of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     tribe</orgName></rs> off from <rs><placeName type="island" key="#i_sn">their
+                     isolated homeland</placeName></rs>.</p>
+            <p>Now, it so happens that good landing places are few and far between on almost any of
+               the <placeName type="island" key="#i_chi">Channel Islands</placeName> and <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> is one of the worst of the lot.
+               Consequently <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >the rescuers</persName></rs>, working in a heavy sea, were under a severe
+               handicap. However, in spite of the difficulties, they managed to get the last
+               boatload on board when suddenly <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs> screamed.</p>
+            <p><span type="trope" n="9">To the horror of <rs><persName type="group"
+                        key="#bhagroup; #1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >the onlookers</persName></rs>
+                  <rs><persName type="nativeamerican" key="#lw">one of the
+                  islanders</persName></rs>, <rs><persName type="nativeamerican" key="#lw">a young
+                        matron</persName></rs>, screamed fearfully and plunged overboard into the
+                  seething tide race and swam back to shore.</span> It developed that in the
+               confusion attending the packing and moving, <rs><persName type="nativeamerican"
+                     key="#lw">the woman in question</persName></rs> had forgotten <rs><persName
+                     type="nativeamerican" key="#lwchild">her few months old baby</persName></rs>,
+               leaving it asleep in her rude hut.</p>
+            <p>Night was racing down from the mountains of <rs><placeName type="region"
+                     key="#re_mld">the mainland</placeName></rs>, and <rs><persName type="group"
+                     key="#chu; #isp">the captain</persName></rs> of <rs><name type="ship"
+                     key="#sh_peoresnada">the ship</name></rs> did not dare launch a small boat in
+               such uncertain waters. So he put in for shore, leaving <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> and <rs><persName
+                     type="nativeamerican" key="#lwchild">her child</persName></rs> alone upon
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, intending
+               to return within the week. The next day a terrific storm arose, and for many days it
+               was impossible to get near <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>.</p>
+            <p>The days mounted into weeks, the weeks into months, and the months into years.
+                     <rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> was
+               practically forgotten. It was argued that she was probably dead anyhow, and what was
+               one Indian more or less?</p>
+            <p>The years drifted by and the Americans arrived to take over <placeName type="region"
+                  key="#re_local">California</placeName>. The newcomers hunted for sea otter and
+               other marine animals in the channel waters. <span type="trope" n="5">Gradually a
+                  story spread that <placeName type="island" key="#i_sn">San Nicolas</placeName> was
+                  haunted. Hunters putting into <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for water spoke of seeing the wraithlike figure of a
+                  woman high up on the rocky headlands or running ghost-like along the beach in the
+                  moonlight.</span> Then some one recalled the story of <rs><persName
+                     type="nativeamerican" key="#lw">the lost woman</persName></rs>.</p>
+            <p>Nearly <rs><date notBefore="1835" notAfter="1853">eighteen years</date></rs> had
+               passed since the <persName type="group" key="#bhagroup">San Nicoleños</persName> had
+               been removed and scattered among <rs><orgName type="missions"
+                     key="#mi_mainlandmissions">the missions</orgName></rs>. In that time
+                     <rs><orgName type="missions" key="#mi_mainlandmissions">the
+                  missions</orgName></rs> themselves had suffered reverses and were rapidly becoming
+               historical landmarks. Surely <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> could not be alive. It must be her ghost the hunters had
+               seen.</p>
+            <p>But there were a few hard heads who did not believe in ghosts. <rs><persName
+                     type="group" key="#gni; #cdi; #col">These men</persName></rs>, residents of
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, chartered <rs><name
+                     type="ship" key="#sh_nidever">a small vessel</name></rs> and put out to
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, intending
+               to search it thoroughly. Within a few days they were rewarded with the sight of
+               slender, naked footprints on a patch of sandy beach, tangible evidence that
+                     <rs><persName type="nativeamerican" key="#lw">the Indian
+                  castaway</persName></rs> was alive after <rs><date notBefore="1835"
+                     notAfter="1853">eighteen years</date></rs> isolation.</p>
+            <p>Then one day they found her, crouched in her rude hut of whale ribs covered with rush
+               matting, surrounded by her primitive tools and utensils of basketry and steatite. At
+               first she was greatly terrified, but soon overcame her fear, and when <rs><persName
+                     type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> told her, as best they might, in a rude sort of sign
+               language that they had come to release her from her island bondage, <rs><persName
+                     type="nativeamerican" key="#lw">the poor creature</persName></rs> became quite
+               animated.</p>
+            <p><span type="trope" n="10">She chattered excitedly, trying to tell them of her
+                  experiences, and by dint of signs she made them understand that <rs><persName
+                        type="nativeamerican" key="#lwchild">her baby</persName></rs> had died
+                  shortly after her abandonment. She had existed during the remainder of the years
+                  as <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        people</orgName></rs> had done before her, catching fish, killing birds and
+                  seals, making garments of their skins and tools of their bones.</span> She took
+               with her her robe of bird skins neatly sewed together with sinew, a patched basket or
+               two, some bone awls and other primitive trinkets.</p>
+            <p><span type="trope" n="8">Upon the return of <rs><name type="ship" key="#sh_nidever"
+                        >the boat</name></rs> to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> with <rs><persName type="nativeamerican" key="#lw">the
+                        female Robinson Crusoe</persName></rs> every one tried to make <rs><persName
+                        type="nativeamerican" key="#lw">the bewildered woman</persName></rs>
+                  comfortable, but whether it was homesickness, age, or change of diet, in spite of
+                  all they could do for her she wasted away and died within a month or so after her
+                  release from exile.</span> Some of her effects went to <placeName type="city"
+                  key="#ci_rom">Rome</placeName>, and the last traceable piece of her belongings
+               perished in the <placeName type="city" key="#ci_sf">San Francisco</placeName> fire in
+                  <date when="1906">1906</date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

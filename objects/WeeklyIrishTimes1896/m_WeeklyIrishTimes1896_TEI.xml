@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#weeklyirishtimes">Weekly
+                     Irish Times</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <date when="1896-12-12"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#WeeklyIrishTimes1896">Isles of Mystery</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <hi rend="bold"><placeName type="island" key="#i_chi">ISLES OF
+                     MYSTERY</placeName></hi></title></head>
+            <div n="1">
+               <p>THE <title type="article" key="#NewYorkHerald1896"><emph>New York
+                     Herald</emph></title> publishes the following remarkable account of the
+                  discovery of mementoes of a dead past and <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">an extinct race</orgName></rs> in <placeName
+                     type="region" key="#re_pacific">the Pacific</placeName>:&#8212;The deserted
+                     <placeName type="island" key="#i_chi">Channel islands</placeName> of <placeName
+                     type="region" key="#re_pacific">the Pacific</placeName>, which lie some twenty
+                  miles off the southern coast of <placeName type="state" key="#st_cal"
+                     >California</placeName>, have at last undergone a thorough exploration by
+                     <persName type="author" key="#cho">Professor Charles Frederick
+                     Holden</persName>, with the result that much of absorbing interest regarding
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        extinct inhabitants</orgName></rs> of <rs><placeName type="region"
+                        key="#i_chi">these lovely isles</placeName></rs> has been discovered. He
+                  visited <placeName type="island" key="#i_sn">San Nicolas</placeName>, <placeName
+                     type="island" key="#i_scatalina">Santa Catalina</placeName>, and <placeName
+                     type="island" key="#i_scl">San Clemente</placeName>, and made many excavations
+                  and many rich finds.</p>
+               <p><span type="trope" n="7">Giants once lived in the exquisitely lovely <placeName
+                        type="island" key="#i_chi">Channel Islands</placeName>, for many skeletons
+                     have been found there more than seven feet high.</span>
+                  <span type="trope" n="11">Tradition has it that <rs><orgName type="group"
+                           key="#rfurcompany; #natam_aleuts">the warlike tribes</orgName></rs> of
+                        <placeName type="island" key="#i_aleutian">the Aleutian Islands</placeName>
+                     came down in boats more than a century ago and practically exterminated
+                           <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           Channel Islanders</orgName></rs>. Certain is it that most of <rs><orgName
+                           type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           unhappy wretches</orgName></rs> met death by violence, for nearly all the
+                     skulls discovered are crushed by blows from blunt instruments. The club is the
+                     weapon of <rs><orgName type="nativeamericantribes" key="#natam_aleuts">the
+                           Aleutian savage</orgName></rs>, and this seems to fit the
+                     tradition.</span></p>
+               <p>A few escaped, and up to about sixty years ago <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the remnants of the
+                        tribe</orgName></rs> were still living on <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>. In <date when="1835">1835</date>
+                  <persName type="group" key="#aji; #ndur; #misfats">the Franciscans</persName> of
+                     <orgName type="mission" key="#mi_santabarbaramission">the Santa Barbara
+                     mission</orgName>, learning that there were but <persName type="group"
+                     key="#bhagroup">sixteen of the strange Indian race</persName> then living,
+                  determined to rescue them. They went over in <rs><name type="ship"
+                        key="#sh_peoresnada">a sloop</name></rs> and succeeded in getting all on
+                  board.</p>
+               <p>At the last moment <rs><persName type="nativeamerican" key="#lw">an Indian
+                        woman</persName></rs> returned for <rs><persName type="nativeamerican"
+                        key="#lwchild">her child</persName></rs>, and, one of the frequent storms of
+                     <placeName type="island" key="#i_chi">the Channel Islands</placeName> springing
+                  up <rs><name type="ship" key="#sh_peoresnada">the sloop</name></rs> was driven
+                  away. <span type="trope" n="6">It went on the rocks of <placeName type="region"
+                        key="#re_pc">Point Conception</placeName> and all on board were
+                  lost.</span></p>
+               <p><span type="trope" n="6">So only <rs><persName type="nativeamerican" key="#lw"
+                           >this woman</persName></rs> was left, and she was soon
+                  forgotten.</span></p>
+               <p>In <date when="1851">1851</date>, however, <persName type="frontiersman"
+                     key="#gni">Captain George Nidever</persName> visited <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> to hunt sea otter, and
+                  was amazed to find human footprints in the sand. <rs><date when="1851">Two years
+                        later</date></rs> he returned to investigate the matter, and succeeded in
+                  capturing <rs><persName type="nativeamerican" key="#lw">the remaining
+                        Indian</persName></rs>, now an old woman.</p>
+               <p>She was dressed in birdskins, and was engaged in scraping blubber from a seal.
+                  They took her to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                  where she lived for several years, and was known far and wide as <rs><persName
+                        type="nativeamerican" key="#lw">"the lone woman from San
+                        Nicolas."</persName></rs> But she never learned enough English to be able to
+                  tell anything of the life and the tradition of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her strange
+                        race</orgName></rs>.</p>
+               <p><persName type="author" key="#cho">Professor Holden</persName>, in his exploration
+                  just concluded, found many large mounds in <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>, one three hundred feet long by fifty wide, composed
+                  of abalone shells, which were brought from the sea two miles distant, thus showing
+                  evidence of a large population.</p>
+            </div>
+            <div n="2">
+               <head><title type="section">TELLTALE DISCOVERIES.</title></head>
+               <p>He found objects of stone, bone, and shell piled in heaps. There were pendants,
+                  rings, beads, and curious objects in pearl among them, proving that <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the extinct
+                        people</orgName></rs> loved ornamentation. That they played games was shown
+                  by the finding of perforated and oval stones, and many small and peculiarly-shaped
+                  instruments. Some of the mortars picked up were very high and narrow, others so
+                  heavy there was great difficulty in rolling them down to the ship. One showed
+                  evidence of ornamentation with abalone.</p>
+               <p>Sculptured forms of miniature sea lions and whales carved from serpentine prove a
+                  love of art in <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the aborigines</orgName></rs>. According to
+                     <persName type="author" key="#cho">Prof. Holden</persName>
+                  <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        islanders</orgName></rs> depended for food on abalone, fish and possibly
+                  roots. Consequently they belonged to an advanced period of the stone age.</p>
+               <p><placeName type="island" key="#i_scl">San Clemente</placeName>, twenty miles long
+                  by three wide, <persName type="author" key="#cho">Prof. Holden</persName> found
+                  contained much evidence of ancient habitation. Possibly three hundred years ago it
+                  had a large population. One square mile of its area was covered with skeletons,
+                  shells, and ancient implements and mortars, some ones weighing one hundred pounds.
+                     <placeName type="island" key="#i_scatalina">Santa Catalina</placeName> is a
+                  high mountain ridge, the only landing places being the mouths of canyons.</p>
+               <p>Up the canyons <persName type="author" key="#cho">Prof. Holden</persName> located
+                  fifty sites which had been occupied by <rs><orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">aborigines</orgName></rs>. Under a small summer
+                  resort hotel recently built there he found implements of all kinds. On <placeName
+                     type="island" key="#i_scl">San Clemente</placeName> numerous bone implements
+                  were unearthed, among them needles and awls for punching shells. Several mortars
+                  found there on <placeName type="island" key="#i_scatalina">San
+                     Catalina</placeName> show an aesthetic taste among <rs><orgName
+                        type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                        people</orgName></rs>, for they are highly decorated with mosaic of abalone.
+                  A sword handle was decorated with a plate made of abalone.</p>
+               <p><persName type="author" key="#cho">Prof. Holden</persName> declares that
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> were
+                  inhabited for many centuries, for he found heaps of abalone shell on the
+                  sea-shore, covered with twenty feet of a deposit, which he calculates required
+                  centuries for its formation.</p>
+               <p><rs><placeName type="island" key="#i_chi">The islands</placeName></rs> have been a
+                  mine of archaeologic treasure ever since <date when="1872">1872</date>, when the
+                  first systematic exploration was made by <persName type="author" key="#wha">Mr. W.
+                     G. W. Harford</persName>, of the <orgName key="#uscoastsurvey">United States
+                     Coast Survey</orgName>, who subsequently exhibited his small but valuable
+                  collection to admiring scientific friends in the East. <persName type="author"
+                     key="#whd">Dr. W. H. Dall</persName>, of <orgName type="museum"
+                     key="#mu_nationalmuseum">the National Museum</orgName>, paid a visit to
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> in
+                        <rs><date when="1873">the following year</date></rs>, and also secured some
+                  wonderfully interesting specimens of primitive art. In <date when="1875"
+                     >1875</date>
+                  <placeName type="museum" key="#mu_smithsonian">the Smithsonian
+                     Institute</placeName> sent out a party of scientific men, with <persName
+                     type="author" key="#psc">Mr. Paul Schumacher</persName> in charge, and these
+                  gentlemen in their explorations discovered several very remarkable and extensive
+                  burial grounds, as well as large ancient village sites, buried deep under the
+                  castaway shells of edible mollusks.</p>
+            </div>
+            <div n="3">
+               <head><title type="section">TELLS OF A DEAD PAST.</title></head>
+               <p>From the graveyards were unearthed a large number of skeletons, each surrounded by
+                  marvellous examples of the products and handiwork of the long past dead.</p>
+               <p><span type="trope" n="7">The graves, as described by these investigators and
+                     others, make an interesting story of themselves. The skeletons lay crowded
+                     together in every conceivable position, sometimes super-imposed three or four
+                     deep, those below, forgotten and unmarked, ruthlessly disturbed to make room
+                     for the last interment. Some of the graves had rude boxes constructed of the
+                     huge flat bones of whales, in which the dead were deposited. The early sea
+                     captains related grewsome tales of <rs><placeName type="island" key="#i_chi"
+                           >the islands</placeName></rs>, where, within yawning skeletons of whales,
+                     lay the grinning and bleached bones of men, exposed to view by the ceaseless
+                     shifting of the sands.</span></p>
+               <p>In the department of prehistoric archæology of <orgName type="museum"
+                     key="#mu_smithsonian">the Smithsonian Institution</orgName> are to be found
+                  collected together all the results of the above expedition and that of a number of
+                  others, and the aggregate produces a startling revelation as to the possibilities
+                  of <rs><placeName type="island" key="#i_chi">those faraway
+                     islands</placeName></rs> in valuable ethnologic finds.</p>
+               <p><span type="trope" n="5">One type of the remarkable finds made in the graves is
+                     the gigantic soapstone, or steatite, pots, called ollas in <placeName
+                        type="region" key="#re_sw">the South-west</placeName>, which stand
+                     absolutely alone as monuments to the cleverness of <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           early inhabitants</orgName></rs> of <rs><placeName type="island"
+                           key="#i_chi">these islands</placeName></rs>. Some of them are fully two
+                     and one-half feet in diameter, almost globular in form, with very thin walls,
+                     and carefully polished over their entire inner and outer surfaces.</span></p>
+               <p><span type="trope" n="5">It is astounding how these ancient peoples carved and
+                     modelled such symmetrical and fragile vases from this material, but,
+                     nevertheless, fully three-fourths of the vessels used for cooking and
+                     ceremonial purposes were adriotly fashioned from it.</span> For most of the
+                  pipes, gorgets, mortars, animal figures, pendants, net sinkers and the like the
+                  same stone was utilized.</p>
+               <p>A shudderingly facetious use for some of these colossal stone jars was as a
+                  headgear for the dead. Numbers of skeletons were unearthed with skulls completely
+                  encased in the orifices of the vases.</p>
+               <p>Beautiful haliotis shells, with their inner walls plated with pearly and shining
+                  nacre, were quite common finds with the burials, and some of them have been found
+                  partially filled with bitumen, a substance which seems to have had a very wide
+                  range of utility among <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        natives</orgName></rs> as a pitch for caulking the wooden boats, as paint
+                  for decorating the body and earthenware vases, as handles for brushes, and as
+                  cement for holding in place arrow and spear points.</p>
+            </div>
+            <div n="4" type="section">
+               <head><title type="section">BEADS AND ORNAMENTS.</title></head>
+               <p><span type="trope" n="11">An intensely interesting insight into the foibles and
+                     vain weakness for personal adornment among <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                           long past people</orgName></rs> is exemplified in a large and varied
+                     collection of shell beads, cut from the central shaft of big conch shells;
+                     shell disks, some slightly engraved with designs; shell plates, carved and
+                     pierced for suspension, and, the most interesting of all, the paint cups, of
+                     shell and steatite, half filled with bright red ochres and black shining
+                     asphalt which were used in those ages, dimmed by time, to hideously decorate
+                     the faces and body of the shy and coy maiden, perhaps as well as that of her
+                     sinister and warlike lover.</span></p>
+               <p>Living upon an island home, <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        inhabitants</orgName></rs> necessarily obtained much of their sustenance
+                  from the surrounding waters; and, in evidence of these piscatorial proclivities
+                  many remnants of carefully constructed canoes have been unearthed from time to
+                  time by the various parties who have delved in the burial places, and it appears
+                  that many of these canoes became the last resting-places or sepulchres for the
+                  dead.</p>
+               <p>Stone net sinkers have been found in such profusion as to leave no doubt as to the
+                  persistent avocation of the fishermen, and in <orgName type="museum"
+                     key="#mu_smithsonian">the Smithsonian collection</orgName> appear numbers of
+                  finely-cut shellfish hooks, carved out of the sea shells in almost complete
+                  semicircles, with sharp barbs, which would do credit to some of more modern
+                  manufacture.</p>
+               <p>Half-a-dozen hair brushes, examples of which are still to be seen in use among a
+                  few south-western tribes, were unearthed from graves. They are made from the fibre
+                  of the soap plant, or a species of yucca, bunched together in the semblance of a
+                  miniature whisk broom, the top or handle formed by heavily coating one end for
+                  several inches with bitumen.</p>
+               <p>With such beautiful collections already gained from this garden spot for
+                  archaeologists, it is apparent that a vast amount of the richest and most valuable
+                  objective evidence obtainable in <placeName type="country" key="#co_usa">the
+                     United States</placeName> must lie waiting for the hands of the enthusiastic
+                  scientist. <persName type="author" key="#cho">Prof. Holden</persName> is the
+                  fortunate scientist who has availed of the rich field that has so long awaited a
+                  patient investigator. <span type="trope" n="5">He has brought back with him a
+                     wonderland of curiosities, which he is now engaged in studying.</span></p>
+            </div>
+            <div n="5" type="section">
+               <head><title type="section">A MELANCHOLY SPOT.</title></head>
+               <p><placeName type="island" key="#i_scl">San Clemente</placeName> is the only one of
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> that
+                  is at all visited. A few sportsmen go there yearly for the magnificent bird
+                  shooting and unsurpassed sea-fishing. The others are rarely ever approached.
+                     <placeName type="island" key="#i_sn">San Nicolas</placeName> is the most
+                  interesting of them all. It is partly covered with drifting sand now, but its
+                  grassy and wooded portions are the home of thousands of wild sheep. Hundreds of
+                  immense white pelicans can be seen at almost any season promenading sedately on
+                  the narrow beach at <placeName type="region" key="#re_coralharbor">Coral
+                     Harbour</placeName>, the only safe approach to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>. There is one habitation on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, a
+                  dilapidated shed, built by the Chinese, who come at intervals to gather the
+                  exquisitely lovely shells on the shore or to shear the wild sheep.</p>
+               <p>The shell mounds, of which there are hundreds, are made up of astonishing
+                  varieties of mollusks, the bones of innumerable fish of all species found in the
+                  neighboring waters and the bones of seals, sea elephants, whales, otters, birds,
+                  and foxes. There must have been a time when <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> was luxuriantly forested, for very
+                  many of the animals whose bones are found there could not live on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> in its present
+                  desolate condition.</p>
+               <p><span type="trope" n="6">It is a melancholy spot for the visitor, for every acre
+                     of it has its tale or tales of an extinct civilization.</span>
+                  <span type="trope" n="3">That <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the people</orgName></rs> that once enlivened
+                     its shores and cliffs were peaceful is shown by the absence of weapons of
+                     offence. The weapons found there are those used in the household and the
+                     chase.</span></p>
+               <p><span type="trope" n="3"><rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">These gentle savages</orgName></rs> are
+                     fishermen by choice, and they must have been sturdy and persistent whalers,
+                     judging by the myriad remains of these deep sea leviathans that <persName
+                        type="author" key="#cho">Professor Holden</persName> found upon
+                           <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs>.</span> The great bones of whales were built into
+                  rudely artistic structures so compactly that they have withstood the ravages of
+                  storm and sand for centuries.</p>
+               <p><span type="trope" n="6">The only actual record of <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">this interesting
+                           savage race</orgName></rs> that we have previous to the disastrous
+                     attempt by <rs><orgName type="missionfathers" key="#misfats">the
+                           missionaries</orgName></rs> to remove the remnants of it, as told above,
+                     is the log of <persName type="seaman" key="#jca">Captain Juan Rodriquez
+                        Cabrillo</persName>, the Portuguese navigator, who sailed up <rs><placeName
+                           type="region" key="#re_calcoast">the Californian coast</placeName></rs>
+                     in <date when="1542">1542</date>. He stopped a day or two at each of the
+                        <placeName type="island" key="#i_chi">Channel Islands</placeName>, and
+                     reported that they were inhabited by a "<rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                           >vigorous and lusty race of natives</orgName></rs>, who thronged the
+                     shores of the bays and headlands," and seemed mystified by <rs><name
+                           type="ship" key="#sh_salvador; #sh_lavictoria">the ship</name></rs>.
+                           <rs><placeName type="island" key="#i_chi">The islands</placeName></rs>
+                     remain, but <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           natives</orgName></rs> are no more.</span></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

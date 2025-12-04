@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#wwisc">Weekly
+                     Wisconsin</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">7</biblScope>
+               <biblScope unit="issue">26</biblScope>
+               <date when="1853-11-16"/>
+               <pubPlace><placeName type="city" key="#ci_milw">Milwaukee</placeName>, <placeName
+                     type="state" key="#st_wi">Wisconsin</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#WeeklyWisconsin1853">A Female Robinson Crusoe</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A FEMALE ROBINSON
+                        CRUSOE</persName></rs>.</title></head>
+            <p>&#8212;The <title type="article" key="#Goliah1853_DPT">San Francisco
+                  Transcript</title>, of <date when="1853-09-15">Sept. 15th</date>, states that
+               several leagues off <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, in
+               the Pacific, is <rs><placeName type="island" key="#i_chi">a small cluster of
+                     Islands</placeName></rs>, once inhabited by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                     >Indians</orgName></rs>[.] <span type="trope" n="3">One of
+                     these&#8212;<placeName type="island" key="#i_sn">San
+                  Nicholas</placeName>&#8212;sixty miles from <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, was visited in <date when="1825">1825</date>, by
+                        <rs><name type="ship" key="#sh_ilmena">a Russian ship</name></rs>, and in a
+                  dispute <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the sailors</persName></rs> killed all the men but two, and carried off all
+                  the women.</span> Some ten years afterward, the number of inhabitants had
+               increased to seventeen, when they were all brought away by <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >some Americans</persName></rs> who visited <rs><placeName type="island"
+                     key="#i_sn">the Island</placeName></rs>[.] <rs><persName type="nativeamerican"
+                     key="#lw">One squaw</persName></rs> missed <rs><persName type="nativeamerican"
+                     key="#lwchild">her child</persName></rs> when on board, and returned to find
+               it. Meanwhile a gale sprang up, and <rs><name type="ship" key="#sh_peoresnada">the
+                     vessel</name></rs> left.</p>
+            <p>At the beginning of the present month, an American, <persName type="frontiersman"
+                  key="#gni">George Niedever</persName>, who is now and has long been a resident of
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, was engaged in
+               otter hunting off the coast, and touched at <placeName type="island" key="#i_sn">San
+                  Nicholas</placeName>. While travelling along the beach, to his great astonishment,
+               he suddenly came upon <rs><persName type="nativeamerican" key="#lw">this
+                     woman</persName></rs>. <span type="trope" n="1">She was engaged in cleaning or
+                  curing bird skins, which she sewed together to serve as a covering, and in a
+                  garment made of which she was dressed. She did not manifest much surprise at
+                  seeing <persName type="frontiersman" key="#gni">Mr Niedever</persName>, but
+                  readily assented to his proposition to leave <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> and accompany him to <rs><name
+                        type="ship" key="#sh_nidever">his schooner</name></rs>. She immediately set
+                  about making preparations for her departure.</span></p>
+            <p>She is now living with <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">the family of Mr.
+                     Niedever</persName></rs>, in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, where she has all her wants administered to[.] <span
+                  type="trope" n="3">She is about sixty years old, and is as simple as a child, and
+                  quite free from deception and guile.</span>
+               <rs><persName type="missionfather" key="#jru">One of the reverend
+                     clergymen</persName></rs> of the <orgName type="mission"
+                  key="#mi_santabarbaramission">mission to Santa Barbara</orgName>, accompanied by
+                     <rs><persName type="author" key="#gol">the writer</persName></rs>, went to see
+               her as soon as he heard of her arrival. He brought with him <rs><persName
+                     type="nativeameican" key="#natamwoman1">one of the Mission
+                  Indians</persName></rs>, who could speak the language of one or two tribes of the
+               California Indians. She was greatly delighted to see this Indian, but neither of them
+               could understand a word of what the other said[.] She had a distinct articulation for
+               almost every object she saw, but no one understands her except when she uses signs
+               and gestures. She is very contented, and takes great delight in showing to her
+               visitors as well as she can, how she dug the roots, caught the fish, manufactured her
+               garments, and provided generally for her sustenance.</p>
+            <p>Among the articles which she brought along with her from <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs>, were several needles, with which she
+               sewed the bird's skins together. These needles are beautifully made, of fish bones,
+               and show a superior degree of ingenuity. The thread which she used was the thin
+               fibres of the sinews of a whale. She had also several fishing hooks, made of old
+               nails that she probably found in some boards which she picked up on the shore. These
+               nails were well bent and sharpened, and attached to lines made of fibres of whale
+               sinews, beautifully twisted together. She had also among her moveables a soft clayey
+               substance like brick, but whether she used this for dressing the bird's skins, or for
+               simply giving a red color to her garments, no one could well make out.&#8212;She had
+               a knife also about an inch long, which seems to have been a piece of an iron hoop. It
+               is set in a wooden handle. She brought with her some seal meat, but how she could eat
+               this seem incomprehensible. Ten or twenty yards is about as near as the olfactory
+               organs would permit any of our party to go to it. She had a quantity of roots which
+               are generally known here by the Indian name of <emph>cacometes</emph>[.] In taste
+               they are like the kernel of an unripe nut.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
