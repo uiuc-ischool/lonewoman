@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#newtownregister">Newtown
+                     Register</orgName></title>
+               <publisher/>
+               <editor/><biblScope type="volume">7</biblScope><biblScope unit="issue">12</biblScope>
+               <date when="1879-05-22"/>
+               <pubPlace><placeName type="city" key="#ci_newtown">Newtown</placeName>, <placeName
+                     type="state" key="#st_ny">New York</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheNewtownRegister1879">A Female Crusoe</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A FEMALE CRUSOE</title></head>
+            <p><span type="trope" n="8">The <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName> journals contain an account of what they call a
+                        <rs><persName type="nativeamerican" key="#lw">California
+                     Crusoe</persName></rs>, an Indian woman who had for <rs><date notBefore="1835"
+                        notAfter="1853" cert="high">eighteen years</date></rs> lived alone on
+                        <rs><placeName type="island" key="#lw">a dreary desert
+                     island</placeName></rs>, and was finally discovered and taken off by the crew
+                  of <rs><name type="ship" key="#sh_peoresnada">a vessel</name></rs> in search of
+                  her.</span> Many years ago <rs><name type="ship" key="#sh_peoresnada">a small
+                     schooner</name></rs> was sent to the <placeName type="island" key="#i_sn"
+                  >island of San Nicholas</placeName>, in the <placeName type="region"
+                  key="#re_pacific">Pacific</placeName>, some seventy-five miles southeast of
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, to bring away
+                  <persName type="group" key="#bhagroup">a number of Indians</persName> living there
+               and settle them on the <rs>
+                  <placeName type="region" key="#re_mld">main land</placeName></rs>. <persName
+                  type="group" key="#bhagroup">Nineteen men, woman and children</persName> had been
+               got on board, when <rs><persName type="nativeamerican" key="#lw">one of
+                     them</persName></rs>, a mother, found that <rs><persName type="nativeamerican"
+                     key="#lwchild">two of her offspring</persName></rs> had been left behind. <span
+                  type="trope" n="9">She immediately jumped overboard and swam to <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, where she sought in
+                  vain for <rs><persName type="nativeamerican" key="#lwchild">her
+                        children</persName></rs>.</span> Having returned to the shore, she saw
+                     <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs> sailing
+               away, and tried in vain to attract attention. <rs><placeName type="island"
+                     key="#i_sn">The island</placeName></rs> was not visited again for <rs><date
+                     when="1851">sixteen years</date></rs>. <span type="trope" n="4">Then an
+                  otter-hunter, named <persName type="frontiersman" key="#gni">George
+                     Nidever</persName>, commanding <rs><name type="ship" key="#sh_nidever">a small
+                        vessel</name></rs>, landed there, and detected evidences of human
+                  habitation, but could not stay long enough to prosecute his quest; <rs><date
+                        when="1853">two years after</date></rs> he sailed there again and, roaming
+                  over <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, came
+                  upon <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>, who
+                  was not at all wild, and made no effort to escape.</span> She was clad in a
+               garment fashioned of the skin of a sea-fowl, and was occupied in skinning
+               seal-blubber, which had formed the greater part of her diet. She was quite
+               good-looking, seemed about fifty years old, and spoke a language nobody could
+               understand. She died a few weeks after reaching <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName>, while living in the <placeName key="#nideverhouse"
+                  >house of Nidever</placeName>, from the effects of a fall seriously injuring her
+               spine.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
