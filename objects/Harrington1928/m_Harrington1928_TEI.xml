@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="monograph"><orgName type="publication" key="#harrington1928"
+                            >Forty-Fourth Annual Report of the Bureau of American Ethnology to the
+                            Secretary of the Smithsonian Institution (1926-1927)</orgName></title>
+                    <publisher>United States Government Printing Office</publisher>
+                    <date when="1928-01-01"/>
+                    <pubPlace><placeName type="city" key="#ci_london">London</placeName>, <placeName
+                            type="country" key="#co_eng">England</placeName></pubPlace>
+                    <bibl>
+                        <title type="chapter" key="#Harrington1928">Exploration of the Burton Mound
+                            at Santa Barbara, California</title>
+                        <biblScope unit="page" from="12" to="15"/>
+                        <author><persName type="author" key="#jha">John Peabody
+                                Harrington</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="excerpt">
+                <p>OWNERSHIP BY <persName type="frontiersman" key="#gni">CAPT. GEORGE C.
+                        NIDEVER</persName></p>
+                <p><persName type="frontiersman" key="#gni">Capt. George C. Nidever</persName> came
+                    into possession of the property in <date when="1840">1840</date> or <date
+                        when="1841">1841</date>. <persName type="frontiersman" key="#gni"
+                        >Nidever</persName> came to <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> in <date when="1834">1834</date> from <placeName
+                        type="state" key="#st_wv">West Virginia</placeName>, having taken eight
+                    years to cross the continent, hunting, trapping and fighting by turn. At
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> he followed
+                    otter hunting by profession. He was the first man to stock <placeName
+                        type="island" key="#i_sm">San Miguel Island</placeName>. He was the
+                    principal in the rescue of the "<rs><persName type="nativeamerican" key="#lw"
+                            >lone woman</persName></rs>" of <placeName type="island" key="#i_sn">San
+                        Nicolas Island</placeName>. He married <persName key="#sni">Sinforosa
+                        Sanchez</persName> in <date when="1841">1841</date>. Slow of speech and
+                    movement, of unblushing integrity, and a dead shot, he was a terror of
+                    evildoers. He resided at <rs><placeName type="city" key="#ci_burtons">the
+                            mound</placeName></rs> for some <rs><date notBefore="1840"
+                            notAfter="1852">10 years</date></rs> and added two outbuildings to the
+                    adobe house; one was used as a warehouse for furs, the other as a gristmill. It
+                    is said that <persName type="frontiersman" key="#gni">Nidever</persName> made
+                    improvements in the grounds, setting out trees and gardens. To the <orgName
+                        type="institution" key="#bancroft">Bancroft Library</orgName> of the
+                        <orgName type="institution" key="#in_ucb">University of California</orgName>
+                    we are indebted for the following excerpts from a manuscript entitled "<title
+                        type="manuscript" key="#Nidever1878">Life and Adventures of George Nidever,
+                        Recollections furnished by himself to E. F. Murray for the Bancroft Library,
+                        1878</title>." In this interview <persName type="frontiersman" key="#gni"
+                        >Nidever</persName> tells of his purchase of <placeName type="city"
+                        key="#ci_burtons">the mound property</placeName> from <persName
+                        type="seaman" key="#jchap">Joseph Chapman</persName> in <date when="1840"
+                        >1840</date>, and of his hiding out in the old adobe house on <placeName
+                        type="city" key="#ci_burtons">the mound</placeName> at the time of the
+                    invasion of <placeName type="state" key="#st_cal">California</placeName> by the
+                    Americans. He says: I was born in <date when="1802-12-20">1802, Dec. 20</date>,
+                    in <placeName type="county" key="#co_sul">Sul[l]ivan Co.</placeName>, <placeName
+                        type="region" key="#re_etenn">East Tenn.</placeName>
+                    <rs><persName key="#gnis">My father</persName></rs>, also named George, was a
+                    native of <placeName type="state" key="#st_penn">Penn.</placeName>; I do not
+                    remember the town. . . . In the fall of <date when="1840">1840</date> I bought
+                    what is now known as the <placeName type="city" key="#ci_burtons">Burton
+                        Mound</placeName> property from <persName type="seaman" key="#jchap">Joseph
+                        Chapman</persName>, who had purchased it from the mission. It had formerly
+                    been used to store hides in by <rs><orgName type="missionfathers" key="#misfats"
+                            >the Fathers</orgName></rs>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

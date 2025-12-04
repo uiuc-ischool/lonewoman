@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#jcgb"
+                  >Masterkey</orgName></title>
+               <biblScope unit="volume">52</biblScope>
+               <biblScope unit="issue">1</biblScope>
+               <editor> </editor>
+               <publisher> </publisher>
+               <date when="1978"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#Hudson1978_52(1)">Some J.P. Harrington Notes on the
+                     "Lone Woman" of San Nicolas</title>
+                  <author><persName type="author" key="#thu">Hudson, Dee Travis</persName></author>
+                  <biblScope unit="page" from="23" to="28"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="article" key="Hudson1978_52(1)"><hi rend="bold">SOME J. P. HARRINGTON
+                     NOTES ON THE <rs><persName type="nativeamerican" key="#lw">"LONE WOMAN" OF SAN
+                           NICOLAS</persName></rs></hi>
+                  <hi rend="bold">Edited with Commentary</hi></title></head>
+            <byline><hi rend="bold">
+                  <emph>By</emph>
+                  <persName type="author" key="#thu">TRAVIS HUDSON</persName></hi></byline>
+            <p><span type="trope" n="4">THE EXCITEMENT OF DISCOVERY is just as rewarding in
+                  ethnography as in archaeology &#8212; and particularly so when one is digging
+                  through the exhaustive and overwhelming notes of <persName type="author"
+                     key="#jha">John P. Harrington</persName>. The total disorganization of the
+                  notes enhances the thrill of discovery, for one never knows what exciting and
+                  important piece of information awaits on the next handwritten page.</span></p>
+            <p><span type="trope" n="4">This recently happened to me as I was poring over
+                  Harrington's notes in Boxes 4 and 745 on the <orgName type="nativeamericantribes"
+                     key="#natam_Chumash">Chumash Indians</orgName> of <placeName type="region"
+                     key="#re_socal">southern California</placeName>. Box 4 dealt with <orgName
+                     type="nativeamericantribes" key="#natam_Chumash">Chumash</orgName> material
+                  culture, while Box 745 contained mostly <orgName type="nativeamericantribes"
+                     key="#natam_Chumash">Chumash</orgName> ritual descriptions. It was quite a
+                  surprise to find among these notes material which pertained to the <rs><persName
+                        type="nativeamerican" key="#lw">"lone woman"*<note place="bottom">*Also
+                           frequently known as the "<rs><persName type="nativeamerican" key="#lw"
+                                 >Lost Woma</persName></rs>n" &#8212; <rs><persName type="author"
+                                 key="#thu">Ed.</persName></rs></note> of San Nicolas
+                        Island</persName></rs>.</span></p>
+            <p><span type="trope" n="8">The story of <rs><persName type="nativeamerican" key="#lw"
+                        >this woman</persName></rs> is well known, popularized by the romanticism of
+                  a <rs><name type="fictional" key="#rcr">Robinson Crusoe</name>
+                  </rs> sort of existence (<date notBefore="1836" to="1853">1836?-1853</date>) on
+                        <rs><placeName type="island" key="#i_sn">a tiny island</placeName></rs> off
+                  the <placeName type="region" key="#re_calcoast">California
+                  coast</placeName>.</span> The important accounts of her story have been collected
+               and published by Heizer and Elsasser (1961); there is no need to repeat them here.
+               Instead, Harrington's material will be presented, supplemented where necessary with
+               end notes.</p>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Bone Knife</hi></title></head>
+               <p>The <rs><persName type="nativeamerican" key="#lw">San Nicolas Island
+                        woman</persName></rs> had a bone knife. It was shaped as shown below.<hi
+                     rend="superscript">1</hi><note n="1" place="end">1. The drawing is taken from
+                     Harrington's sketch of the implement; it is not to scale.</note>
+                  <persName type="nativeamerican" key="#fki">Fernando</persName><hi
+                     rend="superscript">2</hi><note n="2" place="end">2. This man is <persName
+                        type="nativeamerican" key="#fki">Fernando Librado Kitsepawit</persName>, one
+                     of Harrington's principal Ventureño Chumash informants. <persName
+                        type="nativeamerican" key="#fki">Fernando</persName> was born about <date
+                        when="1804">1804</date>, probably on <placeName type="island" key="#i_scruz"
+                        >Santa Cruz Island</placeName>, and spent most of his adult life in
+                        <placeName type="city" key="#ci_ven">Ventura</placeName> and <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>. He died in <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName> on <date
+                        when="1915-06-19">June 19, 1915</date>, at an age of about 111 years
+                     (Blackburn 1975: 18). Much of Fernando's ethnographic data has been
+                     corroborated and used in a number of Chumash studies. These include mythology
+                     and stories (Blackburn 1975), history and ritual (Hudson, Blackburn, Curletti
+                     and Timbrook 1977), and watercraft, with some plank canoe stories about voyages
+                     from <placeName type="island" key="#i_chi">San Nicolas Island</placeName>
+                     (Hudson, Timbrook and Rempe 1977). The <orgName type="nativeamericantribes"
+                        key="#natam_Chumash">Chumash</orgName> called <rs><placeName type="island"
+                           key="#i_sn">the Island</placeName></rs>
+                     <rs>Halashat</rs>, a Ventureño Chumash word perhaps meaning "victory"
+                     (Applegate 1975: 28).</note> does not know what kind of bone the knife was made
+                  of. She used it for her defense,<hi rend="superscript">3</hi><note n="3"
+                     place="end">3. It is questionable whether the knife was actually intended as a
+                     weapon unless <rs><persName type="nativeamerican" key="#lw">the
+                           woman</persName></rs> had used it to protect herself from attacks by wild
+                     dogs on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                        <title type="manuscript" key="#Dittman1878">The Dittman account</title>
+                     mentions that <rs><persName type="nativeamerican" key="#lw">the
+                           woman</persName></rs> did have bone needles and knives, but there are no
+                     further details about these objects (Heizer and Elsasser 1961: 6).</note> and
+                  not to cut things with.</p>
+               <p>The <rs><persName type="nativeamerican" key="#lw">Indian woman</persName></rs>
+                  told <persName type="nativeamerican" key="#msh">Malquiares</persName><hi
+                     rend="superscript">4</hi><note n="4" place="end">4. Malquiares' name appears in
+                     other Harrington notes on the <orgName type="nativeamericantribes"
+                        key="#natam_Chumash">Chumash</orgName>. He is described as a Ventureño
+                     Chumash man who took part in Chumash rituals. During the brief seven-week
+                     period that <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> was alive in <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> many people came to see her and her possessions (Heizer
+                     and Elsasser 1961: 11); <persName type="nativeamerican" key="#msh"
+                        >Malquiares</persName> and <persName key="#hva">Hilario
+                        Valenzuela</persName>.</note> that she was going to her home and would come
+                     back,<hi rend="superscript">5</hi><note n="5" place="end">5. <title
+                        type="manuscript" key="#Nidever1878">Nidever's account</title> notes that
+                           <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                     often visited <rs><placeName type="city" key="#ci_sb">the town</placeName></rs>
+                        (<placeName type="city" key="#ci_sb">Santa Barbara</placeName>) from the
+                        <placeName key="#nideverhouse">Nidever house</placeName> (Heizer and
+                     Elsasser 1961: 11). "Going to her home" must mean back to the <placeName
+                        key="#nideverhouse">Nidever house</placeName>. Perhaps she was in town when
+                     she met <persName type="nativeamerican" key="#msh">Malquiares</persName> and
+                        <persName key="#hva">Hilario</persName>.</note> and they waited and she came
+                  back. <persName key="#hva">Hilario Valenzuela</persName>,<hi rend="superscript"
+                     >6</hi><note n="6" place="end">6. <persName key="#hva">Hilario
+                        Valenzuela</persName> is as yet unidentified; he may have been related to
+                        <persName key="#jval">José Valenzuela</persName>, husband of <persName
+                        key="#cand">Candalaria</persName>, one of Harrington's Ventureño informants
+                     (Craig 1966: 202).</note> "the <orgName type="nativeamericantribes"
+                     key="#natam_yaqui">Yaqui</orgName>", got some trinkets from <rs><persName
+                        key="#cand">the woman</persName></rs> which he took with him. <persName
+                     type="nativeamerican" key="#fki">Fernando</persName> never knew what <persName
+                     key="#hva">Hilario</persName> did with them.<hi rend="superscript">7</hi><note
+                     n="7" place="end">7. Some of the woman's possessions were retained by <persName
+                        key="#gni; #sni">the Nidevers</persName> and other local families, while
+                     other items such as a feather dress were reportedly sent to <placeName
+                        type="city" key="#ci_rom">Rome</placeName>; we have searched for these
+                     objects without success.</note></p>
+               <p><persName type="nativeamerican" key="#fki">Fernando</persName> thinks that the
+                        <rs><persName type="nativeamerican" key="#lw">Indian woman of San Nicolas
+                        Island</persName></rs> was the last one baptized.<hi rend="superscript"
+                     >8</hi><note n="8" place="end">8. <persName type="frontiersman" key="#gni"
+                        >Nidever</persName> wrote that <persName type="nativeamerican" key="#lw"
+                        >Juana Maria</persName> was baptized in his house just before death (Heizer
+                     and Elsasser 1961: 36). Geiger (1965: 152) published the data as entry no.
+                     1183, folio 113, of the >Register of Burials of the Presidio, recorded by
+                        <persName type="missionfather" key="#jru">Father González Rubio</persName>
+                     of <orgName type="mission" key="#mi_santabarbaramission">Mission Santa
+                        Barbara</orgName>. Ecclesiastical burial was given to <rs><persName
+                           type="nativeamerican" key="#lw">Juana Maria</persName></rs>, the
+                           <rs><persName type="nativeamerican" key="#lw">San Nicolas Island
+                           woman</persName></rs>, on <date when="1853-10-19">Oct. 19, 1853</date>,
+                     and she received baptism conditionally by <persName type="missionfather"
+                        key="#sanchez">Father Sanchez</persName>, since there was no one who could
+                     understand her language.</note></p>
+            </div>
+            <div n="2" type="section">
+               <head><title type="section"><hi rend="bold">A <placeName type="island" key="#i_sn"
+                           >San Nicolas</placeName> Song</hi>[<hi rend="superscript">9</hi><note
+                        n="9" place="end">9. <persName type="nativeamerican" key="#jph"
+                           >Harrington</persName> recorded this song and the one which follows it in
+                           <date when="1913-07">July, 1913</date>; he did not note the informant but
+                        it was probably <persName type="nativeamerican" key="#fki">Fernando
+                           Librado</persName>. For a key to pronunciation see Applegate (1975:
+                        23-24).</note>]</title></head>
+               <p>The <rs><persName type="nativeamerican" key="#lw">woman of San Nicolas
+                        Island</persName></rs> sang this song when they put her dress on her which
+                  they had made for her.<hi rend="superscript">10</hi><note n="10" place="end">10.
+                     It is not specified which dress elicited the song. According to <persName
+                        type="frontiersman" key="#cdi">Dittman</persName> and <persName
+                        type="frontiersman" key="#gni">Nidever</persName>, on her first visit to
+                           <rs><name type="ship" key="#sh_nidever">their boat</name></rs> anchored
+                     off <placeName type="island" key="#i_sn">San Nicolas Island</placeName>
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+                     given a homemade dress, which she put on with pride (Heizer and Elsasser 1961:
+                     10, 19). If this song was sung then it must have been overheard by
+                           <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">one of
+                           the Indian crewmen</persName>
+                     </rs> and later repeated to <persName type="nativeamerican" key="#fki"
+                        >Fernando</persName>.</note></p>
+               <floatingText>
+                  <body>
+                     <lg type="song">
+                        <l>ihi'i hiyuhu</l>
+                        <l>ihi'i hiyuhu</l>
+                        <l>ihi'i hiyuhu hachnuwa l^a nal^ na'al^</l>
+                        <l>Ihi'i giyuhu<hi rend="superscript">11</hi><note n="11" place="end">11.
+                                 <title type="article" key="#Hardacre1880_SM">The Hardacre
+                                 account</title> preserved four poorly spelled words in the language
+                              of the "<rs><persName type="nativeamerican" key="#lw">lone
+                                    woman</persName></rs>" (Heizer and Elsasser 1961: 4-5). These
+                              were examined by <title type="monograph" key="#Kroeber1907"
+                                 >Kroeber</title> (1907: 153 and note 3) and determined to be
+                              Shoshonean, but it could not be stated whether the language was
+                                 <orgName type="nativeamericantribes" key="#natam_Luisenos"
+                                 >Luiseño</orgName>, <orgName type="nativeamericantribes"
+                                 key="#natam_GabrilenoTongva">Gabrielino</orgName>, or different
+                              from these. <persName type="author" key="#akroe">Kroeber</persName>
+                              added that it was unlikely that her language was understood by any
+                              other Indians since she was taken to <placeName type="city"
+                                 key="#ci_sb">Santa Barbara</placeName>, which is located in the
+                              territory of non-Shoshonean speaking <orgName
+                                 type="nativeamericantribes" key="#natam_Chumash">Chumash
+                                 Indians</orgName>, and that there is no evidence that anyone
+                              conversant with Luiseño ever interviewed her. The four known words are
+                                 <emph>nache</emph> for "man", <emph>toygwah</emph> for "sky",
+                                 <emph>tocah</emph> for "hide", and <emph>puoo-chay</emph> for
+                              "body." Harrington's recorded songs expand this number greatly, though
+                              without benefit of linguistic analysis we cannot know at this time if
+                              the songs are truly Nicoleño, or whether their meanings can be worked
+                              out. The implication from the story is, however, that her language was
+                              a Gabrielino dialect similar to Fernandino. Elsewhere among
+                              Harrington's extensive notes (in Boxes 2 and 3) are some ethnographic
+                              references which pertain to this question, as well as the languages
+                              spoken on the other <placeName type="island" key="#i_southernchi"
+                                 >southern channel islands</placeName>. I have somewhat edited this
+                              material so that it can be presented here in Harrington form.
+                                    <rs><persName type="nativeamerican" key="#mvfather">Martin
+                                    Violin's father</persName></rs> was <rs><orgName
+                                    type="nativeamericantribes" key="#natam_Catalineno">a Santa
+                                    Catalina Island Indian</orgName></rs>. He and <rs><persName
+                                    type="nativeamerican" key="#mvuncle">his
+                              brother</persName></rs>, both very old, told <persName
+                                 type="nativeamerican" key="#mvio">Martin</persName> about the
+                                    <rs><orgName type="group"
+                                    key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                                    >Indians on the islands</orgName></rs>, and <persName
+                                 type="nativeamerican" key="#mvio">Martin</persName> in turn later
+                              passed it on to <persName type="nativeamerican" key="#fki"
+                                 >Fernando</persName>. <persName type="nativeamerican" key="#mvio"
+                                 >Martin</persName> told <persName type="nativeamerican" key="#fki"
+                                 >Fernando</persName> that the <orgName type="nativeamericantribes"
+                                 key="#natam_Fernandenos">Fernandinos</orgName> (<orgName
+                                 type="nativeamericantribes" key="#natam_Fernandenos"
+                                 >Fernandeños</orgName>) <placeName type="island" key="#i_sb">Santa
+                                 Barbara Island</placeName>
+                              <rs><placeName type="island" key="#i_sn"
+                                    ><emph>'Ichunash</emph></placeName></rs>, and that the <orgName
+                                 type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                                 >Gabrielinos</orgName> also called it by this name. It means "a
+                              notice", as for example the blow of a trumpet. [<emph>Ichunash</emph>
+                              in Chumash means "whistle" (Hudson, Blackburn, Curletti and Timbrook
+                              1977)]. <rs><orgName type="nativeamericantribes"
+                                    key="#natam_Fernandenos">The Indians on this
+                                 island</orgName></rs> were <orgName type="nativeamericantribes"
+                                 key="#natam_Fernandenos">Fernandinos</orgName> (<orgName
+                                 type="nativeamericantribes" key="#natam_Fernandenos"
+                                 >Fernandeños</orgName>). <placeName type="island" key="#i_scl">San
+                                 Clemente Island</placeName>, according to <rs><persName
+                                    type="nativeamerican" key="#mvfather">Martin Violin's
+                                    father</persName></rs> and <rs><orgName
+                                    type="nativeamericantribes" key="#mvuncle">uncle</orgName></rs>,
+                              was inhabited by a mixture of <orgName type="nativeamericantribes"
+                                 key="#natam_GabrilenoTongva">Gabrielinos</orgName> and <orgName
+                                 type="nativeamericantribes" key="#natam_Fernandenos"
+                                 >Fernandinos</orgName>. The <rs><orgName
+                                    type="nativeamericantribes" key="#natam_NicolenoTongva">people
+                                    of San Nicolas Island</orgName></rs>, an old man said (<persName
+                                 type="nativeamerican" key="#mvio">Martin Violin</persName> or
+                                    <rs><persName type="nativeamerican" key="#mvfather; #mvuncle"
+                                    >his relatives</persName></rs>?), came originally from
+                                 <placeName type="island" key="#i_scatalina">Santa Catalina
+                                 Island</placeName>. <rs><orgName type="nativeamericantribes"
+                                    key="#natam_NicolenoTongva">These people</orgName></rs> spoke
+                              the language of <rs><orgName type="nativeamericantribes"
+                                    key="#natam_GabrilenoTongva">the
+                              Gabrielinos</orgName></rs>.</note></l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <p> </p>
+               <p>Although these words are not understood by <persName type="nativeamerican"
+                     key="#fki">Fernando</persName>, he has sort of an understanding of what they
+                  mean: "I continue moving, swaying of the dance, I continue."</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Another <placeName type="island"
+                           key="#i_sn">San Nicolas</placeName> Song</hi></title></head>
+               <p><persName type="nativeamerican" key="#nsk">Nolverto</persName><hi
+                     rend="superscript">12</hi><note n="12" place="end">12. The name <persName
+                        type="nativeamerican" key="#nsk">Nolverto</persName> (also spelled <persName
+                        type="nativeamerican" key="#nsk">Nolberto</persName>) appears occasionally
+                     in Harrington's Chumash notes. One note states that <persName
+                        type="nativeamerican" key="#nsk">Nolverto</persName> went with <persName
+                        type="nativeamerican" key="#jpo">Jose Polo</persName>, alias <rs><persName
+                           type="nativeamerican" key="#jpo">Poroi</persName></rs>, <persName
+                        type="nativeamerican" key="#mch">Manuel Chimuyash</persName>, and <persName
+                        type="nativeamerican" key="#mla">Manuela Lawi</persName> to <placeName
+                        type="city" key="#ci_mo">Monterrey</placeName> (<placeName type="state"
+                        key="#st_cal">California</placeName> ?) where they were educated. Later
+                        <persName type="nativeamerican" key="#nsk">Nolverto</persName> returned to
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, prior to
+                        <date when="1853">1853</date>.</note> was a Fernandina (Fernandeño who lived
+                  in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, working as a
+                  shoe and saddle-maker. He was the only one who could converse with the
+                        <rs><persName type="nativeamerican" key="#lw">woman of San Nicolas
+                        Island</persName></rs>. He conversed with her freely. The <rs><orgName
+                        type="nativeamericantribes" key="#natam_Cruzeno">Cruzeño
+                     Chumash</orgName></rs> tried, but they could not make her understand.<hi
+                     rend="superscript">13</hi><note n="13" place="end">13. <persName
+                        type="frontiersman" key="#cdi">Dittman</persName> wrote that, as far as he
+                     knew, none of the Indians who arrived from various places could converse with
+                     the "<rs><persName type="nativeamerican" key="#lw">lone woman</persName></rs>";
+                        <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                        type="author" key="#eha">Hardacre</persName> also noted that no one could
+                     communicate with her (Heizer and Elsasser 1961: 11, 21, 35).</note></p>
+               <p><persName type="nativeamerican" key="#fki">Fernando</persName> does not understand
+                  the words in this <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> song:</p>
+               <floatingText>
+                  <body>
+                     <lg>
+                        <l>tikitiki</l>
+                        <l>yahamimina tikitiki</l>
+                        <l>yahamimina tikitiki</l>
+                        <l>yahamimina tikitiki</l>
+                        <l>tikitiki weleleshkima</l>
+                        <l>nishuyahamimina</l>
+                        <l>weleleshkima</l>
+                        <l>nishuyahamimina</l>
+                        <l>tikitiki<hi rend="superscript">14</hi><note n="14" place="end">14. It is
+                              not difficult to conceive of how these songs were recorded. <span
+                                 type="trope" n="3">During her stay in <placeName type="city"
+                                    key="#ci_sb">Santa Barbara</placeName>, at the <placeName
+                                    key="#nideverhouse">Nidever house</placeName>, <rs><persName
+                                       type="nativeamerican" key="#lw">Juana Maria</persName></rs>
+                                 would frequently sing and dance in the presence of visitors</span>
+                              (Heizer and Elsasser 1961: 11, 21). No doubt <persName
+                                 type="nativeamerican" key="#nsk">Nolverto</persName>, and perhaps
+                              even <persName type="nativeamerican" key="#fki">Fernando</persName>,
+                              witnessed such a performance and memorized the song(s).</note></l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <p> </p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">End Notes</hi>
+                  </title></head>
+               <div>
+                  <p><bibl>1. The drawing is taken from Harrington's sketch of the implement; it is
+                        not to scale.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>2. This man is <persName type="nativeamerican" key="#fki">Fernando
+                           Librado Kitsepawit</persName>, one of Harrington's principal Ventureño
+                        Chumash informants. <persName type="nativeamerican" key="#fki"
+                           >Fernando</persName> was born about <date when="1804">1804</date>,
+                        probably on <placeName type="island" key="#i_scruz">Santa Cruz
+                           Island</placeName>, and spent most of his adult life in <placeName
+                           type="city" key="#ci_ven">Ventura</placeName> and <placeName type="city"
+                           key="#ci_sb">Santa Barbara</placeName>. He died in <placeName type="city"
+                           key="#ci_sb">Santa Barbara</placeName> on <date when="1915-06-19">June
+                           19, 1915</date>, at an age of about 111 years (Blackburn 1975: 18). Much
+                        of Fernando's ethnographic data has been corroborated and used in a number
+                        of Chumash studies. These include mythology and stories (Blackburn 1975),
+                        history and ritual (Hudson, Blackburn, Curletti and Timbrook 1977), and
+                        watercraft, with some plank canoe stories about voyages from <placeName
+                           type="island" key="#i_chi">San Nicolas Island</placeName> (Hudson,
+                        Timbrook and Rempe 1977). The <orgName type="nativeamericantribes"
+                           key="#natam_Chumash">Chumash</orgName> called <rs><placeName
+                              type="island" key="#i_sn">the Island</placeName></rs>
+                        <rs><placeName type="island" key="#i_sn">Halashat</placeName></rs>, a
+                        Ventureño Chumash word perhaps meaning "victory" (Applegate 1975:
+                        28).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>3. It is questionable whether the knife was actually intended as a weapon
+                        unless <rs><persName type="nativeamerican" key="#lw">the
+                           woman</persName></rs> had used it to protect herself from attacks by wild
+                        dogs on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>. <title type="manuscript" key="#Dittman1878">The
+                           Dittman account</title> mentions that <rs><persName type="nativeamerican"
+                              key="#lw">the woman</persName></rs> did have bone needles and knives,
+                        but there are no further details about these objects (Heizer and Elsasser
+                        1961: 6).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>4. Malquiares' name appears in other Harrington notes on the <orgName
+                           type="nativeamericantribes" key="#natam_Chumash">Chumash</orgName>. He is
+                        described as a Ventureño Chumash man who took part in Chumash rituals.
+                        During the brief seven-week period that <rs><persName type="nativeamerican"
+                              key="#lw">the woman</persName></rs> was alive in <placeName
+                           type="city" key="#ci_sb">Santa Barbara</placeName> many people came to
+                        see her and her possessions (Heizer and Elsasser 1961: 11); <persName
+                           type="nativeamerican" key="#msh">Malquiares</persName> and <persName
+                           key="#hva">Hilario Valenzuela</persName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>5. <title type="manuscript" key="#Nidever1878">Nidever's account</title>
+                        notes that <rs><persName type="nativeamerican" key="#lw">the
+                              woman</persName></rs> often visited <rs><placeName type="city"
+                              key="#ci_sb">the town</placeName></rs> (<placeName type="city"
+                           key="#ci_sb">Santa Barbara</placeName>) from the <placeName
+                           key="#nideverhouse">Nidever house</placeName> (Heizer and Elsasser 1961:
+                        11). "Going to her home" must mean back to the <persName type="frontiersman"
+                           key="#gni">Nidever</persName> house. Perhaps she was in town when she met
+                           <persName type="nativeamerican" key="#msh">Malquiares</persName> and
+                           <persName key="#hva">Hilario</persName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>6. <persName key="#hva">Hilario Valenzuela</persName> is as yet
+                        unidentified; he may have been related to <persName key="#jval">José
+                           Valenzuela</persName>, husband of <persName key="#cand"
+                           >Candalaria</persName>, one of Harrington's Ventureño informants (Craig
+                        1966: 202).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>7. Some of the woman's possessions were retained by <persName
+                           key="#gni; #sni">the Nidevers</persName> and other local families, while
+                        other items such as a feather dress were reportedly sent to <placeName
+                           type="city" key="#ci_rom">Rome</placeName>; we have searched for these
+                        objects without success.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>8. <persName type="frontiersman" key="#gni">Nidever</persName> wrote that
+                           <persName type="nativeamerican" key="#lw">Juana Maria</persName> was
+                        baptized in his house just before death (Heizer and Elsasser 1961: 36).
+                        Geiger (1965: 152) published the data as entry no. 1183, folio 113, of the
+                        Register of Burials of the Presidio, recorded by <persName
+                           type="missionfather" key="#jru">Father González Rubio</persName> of
+                           <orgName type="mission" key="#mi_santabarbaramission">Mission Santa
+                           Barbara</orgName>. Ecclesiastical burial was given to <rs><persName
+                              type="nativeamerican" key="#lw">Juana Maria</persName></rs>, the
+                              <rs><persName type="nativeamerican" key="#lw">San Nicolas Island
+                              woman</persName></rs>, on <date when="1853-10-19">Oct. 19,
+                        1853</date>, and she received baptism conditionally by <persName
+                           type="missionfather" key="#sanchez">Father Sanchez</persName>, since
+                        there was no one who could understand her language.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>9. <persName type="author" key="#jha">Harrington</persName> recorded this
+                        song and the one which follows it in <date when="1913-07">July, 1913</date>;
+                        he did not note the informant but it was probably <persName
+                           type="nativeamerican" key="#fki">Fernando Librado</persName>. For a key
+                        to pronunciation see (1975: 23-24).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>10. It is not specified which dress elicited the song. According to
+                           <persName type="frontiersman" key="#cdi">Dittman</persName> and <persName
+                           type="frontiersman" key="#gni">Nidever</persName>, on her first visit to
+                              <rs><name type="ship" key="#sh_nidever">their boat</name></rs>
+                        anchored off <placeName type="island" key="#i_sn">San Nicolas
+                           Island</placeName>
+                        <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+                        given a homemade dress, which she put on with pride (Heizer and Elsasser
+                        1961: 10, 19). If this song was sung then it must have been overheard by
+                              <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">one of
+                              the Indian crewmen</persName>
+                        </rs> and later repeated to <persName type="nativeamerican" key="#fki"
+                           >Fernando</persName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>11. <title type="article" key="#Hardacre1880_SM">The Hardacre
+                           account</title> preserved four poorly spelled words in the language of
+                        the "<rs><persName type="nativeamerican" key="#lw">lone
+                           woman</persName></rs>" (Heizer and Elsasser 1961: 4-5). These were
+                        examined by <title type="monograph" key="#Kroeber1907">Kroeber</title>
+                        (1907: 153 and note 3) and determined to be Shoshonean, but it could not be
+                        stated whether the language was <orgName type="nativeamericantribes"
+                           key="#natam_Luisenos">Luiseño</orgName>, <orgName
+                           type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                           >Gabrielino</orgName>, or different from these. <persName type="author"
+                           key="#akroe">Kroeber</persName> added that it was unlikely that her
+                        language was understood by any other Indians since she was taken to
+                           <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, which is
+                        located in the territory of non-Shoshonean speaking <orgName
+                           type="nativeamericantribes" key="#natam_Chumash">Chumash
+                           Indians</orgName>, and that there is no evidence that anyone conversant
+                        with Luiseño ever interviewed her. The four known words are
+                           <emph>nache</emph> for "man", <emph>toygwah</emph> for "sky",
+                           <emph>tocah</emph> for "hide", and <emph>puoo-chay</emph> for "body."
+                        Harrington's recorded songs expand this number greatly, though without
+                        benefit of linguistic analysis we cannot know at this time if the songs are
+                        truly Nicoleño, or whether their meanings can be worked out. The implication
+                        from the story is, however, that her language was a Gabrielino dialect
+                        similar to Fernandino. Elsewhere among Harrington's extensive notes (in
+                        Boxes 2 and 3) are some ethnographic references which pertain to this
+                        question, as well as the languages spoken on the other <placeName
+                           type="island" key="#i_southernchi">southern channel islands</placeName>.
+                        I have somewhat edited this material so that it can be presented here in
+                        Harrington form. <rs><persName type="nativeamerican" key="#mvfather">Martin
+                              Violin's father</persName></rs> was <rs><orgName
+                              type="nativeamericantribes" key="#natam_Catalineno">a Santa Catalina
+                              Island Indian</orgName></rs>. He and <rs><persName
+                              type="nativeamerican" key="#mvuncle">his brother</persName></rs>, both
+                        very old, told <persName type="nativeamerican" key="#mvio">Martin</persName>
+                        about the <rs><orgName type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >Indians on the islands</orgName></rs>, and <persName
+                           type="nativeamerican" key="#mvio">Martin</persName> in turn later passed
+                        it on to <persName type="nativeamerican" key="#fki">Fernando</persName>.
+                           <persName type="nativeamerican" key="#mvio">Martin</persName> told
+                           <persName type="nativeamerican" key="#fki">Fernando</persName> that the
+                           <orgName type="nativeamericantribes" key="#natam_Fernandenos"
+                           >Fernandinos</orgName> (<orgName type="nativeamericantribes"
+                           key="#natam_Fernandenos">Fernandeños</orgName>) <placeName type="island"
+                           key="#i_sb">Santa Barbara Island</placeName>
+                        <rs><placeName type="island" key="#i_sn"
+                           ><emph>'Ichunash</emph></placeName></rs>, and that the <orgName
+                           type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                           >Gabrielinos</orgName> also called it by this name. It means "a notice",
+                        as for example the blow of a trumpet. [<emph>Ichunash</emph> in Chumash
+                        means "whistle" (Hudson, Blackburn, Curletti and Timbrook 1977)].
+                              <rs><orgName type="nativeamericantribes" key="#natam_Fernandenos">The
+                              Indians on this island</orgName></rs> were <orgName
+                           type="nativeamericantribes" key="#natam_Fernandenos"
+                           >Fernandinos</orgName> (<orgName type="nativeamericantribes"
+                           key="#natam_Fernandenos">Fernandeños</orgName>). <placeName type="island"
+                           key="#i_scl">San Clemente Island</placeName>, according to <rs><persName
+                              type="nativeamerican" key="#mvfather">Martin Violin's
+                              father</persName></rs> and <rs><orgName type="nativeamericantribes"
+                              key="#mvuncle">uncle</orgName></rs>, was inhabited by a mixture of
+                           <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                           >Gabrielinos</orgName> and <orgName type="nativeamericantribes"
+                           key="#natam_Fernandenos">Fernandinos</orgName>. The <rs><orgName
+                              type="nativeamericantribes" key="#natam_NicolenoTongva">people of San
+                              Nicolas Island</orgName></rs>, <rs><persName type="nativeamerican"
+                              key="#mvio">an old man</persName></rs> said (<persName
+                           type="nativeamerican" key="#mvio">Martin Violin</persName> or
+                              <rs><persName type="nativeamerican" key="#mvfather; #mvuncle">his
+                              relatives</persName></rs>?), came originally from <placeName
+                           type="island" key="#i_scatalina">Santa Catalina Island</placeName>.
+                              <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                              >These people</orgName></rs> spoke the language of <rs><orgName
+                              type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                              Gabrielinos</orgName></rs>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>12. The name <persName type="nativeamerican" key="#nsk"
+                           >Nolverto</persName> (also spelled <persName type="nativeamerican"
+                           key="#nsk">Nolberto</persName>) appears occasionally in Harrington's
+                        Chumash notes. One note states that <persName type="nativeamerican"
+                           key="#nsk">Nolverto</persName> went with <persName type="nativeamerican"
+                           key="#jpo">Jose Polo</persName>, alias <rs><persName
+                              type="nativeamerican" key="#jpo">Poroi</persName></rs>, <persName
+                           type="nativeamerican" key="#mch">Manuel Chimuyash</persName>, and
+                           <persName type="nativeamerican" key="#mla">Manuela Lawi</persName> to
+                           <placeName type="city" key="#ci_mo">Monterrey</placeName> (<placeName
+                           type="state" key="#st_cal">California</placeName> ?) where they were
+                        educated. Later <persName type="nativeamerican" key="#nsk"
+                           >Nolverto</persName> returned to <placeName type="city" key="#ci_sb"
+                           >Santa Barbara</placeName>, prior to <date when="1853"
+                        >1853</date>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>13. <persName type="frontiersman" key="#cdi">Dittman</persName> wrote
+                        that, as far as he knew, none of the Indians who arrived from various places
+                        could converse with the "<rs><persName type="nativeamerican" key="#lw">lone
+                              woman</persName></rs>"; <persName type="frontiersman" key="#gni"
+                           >Nidever</persName> and <persName type="author" key="#eha"
+                           >Hardacre</persName> also noted that no one could communicate with her
+                        (Heizer and Elsasser 1961: 11, 21, 35).</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>14. It is not difficult to conceive of how these songs were recorded.
+                           <span type="trope" n="3">During her stay in <placeName type="city"
+                              key="#ci_sb">Santa Barbara</placeName>, at the <placeName
+                              key="#nideverhouse">Nidever house</placeName>, <rs><persName
+                                 type="nativeamerican" key="#lw">Juana Maria</persName></rs> would
+                           frequently sing and dance in the presence of visitors</span> (Heizer and
+                        Elsasser 1961: 11, 21). No doubt <persName type="nativeamerican" key="#nsk"
+                           >Nolverto</persName>, and perhaps even <persName type="nativeamerican"
+                           key="#fki">Fernando</persName>, witnessed such a performance and
+                        memorized the song(s).</bibl></p>
+               </div>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Acknowledgment</hi>
+                  </title></head>
+               <p>I wish to express my thanks to <persName type="author" key="#jti">Janice
+                     Timbrook</persName> for reading and commenting on this paper; her remarks have
+                  greatly improved the final result.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">REFERENCES</title></head>
+               <div>
+                  <p><bibl><author><persName type="author" key="#rap">APPLEGATE,
+                           RICHARD</persName></author></bibl></p>
+                  <p><bibl><date when="1974">1974</date></bibl></p>
+                  <p><bibl>An Index of Chumash Placenames. In Papers on the Chumash: <biblScope
+                           unit="page" from="19" to="46">pp. 19-46</biblScope>. <emph>Occasional
+                           Paper No. 9</emph>. <publisher><orgName key="#sloarchsociety">San Luis
+                              Obispo County Archaeological Society</orgName></publisher>.
+                              <pubPlace><placeName type="city" key="#ci_slo">San Luis
+                              Obispo</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#tbl">Blackburn,
+                           Thomas</persName></author></bibl></p>
+                  <p><bibl><date when="1975">1975</date></bibl></p>
+                  <p><bibl>December's Child: A Book of Chumash Oral Narratives. <pubPlace
+                           key="#ci_berk">Berkeley</pubPlace>: <publisher><orgName type="publisher"
+                              key="#ucalpress">University of California
+                        Press</orgName></publisher>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="author" key="#scr">CRAIG,
+                           STEVE</persName></author></bibl></p>
+                  <p><bibl><date when="1966">1966</date></bibl></p>
+                  <p><bibl>Ethnographic notes on the construction of Ventureno Chumash baskets from
+                        the ethnographic and linguistic fieldnotes of John P. Harrington.
+                           <emph>Archaeological Survey Annual Report 8</emph>: <biblScope
+                           unit="page" from="196" to="214">196-214</biblScope>. <publisher><orgName
+                              type="publisher" key="#ucalpress"> Univ. of
+                           Calif.</orgName></publisher>
+                        <pubPlace><placeName type="city" key="#ci_la">Los
+                           Angeles</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="author" key="#gma">GEIGER,
+                           MAYNARD</persName></author></bibl></p>
+                  <p><bibl><date when="1965">1965</date></bibl></p>
+                  <p><bibl><emph>Mission Santa Barbara</emph>: 1782-1965. <publisher><orgName
+                              type="publisher" key="#heritage">Heritage
+                           Printers</orgName></publisher>. <pubPlace><placeName type="city"
+                              key="#ci_sb">Santa Barbara</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><editor><persName type="author" key="#rhe">HEIZER,
+                           ROBERT</persName></editor>, &amp; <editor><persName type="author"
+                              key="#els">ALBERT ELSASSER</persName></editor></bibl></p>
+                  <p><bibl><date when="1961">1961</date></bibl></p>
+                  <p><bibl>Original Accounts of the Lone Woman of San Nicolas Island.
+                           <emph>Archaeological Survey Report</emph> No. 55. <publisher><orgName
+                              type="publisher" key="#ucalpress">Univ. of
+                           Calif.</orgName></publisher>
+                        <pubPlace><placeName type="city" key="#ci_berk"
+                           >Berkeley</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="author" key="#thu">HUDSON, DEE
+                           TRAVIS</persName></author>, <author><rs><persName key="#jti; #mred">ET
+                                 AL</persName></rs></author></bibl></p>
+                  <p><bibl>In Press</bibl></p>
+                  <p><bibl>Tomol: the Ethnographic Notes of John P. Harrington on Chumash
+                        Watercraft. <publisher><emph><orgName type="publisher" key="#ballena"
+                                 >Ballena Press</orgName> Anthropological Papers</emph></publisher>.
+                              <pubPlace><placeName type="city" key="#ci_ramona"
+                           >Ramona</placeName></pubPlace>.</bibl></p>
+                  <p><bibl>In Press</bibl></p>
+                  <p><bibl><emph>Eye of the Flute: Chumash traditional history and ritual as told by
+                           Fernando Librado Kitsepawit to John P. Harrington</emph>.
+                              <publisher><orgName type="museum" key="#mu_sbmuseum">Santa Barbara
+                              Museum of Natural History</orgName></publisher>. <pubPlace><placeName
+                              type="city" key="#ci_sb">Santa
+                     Barbara</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="author" key="#akroe">KROEBER,
+                           ALFRED</persName></author></bibl></p>
+                  <p><date when="1907">1907</date></p>
+                  <p><bibl><title type="monograph" key="#Kroeber1907">Shoshonean Dialects of
+                           California</title>. <emph><orgName type="publisher" key="#ucalpress"
+                              >Publications in American Archaeology and Ethnology</orgName></emph>
+                        <biblScope unit="volume" n="4">4</biblScope>(<biblScope unit="issue" n="3"
+                           >3</biblScope>). <publisher><orgName type="publisher" key="#ucalpress"
+                              >Univ. of Calif.</orgName></publisher>
+                        <pubPlace><placeName type="city" key="#ci_berk"
+                           >Berkeley</placeName></pubPlace></bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#ecvnews">El Cajon Valley
+                     News</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1961-04-06"/>
+               <pubPlace><placeName type="city" key="#ci_elcajon">El Cajon</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="review" key="#Hedger1961">O’Dell’s Early Life Aids ‘Dolphin’
+                     Story</title>
+                  <biblScope unit="page" n="A8"/>
+                  <author><persName type="author" key="#jhe">Hedger, Jean</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div n="1">
+               <head><title type="main"><hi rend="underline">NEWBERRY [sic]
+                  AWARD</hi></title></head>
+               <div n="2" type="section">
+                  <head><title type="section">
+                        <hi rend="bold">O'Dell's Early Life Aids 'Dolphin' Story</hi></title></head>
+                  <byline><hi rend="bold">By <persName type="author" key="#jhe">Jean
+                           Hedger</persName></hi></byline>
+                  <dateline><placeName type="city" key="#ci_ju">JULIAN</placeName>
+                     &#8212;</dateline>
+                  <p><persName type="author" key="#sod">Scott O'Dell</persName> of Stoneapple Farm
+                     drew from a life spent along <placeName type="region" key="#re_calcoast">the
+                        California coast</placeName> instead of books for material for his 1960
+                     Newberry [sic] Medal winner.</p>
+                  <p>The history of <rs><persName type="nativeamerican" key="#lw">the Lost Woman of
+                           San Nicholas Island</persName></rs> is the base of "Island of the Blue
+                     Dolphins." <persName type="author" key="#sod">O'Dell</persName> learned of
+                           <rs><persName type="nativeamerican" key="#lw">the Indian
+                        girl</persName></rs> he called <name type="fictional" key="#kar"
+                        >Karana</name> in <date when="1956">1956</date> while researching for his
+                     "Country of the Sun," a history of <placeName type="region" key="#re_socal"
+                        >Southern California</placeName>.</p>
+                  <p><span type="trope" n="9">What is known of <rs><persName type="nativeamerican"
+                              key="#lw">the lost woman</persName></rs> can be told in a few words.
+                        Records of a ship's captain show that when <rs><orgName
+                              type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                              Indians</orgName></rs> left <rs><placeName type="island" key="#i_sn"
+                              >the island</placeName></rs> she leaped into the sea and returned
+                        because <rs><name type="fictional" key="#ram">her brother</name></rs> was
+                        left behind.</span> She lived alone on <rs><placeName type="island"
+                           key="#i_sn">the island</placeName></rs> of perpetual winds for <rs><date
+                           notBefore="1835" notAfter="1853" cert="high">18 years</date></rs> after
+                           <rs><name type="fictional" key="#ram">her brother</name></rs> was killed
+                     by wild dogs and was found by a <persName type="frontiersman" key="#gni"
+                        >Captain Nidever</persName> in <date when="1853">1853</date>.</p>
+               </div>
+               <div n="3" type="section">
+                  <head><title type="main"><hi rend="bold">Narrative</hi></title></head>
+                  <p>This historical fragment is elaborated by <rs><persName type="author"
+                           key="#sod">the author</persName></rs> in a first-person narrative that
+                     firmly orients the reader. "<rs><name type="fictional" key="#kar">The
+                           narrator</name></rs> is a person rather than male or female, but it was
+                     necessary that she not be a repetition of <persName type="author" key="#dde"
+                        >Dafoe</persName>'s [<persName type="author" key="#dde">Defoe</persName>'s]
+                     "Robinson Crusoe," <persName type="author" key="#sod">O'Dell</persName>
+                     said.</p>
+                  <p>Inventive methods of survival were taken from a combination of coastal lore and
+                     the author's imagination.</p>
+                  <p>Lamps were made by <rs><name type="fictional" key="#kar">the girl</name></rs>
+                     from the dried bodies of little fish called "sai-sai"[sic]. These silver fish
+                     come swimming out of the sea in schools so thick you can almost walk on them
+                     "on nights when the moon shines full", [sic] says <rs><name type="fictional"
+                           key="#kar">the girl</name></rs>.</p>
+                  <p>This is an example of the sense of reality and time placement the adventure
+                     story gives. <rs><name type="fictional" key="#kar">The girl</name></rs> could
+                     not call the fish grunion, as we know them, or the story would be out the
+                     window, said <persName type="author" key="#sod">O'Dell</persName>.</p>
+               </div>
+               <div n="4" type="main">
+                  <head><title type="section"><hi rend="bold">Time Measured</hi></title></head>
+                  <p>She measured time by suns and moons, and first marked the seasons, then only
+                     the years, and at last made no record at all.</p>
+                  <p><rs><name type="fictional" key="#kar">The girl</name></rs> avoids the easy
+                     label of "earthquake" by saying "the earth rose and fell like a great animal
+                     breathing."</p>
+                  <p><rs><persName type="author" key="#sod">The newspaperman</persName></rs>,
+                     intensely conscious of his craft, has an effortless style in the story designed
+                     for both adults and children. "The book wrote itself," he said, "and this is
+                     the only time it has ever happened."</p>
+                  <p><persName type="author" key="#sod">O'Dell</persName> has been book editor of
+                     the <orgName type="publication" key="#lamirror">Los Angeles Mirror</orgName>
+                     <rs><date notBefore="1960-09" notAfter="1960-11">last fall</date></rs> after
+                     five or six years there. He is an authority on California history, and wrote
+                     "Hill of the Hawk," a regional novel. An uninteresting area is likely to be
+                     dismissed by <persName type="author" key="#sod">O'Dell</persName> as "a 10,000
+                     word topic."</p>
+                  <p>Only Anglo Saxon words are used in the lyric prose of "Island of the Blue
+                     Dolphins." Good writing has been defined as talk written down and O'Dell's
+                     language sounds well read aloud.</p>
+               </div>
+               <div n="5" type="section">
+                  <head><title type="main">
+                        <hi rend="bold">Classic Simplicity</hi></title></head>
+                  <p>There is a classic simplicity in this story of the sea. Few sea stories can
+                     afford to meander down unnecessary literary paths; something fundamental in the
+                     sea rejects unessentials. The object of speaking or writing should be to make
+                     something clear. If this does not happen, the story is pointless no matter how
+                     pretty the prose.</p>
+                  <p>O'Dell's prize winning novel is as clear as the poster on the corner
+                     illuminated by innate good taste.</p>
+                  <p>He visited <rs><placeName type="island" key="#i_sn">the four by eight mile
+                           island</placeName></rs> (typically measured archaically as "leagues" in
+                     the book) about 30 years ago when with the technical department of <orgName
+                        key="#paramount">Paramount Pictures</orgName> which sought a location for
+                     Stevenson's "Ebb Tide." (<placeName type="island" key="#i_sn">San Nicholas
+                        Island</placeName> was not chosen because of its lack of a harbor and
+                     landing dangers. The force of pounding waves and furious winds are expected to
+                     sweep <rs><placeName type="island" key="#i_sn">the island</placeName></rs> back
+                     into the sea someday.)</p>
+               </div>
+               <div n="6" type="section">
+                  <head><title type="main"><hi rend="bold">Coastal Living</hi></title></head>
+                  <p>The ways of coastal living and knowledge of plants and animals set down in a
+                     book by <persName type="author" key="#sod">O'Dell</persName> were not gained
+                     from one. Great mounds of abalone shells shining in the sun were seen by
+                           <rs><persName type="author" key="#sod">the author</persName></rs> when he
+                     was a boy watching the harvesting of the sea near <placeName type="city"
+                        key="#ci_pv">Palos Verdes</placeName> in the days before there were
+                     conservation laws. "You could chew on a dried abalone all day," he
+                     remembered.</p>
+                  <p>The trays of dying meat destined for <placeName type="country" key="#co_china"
+                        >China</placeName> covered 25 or 30 acres. The sights and sounds of these
+                     years led to Karana's fanciful scarecrow of abalone shells on <placeName
+                        type="island" key="#i_sn">the island</placeName>. The shells were hung on
+                     poles. Their insides were bright, they caught the sun, and turned one way and
+                     another in the wind.</p>
+                  <p>It is doubtful that anyone could grow too old to be delighted by the ingenuity
+                     of a whale rib fence to rebuff wild dogs. "I just wondered how one could be
+                     protected on an island with no wood," said <persName type="author" key="#sod"
+                        >O'Dell</persName>, "and this seemed logical."</p>
+                  <p>"It was important to me to say the things in the book," said <persName
+                        type="author" key="#sod">O'Dell</persName>, "we are in danger of losing the
+                     qualities of independence and self-reliance."</p>
+               </div>
+               <div n="7" type="section">
+                  <head><title type="main"><hi rend="bold">Specialization</hi></title></head>
+                  <p>He speaks unhappily of an age of specialization when lawyers can speak only of
+                     torts, and admires his <placeName type="city" key="#ci_ju">Julian</placeName>
+                     neighbors who have practical, diversified knowledge. One neighbor has built a
+                     5,000 square foot house by himself, including plastered ceilings and electrical
+                     wiring. Another invented a nasal spray.</p>
+                  <p>"Writers should write, not talk," said <rs><persName type="author" key="#sod"
+                           >the writer</persName></rs> who doesn't complain of a lack of literary
+                     neighbors.</p>
+                  <p><persName type="author" key="#sod">O'Dell</persName>, despite his admiration of
+                     self-reliance, would rather write than tend his 30-acre apple orchard or split
+                     wood although he does this occasionally. "Wood is $35 a cord, but can be split
+                     at $7 a cord," he remarked.</p>
+                  <p><persName type="author" key="#sod">O'Dell</persName> has cancelled previous
+                     contracts to clear the decks for another two-level book. This one will concern
+                           <rs><persName type="fictional" key="#hal">a vain Spaniard</persName></rs>
+                     who had five or six suits of armor and discovered <placeName type="country"
+                        key="#co_mexico">California</placeName> in <date when="1540">1540</date> two
+                     years before <persName type="seaman" key="#jca">Cabrillo</persName> came. He
+                     was named Alar Con and called himself the "son of the sun," thereby impressing
+                     early California residents considerably.</p>
+                  <p>The book[,] which won the Newberry [sic] Award[,] also is entered in the Hans
+                     Christian Anderson [Andersen] international contest. "Island of the Blue
+                     Dolphins" will be around a long time.</p>
+                  <p>The highly regarded Newberry [sic] award insures the life of a book; the
+                     story's topic had wide general interest for all ages; and it is beautifully
+                     written.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

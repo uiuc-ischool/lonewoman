@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="publication" key="#report">Reports of the University of California
+                  Archaeological Survey, No. 50</title>
+               <biblScope unit="volume">50</biblScope>
+               <biblScope unit="date"><date when="1960-05-16"/></biblScope>
+               <pubPlace><placeName type="city" key="#ci_berk">Berkeley</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Heizer1960">A San Nicolas Island Twined Basketry Water
+                     Bottle</title>
+                  <biblScope unit="page" from="1" to="3"/>
+                  <author><persName type="author" key="#rhe">Hezier, Robert
+                     Fleiming</persName></author>
+                  <date when="1960-05-16"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="section"><hi rend="bold">76.</hi></title>
+               <title type="main"><hi rend="bold">A <placeName type="island" key="#i_sn">SAN NICOLAS
+                        ISLAND</placeName> TWINED BASKET RY WATER BOTTLE</hi></title></head>
+            <byline><persName type="author" key="#rhe">Robert F. Heizer</persName></byline>
+            <div>
+               <head><title type="section">ABSTRACT</title></head>
+               <p>Concerning the few possessions taken by <rs><persName type="nativeamerican"
+                        key="#lw">the last surviving native of San Nicolas Island</persName></rs> to
+                     <placeName type="region" key="#re_mld">the mainland</placeName> in <date
+                     when="1853">1853</date>, published records are scarce or non-existent. The
+                  basketry analysis presented here is based upon a photograph, reproduced herewith,
+                  of a San Nicolas Island twined specimen which finally came to the <orgName
+                     type="museum" key="#mu_calacademyofscience">California Academy of
+                     Sciences</orgName> in <placeName type="city" key="#ci_sf">San
+                     Francisco</placeName>, but which was destroyed in the fire following the 1906
+                  earthquake.</p>
+               <p><span type="trope" n="6">In <date when="1836">1836</date> the <rs><persName
+                           type="group" key="#aji; #ndur; #misfats">Franciscan
+                           missionaries</persName></rs> effected the removal of <persName
+                        type="group" key="#bhagroup">the last survivors of the Nicoleño
+                        tribe</persName><hi rend="superscript">1</hi><note type="end" place="bottom"
+                        >1. The <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                           >Nicoleño group</orgName> is classified by <persName type="author"
+                           key="#tkr">Kroeber</persName> (<title type="monograph" key="#Kroeber1925"
+                           >1925</title>:633-34) as Shoshonean. This classification rests upon
+                        analysis of four words recorded from <rs><persName type="nativeAmerican"
+                              key="#lw">the old woman</persName></rs>. The words (after <persName
+                           type="author" key="#gei">Eisen</persName>, <title type="monograph"
+                           key="#Eisen1904">1904</title>:15) are: <hi rend="underline">tocah</hi>,
+                        hide; <hi rend="underline">nache</hi>, man; <hi rend="underline"
+                           >toygwah</hi>, sky; <hi rend="underline">puoochay</hi>, body.</note> to
+                        <placeName type="region" key="#re_mld">the mainland</placeName>.</span> In
+                  the confusion of the transfer <rs><persName type="nativeamerican" key="#lw">a
+                        woman</persName></rs> was left on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> who remained there alone until <date
+                     when="1853">1853</date> when <persName type="frontiersman" key="#gni">George
+                     Nidever</persName> brought her to <placeName type="mission" key="#mi_sb">Santa
+                     Barbara mission</placeName> where, after four months, she died. The several
+                  published and manuscript accounts of her life alone for <date from="1835"
+                     to="1853">eighteen years</date> on <placeName type="island" key="#i_sn">San
+                     Nicolas Island</placeName> are being prepared by me for
+                  <!--<title type="report"
+                     key="#HeizerElsasser1961">-->seperate
+                  publication<!--</title>-->.</p>
+               <p>The few personal possessions which she brought with her to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> in <date when="1853">1853</date> are
+                  said to have been sent to <placeName type="city" key="#ci_rom">Rome</placeName>
+                  except for one piece described as a "<title type="monograph" key="#Eisen1904"
+                     >water bottle made of rushes and covered with asphaltum</title>." This water
+                  bottle was reported in <date when="1904">1904</date> by <persName type="author"
+                     key="#gei">Eisen</persName> as in the possession of the <orgName type="museum"
+                     key="#mu_calacademyofscience">California Academy of Sciences</orgName> in
+                     <placeName type="city" key="#ci_sf">San Francisco</placeName>, and the
+                  illustrations of that same basketry piece shown here (Fig. 1) are reproduced from
+                  photographic prints found in the <persName key="#jcmerriam">C. Hart
+                     Merriam</persName> files at the <orgName type="institution" key="#in_ucb"
+                     >University of California</orgName>. The photographs were secured by Merriam's
+                  efforts, and are of particular value because the basket was destroyed, along with
+                  the building and other collections of <rs><orgName type="museum"
+                        key="#mu_calacademyofscience">the Academy</orgName></rs>, in the fire
+                  following the 1906 earthquake.</p>
+               <p>Dimensions of the bottle are not recorded, but its height may be estimated at
+                  about 10 inches (ca. 25 cm.) and its diameter at about 6 inches (ca. 16 cm.). The
+                  base of the bottle has a surface coating of asphaltum and there are small spots
+                  randomly distrubuted on the outer surface of the basket which apparently are daubs
+                  of asphaltum applied over leaks. Since <rs><persName type="nativeAmerican"
+                        key="#lw">the old Nicoleño woman</persName></rs> is known to have followed
+                  the customary Chumash-Gabrielino trick of coating the interior of baskets with
+                  asphaltum by means of lumps of asphalt and hot stones which melted the asphalt and
+                  distrubed it over the inner walls, it seems unlikely that the basket was, as
+                     <persName type="author" key="#gei">Eisen</persName> (<title type="monograph"
+                     key="#Eisen1904">1904</title>:15) states, "asphaltum covered."</p>
+               <p>The basket is made by the twined technique and the accompanying diagram (Fig. 2a)
+                  of technique has been kindly provided by <persName type="author" key="#mab">Dr. M.
+                     A. Baumhoff</persName>. In the diagram the dotted lines represent weft elements
+                  which have disappeared through rotting away. The disintegrated wefts may have been
+                  of buckskin, fur strips, feathers or hair. Two main areas, the body just above the
+                  center, and the neck, once held the decorative bands which have now disappeared.
+                  The ordinary warp appears to be of bundles of fibers rather than a single vegetal
+                  element, and this type of warp according to <persName key="#ldaw">Mr. L.
+                     Dawson</persName>, who has made a particular study of Southern California
+                  basketry, is also the ordinary Chumash technique. The alternately spaced wefts,
+                  now disappeared, probably were decorative elements. The alternating pitch of
+                  single pairs of weft elements to form a chevron has not been noted by <persName
+                     key="#ldaw">Mr. Dawson</persName> as a Chumash basketry trait, but he has
+                  observed this in two baskets attributed to Salinan manufacture, and this feature
+                  has been also noted by <persName key="#ldaw">Dawson</persName> on some of the
+                  basketry fragments from <placeName type="region" key="#re_imc">Isabella Meadows
+                     Cave</placeName>, <placeName type="county" key="#co_monterey">Monterey
+                     County</placeName> (Meighan, <date when="1955">1955</date>).</p>
+               <p>Beyond this not much can be said. Any basket from the <placeName type="region"
+                     key="#re_socalcoast">Southern California coastal area</placeName> is of
+                  interest because we know so little about the textile art of such groups as the
+                     <orgName type="nativeamericantribes" key="#natam_chumash">Chumash</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                     >Gabrieliño</orgName>. The uniqueness of the <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> specimen lies partly in the circumstances
+                  surrounding its history and preservation of this bare record in the form of a
+                  photograph now over half a century old. That such water bottles were commonly used
+                  by the <orgName type="nativeamericantribes" key="#natam_shoshone">Shoshonean
+                     tribes</orgName> of <placeName type="region" key="#re_socal">Southern
+                     California</placeName> seems probable since the mainland desert groups are
+                  otherwise reported to have used such forms, and there is a <orgName
+                     type="nativeamericantribes" key="#natam_chumash">Chumash</orgName> record for a
+                  large asphalt-sealed water bottle of basketry (<persName type="author" key="#rhe"
+                     >Heizer</persName>, <date when="1955">1955</date>, p. [102]) as well as one for
+                  the <orgName type="nativeamericantribes" key="#natam_costan">Costanoans</orgName>
+                     (<hi rend="underline">ibid</hi>., p. 163). That there remain as yet
+                  undiscovered baskets dating from the <date from="1700" to="1799">eighteenth
+                     century</date> is a practical certainty, and in the course of time museum
+                  collections in <placeName type="country" key="#co_mexico2">Mexico</placeName> and
+                     <placeName type="region" key="#re_europe">Europe</placeName> will probably
+                  yield such treasures to the seeker. <persName key="#font">Father Font</persName>
+                  on the Anza expedition in <date when="1776">1776</date> says that he saw no
+                  baskets being made on the <placeName type="region" key="#re_sbchannel">Santa
+                     Barbara Channel</placeName> coast and quotes some religious colleagues who told
+                  him that baskets were made on <placeName type="island" key="#i_scruz">Santa Cruz
+                     Island</placeName> and traded from there to the mainland people. Anza collected
+                  a number of baskets from the <orgName type="nativeamericantribes"
+                     key="#natam_chumash">Chumash</orgName> on the way north with the intention of
+                  taking them back to <placeName type="country" key="#re_newsp">Mexico</placeName>,
+                  and it is these pieces which may ultimately turn up in <placeName type="country"
+                     key="#co_mexico2">Mexico</placeName> if a search is made for them. <persName
+                     key="#font">Font</persName> remarked on the return trip a few months later that
+                  no baskets were to be seen in the Channel villages because the expedition had
+                  already collected them--presumably the supply was not yet replenished. While
+                  speaking of unusual baskets, reference should be made to the two remarkable early
+                  ninteenth century specimens, one of which is now in the <orgName type="museum"
+                     key="#mu_lowie">University of California Robert H. Lowie Museum of
+                     Anthropology</orgName> and described by <persName key="#znuttall">Zelia
+                     Nuttall</persName> (<date when="1924">1924</date>) and to the unusal seedbeater
+                  (?) from a cave in the <placeName type="region" key="#re_manzana">Manzana
+                     region</placeName>, <placeName type="county" key="#co_sb">Santa Barbara
+                     County</placeName>, described by <persName key="#irw">Irwin</persName> (<date
+                     when="1946">1946</date>) and illustrated by <persName type="author" key="#rhe"
+                     >Heizer</persName> (<date when="1951">1951</date>, Fig. 3E).</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

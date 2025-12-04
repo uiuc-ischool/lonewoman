@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="magazine"><orgName type="publication" key="#sbmag">Santa Barbara
+                            Magazine</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">14</biblScope>
+                    <biblScope unit="issue">4</biblScope>
+                    <date when="1988-07-01"/>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#Howorth1988-Magic">San Nicolas Island: The
+                            Elusive Source of the Chumash Magic Stones</title>
+                        <biblScope unit="page" from="38" to="42"/>
+                        <author><persName type="author" key="#howorth">Howorth, Peter
+                            C.</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><placeName type="island" key="#i_sn">San Nicolas
+                            Island</placeName>: The Elusive Source of the Chumash Magic
+                        Stones</title></head>
+                <byline>By <persName type="author" key="#howorth">Peter C.
+                    Howorth</persName></byline>
+                <p><emph><rs><persName key="#chusor">A Chumash sorcerer</persName></rs> slowly
+                        arranges twenty elongated stones in a circle around a disc-shaped stone.
+                        Suddenly he clashes all the stones together and sprinkles water over them.
+                        Smoke rises. Now the rains will come.</emph></p>
+                <p><emph>In the area that will someday bear the name <placeName type="city"
+                            key="#ci_ven">Ventura</placeName>, <rs><persName key="#chusor">a
+                                shaman</persName></rs> squeezes an oddly shaped stone in his fist.
+                        When he opens his fingers, the stone is moist, proof of its rainmaking
+                        power.</emph></p>
+                <p><emph>At <placeName type="city" key="#ci_tej">Tejón</placeName>, <rs><persName
+                                key="#chusor">an Indian</persName></rs> opens a deerskin pouch and
+                        removes a stone from where it lies nestled among goose down and chia seeds.
+                        He takes out the feathers and the seeds, makes a pile of them, then lights
+                        them on fire. Having burned his animal offering to the stone, <rs><persName
+                                key="#chusor">the Indian</persName></rs> places fresh down and seeds
+                        in the pouch, feeding the stone, caring for it. He speaks to the stone.
+                        "Guard the house because you are very powerful; care for the house when the
+                        wind makes it shake."</emph></p>
+                <p><emph>The magic stones are unusual, alien. They are lens-shaped, metallic; they
+                        even seem to rust. Some have faint concentric stratifications. They are
+                        surprisingly heavy, yet comfortable to hold.</emph></p>
+                <p><emph>Where did these magic stones come from? Were they shaped by hand or formed
+                        by nature? Why did native tribes throughout much of the <placeName
+                            type="region" key="#re_socal">Southern California</placeName> coast have
+                        them, call them by similar names and use them in similar ways? These
+                        questions and more have baffled researchers since the <rs><date
+                                notBefore="1800-01-01" notAfter="1820-01-01">early
+                        1800s</date></rs>, when <persName type="missionfather" key="#boscana">Father
+                            Gerónimo Boscana</persName> from <placeName type="mission"
+                            key="#mi_stjohn">Mission San Juan Capistrano</placeName> first
+                        documented the stones' existence.</emph></p>
+                <p><emph>Through a dramatic sequence of events, researcher <persName type="author"
+                            key="#howorth">Peter C. Howorth</persName> has uncovered a major source
+                        of the magic stones. By discovering the location, he has brought fresh
+                        insight to one of the great archaeological puzzles on the <placeName
+                            type="region" key="#re_paccoast">West Coast</placeName>.</emph></p>
+                <p><emph>The search for the origin of the stones began at <rs><date notBefore="1899"
+                                notAfter="1901">the turn of this century</date></rs>. . .
+                    .</emph></p>
+                <p>In the <rs><date notBefore="1900-01-01" notAfter="1920-01-01">early
+                        1900s</date></rs>, anthropologist <persName type="author" key="#jha">John
+                        Peabody Harrington</persName>, who had studied the local <orgName
+                        type="nativeamericantribes" key="#natam_chumash">Chumash Indians</orgName>
+                    and their culture for decades, noticed that their magic stones were like nothing
+                    he had seen on <placeName type="region" key="#re_mld">the mainland</placeName>,
+                    yet many mainland natives had them. He decided to find out why. He asked
+                            <rs><persName key="#indian12">an Indian</persName></rs> about the origin
+                    of the stones. <rs><persName key="#indian12">The man</persName></rs> replied
+                    vaguely that the stones could be found on an island or at the beach. <persName
+                        type="author" key="#jha">Harrington</persName> purchased some of these
+                    stones from <rs><orgName type="nativeamericantribes" key="#natam_chumash">the
+                            Indians</orgName></rs>. He continued his research, but the mystery
+                    remained unsolved.</p>
+                <p>In <date when="1981">1981</date>, the late <persName type="author" key="#thu"
+                        >Travis Hudson</persName>, curator of anthropology at the <orgName
+                        type="museum" key="#mu_sbmuseum">Museum of Natural History</orgName>,
+                    discovered an obscure reference to the magic stones' origin in one of
+                    Harrington's voluminous multilingual manuscripts. The stones supposedly came
+                    from distant <placeName type="island" key="#i_sb">Santa Barbara
+                        Island</placeName>, nearly 70 miles offshore from the city of <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                <p><persName type="author" key="#thu">Hudson</persName>, knowing my longstanding
+                    interest in anthropology, mentioned the mystery of the magic stones' origin to
+                    me and his discovery of the clue which suggested that they came from <placeName
+                        type="island" key="#i_sb">Santa Barbara Island</placeName>. Acting on
+                    Hudson's evidence, he and I organized an expedition to try to locate the source
+                    of the magic stones on <rs><placeName type="island" key="#i_sb">the
+                            island</placeName></rs>. Anthropologist <persName type="author"
+                        key="#tbl">Thomas Blackburn</persName>, one of Hudson's collaborators,
+                    joined us.</p>
+                <p>We combed <rs><placeName type="island" key="#i_sb">the island</placeName></rs>
+                    carefully but were disappointed. We could find neither the stones nor the
+                    geologic structure that would form their matrix. I speculated that the reference
+                    that guided us to <rs><placeName type="island" key="#i_sb">this
+                            island</placeName></rs> actually referred to the <placeName
+                        type="island" key="#i_chi">Channel Islands</placeName> in general rather
+                    than to <placeName type="island" key="#i_sb">Santa Barbara Island</placeName> in
+                    particular. Before the turn of the century, when <persName type="author"
+                        key="#jha">Harrington</persName> made his provocative notation, mainland
+                    residents called the <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName> the Santa Barbara Islands. An error in transcription
+                    could easily have steered us in the wrong direction. In any event, we would
+                    never find the solution to the puzzle on lonely <placeName type="island"
+                        key="#i_sb">Santa Barbara Island</placeName>. We would have to look for the
+                    stones on the remaining seven islands and <placeName type="region" key="#re_mld"
+                        >the mainland coast</placeName>.</p>
+                <p>Over the ensuing years the puzzle continued to tease me. I tucked the information
+                    away in the back of my mind and wondered if anyone would ever discover where
+                    Indian sorcerers gathered their magic stones.</p>
+                <p>In late <date when="1987">1987</date>, a search for historic shipwrecks takes me
+                    to <placeName type="island" key="#i_sn">San Nicolas Island</placeName>, the most
+                    remote of our eight <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName>. The <orgName type="military" key="#mi_navy">United
+                        States Navy</orgName> has managed <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> since <date when="1947">1947</date>, using it as a
+                    testing site for military weaponry. Part of the Navy's mission is to preserve
+                    the cultural and historic resources on <rs><placeName type="island" key="#i_sn"
+                            >the island</placeName></rs>; hence my shipwreck search.</p>
+                <p>The <orgName type="military" key="#mi_navy">Navy</orgName> assigns <persName
+                        type="author" key="#klope">Matt Klope</persName>, a civilian employed by the
+                    military as a wildlife biologist, to facilitate my research on <rs><placeName
+                            type="island" key="#i_sn">the island</placeName></rs>. <persName
+                        type="author" key="#klope">Klope</persName> also serves as an escort; the
+                        <orgName type="military" key="#mi_navy">Navy</orgName> has declared
+                            <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                    strictly off-limits to the general public, allowing occasional access to special
+                    groups such as professional researchers.</p>
+                <p>We are up before dawn, rattling across <rs><placeName type="island" key="#i_sn"
+                            >the island</placeName></rs> in a military truck. A broad sandy cove
+                    opens in front of us like a catcher's mitt. We begin searching amid the flotsam
+                    and jetsam and soon discover bits of wreckage. Nothing large, nothing historic.
+                    I urge <persName type="author" key="#klope">Klope</persName> on; we hope to walk
+                    around <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                    during our stay.</p>
+                <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is a wild, hostile
+                    place, yet it seems to welcome those who revel in natural surroundings. Like a
+                    half-submerged egg, its smooth flanks flow into the sea just as the sea flows
+                    around it. Confronted by sharp winds and eerie rock formations, I begin to think
+                    about the mysterious tribe of Indians called <orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleños</orgName>
+                    who lived here long ago.</p>
+                <p>Who were <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                            >these resourceful people</orgName></rs>? Anthropologists believe they
+                    were part of the <orgName type="nativeamericantribes"
+                        key="#natam_GabrilenoTongva">Gabrielino tribe</orgName>, who lived south of
+                        <placeName type="city" key="#ci_malibu">Malibu</placeName>. Beyond that,
+                    researchers know little about them: only a few of their words and virtually
+                    nothing of their culture.</p>
+                <p>The sculptured sandstone, hewn by the surf, forms a haunting seascape. Empty
+                    abalone shells glitter on the bluffs overlooking the shore; <orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleños</orgName>
+                    once harvested abalones along this lonely coast. The nearby intertidal zone
+                    still teems with the marine life that provided sustenance for <rs><orgName
+                            type="nativeamericantribes" key="#natam_NicolenoTongva">the island's
+                            hardy inhabitants</orgName></rs>.</p>
+                <p>Farther on, <persName type="author" key="#klope">Klope</persName> points out a
+                    spot where the <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >Nicoleños</orgName> chipped a groove under a bluff which seeped fresh
+                    water. The groove culminates in a ledge where <rs><orgName
+                            type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                            Indians</orgName></rs> could have left a tar-lined basket to collect the
+                    dripping water.</p>
+                <p><span type="trope" n="6">We continue our search, walking in the shadow of
+                                <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                >these forgotten people</orgName></rs>, exploring the tide pools
+                        they once visited. The sandstone seems to retain something of their
+                        presence; the rock pools evoke a thousand moods. If only the rocks could
+                        speak; if only we could set back the clock a few hundred years.</span></p>
+                <p><span type="trope" n="5"/>The otherworldliness of the place strikes me. Something
+                    seems unusual here. I notice a dark form imbedded in the sandstone. An oddly
+                    shaped rock stares up at me.</p>
+                <p><span type="trope" n="5">A magic stone.</span></p>
+                <p><span type="trope" n="5">I chip it out of the rocks, handling it
+                        carefully.</span></p>
+                <p><span type="trope" n="5">The little stone is lens-shaped and stratified. It
+                        glares at me like a bloodshot eye, oozing rusty tears onto the sandstone. It
+                        seems alive, powerful, yet I feel no sense of foreboding. Instead, I feel
+                        strangely at peace. Perhaps I was meant to find it. Maybe the rocks have
+                        whispered their secret to me after all.</span></p>
+                <p><span type="trope" n="5">Have I discovered the very spot where Nicoleño sorcerers
+                        gathered their magic stones? I silently vow to find the answer.</span></p>
+                <p><persName type="author" key="#klope">Matt</persName> and I continue walking,
+                    thoughtful now. We see evidence of the <orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">Nicoleños</orgName> everywhere.</p>
+                <p>I remember that <persName type="frontiersman" key="#gni">George
+                        Nidever</persName>, a sea otter hunter, wrote that all but one of <persName
+                        type="group" key="#bhagroup">the remaining Nicoleños</persName> were brought
+                    to <placeName type="region" key="#re_mld">the mainland</placeName> in <date
+                        when="1835">1835</date>. At the last moment, just before <rs><name
+                            type="ship" key="#sh_peoresnada">the ship</name></rs> was to sail,
+                            <rs><persName type="nativeamerican" key="#lw">one woman</persName></rs>
+                    left the group to search <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> for <rs><persName type="nativeamerican"
+                            key="#lwchild">her child</persName></rs>, whom she never found. A strong
+                    wind forced <rs><name type="ship" key="#sh_peoresnada">the ship</name></rs> to
+                    sail without <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs>. <persName type="nativeamerican" key="#lw">The Lone
+                        Woman</persName>, as she came to be called, was marooned on <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName> for <date
+                        from="1835" to="1853">eighteen years</date> before <persName
+                        type="frontiersman" key="#gni">Nidever</persName> finally discovered her and
+                    brought her to <placeName type="region" key="#re_mld">the mainland</placeName>.
+                    By that time, <persName type="group" key="#bhagroup">her fellow tribe
+                        members</persName> had completely disappeared. <rs><persName
+                            type="nativeamerican" key="#lw">The Lone Woman</persName></rs> died a
+                    few weeks after her arrival on <placeName type="region" key="#re_mld">the
+                        mainland</placeName> and was buried behind <rs><placeName
+                            key="#sbmissioncemetary">the Old Mission</placeName></rs>.</p>
+                <p>I shiver a little as the sun arcs lower over the sea. We have reached the west
+                    end of <rs><placeName type="island" key="#i_sn">the island</placeName></rs> at
+                    last, and the weirdly shaped sandstone formations radiate a golden glow. I
+                    wonder if this place held any special significance for the <orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleños</orgName>.
+                    Something about <rs><placeName type="island" key="#i_sn">this
+                        island</placeName></rs> affects me profoundly.</p>
+                <p>Back on <placeName type="region" key="#re_mld">the mainland</placeName>, the
+                    stone burns a hole in my pocket. I telephone <persName type="author" key="#jti"
+                        >Jan Timbrook</persName>, associate curator of anthropology at the <orgName
+                        type="museum" key="#mu_sbmuseum">Santa Barbara Museum of Natural
+                        History</orgName> and long-time associate of <persName type="author"
+                        key="#thu">Travis Hudson</persName>. She wants to see the stone.</p>
+                <p>Feeling unsure about my find, I explain that much time has passed since I have
+                    seen a pedigreed magic stone from the museum's collection and that what I have
+                    is probably a worthless rock. I remind <persName type="author" key="#jti"
+                        >Timbrook</persName> that I'm no geologist, so we should have a geologist
+                    examine the rock.</p>
+                <p><persName type="author" key="#jti">Timbrook</persName> compares the stone I found
+                    on <placeName type="island" key="#i_sn">San Nicolas</placeName> with the magic
+                    stones in the museum's collection. It's hard to tell them apart. She also
+                    unearths a geologist's hypothesis about where <rs><orgName
+                            type="nativeamericantribes" key="#natam_chumash">the
+                        Indians</orgName></rs> may have found the magic stones. We are astounded;
+                    the description is a blueprint for the San Nicolas site.</p>
+                <p>I confer with <persName type="author" key="#conti">Kathy Conti</persName>, a
+                    staff associate at <rs><orgName type="museum" key="#mu_sbmuseum">the
+                            museum</orgName></rs>, and describe my find. She asks if I have read
+                        <persName type="author" key="#henshaw">Henshaw</persName>, a linguist who
+                    studied Native American languages in the latter part of the nineteenth century.
+                    She tells me that in <date when="1885">1885</date>
+                    <persName type="author" key="#henshaw">Henshaw</persName> wrote a paper on the
+                    Indian vocabularies of this region. The paper, relates <persName type="author"
+                        key="#conti">Conti</persName>, contains a tantalizing footnote.</p>
+                <p>The footnote is a bombshell. After noting the word <emph>Ha-la-ca't</emph>, the
+                    Chumash word for <placeName type="island" key="#i_sn">San Nicolas
+                        Island</placeName>, <persName type="author" key="#henshaw"
+                        >Henshaw</persName> added the cryptic phrase "magicians' stones from
+                        <placeName type="island" key="#i_sn">this island</placeName>." I feel a
+                    strange thrill at reading the note <persName type="author" key="#henshaw"
+                        >Henshaw</persName> penned <rs><date when="1885">more than a century
+                            ago</date></rs>. Another piece of the puzzle falls into place.</p>
+                <p>Meanwhile, <persName key="#geologist">a geologist</persName> who has worked at
+                        <placeName type="island" key="#i_sn">San Nicolas Island</placeName> offers
+                    us another clue. <persName key="#geologist">The geologist</persName> explains
+                    that when organic matter becomes trapped in sand with just the right chemical
+                    composition, the decaying organic matter attracts iron. Gradually, the layers of
+                    sand build, and the iron concentration flattens as the sand hardens into stone.
+                    This type of sandstone occurs only on <placeName type="island" key="#i_sn">San
+                        Nicolas Island</placeName>, on the three largest northern <placeName
+                        type="island" key="#i_northernchi">Channel Islands</placeName> and along a
+                    few parts of <placeName type="region" key="#re_mld">the mainland</placeName>.
+                    But the iron concretions do not always occur in this type of sandstone.
+                    Certainly I can't remember finding any iron outcrops on <rs><placeName
+                            type="island" key="#i_northernchi">those three other
+                        islands</placeName></rs>, nor along <placeName type="region" key="#re_mld"
+                        >the mainland coast</placeName>.</p>
+                <p>Joining the list of specialists who have become involved in the project is
+                        <persName type="author" key="#tbl">Thomas Blackburn</persName>, the
+                    anthropologist who accompanied me on the 1981 search for the magic stones on
+                        <placeName type="island" key="#i_sb">Santa Barbara Island</placeName>.
+                        <persName type="author" key="#tbl">Blackburn</persName> is enthusiastic and
+                    encouraging about my find. Willing to visit <placeName type="island" key="#i_sn"
+                        >San Nicolas</placeName> with us to look at the site, he will give us a
+                    professional opinion on our findings.</p>
+                <p>With the permission of the <orgName type="military" key="#mi_navy"
+                    >Navy</orgName>, we assemble another expedition to <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName>. The new team consists of
+                            <rs><persName type="author" key="#howorth">myself</persName></rs>,
+                        <persName type="author" key="#jti">Jan Timbrook</persName>, <persName
+                        type="author" key="#tbl">Thomas Blackburn</persName>, <persName
+                        type="author" key="#conti">Kathy Conti</persName> and <persName
+                        type="author" key="#gal">Glenn Allen</persName>, a professional photographer
+                    who will help document our finds. Together we examine the magic stone site and
+                    collect new specimens. Considering the evidence we have already unearthed in our
+                    studies on <placeName type="region" key="#re_mld">the mainland</placeName>,
+                        <persName type="author" key="#tbl">Blackburn</persName> voices his opinion
+                    that this spot was very likely a major source for the sorcerers' magic
+                    stones.</p>
+                <p>Reviewing the process that led us to solve the mystery of the magic stones
+                    prompts us to assess the implications of our team's find. Even though we now
+                    know that the magic stones almost certainly came from <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName>, we are still no closer to
+                    understanding the enigmatic <orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">Nicoleños</orgName>. Were they just another
+                    lonely tribe, isolated from other groups by the savage sea? The <orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleños</orgName>
+                    would have been able to paddle over to <rs><placeName type="island" key="#i_chi"
+                            >the other islands</placeName></rs> or to <placeName type="region"
+                        key="#re_mld">the mainland</placeName> only during exceptionally calm
+                    weather. Certainly they had a precious commodity to trade: stones believed to
+                    possess supernatural powers and found nowhere else in this region. The
+                    difficulty of transporting such stones from this windswept shore would only
+                    enhance their value. <span type="trope" n="5">Or were the <orgName
+                            type="nativeamericantribes" key="#natam_NicolenoTongva"
+                            >Nicoleños</orgName> a cult of shamans who performed sacred rituals on
+                                <rs><placeName type="island" key="#i_sn">that wild, remote
+                                island</placeName></rs>?</span></p>
+                <p><span type="trope" n="5">We may never know the answers to these questions. Almost
+                        all of the evidence has been swept away by the winds of <placeName
+                            type="island" key="#i_sn">San Nicolas</placeName>, making each find
+                        precious, each clue vital to the research. We can only piece together the
+                        fragments of history left to us, search for more evidence and hope,
+                        eventually, to unlock another mystery of the past.</span></p>
+                <p><emph><rs><persName type="author" key="#howorth">The author</persName></rs>
+                        and</emph>
+                    <orgName type="publication" key="#sbmag">Santa Barbara Magazine</orgName>
+                    <emph>deeply appreciate the cooperation of the <orgName type="military"
+                            key="#mi_navy">United States Navy</orgName> and <persName type="author"
+                            key="#klope">Matt Klope</persName> in helping to make this story
+                        possible.</emph></p>
+                <p><emph>Naturalist, writer and photographer <persName type="author" key="#howorth"
+                            >Peter C. Howorth</persName> specializes in stories relating to the
+                            <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName>.</emph></p>
+            </div>
+        </body>
+    </text>
+</TEI>

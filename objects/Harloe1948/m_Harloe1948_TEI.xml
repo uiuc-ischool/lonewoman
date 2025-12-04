@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph">The Life of Isaac J. Sparks (master's thesis, University of
+                  Southern California, 1948)</title>
+               <publisher>University of Southern California</publisher>
+               <editor/>
+               <date when="1948"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Harloe1948">Removal of the Indians from San Nicolas
+                     Island</title>
+                  <biblScope unit="page" from="45" to="58"/>
+                  <author><persName type="author" key="#lhar">Leo M. Harloe</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="book_chapter">
+            <head><title type="main">CHAPTER IV REMOVAL OF <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">THE INDIANS FROM SAN NICOLAS
+                     ISLAND</orgName></rs></title></head>
+            <p>In <placeName type="state" key="#st_cal">California</placeName>
+               <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> off the coast
+               of <placeName type="city" key="#ci_sb">Santa Barbara</placeName> are one of the
+               area's most interesting phenomena. They have repeatedly figured in the exploration
+               and conquest of <placeName type="state" key="#st_cal">California</placeName> as they
+               are one of the first stopping places for ships returning from <placeName
+                  type="island" key="#i_pacific">the Pacific Islands</placeName>. When the sailors
+               who were dying from scurvy and suffering the indescribably agonies which accompany
+               this disease, the curse of earlier mariners, sighted <rs><placeName type="island"
+                     key="#i_chi">these islands</placeName></rs>, prayers of thanksgiving were
+               offered to the <persName key="#mary">Virgin Mary</persName>.</p>
+            <p><rs><placeName type="island" key="#i_chi">These islands</placeName></rs> were of
+               particular importance to the early trappers. During the summer months the sea otter
+               migrated south, and <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs> were breeding grounds for them. The otter skins were
+               extremely valuable. Even the great <orgName type="organization" key="#rfurcompany"
+                  >Russian-American Company</orgName> sent from the north trappers to obtain these
+               skins. As <persName type="investor" key="#isp">Isaac Sparks</persName> and <persName
+                  type="frontiersman" key="#gni">George Nidever</persName> were associated in the
+               business of fur trapping, they had something more than a casual interest in
+                     <rs><placeName type="island" key="#i_chi">these islands</placeName></rs>.</p>
+            <p>To clarify the difficulties and hardships involved in the later removal of the
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">Indians
+                     from San Nicolas Island</orgName></rs>, a description of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> and its people is
+               appropriate.</p>
+            <p>About eighty miles south of <placeName type="city" key="#ci_ven">Ventura</placeName>
+               is <rs><placeName type="island" key="#i_sn">a wind-swept island</placeName></rs>
+               which has the appearance of being gently lifted from the depths of the ocean. The
+               island's altitude is about 800 feet above sea level. It is surrounded by
+               comparatively low banks; there is a gradual acclivity which terminates in abrupt
+               escarpments. The surface of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> is relatively level.<hi rend="superscript">1</hi><note
+                  n="1" place="bottom"><hi rend="superscript">1</hi>
+                  <title type="article" key="#Bowers1892">Ventura, <hi rend="underline"
+                        >Observer</hi></title>, <date when="1892-12-20">December 20,
+                  1892</date>.</note>
+               <rs><placeName type="island" key="#i_sn">This island</placeName></rs> has a mean
+               length of about nine miles and an average width of about four miles. The longer axis
+               is nearly east and west.</p>
+            <p>From the geological viewpoint, <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> is of recent origin. The fossils, which are numerous in
+               some places, are of quaternary period except some found in the southeastern portion
+               of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>; these latter
+               may probably be classified as Pliocene.</p>
+            <p>At the time of the removal of the <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">Indians</orgName></rs>, <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> was treeless.<hi
+                  rend="superscript">2</hi><note n="2" place="bottom"><hi rend="superscript">2</hi>
+                  According to <persName type="frontiersman" key="#gni">Nidever</persName> and
+                     <persName type="investor" key="#isp">Sparks</persName> there were no
+                  trees.</note> There was on it neither tree nor shrub except a small species of
+               thorn and cactus, neither of which obtain a height of more than two or three feet.
+               However, this has not always been the case; for there are existing evidences to
+               indicate that <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+               was once covered with timber. <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> mentions scrub trees and moss in <date when="1850"
+               >1850</date>, but there was not enough to give any protection. Much of the surface is
+               covered with dead land shells—-helix, trionix, and helix gabbi.<hi rend="superscript"
+                  >3</hi><note n="3" place="bottom"><hi rend="superscript">3</hi>
+                  <title type="article" key="#Bowers1892">Ventura, <hi rend="underline"
+                        >Observer</hi></title>, <date when="1892-12-20">December 20,
+                  1892</date>.</note> When they flourished, there must have been a great deal of
+               vegetation on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+               Their large size and numbers are noticeable to even the casual observer.</p>
+            <p>These shells were used by <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs> as money. Shells from
+                     <rs><placeName type="island" key="#i_sn">this island</placeName></rs> have been
+               found in the region of the <placeName type="region" key="#re_sjvalley">San Joaquin
+                  Valley</placeName> where they were identified by the engraving on them as having
+               originated on <rs><placeName type="island" key="#i_sn">this one
+                  island</placeName></rs>, which has led to the belief that there was a trade
+               carried on all over the central region of <rs><placeName type="type" key="#st_cal"
+                     >California</placeName></rs> by <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs>.<hi rend="superscript"
+                  >4</hi><note n="4" place="bottom"><hi rend="superscript">4</hi> There is a display
+                  of these shells, the engravings, and their approximate value at the <orgName
+                     type="museum" key="#mu_southwest">Southwest Museum</orgName>.</note></p>
+            <p>Although <rs><placeName type="island" key="#i_sn">the island</placeName></rs> was
+               characterized as being wind-swept, this is true only at certain seasons of the year;
+               at other times the sea and the climate are calm and serene. During the season in
+               which the wind prevails, it is difficult to land and more difficult to remain at
+               anchor. <rs><persName type="author" key="#lhar">The writer</persName></rs> spent a
+               week on <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in the
+               month of <date when="1947-09">September</date>. <span type="trope" n="5">Several
+                  times during this week the sea lashed furiously, while the waves and spray were
+                  flung thirty feet high to dash against the rocky shore. The noise made by the
+                  tumultuous ocean closely resembled thunder, and <rs><placeName type="island"
+                        key="#i_sn">the entire island</placeName></rs> seemed to shake when each
+                  wave broke upon the rocks. Even after living all my life on or near the ocean,
+                  never before had I witnessed such a natural phenomenon.</span></p>
+            <p>When <persName type="seaman" key="#jca">Cabrillo</persName> sailed up <rs><placeName
+                     type="region" key="#re_calcoast">the coast</placeName></rs>
+               <rs><date notAfter="1548">four hundred or more years ago</date></rs>, he seems not to
+               have discovered <placeName type="island" key="#i_sn">San Nicolas Island</placeName>;
+               nor was it seen by <persName type="seaman" key="#gva">Vancouver</persName> during his
+               voyage years later. The earliest recorded voyagers who visited <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> named it "Sea Otter
+               Island," because of the great number of sea otters found there. At the present time
+               there are numerous aquatic birds, land birds, and a small fox on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>. Numerous skeletons of
+               two species of dog are to be found on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. These dogs were living as late as <date when="1853"
+                  >1853</date>; they had been domesticated by <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  Indians</orgName></rs>.<hi rend="superscript">5</hi><note n="5" place="bottom"><hi
+                     rend="superscript">5</hi>
+                  <persName type="frontiersman" key="#jpr">John Price</persName>, <hi
+                     rend="underline">Diary of Year 1860</hi>, 16.</note></p>
+            <p><span type="trope" n="3">The relics found on <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> display a workmanship superior to that of
+                  relics found on <rs><placeName type="group"
+                        key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the other
+                        islands</placeName></rs> and on <placeName type="region" key="#re_mld">the
+                     mainland</placeName>.</span> This indicates contact with the northern tribes.
+               The barbed spear points used in fishing are not found on <rs><placeName type="group"
+                     key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the other
+                     channel islands</placeName></rs>.<hi rend="superscript">6</hi><note n="6"
+                  place="bottom"><hi rend="superscript">6</hi>
+                  <title type="article" key="#Bower1892">Ventura, <hi rend="underline"
+                     >Observer</hi>, December 20, 1892</title>.</note> The island aborigine
+               fashioned many implements from stone and bone, but the use of these implements is a
+               puzzle to archeologists. <span type="trope" n="3">The opinion is held that there was
+                  on <rs><placeName type="island" key="#i_sn">this island</placeName></rs> a
+                  comparatively higher civilization found than on <placeName type="region"
+                     key="#re_mld">the mainland</placeName> and on <rs><placeName type="group"
+                        key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the other
+                        islands</placeName></rs>. The inhabitants seemed to have been of superior
+                  physical mould; the women were tall, handsome, and of a lighter complexion than
+                  the other natives of <rs><placeName type="region" key="#re_socal">this
+                        region</placeName></rs>.</span><hi rend="superscript">7</hi><note n="7"
+                  place="bottom"><hi rend="superscript">7</hi>
+                  <hi rend="underline"><title type="article" key="#Bowers1892"
+                  >Ibid</title></hi>.</note></p>
+            <p>Between <date from="1803" to="1840">1803 and 1840</date>
+               <rs><orgName type="organization" key="#rfurcompany">the Russians</orgName></rs>
+               habitually visited <placeName type="island" key="#i_sn">San Nicolas
+                  Island</placeName> in their search for the valuable fur of the sea otter. They
+               brought with them <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak"
+                     >natives of Alaska</orgName></rs> to whom they had taught the use of firearms.
+               It is said that <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba">the Russians</persName></rs> left
+               some of <rs><orgName type="nativeamericantribes" key="#natam_kodiak">these
+                     natives</orgName></rs> on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> to continue the work of capturing otters after the
+               Russians' vessels had sailed north. While <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba">the Russians</persName></rs> were
+               absent, <rs><orgName type="nativeamericantribes" key="#natam_kodiak">these Alaskan
+                     Indians</orgName></rs> took possession of the women on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>. In the conflict which
+               followed all the men and male children were killed. When the Russian ships returned
+               and removed <rs><orgName type="nativeamericantribes" key="#natam_kodiak">the
+                     Alaskans</orgName></rs>, the women were abandoned to their fate. In some way
+               this news reached the <rs><persName type="group" key="#aji; #ndur; #misfats">mission
+                     fathers</persName></rs>; and the story which follows tells of the Indians'
+               removal and the story of <rs><persName type="nativeamerican" key="#lw">the lone woman
+                     of San Nicolas Island</persName></rs>.</p>
+            <p><rs><title type="manuscript" key="#Nidever1878">George Nidever's
+                  statement</title></rs> regarding <rs><persName type="nativeamerican" key="#lw">the
+                     old Indian woman of San Nicolas Island</persName></rs>, the manner in which she
+               was left, and the circumstances of her rediscovery is, in substance as follows:<hi
+                  rend="superscript">8</hi><note n="8" place="bottom"><hi rend="superscript">8</hi>
+                  <title type="manuscript" key="#Nidever1878">George Nidever, <hi rend="underline"
+                        >The Indian Woman of San Nicolas</hi> (MS)</title>.</note></p>
+            <p>In the month of <date when="1835-08">August, 1835</date>,<hi rend="superscript"
+                  >9</hi><note n="9" place="bottom"><hi rend="superscript">9</hi> The exact date as
+                  taken from John Price's <hi rend="underline">Diary of 1835</hi> was August
+                  21.</note> to the best of Nidever's memory, <persName type="frontiersman"
+                  key="#isp">Isaac J. Sparks</persName>, an otter hunter of <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, <persName type="frontiersman" key="#iwi"
+                  >Bill Williams [sic]</persName><hi rend="superscript">10</hi><note n="10"
+                  place="bottom"><hi rend="superscript">10</hi> "<persName type="frontiersman"
+                     key="#iwi">Bill Williams</persName>" should not be here confused with the
+                     "<persName type="frontiersman" key="#bwi">Bill Williams</persName>" of Rocky
+                  Mountain fame; it was <persName type="frontiersman" key="#iwi">Isaac
+                     Williams</persName> a member of the <hi rend="underline">first</hi> Ewing Young
+                  expedition. The rest of the crew was <persName type="seaman" key="#chu">Charles
+                     Hubbard</persName> and nine <orgName type="nativeamericantribes"
+                     key="#natam_hawaiian">Kanakas</orgName>, members of parks' otter hunting
+                  group.</note> of the <placeName key="#cranch">Rancho Chino</placeName>, and others
+               to make twelve all together, went over to <placeName type="island" key="#i_sn">San
+                  Nicolas Island</placeName> in a schooner called the "<name type="ship"
+                  key="#sh_peoresnada">Peores [sic] Nada</name>" to remove <persName type="group"
+                  key="#bhagroup">the Indians</persName> who then inhabited <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>.<hi rend="superscript"
+                  >11</hi><note n="11" place="bottom"><hi rend="superscript">11</hi> "<name
+                     type="ship" key="#sh_peoresnada">Peores [sic] Nada</name>" was a ship of 20
+                  tons, constructed in <placeName type="city" key="#ci_mo">Monterey</placeName> by
+                     <persName key="#jgo">Joaquin Gomez</persName>. With <persName type="seaman"
+                     key="#chu">Captain Hubbard</persName>, the chief pilot, it was chartered by
+                     <persName type="investor" key="#isp">Isaac Sparks</persName>. She capsized at
+                  the entrance of <placeName type="city" key="#ci_sf">San Francisco</placeName>
+                  Harbor.</note>
+               <rs><persName type="group" key="#iwi; #chu; #natam_hawaiian">Sparks'
+                  group</persName></rs> assembled <persName type="group" key="#bhagroup">the
+                  Indians</persName> and brought them all, about 17 or 18 men, women, and children
+               down to the beach. At this point <rs><persName type="nativeamerican" key="#lw">one of
+                     the women</persName></rs> asked permission to return to the interior of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for
+                     <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>,
+               which, she said, had been left behind. She was allowed to leave, but during her
+               absence a heavy wind sprang up which compelled <persName type="group" key="#bhagroup"
+                  >the assembled Indians</persName> and <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >their guardians</persName></rs> to leave <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> and run before the wind, for the
+                  <placeName type="island" key="#i_sn">San Nicolas Island</placeName> is on the
+               outer rim of the channel and it affords no shelter whatever for vessels in a
+               storm.</p>
+            <p>The "<name type="ship" key="#sh_peoresnada">Peores [sic] Nada</name>" arrived safely
+               at <placeName type="city" key="#ci_sp">San Pedro</placeName> where she landed
+                  <persName type="group" key="#bhagroup">the Indians</persName> who went up to the
+                  <placeName type="mission" key="#mi_sgabriel">San Gabriel Mission</placeName>. It
+               was the intention of <rs><persName type="group" key="#iwi; #chu; #natam_hawaiian"
+                     >Sparks' group</persName></rs> to return to <placeName type="island"
+                  key="#i_sn">San Nicolas Island</placeName> for <rs><persName type="nativeamerican"
+                     key="#lw">the lone Indian woman</persName></rs>, but <rs><persName key="#jgo"
+                     >the owner</persName></rs> of the "<name type="ship" key="#sh_peoresnada"
+                  >Peores [sic] Nada</name>" ordered the ship to <placeName type="city" key="#ci_mo"
+                  >Monterey</placeName> where she was loaded with lumber for <placeName type="city"
+                  key="#ci_sf">San Francisco</placeName>. At the entrance to the <placeName
+                  type="region" key="#re_thegoldengate">Golden Gate</placeName> she ran into a storm
+               and capsized. <span type="trope" n="12">As there was no other large craft on the
+                  coast, no attempt was made to rescue or to learn the fate of <rs><persName
+                        type="nativeamerican" key="#lw">the Indian woman</persName></rs>.<hi
+                     rend="superscript">12</hi></span><note n="12" place="bottom"><hi
+                     rend="superscript">12</hi> The small boats used in otter hunting would not
+                  reach <rs><placeName type="island" key="#i_sn">the island</placeName></rs> because
+                  it was at the closest point 50 miles from <placeName type="region" key="#re_mld"
+                     >the mainland</placeName> and 155 miles from the <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> Harbor.</note></p>
+            <p>About a month after the removal of <persName type="group" key="#bhagroup">the
+                  Indians</persName>, <persName type="frontiersman" key="#gni">Nidever</persName>
+               joined <persName type="investor" key="#isp">Isaac Sparks</persName> in an otter
+               hunting trip to the islands of <placeName type="island" key="#i_sr">Santa
+                  Rosa</placeName> and <placeName type="island" key="#i_sm">San Miguel</placeName>.
+               It was during this trip that <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> learned from <persName type="investor" key="#isp"
+                  >Sparks</persName> the facts of the Indians' removal from <placeName type="island"
+                  key="#i_sn">San Nicolas Island</placeName>; but he did not learn the reason for
+               their removal, by whose authority they were removed, or he could not recall these
+                  facts.<hi rend="superscript">13</hi><note n="13" place="bottom"><hi
+                     rend="superscript">13</hi>
+                  <persName type="investor" key="#isp">Isaac J. Sparks</persName>, <hi
+                     rend="underline">Diary, Year of 1835</hi>, 14. <persName type="frontiersman"
+                     key="#isp">Sparks</persName> states that the removal was ordered by
+                        <rs><persName type="group" key="#aji; #ndur; #misfats">the mission
+                        fathers</persName></rs> at <orgName type="mission" key="#mi_sg">San
+                     Gabriel</orgName>. Also, the reason given for this was the depredations of
+                        <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">the Northwest
+                        Indians</orgName></rs> in this area. <title type="manuscript"
+                     key="#Terry1882">George Nidever, <hi rend="underline">Reminiscences of Scenes
+                        of Early Santa Barbara</hi></title>. In <title type="manuscript"
+                     key="#Terry1882">this manuscript</title>
+                  <persName type="frontiersman" key="#gni">Nidever</persName> states that he wanted
+                  to establish a sheep ranch on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</note> He recollects quite clearly, however, that
+                  <persName type="frontiersman" key="#iwi">Bill Williams [sic]</persName> was with
+               them and was evidently interested in the Indians' removal as <persName
+                  type="frontiersman" key="#iwi">Williams</persName> afterwards took <rs><persName
+                     type="nativeamerican" key="#Nicolenowoman1">one of the Indians</persName></rs>
+               to live with him.<hi rend="superscript">14</hi><note n="14" place="bottom"><hi
+                     rend="superscript">14</hi>
+                  <title type="manuscript" key="#Terry1882">Nidever, <hi rend="underline"
+                     >ibid</hi>., 1</title>. <persName type="investor" key="#isp">Sparks</persName>
+                  and <persName type="frontiersman" key="#gni">Nidever</persName> had a brush with
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> on this occasion. <persName type="investor"
+                     key="#isp">Sparks</persName> killed three of them.</note></p>
+            <p>It was <date when="1852">1852</date> before any effort was made to learn the fate of
+                     <rs><persName type="nativeamerican" key="#lw">the Indian woman</persName></rs>
+               who had been left on <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs>, although it was well known throughout <rs><placeName
+                     type="region" key="#re_socalcoast">the coast</placeName></rs> that she had been
+               abandoned on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                  <span type="trope" n="4">In the fall of <date when="1851">1851</date>, <persName
+                     type="frontiersman" key="#gni">Nidever</persName> went to <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> in search of sea gull eggs;
+                  there he found footprints, which from their size, he concluded were those of a
+                  woman. Their appearance indicated that they had been made but a short time before,
+                  which led him to believe that <rs><persName type="nativeamerican" key="#lw">the
+                        Indian woman</persName></rs> still existed.<hi rend="superscript"
+                     >15</hi><note n="15" place="bottom"><hi rend="superscript">15</hi> All thought
+                     she had perished.</note> When he returned to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>, he reported his discovery of the
+                  footprints to <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the
+                        mission fathers</persName></rs>, who urged him to make a thorough search on
+                  his next visit to <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. However, he did not return to <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> until the fall of
+                     <date when="1858">1858</date> when he went to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> on an otter hunting expedition. On
+                  his trip he was accompanied by <persName type="frontiersman" key="#cdi">Charley
+                     Brown</persName> and <persName type="investor" key="#isp">Sparks</persName>.
+                  The first day they went on shore they found a large woven basket made of grass in
+                  a crotch or fork of a large bush; in the basket were several shag skins cut into
+                  regular shapes, a dress made from the skins of the same bird, a sinew rope, a bone
+                  knife, abalone fish hooks, and several of these with a seal skin. <persName
+                     type="investor" key="#isp">Sparks</persName> and <persName type="frontiersman"
+                     key="#gni">Nidever</persName> scattered the things about on the ground and left
+                  the basket lying there so that they might have some proof of the Indian woman's
+                  existence if, on their next visit, they found the things replaced in the basket or
+                  removed. During the next few days they were busy with their hunting, for they
+                  intended to resume the search as soon as their hunting would permit. On the third
+                  or fourth day a heavy gale sprang up which prevented their coming ashore and
+                  finally forced them to leave <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</span></p>
+            <p><span type="trope" n="4">On the next trip to <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> in the summer of <date when="1853">1853</date>
+                  <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Charley Brown</persName> went without <persName
+                     type="investor" key="#isp">Sparks</persName> to <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, again in search of otter. When they
+                  went ashore to find where the otter lay, <persName type="frontiersman" key="#cdi"
+                     >Brown</persName> discovered footprints on the northwest side of <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>. They then decided to
+                  make a thorough search of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> on the next day.<hi rend="superscript">16</hi><note
+                     n="16" place="bottom"><hi rend="superscript">16</hi>
+                     <title type="manuscript" key="#Terry1882">Nidever, <hi rend="underline">op.
+                           cit</hi>., 2</title>.</note></span></p>
+            <p><span type="trope" n="4">Accordingly, on the following morning, they took
+                        <rs><persName type="group" key="#col; #cook; #msh; #poli; #nsk; #hva">their
+                        men</persName></rs> ashore. First they searched over a low, sandy flat,
+                  which was covered with dunes and bushes and which stretched across <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> about a mile and a
+                  half below its head. <persName type="frontiersman" key="#gni">Nidever</persName>
+                  took no active part in the search, but <persName type="frontiersman" key="#cdi"
+                     >Brown</persName> went across with <rs><persName type="group"
+                        key="#col; #cook; #msh; #poli; #nsk; #hva">the men</persName></rs>. When
+                  they found nothing, he sent them back with instructions to search carefully along
+                  the edges of the flat.<hi rend="superscript">17</hi><note n="17" place="bottom"
+                        ><hi rend="superscript">17</hi>
+                     <title type="article" key="#Bowers1892">Ventura, <hi rend="underline"
+                           >Observer</hi>, December 20, 1892</title>.</note> He remained on that
+                  side of <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                  proceeded towards its head until he struck the footprints which had been
+                  discovered the previous evening. When he followed them over the banks, he traced
+                  the tracks until they were lost on the soft carpet of moss with which the ground
+                  was covered.</span></p>
+            <p><span type="trope" n="4">Between the sand flat already mentioned and the head of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> there
+                  is a long, high ridge; it was up the northwest side of this ridge that <persName
+                     type="frontiersman" key="#cdi">Brown</persName> had followed the footprints.
+                  From this point he saw, further up the ridge, three huts. Upon reaching them, he
+                  found they were constructed of whale bones which had been covered with
+                  brush.</span><hi rend="superscript">18</hi><note n="18" place="bottom"><hi
+                     rend="superscript">18</hi>
+                  <persName type="author" key="#awo">Mr. Aurther Woodward</persName>, of the
+                     <orgName key="#lamus">Los Angeles Museum</orgName> in <placeName type="region"
+                     key="#re_expo">Exposition Park</placeName>, while on an archeological
+                  expedition to <placeName type="island" key="#i_sn">San Nicolas Island</placeName>,
+                  reconstructed one of these huts; it can be seen in the museum.</note> They were
+               open all around and within the grass was growing thickly, which indicated that they
+               had not been occupied for some time.</p>
+            <p><span type="trope" n="4">When he looked about over the ridge from this point, he
+                  discovered a small, black object which appeared to be moving and which looked very
+                  much like a crow seated on a bush. As he went towards it, he soon discovered it to
+                  be <rs><persName type="nativeamerican" key="#lw">the Indian
+                  woman</persName></rs>.</span> She was seated crosslegged on the ground within a
+               small, low, circular enclosure of sage brush, a type of wind break; she was engaged
+               in separating the blubber from a piece of seal skin, which she held across her knee
+               with one hand. In the other hand she held a rude knife, the blade of which was a
+               piece of iron hove and the handle a piece of wood. Within the enclosure or wind
+               break, a fire was smouldering, and without was a large pile of bones and ashes;
+               evidently this enclosure had been her abode for a long time.<hi rend="superscript"
+                  >19</hi><note n="19" place="bottom"><hi rend="superscript">19</hi>
+                  <title type="manuscript" key="#Terry1882">Nidever, <hi rend="underline">op.
+                        cit</hi>., 4</title>.</note></p>
+            <p>Blankets woven of grass, water bottles of the same material made in the shape of a
+               flagon and lined with asphaltum, knives of bone, and other articles lay scattered
+               about. There were no stone mortars or earthen vessels, but there were several shovel
+               or scoop-shaped vessels of wood, the use of which <persName type="frontiersman"
+                  key="#cdi">Brown</persName> did not learn.<hi rend="superscript">20</hi><note
+                  n="20" place="bottom"><hi rend="superscript">20</hi> These had been left by
+                     <persName type="group" key="#bhagroup">the Indians</persName> when they were
+                  removed. She moved from the huts because the dogs on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> killed <rs><persName
+                        type="nativeamerican" key="#lwchild">her child</persName></rs> and attacked
+                  her. It was learned later that she used fire to protect herself. All of the
+                  above-described things were collected by <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats">the priest at the Santa Barbara
+                        mission</persName></rs> and sent to <placeName type="city" key="#ci_rom"
+                     >Rome</placeName>. According to the soldiers who visited the <orgName
+                     type="museum" key="#mu_vaticanmuseum">Vatican</orgName>, they are still on
+                  display there in <orgName type="museum" key="#mu_vaticanmuseum">the
+                     museum</orgName>.</note> Stretched between two upright stakes at some distance
+               from the ground was a sinew rope from which were hanging strips of seal blubber.</p>
+            <p>The windbreak was situated on the northeast side of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> about half way up the ridge, so that it
+               received the full force of the morning sun. <rs><persName type="nativeamerican"
+                     key="#lw">The Indian woman</persName></rs> was dressed in a robe or gown of
+               bird skins sewn together with the feathers out and pointing downwards.<hi
+                  rend="superscript">21</hi><note n="21" place="bottom"><hi rend="superscript"
+                     >21</hi> The feathers were from the Shag which is dull black in colour.</note>
+               This was her only covering. Her feet were bare as was her head, which was covered
+               with a thick growth of matted hair. This was bleached to a reddish color and hung
+               down to her shoulders.<hi rend="superscript">22</hi><note n="22" place="bottom"><hi
+                     rend="superscript">22</hi>
+                  <title type="manuscript" key="#Terry1882">Nidever, <hi rend="underline">op.
+                        cit.</hi>, 4</title>.</note> Her features were quite regular, complexion
+               fairer than the Indians of <placeName type="region" key="#re_mld">the
+                  mainland</placeName> and, although she must have been about fifty years old, her
+               face was free of wrinkles. Her teeth were worn down to the very gums much like an
+               Eskimo of the same age from eating dried seal meat. When <persName
+                  type="frontiersman" key="#cdi">Brown</persName> approached her it was from the
+               rear so that she did not see him, although the wild dogs nearby began to growl when
+               they saw him. These she yelled at and they went away. From the elevator where he
+               stood he signalled to <rs><persName type="group"
+                     key="#col; #cook; #msh; #poli; #nsk; #hva">the men</persName></rs> who could be
+               seen on the sand flat below, and they came towards the enclosure in a circle so she
+               could not escape. <span type="trope" n="1"><span type="trope" n="3">As soon as they
+                     were near enough, <persName type="frontiersman" key="#cdi">Brown</persName>
+                     stepped around in front of her and was surprised by her smile and bow to him
+                     instead of becoming alarmed or startled.<hi rend="superscript">23</hi><note
+                        n="23" place="bottom"><hi rend="superscript">23</hi>
+                        <title type="manuscript" key="#Terry1882">Charles Brown, <hi
+                              rend="underline">Early History of Santa Barbara</hi>,
+                        3</title>.</note> As <rs><persName type="group"
+                           key="#col; #cook; #msh; #poli; #nsk; #hva">the other men</persName></rs>
+                     came up she smiled to them, talking rapidly all the time but no one could
+                     understand her. <persName type="frontiersman" key="#gni">Nidever</persName>
+                     then came up and they sat in a circle around her while she roasted some roots
+                     and invited them to share with her.</span></span>
+               <persName type="frontiersman" key="#gni">Nidever</persName> feared that force would
+               be necessary to take her with them, but <persName type="frontiersman" key="#cdi"
+                  >Brown</persName> differed with him. After going through the motions of putting
+               all the things in her baskets and walking off with them towards the beach and saying
+               in Spanish "let us go" they had the satisfaction of seeing her face brighten up and
+               she began to put all her things in the basket. When she had finished doing this she
+               went with them down to the beach. They found a spring near the beach and left some of
+               the things she had brought here. Farther on they came to a second spring where she
+               stopped and worked. They had no difficulty at all in taking her on board <rs><name
+                     type="ship" key="#sh_nidever">the ship</name></rs>. They gave her some food on
+               board <rs><name type="ship" key="#sh_nidever">the ship</name></rs> and she accepted
+               it readily. That afternoon <persName type="frontiersman" key="#cdi">Brown</persName>
+               made her a dress and a skirt of canvas to which was added a man's shirt, black
+               necktie and an old cloak. These she continued to wear while on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>. The following day they
+               went ashore and camped, remaining here for almost a month. Near the camp they
+               constructed a small hut to shelter her and here she remained most of the day, while
+               all the men except the cook were off hunting otter. She was free to come and go but
+               took only infrequent walks about <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and never made any move towards deserting <rs><persName
+                     type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                     rescuers</persName></rs>. She spent most of her time in weaving baskets, and
+               brought wood and water for the cook. She showed at one time she desired to return to
+               her former food. A sea otter was killed by <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                  hunters</persName></rs> and dragged up near the camp to be skinned. After this
+               operation had been performed the carcass was being dragged to the water so that it
+               would not contaminate the camp. At the sight of this she gave the hunters to
+               understand this was a wasted of meat. She then rushed down and seized it by the
+               flipper and hauled it back. After it began to smell she showed her disgust for it,
+               and her preference for the other food, and did not object to its being taken
+               away.</p>
+            <p><span type="trope" n="1">On their way to <placeName type="region" key="#re_mld">the
+                     mainland</placeName> she knelt in the bottom of <rs><name type="ship"
+                        key="#sh_nidever">the boat</name></rs> and made odd signs when the weather
+                  became rough and a storm was encountered.</span> As they reached shore, an oxcart
+               and a man on horseback came in sight and her delight was unbounded. She was taken to
+                  <placeName key="#nideverhouse">Nidever's home</placeName> where she remained until
+               her death about seven weeks later. She was allowed to eat too much fruit and
+               vegetables which brought on dysentery. <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">The mission fathers</persName></rs> sent
+               for <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                     >Indians</orgName></rs> from <placeName type="city" key="#mi_sg">San
+                  Gabriel</placeName>, <orgName type="mission" key="#mi_sfern">San
+                  Fernando</orgName> and <placeName type="city" key="#mi_sy">Santa Ynez</placeName>,
+               besides those of the <placeName type="mission" key="#mi_sb">Santa Barbara
+                  Mission</placeName> and <placeName type="city" key="#mi_venturamission">San
+                  Buenaventura</placeName>, in hope of finding someone to converse with her, but did
+               not succeed. <span type="trope" n="3">She would dance, smile and jabber for
+                  all</span>, and when <persName type="investor" key="#isp">Sparks</persName>
+               visited she would carry on a little chat and rock her arms as if <rs><persName
+                     type="nativeamerican" key="#lwchild">her baby</persName></rs> should be in
+               them. Her dresses, baskets and other materials were collected by <persName
+                  type="missionfather" key="#jru">Father Gonzalez</persName> by whom they were sent
+               to <placeName type="city" key="#ci_rom">Rome</placeName>. She is buried in the
+                  <placeName key="#sbgarden">mission garden</placeName> in <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> and the gravestone is entitle "Juana
+               Maria."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

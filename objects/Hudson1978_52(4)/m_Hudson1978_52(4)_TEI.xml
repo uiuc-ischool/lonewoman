@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal" key="#masterkey">The Masterkey</title>
+               <editor> </editor>
+               <biblScope unit="volume">52</biblScope>
+               <biblScope unit="issue">4</biblScope>
+               <biblScope unit="date"><date when="1978"/></biblScope>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Hudson1978_52(4)">An Additional Harrington Note on the
+                     "Lone Woman" of San Nicolas</title>
+                  <biblScope unit="page" from="151" to="154"/>
+                  <author><persName type="author" key="#thu">Hudson, Dee Travis</persName></author>
+                  <date when="1978"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">AN ADDITIONAL <persName type="author"
+                        key="#jha">HARRINGTON</persName> NOTE ON THE "<rs><persName
+                           type="nativeamerican" key="#lw">LONE WOMAN</persName></rs>" OF <placeName
+                        type="island" key="#i_sn">SAN NICOLAS</placeName>
+                     <hi rend="bold">Edited with Commentary</hi></hi></title></head>
+            <byline><emph>By</emph>
+               <persName type="author" key="#thu">TRAVIS HUDSON</persName></byline>
+            <p><span type="trope" n="4">IN </span><span type="trope" n="4"><rs><title type="article"
+                        key="#Hudson1978_52(1)">A PREVIOUS ISSUE of THE MASTERKEY</title></rs>
+                  (</span><span type="trope" n="4">Vol. 52</span>, <span type="trope" n="4">No.
+                  1</span><span type="trope" n="4">; <date when="1978">January-March,
+                  1978</date>)</span><span type="trope" n="4">, I reported the exciting discovery of
+                  some ethnographic notes among John P. Harrington's papers which pertained to
+                        <rs><persName type="nativeamerican" key="#lw">the "Lone Woman" of San
+                        Nicolas Island</persName></rs>.</span> These materials were found in Boxes 4
+               and 745 of his Chumash material culture and ritual notes, now housed in the <orgName
+                  type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName>. Recently I
+               came across some additional material on this interesting segment of California
+               history in Box 747, which also pertains to <rs><orgName type="nativeamericantribes"
+                     key="#natam_Chumash">Chumash</orgName></rs> ethnography. The edited notes are
+               provided below. As with the first series of notes on <rs><persName
+                     type="nativeamerican" key="#lw">this woman</persName></rs>, the informant is
+                  <persName type="nativeamerican" key="#fki">Fernando Librado</persName>:</p>
+            <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> and <persName
+                  type="nativeamerican" key="#msh">an Indian named Malquiares</persName><hi
+                  rend="superscript">1</hi><note n="1" place="end">1. <persName
+                     type="nativeamerican" key="#msh">Malquiares</persName>, a Ventureño Chumash,
+                  told <persName type="nativeamerican" key="#fki">Fernando</persName> that he and
+                     <persName key="#hva">Hilario Valenzuela</persName> visited the <rs><persName
+                        type="nativeamerican" key="#lw">San Nicolas Island woman</persName></rs> at
+                     <placeName key="#nideverhouse">the Nidever home</placeName> in <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> (<rs><title type="article"
+                        key="#Hudson1978_52(1)">Hudson 1978</title></rs>: 24). <span type="trope"
+                     n="4">We are now told that he had also taken part in her
+                  discovery.</span></note> found <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs> on <placeName type="island" key="#sni">San Nicolas
+                  Island</placeName> rolling silver<hi rend="superscript">2</hi><note n="2"
+                  place="end">2. Unclear what is being described. The silver may refer to the
+                  Mexican silver dollar or peso (Hudson <emph>et al</emph>. 1978: 162, note
+                  352).</note> in her hands to make abalorio.<hi rend="superscript">3</hi><note
+                  n="3" place="end">3. Abalorio is shell bead money.</note>
+               <persName type="nativeamerican" key="#msh">Malquiares</persName> spoke to her at
+               Captain Nidever's request. <persName type="nativeamerican" key="#msh"
+                  >Malquiares</persName> told <persName type="nativeamerican" key="#fki"
+                  >Fernando</persName> that when they encountered <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs>, she sang the
+               following song:<hi rend="superscript">4</hi><note n="4" place="end">4. The song is
+                  somewhat similar, yet distinct, from one given to <persName type="author"
+                     key="#jha">Harrington</persName> by <persName type="nativeamerican" key="#fki"
+                     >Fernando</persName> before (<rs><title type="article" key="#Hudson1978_52(1)"
+                        >Hudson 1978</title></rs>: 25 and 28, note 14), whereby the person from whom
+                     <persName type="nativeamerican" key="#fki">Fernando</persName> had learned it
+                  was unknown. We are now told that this song, and perhaps the other version of it,
+                  can be attributed to <persName type="nativeamerican" key="#msh"
+                     >Malquiares</persName>.</note></p>
+            <floatingText>
+               <body>
+                  <lg type="song">
+                     <l><emph>tokitoki</emph></l>
+                     <l><emph>yamymna</emph></l>
+                     <l><emph>tokitoki</emph></l>
+                     <l><emph>weleleshkima</emph></l>
+                     <l><emph>yaamymina</emph></l>
+                     <l><emph>weleleshkima</emph></l>
+                     <l><emph>yaamymina</emph></l>
+                     <l><emph>tokitoki</emph></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p> </p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> sang these
+               words. After hearing them <persName type="nativeamerican" key="#msh"
+                  >Malquiares</persName> could sing them, and they later became deeply impressed on
+               Fernando's memory. Once, when <persName type="nativeamerican" key="#fki"
+                  >Fernando</persName> met <persName type="nativeamerican" key="#atal"
+                  >Aravio</persName>,<hi rend="superscript">5</hi><note n="5" place="end">5.
+                     <persName type="nativeamerican" key="#atal">Aravio</persName> is conceivably
+                     <persName type="nativeamerican" key="#atal">Arabio
+                     <emph>Talawiyashwit</emph></persName> ("<rs><persName type="nativeamerican"
+                        key="#atal">Imitator</persName></rs>"), a Santa Cruz Island Chumash man who
+                  was a member of the <orgName key="#antap"><emph>'antap</emph> religious
+                     cult</orgName>, resident of <placeName type="city" key="#ci_sy">Santa
+                     Ines</placeName>, and once performed the part of the coyote in a Chumash Devil
+                  Dance held at <placeName type="mission" key="#mi_sb">Mission Santa
+                     Barbara</placeName> (Hudson <emph>et al</emph>. 1977: 28, 89-90). It is
+                  possible that <persName type="nativeamerican" key="#atal">Aravio</persName> knew
+                  something about the woman's language, given the known interaction of <rs><orgName
+                        key="#antap">the <emph>'antap</emph> cult</orgName></rs> with the <orgName
+                     type="nativeamericantribes" key="#natam_Fernandenos">Fernandeño</orgName> and
+                     <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                     >Gabrielino</orgName> (Hudson &amp; Blackburn n.d.).</note> a very aged Indian
+               from <placeName type="city" key="#ci_sy">Santa Ines</placeName>, <persName
+                  type="nativeamerican" key="#fki">Fernando</persName> recited these words to him,
+               and at once <persName type="nativeamerican" key="#atal">Aravio</persName> translated
+               the song for <persName type="nativeamerican" key="#fki">Fernando</persName>. The
+               words meant: "I leave contented, because I see the day when I want to get out of
+                     <rs><placeName type="island" key="#i_sn">this island</placeName></rs>."</p>
+            <p>When discovered the woman's only clothing consisted of a skirt made of feathers and
+               an apron. <rs><persName type="frontiersman" key="#gni">Jacob [George]
+                     Nidever</persName></rs> and his people were otter hunters. They made
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> a dress
+               out of their trousers. It was a month that they stayed on <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> before they found
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>. After
+               they found her, she would not eat their food, but she did stay around their camp.
+                  <persName key="#lor">Mr. L. A. M. Ortega</persName><hi rend="supersceript"
+                  >6</hi><note n="6" place="end">6. <persName key="#lor">L.A. M. Ortega</persName>,
+                  one of Harrington's informants <date from="1912" to="1915">between 1912 and
+                     1915</date>, was probably <persName key="#lor">Luis Antonio Maria
+                     Ortega</persName>. Harrington's notes state that L. A. M. Ortega's father was
+                     <persName key="#aor">Antonio Maria Ortega</persName>, whereas in another note
+                  he stated the father's name was <persName key="#jor">Jose Manuel
+                  Ortega</persName>. <persName type="author" key="#jha">Harrington</persName> went
+                  on to add that the Ortega family employed many Indians, and that they learned
+                  Chumash from contact with these people. <rs><persName key="#woman2">Andres
+                        Ortega's mother</persName></rs>, <persName type="author" key="#jha"
+                     >Harrington</persName> wrote, talked the Refugio dialect of Barbareño Chumash
+                  very well.</note> says that he has heard that after <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> was removed to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, she was a great
+               hand at eating tallow. <rs><persName type="nativeamerican" key="#lw">The
+                     woman</persName></rs> was taken to <placeName key="#nideverhouse">the
+                  house</placeName> of <rs><persName key="#gni; #sni">Jacob Nidever's
+                     folks</persName></rs> in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, an adobe situated close to where the <placeName
+                  key="#spacstation">Southern Pacific Freight Station</placeName> now stands.<hi
+                  rend="superscript">7</hi><note n="7" place="end">7. Early maps of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> indicate that <rs><placeName
+                        key="#spacstation">the depot</placeName></rs> was located approximately
+                  where it is now: the corner of <placeName type="street" key="#chapala"
+                     >Chapala</placeName> and <placeName type="street" key="#yanonali"
+                     >Yanonali</placeName>, not far from <placeName type="city" key="#ci_burtons"
+                     >Burton Mound</placeName> and the site of the <placeName key="#nideverhouse"
+                     >adobe home of Captain George Nidever</placeName> (Rogers 1929: 100).</note>
+               When <rs><persName key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                     men</persName></rs> first put on the dress they had prepared for her out of
+               their trousers, she began to sing and dance. She sang this song:<hi
+                  rend="superscript">8</hi><note n="8" place="end">8. The song appears to be another
+                  version of the one reported elsewhere (<rs><title type="article"
+                        key="#Hudson1978_52(1)">Hudson 1978</title></rs>: 24); again we are not told
+                  who reported it to <persName type="nativeamerican" key="#fki">Fernando</persName>
+                  but, based upon the context in which the first song was learned, it would appear
+                  that it was <persName type="nativeamerican" key="#msh"
+                  >Malquiares</persName>.</note></p>
+            <floatingText>
+               <body>
+                  <lg type="song">
+                     <l><emph>hi(i)hihiyo'oo</emph> (twice)</l>
+                     <l><emph>kachnaualanalna'al</emph> (swinging in the dance when this line was
+                        sung)</l>
+                     <l><emph>hihihiyo'oo</emph></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>The Indians made blankets, sometimes by using strips of grass woven together. They
+               called this grass grama in Spanish; it has long roots. As late as &#8212; [they still
+               made them?]; <persName type="nativeamerican" key="#fki">Fernando</persName> still
+               &#8212; &#8212; of this stuff and the sandal from <rs><persName type="nativeamerican"
+                     key="#lw">the San Nicolas woman</persName></rs>.<hi rend="superscript"
+                  >9</hi><note n="9" place="end">The blanks are Harrington's. What is meant by
+                     <persName type="nativeamerican" key="#fki">Fernando</persName> in reference to
+                  the woman's sandals is unclear; the meaning may have been that the woman's sandals
+                  were made also from strips of grass woven together. A sandal, collected by
+                     <persName type="author" key="#lya">Lorenzo Yates</persName> and said to have
+                  been found in a cave on <placeName type="island" key="#i_an">Anacapa
+                     Island</placeName>, is in the collections of the <orgName type="museum"
+                     key="#mu_sbmuseum">Santa Barbara Museum of Natural History</orgName>.</note>
+               She made her skirt of trousers and put a man's shirt on herself. After that [she,
+               they?] threw away her Indian clothes. <rs><persName type="nativeamerican" key="#lw"
+                     >The woman</persName></rs> would go to get water at low tide and this was her
+               drinking water.</p>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">End Notes</hi></title></head>
+               <list>
+                  <item n="1">1. <persName type="nativeamerican" key="#msh">Malquiares</persName>, a
+                     Ventureño Chumash, told <persName type="nativeamerican" key="#fki"
+                        >Fernando</persName> that he and <persName key="#hva">Hilario
+                        Valenzuela</persName> visited the <rs><persName type="nativeamerican"
+                           key="#lw">San Nicolas Island woman</persName></rs> at <placeName
+                        key="#nideverhouse">the Nidever home</placeName> in <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> (<rs><title type="article"
+                           key="#Hudson1978_52(1)">Hudson 1978</title></rs>: 24). <span type="trope"
+                        n="4">We are now told that he had also taken part in her
+                     discovery.</span></item>
+                  <item n="2">2. Unclear what is being described. The silver may refer to the
+                     Mexican silver dollar or peso (Hudson <emph>et al</emph>. 1978: 162, note
+                     352).</item>
+                  <item n="3">3. Abalorio is shell bead money.</item>
+                  <item n="4">4. The song is somewhat similar, yet distinct, from one given to
+                        <persName type="author" key="#jha">Harrington</persName> by <persName
+                        type="nativeamerican" key="#fki">Fernando</persName> before (<rs><title
+                           type="article" key="#Hudson1978_52(1)">Hudson 1978</title></rs>: 25 and
+                     28, note 14), whereby the person from whom <persName type="nativeamerican"
+                        key="#fki">Fernando</persName> had learned it was unknown. We are now told
+                     that this song, and perhaps the other version of it, can be attributed to
+                        <persName type="nativeamerican" key="#msh">Malquiares</persName>.</item>
+                  <item n="5">5. <persName type="nativeamerican" key="#atal">Aravio</persName> is
+                     conceivably <persName type="nativeamerican" key="#atal">Arabio
+                           <emph>Talawiyashwit</emph></persName> ("<rs><persName
+                           type="nativeamerican" key="#atal">Imitator</persName></rs>"), a Santa
+                     Cruz Island Chumash man who was a member of the <orgName key="#antap"
+                           ><emph>'antap</emph> religious cult</orgName>, resident of <placeName
+                        type="city" key="#ci_sy">Santa Ines</placeName>, and once performed the part
+                     of the coyote in a Chumash Devil Dance held at <placeName type="mission"
+                        key="#mi_sb">Mission Santa Barbara</placeName> (Hudson <emph>et al</emph>.
+                     1977: 28, 89-90). It is possible that <persName type="nativeamerican"
+                        key="#atal">Aravio</persName> knew something about the woman's language,
+                     given the known interaction of <rs><orgName key="#antap">the
+                              <emph>'antap</emph> cult</orgName></rs> with the <orgName
+                        type="nativeamericantribes" key="#natam_Fernandenos">Fernandeño</orgName>
+                     and <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                        >Gabrielino</orgName> (Hudson &amp; Blackburn n.d.).</item>
+                  <item n="6">6. <persName key="#lor">L.A. M. Ortega</persName>, one of Harrington's
+                     informants <date from="1912" to="1915">between 1912 and 1915</date>, was
+                     probably <persName key="#lor">Luis Antonio Maria Ortega</persName>.
+                     Harrington's notes state that L. A. M. Ortega's father was <persName key="#aor"
+                        >Antonio Maria Ortega</persName>, whereas in another note he stated the
+                     father's name was <persName key="#jor">Jose Manuel Ortega</persName>. <persName
+                        type="author" key="#jha">Harrington</persName> went on to add that the
+                     Ortega family employed many Indians, and that they learned Chumash from contact
+                     with <rs><orgName type="nativeamericantribes" key="#natam_Chumash">these
+                           people</orgName></rs>. <rs><persName key="#woman2">Andres Ortega's
+                           mother</persName></rs>, <persName type="author" key="#jha"
+                        >Harrington</persName> wrote, talked the Refugio dialect of Barbareño
+                     Chumash very well.</item>
+                  <item n="7">7. Early maps of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> indicate that <rs><placeName key="#spacstation">the
+                           depot</placeName></rs> was located approximately where it is now: the
+                     corner of <placeName type="street" key="#chapala">Chapala</placeName> and
+                        <placeName type="street" key="#yanonali">Yanonali</placeName>, not far from
+                        <placeName type="city" key="#ci_burtons">Burton Mound</placeName> and the
+                     site of the adobe home of <persName type="frontiersman" key="#gni">Captain
+                        George Nidever</persName> (Rogers 1929: 100).</item>
+                  <item n="8">8. The song appears to be another version of the one reported
+                     elsewhere (<rs><title type="article" key="#Hudson1978_52(1)">Hudson
+                           1978</title></rs>: 24); again we are not told who reported it to
+                        <persName type="nativeamerican" key="#fki">Fernando</persName> but, based
+                     upon the context in which the first song was learned, it would appear that it
+                     was <persName type="nativeamerican" key="#msh">Malquiares</persName>.</item>
+                  <item n="9">9. The blanks are Harrington's. What is meant by <persName
+                        type="nativeamerican" key="#fki">Fernando</persName> in reference to the
+                     woman's sandals is unclear; the meaning may have been that the woman's sandals
+                     were made also from strips of grass woven together. A sandal, collected by
+                        <persName type="author" key="#lya">Lorenzo Yates</persName> and said to have
+                     been found in a cave on <placeName type="island" key="#i_an">Anacapa
+                        Island</placeName>, is in the collections of the <orgName type="museum"
+                        key="#mu_sbmuseum">Santa Barbara Museum of Natural History</orgName>.</item>
+               </list>
+            </div>
+            <div type="section">
+               <head><title type="section">REFERENCES</title></head>
+               <div>
+                  <p><bibl><author><persName type="author" key="#thu">HUDSON,
+                           TRAVIS</persName></author></bibl></p>
+                  <p><bibl><date when="1978">1978</date></bibl></p>
+                  <p><bibl><title type="article" key="#Hudson1978_52(1)">Some J.P. Harrington Notes
+                           on the "Lone Woman" of San Nicolas</title>. <orgName type="publication"
+                           key="#masterkey"><emph>The Masterkey</emph></orgName>, <biblScope
+                           type="volume" n="#52">Vol. 52</biblScope>, <biblScope unit="issue" n="1"
+                           >No. 1</biblScope>: <biblScope unit="page" from="23" to="28"
+                           >23-28</biblScope>. <publisher><orgName type="museum" key="#mu_southwest"
+                              >Southwest Museum</orgName></publisher>. <placeName type="city"
+                           key="#ci_la">Los Angeles</placeName>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#thu">HUDSON,
+                           TRAVIS</persName></author>, &amp; <author><persName type="author"
+                              key="#tbl">BLACKBURN, THOMAS</persName></author></bibl></p>
+                  <p><bibl><date>n.d.</date></bibl></p>
+                  <p><bibl><emph>Social and Religious Integration in Native South-Central
+                           California: "The Northern Complex."</emph> Unpublished ms.
+                              <publisher><orgName type="museum" key="#mu_sbmuseum">Santa Barbara
+                              Museum of Natural History</orgName></publisher>. <pubPlace><placeName
+                              type="city" key="#ci_sb">Santa
+                     Barbara</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <editor><persName type="author" key="#thu">HUDSON,
+                           TRAVIS</persName></editor>, <editor><persName key="#jti; #mred"><emph>et
+                                 al</emph></persName></editor>.</bibl></p>
+                  <p><bibl><date when="1978">1978</date></bibl></p>
+                  <p><bibl>Tomol: Chumash Watercraft as described in the Ethnographic Notes of John
+                        P. Harrington. <emph>Anthropological Papers</emph> No.9. <publisher><orgName
+                              type="publisher" key="#ballena"> Ballena Press</orgName></publisher>.
+                              <pubPlace><placeName type="city" key="#ci_soc"
+                           >Socorro</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <editor><persName type="author" key="#thu">HUDSON,
+                           TRAVIS</persName></editor>, <editor><rs><persName key="#tbl; #rcur; #jti"
+                                    ><emph>et al</emph></persName></rs></editor>.</bibl></p>
+                  <p><bibl><date when="1977">1977</date></bibl></p>
+                  <p><bibl><emph>The Eye of the Flute: Chumash Traditional History and Rituals as
+                           told by Fernando Librado Kitsepawit to John P. Harrington</emph>.
+                              <publisher><orgName type="museum" key="#mu_sbmuseum">Santa Barbara
+                              Museum of Natural History.</orgName></publisher>
+                        <pubPlace><placeName type="city" key="#ci_sb">Santa
+                           Barbara</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#dro">ROGERS, DAVID
+                           B.</persName></author></bibl></p>
+                  <p><bibl><date when="1929">1929</date></bibl></p>
+                  <p><bibl><emph>Prehistoric Man of the Santa Barbara Coast</emph>.
+                              <publisher><orgName type="museum" key="#mu_sbmuseum">Santa Barbara
+                              Museum of Natural History</orgName></publisher>. <pubPlace><placeName
+                              type="city" key="#ci_sb">Santa
+                     Barbara</placeName></pubPlace>.</bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

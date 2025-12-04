@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="monograph"><orgName type="publication" key="#calislands">The
+                            California Islands</orgName></title>
+                    <publisher>Academy Publishers</publisher>
+                    <editor/>
+                    <date when="1958"/>
+                    <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="chapter" key="#Hillinger1958">San Nicolas Island</title>
+                        <biblScope unit="page" from="119" to="131"/>
+                        <author><persName type="author" key="#chi">Charles
+                            Hillinger</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="chapter">
+                <head><title type="main">CHAPTER IX.</title>
+                    <title type="sub"><rs><persName type="nativeamerican" key="#lw"><placeName
+                                    type="island" key="#i_sn">SAN NICOLAS
+                                ISLAND</placeName></persName></rs>.</title></head>
+                <p>Screeching missiles scorch offshore skies in daily tests from <placeName
+                        type="region" key="#re_pmugu">Point Mugu</placeName> on <placeName
+                        type="region" key="#re_mld">the mainland</placeName> south of <placeName
+                        type="city" key="#ci_ven">Ventura</placeName> to barren, windswept
+                        <placeName type="island" key="#i_sn">San Nicolas</placeName>, outermost of
+                    the <placeName type="island" key="#i_chi">Channel Islands</placeName>.</p>
+                <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is also the pinniped
+                    capital of the <placeName type="country" key="#co_usa">United
+                    States</placeName>, the home of some of nature's most amazing and amusing sea
+                    creatures.</p>
+                <p>It's a 9-mile long, 3 1/2-mile wide mountain of sand, 76 miles out to sea from
+                        <placeName type="city" key="#ci_la">Los Angeles</placeName> Harbor, that
+                    boasts a fascinating history highlighted by the tale of <rs><persName
+                            type="nativeamerican" key="#lw">Juana Maria</persName></rs>, one of the
+                    most astounding true stor[i]es of one person's fight for survival ever recorded
+                    in the annals of time. <span type="trope" n="6">The saga of <rs><persName
+                                type="nativeamerican" key="#lw">this mysterious
+                            woman</persName></rs> brought the curtain down on the centuries-old
+                        Channel Island Indian culture that thrived through five distinct
+                        civilizations.</span></p>
+                <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is a bird Island,
+                    populated by thousands of ravens, cormorants, sea gulls, blue herons, bald
+                    eagles, canaries, larks and robins. It's also a rocket base for solar studies by
+                    International Geophysical Year scientists.</p>
+                <p>Discovered by <persName type="seaman" key="#jca">Cabrillo</persName>, the
+                            <rs><placeName type="island" key="#i_sn">Island</placeName></rs> was
+                    named by <persName type="seamen" key="#svi">Vizcaino</persName> in honor of
+                        <persName key="#stnic">St. Nicolas</persName>, the saint's day celebrated
+                        <date when="1602-12-06">December 6, 1602</date>, when the Spanish explorer's
+                    ship sailed by <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs>.</p>
+                <p>Some 68 prehistoric Indian village sites have been identified on <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> by UCLA anthropologists
+                        <persName type="author" key="#cme">Clement Meighan</persName> and <persName
+                        type="author" key="#heb">Hal Eberhart</persName> who estimate that well over
+                    1,000 Indians lived on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs> at its peak population period. <span
+                        type="trope" n="3"><rs><orgName type="nativeamericantribes"
+                                key="#natam_NicolenoTongva">These aborigines</orgName></rs>, a more
+                        peaceful people than those who dwelled on <placeName type="region"
+                            key="#re_mld">the mainland</placeName> or other <placeName type="island"
+                            key="#i_chi">Channel Islands</placeName>, as evidenced by the scarcity
+                        of arrowheads unearthed, existed on a seafood and bird economy, deriving
+                        their food supply from abalone, fish, sea lions, sea elephants and
+                        birds.</span>
+                    <rs><placeName type="island" key="#i_sn">The Island</placeName></rs> apparently
+                    never supported a great deal of plant life in the time of man's existence on
+                    it.</p>
+                <p>Plundered by early 19th century otter hunters, by <date when="1835">1835</date>
+                    but <persName type="group" key="#bhagroup">a score of Indians</persName> was
+                    left on <placeName type="island" key="#i_sn">San Nicolas</placeName>. <rs><date
+                            when="1835">That year</date></rs>
+                    <rs><persName type="group" key="#aji; #ndur; #misfats">Franciscan Mission
+                            fathers</persName></rs> decided to remove the last of the <persName
+                        type="group" key="#bhagroup">San Nicolas Indians</persName> to <placeName
+                        type="region" key="#re_mld">the mainland</placeName>. The schooner
+                            <emph><name type="ship" key="#sh_peoresnada">Peor es Nada</name></emph>
+                    was chartered to bring the aborigines to <placeName type="city" key="#ci_sp">San
+                        Pedro</placeName>.</p>
+                <p><persName type="seaman" key="#chu">Charles Hubbard</persName>, captain of
+                            <rs><name type="ship" key="#sh_peoresnada">the small vessel</name></rs>,
+                    and <rs><persName type="group"
+                            key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                            >his crew</persName></rs> went to <rs><placeName type="island"
+                            key="#i_sn">the Island</placeName></rs>, conveying word to <rs><orgName
+                            type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                            Indians</orgName></rs> there that they no longer need be subjected to
+                    the cruel forays by otter hunters. They were told by <persName type="seaman"
+                        key="#chu">Captain Hubbard</persName> that they would be taken to <placeName
+                        type="region" key="#re_mld">the mainland</placeName> where there was plenty
+                    to eat and life was much better.</p>
+                <p>As <persName type="group" key="#bhagroup">the Indians</persName> piled their
+                    frugal belongings into the <emph><name type="ship" key="#sh_peoresnada">Peor es
+                            Nada</name></emph>, <persName type="seaman" key="#chu">Captain
+                        Hubbard</persName> made haste to leave. A sudden gale churned up the sea and
+                    threatened to hurl the boat against the Island's rocky shores. <span
+                        type="trope" n="9"><rs><persName type="nativeamerican" key="#lw">One of the
+                                Indian women</persName></rs> discovered that <rs><persName
+                                type="nativeamerican" key="#lwchild">her child</persName></rs> had
+                        not been brought aboard <rs><name type="ship" key="#sh_peoresnada">the
+                                schooner</name></rs> as she had expected and cried out that she had
+                        to go back for <rs><persName type="nativeamerican" key="#lwchild">her
+                                baby</persName></rs>. She leaped into the water and swam
+                        ashore.</span></p>
+                <p>It was impossible for <persName type="seaman" key="#chu">Captain
+                        Hubbard</persName> to wait any longer. The <emph><name type="ship"
+                            key="#sh_peoresnada">Peor es Nada</name></emph> set sail across the
+                    choppy channel leaving <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> and <rs><persName type="nativeamerican"
+                            key="#lwchild">her child</persName></rs> alone on <rs><placeName
+                            type="island" key="#i_sn">the isolated Island</placeName></rs>.</p>
+                <p>At <placeName type="city" key="#ci_la">Los Angeles</placeName> Harbor, the last
+                    of the <persName type="group" key="#bhagroup">San Nicolas Indians</persName>
+                    were met by <rs><persName type="group" key="#aji; #ndur; #misfats"
+                            >Franciscans</persName></rs> who set about to assimilate them with the
+                    other Indians at the <placeName type="mission" key="#mi_sgabriel">San Gabriel
+                        Mission</placeName>.</p>
+                <p><persName type="seaman" key="#chu">Captain Hubbard</persName> explained the
+                    unfortunate experience on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>. He could not return immediately as he had a
+                    commitment to transport a group of otter hunters led by <persName
+                        type="frontiersman" key="#gni">George Nidever</persName> to <placeName
+                        type="island" key="#i_sr">Santa Rosa Island</placeName> and then continue on
+                    up <placeName type="region" key="#re_socalcoast">the coast</placeName> to
+                        <placeName type="city" key="#ci_sf">San Francisco</placeName>. <persName
+                        type="seaman" key="#chu">Captain Hubbard</persName> expressed the hope of
+                    returning to <placeName type="island" key="#i_sn">San Nicolas</placeName> for
+                            <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs>. But neither he nor the <emph><name type="ship"
+                            key="#sh_peoresnada">Peor es Nada</name></emph> ever had the
+                    opportunity. Less than a month later <rs><name type="ship" key="#sh_peoresnada"
+                            >the boat</name></rs> with <persName type="seaman" key="#chu">Captain
+                        Hubbard</persName> aboard sank in <placeName type="region" key="#re_sfbay"
+                        >San Francisco Bay</placeName>.</p>
+                <p>Nor did anyone else return for <rs><persName type="nativeamerican" key="#lw">the
+                            abandoned Indian woman</persName></rs> on <rs><placeName type="island"
+                            key="#i_sn">the lonely desolate Pacific isle</placeName></rs>. That is,
+                    not for <rs><date from="1835" to="1850">15 years</date></rs>.</p>
+                <p>Through the long interval the story was often told, but few believed
+                            <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                    or <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                    survived for long. <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                    at the time was overrun with packs of vicious wild dogs, descendants of animals
+                    loved by <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                            >the Indian woman's forefathers</orgName></rs>. It was difficult enough
+                    for <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                            small band of the Island's last Indian community</orgName></rs> to ward
+                    off the wild animals, but <rs><persName type="nativeamerican" key="#lw">a young
+                            woman</persName></rs> alone&#8212;impossible, thought those on
+                        <placeName type="region" key="#re_mld">the mainland</placeName> who knew the
+                    story.</p>
+                <p>At least that was the general feeling about the matter until <date when="1850"
+                        >1850</date> when <persName type="seaman" key="#tje">Thomas
+                        Jeffries</persName> and <persName type="frontiersman" key="#gni">George
+                        Nidever</persName> with <persName type="group" key="#natam_missionindians">a
+                        crew of Indians</persName> sailed to <rs><placeName type="island"
+                            key="#i_sn">the distant Island</placeName></rs> in <rs><name type="ship"
+                            key="#sh_nidever">a small boat</name></rs>. They went there to hunt
+                    otter and to find, if at all possible, the remains of <rs><persName
+                            type="nativeamerican" key="#lw">the Indian woman</persName></rs>.</p>
+                <p>For six weeks they stripped otter and seal of hides, salted the skins and stowed
+                    them in <rs><name type="ship" key="#sh_nidever">the boat</name></rs>.</p>
+                <p>Then one night <persName key="#sailor1">an Indian</persName> who had been on a
+                    hike around <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>
+                    returned to the Island camp flushed with excitement. He told of seeing a figure
+                    running in the distance. He said he tried to catch up with the Island phantom,
+                    but failed. Truly, it did not seem possible. Could it be <rs><persName
+                            type="nativeamerican" key="#lw">the lost woman</persName></rs>?</p>
+                <p>Several trips and <date when="1853">three years later</date>&#8212;on another
+                    otter hunting excursion to <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>&#8212;<persName type="frontiersman" key="#gni"
+                        >Nidever</persName> and his companion, <persName type="frontiersman"
+                        key="#cdi">Carl Detman</persName>, ever on the alert now for the possibility
+                    that <persName key="#sailor1">the Indian</persName> had actually seen
+                            <rs><persName type="nativeamerican" key="#lw">the lost woman of San
+                            Nicolas</persName></rs>, spotted a basket containing a robe sewed of
+                    birds' plumage. Now they were convinced. Incredible as it seemed, they knew
+                            <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> who swam back to the <rs><placeName type="island"
+                            key="#i_sn">Island</placeName></rs>
+                    <date when="1835">18 years earlier</date> to find <rs><persName
+                            type="nativeamerican" key="#lwchild">her misplaced child</persName></rs>
+                    was still there and very much alive.</p>
+                <p><persName type="frontiersman" key="#gni">Nidever</persName> abandoned his hunt
+                    for otter. He ordered <rs><persName type="group"
+                            key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his men</persName></rs>
+                    to join him in searching <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>, canyon by canyon, cave by cave, never quitting
+                    until <rs><persName type="nativeamerican" key="#lw">the mysterious
+                            woman</persName></rs> was found.</p>
+                <p>It was <persName type="frontiersman" key="#cdi">Detman</persName> who made the
+                    discovery a few days later. He traced her footprints to a grass shelter on one
+                    of the Island peaks. <span type="trope" n="1">She was seated in her hideaway,
+                        observing members of <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">Nidever's
+                                party</persName></rs> searching the beach below for her. A pack of
+                        dogs, trained to answer the wild woman's instant command, was at her side.
+                        Two pet ravens were also in the roofless enclosure.</span></p>
+                <p><span type="trope" n="1">Surprised by <persName type="frontiersman" key="#cdi"
+                            >Detman</persName>, she accepted his presence calmly, ordering the dogs
+                        away. Despite the fact that <persName type="frontiersman" key="#cdi"
+                            >Detman</persName> was the first person she faced in <date from="1835"
+                            to="1853">18 long difficult years</date>, she did not become
+                        alarmed.</span></p>
+                <p><span type="trope" n="1"><rs><persName type="nativeamerican" key="#lw">The
+                                woman</persName></rs> was dressed in cormorant feathers, a garment
+                        identical to the one found earlier by <persName type="frontiersman"
+                            key="#cdi">Detman</persName> and <persName type="frontiersman"
+                            key="#gni">Nidever</persName>. She was in excellent physical condition.
+                        There was a large supply of food in her grass hut.</span></p>
+                <p><span type="trope" n="10"> When <persName type="frontiersman" key="#cdi"
+                            >Detman</persName> summoned <persName type="frontiersman" key="#gni"
+                            >Nidever</persName> and <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the entire
+                                party</persName></rs> confronted <rs><persName type="nativeamerican"
+                                key="#lw">the woman</persName></rs>, she told them the story of her
+                        18-year existence on <rs><placeName type="island" key="#i_sn">the
+                                Island</placeName></rs>, not by word of mouth, for none could
+                        understand her dialect. But through sign language, she explained how she hid
+                        when boats came to <placeName type="island" key="#i_sn">San
+                            Nicolas</placeName> on rare occasions. <rs><persName
+                                type="nativeamerican" key="#lwchild">Her child</persName></rs> was
+                        found dead when she swam to <rs><placeName type="island" key="#i_sn">the
+                                Island</placeName></rs> the day the <emph><name type="ship"
+                                key="#sh_peoresnada">Peor es Nada</name></emph> left without
+                        her.</span></p>
+                <p><span type="trope" n="10">She knew every inch of <rs><placeName type="island"
+                                key="#i_sn">the Island</placeName></rs>, had walked its length and
+                        breadth through the years with her dogs ever at her side. She never wanted
+                        for food, living off birds, fish, abalone and seals' blubber. Water was easy
+                        to obtain from the many existing springs. Her life was lonely. But in time
+                        she came to accept it and fled in fear from every visitor.</span></p>
+                <p>When <persName type="frontiersman" key="#gni">Nidever</persName> returned to
+                        <placeName type="region" key="#re_mld">the mainland</placeName> he brought
+                            <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> to <placeName key="#nideverhouse">his Santa
+                        Barbara home</placeName> where <rs><persName key="#sni">his
+                        wife</persName></rs> cared for her. The story of her discovery spread afar.
+                        <span type="trope" n="14">The curious came from miles to see <rs><persName
+                                type="nativeamerican" key="#lw">the strange wild
+                            woman</persName></rs>, who, in reality, was a quiet, shy person
+                        amazingly attractive despite her unique ordeal.</span></p>
+                <p><rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">Mission
+                            padres</persName></rs> searched without success for one of <persName
+                        type="group" key="#bhagroup">the Indians</persName> taken from
+                            <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> in
+                        <date when="1835">1835</date>. But no one could be found who spoke the
+                    woman's language.</p>
+                <p><span type="trope" n="3">Civilization proved to be a greater challenge than life
+                        alone on <placeName type="island" key="#i_sn">San Nicolas</placeName>.
+                        Despite her new diet of proper food, or perhaps because of it, she failed
+                        rapidly. In a short time she became too weak to walk. Within three months of
+                        her discovery, the last of the <rs><orgName type="nativeamericantribes"
+                                key="#natam_NicolenoTongva">Channel Island Indians</orgName></rs>
+                        died.</span><span type="trope" n="6"> With her also died the great culture
+                        of <placeName type="islands" key="#i_chi">the Islands</placeName> that had
+                        thrived for centuries.</span></p>
+                <p>On her death bed one of the priests from the <placeName type="mission"
+                        key="#mi_sb">Santa Barbara Mission</placeName> baptized her, giving her the
+                    name Juana Maria. Her robe of cormorant feathers was sent to <rs><persName
+                            key="#pop">the Pope in Rome</persName></rs>, where it now rests in the
+                        <orgName type="museum" key="#mu_vaticanmuseum">Vatican Museum</orgName>.</p>
+                <p>She was buried in the <placeName key="#sbmissioncemetary">Mission
+                        graveyard</placeName>, where a plaque erected to her memory in <date
+                        when="1928">1928</date> reads:</p>
+                <p><floatingText>
+                        <body>
+                            <lg type="trope-group" n="1">
+                                <l><rs><persName type="nativeamerican" key="#lw">Juana
+                                            Maria</persName></rs></l>
+                                <l>Indian Woman Abandoned on</l>
+                                <l><placeName type="island" key="#i_sn">San Nicolas
+                                        Island</placeName>
+                                    <rs><date from="1835" to="1853">eighteen years</date></rs></l>
+                                <l>Found and brought to</l>
+                                <l><placeName type="city" key="#ci_sb">Santa Barbara</placeName></l>
+                                <l>by</l>
+                                <l><persName type="frontiersman" key="#gni">Captain George
+                                        Nidever</persName></l>
+                                <l>in <date when="1853">1853</date></l>
+                                <l><orgName type="organization" key="#dar_sb">Santa Barbara
+                                        Chapter</orgName></l>
+                                <l><orgName type="organization" key="#daughters">Daughters of
+                                        the</orgName></l>
+                                <l><orgName type="organization" key="#daughters">American
+                                        Revolution</orgName></l>
+                                <l><date when="1928">1928</date></l>
+                            </lg>
+                        </body>
+                    </floatingText></p>
+                <p>Archeologist <persName key="#asa">Arthur R. Sanger</persName> of <placeName
+                        type="city" key="#ci_la">Los Angeles</placeName> believes he has the
+                    skeleton of the <rs><persName type="nativeamerican" key="#lwchild">Indian
+                            woman's child</persName></rs>. <persName key="#asa">Sanger</persName>
+                    has searched the <placeName type="island" key="#i_chi">Channel
+                        Islands</placeName> for <rs><date notBefore="1928" notAfter="1958">30
+                            years</date></rs> collecting Indian artifacts for the <orgName
+                        type="museum" key="#mu_americanindian">Museum of the American
+                        Indian</orgName>, <placeName type="city" key="#ci_nyc">New York</placeName>,
+                    and the <orgName type="museum" key="#mu_lacountymuseum">Los Angeles County
+                        Museum</orgName>.</p>
+                <p>He is convinced his skeleton, one of thousands of Indian relics he has collected
+                    and catalogued from <rs><placeName type="island" key="#i_chi">the
+                            Islands</placeName></rs>, is that of <rs><persName type="nativeamerican"
+                            key="#lwchild">Juana Maria's infant</persName></rs>.</p>
+                <p>One reason for his conviction is that the skeleton was buried deeper than most on
+                            <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>,
+                    which is being blown to sea by cyclone-like storms that buffet <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> continuously. Another item
+                    that supports his belief is that beads buried with <rs><persName
+                            type="nativeamerican" key="#lwchild">the child</persName></rs> were
+                    imported there in the <rs><date notBefore="1800-01" notAfter="1899-12-31">19th
+                            century</date></rs>. Sanger's Indian collection includes many skeletons,
+                    and novel whale and sea turtle effigies, apparently used by the Indians as good
+                    luck pieces.</p>
+                <p><rs><date when="1857">Four years after</date></rs>
+                    <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs> was
+                    removed from <placeName type="island" key="#i_sn">San Nicolas</placeName>,
+                        <persName key="#mkim">Captain Martin Kimberly</persName> introduced sheep to
+                    the already badly eroded <rs><placeName type="island" key="#i_sn"
+                            >Island</placeName></rs>. He and a continual succession ofIsland lessees
+                    sowed salt grass on the sandy terrain to provide nourishment for the thousands
+                    of sheep that roamed its hills and canyons for <rs><date from="1857" to="1941"
+                            >84 years</date></rs>.</p>
+                <p>Others who ran sheep on <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> included <persName key="#howland">William
+                        Howland</persName>, the <persName type="group" key="#eva; #wvail">Vail
+                        brothers</persName>, <persName type="seaman" key="#lyell">L. P.
+                        Elliott</persName> and <persName key="#ragee">Roy Agee</persName>. The
+                    latter ended this phase of Island activity in <date when="1941">1941</date> with
+                    the activation of <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                    during World War II, first as an Army base and later as a Navy station.</p>
+                <p>During <rs><date from="1930" to="1939">the thirties</date></rs> the <orgName
+                        type="military" key="#mi_navy">Navy</orgName> maintained a weather station
+                    there. Total population of <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> then was 15, including <orgName type="military"
+                        key="#mi_navy">Navy</orgName> and sheep ranch personnel.</p>
+                <p><persName key="#armclain">Miss Alma R. McLain</persName> was employed on
+                            <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> as
+                    a school teacher for a time. Her student body consisted of <persName
+                        key="#fragee">Frances Agee</persName> and <persName key="#jscri">John
+                        Scrimiger</persName>. <placeName key="#snelem">San Nicolas Elementary
+                        School</placeName> was known as the smallest school in <rs><placeName
+                            type="country" key="#co_usa">the country</placeName></rs> boasting a
+                    full time, fully accredited school teacher.</p>
+                <p><date notBefore="1945">Since 1945</date>
+                    <placeName type="island" key="#i_sn">San Nicolas</placeName> has served as one
+                    of the nation's most important guided missile proving grounds. In fact,
+                        <placeName type="region" key="#re_pmugu">Point Mugu</placeName>, the Navy's
+                    giant <placeName type="region" key="#re_pmugu">Naval Air Missile Test
+                        Center</placeName> on the <placeName type="region" key="#re_calcoast"
+                        >California coast</placeName> south of <placeName type="city" key="#ci_ven"
+                        >Ventura</placeName>, was established solely because of the presence of
+                        <placeName type="island" key="#i_sn">San Nicolas Island</placeName> 70 miles
+                    to the southwest.</p>
+                <p>In the past 10 years a $5,000,000 labyrinth of electronic networks has been
+                    scattered about the sand-encrusted Island hills of <placeName type="island"
+                        key="#i_sn">San Nicolas</placeName>. Theodolite, telemeter and radar towers
+                    speckle Island peaks, knolls and sand-swept mesas.</p>
+                <p>The sea between <placeName type="island" key="#i_sn">San Nicolas</placeName> and
+                        <placeName type="region" key="#re_pmugu">Point Mugu</placeName> provides
+                    missile scientists with a perfect testing range. Instruments at <placeName
+                        type="region" key="#re_pmugu">Point Mugu</placeName>, <placeName
+                        type="region" key="#re_lagpeak">Laguna Peak</placeName> behind the
+                        <placeName key="#vcnavy">Ventura County Navy station</placeName>, at the
+                    Santa Cruz Island facility and at <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> record data which enable scientists and engineers to
+                    evaluate operations of the various missiles in flight.</p>
+                <p>Some missiles are fired into the sea between <placeName type="island" key="#i_sn"
+                        >San Nicolas</placeName> and <placeName type="region" key="#re_mld">the
+                        mainland</placeName> or beyond <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>. Others such as the Regulus are actually put
+                    through their paces, guided to and landed on the San Nicolas airstrip and then
+                    shipped back by boat to <placeName type="region" key="#re_pmugu">Point
+                        Mugu</placeName> for future test flights.</p>
+                <p>From the moment a guided missile is placed into its launcher until it is landed,
+                    destroyed or dragged dripping from <placeName type="region" key="#re_pacific"
+                        >the Pacific</placeName>, it is the subject of at least one and often as
+                    many as 40 cameras. These photographs provide scientists with proof positive why
+                    the weapon did or did not react as anticipated.</p>
+                <p>The 250 Navy and civilian technicians stationed on bleak <placeName type="island"
+                        key="#i_sn">San Nicolas</placeName> are all vitally involved in the study
+                    and development of guided missiles.</p>
+                <p>"Welcome to <rs><placeName type="island" key="#i_sn">the poor man's
+                            Catalina</placeName></rs>," declared the officer in charge of the
+                        <placeName key="#snnavy">San Nicolas Station</placeName>, as we disembarked
+                    from one of the two Navy four-engine Douglas DC4s that make daily runs between
+                        <placeName type="region" key="#re_pmugu">Point Mugu</placeName> and
+                        <placeName type="island" key="#i_sn">San Nicolas</placeName>.</p>
+                <p>Swarms of sea gulls and raucous ravens soared above and about <rs><placeName
+                            type="island" key="#i_sn">the Island</placeName> operations tower, which
+                        also serves as administrative headquarters for the San Nicolas Island</rs>
+                    base.</p>
+                <p>A gust of wind ripped across the airstrip and several giant ravens perched on
+                    wires by the operations tower were blown upside down and were having a time
+                    righting themselves.</p>
+                <p>Jim, the station's pet raven, buzzed us as we walked toward operations, and then
+                    gave chase to the Island's three dogs, Cecil, Rusty and Oscar, all males.</p>
+                <p>"Women are verboten here. That holds true for the dogs, and Sam, our pet cat.
+                    This is strictly a man's island," exclaimed the operations officer.</p>
+                <p>"And a haven for ravens," he added, as Jim landed at our feet, tugged at the
+                    officer's pants cuffs and then nipped him playfully on the leg.</p>
+                <p>There are thousands of the big, black birds on <rs><placeName type="island"
+                            key="#i_sn">the Island</placeName></rs>, descendants of the same birds
+                    considered sacred by <orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">San Nicolas Indians</orgName>. Ravens exist on
+                    mice that also thrive on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>.</p>
+                <p>"Jim hurt his leg more than a year ago," we were told, "and some of the fellows
+                    at operations took him to sick bay and patched up the injury. Now he's
+                    everybody's friend."</p>
+                <p>After being assigned quarters in one of the Island's concrete barracks, we
+                    rejoined the operations officer at Operations on the 502-foot airstrip.
+                        <placeName type="island" key="#i_sn">San Nicolas</placeName>, ringed by
+                    cliffs averaging 500 feet in height, rises to a peak elevation of 890 feet.</p>
+                <p>We climbed aboard a powerful wagon for a trip to <placeName type="region"
+                        key="#re_landsend">Lands End</placeName>, an amazing stretch of sculptured
+                    rocks that extends to a needle-nose point into the sea. Here, abalone and
+                    lobster abound. Station personnel need not be skin divers to pry pink, blue and
+                    black abalone by the hundreds off weird shaped, eroded, sponge-like rocks during
+                    low tide. All that is necessary is to walk out on the rocks and pull them off.
+                    You don't even get your feet wet ...</p>
+                <p>At night San Nicolas missile men drive to <placeName type="region"
+                        key="#re_landsend">Lands End</placeName> and catch lobster with bare hands.
+                    It's a great Island sport. Saucer-like pockets of clear water nestled in rocks
+                    at <placeName type="region" key="#re_landsend"> Lands End</placeName> were
+                    filled with gorgeous ocean life&#8212;deep purple sea grass, sea urchins, brown
+                    sea moss, sea lettuce, black snails, hermit crabs and sea anemones of various
+                    sizes and colors. A 15-foot, jet black whale, victim of a vicious sea battle,
+                    washed ashore a day or two before our arrival, lay on a nearby sand spit. The
+                    operations officer checked his lobster traps and shouted with glee as he removed
+                    a half dozen tempting red snappers.</p>
+                <p>Although unauthorized personnel are not allowed to land on <rs><placeName
+                            type="island" key="#i_sn">the Island</placeName></rs>, Dick Probert's
+                        <orgName type="company" key="#avalon">Avalon Air Transport</orgName>
+                    amphibian line flies chartered groups to waters off the Island coast. This is
+                    Probert's skin divers' special. He anchors his amphib for four hours while
+                    sportsmen dive from the plane exploring the fascinating sea depths and bring up
+                    abalone and lobster for the flight home.</p>
+                <p>From <placeName type="region" key="#re_landsend">Lands End</placeName> we drove
+                    across five miles of sandy waste, by-passing evidences of kitchen middens and
+                    innumerable fossilized tree stumps, indication of the presence at one time of
+                    small forests on the now barren <rs><placeName type="island" key="#i_sn"
+                            >Island</placeName></rs>. Shrapnel, 20 mm. shells and live 100-pound
+                    bombs littered a large section of sand hills&#8212;souvenirs of the <date
+                        from="1930" to="1939">Thirties</date> and <date from="1940" to="1439"
+                        >Forties</date> when <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> was used as a Navy firing range.</p>
+                <p>At one point we paused on the sandy roadbed to descend to a half-hidden
+                        <placeName type="region" key="#re_caveofwhales">cave</placeName> where an
+                    Indian artist had scrawled drawings of ocean waves and sharks in various forms
+                    of motion. We wondered if <rs><persName type="nativeamerican" key="#lw">Juana
+                            Maria</persName></rs> had lived in this cave, if perhaps it was she who
+                    made the lasting impressions on the walls.</p>
+                <p>A short distance from the cave a tremendous thundering discordant symphony
+                    suddenly rent the air. We had arrived at the beginning of the five-mile stretch
+                    of sea lion beaches, inhabited by more than 5,000 of the peculiar pinnipeds.</p>
+                <p>As we walked gingerly toward the sea lions, perched on rocks above the breaking
+                    surf, to get close-up pictures, the playful pinnipeds became aware of our
+                    presence and stirred up a storm&#8212;howling, barking, sneezing, yawning,
+                    squealing as they wriggled to the edge of the rocks and flipped into the
+                    water.</p>
+                <p>"Go away!" they seemed to be shouting as they splashed about in the sea.</p>
+                <p><rs><placeName type="island" key="#i_sn">The Island</placeName></rs> has the
+                    largest number of sea lions found anywhere in the nation and one of the few
+                    herds of sea elephants in the world. More than 300 sea elephants, cows and their
+                    offspring have been counted on <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName>. The ugly mammal gets its name from its proboscis, a
+                    grotesque trunklike snout more than a foot long.</p>
+                <p>The sea elephants, sea cows and baby sea elephants put on an even more hilarious
+                    show than did the sea lions. Too lazy to care, these tremendous sad-eyed
+                    wrinkled beasts hardly moved as we walked about their herd. Except for the king
+                    bull.</p>
+                <p>In the colony we visited there were about 50 mouse-faced cows, each seven to 10
+                    feet long and weighing more than a ton. There were almost as many babies in the
+                    colony as cows.</p>
+                <p>A short distance from the herd were a half-dozen bulls lying on scattered rocks.
+                    Whenever one of the bulls outside the herd would try to move in near a cow, a
+                    battle royal began.</p>
+                <p>The king bull flopped over cows and rocks to the interloper, making the distance
+                    in jig time considering his size, 12 to 18 feet, and weighing in excess of 2 1/2
+                    tons. Ripping into the invader with his tusk-like teeth, the king bull in each
+                    instance of battle swiftly drew blood and chased off his challenger.</p>
+                <p>During repeated battles, cows and babies yapped, screamed, bellowed and barked,
+                    constantly curling their flippers that resemble giant-sized hands across their
+                    backs and scratching their skin.</p>
+                <p>It was equally entertaining to observe the cooperation among the various wildlife
+                    on <rs><placeName type="island" key="#i_sn">the
+                    Island</placeName></rs>&#8212;cooperation, that is, in some instances and
+                    downright thievery in others.</p>
+                <p>Cormorants, sea lions, sea elephants and sea gulls sounded alarms for each other,
+                    with the arrival of indigenous Island fox or wild cats that roam <rs><placeName
+                            type="island" key="#i_sn">the Island</placeName></rs> in large numbers.
+                    They also "blew the whistle" as we approached one beach after another. The sea
+                    gulls took to the air. This alerted the cormorants. And when they swarmed into
+                    the air the rush of their wings alarmed the sea lions and sea elephants who
+                    subsequently took to the water.</p>
+                <p>However, at times when cormorants took flight, sea gulls rushed to their nests
+                    and promptly chomped away on cormorant eggs, while ravens invaded sea gull nests
+                    and devoured sea gull eggs.</p>
+                <p>We also saw ravens ground an Island eagle as they protected their centuries-old
+                    reign as sacred rulers of their Island domain.</p>
+                <p>Sea elephants and cows were a major source of oil during old whaling days and
+                    were almost hunted to extinction. They are now making a comeback and increasing
+                    in numbers from year to year at <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName>. Taking them in captivity is prohibited in United States
+                    waters.</p>
+                <p>Later, back at the base, we sat in on a yarn-swapping session between <persName
+                        key="#lljackson">Lincoln L. Jackson</persName>, 67, from <placeName
+                        type="city" key="#ci_vannuys">Van Nuys, California</placeName>, and
+                        <persName key="#cwsan">C. W. Sanders</persName>, 36, boatswain's mate 2nd
+                    Class of <placeName type="city" key="#ci_marion">Marion,
+                    Illino[i]s</placeName>.</p>
+                <p><persName key="#lljackson">Jackson</persName>, area supervisor of range
+                    instrumentation, came to <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> in <date when="1946">1946</date> when the missile base
+                    was activated. He has lived on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs> longer than anyone else now there.</p>
+                <p>San Nicolas' highest hill has been named <placeName type="region"
+                        key="#re_jacksonhill">Jackson Hill</placeName> in his honor.</p>
+                <p><persName key="#cwsan">Sanders</persName> is the veteran Islander among Navy men.
+                    They were discussing the winds that continuously sweep <rs><placeName
+                            type="island" key="#i_sn">the Island</placeName></rs>.</p>
+                <p>"Our prevailing northwest winds average between 35 and 50 m.p.h. nearly every day
+                    of the year," <persName key="#cwsan">Sanders</persName> related.</p>
+                <p>"But it blows much faster than that several times during the week," <persName
+                        key="#lljackson">Jackson</persName> added. "We have no half-way weather out
+                    her[e]. Sandstorms can be expected at all times. Fine sand seeps into everything
+                    and plays havoc with our machinery."</p>
+                <p>"Everybody learns to lean into the winds," <persName key="#cwsan"
+                        >Sanders</persName> continued. "When we go ashore, we can always spot
+                    someone from <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs> by the way he walks&#8212;with a San Nicolas
+                    tilt."</p>
+                <p>"The wind blows so fierce out here," <persName key="#lljackson"
+                        >Jackson</persName> noted, "that we'll build a road with a bulldozer on
+                    Friday and by Monday there won't be a sign of the road left."</p>
+                <p>There are 10 miles of paved road on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs>. The rest is constructed, as <persName
+                        key="#lljackson">Jackson</persName> indicated, quite frequently. <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> has its own fresh water
+                    supply. Tapped from Thousand Springs in the heart of <rs><placeName
+                            type="island" key="#i_sn">the Island</placeName></rs>, it has a mineral
+                    taste, but those who live on <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> swear by it, favoring it over mainland drinking
+                    water.</p>
+                <p><placeName type="region" key="#lljackson">Jackson</placeName> and <persName
+                        key="#cwsan">Sanders</persName>, like most of the personnel on
+                            <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>,
+                    enjoy hiking and fishing. They're both Island authorities and have unearthed
+                    four complete skeletons. Noteworthy feature of the skeletons are the
+                    teeth&#8212;none missing and not a pinpoint of cavity. But the teeth, in each
+                    case, were worn down by the rigorous chewing habits of their owners.</p>
+                <p>Popular pastime on <rs><placeName type="island" key="#i_sn">the
+                            Island</placeName></rs> is baseball&#8212;when the winds aren't
+                    blowing.</p>
+                <p>"This place grows on you," one of the men declared. "We get ashore regularly, if
+                    we want. And we can save money over here. No one can say that <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> with its crazy ravens, sea
+                    elephants and good fishing is a dull Island. And, of course, the missiles keep
+                    us busy."</p>
+                <p>In this International Geophysical Year <date from="1957" to="1958"
+                        >1957-1958</date>, <placeName type="island" key="#i_sn">San
+                        Nicolas</placeName> is playing an important role. At the dawn of the IGY
+                    year a mighty Deacon rocket with a Nike booster roared skyward from <placeName
+                        type="island" key="#i_sn">San Nicolas</placeName> as a team of scientists
+                    began a study of solar rays in their relation to radio waves. The rocket was
+                    fired to penetrate the ionosphere, 50 miles above the earth, where radio waves
+                    are reflected back to earth. However, during solar flareups instead of bouncing
+                    the radio waves back to the earth, the ionosphere absorbs them, causing a radio
+                    blackout.</p>
+                <p>The rocket flights measure ultraviolet light and X-rays during solar flares.
+                    Valuable information about the explosions on the sun is being recorded at the
+                    IGY station. Methods too are being learned for forecasting radio blackouts.</p>
+                <p>No mention of <placeName type="island" key="#i_sn">San Nicolas Island</placeName>
+                    is complete without information about <placeName type="region"
+                        key="#re_johnrock">Begg Rock</placeName>, eight miles northwest of
+                        <placeName type="island" key="#i_sn">San Nicolas Island</placeName>.</p>
+                <p><placeName type="region" key="#re_johnrock">Begg Rock</placeName> was named after
+                    the schooner <emph><name type="ship" key="#sh_begg">John Begg</name></emph>
+                    which crashed and sank on the 15-foot high rock that rises abruptly from a depth
+                    of 50 fathoms. The <emph><name type="ship" key="#sh_begg">John
+                        Begg</name></emph> ran head-on into the tiny pyramid of guano-capped land in
+                        <date when="1824">1824</date>.</p>
+                <p>A reef extends northward and southward of the rock a little over 100 yards in
+                    each direction. A lighted whistle buoy marks <placeName type="region"
+                        key="#re_johnrock">Begg Rock</placeName> 500 yards northward of its peak.
+                    The <orgName type="military" key="#mi_navy">Navy</orgName> has several lighted
+                    floats each about 10 feet long and four feet wide in its vicinity.</p>
+                <p>No mention of <placeName type="island" key="#i_sn">San Nicolas</placeName> is
+                    complete either without a buried treasure story. For there are legends galore
+                    about buried treasures here as well as on almost every one of the other
+                        <placeName type="island" key="#i_chi">Channel Islands</placeName>.</p>
+                <p>This story is but a year old. Two of the Navy men found an old weathered
+                    parchment which captured the imagination of mainlanders from <placeName
+                        type="state" key="#st_cal">California</placeName> to <placeName type="state"
+                        key="#st_ny">New York</placeName> and all points in between. The parchment,
+                    barely legible, was discovered beneath the floor boards of an abandoned
+                    sheepherder's cabin. It read:</p>
+                <p><floatingText>
+                        <body>
+                            <l>At Christmas time when gifts are sent</l>
+                            <l>They're from the saint, a kind old gent.</l>
+                            <l>On an isle which bears his name</l>
+                            <l>Is treasure, hid for you to claim</l>
+                            <l>In an iron chest so strong</l>
+                            <l>Buried where the land is long.</l>
+                            <l>If you walk where the tides do meet</l>
+                            <l>You will find it at your feet.</l>
+                            <l>Coins so rare, coins so old</l>
+                            <l>Coins of silver and of gold.</l>
+                            <l>If he who finds it is my friend,</l>
+                            <l>All my fortune he may spend.</l>
+                            <l>If he who finds it is my foe,</l>
+                            <l>Curses, misery and woe.</l>
+                        </body>
+                    </floatingText></p>
+                <p>If the person who composed the ditty actually knew of a buried treasure, then it
+                    is or was at <placeName type="region" key="#re_landsend">Lands End</placeName>
+                    "... where the tides do meet." </p>
+            </div>
+        </body>
+    </text>
+</TEI>

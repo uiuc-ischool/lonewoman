@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#hutchingsmag">Hutchings'
+                     California Illustrated Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">1</biblScope>
+               <biblScope unit="issue">8</biblScope>
+               <date when="1857-02-01"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#HutchingsCaliforniaMagazine1857">The Indian Woman of
+                     San Nicolas</title>
+                  <biblScope unit="page" from="347" to="348"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">THE <rs><persName type="nativeamerican"
+                           key="#lw">INDIAN WOMAN OF SAN NICHOLAS</persName></rs>.</hi>
+               </title></head>
+            <p>Our readers will remember that <title type="article" key="#Russell1856_HCF">in the
+                  November number of the Magazine</title> we were favored by <persName type="author"
+                  key="#cru">Capt. C. J. W. Russell</persName>, with the narrative of <rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> who was <rs><date
+                     from="1835" to="1853">eighteen years</date></rs> alone, on the <placeName
+                  type="island" key="#i_sn">Island of San Nicholas</placeName>. Since the
+               publication of that sketch, <rs><persName type="author" key="#cru">Capt.
+                     R.</persName></rs> has paid a visit to <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName>, and by <persName type="frontiersman" key="#gni">Mr.
+                  George Nedever</persName>, the gentleman who discovered her, was presented with a
+               water-bottle made of grass, and a stone mortar, necklace and other things that were
+               made by her during her long and solitary residence. The water-bottle explains its own
+               use. The mortar was used for pounding the <emph>aulone</emph>, the
+                  <emph>Haliotis</emph> of naturalists, and which was one of the principal articles
+               of food among <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >the Indians</orgName></rs>, and by whom they were dried for winter use, and
+               afterwards pounded in a mortar before eating.</p>
+            <p>At the present time there are no less than twelve schooners and sloops chartered by
+               Chinamen; besides several hundred of Chinese laborers engaged in this business, as
+               they are an important article of consumption to Chinamen in <placeName type="state"
+                  key="#st_cal">California</placeName>, in addition to the vast quantities exported
+               by them to <rs><placeName type="country" key="#co_china">their native
+                     land</placeName></rs>. In flavor these are said to be fully equal to the
+               oyster, especially in soup, and could be introduced advantageously for our own use,
+               and we would suggest to epicures here, to give this dish of "John's" a trial, for it
+               may be possible that although we might not relish cooked rats, the
+                  <emph>aulone</emph> may be one of the greatest of delicacies to our own
+               people.</p>
+            <p>(The <emph>aulone</emph> is the fish taken from the pearl oyster.)</p>
+            <p>The necklace made by <rs><persName type="nativeamerican" key="#lw">this ingenious
+                     woman</persName></rs>, was of slate, and although rude, it was prized by her as
+               a great ornament, even though no one was near to admire or praise her.</p>
+            <p>There is upon <rs><placeName type="island" key="#i_sn">this island</placeName></rs> a
+               good sized cave in which she took up <placeName type="region" key="#re_lwcave">her
+                  abode</placeName>, and on the walls of which she had kept a rude record of all the
+               vessels that had passed <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, and of all the most remarkable occurrences in her
+               lonely history, such as seeing large quantities of seals, hailing of vessels in the
+               distance, &amp;c.</p>
+            <p><span type="trope" n="10">By her signs she represented herself as once being very
+                  sick, and had to crawl upon her hands and knees from the cave to some water.
+                  During her sickness at <rs><placeName key="#nideverhouse">Mr.
+                        Nedever's</placeName></rs>, although she suffered much, she never
+                  complained, and made them understand that she should like to die, for then she
+                  should meet <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs> in the spirit land.</span></p>
+            <p>We append the following interesting extract from the <title type="article"
+                  key="#SantaBarbaraGazette1856"><emph>Santa Barbara Gazette</emph></title>.</p>
+            <p>"<span type="trope" n="10"><span type="trope" n="4"><span type="trope" n="14">All
+                        that was known of <rs><persName type="nativeamerican" key="#lw">this
+                              remarkable woman</persName></rs>, and all of her history while living
+                        upon <rs><placeName type="island" key="#i_sn">this island</placeName></rs>,
+                        she was able to impart by signs and gestures, (she had lost the knowledge of
+                        language), and the manner of her discovery and deliverance, her arrival here
+                        and death that soon followed, has before been published. While living she
+                        was an object of lively interest to some and curiosity to
+                     others</span></span></span>.</p>
+            <p>"Speaking with a friend lately, an old and respectable resident of <placeName
+                  type="state" key="#st_cal">California</placeName>, on this and kindred topics, we
+               were enabled to trace the history of <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     Indians</orgName></rs> inhabiting <rs><placeName type="island" key="#i_sn"
+                     >this</placeName></rs> and <rs><placeName type="island" key="#i_chi">other
+                     islands</placeName></rs> in <rs><placeName type="region" key="#re_sbchannel"
+                     >our channel</placeName></rs> back to the year <date when="1811">1811</date>.
+               The account given of the war of extermination<hi rend="super">*</hi>
+               <note n="1" place="foot"><hi rend="super">*</hi> The war referred to by <persName
+                     type="author" key="#cru">Capt. Russell</persName> in the <orgName
+                     type="publication" key="#hutchingsmag"><emph>Cal. Mag.</emph></orgName> of
+                  Nov.</note> against <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs> on <rs><placeName
+                     type="island" key="#i_sn">this particular island</placeName></rs> is not
+               uninteresting, and runs thus:</p>
+            <p>"In the year <date when="1811">1811</date>, <name type="ship" key="#sh_charon">a
+                  ship</name><hi rend="super">†</hi>
+               <note n="2" place="foot"><hi rend="super">†</hi>
+                  <rs><name type="ship" key="#sh_charon">The ship</name></rs> was captured <rs><date
+                        when="1812">the following year</date></rs> near <placeName type="island"
+                     key="#i_san">the Sandwich Islands</placeName>, by the British ship-of-war
+                     "<name type="ship" key="#sh_phoebe">Phœbe</name>," and <persName type="seaman"
+                     key="#whi">Capt. Whittemore</persName> was carried a prisoner of war to
+                     <placeName type="country" key="#co_eng"
+                  >England</placeName>.&#8212;<!--it would be nice to know who-->ED.</note> owned by
+                  <orgName key="#bp">Boardman &amp; Pope</orgName>, of <placeName type="city"
+                  key="#ci_bo">Boston</placeName>, commanded by <persName type="seaman" key="#whi"
+                  >Capt. Whittemore</persName>, trading on <rs><placeName type="region"
+                     key="#re_calcoast">this coast</placeName></rs>, took from the port of
+                  <placeName type="city" key="#ci_si">Sitka, Russian America</placeName>, about
+               thirty <orgName type="nativeamericantribes" key="#natam_kodiak">Kodiak
+                  Indians</orgName>, a part of <rs><orgName type="nativeamericantribes"
+                     key="#natam_kodiak">a hardy tribe</orgName></rs> inhabiting the <placeName
+                  type="island" key="#i_ko">island of Kodiak</placeName>, to <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs> in the <placeName
+                  type="region" key="#re_sbchannel">Santa Barbara Channel</placeName>, for the
+               purpose of killing sea otter, which were then very numerous in the neighborhood of
+                     <rs><placeName type="island" key="#i_chi">these islands</placeName></rs>.
+                  <persName type="seaman" key="#whi">Capt. Whittemore</persName>, after landing
+                     <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">the
+                     Kodiaks</orgName></rs> on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, and placing in their hands fire-arms and the necessary
+               implements of the chase, sailed away to the coast of <placeName type="region"
+                  key="#re_baja">Lower California</placeName>, and <placeName type="region"
+                  key="#re_southamerica">South America</placeName>.</p>
+            <p>"<span type="trope" n="11">In the absence of <rs><name type="ship" key="#sh_charon"
+                        >the ship</name></rs>, a dispute arose between <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName> and
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        natives</orgName></rs> of <rs><placeName type="island" key="#i_sn">the
+                        islands [sic]</placeName></rs>, originating in the seizure of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        females</orgName></rs> by <orgName type="nativeamericantribes"
+                     key="#natam_kodiak">the Kodiaks</orgName>. <orgName type="nativeamericantribes"
+                     key="#natam_kodiak">The Kodiaks</orgName> possessing more activity, endurance
+                  and knowledge of war, and possessing superior weapons, slaughtered <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     males</orgName></rs> without mercy, old and young. On the <placeName
+                     type="island" key="#i_sn">island of San Nicholas</placeName>, not a male, old
+                  or young, was spared.</span>
+               <rs><date notBefore="1811" notAfter="1812">At the end of a year</date></rs>
+               <persName type="seaman" key="#whi">Capt. Whittemore</persName> returned to
+                     <rs><placeName type="island" key="#i_sn">the islands [sic]</placeName></rs>,
+               took <orgName type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName>
+               on board, and carried them back to <placeName type="city" key="#ci_si"
+                  >Sitka</placeName>.</p>
+            <p>"From this period little is known of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the Indians</orgName></rs> remaining on
+                     <rs><placeName type="island" key="#i_sn">these islands [sic]</placeName></rs>
+               till the year <date when="1836">1836</date>, when <persName type="frontiersman"
+                  key="#iwi">Capt. Isaac Williams</persName>, late Collector of the Port of
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName>, visited <rs><placeName
+                     type="island" key="#i_sn">this island</placeName></rs> in <rs><name type="ship"
+                     key="#sh_peoresnada">a small vessel</name></rs>, and took on board all the
+                  <persName type="group" key="#bhagroup">Indians</persName> remaining but
+                     <rs><persName type="nativeamerican" key="#lw">one woman</persName></rs>, who
+               was left in the manner stated by <persName type="seaman" key="#cru">Capt.
+                  Russell</persName>, <title type="article" key="#Russell1856_HCF">in the
+                     <emph>California Magazine</emph></title>. <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">The
+                     Indians</orgName></rs> of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> were of the type of the coast Indians, and were no
+               doubt a part of them."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

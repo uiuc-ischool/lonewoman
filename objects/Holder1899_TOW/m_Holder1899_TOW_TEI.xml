@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <title type="jouranl"><orgName type="publication" key="#otagowitness"
+                                          >Otago Witness</orgName></title>
+                              <publisher/>
+                              <editor/>
+                              <biblScope unit="volume"/>
+                              <biblScope unit="issue">2,388</biblScope>
+                              <date when="1899-12-07"/>
+                              <pubPlace><placeName type="city" key="#ci_du">Dunedin</placeName>,
+                                          <placeName type="country" key="#co_nz">New
+                                          Zealand</placeName></pubPlace>
+                              <bibl>
+                                    <title type="article" key="#Holder1899_TOW">The Wind-swept
+                                          Island of San Nicolas</title>
+                                    <biblScope unit="page" n="55)"/>
+                                    <author><persName type="author" key="#dne"> </persName></author>
+                              </bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main">THE <placeName type="island" key="#i_sn">WIND-SWEPT
+                                          ISLAND OF SAN NICOLAS</placeName>.</title></head>
+                        <byline><persName type="author" key="#cho">PROFESSOR C. F.
+                              HOLDER</persName>, in the <title type="article" key="#Holder1899"
+                                    >Scientific American</title>.</byline>
+                        <p>About seventy miles off <placeName type="region" key="#re_socalcoast">the
+                                    coast of Southern California</placeName> lies the <placeName
+                                    type="island" key="#i_sn">island of San
+                              Nicolas</placeName>&#8212;a veritable desert, wind-swept to such a
+                              degree that one might well imagine that the furies are guarding
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>. <placeName type="island"
+                                    key="#i_sn">San Nicolas</placeName>, which is 12 miles long and
+                              four or five wide, has no harbours, the anchorage being merely a lee
+                              under the low hills; the fact that the wind blows directly off-shore
+                              making it possible for vessels to anchor here at certain seasons.
+                                    <span type="trope" n="14">On <rs><placeName type="island"
+                                                key="#i_sn">this island</placeName></rs>, which has
+                                    been the central point of a romance and tragedy of much
+                                    interest, deserted and alone, <rs><persName
+                                                type="nativeamerican" key="#lw">Maria Better Than
+                                                Nothing</persName></rs>, <rs><persName
+                                                type="nativeamerican" key="#lw">the wild woman of
+                                                San Nicolas</persName></rs>, lived <rs><date
+                                                notBefore="1835" notAfter="1853" cert="high">20
+                                                years</date></rs>&#8212;long enough to forget
+                                                <rs><orgName type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">her
+                                          people</orgName></rs> and even her language.</span> The
+                              story is as follows:&#8212;</p>
+                        <p>For centuries <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs> was inhabited by <rs><orgName
+                                          type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                                          race of hardy mariners</orgName></rs> who have left their
+                              monuments in large shell heaps and mounds that cover many acres. Less
+                              than one hundred years ago, <rs><persName type="group"
+                                          key="#aji; #ndur; #misfats">the Franciscan
+                                          fathers</persName></rs> determined to take <rs><orgName
+                                          type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                          >the natives</orgName></rs> away from <rs><placeName
+                                          type="island" key="#i_sn">the inhospitable
+                                          island</placeName></rs> and provide them with homes around
+                                          <rs><orgName type="mission" key="#mi_mainlandmissions">the
+                                          various missions</orgName></rs>, where they could also be
+                              comfortably converted. With this object in view, <rs><name type="ship"
+                                          key="#sh_peoresnada">a vessel</name></rs> was sent to
+                                          <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, and after much difficulty
+                                    <persName type="group" key="#bhagroup">the Indians</persName>,
+                              now reduced to about one hundred, were collected and taken aboard,
+                              deserting thousands of implements which their ancestors had used for
+                              centuries. When <rs><name type="ship" key="#sh_peoresnada">the
+                                          vessel</name></rs> was about to sail, <rs><persName
+                                          type="nativeamerican" key="#lw">one of the
+                                          women</persName></rs> discovered that <rs><persName
+                                          type="nativeamerican" key="#lw">her child</persName></rs>
+                              had been left behind. <span type="trope" n="9">But it was blowing a
+                                    gale, and <rs><name type="ship" key="#sh_peoresnada">the
+                                                vessel</name></rs> could not hold, so <rs><persName
+                                                type="group" key="#chu; #isp">the
+                                          captain</persName></rs> sailed away, whereupon
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                frantic mother</persName></rs> dashed into the sea
+                                    and swam back to the shore, making her way successfully through
+                                    the surf.</span>
+                              <rs><persName type="group" key="#chu; #isp">The
+                                    captain</persName></rs> of <rs><name type="ship"
+                                          key="#sh_peoresnada">the vessel</name></rs> promised to
+                              return for <rs><persName type="nativeamerican" key="#lw">the
+                                          woman</persName></rs>, but soon after <rs><name
+                                          type="ship" key="#sh_peoresnada">his vessel</name></rs>
+                              was wrecked, and no attempt was made to rescue <rs><persName
+                                          type="nativeamerican" key="#lw">the poor Indian
+                                          woman</persName></rs> until <rs><date notBefore="1835"
+                                          notAfter="1853" cert="high">20 years</date></rs> after,
+                              when <rs><persName type="missionfather" key="#jru">a
+                                    priest</persName></rs> determined to make an effort to learn
+                              whether she was alive. He enlisted the services of <rs><persName
+                                          type="group"
+                                          key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">an
+                                          otter hunter and several Indians</persName></rs>, who in a
+                              small schooner, known as <name type="ship" key="#sh_peoresnada">Better
+                                    Than Nothing</name>, set sail for <placeName type="island"
+                                    key="#i_sn">San Nicolas</placeName>.</p>
+                        <p>They landed on <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, and very soon found evidence that
+                              some one was living there, but avoiding them. To make the search
+                              perfect, <rs><persName type="group"
+                                          key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                                          men</persName></rs> formed a line across <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs> at
+                              certain distances apart, which resulted in the discovery of
+                                          <rs><persName type="nativeamerican" key="#lw">a wild
+                                          woman</persName></rs>.<span type="trope" n="1"> She was
+                                    sitting by a brush hut in a canon, about which was a windbreak
+                                    of whalebones and various material. She smiled and spoke to
+                                                <rs><persName type="group"
+                                                key="#cook; #msh; #poli; #nsk; #hva">the
+                                                Indians</persName></rs> in a language they did not
+                                    understand; but they fell on their faces before her as though to
+                                    worship her. She offered them food, and readily consented to go
+                                    with them, and was taken aboard <rs><name type="ship"
+                                                key="#sh_nidever">the schooner</name></rs> with a
+                                    tame otter. <span type="trope" n="10">She was dressed in the
+                                          skins of birds, over which was a garment of
+                                          sealskin.</span> She was named <rs><persName
+                                                type="nativeamerican" key="#lw">Better Than
+                                                Nothing</persName></rs>, after <rs><name type="ship"
+                                                key="#sh_peoresnada">the vessel</name></rs>, and by
+                                    signs succeeded in telling some Indians on <placeName
+                                          type="region" key="#re_mld">the mainland</placeName>
+                                    something of her history. At first she had mourned the loss of
+                                    her friends; then the dogs killed <rs><persName
+                                                type="nativeamerican" key="#lwchild">her
+                                                baby</persName></rs>, and she wished to die and was
+                                    sick for a long time.</span> She was taken to <placeName
+                                    type="city" key="#ci_sb">Santa Barbara</placeName>, where
+                              Indians from all about were brought to her to see if they could
+                              understand her language, but without avail. <span type="trope" n="3"
+                                    >She lived with different families at <placeName type="city"
+                                          key="#ci_sb">Santa Barbara</placeName>; but civilisation
+                                    proved disastrous to her, and in less than three months she
+                                    died.</span> Her remarkable dress of feathers was sent to
+                                    <placeName type="city" key="#ci_rom">Rome</placeName> as a
+                              curiosity, and the remains of <rs><persName type="nativeamerican"
+                                          key="#lw">the unfortunate woman</persName></rs> found a
+                              resting-place in the sanctified ground of <rs><placeName
+                                          type="mission" key="#mi_sb">the
+                              mission</placeName></rs>.</p>
+                        <p><span type="trope" n="5"><placeName type="island" key="#i_sn">San
+                                          Nicolas</placeName> has proved a veritable treasure-house
+                                    for the archæologist, and tons of stone implements have been
+                                    taken from various mounds on <rs><placeName type="island"
+                                                key="#i_sn">the island</placeName></rs>. One of the
+                                    most remarkable shell mounds in the world is found here, being,
+                                    it is said, nearly a mile long and ten feet in average height.
+                                    On its wind-swept surface innumerable objects have been found,
+                                    exposed during previous hurricanes, with the bodies of
+                                                <rs><orgName type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">Indians</orgName></rs>
+                                    facing each other, having been buried in a sitting position.
+                                    [sic] with hands clasped over the head. With many remains were
+                                    buried such personal effects as mortars, ollas, flutes, jewel
+                                    boxes, charms, flint spearheads, and almost every article needed
+                                    by a hunting and fishing people&#8212;all formed from shell,
+                                    bone, or wood. Fishing lines were made of kelp; sinkers of stone
+                                    with a groove worn around or a hole in the centre; the hook was
+                                    of elegant design, and bore the barb upon the
+                              outside.</span></p>
+                        <p><span type="trope" n="5">One of the greatest curiosities on <placeName
+                                          type="island" key="#i_sn">San Nicolas</placeName>, after
+                                    all, is the wind. It tosses the sand dunes into the air like
+                                    wraiths, and keeps them continually moving and shifting. It has
+                                    buried a stone house and so threatened another that
+                                                <rs><persName key="#fju">the lone
+                                          herder</persName></rs> on <rs><placeName type="island"
+                                                key="#i_sn">the island</placeName></rs> often
+                                    deserts it for shelter among the rocks near the sea-lion
+                                    rookeries, fearing that it will be blown into the sea. For two
+                                    successive years <rs><persName type="author" key="#cho">the
+                                                writer</persName></rs>, as guest of <persName
+                                          key="#bur">Commodore Burnham</persName>, of the <orgName
+                                          type="organization" key="#scatalinayachtclub">Santa
+                                          Catalina Yacht Club</orgName>, made the attempt to reach
+                                                <rs><placeName type="island" key="#i_sn">this
+                                                inhospitable island</placeName></rs>. The first time
+                                                <rs><name type="ship" key="#sh_sandiego">the
+                                                yacht</name></rs> was blown away; the second the
+                                    party was able to land, but owing to the terrific wind was glad
+                                    to leave. Approaching <rs><placeName type="island" key="#i_sn"
+                                                >the island</placeName></rs> presented a flat and
+                                    barren appearance, and <rs><name type="ship" key="#sh_sandiego"
+                                                >the yacht</name></rs> finally came to under the lee
+                                    of strange cliffs that rise from the sea, while to the north a
+                                    long spit of sand extends to the east. In some places the cliff
+                                    is worn by the combined forces of water and wind into marvellous
+                                    shapes, and is everywhere difficult of ascent. Some sailors have
+                                    a superstition that the strange wind that blows from
+                                                <rs><placeName type="island" key="#i_sn">the
+                                                island</placeName></rs> is from the souls of
+                                                <rs><orgName type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva">the
+                                          natives</orgName></rs>, who resent this intrusion and the
+                                    robbing of their graves.</span></p>
+                        <p>The yacht's party soon had an experience with the wind. A black fog cloud
+                              came sweeping down over <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs> and the wind blew a hurricane,
+                              dissipating the fog and blowing until 2 o'clock in the morning. The
+                              landing was made in a heavy sea&#8212;a dangerous operation.
+                                          <rs><persName key="#fju">The single inhabitant, a French
+                                          herder,</persName></rs> was standing on the sands, looking
+                              a typical <name type="fictional" key="#rcr">Robinson Crusoe</name>. He
+                              had a big hat strapped on under his chin, an old-fashioned shot gun
+                              over his shoulder, a cane in his other hand. Two half-breed shepherd
+                              dogs crouched near him. He evidenced no desire to hear from the outer
+                              world: his one wish was for beans, which, unfortunately, could not be
+                              gratified. He had a small fortune at hand in the antiquities which he
+                              could pick up, but he was undoubtedly loath to despoil the graves,
+                              though not averse to pointing out the skeletons which had heen
+                              uncovered here and there. <span type="trope" n="5">Everywhere the
+                                    wonderful evidences of the wind were apparent. In one canyon
+                                                <rs><persName type="author" key="#cho">the
+                                                writer</persName></rs> photographed a section that
+                                    seemed to have almost been carved by Titanic hands. There were
+                                    great faces, impossible forms of animals, delicate lacelike
+                                    tracery, all creating a weird effect.</span></p>
+                        <p><span type="trope" n="5"><rs><placeName type="island" key="#i_sn">The
+                                                island</placeName></rs> seemed to be in the grasp of
+                                    innumerable sand glaciers, which, instead of moving down, moved
+                                    up, and were ever shifting in the wind. The canyon in which
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                so-called wild woman</persName></rs> is supposed to
+                                    have lived is visible. A more deserted spot it is difficult to
+                                    imagine&#8212;a river of sand winding up from the distant sea
+                                    and covering everything. Here and there rise strange tree-like
+                                    shapes that resemble the trunks of spectral trees, and which but
+                                    add to the weirdness of the scene.</span>
+                              <span type="trope" n="7">Everywhere were evidences of former
+                                    occupation. Some of the party dug into the mounds, where curious
+                                    stone slabs marked perhaps the graves of the ancestors of
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                wild woman</persName></rs>. Pearl fishhooks, bone
+                                    pipes and a flint spearhead were found, standing possibly just
+                                    where they had been left; and tons of implements have been taken
+                                    from the surface of the sand dunes.</span> In one canyon a
+                              remarkable drapery of sandstone is being worn out by the wind. In
+                              others caves were found, one with strange hieroglyphics painted on the
+                              stone.</p>
+                        <p><span type="trope" n="6">Everything here tells of desolation and death;
+                                    the sands strewn with the bones of <rs><orgName
+                                                type="nativeamericantribes"
+                                                key="#natam_NicolenoTongva"> a lost
+                                          race</orgName></rs>, the deep canyons filling up with the
+                                    deadly sand that conceals the remains of unnmumbered people who
+                                    lived here in the past.</span> The wind does not always blow at
+                                    <placeName type="island" key="#i_sn">San Nicolas</placeName>.
+                              The summer is the season of winds; in winter days and weeks follow
+                              when <rs><placeName type="island" key="#i_sn">the
+                                    island</placeName></rs> is at peace and the sand dunes seem
+                              sleeping. But fierce winter storms come suddenly, and <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs> is
+                              not in good favor among the navigators of the Pacific.</p>
+                  </div>
+            </body>
+      </text>
+</TEI>

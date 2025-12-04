@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal" key="#masterkey">The Masterkey</title>
+               <editor> </editor>
+               <biblScope unit="volume">54</biblScope>
+               <biblScope unit="issue">3</biblScope>
+               <biblScope unit="date"><date when="1980"/></biblScope>
+               <pubPlace/>
+               <publisher/>
+               <bibl>
+                  <title type="article" key="#Hudson1980">Additional Harrington Notes on the "Lone
+                     Woman"</title>
+                  <biblScope unit="page" from="109" to="112"/>
+                  <author><persName type="author" key="#thu">Hudson, Dee Travis</persName></author>
+                  <date when="1980"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">ADDITIONAL HARRINGTON NOTES ON <rs><persName
+                           type="nativeamerican" key="#lw">THE "LONE
+                  WOMAN"</persName></rs></hi></title></head>
+            <byline><emph>By</emph>
+               <persName type="author" key="#thu">Travis Hudson</persName></byline>
+            <p><span type="trope" n="4">IN TWO PREVIOUS ISSUES OF</span>
+               <span type="trope" n="4"><orgName type="journal" key="#masterkey">THE
+                     MASTERKEY</orgName>
+               </span>(<span type="trope" n="4">Vol. 52, <title type="article"
+                     key="#Hudson1978_52(1)">Nos. 1</title> &amp; <title type="article"
+                     key="#Hudson1978_52(4)">4</title>, <date when="1978">1978</date>) several
+                  exciting discoveries of ethnographic notes pertaining to <rs><persName
+                        type="nativeamerican" key="#lw">the "Lone Woman" of San Nicolas
+                        Island</persName></rs> were reported.</span>
+               <title type="article" key="#Hudson1978_52(1)">These</title>
+               <title type="article" key="#Hudson1978_52(4)">notes</title> were found among the
+               extensive papers of <persName type="author" key="#jha">John P. Harrington</persName>
+               for the <orgName type="nativeamericantribes" key="#natam_Ventureno">Ventureño
+                  Chumash</orgName>. Recently, however, two additional notes on <rs><persName
+                     type="nativeamerican" key="#lw">the "Lone Woman"</persName></rs> have surfaced
+               among Harrington's papers for the <orgName type="nativeamericantribes"
+                  key="#natam_Barbareno">Barbareño Chumash</orgName>. Interviewed in <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> some time <rs><date
+                     notBefore="1912" notAfter="1922">between 1912 and 1922</date></rs>, the
+               informant in this case was <persName type="nativeamerican" key="#lyg">Luisa
+                  Ygnacio</persName>, a full-blood Barbareño Chumash who was baptized at <orgName
+                  type="mission" key="#mi_santabarbaramission">Mission Santa Barbara</orgName> about
+                  <date when="1830">1830</date>. <persName type="author" key="#jha"
+                  >Harrington</persName> used the abbreviation[s] "Sa." and "La." when referring to
+               her (Blackburn 1975: 19).</p>
+            <p>The first short note is as follows:</p>
+            <p>"<span type="trope" n="6"><rs><persName type="nativeamerican" key="#lyg"
+                        >Sa.</persName></rs> has never seen a shell fishhook, except the one that
+                        <rs><persName type="nativeamerican" key="#lw">the last woman of San
+                        Nicolas</persName></rs> had</span>. It was a big shell fishhook, and [the]
+               fishline [with it] was as thick as a lead pencil. <rs><persName type="nativeamerican"
+                     key="#poli">Sa.'s spouse</persName></rs> brought it.<hi rend="superscript"
+                  >1</hi><note n="1" place="end">1. In <date when="1853">1853</date>, when
+                        <rs><persName type="nativeamerican" key="#lw">the "Lone Woman"</persName>
+                  </rs> was taken off <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> and brought to <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, <persName type="nativeamerican" key="#lyg">Luisa
+                     Ygnacio</persName> would have been about 23 years old. She married <persName
+                     type="nativeamerican" key="#poli">Policarpio</persName>, also Chumash, in <date
+                     when="1851">1851</date> (Blackburn 1975: 19). According to other notes,
+                     <persName type="nativeamerican" key="#poli">Policarpio</persName> was a
+                  fisherman residing in an Indian community of fishermen at <placeName type="city"
+                     key="#ci_goleta">Goleta Estero</placeName>, just west of <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName>. His father was <persName
+                     type="nativeamerican" key="#jka">Jose Sudon
+                     <emph>Kamuliyatset</emph></persName>, a Santa Cruz Island Indian baptized on
+                     <date when="1819-07-29">July 29, 1819</date> at <orgName type="mission"
+                     key="#mi_santabarbaramission">Mission Santa Barbara</orgName>. <persName
+                     type="nativeamerican" key="#jka"><emph>Kamuliyatset</emph></persName> was the
+                  captain of the <rs><placeName type="city" key="#ci_goleta">Goleta
+                        village</placeName></rs> where he resided and was also the owner of a
+                  Chumash plank canoe which was used in the Chumash Revolt of <date when="1824"
+                     >1824</date> (Hudson 1976).</note>
+               <persName type="nativeamerican" key="#lyg">Sa.</persName> had it at <rs><placeName
+                     key="#sahome">Sa.'s home on the ranch</placeName></rs>, but after a while it
+               got thrown away. <span type="trope" n="6"><rs><persName type="nativeamerican"
+                        key="#lyg">Sa.</persName></rs> also had at <rs><placeName key="#sahome">the
+                        ranch</placeName></rs> two feather capes belonging to <rs><persName
+                        type="nativeamerican" key="#lw">the last woman of San
+                     Nicolas</persName></rs> which <rs><persName key="#poli">Sa.'s
+                     spouse</persName></rs> brought at the same time that he brought the
+                  fishhook.</span><hi rend="superscript">2</hi><note n="2" place="end">2. A feather
+                  dress was reported for <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs>, described as made of several square-cut shag skins
+                  sown together (<title type="manuscript" key="#Dittman1878">Dittman</title> 1973:
+                  1; <title type="manuscript" key="#Nidever1878">Nidever</title> 1973: 10). The
+                  dress was also described to <persName type="author" key="#jha"
+                     >Harrington</persName> years later by a <persName key="#mrdelvalle"
+                     >Mr.</persName> and <persName key="#mrsdelvalle">Mrs. del Valle</persName>,
+                  "old Santa Barbara residents," which in his notes is described as follows: "They
+                  said that <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                  had an apron of fiber on underneath her duckskin cloak. The dress which she wore
+                  was of shag, not duckskins. Feathers were all around the hem. They all faced the
+                  same way. The skins were neatly joined. They said it was a beautiful piece of
+                  work. The dress had holes for the arms. It reached almost to her knees. The one
+                  she wore appeared not to be finished." The dress was reportedly sent to <placeName
+                     type="city" key="#ci_rom">Rome</placeName> by <persName type="missionfather"
+                     key="#jru">Father Gonzalez Rubio</persName> of <orgName type="mission"
+                     key="#mi_santabarbaramission">Mission Santa Barbara</orgName>. The description
+                  of the cape's manufacture is similar to that of the dress, and it is also
+                  suggestive of the Seri Indian bird-skin robes made by sewing pelican skins
+                  together.</note> These were small (not big) and were made by sewing together
+               seagull skins with [the] feathers still on, <rs><persName type="nativeamerican"
+                     key="#lyg">Sa.</persName></rs> thinks. [The] feathers [were] on [the] outside
+               [of the capes]. Used them [by wearing them] thrown over [the] shoulders. When
+                     <rs><persName type="nativeamerican" key="#poli">Sa.'s spouse</persName>
+               </rs> died, <rs><persName type="nativeamerican" key="#lyg">Sa.</persName>
+               </rs> threw the capes and hook away.<hi rend="superscript">3</hi><note n="3"
+                  place="end">3. The word "brought" suggests that perhaps <persName
+                     type="nativeamerican" key="#poli">Policarpio</persName>, like <persName
+                     type="nativeamerican" key="#msh">Malquiares</persName> in the Ventureño
+                  accounts, was an Indian crewman serving with <persName type="frontiersman"
+                     key="#gni">George Nidever</persName> on the voyage which brought <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs> off <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> (<title type="article"
+                     key="#Hudson1978_52(1)">Hudson 1978a</title>: 26; <title type="article"
+                     key="#Hudson1978_52(4)">1978b</title>: 152-153). Both <title type="manuscript"
+                     key="#Dittman1878">Dittman</title> (1973: 1) and <title type="manuscript"
+                     key="#Nidever1878">Nidever</title> (1973: 10) mention <rs><persName
+                        type="group" key="#col; #cook; #msh; #poli; #nsk; #hva">their
+                        crew</persName></rs> as being composed of <rs><persName type="group"
+                        key="#cook; #msh; #poli; #nsk; #hva">Mission Indians</persName></rs>.
+                     <persName type="nativeamerican" key="#poli">Policarpio</persName>, a resident
+                  fisherman of the <rs><placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName></rs> region at the time (and perhaps an experienced otter
+                  hunter) would certainly have been an ideal crewman. His death took place <date
+                     notAfter="1856">sometime prior to 1856</date> (Blackburn 1975: 19).</note>"</p>
+            <p>The second note mentions these details concerning <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>:</p>
+            <p>"<span type="trope" n="6">They had <rs><persName type="nativeamerican" key="#lw">the
+                        last woman of San Nicolas Island</persName>
+                  </rs> here in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>.</span>
+               <rs><persName type="nativeamerican" key="#lyg">Sa.</persName></rs> did not go to see
+               her, but many people did. <persName type="nativeamerican" key="#martina"
+                  >Martina</persName> went to see her, and either <persName type="nativeamerican"
+                  key="#martina">Martina</persName> or others said she talked like a <orgName
+                  type="nativeamericantribes" key="#natam_Fernandenos">Fernandina</orgName>.<hi
+                  rend="superscript">4</hi><note n="4" place="end">4. <persName
+                     type="nativeamerican" key="#martina">Martina Lekte</persName> was a Santa Cruz
+                  Island woman born at <emph><placeName type="region" key="#re_prisonersharbor"
+                        >Kaxas</placeName></emph> (<placeName type="region"
+                     key="#re_prisonersharbor">Prisoner's Harbor</placeName>) and brought to
+                     <placeName type="region" key="#re_mld">the mainland</placeName> at <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> while still a child. She was
+                  a niece of <persName type="nativeamerican" key="#cec">Cecilia</persName>, the wife
+                  of <emph><persName type="nativeamerican" key="#jka"
+                  >Kamuliyatset</persName></emph>. <persName type="nativeamerican" key="#martina"
+                     >Martina</persName> was married twice and lived for a time in <placeName
+                     type="city" key="#ci_ven">Ventura</placeName> (Hudson 1979a: 149).</note> So
+               they got <persName key="#pilar">Pilar</persName> to come and try to talk with her.<hi
+                  rend="superscript">5</hi><note n="5" place="end">5. <persName key="#pilar"
+                     >Pilar</persName>, according to <persName type="nativeamerican" key="#lyg"
+                     >Luisa Ygnacio</persName>, was first married to <persName type="nativeamerican"
+                     key="#teo">Teofilo</persName>, a brother of <persName type="nativeamerican"
+                     key="#poli">Policarpio</persName>. Thus <persName key="#pilar">Pilar</persName>
+                  and <persName type="nativeamerican" key="#lyg">Luisa</persName> were
+                  sisters-in-law. Following Teofilo's death <persName key="#pilar">Pilar</persName>
+                  married <persName key="#justo">Justo</persName> of <placeName type="city"
+                     key="#ci_ven">Ventura</placeName>, a distant relative of
+                     <emph>Kamuliyatset's</emph> wife <persName type="nativeamerican" key="#cec"
+                     >Cecilia</persName>. Prior to Pilar's death <persName key="#justo"
+                     >Justo</persName> fled to the <placeName type="county" key="#re_thlare">Tulare
+                     country</placeName> with a Ventura woman named <persName key="#ence"
+                     >Encelaria</persName>. <persName key="#pilar">Pilar</persName> is buried at the
+                     <placeName key="#sbmissioncemetary">Mission Santa Barbara
+                  cemetery</placeName>.</note>
+               <persName key="#pilar">Pilar</persName> talked good Barbareño Chumash, but she never
+               forgot her native tongue and talked it when the <orgName type="nativeamericantribes"
+                  key="#natam_Fernandenos">Fernandinos</orgName> came here to <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. <persName key="#pilar">Pilar</persName>
+               tried to talk with <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs> in Fernandina, but she said she could not understand.<hi
+                  rend="superscript">6</hi><note n="6" place="end">6. In Ventureño accounts
+                        <rs><persName type="nativeamerican" key="#fki">Harrington's
+                        informant</persName></rs> reported that <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs> could understand Fernandino (<title
+                     type="article" key="#Hudson1978_52(1)">Hudson 1978a</title>: 25; <title
+                     type="article" key="#Hudson1978_52(4)">1978b</title>: 153). We are now told
+                  that she was unable to understand the language. Possibly then, her language,
+                  Nicoleño, was distinct enough from Fernandino so as not to be understood at all. A
+                  likely choice might be that Nicoleño was either a language of its own or a dialect
+                  of Gabrielino spoken on <placeName type="island" key="#i_scruz">Santa Cruz
+                     Island</placeName>. One of Harrington's Gabrielino informants, <persName
+                     type="nativeamerican" key="#jju">Jose de los Santos Juncos</persName>, from
+                     <placeName type="region" key="#re_mld">the mainland</placeName>, stated that
+                  the people of <placeName type="mission" key="#mi_sgabriel">San Gabriel</placeName>
+                  could not be understood by <rs><orgName type="nativeamericantribes"
+                        key="#natam_Catalineno">those of Catalina Island</orgName></rs> (Hudson
+                  1979b: 361). It would therefore seem that "Catalineño" was a separate Gabrielino
+                  language, as might also be the case for Nicoleño.</note></p>
+            <p>"If they had let <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs> stay with the Indians here, she would have been all right.
+               But they kept her with <rs><persName type="frontiersman" key="#gni"
+                  >Qorqe</persName></rs> (<persName type="frontiersman" key="#gni">George
+                  Nidever</persName>). <persName type="nativeamerican" key="#martina"
+                  >Martina</persName> and <persName key="#pilar">Pilar</persName> came from
+                  <placeName type="city" key="#ci_ven">Ventura</placeName> one time and got some
+               clams and maybe some other things on the road, and when they passed by here, in
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, they visited
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> and
+               gave her the clams. <rs><persName type="nativeamerican" key="#lw">The
+                     woman</persName></rs> was greatly pleased. <persName type="nativeamerican"
+                  key="#martina">Martina</persName> and <persName key="#pilar">Pilar</persName> had
+               just made a little trip to <placeName type="city" key="#ci_ven">Ventura</placeName>.
+                     <rs><persName type="nativeamerican" key="#lyg">Sa.</persName></rs> thinks they
+               had seen <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+               before that time."</p>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">End Notes</hi></title></head>
+               <list>
+                  <item n="1">1. In <date when="1853">1853</date>, when <rs><persName
+                           type="nativeamerican" key="#lw">the "Lone Woman"</persName>
+                     </rs> was taken off <rs><placeName type="island" key="#i_sn">the
+                           island</placeName></rs> and brought to <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName>, <persName type="nativeamerican"
+                        key="#lyg">Luisa Ygnacio</persName> would have been about 23 years old. She
+                     married <persName type="nativeamerican" key="#poli">Policarpio</persName>, also
+                     Chumash, in <date when="1851">1851</date> (Blackburn 1975: 19). According to
+                     other notes, <persName type="nativeamerican" key="#poli">Policarpio</persName>
+                     was a fisherman residing in an Indian community of fishermen at <placeName
+                        type="city" key="#ci_goleta">Goleta Estero</placeName>, just west of
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. His father
+                     was <persName type="nativeamerican" key="#jka">Jose Sudon
+                           <emph>Kamuliyatset</emph></persName>, a Santa Cruz Island Indian baptized
+                     on <date when="1819-07-29">July 29, 1819</date> at <orgName type="mission"
+                        key="#mi_santabarbaramission">Mission Santa Barbara</orgName>. <persName
+                        type="nativeamerican" key="#jka"><emph>Kamuliyatset</emph></persName> was
+                     the captain of the <rs><placeName type="city" key="#ci_goleta">Goleta
+                           village</placeName></rs> where he resided and was also the owner of a
+                     Chumash plank canoe which was used in the Chumash Revolt of <date when="1824"
+                        >1824</date> (Hudson 1976).</item>
+                  <item n="2">2. A feather dress was reported for <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs>, described as
+                     made of several square-cut shag skins sown together (<title type="manuscript"
+                        key="#Dittman1878">Dittman</title> 1973: 1; <title type="manuscript"
+                        key="#Nidever1878">Nidever</title> 1973: 10). The dress was also described
+                     to <persName type="author" key="#jha">Harrington</persName> years later by a
+                        <persName key="#mrdelvalle">Mr.</persName> and <persName key="#mrsdelvalle"
+                        >Mrs. del Valle</persName>, "old Santa Barbara residents," which in his
+                     notes is described as follows: "They said that <rs><persName
+                           type="nativeamerican" key="#lw">the woman</persName></rs> had an apron of
+                     fiber on underneath her duckskin cloak. The dress which she wore was of shag,
+                     not duckskins. Feathers were all around the hem. They all faced the same way.
+                     The skins were neatly joined. They said it was a beautiful piece of work. The
+                     dress had holes for the arms. It reached almost to her knees. The one she wore
+                     appeared not to be finished." The dress was reportedly sent to <placeName
+                        type="city" key="#ci_rom">Rome</placeName> by <persName type="missionfather"
+                        key="#jru">Father Gonzalez Rubio</persName> of <orgName type="mission"
+                        key="#mi_santabarbaramission">Mission Santa Barbara</orgName>. The
+                     description of the cape's manufacture is similar to that of the dress, and it
+                     is also suggestive of the Seri Indian bird-skin robes made by sewing pelican
+                     skins together.</item>
+                  <item n="3">3. The word "brought" suggests that perhaps <persName
+                        type="nativeamerican" key="#poli">Policarpio</persName>, like <persName
+                        type="nativeamerican" key="#msh">Malquiares</persName> in the Ventureño
+                     accounts, was an Indian crewman serving with <persName type="frontiersman"
+                        key="#gni">George Nidever</persName> on the voyage which brought
+                           <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                     off <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                        (<title type="article" key="#Hudson1978_52(1)">Hudson 1978a</title>: 26;
+                        <title type="article" key="#Hudson1978_52(4)">1978b</title>: 152-153). Both
+                        <title type="manuscript" key="#Dittman1878">Dittman</title> (1973: 1) and
+                        <title type="manuscript" key="#Nidever1878">Nidever</title> (1973: 10)
+                     mention <rs><persName type="group"
+                           key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">their
+                           crew</persName></rs> as being composed of <rs><persName type="group"
+                           key="#cook; #msh; #poli; #nsk; #hva">Mission Indians</persName></rs>.
+                        <persName type="nativeamerican" key="#poli">Policarpio</persName>, a
+                     resident fisherman of the <rs><placeName type="city" key="#ci_sb">Santa
+                           Barbara</placeName></rs> region at the time (and perhaps an experienced
+                     otter hunter) would certainly have been an ideal crewman. His death took place
+                        <date notAfter="1856">sometime prior to 1856</date> (Blackburn 1975:
+                     19).</item>
+                  <item n="4">4. <persName type="nativeamerican" key="#martina">Martina
+                        Lekte</persName> was a Santa Cruz Island woman born at <emph><placeName
+                           type="region" key="#re_prisonersharbor">Kaxas</placeName></emph>
+                        (<placeName type="region" key="#re_prisonersharbor">Prisoner's
+                        Harbor</placeName>) and brought to <placeName type="region" key="#re_mld"
+                        >the mainland</placeName> at <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> while still a child. She was a niece of <persName
+                        type="nativeamerican" key="#cec">Cecilia</persName>, the wife of
+                           <emph><persName type="nativeamerican" key="#jka"
+                        >Kamuliyatset</persName></emph>. <persName type="nativeamerican"
+                        key="#martina">Martina</persName> was married twice and lived for a time in
+                        <placeName type="city" key="#ci_ven">Ventura</placeName> (Hudson 1979a:
+                     149).</item>
+                  <item n="5">5. <persName key="#pilar">Pilar</persName>, according to <persName
+                        type="nativeamerican" key="#lyg">Luisa Ygnacio</persName>, was first married
+                     to <persName type="nativeamerican" key="#teo">Teofilo</persName>, a brother of
+                        <persName type="nativeamerican" key="#poli">Policarpio</persName>. Thus
+                        <persName key="#pilar">Pilar</persName> and <persName type="nativeamerican"
+                        key="#lyg">Luisa</persName> were sisters-in-law. Following Teofilo's death
+                        <persName key="#pilar">Pilar</persName> married <persName key="#justo"
+                        >Justo</persName> of <placeName type="city" key="#ci_ven"
+                        >Ventura</placeName>, a distant relative of <emph>Kamuliyatset's</emph> wife
+                        <persName type="nativeamerican" key="#cec">Cecilia</persName>. Prior to
+                     Pilar's death <persName key="#justo">Justo</persName> fled to the <placeName
+                        type="county" key="#re_thlare">Tulare country</placeName> with a Ventura
+                     woman named <persName key="#ence">Encelaria</persName>. <persName key="#pilar"
+                        >Pilar</persName> is buried at the <placeName key="#sbmissioncemetary"
+                        >Mission Santa Barbara cemetery</placeName>.</item>
+                  <item n="6">6. In Ventureño accounts <rs><persName type="nativeamerican"
+                           key="#fki">Harrington's informant</persName></rs> reported that
+                           <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                     could understand Fernandino (<title type="article" key="#Hudson1978_52(1)"
+                        >Hudson 1978a</title>: 25; <title type="article" key="#Hudson1978_52(4)"
+                        >1978b</title>: 153). We are now told that she was unable to understand the
+                     language. Possibly then, her language, Nicoleño, was distinct enough from
+                     Fernandino so as not to be understood at all. A likely choice might be that
+                     Nicoleño was either a language of its own or a dialect of Gabrielino spoken on
+                        <placeName type="island" key="#i_scruz">Santa Cruz Island</placeName>. One
+                     of Harrington's Gabrielino informants, <persName type="nativeamerican"
+                        key="#jju">Jose de los Santos Juncos</persName>, from <placeName
+                        type="region" key="#re_mld">the mainland</placeName>, stated that
+                           <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                           people of San Gabriel</orgName></rs> could not be understood by
+                           <rs><orgName type="nativeamericantribes" key="#natam_Catalineno">those of
+                           Catalina Island</orgName></rs> (Hudson 1979b: 361). It would therefore
+                     seem that "Catalineño" was a separate Gabrielino language, as might also be the
+                     case for Nicoleño.</item>
+               </list>
+            </div>
+            <div type="section">
+               <head><title type="section">REFERENCES</title></head>
+               <div>
+                  <p><bibl>
+                        <author><persName type="author" key="#tbl">BLACKBURN
+                           THOMAS</persName></author></bibl></p>
+                  <p><bibl><date when="1975">1975</date></bibl></p>
+                  <p><bibl><emph>December's Child: A Book of Chumash Oral Narratives.</emph>
+                        <publisher><orgName type="publisher" key="#ucalpress">University of
+                              California Press</orgName></publisher>. <pubPlace><placeName
+                              type="city" key="#ci_berk">Berkeley</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="frontiersman" key="#cdi">DITTMAN,
+                           CARL</persName></author></bibl></p>
+                  <p><bibl><date when="1973">1973</date></bibl></p>
+                  <p><bibl><emph><title type="manuscript" key="#Dittman1878">Narrative Of a
+                              Seafaring Life on the Coast of California</title></emph>. Reprinted in
+                           <emph>Original Accounts of the Lone Woman of San Nicolas Island</emph>.
+                        ed. by <editor><persName type="author" key="#rhe">Robert
+                           Heizer</persName></editor> &amp; <editor><persName type="author"
+                              key="#els">Albert Elsasser</persName></editor>, <biblScope unit="page"
+                           from="1" to="7">pp. 1-7</biblScope>. <publisher><orgName type="publisher"
+                              key="#ballena">Ballena Press</orgName></publisher>.
+                              <pubPlace><placeName type="city" key="#ci_ramona"
+                           >Ramona</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <persName type="author" key="#thu">HUDSON, TRAVIS</persName></bibl></p>
+                  <p><bibl><date when="1976">1976</date></bibl></p>
+                  <p><bibl>Chumash Canoes of Mission Santa Barbara: the Revolt of 1824.
+                           <emph>Journal of California Anthropology</emph>. <biblScope unit="volume"
+                           n="3">Vol. 3</biblScope>, <biblScope unit="issue" n="2">No.
+                        2</biblScope>: <biblScope unit="page" from="5" to="15">5-15</biblScope>.
+                              <publisher><orgName type="publisher" key="#malki">Malki Museum
+                              Press</orgName></publisher>. <pubPlace><placeName type="city"
+                              key="#ci_ban">Banning</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="supplied" key="#thu"/></author></bibl></p>
+                  <p><bibl><date when="1978">1978</date>a</bibl></p>
+                  <p><bibl><title type="article" key="#Hudson1978_52(1)">Some J.P. Harrington Notes
+                           on the "Lone Woman" of San Nicolas</title>. <emph>The Masterkey</emph>,
+                           <biblScope unit="volune" n="52">Vol. 52</biblScope>, <biblScope
+                           unit="issue" n="1">No. 1</biblScope>: <biblScope unit="page" from="23"
+                           to="28">23-28</biblScope>. <publisher><orgName type="museum"
+                              key="#mu_southwest">Southwest Museum</orgName></publisher>. <pubPlace>
+                           <placeName type="city" key="#ci_la">Los
+                        Angeles</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="supplied" key="#thu"/></author></bibl></p>
+                  <p><bibl><date when="1978">1978</date>b</bibl></p>
+                  <p><bibl><title type="article" key="#Hudson1978_52(4)">An Additional Harrington
+                           Note on the "Lone Woman" of San Nicolas</title>. <emph>The
+                           Masterkey</emph>. <biblScope unit="volume" n="52">Vol. 52</biblScope>,
+                           <biblScope unit="volume" n="4">no 4</biblScope>: <biblScope unit="page"
+                           from="151" to="154">151-154</biblScope>. <publisher><orgName
+                              type="museum" key="#mu_southwest">Southwest
+                           Museum</orgName></publisher>. <pubPlace><placeName type="city"
+                              key="#ci_la">Los Angeles</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="supplied" key="#thu"/></author></bibl></p>
+                  <p><bibl><date when="1979">1979</date>a</bibl></p>
+                  <p><bibl><emph>Breath of the Sun</emph>: Life in Early California as Told by a
+                        Chumash Indian, Fernando Librado, to John P. Harrington. <publisher><orgName
+                              type="publisher" key="#malki">Matki Museum
+                        Press</orgName></publisher>. <pubPlace><placeName type="city" key="#ci_ban"
+                              >Banning</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl><author><persName type="supplied" key="#thu"/></author></bibl></p>
+                  <p><bibl><date when="1979">1979</date>b</bibl></p>
+                  <p><bibl>A Rare Account of Gabrielino Shamanism from the Notes of John P.
+                        Harrington. <emph>Journal of California and Great Basin Anthropology</emph>.
+                           <biblScope unit="volume" n="1">Vol. 1</biblScope>, <biblScope
+                           unit="issue" n="2">No. 2</biblScope>: <biblScope unit="page" from="356"
+                           to="362">356-362</biblScope>. <publisher><orgName type="publisher"
+                              key="#malki">Mallti Museum Press</orgName></publisher>.
+                              <pubPlace><placeName type="city" key="#ci_ban"
+                           >Banning</placeName></pubPlace>.</bibl></p>
+               </div>
+               <div>
+                  <p><bibl>
+                        <author><persName type="frontiersman" key="#gni">NIDEVER, GEORGE</persName>
+                        </author></bibl></p>
+                  <p><bibl><date when="1973">1973</date></bibl></p>
+                  <p><bibl><emph><title type="manuscript" key="#Nidever1878">The Life and Adventures
+                              of a Pioneer of California since 1834</title></emph>. <biblScope
+                           unit="page" from="7" to="15">pp. 7-15</biblScope> in <rs><emph>Original
+                              Accounts</emph></rs> (see Dittman, above).</bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

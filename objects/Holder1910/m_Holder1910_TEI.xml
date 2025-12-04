@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph">The Channel Islands of California</title>
+               <publisher>A. C. McClurg &amp; Company</publisher>
+               <date when="1910"/>
+               <pubPlace><placeName type="city" key="#ci_chic">Chicago</placeName>, <placeName
+                     type="state" key="#st_il">Illinois</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Holder1910">Chapter XXVIII: Juana Better Than
+                     Nothing--The Lost Woman of San Nicolás</title>
+                  <biblScope unit="page" n="1" from="313" to="323"/>
+                  <author><persName type="author" key="#cho">Holder, Charles
+                     Frederick</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="chapter">
+            <head><title type="main">CHAPTER XXVIII</title>
+               <title type="sub"><rs><persName type="nativeamerican" key="#lw">JUANA BETTER THAN
+                        NOTHING</persName></rs> &#8212; <rs><persName type="nativeamerican"
+                        key="#lw">THE LOST WOMAN OF SAN NICOLÁS</persName>
+                  </rs></title></head>
+            <p>My first visit to <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName> was made, I think, in the hope of discovering a temple to the
+               god <name type="deity" key="#chin">Chinigchinich</name> of the ancient <orgName
+                  type="nativeamericantribes" key="#natam_pimugnans">Pimugnans</orgName>, described
+               by <persName type="seaman" key="#tto">Torquemada</persName>, the padre of the
+                  <persName type="seaman" key="#svi">Vizcaino</persName> expedition in <date
+                  when="1602">1602</date>, but I hunted the deep cañons and the Vale of <placeName
+                  type="city" key="#ci_av">Avalon</placeName> in vain. My first visit to <placeName
+                  type="island" key="#i_sn">San Nicolás</placeName> was inspired by reading <title
+                  type="manuscript" key="#Nidever1878">old Captain Nidever's account</title> of
+                     <rs><persName type="nativeamerican" key="#lw">the "lost woman"</persName></rs>
+               who, having been deserted, lived there alone for <rs><date notBefore="1835"
+                     notAfter="1853">twenty years</date></rs>. She died back in <rs><date
+                     when="1853-10-19">the fifties</date></rs> [<rs><date when="1853-10-19"
+                     >eighteen-fifties</date></rs>]; but <rs><title type="manuscript"
+                     key="#Nidever1878">Nidever's account</title></rs> of her hut and her life
+               illumined <rs><placeName type="island" key="#i_sn">the wind-swept
+                  island</placeName></rs> with a gleam of romance and pathos, to me at least, and I
+               made three trips in all to it. But the winds, the human devastators &#8212; the
+               curio-hunters, the otter-exterminators, and others, &#8212; and mostly the flying
+               sand, had doubtless long ago wiped out the evidences of her occupation.</p>
+            <p>In <placeName type="museum" key="#mu_vaticanmuseum">the museum of the
+                  Vatican</placeName> is exhibited, or was, a few years ago, a singular suit of
+               pelican and gull skins about which a tale, true and affecting, has been woven. It was
+               sent to <placeName type="city" key="#ci_rom">Rome</placeName> by <rs><persName
+                     type="missionfather" key="#jru">one of the Mission Fathers</persName></rs> on
+                  <placeName type="region" key="#re_paccoast">the Pacific Coast</placeName> as being
+               related to the attempts to Christianize the natives of <rs><placeName type="region"
+                     key="#re_paccoast">that coast</placeName></rs>. <span type="trope" n="11"
+                  >According to <persName type="frontiersman" key="#gni">Nidever</persName>, one of
+                  the old and respected sea captains of <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, the <orgName type="government" key="#gov_mexico">Mexican
+                     Government</orgName> decided to remove <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the inhabitants of San Nicolás
+                     Island</orgName></rs> to <placeName type="region" key="#re_mld">the
+                     mainland</placeName>, doubtless to better their condition, as they were being
+                  decimated by <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >warlike tribes from the northwest</persName></rs>, and to give them the
+                  consolation of religion.</span></p>
+            <p>The vessel sent out for them was a small schooner named the <emph><name type="ship"
+                     key="#sh_peoresnada">Better Than Nothing</name></emph>; under the command of
+                  <persName type="investor" key="#isp">Captain Sparks</persName>, an otter-hunter,
+               who knew <placeName type="island" key="#i_chi">the Channel Islands</placeName> well.
+               The <emph><name type="ship" key="#sh_peoresnada">Better Than Nothing</name></emph>
+               crew, and doubtless Mexican soldiers from <rs><orgName type="mission"
+                     key="#mi_santabarbaramission">the mission</orgName></rs>, rounded up the
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">San
+                     Nicolános</orgName></rs>, and <rs><name type="ship" key="#sh_peoresnada">the
+                     vessel</name></rs> was about to sail, when <rs><persName type="nativeamerican"
+                     key="#lw">a woman</persName></rs> began to cry that she had left <rs><persName
+                     type="nativeamerican" key="#lwchild">her child</persName></rs>, a baby, ashore
+               in the hurry. There were several versions of this. Some say that <rs><persName
+                     type="group" key="#chu; #isp">the skipper</persName></rs> of the <emph><name
+                     type="ship" key="#sh_peoresnada">Better Than Nothing</name></emph> deliberately
+               sailed off; others that it was blowing so hard that he was obliged to put out to sea.
+               I can well understand this, as a worse place to land a boat, or to lie, does not
+               exist than the spit at <placeName type="island" key="#i_sn">San
+               Nicolás</placeName>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The poor woman</persName></rs>
+               protested that she must return, but her language possibly was not understood, and as
+               the anchor was being lifted, and she realized that <rs><persName
+                     type="nativeamerican" key="#lwchild">her infant</persName></rs> was to be
+               deserted, she drew back and they left without her. <span type="trope" n="9">One story
+                  has it that she went aboard <rs><name type="ship" key="#sh_peoresnada">the
+                        vessel</name></rs> and later leaped overboard.</span> Be this as it may, she
+               was left &#8212; though she ran back, secured <rs><persName type="nativeamerican"
+                     key="#lwchild">the child</persName></rs>, and hurried down to the beach,
+               crying, "<emph>Manequauna</emph>"; but they did not understand her, and sailed.</p>
+            <p>There is no doubt that <persName type="investor" key="#isp">Captain Sparks</persName>
+               intended to return; but after <rs><persName type="group" key="#bhagroup">the seven or
+                     eight San Nicolános</persName></rs> had been landed at <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, <rs><name type="ship" key="#sh_peoresnada"
+                     >the schooner</name></rs> sailed for <placeName type="city" key="#ci_sf">San
+                  Francisco</placeName> and was lost. Time went by, months merged into years, and
+                     <rs><persName type="nativeamerican" key="#lw">the lost woman of San
+                     Nicolás</persName></rs> became lost in reality. The story became a legend.
+                     <rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> at
+               first must have been nearly crazed at being deserted. After this came a revulsion of
+               feeling, and she must have avoided the otter-hunters who went there, an easy matter
+               to do on an island so large as <placeName type="island" key="#i_sn">San
+                  Nicolás</placeName>. Some one must have seen <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>, or her house, as some time in <date
+                  when="1850">1850</date>, or thereabouts, <persName type="missionfather" key="#jru"
+                  >Padre Gonzales</persName> of <orgName type="mission"
+                  key="#mi_santabarbaramission">the Mission of Santa Barbara</orgName> requested
+                  <persName type="frontiersman" key="#gni">Captain Nidever</persName> to go to
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and search
+               for <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>.</p>
+            <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> made three trips
+               and searched <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+               from end to end, but failed to find <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs>. On the third trip, still urged by <rs><persName
+                     type="missionfather" key="#jru">the good padre</persName></rs>, he took several
+                  <orgName type="nativeamericantribes" key="#natam_Barbareno">Santa
+                  Barbareños</orgName>, <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">a number of Indians</persName></rs>, and
+                     <rs><persName type="frontiersman" key="#cdi">Mr. Charles Brown</persName></rs>,
+               or Carl Ditman, as he was also known. Some years ago <persName key="#dth">Mr. D. W.
+                  Thompson</persName>, of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, wishing to obtain the exact facts in the case, visited
+                     <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs>, then a very
+               old man, with a stenographer and took down his statement.</p>
+            <p><persName type="frontiersman" key="#gni">Captain Nidever</persName> was positive that
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+               eluding them; so on the third trip he started at the southeast end, at the spit, and
+               arranged <rs><persName type="group" key="#cdi; #col; #msh; #poli; #nsk; #hva">his
+                     men</persName></rs> in a line, several hundred feet apart, but all in speaking
+               distance, and at the word of command they marched slowly forward scrutinizing every
+               foot of <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, with
+               the result that they suddenly came upon the hut of <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs>. The statement of
+                     <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> is as
+               follows:</p>
+            <p>"I went round the head of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and found traces of <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>; went back and told <rs><persName
+                     type="frontiersman" key="#gni">the old gentleman</persName></rs> that
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> was
+               alive. He said it must be some of <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">our Indians</persName></rs>. I said,
+                     '<rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">Our
+                     Indians</persName></rs> have got bigger tracks that [sic] that.' He said,
+               'Well, if you think she is alive, let us hunt for her, and take all the men ashore.'
+               We went up to the head of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. There was a kind of hill in the middle. I put
+                     <rs><persName type="group" key="#msh; #poli; #nsk; #hva">my
+                  Indians</persName></rs> a couple of hundred yards apart. <span type="trope" n="14"
+                  >I did not know what kind of woman she was, thought she might bite or
+                  scratch.</span> We went from one side of <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> to the other, and could not see the hill, and she
+               was sitting on the side of the hill watching us. When we got across to <rs><persName
+                     type="group" key="#msh; #poli; #nsk; #hva">the Indians</persName></rs>, I said,
+               'There's nothing here, let's go back.' There was a basket and some feathers. She
+               catched [sic] shags and had a coat made without sleeves, nicely covered with
+               sealskin. I said to <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                     Indians</persName></rs>, 'You go to the hill and scatter the feathers and
+               things in the basket, and if she is alive she will find them.' The same day we found
+               them all gathered up and put in the basket."</p>
+            <p>On the following morning <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> persistently continued the hunt. Toiling up the hill,
+               when he was about half-way up he caught sight of her. She was carrying something
+               heavy, and rested at intervals as she ascended. Presently he came in sight of "three
+               huts made out of whale bone." <span type="trope" n="14">Perceiving that here was
+                        <rs><persName type="nativeamerican" key="#lw">the woman of whom he was in
+                        search</persName></rs>, he raised his gun with his hat on it as a signal to
+                        <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                        Indians</persName></rs> to join him hastily, as he did not know but she
+                  might "bite or scratch."</span> He thus continues his narration:</p>
+            <p>"She had a brush fence, about two feet high, to break the wind, and right in front of
+               me she sat facing me. The sun was coming in her face. She was skinning a seal before
+               I came up to her. The dog, when he noticed me, began to growl. Thinking she might run
+               I stepped round her, and she bowed as if she knew me before, and when the Indians
+               came up they all kneeled."</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The poor creature</persName></rs>, when
+               she saw beings of her own color and race, "held out some of her food" to them. She
+               exhibited no fear, and at a sign went without demur with her captors, if such they
+               can be called, though she afterwards gave them to understand that she would not have
+               joined them if they had not found her. <rs><persName type="frontiersman" key="#cdi"
+                     >Brown</persName></rs> and his followers carried away with them all her
+               primitive belongings. "I took everything she had," he says, "and she took a big
+               sea-head [seal-head] in her basket, and that was all."</p>
+            <p><span type="trope" n="10"><rs><persName type="group" key="#gni; #cdi; #col">The
+                        Nidever-Brown party</persName></rs> remained at <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> a month, and while they could not
+                  understand <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                  (nor could <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">the
+                        Indians</persName></rs>), they obtained a fair idea of her life alone for
+                        <rs><date notBefore="1835" notAfter="1853" cert="high">twenty years or
+                        more</date></rs> on windswept <placeName type="island" key="#i_sn">San
+                     Nicolás</placeName>. She had abundant food to eat in the abalones, fish, and
+                  all the shell fish eaten by <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">natives</orgName></rs>. She built herself a
+                  house or home by standing whales' ribs in the sand, covering the top with brush.
+                  She was skil[l]ful in weaving from grass fibre, and made baskets from it. Of
+                  course she had a selection from thousands of mortars and pestles made by
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        people</orgName></rs> for thousands of years, which were strewn over the
+                  sands &#8212; and in diminished numbers are occasionally to be seen to-day. There
+                  were dogs on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+                  and she had their companionship. She killed seals at night by stealing up to them
+                  and striking them with stones. From them she made sinew fish-lines, and from
+                  abalone shells she manufactured hooks after the fashion of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     people</orgName></rs>; first forming a round piece of shell, boring a hole in
+                  it and breaking a piece out, leaving a hook. Certain roots found on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> constituted a food.
+                  She was skil[l]ful in catching birds; and doubtess in the long time she became
+                  hardened to the life and suspicious of the otter-hunters; hence she hid from them
+                  when they landed.</span></p>
+            <p><span type="trope" n="3">As soon as she was captured, she adapted herself to their
+                  way of living and played about like a child. <rs><persName type="frontiersman"
+                        key="#cdi">Brown</persName></rs> says she was very tender-hearted and built
+                  a screen for a young otter so that the sun would not injure its eyes.</span> She
+               was alarmed at the rough weather on the way across <rs><placeName type="region"
+                     key="#re_sbchannel">the channel</placeName></rs> and tried to tell the sailors
+               to appeal to the wind gods to reduce the sea, or something of the kind. <rs><persName
+                     type="frontiersman" key="#cdi">Captain Brown</persName></rs> said she
+               recognized all <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>
+               and had names for them.</p>
+            <p>When they landed at <placeName type="city" key="#ci_sb">Santa Barbara</placeName> she
+               displayed much fear at men on horseback, and when she saw cattle she fell upon her
+               knees. They assumed that she had been born on <placeName type="island" key="#i_sn"
+                  >San Nicolás</placeName>, and had never been away from <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>, or even heard of the
+               Spaniards. <span type="trope" n="6">All her relatives had been taken to <placeName
+                     type="city" key="#ci_sp">San Pedro</placeName>, where all had pined away and
+                  died years before; hence she could not speak to any one, and while <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">the padres</persName></rs>
+                  of <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                     mission</orgName></rs> summoned Indians from all the adjacent <rs><orgName
+                        type="mission" key="#mi_mainlandmissions">missions</orgName></rs> none could
+                  be found who could understand anything she said, and the only native word uttered
+                  by her that is remembered was "<emph>manequauna</emph>"; what it meant no one
+                  could tell.</span>
+               <rs><persName type="nativeamerican" key="#natamwoman1">An old woman</persName></rs>
+               who had been raised on one of <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> was at last found who could guess at th[e] meaning of
+               some of the strange words used by <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs>; but nearly all her requests were made by signs. She was
+               taken to <placeName type="mission" key="#mi_sb">the Mission of Santa
+                  Barbara</placeName> and christened <rs><persName type="nativeamerican" key="#lw"
+                     >Juana Maria</persName></rs>; to this the crew of <rs><name type="ship"
+                     key="#sh_nidever">the schooner</name></rs> added "Better Than Nothing," and by
+               that name she was known.</p>
+            <p><span type="trope" n="3"><persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName> cared for her, and she appeared perfectly happy. She had a
+                  childlike nature, and spent much of her time going around in the evenings with
+                  Mexicans from house to house, dancing. So fond of this pastime was she that she
+                  danced, according to <persName type="frontiersman" key="#gni">Nidever</persName>,
+                  when any one went to see her.</span> So much of a curiosity was <rs><persName
+                     type="nativeamerican" key="#lw">the "Lost Woman"</persName></rs> that <persName
+                  type="frontiersman" key="#gni">Captain Nidever</persName>
+               <rs><persName type="seaman" key="#tru">was offered</persName></rs> a large sum to let
+               her become part of a show. But <rs><persName type="frontersman" key="#gni">the old
+                     Captain</persName></rs> refused; he purposed that she should be happy the
+               remainder of her life, and to his credit, be it said, she was. He fed and clothed
+               her.</p>
+            <p>They estimated that she was about forty-five years of age when they found her. The
+               new food she was obliged to eat at <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> did not agree with her, and in about six weeks she was taken
+               sick, and died. <persName type="frontiersman" key="#gni">Captain Nidever</persName>
+               gave <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the
+                     padres</persName></rs> her dresses of bird skins, her awls, wooden knife,
+               lines, and grass bottles; the bird skin dresses were sent to <persName key="#pop">the
+                  Pope</persName> with an account of her life.</p>
+            <p><span type="trope" n="8">The life of <persName type="seaman" key="#ase">Alexander
+                     Selkirk</persName> was not so pathetic as that of <rs><persName
+                        type="nativeamerican" key="#lw">this woman</persName></rs>. <rs><placeName
+                        type="island" key="#i_jf">Robinson Crusoe's island</placeName></rs> was rich
+                  in the bounties of nature, had trees and verdure; but <rs><date notBefore="1835"
+                        notAfter="1853">twenty years</date></rs> on wind-swept <placeName
+                     type="island" key="#i_sn">San Nicolás</placeName> takes one into the depths of
+                  tragedy.</span></p>
+            <p>On the east end of <placeName type="island" key="#i_sn">San Nicolás</placeName> I
+               found on my first visit a number of whale ribs thrust into the sand, which may have
+               been left there by any of the collectors who visited <placeName type="island"
+                  key="#i_sn">the island</placeName> since the time of <persName
+                  type="nativeamerican" key="#lw">Juana Maria</persName>. As I roamed along the
+               shore, which was carved into extraordinary shapes by the wind, I could not divest my
+               mind of the pathetic picture of <rs><persName type="nativeamerican" key="#lw">this
+                     lone woman on San Nicolás</persName></rs>; and as the wind howled and hissed
+               through the rigging at night I could understand how <rs><persName key="#fju">the lone
+                     Basque herder</persName></rs> believed that it was the protesting voices of the
+               dead, of men murdered by warring men from the north, of women deserted and
+               forlorn.</p>
+            <p>I believe that the power in man or woman to see the beautiful in all nature is one to
+               be cultivated, as of profound importance; as, if one has this perceptive faculty
+               keenly developed, it means happiness under all conditions, the ability to adapt
+               oneself to the varying aspects of life. I have seen men who abhorred the very sight
+               of <placeName type="region" key="#re_caldesert">the California Desert</placeName>,
+               whose beauties of color, tone, and tint deeply impress some men. One has but to read
+               Van Dyke's "The Desert," to see a poet and artist's appreciation of the dreariest
+               aspects of the world.</p>
+            <p><span type="trope" n="5">I fear that I have given an erroneous impression of
+                     <placeName type="island" key="#i_sn">San Nicolás</placeName>, have not done it
+                  justice; for there are many attractions and natural beauties in <rs><placeName
+                        type="island" key="#i_sn">this doomed and dying island</placeName></rs>,
+                  rent by the Furies, flagellated by the pebble-burdened wind. As I lay on deck one
+                  night, part of the anchor watch of <rs><name type="ship" key="#sh_sandiego">my
+                        friend's yacht</name></rs>, where, owing to the menacing conditions, we all
+                  stood by &#8212; crew and guests &#8212; I could almost imagine I was listening to
+                  some vividly performed Wagnerian music. Over the highest mountains hovered a black
+                  genie, wings aspread, just as you have seen a hawk, conjuring the wind gods. The
+                  rivers of the sea were rushing by us, streaked with lambent flames. Every rope,
+                  halyard, and shroud hummed and moaned the melodies of despair, laughter, remorse,
+                  and death. The great seas that lashed <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> on both sides met at our anchorage and fought their
+                  duels. The long, spectral, shroud-like spit reached out into the purple sea, like
+                  an insinuating hand of death; yet this was the home of <rs><persName
+                        type="nativeamerican" key="#lw">Juana Maria Better Than
+                     Nothing</persName></rs> for <rs><date notBefore="1835" notAfter="1853"
+                        cert="high">twenty years</date></rs>, and during all that time she fled from
+                  and avoided the sight of man. The very terrors, the tumultuous furies of wave and
+                  wind and rock and hail, of inky fogs which beat about <rs><placeName type="island"
+                        key="#i_sn">this island</placeName></rs>, the incontinent swirling spirits
+                  of the clouds &#8212; all are beautiful in the sense of Turner's Slave Ship and of
+                  the storm described by <persName key="#ruskin">Ruskin</persName>.</span></p>
+            <p><span type="trope" n="5">It was low tide, and almost everywhere a black lava platform
+                  seemed to reach out into the wild sea, which came piling in with its wild
+                  white-maned horses riding on the crest, to be blown away or whisked off into the
+                  air. It seemed to me that I had never seen such high waves so near the dry land so
+                  beaten back. <persName type="author" key="#jbr">Brewster</persName> of <placeName
+                     type="city" key="#ci_ven">San Buenaventura</placeName> has made a photograph of
+                  this very spot.</span></p>
+            <p><span type="trope" n="5">Almost everywhere I found evidences of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the people of the
+                        Lost Woman</orgName></rs> or perhaps of herself. I do not think I walked one
+                  hundred feet along that cave-infested and wind-gnawed shore without finding some
+                  object made by man. Here a toy of some kind, carved in stone; now again a few
+                  beads. Here some child had left a "pocket" of limpets, piled one within another,
+                  and mortars, pestles, stones, arrow-heads, flint chips, and out upon the sands of
+                  the west end tons of great red abalones &#8212; the assemblage of centuries
+                  &#8212; over two or three miles of sand-dunes in which were limpets, crabs,
+                  crayfish, shells, bones of animals, and shells of snails.</span></p>
+            <p><span type="trope" n="5">In some of the wrecked cañons the wind and sand had worked
+                  marvels, cutting out exquisite traceries, lattices, serrations, open work; while
+                  on the sides were wonderful heads of strange beasts carved by the wind. Rising out
+                  of one of these weird cañons where nature had played havoc, I came upon a plain as
+                  level for several miles as a floor. In places it was covered with small red
+                  stones, over which <rs><persName type="nativeamerican" key="#lw">the Lost
+                        Woman</persName></rs> must have walked many times, facing the hard west
+                  wind. Then I turned into a deep sandy cañon, in which myriads of slate-colored
+                  miniature mountains rose, with here and there patches of sand grasses in gold,
+                  yellow, and red &#8212; vivid pictures against the white sand that scurried along
+                  before every vagrant breeze. Here I imagined <rs><persName type="nativeamerican"
+                        key="#lw">the Lost Woman</persName></rs> might have found some of her
+                  material for making baskets. As I lay in the lee in the sun, it was not an
+                  unlovely prospect, if one can see beauty in the purest sand, in gold and green and
+                  red grasses, and in skies of eternal blue, across which are racing the genii of
+                  the fog in streamers and banners.</span></p>
+            <p><span type="trope" n="5">I found a deep cañon filled with siliceous stumps, which
+                  looked like trees where the wind had blown the sand away and left the ghost of a
+                  forest with phantom stone trees. I found a battle-ground, for so it appeared, of
+                  scores of skeletons, where perhaps <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the San Nicolános</orgName></rs> had gone down
+                  before <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the Russians</persName></rs> or <orgName type="nativeamericantribes"
+                     key="#natam_inuit">Inunits</orgName>.</span></p>
+            <p><span type="trope" n="5">There was a doleful lack of verdure here. The ice plant, a
+                  few cacti, low wind-beaten buckthorn, and grasses that jangled in the wind and
+                  wrote their story on the sands. I floundered over sand-dunes, dropped down into
+                  deep cañons, discovered a curious natural stairway, which might have been carved
+                  by an artist, but nowhere was there any evidence of the Lost Woman's life or home,
+                  if I except the whale ribs near the point.</span></p>
+            <p>All my visits to <placeName type="island" key="#i_sn">San Nicolás</placeName> were
+               made in August and September. In February or March, after torrential rains,
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in parts
+               shows not a little verdure, enough to support a large flock of sheep. <persName
+                  key="#btr">Mrs. Blanche Trask</persName>, who has seen all <placeName
+                  type="island" key="#i_chi">these islands</placeName> through a poet's eye, has
+               collected about one hundred species of plants here, many of which were new. She found
+               on <placeName type="island" key="#i_sn">San Nicolás</placeName>, at its best in
+               March, but one shrub over seven feet high, and leptosynes five or six feet. On the
+               edge of some of the cliffs my feet sank into the red and glistening ice plant which
+               threatened to send one flying down the slopes. From the summit of one I watched
+               myriads of shags coming in from the sea, forming and reforming in a vast convention
+               until the flock made a single black shadow of huge size on the clear water. I saw few
+               birds beyond ravens, ospreys, eagles, shags, cormorants, snipes, and the brown
+               pelican, all of which were extremely tame, showing the ease with which <rs><persName
+                     type="nativeamerican" key="#lw">the Lost Woman</persName></rs> obtained the
+               skins she used as protection against the wild wind of <placeName type="island"
+                  key="#i_sn">San Nicolás</placeName>.</p>
+            <p><span type="trope" n="8">No one can visit <rs><placeName type="island" key="#i_sn"
+                        >this interesting island</placeName></rs>, which was an empire in its way
+                  before the arrival of <persName type="seaman" key="#jca">Cabrillo</persName>,
+                  without being impressed with the fact that here lived <rs><persName
+                        type="nativeamerican" key="#lw">a real Robinson Crusoe</persName></rs> whose
+                  life history is a part of the pathetic history of the world.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

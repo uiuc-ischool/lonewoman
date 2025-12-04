@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type="monograph"><orgName type="publication" key="#hillinger_chi">Charles
+                            Hillinger's Channel Islands: Santa Catalina, Santa Cruz, Anacapa, San
+                            Miguel, San Nicolas, Santa Rosa, San Clemente, Santa
+                        Barbara</orgName></title>
+                    <publisher>Santa Cruz Island Foundation</publisher>
+                    <date when="1998-01-01"/>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="chapter" key="#Hillinger1998">Indian Woman Lives 18 Years Alone
+                            on Island</title>
+                        <biblScope unit="page" from="184" to="188"/>
+                        <author><persName type="author" key="#chi">Hillinger, Charles
+                            </persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="excerpt">
+                <p><hi rend="bold"><rs><persName type="nativeamerican" key="#lw">Indian
+                                Woman</persName></rs> Lives <date from="1835" to="1853">18
+                            Years</date> Alone on <rs><placeName type="island" key="#i_sn"
+                                >Island</placeName></rs></hi></p>
+                <p><span type="trope" n="6">One of the most fascinating stories about <placeName
+                            type="island" key="#i_chi">California's Channel Islands</placeName> is
+                        that of <rs><persName type="nativeamerican" key="#lw">Juana
+                            Maria</persName></rs>, the mysterious woman who brought down the curtain
+                        on <rs><orgName type="group"
+                                key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                                >the centuries-old Indian culture that thrived on the eight offshore
+                                islands</orgName></rs>.</span></p>
+                <p>It is one of the most astounding true stories of one person's fight for survival
+                    ever recorded.</p>
+                <p>UCLA anthropologists <persName type="author" key="#cme">Clement
+                        Meighan</persName> and <persName type="author" key="#heb">Hal
+                        Eberhart</persName> identified 68 prehistoric village sites on <placeName
+                        type="island" key="#i_sn">San Nicolas Island</placeName> and estimated that
+                    well over 1,000 Indians lived on <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> at its peak population period.</p>
+                <p><span type="trope" n="3">They were a more peaceful people than the Indians who
+                        lived on the mainland and <rs><placeName type="group"
+                                key="#i_scl; #i_sm; #i_scatalina; #i_scruz; #i_sr">on the other
+                                Channel Islands</placeName></rs>, according to <rs><persName
+                                type="group" key="#cme; #heb">the two UCLA
+                            scientists</persName></rs>, who came to that conclusion because of the
+                        scarcity of arrowheads unearthed.</span></p>
+                <p><rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">San Nicolas
+                            Island Indians</orgName></rs> existed on a seafood and bird economy,
+                    deriving their food supply from abalone, fish, sea lions, sea elephants and
+                    birds. <rs><placeName type="island" key="#i_sn">The island</placeName></rs>
+                    apparently never did support a great deal of plant life.</p>
+                <p>By <date when="1835">1835</date> only <persName type="group" key="#bhagroup">a
+                        handful of Indians</persName> were still living on <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName>. <rs><persName type="group"
+                            key="#aji; #ndur; #misfats">The Franciscan priests</persName></rs>
+                    decided to move <persName type="group" key="#bhagroup">the Indians</persName> to
+                        <placeName type="region" key="#re_mld">the mainland</placeName>. Capt.
+                    Charles Hubbard's schooner, <emph><name type="ship" key="#sh_peoresnada">Peor es
+                            Nada</name></emph>, was chartered to bring <persName type="group"
+                        key="#bhagroup">the Indians</persName> to <placeName type="city"
+                        key="#ci_sp">San Pedro</placeName>.</p>
+                <p>The story goes that a storm moved into <rs><placeName type="island" key="#i_sn"
+                            >the island</placeName></rs> and the seas became turbulent as <persName
+                        type="group" key="#bhagroup">the Indians</persName> were being loaded aboard
+                            <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>. As
+                        <persName type="seaman" key="#chu">Capt. Hubbard</persName> prepared to
+                    leave <rs><persName type="nativeamerican" key="#lw">one of the Indian
+                            women</persName></rs> discovered <rs><persName type="nativeamerican"
+                            key="#lwchild">her child</persName></rs> had not been brought aboard
+                            <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs> as
+                    she had expected. <span type="trope" n="9">She jumped into the water and swam
+                        ashore.</span></p>
+                <p>It was impossible for <rs><name type="ship" key="#sh_peoresnada">the
+                        boat</name></rs> to wait any longer as the stormy seas threatened to hurl
+                    the boat into the island's rocky seacoast. The <name type="ship"
+                        key="#sh_peoresnada"><emph>Peor es Nada</emph></name> set sail across the
+                    choppy channel, leaving <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> and <rs><persName type="nativeamerican"
+                            key="#lwchild">her child</persName></rs> alone on <rs><placeName
+                            type="island" key="#i_sn">the island</placeName></rs>. The <persName
+                        type="group" key="#bhagroup">San Nicolas Island Indians</persName> were
+                    assimilated with other Indians at the <placeName type="mission"
+                        key="#mi_sgabriel">San Gabriel Mission</placeName>.</p>
+                <p><persName type="seaman" key="#chu">Capt. Hubbard</persName> told <rs><persName
+                            type="group" key="#aji; #ndur; #misfats">the Franciscan
+                            fathers</persName></rs> how <rs><persName type="nativeamerican"
+                            key="#lw">the Indian woman</persName></rs> and <rs><persName
+                            type="nativeamerican" key="#lwchild">her child</persName></rs> were left
+                    behind on <placeName type="island" key="#i_sn">San Nicolas Island</placeName>.
+                    He had a commitment to transport a group of sea otter hunters led by <persName
+                        type="frontiersman" key="#gni">George Nidever</persName> to <placeName
+                        type="island" key="#i_sr">Santa Rosa Island</placeName>.</p>
+                <p>From <placeName type="island" key="#i_sr">Santa Rosa Island</placeName> the <name
+                        type="ship" key="#sh_peoresnada"><emph>Peor es Nada</emph></name> was to
+                    sail to <placeName type="city" key="#ci_sf">San Francisco</placeName>.</p>
+                <p>"But just as soon as I return to <placeName type="region" key="#re_socal"
+                        >Southern California</placeName>, if no one has transported <rs><persName
+                            type="nativeamerican" key="#lw">the Indian woman</persName></rs> and
+                            <rs><persName type="nativeamerican" key="#lwchild">her
+                        child</persName></rs> to <placeName type="region" key="#re_mld">the
+                        mainland</placeName>, I will sail to <placeName type="island" key="#i_sn"
+                        >San Nicolas</placeName> and pick her up," <persName type="seaman"
+                        key="#chu">Capt. Hubbard</persName> promised <rs><persName type="group"
+                            key="#aji; #ndur; #misfats">the mission priests</persName></rs>.</p>
+                <p><persName type="seaman" key="#chu">Capt. Hubbard</persName> was never able to
+                    keep his promise. Less than a month later the <emph><name type="ship"
+                            key="#sh_peoresnada">Peor es Nada</name></emph> sank in <placeName
+                        type="region" key="#re_sfbay">San Francisco Bay</placeName> with
+                            <rs><persName type="seaman" key="#chu">the sea captain</persName></rs>
+                    aboard.</p>
+                <p><date from="1835" to="1850">Fifteen years</date> went by before anyone returned
+                    to <rs><placeName type="island" key="#i_sn">the lonely desolate nine-mile-long,
+                            three and a half mile wide island</placeName></rs>, 76 miles out to sea
+                    from <placeName type="city" key="#ci_sp">San Pedro</placeName>, to look for
+                            <rs><persName type="nativeamerican" key="#lw">the Indian
+                            woman</persName></rs> and <rs><persName type="nativeamerican"
+                            key="#lwchild">her child</persName></rs>.</p>
+                <p>Few believed <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> and <rs><persName type="nativeamerican" key="#lwchild"
+                            >child</persName></rs> survived for long. <placeName type="island"
+                        key="#i_sn">San Nicolas Island</placeName> was overrun with packs of wild
+                    dogs. That plus the difficulty of a young woman eking out a living all by
+                    herself seemed to be an impossibility.</p>
+                <p>In <date when="1850">1850</date>, <persName type="seaman" key="#tje">Thomas
+                        Jeffries</persName> and <persName type="frontiersman" key="#gni">George
+                        Nidever</persName> sailed to <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> with <orgName type="nativeamericantribes"
+                        key="#natam_missionindians">a crew of Indians</orgName> to hunt otter. For
+                    six weeks they stripped otter and seals of hides, salted the skins and stowed
+                    them in a boat.</p>
+                <p>Then one night <rs><persName key="#sailor1">an Indian</persName></rs> who had
+                    been hiking around <rs><placeName type="island" key="#i_sn">the
+                            island</placeName></rs> came running back where <rs><persName
+                            type="group" key="#gni; #tje; #natam_missionindians">the otter
+                            hunters</persName></rs> were camped. He told of seeing a human being
+                    running in the distance. He tried to catch up with <rs><persName
+                            type="nativeamerican" key="#lw">the island phantom</persName></rs>, but
+                    failed.</p>
+                <p>Could it be <rs><persName type="nativeamerican" key="#lw">the lost Indian woman
+                            of San Nicolas Island</persName></rs>?</p>
+                <p>But <rs><persName type="nativeamerican" key="#lw">the shadowy
+                        creature</persName></rs> was not seen again and <persName type="group"
+                        key="#gni; #tje; #natam_missionindians">the otter hunters</persName>
+                    returned to <placeName type="region" key="#re_mld">the mainland</placeName>.</p>
+                <p><rs><date when="1853">Three years later</date></rs> on another otter hunting
+                    excursion to <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, <persName type="frontiersman" key="#gni"
+                        >Nidever</persName> and <persName type="frontiersman" key="#cdi">Carl
+                        Detman</persName> found a basket containing a robe made of birds' plumage.
+                    Now they were convinced. <rs><persName type="nativeamerican" key="#lw">The
+                            Indian woman</persName></rs> who swam back to <rs><placeName
+                            type="island" key="#i_sn">the island</placeName></rs>
+                    <rs><date when="1835">18 years earlier</date></rs> to find <rs><persName
+                            type="nativeamerican" key="#lwchild">her misplaced
+                    child</persName></rs>, or <rs><persName type="nativeamerican" key="#lwchild">the
+                            child</persName></rs>, now a young woman, or both, were alive on
+                            <rs><placeName type="island" key="#i_sn">the
+                    island</placeName></rs>.</p>
+                <p><span type="trope" n="4"><persName type="frontiersman" key="#gni">
+                            Nidever</persName> abandoned his hunt for otter. He and <rs><persName
+                                type="group" key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">his
+                                men</persName></rs> searched <rs><placeName type="island"
+                                key="#i_sn">the island</placeName></rs>, canyon by canyon, cave by
+                        cave, until they finally succeeded.</span></p>
+                <p><span type="trope" n="4">It was <persName type="frontiersman" key="#cdi"
+                            >Detman</persName> who made the discovery a few days after the search
+                        began.</span></p>
+                <p><span type="trope" n="4">He had traced her footprints to a grass shelter on one
+                        of the island peaks.</span>
+                    <span type="trope" n="1">She was seated in her hideaway, observing members of
+                                <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">Nidever's
+                                party</persName></rs> searching the beach below.</span></p>
+                <p><span type="trope" n="1">A pack of dogs, trained to answer the wild woman's
+                        instant command, was at her side. Two pet ravens were also in the roofless
+                        enclosure.</span></p>
+                <p><span type="trope" n="1">Surprised by <persName type="frontiersman" key="#cdi"
+                            >Detman</persName>, she accepted his presence calmly, ordering the dogs
+                        away. Despite the fact that <persName type="frontiersman" key="#cdi"
+                            >Detman</persName> was the first person she faced in <date from="1835"
+                            to="1853">18 years</date>, she did not become alarmed.</span></p>
+                <p><span type="trope" n="1">She was dressed in cormorant feathers, a garment
+                        identical to the one found earlier by <persName type="frontiersman"
+                            key="#cdi">Detman</persName> and <persName type="frontiersman"
+                            key="#gni">Nidever</persName>. She was in excellent physical condition.
+                        There was a large supply of food in her grass hut.</span></p>
+                <p><span type="trope" n="10">Through sign language, because none of <persName
+                            type="group" key="#cook; #msh; #poli; #nsk; #hva">the Indian otter
+                            hunters</persName> could understand her, she told how she hid on those
+                        rare occasions when boats came to <rs><placeName type="island" key="#i_sn"
+                                >the island</placeName></rs>. She was able to explain to <persName
+                            type="group" key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+                            men</persName> that she found her <rs><persName type="nativeamerican"
+                                key="#lwchild">child</persName></rs> dead when she swam to
+                                <rs><placeName type="island" key="#i_sn">the island</placeName></rs>
+                        the day the <emph><name type="ship" key="#sh_peoresnada">Peor es
+                            Nada</name></emph> left without her.</span></p>
+                <p><span type="trope" n="10">She knew every inch of <rs><placeName type="island"
+                                key="#i_sn">the island</placeName></rs>. She never wanted for food,
+                        living off birds, fish, abalone and seals' blubber. Water was easily
+                        available from the many existing springs. Her life was lonely. But in time
+                        she came to accept it and fled in fear from every visitor.</span></p>
+                <p><rs><name type="ship" key="#sh_nidever">The boat</name></rs> returned to
+                            <rs><placeName type="state" key="#st_cal">the mainland</placeName></rs>
+                    and <persName type="frontiersman" key="#gni">Nidever</persName> brought
+                            <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                    to <placeName key="#nideverhouse">his Santa Barbara home</placeName>, where
+                            <rs><persName key="#sni">his wife</persName></rs> cared for her. The
+                    story of her discovery spread far and wide.</p>
+                <p>[The] Curious came for miles to see <rs><persName type="nativeamerican" key="#lw"
+                            >the strange wild woman</persName></rs>, who, in reality, was a quiet,
+                    shy person.</p>
+                <p><rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">Mission
+                            padres</persName></rs> searched without success for one of <persName
+                        type="group" key="#bhagroup">the Indians taken from the island</persName> in
+                        <date when="1835">1835</date>, but none could be found who spoke the woman's
+                    language.</p>
+                <p><span type="trope" n="3">Civilization proved to be a greater challenge than life
+                        alone on <placeName type="island" key="#i_sn">San Nicolas</placeName>.
+                        Despite her new diet of proper food, or perhaps because of it, she failed
+                        rapidly. In a short time she became too weak to walk.</span>
+                    <span type="trope" n="6">Within three months of her discovery, <rs><persName
+                                type="nativeamerican" key="#lw">the last of the Channel Island
+                                Indians</persName></rs> died.</span></p>
+                <p><span type="trope" n="6">With her also died the great culture of <placeName
+                            type="island" key="#i_chi">the islands</placeName> that had thrived for
+                        centuries.</span></p>
+                <p>On her death bed <rs><persName type="missinofather" key="#jru">one of the
+                            priests</persName></rs> from the <orgName type="mission"
+                        key="#mi_santabarbaramission">Santa Barbara Mission</orgName> baptized her,
+                    giving her the name Juana Maria.</p>
+                <p>Her robe of cormorant feathers was sent to <rs><persName key="#pop">the Pope in
+                            Rome</persName></rs>, where it remains to this day in the <orgName
+                        type="museum" key="#mu_vaticanmuseum">Vatican Museum</orgName>.</p>
+                <p>She is buried in <rs><placeName key="#sbmissioncemetary">the Mission
+                            graveyard</placeName></rs>, where a plaque erected to her memory in
+                        <date when="1928">1928</date> reads:</p>
+                <p><floatingText>
+                        <body>
+                            <lg>
+                                <l><rs><persName type="nativeamerican" key="#lw">Juana
+                                            Maria</persName></rs></l>
+                                <l><rs><persName type="nativeamerican" key="#lw">Indian
+                                            Woman</persName></rs> Abandoned on</l>
+                                <l><placeName type="island" key="#i_sn">San Nicolas
+                                        Island</placeName>
+                                    <date from="1835" to="1853">eighteen years</date></l>
+                                <l>Found and brought to</l>
+                                <l><placeName type="city" key="ci_sb">Santa Barbara</placeName></l>
+                                <l>by</l>
+                                <l><persName type="frontiersman" key="#gni">Captain George
+                                        Nidever</persName></l>
+                                <l>in <date when="1853">1853</date></l>
+                                <l><orgName type="organization" key="#dar_sb">Santa Barbara
+                                        Chapter</orgName></l>
+                                <l><orgName type="organization" key="#daughters">Daughters of
+                                        the</orgName></l>
+                                <l><orgName type="organization" key="#daughters">American
+                                        Revolution</orgName></l>
+                                <l><date when="1928">1928</date>.</l>
+                            </lg>
+                        </body>
+                    </floatingText></p>
+                <p>Archeologist <persName key="#asa">Arthur R. Sanger</persName> believed he had the
+                    skeleton of <rs><persName type="nativeamerican" key="#lwchild">Juana Maria's
+                            child</persName></rs>. <persName key="#asa">Sanger</persName> searched
+                    the <placeName type="island" key="#i_chi">Channel Islands</placeName> for 30
+                    years collecting Indian artifacts for the <orgName type="museum"
+                        key="#mu_americanindian">Museum of the American Indian</orgName>, <placeName
+                        type="state" key="#st_ny">New York</placeName>, and the <orgName
+                        type="museum" key="#mu_lacountymuseum">Los Angeles County
+                    Museum</orgName>.</p>
+                <p><title type="article" key="#Sell1954">He was convinced</title> his skeleton, one
+                    of thousands of Indian relics he collected and catalogued from <rs><placeName
+                            type="island" key="#i_chi">the islands</placeName></rs>, was that of
+                            <rs><persName type="nativeamerican" key="#lwchild">the Indian woman's
+                            child</persName></rs>.</p>
+                <p>One reason for his conviction is that the skeleton was buried deeper than most on
+                            <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.
+                    Another reason was that beads buried with <rs><persName type="nativeamerican"
+                            key="#lwchild">the baby</persName></rs> were imported there in the <date
+                        notBefore="1800-01-01" notAfter="1899-12-31">19th century</date>. Sanger's
+                    collection included many skeletons and novel whale and sea turtle effigies,
+                    apparently used by the Indians as good luck pieces.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

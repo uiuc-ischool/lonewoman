@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#camag">The Californian
+                     Illustrated Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">1</biblScope>
+               <biblScope unit="issue">1</biblScope>
+               <date when="1892-05"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Holder1892">A Four-in-Hand in Southern
+                     California</title>
+                  <biblScope unit="page" from="326" to="335"/>
+                  <author><persName type="author" key="#cho">Holder, Charles
+                     Frederick.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A FOUR-IN-HAND IN <placeName type="region" key="#re_socal"
+                     >SOUTHERN CALIFORNIA</placeName>.</title></head>
+            <byline>BY <persName type="author" key="#cho">CHARLES FREDERICK
+               HOLDER</persName>.</byline>
+            <p><placeName type="city" key="#ci_la">LOS ANGELES</placeName>, <rs><placeName
+                     type="city" key="#ci_la">the Queen City of the South</placeName></rs>, is the
+               metropolis of <placeName type="region" key="#re_socal">Southern
+                  California</placeName>, which, speaking generally, may be said to include that
+               tract of country from <placeName type="county" key="#co_sb">Santa Barbara
+                  County</placeName> to <placeName type="region" key="#re_mexicanborder">the Mexican
+                  line</placeName>, though a broader division would include a much larger area.
+                  <placeName type="city" key="#ci_la">Los Angeles</placeName> was the starting
+               point, the center of radiation for many of our coaching and riding trips to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and beyond, and
+               through <placeName type="region" key="#re_socal">Southern California</placeName> to
+               the adobes of <placeName type="city" key="#ci_tj">Tia Juana</placeName>. To see
+                  <placeName type="region" key="#re_socal">Southern California</placeName>
+               effectively the trip should be made by coach, carriage or on horseback. The finest of
+               roads extend all over the country, inviting one to the old ranches, cañons, ruins and
+               Missions that cannot be seen from car windows.</p>
+            <p>It was a mere conceit, perhaps, but remembering that in the olden time pilgrims and
+               travelers in this fair country found a Mission at the end of nearly every day's
+               journey from <placeName type="city" key="#ci_sf">San Francisco</placeName> to
+                  <placeName type="city" key="#ci_sd">San Diego</placeName> and beyond, we
+               determined to emulate the ancient custom and go over the old roads; not on horseback,
+               as did the old Californian, but in a four-in-hand, making as nearly as possible a
+               Mission every night, seeking the hospitatlity of its secularized walls in reverential
+               fashion, as did the traveler of the last century, yet receiving it for obvious
+               reasons perchance at the neighboring ruin.</p>
+            <p>The plan had not only an essence of romance and novelty to commend it but was within
+               the possibilities, the ecclesiastical chain being as follows, beginning at <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>:</p>
+            <p><placeName type="mission" key="#mi_sb">Santa Barbara Mission</placeName>, founded in
+                  <date when="1786">1786</date>, by coach to the <placeName type="mission"
+                  key="#mi_venturamission">Mission of San Buenaventura</placeName> (<date
+                  when="1782">1782</date>), thirty miles. From <placeName type="mission"
+                  key="#mi_venturamission">Ventura</placeName> to <placeName type="mission"
+                  key="#mi_sfern">Mission of San Fernando Ryz [Rey] de Espana</placeName> (<date
+                  when="1797">1797</date>), sixty-four miles. From <orgName type="mission"
+                  key="#mi_sfern">San Fernando</orgName> to the <placeName type="mission"
+                  key="#mi_sgabriel">Mission of San Gabriel Archangel</placeName> (<date when="1771"
+                  >1771</date>), via <placeName type="city" key="#ci_la">Los Angeles</placeName>,
+               thirty-five miles. From <placeName type="mission" key="#mi_sgabriel">San
+                  Gabriel</placeName> to <placeName type="mission" key="#mi_stjohn">San Juan
+                  Capistrano</placeName> (<date when="1776">1776</date>), thirty miles. From
+                     <rs><placeName type="mission" key="#mi_stjohn">San Juan</placeName></rs> to the
+               trio of Missions of <placeName type="mission" key="#mi_pala">Pala</placeName>,
+                  <placeName type="mission" key="#mi_rc">Rincon</placeName>, and <placeName
+                  type="mission" key="#mi_pb">Panba</placeName>, about sixty miles. <placeName
+                  type="mission" key="#mi_pala">Pala</placeName> to <placeName type="mission"
+                  key="#mi_sl">San Luis Rey de Francia</placeName> (<date when="1798">1798</date>)
+               thirty miles. <placeName type="mission" key="#mi_sl">San Luis Rey</placeName> to the
+                  <placeName type="mission" key="#mi_sd">Mission of San Diego de Acala</placeName>
+                  (<date when="1769">1769</date>), fifty miles, these figures being approximate and
+               in the main correct. Not only could these Missions be reached in a single day's
+               journey, but good hotels, often the best, were available. This, with the guarantee of
+               perfect roads, good weather, and choice scenery made the trip one of more than
+               pleasant anticipation.</p>
+            <p>The four-in-hand was not running on time; there were no relays to be met; hence the
+               attempt to make a new Mission every night was not directly adhered to, though the
+               ecclesiastical route was followed literally as outlined, with many an interesting
+               side-trip to cañon, seashore and mountain range.</p>
+            <p>Under such inspiration a jolly party bowled toward the <placeName type="mission"
+                  key="#mi_sb">Santa Barbara Mission</placeName> one morning, and reined up under
+               its ancient walls. The "outfit" was a modernized California coach, the plethoric boot
+               packed with hampers of good things; rifles for the black-tailed deer and shotguns for
+               the valley quail, while four or five grey and stag hounds following were suggestive
+               of coursing, with the hare and coyote as objectives.</p>
+            <p>According to a calendar, which <rs><persName key="#woman14">the young lady on the box
+                     seat</persName></rs> carried, it was that thoroughly uncomfortable period
+               midway the Christmas holidays and the first of March, when, in the East, thaws and
+               violent freezes follow each other like avenging Nemeses; yet here nature seemed
+               conspiring to impugn the testimony of the records. It was winter as the seasons go,
+               but to all intents and purposes midsummer in <placeName type="region" key="#re_socal"
+                  >Southern California</placeName>. The breeze was coming in from the Pacific,
+               sweeping up the mesa of the old town, bowling over acres of golden poppies, robbing
+               the fields of wild forget-me-not of their odor and carrying it over the Mission wall,
+               to mingle with the incense of the church. <rs><persName key="#man23">The
+                     driver</persName></rs> called it a winter day; yet as he flecked his leaders
+               and the horn gave an answering note to the meadow lark on the Mission wall, there was
+               not one in the party who really believed that the Ides of March were near at
+               hand.</p>
+            <p>From the highlands about <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs> the first view of <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName> is obtained. The Pacific is before us, stretching away
+               to illimitable distance, the crescent-shaped beach facing the south, from which
+               reaches back the intervening town with its broad streets lined with palm, pepper,
+               magnolia and a wealth of semi-tropical plants and trees. To the north extends the
+                  <placeName type="region" key="#re_syvalley">Santa Ynez Valley</placeName>, the
+               blue ocean on one side, the mountains to the other, while to the south and east deep
+               groves of orange, lemon and lime tell of <placeName type="city" key="#ci_montecito"
+                  >El Montecito</placeName> and <placeName type="city" key="#ci_car"
+                  >Carpinteria</placeName>.</p>
+            <p>It was at <rs><placeName type="mission" key="#mi_sb">the Mission</placeName></rs>
+               that the complete supremacy of man was demonstrated, as, after interviewing
+                     <rs><orgName type="missionfathers" key="#misfats">the courteous
+                     Fathers</orgName></rs>, the gentlemen of the party were invited into the
+                  <placeName key="#sbgarden">Mission garden</placeName>, while the ladies rested in
+               the outer hall, consumed with curiousity. No woman had ever entered <rs><placeName
+                     key="#sbgarden">the garden</placeName></rs>, so it was said; and the <persName
+                  key="#gardener">old gardener</persName>, gowned and cowled, laughingly told of the
+               pretexts adopted by fair visitors, who evidently believed that the grim walls
+               concealed some deep mystery.</p>
+            <p>The <placeName type="mission" key="#mi_sb">Mission of Santa Barbara</placeName> is
+               the only one that has never been out of Franciscan control, and is one of the finest
+               in the State, standing as it did a century ago when its bells rang the Angelus, their
+               echoes calling the faithful up the deep cañons of <rs><placeName type="region"
+                     key="#re_santaynezmts">the Santa Ynez.</placeName></rs></p>
+            <p>The <persName type="missionfather" key="#father_1">father</persName> told us of the
+               ancient splendors of <rs><placeName type="mission" key="#mi_sb">the
+                     church</placeName></rs>, of its inception by <persName type="missionfather"
+                  key="#jse">Junipero Serra</persName>, its erection in <date when="1786"
+                  >1786</date> by <persName type="missionfather" key="#anpa">Father Antonio
+                  Paterna</persName>, and detailed its completion in <date when="1794">1794</date>.
+               In <date notBefore="1810" notAfter="1812">1810-1812</date>, he said, it was nearly
+               destroyed by earthquakes, but was ultimately rebuilt. We entered the old dormitories,
+               the workshops once filled with native artisans; stood on the red-tiled roof, and
+               looked down upon the broad arched corridors where <rs><orgName type="missionfathers"
+                     key="#misfats">the Fathers</orgName></rs> walk and read; strolled among the
+               ancient graves of the founders, and tarried in the chapel with its quaint decorations
+               while <persName type="missionfather" key="#father_1">the Father</persName> whispered
+               the history of the treasures upon the walls. He told us of the struggles of
+                     <rs><orgName type="missionfathers" key="#misfats">the Fathers</orgName></rs>,
+               the act of <persName key="#mexgov">the Mexican Governor</persName> in <date
+                  when="1827">1827</date> in freeing the Indians, resulting in the destruction of
+               the revenues of <rs><placeName type="mission" key="#mi_sb">the
+                  Mission</placeName></rs>; of the desecration that accompanied the demand for
+               secularization, and various efforts at confiscation. In <date when="1833">1833</date>
+               <orgName type="government" key="#gov_sb">the Government</orgName> succeeded, and
+                  <orgName type="mission" key="#mi_mainlandmissions">the Missions</orgName> were
+               converted into secular curacies. Later <orgName type="mission"
+                  key="#mi_mainlandmissions">the Missions</orgName> fell into the hands of
+               commissioners, and in <date when="1834">1834</date> the public literally seized the
+               Mission lands. We listened to the story of the successive phases of the struggle, of
+               the times under <persName key="#jva">Don Juan Alvarado</persName>, who, it was
+               claimed, plundered <orgName type="mission" key="#mi_mainlandmissions">the
+                  Missions</orgName>, of the attempt in <date when="1840">1840</date> to restore
+                  <orgName type="mission" key="#mi_mainlandmissions">the Missions</orgName> to
+               power, and of the act of <persName key="#greg">Pope Gregory XVI</persName>, in
+                     <rs><date when="1840">the same year</date></rs>, making <placeName type="state"
+                  key="#st_cal">California</placeName>, a bishopric, and many other moves, resulting
+               to-day in <orgName type="mission" key="#mi_mainlandmissions">the Missions</orgName>
+               being, instead of centers of ecclesiastical power, simple parish churches.</p>
+            <p><rs><placeName type="mission" key="#mi_sb">The Mission</placeName></rs> as a whole is
+               a delight to the artistic eye. The cell-like rooms, the ancient and worn stone
+               pavements, the crude doors with huge iron trappings, the high windows, enormous
+               walls, the odor of ancient sanctity, all tend to complete a historical picture of the
+               greatest interest. Without, the commanding front with its two towers of stone and
+               adobe pierced with arched doors, the lofty façade with its finely cut columns, the
+               time-worn statues of the saints above, make the pile at once striking and impressive.
+               No little architectural and artistic skill was shown by the builders. Especially does
+               the stone fountain in front, with its round basin and quaint carvings, attract the
+               eye. Near here was an adobe bath-house, in the façade of which a lion's head was
+               carved, from which once poured the clear water of <rs><placeName type="region"
+                     key="#re_santaynezmts">the Santa Ynez</placeName></rs>. In fact, it is evident
+               that the builders of <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs> were men of artistic feeling; and the old building
+               reflects credit upon their memory.</p>
+            <p>But we have tarried too long. A number of dark-eyed penitents are waiting for
+                  <persName type="missionfather" key="#father_1">the Father</persName> by the
+               confessional, and after handing an ancient nail or spike of <rs><placeName
+                     type="mission" key="#mi_sb">the old Mission</placeName></rs> as a memento to
+                     <rs><persName key="#woman15">one lady</persName></rs>, a photograph of
+                     <rs><placeName type="mission" key="#mi_sb">the church</placeName></rs> and some
+               flowers from <rs><placeName key="#sbgarden">the garden</placeName></rs> to others,
+                  <persName type="missionfather" key="#father_1">the Father</persName> disappears to
+               banish the past in the sins of the present generation.</p>
+            <p><placeName type="city" key="#ci_sb">Santa Barbara</placeName> reminds one of some of
+               the Mediterranean resorts, and has been compared to <placeName type="city"
+                  key="#ci_nice">Nice</placeName>; but the comparison is hardly just. The American
+               resort has the advantage in climate, is always delightful, winter or summer, but has
+               none of the artificial decorations of European places. Its winter mean is 54.29; that
+               of <placeName type="city" key="#ci_nice">Nice</placeName> 47.88; its summer mean
+               67.71; that of <placeName type="city" key="#ci_nice">Nice</placeName> 72; its
+               difference between winter and summer 13 to 24 of <placeName type="city"
+                  key="#ci_nice">Nice</placeName>. Again, <persName key="#barb">the Santa
+                  Barbaran</persName>, or Barbarian of the saints, as <rs><persName key="#woman14"
+                     >the young lady on the box-seat</persName></rs> calls our host, tells us that
+               the hot, burning winds of <placeName type="region" key="#re_southeurope">Southern
+                  Europe</placeName> are never known here,&#8212;that this is the only paradise, the
+               real land of <emph>dolce far niente</emph>, the home of the gods.</p>
+            <p><rs><placeName type="city" key="#ci_sb">The quiet old town</placeName></rs> with its
+               fine hotels, long asphalt-paved streets, its miles of gardens, shops for the sale of
+               curiousities, its <placeName key="#ci_china">Chinatown</placeName>, where the odor of
+               opium and firecrackers mingles with the perfume of flowers, its long wharf, yachts
+               and vessels, all offer inducements to tarry. Spanish-town still remains inviolate,
+               and we stop at the old <placeName key="#guerrahouse">De la Guerra
+               mansion</placeName>, where <persName type="author" key="#rda">Richard H.
+                  Dana</persName> witnessed the marriage festival in <date when="1836">1836</date>.
+               The family is still in possession, and <rs><placeName key="#guerrahouse">the
+                     house,</placeName></rs> with its open court, adobe walls and tiled roof, still
+               resembles the description in "Two Years Before the Mast." We buy a
+                  <emph>reboso</emph>, an Indian basket, from <persName key="#mexwoman">an old
+                  Mexican woman</persName>, some of the stamped-leather articles for which the place
+               is famous, half a dozen fiery tamales from another <persName key="#oldwoman">old
+                  woman</persName>, for luck, <persName key="#driver">the driver</persName> puts it,
+               and are away up the fine, hard road to <rs><placeName key="#patera">La
+                     Patera</placeName></rs>, where the Indians buried their stone mortars and
+               household gods in the long ago.</p>
+            <p>Near here we drive through the fine ranches of <placeName key="#holranch"
+                  >Hollister</placeName>, <placeName key="#cooranch">Cooper</placeName> and
+                  <placeName key="#storanch">Stowe</placeName>, <rs><placeName key="#holranch">the
+                     former</placeName></rs> known as "<rs><placeName key="#holranch">Glen
+                     Annie</placeName></rs>." "<rs><placeName key="#cooranch"
+                  >Ellwood</placeName></rs>," the <rs><placeName key="#cooranch">Cooper
+                     homestead</placeName></rs>, is famous for its olive orchard,&#8212;the largest
+               in <placeName type="region" key="#re_socal">Southern California</placeName>, also in
+                  <placeName type="country" key="#co_usa">America</placeName>, with works the
+               perfection of neatness, over which the courteous host takes us. The home is embowered
+               with flowers from every clime,&#8212;a garden the year round. From here we pass for
+               several miles up the picturesque little cañon by the side of a stream and beneath
+               trees that were young in the days of <orgName type="missionfathers" key="#misfats"
+                  >the Franciscan padres</orgName>, and finally at the head of the ravine halt for a
+               consideration of the well-filled hampers which the coach is made to disgorge; for
+               this is a feature of coaching in <placeName type="region" key="#re_socal">Southern
+                  California</placeName>,&#8212;the mid-day meal is carried, and a picnic is enjoyed
+               in some nook or corner that may meet the eye.</p>
+            <p>From <rs><placeName type="region" key="#re_socal">this region</placeName></rs>
+               endless trips can be made to glens and eyries which, in their beauty, compare
+               favorably with those of European resorts: the <placeName type="region"
+                  key="#re_gaviotapass">Gaviota Pass</placeName>, the <placeName type="region"
+                  key="#re_syvalley">Valley of the Santa Ynez</placeName>, <rs><placeName
+                     type="region" key="#re_santaynezmts">the mountains rising to the
+                     east</placeName></rs>, while to the west the ocean is seen, here and
+               there,&#8212;a reminder of the extremes that <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName> affords. Here the lover of the picturesque may spend
+               weeks without exhausting its beauty. But we are off again, rolling down to the beach
+               with its long line of shining sands, calling to mind our own <placeName type="region"
+                  key="#re_ne">New England</placeName> shore. But here, <persName key="#sb1">the
+                  Santa Barbaran</persName> tells us, the water on this February day has a
+               temperature of 61 degrees, about that of <placeName type="city" key="#ci_newport"
+                  >Newport</placeName> in June. Tourists are enjoying the surf; the beach is gay
+               with riders, while the castellated rocks on the north are dotted with strollers from
+               the hotels. Over beyond the blue stretch of water that formed the <placeName
+                  type="region" key="#re_sbchannel">Santa Barbara Channel</placeName> rose the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName>, the
+                  smallest&#8212;<placeName type="island" key="#i_sn">San
+               Nicolas</placeName>&#8212;having a peculiar interest. In <date when="1836"
+                  >1836</date>, we are told, the last <persName type="group" key="#bhagroup"
+                  >Indians</persName> were taken away; but as they were leaving <rs><persName
+                     type="nativeamerican" key="#lw">a squaw</persName></rs> ran back to get
+                     <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>,
+               and for some reason was left and abandoned. In <date when="1856">1856</date>, twenty
+               years later, <persName type="frontiersman" key="#gni">George Nidever</persName> of
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> landed there on an
+               otter hunt. To his surprise he found huts of whale-bone, and near one <rs><persName
+                     type="nativeamerican" key="#lw">an old woman</persName></rs>, dressed in a garb
+               of skins and feathers. She presented a weird appearance; her language was
+               unintelligible. <persName type="frontiersman" key="#gni">Nidever</persName> took her
+               to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, where every attempt
+               was made to find some one who could talk to her, but without success. What became of
+                     <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs> no
+               one knew. <rs><persName type="nativeamerican" key="#lw">The "lost
+                  woman"</persName></rs> died three months after her rescue, and was buried by
+                     <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the Mission
+                     Fathers</persName></rs>,&#8212;unknown,&#8212;a mystery of <rs><orgName
+                     type="nativeamericans" key="#natam_NicolenoTongva">a lost
+               people</orgName></rs>.</p>
+            <p>We could have reached the famous <placeName type="region" key="#re_ojvalley">Ojai
+                  Valley</placeName>, thirty-seven miles southeast from <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, through the <placeName type="region"
+                  key="#re_caspass">Casitas Pass</placeName>, but preferred to go by the <placeName
+                  type="mission" key="#mi_venturamission">Mission of San Buenaventura</placeName>,
+               thirty miles away. This took us through the delightful suburbs of <placeName
+                  type="city" key="#ci_montecito">El Montecito</placeName>, with its hot sulphur
+               springs far up the cañon, thirteen hundred feet above the sea, where the Indians
+               resorted years ago, by nooks and corners of <rs><placeName type="region"
+                     key="#re_santaynezmts">the Santa Ynez</placeName></rs>, the <placeName
+                  type="region" key="#re_smpass">San Marcos Pass</placeName> and the <rs><placeName
+                     type="region" key="#re_paintedcave">Painted Cave and
+               Rocks</placeName></rs>.</p>
+            <p>The stage road winds along the edge of the shore, now desecrated by the rails of the
+                     <rs><orgName type="company" key="#spacrrco">Southern Pacific</orgName></rs>,
+               gleaming sandy crescents succeedings one another in endless variety. Through the
+               orange groves of <placeName type="city" key="#ci_montecito">Montecito</placeName> we
+               enter <placeName type="city" key="#ci_car">Carpinteria</placeName> and its slopes.
+               Here a peculiar patch of black ground being plowed by <rs><persName key="#man22">a
+                     Mexican</persName></rs> catches the eye of a scientific coacher, who pronounces
+               it the site of an ancient Indian village. <rs><persName key="#man22">The
+                     Mexican</persName></rs> stops work as the coach slows up, leans upon his plow,
+               and while rolling a cigarette sententiously answers the questions thrown at him
+               singly and in pairs. After much solicitation he finally enters the adobe near at hand
+               and returns with some of the results of his plowing,&#8212;ancient relics turned up
+               in former barley seasons: a stone mortar, some abalone shells, the holes stopped with
+               asphaltum, the dishes of theIndians, bits of soapstone with perforations, arrowheads
+               of flint, and, horror of horrors! a flute that some ancient disciple of the muse has
+               manufactured from the arm-bone of possibly a kinsman. It is rudely made, and
+               ornamented with bits of pearl from the abalone. Beads of shell and a flint knife
+               complete the treasures of this collection.</p>
+            <p>"Who were these people?" asks <rs><persName key="#man24">some one on the top of the
+                     coach</persName></rs>.</p>
+            <p>"No sabe, señor," puffs <persName key="#man22">the Mexican</persName>.</p>
+            <p>He might have said that his house was resting on a veritable
+                  <emph>kitchen-midden</emph>, a townsite, graveyard, and what not of the early met
+               when he sailed up the <placeName type="region" key="#re_sbchannel">Santa Barbara
+                  Channel</placeName>
+               <date when="1542">nearly three hundred and fifty years ago</date>. He could have said
+               that <rs><persName type="seaman" key="#jca">the adventurer</persName></rs> found this
+               land the site of many villages, where lived thousands of happy natives. He might have
+               told us that his ancestors were of the party, and that they buried <rs><persName
+                     type="seaman" key="#jca">the great captain</persName></rs>, <persName
+                  type="seaman" key="#jca">Cabrillo</persName>, on <placeName type="island"
+                  key="#i_sm">San Miguel</placeName> over yonder, where he still sleeps. But he said
+               nothing, and looked in stolid amazement at the volubility and learning of the
+               American whip of the strange vehicle.</p>
+            <p>Our road follows the beach through <placeName type="city" key="#ci_car"
+                  >Carpinteria</placeName>, past sand-dunes where rich grasses grow, where the faint
+               track of sea-birds is seen and the roar of the surf breaks gently on the ear. Beyond
+               is the ocean, smooth as glass, with beds of kelp floating lightly,&#8212;the resting
+               place of the gull and otter; over beyond the sail of a Chinese junk, the smoke of an
+               American steamer. On we pass, the ocean to the right, the green slopes of
+                     <rs><placeName type="region" key="#re_santaynezmts">the Santa
+                  Ynez</placeName></rs> on the other side, through little cañons that reach down to
+               the shore, playing a veritable game of hide-and-seek with the gleaming ocean. Now the
+               adobe of some Mexican ranges into view, with its barren, well-worn dooryard; its
+               ramada and garlands of chilies, red and glaring, its hairless dogs, and dark-eyed
+               children who have never seen a red and yellow coach and stare hard and long, silent
+               at the melody of the horn.</p>
+            <p>Down we plunge into the little arroyo, splashing across the clear brook that, with
+               its sparkling sands and dashing trout, comes gurgling down under the arches of elder
+               and willow; up the bank with a rush, winding through a grove of live-oaks where the
+               tap tap of the woodpecker echoes and the gray squirrel flashes his fox-like tail; out
+               into the fields again, the road lined with yellow violets, with crazy-quilts of
+               color,&#8212;bluebells, cream cups, daisies, poppies, bluettes and other wild-flowers
+               galore, reaching far up to the manzanita and wild myrtle of the upper slopes. From
+               the hillside comes the melody of the valley quail, then the roar of its wings. The
+               nest of the wood-rat hangs on a limb. The air is filled with insect life dancing
+               lightly in the sunbeams.</p>
+            <p>And so on we go, over the same road that <persName type="missionfather" key="#jse"
+                  >Father Junipero Serra</persName> and <persName key="#fdn">Governor Felipe de
+                  Neve</persName> with their guard of sixty soldiers passed when marching to found
+               the <placeName key="#presidio">Presidio of Santa Barbara</placeName>
+               <rs><date when="1783">one hundred and nine years ago</date></rs>, and with a final
+               burst we ride bravely into the old town of <placeName type="city" key="#ci_ven"
+                  >Ventura</placeName>, cross <rs><placeName type="region" key="#re_venriver">the
+                     shallow river</placeName></rs> that creeps lazily out from the grove of alders
+               and willows, round the big hill that divides the town, and passing the shadows of the
+               old <placeName type="mission" key="#mi_ventura">Mission of San
+                  Buenaventura</placeName> seek the more material comforts of the inn of the
+               roses.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
