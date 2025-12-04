@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#bismarckdailytribune"
+                     >Bismarck Daily Tribune</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="12"/>
+               <biblScope unit="issue"/>
+               <date when="1892-04-27"/>
+               <pubPlace><placeName type="city" key="#ci_bismarck">Bismarck</placeName>, <placeName
+                     type="state" key="#st_nd">North Dakota</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#BismarckDailyTribune1892">The Isle of Skulls</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><placeName type="island" key="#i_sn">THE ISLE OF
+                        SKULLS</placeName></rs>.</title>
+               <title type="sub"><hi rend="bold">A Woman's Lonely Life Surrounded by the Bones of
+                           <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">Her
+                           Tribe</orgName></rs>.</hi></title></head>
+            <p>On the [lonely] wind swept <placeName type="island" key="#i_sn">island of San
+                  Nicolas</placeName>, eighty miles off the coast of <placeName type="county"
+                  key="#co_ventura">Ventura county</placeName>, where, as far back as the memory of
+               man runs, hundreds of white skeletons have dotted the valleys and hillsides, local
+               archæologists are busy gathering the relics of a <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">strange extinct
+                     race</orgName></rs>. <rs><placeName type="island" key="#i_sn">The
+                     island</placeName></rs> is ten miles long and oval in shape, being four miles
+               across at the widest part. Strange utensils of serpentine, sandstone and steatite are
+               found there among the human bones, and <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> and <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">its erstwhile inhabitants</orgName></rs> have a
+               history so curious that it is difficult of comprehension.</p>
+            <p>In <date>1835</date>
+               <rs><persName type="group" key="#aji; #ndur; #misfats">the padres of Santa
+                     Barbara</persName></rs>, learning that there were but <persName type="group"
+                  key="#bhagroup">sixteen of the strange Indian race</persName> then living there,
+               determined to rescue them from <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. They went over in <rs><name type="ship"
+                     key="#sh_peoresnada">a sloop</name></rs> and succeeded, as they thought, in
+               getting all on board. At the last moment <rs><persName type="nativeamerican"
+                     key="#lw">an Indian woman</persName></rs> returned for <persName
+                  type="nativeamerican" key="#lwchild">her child</persName>, and one of the frequent
+               storms of the <placeName type="island" key="#i_chi">channel islands</placeName>
+               springing up[,] <rs><name type="ship" key="#sh_peoresnada">the sloop</name></rs> was
+               driven away without her. <rs><name type="ship" key="#sh_peoresnada">The
+                  sloop</name></rs> went on the rocks of <placeName type="region" key="#re_pc">Point
+                  Conception</placeName> and all on board were lost.</p>
+            <p><span type="trope" n="4"><rs><date when="1851">Sixteen years later</date></rs>
+                  <persName type="frontiersman" key="#gni">Captain George Nidever</persName> and
+                        <rs><persName type="group" key="#tje; #nativeamericans">two
+                     men</persName></rs> went from <placeName type="region" key="#re_socalcoast">the
+                     coast</placeName> on <rs><name type="ship" key="#sh_nidever">a
+                     sloop</name></rs> to hunt otter off <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>. On landing they were, like <placeName type="fictional"
+                     key="#rcr">Crusoe</placeName>, astonished to discover human footprints in the
+                  sand. They saw no one, however, and a storm compelled them to put to
+               sea.</span></p>
+            <p><span type="trope" n="4"><span type="trope" n="5">It was <rs><date when="1853">two
+                           years thereafter</date></rs> that <rs><persName type="frontiersman"
+                           key="#gni">the adventurous captain</persName></rs>, revolving in his mind
+                     the sight of the footprints in <rs><placeName type="island" key="#i_sn">the
+                           uncanny island</placeName></rs>, determined to go and discover and bring
+                     over <persName type="nativeamerican" key="#lw">the lonely woman</persName> of
+                     whom he had vaguely heard.</span>
+                  <span type="trope" n="1"><rs><persName type="group"
+                           key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">Men</persName></rs>
+                     accompanied him, and at length they saw on the surf beaten shore <rs><persName
+                           type="nativeamerican" key="#lw">a woman</persName></rs> with long tawny
+                     hair dressed in a queer garb of colored birdskins, and scraping with a bone
+                     knife the blubber from a seal.</span></span></p>
+            <p><span type="trope" n="1">They surrounded and approached her stealthily, and although
+                  suddenly confronted she did not appear in the least afraid, but smiled, and then
+                  falling on her knees prayed to the sun. <rs><persName type="nativeamerican"
+                        key="#lw">The wild woman</persName></rs> offered no objection when by signs
+                  she was made to understand that she was to go with them in <rs><name type="ship"
+                        key="#sh_nidever">the boat</name></rs>.</span></p>
+            <p>They reached <placeName type="city" key="#ci_sb">Santa Barbara</placeName> across the
+               rough sea, and the first thing <rs><persName type="nativeamerican" key="#lw">the
+                     Indian woman</persName></rs> saw was <persName key="#ssh">Dr. S. L.
+                  Shaw</persName>, now eighty years old, and yet living there, riding a horse. She
+               had never seen nor heard of any object like it, and thought <rs><persName key="#ssh"
+                     >the man</persName></rs> and horse were one, and she knelt on the shore and
+               offered her devotions to it. <span type="trope" n="6">Two weeks afterward
+                        <rs><persName type="nativeamerican" key="#lw">the last inhabitant of rock
+                        ribbed, tempest tossed San Nicolas</persName></rs> died from eating food to
+                  which she was unaccustomed, furnished by <rs><persName type="frontiersman"
+                        key="#gni">her rescuers</persName></rs>, and the curtain fell on
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        race</orgName></rs> forever.</span></p>
+            <p>Wild dogs had eaten <persName type="nativeamerican" key="#lwchild">her
+                  child</persName>. Her dress of red and blue feathers, a wonderful creation of
+               barbaric hands, was sent to <rs><persName key="#pop">the pope</persName></rs> of
+                  <placeName type="city" key="#ci_rom">Rome</placeName>. <span type="trope" n="7"
+                  >Relic hunters have gathered mortars, pestles, ollas, toy steatite canoes and
+                  other curious things there for some years past, and shipped them to
+                  <!--once we have a more definitive list of museus and repositories for these items (whether still around or not) we should tag these-->various
+                  eastern and European universities. Skeletons and parts of skeletons have also been
+                  collected in large numbers, but today the bones of thousands of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs> are scattered about there. Some lie face down,
+                  indicating that they have fallen in battle. There are so many human relics there
+                  that <placeName type="island" key="#i_sn">San Nicolas</placeName> is known as the
+                  "Isle of Skulls."</span></p>
+            <p>"<rs><placeName type="island" key="#i_sn">The lonely island</placeName></rs>, whose
+               highest part is but 1,040 feet above the sea," said <rs><persName key="#ventres">a
+                     resident</persName></rs> of <placeName type="city" key="#ci_ven"
+                  >Ventura</placeName>, "is noted for the high artistic class of many of its relics.
+               Had <rs><persName type="nativeamerican" key="#lw">the woman rescued</persName></rs>,
+               then fifty-two years old, not died a story passing strange would no doubt have been
+               told of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the race
+                     so long hemmed in by the waste of waters about</orgName></rs>. As it is, much
+               of the strange story is shrouded in mystery forever.["]</p>
+            <byline>&#8212;<title type="article" key="#SanFranciscoExaminer1892">San Francisco
+                  Examiner</title>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>

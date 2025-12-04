@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#sbdp">Santa Barbara
+                            Daily Press </orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">10</biblScope>
+                    <biblScope unit="issue">121</biblScope>
+                    <date when="1882-02-23"/>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa
+                            Barbara</placeName>,<placeName type="state" key="#st_cal"
+                            >California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#Blanco1882">"Santa Barbara. A Visitor's Views
+                            Regarding Its Climate and Attractions." </title>
+                        <biblScope unit="page" n="2"/>
+                        <author><persName type="author" key="#blanco">Blanco. </persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold"><placeName type="city" key="#ci_sb">SANTA
+                                BARBARA</placeName>.</hi></title>
+                    <title type="sub"><hi rend="bold">A Visitor's Views Regarding its Climate and
+                            Attractions.</hi></title></head>
+                <byline>[From the <title key="#Blanco1882_TIS">Indianapolis
+                    Sentinel</title>]</byline>
+                <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA</placeName>, <date
+                        when="1882-02-23">Feb. 5th, 1882</date>.</dateline>
+                <p>Somebody once said that the climates of Heaven and <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> were similar. This statement may be a
+                    little strong, but there is no denying the fact that <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> has among the finest, if not the
+                    finest, climate in the <placeName type="country" key="#co_usa">United
+                        States</placeName>. It is between cold, foggy, windy <placeName type="city"
+                        key="#ci_sf">San Francisco</placeName> and hot, oppressive <placeName
+                        type="city" key="#ci_sd">San Diego</placeName>, and strikes a happy medium,
+                    having all the good qualities of those places and very few of the bad ones. For
+                    the past month or six weeks it has been remarkably cold for this place, and on
+                    one occasion we awoke one morning to find the mountains covered with snow and
+                    the tops of the foot-hills slightly sprinkled with that same beautiful (?)
+                    substance. This had never occurred before within the memory of the oldest
+                    inhabitant, as many of the school children (and also some few of the grown up)
+                    had never before seen snow, they were wild with delight, and some of the more
+                    hardy boys went to the top of the hills and brought a load into town. Then they
+                    engaged in one of the chief delights of the Eastern boy, a good old-fashioned
+                    snow ball fight. An <placeName type="city" key="#ci_indianap"
+                        >Indianapolis</placeName> boy would have smiled to see the rapture with
+                    which the <placeName type="city" key="#ci_sb">Santa Barbara</placeName> boy
+                    patted and fondled the dirty white mixture they called snow. In <rs><placeName
+                            type="region" key="#re_eusa">the East</placeName></rs> it would have
+                    been called "slush." However, the youngsters enjoyed it hugely, and for the last
+                    time, unless they emigrate to a colder climate. They will probably never have
+                    the same chance again in sunny <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>.</p>
+                <p>Flowers are very plenty at this time of the year, but during March, April and May
+                    is the time to see them in their glory. Roses bloom here all the year round, and
+                    for size and beauty of coloring I defy the world to produce their equal. From a
+                    single Gloire de Dijon bush in our front yard my sisters clip enough buds every
+                    morning to decorate the entire house. Some of our Eastern people may feel
+                    inclined to be a little skeptical, but when I tell them that the bush is about
+                    fifteen feet in hight [sic] and several inches in diameter at the base, maybe
+                    they will feel more like believing. An Eastern person who has never seen it has
+                    no idea of the profusion with which flowers grow in <placeName type="state"
+                        key="#st_cal">California</placeName>, and especially in <rs><placeName
+                            type="region" key="#re_socal">the Southern part</placeName></rs>. In the
+                        <placeName type="region" key="#re_ojvalley">Ojai Valley</placeName>, a
+                    beautiful valley in the mountains, about forty miles south of this place, I
+                    believe that wild flowers reach their perfection. In the spring and summer
+                    months the valley and hillsides are literally covered with these little
+                    volunteers of nature. The poppies are particularly noticeable for their variety
+                    of shades and great size.</p>
+                <p>The situation of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                    could not be improved upon. It has a magnificent frontage on the <placeName
+                        type="region" key="#re_sbchannel">Santa Barbara Channel</placeName>, and is
+                    flanked on the northeast by the lofty <placeName type="region"
+                        key="#re_santaynezmts">Santa Ynez Mountains</placeName>, and on the
+                    northwest by a range of foot-hills, making a triangular-shaped valley for
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, "The
+                    Beautiful," to nestle in. Across <rs><placeName type="region"
+                            key="#re_sbchannel">the channel</placeName></rs> are the rugged
+                        <placeName type="island" key="#i_chi">Channel Islands</placeName>, at a
+                    distance of from twenty to sixty miles. <span type="trope" n="14"><title
+                            type="article" key="#Hardacre1880_SM">Scribner's Monthly</title> a few
+                        months ago, [sic] published an account of <rs><persName
+                                type="nativeamerican" key="#lw">an Indian woman</persName></rs> who
+                        was left, during a storm, upon <rs><placeName type="island" key="#i_sn">one
+                                of these islands</placeName></rs>, and roamed for <rs><date
+                                from="1835" to="1855">over twenty years</date></rs> over her rocky
+                        fastness, and when found had forgotten her native language and become
+                        thoroughly wild.</span>
+                    <span type="trope" n="6">In the meantime <rs><orgName
+                                type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                                tribe</orgName></rs> had died out, and no one could be found who
+                        could understand her broken sentences.</span>
+                    <span type="trope" n="3">She did not live long after she was brought to
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, but soon
+                        succumbed to civilization.</span>
+                    <rs><persName type="frontiersman" key="#gni">The old Captain</persName></rs> who
+                    found her still lives in <rs><placeName type="city" key="#ci_sb">this
+                            place</placeName></rs>, and is always ready to tell the story in his own
+                    graphic manner.</p>
+                <p>The greatest drawback that <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> had to contend with is the fact that it has no railroad.
+                    Several times it has been on the eve of having one built, but every time
+                    something interferes. The <orgName type="company" key="#aprail">Atlantic &amp;
+                        Pacific people</orgName> were just ready to build at one time, but the
+                        <orgName type="company" key="#cprail">Central Pacific</orgName> monopoly
+                    gobbled it, and as it was not to their interest to let <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> have a road, why, they did not let
+                    her have one. In time, after the <orgName type="company" key="#cprail">C. P.
+                        Railroad</orgName> is crushed, <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> will get a railroad,but [sic] in my opinion,not [sic]
+                    before. <rs><orgName type="company" key="#cprail">The C. P.</orgName></rs> has a
+                    way of controlling things in <rs><placeName type="country" key="#co_usa">this
+                            country</placeName></rs>, and making things work around for their
+                    benefit. The people are getting awful tired of it,and [sic], before a great
+                    while, something will probably drop, and great will be the fall thereof.</p>
+                <p>While I am on the subject I might as well say that <placeName type="state"
+                        key="#st_cal">California</placeName> is controlled by monopolies. The
+                        <orgName type="company" key="#casteam">China and Australian Steamship
+                        Company</orgName> is a monopoly. The <orgName type="company" key="#cprail"
+                        >Central Pacific</orgName> is a gigantic monopoly. The cities are run by
+                    monopolies. Trade is carried on by monopolies. The stock market is dictated to
+                    by monopolies, and in fact almost every branch of business on this coast is
+                    operated by a monopoly. Any body can get rich in <placeName type="state"
+                        key="#st_cal">California</placeName> if they only can get into a monopoly,
+                    but the trouble is you can't get into that desired position. <rs><placeName
+                            type="state" key="#st_cal">This State</placeName></rs> [sic] is not
+                    named right. It should be called Monopolifornia. That name would fit it like a
+                    glove.</p>
+                <p>When I started out I intended to write about <placeName type="city" key="#ci_sb"
+                        >Santa Barbara</placeName>, but when I get started on "monopolies" I don't
+                    know when to stop, so please pardon the digression. <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> is well off in the matter of hotels,
+                    three are now running, and all seem to be full. The "<placeName key="#arling"
+                        >Arlington</placeName>" is the best, and for solid comfort and convenience
+                    is not equaled south of <placeName type="city" key="#ci_sf">San
+                        Francisco.</placeName> The others are good houses. Three steamers per week
+                    arrive from <placeName type="city" key="#ci_sf">San Francisco</placeName>, and
+                    every one comes loaded down with health and pleasure seekers for this point. The
+                    fact is rapidly becoming known that this place cannot be [b]eaten on the
+                    American continent for enjoyment of life. You know what that means&#8212;good
+                    health and contentment. Living is not expensive. At the <placeName key="#arling"
+                        >Arlington</placeName> the price is only $15 per week, and keeping house is
+                    as cheap in proportion. For ten cents you can get a ridiculously large quantity
+                    of vegetables. Meat is twelve and a half cents per pound. Washing is done by the
+                    Chinese at so much per week, say $1.25 for a family of five. House rent is
+                    rather high, but not nearly so much as in <placeName type="city" key="#ci_la"
+                        >Los Angeles</placeName> or <placeName type="city" key="#ci_sd">San
+                        Diego</placeName>. When you come to the luxuries, you have to pay for them,
+                    that is, all except horses. For $30 one can get a very good riding animal, and
+                    for $75 or $80 a very fair roadster can be obtained. I am the fortunate or
+                    unfortunate possessor of a mustang, a real thoroughbred. Before I came to this
+                    country I always understood that a mustang was next door to a devil, but such is
+                    not the case. The mustang is nearer human than any other breed of horses, and
+                    will behave exactly as it is used to being treated. If it has been abused, it
+                    looks upon mankind as its natural enemy, and is always on the lookout for a
+                    chance to get a little revenge. But, on the contrary, if it has been owned by a
+                    whit[e] man and kindly treated, no animal [wi]ll be gentler and safer. My little
+                    horse has always been well treated, and a better or kinder horse cannot be
+                    found, and, remember, she is a pure bred mustang. As a rule, mustangs are
+                    smaller than American horses, but are stronger in proportion to their size. I
+                    suppose it is because they have less weight to carry, and are just as muscular.
+                    When I first came to <rs><placeName type="state" key="#st_cal">this
+                            State</placeName></rs> [sic] I would not use a Spanish saddle, but clung
+                    to the English wafer style. I soon got out of that notion, and now use a regular
+                    "sia" the most pronounced of Spanish saddles. One of these saddles is a rather
+                    ungainly object to look at, but it is mighty comfortable riding. Hereafter, for
+                    ease and comfort, commend me to a Spanish saddle.</p>
+                <p><persName type="author" key="#hhj">Mrs. Helen Hunt Jackson</persName>, of the
+                        <orgName type="publication" key="#century">Century Magazine</orgName>, is
+                    now here, writing up the <placeName type="state" key="#st_cal"
+                        >California</placeName> missions. <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> glories in <rs><placeName type="mission" key="#mi_sb">a
+                            grand old mission</placeName></rs>, built over 100 years ago by the
+                        <orgName type="missionfathers" key="#misfats">Franciscan monks</orgName>. It
+                    is situated back of the town on the foot-hills, and is the first object which
+                    strikes the eye on landing from the steamer. It is a large building and can be
+                    seen for miles. <placeName type="mission" key="#mi_sb">The building</placeName>
+                    is constructed of adobe, and is roofed with tiling. There was not a nail used in
+                    building, the rafters being tied with thongs of rawhide, which are as strong now
+                    as the day they were first put up. There are several heartrending statues and
+                    paintings in the chapel, one being a life-size representation of <persName
+                        key="#jch">Christ</persName> on the cross. It is a most lifelike thing, and
+                    is calculated to give nervous people the nightmare for a week. The expression of
+                    agony on the face and the contortions of the limbs are most horrible. They used
+                    to have a statue of some saint that would cry, real tears running down the
+                    cheeks. This was a great marvel to the ignorant people until it was discovered
+                    that there was a cup of water inside the head, that worked by a string. Since
+                    then the statue has disappeared. <rs><placeName key="#sbmissioncemetary">The
+                            graveyard</placeName></rs> attached to <placeName type="mission"
+                        key="#mi_sb">the Mission</placeName> reminds one of the graveyards seen in
+                        <placeName type="region" key="#re_europe">Europe</placeName>. It is enclosed
+                    by a high wall, and is so full of bodies that bones stick out all over the
+                    ground. It is not used any more [sic].</p>
+                <p><placeName type="city" key="#ci_sb">Santa Barbara</placeName> has one daily and
+                    two weekly newspapers. The evening <rs><orgName type="publication"
+                            key="#sbnewspress">PRESS</orgName></rs> has a circulation of about 1,000
+                    copies. It is a good, live paper. Mr. <persName key="#cfg">C. F.
+                        McGl[a]shan</persName>, the genial editor and proprietor, is just the man
+                    for the place, and does <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> a power of good. <rs><orgName type="publication"
+                            key="#sbnewspress">This paper</orgName></rs> has also a weekly number.
+                    The weekly <emph><orgName type="publication" key="#weeklyindependent"
+                            >Independent</orgName></emph> is a good paper. Santa Barbara's
+                    population is 5,000, and is growing. Good stores, fine churches and handsome
+                    residences are numerous. We have a daily mail from <placeName type="city"
+                        key="#ci_sf">San Francisco</placeName>, <placeName type="city" key="#ci_la"
+                        >Los Angeles</placeName> and <placeName type="region" key="#re_eusa">the
+                        East</placeName>. I am very much afraid that I will have to go home in the
+                    spring; I don't want to, but reasons over which I have no control compel. I have
+                    been in <placeName type="state" key="#st_cal">California</placeName> just long
+                    enough (two years) to be infatuated with its climate, and if it were not for my
+                    father I believe I would like to live here; but the fiat has gone forth, and I
+                    must obey.</p>
+                <p>The sun is just setting, and the tints on the mountains are lovely. Nowhere, with
+                    the exception of <placeName type="country" key="#co_italy">Italy</placeName>, do
+                    they have finer sunsets than here. A gentleman, who has traveled all over the
+                    world, told me that, and I take his word for it. They are good enough for me,
+                    any how.</p>
+                <p>I saw <persName key="#htal">Henry Talbot</persName> in <placeName type="city"
+                        key="#ci_sf">San Francisco</placeName> just before he sailed for <placeName
+                        type="country" key="#co_jap">Japan</placeName>. He was looking as jolly as
+                    ever.</p>
+                <p>Indian[a] people are not very plentiful in this part of t[h]e country, but when I
+                    find one I freeze to him.</p>
+                <p>Here, I have strung this out into quite a letter, but I did not mean to when I
+                    started.</p>
+                <p>I will wind up by saying that <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> is the sanitarium of the <placeName type="country"
+                        key="#co_usa">United States</placeName>, and any body who is afflicted with
+                    any one of the ailments that flesh is heir to had better come here and get
+                    cured.</p>
+                <byline>SENOR <persName type="author" key="#blanco">BLANCO</persName>.</byline>
+            </div>
+        </body>
+    </text>
+</TEI>
