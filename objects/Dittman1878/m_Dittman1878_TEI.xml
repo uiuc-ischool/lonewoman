@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement><settlement><placeName type="city" key="#ci_berk"
+                        >Berkeley</placeName>, <placeName type="state" key="#st_cal"
+                           >California</placeName></settlement></settlement>
+                  <repository key="#bancroft">University of California, Bancroft
+                     Library</repository>
+                  <idno type="Bod">Manuscript C-D67</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author><persName type="frontiersman" key="#cdi">Dittman,
+                        Carl</persName></author>
+                     <editor><persName type="author" key="#emu">Murray, E. F.</persName></editor>
+                     <title key="#Dittman1878">Narrative of a Seafaring life on the coast of
+                        California</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc/>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <p>Courtesy of The Bancroft Library, University of California, Berkeley. 
+                           Funding for the production of these digital scans was generously provided
+                           by Richard H. Dittman.</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <front>
+         <div type="titlepage">
+            <head><title type="main">Narrative of a Seafaring life on <placeName type="region"
+                     key="#re_calcoast">the coast of California</placeName>.</title></head>
+            <byline>By <persName type="frontiersman" key="#cdi">Carl Dittmann</persName>, otherwise
+               known as <rs><persName type="frontiersman" key="#cdi">Charley Brown</persName></rs>.
+               A pioneer of <date when="1844">1844</date>. Dictated by himself to <persName
+                  type="author" key="#emu">E. F. Murray</persName>, For <orgName type="institution"
+                  key="#bancroft">Bancroft Library</orgName>
+               <date when="1878">1878</date>.</byline>
+         </div>
+         <div>
+            <p>
+               <persName type="frontiersman" key="#cdi">Carl Ditman</persName> (a) <rs><persName
+                     type="frontiersman" key="#cdi">Charley Brown</persName></rs></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <p>My right name is <persName type="frontiersman" key="#cdi">Carl Ditman</persName>
+               although I am generally called <rs><persName type="frontiersman" key="#cdi">Charley
+                     Brown</persName></rs> having adopted this latter name while I was a sailor. My
+               native place is <placeName type="city" key="#ci_ueck">Üeckamünde</placeName>
+                  [<placeName type="city" key="#ci_ueck">Ueckermünde</placeName>], about 30 miles
+               from <placeName type="city" key="#ci_ber">Berlin</placeName>, <placeName
+                  type="country" key="#co_prussia">Prussia</placeName>. I went to sea while still a
+               boy, making my first voyage with <persName type="seaman" key="#rat">Capt.
+                  Ratman</persName> who belonged in <rs><placeName type="city" key="#ci_ueck">my
+                     town</placeName></rs>. I continued to follow the sea, gradually rising from my
+               first position as cooks boy to ablebodied seaman.</p>
+            <p>At the age of 19 having already followed the sea 2 years I shipped on board an old
+                  <del rend="strikethrough">brig</del>bark in ballast, called <name type="ship"
+                  key="#sh_martinet">the Martinet</name>, commanded by <persName type="seaman"
+                  key="#mor">Capt. Morton</persName>, bound for <placeName type="region"
+                  key="#re_que">Quebec</placeName>. It was in the month of Feb'y when we left
+                  <placeName type="city" key="#ci_li">Liverpool</placeName>
+               <rs><name type="ship" key="#sh_martinet">The vessel</name></rs> leaked badly, so that
+               it was necessary to work the pumps day &amp; night continually. The weather was also
+               very cold so that being almost constantly wet, &amp; no clothes with to change, my
+               kit having been stolen on the boarding house in <placeName type="city" key="#ci_li"
+                  >Liverpool</placeName> previous to sailing. I suffered very much. Upon our return
+               to <placeName type="city" key="#ci_li">Liverpool</placeName> I left <rs><name
+                     type="ship" key="#sh_martinet">the vessel</name></rs> determined to make no
+               more voyages to cold climates. I next shipped in a vessel for the <placeName
+                  type="region" key="#re_windies">West Indies</placeName>. Here I was taken sick
+               with the fever. I then spoke Eng. moderately well &amp; so used no German. In the
+               hospital in where I was taken when I fell sick there were several German nurses. One
+               of them attended the beds among which I lay.</p>
+            <p>My next neighbor was hopelessly sick with fever &amp; one day this nurse came to give
+               him his medicine. As he did so he siad [said] in German, not knowing that any one
+               near could understand him, "that will be the last of you poor fellow." I got out of
+               that Hospital just as soon as I could. I soon recovered &amp; returned to <placeName
+                  type="city" key="#ci_li">Liverpool</placeName> with <rs><name type="ship"
+                     key="#sh_martinet">my ship</name></rs>. Here I shipped again on an old brig
+               called the "<name type="ship" key="#sh_euphemia">Euphemia</name>" for the round trip
+               to <placeName type="city" key="#ci_val">Valparaiso</placeName>.</p>
+            <p>At <placeName type="city" key="#ci_val">Valparaiso</placeName> however she was
+               chartered &amp; instead of going back to <placeName type="city" key="#ci_li"
+                  >Liverpool</placeName> we <del rend="strikethrough">came to</del>started for
+                  <placeName type="region" key="#re_local">Cal</placeName>. <rs><name type="ship"
+                     key="#sh_euphemia">Our vessel</name></rs> had been chartered by Capt's
+                  <persName type="seaman" key="#wilson3">Wilson</persName> &amp; <placeName
+                  type="seaman" key="#scott">Scott</placeName>, of <placeName type="region"
+                  key="#re_upcal">Upper Cal</placeName>. She was loaded with an assorted cargo &amp;
+               was to call at so many ports on <placeName type="region" key="#re_calcoast">the
+                  California Coast</placeName> &amp; remain so long in each place. They came on
+               board bringing most of the crew of their own vessel which they had just sold. Here we
+               got caught in a severe Norther, &amp; our 1st Mate in trying to secure a gun on deck
+               during the gale had his foot crushed so badly that he died in the Hospital before we
+               left. Capt Wilson’s Mate took his place. From <placeName type="city" key="#ci_val"
+                  >Valparaiso</placeName> we went to <placeName type="city" key="#ci_callao"
+                  >Callao</placeName> &amp; thence to <placeName type="city" key="#ci_hon"
+                  >Honolulu</placeName>. While lying here we were all giv<del rend="strikethrough"
+                  >ing</del>en liberty &amp; one dollar each to spend. One of our crew, a Scotchman
+               by the name of <persName type="seaman" key="#jack">Jack</persName>, remained <del
+                  rend="strikethrough">of</del>over his time so that a short time after when we were
+               again given liberty he was not allowed to go on shore. The next time he did get
+               ashore he went at once to the Eng. Consul &amp; reported <rs><name type="ship"
+                     key="#sh_euphemia">the vessel</name></rs> as unseaworthy. <persName
+                  key="#consul">The Consuls</persName> called the <rs><persName type="seaman"
+                     key="#night">Capt.</persName></rs> &amp; told him of the report &amp; informing
+               that unless he could induce <rs><persName type="seaman" key="#jack">the
+                     man</persName></rs> to withdraw the complaint he would have to inspect
+                     <rs><name type="ship" key="#sh_euphemia">the vessel</name></rs> &amp; condemn
+               her if found as reported.</p>
+            <p><persName type="seaman" key="#night">Capt Nightingale</persName>, our capt, returned
+               soon after with Consul &amp; assured him that he had made everything all right with
+               the men, although he had in reality said nothing to us.</p>
+            <p><persName type="seaman" key="#jack">Jack the Scotchman</persName>, was not to be
+               foiled in this manner. After waiting a few days he suspected that <rs><persName
+                     type="seaman" key="#night">the Capt.</persName></rs> had put a stop to the
+               investigation which the Consul was in duty bound to make, in view of the complains.
+               He went a second time &amp; several of us accompanied him. He asked the Consul why
+               his complains had been neglected &amp; upon learning the action of <persName
+                  type="seaman" key="#night">capt Nightingale</persName>, he repeated his complains
+               in which we all joined him &amp; we also declared that no understanding had been
+               arrived at between <rs><persName type="seaman" key="#night">the Capt.</persName></rs>
+               &amp; the crew. The next day two Capts were sent down, &amp; after a careful
+               examination they pronounced he [her] totally unseaworthy, whereupon the Consul
+               condemned her. As charterers Capt's <persName type="seaman" key="#scott"
+                  >Scott</persName> &amp; <persName type="seaman" key="#wilson3">Wilson</persName>
+               were required to have her repaired &amp; not a pound of her cargo could they remove
+               until such repairs were completed. They took advantage of <persName type="seaman"
+                  key="#night">Capt. Nightingale</persName> who was a drunken character, &amp; while
+               under the influence of liquor persuaded him to sign a paper relieving them of all
+               responsibility. This accomplished the [they] took their cargo out of the vessel &amp;
+               transferred it to <rs><name type="ship" key="#sh_brig4">an Hermaphrodite
+                  brig</name></rs> which they bought here. The crew were all discharged here &amp;
+               received certificates of the ships indebtedness to them but they could obtain no
+               money until it should came from the Old Country. Three of us shipped on <rs><name
+                     type="ship" key="#sh_brig4">the Brig</name></rs>, the rest of the crew being
+               made up from the men <persName type="seaman" key="#scott">Scott</persName> &amp;
+                  <persName type="seaman" key="#wilson3">Wilson</persName> had brought with them,
+               among whom were several <orgName type="nativeamericantribes" key="#natam_hawaiian"
+                  >Kanakas</orgName>. From <placeName type="city" key="#ci_hon">Honolulu</placeName>
+               we came direct to <placeName type="city" key="#ci_mo">Monterrey</placeName>. Arrived
+               here the goods were all landed &amp; placed in the <placeName key="#customhouse"
+                  >Custom House</placeName>. The duties at that time were very heavy.</p>
+            <p>As soon as we got got the cargo all on shore, a <orgName type="nativeamericantribes"
+                  key="#natam_hawaiian">Kanaka</orgName> &amp; I were sent to watch it with the
+               mate. This was what is known as a "soft billet" among the sailors</p>
+            <p>The trust &amp; confidence shown me by <persName type="seaman" key="#scott"
+                  >Scott</persName> &amp; <persName type="seaman" key="#wilson3">Wilson</persName>
+               aroused the jealousy of the boatswain who tried by false reports to influence them
+               against me, as he thought he should have been appointed to the light &amp; agreeable
+               task of watching the cargo. Soon after our arrival here Scott &amp; Wilson's mate
+               called <persName type="seaman" key="#rey">Reynolds</persName> left as he belonged in
+                     <rs><placeName type="city" key="#ci_sf">S. F.</placeName></rs> where he went by
+               the first ship. From <placeName type="city" key="#ci_mo">Monterey</placeName> having
+               reshipped our goods we came direct to <placeName type="city" key="#ci_sb">Sta.
+                  Barbara</placeName> arriving here in <date when="1844">1844</date>.</p>
+            <p>Here the goods were again landed &amp; I was detailed to superintend their
+               transportation in ox-carts from the beach to the store-house which was the old adobe
+               building that one still standing just below <rs><placeName key="#cooksbldg">Cook's
+                     building</placeName></rs> &amp; a little off <placeName key="#statestreet"
+                  >State St</placeName>. Here I remained all the summer of <date when="1844"
+                  >1844</date> in charge of the store house while <rs><name type="ship"
+                     key="#sh_brig4">the Brig</name></rs> was trading <del rend="strikethrough"
+                  >along</del>up &amp; down the coast. The boatswain was discharged here &amp; again
+               tried to influence <persName type="seaman" key="#scott">Capt Scott</persName> against
+               me by false reports. This time I gave a good clubbing, very near breaking his arm.
+               Soon after this affair I asked for &amp; received my discharge, &amp; began to go
+               with <rs><persName type="groupp" key="#gni; #isp; #bre">the otter
+                  hunters</persName></rs>. I made my first trip with <persName type="investor"
+                  key="#isp">Sparks</persName>
+               <persName type="frontiersman" key="#gni">Nidever</persName> &amp; <persName
+                  type="frontiersman" key="#bre">Breck</persName>, about <date when="1845-04">April
+                  of 1845</date>. Besides myself there were in the crew <del rend="strikethrough"
+                  >three (3)</del>four (4) <orgName type="nativeamericantribes"
+                  key="#natam_hawaiian">Kanakas</orgName>, 3 of them steersman &amp; a cook; an
+               American sailor by the name of <persName type="seaman" key="#evans">Evans</persName>
+               &amp; 3 <orgName type="nativeamericantribes" key="#natam_missionindians">Mission (?)
+                  indians</orgName> [sic], 1 from <rs><placeName type="mission" key="#mi_sl">San
+                     Luis Rey</placeName></rs>, 1 from <rs><placeName type="mission"
+                     key="#mi_sgabriel">San Gabriel</placeName></rs> &amp; the other that was with
+                  <persName type="frontiersman" key="#bre">Breck</persName> from the <placeName
+                  type="city" key="#re_thlare">Tulares</placeName>. We were taken to the <placeName
+                  type="island" key="#i_cerros">Cerros Island</placeName> in the <name type="ship"
+                  key="#sh_bolivar">Bolivar</name> owned by <persName key="#abt">Capt. A. B.
+                  Thompson</persName>, which after landing us with boats, supplies &amp; materials
+               for building a large boat proceeded to <placeName type="city" key="#ci_maz"
+                  >Mazatlan</placeName> where she was shortly sold. The first month little else was
+               done but fix up camp &amp; hunt a few wild goats. At the end of this time
+                     <rs><persName type="group" key="#gni; #isp; #bre">the three
+                  hunters</persName></rs> started off with their boats crews for the N. side of
+                     <rs><placeName type="island" key="#i_cerros">the Island</placeName></rs>,
+               leaving <persName type="seaman" key="#evans">Evans</persName> &amp; I with one
+                  <orgName type="nativeamericantribes" key="#natam_hawaiian">Kanaka</orgName> to get
+               the timber in shape for the boat. They were gone some <del rend="strikethrough">to or
+                  7</del>20 days &amp; returned with only 6 or 7 otter the weather being too rough
+               for hunting. About a week later <persName type="frontiersman" key="#bre"
+                  >Breck</persName> &amp; <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> fitted up their boats &amp; went over to <placeName
+                  key="#morrow">Morrow Hermosa</placeName> on a hunt. <persName type="investor"
+                  key="#isp">Sparks</persName> &amp; the rest of the men remained to assist in
+               putting the boat together</p>
+            <p>A week later <persName type="frontiersman" key="#gni">Nidever</persName> &amp;
+                  <persName type="frontiersman" key="#bre">Breck</persName> came back bringing with
+               them 27 otter skins, many of them undried, having been unable to find sticks with
+               which to stake them out. From 6 to 7 days after their arrival, the boat being
+               completed, we hid some of our supplies on <rs><placeName type="island"
+                     key="#i_cerros">the Island</placeName></rs> &amp; all went over to <placeName
+                  key="#morrow">Morrow Hermoso</placeName>. Our new boat was of 4 or 5 tons burthen
+               schn. rigged &amp; a good sailer in a free wind, but she had no keel. At <placeName
+                  key="#morrow">Morrow Hermoso</placeName> we all went ashore, camped &amp; remained
+               nearly a month, killing about 58 otter more, making in all about 85 otter that we got
+               here. I had charge of the new boat &amp; made several trips to the <placeName
+                  type="island" key="#i_cerros">Cerros Island</placeName> for water there being none
+               where we camped. Upon leaving <placeName key="#morrow">Morrow Hermoso</placeName> we
+               crossed to <placeName type="island" key="#i_cerros">Cerros Island</placeName>, where
+               we stopped for our cache. <del rend="strikethrough">A storm delayed</del>Rough
+               weather kept us here over a week. We hunted some on our way up so that we arrived at
+                  <placeName type="city" key="#ci_sb">Sta. Barbara</placeName> with something like
+               102 otterskins. We got home sometime in Aug. <persName type="seaman" key="#evans"
+                  >Evans</persName> &amp; I were paid $16 per month; the <orgName
+                  type="nativeamericantribes" key="#natam_hawaiian">Kanakas</orgName> $12, &amp; the
+               Indians 8 to 10 dollars, &amp; found.</p>
+            <p>About <date when="1846-03">March of 1846</date>, <persName type="frontiersman"
+                  key="#gni">Nidever</persName>
+               <persName type="frontiersman" key="#bfi">Bill Fife</persName> &amp; <persName
+                  type="frontiersman" key="#rmc">McCoy</persName> fitted out for a trip up
+                     <rs><placeName type="region" key="#re_calcoast">the coast</placeName></rs>. I
+               had charge of our boat, a large surf boat in which we carried our supplies. The boat
+               we built the year before at <placeName type="island" key="#i_cerros">Cerros
+                  Island</placeName> we turned over to <persName key="#abt">Thompson</persName> he
+               having furnished the material with which to build it. It was afterwards used in
+               running between <placeName type="city" key="#ci_sb">Santa Barbara</placeName> &amp;
+               the <placeName type="island" key="#i_sr">Santa Rosa Island</placeName>, &amp; was
+               manned by <orgName type="nativeamericantribes" key="#natam_hawaiian"
+                  >Kanakas</orgName>. Our crew this trip were all <orgName
+                  type="nativeamericantribes" key="#natam_missionindians">Mission Indians</orgName>
+               from various <orgName type="mission" key="#mi_mainlandmissions">Missions</orgName>.
+               We hunted up <rs><placeName type="region" key="#re_calcoast">the
+                  Coast</placeName></rs> arriving at <placeName type="city" key="#ci_mo"
+                  >Monterey</placeName> sometime in <date when="1846-07">July of 1846</date> &amp;
+               found the Americans already in possession of it. Here we learned for the first time
+               of the war with <placeName type="country" key="#co_mexico2">Mexico</placeName>.
+               Although we had landed along <rs><placeName type="region" key="#re_calcoast">the
+                     Coast</placeName></rs> at several placed we found all the ranches deserted
+               &amp; were therefore unable to get any news. Having taken in additional supplies at
+                  <placeName type="city" key="#ci_mo">Monterey</placeName> we proceeded up
+                     <rs><placeName type="region" key="#re_calcoast">the Coast</placeName></rs>,
+               hunting whenever otter were to be found or lying bye in rough weather. In course of
+               time we <del rend="strikethrough">landed</del>arrived at <placeName type="region"
+                  key="#re_sfbay">San Francisco Bay</placeName> &amp; landed near <placeName
+                  type="region" key="#re_petcreek">the mouth of the Petaluma creek</placeName>. It
+               was Sunday &amp; several of <rs><orgName type="nativeamericantribes"
+                     key="#natam_missionindians">our indians</orgName></rs> [sic] went over to the
+                  <placeName type="mission" key="#mi_sraf">San Rafael Mission</placeName>. Here they
+               were seen by some manofwar officers, who recognizing tham as strangers asked them
+               where they had come from. They told them whereupon two of the officers came over to
+               our camp. One of them was acquainted with <persName type="frontiersman" key="#gni"
+                  >Nidever</persName>. Finding that we had no passport he advised <persName
+                  type="frontiersman" key="#gni">Nidever</persName> to go over to the <name
+                  type="ship" key="#sh_por">Portsmouth</name>, without delay &amp; get one, as we
+               were liable to arrest and detention if taken without one. Accordingly that afternoon
+                  <persName type="frontiersman" key="#gni">Nidever</persName> &amp; I with another
+               man took a small boat &amp; went across <rs><placeName type="region" key="#re_sfbay"
+                     >the Bay</placeName></rs> to where the <name type="ship" key="#sh_por"
+                  >Portsmouth</name> was lying; arriving there the next morning Our passport
+               obtained we started to return. There was a very strong wind blowing &amp;
+                     <rs><placeName type="region" key="#re_sfbay">the whole bay</placeName></rs> was
+               covered with white caps. Nothing daunted we prepared to go, <persName
+                  type="frontiersman" key="#gni">Nidever</persName> having asked the Boatswain's
+               advice as to the best course to take, this individual advised us not to make the
+               attempt to cross, assuring us that he would not risk his life in such a boat, in such
+               weather. He said however that if we were determined to go that it would be best to
+               pull up some distances before starting across. The <name type="ship" key="#sh_por"
+                  >Portsmouth</name> was lying opposite <placeName type="region"
+                  key="#re_clarkspoint">Clark’s Point</placeName>. We took his advice &amp; although
+               the manofwar sailors predicted a disaster &amp; watched us as far as they could see,
+               we arrived safely at camp, in a very short time. We got soaking wet &amp; were tossed
+               about like a feather. Just on the right of the <placeName type="region"
+                  key="#re_petcreek">Petaluma Creek</placeName> we found a large number of otter.
+               They had not been hunted for years this place having been always claimed by <orgName
+                  type="nativeamericantribes" key="#natam_vallejo">Vallejo</orgName>, <del
+                  rend="strikethrough">&amp;</del>who had forbidden all persons from killing them.
+               We killed about 20 of them &amp; then continued up <rs><placeName type="region"
+                     key="#re_calcoast">the Coast</placeName></rs> until we reached a point about 50
+               miles above <placeName type="city" key="#ci_bodega">Bodega</placeName>. Here we got
+               windbound &amp; besides found the shore very high &amp; rocky. From here we returned
+               to <placeName type="region" key="#re_tamalesbay">Tamales Bay</placeName>.</p>
+            <p>At <rs><placeName type="region" key="#re_tamalesbay">this place</placeName></rs> we
+               got wind bound again &amp; while here <persName type="frontiersman" key="#rmc"
+                  >McCoy</persName> while out hunting got caught &amp; severely bitten with a bear.
+               (He tells substantially the same story as <persName type="frontiersman" key="#gni"
+                  >Nidever</persName>.) From here we went to <rs><placeName type="city" key="#ci_sf"
+                     >S. F.</placeName></rs> where we took in a few supplies. Thence to <placeName
+                  type="city" key="#ci_mo">Monterey</placeName>, hunting as opportunity offered on
+               the way. At <placeName type="city" key="#ci_mo">Monterey</placeName> we went into
+               camp on the point just above <rs><placeName type="city" key="#ci_mo">the
+                     Town</placeName></rs>. While here we were visited by officers from several
+               menofwar then at anchor in the harbor. They bought a few skins from us. At a target
+               match that was gotten up from among Fremont’s men to show the Naval officers some
+               good shooting our Capt. <persName type="frontiersman" key="#gni">Geo
+                  Nidever</persName> was asked to join them &amp; he did better shooting than all of
+               them. From <placeName type="city" key="#ci_mo">Monterey</placeName> we proceeded down
+                     <rs><placeName type="region" key="#re_calcoast">the Coast</placeName></rs>, to
+               just above the border of <placeName type="city" key="#ci_slo">San Luis
+                  Obispo</placeName> having hunted a few otter at <placeName type="region"
+                  key="#re_psuey">point Suey</placeName>. We landed late in the afternoon in front
+               of a small ravine that opened out on the beach. Here we got supper. Shortly after our
+               arrival <persName type="frontiersman" key="#bre">James Breck</persName> one of our
+               old hunters &amp; companions &amp; who was then living on the "<placeName
+                  key="#pechoranch">Pecho(?) Ranch</placeName>" nearby came down to warn us against
+               a party of Totoi Pica's men that was coming over that night <del rend="strikethrough"
+                  >to</del>to attack us. After supper <rs><persName type="frontiersman" key="#gni"
+                     >the Capt.</persName></rs> asked us if we wanted to pull all night again as we
+               had done the previous night or, stand &amp; fight we said fight.</p>
+            <p>Accordingly leaving <rs><orgName type="nativeamericantribes"
+                     key="#natam_missionindians">the indians</orgName></rs> [sic] with two of the
+               boats where we had landed we put our skins into a third boat &amp; went around a
+               point just below &amp; landed near a high bluff. We buried our extra powder &amp;
+               balls in the sand so then they could not get it, &amp; determined if compelled to
+               retreat to put off with the skins which we knew they were anxious to capture. Our
+               position under the high bluff aforementioned enabled us to fire on anyone above while
+               it was almost impossible, or at least difficult for them to fire on us, or see us in
+               the dark. We drew lots &#8212;with three pieces of straw, two short &amp; one long,
+               to decide who should stand guard first. <rs><persName type="frontiersman" key="#gni"
+                     >The Capt</persName></rs> drew the long one much to his dissatisfaction as he
+               preferred the forepart of the night for sleeping. <persName type="frontiersman"
+                  key="#bfi">Bill Fife</persName> &amp; I laid down but found it impossible to
+               sleep, &amp; so began talking about how we would fix the Californians if they
+               attacked us. This annoyed <rs><persName type="frontiersman" key="#gni">the
+                     Capt</persName></rs>, who said that if we did not care to sleep that we had
+               better get up &amp; stand guard, &amp; he would lie down. We told him that we were
+               agreeable &amp; so he laid down.</p>
+            <p>He did not lay long as he too found it impossible to sleep, so after tossing about
+               awhile he proposed that we should continue our journey down <rs><placeName
+                     type="region" key="#re_calcoast">the Coast</placeName></rs>. As he was the
+               Capt, we had nothing to say <del rend="strikethrough">we</del>. Accordingly we went
+               back to where we had left <rs><orgName type="nativeamericantribes"
+                     key="#natam_missionindians">our indians</orgName></rs> [sic] &amp; the boats,
+               taking the ammunition we had buried, &amp; everything being ready we put off. It must
+               have been about midnight. We afterwards heard from some of the same party who came
+               out to take us then they got to our camp shortly after we left as the fire was still
+               burning. There were <del rend="strikethrough">about</del>several of them headed by an
+               Italian called <persName type="frontiersman" key="#ant">Antonio</persName>, a regular
+               desperado, who was killed at <placeName type="region" key="#re_salinas">the
+                  Salinas</placeName> two or three days afterwards. They acknowledged that they
+               intended to kill us all &amp; take our skins. They thought we were frightened away at
+               their approach, as one of their men who wanted to smoke a cigarette, struck a light
+               just before they got near our camp. They were sure they would had caught us all if it
+               had not been for this light. We continued to pull all the rest of that night &amp;
+               the next day. The next night we also continued our journey. By this time we were well
+               nigh worn out. Shortly after dark we tied our boats all together &amp; let them
+               drift, all laying down with the intentions of getting rest &amp; sleep.</p>
+            <p>As on the previous nights I found it utterly impossible to sleep, but this time it
+               was caused by hunger. Accordingly I got up &amp; began searching for something to
+               eat. <rs><persName type="frontiersman" key="#gni">The Capt</persName></rs> heard me
+               &amp; asked from his boat if I had not been able to sleep. I told him that I had not,
+               whereupon he said that he too had found it impossible to sleep. He then said that we
+               had better unfasten our boats. This was hardly accomplished when a squall of wind and
+               water struck us that came very near upsetting our boats. It was so dark that we could
+               not see anything a boat’s length off. I had a compass in my boat but I could not see
+               the needle.</p>
+            <p>The wind blew the water over us in such a heavy spray that we supposed it a heavy
+               rain at first. We could not determine from which direction the wind was blowing but
+               supposed <del rend="strikethrough">in a</del>from the South East. <rs><persName
+                     type="frontiersman" key="#gni">The Capt.</persName></rs> wanted to put out to
+               sea &amp; actually started but we finally induced him to return &amp; adopt our
+               course of running before the wind. Just before the wind struck us we had proposed to
+               land on <placeName type="region" key="#re_parguello">Point Arguello</placeName> which
+               we supposed must be not far away, &amp; make some coffee &amp; cook something, as
+               since leaving <placeName type="city" key="#ci_slo">San Luis Obispo</placeName> harbor
+               the night before we had tasted no warm food.</p>
+            <p>Having failed in this I supposed the other boats would stop &amp; land South of
+                  <placeName type="region" key="#re_pc">Point Cóncepcion</placeName>. I had as also
+               the others now been three nights without sleep. I was steering my boat &amp; long
+               before daylight I found it difficult &amp; even impossible at times to keep my eyes
+               open. In spite of me my eyes would close &amp; I would get sound asleep, &amp; only
+               awaken when the tiller would hit me with force in the ribs. At daylight I rounded
+                  <placeName type="region" key="#re_pc">Point Concepcion</placeName>, where the sea
+               was perfectly smooth. I saw that none of the other boats had landed &amp; standing up
+               in my boat, I discovered them far ahead. I at once put on all sail and overtook them
+               before they reached <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.
+               When we reached the shore we found six men (Californians) waiting for us, who barely
+               gave us time to land, before they arrested us. <rs><persName type="frontiersman"
+                     key="#gni">The Capt.</persName></rs>
+               <persName type="frontiersman" key="#bfi">Bill Fife</persName> &amp; I were at once
+               taken up to Raymundo Carrillo's house &amp; there asked our nationality. <persName
+                  type="frontiersman" key="#bfi">Fife</persName>, being a Scotchman, &amp; I a
+               German we were allowed to go, with the instruction that if we wished to leave town we
+               must get a passport. We told them that we had no desire to leave the place, but
+               purposed making our stay here during the winter has had been our wont. <rs><persName
+                     type="frontiersman" key="#gni">The Capt</persName></rs> was told that he would
+               have to go to <rs><placeName type="city" key="#ci_la">L. A.</placeName></rs> a
+               prisoner, as the other Americans had gone. He said he wished to remain here with
+                     <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">his
+                  family</persName></rs>, &amp; did not want to be disturbed. They told him that he
+               must go to <rs><placeName type="city" key="#ci_la">L. A.</placeName></rs> since he
+               was an American &amp; that if he would not go alone he should be sent under guard. He
+               promised them that he would go alone, but instead of going he went out into the foot
+               hills near <placeName type="city" key="#ci_montecito">Montecito</placeName> where he
+               remained until <persName type="frontiersman" key="#jcfre">Fremont</persName> came,
+               &amp; then joined him. About the same time that <persName type="frontiersman"
+                  key="#gni">Capt Nidever</persName> was ordered to go to <placeName type="city"
+                  key="#ci_la">Los Angeles</placeName>, several Americans were arrested &amp; taken
+               down there &amp; among them <persName key="#abt">Capt. A.B. Thompson</persName>. He
+               hired me to take charge of his house, which I did until <rs><persName
+                     key="#thompson1">his brother</persName></rs> came out about a month after.</p>
+            <p>When <persName type="frontiersman" key="#jcfre">Fremont</persName> came here with his
+               man he went into camp back of the present site of <placeName key="#sisters">the
+                  Sisters School</placeName>. He had about 200 men I should think some of them very
+               wild characters. I saw two of them shooting at a target one day. The distance was
+               about 70 or 80 yds. The <del rend="strikethrough">sun</del>sun shone on the target,
+               so one of them took a mochila &amp; shaded the target standing within a few feet of
+               it while the others shot at it. While here too, two of them got into a row when one
+               seized an axe &amp; would have split the others head open if he had not been
+               prevented.</p>
+            <p><persName type="frontiersman" key="#gni">Capt Nidever</persName> &amp; <persName
+                  type="investor" key="#isp">Mr Sparks</persName> joined <persName
+                  type="frontiersman" key="#jcfre">Fremont</persName> here. A hunter by the name of
+                  <persName type="frontiersman" key="#has">Hastead</persName> who went up with us
+               &amp; joined <persName type="frontiersman" key="#jcfre">Fremont</persName> at
+                  <placeName type="city" key="#ci_mo">Monterey</placeName>, tried to get me to join
+               here but I did not care to. This winter I remained in <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>, until <date when="1847-04">April of
+                  1847</date> when I went overland to <rs><placeName type="city" key="#ci_sf">S.
+                     F.</placeName></rs> with <persName type="frontiersman" key="#rmc"
+                  >McCoy</persName> &amp; <persName type="frontiersman" key="#bfi">Bill
+                  Fife</persName>. In <rs><placeName type="city" key="#ci_sf">S. F.</placeName></rs>
+               we built 3 boats, there being no lumber for that purpose in <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. Having finished our boats we went over to
+                  <placeName type="city" key="#ci_sa">Saucelito</placeName>, to keep our men from
+               getting drunk &amp; leaving us. Our crew not being complete <persName
+                  type="frontiersman" key="#rmc">McCoy</persName> returned to <rs><placeName
+                     type="city" key="#ci_sf">S. F.</placeName></rs> to get 1 or 2 men, &amp; on the
+               trip lost his boat. Fortunately he had another one still serviceable although old,
+               which he had left in <rs><placeName type="city" key="#ci_sf">S. F.</placeName></rs>
+               on his former trip. From <placeName type="city" key="#ci_sa">Saucelito</placeName> we
+               went up <rs><placeName type="region" key="#re_calcoast">the Coast</placeName></rs> as
+               far as <placeName type="region" key="#preyes">Point Reyes</placeName>. We found no
+               otter except at <placeName type="region" key="#re_bolinas">the Bolinas</placeName>
+               where we got a doz. perhaps. From <placeName type="region" key="#preyes">Point
+                  Reyes</placeName> we <del rend="strikethrough">refitted &amp;</del>came down to
+                     <rs><placeName type="city" key="#ci_sf">S. F.</placeName></rs> where we
+               refitted &amp; thence continued down <rs><placeName type="region" key="#re_calcoast"
+                     >the Coast</placeName></rs> hunting at <placeName type="region"
+                  key="#re_halfmoon">Half Moon Bay</placeName>, <placeName type="region"
+                  key="#re_anuevo">Point Año Nuevo</placeName> &amp; several other points until <del
+                  rend="strikethrough">thave</del>reached <placeName type="city" key="#ci_sb">Sta
+                  Barbara</placeName>. At the <placeName key="#ranchoortega">Rancho
+                  Ortega</placeName> I had a quarrel with <persName type="frontiersman" key="#rmc"
+                  >McCoy</persName> owing to his taking my boat which was one of the new ones <del
+                  rend="strikethrough">for his</del>&amp; and compelling me to take his old one,
+               which leaked. Upon our arrival in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> in <date when="1847-08">Aug. (of 1847)</date> I left them.
+               Here they refitted about 2 weeks later &amp; with <persName type="frontiersman"
+                  key="#gni">Nidever</persName> went on a hunt to <rs><placeName type="island"
+                     key="#i_chi">the Islands</placeName></rs>.</p>
+            <p>This winter I remained on shore &amp; cultivated a garden for a few months, but
+               finding that it would not pay abandoned it. In <date when="1848">1848</date> I hunted
+               deer, for their skins, on the <placeName key="#sanmarcos">San Marcos
+                  Rancho</placeName>. In the fall of <rs><date when="1848">this year</date></rs> the
+                  <orgName type="nativeamericantribes" key="#natam_tulore">Tulore Indians</orgName>
+               made their last raid on the stock of the Ranchos in this section. <persName
+                  type="frontiersman" key="#gis">George Islip</persName>, a Canadian was the
+               majordomo of <placeName key="#sanmarcos">the San Marcos</placeName> &amp; he and I
+               were the only white men there, although there were several <orgName
+                  type="nativeamericantribes" key="#natam_missionindians">Mission Indians</orgName>
+               under the charge of <persName type="frontiersman" key="#gis">Islip</persName>. I
+               noticed several strange horses on <rs><placeName key="#sanmarcos">the
+                     ranch</placeName></rs>, while out one day &amp; reported it to <persName
+                  type="frontiersman" key="#gis">Islip</persName>. We went out together &amp; found
+               12 or 15 horses of different brands &amp; we also struck the trail of a number of
+               Indians. Upon questioning the <rs><orgName type="nativeamericantribes"
+                     key="#natam_tulore">Indians</orgName></rs> at <rs><placeName key="#sanmarcos"
+                     >the ranch</placeName></rs> they confessed that there had been a number of
+                     <rs><orgName type="nativeamericantribes" key="#natam_tulore"
+                  >Indians</orgName></rs> there who had spoken with them &amp; had told them that
+               they intended to kill <persName type="frontiersman" key="#gis">Islip</persName> &amp;
+               me but were afraid of our guns. We lost no time in sending word into <rs><placeName
+                     type="city" key="#ci_sb">town</placeName></rs> to the authorities but before
+               they could send a party out the <rs><orgName type="nativeamericantribes"
+                     key="#natam_tulore">indians</orgName></rs> [sic] were out of their reach &amp;
+               after an unsuccessful pursuit they took the horses that were identified by their
+               owners &amp; returned to <placeName type="city" key="#ci_sb">Sta
+               Barba</placeName>.</p>
+            <p>While hunting deer I averaged about $30 per month. In Aug. of this year <persName
+                  type="frontiersman" key="#gis">Islip</persName> &amp; I started up <rs><placeName
+                     type="region" key="#re_calcoast">the Coast</placeName></rs>, on foot, &amp;
+               without any boat, to hunt otter. We killed one but the beach being rocky &amp; the
+               surf bad at that point we did not dare to swim out for it &amp; so it was floated
+               away &amp; lost. This so <del rend="strikethrough">disgusted</del>discouraged
+                  <persName type="frontiersman" key="#gis">Islip</persName> that we turned back. On
+               the way we met some parties from the mines who showed us a nugget of gold, &amp; this
+               decided us to try our fortune at <placeName type="region" key="#re_diggings">the
+                  diggings</placeName>. We fitted out for our trip &amp; were about to start when
+                  <placeName type="frontiersman" key="#gis">Islip</placeName> fell sick &amp; the
+               trip was abandoned for the time being at least. In <date when="1849-03">March of
+                  1849</date>, <persName type="frontiersman" key="#gis">Islip</persName> having
+               recovered from his sickness we started from here taking with us two Inds. for the
+                  <placeName type="region" key="#re_diggings">Stanislaus diggings</placeName>. At
+                  <placeName type="city" key="#ci_slo">San Louis Obispo</placeName> we were joined
+               by <persName type="frontiersman" key="#jfo">Julian Foxen</persName> &amp; others. I
+               remained in <rs><placeName type="region" key="#re_diggings">these
+                     diggings</placeName></rs> about two months when I returned to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, bringing as the result of my
+               labor $1,030 in gold. I had returned with the intention of taking several
+                     <rs><orgName type="nativeamericantribes" key="#natam_missionindians"
+                     >indians</orgName></rs> [sic] back to work for me. Before I was ready I was
+               taken sick, &amp; when I recovered I was persuaded to remain here a short time &amp;
+               help kill some cattle. While engaged in this all of my horses was stolen, &amp; it
+               was not until the Spring of <date when="1850">1850</date> that I again found it
+               possible to return to <rs><placeName type="region" key="#re_diggings"> the
+                     mines</placeName></rs>. This time I took but one indian with me. We went to
+                     <rs><placeName type="region" key="#re_diggings">the same
+                  diggings</placeName></rs> but after 4 mos. work succeed<del rend="strikethrough"
+                  >ing</del>ed in getting only $500. Having returned to <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> I worked at different things until <date
+                  when="1851-04">April 1851</date>, when <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> &amp; I with one indian &amp; a single boat made a hunt up
+                     <rs><placeName type="region" key="#re_calcoast">the Coast</placeName></rs> as
+               far as <placeName type="city" key="#ci_simeon">San Simeon</placeName>. We found it
+               impossible to run otter with one boat so we returned, having made a very poor hunt,
+               &amp; gone about 2 months. Soon after my return I began building a boat with
+                  <persName type="frontiersman" key="#forbush">Forbush</persName>. We built it in
+               just 6 days, &amp; gave it the name of <name type="ship" key="#sh_july4">the 4th of
+                  July</name>, launching it on that day. We made a short trip to <rs><placeName
+                     type="island" key="#i_chi">the Islands</placeName></rs> &amp; hunted around at
+                  <placeName type="island" key="#i_sr">Sta Rosa</placeName> &amp; <placeName
+                  type="island" key="#i_sm">San Miguel</placeName>. There are no otter around the
+                  <placeName type="island" key="#i_scruz">Sta Cruz Island</placeName> unless it is
+               an occasional stray one that has been driven away from the schools by the old bulls.
+                  <persName type="frontiersman" key="#gni">Nidever</persName> &amp; I, together with
+               our inds. were gone about 2 months &amp; returned with 34 otter skins. The following
+               Winter &amp; Spring I remained on shore.</p>
+            <p>In the Fall of <date when="1851">1851</date>
+               <persName type="frontiersman" key="#gni">Nidever</persName> was employed for a short
+               time in piloting a <rs><name type="ship" key="#sh_govnidever">Govt. survey
+                     vessel</name></rs> among <rs><placeName type="island" key="#i_chi">the
+                     Islands</placeName></rs>. The next Spring he went up to <placeName type="city"
+                  key="#ci_sf">San Francisco</placeName>, bought a schn, brought down lumber &amp;
+               soon after built the house he now lives in, remaining on shore that year. This year I
+               too, staid ashore.</p>
+            <p>In <date when="1853-04">April of 1853</date> I went down to <placeName type="region"
+                  key="#re_baja">Lower Cal.</placeName> with <persName type="frontiersman"
+                  key="#forbush">Forbush</persName> &amp; <persName type="frontiersman" key="#gni"
+                  >Nidever</persName>, in the latter’s schn. We went to <placeName type="region"
+                  key="#re_turtlebay">Turtle Bay</placeName> where we expected to find gold.
+                  <persName type="seaman" key="#bar">Capt. Barney</persName>
+               <del rend="strikethrough">&amp;</del>an old whaling capt, &amp; then capt. of this
+               port, having assured <persName type="frontiersman" key="#forbush">Forbush</persName>
+               that his sailors had found gold quartz there. From <placeName type="city"
+                  key="#ci_sb">Sta. Barbara</placeName> we went to <placeName type="island"
+                  key="#i_scatalina">Sta Catalina Island</placeName>, &amp; in overhauling the schn,
+               we found a large hole in her bottom, &amp; the rudder hanging by one pin. From here
+               we went to <placeName type="island" key="#i_cerros">Cerros Island</placeName>, took
+               in water &amp; thence to <placeName key="#morrow">Morrow Hermoso</placeName>. At this
+               latter place we went on shore &amp; remained a week or two, during which time I shot
+               one otter off shore. While here too, Capt’s <persName type="seaman" key="#jones"
+                  >Jones</persName> &amp; <persName type="seaman" key="#brown">Brown</persName> with
+               two boats arrived from <placeName type="region" key="#re_turtlebay">Turtle
+                  Bay</placeName>, where they had been painting their large boat. We had one hunt
+               together but got nothing, after which we parted, they proceeding to <placeName
+                  type="island" key="#i_cerros">Cerros Island</placeName> &amp; we to <placeName
+                  type="region" key="#re_turtlebay">Turtle Bay</placeName>.</p>
+            <p>Our crew consisted of <persName type="seaman" key="#tje">Tom Jefferies</persName> an
+               English sailor, &amp; two indians [sic] besides <persName type="frontiersman"
+                  key="#gni">Nidever</persName>, <persName type="frontiersman" key="#forbush"
+                  >Forbush</persName>, &amp; me. Arrived at <placeName type="region"
+                  key="#re_turtlebay">Turtle Bay</placeName>
+               <persName type="frontiersman" key="#gni">Nidever</persName> &amp; <persName
+                  type="frontiersman" key="#forbush">Forbush</persName> went up in the mts. in
+               search of gold. I remained in charge of the boats lest the men should leave with
+               them. <persName type="seaman" key="#tje">Jefferies</persName> &amp; I caught several
+               turtles here &amp; boiled them, so that we had turtle meat most of the way back to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. After a short hunt
+                  <persName type="frontiersman" key="#gni">Nidever</persName> &amp; <persName
+                  type="frontiersman" key="#forbush">Forbush</persName> returned without finding any
+               gold, whereupon we set sail on our return <del rend="strikethrough">At</del></p>
+            <p><persName key="#stevens">Stevens</persName> &amp; <persName type="seaman"
+                  key="#brown">Brown</persName>
+               <del rend="strikethrough">again</del>joined us <del rend="strikethrough">&amp; kept
+                  us company until we got to</del>at <placeName key="#calcalo">Cacalo</placeName>,
+               where we hunted together, securing 2 or 3 otter. Thence we came direct to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName>, having been gone about 2 1/2
+               mos.</p>
+            <p>I forgot to mention that in the Fall of <date when="1853">1853</date> I made a trip
+               to the <placeName type="island" key="#i_sn">San Nicolas island</placeName></p>
+            <p>The same day we arrived <persName type="frontiersman" key="#gni">Nidever</persName>
+               &amp; I with two indians [sic] of our crew went ashore to see where the otter lay. At
+               the lower end we discovered quite a school of them. Two days after we again landed
+               about the middle of <rs><placeName type="island" key="#i_sn">the
+                  Island</placeName></rs> &amp; followed along the bank towards its head.</p>
+            <p>We kept a sharp lookout for signs of <rs><persName type="nativeamerican" key="#lw"
+                     >the indian woman</persName></rs>, <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">the fathers at the mission</persName></rs>
+               having requested us to search for her. Within about 1/2 mile from head of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> we struck
+               a wide low sandy flat that extended from one side of <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> to the other. Here among some bushes or
+               small trees called by the Californians Malva Real, placed in a crotch or fork of one
+               of the trees we found a basket woven of grass, oblong in shape, 3 ft. long, 1 1/2 ft.
+               wide &amp; about 14 in. deep &amp; covered with a piece of seal skin. Its contents we
+               found were a dress or gown made of the skin of the shag, several skins of the same
+               bird cut in a square shape, bone needles, &amp; knives, fish-hooks made of the
+               abalone shell, &amp; a rope made of sinews, about 1/2 in. in diameter &amp; fully 25
+               ft. long. This sinew rope was twisted as evenly as the best rope I have ever seen. I
+               think that it was used in snaring seals, by making a noose &amp; spreading it on the
+               rocks near the beach where the seals were accustomed to sleep. The things were all
+               nicely laid together in the basket when we found them, &amp; after examining them I
+               was disposed to replace them &amp; return the basket to the place we had found it.
+                  <persName type="frontiersman" key="#gni">Nidever</persName> however, thought that
+               it would be better to leave the things strewn about on the ground, so that on our
+               next visit to this place we might be sure she was still alive &amp; on <rs><placeName
+                     type="island" key="#i_sn">the Island</placeName></rs> if they were found
+               replaced in the basket. Accordingly we left them scattered about. We returned to the
+               vessel intending to make further search as soon as we could find time, but the next
+               two or three days were taken up in hunting otter, &amp; the fourth day <del
+                  rend="strikethrough">&amp;</del>a strong wind sprang up that soon increased to a
+               gale. We remained nearly 6 or 7 days in hopes that the blow would stop, but at the
+               end of that time there being no signs of it going down &amp; the swell becoming so
+               heavy we did not deem it safe to remain longer. Accordingly we ran across to the
+                  <placeName type="island" key="#i_sm">San Miguel Island</placeName>, where we found
+               a better harbor than even that of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>. In approaching <placeName type="island" key="#i_sm">San
+                  Miguel</placeName>, <persName type="frontiersman" key="#gni">Nidever</persName>
+               became somewhat excited &amp; very nearly ran us on a reef.</p>
+            <p>From <placeName type="island" key="#i_sm">San Miguel</placeName> we returned to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, where I remained
+               the following winter, <persName type="frontiersman" key="#gni">Nidever</persName>
+               going back to the <placeName type="island" key="#i_sm">San Miguel Island</placeName>
+               which he had stocked.</p>
+            <p>We returned from our trip to <placeName type="region" key="#re_turtlebay">Turtle
+                  Bay</placeName> the latter part of <date when="1853-06">June 1853</date> &amp; a
+               few days after refitted for a hunt among <rs><placeName type="island" key="#i_chi"
+                     >the Islands</placeName></rs> &amp; especially to hunt around the <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>, as at this season we were not
+               likely to be driven away by a storm as on our previous trip. Then too, there were a
+               large number of otter around <rs><placeName type="island" key="#i_sn">this
+                     Island</placeName></rs> there having been no hunters there for several years,
+               &amp; we wished to secure them before others should go there. We went first to
+                  <placeName type="island" key="#i_sm">San Miguel</placeName> &amp; thence to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> where we arrived
+               early in the afternoon. We came to anchor on the N.E. side about the middle of
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>. As soon
+               as we came to anchor <persName type="frontiersman" key="#gni">Nidever</persName>
+               &amp; I went on shore for the purpose of seeing where the otter lay &amp; also to
+               pick out a site for our camp as we intended to make a long stay &amp; would move on
+               shore the next day. We took two of <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">our indians </persName></rs> [sic] with us
+               &amp; left them in charge of the boat while <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> &amp; I proceeded towards the head of <rs><placeName
+                     type="island" key="#i_sn">the Island</placeName></rs>.</p>
+            <p>On the way we saw several dogs that looked very much like a coyote excepting in color
+               which was black &amp; white, they were quite wild &amp; ran away as soon as we came
+               in sight. Arrived at the head of <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>
+               <persName type="frontiersman" key="#gni">Nidever</persName> said that he was tired
+               &amp; sat down to rest. I continued along near the shore however, rounded the point
+               at the head of <rs><placeName type="island" key="#i_sn">the Island</placeName>
+               </rs> &amp; went a long distance down on the other side. Not far from the head I <del
+                  rend="strikethrough">again</del>found footprints leading from the beach up over
+               the bank &amp; thence up on to the ridge above. I followed them until they
+               disappeared in a kind of moss with which the ground was covered, a short distance
+               above the bank. As it was growing late I returned to where I had left <persName
+                  type="frontiersman" key="#gni">Nidever</persName> &amp; reported what I had seen
+               He said at first that they might be the tracks of one of <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">our indians</persName></rs> [sic], but, he
+               afterwards admitted that it was impossible for them to have got ahead of us, &amp; I
+               too was sure that the footprints were too small for those of a man. <persName
+                  type="frontiersman" key="#gni">Nidever</persName> however was not very sanguine
+               about finding her as he had come to the conclusion that the dogs had eaten her &amp;
+               was very doubtful if even her bones could be found. He decided however to make a
+               thorough examination of the upper end of <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs> especially the high ridge which lay between the low
+               sandy flat &amp; the head of <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>. Accordingly after breakfast the next day, we took
+                     <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">all of our
+                     men</persName></rs> excepting <rs><persName key="#cook">the
+                  cook</persName></rs> &amp; proceeded to the low sandy flat aforementioned. Here I
+               took them, 3 <rs><persName type="group" key="#msh; #poli; #nsk; #hva"
+                     >indians</persName></rs> [sic] &amp; <rs><persName key="#col">an
+                     Irishman</persName></rs>, &amp; stretched them in a line across this end of the
+               flat, we passed across to the other side, leaving <persName type="frontiersman"
+                  key="#gni">Nidever</persName> to follow along near the shore to the head of
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> over the
+               same course he &amp; I had taken the evening before. We reached the other side of
+                     <rs><placeName type="island" key="#i_sn">the Island</placeName></rs> without
+               finding a trace of <rs><persName type="nativeamerican" key="#lw">the
+                  woman</persName></rs>. I sent <rs><persName type="group"
+                     key="#msh; #poli; #nsk; #hva">the men</persName></rs> back with instructions to
+               search thoroughly along both borders of the flat &amp; especially to visit the bushes
+               where we had found the basket on our previous visit to <rs><placeName type="island"
+                     key="#i_sn">the Island</placeName></rs>. I did not return with them but went up
+               that side of <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>
+               until I struck the footprints I had discovered the day before.</p>
+            <p>I followed the tracks up over the bank &amp; from the point where they could no
+               longer be seen continued to ascend the ridge. About half way up I found a small piece
+               of drift wood which I concluded she must have dropped on her way from the beach with
+               fire wood. From where I found the piece of drift wood I could see three huts farther
+               up the ridge &amp; having gone up to them I found them constructed of whales ribs
+               &amp; covered with brush although they were open all round &amp; the high grass
+               growing within them showed that they could not have been occupied for some time From
+               this point I could <del rend="strikethrough">see</del>look over the whole length
+               &amp; breadth of the ridge &amp; the sand flat beyond where I could plainly see our
+               men moving about.</p>
+            <p>I began to look about me &amp; finally discovered at a distance on the N.E. side of
+               the ridge &amp; about halfway to its top, a small black object that from where I
+               stood looked like a crow seated on a bush. I thought I saw it move, &amp; so went
+               towards it. I soon discovered that it was <rs><persName type="nativeamerican"
+                     key="#lw">the indian [sic] woman</persName></rs>. She was seated within an
+               inclosure similar to those already described (see <title type="manuscript"
+                  key="#Nidever1878">Nidever's account</title>) so that until quite near her I could
+               see only her head &amp; shoulders. I approached her cautiously &amp; was enabled to
+               get within a few yards of her unobserved as she had her face turned from the
+               direction in which I had came. While I was still some distance away two dogs,
+               probably the same we had seen the day before began to growl whereupon she gave a yell
+               &amp; they went away; but she did not turn around. From this point I could plainly
+               see <rs><persName type="group" key="#msh; #poli; #nsk; #hva">our men</persName></rs>
+               searching about on the sandy flat, &amp; I signaled to them by placing my hat on the
+               ramrod of my gun &amp; raising &amp; lowering it until I succeeded in attracting
+               their attention, when I made signs for them to come. <rs><persName
+                     type="nativeamerican" key="#lw">The old woman</persName></rs> saw them also, as
+               every few minutes she would look towards the flat, shading her eyes from the sun with
+               her hand &amp; talking rapidly to herself. While <rs><persName type="group"
+                     key="#msh; #poli; #nsk; #hva">the men</persName></rs> were coming towards me I
+               had an opportunity of observing <rs><persName type="nativeamerican" key="#lw">the old
+                     woman</persName></rs> &amp; her surroundings. She was seated cross legged on
+               the ground &amp; was engaged in separating the blubber from a piece of seal skin
+               which was lying across one knee &amp; held by one hand. In the other hand she grasped
+               a rude knife, a piece of iron hoop thrust into a rough piece of wood for a handle
+               &amp; held so that the back of the hand was turned down, scraping &amp; cutting from
+               instead of towards her. Just outside of the enclosure there was a high pile of ashes
+               &amp; bones showing that she had lived in this place some time. <del
+                  rend="strikethrough">Stone mortars &amp; earthen vessels,</del>Baskets of grass
+               &amp; vessels of the same material made in the shape of a flagoon &amp; lined with
+               asphaltum, used to hold water, where scattered about. On a sinew rope stretched
+               between two poles, several feet above the ground where hanging pieces of seals
+               blubber, while near her was the head of a seal from which the brains, already putrid
+               were running. Her covering consisted of a single garment of the shags' skin, the
+               feathers out &amp; pointing downward, in a shape resembling a loose gown. It was
+               sleeveless, low in the neck &amp; was girded at the waist with a sinew rope. When she
+               stood up, as I afterwards observed, it extended nearly to her ankles. She had no
+               covering on her head; her hair which was thickly matted, &amp; bleached to a reddish
+               brown, hung down to her shoulders.</p>
+            <p>As soon as <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                     men</persName></rs> came near enough I made signs for them to spread out, &amp;
+               approach her in a circle, lest she should attempt to escape. While they were still
+               some distance away, but sufficiently near to prevent her escape, <span type="trope"
+                  n="1">I stepped around in front of her, but instead of seeing her startled &amp;
+                  alarmed, I was surprised to have her bow &amp; smile, as though it was a delight
+                  to see me &amp; my visit an every day occurrence. She began a rapid talking &amp;
+                  gesticulating, all of which was wholly unintelligible to me. As fast as
+                        <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                     men</persName></rs> approached her she also bowed smiled &amp; talked to
+                  them.</span> They all sat dawn in a circle around her while I made signals to
+                  <persName type="frontiersman" key="#gni">Nidever</persName> who was in sight to
+               come to us. After some delay he came up &amp; we sat down with <rs><persName
+                     type="group" key="#msh; #poli; #nsk; #hva">the men</persName></rs>. Taking some
+               roots from two bags or sacks made of grass she placed them in the coals &amp; as soon
+               as they were roasted she passed them around making motions for us to eat. One of the
+               roots was what is commonly called corcomite among the Californians; the other I do
+               not know the name of. <rs><persName type="group" key="#msh; #poli; #nsk; #hva">The
+                     indians</persName>
+               </rs> [sic] among our men tried to talk with <rs><persName type="nativeamerican"
+                     key="#lw">the old woman</persName></rs> but did not succeed in making
+               themselves understood, neither could they comprehend her language. <persName
+                  type="frontiersman" key="#gni">Nidever</persName> asked <rs><persName type="group"
+                     key="#msh; #poli; #nsk; #hva">the indians</persName></rs> [sic] if they thought
+                     <rs><persName type="nativeamerican" key="#lw">the old woman</persName></rs>
+               could be taken by force if necessary. They replied that there would be no difficulty.
+               Hearing this I told <persName type="frontiersman" key="#gni">Nidever</persName> I did
+               not think there would be any necessity of using force, &amp; that if she could be
+               made to understand what was wanted that she would willingly go with us. Patting her
+               on the shoulder to attract her attention I went through the motions of packing her
+               things in to the baskets, placing this on my back &amp; walking off in the direction
+               of the beach, &amp; then said <hi rend="underline">vamos</hi> the sch. for let us go.
+               The motions she no doubt understood but the word vamos seemed to be more
+               intelligible, as upon hearing it her face brightened up &amp; she set to work with
+               alacrity to get ready. She filled her baskets, &amp; in the larger one she place[d]
+               the seal’s head after replacing the putrid brains &amp; tearing away from it bits of
+               adhering flesh. This basket she raised to her back &amp; secured <del
+                  rend="strikethrough">it</del>with straps passing over her shoulders &amp; under
+               her arms. She took other articles in her hands &amp; started off towards the beach
+               with a load that seemed heavy enough for [a] mule. Two of <rs><persName type="group"
+                     key="#msh; #poli; #nsk; #hva">our indians</persName>
+               </rs> [sic] went ahead of her while <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> &amp; I brought up the rear to guard against any attempt at
+               escape, although no such precaution was necessary. Upon reaching the beach we stopped
+               at a spring that forms a little pool of water under a sort of mound of rocks, &amp;
+               situated but a few yards from the beach. One of the peculiarities of this spring was
+               its surface, which is a[t] all times ruffled with a cool breeze which seems to be
+               continually playing over the pool. I noticed it on this occasion &amp; at several
+               times afterwards. The water was invariably clear &amp; cool. Its source I should
+               judge must have been high up in the ridge. Around this spring were several poles
+               erected &amp; on these we hung the things we had brought from the old woman’s place,
+               for each one of us had our hands full &amp; made motions for <rs><persName
+                     type="nativeamerican" key="#lw">the old woman</persName></rs> to do the same.
+               We hung the things up very carefully &amp; <rs><persName type="nativeamerican"
+                     key="#lw">the old woman</persName></rs> followed our example, without, to all
+               appearances, the least reluctance. In the cracks &amp; fissures of the rocks that
+               formed the mound we found thrust numbers of bones which we afterwards came to the
+               conclusion had been placed there by <rs><persName type="nativeamerican" key="#lw">the
+                     old woman</persName></rs>, to furnish her with food in times of need. I
+               afterwards noticed that she always saved the bones contained in her food, placing
+               them in her baskets, to be taken out at intervals &amp; sucked until they were
+               cleaned of every particle of meat. She also saved the scraps of food that were left
+               &amp; ate them when she felt hungry. She ate very little at a time, but took food
+               several times during the day.</p>
+            <p>From this spring we proceeded along the beach or rather on top of the bank until we
+               arrived at a path that lead down to another spring on the beach. <rs><persName
+                     type="group" key="#msh; #poli; #nsk; #hva">The men</persName></rs> who were
+               still ahead continued along the bank but <rs><persName type="nativeamerican"
+                     key="#lw">the old woman</persName></rs> went down the path to the spring. We
+               saw she intended to wash herself, &amp; so withdrew &amp; waited until she returned
+               when we continued along the bank to <rs><name type="ship" key="#sh_nidever">the
+                     boat</name></rs>. We made motions for her to get into <rs><name type="ship"
+                     key="#sh_nidever">the boat</name></rs>, which she did with out any hesitation,
+               &amp; crawled forward to the bow &amp; there knelt down, holding on to the side with
+               her hands. Arrived on board she crept up to the galley’s stove which was on deck,
+               &amp; made signs that it was warm there. We had dinner as soon as we got on board
+               &amp; gave <rs><persName type="nativeamerican" key="#lw">the old
+                  woman</persName></rs> some of our food. She ate heartily &amp; with an apparent
+               relish &amp; our food at this &amp; and in fact at all times seemed to agree with her
+               That afternoon I busied myself on making a petticoat or skirt for her, out of
+               ticking, &amp; this with a mans shirt, a black necktie &amp; an old cape or cloak
+               that <persName type="frontiersman" key="#gni">Nidever</persName> gave her completed
+               the dress she afterwards wore while with us on <rs><placeName type="island"
+                     key="#i_sn">the Island</placeName></rs>. The following day we went on shore
+               &amp; put up a tent or shelter near the beach at a point already selected. Nearby we
+               made a species of hut for <rs><persName type="nativeamerican" key="#lw">the old
+                     woman</persName></rs>, who seemed perfectly contented with us making no attempt
+               to leave us, although the opportunity was not wanting. Here we remained about a
+               month. The <rs><persName type="nativeamerican" key="#lw">old woman</persName></rs>
+               remained in camp with <rs><persName key="#cook">the cook</persName></rs>, one of the
+                     <rs><persName type="group" key="#msh; #poli; #nsk; #hva">Mission
+                     indians</persName></rs> [sic], the rest of us being away after otter the
+               greater part of each day. The old woman’s chief occupation was working on her
+               baskets, of which she had several not yet completed, <del rend="strikethrough"
+                  >roam</del>wandering about on <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>, or bringing wood &amp; water. <span type="trope" n="3"
+                  >She was always anxious to help when she saw an opportunity of making herself
+                  useful. She was always cheerful, &amp; always talking &amp; laughing.</span> She
+               took readily to our food &amp; only on one occasion showed any disposition to return
+               to her former food. I killed an otter from shore one morning, &amp; after hauling it
+               ashore and skinning it were about to throw the carcass in the water, to prevent it
+               becoming offensive near camp. It had been dragged down to the edge of the water &amp;
+               was about being thrown in when <rs><persName type="nativeamerican" key="#lw">the old
+                     woman</persName></rs> came running down to where it lay, talking &amp;
+               gesticulating excitedly, caught the otter by the flipper &amp; hauled it back to
+               where it had been skinned. Then she made signs to us that, that was an inexcusable
+               waste of meat. To humor her we let it remain where she had dragged <del
+                  rend="strikethrough">when</del>until it began to smell so strong that it was found
+               necessary to remove the carcass. This time she made no objections, but on the
+               contrary made signs that we should take it away, at the same time, to show her
+               disgust she held her nose &amp; made us understand that that meat was bad, &amp; then
+               pointing to ours <del rend="strikethrough">then</del>&amp; smacking her lips that she
+               liked that better. The otter was a female &amp; was with young, which she would have
+               given birth to in a few days. We took the young one &amp; after skinning it
+               carefully, stuffed the skin &amp; gave it to <rs><persName type="nativeamerican"
+                     key="#lw">the old woman</persName></rs>. She at once hung it by a string to the
+               roof of her hut, &amp; lying on her back under it would amuse herself for hours at a
+               time by swinging it backwards &amp; forwards. About a month later having secured
+               something over 80 otter skins, &amp; the otter having scattered we started on our
+               return. We had barely left <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs> when a gale sprang up so violent that several times we
+               thought that we should have to return to <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>. Late in the afternoon however we arrived in safety
+               under the lee of the <placeName type="island" key="#i_scruz">Santa Cruz
+                  island</placeName> &amp; the next morning early reached <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. <span type="trope" n="1">When the gale
+                  sprang up after leaving <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs>
+                  <rs><persName type="nativeamerican" key="#lw">the old woman</persName></rs> made
+                  signs to us that she was going to stop the wind. Accordingly she got down on her
+                  knees &amp; remained so for some time apparently engaged in prayer, &amp; facing
+                  in the direction of the wind. This she repeated several times during the day until
+                  the storm abated late in the afternoon, when turning to us she made signs that her
+                  prayers had been answered.</span>
+               <span type="trope" n="3">On approaching the beach at <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> she saw, evidently for the first time,
+                  an ox cart &amp; a man on horse back. At first sight of them he[r] delight was
+                  unbounded. She laughed &amp; danced, &amp; continued to point at them &amp; talk
+                  about them as long as they were in sight.</span></p>
+            <p>From the beach we took her to Nidever[']s house where she remained until her death
+               which took place about seven weeks from the time she landed.</p>
+            <p><rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">The Fathers at the
+                     Mission</persName></rs> sent for indians [sic] from different points in the
+               hopes of finding some one among them who could converse with her but as far as I
+               could learn were unsuccessful. The same day she arrived &amp; for weeks afterwards
+               the house was crowded with people that had come to get a sight at her &amp; her
+               things which we had brought from <rs><placeName type="island" key="#i_sn">the
+                     Island</placeName></rs>. <span type="trope" n="3">She often sang &amp; danced
+                  for them; putting on her dress of bird skins. Visitors made her presents of
+                  trinkets &amp; sometimes of money but she placed no value on one or the other,
+                  unless it be the pleasure she felt in dividing them among the children of
+                  Nidever[']s family.</span> Several proposals were made us by parties to take her
+               to <placeName type="city" key="#ci_sf">San Francisco</placeName> on exhibition, but
+               we rejected them all, having become too much attached to her to consent to such an
+               arrangement. Nidever[']s family took good care of <rs><persName type="nativeamerican"
+                     key="#lw">the old woman</persName></rs> but I think they allowed her to eat
+               freely of fruit &amp; vegetables. About a month after we brought her ashore <persName
+                  type="frontiersman" key="#gni">Nidever</persName> &amp; I went up to <placeName
+                  type="city" key="#ci_sf">San Francisco</placeName> &amp; while away <rs><persName
+                     type="nativeamerican" key="#lw">the old woman</persName></rs> died.</p>
+            <p>Her things were given to <persName type="missionfather" key="#jru">Father
+                  Gonzalez</persName>, who I understood sent them to <placeName type="city"
+                  key="#ci_rom">Rome</placeName>.</p>
+            <p>Since the last date I have continued to live in <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName>.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <p>The foregoing statement was dictated by me to <persName type="author" key="#emu">Mr.
+                  E. F. Murray</persName>, and having been carefully read by me I certify that it is
+               correct</p>
+            <byline>
+               <placeName type="city" key="#ci_sb">Santa Barbara, Cal</placeName>, <persName
+                  type="frontiersman" key="#cdi">Carl Dittmann</persName>
+               <date when="1878-10-28">Oct., 28, 1878</date></byline>
+         </div>
+      </back>
+   </text>
+</TEI>

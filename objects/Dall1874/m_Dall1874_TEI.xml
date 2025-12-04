@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#overlandmonthly">Overland
+                     Monthly</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">12</biblScope>
+               <biblScope unit="issue">6</biblScope>
+               <date when="1874-06-15"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Dall1874">The Lord of the Isles</title>
+                  <biblScope unit="page" from="522" to="526"/>
+                  <author><persName type="author" key="#whd">Dall, William
+                     Healey</persName></author><date when="1874-06-15"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">THE <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">LORDS OF
+                        THE ISLES</orgName></rs>. </title></head>
+            <p>AS we survey the <rs><placeName type="island" key="#i_chi">Californian
+                     islands</placeName></rs>, the question rises to the lips: Was ever land so
+               wasted and desolate enshrined in such a rich and sunny sea, or blessed with a climate
+               more delightful? The delicate haze peculiar to <rs><placeName type="region"
+                     key="#re_calcoast">the coast</placeName></rs> softens and enriches the dry
+               brown color of the hills; and the harshness of the bluffs and ragged peaks is
+               modified by the blue, calm water which ripples on the shore. At a slight distance
+               from some of the larger islands, the tangled chaparral and weedy growth, which nestle
+               in the deep ravines, lend a slight verdure to the landscape, and on the whole the
+               prospect is not unpleasing.</p>
+            <p>On landing, this deceitful glamour is soon dispelled. The vegetation resolves itself
+               into stunted, thorny bushes, prickly cactus, and sparse and unattractive weeds. Water
+               is almost absent, and when found, except in one place on <placeName type="island"
+                  key="#i_scatalina">Catalina</placeName>, is mawkishly sweet with alkali, or bitter
+               with other minerals.</p>
+            <p><placeName type="island" key="#i_scl">Clemente</placeName>, <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, and, for the most part, <placeName
+                  type="island" key="#i_sm">San Miguel</placeName>, are barren wastes of sand.
+               Except the last, and including <placeName type="island" key="#i_sb">Santa
+                  Barbara</placeName> and <placeName type="island" key="#i_an">Anacapa</placeName>,
+               water is totally absent, except during the winter rains. <placeName type="island"
+                  key="#i_sr">Santa Rosa</placeName>, <placeName type="island" key="#i_scruz">Santa
+                  Cruz</placeName>, and <placeName type="island" key="#i_scatalina"
+                  >Catalina</placeName> are more favored, but only relatively. The last mentioned
+               five are high and rocky, and the others comparatively low.</p>
+            <p>Here and there are tolerable anchorages, and there is one good, but very small,
+               harbor on <placeName type="island" key="#i_scatalina">Catalina</placeName>. The only
+               value of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> is
+               for sheep ranges, though in those places where water exists, in favorable seasons,
+               the cultivator may obtain tolerable crops, in patches of small extent. When the
+               season is unfavorable, the sheep and cattle die by thousands, not from thirst, but
+               from the entire desiccation and disappearance of the scanty herbage necessary to
+               sustain them. Small land-birds are scarce, and the more plentiful quail are very shy.
+               A diminutive fox obtains a living in some unexplained way, and occasionally a
+               cotton-tail rabbit may be seen disappearing in a clump of cactus, with a reckless
+               disregard of the omnipresent spines which is little short of miraculous. Beneath
+               every stone nestle the greenish-yellow centipede, a small kind of scorpion, or the
+               disgusting tarantula. In the summer, the common rattlesnake abounds in every bunch of
+               shrubbery and crevice of the rocks. On the sandy surface of <rs><placeName
+                     type="island" key="#i_southernchi">the lower islands</placeName></rs> may be
+               seen, everywhere, anchored by their fore-legs and head deeply buried in the sand, a
+               variety of beetles of the most nauseous odor and unprepossessing appearance. The
+               large, but harmless, yellow molecricket which abounds there is hardly less uninviting
+               in its physiognomy.</p>
+            <p><span type="trope" n="11">In <date when="1602">1602</date> the harbor of <placeName
+                     type="island" key="#i_scatalina">Catalina</placeName> was visited by <persName
+                     type="seaman" key="#svi">Viscaino</persName>, who reported it to be thickly
+                  inhabited by <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">a
+                     people</orgName> very ingenious, particularly in pilfering and hiding their
+                  thefts.</span>
+               <rs><persName key="#priest2">A priest</persName></rs> who formed one of his party
+               afterward described a kind of temple to the sun, with images and idols carved in
+               soap-stone, which he asserted to exist in the vicinity of the harbor. <rs><placeName
+                     type="island" key="#i_chi">The islands</placeName></rs> were doubtless
+               inhabited down to <rs><date notAfter="1853">the early portion of this
+                  century</date></rs>. <span type="trope" n="6">Strange to say, those which are at
+                  present the most barren and desolate had once the largest population in proportion
+                  to their size.</span></p>
+            <p><rs><date when="1818">In the early part of this century</date></rs>, <orgName
+                  type="organization" key="#rfurcompany">the Russians, assisted by some American
+                  traders</orgName>, extended their trading voyages to the <placeName type="region"
+                  key="#re_calcoast">coast of California</placeName> and to <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs>. While definite
+               information seems unattainable, the traditions of the locality are to the following
+               effect: About <date when="1811">1811</date>, <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; 
+               #natam_aleuts; #natam_kodiak"
+                     >a Russian sea-otter party</persName></rs> incurred hostilities from
+                     <rs><orgName type="nativeamericantribes" key="#natam_chumash">the natives of
+                     the islands</orgName></rs>, which resulted in a visit from <rs><name
+                     type="ship" key="#sh_ilmena">a Russian cruiser</name></rs>, which attacked
+                     <rs><orgName type="nativeamericantribes" key="#natam_chumash">the
+                     natives</orgName></rs>, killing <rs><orgName type="nativeamericantribes"
+                     key="#natam_chumash">a number of them</orgName></rs>, and producing such
+               consternation that <rs><orgName type="nativeamericantribes" key="#natam_chumash">the
+                     survivors</orgName></rs> returned to the <rs><placeName type="region"
+                     key="#re_mld">the main-land</placeName></rs>, and never returned. <rs><date
+                     notBefore="1811" to="1851">For nearly forty years</date></rs>
+               <rs><placeName type="island" key="#i_sn">the islands</placeName></rs> remained
+               unvisited, when some persons who had conceived the idea of putting sheep upon them
+               examined them with that project in view.</p>
+            <p>On <placeName type="island" key="#i_sm">San Miguel</placeName>, so it is stated, they
+               found <rs><persName type="nativeamerican" key="#lw">one old native
+                  woman</persName></rs>, who had dragged out a wretched existence in solitude since
+               the affray with <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak">the
+                     Russians</persName></rs>. <span type="trope" n="6">She was taken to the
+                        <rs><placeName type="region" key="#re_mld">the main-land</placeName></rs>,
+                  and died there about <date when="1864">1864</date>, the last of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     race</orgName></rs></span>. After learning to communicate with the settlers,
+               she informed them that she was quite a young girl when <rs><placeName type="island"
+                     key="#i_chi">the islands</placeName></rs> were depopulated, and in the hasty
+               departure of <rs><orgName type="nativeamericantribes" key="#natam_chumash">the
+                     survivors</orgName></rs> she had been left behind, probably by accident. Here
+               she had lived alone, for <rs><date notBefore="1811" to="1851">nearly forty
+                     years</date></rs>.</p>
+            <p><span type="trope" n="3"><span type="trope" n="6">There is nothing to confirm the
+                     existence of temples or idols, such as were described by <persName
+                        type="missionfather" key="#asc">Padre de la Ascencion</persName>; but of
+                           <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">an
+                           abundant population</orgName></rs>, of great inventive ingenuity, and of
+                     different conditions of climate and soil from those which now obtain, there are
+                     indisputable proofs.</span></span> Near every ravine (including many now
+               entirely dry, yet where water must formerly have been obtainable) the evidences of
+               occupation, in the shape of shell-heaps, are conspicuous. Their magnitude and extent
+               bear a direct relation to the abundance of water and the presence of a suitable
+               landing-place for the canoes. Often they are of surprising thickness, indicating a
+               prolonged occupation by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     aborigines</orgName></rs>. The largest on <placeName type="island"
+                  key="#i_scatalina">Catalina Island</placeName> are near the well-known springs,
+               about five miles from the harbor.</p>
+            <p>Most of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> are
+               abundantly supplied with these shell-heaps, but they are particularly large and
+               prolific in articles of use or ornament, on the outer desert islands of <placeName
+                  type="island" key="#i_scl">Clemente</placeName>, <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, and on <placeName type="island" key="#i_sm"
+                  >San Miguel</placeName>. Those on <placeName type="island" key="#i_scatalina"
+                  >Catalina</placeName> are comparatively destitute of implements or human remains,
+               and no exploration of them has revealed any signs of stone images or idols.</p>
+            <p>Various persons have visited these deposits, and returned more or less repaid with
+               ethnological material&#8212;especially some of the officers of the <orgName
+                  key="#uscoastsurvey">U. S. Coast Survey</orgName>, who so employed the leisure
+               afforded by weather unfavorable for surveying work. Of these, by far the richest
+               collection was made by <persName type="author" key="#wha">Mr. Harford</persName>. It
+               is now in the <orgName type="museum" key="#mu_nationalmuseum">National Museum at
+                  Washington</orgName>, and was obtained on the <placeName type="island" key="#i_sm"
+                  >island of San Miguel</placeName>. On visiting the shell-heaps on the north end of
+                     <rs><placeName type="island" key="#i_sm">this island</placeName></rs>, the
+               investigator is obliged to traverse about four miles of barren sandy wastes, which
+               are intersected by sharp and broken ridges trending in an east and west direction.
+               The shifting sands are raised in an unintermitting steady stream by the prevalent
+               north-west trade-wind, and cut the face and blind the eyes like a shower of needles.
+               Through the sand here and there may be seen scant spears of a slender, dry grass; and
+               in occasional patches the dry and dead remains of some shrubby plant, which in more
+               favored localities raises a disproportionately small amount of tops compared with its
+               knobby and swollen roots. Near the shell-heaps is a small grove of malva-trees, whose
+               green leaves and penciled blossoms refresh the eyes. There are no young trees,
+               however, as the omnipresent sheep crop every green thing within their reach close to
+               the ground.</p>
+            <p>Arrived on the ground, we see, as we do everywhere else, that the surface of shifting
+               sand is underlaid by a layer of vegetable mold, several feet in thickness, once soft
+               and verdant, now baked and desiccated by the sun and wind. At one time this was
+               evidently bare; since then, the wind has brought the sand in constantly increasing
+               heaps, until the reaction began to set in, and the winds at present seem to tend
+               slightly toward removing some of the sand. The north point is T-shaped, forming two
+               small coves, in one or the other of which a boat can land in almost any weather. The
+               point is bold and rather high, with small sandy beaches in the coves. On the edge of
+               this bank or bluff 1ived our ancient people. Here we see, where the sea has worn it
+               away, a shower of pearly shells from top to bottom of the bank; destitute, it is
+               true, of the strength and cohesiveness which distinguishes them when fresh, but
+               gaining rather than losing in their brilliant lustre by the very change which is
+               destroying them. We find almost all the different kinds of abalone, limpets, and
+               spiral pearly shells, which are still abundant in these waters. Though these cover
+               the whole face of the bluff, yet they are derived from one stratum only. This varies
+               from two or three to twenty feet in thickness, and is in great part identical with
+               the stratum of soil which underlies the sand. The shell-layers extend for miles along
+               the shore. When these banks were the home of a myriad of busy and ingenious workmen,
+                     <rs><placeName type="island" key="#i_sm">the island</placeName></rs> would seem
+               to have been covered with verdure, and, in accordance with the climatic law, "to him
+               that hath shall be given," rain must have been more abundant, and many springs have
+               existed which are now dry. That these people cultivated the soil, there would seem to
+               be little doubt. One of the most abundant relics to be found is the mortar and
+               pestle, almost identical with those still used by the natives of <placeName
+                  type="state" key="#st_nm">New Mexico</placeName> and <placeName type="state"
+                  key="#st_az">Arizona</placeName> for roughly grinding the seeds of grasses into a
+               kind of flour.</p>
+            <p>Their houses were probably slight structures, which have disappeared and left no
+               trace. Of their clothing we can form no idea from the record of the shell-heaps, but
+               it is not improbable that it consisted of skins and woven grasses or vegetable
+               fibres. Their food consisted of some cultivated vegetables or seeds, native fruits,
+               fish, the flesh of seals and sea-lions whose bones abound in the shell-heaps, the
+               smaller species of <emph>cetacea</emph>, birds, and particularly of the indigenous
+               shell-fish, whose remains are everywhere before our eyes. Their means of navigation
+               were probably canoes, made of materials derived from <rs><placeName type="region"
+                     key="#re_mld">the main-land</placeName></rs>; perhaps, as among the <orgName
+                  type="nativeamericantribes" key="#asesq">Asiatic Esquimaux</orgName>, obtained by
+               barter. The selection of <rs><placeName type="island" key="#i_chi">the outermost
+                     islands</placeName></rs>, by preference, as a place of residence, is accounted
+               for by the greater abundance of shell-fish, otter, and marine animals, and by the
+               greater protection afforded by their isolation from attacks from without. <span
+                  type="trope" n="11">That these were a war-like people is evident, from the number
+                  of spear and lance heads found in the shell-heaps and graves. A doubt may be
+                  thrown on the courage of at least one of them, from the fact that among the
+                  articles obtained by <persName type="author" key="#wha">Mr. Harford</persName> was
+                  a pelvic bone, with a long stone lance-head driven half through from behind;
+                  attesting at once the strength of arm of the pursuer, and the fact that the
+                  defunct met his fate while running away. The majority of the weapons found are
+                  unmistakably for use in war, or in the chase; but there are certain heavy stone
+                  rings, or perforated balls, worked with a great deal of skill, and which have
+                  puzzled all the archæologists. The most probable explanation of the use of these
+                  gigantic beads, is that a knotted stick or thong was passed through the centre,
+                  and that they were then used as "slung-shots," or as the Patagonians use the
+                     <emph>bolas</emph>.</span></p>
+            <p>The activity of their domestic life is attested by the presence of fish-hooks made of
+               abalone shell, stone spindles for twisting thread, the great variety of stone mortars
+               and pestles (often with traces of rude ornamentation), and various nondescript but
+               very curious bone tools and implements, one whole tool-chest of which we were
+               fortunate enough to unearth. That they were not without relaxation may be inferred
+               from the occurrence of sundry pipes, more like a modern cigar-holder in shape than
+               anything else; and that their æsthetic tendencies were not wholly repressed, is shown
+               by the discovery of an actual flute&#8212;a "tibia," in a double sense&#8212;made
+               from the bone of an albatross, and pierced with five holes. This probably had a
+               wooden mouth-piece originally, which had perished. Personal ornaments were in use,
+               though mostly of a rather rude description. Beads and rough <emph>wampum</emph>
+               strung on twisted sinew, alternating with sections of bones cut into "bugles," or
+               with <emph>hyqua</emph>-shells, are very common. <span type="trope" n="3">A touching
+                  record of parental love was disclosed in the myriads of beads and rounded plates
+                  of abalone pearl, which lay within a tiny baby's grave. The dead were laid in the
+                  earth near their habitations, apparently on their sides, with the knees drawn up
+                  toward the chin. With them are usually found implements and ornaments, once
+                  possessed by the dead, or contributed by the survivors as an equipment for him in
+                  the "happy hunting grounds."</span> One exception to this general rule may be
+               noticed: On a sandy shelf of the bluff near the harbor a large number of interments
+               have been made at a depth of a foot or two below the original surface. The drifting
+               sands have increased this to about three feet. Here we unearthed some twenty
+               skeletons, all of adults, and not a single implement or ornament, of native make, was
+               found. One glass bead of red color, three-sided and of antique make, was found,
+               showing that these natives had had, at least, a slight opportunity for intercourse
+               with traders. It may be that these remains were the hastily interred bodies of those
+               who fell in the last fight with <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; 
+                  #natam_aleuts; #natam_kodiak"
+                     >the Russians</persName></rs>, or were a body of the enemy cut off and
+               destroyed in some internecine quarrel. It is but proper to say, however, that none of
+               the bones showed evidences of bullet or lance wounds. In the other burial-grounds,
+               remains are much more numerous. <persName type="author" key="#wha">Mr.
+                  Harford</persName> in one place found seventy skulls within a short distance of
+               each other. Many of them show the bone variously called the "interparietal,"
+               "supra-occipital," and "wormian bone," in the vicinity of the larger fontanel. This
+               indicates that its presence can not be taken, as it has been by some ethnologists, as
+               a proof of high antiquity or very degraded type. The <emph>crania</emph> are of
+               medium size and development&#8212;<emph>brachycephalic</emph>; the teeth frequently
+               showing evidences of caries existing before death, and always the flat-worn crowns,
+               which indicate a diet of slightly cooked or gritty food.</p>
+            <p>These notes would be incomplete did they not include a mention of the peculiar effect
+               of the drifting sands on exposed stones and bones. Nature's application of the
+               sand-blast, recently patented for application in the mechanic arts, is very
+               effectual. Bones are cut away, or reduced to mere shells, in a short time; ordinary
+               pebbles are cut in the direction of the prevailing winds into such fantastic forms
+               that it is hardly possible to recognize them as natural productions. These curiously
+               worn pebbles are found in <placeName type="country" key="#co_nz">New
+                  Zealand</placeName>, on the <placeName type="region" key="#re_orcoast">coast of
+                  Oregon</placeName>, and near the mouth of <placeName type="region"
+                  key="#re_klriver">Klamath River</placeName>, <placeName type="state" key="#st_cal"
+                  >California</placeName>, as well as on <rs><placeName type="island" key="#i_chi"
+                     >the islands</placeName></rs>; and specimens from all these places have been
+               mistaken by sanguine collectors for articles of human handiwork. Apart from the dead
+               shells exposed along the edges of the bluffs, the only means by which the collector
+               may determine where to look for ethnological material, are the portions of mortars
+               and other implements from which the wind has cleared away the sand. These exposed
+               portions always show more or less evidence of the erosive action of sand carried by
+               the wind, and sometimes are reduced to very small dimensions, in comparison with the
+               parts which remain imbedded and thus protected.</p>
+            <p><span type="trope" n="3">Whether actively engaged in fishing or hunting&#8212;driving
+                  their light canoes with facile paddles; laboriously fashioning their weapons or
+                  implements of stone, bone, and pearly shell; or reposing in the golden glow of the
+                  western sun while they puffed the lazy wreaths of smoke from their stone pipes,
+                  pausing to catch the plaintive notes of the rude flute to which their children may
+                  have chanted, while the mother prepared the evening meal&#8212;the life of
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                        ancient Lords of the Isles</orgName></rs> presents a pleasing contrast to
+                  that of the ordinary savage of to-day. Though they have passed away, "unwept,
+                  unhonored, and unsung," yet the rude record of the shell­ heap shall keep their
+                  memory green.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

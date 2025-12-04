@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#latimesmag">Los Angeles
+                     Times Magazine</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">50</biblScope>
+               <biblScope unit="issue"/>
+               <date when="1931-05-31"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Drake1931">The Little Known Islands That Lie Off Our
+                     Coast</title>
+                  <biblScope unit="page" from="12" to="13" n="19"/>
+                  <author><persName type="author" key="#wdr">Drake, Waldo</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div n="1" type="section">
+               <head><title type="main">The <rs><placeName type="island" key="#i_chi">Little Known
+                           Islands</placeName></rs> That Lie Off <rs><placeName type="region"
+                           key="#re_socal">Our Coast</placeName></rs></title></head>
+               <byline><emph>By <persName type="author" key="#wdr">Waldo
+                  Drake</persName></emph></byline>
+            </div>
+            <div n="2">
+               <p><rs><date when="1542-11-23">NEARLY 400 years ago</date></rs>
+                  <persName type="seaman" key="#jca">Juan Rodriguez Cabrillo</persName> found these
+                        <rs><placeName type="island" key="#i_chi">Isles of Summer</placeName></rs>,
+                  anchored in the azure sweep of <rs><placeName type="region" key="#re_sbchannel"
+                        >the warm channel</placeName></rs> that flanks <rs><placeName type="region"
+                        key="#re_calcoast">California's coast</placeName></rs> south from
+                        <rs><placeName type="region" key="#re_pc">Point Concepcion</placeName></rs>.
+                  From <placeName type="island" key="#i_lc">Los Coronados</placeName> north to the
+                  wind-swept <placeName type="island" key="#i_sm">San Miguel</placeName> there are
+                  eleven islands; their shores bathed by the warm waters of the Japanese current, or
+                  Kuro Shiwo, and their sombre peaks and verdant valleys tempered by the fresh
+                  Westerly and the California sun.</p>
+               <p>From these and other weather factors they gain a climate that is hard to equal,
+                  having the life of the Mediterranean's <placeName type="region" key="#re_rivera"
+                     >Cote d'Azur</placeName> without its chill winds and the tropic beauty of
+                     <placeName type="city" key="#ci_ma">Madeira</placeName> without its heat.
+                  Actually, they are the tops of mountains rising out of the sea, transformed from
+                  barren peaks by a combination of meteorological conditions into gardens of rare
+                  beauty and charm. For every man who loves the outdoors the <placeName
+                     type="island" key="#i_chi">Channel Islands</placeName> have their
+                  fascination.</p>
+               <p>Their blue and crystal-clear waters are the home of that bucking bronco of the
+                  sea, the leaping tuna, and all of his swaggering cousins, the albacore, the
+                  yellowtail, the bonito. Anglers come from all over the world to try their skill
+                  against these grand fighters, as well as the marlin and broadbill swordfish, the
+                  white sea bass, the blanquillo and a host of smaller game fishes.</p>
+               <p>They are the yachtsman's paradise, for it is hard to think of another place on
+                  earth where a sailor could find such perfect cruising grounds, with summer weather
+                  and fair winds the year around and scores of beautiful little harbors where the
+                  yacht on leisurely cruise may anchor in safety. As for the thrill of cruising
+                  races, ask any Southland yachtsman who has fought his way down the west shore of
+                     <placeName type="island" key="#i_scl">San Clemente</placeName> during a night
+                  of contrary currents and constantly shifting breezes, finally to round <placeName
+                     key="#pyramidhead">Pyramid Head</placeName> and then go boiling home to
+                     <placeName type="city" key="#ci_sp">San Pedro</placeName> under press of the
+                  westerly.</p>
+               <p>They have equal thrill for the hunter who has clambered rough canyons and over the
+                  needle crags of <placeName type="island" key="#i_scl">San Clemente</placeName> in
+                  search of wild goats, or for his brother who in the dead of night has crawled for
+                  two miles on his belly to stalk the elusive white geese feeding on the tableland
+                  on <placeName type="island" key="#i_sr">Santa Rosa</placeName>. Those lucky
+                     <orgName key="#nimrods">Nimrods</orgName> who have hunted wild boars on
+                     <placeName type="island" key="#i_scruz">Santa Cruz</placeName> and <placeName
+                     type="island" key="#i_sr">Santa Rosa</placeName> have enjoyed real danger and
+                  excitement and the man who likes upland game bird shooting can find his fill of
+                  doves and quail in the verdant slopes and wooded canyons of <placeName
+                     type="island" key="#i_scruz">Santa Cruz</placeName>.</p>
+               <p>The eleven <placeName type="island" key="#i_chi">Channel Islands</placeName> are
+                  divided into three distinct groups. Northernmost are the <placeName type="island"
+                     key="#i_northernchi">Santa Barbara group</placeName>, lying about twenty miles
+                  offshore and ranging in an east-west line from <placeName type="region"
+                     key="#re_ph">Point Hueneme</placeName> to <rs><placeName type="region"
+                        key="#re_pc">Point Concepcion</placeName></rs>. They include <placeName
+                     type="island" key="#i_an">Anacapa</placeName>, <placeName type="island"
+                     key="#i_scruz">Santa Cruz</placeName>, <placeName type="island" key="#i_sr"
+                     >Santa Rosa</placeName> and <placeName type="island" key="#i_sm">San
+                     Miguel</placeName>. To the southward and off <placeName type="region"
+                     key="#re_pv">Point Vicente</placeName> is the <placeName type="island"
+                     key="#i_southernchi">Santa Catalina group</placeName>, including <placeName
+                     type="island" key="#i_scatalina">Santa Catalina</placeName>, <placeName
+                     type="island" key="#i_scl">San Clemente</placeName>, <placeName type="island"
+                     key="#i_sb">Santa Barbara</placeName> and <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>. Some ten miles south of <placeName type="region"
+                     key="#re_pl">Point Loma</placeName>, off <placeName type="city" key="#ci_sd"
+                     >San Diego</placeName>, are the three black <placeName type="island"
+                     key="#i_lc">Los Coronados</placeName>, called <placeName type="island"
+                     key="#i_lilasdesiertas">Las Islas Desiertas</placeName> by <persName
+                     type="seaman" key="#jca">Cabrillo</persName>.</p>
+               <p><placeName type="island" key="#i_scatalina">Catalina</placeName> needs no
+                  introduction. <rs><date when="1930">Last year</date></rs> more than 700,000
+                  persons visited the <rs><placeName type="island" key="#i_scatalina">Magic
+                        Isle</placeName></rs> via steamers of the Wrigley fleet alone, in addition
+                  to the thousands who traveled to <placeName type="city" key="#ci_av"
+                     >Avalon</placeName>, <placeName type="region" key="#re_isthmus1">the
+                     isthmus</placeName>, <placeName type="region" key="#re_catalinaharbor">Catalina
+                     Harbor</placeName> and the island's myriad beauty spots aboard yachts.
+                     <placeName type="island" key="#i_scatalina">Catalina</placeName> is needed,
+                  though, as a starting point for the early history of the <placeName type="island"
+                     key="#i_chi">Channel Islands</placeName>, for on <date when="1542-10-07"
+                     >October 7, 1542</date>, <persName type="seaman" key="#jca">Cabrillo</persName>
+                  came ashore to visit an Indian village, variously located between <placeName
+                     type="city" key="#ci_av">Avalon</placeName> and <placeName type="region"
+                     key="#re_isthmus1">the isthmus</placeName>. He named the Island San Salvador
+                  for <rs><name type="ship" key="#sh_salvador">his flagship</name></rs> and
+                     <placeName type="island" key="#i_scl">San Clemente</placeName> was called La
+                  Victoria, after <rs><name type="ship" key="#sh_lavictoria">Cabrillo's other
+                        vessel</name></rs>. But when <persName type="seaman" key="#svi"
+                     >Vizcaino</persName> visited the <placeName type="region" key="#re_calcoast"
+                     >California coast</placeName> in <date when="1602">1602</date> he gave
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> their
+                  present names, as well as changing the names of practically all of the other
+                  islands, bays and important headlands <persName type="seaman" key="#jca"
+                     >Cabrillo</persName> had discovered <rs><date when="1542">sixty years
+                        before</date></rs>.</p>
+            </div>
+            <div n="3">
+               <head><title type="section">In Cabrillo's Time</title></head>
+               <p>In Cabrillo's time all of the eight upper <rs><placeName type="island"
+                        key="#i_chi">Channel Islands</placeName></rs> except <placeName
+                     type="island" key="#i_sb">Santa Barbara</placeName> were peopled with
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">Indian
+                        tribes</orgName></rs> living in varying states of barbaric civilization.
+                        <rs><placeName type="island" key="#i_scatalina">Pimugna</placeName></rs> was
+                  the native name for <placeName type="island" key="#i_scatalina">Santa
+                     Catalina</placeName>. Authorities agree that the <orgName
+                     type="nativeamericantribes" key="#natam_pimugnans">Pimugnans</orgName> and the
+                  natives of <placeName type="island" key="#i_scl">San Clemente</placeName>, called
+                        <rs><placeName type="island" key="#i_scl">Kinkapar</placeName></rs>, spoke a
+                  dialect called Netela, but among <rs><orgName type="nativeamericantribes"
+                        key="#natam_islanders">all of the other islanders</orgName></rs> there were
+                  such wide differences in language that those living on <rs><placeName
+                        type="island" key="#i_chi">neighboring islands</placeName></rs> in sight of
+                  each other could not understand one another.</p>
+               <p><persName type="seaman" key="#svi">Vizcaino</persName> and <persName type="seaman"
+                     key="#tto">Torquemada</persName> both declared <orgName
+                     type="nativeamericantribes" key="#natam_islanders">the islanders</orgName> to
+                  be physically and mentally superior to the Indians of the mainland and expressed
+                  admiration of their ability in building canoes and the dexterity with which they
+                  handled these craft, as well as their use of steatite for making mortars. These
+                  mortars, made at the steatite quarries at <placeName type="region" key="#empland"
+                     >Empire Landing</placeName>, the <orgName type="nativeamericantribes"
+                     key="#natam_pimugnans">Pimugnans</orgName> are believed to have taken across
+                        <rs><placeName type="region" key="#re_sbchannel">channel</placeName></rs> to
+                     <placeName type="region" key="#spbay">San Pedro Bay</placeName> and sold to the
+                  mainland natives as the real beginning of the port's sea-borne trade.</p>
+               <p>Excerpts from the diary of the Costanso expedition, which came up the <placeName
+                     type="region" key="#re_calcoast">California coast</placeName> in <date
+                     when="1769">1769</date>, <rs><date when="1542">227 years after</date></rs>
+                  <persName type="seaman" key="#jca">Cabrillo</persName>, indicates that
+                        <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        Indians</orgName></rs> were still thriving on the <placeName type="island"
+                     key="#i_chi">Channel Islands</placeName>:</p>
+               <p>"<span type="trope" n="3">They are of good figure and aspect, men and women; very
+                     much given to painting and staining with red ochre their faces and bodies. They
+                     use great headdresses of feathers, and some banderillas which they bind up amid
+                     their hair, with various trinkets and beads of coral of various colors. . . .
+                     The men work handsome trays of wood, with firm inlays or coral or of bone; and
+                     some vases of much capacity, closing at the mouth, which appear to be made with
+                     a lathe&#8212;and with this machine they would not come out better-hollowed nor
+                     of more perfect form.</span></p>
+               <p>"<span type="trope" n="3">In their houses, the married couples have their separate
+                     beds on platforms elevated from the ground. Their mattresses are some simple
+                     petates or mats of rushes, and their pillows are of the same petates rolled up
+                     at the head. All of these beds are hung about with like mats, which serve for
+                     decency and protect from the cold.</span></p>
+               <p>"<span type="trope" n="3">The dexterity and skill of <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                           Indians</orgName></rs> is surpassing in the construction of their
+                     launches made of pine planking. They are from twenty-two to twenty-seven and
+                     one-half feet in length, including their rake, and of four feet beam . . . They
+                     handle the boats With equal cleverness, and three or four men go out to the
+                     open sea to fish in them, as they have capacity to carry eight or ten. They use
+                     long oars with two blades, and row with unspeakable lightness and
+                     velocity.</span></p>
+               <p>"<span type="trope" n="3">They know all the arts of fishing, and fish abound along
+                     their coasts, as has been said of <placeName type="city" key="#ci_sd">San
+                        Diego</placeName></span>."</p>
+               <p>Life on the <placeName type="island" key="#i_chi">Channel Islands</placeName> was
+                  for these <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                        >savages</orgName></rs> a paradise. The waters abounded then, as now, in
+                  marine life of every form, fish, seals, whales, sharks, crayfish, abalones,
+                  mussels. Vast heaps of these shells and skeletons still found at town sites attest
+                  to the fact that <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                        Indians</orgName></rs> were expert fishermen.</p>
+               <p><span type="trope" n="6">The complete disappearance of <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           natives</orgName></rs> within the last century is one of the mysteries of
+                           <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs>.</span>
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> is known to have had
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">native
+                        inhabitants</orgName></rs>
+                  <date notAfter="1830">until 1830</date> and <rs><persName type="nativeamerican"
+                        key="#lw">the Lost Woman of San Nicolas</persName></rs> was not taken off
+                        <rs><placeName type="island" key="#i_sn">that dreary, wind-swept
+                        desert</placeName></rs> until <date when="1851">1851</date>. <persName
+                     type="author" key="#cho">Charles Frederick Holder</persName>, the great
+                  sportsman who spent <rs><date notBefore="1885" notAfter="1915">some thirty
+                        years</date></rs> exploring and studying the <placeName type="island"
+                     key="#i_chi">Channel Islands</placeName>, presents the most logical
+                  solution:</p>
+               <p>"<span type="trope" n="6">One cannot look upon the human remains, the skulls and
+                     skeletons, without wondering where <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the natives</orgName></rs> went, or what
+                     accomplished their extinction, as within a century and a half <rs><orgName
+                           type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           inhabitants</orgName></rs> of <rs><placeName type="island" key="#i_chi"
+                           >all these populous islands</placeName></rs> have disappeared.</span></p>
+               <p>"<span type="trope" n="11"><span type="trope" n="13">According to some, they were
+                        killed off by the Russians, Americans, or <rs><orgName type="group"
+                              key="#natam_aleuts; #natam_kodiak">Alaskans</orgName></rs> who came
+                        down <rs><placeName type="region" key="#re_paccoast">the
+                           coast</placeName></rs> yearly after sea otters, with which <rs><placeName
+                              type="region" key="#re_socalcoast">this coast</placeName></rs>
+                        abounded in <rs><date notBefore="1800-01-01" notAfter="1850">the early part
+                              of the nineteenth century</date></rs>. These people, according to
+                        tradition, paid no attention to <rs><orgName type="group"
+                              key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                              >the inhabitants</orgName></rs>, shot them down, and robbed them on a
+                        freebooter plan for mere amusement.</span></span></p>
+               <p>"To me a more plausible explanation of the disappearance of <rs><orgName
+                        type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        natives</orgName></rs> is that the <rs><persName type="group"
+                        key="#aji; #ndur; #misfats">Mission Fathers</persName></rs> induced them to
+                  give up their island life and settle about <rs><orgName type="mission"
+                        key="#mi_mainlandmissions">the missions</orgName></rs>, to be within easy
+                  reach of their teachings; and while many were killed in war, swept away by disease
+                  or by the invaders, doubtless <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                        majority</orgName></rs> went to the various missions, where they soon lost
+                  their identity."</p>
+            </div>
+            <div n="3">
+               <head><title type="section">A Fragment of a Volcano</title></head>
+               <p><placeName type="island" key="#i_scl">San Clemente Island</placeName>, lying some
+                  twenty miles southwest of <placeName type="island" key="#i_scatalina"
+                     >Catalina</placeName>, is the weird fragment of some huge ancient volcano and
+                  its eighteen miles of lava flows, cactus-filled canyons, coast line caves and vast
+                  sand dunes present a remarkable spectacle of desolation, as compared to the grassy
+                  grazing plains of the middle island. Its windward coast is largely low and flat,
+                  with several bays and anchorages, but the eastern shore&#8212;apparently the inner
+                  rim of a giant volcano&#8212;presents nothing but towering cliffs of lava, in such
+                  grewsome, desolate expanse that one recalls the illustrations of Dante's
+                  Inferno.</p>
+               <p><placeName type="island" key="#i_scl">The island</placeName> is owned by the
+                     <orgName type="government" key="#gov_usa">United States government</orgName>
+                  and has long been inhabited by herders on the sheep ranch operated by <persName
+                     key="#ebl">E. G. Blair</persName>, and several coves shelter shacks of
+                  fishermen. Its highest peak rises to only 1960 feet, yet a great portion of it is
+                  so mountainous that it affords ideal country for the thousands of wild goats still
+                  hunted there about its needle-like lava crags and abysmal canyons.</p>
+               <p><placeName type="island" key="#i_scl">San Clemente</placeName> offers a fair
+                  example of the unusual bird life of all the <placeName type="island" key="#i_chi"
+                     >Channel Islands</placeName>. Its crags are the home of the American bald eagle
+                  and on the broad plains of the middle island are found valley quail, the mourning
+                  [morning] dove, humming birds, the savanna sparrow, rock wren, the house finch,
+                  lark, 'pewee, the California shrike and most of the coast's warblers. Ravens
+                  abound on <placeName type="island" key="#i_scl">San Clemente</placeName> and about
+                  its sea-torn cliffs live the American osprey, the white-throated swift and the
+                  belted kingfisher. Sea birds making the various islands their winter home include
+                  the royal tern, the black-footed albatross, pelicans,cormorants, grebes, loons and
+                  auklets and the many species of shore waders. At certain seasons ducks and geese
+                  are found about the more verdant islands of <placeName type="island" key="#i_sr"
+                     >Santa Rosa</placeName> and <placeName type="island" key="#i_scruz">Santa
+                     Cruz</placeName>.</p>
+               <p><placeName type="island" key="#i_sb">Santa Barbara</placeName> and <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>, the other two islands of the
+                     <placeName type="island" key="#i_southernchi">Santa Catalina group</placeName>,
+                  are both <orgName type="government" key="#gov_usa">United States government
+                     reservations</orgName>. Santa Barbara's twin peaks rise out of <rs><placeName
+                        type="region" key="#re_sbchannel">the channel</placeName></rs> forty-seven
+                  miles southwest of <placeName type="city" key="#ci_sp">San Pedro</placeName>,
+                  while bleak <placeName type="island" key="#i_sn">San Nicolas</placeName> is some
+                  thirty farther offshore on almost the same bearing. A light has been estabilshed
+                  on little <placeName type="island" key="#i_sb">Santa Barbara</placeName>, but it
+                  is uninhabited, save for large rookeries of cormorants, guillemots, pelicans,
+                  auklets and the upland birds of the other islands. Almost surrounded by huge kelp
+                  beds, Santa Barbara Island waters are fine fishing grounds but they are little
+                  frequented by amateur anglers because of the island's isolated position.</p>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName>, inhabited
+                  only by the lonely herders tending the sheep kept there by Messrs. <persName
+                     key="#eva">Edward Vail</persName> and <persName key="#rbr">R. L.
+                     Brooks</persName>, is the most desolate, wind-swept waste of the entire
+                        <rs><placeName type="island" key="#i_chi">Channel group</placeName></rs>,
+                  but in its story there lies the strange tale of the "<rs><persName
+                        type="nativeamerican" key="#lw">Lost Woman of San
+                  Nicolas</persName></rs>."</p>
+               <p>In <date when="1830">1830</date>
+                  <rs><name type="ship" key="#sh_peoresnada">a schooner</name></rs> was sent to
+                     <placeName type="island" key="#i_sn">the island</placeName> by the
+                        <rs><persName type="group" key="#aji; #ndur; #misfats">Mission
+                        Fathers</persName></rs> to take off the <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">last remnants of the
+                        dying tribe of Indians</orgName></rs> that had once thrived on <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName>. It was the <rs><name
+                        type="ship" key="#sh_peoresnada">Better Than Nothing</name></rs>, from
+                     <placeName type="city" key="#ci_sp">San Pedro</placeName>, and <persName
+                     type="investor" key="#isp">Capt. Sparks</persName> and <rs><persName
+                        type="group"
+                        key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                        >his crew</persName></rs> had taken aboard the last of <persName
+                     type="group" key="#bhagroup">the natives</persName>&#8212;numbering about a
+                  dozen&#8212;when <rs><persName type="nativeamerican" key="#lw">one
+                        woman</persName></rs> begged to be put ashore, explaining that she had left
+                        <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  behind. She went ashore, ran up the beach, found <rs><persName
+                        type="nativeamerican" key="#lwchild">her baby</persName></rs> and hurried
+                  back to <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs>, only
+                  to find that the <rs><name type="ship" key="#sh_peoresnada">Better Than
+                        Nothing</name></rs> was under way and heading offshore. Some versions of the
+                  tale indicate that the weather was so boisterous that <persName type="investor"
+                     key="#isp">Capt. Sparks</persName> was forced to put to sea. Others say that he
+                  deliberately left her.</p>
+               <p>At any rate, <rs><name type="ship" key="#sh_peoresnada">the schooner</name></rs>
+                  never returned and the woman's isolation became a matter of years. Finally,
+                        <rs><date when="1850">after twenty years</date></rs>, <rs><persName
+                        type="group" key="#gni; #tje">some otter hunter</persName></rs> located her
+                  rude hut on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>,
+                  and reported it to <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats"
+                        >the padres of the Mission Santa Barbara</persName></rs>. <persName
+                     type="missionfather" key="#jru">Padre Gonzales</persName> dispatched <persName
+                     type="frontiersman" key="#gni">Capt. Nidever</persName> to <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> in search of her. On
+                  two trips he combed <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                  from end to end without success and on the third trip he took along a
+                        <rs><persName type="group" key="#cook; #msh; #poli; #nsk; #hva">number of
+                        Indians</persName></rs> and <rs><persName type="group" key="#cdi; #col"
+                        >several Santa Barbara residents</persName></rs>, including one
+                        <rs><persName type="frontiersman" key="#cdi">Charles
+                  Brown</persName></rs>.</p>
+               <p>On this trip <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs>
+                  found her hut, made of whalebones and a brush roof, and later that day he and
+                        <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                        Indians</persName></rs> sighted her, watching them from the opposite side of
+                  a hill. By the time they reached the spot, however, she had disappeared. From
+                  Brown's narrative:</p>
+               <p>"<title type="manuscript" key="#Terry1882">When we got across to <rs><persName
+                           type="group" key="#msh; #poli; #nsk; #hva">the Indians</persName></rs>, I
+                     said, 'There's nothing here, let's go back.' There was a basket and some
+                     feathers. She catched shags and had a coat made without sleeves, nicely covered
+                     with sealskin. I said to <rs><persName type="group"
+                           key="#msh; #poli; #nsk; #hva">the Indians</persName></rs>, 'You go to the
+                     hill and scatter the feathers and things in the basket, and if she is still
+                     alive she will find them.' The same day we found them all gathered up and put
+                     in the basket.</title>"</p>
+               <p><rs><persName type="frontiersman" key="#cdi">Brown</persName></rs> resumed the
+                  search the next morning and soon caught sight of her toiling up the hill toward
+                  the whalebone hut, carrying something heavy in her arms. He describes her
+                  capture:</p>
+               <p>"<title type="manuscript" key="#Terry1882">She had a brush fence, about two feet
+                     high, to break the wind, and right in front of me she sat facing me. The sun
+                     was coming in her face. She was skinning a seal before I came up to her.
+                     Thinking she might run I stepped round her, and she bowed as if she knew me
+                     before, and when <rs><persName type="group" key="#msh; #poli; #nsk; #hva">the
+                           Indians</persName></rs> came up they all kneeled.</title>"</p>
+               <p><rs><date when="1853-07">After a month</date></rs> on <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>, <persName type="frontiersman" key="#gni"
+                     >Capt. Nidever</persName> and <rs><persName type="frontiersman" key="#cdi"
+                        >Brown</persName></rs> took <rs><persName type="nativeamerican" key="#lw"
+                        >the Lost Woman</persName></rs> to the <placeName type="mission"
+                     key="#mi_sb">Mission of Santa Barbara</placeName>, where she was christened
+                        <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>.
+                  But <rs><persName type="group" key="#gni; #cdi; #col; #msh; #poli; #nsk; #hva">
+                        the crew</persName></rs> of <rs><name type="ship" key="#sh_nidever"
+                        >Nidever's schooner</name></rs> had already named her "<rs><persName
+                        type="nativeamerican" key="#lw">Better Than Nothing</persName></rs>" and by
+                  that name she was known. She was estimated to have been about forty-five years old
+                  when found. All efforts to find <orgName type="nativeamericantribes"
+                     key="#natam_missionindians">Mission Indians</orgName> who understood her
+                  dialect were fruitless and <rs><date when="1853-10-19">after six weeks</date></rs>
+                  at <placeName type="city" key="#ci_sb">Santa Barbara</placeName> she became ill
+                  and died&#8212;taking with her the enigma of the disappearance of the <rs><orgName
+                        type="group" key="#natam_NicolenoTongva">Channel
+                  Islanders</orgName></rs>.</p>
+               <p>San Nicolas' eight miles of lava flows, shifting sand dunes, its 900-foot
+                  fog-shrouded peak, its deep cut canyons, its bleak cliffs and the crashing seas
+                  breaking over its rocky shores make it just about one of the most desolate places
+                  on earth. Yet it was one of the most populous of all <rs><placeName type="island"
+                        key="#i_chi">the islands</placeName></rs> when <persName type="seaman"
+                     key="#jca">Cabrillo</persName> and <persName type="seaman" key="#svi"
+                     >Vizcaino</persName> visited <rs><placeName type="region" key="#re_socalcoast"
+                        >the coast</placeName></rs> and it is still a great treasure ground for
+                  archeologists and souvenir hunters. It is the site of one of the largest
+                  aboriginal kitchen middens in the world and here may still be found skulls, pipes,
+                  beads, ollas, flint spear heads and other traces of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">the ancient island
+                        people</orgName></rs>. <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> is literally being blown into the sea and while the
+                  northwester is howling with great force across its desolate expanse one can stand
+                  on <rs><placeName type="island" key="#i_sn">this bleak desert</placeName></rs> and
+                  see <placeName type="island" key="#i_scatalina">Catalina</placeName>, where at
+                  that same moment an ideal summer climate obtains.</p>
+            </div>
+            <div n="4">
+               <head><title type="section"><placeName type="island" key="#i_northernchi">The Santa
+                        Barbara Islands</placeName></title></head>
+               <p>Sailing up channel, the first of the <placeName type="region" key="#i_northernchi"
+                     >Santa Barbara islands</placeName> encountered is <placeName type="island"
+                     key="#i_an">Anacapa</placeName>, "the everchanging," in reality three islands
+                  of grotesque shape. <placeName type="island" key="#i_an">Anacapa</placeName> is an
+                  island in the last stages of its existence, succumbing to the ravages of wind and
+                  sea, and its shores are therefore formed of myriad caves and arches, where the sea
+                  rushes in and out in its never-ceasing effort. The largest of Anacapa's three
+                  islets is a peak rising 980 feet above the sea, <rs><placeName type="island"
+                        key="#i_an">the whole Anacapa group</placeName></rs>, in fact, having the
+                  appearance of a mountain on edge rising out of the sea.</p>
+               <p>Although less than a hundred miles separate the <placeName type="island"
+                     key="#i_northernchi">Santa Barbara islands</placeName> from the <placeName
+                     type="island" key="#i_southernchi">Santa Catalina group</placeName> a striking
+                  change in climate is noted. The westerly wind blows with more gusto down the
+                     <placeName type="region" key="#re_sbchannel">Santa Barbara Channel</placeName>
+                  and its waters seem to be the camp ground of the grim fogs which often envelop the
+                  Anacapa Passage. <placeName type="island" key="#i_scruz">Santa Cruz</placeName>
+                  and <placeName type="island" key="#i_sr">Santa Rosa</placeName> islands, next in
+                  order up channel, on the other hand enjoy a salubrious climate, which is like that
+                  of <placeName type="island" key="#i_scatalina">Catalina</placeName>, tempered by a
+                  fresher, cooler west wind. <rs><placeName type="group" key="#i_scruz; #i_sr">These
+                        two islands</placeName></rs>, both approaching <placeName type="island"
+                     key="#i_scatalina">Catalina</placeName> in size and topographical make-up, are
+                  surpassed by none of the <rs><placeName type="region" key="#i_chi">Channel
+                        group</placeName></rs> in wild, verdant beauty. Santa Cruz's shores are
+                  lined with scores of little coves and bays, there being yachtsmen and fishermen
+                  who will tell you that <placeName type="region" key="#re_coche">Cochies
+                     Prietos</placeName>&#8212;that perfect little gem of a harbor midway up the
+                  south shore&#8212;is the prettiest spot on earth. <placeName type="island"
+                     key="#i_scruz">Santa Cruz</placeName> is world-famous for its great
+                  multi-colored shore line caves. Several like the <placeName type="region"
+                     key="#re_paintedcave">Painted Cave</placeName>, have sea entrances and open up
+                  into cavern-canopied lakes under the mountains, while <rs><placeName type="region"
+                        key="#re_valdezcave">Cueva Valdez</placeName></rs>, near the east end, has
+                  both shore and sea entrances. <rs><placeName type="island" key="#i_scruz">The
+                        island</placeName></rs> is owned by the heirs of <rs><persName key="#jcaire"
+                        >Justinian Caire</persName></rs>, a Frenchman who <rs><date notBefore="1880"
+                        notAfter="1885">a half-century ago</date></rs> established on its interior
+                  valley a beautiful rancho that is still a faithful reproduction of the vineyard
+                  country of <placeName type="region" key="#re_sfrance">Southern France</placeName>.
+                  Sheep are also raised on the <placeName key="#cairerancho">Caire
+                     rancho</placeName>, while the island's tree-filled valleys and grassy slopes
+                  abound with California valley quail and doves.</p>
+               <p><placeName type="island" key="#i_sr">Santa Rosa Island</placeName>, just across
+                  the lively <rs><placeName type="region" key="#re_sbchannel">Santa Cruz
+                        Channel</placeName></rs> from <placeName type="island" key="#i_scruz">Santa
+                     Cruz</placeName>, approaches <rs><placeName type="island" key="#i_scruz">that
+                        island</placeName></rs> in size and natural beauty and contains one of the
+                  finest cattle ranches in <placeName type="state" key="#st_cal"
+                     >California</placeName>, maintained jointly by the <orgName key="#vailco">Vail
+                     Company</orgName> and the <persName key="#jjvickers">J. V. Vickers</persName>
+                  estate, owners of <rs><placeName type="island" key="#i_sr">the
+                     island</placeName></rs>. It is the wild boar hunters' favorite territory and is
+                  a winter rendezvous for huge flocks of white geese, which feed on the upland
+                  grazing grounds. Like the other <placeName type="island" key="#i_chi">Channel
+                     Islands</placeName>, <placeName type="island" key="#i_sr">Santa
+                     Rosa</placeName> is mountainous and cut by deep canyons. Its highest peak,
+                     <placeName key="#mnegro">Monte Negro</placeName>, rises to a height of 1565
+                  feet. <persName key="#ccar">Don Carlos</persName> and <persName
+                     type="frontiersman" key="#jcarillo">Jose Carrillo</persName>, members of the
+                  pioneer California family, gained title to <placeName type="island" key="#i_sr"
+                     >Santa Rosa</placeName> by a grant from the <persName key="#kingsp">King of
+                     Spain</persName> in <date when="1834">1834</date>, from whose hands it later
+                  passes to the <rs><persName type="group" key="#tmor; #amo; #hmor">More
+                        brothers</persName></rs>, of <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, before its purchase by the <persName key="#eva"
+                     >Vail</persName> and <persName key="#jjvickers">Vickers</persName>
+                  interests.</p>
+            </div>
+            <div n="5">
+               <head><title type="section">Cabrillo's Grave</title></head>
+               <p>Three miles from <placeName type="island" key="#i_sr">Santa Rosa</placeName>,
+                  separated by <rs><placeName type="region" key="#re_sbchannel">a
+                        channel</placeName></rs> of turbulent waters and dengerous currents, lies
+                     <placeName type="island" key="#i_sm">San Miguel</placeName>, western sentinel
+                  of <rs><placeName type="island" key="#i_chi">the entire channel
+                     group</placeName></rs>. Seven and one-half miles long, <rs><placeName
+                        type="island" key="#i_sm">this desolate, wind-swept island</placeName></rs>
+                  is first seen as twin peaks rising out of the sea. It is government-owned.
+                  Treeless and swept continually by shifting dunes and storms of sand driven by the
+                  strong northwester, its shores are for the most part bold and rocky. <placeName
+                     type="region" key="#re_cuylerharbor">Cuyler's Harbor</placeName>, under the lee
+                  of <placeName key="#hpt">Harris Point</placeName> on the north shore, is the only
+                  harbor of value and even it is filled with kelp and shoals.</p>
+               <p>Somewhere along <rs><placeName type="region" key="#re_cuylerharbor">Cuyler's bleak
+                        expanse</placeName></rs>, the remains of <persName type="seaman" key="#jca"
+                     >Juan Rodriquez Cabrillo</persName> are believed to lie, for it was there he
+                  died on <date when="1543-01-03">January 3, 1543</date>, after suffering intensely
+                  for two months from the arm he had broken while at <placeName type="island"
+                     key="#i_sm">San Miguel</placeName> in <rs><date when="1542-10"
+                     >October</date></rs>. Dying in those lonely, stormy waters far from home,
+                  Cabrillo's valor and courage stayed with him to the last, for <persName
+                     type="seaman" key="#bfe">Bartolome Ferrelo</persName>, his pilot, says in
+                  describing his passage:</p>
+               <p>"He charged them much, at the time of his death, that they would not give up the
+                  discovery, as far as possible, of all that coast."</p>
+               <p>No monument marks his grave, but beneath the shifting sands of <placeName
+                     type="island" key="#i_sm">San Miguel</placeName> lies the real discoverer of
+                     <placeName type="state" key="#st_cal">California</placeName>. He and <persName
+                     type="seaman" key="#bfe">Ferrelo</persName> did more than all others to
+                  increase Spain's kingdom in the <placeName type="region" key="#re_pacific"
+                     >Pacific</placeName>, yet the gallant efforts of these <rs><persName
+                        type="group" key="#jca; #bfe">two bold sailors</persName></rs> are
+                  commemorated by not a single prominent landmark along the coast that they were
+                  first to find.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

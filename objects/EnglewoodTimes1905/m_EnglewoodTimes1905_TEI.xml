@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#englewoodtimes"
+                            >Englewood Times</orgName></title>
+                    <publisher/>
+                    <date when="1905-07-14"/>
+                    <pubPlace><placeName type="city" key="#ci_chic">Chicago</placeName>, <placeName
+                            type="state" key="#st_il">Illinois</placeName></pubPlace>
+                    <biblScope unit="volume" n="17"/><biblScope unit="issue" n="39"/>
+                    <bibl>
+                        <title type="article" key="#EnglewoodTimes1905">"Story of a Woman
+                            Crusoe</title>
+                        <author/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main">
+                        <hi rend="bold">STORY OF <rs><persName type="nativeamerican" key="#lw">A
+                                    WOMAN CRUSOE</persName></rs></hi></title>
+                    <title type="sub"><hi rend="bold">Unlike <rs><name type="fictional" key="#rcr"
+                                    >Defoe's Hero</name></rs>, Her End Is Pathetic in the
+                            Extreme.</hi></title></head>
+                <p>Beginning due west of <rs><placeName type="region" key="#re_pc">Point
+                            Conception</placeName></rs> on the<placeName type="state" key="#st_cal"
+                        >California</placeName> coast and continuing at irregular intervals as far
+                    south as <rs><placeName type="region" key="#re_todosbay">the bay of
+                            Todos</placeName></rs> Santos, in <rs><placeName type="region"
+                            key="#re_baja">Lower California</placeName></rs> lie <rs><placeName
+                            type="island" key="#i_chi">the Channel Islands</placeName></rs>. In this
+                    ideal region for the yachtman, the fisherman and the hunter, one comes to feel
+                    like a new <rs><persName type="everyone" key="#rcr">Crusoe</persName></rs> on
+                            <rs><placeName type="island" key="#i_jf">his primitive
+                        isle</placeName></rs>. <span type="trope" n="8"><span type="trope" n="3">And
+                            in very truth Crusoe's semi-mythical story was enacted upon
+                                    <rs><placeName type="island" key="#i_sn">one of these same
+                                    islands</placeName></rs>, though minus <name type="fictional"
+                                key="#friday">the man Friday</name> and the happy
+                        ending.</span></span></p>
+                <p><span type="trope" n="3"><span type="trope" n="8"><rs><persName
+                                    type="nativeamerican" key="#lw">The castaway</persName></rs> in
+                            this case was a woman, a Danish imigrant, left ashore through some
+                            mischance by the crew of a vessel that had sought shelter behind
+                                    <rs><placeName type="island" key="#i_sn">San
+                                    Nicholas</placeName></rs> during a storm in <rs><date
+                                    notBefore="1851" notAfter="1853">the early
+                            [18]'50's</date></rs>. For over seventeen years <rs><persName
+                                    type="nativeamerican" key="#lw">the lone
+                                creature</persName></rs> lived unsought and forgotten, though the
+                            time at length came when, on the days the mist-clearing north wind blew,
+                            she could climb to the island's highest point and view the ranchers'
+                            herds grazing upon the mainland.</span></span></p>
+                <p><span type="trope" n="14">And at last, when hope and reason had both long died,
+                                <rs><persName type="nativeamerican" key="#lw">the poor, wild,
+                                gibbering creature</persName></rs> was found in her wolf's burrow
+                        among the hills by <rs><persName type="group"
+                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the advance
+                                guard of the otter hunters' fraternity</persName></rs>, who had long
+                        wondered at the mysterious footprints they marked upon the lonely
+                        sands.</span>&#8212;</p>
+                <byline><title type="article" key="#Gassaway1905">Field and Stream</title>.</byline>
+            </div>
+        </body>
+    </text>
+</TEI>

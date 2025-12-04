@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#sfchronicle">San
+                            Francisco Article</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">89</biblScope>
+                    <biblScope unit="issue">170</biblScope>
+                    <date when="1906-12-30"/>
+                    <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="main" key="#Edwords1906">A Female Crusoe on the Island Of
+                            Skulls.</title>
+                        <biblScope unit="page" n="5"/>
+                        <author><persName type="author" key="#edwords">Edwords, Clarence
+                                E.</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <div type="section">
+                    <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican"
+                                        key="#lw">A Female Crusoe</persName></rs> on <rs><placeName
+                                        type="island" key="#i_scl">the Island Of
+                                    Skulls</placeName></rs>.</hi></title></head>
+                    <byline><hi rend="bold"> By <persName type="author" key="#edwords">CLARENCE E.
+                                EDWORDS</persName>.</hi></byline>
+                    <p><span type="trope" n="8"><persName type="seaman" key="#ase">ALEXANDER
+                                SELKIRK</persName> had his <persName type="author" key="#dde">Daniel
+                                Defoe</persName> to immortalize him and the <placeName type="island"
+                                key="#i_jf">island of Juan Fernandez</placeName>, and in every man's
+                            memory lingers the delights of hours spent with <name type="fictional"
+                                key="#rcr">Robinson Crusoe</name> wandering over his little empire
+                            with <persName type="fictional" key="#friday">his man Friday</persName>
+                            and his parrot and goats, but the chronicler of the weary months and
+                            years of waiting spent by <rs><persName type="nativeamerican" key="#lw"
+                                    >a lone Indian woman</persName></rs> on <placeName type="island"
+                                key="#i_scl">San Clemente island</placeName>, off the <placeName
+                                type="region" key="#re_socal">southern coast of
+                                California</placeName>, is yet to come.</span></p>
+                    <p>It has been many years since she was found and taken to a hospitable home in
+                            <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, and still
+                        no one has taken her wonderful experience as the theme for a novel, nor has
+                            <placeName type="island" key="#i_scl">San Clemente island</placeName>
+                        achieved notice because of her habitation thereon for <rs><date from="1835"
+                                to="1853">eighteen years</date></rs> in solitude. Along <placeName
+                            type="region" key="#re_socal">the southern coast of the
+                            State</placeName>
+                        <rs><placeName type="island" key="#i_scl">this island</placeName></rs> is
+                            <title type="article" key="#IllustratedAmerican1892">better known as the
+                            Island of Skulls</title> than by its geographical name, and while the
+                        peculiar features of the semi-desert bit of land have appealed to popular
+                        fancy little attention has been given to either <rs><persName
+                                type="nativeamerican" key="#lw">the marooned woman</persName></rs>
+                        or the reason why she was there. In fact, her very presence and rescue are
+                        almost looked upon as myths by the later residents who have gradually taken
+                        the places of the first population of <placeName type="county"
+                            key="#co_ventura">Ventura</placeName> and <placeName type="county"
+                            key="#co_sb">Santa Barbara</placeName> counties.</p>
+                    <p>San C[l]emente's shores are bleak and drear, guarded by inhospitable coasts,
+                        where rock and wave of restless ocean serve to keep off all except those who
+                        are driven by necessity or curiousity to visit the land. High cliffs,
+                        running up thousands of feet above the water, seem to guard the secrets of
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs>, and there is nothing inviting in the appearance
+                        or the prospects of the land. <span type="trope" n="3">For this reason all
+                            early navigators passed <rs><placeName type="island" key="#i_scl">the
+                                    island</placeName></rs> by, and thus it came about that
+                                    <rs><persName type="nativeamerican" key="#lw">the lone Indian
+                                    woman</persName></rs> finally ceased to hope for rescue, and,
+                            with the stolidity of <rs><orgName type="nativeamericantribes"
+                                    key="#natam_GabrilenoTongva">her race</orgName></rs>, abandoned
+                            herself to her fate, thinking, if she ever thought at all, that she
+                            would end her days near where <rs><persName type="nativeamerican"
+                                    key="#lwchild">her baby</persName></rs> had perished at the time
+                            she was left to live or die as fate willed.</span></p>
+                    <p><span type="trope" n="14">For <date from="1835" to="1853">eighteen long
+                                years</date> she had lived alone, eking out an existence from the
+                            shellfish which are so abundant on <rs><placeName type="island"
+                                    key="#i_chi">these California islands</placeName></rs>, and so
+                            far had her mind wandered from the normal that when <persName
+                                type="frontiersman" key="#gni">Captain Nidever</persName> happened
+                            to notice from the deck of <rs><name type="ship" key="#sh_nidever">his
+                                    vessel</name></rs> that a human being was on <rs><placeName
+                                    type="island" key="#i_scl">the island</placeName></rs>, she fled
+                            to the interior like some wild thing, afraid of her own kind. Nor was
+                            her rescue accomplished without a long search, and then almost a battle
+                            before she could be induced to accompany <rs><persName type="group"
+                                    key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                                    captors</persName></rs>.</span></p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">Record of
+                        Adventure.</hi></title></head>
+                    <p>There is still record of the captain's
+                        adventure<!--I cannot find any account of Nidever's that matches these quotes. If we do find it, it should be linked here. | RM-->,
+                        told in his own language, and from it we may learn of the conditions on
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs>, <date when="1853">more than thirty years
+                            ago</date>, when he found <rs><persName type="nativeamerican" key="#lw"
+                                >the solitary woman</persName></rs>. His is a plain, blunt tale,
+                        divested of all attempt at sensationalism, simply reciting the incident as
+                        if [it] were but one of many strange happenings which came to him in his
+                        roving life on the high seas.</p>
+                    <p>"Light winds and calms had marked the voyage up <rs><placeName type="region"
+                                key="#re_socalcoast">the coast</placeName></rs>," writes <persName
+                            type="frontiersman" key="#gni">Captain Nidever</persName>, "and as we
+                        came to <rs><placeName type="island" key="#i_scl">the outer
+                                island</placeName></rs> we were carried close in shore by a current.
+                        It was a clear day with but little wind and we could see everything on
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> plainly. As I looked up to the top of the high
+                        cliff which bordered the ocean I thought I saw a man, and on getting my
+                        glass I plainly made him out. He was without any clothing, and seemed to try
+                        to avoid being seen. I was sure it was some person who had been marooned and
+                        I made landing after anchoring just off shore in a little bay. I took
+                                <rs><persName type="group"
+                                key="#cdi; #col; #cook; #msh; #poli; #nsk; #hva">three
+                                sailors</persName></rs> with me and searched <rs><placeName
+                                type="island" key="#i_scl">the island</placeName></rs> for a long
+                        time without finding any one, but I saw that some one [sic] was there, for I
+                        came upon piles of shells from clams and other shellfish. When we got over
+                        toward t[h]e interior of <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs> we came upon a great pile of bones, among
+                        which were human skulls and leg and arm bones. It looked as if there had
+                        been a battle and a great number of people killed. We found a trail leading
+                        into the hills near a spring, and on following it we came upon <placeName
+                            type="region" key="#re_lwcave">a cave</placeName>. <span type="trope"
+                            n="14">Here we found a <rs><persName type="nativeamerican" key="#lw"
+                                    >woman</persName></rs> so wild that she fought and scratched us
+                            when we took hold of her. She had no weapons, but used her hands and
+                            rocks. We finally overpowered her and took her to <rs><name type="ship"
+                                    key="#sh_nidever">the vessel</name></rs>, where we gave her
+                            clothing to cover herself, as she was naked. I tried to talk to her, but
+                            she could not understand Spanish, English or any of the Indian languages
+                            which I knew.</span> She seemed frightened at first and we could not get
+                        anything out of her, but before we reached shore she tried to make signs
+                        which we could not understand. [I] took her to my house, where she stayed
+                        until she died, about a year later."</p>
+                    <p><rs><persName type="frontiersman" key="#gni">The captain</persName></rs> did
+                        not tell the entire story, for he was not a novelist and could not see the
+                        wonderful part of the incident. To him it was but a human being rescued and
+                        cared for, and [hi]s great heart did not stop with taking <rs><persName
+                                type="nativeamerican" key="#lw">the woman</persName></rs> from
+                                <rs><placeName type="island" key="#i_scl">her
+                            prison</placeName></rs>, but her welfare was looked after by him until
+                        she died.</p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">Remains a
+                        Mystery.</hi></title></head>
+                    <p><span type="trope" n="6">Who <rs><persName type="nativeamerican" key="#lw"
+                                    >this woman</persName></rs> was, what <rs><orgName
+                                    type="nativeamericantribes" key="#natam_GabrilenoTongva">her
+                                    tribe</orgName></rs>, and why she was left on <rs><placeName
+                                    type="island" key="#i_scl">the island</placeName></rs> for <date
+                                from="1835" to="1853">all those years</date>, are mysteries which
+                            will never be solved, for all who by any possibility might know
+                            something about it died long before she was taken to <placeName
+                                type="region" key="#re_mld">the mainland</placeName></span>. Two
+                        stories have remained from the day when she was taken to the home of
+                            <persName type="frontiersman" key="#gni">Captain Nidever</persName>,
+                        both, however, being surmises for she could never explain the cause of her
+                        exile. The most prevalent story, and at the same time the most improbable,
+                        is that when the Spanish owners of the land visited the island of <placeName
+                            type="island" key="#i_scl">San Clemente</placeName> they found
+                                <rs><orgName type="nativeamericantribes"
+                                key="#natam_GabrilenoTongva">a tribe of Indians</orgName></rs> on
+                        the verge of starvation, and decided to take them to <placeName
+                            type="region" key="#re_mld">the mainland</placeName>, where they could
+                        be cared for. All <persName type="group" key="#bhagroup">the
+                            Indians</persName> were taken to <rs><name type="ship"
+                                key="#sh_peoresnada">a vessel</name></rs>, and as they were
+                        preparing to set sail <rs><persName type="nativeamerican" key="#lw">this
+                                woman</persName></rs> remembered that she had left <rs><persName
+                                type="nativeamerican" key="#lwchild">her baby</persName></rs>
+                        behind. She rushed back after <rs><persName type="nativeamerican"
+                                key="#lwchild">the little one</persName></rs> and before she
+                        returned a storm arose which drove <rs><name type="ship"
+                                key="#sh_peoresnada">the ship</name></rs> to sea, and it was
+                        impossible to again make a landing. <rs><name type="ship"
+                                key="#sh_peoresnada">The vessel</name></rs> sailed for <placeName
+                            type="region" key="#re_mld">the mainland</placeName>, the authorities
+                        intending to return for <rs><persName type="nativeamerican" key="#lw">the
+                                woman</persName></rs> when the weather became settled, but as time
+                        passed she was forgotten and left to her fate. According to the story
+                                <rs><persName type="nativeamerican" key="#lwchild">the
+                                baby</persName></rs> died from exposure and hunger, but
+                                <rs><persName type="nativeamerican" key="#lw">the
+                            woman</persName></rs> lived on shell fish. The improbability of this
+                        story lies in the fact that <rs><persName type="group"
+                                key="#aji; #ndur; #misfats">the Spanish</persName></rs> who thought
+                        enough of humanity to take a whole <rs><orgName type="nativeamericantribes"
+                                key="#natam_GabrilenoTongva">tribe of Indians</orgName></rs> away
+                        from starvation would scarcely leave <rs><persName type="nativeamerican"
+                                key="#lw">a woman</persName></rs> to starve alone with <rs><persName
+                                type="nativeamerican" key="#lwchild">her baby</persName></rs>.</p>
+                    <p>That no tribe of Indians was taken from <rs><placeName type="island"
+                                key="#i_scl">the island</placeName></rs> is further established by
+                        the fact that when <rs><persName type="nativeamerican" key="#lw">the
+                                woman</persName></rs> was taken to <placeName type="city"
+                            key="#ci_sb">Santa Barbara</placeName> the Indians of the country for
+                        miles up and down <rs><placeName type="region" key="#re_socalcoast">the
+                                coast</placeName></rs> and in the interior were brought to see if
+                        they could talk with her. She could understand none of the languages, nor
+                        could any of the old Indians remember anything about the incident, nor could
+                        they understand even one word used by <rs><persName type="nativeamerican"
+                                key="#lw">the woman</persName></rs>. Through the sign language she
+                        made known a few of her wants, and by signs she told of the <date
+                            from="1835" to="1853">eighteen years</date> that had passed since she
+                        was left alone. It is extremely probable, however, that many more than
+                        eighteen years had passed, for the passage of time would be uncounted after
+                        a few years. This story is generally accepted because it is considered the
+                        most plausible by the unthinking, but to my mind the other story, even
+                        thought it be almost a legend, more readily accounts for the woman's
+                        presence on <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs>, as it also accounts for the numerous skeletons
+                        which are found scattered over the place.</p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">The Pirate
+                        Theory.</hi></title></head>
+                    <p><span type="trope" n="11">According to this second story <placeName
+                                type="island" key="#i_scl">San Clemente island</placeName> was at
+                            one time densely populated by a strong and war-like tribe of
+                                    <rs><orgName type="nativeamericantribes"
+                                    key="#natam_GabrilenoTongva">Indians</orgName></rs> which waged
+                            war on the tribes of <placeName type="region" key="#re_mld">the
+                                mainland</placeName> to such an extent that all communication
+                            between them was severed. <rs><orgName type="nativeamericantribes"
+                                    key="#natam_GabrilenoTongva">The island Indians</orgName></rs>
+                            were savage, and refused all connection with other tribes, and made a
+                            practice of eating those of their enemies who fell into their hands. It
+                            is supposed that <orgName type="nativeamericantribes" key="#natam_seri"
+                                >the Seri Indians</orgName> who now inhabit the <placeName
+                                type="island" key="#i_tib">Tiburón island</placeName> in the
+                                <placeName type="region" key="#re_calgulf">gulf of
+                                California</placeName> are a part of the same race, and are probably
+                            the descendants of those who were formerly the inhabitants of
+                                    <rs><placeName type="island" key="#i_scl">the Island of
+                                    Skulls</placeName></rs>.</span></p>
+                    <p><span type="trope" n="13">In the early days, so the story runs, <rs><persName
+                                    type="group"
+                                    key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                    >Russian pirates</persName></rs> sailed down the shores of
+                                <placeName type="state" key="#st_cal">California</placeName> and
+                            devastated all the towns along <placeName type="region"
+                                key="#re_calcoast">the coast</placeName>. <rs><persName type="group"
+                                    key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                    >These pirates</persName></rs> happened to be driven to
+                                    <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs> where <rs><orgName
+                                    type="nativeamericantribes" key="#natam_GabrilenoTongva">this
+                                    tribe</orgName></rs> made its home, and a battle ensued, which
+                            ended only with the extinction of <rs><orgName
+                                    type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                                    savages</orgName></rs> with the exception of <rs><persName
+                                    type="nativeamerican" key="#lw">one woman</persName></rs>, who
+                            hid in a <placeName type="region" key="#re_lwcave">cave</placeName>
+                            until <rs><persName type="group"
+                                    key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                    >the invaders</persName></rs> had departed.</span> This story
+                        accounts for the pile of bones which is still to be seen on <rs><placeName
+                                type="island" key="#i_scl">the island</placeName></rs>, but it, too,
+                        has the elements of the mythical, for it has been many years since
+                                <rs><persName type="group"
+                                key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                >Russian pirates</persName></rs> sailed the waters of the <placeName
+                            type="region" key="#re_calcoast">California coast</placeName>, and as
+                        there are no records of such devastation by <rs><persName type="group"
+                                key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                >these corsairs</persName></rs> it must be taken as the invention of
+                        some one [sic] who desired to account for the unaccountable. It is a fact
+                        that <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs>
+                        herself could not tell anything about either the reason for her isolation
+                        nor for the presence of the numerous skulls of human beings which lie
+                        scattered over a great space on one part of <rs><placeName type="island"
+                                key="#i_scl">the island</placeName></rs>.</p>
+                    <p><span type="trope" n="3">When found <rs><persName type="nativeamerican"
+                                    key="#lw">the woman</persName></rs> was strong and healthy, but
+                            good care and the confinement of civilized life did not agree with her,
+                            and she had been in the care of <persName type="frontiersman" key="#gni"
+                                >Captain Nidever</persName> but a few months until she sickened. It
+                            seemed as if the long life in the open air had brought about a bodily
+                            condition which resented the indoor life of civilization, and a cold
+                            soon changed into consumption, which carried her off despite all the
+                            care that could be given her.</span> When she died she was just
+                        beginning to talk a little English, but not enough to give any account of
+                        her adventures or of the cause of the pile of skulls and bones which lies
+                        scattered over <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs>. This being the case, we can but speculate
+                        on these causes, and one man's theory is as good as another's.</p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">Lived on Shell
+                        Fish.</hi></title></head>
+                    <p><span type="trope" n="14">According to the statements of <rs><persName
+                                    type="group" key="#gni; #cdi; #col">those who found the
+                                    woman</persName></rs>, she had lost the art of making a fire,
+                            and lived entirely on raw shell fish and such berries and roots as she
+                            found on <rs><placeName type="island" key="#i_scl">the
+                                    island</placeName></rs></span>. There had evidently been huts on
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> when <rs><orgName type="nativeamericantribes"
+                                key="#natam_GabrilenoTongva">the tribe</orgName></rs> was living
+                        there, but these had all been destroyed by the elements, and <rs><persName
+                                type="nativeamerican" key="#lw">the woman</persName></rs> made her
+                        habitation in <rs><placeName type="region" key="#re_lwcave">a
+                                cave</placeName></rs>, or rather depression in the side of the
+                        cliff, which formed a shelter from the wind and rain. Her domestic habit
+                        remained with her, as is evidenced by an immense pile of abalone shells near
+                        where she made her home. <span type="trope" n="14">A mass of seaweed and
+                            brush formed her bed, and, as she had no method of replenishing her
+                            clothing, she finally became naked, and it is probable that she went
+                            this way for many years.</span></p>
+                    <p>How she occupied her time, and why she did not cast herself into the sea
+                        rather than undergo the loneliness and desolation of her surroundings can be
+                        understood only by understanding the Indian mind. Her reversion to complete
+                        savagery, leaving nothing but the animal in her to fight for life against
+                        all the adverse circumstances surrounding her, was a natural sequence of the
+                        accident which marooned her, and even to the day of her death she showed a
+                        fear of other Indians, with the exception of <rs><persName
+                                type="nativeamerican" key="#natamwoman1">one woman</persName></rs>
+                        to whom she became deeply attached.</p>
+                    <p>The approach to <placeName type="island" key="#i_scl">San Clemente
+                            island</placeName> seems barred by the high cliffs which face the sea,
+                        but as one gets closer he finds numerous little bays and inlets, and except
+                        in stormy weather the landing is easy. The hills, which rise almost from the
+                        water's edge, present a most picturesque appearance, with deep indentations
+                        traversing them in every direction. Color and form blend admirably to make a
+                        beautiful picture, and give an inviting prospect which belies the dreary
+                        aspect presented after one lands on the island and goes into the interior.
+                        All the hills seem to be covered with the softest verdure; but as one gets
+                        closer it is noticed that the coloring comes from the earth and not from
+                        growth. These cliffs rise fully a thousand feet from the sea, and are the
+                        nesting place of myriads of sea birds of many kinds. <span type="trope"
+                            n="8">Here the murre, the tern, the gull and various other feathered
+                            inhabitants make their home, undisturbed by man or other enemy, and
+                            undoubtedly <rs><persName type="nativeamerican" key="#lw">the female
+                                    Crusoe</persName></rs>, who remained so long as their neighbor,
+                            must have utilized their eggs as a part of her food supply.</span></p>
+                    <p><span type="trope" n="5">Not the least strange feature of <rs><placeName
+                                    type="island" key="#i_scl">the island</placeName></rs> is a
+                            peculiar formation of rock which takes on queer and weird forms,
+                            resembling to a marked degree petrifactions of trees. Those who have
+                            been in <placeName type="city" key="#ci_mp">Monument Park</placeName>,
+                            in <placeName type="state" key="#st_co">Colorado</placeName>, will
+                            understand the idea, for it is very similar. Like so many small tree
+                            trunks, bereft of branches, these rocks rise in every direction, ranging
+                            in size from small saplings to trees a foot in diameter. Investigation
+                            shows, however, that they are not petrifactions, but are sandstone
+                            formations which have been cut by nature's sand blast into the shapes
+                            they now present. Standing erect, as they do, in the midst of a waste of
+                            sand, they present a most drear and desolate appearance. It looks as if
+                            some mighty cataclysm had swept over the place, arresting all growth,
+                            and preserving conditions of a dead and gone age.</span></p>
+                    <p><span type="trope" n="5">Were one to permit his imagination to run riot, as
+                            the conditions would warrant, he might well believe that the ghosts of
+                            those who had fought the battle which left the plain strewn with
+                            skeletons, were still standing guard over the land for which they
+                            struggled. Go there on some moonlight night and the feeling changes into
+                            the uncanny, and chills chase each other up and down the spines of even
+                            the bravest men. Some of these formations take on the appearance of
+                            animals, and some of human beings, while it is easy to see gnomes
+                            working their unholy spite against mortals who dare to invade their
+                            realm.</span></p>
+                    <p><span type="trope" n="5">It can readily be seen why the Indians of the
+                            mainland shun <rs><placeName type="island" key="#i_scl">this
+                                    island</placeName></rs>, and why it is impossible to get any of
+                            them to go ashore. They have the hereditary fear of <rs><orgName
+                                    type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                                    cannibals who once inhabited the place</orgName></rs> handed
+                            down through generations and changed with the changing times until now
+                            they no longer understand either cannibal or enemy in their terror, but
+                            fear the spirits of evil whom they believe haunt the place where so many
+                            bones attest the death of an unknown people.</span></p>
+                    <p><span type="trope" n="5">So deep rooted is the fear of <rs><placeName
+                                    type="island" key="#i_scl">the island</placeName></rs> that few
+                            of the mainland Indians will even talk about it or the sights that are
+                            to be seen there. They have heard of the dead bodies and of the strange
+                            formations and are content to let it rest with the hearing. They have
+                            not been to <rs><placeName type="island" key="#i_scl">the
+                                    island</placeName></rs> nor will they ever go unless they are
+                            driven there through stress of weather when they happen to be fishing
+                            off shore and are caught in a storm.</span></p>
+                </div>
+                <div type="section">
+                    <head><title type="section"><hi rend="bold">Skeletons of
+                        Humans.</hi></title></head>
+                    <p>Lying some eighty miles southwest of the city of <rs><placeName type="city"
+                                key="#ci_ven">San Buena Ventura</placeName></rs> and away from
+                                <rs><placeName type="island" key="#i_chi">the other islands of the
+                                Santa Barbara chain</placeName></rs> which forms the outer circle of
+                                <rs><placeName type="region" key="#re_sbchannel">the
+                                channel</placeName></rs> made famous because of its use by the
+                        national war ships in their trials of speed, <placeName type="island"
+                            key="#i_scl">San Clemente island</placeName> is little visited and
+                        little known. There is nothing on <rs><placeName type="island" key="#i_scl"
+                                >the island</placeName></rs> to invite those commercially
+                        incl[i]ned, and its archaeological opportunities have attracted but few
+                        scientists on account of the difficulty experienced in reaching
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> and the obstacles in the way of enjoying a
+                        sojourn there. For this reason, perhaps, <rs><placeName type="island"
+                                key="#i_scl">the island</placeName></rs> is little known. What is
+                        known is of a nature to invite only the most ardent student, for outside of
+                        the queer formations mentioned but two facts are of importance.</p>
+                    <p>Along <placeName type="regione" key="#re_mld">the mainland</placeName>, from
+                            <placeName type="region" key="#re_baja">Lower California</placeName>
+                        clear up to the <placeName type="region" key="#re_colriver">Columbia
+                            river</placeName> are to be found mounds containing what is known as
+                        kitchen-middens where vanished Indian tribes once had their homes. On
+                            <placeName type="island" key="#i_scl">San Clemente island</placeName> is
+                        a kitchen-midden of most peculiar nature, in that it is composed almost
+                        entirely of red abalone shells. These shells lie scattered all over a tract
+                        of <rs><placeName type="island" key="#i_scl">the island</placeName></rs>
+                        where <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                                >the tribe</orgName></rs> evidently had its permanent domicile, and
+                        as the wind blows and the sands shift these shells, change their position,
+                        become uncovered, and are again buried in the sand. Along the shore of
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> these abalones are found in great quanitities,
+                        and from the size of the pile of shells on the mound they evidently formed
+                        an important part of the provisions of <rs><orgName
+                                type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                                Indians</orgName></rs>.</p>
+                    <p>But it is to the skeletons of human beings that <rs><placeName type="island"
+                                key="#i_scl">the island</placeName></rs> owes its greatest
+                        prominence. On the side of a sand-covered slope, extending from the sea to
+                        the interior hills of <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs> are found hundreds of bones of men and
+                        women, and even of little children. Skulls by the dozen are there, and while
+                        nearly all of them have the characteristics of the savage races, some have
+                        the appearance of the Caucasian, and this leads to the belief that the bones
+                        are those of the men who fell in battle between <rs><orgName
+                                type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                                Indians</orgName></rs> and <rs><persName type="group"
+                                key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                                >Russian pirates</persName></rs>. The dry atmosphere of
+                                <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> has preserved the bones to such an extent that
+                        it is impossible to tell the age, or rather, the time that has elapsed since
+                        the people were killed. One of the strange features of these bones is the
+                        fact that none of them show indications of having been broken by weapons.
+                        The skulls are intact and in several instances the bones lie just as they
+                        would normally, there being no animals on <rs><placeName type="island"
+                                key="#i_scl">the island</placeName></rs> to disturb them.</p>
+                    <p>It is easy to see from an examination of these bones that two races are
+                        represented, for some of them are very large, while the most of them are of
+                        people under the average size. The bones of the women and children are all
+                        of the Indian type, but among the men many are large framed and the larger
+                        skulls show a higher type of intellect. This admixture of the skeletons of
+                        two distinct people is of itself a refutation of the belief that these
+                        skeletons are of a tribe that was swept away by an epidemic of by
+                        starvation.</p>
+                    <p>While many utensils used in grinding corn and in cooking are found scattered
+                        among the bones, and also among the shells of the kitchen-midden, neither
+                        spear nor arrow head is to be found. Possibly such as may have been there
+                        among the bones on the field of battle were carried away by the earlier
+                        discoverers of the place, who took the relics most easily cared for. It
+                        would seem probable that with all these skeletons there would be a few
+                        evidences of a fierce fight, but, as before mentioned, no bones show marks
+                        of wounds and no remains of weapons of any character are to be found.</p>
+                    <p>Several well-preserved Indian mortars used in grinding corn are scattered
+                        over the ground among the bones, and also among the abalone shells, and in
+                        several places are broken bits of pottery of the crudest kind. This pottery,
+                        as well as the mortars, has evidently been brought to the island, for there
+                        are no evidences of kilns for burning the pottery, and the mortars are made
+                        of a stone foreign to the island.</p>
+                    <p><span type="trope" n="11">Another legend which accounts for the presence of
+                            these bones is that <rs><placeName type="island" key="#i_scl">the
+                                    island</placeName></rs> was sacred to a certain tribe which used
+                            it only on ceremonial occasions when they took their prisoners there and
+                            held feasts on human flesh. According to this story no people inhabited
+                                    <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs>, but on periodical occasions this
+                            cannibalistic tribe went there, and after feasting, left the bones,
+                            which gradually accumulated. According to this theory <rs><persName
+                                    type="nativeamerican" key="#lw">the woman</persName></rs> who
+                            was rescued was one of the prisoners who escaped by some means and
+                            remained hidden away for many years, even after the coming of the whites
+                            caused a cessation of the savage rites.</span> Many things connected
+                        with the bones as well as with <rs><placeName type="island" key="#i_scl">the
+                                island</placeName></rs>, bear out this theory, and also account for
+                        the fact that no weapons have been found, and that the bones show no
+                        evidences of injury by w[o]unds.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

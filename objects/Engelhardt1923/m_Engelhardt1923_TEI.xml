@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#engelhardt_sbmission">
+                     Missions and Missionaries of California.</orgName></title>
+               <publisher>The James H. Barry Company</publisher>
+               <date when="1923"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Engelhardt1923">"The Lone Woman of San Nicolas" in
+                     Appendix H</title>
+                  <biblScope unit="page" from="449" to="452"/>
+                  <author><persName type="author" key="#fen">Engelhardt,
+                     Zephyrin</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="appendix">
+            <head><title type="main">H.</title>
+               <title type="sub"><rs><persName type="nativeamerican" key="#lw">THE LONE WOMAN OF SAN
+                        NICOLAS ISLAND</persName></rs>.</title></head>
+            <p>In <rs><date notBefore="1853" notAfter="1900">the latter part of the nineteenth
+                     century</date></rs> much was written and printed about <rs><persName
+                     type="nativeamerican" key="#lw">an Indian woman</persName></rs> said to have
+               been rescued from one of <placeName type="island" key="#i_chi">the Santa Barbara
+                  Channel Islands</placeName>. We have before us three different versions which
+               agree on the main points, but vary in details. In brief, the story is to the effect
+               that in <date when="1835">1835</date>
+               <persName type="group" key="#aji; #ndur; #misfats">the Fathers</persName> of <orgName
+                  type="mission" key="#mi_santabarbaramission">Santa Barbara Mission</orgName> had
+               the <emph><name type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> (<name
+                  type="ship" key="#sh_peoresnada">Worse is Nothing</name>), <persName type="seaman"
+                  key="#chu">Captain Charles Hubbard</persName>, sail over to <placeName
+                  type="island" key="#i_sn">San Nicolas Island</placeName>, the farthest from
+                  <placeName type="region" key="#re_mld">the mainland</placeName>, in order to bring
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     islanders</orgName></rs> to <rs><placeName type="region" key="#re_calcoast">the
+                     coast</placeName></rs>. The weather was stormy when <rs><name type="ship"
+                     key="#sh_peoresnada">the vessel</name></rs> reached <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs>. <persName type="group"
+                  key="#bhagroup">The Indians</persName>, about twenty in number, were hurried into
+               the boats, and all speed was made to reach <rs><name type="ship" key="#sh_peoresnada"
+                     >the schooner</name></rs>. In the excitement <rs><persName
+                     type="nativeamerican" key="#lwchild">a child</persName></rs> was left behind
+               which <rs><persName type="nativeamerican" key="#lw">the mother</persName></rs>
+               supposed had been carried aboard in the arms of <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >a sailor</persName></rs>. <rs><persName type="nativeamerican" key="#lw">The
+                     frantic mother</persName></rs> implored <rs><persName type="group"
+                     key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >the men</persName></rs> to return. <rs><persName type="seaman" key="#chu">The
+                     captain</persName></rs>, however, replied that he must reach a place of safety,
+               but that later they would go back for <rs><persName type="nativeamerican"
+                     key="#lwchild">the baby</persName></rs>. <span type="trope" n="9">Thereupon,
+                        <rs><persName type="nativeamerican" key="#lw">the mother</persName></rs>, a
+                  widow of about twenty-five years of age, jumped overboard and struck out through
+                  the kelpy waters for <rs><placeName type="island" key="#i_sn">the
+                        island</placeName>
+                  </rs> shore. In a moment she was lost in the seething waves. </span><rs><name
+                     type="ship" key="#sh_peoresnada">The ship</name></rs> with <persName
+                  type="group" key="#bhagroup">the affrighted islanders</persName> huddled together
+               on deck staggered through the boiling waves and storm, and eventually reached
+                  <placeName type="city" key="#ci_sp">San Pedro</placeName>. Some of <persName
+                  type="group" key="#bhagroup">the Indians</persName> were sent to <rs><placeName
+                     type="city" key="#ci_la">Los Angeles</placeName></rs>, others went to
+                     <rs><placeName type="city" key="#ci_sg">San Gabriel</placeName></rs>. <persName
+                  type="seaman" key="#chu">Captain Hubbard</persName> wanted to return to <placeName
+                  type="island" key="#i_sn">San Nicolas Island</placeName>, but <rs><name
+                     type="ship" key="#sh_peoresnada">the ship</name></rs> was in demand on
+                     <rs><placeName type="region" key="#re_calcoast">the coast</placeName></rs>, and
+               so <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> and
+                     <rs><persName type="nativeamerican" key="#lwchild">her babe</persName></rs>
+               were forgotten.</p>
+            <p>Their uncertain fate lay heavy on<persName type="group" key="#aji; #ndur; #misfats"
+                  >the kind-hearted Mission Fathers</persName>; but it was not till <date
+                  when="1850">1850</date> that <persName type="missionfather" key="#jru">Fr.
+                  González Rúbio</persName> found a man, <persName type="seaman" key="#tje">Thomas
+                  Jeffries</persName>, who for $200 agreed to visit <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> and bring over <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> and <rs><persName
+                     type="nativeamerican" key="#lwchild">child</persName></rs>. He made the
+               attempt, but found no living being on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. <rs><date when="1851">In the following
+                  year</date></rs>, <persName type="frontiersman" key="#gni">George
+                  Nidever</persName> of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, a convert to the Catholic Faith, accompanied by <persName
+                  type="seaman" key="#tje">Jeffries</persName> and a crew of Indians, sailed over to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, and remained there
+               six weeks without discovering any trace of <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>. In <date when="1852">1852</date> another
+               unsuccessful trip was made. In <date when="1853-07">July, 1853,</date>
+               <persName type="frontiersman" key="#gni">Mr. Nidever</persName> made one more attempt
+               in company with <persName type="frontiersman" key="#cdi">Carl Ditman</persName>,
+                  <emph>alias</emph>
+               <rs><persName type="frontiersman" key="#cdi">Charlie Brown</persName></rs>,
+                     <rs><persName key="#col">an Irish cook</persName></rs>, and <rs><persName
+                     type="group" key="#cook; #msh; #poli; #nsk; #hva">a crew of Mission
+                     Indians</persName></rs>. This time <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs> was discovered, and willingly came along to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, where <rs><persName
+                     type="group" key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">Nidever
+                     had his family</persName></rs> care for her in his own house. Whatever her
+               language, no one could be found along <rs><placeName type="region" key="#re_calcoast"
+                     >the coast</placeName></rs> who understood her, nor could she make out what was
+               said to her in Spanish or in any of the dialects spoken among the shore Indians.
+                  <span type="trope" n="10">So she managed to make herself understood by means of
+                  signs.</span> When discovered she wore a gown made of bird skins and feathers.
+                  <span type="trope" n="14">On shore she enjoyed her new life, and displayed no
+                  symptoms of ferocity.</span>
+               <span type="trope" n="3">She would go around to different homes and dance Indian
+                  dances, <persName type="frontiersman" key="#gni">Mr. Nidever</persName> relates.
+                  Clothes were her especial delight.</span> Unfortunately, change of diet cut short
+               the life of <rs><persName type="nativeamerican" key="#lw">Juana
+               Maria</persName></rs>; for under that name she was conditionally baptized by
+                  <persName type="missionfather" key="#sanchez">Father Sanchez</persName>, according
+               to <rs><persName type="frontiersman" key="#cdi">Brown</persName></rs>. She would
+               doubtless have lived many years, had some caution been exercised with regard to her
+               food; but she was supplied to her heart's content with dainty foods, from which she
+               gradually sickened and died. It was also claimed that <rs><persName
+                     type="nativeamerican" key="#lw">Juana Maria</persName></rs> after her death
+               found her resting-place in the cemetery of <placeName type="mission" key="#mi_sb"
+                  >Santa Barbara Mission</placeName>. Such is the story in brief of <rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman of San Nicolas
+                  Island</persName></rs>.</p>
+            <p>Were it not that Mr. Nidever's fame for veracity appears above suspicion, we should
+               declare the whole story a myth, for the reason that, after a close examination of the
+               Baptismal Registers at <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs> and at <placeName key="#sbparishchurch">the Parish
+                  Church of Santa Barbara</placeName>, we failed to discover any entry recording the
+               woman's Baptism in either <rs><placeName type="mission" key="#mi_sb">the
+                     Mission</placeName></rs> or <placeName key="#sbparishchurch">the Parish Church
+               </placeName>. Likewise, there is no record noted of her burial in the Mission
+               Cemetery.</p>
+            <p>"That the story is literally true," writes <persName type="author" key="#sbo">Stephen
+                  Bowers</persName> in the <title type="article" key="#Bowers1892"><emph>Ventura
+                     Observer</emph></title>, <date when="1892-12-20">December 20, 1892</date>,
+               "there can be no doubt whatever. We received it from Captain Nidever's own lips
+               several years before his death. <rs><persName type="author" key="#sbo">The
+                     writer</persName></rs> was personally acquainted with him from <date
+                  when="1874">1874</date> until his death which occurred about <date when="1886"
+                  >1886</date>. He was much respected in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, where he lived more than fifty years. We never heard his
+               integrity called in question by anyone. . . . The account may also be found in the
+               archives of <placeName type="mission" key="#mi_sb">the Santa Barbara
+                  Mission</placeName>, preserved by <rs><orgName type="missionfathers"
+                     key="#misfats">the Mission Fathers</orgName></rs>. We secured a translation of
+               their record of the event by <rs><persName key="#spanscholar">a competent Spanish
+                     scholar</persName></rs>
+               <rs><date when="1908">fifteen years ago</date></rs>."</p>
+            <p><persName type="author" key="#hba">Bancroft</persName> corroborates what <persName
+                  type="author" key="#sbo">Mr. Bowers</persName> says of <persName
+                  type="frontiersman" key="#gni">Mr. Nidever</persName>; but the last statement
+               regarding the presence in <placeName key="#sbmarchive">the Mission
+                  Archives</placeName> of a paper or document containing the story of <rs><persName
+                     type="nativeamerican" key="#lw">the Lone Woman</persName></rs> we cannot
+               verify. We found no such account among the numerous papers in <placeName
+                  key="#sbmarchive">the Mission Archives</placeName> nor anywhere else.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

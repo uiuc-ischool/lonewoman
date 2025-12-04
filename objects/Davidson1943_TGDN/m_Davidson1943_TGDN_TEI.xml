@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#gdn">Galveston Daily
+                     News</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">162nd year</biblScope>
+               <biblScope unit="issue">100</biblScope>
+               <date when="1943-07-19"/>
+               <pubPlace><placeName type="city" key="#ci_galveston">Galveston</placeName>,
+                     <placeName type="state" key="#st_tx">Texas</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Davidson1943_TGDN">Ghost of California Island Is
+                     Discovered To Be Indian</title>
+                  <biblScope unit="page" n="8"/>
+                  <author><persName type="author" key="#gdav">Davidson, Garber</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">Ghost of
+                        California Island</persName></rs> Is Discovered To Be Indian</title></head>
+            <byline><hi rend="bold">By <persName type="author" key="#gdav">GARBER
+                     DAVIDSON</persName></hi></byline>
+            <dateline><placeName type="city" key="#ci_la">Los Angeles, Cal.</placeName>, <date
+                  when="1943-07-18">July 18</date> [...]</dateline>
+            <p><rs><persName type="nativeamerican" key="#lw">The ghost of the Channel
+                     Islands</persName></rs> hasn't bothered anybody for <rs><date from="1853"
+                     to="1943">90 years</date></rs>or so, but, just in case anyone is still worrying
+               about it, a bunch of scientists have come up with a scientific conclusion, which
+               might be expressed unscientifically as:</p>
+            <p>"That wasn't no ghost. That was <rs><persName type="nativeamerican" key="#lw">an
+                     Indian lady</persName></rs>."</p>
+            <p>This whole thing started back in <date when="1853">1853</date> when <rs><persName
+                     type="group" key="#gni; #cdi; #nativeamericans">seamen</persName></rs>, sailing
+               their old windjammers past lonely <placeName type="island" key="#i_sn"> San Nicholas
+                  Island</placeName>, 65 miles off <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName>, told of seeing a dark figure silhouetted on the bleak
+               shoreline. <rs><placeName type="island" key="#i_sn">The barren, windswept
+                     island</placeName></rs> was uninhabited, so far as anyone knew, and naturally
+               the phenomenon occasioned much comment in the coastal grogshops or wherever it was
+               those old sailors used to congregate.</p>
+            <p>Well, the story recently attracted the attention of <persName type="author"
+                  key="#awo">Arthur Woodward</persName>, present archaeologist of the <orgName
+                  type="museum" key="#mu_lacountymuseum">Los Angeles County Museum</orgName>, so
+                     <rs><persName type="group" key="#woodwardparty1939">he and a group of
+                     associates</persName></rs> went to work, and the results of their studies
+               became known today. The investigation revealed that there was really more basis for
+               this ghost story than for most such yarns, anyway.</p>
+            <p><persName type="author" key="#awo">Woodward</persName> described how the
+                     <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">mission
+                     fathers</persName></rs> on the <placeName type="region" key="#re_mld"
+                  >mainland</placeName>, definitely not believing in ghosts but anxious to find out
+               who or what was spooking up <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>, hired one <persName type="frontiersman" key="#gni"
+                  >Capt. George Nidever</persName>, a sea otter hunter, and Indian fighter from
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, to investigate, he
+               presumably being fresh out of sea otters to hunt or Indians to fight.</p>
+            <p><title type="manuscript" key="#Nidever1878">His diary</title> of <rs><date
+                     when="1853-08">an August day in 1853</date></rs> reads&#8212;"At a distance
+               along a high ridge we saw a small, black object. As we neared we saw that it was
+                     <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs> in an
+               open hut. She was old. She was an Indian, busily employed in stripping blubber from a
+               piece of seal skin held across one knee.</p>
+            <p>"<rs><persName type="frontiersman" key="#cdi">Charley</persName></rs> (one of
+                     <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the
+               crew</persName></rs>) stepped around in front of her, and, instead of showing any
+               alarm, she smiled and bowed, chattering away in a language wholly
+               unintelligible."</p>
+            <p><title type="manuscript" key="#Nidever1878">The diary</title> proceeds. She was the
+               silhouette the passing ships had seen. <span type="trope" n="6">She was the last
+                  living link with <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">an ancient civilization</orgName></rs> on
+                        <rs><placeName type="island" key="#i_sn">this
+               island</placeName></rs></span>.</p>
+            <p><rs><date when="1835">Eighteen years previously</date></rs>, says <rs><title
+                     type="manuscript" key="#Nidever1878">the diary</title></rs>, <rs><persName
+                     type="group" key="#aji; #ndur; #misfats">the mission fathers</persName></rs>
+               heard that <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     Indian people</orgName></rs> on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> were starving and sent <persName type="investor"
+                  key="#isp">Isaac Sparks</persName> to remove <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  islanders</orgName></rs>.</p>
+            <p><persName type="investor" key="#isp">Sparks</persName> and <rs><persName type="group"
+                     key="#1835crew; #chu; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >his crew</persName></rs> gathered the <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">surviving dozen Indian men, woman and
+                     children</orgName></rs> on the beach. Just as they were preparing to leave,
+                     <rs><persName type="nativeamerican" key="#lw">one young woman</persName></rs>
+               demanded that she be permitted to go back to the village for <rs><persName
+                     type="nativeamerican" key="#lwchild">her baby</persName></rs>. This was
+               granted, but a squall came up and <persName type="investor" key="#isp"
+                  >Sparks</persName>, fearing <rs><name type="ship" key="#sh_peoresnada">his
+                     ship</name></rs> would be wrecked, took the rest of <persName type="group"
+                  key="#bhagroup">the Indians</persName> and sailed for <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName>.</p>
+            <p>Why the <rs><persName type="nativeamerican" key="#lw">Indian mother</persName></rs>
+               was not rescued for <rs><date from="1835" to="1853">the next 18 years</date></rs> has
+               not been determined. When <persName type="frontiersman" key="#gni">Capt.
+                  Nidever</persName> found her, she was alone. <span type="trope" n="10">Later she
+                  made known in sign language that <rs><persName type="nativeamerican"
+                        key="#lwchild">her baby</persName></rs> had been killed by wild
+               dogs.</span></p>
+            <p>Coming now to <date when="1943-07">July, 1943</date>, some of this story has been
+               confirmed, and its long background unearthed by <persName type="author" key="#awo"
+                  >Archeologist Woodward</persName> and associates. <rs><persName type="group"
+                     key="#woodwardparty1939">This group</persName></rs> has just completed the
+               records, found in graves and village sites, of the <placeName type="island"
+                  key="#i_chi">channel islands</placeName>, <placeName type="island" key="#i_sn">San
+                  Nicholas</placeName>, <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, <placeName type="island" key="#i_scruz">Santa
+                  Cruz</placeName>, <placeName type="island" key="#i_sm">San Miguel</placeName> and
+                  <placeName type="island" key="#i_sr">Santa Rosa</placeName>.</p>
+            <p>On one expedition, <persName type="author" key="#awo">Woodward</persName> followed
+               the explicit directions of <persName type="frontiersman" key="#gni">Capt.
+                  Nidever</persName> to the place where <rs><persName type="nativeamerican"
+                     key="#lw">the lone mother</persName></rs> was found. <rs><persName type="group"
+                     key="#woodwardparty1939">Woodward's party</persName></rs> came upon a hut,
+               presumably the one where <rs><persName type="nativeamerican" key="#lw">the Indian
+                     mother</persName></rs> had lived. Still standing were a score or more of
+               whalebones which had been the framework of the hut.</p>
+            <p>As <rs><persName type="group" key="#woodwardparty1939">the scientists</persName></rs>
+               pieced out the pre-history of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">her ancestors</orgName></rs>, the <placeName
+                  type="island" key="#i_chi">channel islands</placeName> were inhabited by
+                     <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">sea-bred
+                     Indian fishermen</orgName></rs>, for uncounted ages before the Spaniards
+               arrived.</p>
+            <p>Material collected by archeologists, biologists and other scientists indicates that
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">these
+                     Indians</orgName></rs> subsisted almost entirely on what they could get from
+               the sea. <rs><placeName type="island" key="#i_chi">The islands</placeName></rs>
+               appear to have been too barren for agriculture.</p>
+            <p>When the Spaniards appeared on <placeName type="region" key="#re_calcoast">the
+                  coast</placeName>, some of <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     islanders</orgName></rs> drifted to the <placeName type="region" key="#re_mld"
+                  >mainland</placeName>. During <rs><date notBefore="1800-01-01"
+                     notAfter="1850-12-31">the first part of the 19th century</date></rs> there was
+               a rapid decline in <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the island
+                     populations</orgName></rs>, due mainly to the diseases of civilization.</p>
+            <p><span type="trope" n="3">What finally happened to <rs><persName type="nativeamerican"
+                        key="#lw">the lone mother</persName></rs> is a good example. She was taken
+                  to the <placeName type="region" key="#re_mld">mainland</placeName>, baptized and
+                  christened Juana Maria. But civilization's bounty was too much for her. She died
+                  in a few weeks. <persName type="frontiersman" key="#gni">Capt. Nidever</persName>
+                  recorded that he thought her death was due to eating too much fruit.</span></p>
+            <note>Copyright 2013 The Galveston County Daily News. Republished with permission of The
+               Galveston County Daily News. No further republication or redistribution is permitted
+               w/o the written consent of The Daily News.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

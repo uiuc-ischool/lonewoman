@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph" key="#Doran1980">Pieces of Eight Channel Islands: A
+                  Bibliographical Guide and Source Book.</title>
+               <editor/><publisher><orgName type="publisher" key="#aclco">Arthur H. Clark
+                     Company,</orgName></publisher>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <pubPlace><placeName type="city" key="#ci_gl">Glendale</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Doran1980">The Lone Woman of San Nicolas: An
+                     Evaluation of the Bibliography with Discussion of Historical Events</title>
+                  <biblScope unit="page" from="32" to="43"/>
+                  <author><persName type="author" key="#aldo">Doran, Adelaide
+                     LeMert</persName></author>
+                  <date when="1980"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <div type="section">
+               <head><title type="main"><rs><persName type="nativeamerican" key="#lw">THE LONE WOMAN
+                           OF SAN NICOLAS</persName></rs></title>
+                  <title type="sub">AN EVALUATION OF THE BIBLIOGRAPHY WITH DISCUSSION OF THE
+                     HISTORICAL EVENTS</title></head>
+               <p><rs><persName type="nativeamerican" key="#lw">Juana María</persName></rs>, an
+                  Indian woman, was "accidentally" left to her fate for <rs><date from="1835"
+                        to="1853">eighteen years</date></rs> on the <placeName type="island"
+                     key="#i_sn">island of San Nicolas</placeName> in <date when="1835">1835</date>.
+                  The other remaining <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">native inhabitants</orgName></rs> were removed
+                  to <placeName type="region" key="#re_mld">the mainland</placeName> in <date
+                     when="1835">1835</date> on the <name type="ship" key="#sh_peoresnada"
+                        ><emph>Peor es Nada</emph>, Better-than-Nothing</name>. No one seems to know
+                  exactly who instigated the removal.</p>
+               <p><persName type="investor" key="#isp">Isaac Sparks</persName> had chartered
+                        <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs> at
+                     <placeName type="city" key="#ci_mo">Monterey</placeName>, and with his group
+                  had gone otter-hunting in <placeName type="region" key="#re_baja">Lower
+                     California</placeName> just prior to the tragedy. The accidental incident was
+                  apparently common knowledge, but not much attention was paid to this mother's
+                  plight by those responsible or capable of helping her.</p>
+               <p>The reason given for the hunters leaving <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> so abruptly was that the day was increasing in
+                  storminess and there was fear of total disaster at sea. <span type="trope" n="9"
+                     >Perhaps the otter-hunters had intended to return for <rs><persName
+                           type="nativeamerican" key="#lw">this poor soul</persName></rs>, who had
+                     swum to shore in order to pick up <rs><persName type="nativeamerican"
+                           key="#lwchild">her baby</persName></rs> left in the hills.</span> And
+                  besides, what was one or two Indian lives, as compared to the quest for quick
+                  profit.</p>
+               <p>No one will ever know exactly what happened on that fateful day or for <rs><date
+                        from="1835" to="1853">the next eighteen years</date></rs> of the woman's
+                  life. In <date when="1853">1853</date>
+                  <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Dittmann</persName> accomplished the mission of
+                  finding her and taking her to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, where she lived with <rs><persName type="group"
+                        key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">the Nidever
+                        family</persName></rs> until her death. By <date when="1853">1853</date>,
+                  however, <rs><persName type="nativeamerican" key="#lw">the Lone
+                     Woman</persName></rs> was unable to communicate, and died shortly thereafter,
+                  probably from her inability to tolerate a change of diet.</p>
+               <p>We are left with any number of accounts, some quite fragmentary. The first
+                  complete reference did not find its way into print until <rs><date when="1856"
+                        >three years after</date></rs>
+                  <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs> was
+                  finally 'rescued' in <date when="1853">1853</date>. This story came through
+                     <persName type="author" key="#cru">Russell</persName>, "<title type="article"
+                     key="#Russell1856_HCF">Narrative of a Woman who was Eighteen Years Alone upon
+                     the Island of San Nicolas, Coast of California</title>," published by
+                     <emph>Hutchings' California Magazine</emph> [P27, <date when="1856"
+                  >1856</date>].</p>
+               <p><title type="article" key="#Russell1856_HCF">Russell's account</title> was
+                  obtained from <persName type="frontiersman" key="#gni">Nidever</persName> while
+                  they were both on the island of <placeName type="island" key="#i_sm">San
+                     Miguel</placeName>, each pursuing his own business. It was even <rs><date
+                        when="1878">twenty-five years after</date></rs> the woman's rescue by
+                     <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Dittmann</persName> that their <title
+                     type="manuscript" key="#Nidever1878">separate</title>
+                  <title type="mauscript" key="#Dittman1878">interviews</title> were recorded by
+                     <persName type="author" key="#emu">Murray</persName> in <date when="1878"
+                     >1878</date>.</p>
+               <p>The following information presented to the reader is not a repetition of the
+                  story, but rather a discussion of the literature on the subject. Such literature
+                  is sometimes contradictory in detail; but throughout the material the main threads
+                  of the incident remain intact. There will probably never be a completely accurate
+                  rendition of the Lone Woman story.</p>
+               <p>The reader is left to seek recommended references for a fuller accounting than
+                  given within these pages, or choose to glean from these evaluated references what
+                  was under discussion during that period of time. A chart at the end of the
+                  discussion is included; it should be helpful to the reader in identifying the
+                  various personalities involved.</p>
+               <p>Readers will do well to obtain the manuscripts of <title type="manuscript"
+                     key="#Nidever1878">Nidever</title> and <title type="manuscript"
+                     key="#Dittman1878">Dittmann</title> for their basics on the Juana María tale.
+                  These may be obtained through the <orgName type="institution" key="#bancroft"
+                     >Bancroft Library</orgName>. Excerpts from such, as well as a compilation of
+                  the literature through Heizer and Elsasser [U13, <date when="1961">1961</date>],
+                  are within comparatively easy access. Ellison [B51, <date when="1937"
+                  >1937</date>], contains the story of Nidever's life, and is another fine source
+                  for <rs><persName type="nativeamerican" key="#lw">the Lone
+                  Woman</persName></rs>.</p>
+               <p>Only one other recommended-for-reading account of <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs> is Hardacre's
+                     "<title type="article" key="#Hardacre1880_SM">Eighteen Years Alone</title>,"
+                  published by <emph><title type="article" key="#Hardacre1880_SM">Scribner's
+                        Monthly</title></emph> [P123, <date when="1880">1880</date>]. The rest of
+                  the literature, although possibly furnishing some insights, are fragmentary or
+                  emersed in fanciful remarks that obscure the real story, and are therefore more
+                  questionable. However, they should be considered in the literature on
+                        <rs><persName type="nativeamerican" key="#lw">the Lone
+                  Woman</persName></rs>.</p>
+               <p><rs><persName type="author" key="#aldo">The author</persName></rs> begins with the
+                  older references starting with the year <date when="1893">1893</date>, which are
+                  basically the least acceptable, and moves toward the two manuscripts on <title
+                     type="manuscript" key="#Nidever1878">Nidever</title> and <title type="article"
+                     key="#Dittman1878">Dittmann</title>, taken by <persName type="author"
+                     key="#emu">E. F. Murray</persName> in <date when="1878">1878</date>, the only
+                  first person accounts available.</p>
+               <p>Beginning with Gibbons' account, "<title type="article" key="#Gibbons1893">The
+                     Wild Woman of San Nicolas Island</title>" [P15, <date when="1893">1893</date>],
+                  we find some unreliability, thus creating skepticism of his article. <persName
+                     type="author" key="#jgi">Gibbons</persName> said that the reason the story</p>
+               <p>can be so given now is due to the zeal and the thoughtfulness of <persName
+                     key="#dth">Mr. D. W. Thompson</persName>, one of the fathers of the
+                        <rs><placeName type="city" key="#ci_la">City of Flowers</placeName></rs>,
+                  and to him we are indebted for a decidedly curious page of history. In <date
+                     when="1882">1882</date>
+                  <persName key="#dth">Mr. D. W. Thompson</persName>, accompanied by <rs><persName
+                        key="#reporter4">a shorthand reporter [unnamed]</persName></rs>, sought out
+                  those principal actors&#8212;the venerable pioneers <persName type="frontiersman"
+                     key="#gni">George Nidever</persName> and <rs><persName type="frontiersman"
+                        key="#cdi">Charlie Brown</persName></rs>&#8212;and by elaborate questioning
+                  obtained full particulars connected with the unfortunate woman's career.</p>
+               <p><title type="article" key="#Gibbons1893">Gibbons' article</title> was in
+                  no-less-than C. F. Holder's <emph>Californian Illustrated</emph>, <date
+                     when="1893">1893</date>. Usually <persName type="author" key="#cho"
+                     >Holder</persName> can be relied upon for quality, with a little flair, but
+                     <title type="article" key="#Holder1892">this article</title> is less than
+                  satisfactory; a mixture of fanciful quotes and statements; it ended with,</p>
+               <p>not until her very nature was so changed that she had become contented with her
+                  lot and had ceased her cry of "Manequauna" to the passing ships, were any measures
+                  taken to remove her from <rs><placeName type="island" key="#i_sn">her rocky
+                        isle</placeName></rs>. Then they carried her off, <rs><persName
+                        type="nativeamerican" key="#lw">unfortunate Juana María
+                        Better-than-Nothing</persName></rs>! <span type="trope" n="6">White men made
+                     her suffer. She lost <rs><persName type="nativeamerican" key="#lwchild">her
+                           babe or babies</persName></rs>; she lost her family; she lost the
+                     knowledge of her language; and at last, poisoned by the luxuries of a more
+                     civilized race, she lost her life.</span></p>
+               <p>This quotation alone gives <title type="article" key="#Gibbons1893">Gibbons'
+                     article</title> value in the literature on <rs><persName type="nativeamerican"
+                        key="#lw">that poor soul</persName></rs>, a human being, left by
+                  otter-hunters and others to her fate.</p>
+               <p>Herein follows a discussion of some of the little known local history for that
+                  period, which includes the name of <persName key="#dth">D. W. Thompson</persName>,
+                  and others.</p>
+               <p>We are faced with the fact that we know nothing about Gibbons' source information,
+                     <persName key="#dth">D. W. Thompson</persName> and <rs><persName
+                        key="#reporter4">the shorthand reporter</persName></rs>, <date when="1882"
+                     >1882</date>. Was <persName key="#dth">Thompson</persName>, for instance,
+                     <persName key="#dwildes">Dixie [Dixey] Wildes Thompson</persName>, the nephew
+                  of <persName key="#abt">Alpheus B. Thompson</persName>? This appears conceivable.
+                     <persName key="#abt">Alpheus</persName> had been assured half-ownership of
+                     <placeName type="island" key="#i_sr">Santa Rosa Island</placeName> through his
+                  father-in-law, <persName key="#ccar">Carlos Carrillo</persName>.</p>
+               <p>A <persName key="#dwildes">Captain Dixey Wildes</persName> owned the <emph><name
+                        type="ship" key="#sh_paragon">Paragon</name></emph>, built in <placeName
+                     type="state" key="#st_ma">Massachusetts</placeName> in <date when="1815"
+                     >1815</date>, with the <emph><name type="ship" key="#sh_paragon"
+                     >Paragon</name></emph> doing business in sandalwood in the <placeName
+                     type="island" key="#i_san">Sandwich Islands</placeName>&#8212;as did the
+                        <rs><persName type="group" key="#jwin; #nwi">Winship
+                     brothers</persName></rs> and <persName type="seaman" key="#wdavis">Captain
+                     William Heath Davis, Sr.</persName> [See <persName type="author" key="#gast"
+                     >Gast</persName>, <emph>Contentious Consul, A Biography of John Coffin
+                     Jones</emph>, <date when="1976">1976</date>.]</p>
+               <p>It was the <emph><name type="ship" key="#sh_paragon">Paragon</name></emph> of
+                     <orgName key="#marwil">Marshall and Wildes</orgName> that took <persName
+                     key="#jcj">John Coffin Jones</persName> to the <placeName type="island"
+                     key="#i_san">Sandwich Islands</placeName> in <date when="1821">1821</date>,
+                  where <persName key="#jcj">Jones</persName> served as the business representative
+                  for the maritime merchantile merchants of that company. <persName key="#jcj"
+                     >Jones</persName> also 'informally,' but directly, served as the representative
+                  for the<orgName type="government" key="#gov_usa">United States</orgName> as
+                  Consul.</p>
+               <p>It was <orgName key="#marwil">Marshall and Wildes</orgName> who made <persName
+                     key="#abt">Alpheus B. Thompson</persName> a subordinate to <persName key="#jcj"
+                     >John Coffin Jones</persName>, to serve as supercargo on several of the firm's
+                  vessels. <persName key="#abt">Alpheus</persName> was being sponsored by his uncle,
+                     <persName key="#dwildes">Captain Dixey Wildes</persName> [Gast].</p>
+               <p>In the meantime <persName key="#abt">Alpheus</persName> moved to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> and in the year <date
+                     when="1834">1834</date>
+                  <persName key="#dth">Dixie Wildes Thompson</persName> began his career in
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> by working for
+                  his uncle <persName key="#abt">Alpheus B. Thompson</persName>, on the island of
+                     <placeName type="island" key="#i_sr">Santa Rosa</placeName> [B53]. For such
+                  purposes <persName key="#dth">Dixie Thompson</persName> had purchased the
+                  steamship, <emph><name type="ship" key="#sh_sophia">Sophia</name></emph>.</p>
+               <p>This <persName key="#dth">Thompson, D. W.</persName>, was one of those who later
+                  laid a claim against <persName key="#jcj">J. C. Jones</persName> in the A. B.
+                  Thompson/J. C. Jones litigation suit, as did <persName type="investor" key="#lbu"
+                     >Luis Burton</persName>&#8212;only to find that such financial obligation for
+                  the care of livestock on <rs><placeName type="island" key="#i_sr">the
+                        island</placeName></rs> was the obligation of <persName key="#abt">A. B.
+                     Thompson</persName>, not that of <persName key="#jcj">J. C. Jones</persName>.
+                  Such are the ramifications of this period of history [Gast].</p>
+               <p>To keep the topic of <persName key="#dth">D. W. Thompson</persName> completely
+                  unclear, we are given the information by <persName type="author" key="#awo"
+                     >Woodward</persName> [J367, <date when="1938">1938</date>], that in his
+                  Southwest Museum researches he discovered <title type="manuscript"
+                     key="#Terry1882">an unpublished interview of George Nidever</title>, made by a
+                     <persName key="#jte">J. Terry</persName> in <date when="1882">1882</date>.
+                     <persName key="#fhodge">F. W. Hodge</persName> was Director of the <orgName
+                     type="musuem" key="#mu_southwest">Southwest Museum</orgName> at the time that
+                     <persName type="author" key="#awo">Woodward</persName> was doing some of his
+                  research on <rs><persName type="nativeamerican" key="#lw">the Lone
+                        Woman</persName></rs>.</p>
+               <p>Although this interview reference does not appear to have been used, could this
+                     <persName key="#jte">J. Terry</persName> be the unnamed reporter connected with
+                     <persName key="#dth">D. W. Thompson</persName> in <date when="1882"
+                  >1882</date>, and from whom <persName type="author" key="#jgi">Gibbons</persName>
+                  obtained his information?</p>
+               <p>Another article of questionable value is Stephen Bowers' <date when="1892"
+                     >1892</date> account of "<title type="article" key="#Bowers1892">The Lone Woman
+                     of San Nicolas</title>" [M27]. It was <rs><persName type="author" key="#dbo"
+                        >DeMoss Bowers</persName></rs>, son of <persName type="author" key="#sbo"
+                     >Stephen</persName>, who wrote to <persName key="#all">Dr. Alliot</persName> of
+                  the <orgName type="musuem" key="#mu_southwest">Southwest Museum</orgName> in <date
+                     when="1916">1916</date>, to remind <persName key="#all">Dr. Alliot</persName>
+                  that his father, <persName type="author" key="#sbo">Stephen</persName>, had sent
+                  his personal material on <rs><persName type="nativeamerican" key="#lw">the Lone
+                        Woman</persName></rs> to <rs><orgName type="musuem" key="#mu_southwest">the
+                        museum</orgName></rs>.</p>
+               <p><title type="article" key="#Bowers1892">Bowers' pamphlet</title> is a reprint from
+                  the Ventura <emph>Weekly Observer</emph> under the dates of <rs><date
+                        when="1892-12-09">December 9</date></rs>, <date when="1892-12-16">16</date>,
+                  and <date when="1892-12-20">20</date> of 1892 [M95]. <persName type="author"
+                     key="#sbo">Dr. Bowers</persName> was the editor of the <orgName
+                     type="publication" key="#venturaobserver"><emph>Weekly
+                     Observer</emph></orgName>, having come West in <date when="1869">1869</date>,
+                  living in the <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>/<placeName type="city" key="#ci_ven">Ventura</placeName>
+                  area between <date notBefore="1894" notAfter="1906">1894 and 1906</date>;
+                  deceased, <date when="1907">1907</date>.</p>
+               <p>What is really important is a statement made by <persName type="author" key="#sbo"
+                     >Rev. Bowers</persName> that</p>
+               <p>The account may also be found in the archives of the <orgName type="mission"
+                     key="#mi_santabarbaramission">Santa Barbara Mission</orgName> preserved by the
+                        <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">Mission
+                        fathers</persName></rs>. We secured a translation of their record of the
+                  event by <rs><persName key="#spanscholar">a competent Spanish
+                     Scholar</persName></rs>
+                  <rs><date when="1875">some fifteen years ago</date></rs>.</p>
+               <p>Although this mission record has not come to light, should we use Bowers' date of
+                     <date when="1878">1878</date>, it would place this particular translation
+                  obtained from <rs><orgName type="mission" key="#mi_santabarbaramission">the
+                        Mission</orgName></rs> at about the same time as the <persName type="author"
+                     key="#emu">E. F. Murray</persName> manuscripts on <title type="manuscript"
+                     key="#Nidever1878">Nidever</title> and <title type="manuscript"
+                     key="#Dittman1878">Dittmann</title>. In fact, the Mission story, if it does
+                  exist or were ever to be found, might contain many statements of fact on material
+                  that we do not presently possess.</p>
+               <p>We can short-circuit the Thompson and West account [B70, <date when="1883"
+                     >1883</date>], found in <title type="chapter" key="#Mason1883">Chapter
+                     17</title> of the book. According to <rs><persName type="group"
+                        key="#west; #tth">the compilers</persName></rs> of the book on the history
+                  of <placeName type="county" key="#co_sb">Santa Barbara</placeName> and <placeName
+                     type="county" key="#co_ventura">Ventura</placeName> Counties, it was <persName
+                     type="author" key="#ldi">Dr. Dimmick</persName>, who came to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> as a physician in <date
+                     when="1872">1872</date>, who furnished the notes for their <title
+                     type="chapter" key="#Mason1883">"The Lost Woman"</title> story. The result is a
+                  combination of first and third person accounting.</p>
+               <p>Interestingly enough, <persName type="author" key="#eha">Mrs. Emma Chamberlin
+                     Hardacre</persName> arrived in <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> in <date when="1876">1876</date>, four years after Dr.
+                  Dimmick's arrival. In <title type="article" key="#Hardacre1880_SM">her account of
+                     the Lone Woman</title>, as well as in Dimmick's, there are four Indian words
+                  given&#8212;"hide," "man," "sky," and "body." This could mean that one of their
+                  sources may have been the same, or that one could have used the material of the
+                  other.</p>
+               <p>Even though Mrs. Hardacre's "<title type="article" key="#Hardacre1880_SM">Eighteen
+                     Years Alone</title>" is completely third person, her story is insightful. For
+                  comprehensive reading, no secondary account comes close to hers [P123, <date
+                     when="1880">1880</date>]. With some drama, and perhaps a few misstatements, the
+                  account has real merit; she had interviewed <persName type="seaman" key="#tje"
+                     >Jeffries</persName>, <persName type="frontiersman" key="#gni"
+                     >Nidever</persName>, <persName type="frontiersman" key="#cdi"
+                     >Dittmann</persName>, and others.</p>
+               <p>Nothing new is added through the <emph>Pioneer</emph>, "<title type="article"
+                     key="#ThePioneer1879">Left Alone on a Desert Island for Eighteen Years;
+                     California's Feminine Crusoe</title>" [M84]. Furthermore, the date of
+                  publication, <date when="1879">1879</date>, for <title type="article"
+                     key="#ThePioneer1879">this newspaper account</title>, is too far removed from
+                  the actual occurrences to be of much value.</p>
+               <p>But both the title and the ending of <title type="article" key="#Russell1856_HCF"
+                     >Russell's account</title> [P27, <date when="1856">1856</date>], to be
+                  discussed later, leads one to feel that his material had been read by the
+                        <emph><title type="article" key="#SanFranciscoChronicle1879">San Francisco
+                        Chronicle</title></emph>&#8212;the <emph><title type="article"
+                        key="#ThePioneer1879">Pioneer</title></emph> having obtained its writeup
+                  from the <emph><title type="article" key="#SanFranciscoChronicle1879"
+                        >Chronicle</title></emph>, according to the <emph><title type="article"
+                        key="#ThePioneer1879">Pioneer</title></emph>, <date when="1879">1879</date>.
+                     <title type="article" key="#Hardacre1880_SM">Hardacre's title</title> also
+                  carries some of the same words and might reflect that she, too, had read <title
+                     type="article" key="#Russell1856_HCF">Russell</title>.</p>
+            </div>
+            <div type="section">
+               <p>We have been moving backward from <date when="1893">1893</date> to <date
+                     when="1878">1878</date>, at which time the E. F. Murray reporting of interviews
+                  of <title type="manuscript" key="#Dittman1878">Carl Dittmann</title> and <title
+                     type="manuscript" key="#Nidever1878">George Nidever</title> surrounding
+                        <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+                  took place.</p>
+               <p><persName type="author" key="#wel">Ellison</persName> [B51, <date when="1937"
+                     >1937</date>], gives credit to the <orgName type="institution" key="#bancroft"
+                     >Bancroft Library</orgName> for use of these two documents. He also states that
+                  his footnote material came from the <emph><orgName type="publication"
+                        key="#pacifichistorical">Pacific Historical Review</orgName></emph>, and
+                  that his source for other material came from <persName type="author" key="#gha"
+                     >Dr. George Hammond</persName> and Vol. II of <emph>New Spain and the
+                     Anglo-American West</emph>. Thus we have some of the best thinking of this
+                  period.</p>
+               <p>At this point we reach a second detour in order to see the relationship of the
+                  various pieces of literature on the Lone Woman story and the historical events of
+                  that period. This refers specifically to <persName type="author" key="#wel"
+                     >Ellison</persName> [B51, <date when="1937">1937</date>], <persName
+                     type="author" key="#rda">Richard Henry Dana</persName> [ B15, <date when="1835"
+                     >1835</date>], <persName type="author" key="#hba">H. H. Bancroft</persName>
+                  [B1, <date when="1885">1885</date>], <persName type="author" key="#thi">T. H.
+                     Hittell</persName> [B35, <date when="1938">1898</date>], and others.</p>
+               <p>It was <persName type="author" key="#wel">Ellison</persName> who stated that
+                     <persName type="author" key="#emu">E. F. Murray</persName> was an assistant to
+                     <persName type="author" key="#hba">H. H. Bancroft</persName>. <persName
+                     type="author" key="#emu">Murray</persName> had been recommended by <persName
+                     key="#bhayes">Judge Benjamin Hayes</persName>, friend of <persName
+                     type="author" key="#jwar">J. J. Warner</persName> [M96], to take the dictation
+                  from <persName type="frontiersman" key="#cdi">Dittmann</persName> and <persName
+                     type="frontiersman" key="#gni">Nidever</persName> about <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs>. <persName
+                     type="author" key="#emu">Murray</persName> had taken such a type of dictation
+                  from many of the old residents of the area.</p>
+               <p>Three footnotes in Ellison are of interest. In footnote #1, readers are reminded
+                  that <persName key="#jni">"John" Nidever</persName> was an uncle to <rs><persName
+                        type="frontiersman" key="#gni">young Nidever</persName></rs>. But readers,
+                  at the same time, must be wary of the use of three given names for <persName
+                     type="frontiersman" key="#gni">George Nidever</persName>. Both <persName
+                     type="author" key="#sbo">Dr. Stephen Bowers</persName> and <persName
+                     type="author" key="#ldi">Dr. Dimmick</persName> called <persName
+                     type="frontiersman" key="#gni">George Nidever</persName> by the name of
+                  "John."</p>
+               <p>In <emph>Masterkey</emph>, Vol. 53, #4, we learn that <persName type="author"
+                     key="#jha">Harrington</persName> referred to <persName type="frontiersman"
+                     key="#gni">Nidever</persName> as "Jacob." Elsewhere, we are given the
+                  impression that the younger Captain George Nidever was a "<rs><persName
+                        key="#gnijr">Junior</persName></rs>," which is apparently true [B56]. The
+                  other son's name, however, was <rs><persName key="#jacobni">"Jacob," or
+                        "Jake"</persName></rs> [J282, <date when="1930">1930</date>].</p>
+               <p>Footnote #87 states that <persName key="#abt">A. B. Thompson</persName> was
+                  supercargo <date notBefore="1831" notAfter="1834">between 1831-1834</date> and up
+                  to <date notAfter="1838">1838</date>. He was also a shipbuilder. <span
+                     type="trope" n="12">This brings up Nidever's statement that "For many years
+                     after the loss of the '<name type="ship" key="#sh_peoresnada">Peor es
+                        Nada</name>,' the only craft on the coast were small boats to which the long
+                     distance and rough sea of the outer rim of <rs><placeName type="region"
+                           key="#re_sbchannel">the Channel</placeName></rs> would render a trip
+                     extremely dangerous."</span> Yet statements of the known craft plying between
+                  the <placeName type="island" key="#i_san">Sandwich Islands</placeName> and
+                        <rs><placeName type="region" key="#re_paccoast">our west
+                     coast</placeName></rs>, and the amount of otter hunting in the region of the
+                     <placeName type="island" key="#i_chi">Channel Islands</placeName> gives lie to
+                  Nidever's statement. Even <persName type="seaman" key="#wdana">Wm. G.
+                     Dana</persName> owned the schooner <emph><name type="ship"
+                        key="#sh_santabarbara">Santa Barbara</name></emph>, said <persName
+                     type="author" key="#hba">Bancroft</persName>, Vol. II. Indeed, <persName
+                     type="frontiersman" key="#gni">Nidever</persName> was being generous, if not
+                  evasive.</p>
+               <p>Take, for instance, Richard Henry Dana's comments on this subject [B15], for the
+                  year <date when="1835">1835</date>,</p>
+               <p>The second day after our arrival, <rs><name type="ship" key="#sh_brig1">a
+                        full-rigged brig</name></rs> came round the point from the northward, sailed
+                  leisurely through the bay, and stood off again for the south-east, in the
+                  direction of the large island of <placeName type="island" key="#i_scatalina"
+                     >Catalina</placeName>. The next day the <emph><name type="ship" key="#sh_avon"
+                        >Avon</name></emph> got under weigh, and stood in the same direction, bound
+                  for <placeName type="city" key="#ci_sp">San Pedro</placeName>. This might do for
+                  marines and Californians, but we knew the ropes too well. <rs><name type="ship"
+                        key="#sh_brig1">The brig</name></rs> was never again seen on <placeName
+                     type="region" key="#re_paccoast">the coast</placeName>, and the <emph><name
+                        type="ship" key="#sh_avon">Avon</name></emph> arrived at <placeName
+                     type="city" key="#ci_sp">San Pedro</placeName> in about a week, with a full
+                  cargo of Canton and American goods. This was one of the means of escaping the
+                  heavy duties the <rs><orgName type="government" key="#gov_mexico"
+                        >Mexican</orgName></rs> lay upon all imports. A vessel comes on the coast,
+                  enters a moderate cargo at <placeName type="city" key="#ci_mo"
+                     >Monterey</placeName>, which is the only custom-house, and commences trading.
+                  In a month or more, having sold a large part of her cargo, she stretches over to
+                     <placeName type="island" key="#i_scatalina">Catalina</placeName>, or other of
+                  the large uninhabited islands which lie off <rs><placeName type="region"
+                        key="#re_paccoast">the coast</placeName></rs>, in a trip from port to port,
+                  and supplies herself with choice goods from a vessel from <placeName type="island"
+                     key="#i_oa">Oahu</placeName>, which has been lying off and on <rs><placeName
+                        type="island" key="#i_chi">the islands</placeName></rs>, waiting for her.
+                  Two days after the sailing of the <emph><name type="ship" key="#sh_avon"
+                        >Avon</name></emph>, the <rs><name type="ship" key="#sh_loriot"
+                        >lorriott</name></rs> [sic] came in from the leeward, and without doubt had
+                  also a snatch at the brig's cargo . . .</p>
+               <p><persName key="#jcj">John Coffin Jones</persName> owned both the <emph><name
+                        type="ship" key="#sh_avon">Avon</name></emph> and the <emph><name
+                        type="ship" key="#sh_loriot">Loriot</name></emph>, perhaps even <rs><name
+                        type="ship" key="#sh_hawaiian">the unnamed Hawaiian brig</name></rs>, using
+                     <placeName type="island" key="#i_scatalina">Santa Catalina</placeName> and
+                  "other of the large uninhabited islands which lie off <rs><placeName type="region"
+                        key="#re_paccoast">the coast</placeName></rs>."</p>
+               <p>These statements lead to another footnote, #97, on the subject of <emph><name
+                        type="ship" key="#sh_peoresnada">Peor es Nada</name></emph>. It is said that
+                        <rs><name type="ship" key="#sh_peoresnada">the craft</name></rs> was
+                  twenty-ton, built in <placeName type="city" key="#ci_mo">Monterey</placeName> by
+                        <rs><persName key="#jgo">Joaquin Gomez</persName></rs>, and was launched on
+                     <date when="1834-08-30">August 30, 1834</date> with <persName type="seaman"
+                     key="#chu">Captain Hubbard</persName> in charge [B51].</p>
+               <p><rs><persName type="seaman" key="#chu">Charlie Hubbard</persName></rs> was German
+                  and a naturalized Mexican, who had come to <rs><placeName type="region"
+                        key="#re_local">California</placeName></rs> in <rs><date notBefore="1830"
+                        notAfter="1835">the early '30s</date></rs>. In charge of the <emph><name
+                        type="ship" key="#sh_peoresnada">Peor es Nada</name></emph>, <persName
+                     type="investor" key="#isp">Sparks</persName> and <persName type="investor"
+                     key="#lbu">Burton</persName> and others chartered it through <persName
+                     type="seaman" key="#chu">Hubbard</persName>, going to <placeName type="region"
+                     key="#re_baja">Lower California</placeName> in <date when="1834-10">October of
+                     1834</date>.</p>
+               <p>Contained in the same footnote is the statement that <persName key="#jcj">John C.
+                     Jones</persName> chartered <emph><name type="ship" key="#sh_peoresnada">Peor es
+                        Nada</name></emph> during <date when="1835-03">March of 1835</date> for the
+                  return trip from <placeName type="region" key="#re_baja">Lower
+                     California</placeName>. <persName type="author" key="#cst">Storke</persName>
+                  [B69, <date when="1891">1891</date>], also remarked that the <emph><name
+                        type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> "returned in
+                        <rs><date when="1835-03">March</date></rs> under <persName key="#jcj">John
+                     Coffin</persName>." This can only mean that <persName key="#jcj"
+                     >Jones</persName> was involved with this first round trip&#8212;and could have
+                  been throughout this period of time.</p>
+               <p>The other sailing date for the ill-fated <emph><name type="ship"
+                        key="#sh_peoresnada">Peor es Nada</name></emph> was when "someone" took it
+                  back to <placeName type="region" key="#re_baja">Lower California</placeName> in
+                  the "<rs><date notBefore="1835-09" notAfter="1835-11">Autumn</date></rs>." And as
+                     <persName key="#yadd">Mrs. Storke</persName> put it, the <emph><name
+                        type="ship" key="#sh_peoresnada">Peor es Nada</name></emph> "returned in
+                        <rs><date when="1835-03">March</date></rs> under <persName key="#jcj">John
+                     Coffin</persName>, and made a second trip in the <rs><date notBefore="1835-09"
+                        notAfter="1835-11">autumn</date></rs>."</p>
+               <p>This makes for an interval of time, between <rs><date notBefore="1835-03"
+                        notAfter="1835-08">March and August</date></rs>, that is unaccounted for, in
+                  terms of what the men, <persName key="#jcj">Jones</persName>, <persName
+                     type="investor" key="#isp">Sparks</persName>, <persName type="frontiersman"
+                     key="#iwi">Isaac Williams</persName>, <persName type="investor" key="#lbu"
+                     >Burton</persName>, <persName key="#jdy">Francis D. [sic] Dye</persName>,
+                     <persName type="seaman" key="#mha">Captain Marcus Harlow</persName>, <emph>et
+                     al</emph>, were doing with the <emph><name type="ship" key="#sh_peoresnada"
+                        >Peor es Nada</name></emph>. Just otter hunting?</p>
+               <p>If <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians on San Nicolas</orgName></rs> were picked up, and the <rs><persName
+                        type="nativeamerican" key="#lw">Lone Woman</persName></rs> left behind in
+                     <date when="1835-08">August of 1835</date>, this was done between the two trips
+                  to <placeName type="region" key="#re_baja">Lower California</placeName>, not on
+                  one of them; March is in Spring and Autumn does not include August.</p>
+               <p>It was during <date when="1835-09">September of 1835</date>, after returning from
+                     <placeName type="region" key="#re_baja">Lower California</placeName> and after
+                     <persName type="frontiersman" key="#gni">Nidever</persName> and the
+                        <rs><persName type="frontiersman" key="#ali">Black Steward</persName></rs>
+                  had been picked up at <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName> for their trip to <placeName type="island" key="#i_sr"
+                     >Santa Rosa Island</placeName>, that <persName type="investor" key="#isp"
+                     >Sparks</persName> told <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> of the Indian woman's abandonment.</p>
+               <p>With a load of lumber on board, the <emph><name type="ship" key="#sh_peoresnada"
+                        >Peor es Nada</name></emph> continued its trip but capsized in <placeName
+                     type="region" key="#re_sfbay">San Francisco Bay</placeName>, and nothing more
+                  was heard of her, but the Lone Woman story lingers on and on.</p>
+               <p><persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Dittmann</persName> gave <title
+                     type="manuscript" key="#Nidever1878">their</title>
+                  <title type="manuscript" key="#Dittman1878">interviews</title> to <persName
+                     type="author" key="#emu">Murray</persName> in <date when="1878">1878</date>,
+                  long after <persName type="frontiersman" key="#iwi">Isaac Williams</persName> of
+                     <placeName type="city" key="#ci_la">Los Angeles</placeName> had died, <date
+                     when="1856">1856</date>; <persName type="seaman" key="#tro">Robbins</persName>,
+                  likewise, in <date when="1857">1857</date>, <persName type="seaman" key="#wdana"
+                     >Wm. G. Dana</persName> in <date when="1858">1858</date>, <persName
+                     type="investor" key="#isp">Isaac Sparks</persName> in <date when="1867"
+                     >1867</date>, <persName key="#jcj">J. C. Jones</persName> in <date when="1861"
+                     >1861</date>, and <persName key="#abt">A. B. Thompson</persName> in <date
+                     when="1869">1869</date>. This left only <persName type="investor" key="#lbu"
+                     >Burton</persName>, <persName type="frontiersman" key="#gni"
+                  >Nidever</persName>, and <persName type="frontiersman" key="#cdi"
+                     >Dittmann</persName> as the living characters in <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> for this drama. <persName
+                     type="investor" key="#lbu">Burton</persName> passed away in <date when="1880"
+                     >1880</date> and <persName type="frontiersman" key="#gni">Nidever</persName> in
+                     <date when="1883">1883</date>.</p>
+               <p><persName type="author" key="#hba">Hubert Bancroft</persName> [B1, Vol. II],
+                  spells out some of the rudiments of Dittmann's life:</p>
+               <p><persName type="frontiersman" key="#cdi">Dittmann (Carl)</persName>, came to
+                        <rs><placeName type="region" key="#re_local">California</placeName></rs> in
+                     <date when="1844">1844</date>, German sailor, known in <rs><placeName
+                        type="region" key="#re_local">Cal.</placeName></rs> as <rs><persName
+                        type="frontiersman" key="#cdi">Charley Brown</persName></rs>, who came on
+                  the <emph><name type="ship" key="#sh_euphemia">Euphemia</name></emph>, engaged in
+                  otter-hunting with <persName type="frontiersman" key="#gni">Nidever</persName> and
+                  others, an occupation interrupted by mining in <rs><date notBefore="1848"
+                        notAfter="1850">'48-50</date></rs>. <rs><placeName type="city" key="#ci_sb"
+                        >Sta. B.</placeName></rs> was his home town to <rs><date when="1878"
+                        >'78</date></rs>, when he dictated for me his <emph><title type="manuscript"
+                        key="#Dittman1878">Narrative of a Seafaring Life</title></emph>, an
+                  interesting record of many adventures . . .</p>
+               <p>According to <persName type="author" key="#thi">Hittell</persName> [B35], another
+                  historian of early <rs><placeName type="region" key="#re_local"
+                        >California</placeName></rs>, <persName type="frontiersman" key="#cdi">Carl
+                     Dittmann</persName> was born in <placeName type="country" key="#co_prussia"
+                     >Prussia</placeName> in <date when="1822">1822</date> and came to
+                        <rs><placeName type="region" key="#re_local">California</placeName></rs> in
+                     <date when="1844">1844</date>. He was thirty-one years of age, as compared to
+                  Nidever's fifty-one years, when they went to <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName> to search for <rs><persName type="nativeamerican"
+                        key="#lw">the Lone Woman</persName></rs>. <persName type="frontiersman"
+                     key="#cdi">Dittmann</persName> used an alias (<rs><persName type="frontiersman"
+                        key="#cdi">Charlie Brown</persName></rs>), had been a deserter from <name
+                     type="ship" key="#sh_whaler">an American whaler</name>, and from <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> pursued the trade of an
+                  otter hunter.</p>
+               <p>It is hard to resist repeating some of the first hand, vivid material that comes
+                  to us. From <persName key="#scdi">Mrs. Brown</persName>, sister of <persName
+                     type="frontiersman" key="#cdi">Carl Dittmann</persName>, is this
+                  heart-string-pulling tale of a baby otter,</p>
+               <p>I have an otter skin which is fifty-seven years old. It was one of the last taken
+                  by my only brother, <persName type="frontiersman" key="#cdi">Charley
+                     Dittmann</persName>, who was hunting with <persName type="frontiersman"
+                     key="#gni">Capt. George Nidever</persName> and <persName key="#gnijr">his son,
+                     young George</persName>, in the waters of <placeName type="region"
+                     key="#re_baja">Lower California</placeName> in <date when="1865">1865</date>.
+                  He shot the mother otter and she had this baby in her arms. She dropped it and as
+                  it was drowning <rs><persName type="frontiersman" key="#cdi">my
+                     brother</persName></rs> killed it. "See," said <persName key="#scdi">Mrs.
+                     Brown</persName>, displaying the skin, "how fine and glossy the fur still is. I
+                  have kept it wrapped up for a long time" [B56].</p>
+               <p>We refer again to <persName type="author" key="#hba">H. H. Bancroft</persName> for
+                  another capsulated briefing, this time on <persName type="frontiersman" key="#gni"
+                     >Nidever</persName>: <persName type="frontiersman" key="#gni">Nidever
+                     (Geo.)</persName> came to <rs><placeName type="region" key="#re_local"
+                        >California</placeName></rs> in <date when="1833">1833</date> . . . In
+                        <rs><date when="1841">'41</date></rs> he married <rs><persName key="#sni"
+                        >Sinforosa Sanchez</persName></rs>, . . . piloted <rs><name type="ship"
+                        key="#sh_survey1">the U. S. coast survey craft</name></rs> in a survey of
+                  the <placeName type="island" key="#i_northernchi">Sta. B. islands</placeName>
+                  <rs><date when="1850">'50</date></rs>; in <rs><date when="1853">'53</date></rs>
+                  rescued <rs><persName type="nativeamerican" key="#lw">the famous old Ind. woman of
+                        S. Nicolas Isl.</persName></rs>; and about the same time bought an interest
+                  in <placeName type="island" key="#i_sm">S. Miguel Isl.</placeName>, where he
+                  raised stock for 17 years, and though wellnigh ruined by the drought of <rs><date
+                        notBefore="1863" notAfter="1865">'63-64</date></rs>, sold out in <rs><date
+                        when="1870">'70</date></rs> for $10,000. In <rs><date when="1878"
+                     >'78</date></rs> . . . at the age of 76 . . . gave me a long and most valuable
+                  narrative of his <emph><title type="manuscript" key="#Nidever1878">Life and
+                        Adventures</title></emph> . . . He died in <rs><date when="1883"
+                     >'83</date></rs>. A brother <persName key="#jni">John</persName>, who died at
+                        <rs><placeName type="city" key="#ci_sb">Sta. B.</placeName></rs> in
+                        <rs><date when="1873">'73</date></rs> is sometimes said to have come with
+                        <rs><persName type="frontiersman" key="#gni">Geo.</persName></rs> but I
+                  think he came after <rs><date when="1848">'48</date></rs>. Another brother,
+                     <persName type="frontiersman" key="#mni">Mark</persName>, was killed by the
+                  Ind. before reaching <rs><placeName type="region" key="#re_local"
+                     >Cal.</placeName></rs></p>
+               <p>The Santa Barbara Deed Book H tells us that <persName type="frontiersman"
+                     key="#gni">Nidever</persName> and his two sons sold their interest on
+                     <placeName type="island" key="#i_sm">San Miguel</placeName> to <persName
+                     type="investor" key="#hmi">Hiram W. Mills</persName> for $5,000.00. This
+                  transaction carried the date of <date when="1867-05-08">May 8, 1867</date>.</p>
+               <p><persName type="frontiersman" key="#gni">Nidever</persName> hunted otter,
+                  beginning his career in <rs><placeName type="region" key="#re_local"
+                        >California</placeName></rs> with <persName type="frontiersman" key="#gyo"
+                     >George Yount</persName> around <placeName type="region" key="#re_sfbay">San
+                     Francisco Bay</placeName>. In <date when="1835">1835</date>, and for about two
+                  years after, he was hunting otter under the Wm. G. Dana license, "Capt. Denny's."
+                  On other occasions he worked for <persName key="#abt">A. B.
+                  Thompson</persName>.</p>
+               <p>It is stated in <title type="manuscript" key="#Nidever1878">Ellison</title> that
+                     <persName type="frontiersman" key="#gni">Nidever</persName> purchased <rs><name
+                        type="ship" key="#sh_nidever">a schooner</name></rs> in <placeName
+                     type="city" key="#ci_sf">San Francisco</placeName> in <date when="1850"
+                     >1850</date>; <persName type="frontiersman" key="#gni">Nidever</persName> uses
+                  the date of <date when="1852">1852</date> for that purchase. Nonetheless, by <date
+                     when="1850">1850</date>
+                  <persName type="frontiersman" key="#gni">Nidever</persName> had an adobe hut on
+                     <placeName type="island" key="#i_sm">San Miguel Island</placeName> and had
+                  stocked <rs><placeName type="island" key="#i_sm">the island</placeName></rs> with
+                  sheep. It was probably on one of his trips to <placeName type="island" key="#i_sm"
+                     >San Miguel</placeName> to care for his business that he and <persName
+                     type="author" key="#cru">Capt. Russell</persName> met, camped together, and
+                  discussed <rs><persName type="nativeamerican" key="#lw">the Woman</persName></rs>
+                  [sic] and how she had been abandoned on <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>.</p>
+               <p>As we move away from <date when="1878">1878</date> toward the earlier period, we
+                  find in <emph><title type="article" key="#Walcott1872">Overland
+                     Monthly</title></emph>, <date when="1872">1872</date> [P79], Josephine
+                  Walcott's "<title type="article" key="#Walcott1872">Hona María</title>." Without
+                  too much to recommend "<title type="article" key="#Walcott1872">Hona
+                  María</title>" <persName type="author" key="#walcott">Walcott</persName> is,
+                  nevertheless, imaginative and understanding when she says,</p>
+               <p>The effect of long seclusion upon her mind so crude and undeveloped, can not be
+                  conjectured. In her solitary abode she knew the ways of the birds of the air and
+                  fishes of the sea, and fashioned nets to capture them, which, with seals and
+                  roots, furnished her sustenance.</p>
+               <p>Now we turn to the earliest of records, <date when="1841">1841</date>, and move
+                  toward the date of <date when="1856">1856</date> and <persName type="author"
+                     key="#cru">C. J. W. Russell</persName> who wrote the first complete story about
+                        <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs>
+                  which was after her death in <date when="1853"/>1853.</p>
+               <p>We find for <date when="1841">1841</date>, Phelps' "<title type="manuscript"
+                     key="#Phelps1841">Logbook of the Alert</title>," [U13]. It may be recalled that
+                     <persName type="author" key="#rda">Richard Henry Dana</persName> returned to
+                  the East on the <emph><name type="ship" key="#sh_alert">Alert</name></emph>, a
+                  sailing vessel belonging to <orgName key="#brystu">Bryant and Sturgis</orgName>,
+                  mercantile businessmen.</p>
+               <p>In the one paragraph that comes out of <title type="manuscript" key="#Phelps1841"
+                     >the Logbook</title> bearing on the San Nicolas Island drama, we are told that
+                     <persName type="seaman" key="#tro">Capt. Thomas Robbins</persName> called at
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> with
+                        <rs><name type="ship" key="#sh_alert">his 'vessel'</name></rs> in order to
+                  pick up <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        remaining inhabitants</orgName></rs> of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>.</p>
+               <p>This is the only mention of <persName type="seaman" key="#tro">Robbins</persName>
+                  in any of the literature pertaining to <rs><persName type="nativeamerican"
+                        key="#lw">the Lone Woman</persName></rs>. A direct command from <persName
+                     type="seaman" key="#tro">Robbins</persName> seems unlikely, for <persName
+                     type="investor" key="#isp">Sparks</persName> was supposedly working under the
+                  Dana license, not a Robbins license.</p>
+               <p>Actually, all five of Carlos Carrillo's sons-in-law or to-be-sons-in-law, were in
+                  the otter hunting business, some with licenses, with others doing illicit hunting
+                  and contraband trading. Since in business, "profit" was the name of the game, and
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> were seemingly the only Indian inhabitants left on the
+                     <placeName type="island" key="#i_chi">Channel Islands</placeName>, could their
+                  presence have been an impediment to the smuggling business, for instance?</p>
+               <p><title type="chapter" key="#Dawson1901">Dawson's <emph>Memoirs</emph></title>
+                  [B17, <date when="1841">1841</date>], is well worth the reading, if for no other
+                  reason than to learn of Dawson's concern for his horse near starvation. It was
+                     <persName type="investor" key="#jafo">James Alexander Forbes</persName>,
+                  English Consul from Mexico, who saved the day for the horse and Dawson's feelings
+                  about it, by caring for the creature.</p>
+               <p>In <title type="chapter" key="#Dawson1901">the little book</title>
+                  <persName type="author" key="#nda">Dawson</persName> speaks of his, <persName
+                     type="investor" key="#isp">Sparks</persName>, <rs><persName type="frontiersman"
+                        key="#gni">Nydever</persName></rs> [sic], <persName type="frontiersman"
+                     key="#jdy">Dye</persName>, and <persName type="frontiersman" key="#ssi"
+                     >Simmons</persName> having gone into partnership with <persName key="#abt">A.
+                     B. Thompson</persName> for otter hunting. If <persName key="#abt"
+                     >Thompson</persName> was conducting business on a legal basis or not, it is not
+                  mentioned.</p>
+               <p>But through Gast's <emph>Contentious Consul</emph>, we have learned that <persName
+                     key="#jcj">Jones</persName> and <persName key="#abt">Thompson</persName> were
+                  denied hunting licenses in <date when="1831">1831</date>. They decided, therefore,
+                  to do illegal business and continued such into the <rs><date notBefore="1843"
+                        notAfter="1847">middle '40s</date></rs>, at least. <persName type="author"
+                     key="#nda">Dawson</persName> said, "We . . . killed several otter . . . We
+                  searched on shore for <rs><persName type="nativeamerican" key="#lw">a lone
+                        woman</persName></rs> . . . but failed to find her, although we found her
+                  tracks."</p>
+               <p>The third early reference to <rs><persName type="nativeamerican" key="#lw">the
+                        Lone Woman</persName></rs> comes from the <emph><title type="article"
+                        key="#McDougall1890">Overland Monthly</title></emph> under the title of
+                     "<title type="article" key="#McDougall1890">A Woman's Log of 1849</title>." The
+                  reference is given by <persName type="author" key="#awo">A. Woodward</persName>
+                  [J367], and is taken from Vol. 16, 2nd series, <date from="1890-07" to="1890-12"
+                     >July-Dec., 1890</date>, pp. 273-280. A <persName type="author" key="#mjmc"
+                     >Mrs. McDougall</persName> was one of few women passengers in <date when="1849"
+                     >1849</date> on the <emph>California</emph>'s first trip to <placeName
+                     type="city" key="#ci_sf">San Francisco</placeName>. She kept a diary, and on
+                  page 275 of <title type="article" key="#McDougall1890">this article</title>
+                  <persName type="author" key="#mjmc">Mrs. McDougall</persName> is quoted as
+                  saying,</p>
+               <p>In coming to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> we
+                  passed <rs><placeName type="island" key="#i_sn">an island</placeName></rs> about
+                  sixty miles from <placeName type="region" key="#re_socalcoast">the
+                     coast</placeName>, on which there is <rs><persName type="nativeamerican"
+                        key="#lw">a lone woman</persName></rs> living . . . <span type="trope"
+                     n="14"><rs><date when="1887">Some three years ago</date></rs> they caught her,
+                     but she was perfectly wild and had lost her speech, so they left
+                  her.</span></p>
+               <p>Actually, when <rs><persName type="nativeamerican" key="#lw">the Indian
+                        woman</persName></rs> was taken off <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> she was found to be of mild disposition and
+                  quite verbal.</p>
+               <p>Such material verifies the fact that knowledge concerning the abandonment was
+                  common. But some remained skeptical of her continued existence, <persName
+                     type="frontiersman" key="#gni">Nidever</persName> being one. In <title
+                     type="amuscript" key="#Dittman1878">Dittman's 1878 interview</title> with
+                     <persName type="author" key="#emu">Murray</persName> he said, "<persName
+                     type="frontiersman" key="#gni">Nidever</persName> . . . was not very sanguine
+                  about finding her as he had come to the conclusion that the dogs had eaten her and
+                  was very doubtful if even her bones could be found . . ."</p>
+               <p>From the <emph><title type="article" key="#DailyDemocraticStateJournal1853">Daily
+                        Democratic State Journal</title></emph> of <date when="1853-10-13">Oct. 13,
+                     1853</date> we find these words,</p>
+               <p><span type="trope" n="14"><rs><persName type="nativeamerican" key="#lw">The wild
+                           Indian woman</persName></rs> who was found on the <placeName
+                        type="island" key="#i_sn">Island of San Nicolas</placeName>, about seventy
+                     miles from <rs><placeName type="region" key="#re_calcoast">the
+                           coast</placeName></rs>, west of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>, is now at the latter place, and is looked upon as a
+                     curiosity. It is stated that she has been <rs><date from="1835" to="1853">some
+                           eighteen to twenty years</date></rs> alone on <rs><placeName
+                           type="island" key="#i_sn">the Island</placeName></rs>. She existed on
+                     shell fish and the fat of the seal, and dressed in the skins and feathers of
+                     wild ducks, which she sewed together with the sinews of the seal. She cannot
+                     speak any known language&#8212;is good-looking, and about a middle age.</span>
+                  She seems to be contented in her new home among the good people of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+               <p>This publication came out <rs><date when="1853-10-13">six days before</date></rs>
+                  <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs> died
+                  of dysentery, from eating fruits and vegetables to which she was unaccustomed.
+                     <persName key="#bri">Dr. Brinkerhoff</persName> attended her [P123].</p>
+               <p>Through <persName type="author" key="#awo">Woodward</persName> [J367, <date
+                     when="1938">1938</date>] we are told that the <emph><title type="article"
+                        key="#DailyAltaCalifornia1853">Daily Alta California</title></emph> in <date
+                     when="1853">1853</date> carried the story in <rs><date when="1853-11"
+                        >November</date></rs>, concerning the Lone Woman's death, by making the
+                  announcement that on the evening of <rs><date when="1853-11-15">Tuesday the 15th
+                        of November</date></rs> there would be a Ladies' Fair and Raffle in the
+                     <placeName key="#musicalhall">Musical Hall on Bush Street</placeName>,
+                     <placeName type="city" key="#ci_sf">San Francisco</placeName>.</p>
+               <p><span type="trope" n="4">. . . a great variety of curiosities will be on
+                     exhibition, some of which, from their rarity and peculiarity, will be well
+                     worth the attention of the scientific and the curious. Some of the most
+                     singular objects will be disposed of by lot or raffle or as may at the time be
+                     thought proper and advisable. One of the most singular things on exhibition
+                     will be the dress of <rs><persName type="nativeamerican" key="#lw">an old
+                           Indian woman</persName></rs> who for <rs><date from="1836" to="1853"
+                           >seventeen years</date></rs> lived:</span><lg type="poem">
+                     <l><span type="trope" n="4">Alone, alone, all, all alone</span></l>
+                     <l><span type="trope" n="4">Alone in the wide, wide sea&#8212;</span></l>
+                     <l><span type="trope" n="4">And ne'er a soul took pity on,</span></l>
+                     <l><span type="trope" n="4"><emph>Her</emph> soul in agony.</span></l>
+                  </lg></p>
+               <p>This stanza is a fitting paraphrase from oleridge's "The Rime of the Ancient
+                  Mariner."</p>
+               <p><emph><orgName type="publication" key="#hutchingsmag">Hutchings' California
+                        Magazine</orgName></emph> ran the first 'complete' story of <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs> after she was
+                  found. Called, "<title type="article" key="#Russell1856_HCF">Narrative of a Woman
+                     who was Eighteen Years Alone upon the Island of San Nicolas, Coast of
+                     Californi</title>a," it was published in <date when="1856-11">November of
+                     1856</date> [P27].</p>
+               <p>It was <persName type="author" key="#cru">C. J. W. Russell</persName> who wrote
+                     <title type="article" key="#Russell1856_HCF">the article</title>, and he said
+                  that <persName type="frontiersman" key="#gni">Nidever</persName> related it to him
+                  while they were on <placeName type="island" key="#i_sm">San Miguel
+                     Island</placeName>. <persName type="frontiersman" key="#gni">Nidever</persName>
+                  was otter hunting and tending his sheep there; <persName type="author" key="#cru"
+                     >Russell</persName> was doing tidal observations for the <rs><orgName
+                        type="government" key="#gov_usa">United States</orgName></rs>. <title
+                     type="article" key="#Russell1856_HCF">The article</title> is published in the
+                  third person, not the first person.</p>
+               <p>Immediately, various newspapers and others published the contents of <title
+                     type="article" key="#Russell1856_HCF">the article</title>. Questions relating
+                  to possible errors and omissions were promptly raised. Answers were categorically
+                  offered, and it was not until <date when="1860-06">June of 1860</date> that the
+                  initial strength of human reaction tapered. In reality, <persName type="author"
+                     key="#cru">Russell</persName> had but started further investigation, for in
+                  five ways his tale appears to be fiction and fact.</p>
+               <p>The <title type="article" key="#Russell1856_EB3(42)">San Francisco <emph>Evening
+                        Bulletin</emph></title> of <date when="1856-11-25">November 25, 1856</date>
+                  [M69], recalled <title type="article" key="#Russell1856_HCF">Capt. C. J. W.
+                     Russell's article</title> in <emph><orgName type="publication"
+                        key="#hutchingsmag">Hutchings' Magazine</orgName></emph>. Then the <title
+                     type="article" key="#Warner1856_LAS">Los Angeles <emph>Star</emph></title> of
+                     <date when="1856-12-13">December 13, 1856</date> carried the story through
+                     <persName type="author" key="#jwar">J. J. Warner</persName> of <placeName
+                     type="city" key="#ci_sd">San Diego</placeName> [M96].</p>
+               <p>The <persName type="author" key="#jwar">Honorable J. J. Warner</persName> had
+                  evidently written to the <title type="article" key="#Warner1856_LAS">Los Angeles
+                        <emph>Star</emph></title> in <date when="1856">1856</date>, presenting his
+                  version of the removal of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the Indians</orgName></rs> from <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> [M96]. But even though the
+                  newspaper used the words, "facts herein contained," for Warner's presentation,
+                  other newspapers and persons continued to question some of the 'facts.'</p>
+               <p>Albeit, Warner's version brings us somewhat closer to the shape of the story, even
+                  though the dates, the numbers exterminated on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> in previous years, and by whom,
+                  remained in question.</p>
+               <p>One statement can be categorically denied; <rs><persName type="nativeamerican"
+                        key="#lw">the Lone Woman</persName></rs> when found was not "old, infirm,
+                  and decriped [decrepit]" and not suffering from hunger; malnutrition, no doubt. In
+                  the same vein, <persName type="author" key="#put">Putnam</persName> [N45], had
+                  called <rs><persName type="nativeamerican" key="#lw">the Woman</persName></rs>
+                  [sic] "<rs><persName type="nativeamerican" key="#lw">an old
+                  hag</persName></rs>."</p>
+               <p><persName type="author" key="#jwar">Warner</persName> initiated the thought to the
+                  public that the decision for taking the <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">remaining Indians</orgName></rs> from
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> rested
+                  with <rs><persName type="group" key="#laresident1; #laresident2">two Los Angeles
+                        residents</persName></rs>, not with the <rs><persName type="group"
+                        key="#aji; #ndur; #misfats">Mission fathers</persName></rs>. <persName
+                     type="frontiersman" key="#gni">Nidever</persName> added to this thought when he
+                  said, "I am sure <persName type="frontiersman" key="#iwi">Williams</persName> had
+                  an interest in the matter, as he afterwards took <rs><persName
+                        type="nativeamerican" key="#Nicolenowoman1">one of the Indian
+                        women</persName></rs> to live with."</p>
+               <p><persName type="author" key="#hre">Hugo Reid</persName> wrote for the <orgName
+                     type="publication" key="#lastar">Los Angeles <emph>Star</emph></orgName>. In
+                  fact he had written a series of twenty-four letters about the southern Indians
+                  before his death in <date when="1853">1853</date>. According to <persName
+                     type="author" key="#ata">Alexander S. Taylor</persName> [M51], by <date
+                     when="1860">1860</date> Reid's material had already become scarce. It is
+                  entirely possible that <persName type="author" key="#jwar">J. J. Warner</persName>
+                  of <placeName type="city" key="#ci_sd">San Diego</placeName> kept in touch with
+                  many Indian events in and around <placeName type="city" key="#ci_la">Los
+                     Angeles</placeName> through Hugo Reid's material.</p>
+               <p>We learn from <emph><title type="article" key="#Norris1960">Pacific
+                        Discovery</title></emph> [J83, <date when="1960">1960</date>], that
+                     <persName type="author" key="#hre">Reid</persName> was a Scot who settled in
+                        <rs><placeName type="region" key="#re_local">California</placeName></rs> in
+                     <date when="1835">1835</date>. In <date when="1837">1837</date> he married a
+                  mission-trained Indian woman named <persName key="#vic">Victoria</persName>, and
+                     <persName type="author" key="#hre">Reid</persName> acquired a family by
+                  adopting her children from a previous marriage.</p>
+               <p>A few details may be mentioned about <persName type="author" key="#jwar">J. J.
+                     Warner</persName>. Six-foot-three inches tall, <persName type="author"
+                     key="#jwar">Don Juan José Warner</persName> appeared to be an educated man. He
+                  came from <placeName type="state" key="#st_ct">Connecticut</placeName> in <date
+                     when="1831">1831</date>, having been born in <date when="1807">1807</date>
+                  [B58, <date when="1939">1939</date>]. By <date when="1843">1843</date>
+                  <persName type="author" key="#jwar">Warner</persName> had asked for a license so
+                  that he could hunt otter; he had hunted the poor creatures in <date when="1831"
+                     >1831</date> with <persName type="frontiersman" key="#gyo">George
+                     Yount</persName>. By <date when="1844">1844</date>, after having become a
+                  Mexican citizen, he was granted the <placeName type="region" key="#re_ranchoagua"
+                     >Rancho Agua Caliente</placeName> [B29, <date when="1960">1960</date>]. In
+                  those early times his place was <rs><placeName type="region" key="#re_ranchoagua"
+                        >the first settlement</placeName></rs> to be reached by travelers coming
+                  over the desert from the <placeName type="region" key="#re_coloradoriver">Colorado
+                     River</placeName> [B35, <date when="1898">1898</date>]. By <date when="1853"
+                     >1853</date>, according to the <emph><title type="article"
+                        key="#DailyDemocraticStateJournal1853">Daily Democratic [State]
+                        Journal</title></emph>, <persName type="author" key="#jwar">J. J.
+                     Warner</persName> had been elected to a San Diego judgeship.</p>
+            </div>
+            <div type="section">
+               <p>Both Taylor's [U13] and the <title type="article" key="#SacramentoDailyUnion1856"
+                     >Sacramento <emph>Union's</emph> [M81] rehearsal</title> of the <title
+                     type="article" key="#SantaBarbaraGazette1856">Santa Barbara
+                        <emph>Gazette</emph></title> and the <title type="article"
+                     key="#Warner1856_LAS">Los Angeles <emph>Star</emph></title> are substantially
+                  identical. The following came from the <emph><title type="article"
+                        key="#SacramentoDailyUnion1856">Union</title></emph>, as previously told by
+                  the <emph><title type="article" key="#SantaBarbaraGazette1856"
+                     >Gazette</title></emph>,</p>
+               <p>In the year <date when="1811">1811</date>, <rs><name type="ship" key="#sh_charon"
+                        >a ship</name></rs> owned by <orgName key="#bp">Boardman &amp;
+                     Pope</orgName>, of <placeName type="city" key="#ci_boston">Boston</placeName>,
+                  commanded by <persName type="seaman" key="#whi">Capt. Whittemore</persName>,
+                  trading on <rs><placeName type="region" key="#re_coast">this
+                     coast</placeName></rs>, took from the port of <placeName type="city"
+                     key="#ci_si">Sitka, Russian America</placeName>, <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">about thirty Kodiak
+                     Indians</orgName>, a part of <rs><orgName type="nativeamericantribes"
+                        key="#natam_kodiak">a hardy tribe</orgName></rs> inhabiting the <placeName
+                     type="island" key="#i_ko">Island of Kodiak</placeName>, to <rs><placeName
+                        type="island" key="#i_chi">the islands in the Santa Barbara
+                        channel</placeName></rs>, for the purpose of killing sea otter, which were
+                  then very numerous in the neighborhood of <rs><placeName type="island"
+                        key="#i_chi">these islands</placeName></rs>. <persName type="seaman"
+                     key="#whi">Capt. Whittemore</persName>, after landing <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName> on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, and
+                  placing in their hands fire arms and the necessary implements of the chase, sailed
+                  away to the coast of <placeName type="region" key="#re_baja">Lower
+                     California</placeName> and <placeName type="region" key="#re_southamerica"
+                     >South America</placeName>. <span type="trope" n="11">In the absence of
+                           <rs><name type="ship" key="#sh_charon">the ship</name></rs>, a dispute
+                     arose between <orgName type="nativeamericantribes" key="#natam_kodiak">the
+                        Kodiaks</orgName> and <rs><orgName type="group"
+                           key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                           natives of the islands</orgName></rs>, originating in the seizure of the
+                     females by <orgName type="nativeamericantribes" key="#natam_kodiak">the
+                        Kodiaks</orgName>. <orgName type="nativeamericantribes" key="#natam_kodiak"
+                        >The Kodiaks</orgName>, possessing more activity, endurance and knowledge of
+                     war, and possessing superior weapons, slaughtered the males without mercy, old
+                     and young. On the <placeName type="island" key="#i_sn">Island of San
+                        Nicolas</placeName>, not a male was spared.</span> At the end of a year,
+                     <persName type="seaman" key="#whi">Capt. Whittemore</persName> returned to
+                        <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>, took
+                     <orgName type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName>
+                  on board, and carried them back to <placeName type="city" key="#ci_si"
+                     >Sitka</placeName>.</p>
+               <p>This killing off of all males is in line with what <title type="manuscript"
+                     key="#Phelps1841">the Logbook</title> reported: <persName type="nativeamerican"
+                     key="#bha; #bhagroup; #lw">two females and Black Hawk</persName> surviving. It
+                  also approximates Warner's statement of <persName type="nativeamerican"
+                     key="#bha; #bhagroup; #lw">two females and two male</persName> having escaped
+                  the massacres. Neither statement is necessarily so; certainly they do not conform
+                  to Nidever's statement about <persName type="investor" key="#isp"
+                     >Sparks</persName> and others having taken 17 or 18 <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva"
+                     >Indians</orgName></rs> off <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> in <date when="1835">1835</date>.</p>
+               <p>And speaking of 'killing off,' Orr [B54], reminds us that there were more than 450
+                  Northwest Indians and eighty Hawaiian hunters on the <placeName type="region"
+                     key="#re_calcoast">California coast</placeName> between <date notBefore="1803"
+                     notAfter="1811">1803 and 1811</date>. And <persName type="author" key="#aog"
+                     >Adele Ogden</persName> [J93], said that <rs><persName type="group"
+                        key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                        >the Russians</persName></rs> were on <placeName type="island" key="#i_sn"
+                     >San Nicolas Island</placeName> for seven months in <date when="1815"
+                     >1815</date>. Perhaps the Pope and Boardman incident of <date when="1811"
+                     >1811</date> was but one of many massacres.</p>
+               <p>Referring again to a later issue of <emph><rs><orgName type="publication"
+                           key="#hutchingsmag">Hutchings'</orgName></rs></emph>, we note that the
+                     <title type="article" key="#HutchingsCaliforniaMagazine1857">February 1857
+                     article</title> [P29], gives the <emph><title type="article"
+                        key="#SantaBarbaraGazette1856">Gazette</title></emph> credit for its
+                  addition to the <date when="1856">1856</date>
+                  <emph>Gazette</emph> story.</p>
+               <p><emph><title type="article" key="#HutchingsCaliforniaMagazine1857"
+                        >Hutchings'</title></emph> said that <persName type="author" key="#cru"
+                     >Captain Russell</persName>, who was from a family of whalers on the <placeName
+                     type="region" key="#re_eastcaost">east coast</placeName> [P28], went to
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> for a second
+                  meeting with <persName type="frontiersman" key="#gni">Nidever</persName>. It was
+                  then that <persName type="frontiersman" key="#gni">George Nidever</persName> gave
+                  to <persName type="author" key="#cru">Russell</persName> a waterbottle made of
+                  grass and covered with asphaltum, a stone mortar, a necklace, and other things
+                  that had been made by <rs><persName type="nativeamerican" key="#lw">the Lone
+                        Woman</persName></rs> during her solidary stay on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>. The bottle and other
+                  articles were subsequently given to the <orgName type="museum"
+                     key="#mu_calacademyofscience">California Academy of Sciences</orgName>, <date
+                     when="1857-03-30">March 30, 1857</date>.</p>
+               <p>It is also through <emph><title type="article"
+                        key="#HutchingsCaliforniaMagazine1857">Hutchings'</title></emph> that the
+                  story is first mentioned about a good-sized cave which <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs> had used for
+                  shelter. It is stated, also, that on the walls of the cave she had kept a rude
+                  record of passing vessels. <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> corroborates that in the "rainy season she lived in a cave
+                  nearby." There <emph>is</emph> a nearby cave.</p>
+               <p><title type="article" key="#ProceedingsOfTheCAoS1857">The March 30th, 1857,
+                     California Academy of Sciences</title> tells about the disposition of Juana
+                  María's effects [J367]. <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> verified the statement when he said, "Her dresses, bone
+                  needles and other curiosities were taken possession of by <persName
+                     type="missionfather" key="#jru">Father González</persName>, with my consent,
+                  and sent to <placeName type="city" key="#ci_rom">Rome</placeName>."</p>
+               <p><persName type="author" key="#awo">Woodward</persName> [J367], contributes with
+                  the <emph>Golden Era</emph> reference of <date when="1857">1857</date>. It relates
+                  the fact that Capt. Russell's financial offer to <persName type="frontiersman"
+                     key="#gni">Nidever</persName> to display <rs><persName type="nativeamerican"
+                        key="#lw">the Lone Woman</persName></rs> in <placeName type="city"
+                     key="#ci_sf">San Francisco</placeName> and other towns was rejected.
+                        <rs><persName type="seaman" key="#tru">Capt. Trussil</persName></rs> of
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> had also made a
+                  similar offer of $1,000, according to <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> in his report to <persName type="author" key="#emu"
+                     >Murray</persName>.</p>
+               <p><persName type="author" key="#wten">Tenney</persName> prefaces "<title
+                     type="article" key="#Tenney1907">Hermit of San Nicolas</title>" [P112, <date
+                     when="1907">1907</date>], by saying, "What little has been published about
+                     <placeName type="island" key="#i_sn">San Nicholas</placeName> has long been out
+                  of print, and is now inaccessible to the reading public."</p>
+               <p>His writeup is fairly accurate, if not thorough. He used <title type="chapter"
+                     key="#Mason1883">Thompson and West</title> and the <title type="article"
+                     key="#TheBostonAtlas1847">Boston paper's 1811 [1847] account</title> of
+                  Boardman and Pope's trip to <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>. But should there be a need to choose what is to be read,
+                  it would not be this <date when="1907">1907</date> version of the story.</p>
+               <p><persName type="author" key="#opaul">O. M. Paul</persName> in <date when="1911"
+                     >1911</date> used the same title as <title type="article"
+                     key="#DailyAltaCalifornia1853">the <date when="1853">1853</date>
+                     <emph>Daily Alta California</emph></title>, "<title type="article"
+                     key="#Paul1911">Female Robinson Crusoe</title>." He told us that <persName
+                     type="seaman" key="#tje">Jeffries</persName> went to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> a second time with <persName
+                     type="frontiersman" key="#gni">Nidever</persName> to find <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs>, but this cannot
+                  be substantiated.</p>
+               <p>It is interesting, however, that <persName type="author" key="#opaul"
+                     >Paul</persName> began <title type="article" key="#Paul1911">his
+                     article</title> in a most unusual fashion,</p>
+               <p>It was at this time that the event occurred which <rs><persName type="author"
+                        key="#opaul">the writer</persName></rs> gives verbatim as told him by an old
+                  English sailor on the water front of <placeName type="city" key="#ci_nyc">New York
+                     City</placeName>, at the time reporter on a daily journal of <rs><placeName
+                        type="city" key="#ci_nyc">the great metropolis</placeName></rs>. The story
+                  was substantiated by an old log-book in the possession of the sailorman . . .</p>
+               <p>Since but one logbook reference exists, <title type="manuscript" key="#Phelps1841"
+                     >Phelps'</title> of <date when="1841">1841</date>, one wonders about this
+                  second reference some seventy years later. In some ways <title type="article"
+                     key="#Paul1911">the account</title> follows the salient facts rather carefully.
+                  Yet, one does wonder. Perhaps these words were but a journalistic beginning to an
+                  article, and should be dismissed as such.</p>
+            </div>
+            <div type="section">
+               <p>There is a Stephen Bowers' file [M22] in the <orgName type="musuem"
+                     key="#mu_southwest">Southwest Museum</orgName>. And in it is found a
+                  manuscript:</p>
+               <p>In <date when="1915-11">November, 1915</date>, I met at <placeName type="region"
+                     key="#re_alamosharbor">Alamos Harbor</placeName>, <placeName type="island"
+                     key="#i_scruz">Santa Cruz Island</placeName>, <persName key="#gnijr">George
+                     Nidever</persName>, 70 or more years of age. He was there (with his wife)
+                  engaged in crawfishing. His father, <persName type="frontiersman" key="#gni">Capt.
+                     George Nidever</persName>, brought <rs><persName type="nativeamerican"
+                        key="#lw">the lone Indian woman</persName></rs> from <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName> to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> in <date when="1854"
+                     >1854</date>. <rs><persName key="#gnijr">The son</persName></rs>, though then a
+                  small boy, remembers having seen <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs>. <persName key="#gnijr">Nidever</persName> told me
+                  that when he was about 10 years old he went to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> with <rs><persName type="frontiersman"
+                        key="#gni">Capt.</persName></rs> who went there to kill the dogs on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                  that all were shot that could be found. I presume this was done so that
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> might
+                  be safely stocked with sheep. He told me that the dogs were of the <emph>Alaskan
+                     breed</emph>!</p>
+               <p>This reference seems to be important for the Lone Woman story from but one
+                  standpoint: the name of one of the games being played by the actors in this drama
+                  could have been thoughts of "sheep raising on <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>," not otter hunting, which instigated the removal of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        Indians</orgName></rs> in <date when="1835">1835</date>. The amazing thing
+                  about this above first-person comment is that the dates would place <persName
+                     type="frontiersman" key="#gni">George Nidever</persName> and his son <persName
+                     key="#gnijr">George</persName> on <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> in <date when="1857">1857</date> for the
+                  dog-shooting&#8212;the same year that <persName key="#mkim">Kimberly</persName>
+                  probably left <placeName type="island" key="#i_scruz">Santa Cruz
+                     Island</placeName> for <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, which he stocked with sheep.</p>
+               <p><persName key="#pmjones">Dr. Jones</persName> had gone to both <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> and <placeName type="island"
+                     key="#i_sr">Santa Rosa Island</placeName> in <date when="1901">1901</date> for
+                  archaeological work. Seemingly, he felt that his knowledge of <placeName
+                     type="island" key="#i_sn">San Nicolas</placeName> was above average for
+                  accuracy and quantity, and that it should be contributed in some manner. It was
+                  for that reason that he wrote to <persName key="#clummis">Lummis</persName>,
+                  editor of <emph><orgName type="publication" key="#los">Land of
+                     Sunshine</orgName></emph>, to see if he would like to publish the material.</p>
+               <p>But we hear about Jones' contributions through the Southwest Museum's
+                        <emph><orgName type="publication" key="#masterkey"
+                     >Masterkey</orgName></emph>, Vol. 43, <date when="1969">1969</date> [J207], and
+                     <persName type="author" key="#rhe">Heizer</persName>. It was <persName
+                     key="#pmjones">Jones</persName> who furnished much of the material for the
+                  University of California's Archaeological Report #55.</p>
+               <p>In a footnote on page 87 of the Jones journal, <persName type="author" key="#rhe"
+                     >Dr. Heizer</persName> said, "Deleted here is a lengthy account with long
+                  quotations from published sources of <rs><persName type="nativeamerican" key="#lw"
+                        >the Lone Woman of San Nicolas</persName></rs>. All of these have been cited
+                  and reproduced [elsewhere]."</p>
+               <p>In this same <emph>Masterkey</emph> article, it was said that a <persName
+                     key="#cmer">Mr. Charles Merritt</persName> of <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> was the brother-in-law of <persName
+                     key="#mkim">M. M. Kimberly</persName>, and</p>
+               <p>In <date when="1866">1866</date>
+                  <persName key="#cmer">Mr. Merritt</persName> found a cave in which <rs><persName
+                        type="nativeamerican" key="#lw">the lone woman</persName></rs> had lived,
+                  and in it were a number of her former possessions, still in a fairly good state of
+                  preservation. He mentioned a garment of some sort, made of a kind of netting
+                  fashioned from sinew and covered with feathers fastened on with sinew, some
+                  arrow-points, stone knives, and a few abalone pearls. There were no pictographs or
+                  markings on the walls of the cave, at that time, though the walls were
+                  smoke-blackened.</p>
+               <p>We can but wonder about two things: 1. When did <persName key="#mkim"
+                     >Kimberly</persName> stock <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> with sheep (<persName key="#pmjones">Jones</persName> said
+                  about <date when="1853">1853</date>), and 2. Why did the above quoted information
+                  not come sooner to the attention of others. There is a long stretch of time
+                  between <date when="1866">1866</date> and <date when="1901">1901</date>.</p>
+            </div>
+            <div type="section">
+               <p>The <emph><title type="article" key="#SantaBarbaraNewsPress1944">Santa Barbara
+                        News Press</title></emph> was the bearer of good news on <date
+                     when="1944-02-20">February 20, 1944</date> [M93]. <title type="article"
+                     key="#Cronin1944">Research students at the <orgName type="mission"
+                        key="#mi_santabarbaramission">Mission Santa Barbara</orgName> discovered
+                     Juana María's burial record in the Mission archives.</title> Where previously
+                     <persName type="missionfather" key="#fen">Father Engelhardt</persName> [B24,
+                     <date when="1965">1965</date>], had said this record did not exist, it was
+                  finally located:</p>
+               <p>On the <date when="1853-10-19">19 of October of 1853</date> I gave ecclesiastical
+                  burial in <rs><placeName key="#sbmissioncemetary">this cemetery</placeName></rs>
+                  to the mortal remains of <rs><persName type="nativeamerican" key="#lw">Juana
+                        María</persName></rs>
+                  <rs><persName type="nativeamerican" key="#lw">an Indian</persName></rs> brought
+                  from the <placeName type="island" key="#i_sn">Island of San Nicolas</placeName>,
+                  and since there was no one who understood her language she was baptised
+                  conditionally by <persName type="missionfather" key="#sanchez">Father
+                     Sánchez</persName>; and that this may stand as true I sign it. <persName
+                     type="missionfather" key="#jru">Father José María de Jesús
+                  González</persName>.</p>
+               <p>The entry is the 1,183rd in the record book and appears opposite page 114. Later
+                  [B24], <persName type="author" key="#gma">Father Geiger</persName> made the
+                  remark, "When she died, <persName type="missionfather" key="#jru">González
+                     Rubio</persName> conducted her funeral services and buried her in the
+                     <placeName key="#sbmissioncemetary">Mission cemetery</placeName>. The location
+                  of her grave is unknown . . ."</p>
+               <p><persName type="author" key="#awo">Arthur Woodward</persName> [B62], said that in
+                     <date notBefore="1939" notAfter="1940">1939-40</date> he went to <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName>. While there, he
+                  followed Ellison's account of the route taken in <date when="1853">1853</date> by
+                     <persName type="frontiersman" key="#cdi">Carl Dittmann</persName> and <persName
+                     type="frontiersman" key="#gni">George Nidever</persName> while seeking
+                        <rs><persName type="nativeamerican" key="#lw">the Lone
+                  Woman</persName></rs>. They finally located her in the <placeName type="region"
+                     key="#re_coralharbor">Corral Harbor area</placeName>.</p>
+               <p><persName type="author" key="#awo">Woodward</persName> gave about fifteen pages to
+                        <rs><persName type="nativeamerican" key="#lw">Juana María</persName></rs>,
+                  sometimes using quotes from her <persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">discoverers</persName>,
+                  sometimes using third person. His bibliography is excellent, as well as his
+                  understanding of the subject matter.</p>
+               <p>Too many early Californians had found <rs><placeName type="island" key="#i_chi"
+                        >the islands</placeName></rs> to be lucrative. "Pieces of Eight," "Pieces of
+                  Eight," said the green parrot, the smuggler, the poacher, the fishermen, the otter
+                  hunters, and the stock raisers. And Juana María's life was caught in the cross
+                  current of it all. God rest your soul, <rs><persName type="nativeamerican"
+                        key="#lw">Juana María</persName></rs>!</p>
+               <floatingText>
+                  <body>
+                     <lg type="verse">
+                        <l><rs><persName type="nativeamerican" key="#lw">LONE
+                           WOMAN</persName></rs></l>
+                        <l>Abandoned, <date when="1853-08">,August, 1835</date></l>
+                        <l>Found, <date when="1853-08">August, 1853</date></l>
+                        <l>Taken to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                                 <rs><date notBefore="1853-08-20" notAfter="1853-08-31">end of
+                                 August, 1853</date></rs></l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <floatingText>
+                  <body>
+                     <lg type="verse">
+                        <l><rs><persName type="nativeamerican" key="#lw">JUANA
+                           MARÍA</persName></rs></l>
+                        <l>Baptised by <persName type="missionfather" key="#sanchez">Father
+                              Sánchez</persName>, <rs><date notBefore="1853-10-10"
+                                 notAfter="1853-10-19">mid-October, 1853</date></rs></l>
+                        <l>Burial by <persName type="missionfather" key="#jru">Father
+                              González</persName>, <date when="1853-10-19">October 19,
+                           1853</date></l>
+                        <l>Nidever plot, <placeName key="#sbmissioncemetary">Mission
+                              cemetery</placeName></l>
+                     </lg>
+                  </body>
+               </floatingText>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Bibliography Connected with
+                              "<rs><persName type="nativeamerican" key="#lw">The Lone Woman of San
+                              Nicolas</persName></rs>," <date from="1835" to="1853"
+                        >1835-1853</date></hi></title></head>
+               <p><date when="1841">1841</date>
+                  <persName type="author" key="#wph">Phelps</persName>, <title type="manuscript"
+                     key="#Phelps1841">Logbook of the Alert</title> [See UJ3]</p>
+               <p><date when="1841">1841</date> B17 <persName type="author" key="#nda">N.
+                     Dawson</persName>, <emph><title type="chapter" key="#Dawson1901">California in
+                              <rs><date when="1841">'41</date></rs>, Texas in <rs><date when="1851"
+                              >'51</date></rs>, Memoirs of N. Dawson</title></emph>, pvtly.
+                  pntd.</p>
+               <p><date when="1849">1849</date> "<title type="article" key="#McDougall1890">A
+                     Woman's Log of 1849</title>," <emph>Overland Monthly</emph>, <date when="1890"
+                     >1890</date> [See J367]</p>
+               <p><date when="1853">1853</date>
+                  <emph><title type="article" key="#DailyDemocraticStateJournal1853">Daily
+                        Democratic State Journal</title></emph>, <date when="1853-10-13">Oct. 13,
+                     1853</date> [See UJ3]</p>
+               <p><date when="1853">1853</date>
+                  <emph><title type="article" key="#DailyAltaCalifornia1853">Daily Alta
+                        California</title></emph>, <date when="1853-11-13">Nov. 13, 1853</date> [See
+                  UJ3]</p>
+               <p><date when="1856">1856</date>
+                  <emph>P27*</emph>
+                  <persName type="author" key="#cru">C. J. W Russell</persName>, "<title
+                     type="article" key="#Russell1856_HCF">Narrative of a Woman who was Eighteen
+                     Years Alone upon the Island of San Nicolas, Coast of California</title>,"
+                        <emph><orgName type="publication" key="#hutchingsmag">Hutchings' Calif.
+                        Mag.</orgName></emph></p>
+               <p><date when="1856">1856</date> M69 "<title type="article"
+                     key="#Russell1856_EB3(42)">A California Crusoe</title>," <emph><orgName
+                        type="publication" key="#eveningbull">San Francisco Evening
+                        Bulletin</orgName></emph></p>
+               <p><date when="1856">1856</date> M96 <persName type="author" key="#jwar">J. J.
+                     Warner</persName>, "<title type="article" key="#Warner1856_LAS">Interesting
+                     Narrative</title>," <emph>Los Angeles Star</emph></p>
+               <p><date when="1856">1856</date>
+                  <emph><title type="article" key="#SantaBarbaraGazette1856">Santa Barbara
+                        Gazette</title></emph> [See UJ3]</p>
+               <p><date when="1856">1856</date> M70 "<title type="article" key="#Warner1856_EB"
+                     >Further Particulars of the California Crusoe</title>," <emph>San Francisco
+                     Evening Bulletin</emph></p>
+               <p><date when="1856">1856</date> M81 "<title type="article"
+                     key="#SacramentoDailyUnion1856">Further Particulars of the California
+                     Crusoe</title>," <emph>Sacramento Union</emph></p>
+               <p><date when="1856">1856</date>
+                  <persName type="author" key="#ata">Alexander S. Taylor</persName>, <emph><orgName
+                        type="publication" key="#calfarmer">California Farmer</orgName></emph> [See
+                  U13]</p>
+               <p><date when="1857">1857</date>
+                  <emph><title type="chapter" key="#ProceedingsOfTheCAoS1857">California Academy of
+                        Science[s]</title></emph> [See J367]</p>
+               <p><date when="1857">1857</date> M51 <emph>Golden Era</emph> [See J367]</p>
+               <p><date when="1857">1857</date> P29 Anonymous, "<title type="article"
+                     key="#HutchingsCaliforniaMagazine1857">The Indian Woman of San
+                  Nicolas</title>," <emph>Hutchings' Calif. Mag.</emph></p>
+               <p><date when="1872">1872</date> P79 <persName type="author" key="#walcott">Josephine
+                     Walcott</persName>, "<title type="article" key="#Walcott1872">Hona
+                     María</title>," <emph>Overland Monthly</emph></p>
+               <p><date when="1878">1878</date> Ms <emph><title type="manuscript" key="#Nidever1878"
+                        >The Life and Adventures of George Nidever, <date notBefore="1802"
+                           notAfter="1883">1802-1883</date></title></emph>, <persName type="author"
+                     key="#emu">E. F. Murray</persName>, reporting [<orgName type="institution"
+                     key="#bancroft">Bancroft Lby.</orgName>; See also B51 and U13]</p>
+               <p><date when="1878">1878</date>
+                  <emph>Ms</emph> Carl Dittmann's <emph><title type="manuscript" key="#Dittman1878"
+                        >Narrative of a Seafaring Life on the Coast of California</title></emph>,
+                     <persName type="author" key="#emu">E. F. Murray</persName>, reporting</p>
+               <p><date when="1879">1879</date> M84 "<title type="article" key="#ThePioneer1879"
+                     >Left Alone on a Desert Island for Eighteen Years; California's Feminine
+                     Crusoe</title>," <emph>Pioneer</emph>, San Jose, Calif.</p>
+               <p><date when="1879">1879</date>
+                  <emph>P123</emph>
+                  <title type="article" key="#ThePioneer1879">"Left Alone on a Desert Island for
+                        <date from="1835" to="1853">Eighteen Years</date>; California's Feminine
+                     Crusoe,"</title>
+                  <emph>Pioneer</emph>, <placeName type="city" key="#ci_sanjose">San Jose,
+                     Calif.</placeName></p>
+               <p><date when="1880">1880</date>
+                  <emph>P123</emph>
+                  <persName type="author" key="#eha">Emma Hardacre</persName>, "<title
+                     type="article" key="#Hardacre1880_SM">Eighteen Years Alone</title>,"
+                        <emph><orgName type="publication" key="#scribners">Scribner's
+                        Monthly</orgName></emph></p>
+               <p><date when="1883">1883</date> B70 Thompson and West, Pub., <emph>History of Santa
+                     Barbara and Ventura Counties</emph>, <title type="chapter" key="#Mason1883">Ch.
+                     17</title></p>
+               <p><date when="1892">1892</date> M95 <persName type="author" key="#sbo">Stephen
+                     Bowers</persName>, <title type="article" key="#Bowers1892">"Lone Woman of San
+                     Nicolas Island,"</title>
+                  <emph>Ventura Weekly Observer</emph></p>
+               <p><date when="1892">1892</date> M27 <persName type="author" key="#sbo">Stephen
+                     Bowers</persName>, "<title type="article" key="#Bowers1892">The Lone Woman of
+                     San Nicolas</title>"</p>
+               <p><date when="1893">1893</date> P15 <persName type="author" key="#jgi">James M.
+                     Gibbons</persName>, "<title type="article" key="#Gibbons1893">The Wild Woman of
+                     San Nicolas Island</title>," <emph>Calif. Illus. Mag.</emph>, <persName
+                     type="author" key="#cho">C. F. Holder</persName>, Ed.</p>
+               <p>(<date when="1901">1901</date>) J207 <persName key="#pmjones">Philip Mills
+                     Jones</persName>, "San Nicolas Island Archaeology in 1901," <emph><orgName
+                        type="publication" key="#masterkey">Masterkey</orgName></emph> (ed. by
+                     <persName type="author" key="#rhe">R. F. Heizer</persName>)</p>
+               <p><date when="1907">1907</date> P112 <persName type="author" key="#wten">W A.
+                     Tenney</persName>, "<title type="article" key="#Tenney1907">Hermit of San
+                     Nicolas</title>," <emph>Pacific Monthly</emph></p>
+               <p><date when="1911">1911</date> P99 <persName type="author" key="#opaul">O. M.
+                     Paul</persName>, "<title type="article" key="#Paul1911">Female Robinson
+                     Crusoe</title>," <emph>Overland Monthly</emph></p>
+               <p><date when="1915">1915</date> M22 Stephen Bowers File, <orgName type="musuem"
+                     key="#mu_southwest">Southwest Museum</orgName></p>
+               <p><emph><date when="1937">1937</date></emph>
+                  <emph>B51</emph>
+                  <emph><title type="manuscript" key="#Nidever1878">The Life and Adventures of
+                        George Nidever, 1802-1883</title></emph>, Ed. by <persName type="author"
+                     key="#wel">William H. Ellison</persName>, <orgName type="institution"
+                     key="#in_ucb">U. of C., Berkeley</orgName></p>
+               <p><date when="1944">1944</date> M93 <emph><title type="article"
+                        key="#SantaBarbaraNewsPress1944">Santa Barbara News Press</title></emph></p>
+               <p>(<date when="1949">1949</date>) B24 <persName type="author" key="#gma">O. F. M.
+                     Maynard Geiger</persName>, <emph>Mission Santa Barbara, 1782-1965</emph></p>
+               <p><date when="1957">1957</date> B62 <persName type="author" key="#awo">Arthur
+                     Woodward</persName>, <title type="chapter" key="#Woodward1957">"Juana María;
+                     sidelights on the Indian occupation of San Nicolas Island,"</title> in
+                     <emph>The Pacific Northwesterner</emph></p>
+               <p><emph><date when="1961">1961</date></emph>
+                  <emph>U13</emph> "Original Accounts of the Lone Woman of San Nicolas Island,"
+                           <emph><rs><orgName type="publication" key="#reports">Arch.
+                           Survey</orgName></rs></emph>, <orgName type="institution" key="#in_ucb"
+                     >U. of C., Berkeley</orgName></p>
+               <p>*Note: Code number and date in italic indicates a work of superior importance.</p>
+            </div>
+            <div type="section">
+               <head><title type="section"><hi rend="bold">Lone Woman Story,
+                  Characters</hi></title></head>
+               <p>NAME: From Married to Trade, Remarks Comments</p>
+               <p><persName key="#bri">DR. S. B. BRINKERHOFF</persName>, (<date from="1823"
+                     to="1880">1823-1880</date>): <placeName type="state" key="#st_ny">New
+                     York</placeName>, <date when="1853">1852</date> at age 29 [Married to]
+                     <persName key="#lano">Lucy A. Noyes</persName>, <date when="1877">1877</date>
+                  at age 54 [Trade, Remarks] Medical doctor: Tended <rs><persName
+                        type="nativeamerican" key="#lw">Lone Woman</persName></rs> until her death
+                  at <placeName key="#nideverhouse">Nidever home</placeName> [Comments]
+                        "<rs><persName key="#bri">the silent benefactor of the poor</persName></rs>
+                  . . . was threatened with financial ruin at the hands of those whose benefactor he
+                  had been. He never recovered from the shock. . . . We miss the enterprising
+                  citizen, the good doctor, the general companion, the true friend" [B70]</p>
+               <p><persName type="investor" key="#lbu">LUIS T. BURTON</persName>, (? -<date
+                     when="1880">1880</date>): <placeName type="state" key="#st_tn"
+                     >Tennessee</placeName>, <date when="1831">1831</date> w/ Wolfskill party,
+                  settled in <placeName type="city" key="#ci_sb">Santa Barbara</placeName> [Married
+                  to] <persName key="#mant">María Antonia</persName>, <date when="1839">1839</date>
+                  (2nd wife) niece of <persName key="#ccar">Carlos Carrillo</persName> [Trade,
+                  Remarks] Mercantile business for 30 years, otter hunter, farmer [Comments] Nearly
+                  killed by robbers: nursed to health by <persName key="#ccar">Carrillos</persName>;
+                  with <persName type="investor" key="#isp">Sparks</persName>, <date when="1835"
+                     >1835</date>, hunted on Wm. G. Dana license: <date when="1860">1860</date>,
+                  bought "<placeName type="city" key="#ci_burtons">Burton Mound</placeName>" from
+                     <persName key="#hinch">A. F. Hinchman</persName> (on beach); acquired
+                  wealth</p>
+               <p><persName type="seaman" key="#wdana">WILLIAM GOODWIN DANA</persName>, (<date
+                     from="1797" to="1858">1797-1858</date>): Originally from <placeName type="city"
+                     key="#ci_bo">Boston</placeName>, then <placeName type="island" key="#i_hawaii"
+                     >Hawaii</placeName>, <date when="1826">1826</date> [Married to] <persName
+                     key="#mjos">María Josefa</persName>, <date when="1828">1828</date>, daughter of
+                     <persName key="#ccar">Carlos Carillo</persName> [Trade, Remarks] Merchant,
+                  otter hunter, farmer, stock raiser [Comments] Cousin, <persName type="author"
+                     key="#rda">Richard Henry Dana</persName>; Alcalde, <date when="1836"
+                     >1836</date>; held other offices: owned <emph><name type="ship"
+                        key="#sh_waverly">Waverly</name></emph>, <date from="1827" to="1828"
+                     >1827-28</date>; built 33-ton schooner <emph><name type="ship"
+                        key="#sh_santabarbara">Santa Barbara</name></emph>, <date when="1829"
+                     >1829</date>, for trade and otter hunting; co-owner, <emph><rs><name
+                           type="ship" key="#sh_famer">La Fama</name></rs></emph>, with <persName
+                     key="#ccar">Carlos Carrillo</persName>; grantee, <placeName type="region"
+                     key="#re_nip">Nipomo Rancho</placeName>, <date when="1837">1837</date>,
+                  38,887,71 acres</p>
+               <p><persName type="author" key="#ldi">DR. L. N. DIMMICK</persName>, (? -<date
+                     when="1884">1884</date>): Arrived <placeName type="region" key="#st_cal"
+                     >California,</placeName>
+                  <date when="1872">1872</date> [Married to] [Trade, Remarks] Medical doctor
+                  [Comments] <orgName type="publisher" key="#thompsonwest">Thompson and
+                     West</orgName> [B70], used Dimmick's notes about <persName type="frontiersman"
+                     key="#gni">Nidever</persName> and <rs><persName type="nativeamerican" key="#lw"
+                        >the Lone Woman</persName></rs></p>
+               <p><persName type="frontiersman" key="#cdi">CARL DITTMANN</persName>, (<date
+                     when="1822">1822</date>- ? ): <placeName type="country" key="#co_prussia"
+                     >Prussia</placeName>, <date when="1844">1844</date>; alias "<persName
+                     type="frontiersman" key="#cdi">Charlie Brown</persName>" [Married to] [Trade,
+                  Remarks] Whaler-sailor, deserter, otter hunter [Comments] Instrumental in locating
+                        <rs><persName type="nativeamerican" key="#lw">Lone Woman</persName></rs> on
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName>.
+                  Interviewed by <persName type="author" key="#eha">Hardacre</persName></p>
+               <p><persName type="author" key="#eha">EMMA HARDACRE</persName>: Arrived <placeName
+                     type="region" key="#st_cal">California</placeName>, <date when="1876"
+                     >1876</date> [Married to] [Trade, Remarks] [Comments] Interviewed <persName
+                     type="frontiersman" key="#gni">Nidever</persName>, <persName
+                     type="frontiersman" key="#cdi">Dittmann</persName>, <persName type="seaman"
+                     key="#tje">Jeffries</persName>, <emph>et al</emph>; wrote story of
+                        <rs><persName type="nativeamerican" key="#lw">Lone Woman</persName></rs> for
+                        <emph><title type="article" key="#Hardacre1880_SM">Scribner's
+                     Mo.</title></emph>, <date when="1880">1880</date></p>
+               <p><persName key="#jcj">JOHN COFFIN JONES</persName>, (<date from="1796" to="1861"
+                     >1796-1861</date>): Originally from <placeName type="city" key="#ci_bo"
+                     >Boston</placeName>, commuted, <date from="1830" to="1838">1830-1838</date>,
+                  settled from <placeName type="island" key="#i_hawaii">Hawaii</placeName>, <date
+                     from="1844" to="1846">1844-46</date> [Married to] <persName key="#manu"
+                     >Manuela</persName>, <date when="1838">1838</date> (<date from="1820" to="1900"
+                     >1820-1900</date>) daughter of <persName key="#ccar">Carlos Carrillo</persName>
+                  [Trade, Remarks] Consul&#8212;<placeName type="island" key="#i_hawaii"
+                     >Hawaii</placeName>, merchant, otter hunter, ship owner [Comments] <date
+                     from="1821" to="1830">1821-30</date>, representative, <orgName key="#marwil"
+                     >Marshall &amp; Wildes</orgName>, in <placeName type="island" key="#i_hawaii"
+                     >Hawaii</placeName>; <rs><persName key="#manu">wife</persName></rs> was owner
+                  of 1/2 <placeName type="island" key="#i_sr">Santa Rosa Island</placeName> and
+                  claimant for <placeName type="region" key="#re_calera">La Calera
+                     Rancho</placeName>; chartered <emph><name type="ship" key="#sh_crusader"
+                        >Crusader</name></emph>, <date when="1832">1832</date>; chartered
+                        <emph><name type="ship" key="#sh_convoy">Convoy</name></emph>, <date
+                     when="1832">1832</date>, <date when="1834">1834</date>; on coast, <date
+                     from="1830" to="1840">1830-40</date>; co-owner, <emph><name type="ship"
+                        key="#sh_bolivar">Bolivar</name></emph> (renamed <emph><name type="ship"
+                        key="#sh_oajaca">Oajaca</name></emph>), <date when="1843">1843</date>; owned
+                  brigs <emph><name type="ship" key="#sh_loriot">Loriot</name></emph>, <emph><name
+                        type="ship" key="#sh_volunteer">Volunteer</name></emph>, <emph><name
+                        type="ship" key="#sh_louisa">Louisa</name></emph>, &amp; schooners
+                        <emph><name type="ship" key="#sh_harrietblanchard">Harriet
+                     Blanchard</name></emph>, <emph><name type="ship" key="#sh_avon"
+                     >Avon</name></emph>, <emph><name type="ship" key="#sh_griffon"
+                     >Griffon</name></emph>, <emph><name type="ship" key="#sh_rasselas"
+                        >Rasselas</name></emph>; chartered cutter <emph><name type="ship"
+                        key="#sh_margarita">Margarita</name></emph></p>
+               <p><persName type="frontiersman" key="#gni">GEORGE NIDEVER</persName>, (<date
+                     from="1802" to="1883">1802-1883</date>): <placeName type="state" key="#st_tn"
+                     >Tennessee</placeName>, <placeName type="state" key="#st_ar"
+                     >Arkansas</placeName>, <date when="1834">1834</date> w/ <persName
+                     type="frontiersman" key="#jwa">Capt. Walker</persName> [Married to]
+                        <rs><persName key="#sni">Sinforosa Sanchez</persName></rs>, <date
+                     when="1841">1841</date> (? -<date when="1892">1892</date>) [Trade, Remarks]
+                  Trapper, bear hunter, Indian fighter, otter hunter, stock raiser, sheep grazer
+                  [Comments] Hunted on Wm. G. Dana license, <date when="1835">1835</date>; promised
+                  land by <persName key="#jva">Alvarado</persName>, <date when="1836">1836</date>;
+                  promised 1/2 <placeName key="#huasma">Huasma Rancho</placeName> by <persName
+                     type="investor" key="#isp">Sparks</persName>; <date when="1840">1840</date>,
+                  purchased "<placeName type="city" key="#ci_burtons">Burton Mound</placeName>" from
+                     <persName type="seaman" key="#jchap">Joseph Chapman</persName>, sold to
+                     <persName key="#hinch">Hinchman</persName>, Santa Barbara attorney, <date
+                     when="1850">1850</date>; <date from="1850" to="1870">1850-70</date>, w/
+                        <rs><persName type="group" key="#mni; #gnijr; #jacobni">2
+                     sons</persName></rs>, cattle and sheep on <placeName type="island" key="#i_sm"
+                     >San Miguel Island</placeName>; <persName type="seaman" key="#tro">Thomas
+                     Robbins</persName>, his tenant; <date when="1878">1878</date>, he and
+                        <rs><persName key="#sni">wife</persName></rs> lived with <rs><persName
+                        key="#ini">youngest daughter</persName></rs> just outside <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>; interviewed by <persName
+                     type="author" key="#eha">Hardacre</persName></p>
+               <p><persName type="seaman" key="#tro">THOMAS ROBBINS</persName>, (? -<date
+                     when="1857">1857</date>): <placeName type="island" key="#i_ni">Nantucket
+                     Island</placeName>, <date when="1827">1827</date> [Married to] <persName
+                     key="#encar">Encarnación</persName>, <date when="1834">1834</date>, daughter of
+                     <persName key="#ccar">Carlos Carrillo</persName> [Trade, Remarks] Owned a
+                  store, <date when="1830">1830</date>, 1st Mate, <emph><name type="ship"
+                        key="#sh_waverly">Waverly</name></emph> [Comments] Commanded <emph><name
+                        type="ship" key="#sh_california">California</name></emph>, <date from="1827"
+                     to="1829">1827-29</date>; grantee, <placeName type="island" key="#i_scatalina"
+                     >Santa Catalina Island</placeName>, <date when="1846">1846</date>; grantee,
+                     <placeName type="region" key="#re_calera">Rancho Las Positas y
+                     Calera</placeName>, adjoining <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName></p>
+               <p><persName type="author" key="#jsh">DR. JAMES BARRON SHAW</persName>: <placeName
+                     type="country" key="#co_eng">England</placeName>, <date when="1853">1853</date>
+                  [Married to] <persName key="#hagr">Helen A. Green</persName>, <date when="1861"
+                     >1861</date>, Londoner [Trade, Remarks] Supt., <orgName type="company"
+                     key="#scruzislandcompany">Santa Cruz Island Co.</orgName>, <date from="1853"
+                     to="1869">1853-69</date>, for <orgName type="company" key="#bfcompany">Barron,
+                     Forbes &amp; Co.</orgName> [Comments] Had most stylish residence in <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>. Was seen by <rs><persName
+                        type="nativeamerican" key="#lw">Lone Woman</persName></rs> on arrival. He
+                  was on a horse</p>
+               <p><persName type="investor" key="#isp">ISAAC J. SPARKS</persName>, (<date
+                     from="1804" to="1867">1804-1867</date>): <placeName type="state" key="#st_me"
+                     >Maine</placeName>, <date when="1832">1832</date> w/Ewing Young's 2nd trapping
+                  group to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <date
+                     when="1833">1833</date> [Married to] <persName key="#may">Mary
+                  Ayers</persName>, Scottish [Trade, Remarks] <date when="1836">1836</date>, owned
+                  trading store, otter hunter; see <placeName type="island" key="#i_sr">Santa Rosa
+                     Is.</placeName>, helped to remove <persName type="group" key="#bhagroup"
+                     >Indians</persName> from <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName> [Comments] Built first brick house in <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>; was 1st Postmaster of
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <date
+                     when="1836">1836</date>; purchased <placeName key="#foxenhouse">Julien Foxen
+                     home</placeName>, <date when="1843">1843</date>; grantee <placeName
+                     key="#huasma">Huasmo Rancho</placeName> though not married to a Californian;
+                  grantee, <placeName type="region" key="#re_pismo">Pismo Rancho</placeName> and 5
+                  others</p>
+               <p><persName key="#abt">ALPHEUS B. THOMPSON</persName>, (<date from="1797" to="1869"
+                     >1797-1869</date>): Originally from <placeName type="state" key="#st_me"
+                     >Maine</placeName>, commuted, <date from="1825" to="1834">1825-34</date> from
+                     <placeName type="island" key="#i_hawaii">Hawaii</placeName> to <placeName
+                     type="region" key="#re_local">California</placeName> [Married to] <persName
+                     key="#franci">Francisca</persName>, <date when="1834">1834</date>, (<date
+                     from="1815" to="1841">1815-1841</date>) daughter of <persName key="#ccar"
+                     >Carlos Carrillo</persName> [Trade, Remarks] Merchant, otter hunter, farmer,
+                  stock raiser, supercargo, shipbuilder [Comments] Nephew of <persName
+                     key="#dwildes">Capt. Dixie Wildes</persName>, uncle of <persName key="#dwt"
+                     >Dixie Wildes Thompson</persName>; <rs><persName key="#franci"
+                     >wife</persName></rs> was owner of 1/2 <placeName type="island" key="#i_sr"
+                     >Santa Rosa Island</placeName>; supercargo, <emph><name type="ship"
+                        key="#sh_washington">Washington</name></emph>, <date from="1825" to="1830"
+                     >1825-30</date>; co-owner &amp; supercargo, brig <emph><name type="ship"
+                        key="#sh_bolivar">Bolivar</name></emph>, <date from="1832" to="1840"
+                     >1832-40</date>; owner of <emph><name type="ship" key="#sh_famer"
+                     >Famer</name></emph> (<emph><rs><name type="ship" key="#sh_famer">La
+                           Fama</name></rs></emph>), <date when="1842">1842</date>; supercargo,
+                        <emph><name type="ship" key="#sh_loriot">Loriot</name></emph>, <date
+                     from="1833" to="1834">1833-34</date></p>
+               <p><persName type="frontiersman" key="#iwi">CAPT. ISAAC WILLIAMS</persName>, ( ?
+                     -<date when="1856">1856</date>): <placeName type="state" key="#st_ny">New
+                     York</placeName>; from <placeName type="state" key="#st_nm">New
+                     Mexico</placeName> with <persName type="frontiersman" key="#eyo">E.
+                     Young</persName>, <date when="1832">1832</date>, to <placeName type="city"
+                     key="#ci_la">Los Angeles</placeName>; called "Julian" [Married to] <persName
+                     key="#amje">Antonia María de Jesús</persName>, daughter of <persName
+                     type="frontiersman" key="#alu">Antonio Lugo</persName> [Trade, Remarks] Farmer,
+                  trader, trapper, stock raiser [Comments] Collector for port of <placeName
+                     type="city" key="#ci_sp">San Pedro</placeName>; inherited <placeName
+                     key="#cranch">Chino Rancho</placeName>, <placeName type="county"
+                     key="#co_sbern">San Bernerdino [Bernandino] County</placeName>, granted to
+                     <persName type="frontiersman" key="#alu">Lugo</persName>, <date when="1841"
+                     >1841</date>; took <rs><persName type="nativeamerican" key="#Nicolenowoman1">an
+                        Indian</persName></rs> from <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>, <date when="1835">1835</date>, to live with him</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

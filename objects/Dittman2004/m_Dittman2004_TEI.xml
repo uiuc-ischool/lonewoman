@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="journal" key="#anwest">Ancestors West</title>
+                    <editor> </editor>
+                    <biblScope unit="volume">31</biblScope>
+                    <biblScope unit="issue">1-2</biblScope>
+                    <biblScope unit="date"><date when="2004"/></biblScope>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#Dittman2004">Good Grief, Charley Brown!</title>
+                        <biblScope unit="page" from="13" to="15"/>
+                        <author><persName type="author" key="#rhd">Dittman, Richard
+                            H.</persName></author>
+                        <date when="2004-09-01"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">GOOD GRIEF, <persName type="frontiersman"
+                                key="#cdi">CHARLEY BROWN</persName>!</hi></title></head>
+                <byline><emph>By <persName type="author" key="#rhd">Richard H. Dittman, SBCGS Member
+                            </persName><emph>rdittman@uwm.edu</emph></emph></byline>
+                <p>There are many reasons for settling in <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>: climate, hunting, family, business, and culture. But
+                    how about fleeing the long arm of the law? During the <date from="1840-01-01"
+                        to="1849-12-31">1840s</date>
+                    <placeName type="city" key="#ci_sb">Santa Barbara</placeName> was about as far
+                    away from the <emph>Polizei</emph> in <placeName type="city" key="#ci_ber"
+                        >Berlin</placeName> as a fugitive could possibly be.</p>
+                <p><persName type="frontiersman" key="#cdi">Carl August Dittmann</persName> was born
+                    on the <date when="1825-11-07">7<hi rend="superscript">th</hi> of November
+                        1825</date> in <placeName type="city" key="#ci_ber">Berlin</placeName>,
+                        <placeName type="country" key="#co_prussia">Kingdom of Prussia</placeName>.
+                    He was the third of seven children born to <persName key="#wdit">Wilhelm
+                        Dittmann</persName> and <persName key="#joh">Johanne Öhlbrecht</persName>.
+                        <persName type="frontiersman" key="#cdi">Carl</persName> told his children
+                    that at age fourteen he became an apprentice in a furniture factory. There he
+                    received a beating from his employer for making a mistake while caning a chair.
+                    Learning of his son's beating, <persName key="#wdit">Wilhelm</persName> argued
+                    with the employer. A scuffle ensued and both <rs><persName key="#wdit"
+                            >father</persName></rs> and <rs><persName type="frontiersman" key="#cdi"
+                            >son</persName></rs> were thrown in jail; an apprentice was given few
+                    rights in <placeName type="city" key="#ci_ber">Berlin</placeName> at that time.
+                        <persName type="frontiersman" key="#cdi">Carl</persName> decided to run
+                    away. When informed of his son's decision, <persName key="#wdit"
+                        >Wilhelm</persName> said, "I don't blame you. I wish I could too."</p>
+                <p>According to his <title type="manuscript" key="#Dittman1878"
+                            ><emph>Narrative</emph></title>,<hi rend="superscript">1</hi><note n="1"
+                        place="end">Carl Dittmann, <title type="manuscript" key="#Dittman1878"
+                                ><emph>Narrative of a Seafaring Life on the Coast of
+                                California</emph></title>, <orgName type="institution"
+                            key="#bancroft">Bancroft Library</orgName>, <placeName type="city"
+                            key="#ci_berk">Berkeley, California</placeName>, <date when="1878"
+                            >1878</date>. A copy can be found at <orgName type="institution"
+                            key="#gledlib">Gledhill Library</orgName> of the <orgName
+                            key="#sbhistoricalsoc">Santa Barbara Historical Society</orgName></note>
+                    <persName type="frontiersman" key="#cdi">Carl</persName> traveled north about
+                    eighty miles to the small seaport of <placeName type="city" key="#ci_ueck"
+                        >Ueckermünde</placeName>. He eluded the police, who must have been looking
+                    for him, because he broke his contract. Then as a cook's boy he sailed away in
+                        <name type="ship" key="#sh_rathmann">Captain Rathmann's ship</name>.</p>
+                <p>In <date notBefore="1842-02-01" notAfter="1842-02-28">February 1842</date>, after
+                    having risen to the rank of able-bodied seaman, <persName type="frontiersman"
+                        key="#cdi">Carl</persName> sailed from <placeName type="city" key="#ci_li"
+                        >Liverpool</placeName> to <placeName type="region" key="#re_que"
+                        >Quebec</placeName> and back. He writes in his <title type="manuscript"
+                        key="#Dittman1878"><emph>Narrative</emph></title>, "The weather was very
+                    cold ... being almost constantly wet ... I suffered very much ... [I] determined
+                    to make no more voyages to cold climates." Although being a fugitive from the
+                    law caused <persName type="frontiersman" key="#cdi">Carl</persName> to leave
+                    home, he now had the incentive to search for a warm climate.</p>
+                <p>His next voyage was a round-trip to the sunny <placeName type="region"
+                        key="#re_windies">West Indies</placeName>, which was completed without
+                    incident. On the following trip, <persName type="frontiersman" key="#cdi"
+                        >Carl</persName> sailed from <placeName type="city" key="#ci_li"
+                        >Liverpool</placeName> to <placeName type="city" key="#ci_val">Valparaíso,
+                        Chile</placeName> aboard the English brig <name type="ship"
+                        key="#sh_euphemia"><emph>Euphemia</emph></name>.</p>
+                <p>This decision was pivotal for two reasons. First, <persName type="frontiersman"
+                        key="#cdi">Carl</persName> would eventually arrive in <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName>, and second, he took on an alias.
+                    While signing on, the skipper <persName type="seaman" key="#jnight">Captain John
+                        Nightingale</persName> seemed to have had trouble spelling <persName
+                        type="frontiersman" key="#cdi">Carl Dittmann</persName>, as the story goes.
+                    So in exasperation <persName type="seaman" key="#jnight">Nightingale</persName>
+                    said, "Aw hell, you're <persName type="frontiersman" key="#cdi">Charley
+                        Brown</persName>!" Records show that a "real" Charley Brown had sailed on a
+                    previous voyage; perhaps <persName type="seaman" key="#jnight">Captain
+                        Nightingale</persName> was too lazy to change his records.</p>
+                <p>A source of confusion for historians of <placeName type="region" key="#re_local"
+                        >pre-pioneer California</placeName> is that another <persName type="seaman"
+                        key="#csbrown">Charles Brown</persName>, born in <placeName type="state"
+                        key="#st_ny">New York</placeName>, deserted the whaling ship <emph><name
+                            type="ship" key="#sh_hel">Helvetius</name></emph> in <placeName
+                        type="city" key="#ci_sf">San Francisco</placeName> in <date when="1833"
+                        >1833</date>.<hi rend="superscript">2</hi><note n="2" place="end"><emph>The
+                            Works of Hubert Howe Bancroft</emph>, <orgName key="#albanco">A.L.
+                            Bancroft &amp; Company</orgName>, <placeName type="city" key="#ci_sf"
+                            >San Francisco</placeName>, <date when="1885">1885</date>, Vol. XIX, pp.
+                        731-732.</note> He settled in <placeName type="region" key="#re_norcalcoast"
+                        >northern California</placeName> and died in <placeName type="city"
+                        key="#ci_son">Sonoma</placeName> in <date when="1883">1883</date>.</p>
+                <p>The voyage from <placeName type="city" key="#ci_li">Liverpool</placeName> to
+                        <placeName type="city" key="#ci_val">Valparaíso</placeName> began on <date
+                        when="1843-01-19">January 19, 1843</date>. Nowhere in his <title
+                        type="manuscript" key="#Dittman1878"><emph>Narrative</emph></title> does
+                        <persName type="frontiersman" key="#cdi">Carl</persName> write about any
+                    difficulty sailing around <placeName type="region" key="#re_chorn">Cape
+                        Horn</placeName>, the often-stormy southern tip of <placeName type="region"
+                        key="#re_southamerica">South America</placeName>. Indeed, <persName
+                        type="frontiersman" key="#cdi">Carl</persName> later told his family that
+                    the sea was calm. Carl's experience was unlike that of <persName type="author"
+                        key="#rda">Richard Dana</persName>, who endured days of sleet and snow as he
+                    sailed around <placeName type="region" key="#re_chorn">Cape Horn</placeName> in
+                        <date when="1834">1834</date> and <date when="1836">1836</date>.<hi
+                        rend="superscript">3</hi><note n="3" place="end"><persName type="author"
+                            key="#rda">R.H. Dana, Jr.</persName>, <emph>Two Years Before the
+                            Mast</emph>, <orgName key="#pfcolson">P.F. Collier &amp; Son</orgName>,
+                            <placeName type="city" key="#ci_nyc">New York</placeName>, <date
+                            when="1909">1909</date>, pp. 34-36 and 298-308.</note></p>
+                <p><persName type="frontiersman" key="#cdi">Carl</persName> writes, "At <placeName
+                        type="city" key="#ci_val">Valparaíso</placeName> ... instead of going back
+                    to <placeName type="city" key="#ci_li">Liverpool</placeName>, we started for
+                        <placeName type="state" key="#st_cal">California</placeName>. <rs><name
+                            type="ship" key="#sh_euphemia">Our vessel</name></rs> was chartered by
+                    Captains <persName type="seaman" key="#jwil">John Wilson</persName> and
+                        <persName type="seaman" key="#jscott">James Scott</persName>, of <placeName
+                        type="region" key="#re_upcal">Upper California</placeName>. She was loaded
+                    with an assorted cargo and was to call at many ports on the <placeName
+                        type="region" key="#re_calcoast">California coast</placeName>."</p>
+                <p>From <placeName type="city" key="#ci_val">Valparaíso</placeName> they sailed to
+                        <placeName type="city" key="#ci_callao">Callao, Peru</placeName> and thence
+                    to <placeName type="city" key="#ci_hon">Honolulu</placeName>, arriving on <date
+                        when="1843-12-13">December 13, 1843</date>. The trip so far had been a total
+                    328 days, of which it is estimated that 258 days were at sea and the remaining
+                    70 anchored in a port.</p>
+                <p>Because the <name type="ship" key="#sh_euphemia"><emph>Euphemia</emph></name> was
+                    judged by the <rs><orgName type="military" key="#mi_engnavy">British
+                            Admiralty</orgName></rs> in <placeName type="city" key="#ci_hon"
+                        >Honolulu</placeName> to be unseaworthy and condemned, the cargo was
+                    transferred to the brigantine <emph><name type="ship" key="#sh_juan"
+                            >Juanita</name></emph> in <date when="1844-01">January 1844</date>.
+                        <persName type="frontiersman" key="#cdi">Charley Brown</persName> signed on
+                    again with <persName type="seaman" key="#jwil">Wilson</persName> and <persName
+                        type="seaman" key="#jscott">Scott</persName> to sail for <placeName
+                        type="city" key="#ci_mo">Monterey</placeName>, where taxes were levied by
+                    the <orgName type="government" key="#gov_mexico">Mexican government</orgName> on
+                    cargo imported to <placeName type="region" key="#re_upcal">Upper
+                        California</placeName>.</p>
+                <p>"From <placeName type="city" key="#ci_mo">Monterey</placeName> ... we came direct
+                    to <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, arriving here
+                    in [spring] <date when="1844">1844</date>." <persName type="frontiersman"
+                        key="#cdi">Carl Dittmann, alias Charley Brown</persName>, may have been the
+                    first native of present-day Germany to become a permanent settler in <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                <p>In <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+                    <persName type="frontiersman" key="#cdi">Charley</persName> was put in charge of
+                    Captain Scott's storehouse, which is described in his <title type="manuscript"
+                        key="#Dittman1878"><emph>Narrative</emph></title> as "the old adobe
+                    building, that one still standing [1878] just below <placeName key="#cooksbldg"
+                        >Cook's building</placeName> and a little off <placeName key="#state">State
+                        Street</placeName>."</p>
+                <p>Something of Charley's character is revealed in the next lines of his <title
+                        type="manuscript" key="#Dittman1878"><emph>Narrative</emph></title>. "Here I
+                    remained all the summer of <date when="1844">1844</date> in charge of the store
+                    house . . . <rs><persName key="#boatswain">The boatswain</persName></rs> was
+                    discharged here and again tried to influence <persName type="seaman"
+                        key="#jscott">Capt. Scott</persName> against me by false reports. This time
+                    I gave him a good clubbing, very near breaking his arm."</p>
+                <p>In <date when="1845-04">April 1845</date>
+                    <persName type="frontiersman" key="#cdi">Charley</persName> gave up storekeeping
+                    and began the very lucrative activity of otter hunting with <persName
+                        type="investor" key="#isp">Isaac Sparks</persName>, <persName
+                        type="frontiersman" key="#gni">George Nidever</persName>, and <persName
+                        type="frontiersman" key="#bre">James Breck</persName>. <rs><date when="1860"
+                            >Fifteen years later</date></rs>
+                    <persName type="frontiersman" key="#cdi">Charley</persName> was still reporting
+                    his occupation as otter hunter on the 1860 Census.</p>
+                <p>In <date when="1846-08">July 1846</date> the hunters stopped at <placeName
+                        type="city" key="#ci_mo">Monterey</placeName> to find the <orgName
+                        type="military" key="#mi_navy">American navy</orgName> [sic] in possession
+                    of the port. There <persName type="frontiersman" key="#cdi">Charley</persName>
+                    learned of the war with <placeName type="country" key="#co_mex"
+                        >Mexico</placeName>. After hunting farther north the hunters returned to a
+                    camp just above the harbor of <placeName type="city" key="#ci_slo">San Luis
+                        Obispo</placeName>, where they were warned about a band of marauders. Late
+                    that night they slipped away from their camp out to sea and safety. "There were
+                    several of them headed by an Italian called <persName type="frontiersman"
+                        key="#ant">Antonio</persName>, a regular desperado, who was killed two or
+                    three days afterwards. ...(members of the band) acknowledged that they intended
+                    to kill us all and take our skins."</p>
+                <p>Upon arriving at <placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                    they were arrested by Californians (Mexican citizens). <persName
+                        type="frontiersman" key="#bfi">Bill Fife</persName> (a Scot) and <persName
+                        type="frontiersman" key="#cdi">Charley Brown</persName> (a German) were
+                    released, while the Americans were held. <persName type="frontiersman"
+                        key="#cdi">Charley</persName> declined to join either side in the war and
+                    continued his otter hunting.</p>
+                <p>When gold was discovered at <placeName type="city" key="#ci_coloma"
+                        >Coloma</placeName> in <date notBefore="1848-01">January 1848</date>,
+                        <persName type="frontiersman" key="#cdi">Charley</persName> interrupted his
+                    otter hunting. He could not get away in <date when="1848">1848</date>, but in
+                        <date when="1849-03">March 1849</date> he went to the <placeName
+                        type="region" key="#re_diggings">Stanislaus diggings</placeName> (north of
+                        <placeName type="city" key="#ci_son">Sonora</placeName>) with <persName
+                        type="frontiersman" key="#gis">George Islip</persName> and <persName
+                        type="frontiersman" key="#jfo">Julian Foxen</persName> to seek his fortune.
+                    After two months of mining, <persName type="frontiersman" key="#cdi"
+                        >Charley</persName> returned to <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> with $1,030 in gold. In the spring of <date when="1850"
+                        >1850</date> he returned to the same diggings and mined only $500 in gold
+                    after four months. He then quit mining and resumed otter hunting in <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                <p><persName type="frontiersman" key="#cdi">Charley</persName> became a homeowner in
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> during <date
+                        when="1850-08">August 1850</date>, when for $310 he bought "<placeName
+                        key="#olive">Casa de Olive</placeName>," located on the southwestern side of
+                        <placeName key="#state">State Street</placeName> between <placeName
+                        key="#haley">Haley Street</placeName> and <placeName key="#gutierrez"
+                        >Gutierrez Street</placeName>. The property was purchased from the estate of
+                        <persName type="seaman" key="#jscott">James Scott</persName>, the merchant
+                    whose warehouse <persName type="frontiersman" key="#cdi">Charley</persName> had
+                    occupied in <date when="1844">1844</date>.<hi rend="superscript">4</hi><note
+                        n="4" place="end">Book of Deeds, <placeName type="county" key="#co_sb">Santa
+                            Barbara County</placeName>, Vol. B, 1851-1857, pp. 1-4. Microfilm
+                        #1451275, Item #4, <orgName key="#famhislib">Family History Library
+                            [FHL]</orgName>
+                        <placeName type="city" key="#ci_slc">Salt Lake City,
+                        Utah</placeName>.</note>
+                    <persName type="frontiersman" key="#cdi">Charley</persName> lived there until
+                        <date notBefore="1877-08">August 1887</date>, when he sold his holdings and
+                    moved to <placeName type="city" key="#ci_lom">Lompoc</placeName>.</p>
+                <p>[Note from <persName type="author" key="#jwood">John Woodward</persName>:
+                        <placeName key="#olive">Casa de Olive</placeName> was probably built after
+                    streets were laid out in the 1851 Haley survey since it is parallel to
+                        <placeName key="#state">State Street</placeName> (compare to <persName
+                        key="#codero">Maria Cordero</persName> adobe at angle behind <persName
+                        type="frontiersman" key="#cdi">Brown</persName> adobe in right center of
+                    block). Original map with color coding shows central part of main house and cook
+                    house immediately in rear as being made of adobe.]</p>
+                <p><title type="manuscript" key="#Dittman1878">Charley Brown's
+                            <emph>Narrative</emph></title> ends in the summer <date when="1853"
+                        >1853</date> with a long description of finding <persName
+                        type="nativeamerican" key="#lw">the lone Indian woman</persName> of
+                        <placeName type="island" key="#i_sn">San Nicholas Island</placeName>.
+                    Curiously, <persName type="frontiersman" key="#cdi">Charley</persName> never
+                    related anything about his family.</p>
+                <p>Those years around <date when="1850">1850</date> were especially important
+                    because of Brown's marriage to <persName key="#francas">Francisca
+                        Cascareña</persName> and births of their son <persName key="#cardi"
+                        >Carlos</persName> and daughter <persName key="#mjdi">Maria
+                    Juana</persName>. Family life was the last and most important reason for
+                        <persName type="frontiersman" key="#cdi">Charley Brown</persName> to settle
+                    in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+                <p>No record has been found at <placeName key="#sorrows">Our Lady of Sorrows
+                        Church</placeName> for the marriage of <persName type="frontiersman"
+                        key="#cdi">Charley Brown</persName> and <persName key="#francas">Francisca
+                        Cascareña</persName>. That is not surprising, since he was Lutheran and she
+                    was Catholic. The 1850 Census has an entry for only <persName
+                        type="frontiersman" key="#cdi">Charles Brown</persName>, age 25, of
+                        <placeName type="country" key="#co_prussia">Prussia</placeName>. His wife
+                    Francisca's name does not appear, but there is a check mark for the column
+                    listing "Married within the last year." Her name has not been found anywhere in
+                        <placeName type="state" key="#st_cal">California</placeName> in the 1850
+                    Census.</p>
+                <p>The only record at <placeName key="#sorrows">Our Lady of Sorrows
+                        Church</placeName> for any Brown is a baptism for "<persName key="#mjdi"
+                        >Maria Juana Brown</persName> on <date when="1850-11-05">November 5,
+                        1850</date>, daughter of <persName type="frontiersman" key="#cdi">Carlos
+                        Brown</persName> and <rs><persName key="#francas">an Indian neophyte of San
+                            Luis Rey</persName></rs> named <persName key="#francas"
+                        >Francisca</persName>."<hi rend="superscript">5</hi><note n="5" place="end"
+                            ><placeName key="#sorrows">Our Lady of Sorrows Church</placeName>,
+                            <emph>Record of Baptisms</emph>, Vol. 2, #326.</note> The birth date is
+                    given as <date when="1850-10-31">October 31</date>. Because the enumeration date
+                    on the 1850 Census for the page listing <persName type="frontiersman" key="#cdi"
+                        >Charles Brown</persName> is <date when="1850-10-29">October 29</date>,
+                    perhaps <persName key="#francas">Francisca</persName> was giving birth to
+                        <persName key="#mjdi">Maria Juana</persName> somewhere in seclusion. This
+                    might be the reason that she was entirely missed on that census.</p>
+                <p>There is much less information on their son <persName key="#cardi">Carlos
+                        (Charles, Jr.)</persName>. On the 1860 Census for <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName>, taken on <date when="1860-06-07"
+                        >June 7, 1860</date>, one finds four members of the Charles Brown family.
+                        <persName type="frontiersman" key="#cdi">Charles (Sr.)</persName> is listed
+                    as an otter hunter, born in <placeName type="country" key="#co_prussia"
+                        >Prussia</placeName>, and the other family members are born in <placeName
+                        type="state" key="#st_cal">California</placeName>. Francisca's age is given
+                    as 30. Juana's age is given as 12, suggesting that she was born in <date
+                        when="1847">1847</date> (contrary to her baptismal record!), and a boy,
+                        <persName key="#cardi">Charles</persName>, age 10 years, suggesting that he
+                    was born in <date when="1849">1849</date> or <date when="1850">1850</date>. The
+                    children's ages don't add up! But census records are often not accurate, and so
+                    far, they are the only official documents showing that the son <persName
+                        key="#cardi">Charles</persName> ever lived.</p>
+                <p>A most significant document appears in the <emph>Actions of the <placeName
+                            type="government" key="#sbdistrict">Santa Barbara District
+                            Court</placeName></emph> on <date when="1860-04-11">April 11,
+                        1861</date>. The abridged transcript reads, "I, <persName
+                        type="frontiersman" key="#cdi">Charles Dittmann</persName>, commonly known
+                    as <persName type="frontiersman" key="#cdi">Charles Brown</persName> which
+                    latter name I hereby declare is not my true name ... acknowledge myself to be
+                    the father of <persName key="#cardi">Charles Cascareña</persName> aged about
+                    twelve years, and <persName key="#mjdi">Juana Cascareña</persName> aged about
+                    eleven years ... of an Indian woman ... <persName key="#francas">Francisca
+                        Cascareña</persName>, formerly of the <placeName type="mission" key="#mi_sl"
+                        >mission of San Luis Rey</placeName>, and I ... hereby adopt ... [them] ...
+                    as my own children."</p>
+                <p>In this document that acknowledged the name Brown to be an alias, <persName
+                        type="frontiersman" key="#cdi">Charles</persName> also changed his
+                    children's surname Cascareña (not Brown) to Dittmann. Notice that the children's
+                    surname had been that of their mother. It seems that he was adopting his own
+                    children, perhaps because he was never married to <persName key="#francas"
+                        >Francisca</persName> and she may have died. This document is probably more
+                    accurate than the 1860 Census concerning the children's birth order and ages.
+                        <persName key="#cardi">Charles</persName> was born probably in <date
+                        when="1849">1849</date> and <persName key="#mjdi">Juana</persName>
+                    definitely in September 1850.</p>
+                <p>Another clue that <persName key="#francas">Francisca</persName> may have died
+                    during the latter half of <date when="1860">1860</date> appears in the article,
+                    "St. Vincent's Students."<hi rend="superscript">6</hi><note n="6" place="end"
+                            ><emph>St. Vincent's Students</emph>, <orgName type="publication"
+                            key="#anwest">Ancestors West</orgName>, <orgName key="#sbcgensoc"
+                            >SBCGS</orgName>, Vol. 29, No. 4 (<date from="2003-06" to="2003-08"
+                            >Summer 200</date>3), pp. 8-9.</note>
+                    <persName key="#mjdi">Jane Dittman (formerly known as Maria Juana Brown or Juana
+                        Cascareña)</persName> appears once, in the <date when="1861">1861</date>
+                    school year for <placeName key="#sisters">St. Vincent's school and orphan asylum
+                        for girls</placeName>. <placeName key="#sisters">The Daughters of Charity of
+                        St. Vincent de Paul</placeName> also accepted "half-orphans," described as
+                    having one deceased parent.</p>
+                <p>The next significant record is the Letter of Intent (for naturalization) that
+                        <persName type="frontiersman" key="#cdi">Charles Ditman</persName> (as he
+                    then spelled his surname), alias Chas. Brown, signed on <date when="1867-07-20"
+                        >July 20, 1867</date> in the Court of the First Judicial District in
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName>. He finalized
+                    his naturalization on <date when="1871-07-31">July 31, 1871</date>.</p>
+                <p>There is no mention of <persName key="#cardi">Charles Dittman[,] Jr.</persName>
+                    during the <date from="1860" to="1869">1860s</date>. The last official record of
+                    him is the 1870 Census for <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>. That census, on the page enumerated <date
+                        when="1870-08-12">August 12, 1870</date>, lists <persName
+                        type="frontiersman" key="#cdi">Charles Ditman</persName>, age 46, carpenter
+                    from <placeName type="country" key="#co_prussia">Prussia</placeName>; [no
+                        <persName key="#francas">Francisca</persName>!]; <persName key="#cardi"
+                        >Charles Ditman</persName>, age 21; <persName key="#mjdi">Jane
+                        Ditman</persName>, age 19. Jane's age is consistent with her baptismal
+                    records. So it seems likely that her brother <persName key="#cardi"
+                        >Charles</persName> was born before <date when="1849-08">August 1849</date>,
+                    probably <date when="1849-06">June</date> or <date when="1849-07">July</date>. A
+                    few months earlier <persName type="frontiersman" key="#cdi">Charley</persName>
+                    was finding gold left and right, then left after only two months. Perhaps he
+                    gave up mining in order to hurry home to <rs><persName key="#francas">his
+                            pregnant wife</persName></rs>.</p>
+                <p>While browsing through court records, I discovered a document that greatly
+                    complicated Charley Brown's life.</p>
+                <p>In court proceedings<hi rend="superscript">7</hi><note n="7" place="end"
+                            ><emph>District Court Minutes, <placeName type="county" key="#co_sb"
+                                >Santa Barbara County</placeName></emph>, Vol. A, pp. 22-23.</note>
+                    that were recorded on <date when="1852-08-10">August 10, 1852</date>, <persName
+                        key="#francas">Francisca</persName> was the plaintiff in a child custody
+                    case. "... a Writ of Habeas Corpus by <persName key="#francas">Francisca
+                        Cascareña</persName> setting forth that her minor child named <persName
+                        key="#refugio">Refugio</persName> was unlawfully restrained ... by <persName
+                        key="#jcarillo">Jose Carrillo</persName> ... The Court ordered that the body
+                    of the child <persName key="#refugio">Refugio</persName> be delivered up to the
+                    custody and possession of her mother <persName key="#francas">Francisca
+                        Cascareña</persName> ... "</p>
+                <p>This document prompts many questions. Who is the father of <persName
+                        key="#refugio">Refugio</persName> and when was she born? (She was not
+                    identified as Charley Brown's child when he claimed <persName key="#cardi"
+                        >Charles</persName> and <persName key="#mjdi">Juana</persName> in <date
+                        when="1861">1861</date>, so <persName key="#jcarillo">Jose
+                        Carrillo</persName> probably fathered her <rs><date notAfter="1849-02-01"
+                            >before 1849</date></rs>.) Whatever happened to <persName key="#refugio"
+                        >Refugio</persName>? (No trace of <persName key="#refugio">Refugio
+                        Carrillo</persName> was found in either the 1850 or 1860 Census.) Did
+                        <persName type="frontiersman" key="#cdi">Charley</persName> save <persName
+                        key="#francas">Francisca</persName> from an abusive relationship or was she
+                    a "wanton woman," as they liked to say in the <rs><date from="1800-01-01"
+                            to="1899-12-31">nineteenth century</date></rs>? Good grief, <persName
+                        type="frontiersman" key="#cdi">Charley Brown</persName>! Well, back to the
+                    story of <rs><persName type="group" key="#cardi; #mjdi">his two children born of
+                            Francisca Cascareña</persName></rs>.</p>
+                <p><persName key="#mjdi">Mary Jane Dittman</persName>, as she preferred to be called
+                    as an adult, was married on <date when="1872-05-01">May 1, 1872</date> to
+                        <persName key="#bwcb">Benjamin W.C. Brown</persName>. Isn't that confusing!
+                    Mary Jane's birth surname and married surname are both Brown. <persName
+                        key="#bwcb">Benjamin</persName> was born in <placeName type="city"
+                        key="#ci_newport">Newport, Rhode Island</placeName> on <date
+                        when="1833-01-05">January 5, 1833</date>. He came to <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> as a sailor and held various jobs,
+                    including being a deputy to Sheriff <persName key="#covar">Don Nicolas
+                        Covarrubias</persName> about <date when="1878">1878</date> and a
+                    saloon[-]keeper in <date when="1880">1880</date>.</p>
+                <p>In <date when="1873-05">May 1873</date>
+                    <persName type="frontiersman" key="#cdi">Charles Dittman</persName> gave his
+                    daughter <persName key="#mjdi">Mary Jane Brown</persName> "in consideration of
+                    love and affection" a belated wedding gift, all the real property on the
+                    northwest side of <placeName key="#gutierrez">Gutierrez Street</placeName>
+                    between <placeName key="#state">State Street</placeName> and <placeName
+                        key="#anacapa">Anacapa Street</placeName>. In other words, Mary's property
+                    was half a block away from her childhood home.</p>
+                <p>A marriage license records that <persName type="frontiersman" key="#cdi">Charles
+                        Dittman</persName> married <persName key="#mwhit">Margaret
+                        Wetfield</persName> (actually, Whitfield) in <placeName type="city"
+                        key="#ci_sb">Santa Barbara</placeName> on <date when="1873-10-11">October
+                        11, 1873</date> with <persName key="#jvila">Rev. James Vila</persName>
+                    presiding. <persName key="#mwhit">Margaret</persName> was an Irish immigrant
+                    from <placeName type="country" key="#co_aus">Australia</placeName> who worked as
+                    a seamstress for <persName key="#jshaw">Dr. James Shaw</persName>. She had been
+                    attracted to the beautiful garden planted by <persName type="frontiersman"
+                        key="#cdi">Charles</persName>. Theirs was a "May-and-December" marriage; she
+                    was age 25 and he was age 52. They had five children before moving away from
+                        <placeName type="city" key="#ci_sb">Santa Barbara</placeName> in <date
+                        when="1887">1887</date>, but that is another story.</p>
+                <p><persName key="#mjdi">Mrs. Mary Brown</persName> was a part of her father's
+                    second family, being godmother to her half-brothers <persName key="#tditt"
+                        >Thomas Dittman</persName> and <persName key="#lditt">Ludwig
+                        Dittman</persName>. Another half-brother, also named <persName key="#chditt"
+                        >Charles</persName>, remembers an argument between <persName key="#mjdi"
+                        >Mary</persName> and <persName key="#mwhit">Margaret</persName> about the
+                    disposition of some furniture after the house on <placeName key="#state">State
+                        Street</placeName> was sold. Not until the late <date notBefore="1957-01-01"
+                        notAfter="1959-12-31">1950s</date> did <rs><persName
+                            key="#tditt; #lditt; #chditt">the Dittman boys</persName></rs> learn
+                    from Ludwig's son <persName key="#htd">Henry</persName> that <persName
+                        key="#mjdi">Mary</persName> was their half-sister.</p>
+                <p>On <date when="1883-07-09">July 9, 1883</date>
+                    <persName key="#bwcb">Benjamin Brown</persName> died, apparently leaving no
+                    children. <persName key="#mjdi">Mary Brown</persName> lived on at <placeName
+                        key="#gutierrez">115 Gutierrez Street</placeName> for the rest of her life.
+                    She can be found at that residence on every census from <date from="1880"
+                        to="1920">1880 to 1920</date>, except of course, <date when="1890"
+                        >1890</date>.</p>
+                <p><persName key="#mjdi">Mary Brown</persName> later became a source of information
+                    about <placeName type="city" key="#ci_sb">Santa Barbara</placeName> during the
+                        <date from="1850" to="1859">1850s</date> and <date from="1860" to="1869"
+                        >1860s</date>. An extensive interview of her appears in the May 13, 1922
+                    issue of <emph><orgName type="publication" key="#dailynews">The Daily
+                            News</orgName></emph> published in <placeName type="city" key="#ci_sb"
+                        >Santa Barbara</placeName>, wherein she relates that the family home on
+                        <placeName key="#state">State Street</placeName> "stood on the site of what
+                    is now <placeName type="mission" key="#mi_faith">Faith Mission</placeName>, next
+                    to <placeName key="#jones">Jones Cafeteria</placeName>." In that same interview
+                    she tells that her brother, <persName type="frontiersman" key="#cdi">Charles
+                        Dittman</persName>, had been an otter hunter. Later he became a sailor and
+                    was lost at sea in <date when="1894">1894</date> when his shipsank.</p>
+                <p>Elsewhere <persName key="#mjdi">Mary</persName> goes into more detail<hi
+                        rend="superscript">8</hi><note n="8" place="end"><persName type="author"
+                            key="#mph">Michael James Phillips</persName>, <emph>History of Santa
+                            Barbara, California</emph>, <orgName key="#sjcpubco">S.J. Clarke
+                            Publishing Company</orgName>, <placeName type="city" key="#ci_chic"
+                            >Chicago</placeName>, <date when="1927">1927</date>, pp. 111-112.</note>
+                    about <rs><persName type="frontiersman" key="#chditt">her
+                        brother</persName></rs>. She relates that he "was hunting with <persName
+                        type="frontiersman" key="#gni">Capt. George Nidever</persName> and his son,
+                    young <persName key="#gnijr">George</persName>, in the waters of <placeName
+                        type="region" key="#re_baja">Lower California</placeName>, in <date
+                        when="1865">1865</date>." During that hunt he shot an otter and gave the
+                    skin to <persName key="#mjdi">Mary</persName>. She had possession of it in <date
+                        when="1922">1922</date>, when it was valued at $7,000. She died on <date
+                        when="1929-06-09">June 9, 1929</date> and was buried at <placeName
+                        key="#calvary">Calvary Cemetery</placeName>.</p>
+                <p><emph><persName type="author" key="#rhd">The author</persName> wishes to
+                        acknowledge the assistance of <persName type="author" key="#kbrew">Kathleen
+                            Brewster</persName> and <persName type="author" key="#dok">Dorothy
+                            Oksner</persName>, as well as apologies to <persName type="author"
+                            key="#schultz">Charles Schultz</persName>.</emph></p>
+                <div type="section" n="1">
+                    <head><title type="section"><hi rend="bold">End Notes</hi></title></head>
+                    <p><bibl>1. Carl Dittmann, <title type="manuscript" key="#Dittman1878"
+                                    ><emph>Narrative of a Seafaring Life on the Coast of
+                                    California</emph></title>, <orgName type="institution"
+                                key="#bancroft">Bancroft Library</orgName>, <placeName type="city"
+                                key="#ci_berk">Berkeley, California</placeName>, <date when="1878"
+                                >1878</date>. A copy can be found at <orgName type="institution"
+                                key="#gledlib">Gledhill Library</orgName> of the <orgName
+                                key="#sbhistoricalsoc">Santa Barbara Historical
+                            Society</orgName>.</bibl></p>
+                    <p><bibl>2. <emph>The Works of Hubert Howe Bancroft</emph>, <orgName
+                                key="#albanco">A.L. Bancroft &amp; Company</orgName>, <placeName
+                                type="city" key="#ci_sf">San Francisco</placeName>, <date
+                                when="1885">1885</date>, Vol. XIX, pp. 731-732.</bibl></p>
+                    <p><bibl>3. <persName type="author" key="#rda">R.H. Dana, Jr.</persName>,
+                                <emph>Two Years Before the Mast</emph>, <orgName key="#pfcolson"
+                                >P.F. Collier &amp; Son</orgName>, <placeName type="city"
+                                key="#ci_nyc">New York</placeName>, <date when="1909">1909</date>,
+                            pp. 34-36 and 298-308.</bibl></p>
+                    <p><bibl>4. Book of Deeds, <placeName type="county" key="#co_sb">Santa Barbara
+                                County</placeName>, Vol. B, 1851-1857, pp. 1-4. Microfilm #1451275,
+                            Item #4, <orgName key="#famhislib">Family History Library
+                                [FHL]</orgName>
+                            <placeName type="city" key="#ci_slc">Salt Lake City,
+                            Utah</placeName>.</bibl></p>
+                    <p><bibl>5. <placeName key="#sorrows">Our Lady of Sorrows Church</placeName>,
+                                <emph>Record of Baptisms</emph>, Vol. 2, #326.</bibl></p>
+                    <p><bibl>6. <emph>St. Vincent's Students</emph>, <orgName type="publication"
+                                key="#anwest">Ancestors West</orgName>, <orgName key="#sbcgensoc"
+                                >SBCGS</orgName>, Vol. 29, No. 4 (<date from="2003-06" to="2003-08"
+                                >Summer 200</date>3), pp. 8-9.</bibl></p>
+                    <p><bibl>7. <emph>District Court Minutes, <placeName type="county" key="#co_sb"
+                                    >Santa Barbara County</placeName></emph>, Vol. A, pp.
+                            22-23.</bibl></p>
+                    <p><bibl>8. <persName type="author" key="#mph">Michael James
+                            Phillips</persName>, <emph>History of Santa Barbara, California</emph>,
+                                <orgName key="#sjcpubco">S.J. Clarke Publishing Company</orgName>,
+                                <placeName type="city" key="#ci_chic">Chicago</placeName>, <date
+                                when="1927">1927</date>, pp. 111-112.</bibl></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
