@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal">University of California Publications in American Archaeology
+                  and Ethnology</title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="4"/><biblScope unit="issue" n="3"/>
+               <date when="1907"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#Kroeber1907">The Shoshonean Dialects of
+                     California</title>
+                  <biblScope unit="page" from="152" to="153"/>
+                  <author><persName type="author" key="#akroe">Kroeber, Alfred
+                     L.</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><placeName type="island" key="#i_chi">SANTA BARBARA
+                        ISLANDS</placeName></rs>.</title></head>
+            <p>The six inhabited <rs><placeName type="island" key="#i_chi">Santa Barbara
+                     islands</placeName></rs> off <rs><placeName type="region" key="#re_socalcoast"
+                     >the coast</placeName></rs> of Southern California were equally divided between
+                     <rs><orgName type="nativeamericantribes" key="#natam_Chumash">Indians of the
+                     Chumash</orgName></rs> and <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">Shoshonean stocks</orgName></rs>. The three
+               northern islands, <rs><placeName type="island" key="#i_sm">San
+                  Miguel</placeName></rs>, <rs><placeName type="island" key="#i_sr">Santa
+                     Rosa</placeName></rs>, and <rs><placeName type="island" key="#i_scruz">Santa
+                     Cruz</placeName></rs>, adjoining the coast of <placeName type="city"
+                  key="#co_sb">Santa Barbara</placeName> and <placeName type="county"
+                  key="#co_ventura">Ventura</placeName> counties, were occupied, like <rs><placeName
+                     type="region" key="#re_socalcoast">this coast strip</placeName></rs>, by
+                     <rs><orgName type="nativeamericantribes" key="#natam_Chumash"
+                  >Chumash</orgName></rs>, whose family appellation, which is only a book name, is
+               derived from the native term for <rs><placeName type="island" key="#i_sr">Santa
+                     Rosa</placeName></rs> or <rs><orgName type="nativeamericantribes"
+                     key="#natam_Chumash">its inhabitants</orgName></rs>. The three southern
+               islands, <rs><placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName></rs>, <rs><placeName type="island" key="#i_scl">San
+                     Clemente</placeName></rs>, and the outlying <rs><placeName type="island"
+                     key="#i_sn">San Nicolas</placeName></rs>, were held by <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                  >Shoshoneans</orgName></rs>.<hi rend="superscript">1</hi><note n="1" place="end"
+                     ><hi rend="superscript">1</hi> The map in Powers' Tribes of <rs><placeName
+                        type="state" key="#st_cal">California</placeName></rs> does not commit
+                  itself as to the three southern islands and leaves them uncolored. <rs><persName
+                        key="#apow">Powell, Ann. Rep. Bur. Ethn. VII, 67</persName></rs>, states
+                  that they were probably inhabited by <rs><orgName type="nativeamericantribes"
+                        key="#natam_Chumash">people of Chumashan family</orgName></rs>; but the
+                  accompanying map colors them as Shoshonean.</note>
+               <rs><placeName type="island" key="#i_scatalina">Santa Catalina</placeName></rs> was
+               occupied by <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                     >people speaking Gabrielino</orgName></rs>, and its name was Pimu. <rs><orgName
+                     type="nativeamericantribes" key="#natam_Luisenos">The Luiseño</orgName></rs>
+               call the island <rs><placeName type="island" key="#i_scatalina">Santa
+                     Catalina</placeName></rs> Pipimar. The affiliations of <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">the inhabitants of San
+                     Clemente</orgName></rs> are not certain. <persName type="author" key="#hre"
+                  >Reid</persName> includes <rs><placeName type="island" key="#i_scl">the
+                     island</placeName></rs>, under the name Kinkipar, in his list of the principal
+               rancherias of the <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">Gabrielino "Indians of <rs><placeName
+                           type="county" key="#co_la">Los Angeles county</placeName></rs>."
+                  </orgName></rs>The present <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">Gabrielino Indians</orgName></rs> call the island
+               Kinki, <rs><orgName type="nativeamericantribes" key="#natam_Luisenos">the
+                     Luiseño</orgName></rs> call it Khesh; <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">the latter</orgName></rs> state that it was
+               inhabited by people speaking their own language, who, after having been brought to
+                     <rs><placeName type="region" key="#re_mld">the mainland</placeName></rs> by
+                  <orgName type="missionfatehrs" key="#misfats">the Franciscans</orgName>, were
+               settled at a place three miles below <rs><placeName type="mission" key="#mi_sl">San
+                     Luis Rey Mission</placeName></rs>, to which they gave the same name, Khesh.
+                  <span type="trope" n="6">That <rs><placeName type="island" key="#i_sn">San Nicolas
+                        island</placeName></rs> was inhabited by Shoshoneans is evident from the
+                  four words preserved of the language of <rs><persName type="nativeamerican"
+                        key="#lw">the last survivor</persName></rs>, a woman who was alone on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for
+                  eighteen years and died soon after being brought to <rs><placeName type="region"
+                        key="#re_mld">the mainland</placeName></rs> half a century ago.</span><hi
+                  rend="superscript">2</hi><note n="2" place="end"><hi rend="superscript">2</hi>
+                  <title type="article" key="#Mason1883">History of Santa Barbara County</title>,
+                  published by Thompson and West, <placeName type="city" key="#ci_oakland">Oakland,
+                     California</placeName>, <date when="1883">1883</date>.</note> These four words
+               are: man, nache; sky, toygwah; hide, tocah; body, puoo-chay. Toygwah is certainly
+               Shoshonean, as will be seen from a glance at the comparative vocabulary. The place of
+               the <rs><placeName type="island" key="#i_sn">San Nicolas island</placeName></rs>
+               dialect in the general classification of the Shoshonean family cannot, however, be
+               determined from this scanty material, especially as the spelling is English and there
+               is no evidence that the four words are free from errors of typography or copying. It
+               is not impossible that the dialect was fairly close to Gabrielino or Luiseño<hi
+                  rend="superscript">3</hi><note n="3" place="end"><hi rend="superscript">3</hi> The
+                  statement that Indians from <rs><placeName type="city" key="#ci_la">Los
+                        Angeles</placeName></rs> and other places, and <rs><orgName key="#misfats"
+                        >fathers</orgName></rs> familiar with all the dialects of <rs><placeName
+                        type="region" key="#re_socalcoast">the coast</placeName></rs>, could not
+                  understand a word of this woman's language, has the appearance of an
+                  overstatement. It must be remembered that she was brought to <rs><placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName></rs>, which is in Chumash
+                  territory, and that there is no evidence that anyone conversant with Luiseño
+                  interviewed her.</note>, or, on the other hand, that it was much differentiated
+               from all others.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

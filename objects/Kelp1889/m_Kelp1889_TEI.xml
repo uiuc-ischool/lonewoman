@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#latimes">Los Angeles
+                            Times</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">8</biblScope>
+                    <date when="1889-08-25"/>
+                    <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#Kelp1889">Archaeological. Relics of the Oriental
+                            Races of Catalina. Interesting Discoveries Under the Hotel
+                            Metropole--Stone Implements, Earrings, Beads,Fishhooks, Mortars,
+                            Pestles, Arts of the Aborigines, Etc.</title>
+                        <biblScope unit="page" n="9"/>
+                        <author><persName type="author" key="#kelp">Kelp</persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">Archaeological.</hi></title>
+                    <title type="sub"><hi rend="bold">Relics of the Oriental Races of <rs><placeName
+                                    type="island" key="#i_scatalina"
+                        >Catalina</placeName></rs>.</hi></title>
+                    <title type="sub"><hi rend="bold">Interesting Discoveries Under the <placeName
+                                key="#metropole">Hotel Metropole</placeName>&#8212;Stone Implements,
+                            Earrings, Beads,Fishhooks, Mortars, Pestles, Arts of the Aborigines,
+                            Etc.</hi></title></head>
+                <dateline><placeName type="city" key="#ci_av">AVALON (Catalina)</placeName>, <date
+                        when="1889-08-17">Aug. 17.</date>&#8212;[Special Correspondence of
+                            <rs><orgName type="publication" key="#latimes">THE
+                    TIMES</orgName></rs>.]</dateline>
+                <p><rs><date when="1589">Three hundred years ago</date></rs>, where the <placeName
+                        key="#metropole">Hotel Metropole</placeName> now stands, was a large and
+                    populous native village. Exactly who <rs><orgName type="nativeamericantribes"
+                            key="#natam_GabrilenoTongva">the people</orgName></rs> were and where
+                    they have gone to is one of the conundrums proposed to every visitor to
+                            <rs><placeName type="island" key="#i_scatalina">the sea-girt
+                            isle</placeName></rs>.</p>
+                <p><span type="trope" n="6">This we do know, that <rs><orgName
+                                type="nativeamericantribes" key="#natam_GabrilenoTongva">the races
+                                who lived here</orgName></rs> have been utterly wiped out of
+                        existence to all intents and purposes, and no one can be found among the
+                        very aged people among the Indians of the mainland who will claim to be
+                        descendants of them.</span></p>
+                <p><placeName type="island" key="#i_scatalina">Santa Catalina Island</placeName> was
+                    discovered by <persName type="seaman" key="#jca">Cabrillo</persName> in <date
+                        when="1542">1542</date>, and named by him La Victoria, after one of his
+                    fleet. The present name of <placeName type="island" key="#i_scatalina"
+                        >Catalina</placeName> was given it by <persName type="seaman" key="#svi"
+                        >Vizcaino</persName>, who landed here in <date when="1602">1602</date>,
+                    nearly 100 years later. An interesting account of Cabrillo's voyages, written by
+                            <rs><persName type="seaman" key="#bfe">one of his
+                    pilots</persName></rs>, has recently been found among old papers in <placeName
+                        type="country" key="#co_Spain">Spain</placeName>; but perhaps the most
+                    satisfactory account is of the voyage of <persName type="seaman" key="#svi"
+                        >Vizcaino</persName>. He reports <placeName type="island" key="#i_scatalina"
+                        >Catalina</placeName> as being thickly populated, and makes especial mention
+                    of the fact that <rs><orgName type="nativeamericantribes"
+                            key="#natam_GabrilenoTongva">the people</orgName></rs> were adepts at
+                    stealing. <persName type="missionfather" key="#ascan">Father
+                        Ascancion</persName>, who accompanied this expedition, recorded many
+                    interesting facts, and among them was a description of a "<placeName
+                        key="#suntemple">Temple of the Sun</placeName>," said to be near
+                            <rs><placeName type="region" key="#re_catalinaharbor">the two
+                            harbors</placeName></rs> and to contain images and idols.</p>
+                <p><rs><placeName key="#suntemple">This temple</placeName></rs> was probably what
+                    first attracted the attention of scientific men in this direction, and nearly
+                    every year since the old padre's account has been translated some one has
+                    searched for it; but the account is so indefinite that the location has never
+                    been found, though some think it was upon <placeName type="island" key="#i_scl"
+                        >San Clemente</placeName>. The preponderance of opinion, however, is that it
+                    was on <placeName type="island" key="#i_scatalina">Catalina</placeName>, and
+                    possibly the idols and images may have been covered up and will some day be
+                    unearthed.</p>
+                <p><rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">The Indians
+                            or natives of Catalina</orgName></rs> had two or three principal
+                    settlements or villages, one on the site of the present <placeName
+                        key="#metropole">Hotel Metropole</placeName>, and the other at the isthmus,
+                    with smaller ones at different points where there was water.</p>
+                <p>The archæological eye readily recognizes these locations by the peculiar nature
+                    of the soil, which looks as though it had been mixed with coal dust or burnt
+                    wood. The garden of <rs><placeName key="#metropole">the
+                        Metropole</placeName></rs> shows this, being made of earth full of bones,
+                    charred wood, ground shell; earth that has been lived on for centuries and been
+                    discolored by the occupation.</p>
+                <p><rs><date notBefore="1879" notAfter="1881">Eight or ten years ago</date></rs>
+                    <persName key="#mjoe">Mexican Joe</persName> and <persName key="#oldbilly">old
+                        Billy</persName> were about the only occupants who lived here all the year
+                    round. They were familiar with the curious implements found here, but thought
+                    nothing of them. One day <persName type="author" key="#psc">Prof.
+                        Schumacher</persName>, a representative of several eastern scientific
+                    museums and colleges, appeared on the scene. He hired <persName key="#mjoe"
+                        >Mexican Joe</persName>, and by the aid of charts and maps began a
+                    systematic series of excavations, which resulted in the collection of a fine lot
+                    of implements from <rs><placeName type="island" key="#i_scatalina">this
+                            island</placeName></rs>, telling the complete history of <rs><orgName
+                            type="nativeamericantribes" key="#natam_GabrilenoTongva">the unknown
+                            inhabitants</orgName></rs> so far as their domestic habits were
+                    concerned.</p>
+                <p><persName key="#mjoe">Mexican Joe</persName> began to dig from the present
+                        <placeName key="#metropole">Metropole Hotel</placeName> site into what is
+                    now the street about where the swing stands, and the result was a bonanza to the
+                    scientist. At almost every shovelful some stone implement appeared. There were
+                    pestles made of hard stone, some from eight inches to two feet in length, others
+                    short and thick. The long ones were used much as the apothecary grinds his
+                    medicine today, only with these people it was grain or seed that were broken up
+                    or crushed, the long stone pestles or clubs being admirably suited for this
+                    purpose. They told the story of how at least their grain was crushed, which they
+                    probably obtained from <placeName type="region" key="#re_mld">the
+                        mainland</placeName>.</p>
+                <p>The grain must have been held in something, and scores of fine stone vessels or
+                    mortars, dug up here by the two excavators, told the story. They were of all
+                    sizes; some holding a peck, and two feet high, of soapstone from a quarry found
+                    five miles below <placeName type="city" key="#ci_av">Avalon</placeName>.</p>
+                <p>Some were very small, holding very little, and they ranged from the largest size
+                    down to small ones three or four inches across, evidently intended as paint
+                    pots. Several hundred fine mortars were found in the Metropole site village, the
+                    shapes resembling those in the accompanying cut.</p>
+                <p>Only yesterday an excavation was being made for a new building, when a fine small
+                    mortar was dug up, which is of especial interest, as it bears on the side a
+                    small rude figure as shown it [in] cut 3. It is the only figure so far found
+                    that could be considered as showing that these people had some idea of
+                    representing objects by a pencil. The figure, which of course may have been cut
+                    by a modern, though I was assured by <persName key="#ken">Mr. Kennedy</persName>
+                    that it was on the mortar when found, is a rude attempt at a human form, cut in
+                    the soft soapstone with a knife or stone.</p>
+                <p>There are other ornaments upon the mortar, of various kinds.</p>
+                <p><persName type="author" key="#psc">Prof. Schumacher</persName> found hundreds of
+                    objects here: Oval stones, with stones in the center fairly polished, some of
+                    which can be seen in the billiard-room of <rs><placeName key="#metropole">the
+                            Metropole</placeName></rs>. What these are is a mystery, but, curiously
+                    enough, they are found among all the savage and prehistoric tribes of the world.
+                    The object which is shown in figure 3 is about three inches thick, and may have
+                    been used in a game of some kind, or as a weight to a digging stick. Some
+                    contend that they were sinkers or weights to nets, which would be a very
+                    plausible idea if there was any reason to believe that the people had large
+                    nets.</p>
+                <p>These sinkers, as we will call them, are also found on <placeName type="region"
+                        key="#re_mld">the mainland</placeName> far from the water. While sitting on
+                    the Metropole piazza the other day, I saw a gleam on the surface of the garden
+                    plot, and found that it was caused by several flatbeads [sic] of abalone shell,
+                    really beautiful but very fragile objects&#8212;evidently worn by some dusky
+                    belle years ago. These beads, shown in cut No. 4, are remarkably symmetrical; in
+                    fact, perfect, and how they were made without tools is a mystery.</p>
+                <p>That <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">these
+                            people</orgName></rs> were fond of display was very evident by the finds
+                    of <persName type="author" key="#psc">Prof. Schumacher</persName>. Hundreds of
+                    abalone ornaments were found, cut in graceful curves; many carvings like
+                    fishhooks, pendants, curious-shaped stones, some like shoes, others like the
+                    human foot, while others seemed to have shapes that had no definite meaning.
+                    These, or many of them, can be seen in the curiosity store of <persName
+                        key="#elms">Mr. Elms</persName>, the postmaster of <placeName type="city"
+                        key="#ci_av">Avalon</placeName>, and hundreds of specimens were taken away
+                    by <rs><persName key="#elms">the collector referred to</persName></rs>. In
+                    hunting other localities <persName type="author" key="#psc">Prof.
+                        Schumacher</persName> found a soapstone quarry on <rs><placeName
+                            type="island" key="#i_scatalina">the island</placeName></rs>, and a
+                    place where the mortars were made. Many of the latter were found incomplete or
+                    broken, just as they had been left, and undoubtedly here were made many of the
+                    large and beautiful mortars that have been found by collectors on <placeName
+                        type="region" key="#re_mld">the mainland</placeName>. <rs><orgName
+                            type="nativeamericantribes" key="#natam_GabrilenoTongva">The Catalina
+                            people</orgName></rs> doubtless made them, or some of them, and traded
+                    with the Indians of the shore.</p>
+                <p><rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">The
+                            natives</orgName></rs> were naturally dependent upon fish for a living,
+                    and fishhooks are found in great quantities, being made of abalone shell and
+                    resembling the modern hook, with the exception that in these ancient specimens
+                    the barb is upon the outside. Hundreds of these have been found about the
+                    Metropole grounds, and where the excavations were made for the foundations large
+                    quantities of material of all kinds were secured.</p>
+                <p>The location at the isthmus was preeminently a burying-ground, and during a
+                    recent examination <rs><persName type="author" key="#kelp">the
+                        writer</persName></rs> unearthed a number of interesting objects. In working
+                    it was found that the bodies had been buried in about four layers, the lowest
+                    down being naturally the oldest. Here when a man dies many of the household gods
+                    were deposited with him. In digging carefully under a body I found that beads in
+                    large numbers had either been left around the neck of the deceased or thrown
+                    upon the body, probably the former, as when the earth was removed from beneath
+                    the skull the beads ran down in a stream. They were of all kinds&#8212;some
+                    large, with ornamentation, others of Venetian type, but mostly bits of shell
+                    perforated nicely and made from certain small shells. Though rude and rough it
+                    must have taken no little time to make them, and they were evidently valued,
+                    probably as money and ornaments as well.</p>
+                <p>I found a small section still strung upon some vegetable fiber, with pieces of
+                    copper wire coiled in a circle, evidently as rings, to connect the ends. Among
+                    the beads was one made from a human tooth; others from bones of birds.</p>
+                <p>The Venetian beads were identical with some I found being used by <rs><persName
+                            type="nativeamerican" key="#indian10">an aged Indian
+                        woman</persName></rs> at <placeName type="mission" key="#mi_sgabriel">San
+                        Gabriel Mission</placeName> some time ago. She informed me that she obtained
+                    them from the old <orgName type="missionfathers" key="#misfats">Mission
+                        fathers</orgName>
+                    <rs><date notBefore="1819" notAfter="1829">sixty or seventy years
+                        ago</date></rs>, and these beads we took from these <rs><placeName
+                            type="island" key="#i_scatalina">Catalina</placeName></rs> graves were
+                    probably obtained from the same source.</p>
+                <p>That the <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                            >ancient Catalinians</orgName></rs> were musical there is little doubt,
+                    as remains of numerous flutes were taken from these graves. Nearly all were
+                    broken, but I found one fairly perfect, one which showed the hole and the marks
+                    of asphaltum with which it had been wrapped. A perfect one given [to] me by
+                        <persName key="#elms">Mr. Elms</persName>, the postmaster at <placeName
+                        type="city" key="#ci_av">Avalon</placeName>, which came from <placeName
+                        type="island" key="#i_scl">Clemente</placeName>, shows that the instrument
+                    must have produced a very fair noise, as noises go. <persName type="author"
+                        key="#psc">Prof. Schumacher</persName> took numbers of these here at various
+                    points. Some, as shown in the following cut, were double and connected by a
+                    piece of asphaltum.</p>
+                <p><span type="trope" n="3">While some very fine flint spearheads have been found
+                        here, <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                                >the people</orgName></rs> were undoubtedly of a peaceful nature,
+                        seldom going to war. Arrowheads are rare. In the grave at the isthmus I
+                        found a bone sword, which could only have been of use in some ceremonial,
+                        and it is known that swords made from the bones of whales were
+                    used.</span></p>
+                <p>Not the least interesting were the objects I took out that were obtained from the
+                    Spaniards, perhaps <persName type="seaman" key="#jca">Cabrillo</persName> or
+                        <persName type="seaman" key="#svi">V[i]zcaino</persName> themselves. One was
+                    a large iron ax, which <persName type="author" key="#hru">Mr. H. N.
+                        Rust</persName> pronounced of Spanish type. It was covered with rust and
+                    scaled easily, but still shows the cloth that had be been carefully wrapped
+                    around it. Another was an iron knife, which had been wrapped in a similar way,
+                    evidently a treasure, and buried with the owner. In the present article even an
+                    enumeration of the articles found could not be attempted, covering as they do
+                    every article used by these people, from paint and paint-pots up to the
+                    magnificent stone mortars that must have required years to make.</p>
+                <p><span type="trope" n="6">Where are <rs><orgName type="nativeamericantribes"
+                                key="#natam_GabrilenoTongva">the people or their
+                                descendants</orgName></rs> is an interesting problem. <rs><persName
+                                type="nativeamerican" key="#lw">The last squaw</persName></rs> was
+                        taken from <placeName type="island" key="#i_sn">San Nicholas
+                            Island</placeName>
+                        <rs><date when="1853">some years ago</date></rs>, but <placeName
+                            type="island" key="#i_scl">San Clemente</placeName> and <placeName
+                            type="island" key="#i_scatalina">Santa Catalina</placeName> have not
+                        been inhabited within the memory of man. <rs><persName type="nativeamerican"
+                                key="#indian11">An aged Indian</persName></rs>, claiming to be over
+                        100, informed me that <rs><orgName type="nativeamericantribes"
+                                key="#natam_GabrilenoTongva">the natives</orgName></rs> were
+                        encouraged to leave here by the <rs><orgName type="missionfathers"
+                                key="#misfats"><emph>padres</emph></orgName></rs>, who gave them
+                        homes about <rs><orgName type="mission" key="#mi_mainlandmissions">the
+                                missions</orgName></rs>, so that they could convert them. Others
+                        claim that they were killed off by disease.</span>
+                    <persName key="#mjoe">Mexican Joe</persName> says that when he came here, back
+                    in <rs><date notBefore="1850" notAfter="1859">the '50s</date></rs>, Indian dogs
+                    were still running wild on <rs><placeName type="island" key="#i_scatalina">the
+                            island</placeName></rs>. It is somewhat curious that so little is known
+                    about so interesting a subject, and one that, now <rs><placeName type="island"
+                            key="#i_scatalina">the island</placeName></rs> bids fair to be such a
+                    famous resort, will grow in interest every year.</p>
+                <byline><persName type="author" key="#kelp">KELP</persName>.</byline>
+            </div>
+        </body>
+    </text>
+</TEI>

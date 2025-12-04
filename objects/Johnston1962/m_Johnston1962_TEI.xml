@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#calfabind">California's
+                     Gabrielino Indians, vol. 8</orgName></title>
+               <publisher/>
+               <editor/>
+               <date when="1962"/>
+               <pubPlace><placeName type="city" key="#ci_la">Los Angeles</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Johnston1962">Islands Spanish Exploration by
+                     Sea</title>
+                  <biblScope unit="page" from="96" to="113"/>
+                  <author><persName type="author" key="#bjo">Johnston, Bernice
+                     Eastman</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="chapter">
+            <head><title type="main"><hi rend="bold"><hi rend="bold"><rs><placeName type="island"
+                              key="#i_chi">The Islands</placeName></rs></hi></hi></title>
+               <title type="sub">Spanish Exploration by Sea</title></head>
+            <p>Visible from <placeName type="region" key="#re_mld">the mainland</placeName> lay
+                     <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> to which
+               the Spanish were to affix the melodious names of <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName> and <placeName type="island"
+                  key="#i_scl">San Clemente</placeName>, and beyond was small <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName>. <orgName
+                  type="nativeamericantribes" key="#natam_GabrilenoTongva">The Gabrielinos</orgName>
+               had a descriptive phrase for them. "<emph>Wexaj momte asunga wow</emph>," they said:
+               "Mountain ranges that are in the sea."</p>
+            <p>The language spoken on all <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs> and perhaps on tiny <placeName type="island"
+                  key="#i_sb">Santa Barbara Island</placeName> as well, was Shoshonean. The dialect
+               of the most dominant of the group, <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, was Gabrielino, and it is probable that this was also true
+               of <placeName type="island" key="#i_scl">San Clemente</placeName>. The speech of the
+               inhabitants of the <placeName type="island" key="#i_chi">Channel Islands</placeName>
+               off the <placeName type="city" key="#ci_ven">Ventura</placeName>-<placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> coast was Chumash, but the
+               material culture of the entire group at the time of the advent of the Spanish, is
+               classified under the term "Canaliño."</p>
+            <p>True to form, the mainland <orgName type="nativeamericantribes"
+                  key="#natam_GabrilenoTongva">Gabrielinos</orgName> found something uncanny, even
+               sinister, in the isolation granted their tribesmen by the rough waters of the
+               channel. Although brisk trading went on between them, and <placeName type="region"
+                  key="#re_mld">the mainland</placeName> had learned from the religious genius of
+               the men of <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>
+               many of the elements of their vigorous <emph>Chungichnish</emph> cult, it was
+               whispered that while the shamans of <placeName type="region" key="#re_mld">the
+                  mainland</placeName> might kill their enemies with poison, those of <rs><placeName
+                     type="island" key="#i_chi">the islands</placeName></rs> were fierce wizards who
+               used wolves to carry out their lethal designs.</p>
+            <p>The <orgName type="island" key="#natam_Luisenos">Luiseño Indians</orgName> had a
+               similar respect for the men of <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>. One of the informants of <persName type="author" key="#hro"
+                  >Helen H. [sic] Roberts</persName> told her that <rs><orgName type="island"
+                     key="#natam_Luisenos">these islanders</orgName></rs> "knew better" than the
+               folk of <placeName type="region" key="#re_mld">the mainland</placeName>, that they
+               could "prophesy truly." It was believed that they lived two or three hundred years
+               and were so strong they could bend trees. These trees were like gods, it was said.
+               They were frequently named in songs by a clan from <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName> which had migrated to <placeName
+                  type="region" key="#re_mld">the mainland</placeName>, whereupon all that they
+               "called for would come true."</p>
+            <p>The Spanish, when the turn of history brought them to <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName> in <date when="1542-10">October,
+                  1542</date>, saw nothing at all to fear in these fishermen and artisans in
+               basketry and stone. As Juan Rodriguez Cabrillo's ships came to anchor <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                  natives</orgName></rs> took up their bows, while their women and children fled to
+               hide in the chaparral, but the exploreres managed to convey by signs convincing proof
+               of their peaceful intent. Soon the Spaniards went ashore, amid what seems to have
+               been a feeling of friendliness and mutual trust.</p>
+            <p>An even more cordial reception was accorded the Vizcaino party in <date when="1602"
+                  >1602</date>, which was beckoned to shore by signal fires. <rs><persName
+                     type="author" key="#carp">The author of the general diary of that expedition
+                     wrote</persName></rs>: "We anchored, and the admiral, <persName
+                  type="frontiersman" key="#hal">Ensign Alarcon</persName>, <persName
+                  key="#antdelaasc">Father Fray Antonio</persName>, and <persName key="#peguero"
+                  >Captain Peguero</persName>, with some soldiers, went ashore. Many Indians were on
+               the beach, and the women treated us to roasted sardines and a small fruit like sweet
+               potatoes."</p>
+            <p>Thus, almost casually, are reported the earliest meetings of <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">these
+                     Indians</orgName></rs>, so long established on their peaceful shores, with the
+               restless Europeans who were welcomed with shouts and "great rejoicings." Many
+               elements of drama are present in these events, and not the least of them lies in the
+               extraordinary courage of the explorers in their small, poor ships, with simple
+               navigation equipment and inadequate stores of food and water. A description of the
+               symptoms of scurvy, as penned by <persName type="seaman" key="#tto">Father Juan de
+                  Torquemada</persName> from the records of the Vizcaino expedition removes from
+               these oft-told events any tinge of mere romantic adventure.</p>
+            <p>Although <persName type="seaman" key="#svi">Vizcaino</persName> went on to explore
+                  <placeName type="region" key="#re_mobay">Monterey Bay</placeName> he saw little
+               more of <rs><placeName type="region" key="#re_paccoast">the coast</placeName></rs>
+               than had <persName type="seaman" key="#jca">Cabrillo</persName>, 60 years earlier, or
+                  <persName key="#cermeno">Cermeno</persName> during the intervening years. He
+               visualized the use of this bay as a port of call for the treasure ship, the <name
+                  type="ship" key="#sh_mangal">Manilla Galleon</name>, which annually reached a
+               point almost, if not quite, as far north as <placeName type="region" key="#re_cmen"
+                  >Cape Mendocino</placeName> before turning to sail before the northwest wind to a
+               haven in <placeName type="region" key="#re_baja">Mexico</placeName>, sometimes
+               running a gauntlet of freebooters on the way. Critics point out that these ships
+               stood out to sea a hundred or more miles at the most northerly point, and that
+                  <placeName type="city" key="#ci_sd">San Diego</placeName> would have made a much
+               better port and one far closer to sources of supply and defense.</p>
+            <p>However Vizcaino's motives and accomplishments may be evaluated, he was an intrepid
+               explorer, and he and his chroniclers left a mass of reports that became the sources
+               for historians, from <persName type="seaman" key="#tto">Father Torquemada</persName>
+               and <persName key="#venegas">Venegas</persName> down to those of today. The original
+               narratives and "representations" were intended to influence <persName key="#kingp"
+                  >His Majesty, Philip III of Spain</persName>, to order a second expedition. During
+               a long delay, while this was under consideration, <persName type="seaman" key="#svi"
+                  >Vizcaino</persName> died. All his ambitious plans for the settling of <placeName
+                  type="country" key="#co_mexico">California</placeName> and the conversion to
+               Christianity of the thousands of Indian inhabitants, for whose souls, "going to
+               destruction," he apparently felt a genuine concern, went into the dusty archives of
+                  <placeName type="country" key="#co_spain">Spain</placeName> and <placeName
+                  type="region" key="#re_baja">Mexico</placeName>.</p>
+            <p>The importance, to our study, of these expeditions lies in these diaries and
+               narrations. <persName key="#venegas">Venegas</persName> quoted from them in his
+               descriptions of the women of <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName> as handsome, with lovely eyes and features, and of the
+               children as fair, affable and usually smiling. <rs><persName type="author"
+                     key="#carp">The writer of the Vizcaino diary</persName></rs> reported that the
+               faces of the women showed them to be modest. All seemed to agree, however, that the
+               men added a talent for thievery to their general cleverness and first-rate
+               intelligence.</p>
+            <p>Soon after their landing, probably in <placeName type="city" key="#ci_av"
+                  >Avalon</placeName> bay, the ships moved to an anchorage in the Port of <placeName
+                  type="island" key="#i_scatalina">Catalina</placeName>, on the seaward side of the
+               isthmus. Here, <rs><persName type="author" key="#carp">the diarist</persName></rs>
+               wrote, "<rs><persName type="seaman" key="#svi">The general</persName></rs> went
+               inland to see the opposite coast. He found on the way a level prairie, very well
+               cleared, where <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                     >the Indians</orgName></rs> were assembled to worship an idol which was there.
+               It resembled a demon, having two horns, no head, a dog at its feet, and many children
+               painted all around it. <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">The Indians</orgName></rs> told <rs><persName
+                     type="seaman" key="#svi">the General</persName></rs> not to go near it but he
+               approached it and saw the whole thing, and made a cross, and placed the name of Jesus
+               on the head of the demon, telling <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">the Indians</orgName></rs> that that was good, and
+               of heaven, but that the idol was the devil. At this <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                  Indians</orgName></rs> marvelled, and they will readily renounce it and receive
+               our Holy Faith, for apparently they have good intellects and are friendly and
+               desirous of our friendship."</p>
+            <p>Other records called this clearing a "patio" and described the "temple" as a large
+               circle, surrounded by feathers from birds which the Indians had sacrificed. At one
+               side of the figure painted "like a demon" was an image of the sun, at the other one
+               of the moon. While the party was visiting the spot two ravens flew from the enclosure
+               to some rocks. The soldiers killed them with their arquebuses, which threw
+                     <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                     Indians</orgName></rs> into the wildest lamentation. The devil, explained
+                     <rs><persName type="author" key="#carp">the writer</persName></rs>, talked to
+                     <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                     natives</orgName></rs> through the ravens.</p>
+            <p>The skill of <rs><orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                     >the islanders</orgName></rs> as fishermen was described by such adjectives as
+               graceful, easy and pleasant. Sea lions and large fish were caught with bone harpoons
+               which were fastened to the ends of thin willow rods tied with long cords. So
+               impressed were the Spanish by the plank boats that they credited them as being large
+               enough to carry 20 men, adding that they were often managed by only two, with a boy
+               along "to bail out the water which flows in."</p>
+            <p>We read: "<rs><persName type="seaman" key="#svi">The general</persName></rs> gave
+               them beads and they gave him prickly pairs and a grain like the <emph>gofio</emph> of
+               the <placeName type="island" key="#i_canary">Canary Islands</placeName>, in some
+               wicker baskets very well made, and water in vessels resembling flasks which were like
+               rattan inside and very thickly varnished outside. They had acorns and some very heavy
+               skins, apparently of bears, with heavy fur, which they used for blankets."
+                     <rs><persName type="author" key="#carp">The diarist</persName></rs> noted the
+               trading prowess of <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">the Indians</orgName></rs> who produced, in
+               exchange for old clothes, "skins, nets, thread, and very well-twisted ropes, these in
+               great quantities and resembling linen."</p>
+            <p><span type="trope" n="3">Through these records we can clearly visualize <rs><orgName
+                        type="nativeamericantribes" key="#natam_GabrilenoTongva">these
+                        Indians</orgName></rs> in their prehistoric state as members of a stable,
+                  primitive society, clean in body, healthy, skillful artisans, boatmen and
+                  fishermen of grace and skill, and also deeply religious in their own
+                  tradition.</span> Where in these earliest portraits of the island <orgName
+                  type="nativeamericantribes" key="#natam_GabrilenoTongva">Gabrielinos</orgName> do
+               we find the mythical "<orgName type="nativeamericantribes" key="#natam_DiggerIndians"
+                  >digger Indians</orgName>," the lazy degenerates, the filthy and loutish folk
+               which the later tradition set up as typical of the natives of <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">this
+                  tribe</orgName></rs>?</p>
+            <p>One of the authors whose first-hand reports of the expedition of <persName
+                  type="seaman" key="#svi">Sebastian Vizcaino</persName> afforded material for the
+               later historians was <persName key="#antdelaasc">Fray Antonio de la
+                  Ascension</persName>. In <date when="1620">1620</date> one of his reports was
+               forwarded to the <persName key="#riv">Viceroy of Mexico</persName>. This was
+               accompanied by a "Memorial" by one <persName key="#arell">Francisco de
+                  Arellano</persName> which read as follows: </p>
+            <p>"A Brief Report in which is given the Information of the Discovery which was made in
+               New Spain, in the South Sea, from the Port of <placeName type="city" key="#ci_aca"
+                  >Acapulco</placeName> to a Point beyond <placeName type="region" key="#re_cmen"
+                  >Cape Mendocino</placeName>; containing an Account of the Riches, the Temperate
+               Climate, and the Advantages of the Realm of <placeName type="group"
+                  key="#re_upcal; #re_baja">the Californias</placeName>, and setting forth how
+                     <rs><persName key="#kingp">his Majesty</persName></rs> will be able at little
+               cost to pacify it and incorporate it into His Royal Crown and cause the Holy Gospel
+               to be preached in it. By <persName key="#antdelaasc">Father Fray Antonio de la
+                  Ascension</persName>, a Religious of the Discalced Order of Carmelites, who took
+               part in it and as Cosmographer made a map of it."</p>
+            <p>It is possible that <persName key="#antdelaasc">Fray Ascension</persName> pictured
+               himself in the role which the Franciscan <persName type="missionfather" key="#jse"
+                  >Father Serra</persName> was to play in reality many years later, for he left not
+               only a glowing description of <rs><placeName type="region" key="#re_upcal">the
+                     country</placeName></rs> but detailed suggestions for organizing the
+               occupation. The guard, he recommended, should contain no less than 200 "good and
+               honorable men," who must be expert and experienced seamen and soldiers as well. Two
+               captains would be needed, "good Christians and God-fearing men." These were to "hold
+               themselves in strict obedience and subjection to the religious who are of their
+               company." Without the priests' order, consel and advice war might not be made "or the
+               heathen Indians be otherwise molested."</p>
+            <p>Another of the stipulations of <persName key="#antdelaasc">Fray Ascension</persName>
+               was that no woman should embark on the expedition, "in order to avoid offenses to God
+               and dissensions between one another." Throughout his report he stresses that only
+               love and affection must be shown the Indians. Their possessions must be respected, so
+               that they will learn to obey the Spaniards "without opposition or repugnance" and
+               find good reason to be grateful and to give willing assistance. He does, however,
+               advise a watch tower and a continuous sentinel. These provisions make interesting
+               reading when compared to the actual plans for the founding of <orgName type="mission"
+                  key="#mi_mainlandmissions">the Franciscan Missions</orgName>, and to the events
+               which took place in actuality.</p>
+            <p>For a century and a half after this "Memorial" was sent to the <persName key="#riv"
+                  >Viceroy</persName> the Indians could dance in their <emph>tobet</emph> feathers
+               undisturbed. But when, at last, <placeName type="country" key="#co_spain"
+                  >Spain</placeName> took over this land the teeming population began at once to
+               diminish. Diseases for which the native constitution had set up no resistance took a
+               fearful toll. However, when the end came for <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">these
+                     peaceful islanders</orgName></rs>
+               <placeName type="country" key="#co_spain">Spain</placeName> and her successor,
+                  <placeName type="group" key="#re_upcal; #re_baja">Mexico</placeName>, were only
+               indirectly involved. The rich furs, which the diarist of the Vizcaino party thought
+               might be bear robes but which were in reality the skins of sea otters, drew hunters
+               of every adventurous race of man able to reach <rs><placeName type="island"
+                     key="#i_chi">these islands</placeName></rs> in the sailing ships of the
+               time.</p>
+            <p><rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">The
+                     islanders</orgName></rs> were no match for the fierce <orgName
+                  type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName> who came as
+               hunters in the crews of Russian ships, or for <orgName type="nativeamericantribes"
+                  key="#natam_hawaiian">Kanakas</orgName> brought in by American sailing vessels.
+               Ruthless and violent warfare very nearly exterminated both the sea otter and
+                     <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">the
+                     Indians</orgName></rs>. The time came when the hunting was no longer
+               profitable, but before that the settlements in the coves and inlets had dwindled to
+               the point where it became the better part of mercy to remove the survivors to
+                  <placeName type="region" key="#re_mld">the mainland</placeName>. Refugees from
+                  <placeName type="island" key="#i_scl">San Clemente</placeName> were assigned to
+                  <placeName type="mission" key="#mi_sl">Mission San Luis Rey</placeName>, which may
+               possibly account for a report that the ancient dialect of <rs><placeName
+                     type="island" key="#i_scl">that island</placeName></rs> had been Luiseño.
+               Although <placeName type="city" key="#ci_sg">San Gabriel</placeName> is said to have
+               been the destination of those from <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, it is on a list compiled from the Baptismal Register of
+                  <orgName type="mission" key="#mi_sfern">San Fernando</orgName> that we find the
+               name "<emph>Pipimas</emph>," and in parentheses following, "Islas."</p>
+            <p><placeName type="island" key="#i_sn">San Nicolas</placeName> suffered most cruelly.
+               It has been said that <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; #iba; #natam_kodiak"
+                  >Kodiaks</persName></rs>, left on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> to hunt, massacred <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the men</orgName></rs>
+               and appropriated their families. Some <rs><persName type="group" key="#bhagroup">20
+                     survivors</persName></rs> were rounded up and taken to <placeName type="city"
+                  key="#ci_sp">San Pedro</placeName> in <date when="1835">1835</date>. <span
+                  type="trope" n="9">Amid the confusion of the evacuation, however, <rs><persName
+                        type="nativeamerican" key="#lw">one woman</persName></rs>, discovering that
+                        <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  had been left behind, leaped from <rs><name type="ship" key="#sh_peoresnada">the
+                        rescue boat</name></rs> and swam back to shore.</span> Because of the high
+               gales and heavy surf <rs><name type="ship" key="#sh_peoresnada">the boat</name></rs>
+               had to leave without her. <rs><persName type="group" key="#chu; #isp">Its
+                     captain</persName></rs> intended to return later for <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs>, but after delivering
+                     <rs><persName type="group" key="#bhagroup">his Indian charges</persName></rs>
+               safely to <placeName type="region" key="#re_mld">the mainland</placeName> his craft
+               was lost in a subsequent storm.</p>
+            <p><span type="trope" n="8">For years this "<rs><persName type="nativeamerican"
+                        key="#lw">female Robinson Crusoe</persName></rs>" was forgotten&#8212;until
+                        <rs><placeName type="region" key="#re_upcal">California</placeName></rs>
+                  passed into American hands and occasional fishermen reported seeing someone
+                  wandering over the island plateau.</span> In <date when="1850">1850</date> a
+               search of <rs><placeName type="island" key="#i_sn">the island</placeName></rs> failed
+               to reveal a single human being but <rs><persName type="group"
+                     key="#tje; #nativeamericans">the party</persName></rs> returned to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> with the news of a resurgence
+               among the sea otters and the black seals. New hunts, by local crews, were organized
+               and on the third of these, in <date when="1853">1853</date>, traces of human
+               occupancy were discovered which led to the finding of the "<rs><persName
+                     type="nativeamerican" key="#lw">lost woman of San Nicolas</persName></rs>." She
+               was dressed in a tunic of satiny green cormorant feathers and her first act was to
+               prepare a meal for <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                  guests</persName></rs> from her small store of roasted roots.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">This intrepid woman</persName></rs>
+               lived but a few months after her rescue. No trace of a single member of <rs><persName
+                     type="group" key="#bhagroup">the party which had preceded her</persName></rs>
+               to <placeName type="region" key="#re_mld">the mainland</placeName>
+               <date from="1835" to="1853">18 years</date> earlier could be found, and no Indian who
+               was brought to see her, not even a few <rs><orgName type="nativeamericantribes"
+                     key="#natam_GabrilenoTongva">natives of Santa Catalina</orgName></rs>, could
+               understand her dialect, although it seemed to be from Shoshonean stock. It has been
+               reported that her dress and other belongings were sent to the <orgName type="museum"
+                  key="#mu_vaticanmuseum">Vatican</orgName>.</p>
+            <p>This story of the "<rs><persName type="nativeamerican" key="#lw">Lost Woman of San
+                     Nicolas</persName></rs>," although not fictional, has become a legend and is
+               told in many versions. The outline given above is based on an article printed in
+                     <emph><title type="article" key="#Hardacre1880_SM">Scribner's
+                  Magazine</title></emph> in <date when="1880">1880</date>. <persName type="author"
+                  key="#eha">Emma Hardacre</persName>, the author, came to <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> in <date when="1876">1876</date> and knew
+               several of <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the people who took part
+                     in the rescue</persName></rs>. She made every effort to produce a factual
+               report.</p>
+            <p><persName type="author" key="#eha">Mrs. Hardacre</persName> also met and talked to
+                  <persName type="author" key="#lce">M. Leon de Cessac</persName>, whom she
+               described as "a gentleman engaged in collecting archeological specimens for the
+                  <orgName type="government" key="#gov_french">French Government</orgName>." The
+               activities of <rs><persName type="author" key="#lce">this French
+                  scientist</persName></rs> account for the amazing knowledge some Europeans have of
+               our local Channel Island culture. <persName type="author" key="#lce">M. de
+                  Cessac</persName> also discovered in <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName>, and managed to secure for <placeName type="country"
+                  key="#co_france">France</placeName>, a second original manuscript of Father
+               Boscana's "<emph>Chinigchinich</emph>."</p>
+            <p>This may be the one which was translated by <persName type="author" key="#jha">John
+                  Peabody Harrington</persName>, which differs in some details from the manuscript
+               translated by the early pioneer resident, <persName type="author" key="#arob">Alfred
+                  Robinson</persName>.</p>
+            <p>The island of <placeName type="island" key="#i_sn">San Nicolas</placeName>, which for
+               years boasted a population of <rs><persName key="#fju">one Basque
+                     sheepherder</persName></rs>, with his dogs, sheep, and the howling wind for
+               company, now belongs to the <orgName type="military" key="#mi_navy">U.S.
+                  Navy</orgName> and is occupied by several hundred naval and civilian personnel
+               engaged in the work of the naval air missile testing program. The wind, the ravens,
+               the sea elephants and sea lions are still there, as are evidences of the Indian past.
+               Generations of collectors, some genuinely scientific in spirit, others who can only
+               be called "pot-hunters," have removed literally tons of archeological material from
+               the <placeName type="island" key="#i_chi">Channel Islands</placeName>, even from this
+               most distant and lonely of the group, but no one can quite obliterate the
+               accumulations of centuries of the numerous and skillful fishermen and artisans who
+               lived there.</p>
+            <p>Few individuals, other than the naval and civilian personnel stationed on <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> and <placeName type="island"
+                  key="#i_scl">San Clemente</placeName>, are enabled to view these outlying islands.
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>, on the
+               contrary, is visited by a great number of tourists each year, and of these many join
+               the guided bus tours into the interior. Circumscribed as these necessarily are, they
+               do traverse mountain ridges, canyons and inlets, and afford lovely vistas of the sea.
+               These comparatively isolated regions stimulate the imagination of one bent on
+               reconstructing the aboriginal scene.</p>
+            <p>Throughout these tours distressing evidences of erosion cannot be ignored. These can
+               be explained, not only by the cycle of drought which afflicts the Southwest, but by
+               the industrious grazing and rooting of the descendants of tame animals left on the
+               island by white voyagers. The now wild goats and boars have multiplied enormously,
+               and to their efforts have been added those of a small herd of bison, veterans of a
+               movie production left behind when the rest of the cast returned to <placeName
+                  type="region" key="#re_mld">the mainland</placeName>.</p>
+            <p>If today <placeName type="island" key="#i_scatalina">Santa Catalina
+                  Island</placeName> were to be restored to the ownership of <orgName
+                  type="nativeamericantribes" key="#natam_GabrilenoTongva">the Gabrielinos</orgName>
+               of old it is doubtful that they could live at their ancient high standard. Certainly,
+               the busy pigs and piglets of the wild boar population must have enormously reduced
+               one great resource, the roots which flourished so well that the Spanish reported them
+               as part of the native export trade with <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. Their loss undoubtedly contributes to the great areas of
+               loose, dusty soil, waiting to be washed or blown away at the first rain or gale.</p>
+            <p>Of these roots, those that Vizcaino's men compared to the sweet potato may have been
+               of the wild cucumber, or Big Root, which was common on <placeName type="island"
+                  key="#i_chi">the islands</placeName>. The Spanish called these "jicamas" or
+               "xicamas." <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">The
+                     Indians</orgName></rs> exported the smaller ones, but some of them grew to be
+               quite enormous. The men of the Cermeno expedition in <date when="1595">1595</date>
+               ate cakes prepared from these on <placeName type="island" key="#i_smar">San Martin
+                  Island</placeName>, off <placeName type="region" key="#re_baja">Lower
+                  California</placeName>, and were made quite ill as they seemed to have purgative
+               qualities dangerous to the unaccustomed. Another favorite food found on
+                     <rs><placeName type="island" key="#i_scatalina; #i_smar">both the
+                     islands</placeName></rs> and <placeName type="region" key="#re_mld">the
+                  mainland</placeName> was the roots, or rather corms, of the Brodiaea, that lovely
+               spring flower of heavenly blue which still survives, though sparsely. The Spanish
+               named these nut-flavored morsels "cacomites," from the Aztec
+               "<emph>cacomitl</emph>."</p>
+            <p>The traveling public gains a very faint idea of the once flourishing Indian life on
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>. On one
+               tour, as the bus skirts the heights above <placeName type="region"
+                  key="#re_littleharbor">Little Harbor</placeName>, "the Indian burial ground" is
+               pointed out far below, and as the escarpment is rounded the trenches of an
+               archeological dig made by the <orgName type="institution" key="#in_ucla">University
+                  of California, Los Angeles</orgName>, in <date when="1953">1953</date> are viewed.
+               These two glimpses, interesting as they are, afford but a meagre notion of the
+               discoveries which have been made in regard to <rs><orgName
+                     type="nativeamericantribes" key="#natam_GabrilenoTongva">the
+                  Indians</orgName></rs> of <rs><placeName type="island" key="#i_scatalina">the
+                     island</placeName></rs>.</p>
+            <p>Luckily for those who would like a more comprehensive picture of <placeName
+                  type="island" key="#i_scatalina">Santa Catalina</placeName> as it used to be, one
+               can turn to the writings of <persName type="author" key="#cho">Charles Frederick
+                  Holder</persName>, zoologist and sportsman, founder of the famous <orgName
+                  key="#tuna">Tuna Club</orgName>. One of Holder's first impressions on his arrival
+               there in <date when="1886">1886</date> concerned the rollicking antics and the
+               ingrained impudence of the many ravens which were constantly stealing little chickens
+               and turkeys from the ranch of "<persName key="#chixjoe">Chicken John</persName>," in
+               a canyon back of <placeName type="city" key="#ci_av">Avalon</placeName>. The
+               privileged status of these birds during the centuries of Indian tenancy was soon made
+               evident to the newcomer as he entered wholeheartedly into historical research,
+               consulting the records of the Vizcaino party and the work of <persName
+                  type="missionfather" key="#boscana">Father Boscana</persName> in order to
+               establish a background for the fine descriptive passages he was to write.</p>
+            <p>Among the many unforgettable scenes <persName type="author" key="#cho"
+                  >Holder</persName> recorded where the dunes of lonely <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>. They "cover and uncover the dead," he wrote.
+               "They fill the canyons, form strange shapes which float in the air before they are
+               carried away." He described a "mesa of pebbles which leap into the air and blow
+               about" and "great natural stair-cases leading from mesa to beach." <rs><persName
+                     key="#fju">The Basque sheepherder</persName></rs> was firm in the belief that
+               the spirits were angry and made the wind blow because of the "grave-robbing" which
+               had been carried on so extensively.</p>
+            <p>"At the west end of <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> lay a great kitchen-midden about ten feet high and
+               extending over a mile," <persName type="author" key="#cho">Holder</persName> wrote.
+               It was "made up of shells of various kinds, mostly abalones, thrown here for ages. In
+               this area are graves of countless natives who were buried in the long ago. As each
+               man was buried with all his possession there is an object in grave-robbing. Scores of
+               parties have explored here, and doubtless the region has hardly been touched on."</p>
+            <p>In addition to the familiar objects of stone found in typical Gabrielino sites,
+                  <persName type="author" key="#cho">Holder</persName> mentioned seeing objects of
+               wood, but did not describe them in detail. These would be of more than ordinary
+               interest to the modern student, as time and the custom of cremating the dead of the
+               inland villages has left somewhat of a gap in our knowledge of the material culture
+               in so far as the use of wood is concerned. <persName type="author" key="#cho"
+                  >Holder</persName> told of one "collector" who found implements stored in
+               "coffins" of wood. He himself saw fishing lines made of "bull kelp" still attached to
+               the equipment, although the Spanish reported cord and rope "as fine as linen." He
+               also saw, in a collection, a long stone club, "doubtless a token of office" as it was
+               "an extraordinary weapon."</p>
+            <p>A custom of the <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">island
+                     Indians</orgName></rs> was to preserve their small treasures in an abalone
+               shells cemented together with asphalt. One of these was presented to the <orgName
+                  type="museum" key="#mu_southwest">Southwest Museum</orgName> by <persName
+                  key="#whbur">W. H. Burnham</persName>, who purchased it from a collector, and
+               countless visitors have found it of great interest. Displayed near it is an X-ray
+               photograph of the contents, as this prehistoric jewel case has never been opened
+               since it was sealed by the original owner.</p>
+            <p><span type="trope" n="13">Continuing with his description of <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName>
+                  <persName type="author" key="#cho">Holder</persName> wrote, "I found one spot
+                  years ago which must have been a battlefield similar to the one I found at
+                     <placeName type="island" key="#i_scl">San Clemente</placeName>. Skeletons were
+                  piled up, skulls crushed, and bones broken; while mortars too heavy to carry off
+                  were strewn about&#8212;a perfect golgotha." <placeName type="island" key="#i_sn"
+                     >San Nicolas</placeName>, he recalled, had been ravaged by the <rs><orgName
+                        type="nativeamericantribes" key="#natam_kodiak">Russians from
+                        Alaska</orgName></rs>.</span></p>
+            <p><persName type="author" key="#lce">De Cessac</persName>, during his excavations on
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, in the period of
+                  <date from="1877" to="1879">1877 to 1879</date>, also found many examples of the
+               work of <rs><orgName type="group" key="#natam_aleuts; #natam_kodiak">Northwest
+                     Indians</orgName></rs>, ample proof of the visits of the hunters of the sea
+               otter. <rs><persName type="author" key="#lce">This French scientist</persName></rs>
+               held the opinion that the culture of <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> was related to that of <placeName type="island" key="#i_scl"
+                  >San Clemente</placeName> and <placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, rather than to <rs><placeName type="island"
+                     key="#i_northernchi">the islands off the coast of Santa Barbara
+                     County</placeName></rs>. He was particularly eloquent in regard to the
+               exquisite stone work, beautifully turned mortars and pestles, and small carvings of
+               the creatures of sea, land and air. <persName type="author" key="#lce">De
+                  Cessac</persName> was fascinated, as many have been since his time, with the odd
+               hook-shaped stone carvings which resemble conventionalized pelicans; or, as <persName
+                  type="author" key="#rhe">Heizer</persName> expresses it, "the scheme or embryo of
+               the statue of a cetacean." These may have been fetiches. One can see the possibility
+               of such a use in the small carvings of boats, some of them inlaid with decorations of
+               shell, to bring home safely men who braved the sea in plank canoes.</p>
+            <p>Holder's account of a trip made in <date when="1907">1907</date> across <placeName
+                  type="island" key="#i_scl">San Clemente</placeName> is a classic. Of one episode
+               he wrote, "We climbed the steep hill at Howland's and were shortly on the remarkable
+               sand-dunes; where the first view of the ancient town sites became apparent. The long
+               billowy white sand, a menace to <rs><placeName type="island" key="#i_scl">the
+                     island</placeName></rs>, filling the cañons, was dotted here and there with
+               human bones and broken skulls." On <rs><placeName type="island" key="#i_scl">the
+                     island</placeName></rs>
+               <persName type="author" key="#cho">Holder</persName> saw an entire mesa "covered with
+               midden and broken implements." At the base of a "lava" flow a midden lay in front of
+               a cave. He described "lava" cliffs cut by cañons, "gaping, uncanny caves" and
+               gleaming heaps of abalones, most of these long ago exported to be resold here and
+               elsewhere in the shape of pearl buttons and trinkets.</p>
+            <p>Of <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>
+               <persName type="author" key="#cho">Holder</persName> wrote, as late as <date
+                  when="1909">1909</date>, "When a trench is dug in any part of <placeName
+                  type="city" key="#ci_av">Avalon</placeName> today, especially along the north
+               beach, shells, implements, and ancient human bones are often found, and the black
+               earth crops out, telling the story of one of the most interesting ancient
+               archeological treasure-houses in <placeName type="country" key="#co_usa"
+                  >America</placeName>." He describes the work and "collections" of various men who
+               excavated in the many village sites which existed at <placeName type="region"
+                  key="#re_isthmus1">the Isthmus</placeName>, at "every cañon having a beach along
+               the north coast." Specific locations were mentioned at <placeName type="region"
+                  key="#re_catalinaharbor">Catalina Harbor</placeName>, <placeName type="region"
+                  key="#re_littleharbor">Little Harbor</placeName>, <placeName type="region"
+                  key="#re_johnland">Johnson's Landing</placeName>, <placeName type="region"
+                  key="#re_empland">Empire Landing</placeName>, <placeName type="region"
+                  key="#re_whiteland">White's Landing</placeName> and many another inlet. Signs of
+               occupation were also found at far less accessible places, as in caves at considerable
+               altitudes.</p>
+            <p><persName type="author" key="#cho">Holder</persName> found "the old quarry at
+                  <placeName type="region" key="#re_empland">Empire landing</placeName>, with its
+               myriads of chips and flints, just as though the workers had been driven off and
+               forced to drop their possessions and run." Here in the chaparral were outcroppings of
+               steatite and the clear evidences of a prehistoric stone works. It seemed that the
+               plan of the vanished artisans had been to "chip out a mortar with their rude
+               implements until it resembled a ball the size of a man's head or larger, connected by
+               a small stem. This sphere was knocked or broken off, and then hollowed
+               out&#8212;doubtless by women&#8212;by a tedious process with stone implements . . ."
+               The explorer saw "half-made mortars, others a third made, still fastened to the rock,
+               almost perfect ones in the bush hard by, while the steatite ledge was covered in
+               places with the scars of mortars which had been successfully removed." </p>
+            <p>Among the early excavators on the <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName> were <persName type="author" key="#sbo">Stephen
+                  Bowers</persName>, for the <orgName type="museum" key="#mu_smithsonian">American
+                  Museum of Natural History</orgName> and <persName type="author" key="#psc">Paul
+                  Schumacher</persName>, who was commissioned by the <orgName type="government"
+                  key="#gov_usa">United States Government</orgName> and sent huge collections to the
+                  <orgName type="museum" key="#mu_smithsonian">Smithsonian Institution</orgName> and
+               to the <orgName type="museum" key="#mu_peabody">Peabody Museum</orgName> in the <date
+                  notBefore="1870" notAfter="1879">1870s</date>. In <date when="1877">1887</date>
+               <persName type="author" key="#cho">Dr. Holder</persName> and <persName key="#wchan"
+                  >Dr. William Channing</persName> of <placeName type="city" key="#ci_boston"
+                  >Boston</placeName> "trenched down through four or five layers of graves at
+                  <placeName type="region" key="#re_isthmus1">the Isthmus</placeName>." The upper
+               layers contained European objects but nothing made of metal was found in the lower
+               strata.</p>
+            <p>Excavations have been made by contemporary scientists, who are aided by the methods
+               developed by modern archeology but severely handicapped by the wholesale destruction
+               of most of the sites by "pot-hunters" of the past. Notable among the more recent
+               archeologists who have worked on the <placeName type="island" key="#i_chi">Channel
+                  Islands</placeName> are <persName type="author" key="#bbr">Bruce Bryan</persName>,
+                  <persName key="#mrog">Malcolm Rogers</persName>, <persName type="author"
+                  key="#awo">Arthur Woodward</persName> and <persName key="#porr">Phil
+                  Orr</persName>. An article in the <date when="1953-10">October, 1953</date>, issue
+               of <emph><rs>American Antiquity</rs></emph> by <persName type="author" key="#cme"
+                  >Clement W. Meighan</persName> and <persName type="author" key="#heb">Hal
+                  Eberhart</persName> reports a reconnaissance of <placeName type="island"
+                  key="#i_sn">San Nicolas Island</placeName> made by these two writers and
+               summarizes the work of those mentioned above.</p>
+            <p>At various times between <date from="1958" to="1960">1958 and 1960</date>
+               <persName key="#croz">Charles Rozaire</persName> and <persName type="author"
+                  key="#bbr">Bruce Bryan</persName> of the <orgName type="museum"
+                  key="#mu_southwest">Southwest Museum</orgName> have worked on <placeName
+                  type="island" key="#i_sn">San Nicolas Island</placeName>, and the results have
+               been published in short papers in <emph><orgName type="publication" key="#masterkey"
+                     >The Masterkey</orgName></emph>, published by the museum. A richly stratified
+               site was excavated on the southeast shore of <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> which yielded numerous examples of material woven
+               from sea grass (grass skirts, mats, etc.). Several new and unknown types of selvage
+               were included among these fragments, some of which were found at a depth of about
+               nine feet. Two or three metates, considered by some to have been lacking in San
+               Nicolas culture, were also found by the <orgName type="museum" key="#mu_southwest"
+                  >Southwest Museum</orgName>.</p>
+            <p>In <date when="1959">1959</date>, on <rs><placeName type="island" key="#i_sn">the
+                     same island</placeName></rs>, archeologists of the <orgName type="institution"
+                  key="#in_ucla">University of California, Los Angeles</orgName>, found a group of
+               very interesting burials with which many tarred baskets were closely associated.
+                     <rs><orgName type="institution" key="#in_ucla">This university</orgName></rs>
+               is at present doing work at various sites on <placeName type="island" key="#i_sn">San
+                  Nicolas Island</placeName>, <placeName type="island" key="#i_scl">San
+                  Clemente</placeName> and <placeName type="island" key="#i_an">Anacapa</placeName>
+               Islands.</p>
+            <p>An answer to the question of whether or not <rs><placeName type="island"
+                     key="#i_sn; #i_scl; #i_an">these islands</placeName></rs> were occupied before
+               the coming of the <orgName type="nativeamericantribes" key="#natam_GabrilenoTongva"
+                  >Gabrielinos</orgName> seems to be given in the affirmative in the recent
+               excavation by <persName type="author" key="#cme">Meighan</persName>, the one which
+               may be viewed by tourists on the crest of the heights above <placeName type="region"
+                  key="#re_littleharbor">Little Harbor</placeName> on <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>. Here there was evidence of an
+               occupancy going back at least 4,000 years, which well antedates the probable arrival
+               of the Indians of Shoshonean stock. The settlement below, in <placeName type="region"
+                  key="#re_littleharbor">Little Harbor</placeName> itself, had been so thoroughly
+               gutted by pot-hunters that not much could be learned about it, although it was
+               certainly Gabrielino and occupied in historic times as the U.C.L.A. party found trade
+               beads at the site.</p>
+            <p><persName type="author" key="#cme">Meighan</persName> believed the material he found
+               on <placeName type="island" key="#i_sn">San Nicolas</placeName> to go back less than
+               a thousand years, but <persName key="#porr">Orr</persName> saw parallels there with
+               discoveries he had made on <placeName type="island" key="#i_sr">Santa
+                  Rosa</placeName> of a "Dune Dweller" culture of great antiquity. Carbon-14 tests
+               have placed materials from Dune Dweller burials on the latter, more northern, island
+               at about 7,000 years ago. More recently, in still older strata on <placeName
+                  type="island" key="#i_sr">Santa Rosa</placeName>, <persName key="#porr"
+                  >Orr</persName> has found charred bones of an extinct Ice Age "dwarf" elephant
+               that had apparently been cooked and eaten by man. These have been dated by Carbon-14
+               as being about 29,000 years old.</p>
+            <p>No such sensational finds have been made in the southern group, although one cannot
+               predict what knowledge could come from comprehensive work, backed with sufficient
+               funds and carried on by such reputable men and institutions as have done the recent
+               surveys and excavations.</p>
+            <p>It is impossible to apply with any degree of certainty any of the traditional
+               Gabrielino place names to the villages which once existed on <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>, although the island itself is
+               listed by <persName type="author" key="#hre">Reid</persName> as
+                  <emph>Pineug-na</emph>, by <persName type="author" key="#akroe">Kroeber</persName>
+               as <emph>Pimu</emph> and <emph>Pipimar</emph>, and by <persName type="author"
+                  key="#jha">J. P. Harringto</persName>n as <emph>Pimu'na</emph>, with "n" indicated
+               as nasal, a form we have been transcribing as "ngna." <emph>Limu</emph>, as found in
+               a record of an early Spanish explorer, was probably an incorrect recording of
+                  <emph>Pimu</emph>. The Baptismal Register, as noted above, listed
+                  <emph>Pipimas</emph> and the few survivors of the island were known as
+                  <emph>Pipimares</emph>.</p>
+            <p><persName type="author" key="#cho">Holder</persName> did not use a single native name
+               in his descriptions of the village sites on <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName>, but in a work of fiction for
+               juveniles, "The Adventures of Torqua," he made use of "literary license" in applying
+               names from Reid's list&#8212;and one less fortunately chosen from Chumash
+               sources&#8212;to the localities which his young Indian and Spanish heroes visited.
+               Unfortunately an early pamphlet on the subject of <placeName type="island"
+                  key="#i_scatalina">Santa Catalina</placeName> appears to have copied two of these
+               as factual, and thus set off a chain of repetition of these place names which seem to
+               have no other claim to authenticity.</p>
+            <p><persName type="author" key="#hre">Reid</persName> assigned the name
+                  <emph>Kinkipar</emph> to <placeName type="island" key="#i_scl">San Clemente
+                  Island</placeName>, but <persName key="#jswanton">Swanton</persName> calls this
+               the name of "a village on <placeName type="island" key="#i_scl">San
+                  Clemente</placeName>." As this duplicates that of a village in the <placeName
+                  type="city" key="#ci_sp">San Pedro</placeName> area, the meaning of which could
+               perhaps be "Houses by the Sea," the application of the name to a village rather than
+               to <rs><placeName type="island" key="#i_scl">the island</placeName></rs> itself is
+               confirmed by the small item of evidence.</p>
+            <p>An insoluble puzzle may lie in the name on Reid's list, <emph>Harasg-na</emph>, the
+               only one which he gave without assigning a location. This was mentioned by J. P.
+               Harrington's informants as being "a place near <placeName type="city" key="#ci_sp"
+                  >San Pedro</placeName>," but also, as <emph>Xarasngna</emph>, quite clearly
+               described as <placeName type="island" key="#i_scl">San Clemente Island</placeName>.
+                  <persName key="#gudde">Gudde</persName> also mentions <emph>Kimki harasa</emph> as
+               the Luiseño name for <placeName type="island" key="#i_scl">San
+               Clemente</placeName>.</p>
+            <p>So far this information appears to harmonize, but one cannot ignore the fact that
+                  <emph>Ghalas-at</emph>, the Chumash title for <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName>, as <persName type="author" key="#akroe"
+                  >Kroeber</persName> points out, is probably the Chumash form of the Gabrielino
+                  <emph>Harasg-na</emph>, as recorded by <persName type="author" key="#hre"
+                  >Reid</persName>. The similarity is made more apparent when it is remembered that
+               the northern tribe had no sound "r" and that "l" would be the normal substitute. </p>
+            <p>J. P. Harrington's notes give the origin of this name in the term of
+                  <emph>ijoxarin</emph>, meaning "stony," probably in the sense of "eroded," as his
+               informants went on to explain this in the phrase, "We are living in the island of the
+               uncovered earth." This is certainly an apt description of <placeName type="island"
+                  key="#i_sn">San Nicolas</placeName>, although <placeName type="island"
+                  key="#i_scl">San Clemente</placeName> need not be excluded as a contender for the
+               title.</p>
+            <p>An Indian of <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>
+               would have been known as a <emph>Pimuvit</emph>, these old <orgName
+                  type="nativeamericantribes" key="#natam_GabrilenoTongva">Gabrielinos</orgName>
+               agreed, but when at last there existed but a few individuals who traced their
+               ancestry to <rs><placeName type="island" key="#i_scatalina">the
+                  island</placeName></rs> they were known to the folk of the <placeName type="city"
+                  key="#ci_la">Pueblo of Los Angeles</placeName>, near which they existed in a tiny
+               settlement, not as <emph>Pimuvitam</emph> but as the <emph>Pipimares</emph>. <span
+                  type="trope" n="6">They no longer seemed, to their almost equally diminished
+                  tribesmen of <placeName type="region" key="#re_mld">the mainland</placeName>, the
+                  fierce wizards who had once fared across the rough channel waters from the
+                  mysterious stronghold of <rs><placeName type="island" key="#i_scatalina">their
+                        island home</placeName></rs>. They were mild, quiet and aloof, and quite
+                  soon they disappeared entirely from the dusty streets of <rs><placeName
+                        type="city" key="#ci_la">the Pueblo</placeName></rs>, as they had some years
+                  earlier from their beloved "mountains which are in sea."</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

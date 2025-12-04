@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#seahistory">Sea History
+                     Magazine</orgName></title>
+               <biblScope unit="issue" n="145">145</biblScope>
+               <editor/>
+               <publisher><orgName type="publisher" key="#maritime">National Maritime Historical
+                     Society</orgName></publisher>
+               <date when="2013-11" from="2013-11" to="2014-01">Winter 2013-14</date>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <note type="supplied">Source Note</note>
+               <bibl>
+                  <title type="article" key="#King2013">Animals in Sea History" Sea Otter</title>
+                  <author><persName type="author" key="#rki">King, Richard</persName></author>
+                  <biblScope unit="page" from="40" to="41"/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">Animals in Sea History</title> <title type="sub">SEA
+                  OTTER</title></head>
+            <byline>by <persName type="author" key="#rki">Richard King</persName>
+            </byline>
+            <div type="section" n="1">
+               <p>Scott O’Dell’s famous young-adult novel, <emph>Island of the Blue Dolphins</emph>,
+                  tells the tale of a Native American girl named <rs><name type="fictional"
+                        key="#kar">Karana</name></rs>. She lives alone on <placeName type="island"
+                     key="#i_sn">San Nicolas Island</placeName>, one of the more distant of the
+                     <placeName type="island" key="#i_chi">Channel Islands</placeName> off
+                     <placeName type="region" key="#re_socalcoast">the coast of southern
+                     California</placeName>. Early in the story, <name type="fictional" key="#kar"
+                     >Karana</name> stands on a cliff and watches men who have sailed here from
+                     <placeName type="state" key="#re_russam">a distant country</placeName>:</p>
+               <p>The wide beds of kelp which surround <rs><placeName type="island" key="#i_sn">our
+                        island</placeName></rs> on three sides come close to the shore and spread
+                  out to sea for a distance of a league. In these deep beds, even on days of heavy
+                  winds, <orgName type="nativeamericantribes" key="#natam_aleuts">the
+                     Aleuts</orgName> hunted. They left the shore at dawn in their skin canoes and
+                  did not return until night, towing after them the slain otter.</p>
+               <p>The sea otter, when it is swimming, looks like a seal, but is really very
+                  different. It has a shorter nose than a seal, small webbed feet instead of
+                  flippers, and fur that is thicker and much more beautiful. It is also
+                  different in other ways. The otter likes to lie on its back in the kelp beds,
+                  floating up and down to the motion of the waves, sunning itself or sleeping. They
+                  are the most playful animals in the sea.</p>
+               <p><persName type="author" key="#sod">Scott O’Dell</persName> is historically and
+                  biologically accurate with much of his novel. He based <name type="fictional"
+                     key="#kar">Karana</name> on the true story of <rs><persName
+                        type="nativeamerican" key="#lw">a woman</persName></rs> who was stranded on
+                     <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                  <rs><date notBefore="1835" notAfter="1853">for more than 20 years in the early
+                        1800s</date></rs>. But who were <orgName type="nativeamericantribes"
+                     key="#natam_aleuts">the Aleuts</orgName>? What were they doing hunting otters
+                  here? And would someone in <rs><date notBefore="1800" notAfter="1899-12-31">the
+                        1800s</date></rs> have actually thought of sea otters as cute and
+                  playful&#8212;as so many of us do today?</p>
+               <p><orgName type="nativeamericantribes" key="#natam_aleuts">The Aleuts</orgName>, or
+                     <orgName type="nativeamericantribes" key="#natam_aleuts">the
+                     Aleutians</orgName>, were native hunters from <placeName type="island"
+                     key="#i_aleutian">the Aleutian Islands</placeName>, which stretch into the far
+                  North <placeName type="region" key="#re_pacific">Pacific</placeName> beyond
+                     <placeName type="state" key="#st_ak">Alaska</placeName>. Russian sea captains
+                  who sailed past <rs><placeName type="island" key="#i_aleutian">these
+                        islands</placeName></rs> on their way to <placeName type="region"
+                     key="#re_nacoast">the coast of North America</placeName> recruited them because
+                     <orgName type="nativeamericantribes" key="#natam_aleuts">the
+                     Aleutians</orgName> were skilled in hunting all types of marine mammals with
+                  spears from kayaks. The Russians wanted seals, sea lions, elephant seals, and sea
+                  otters for meat, blubber, and their beautiful and valuable pelts.</p>
+               <p>Russians began hunting seals and sea otters in <rs><date notBefore="1720">the
+                        mid-1700s</date></rs>, when they first began exploring the <rs><placeName
+                        type="group" key="#i_aleutian; #i_ko">islands of the North
+                        Pacific</placeName></rs>. They seem to have killed&#8212;and brought home at
+                  great profit&#8212;far more animals than <orgName type="nativeamericantribes"
+                     key="#natam_aleuts">the Aleutians</orgName> or Native Americans in the Pacific
+                  Northwest had hunted in previous centuries. As animals grew more and more scarce,
+                  they sailed their ships farther and farther south, until they were nearly to
+                     <placeName type="group" key="#re_upcal">Mexico</placeName>. They searched
+                  around <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> off
+                        <rs><placeName type="region" key="#re_socalcoast">this
+                     coast</placeName></rs>, such as <placeName type="island" key="#i_sn">San
+                     Nicolas</placeName>. The extraordinarily dense fur of the sea otter fetched an
+                  exceptionally high price at the time, especially when trading with merchants in
+                     <placeName type="country" key="#co_china">China</placeName>.</p>
+               <p>In <emph>Island of the Blue Dolphins</emph>, <name type="fictional" key="#kar"
+                     >Karana</name> at one point nurses a young sea otter back to health. She names
+                  the otter "<name type="fictional" key="#mon">Won-a-nee</name>," or "Girl with the
+                  Large Eyes," and goes on to see her living back in the wild as a mother. <name
+                     type="fictional" key="#kar">Karana</name> says: "After that summer, after being
+                  friends with <name type="fictional" key="#mon">Won-a-nee</name> and her young, I
+                  never killed another otter. I had an otter cape for my shoulders, which I used
+                  until it wore out, but never again did I make a new one." <persName type="author"
+                     key="#sod">O’Dell</persName> wrote this novel in <date when="1960">1960</date>,
+                  about the time that Americans were growing more environmentally aware&#8212;the
+                        <rs><date when="1970-04-22">first Earth Day</date></rs> was only a decade
+                  away. This does not mean, though, that people in earlier centuries did
+                  not consider the sea otter as cute as a puppy. West Coast Native Americans,
+                  according to one source at least, portrayed the sea otter in stories as a playful
+                  trickster and even as symbol of good luck.</p>
+               <p>Early Russian explorers also seem to have considered sea otters as fun-loving,
+                  even while they hunted them. The <rs><persName type="group"
+                        key="#beringexpedition">men of the Bering expedition</persName></rs> in
+                     <date when="1741">1741</date> ate the meat from hundreds of sea otters and
+                  skinned them for their fur. Naturalist <persName key="#gst">Georg Wilhelm
+                     Steller</persName> served up a baby sea otter to heal <rs><persName
+                        key="#exleader">his ailing expedition leader</persName></rs>. Yet <persName
+                     key="#gst">Steller</persName> saw the otter as an "extraordinarily beautiful
+                  and pleasant animal, as well as amusing and comical in its habits." <persName
+                     key="#gst">Steller</persName> added: "Not even the most loving human mother
+                  engages in the same kind of playing with her children...when the young are taken
+                  from them, they cry aloud like a little child and grieve."</p>
+               <p>Can you think of any other animal today that we eat and use for products, yet also
+                  think of as adorable?</p>
+               <p>Hunters and habitat loss rendered sea otters almost extinct along <placeName
+                     type="region" key="#re_nacoast">the coast of North America</placeName> by
+                        <rs><date notBefore="1850" notAfter="1900">the late 1800s</date></rs>. Sea
+                  otter populations have since begun to return, but slowly. They remain on the
+                  endangered species list. Novels such as <emph>Island of the Blue Dolphins</emph>
+                  teach us about our history with these animals&#8212;and remind us to protect
+                  them.</p>
+               <p>In the next issue of <title><orgName type="publication" key="#seahistory"
+                           ><emph>Sea History</emph></orgName></title>: a Columbia River
+                     <emph>dinosaur fish</emph>? For past "Animals in Sea History," go to
+                  www.seahistory.org.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

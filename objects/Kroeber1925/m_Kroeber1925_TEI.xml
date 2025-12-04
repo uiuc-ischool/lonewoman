@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="monograph"><orgName type="publication" key="#kroeber">Handbook of the
+                     Indians of California</orgName></title>
+               <publisher>Government Printing Office</publisher>
+               <date when="1935">1935</date>
+               <pubPlace><placeName type="city" key="#ci_dc">Washington</placeName>, <placeName
+                     type="state" key="#st_dc">District of Columbia</placeName></pubPlace>
+               <bibl>
+                  <title type="chapter" key="#Kroeber1925">The San Nicoleno</title>
+                  <biblScope unit="page" from="633" to="635"/>
+                  <author><persName type="author" key="#akroe">Kroeber, Alfred
+                     Louis</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="chapter">
+            <head><title type="main"><rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">THE SAN NICOLENO</orgName></rs></title></head>
+            <p><span type="trope" n="6"><placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, the farthest seaward of the <placeName type="island"
+                     key="#i_chi">Santa Barbara Islands</placeName>, foggy and wind blown, harbored
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                        tribe</orgName></rs> of which <rs><persName type="nativeamerican" key="#lw"
+                        >the last survivor</persName></rs> died <rs><date notAfter="1865">more than
+                        60 years ago</date></rs>. Four badly spelled words are all that has been
+                  preserved of their speech. These suffice to prove it Shoshonean: they do not
+                  establish its dialectic relation. A divergent idiom may well have developed in the
+                  isolation of <rs><placeName type="island" key="#i_sn">this sand-swept and rocky
+                        island</placeName></rs>. It is stated that when <rs><persName
+                        type="nativeamerican" key="#lw">the last survivor</persName></rs> was
+                  brought to <placeName type="city" key="#ci_sb">Santa Barbara</placeName> her
+                  speech was thoroughly unintelligible not only to <orgName
+                     type="nativeamericantribes" key="#natam_chumash">the Chumash of the
+                     vicinity</orgName> but to the "<orgName type="nativeamericantribes"
+                     key="#natam_pepimaros">Pepimaros</orgName>" of <placeName type="island"
+                     key="#i_scatalina">Santa Catalina</placeName> (Pimu, Pipimar, the name of the
+                  island), of whom some were sent for from <placeName type="city" key="#ci_la">Los
+                     Angeles</placeName></span>.</p>
+            <p><span type="trope" n="6"><persName type="group" key="#bhagroup">The last handful of
+                     the natives</persName>, who are said to have suffered previously in quarrels
+                  with <orgName type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName>
+                  imported by <rs><persName type="group"
+                        key="#rfurcompany; #iba; #natam_aleuts; #natam_kodiak; #1814huntingparty"
+                        >Russian fur hunters</persName></rs>, and whose numbers had probably been
+                  diminished by drafts to <rs><orgName type="mission" key="#mi_mainlandmissions">the
+                        missions</orgName></rs>, were taken to <rs><placeName type="region"
+                        key="#re_mld">the mainland</placeName></rs> in <date when="1835"
+                  >1835</date>, soon after secularization. <rs><persName type="nativeamerican"
+                        key="#lw">A woman</persName></rs> who at the last moment missed
+                        <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  was left behind. <date when="1853">Eighteen years later</date>, when <placeName
+                     type="state" key="#st_cal">California</placeName> was American, she was
+                  discovered. Her romantic case aroused the greatest interest, and she was given the
+                  best of treatment in her new home at <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>; but she died in a few months.</span> More attention was
+               bestowed on her humble belongings than on the panoply of many a tribe; and while the
+               objects themselves seem all to have been scattered and lost&#8212;the last traceable
+               piece perished in the San Francisco fire of <date when="1906">1906</date>&#8212;the
+               descriptions, together with random but rather full recoveries from ancient village
+               sites, enable a partial insight into the life of this remote little group, the most
+               westerly of all Uto-Aztekans.</p>
+            <p>Wood was scarce and small on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. There was enough brush for huts, but most dwellings
+               were reared on a frame of whale ribs and jaws, either covered with sea-lion hides or
+               wattled with brush or rushes. Bone implements were very numerous, and the use of
+               several varieties is far from clear. <rs><placeName type="island" key="#i_sn">The
+                     island</placeName></rs> may have afforded sufficient timber for plank canoes,
+               or dugouts may have been burned from drift logs. Steatite was imported from
+                  <placeName type="island" key="#i_scatalina">Santa Catalina</placeName>, but is
+               represented by small ornaments or charms rather than heavy bowls. Whales must have
+               been very abundant and frequently stranded; there is nothing to indicate that they
+               were hunted. Sea otters were to be had in comparative profusion, and, to judge from
+               the habits of other tribes, their furs formed the most prized dress and the chief
+               export in a trade on which the <orgName type="nativeamericantribes"
+                  key="#natam_NicolenoTongva">San Nicoleño</orgName> must have depended for many
+               necessities. Seals, water birds, fish, and mollusks were no doubt the principal food;
+               but roots were dug industriously. Baskets are spoken of as of the type ordinary in
+                  <placeName type="region" key="#re_socal">southern California</placeName>. They
+               were often asphalted, hot pebbles being employed to melt and spread the lumps. Water
+               baskets were in plain twining, as among the <orgName type="nativeamericantribes"
+                  key="#natam_chumash">Chumash</orgName>; but the neck was long, much as in our wine
+               bottles. <rs><persName type="nativeamerican" key="#lw">The lone woman</persName></rs>
+               wore a sort of gown of squares of bird skin sewn together; but this does not seem
+               wholly aboriginal. The usual dress may be conjectured to have been the scant costume
+               of all <placeName type="state" key="#st_cal">California</placeName>, with capes or
+               blankets of woven strips of bird skin added at need. The cylinder-headed wooden war
+               club was in use. The dead were buried, as by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">all the
+                     islanders</orgName></rs>, not cremated as on the <rs><placeName type="region"
+                     key="#re_mld">Shoshonean mainland</placeName></rs>. Of religion we only know
+               that there were weather invocations and hunting charms; whether the toloache cult or
+               the image form of mourning anniversary had reached the island must remain in
+               abeyance; and as to society, there is total ignorance.</p>
+            <p>Ghalas-at has been given as the name of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. This is perhaps the native or the Chumash
+               pronunciation of Gabrielino Haras-nga.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
