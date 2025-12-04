@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#gdn">Galveston Daily
+                     News</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="issue"/>
+               <date when="1933-12-13"/>
+               <pubPlace><placeName type="city" key="#ci_ebens">Ebensburg</placeName>, <placeName
+                     type="state" key="#st_penn">Pennsylvania</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheGalvestonDailyNews1933">Charming Visitor To Be
+                     Honored This Afternoon</title>
+                  <biblScope unit="page" n="5"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title><emph><rs><persName key="#nska">Charming Visitor</persName></rs> To Be
+                     Honored <rs><date when="1933-12-13">This Afternoon</date></rs></emph>
+               </title>
+            </head>
+            <div n="1" type="section">
+               <p>In compliment to the charming <persName key="#nska">Miss Nell Skaggs</persName>,
+                  who will depart on <date when="1933-12-20">Wednesday</date> after enjoying the
+                        <rs><date notBefore="1933-09" notAfter="1933-11">fall season</date></rs>
+                  here, <persName key="#bwil">Mrs. Bryan F. Williams</persName> will entertain this
+                  afternoon with a bridge tea at her home. Guests at the event will include members
+                  of the younger social set.</p>
+            </div>
+            <div n="2">
+               <head><title type="section">From <placeName type="city" key="#ci_chic"
+                        >Chicago</placeName>.</title></head>
+               <p><persName key="#mwal">Mrs. Malcom Walker</persName> of <placeName type="city"
+                     key="#ci_chic">Chicago</placeName> has arrived here to spend the <rs><date
+                        notBefore="1933-12" notAfter="1934-02">winter</date></rs> and will reside at
+                  the <placeName key="#highlandinn">Highland Inn</placeName>.</p>
+               <p><persName key="#mwal">Mrs. Walker</persName> has visited here previously.</p>
+            </div>
+            <div n="3">
+               <head><title type="section">
+                     <orgName type="organization" key="#daughters">D. A. R.</orgName>
+                     Meeting.</title></head>
+               <p>Members of [the] <orgName type="organization" key="#dar_gwa">George Washington
+                     Chapter</orgName>, <orgName type="organization" key="#daughters">Daughters of
+                     the American Revolution</orgName>, were entertained <rs><date when="1933-12-07"
+                        >Thursday afternoon</date></rs> at the home of <persName key="#cve">Mrs. C.
+                     A. Vedder</persName>.</p>
+               <p>Two interesting papers were read, one,
+                  <!--We have no way of knowing which these papers are, but it would be cool to know.-->"Morris
+                  Jumel House" given by <persName key="#cwa">Mrs. C. G. Waller</persName>, being
+                  part of the program for the year on historic buildings of America.</p>
+               <p>The other paper, read by <persName key="#lva">Mrs. L. C. Van Name</persName>, was
+                  entitled
+                  <!--We have no way of knowing which these papers are, but it would be cool to know.-->"The
+                  Lone Woman of San Nicholas Island," and dealt with the story of a woman,
+                        <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>,
+                  who lived for <rs><date from="1835" to="1875">40 years</date></rs> alone on the
+                     <placeName type="island" key="#i_sn">island of San Nicholas</placeName>, off
+                  the <placeName type="region" key="#re_calcoast">coast of California</placeName>,
+                  building her own shelter and making her own garments from the materials found
+                  there. She was accidentally abandoned when <rs><persName type="group"
+                        key="#aji; #ndur; #misfats">missionaries</persName></rs> removed
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                        natives</orgName></rs> from <rs><placeName type="island" key="#i_sn">this
+                        island</placeName></rs>. <persName key="#lva">Mrs. Van Name</persName>
+                  explained that the <orgName type="organization" key="#dar_sb">D. A. R. chapter of
+                     Santa Barbara</orgName> had erected a tablet in memory of <rs><persName
+                        type="nativeamerican" key="#lw">the woman</persName></rs>.</p>
+               <p><persName key="#sla">Miss Sue Larson</persName> conducted a general discussion on
+                  national activities of the <orgName type="organization" key="#daughters">D. A.
+                     R.</orgName></p>
+               <p><persName key="#cve">Mrs[.] Vedder</persName> was assisted in entertaining by
+                     <persName key="#cpau">Mrs. Cortes Pauls</persName>.</p>
+            </div>
+            <div n="4">
+               <head><title type="section">
+                     <rs><orgName type="organization" key="#frat_pas">Fraternity</orgName></rs>
+                     Event.</title></head>
+               <p>The <orgName type="organization" key="#frat_pas">Phi Alpha Sigma
+                     Fraternity</orgName> will entertain with an informal holiday gathering atthe
+                  fraternity house <date when="1933-12-20">Wednesday evening</date>.</p>
+            </div>
+            <div n="5">
+               <head><title type="section"> To Attend Dance.</title></head>
+               <p><persName type="military" key="#bbe">Bernard Bernadoni</persName>, president of
+                  the <orgName type="military" key="#mi_gro">Galveston Reserve Officers</orgName>
+                  and first lieutenant of infantry reserves, will be among those going from here to
+                  attend the military reception and dance to be given <rs><date when="1933-12-13"
+                        >tonight</date></rs> at <placeName key="#riveroaks">River Oaks</placeName>
+                  by the <orgName type="military" key="#mi_hro">Houston reserve
+                  officers</orgName>.</p>
+            </div>
+         </div>
+      </body>
+      <note><p>"Copyright <date when="2013">2013</date>
+            <orgName type="publication" key="#gdn">The Galveston County Daily News</orgName>.
+            Republished with permission of <orgName type="publication" key="#gdn">The Galveston
+               County Daily News</orgName>. No further republication or redistribution is permitted
+            without the written consent of <orgName type="publication" key="#gdn">The Daily
+               News</orgName>."</p></note>
+   </text>
+</TEI>

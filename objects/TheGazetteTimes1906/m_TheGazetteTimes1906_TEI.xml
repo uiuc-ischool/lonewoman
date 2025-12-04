@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#gaztim">Gazette
+                     Times</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">121</biblScope>
+               <biblScope unit="issue">15</biblScope>
+               <date when="1906-08-12"/>
+               <pubPlace><placeName type="city" key="#ci_pittsburg">Pittsburg</placeName>,
+                     <placeName type="state" key="#st_penn">Pennsylvanie</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#TheGazetteTimes1906">The Lost Race of San
+                     Nicolas</title>
+                  <biblScope unit="page" n="5 (Home Journal &amp; Fiction Magazine)"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">The Lost Race of San
+                     Nicolas</orgName></rs></hi></title></head>
+            <p>ABOUT 80 miles due northwest of <placeName type="city" key="#ci_sp">San
+                  Pedro</placeName>, in <placeName type="state" key="#st_cal"
+               >California</placeName>, lies <rs><placeName type="island" key="#i_sn">a desert
+                     island</placeName></rs> that has all the combined romance of the ages in its
+               history. It is rarely visited and has but <rs><persName key="#shepherd">a single
+                     inhabitant</persName></rs>, yet it has peculiar fascination for many people.
+               The very elements seem to conspire to make the place forbidden, as it is almost
+               invariably blows a gale of wind in the vicinity, and when one reaches <rs><placeName
+                     type="island" key="#i_sn">the inho[s]pitable island</placeName></rs> there is
+               no bay or harbor for a craft much larger than a rowboat.</p>
+            <p><rs><placeName type="island" key="#i_sn">The island</placeName></rs> is about seven
+               miles long by two or three in width and rises to a height of 800 to 1,000 feet in the
+               center. <span type="trope" n="6">Windswept, forbidding, haunted by the spirits of
+                  storms, it does not invite inspection and appears to have been cursed by the
+                  elements, yet despite this the island was at one time the home of a numerous
+                  people, <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                        race that has been lost sight of</orgName></rs>.</span>
+               <rs><persName type="author" key="#author6">The writer</persName></rs> made several
+               attempts to reach <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs> in <rs><name type="ship" key="#sh_yacht1">a 60-ton
+                     yacht</name></rs> and was literally blown off, finally making it one day about
+               noon, coming to anchor near a long specter-like tongue of land that extends out into
+               the ocean and where the tide ran like a millrace [sic] and a heavy groundswell swept
+               around the point from the windward side. No more forbidding outlook can be imagined.
+               The <placeName type="island" key="#i_sn">island of San Nicolas</placeName> appears
+               like a sand dune. The landing was a wave-swept beach that received a high swell from
+               three points, and it was evident that skill on landing alone would make it
+               possible.</p>
+            <p><rs><name type="ship" key="#sh_yacht1">The boat</name></rs> lay off waiting for a low
+               sea, and finally went sailing in upon one of lesser size and <rs><persName
+                     type="group" key="#author6; #yachtcrew">the crew</persName></rs> jumped
+               overboard and held on to <rs><name type="ship" key="#sh_yacht1">the boat</name></rs>
+               that the undertow and back rush attempted to claim. In this manner <rs><persName
+                     type="group" key="#author6; #yachtcrew">the entire party</persName></rs> landed
+               and an investigation of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> was begun. <rs><persName key="#shepherd">The one
+                     inhabitant, a Basque</persName></rs>, came down to the beach. <span
+                  type="trope" n="7">He had not heard the news of the world for <rs><date
+                        notBefore="1907-04" notAfter="1907-04">a year</date></rs>, and did not
+                  display any ambition to learn it. But he was not happy. Too many dead people, too
+                  many bones that make wind spirits blow, he said, and when he heard that
+                        <rs><persName type="group" key="#author6; #yachtcrew">the
+                     party</persName></rs> was after the remains of these dead people he showed an
+                  inclination to leave. In all probability there is not in any land a more
+                  remarkable mound that can be seen. About 10 feet in height and nearly a mile in
+                  length, it was at this time a veritable Golgotha, a collection of bones and
+                  implements of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                        >the lost people</orgName></rs>, ever changing, ever shifting; today
+                  exposing numbers of skeletons, tomorrow covering them up in sheets of sand. One
+                  could easily imagine that a battle had been fought here and the dead had been
+                  buried by the drifting sand, but this was not the case.</span></p>
+            <p><span type="trope" n="6">The mound was a town site upon which hundreds of people had
+                  lived for untold ages. They had brought in their shells and fishbones, piled them
+                  up at the doors of their huts, slowly building themselves up higher and higher,
+                  until in time they came to live on the the top of a vast shell mound. Here they
+                  buried their dead, concealed their household goods, and when a man or woman died
+                  his or her possessions were buried with them, and so the big mounds were made up
+                  of shells, stone implements, fish and human bones&#8212;a monument of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">this lost
+                        race</orgName></rs>.</span></p>
+            <p>Where <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     original islanders</orgName></rs> came from, who they were or why they lived on
+               such <rs><placeName type="island" key="#i_sn">a wind-swept, nearly waterless
+                     island</placeName></rs>, is one of the mysteries, but it is known that the
+                     <rs><persName type="group" key="#ndur; #aji; #misfats">mission
+                     fathers</persName></rs> visited <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>
+               <rs><date when="1835">years ago</date></rs> and took off <persName type="group"
+                  key="#bhagroup">the few survivors found there</persName> and divided them up among
+               the various mainland tribes. When <persName type="group" key="#bhagroup">this human
+                  loot</persName> was being carried into execution a storm came up, and in the hurry
+               of departure it was found that <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs> had left <rs><persName type="nativeamerican" key="#lw"
+                     >her baby</persName></rs> on the beach.</p>
+            <p>It was impossible to land, so <rs><persName type="group" key="#chu; #isp">the
+                     captain</persName></rs> sailed away, but not with <rs><persName
+                     type="nativeamerican" key="#lw">the mother</persName></rs>. <span type="trope"
+                  n="9">She had plunged into the waves and swam a long distance to the shore, and,
+                  with <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>,
+                  was deserted, <rs><persName type="group" key="#chu; #isp">the
+                     captain</persName></rs> intending to return later for her.</span>
+               <placeName type="island" key="#i_sn">San Nicolas</placeName>, however, was not
+               visited for <rs><date from="1835" to="1853">many years</date></rs>. <rs><name
+                     type="ship" key="#sh_peoresnada">The vessel</name></rs> was wrecked, but the
+               legend lived and <rs><date when="1850">many years after</date></rs>
+               <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">a
+                  priest</persName></rs> decided to visit <rs><placeName type="island" key="#i_sn"
+                     >the island</placeName></rs> and learn if <rs><persName type="nativeamerican"
+                     key="#lw">the [w]oman</persName></rs> had survived. An expedition was go[t] up
+               in <date when="1850">1850</date>, <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >the party</persName></rs> making a safe landing. They formed a line across
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> in order
+               not to miss any signs of human habitation and began a slow search from the south
+               point north. They soon found evidence of ancient occupation, and in a deep canyon
+               discovered a but [hut] and <rs><persName type="nativeamerican" key="#lw">a
+                     woman</persName></rs>, the mother who had been deserted years before. She was
+               living in the hut, which was made of whale ribs and [sea] lion hair, her sole
+               companions being several wild dogs that savagely charged <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >the strangers</persName></rs>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> could not
+               make herself understood and, singularly enough, no one in all the Indian tribes in
+               South <placeName type="state" key="#st_cal">California</placeName> could be found who
+               understood her. <span type="trope" n="10">She told <rs><persName type="group"
+                        key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                        >her discoveries [discoverers]</persName></rs> by signs that the wild dogs
+                  had killed <rs><persName type="nativeamerican" key="#lwchild">her
+                     child</persName></rs>
+                  <rs><date when="1853">long ago</date></rs>, that she killed sea lions and sea
+                  birds with stones and lived on them.</span></p>
+            <p>At first she appeared to be afraid of <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats; #gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                     >the men</persName></rs>, but, finding that they treated her kindly, she
+               consented to go with them. She took all the rude articles she had used during
+                     <rs><date from="1835" to="1853">the years of solitude</date></rs>, her skin
+               dresses, made mostly from the skins of the [sea] lion, and so interesting were the
+               costumes that they were sent to <placeName type="city" key="#ci_rom">Rome</placeName>
+               to <rs><persName key="#pop">the Pope</persName></rs> by <rs><persName type="group"
+                     key="#jru; #aji; #sanchez; #misfats">the priest</persName></rs> who instigated
+               the rescue.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> was taken to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> and named Maris
+               [Maria], after <rs><name type="ship" key="#sh_nidever">the little vessel</name></rs>
+               which accomplished her rescue. She was placed in care of <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">a
+                  family</persName></rs> who did everything possible for her. <span type="trope"
+                  n="3">She was bright and vivacious in disposition, learned some Spanish, danced
+                  and sang for her friends and was visited by Indians from various parts of
+                     <placeName type="state" key="#st_cal">California</placeName> in an effort to
+                  find some one who could understand her. <span type="trope" n="8">But civilization
+                     proved too much for her and she died in three months, one of the most
+                     remarkable Crusoes known, as her story is based on actual fact and in its
+                     details is much stronger stranger than fiction.</span></span></p>
+            <p>The interesting mound which <rs><persName type="author" key="#author6">the
+                     writer</persName></rs> examined on <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> was formed during past centuries by <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the ancestors of this
+                     woman</orgName></rs>, and possesses an intense interest on this account.
+                     <rs><placeName type="island" key="#i_sn">The island</placeName></rs> near the
+               landing was 20 or 30 feet higher than the shore and reached through singular
+               wind-worn passes, wind being the sculptor here. Once on the heights a broad mesa was
+               seen as level as a floor and marked with lines which resembled ancient plowing or
+               something of the kind. The mesa was covered with fine flinty stones about the size of
+               peas, which <rs><persName key="#shepherd">the [h]erder</persName></rs> says were
+               picked up by the wind and blown through the air at times. They were arraigned
+               [arranged] like chaff on a beach. <rs><persName type="author" key="#author6">The
+                     writer</persName></rs> followed thi[s] mesa for several miles, and that
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> had had a
+               large and vigorous population at some distant time was evident. <span type="trope"
+                  n="7">Every short distance some object was found, now a pipe made from the
+                  vertebrae of a fish, a needle of fishbone, a dish made from a shell, the holes
+                  plugged with asphaltum. Here would be a stone club or mortar of steatite, a
+                  spearhead or a sinker and shell hooks that some fisherman centuries ago, perhaps,
+                  had dropped and forgotten.</span></p>
+            <p><span type="trope" n="5"><span type="trope" n="7">Everywhere piles of big pearly
+                     shells of a size unknown here were found, telling of the lives and work of
+                           <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                           >these people</orgName></rs>. One mound was found covered by the ribs of
+                     whales and beneath them a flat rock bearing marks of various kinds and then the
+                     owner, a skeleton in perfect preservation, and all about it in the sand vessels
+                     of stone, flutes of bird bones and the various objects which went to make up
+                     the home of t[h]is unknown. In one spot six layers of skeletons were found, the
+                     lowest apparently very old. The question of age is always very interesting, but
+                     no one in contemplating these great shell deposits can form an adequate idea of
+                     their age.</span></span></p>
+            <p><rs><placeName type="island" key="#i_sn">The island</placeName></rs> evidently has
+               been inhabited since the earliest times. It was doubtless fertile then, but the
+               elements have conspired against it and it is doomed to be swept and covered with
+               sand. <rs><placeName type="island" key="#i_sn">The island</placeName></rs> is now
+               frequented by the professional collectors, who go over from <placeName type="region"
+                  key="#re_mld">the mainland</placeName> and live here for weeks and months, camping
+               out on the sand dunes, weighting their tents down with rocks to prevent being blown
+               into the sea. Every morning they go out with their hooks and poles, hunting for the
+               spoils which have been uncovered by the wind in the night. In this way tons of
+               material have been collected here and sent all over the world. Nearly all the great
+               museums have collections from <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>. The most conspicuous objects are the stone mortars, stone
+               vessels weighing from 100 to 200 pounds. In walking over the large mounds numbers
+               would be found broken in pieces by some vandal or some enemy in the long ago. That
+               these ancient people were fond of ornaments is shown by the quanitity of beads
+               found.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
