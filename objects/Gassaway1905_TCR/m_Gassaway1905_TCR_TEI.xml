@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#chathamrec"> Chatham
+                     Record</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">28</biblScope>
+               <biblScope unit="issue">12</biblScope>
+               <date when="1905-11-02"/>
+               <pubPlace><placeName type="city" key="#ci_pitts">Pittsboro</placeName>, <placeName
+                     type="state" key="#st_nc">North Carolina</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Gassaway1905_TCR">A Woman Crusoe.</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#fga">Gassaway, Franklin
+                     Harrison</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw">A
+                           Woman Crusoe</persName></rs>.</hi></title></head>
+            <p>Beginning due west of <placeName type="region" key="#re_pc">Point
+                  Conception</placeName>, on the <placeName type="state" key="#st_cal"
+                  >California</placeName> coast, and continuing at irregular intervals as far south
+               as the <placeName type="region" key="#re_todosbay">Bay of Todos Santos</placeName> in
+                  <placeName type="region" key="#re_baja">Lower California</placeName>, lie the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName>. <span
+                  type="trope" n="5">In this ideal region for the yachtsman, the fisherman and the
+                  hunter, one comes to feel like a new <name type="fictional" key="#rcr"
+                     >Crusoe</name> on <rs><placeName type="island" key="#i_jf">his primitive
+                        isle</placeName></rs>.</span>
+               <span type="trope" n="3"><span type="trope" n="8">And in very truth Crusoe's
+                     semi-mythical story was enacted upon <rs><placeName type="island" key="#i_sn"
+                           >one of these same islands</placeName></rs>, though minus the <name
+                        type="fictional" key="#friday">man Friday</name> and the happy ending.
+                           <rs><persName type="nativeamerican" key="#lw">The
+                        castaway</persName></rs> in this case was a woman, a Danish emigrant, left
+                     ashore through some mischance by the crew of a vessel that had sought shelter
+                     behind <placeName type="island" key="#i_sn">San Nicholas</placeName> during a
+                     storm, in the <date notBefore="1850" notAfter="1855">early [eighteen-]
+                        fifties</date>.</span></span> For <date from="1835" to="1853">over seventeen
+                  years</date>
+               <rs><persName type="nativeamerican" key="#lw">the lone creature</persName></rs> lived
+               unsought and forgotten, though the time at length came, when, on the days the
+               mist-clearing north wind blew, she could climb to the island's highest point and view
+               the ranchers' herds grazing upon <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. <span type="trope" n="14">And at last, when hope and reason
+                  had both long died, <rs><persName type="nativeamerican" key="#lw">the poor, wild,
+                        gibbering creature</persName></rs> was found in her wolf's burrow among the
+                  hills by <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the advance guard of
+                        the otter hunters' fraternity</persName></rs>, who had long wondered at the
+                  mysterious footprints they marked upon the lonely sands.</span></p>
+            <byline>&#8212;<title type="article" key="#Gassaway1905">Field and
+               Stream</title>.</byline>
+         </div>
+      </body>
+   </text>
+</TEI>

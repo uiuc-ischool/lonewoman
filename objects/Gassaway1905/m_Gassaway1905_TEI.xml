@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="magazine"><orgName type="publication" key="#field">Field and
+                     Stream</orgName></title>
+               <editor><persName type="author" key="#jburk">John P.
+                     Burkhard</persName></editor><editor><persName type="author" key="#hwa">Henry
+                     Wellington Wack</persName></editor>
+               <biblScope unit="volume">10</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <date when="1905-06"/>
+               <pubPlace/>
+               <bibl>
+                  <title type="article" key="#Gassaway1905">Sea Otter Shooting</title>
+                  <biblScope unit="page" from="117" to="121"/>
+                  <author><persName type="author" key="#fga">Gassaway, Frank</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold">SEA OTTER SHOOTING</hi></title>
+               <title type="sub">A <placeName type="state" key="#st_cal">California</placeName>
+                  Coast Sport That is Full of Excitement and Silence</title></head>
+            <byline><emph>By <persName type="author" key="#fga">FRANK
+               GASSAWAY</persName></emph></byline>
+            <p><hi rend="bold">B</hi>EGINNING due west of <placeName type="region" key="#re_pc"
+                  >Point Conception</placeName> on the <placeName type="state" key="#st_cal"
+                  >California</placeName> coast, and continuing at irregular intervals as far south
+               as the <placeName type="region" key="#re_todosbay">Bay of Todos Santos</placeName> in
+                  <placeName type="region" key="#re_baja">Lower California</placeName>, lie the
+                  <placeName type="island" key="#i_chi">Channel Islands</placeName>. These vary in
+               length from a few miles to over thirty, and keep an average distance from the
+               mainland of about twenty-five miles. Only one of this chain has any special claim to
+               being inhabited&#8212;<placeName type="island" key="#i_scatalina">Santa
+                  Catalina</placeName>, the sea-side resort now world famous as the only place where
+               the leaping tuna&#8212;well named the "Tiger of the Sea"&#8212;can be taken. With the
+               exception of an occasional lonely shepherd's hut on one or two of the larger islands,
+               the rest of these outlying barriers to the trade-wind-driven surges of <placeName
+                  type="region" key="#re_pacific">the Pacific</placeName> remain as they were at
+               creation's dawn, and even to-day are given up solely to the sea-lions that doze and
+               bellow upon their reefs, and that no less civilization-avoiding creature, the otter
+               hunter.</p>
+            <p><span type="trope" n="5">Every kind of marine animal and fish, from the whale to the
+                  translucent pompano; from the 500-pound, boat-dragging Jew-fish to the no less
+                  game bonita, albacore, and barracouda, swarm unmolested in the unvexed depths to
+                  the lee of <rs><placeName type="island" key="#i_chi">these
+                     islands</placeName></rs>. And should the seafaring sportsman voyaging along the
+                  succession of peaceful coves wish for game he has only to cast anchor to find food
+                  for powder at the very beach's edge. Coyotes and red foxes slink through the
+                  underbrush, a rabbit starts from every bush, and endless coveys of quail scarce
+                  elude his steps. In this ideal region for the yachtsman, the fisherman, and the
+                  hunter, one comes to feel like a new <name type="fictional" key="#rcr"
+                     >Crusoe</name> on <rs><placeName type="island" key="#i_jf">his primitive
+                        isle</placeName></rs>.</span>
+               <span type="trope" n="3"><span type="trope" n="8">And in very truth Crusoe's
+                     semi-mythical story was enacted upon <rs><placeName type="island" key="#i_sn"
+                           >one of these same islands</placeName></rs>, though minus the <name
+                        type="fictional" key="#friday">man Friday</name> and the happy ending.
+                           <rs><persName type="nativeamerican" key="#lw">The
+                        castaway</persName></rs> in this case was a woman, a Danish emigrant, left
+                     ashore through some mischance by the crew of a vessel that had sought shelter
+                     behind <placeName type="island" key="#i_sn">San Nicholas</placeName> during a
+                     storm, in the <rs><date notBefore="1850" notAfter="1855">early [eighteen-]
+                           fifties</date></rs>. For <rs><date notBefore="1835" notAfter="1853"
+                           cert="high">over seventeen years</date></rs>
+                     <rs><persName type="nativeamerican" key="#lw">the lone creature</persName></rs>
+                     lived unsought and forgotten, though the time at length came, when, on the days
+                     the mist-clearing north wind blew, she could climb to the island's highest
+                     point and view the ranchers' herds grazing upon <placeName type="region"
+                        key="#re_mld">the mainland</placeName>.</span></span>
+               <span type="trope" n="14">And at last, when hope and reason had both long died,
+                        <rs><persName type="nativeamerican" key="#lw">the poor, wild, gibbering
+                        creature</persName></rs> was found in her wolf's burrow among the hills by
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">the advance guard of
+                        the otter hunters' fraternity</persName></rs>, who had long wondered at the
+                  mysterious footprints they marked upon the lonely sands. </span>But it is of these
+               otter hunters and their prey with which we have to do just now.</p>
+            <p><span type="trope" n="4">During a recent winter vacation spent at <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>
+                  <rs><persName type="author" key="#fga">the writer</persName></rs> heard so many
+                  widely differing, and, for the most part, imaginative, accounts of the fur-hunting
+                  denizens of <placeName type="island" key="#i_chi">the Channel Islands</placeName>,
+                  their hermit-like inaccessibility, and their semi-savage repulsion of strangers,
+                  that he determined upon a voyage of discovery and whatever sport and adventure
+                  might be its accompaniment.</span> A small fishing sloop was engaged, and, with
+               some trouble, made less reminiscent of its calling, and more yacht-like. With a crew
+               consisting of the skipper, his brother, and the inevitable "boy," all Portug[u]ese,
+               we stood out from the harbor one morning, and at sundown came to anchor in a lovely
+               little placid and surfless cove at the northern end of <placeName type="island"
+                  key="#i_sn">San Nicholas</placeName>.</p>
+            <p><span type="trope" n="4"><span type="trope" n="5">To relate the fishing within the
+                     circle of a line's cast from the sloop, or the shooting within a stone's throw
+                     of the beach, that <rs><persName type="author" key="#fga">the
+                        writer</persName></rs> enjoyed for the ensuing four days, would be another
+                     story, and perhaps fascinating to yacht cruisers everywhere, for the scene was
+                     as virgin to the nimrod's art as it was in <rs><date notBefore="1475"
+                           notAfter="1519">the days of <persName type="seaman" key="#vba"
+                              >Balboa</persName></date></rs>.</span></span></p>
+            <p>We moved lazily south, each anchorage the same silver-beached repetition of the
+               others, and ever keeping a wary lookout for some signs of the habitations of the
+               otter hunters, with some of whom our skipper claimed an acquaintance, made during
+               their brief and infrequent visits to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>. At length a shadowy spiral of smoke, issuing from behind a
+               pile of huge rocks on the shore, regarded our vigilance, and the small tender
+               transferred us to the beach, where we were almost startled by the apparition of a
+               half-dozen silent and motionless figures regarding us from the shadows of the bushes.
+               Two of these came slowly forward, and were respectfully accosted by our skipper as
+                  "<persName key="#ped">Pedro</persName>" and "<persName key="#juanie"
+                  >Juanie</persName>," the Mexican equivalents of Peter and John. One, we later
+               learned, was a Forty-niner, originally from <placeName type="state" key="#st_ky"
+                  >Kentucky</placeName>, while the other was a long-acclimated downeaster who had
+               done good service as a sharpshooter during the <rs><date notBefore="1858"
+                     notAfter="1886">Geronimo outbreak</date></rs>. The others were Mexicans.</p>
+            <p>"Can you find room for a traveler for a few days?"</p>
+            <p>"What fur?" asked <persName key="#ped">Pedro</persName>, in a slow and modulated
+               tone.</p>
+            <p> "I would like to learn something about otterhunting, if you don't object."</p>
+            <p>"What fur?" again murmured <persName key="#ped">Pedro</persName>, after a long
+               meditative silence devoted to puffing one of the very excellent cigars <rs><persName
+                     type="author" key="#fga">the writer</persName></rs> had made diplomatic haste
+               to pass around.</p>
+            <p>"I would like to write something about them."</p>
+            <p>"Fur a noospaper? Over there?" with a jerk of the head toward <placeName
+                  type="region" key="#re_mld">the mainland</placeName>. He shook his head
+               negatively, as did <rs><persName key="#juanie">his companion</persName></rs> in
+               silent protest.</p>
+            <p>"Not at all. For <placeName type="region" key="#eusa">the
+               East</placeName>&#8212;three thousand miles away," said <persName type="author"
+                  key="#fga">the writer</persName>. "Not even that, if you object."</p>
+            <p>"Well, if 'tain't fur t'other side, I reckon it's all right," and, motioning the
+               others to carry the luggage, <persName key="#ped">Pedro</persName> led the way toward
+               the camp.</p>
+            <p>This proved to be a few stone-built and clay-plastered huts placed behind a huge
+               boulder, and almost as little calculated to attract the passer's attention as the
+               cunningly hidden "keeps" of the otters themselves. The larger of these was the
+               assembly-room and kitchen, furnished chiefly with cumbersome home-made chairs and a
+               long table. A few smoke-faded pictures and rudely stuffed rare water birds adorned
+               the walls. In a recess near the ample fireplace stood that holiest of holies, the gun
+               rack, loaded with carefully oiled rifles, while in the corner reposed a couple of
+               less-esteemed shotguns of antiquated make. A well-thumbed book or two, and, oddly
+               enough, an out-of-date edition of <persName type="author" key="#wsh"
+                  >Shakespeare</persName>, were the only literary resources.</p>
+            <p>"You kin say in your noospaper," softly drawled <rs><persName key="#ped">the
+                     Kentuckian</persName></rs>, with an inspiration of commercial sagacity
+               evidently approved by his colleagues, "that there's mighty few on 'em left, and if
+               many more vyergers come visitin' round <rs><placeName type="island" key="#i_chi"
+                     >these ilins</placeName></rs> it's good-bye, Mary Jane! You can't crowd 'em.
+               Why, I kin remember when even in <rs><date notBefore="1850" notAfter="1859-12-31">the
+                     [eighteen-] fifties</date></rs> you could git otter anywheres along
+                     <rs><placeName type="region" key="#re_calcoast">the main
+               coast</placeName></rs>. I dessay <placeName type="region" key="#re_sfbay">'Frisco
+                  bay</placeName> was oncet full on 'em, but they lit out. An' what did it? Someuns
+               allow the steamboats and sich, but I says the huming v'ice. An' now where are they?
+               Nary a one anywhere 'cept here and 'way up in <placeName type="state" key="#st_ak"
+                  >Alasky</placeName>, where they shoots 'em, I've hearn, from atop of perches stuck
+               up in the surf. In the surf, mind yer!" and <rs><persName key="#juanie">the
+                     expert</persName></rs> glanced around in indignant reprobation at this
+               unsportsmanlike practice. "Yes, sir; it's the huming v'ice as is thinin' 'em off.
+               Why, a picnic came over here <rs><date when="1900">'bout five years ago</date></rs>
+               from <placeName type="city" key="#ci_sb">Santa B.</placeName>, an' we fell off that
+               season 'bout two hundred skins. Fact." And his companions nodded a sympathetic
+               approval.</p>
+            <p>The small community that subsist by this occupation numbers perhaps some 200 souls in
+               all, and is indeed a most peculiar and isolated one. For over a generation they have
+               retained a monopoly of their pursuit, and resent all professional competition with
+               jealous hostility. Living apart from the haunts of mankind, touching elbows with
+               civilization only at rare intervals, and rendered silent and undemonstrative by the
+               very nature of their profession, they live on, care free, contented and unregardful
+               of the great world "on the main." Their stations, or "camps," similar to this, are
+               usually about eight or ten miles apart. The inmates or "crews" are about ninety per
+               cent. native Californians, the rest Americans, and are divided in three distinct
+               classes. The least important of these are the "grubbers," or fishermen, skin-salters,
+               and cooks, who find and prepare the food. Next come the boatmen, whose sole
+               occupation is rowing, and lastly, the "shots," or riflemen, almost always American,
+               and who are the magnates and aristocrats of the outfit, it being upon their skill the
+               welfare of the whole depends. The latter specialists, like <persName key="#ped"
+                  >Peter</persName> and <persName key="#juanie">John</persName>, fully appreciate
+               their importance and dignity, and exact a consideration and respect from their less
+               distinguished partners edifying to observe. Although the business is largely a
+               co-operative one the riflemen are paid an additional ten per cent. of the "catch" and
+               also obtain a further bonus of one dollar and fifty cents per skin for each pelt
+               above a certain number secured each month. No trade unionist could be more jealous of
+               the intrusion of apprentices than are these experts, and a rifleman would consider it
+               a loss of caste to touch an oar or even lend a hand at the launching of a boat.</p>
+            <p>The shooting is all done from boats, four or five of which are always beached in
+               front of each camp. These are home-made affairs, low on the sides, nearly
+               flat-bottomed for convenience in beaching and sliding over kelp, and are intended for
+               two oarsmen, a steersman and rifleman. Their internal arrangements are somewhat
+               unique, the double object of facilitating the marksmen and insuring complete silence
+               being kept always in view. In the bow, where the sharpshooter sits in lordly state,
+               is placed the only modern article, if his latest pattern rifle be excepted,
+               observable. This is the upper half of an office chair, revolving on a well-oiled
+               screw to afford its occupant a quick change of position. Under the generally bare
+               feet of the crew are spread old blankets. The wooden oar-locks are covered with
+               generously greased felt, the oars themselves oval-bladed, thin-shafted and flexible,
+               while on either side of the sharp bow trail strips of loose skin, fur side out,
+               against which the splash of the water is inaudible. Everything, in fact, is done to
+               avoid the slightest sound while afloat, for the sea otter, as had been indicated,
+               seems to rely more upon his acuteness of hearing than his sense of smell or
+               sight.</p>
+            <p>Long before all this information was elicited form <persName key="#ped; #juanie">the
+                  two captains</persName>, or "shots," the rest of the hands had retired into the
+               adjoining hut devoted to sleeping bunks, in the widest and most comfortable of which
+                     <rs><persName type="author" key="#fga">the writer</persName></rs> passed a
+               restful night in anticipation of an early start in the morning.</p>
+            <p>In the dim grayness of the early hour at which all wild creatures seem to break their
+               fast, five silent, ghostlike figures, comprising <persName key="#ped"
+                  >Pedro</persName>, two oarsmen, the steersman and <persName type="author"
+                  key="#fga">the writer</persName>, took their way to the water's edge and quietly
+               launched a boat fitted and provisioned over night. Not a word was spoken, not an oar
+               rattled, for even then a venturesome otter might be a few hundred yards away.
+                     <rs><persName type="author" key="#fga">The writer</persName></rs> was stationed
+               on a covered box in front of the steersman with a whispered injunction from that
+               official to "chin easy." The crew melted into their places as would buccaneers on a
+               cutting-out expedition; the "shot" lifted his hand; the lithe blade stole through the
+               water without a drip, and the boat glided seaward like a shadow.</p>
+            <p>About 300 yards from the shore we saw that the kelp line followed the curves of the
+               land like a sleeping serpent, the leaves of its forty-foot-long stems matting
+               together on the surface in a reddish-brown mass about 500 feet in width. The clothing
+               of the hunters, the boat itself, were of the same tint. The undulating forest of
+               stems and leaves harbors a marine world of its own. A fascinating volume could be
+               filled with the strange fishes, the separate organisms, peculiar to its depths, and
+               seen nowhere else. It is here the otter repairs from his rocky lair and, supported by
+               the giant stems, lies in wait for his prey.</p>
+            <p>Oar [Our] boat was carefully steered about thirty yards from the inner kelp line, and
+               the rifleman, his wide sombrero brim folded in so as to exclude the light except in
+               front, glued his eye to the oily surface to seaward. Sometimes he grasped his cocked
+               rifle tighter as some pursued flying-fish broke above the still swell, or some bit of
+               kelp lifted itself higher than the rest. Suddenly his trained eye caught a sharp lift
+               of the water head. It was the "fluke" made by the quick upward stroke of the startled
+               otter's hind feet and tail as he forced himself under water in his frantic race for
+               the shore.</p>
+            <p>Now if the otter would only content himself with remaining in the kelp, amid whose
+               patches of leaves his recurrent nose would remain undetected, all would be well, but
+               his invariable habit is to make a bee-line for headquarters. Long experience has
+               taught the marksman that in doing this his quarry must make exactly three dives; that
+               is to say, he must come to the surface to breathe just twice in his course. The first
+               of these "breaks" would be almost exactly in front of the boat, and with rifle butt
+               at shoulder, but with his head held high and both eyes wide open&#8212;for this
+               quickest of snap-shooting allows no time for sighting&#8212;<persName key="#ped"
+                  >Pedro</persName> watched almost the exact spot at which the sleek, pointer-like
+               head would in a moment appear. "Crack!" For an instant&#8212;about the space required
+               to count rapidly "one[,] two, three"&#8212;the brown spot appeared and vanished,
+               before the rifle-smoke had floated an inch from the muzzle.</p>
+            <p>Another quick fluke ahead, and then a slow smoothing of the ripples.</p>
+            <p>"A clean miss."</p>
+            <p>The fact was signaled to the crew by the quick ejectment of the empty shell, which
+               was the signal for the landward oars to hold water while the steersman headed sharply
+               toward the shore. The boat stopped as nearly as possible over the locality of the
+               first "break," for by this means the next shot, though at a distance from seventy to
+               ninety yards, would have the advantage of being a "line" one. With set face and
+               partly raised rifle <persName key="#ped">Pedro</persName> leaned forward, every
+               muscle and nerve at highest tension, and, catlike, watched a certain spot halfway
+               between the boat and a clump of rocks on the shore. Long practice had already
+               informed him of the condition of the animal, indicated by the distance covered by his
+               first dive, and he could almost spread a blanket over the fugitive's next breathing
+               place.</p>
+            <p>"Crack!" again; and this time a fatal flurry in the water proclaimed success.</p>
+            <p>Now everything depended upon the spurting capacities of the rowers, and the boat
+               fairly flew through the water in the direction of the kill. Just in time! Leaning
+               over the bow <persName key="#ped">Pedro</persName> seized the feebly fighting prize
+               and deftly twisted it into the boat. Next to killing, it is most important to
+               retrieve the game at once, for the otter sinks immediately when dead. True, in from
+               five to eight days, even sooner in east windy weather, the animal would be washed
+               ashore, but in such cases its fur is usually found to be abraded by the rocks, or
+               mutilated by crabs.</p>
+            <p>Again our course was south, keeping the same prescribed distance from the kelp's
+               margin. A half mile slipped by and once more the indomitable scrutiny of <persName
+                  key="#ped">Pedro</persName> was rewarded. This time it was a close-at-hand kill
+               with the first shot; but a few inches' miscalculation by the steersman almost lost us
+               the otter. <persName key="#ped">Pedro</persName> missed his plunge, but the sinking
+               quarry's tail was seized by <rs><persName type="author" key="#fga">the
+                     writer</persName></rs> just in the nick of time as the boat rushed by, and
+               achievement that raised him very measurably in the estimation of the voicelessly
+               applauding crew.</p>
+            <p>Then followed, within a distance of a mile and a half, four more trophies of Pedro's
+               skill, two to the first, and as many to the second shot, only one entire failure at
+               the longer distance. When this last occurred nothing more was done, and the lucky
+               animal was permitted to escape until another opportunity. But, successful or
+               otherwise, not a word or sound was heard, and our dumb boat silently wheeled and sped
+               along on its stealthy quest.</p>
+            <p>Ten miles and 10 o'clock. The sun was beginning to warm to its work; the otters had
+               left their foraging grounds and the boat was turned to the shore. Here a well-earned
+               siesta was enjoyed during the long wait until the second or "supper" shooting time
+               arrived. This was broken at noon by a lunch none the less hearty that it was eaten in
+               silence that might be envied by a brotherhood of speech-abjuring monks.</p>
+            <p>At 6 o'clock the return trip was begun and resulted in two more additions to the
+               handsome store of pelts occupying the box behind the rifleman’s seat. Eleven in all,
+               being, as the spectral steersman, <persName key="#jose">José</persName>, relaxed
+               himself so far as to whisper as we approached the camp, "six singles, five doubles
+               and a <emph>carambo</emph>"; the two first expressions indicating the number of
+               cartridges used by the shooter, and the last expletive to accompany a miss.</p>
+            <p>The fact was subsequently developed, and is interesting as indicating the unconscious
+               education of the muscles and sight, that while the otter expert shoots with marvelous
+               precision at the two distances described, they are almost ineffectual at greater
+               ranges. It is to be doubted if they would make any showing at from 250 to 500 yards,
+               a description by the writer of a long-range match and its scores being received by
+               the campers with a good deal of amused incredulity, an evident instance of the
+               prevaricating tendencies of the benighted inhabitants of the despised main land to
+               the east.</p>
+            <p>The day's work had been an exceptional one; the bag was a truly royal one in a
+               financial sense, for its value was just eleven times forty-two dollars, the present
+               market price of the "green" skins in bulk; for the sea otter, like the buffalo, is
+               passing away, and already his coat has become the vestment for only the very
+               wealthy.</p>
+            <p>As the night's shadows deepened out from the hushed hills our boat grated upon the
+               home beach, and the tired crew stepped again over the side. And thus from day to day
+               the tireless quest goes on, and for the same end, if my simple hosts but knew it,
+               that inspired the busy toilers on the dim shores that lie to the east. But who shall
+               say that the peaceful dwellers in these sylvan solitudes have not the happier
+               lot?</p>
+         </div>
+      </body>
+   </text>
+</TEI>
