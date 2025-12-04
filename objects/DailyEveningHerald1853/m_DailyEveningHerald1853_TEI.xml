@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dailyeveningherald">Daily
+                     Evening Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">4</biblScope>
+               <biblScope unit="issue">76</biblScope>
+               <date when="1853-11-03"/>
+               <pubPlace><placeName type="city" key="#ci_sl">St. Louis</placeName>, <placeName
+                     type="state" key="#st_mo">Missouri</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#DailyEveningHerald1853">The Wild Woman of
+                     California</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <rs><persName type="nativeamerican" key="#lw">THE WILD WOMAN OF
+                        CALIFORNIA.</persName></rs>&#8212;</title></head>
+            <p><span type="trope" n="14"><!--we need a key for this title when we get it-->We have
+                  heretofore made mention of the existence of a <rs><persName type="nativeamerican"
+                        key="#lw">wild Indian woman</persName></rs> in <rs><placeName type="region"
+                        key="#re_socal">Southern California</placeName></rs>, and
+                  <!--we need a key for this title when we get it-->the subjoined account, which we
+                  find in the <title type="article" key="#Santiago1853"><emph>San Francisco
+                        Herald</emph></title>, confirms the statement</span>.&#8212;The <persName
+                  key="#san">Santa Barbara correspondent</persName> of <rs><orgName
+                     type="publication" key="#sherald">that journal</orgName></rs> writes under date
+               of <date when="1853-10-07">Oct. 7th</date>, as follows:</p>
+            <p><span type="trope" n="14">A short time since I called to see the <rs><persName
+                        type="nativeamerican" key="#lw">Wild Indian Woman</persName></rs></span>.
+               She is living with <persName type="frontiersman" key="#gni">Mr. George
+                  Nidever</persName>, an old Trapper, who has been on <rs><placeName type="region"
+                     key="#re_calcoast">this coast</placeName></rs> for <rs><date notBefore="1835"
+                     notAfter="1853">the last 18 years</date></rs>. She was brought from the
+                     <rs><placeName type="island" key="#i_sn">island of San
+                  Nicholas</placeName></rs>, 70 miles distant, and not from <placeName type="island"
+                  key="#i_scatalina">Catalina</placeName>. <span type="trope" n="10">No person has
+                  yet been found that can understand or speak her language. By signs she has told
+                        <rs><persName type="frontiersman" key="#gni">Mr. N.</persName></rs> that
+                        <rs><persName type="nativeamerican" key="#lwchild">her child</persName></rs>
+                  was killed and torn to pieces by the wild dogs with which the land is
+                  overrun.</span> Her only dress was a sort of gown, sitting high upon her shoulders
+               and reaching nearly to the knees, made of the skins and feathers of wild ducks, sewed
+               together with the sinews of the seal. The handicraft shown in the manufacture of her
+               needles, sewing stuffs, baskets, water vessels&#8212;to make all of which a piece of
+               the blade of an old knife seems to have been her only tool&#8212;is certainly
+               curious. The water jugs are made of split sea-grass woven tightly together in flask
+               form, and the bottom and part of the sides daubed over with asphaltum, springs of
+               which are on <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>.
+               She has a piece of netting made of sinews, some eight feet square, the knitting of
+               which is precisely similar to that made for fishing. <span type="trope" n="11">Her
+                  food seems to have been chiefly the fat of the seal.&#8212;Of this she brought
+                  some twenty pounds with her. It is rancid and smells awfully; still she relishes
+                  it.</span> She is very fond of shell fish, coffee and liquor of every sort; but
+               does not care for beef, pork, bread and tea. <span type="trope" n="3">In person she
+                  is by far the best looking Indian I have ever seen on <rs><placeName type="region"
+                        key="#re_calcoast">the coast</placeName></rs>. She has large full eyes; her
+                  forehead is low and broad; her nose slightly aquiline and finely formed; her mouth
+                  is rather large, and indicates great firmness; her protruding lower lip gives a
+                  haughty tone to her look, and her well set chin fully sustains this trait. She is
+                  of medium stature, very masculine in appearance, and shows very little evidence of
+                  advanced age.</span>
+               <span type="trope" n="6">Undoubtedly she is the last of <rs><orgName
+                        type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                     race</orgName></rs>.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dailymorningnews">Daily
+                     Morning News</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">4</biblScope>
+               <biblScope unit="issue">no. 249</biblScope>
+               <date when="1853-11-05"/>
+               <pubPlace><placeName type="city" key="#ci_sav">Savannah</placeName>, <placeName
+                     type="state" key="#st_ga">Georgia</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#DailyNews1853">A Female Crusoe.</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A Female
+                        Crusoe</persName></rs>.</title></head>
+            <dateline><placeName type="city" key="#ci_sb">SANTA BARBARA, CAL.</placeName>, <date
+                  when="1853-09-11">September 11, 1853</date>&#8212;</dateline>
+            <p><span type="trope" n="4">We have now in <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>
+                  <rs><persName type="nativeamerican" key="#lw">a great curiosity</persName></rs>;
+                  it is <rs><persName type="nativeamerican" key="#lw">an Indian
+                     woman</persName></rs>, who has lived for <rs><date notBefore="1835"
+                        notAfter="1853">eighteen years</date></rs> alone upon the <placeName
+                     type="island" key="#i_sn">island of San Nicholas</placeName>&#8212;a small
+                  island about forty-five miles from <rs><placeName type="city" key="#ci_sb">this
+                        place</placeName></rs>, during which time she has not seen the face of a
+                  human being.</span>
+               <rs><placeName type="island" key="#i_sn">This island</placeName></rs> was once
+               peopled by <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">a
+                     tribe of Indians</orgName></rs>, to whom the <rs><orgName type="group"
+                     key="#natam_aleuts; #natam_kodiak">Northwest tribes</orgName></rs> were
+               hostile. To preserve the remnant of <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">this tribe</orgName></rs> from destruction, as well
+               as with a view to Christianize them, <rs><persName type="group"
+                     key="#aji; #ndur; #misfats">the Padres</persName></rs> induced them to come to
+               the <placeName type="region" key="#re_mld">main land</placeName>
+               <rs><date when="1835">eighteen years ago</date></rs>. <span type="trope" n="9">After
+                  they were all on board <rs><name type="ship" key="#sh_peoresnada">the
+                        vessel</name></rs> sent for them, <rs><persName type="nativeamerican"
+                        key="#lw">this woman</persName></rs> swam ashore to look for <rs><persName
+                        type="nativeamerican" key="#lwchild">her child</persName></rs> which had
+                  been left; and a storm springing up in the night <rs><name type="ship"
+                        key="#sh_peoresnada">the vessel</name></rs> was compelled to put to sea; on
+                  returning, she could not be found.</span> She was known to be alive, by those who
+               at times visited <rs><placeName type="island" key="#i_sn">the Island</placeName></rs>
+               for the purpose of hunting otters, from the marks of fires and from foot-prints in
+               the sand.</p>
+            <p>On being approached the other day, she manifested much joy, which she betrayed by
+               signs of the most significant character, and at once commenced packing up her few
+               articles of furniture. Whether the sounds which she utters are words or not has not
+               yet been ascertained. <span type="trope" n="14"><rs><persName type="frontiersman"
+                        key="#gni">The man who found her</persName></rs> is familiar with five or
+                  six Indian languages, but he was unable to understand a single expression; it is
+                  more than probable that she has forgotten her native tongue entirely.</span></p>
+            <p>Her clothing consisted of skins of birds sewed together with the fibres of some trees
+               or plant. Her food has been shell-fish, seals, and a small bulbous root, similar in
+               appearance to an onion, but wholly tasteless. The needles with which she stitches her
+               garments are made of the sharp bones of a fish. She had two hooks made of a bent
+               nail, and sharpened by the friction upon a stone. Her lines were beautifully twisted
+               from the sinews of some animal&#8212;probably a species of fox which abounds on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>.</p>
+            <p><span type="trope" n="3">Her age, as near as can be estimated, is about 55 or 60. Her
+                  features are quite masculine, and her hair of the color of dark brown, and very
+                  fine. This is quite remarkable for an Indian; their hair, you know, is always jet
+                  black and coarse.</span>
+               <span type="trope" n="4">In some future letter I will give you a more extended
+                  account of <rs><persName type="nativeamerican" key="#lw">this marvel of the
+                        nineteenth century</persName></rs>. She is truly an object for the
+                  reflection of the philosopher and the inspection of the curious.</span></p>
+            <byline>&#8212;<title type="article" key="#TheDailyHerald1853"><emph>Newburyport
+                     Herald.</emph></title></byline>
+         </div>
+      </body>
+   </text>
+</TEI>

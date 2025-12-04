@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dnai">Daily News and
+                     Independent</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">The Daily News: 22</biblScope>
+               <biblScope unit="volume">The Independent: 35</biblScope>
+               <biblScope unit="issue">The Daily News: 121</biblScope>
+               <biblScope unit="issue">The Independent: 301</biblScope>
+               <date when="1916-02-29"/>
+               <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#DailyNewsAndIndependent1916">Lobsters Being
+                     Exterminated by Ravenous Fish. George Nidever Brings From Story From Islands of
+                     Havoc Wrought</title>
+                  <biblScope unit="page" n="3"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">LOBSTERS BEING EXTERMINATED BY RAVENOUS FISH</title>
+               <title type="sub"><persName key="#gnijr">George Nidevar</persName> Brings From [sic]
+                  Story From <rs><placeName type="island" key="#i_chi">Islands</placeName></rs> of
+                  Havoc Wrought</title></head>
+            <p>Crawfish are disappearing from the waters about the <placeName type="island"
+                  key="#i_chi">channel islands</placeName>, and according to the observations of
+                  <persName key="#gnijr">George Nidever</persName> the "sheephejad" [sheephead] a
+               species of fish, is the cause. This ravenous fish is said to be making rapid inroads
+               upon both crawfish and lobsters.</p>
+            <p><rs><persName key="#gnijr">Mr. Nidever</persName></rs> has a crawfish camp on the
+               ocean side of <placeName type="island" key="#i_scruz">Santa Cruz island</placeName>.
+               He has just come to <placeName type="region" key="#re_mld">the mainland</placeName>
+               to visit relatives and prepare for other activities. He says the past season has been
+               a hard one for lobster fishers. He has gone to many fathoms with his traps in an
+               effort to keep up with the market demands for crawfish.</p>
+            <p>In many of his traps he has found fat sheephead fast prisoners. They [p]oked their
+               heads into traps after the lobster bait, and many, not being able to escape, were
+               hauled to the surface. "They are eating tons and tons of the young lobsters," said
+                     <rs><persName key="#gnijr">Mr. Nidever</persName></rs>, "and within a few years
+               there will not be a lobster remaining.' [sic]</p>
+            <p><span type="trope" n="6"><rs><persName key="#gnijr">Mr. Nidever</persName></rs> is a
+                  son of <rs><persName type="frontiersman" key="#gni">Captain
+                     Nidever</persName></rs>, who attained historical fame in [t]hese parts by
+                  rescuing from <rs><placeName type="island" key="#i_chi">the
+                     islands</placeName></rs> the <rs><persName type="nativeamerican" key="#lw">last
+                        remaining member</persName></rs> of <orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">a tribe of Indians</orgName> which once lived
+                  there.</span> An <rs><persName type="nativeamerican" key="#lw">Indian
+                     woman</persName></rs> had been left behind by accident when <rs><orgName
+                     type="nativeaemericantribes" key="#natam_NicolenoTongva">the
+                  Indians</orgName></rs> were brought to <placeName type="region" key="#re_mld">the
+                  mainland</placeName>, and <rs><date when="1853">years later</date></rs>
+               <rs><persName type="frontiersman" key="#gni">Captain Nidever</persName></rs>
+               discovered her tracks in the beach sands, and led an expedition to rescue her.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

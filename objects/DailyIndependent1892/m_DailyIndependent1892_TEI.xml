@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#dailyindependent">The
+                            Daily Independent</orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">18</biblScope>
+                    <biblScope unit="issue">107</biblScope>
+                    <date when="1892-03-11"/>
+                    <pubPlace><placeName type="city" key="#ci_sb">Santa Barbara</placeName>,
+                            <placeName type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#DailyIndependent1892">The Town in Brief</title>
+                        <biblScope unit="page" n="4"/>
+                        <author><persName type="author" key="#dne"> </persName></author>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">The Town in Brief</hi></title></head>
+                <p><persName key="#csmo">C.S. Morey</persName>, of Denver, is at <placeName
+                        key="#arling">the Arlington</placeName>.</p>
+                <p><persName key="#hghut">H.G. Hutchins</persName> of <placeName type="city"
+                        key="#ci_boston">Boston</placeName>, is at <placeName key="#sanmarcos">the
+                        San Marcos</placeName>.</p>
+                <p>Ice cream at <placeName key="#presby">the Presbyterian church</placeName>,
+                            <rs><date when="1892-03-18">Friday evening</date></rs>.</p>
+                <p><persName key="#cowie">Rev. J. R. de Wolfe Cowie</persName> of <placeName
+                        type="city" key="#ci_pa">Pasadena</placeName>, is at <placeName
+                        key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><persName key="#hjo">Harleigh Johnston</persName>of the <rs><placeName
+                            type="region" key="#re_gilranch">San Ysidro Rancho</placeName></rs>, is
+                    registered at <placeName key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><persName key="#cass">Mr.</persName> and <persName key="#mrscass">Mrs. M.
+                        Cassand</persName> and <persName key="#tbailey">Theo. P. Bailey</persName>
+                    and <rs><persName key="#mrstbailey">wife</persName></rs> of <placeName
+                        type="city" key="#ci_chic">Chicago</placeName>, are at <placeName
+                        key="#arling">the Arlington</placeName>.</p>
+                <p><persName key="#rothschild">A. Rothschild</persName>, <persName key="#mclean">Wm.
+                        T. McLean</persName> and <persName key="#barrett">W. J. Barrett</persName>
+                    of <placeName type="city" key="#ci_sf">San Francisco</placeName>, are at
+                        <placeName key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><persName key="#white">Mr.</persName> and <persName key="#mrswhite">Mrs. S. S.
+                        White, Jr.</persName>, and <persName key="#rstock">R. Stockton</persName>
+                    and <rs><persName key="#maid1">maid</persName></rs> of <placeName type="city"
+                        key="#ci_phil">Philadelphia</placeName>, are at <placeName key="#sanmarcos"
+                        >the San Marcos</placeName>.</p>
+                <p><persName key="#pack">D. C. Packard</persName> and <rs><persName key="#mpack"
+                            >wife</persName></rs>, <persName key="#mpack">Miss Packard</persName>
+                    and <persName key="#awsmith">Miss A. W. Smith</persName> of <placeName
+                        type="city" key="#ci_dv">Denver</placeName>, are at <placeName
+                        key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><persName key="#duncan">Major J. K. Duncan</persName>, route agent for <orgName
+                        type="company" key="#wfargo">Wells, Fargo &amp; Co.</orgName>, is in town, a
+                    guest at the <placeName key="#commhotel">Commercial Hotel</placeName>.</p>
+                <p><persName key="#meyerstein">Jos. Meyerstein</persName>, <persName key="#seiler"
+                        >M. Seiler</persName>, <persName key="#korfrer">S. Korfrer</persName> and
+                        <persName key="#libbey">J. F. Libbey</persName> of <placeName type="city"
+                        key="#ci_sf">San Francisco</placeName>, are at the <placeName key="#raffour"
+                        >Raffour House</placeName>.</p>
+                <p><persName key="#hcjudd">Mr</persName>[.] and <persName key="#mrsjudd">Mrs[.] H.C.
+                        Judd</persName>, of <placeName type="city" key="#ci_hf">Hartford,
+                        Ct.</placeName> and <persName key="#syjudd">S. Y. Judd</persName>, of
+                        <placeName type="city" key="#ci_sf">San Francisco</placeName>, are at
+                        <placeName key="#arling">the Arlington</placeName>.</p>
+                <p><persName key="#alstone">Mrs[.] A. L. Stone</persName>, <persName key="#mstone"
+                        >Miss Stone</persName> and <persName key="#rbwall">Mrs[.] R. B.
+                        Wallace</persName> and <rs><persName key="#wallson">Son</persName></rs>, of
+                        <placeName type="city" key="#ci_sf">San Francisco</placeName>, are at
+                        <placeName key="#arling">the Arlington</placeName>.</p>
+                <p><persName key="#fabrown">Mr.</persName> and <persName key="#mrsfabrown">Mrs. F.
+                        A. Brown</persName>, <persName key="#charlier">Mrs. Charlier</persName>,
+                        <persName key="#nash">Miss Nash</persName>, <persName key="#rjrob">R. J.
+                        Roberts</persName> and <persName key="#lacroix">Arda La Croix</persName> of
+                        <placeName type="city" key="#ci_nyc">New York</placeName>, are at <placeName
+                        key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><persName key="#mrsdalh">Mrs. Daniel Ahl</persName>, <persName key="#rpahl">Ralph
+                        P. Ahl</persName>, <persName key="#jpomeroy">James P. Pomeroy</persName>,
+                        <persName key="#pomeroy">Miss Pomeroy</persName> and <persName
+                        key="#fpomeroy">Miss Frances Pomeroy</persName> of <placeName type="city"
+                        key="#ci_boston">Boston</placeName>, are at <placeName key="#arling">the
+                        Arlington</placeName>.</p>
+                <p><persName key="#srogers">Mr.</persName> and <persName key="#mrsrogers">Mrs.
+                        Samuel W. Rogers</persName> and <persName key="#mrsaland">Mrs. Alonzo
+                        Land</persName> of <placeName type="city" key="#ci_boston"
+                        >Boston</placeName>, are at the <placeName key="#commhotel">Commercial
+                        Hotel</placeName>, <persName key="#samrogers">Mr. Rogers</persName> is a
+                    heavy lumber dealer of <placeName type="city" key="#ci_boston"
+                        >Boston</placeName>.</p>
+                <p><persName key="#currer">Wm[.] Currer</persName> and <rs><persName
+                            key="#mrscurrer">wife</persName></rs>, <persName key="#mcurrer">Robt[.]
+                        M. Currer</persName>, <persName key="#misscurrer">Miss Mabel
+                        Currer</persName> and <persName key="#mbarb">Geo[.] M[.] Barber</persName>
+                    and <rs><persName key="#mrsbarb">wife</persName></rs>, <persName key="#hcfall"
+                        >H. C. Fall</persName> and <persName key="#dillon">John Dillon</persName>,of
+                    [sic] <placeName type="city" key="#ci_chic">Chicago</placeName> are at
+                        <placeName key="#sanmarcos">the San Marcos</placeName>.</p>
+                <p><name type="ship" key="#sh_losangeles">Steamer Los Angeles</name> will go north
+                    from <rs><placeName type="city" key="#ci_sb">this city</placeName></rs>
+                    <rs><date when="1892-03-12">tomorrow</date></rs> afternoon. <persName
+                        key="#cmiller">Charles Miller</persName>, <persName key="#bottenstein">D.
+                        Bottenstein</persName>, <persName key="#soto">S. Soto</persName> and
+                        <persName key="#rothschild">A. Rothschild</persName> have engaged passage
+                    from <rs><placeName type="city" key="#ci_sb">this city</placeName></rs>.</p>
+                <p><persName key="#mrsyoung">Mrs. William Young</persName> will continue the
+                    restaurant business at the old stand, corner of <placeName key="#state"
+                        >State</placeName> and <placeName key="#selaguerra">De la Guerra</placeName>
+                    streets and will be glad to see her old patrons and friends.</p>
+                <p>An entertainment will be given in <placeName key="#presby">the Presbyterian
+                        Church Parlors</placeName>
+                    <rs><date when="1892-03-11">Friday evening, March 11</date></rs>, for the
+                    benefit of the <orgName type="organization" key="#ypsce">Y. P. S. C.
+                        E.</orgName> Everybody invited. Admission 10 cts.</p>
+                <p>A good picture of <persName type="nativeAmerican" key="#tutoch"
+                        >Tu-toch-ah-nu-lah</persName>, late Chief of the <orgName
+                        type="nativeamericantribes" key="#yosemitetribe">Yosemite tribe</orgName>,
+                    who died in <date when="1885">1885</date> aged 145 years, can be seen in the
+                    window of <placeName key="#rowley">Rowley &amp; Dunshee</placeName>, druggists
+                    on <placeName key="#state">State street</placeName>.</p>
+                <p><persName key="#aport">Mrs. Arza Porter</persName> arrived <rs><date
+                            when="1892-03-10">yesterday</date></rs> from <placeName key="#huasma"
+                        >Huasna Ranch</placeName>. She comes in response to information that
+                        <persName key="#mrssparks">Mrs. M. Sparks</persName>, her mother, was
+                    seriously ill. We are glad to know that <persName key="#mrssparks">Mrs.
+                        Sparks</persName> is better today.</p>
+                <p><name type="ship" key="#sh_srsteamer">Steamer Santa Rosa</name> is reported due
+                    at 3:15 this afternoon from <placeName type="city" key="#ci_sf">San
+                        Francisco</placeName>. She has thirty passengers and fifty-one tons of
+                    freight for <rs><placeName type="city" key="#ci_sb">this city</placeName></rs>.
+                            <rs><name type="ship" key="#sh_srsteamer">The steamer</name></rs> goes
+                    south this evening at 6:30.</p>
+                <p><orgName type="publication" key="#ojai">The Ojai</orgName>, usually quite
+                    accurate, repeats the note which appeared in <rs><orgName type="publication"
+                            key="#sbnewspress">the Press</orgName></rs> relative to the
+                    metamorphosis of the little animal which is eating the grain on the <placeName
+                        key="#hoperanch">Hope Rancho</placeName>. <persName type="author" key="#lya"
+                        >Dr. Yates</persName> published in those columns a full account of the
+                    little animal that was scientifically accurate. <persName key="#bromas">Bro.
+                        Masick</persName> didn't seem to "catch on."</p>
+                <p>At the <placeName key="#sbopera">Opera House</placeName>
+                    <rs><date when="1892-03-10">last night</date></rs>, the <orgName key="#wilber"
+                        >Wilber company</orgName> presented the highly sensational comedy drama
+                    Shadows of a Home. The dialogue of the play is extremely interesting and held
+                    the attention of the audience to the end of the last act. The comedy scenes are
+                    very catchy and pleased the large audience immensely. The costuming was
+                    appropriate and costly, and the piece gave the best of
+                        satisfaction.&#8212;<orgName type="publication" key="#topekadailycap">Topeka
+                        Capital</orgName>.</p>
+                <p><orgName type="publication" key="#ojai">The
+                    Ojai</orgName><!--We were never able to get a copy of this publication to find this article. Numerous denied ILL requests.-->
+                    says <title type="article" key="#Miller1891">Joaquin Miller's novelette</title>
+                    concerning the <rs><persName type="nativeamerican" key="#lw">Woman of San
+                            Nicolas</persName></rs> has started the coast papers to telling what
+                    they know (or don't know) of the matter. "The <title type="article"
+                        key="#SanFranciscoExaminer1892">San Francisco Examiner</title> and the
+                        <title type="article" key="#TheMorningPress1892">Santa Barbara Press</title>
+                    and <title type="article" key="#Yates1892_29Feb">INDEPENDENT</title> have all
+                    come out lately with versions, but <title type="article" key="#Yates1892_29Feb"
+                        >the article</title> by <persName type="author" key="#lya">Dr. Lorenzo G.
+                        Yates</persName> of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>, published in the <orgName type="publication"
+                        key="#dailyindependent">INDEPENDENT</orgName> is, we believe, nearer the
+                    actual facts than the others. <span type="trope" n="6">Since the publication of
+                        these articles <orgName type="publication" key="#ojai">the Ojai</orgName>
+                        has become possessed of some facts about <placeName type="island"
+                            key="#i_sn">San Nicolas</placeName>, which elucidate the manner in which
+                                <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                                >the aboriginal inhabitants</orgName></rs> of <rs><placeName
+                                type="island" key="#i_sn">this now waste island</placeName></rs>
+                        lived and died. <placeName type="island" key="#i_sn">San Nicolas</placeName>
+                        will form the text for another article soon.</span></p>
+                <p><persName key="#sbgentleman">A gentleman</persName> of <rs><placeName type="city"
+                            key="#ci_sb">this city</placeName></rs> took a walk down on the beach
+                            <rs><date when="1892-03-10">yesterday</date></rs> afternoon. He went
+                    over and beyond <placeName key="#castlerock">Castle Rock</placeName>. About two
+                    or three hundred yards ahead were a couple of men standing near the bluff and
+                    enjoying shooting at a target of stones placed near the tide. As <rs><persName
+                            key="#sbgentleman">the Barbareño</persName></rs> walked along he
+                    suddenly felt his hat move and a buzz at his ear. A small bullet also dropped at
+                    his feet. The cause of this was probably, [sic] one of the shots had glanced
+                    from the target and had just expended its energy as it reached and touched the
+                    man's hat. There is too much shooting indulged in hereabouts. Some severe or
+                    fatal accident will be reported next. The beach, populated as it is every day by
+                    pleasure seekers, is no place for shooting matches.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

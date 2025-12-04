@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="journal"><orgName type="publication" key="#cahistory">California
+                     History</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">68</biblScope>
+               <biblScope unit="issue">1-2</biblScope>
+               <date when="1989-03-01"/>
+               <pubPlace><placeName type="city" key="#ci_oakland">Oakland</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Daily1989">The Lone Woman of San Nicolas Island: A New
+                     Hypothesis on Her Origin</title>
+                  <biblScope unit="page" from="36" to="41"/>
+                  <biblScope unit="page" n="65"/>
+                  <author><persName type="author" key="#mda">Daily, Marla</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw"
+                           >The Lone Woman of San Nicolas Island</persName></rs>: A New Hypothesis
+                     on Her Origin</hi></title></head>
+            <byline><emph>by <persName type="author" key="#mda">Marla
+               Daily</persName></emph></byline>
+            <p><hi rend="bold">W</hi>as <rs><persName type="nativeamerican" key="#lw">the "Lone
+                     Woman" of San Nicolas Island</persName></rs> a native Nicoleño? The currently
+               accepted view, as first articulated by anthropologist <persName type="author"
+                  key="#akroe">Alfred Kroeber</persName>, is that native <orgName
+                  type="nativeamericantribes" key="#natam_NicolenoTongva">Nicoleños</orgName> were
+               speakers of a Gabrieliño dialect, shared also with the adjacent mainland Indians.<hi
+                  rend="superscript">1</hi><note n="1" place="end">1. <persName type="author"
+                     key="#akroe">Alfred Kroeber</persName>, <emph><title type="book"
+                        key="#Kroeber1925">Handbook of the Indians of California</title></emph>
+                     (<orgName type="publisher" key="#govprinting">U.S. Government Printing
+                     Office</orgName>: Bureau of American Ethnology Bulletin Number 78, <date
+                     when="1925">1925</date>), 633-4.</note> New information, when combined with a
+               review of certain previously published facts, leads to the conjecture that she may
+               not have been a native Nicoleño at all, but in fact an Indian from elsewhere. It is
+               entirely possible that her origins were connected to <rs><orgName type="group"
+                     key="#natam_aleuts; #natam_kodiak"/></rs> who were involved in the sea otter
+               trade in <placeName type="region" key="#re_socal">southern California</placeName>
+               during the <rs><date notBefore="1800" notAfter="1825">early nineteenth
+                  century</date></rs>.</p>
+            <p>The story of <rs><persName type="nativeamerican" key="#lw">the "Lone Woman" of San
+                     Nicolas Island</persName></rs> is well-known. Her abandonment there sometime
+               around <rs><date when="1836">1836</date></rs>, and subsequent removal to <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> in <date when="1853"
+                  >1853</date>, have been recounted numerous times. The few recorded facts regarding
+               her language and culture have been studied for over a century by anthropologists
+               because they have been considered to constitute the only source of information
+               regarding native <orgName type="nativeamericantribes" key="#natam_NicolenoTongva"
+                  >Nicoleños</orgName>.<hi rend="superscript">2</hi><note n="2" place="end">2. For
+                  nearly a century, various anthropologists have looked into the question of
+                        <rs><persName type="nativeamerican" key="#lw">Juana Maria</persName></rs>.
+                  Alphabetically, this incomplete listing includes: <persName type="author"
+                     key="#sbo">Reverend Stephen Bowers</persName>; <persName type="author"
+                     key="#heb">Hal Eberhart</persName>; <persName type="author" key="#els">Albert
+                     B. Elsasser</persName>; <persName type="author" key="#jha">J. P.
+                     Harrington</persName>; <persName type="author" key="#rhe">Robert F.
+                     Heizer</persName>; <persName type="author" key="#thu">Travis Hudson</persName>;
+                     <persName type="author" key="#akroe">Alfred Kroeber</persName>; and <persName
+                     type="author" key="#cme">Clement Meighan</persName>. See: <persName
+                     type="author" key="#sbo">Stephen Bowers</persName>, "<title type="article"
+                     key="#Bowers1892">The Lone Woman of San Nicolas Island</title>," <emph><orgName
+                        type="publication" key="#venturaobserver">Ventura Weekly
+                     Observer</orgName></emph>, <date when="1892-12-09">December 9,1892</date>, p.
+                  228, and <date when="1892-12-16">December 16,1892</date>, p. 238; J. P.
+                  Harrington's unpublished notes on file at the Santa Barbara Museum of Natural
+                  History; <persName type="author" key="#cme">Clement Meighan</persName> and
+                     <persName type="author" key="#heb">Hal Eberhart</persName>, "Archaeological
+                  Resources of San Nicolas Island, California," <orgName type="publication"
+                     key="#aman">American Antiquity</orgName> 19 (<date when="1953">1953</date>):
+                  109-125; <persName type="author" key="#rhe">Robert F. Heizer</persName> and
+                     <persName type="author" key="#els">Albert B. Elsasser</persName>,
+                     <emph>Original Accounts of the Lone Woman of San Nicolas Island</emph>
+                     (<placeName type="city" key="#ci_ramona">Ramona</placeName>: <orgName
+                     type="publication" key="#ballena">Ballena Press</orgName>, <date when="1973"
+                     >1973</date>).</note> In <date when="1961">1961</date>, novelist <persName
+                  type="author" key="#sod">Scott O'Dell</persName> fictionalized her story in his
+               popular book, <emph>Island of the Blue Dolphins</emph>.<hi rend="superscript"
+                  >3</hi><note n="3" place="end">3. <persName type="author" key="#sod">Scott
+                     O'Dell</persName>, <emph>Island of the Blue Dolphins</emph> (<placeName
+                     type="city" key="#ci_bo">Boston</placeName>: <orgName type="publisher"
+                     key="#houghton">Houghton Mifflin</orgName>, <date when="1961"
+                  >1961</date>).</note>
+               <orgName type="producer" key="#universalstudios">Universal Studios</orgName> filmed
+               the novelized version in <date when="1964">1964</date>, further heightening public
+               awareness. The late anthropologist <persName type="author" key="#thu">Travis
+                  Hudson</persName> of the <orgName type="museum" key="#mu_sbmuseum">Santa Barbara
+                  Museum of Natural History</orgName> meticulously reviewed both published and
+               unpublished accounts of information concerning <rs><persName type="nativeamerican"
+                     key="#lw">the Lone Woman</persName></rs>, <title type="article"
+                  key="#Hudson1978_52(1)">adding</title>
+               <title type="article" key="#Hudson1978_52(4)">significantly</title>
+               <title type="article" key="#Hudson1980">to the body</title> of knowledge
+                  available.<hi rend="superscript">4</hi><note n="4" place="end">4. <persName
+                     type="author" key="#thu">Dee Travis Hudson</persName>, "<title type="article"
+                     key="#Hudson1978_52(1)">Some J.P. Harring ton Notes on the Lone Woman of San
+                     Nicolas Island</title>," <emph><orgName type="publication" key="#masterkey"
+                        >Southwest Museum Masterkey</orgName></emph> 52 (January-March <date
+                     when="1978">1978</date>): 23-8; "<title type="article" key="#Hudson1978_52(4)"
+                     >An Additional Harrington Note on the Lone Woman of San Nicolas</title>,"
+                        <emph><orgName type="publication" key="#masterkey">Southwest
+                        Museum</orgName></emph> 52 (October-December <date when="1978">1978</date>):
+                  151-4; "<title type="article" key="#Hudson1980">Additional Harrington Notes on the
+                     Lone Woman</title>," <emph><orgName type="publication" key="#masterkey"
+                        >Southwest Museum Masterkey</orgName></emph> 53 (July-September <date
+                     when="1980">1980</date>): 109-12; "Recently Discovered Accounts Concerning the
+                  Lone Woman of San Nicolas Island," <emph>Journal of California and Great Basin
+                     Anthropology </emph>3 (1981): 187-99.</note></p>
+            <p>Periodically, new information is discovered concerning <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> who was baptized on
+               her deathbed as Juana Maria, as her story continues to be spread both by oral
+               tradition and by scholars investigating further facts concerning Juana Maria's
+               circumstances. A recently-discovered <rs><title type="manuscript" key="#Hardacre1879"
+                     >unpublished manuscript</title></rs> by <persName type="author" key="#eha">Emma
+                  Hardacre</persName>, an author investigating the subject in <date when="1880"
+                  >1880</date>, led to a further review of available information. Particular
+               attention was paid to the nature of the California sea otter trade, Juana Maria's
+               language, and an account of the physical appearance of her San Nicolas Island dogs.
+               The following is a presentation of facts supporting a new hypothesis regarding her
+               origin.</p>
+            <div type="section">
+               <head><title type="section"><title type="manuscript" key="#Hardacre1879">EMMA
+                        HARDACRE's DIARY</title></title></head>
+               <p>During a <date when="1986">1986</date> oral interview of native Santa Barbaran
+                     <persName key="#ibon">Isaac (Ike) Bonilla</persName>, who was born in <date
+                     when="1903">1903</date>, <rs><persName type="author" key="#mda">the
+                        author</persName></rs> was surprised to find among his library a
+                  leatherbound book containing undated holograph notes written during the <date
+                     from="1870" to="1879">1870s</date> by <persName type="author" key="#eha">Emma
+                     Hardacre</persName>, Santa Barbara's nineteenth century expert on <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman of San
+                     Nicolas</persName></rs>.</p>
+               <p><persName key="#ibon">Mr. Bonilla</persName>, a Santa Barbara historian and
+                  collector of "Santa Barbarana," had purchased <rs><title type="manuscript"
+                        key="#Hardacre1879">the logbook</title></rs> some decades ago from a used
+                  book dealer whose name had been forgotten. The book, twelve and one-half inches
+                  tall by eight inches wide, contains several hundred pages, only six of which were
+                  used by <persName type="author" key="#eha">Hardacre</persName> to write notes
+                  pertaining to <placeName type="island" key="#i_sn">San Nicolas Island</placeName>.
+                  (The majority of pages, written in an unknown hand, contain accounting information
+                  for a business in the year <date when="1866">1866</date>. Seventy-four of the book
+                  pages have been covered over with newspaper clippings in the form of a scrapbook,
+                  some of which mention <persName type="author" key="#eha">Emma Hardacre</persName>
+                  or her niece, <persName key="#emas">Elizabeth Mason</persName>.)</p>
+               <p><persName type="author" key="#eha">Emma Hardacre</persName> had arrived in
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName> in <date
+                     when="1876">1876</date>, 23 years after the Lone Woman's death.<hi
+                     rend="superscript">5</hi><note n="5" place="end">5. <persName type="author"
+                        key="#aldo">Adelaide Doran</persName>, <emph><title type="book"
+                           key="#Doran1980">Pieces of Eight Channel Islands</title></emph>
+                        (<placeName type="city" key="#ci_gl">Glendale</placeName>: <orgName
+                        type="publisher" key="#aclco">Arthur H. Clark Company</orgName>, <date
+                        when="1980">1980</date>), 32-43.</note> According to an interview conducted
+                  with <persName type="author" key="#eha">Hardacre</persName> in <date when="1913"
+                     >1913</date> by <persName type="author" key="#jha">John P.
+                     Harrington</persName>,<hi rend="superscript">6</hi><note n="6" place="end">6.
+                        <persName type="author" key="#thu">Dee Travis Hudson</persName>, "Recently
+                     Discovered Accounts,"187-99. [sic]</note> she was asked to research the subject
+                  of <rs><persName type="nativeamerican" key="#lw">the Lone Woman</persName></rs> by
+                  three Santa Barbarans&#8212;a <persName type="author" key="#ldi">Dr.
+                     Dimmick</persName>, <persName key="#hfo">Henry C. Ford</persName>, and
+                     <persName key="#jcalkins">James Calkins</persName>. Hardacre's work on the
+                  subject culminated in the publication of a popular account in <emph><title
+                        type="article" key="#Hardacre1880_SM">Scribner's Monthly</title></emph> in
+                     <date when="1880">1880</date>.<hi rend="superscript">7</hi><note n="7"
+                     place="end">7. <persName type="author" key="#eha">Emma Hardacre</persName>,
+                        "<title type="article" key="#Hardacre1880_SM">Eighteen Years Alone: A Tale
+                        of the Pacific</title>," <emph><orgName type="publication" key="#scribners"
+                           >Scribner's Monthly</orgName></emph> (<date when="1880-09">September
+                        1880</date>): 657-64.</note> Of particular importance in <rs><title
+                        type="manuscript" key="#Hardacre1879">the logbook</title></rs> containing
+                  Hardacre's holographic notes is the following unpublished, undated entry:</p>
+               <p>There is a doubt in my own mind whether <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs> was Indian. There is a rumor that a very
+                  short time before <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> was depopulated, a woman was cast ashore from a wreck,
+                  and that shortly after she gave birth to a child. This information has reached me
+                  since the material was gathered for <rs><title type="article"
+                        key="#Hardacre1880_SM">my article</title></rs> as originally published. The
+                  search for facts was undertaken by four [sic] persons, <persName type="author"
+                     key="#ldi">Dr. (L. N.) Dimmick</persName>, <persName key="#hfo">Henry Chapman
+                     Ford</persName>, artist, and <persName key="#jcalkins">James
+                  Calkins</persName>, Banker all three residing in <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> and now deceased. They interested me in
+                  the subject, and by interpreters the Spanish and Indian residents of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> from <date when="1853"
+                     >1853</date> were interrogated. At that time (<date when="1879">1879</date>)
+                        <rs><persName type="group" key="#gni; #cdi">the principal actors in the
+                        rescue</persName></rs> were living. As I sifted the material the doubt arose
+                  in my mind as to <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs> being a native Islander. Her manner of meeting
+                        <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                        rescuers</persName></rs> was not that of a wild woman, but of one who had
+                  knowledge of the amenities of life. Her entrance into civilized homes, was not
+                  that of a creature utterly unfamiliar with house conveniences&#8212;her tact in
+                  meeting strangers, receiving their gifts politely, and after they were
+                  gone&#8212;distributing them among the children of her host. Her conversing
+                  continuously in a tongue unknown to any&#8212;but evidently a language with which
+                  she was thoroughly familiar&#8212;no hesitation or forgotten phrases. A search was
+                  made for <persName type="group" key="#bhagroup">the people from San
+                     Nicholas</persName> (<emph>sic</emph>) but they were few and scattered over the
+                  country, and were never located. They were simply <orgName
+                     type="nativeamericantribes" key="#natam_missionindians">Mission
+                     Indians</orgName>. She told her story by expressive pantomime and what seemed
+                  to be an account of shipwreck-swimming-and looking for rescue&#8212;the pictures
+                  on the wall of <rs><placeName type="region" key="#re_lwcave">the
+                     cave</placeName></rs>.<hi rend="superscript">8</hi><note n="8" place="end">8.
+                           <rs><title type="manuscript" key="#Hardacre1879">Original Emma Hardacre
+                           logbook</title></rs> in the private collection of <rs><persName
+                           type="author" key="#mda">the author</persName></rs>.</note></p>
+               <p><persName type="author" key="#eha">Hardacre</persName> was interviewed by
+                     <persName type="author" key="#jha">John P. Harrington</persName> in <date
+                     when="1913">1913</date>, the notes of which were published by <persName
+                     type="author" key="#thu">Travis Hudson</persName>.<hi rend="superscript"
+                     >9</hi><note n="9" place="end">9. See note 6 above.</note> Nowhere in this
+                  interview does <persName type="author" key="#jha">Harrington</persName> report
+                  Hardacre's doubt about the Lone Woman's origin, and therefore it is not known if
+                  her doubts were voiced to him.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">SEA OTTER HUNTING</title></head>
+               <p><placeName type="island" key="#i_sn">San Nicolas Island</placeName> had long been
+                  the scene of sea otter hunting by various nations, including <placeName
+                     type="country" key="#co_russia">Russia</placeName>, the <placeName
+                     type="country" key="#co_usa">United States</placeName>, and <placeName
+                     type="country" key="#co_spain">Spain</placeName>. Historian <persName
+                     type="author" key="#aog">Adele Ogden</persName> identified vessels engaged in
+                  the California sea otter trade during the sixty-two-year period from <date
+                     from="1786" to="1848">1786 to 1848</date>, during which political conflicts and
+                  competition developed among otter hunters around the <placeName type="islands"
+                     key="#i_chi">Channel Islands</placeName>.<hi rend="superscript">10</hi><note
+                     n="10" place="end">10. <persName type="author" key="#aog">Adele
+                        Ogden</persName>, <emph>The California Sea Otter Trade 1784-1848</emph>
+                        (<placeName type="city" key="#ci_berk">Berkeley</placeName>: <orgName
+                        type="publisher" key="#ucalpress">University of California Press</orgName>,
+                        <date when="1941">1941</date>).</note> It is known that <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName> was the scene of some
+                  of this activity and conflict. It is also known that women occasionally
+                  accompanied the foreign ships. In <date when="1856">1856</date> the <title
+                     type="article" key="#SacramentoDailyUnion1856">Sacramento <emph>Daily
+                        Union</emph></title> reported:</p>
+               <p>In the year <date when="1811">1811</date>, <rs><name type="ship" key="#sh_charon"
+                        >a ship</name></rs> owned by <orgName key="#bp">Boardman &amp;
+                     Pope</orgName> of <placeName type="city" key="#ci_bo">Boston</placeName>,
+                  commanded by <persName type="seaman" key="#whi">Capt. Whittemore</persName>,
+                  trading on <rs><placeName type="region" key="#re_socalcoast">this
+                        coast</placeName></rs>, took from the port of <placeName type="city"
+                     key="#ci_si">Sitka, Russian America</placeName>, <orgName
+                     type="nativeamericantribes" key="#natam_kodiak">about thirty Kodiak
+                     Indians</orgName>, a part of <rs><orgName type="nativeamericantribes"
+                        key="#natam_kodiak">a hardy tribe</orgName></rs> inhabiting the <placeName
+                     type="island" key="#i_ko">Island of Kodiak</placeName>, to the <rs><placeName
+                        type="island" key="#i_chi">islands in the Santa Barbara
+                     channel</placeName></rs>, for the purpose of killing sea otter, which were then
+                  very numerous in the neighborhood of <rs><placeName type="island" key="#i_chi"
+                        >these islands</placeName></rs>. <persName type="seaman" key="#whi">Capt.
+                     Whittemore</persName>, after landing <orgName type="nativeamericantribes"
+                     key="#natam_kodiak">the Kodiaks</orgName> on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, and placing in their hands fire
+                  arms and the necessary implements of the chase, sailed away to the coast of
+                     <placeName type="region" key="#re_baja">Lower California</placeName> and
+                     <placeName type="region" key="#re_southamerica">South America</placeName>.</p>
+               <p><span type="trope" n="11">In the absence of <rs><name type="ship" key="#sh_charon"
+                           >the ship</name></rs>, a dispute arose between <orgName
+                        type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName> and
+                           <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           natives</orgName></rs> of <rs><placeName type="island" key="#i_sn">the
+                           islands [sic]</placeName></rs>, originating in the seizure of the females
+                     by <orgName type="nativeamericantribes" key="#natam_kodiak">the
+                        Kodiaks</orgName>. <orgName type="nativeamericantribes" key="#natam_kodiak"
+                        >The Kodiaks</orgName>, possessing more activity, endurance and knowledge of
+                     war, and possessing superior weapons, slaughtered the males without mercy, old
+                     and young. On the <placeName type="island" key="#i_sn">island of San
+                        Nicolas</placeName>, not a male was spared.</span> At the end of a year,
+                     <persName type="seaman" key="#whi">Capt. Whittemore</persName> returned to
+                        <rs><placeName type="island" key="#i_sn">the islands</placeName></rs>, took
+                     <orgName type="nativeamericantribes" key="#natam_kodiak">the Kodiaks</orgName>
+                  on board, and carried them back to <placeName type="city" key="#ci_si"
+                     >Sitka</placeName>.<hi rend="superscript">11</hi><note n="11" place="end">11.
+                        <title type="article" key="#SacramentoDailyUnion1856">Sacramento <emph>Daily
+                           Union</emph></title>, <date when="1856-12-29">December 29,
+                     1856</date>.</note></p>
+               <p>In <date when="1814">1814</date>, <placeName type="country" key="#co_spain"
+                     >Spain</placeName> sent orders for its local authorities in <placeName
+                     type="region" key="#re_upcal">California</placeName> to limit trade with
+                        <rs><orgName type="organization" key="#rfurcompany">the
+                     Russians</orgName></rs> to agricultural and manufactured products only. As a
+                  result of the violation of this order, Russian otter hunter <persName key="#btas"
+                     >Boris Tasarov</persName>, commander of the vessel <emph><name type="ship"
+                        key="#sh_charon">Ilmen[a]</name></emph>, was placed under arrest in
+                     <placeName type="city" key="#ci_la">Los Angeles</placeName> in <date
+                     when="1815">1815</date>. During his trial, <rs><persName key="#btas"
+                        >Tasarov</persName></rs> stated that he had been in charge of <orgName
+                     type="nativeamericantribes" key="#natam_aleuts">Aleuts</orgName> left on the
+                     <placeName type="island" key="#i_chi">Channel Islands</placeName> by the
+                        <emph><name type="ship" key="#sh_charon">Ilmen[a]</name></emph>. While he
+                  and his men had been stationed on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> for seven months, they had obtained 955 otter skins. These
+                  skins were deposited on <rs><placeName type="island" key="#i_chi">the
+                        islands</placeName></rs>, where a number of hunters were still at work.<hi
+                     rend="superscript">12</hi><note n="12" place="end">12. See note 10
+                     above.</note></p>
+               <p>Author <persName key="#porr">Phil Orr</persName> states that there were more than
+                  450 northwest Indians and 80 Hawiian hunters on the <placeName type="region"
+                     key="#re_calcoast">California coast</placeName>
+                  <date from="1803" to="1811">between 1803 and 1811</date>, some of whom may have
+                  become assimilated into Channel Island cultures. <persName key="#senan">Padre
+                     Senan</persName> of <placeName type="mission" key="#mi_ventura">Mission San
+                     Buenaventura</placeName> wrote on <date when="1816-06-15">June 15,
+                  1816</date>:</p>
+               <p><persName key="#ignacia">Ignacio</persName> and certain others of <rs><orgName
+                        type="nativeamericantribes" key="#natam_missionindians">our
+                        neophytes</orgName></rs> returned yesterday from a trip to <rs><placeName
+                        type="island" key="#i_chi">the Islands</placeName></rs> where they had gone
+                  to look for <rs><orgName type="group"
+                        key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">some
+                        gentiles</orgName></rs> who wished to become converts. Our people brought
+                  back 16 of them, and on their first trip last week they brought 20. Among the
+                  crowd of yesterday there were four Russian Indians, or from <rs><placeName
+                        type="region" key="#re_russam">Russia territory</placeName></rs>.<hi
+                     rend="superscript">13</hi><note n="13" place="end">13. <persName key="#porr"
+                        >Phil Orr</persName>, <emph>Prehistory of Santa Rosa Island</emph>
+                        (<placeName type="city" key="#ci_sb">Santa Barbara</placeName>: <orgName
+                        type="museum" key="#mu_sbmuseum">Santa Barbara Museum of Natural
+                        History</orgName>, <date when="1968">1968</date>), 105.</note></p>
+               <p>At the time of the rescue of <rs><persName type="nativeamerican" key="#lw">the
+                        Lone Woman from San Nicolas Island</persName></rs> in <date when="1853"
+                     >1853</date>, <rs><persName type="group"
+                        key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her rescuing
+                        party</persName></rs> was itself engaged in sea otter hunting.<hi
+                     rend="superscript">14</hi><note n="14" place="end">14. <persName
+                        type="frontiersman" key="#gni">George Nidever</persName>, "<title
+                        type="manuscript" key="#Nidever1878">The Life and Adventures of a Pioneer of
+                        California Since 1834</title>," <emph>Original Accounts of the Lone Woman of
+                        San Nicolas Island</emph> (<placeName type="city" key="#ci_ramona"
+                        >Ramona</placeName>: <orgName type="publication" key="#ballena">Ballena
+                        Press</orgName>, <date when="1973">1973</date>), 7-15.</note></p>
+            </div>
+            <div type="section">
+               <head><title type="section">LANGUAGE</title></head>
+               <p>One common thread which reappears consistently throughout the literature is the
+                  fact that in <date when="1853">1853</date> no one could be found who understood
+                  the Lone Woman's language. The <emph><title type="article"
+                        key="#DailyDemocraticStateJournal1853">Daily Democratic State
+                        Journal</title></emph> of <date when="1853-10-13">October 13, 1853</date>,
+                  six days before Juana Maria's death, reported:</p>
+               <p><span type="trope" n="14"><rs><persName type="nativeamerican" key="#lw">The wild
+                           Indian woman</persName></rs> who was found on the <placeName
+                        type="island" key="#i_sn">Island of San Nicolas</placeName>, about 70 miles
+                     from <rs><placeName type="region" key="#re_calcoast">the
+                     coast</placeName></rs>, west of <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName>, is now at the latter place, and is looked upon as a
+                     curiosity. It is stated that she has been <rs><date from="1835" to="1853">some
+                           eighteen to twenty years</date></rs> alone on <rs><placeName
+                           type="island" key="#i_sn">the Island</placeName></rs>. She existed on
+                     shell fish and the fat of the seal, and dressed in the skins and feathers of
+                     wild ducks, which she sewed together with the sinews of the seal. She cannot
+                     speak any known language&#8212;is good looking, and about a middle age.</span>
+                  She seems to be contented in her new home among the good people of <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName>.<hi rend="superscript"
+                     >15</hi><note n="15" place="end">15. <emph><title type="article"
+                           key="#DailyDemocraticStateJournal1853">Daily Democratic State
+                           Journal</title></emph>, <date when="1853-10-13">October 13,
+                     1853</date>.</note></p>
+               <p>Both <persName type="frontiersman" key="#gni">Captain George Nidever</persName>
+                  and <persName type="frontiersman" key="#cdi">Carl Dittman</persName>, who were
+                  participants in the Lone Woman's removal from <placeName type="island" key="#i_sn"
+                     >San Nicolas Island</placeName> to <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, stated that although various Indian dialects were spoken
+                  to her, she was unable to understand them. They also reported that <rs><persName
+                        type="group" key="#jru; #aji; #sanchez; #misfats">priests</persName></rs>
+                  sent for various <rs><orgName type="nativeamericantribes"
+                        key="#natam_missionindians">mission Indians</orgName></rs> to attempt to
+                  communicate with her, but as far as they knew, no one was successful.<hi
+                     rend="superscript">16</hi><note n="16" place="end">16. See note 6 above.</note>
+                  <persName type="author" key="#eha">Hardacre</persName> attributes four words given
+                  as a part of the vocabulary of <rs><persName type="nativeamerican" key="#lw">the
+                        Lone Woman</persName></rs>: "to-co" (hide), "nache" (man), "te-gua" (sky),
+                  and "pinche" (body). There is considerable confusion as to the meaning ascribed to
+                  these words. <persName type="author" key="#akroe">Kroeber</persName> identified
+                  them as belonging to a Shoshonean dialect. In <date when="1913-12">December of
+                     1913</date>, <persName type="author" key="#jha">Harrington</persName> recorded
+                  on wax cylinders two versions of a song attributed by informants to <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman</persName></rs>. Musicologist
+                     <persName type="author" key="#gteg">Gary Tegler</persName> noted that this
+                  particular song was rhythmically unique. To date, a search for familiarity between
+                  Juana Maria's words and various northwest languages has failed to find any
+                  correspondence. Aleut, Koniag, Eyak, Tlingit, Haida, Yupiak, and Inupiaq languages
+                  have been examined, thus far without result.<hi rend="superscript">17</hi><note
+                     n="17" place="end">17. <persName type="author" key="#gteg">Gary
+                        Tegler</persName>, "Index of Harrington's Chumash Recordings,"
+                        <emph>Institute of Archaeology, Occasional Paper Number 3</emph> (<placeName
+                        type="city" key="#ci_la">Los Angeles</placeName>, <date when="1979"
+                        >1979</date>), 22-48.</note></p>
+            </div>
+            <div type="section">
+               <head><title type="section">DOGS FOUND ON <placeName type="island" key="#i_sn">SAN
+                        NICOLAS ISLAND</placeName></title></head>
+               <p>Both <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                     type="frontiersman" key="#cdi">Dittman</persName> reported the presence of dogs
+                  on <placeName type="island" key="#i_sn">San Nicolas Island</placeName> at the time
+                  of the removal of <rs><persName type="nativeamerican" key="#lw">the Lone
+                        Woman</persName></rs>. In notes furnished by <persName type="author"
+                     key="#ldi">Dr. Dimmick</persName>, <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> is attributed with the following statement:</p>
+               <p>In the neighborhood of the huts near the shore we saw seven or eight wild dogs.
+                  They were about the size and form of a coyote, of a black and white color. I have
+                  seen the same kind of dogs among the <rs><orgName type="group"
+                        key="#natam_aleuts; #natam_kodiak">Northwest Indians</orgName></rs>.<hi
+                     rend="superscript">18</hi><note n="18" place="end">18. <persName type="author"
+                        key="#tth">Thomas H. Thompson</persName> and <persName type="author"
+                        key="#west">Albert A. West</persName>, <emph><title type="book"
+                           key="#Mason1883">History of Santa Barbara and Ventura
+                        Counties</title></emph> (<placeName type="city" key="#ci_oakland"
+                        >Oakland</placeName>: <orgName type="publisher" key="#thompsonwest">Thompson
+                        and West</orgName>, <date when="1883">1883</date>).</note></p>
+               <p>Additionally, the <persName type="author" key="#sbo">Reverend Stephen
+                     Bowers</persName>, in <rs><title type="manuscript" key="#Bowers1892">an
+                        unpublished manuscript</title></rs> now located in the <orgName
+                     type="museum" key="#mu_southwest">Southwest Museum</orgName>, states:</p>
+               <p>In <date when="1915-11">November, 1915</date>, I met at <placeName type="region"
+                     key="#re_alamosharbor">Alamos Harbor, Santa Cruz Island</placeName>, <persName
+                     key="#gnijr">George Nidever</persName>, 70 or more years of age. He was there
+                  (with <rs><persName key="#gnijrwife">his wife</persName></rs>) engaged in
+                  crawfishing. His father, <persName type="frontiersman" key="#gni">Capt. George
+                     Nidever</persName>, brought <rs><persName type="nativeamerican" key="#lw">the
+                        lone Indian woman from San Nicolas Island</persName></rs> to <placeName
+                     type="city" key="#ci_sb">Santa Barbara</placeName> in <date when="1853"
+                     >1853</date>. <rs><persName key="#gnijr">The son</persName></rs>, though then a
+                  small boy, remembers having seen <rs><persName type="nativeamerican" key="#lw">the
+                        woman</persName></rs>. <rs><persName key="#gnijr">Nidever</persName></rs>
+                  told me that when he was about 10 years old he went to <placeName type="island"
+                     key="#i_sn">San Nicolas</placeName> with <rs><persName type="frontiersman"
+                        key="#gni">Capt.</persName></rs> who went there to kill the dogs on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                  that all were shot that could be found. I presume this was done so that
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> might
+                  be safely stocked with sheep. He told me that the dogs were of the Alaskan
+                     breed!<hi rend="superscript">19</hi><note n="19" place="end">19. See note 5
+                     above.</note></p>
+               <p><rs><persName key="#gnijr">Captain George Nidever's son</persName></rs> was born
+                  in <date when="1847">1847</date>, thus placing him and <rs><persName
+                        type="frontiersman" key="#gni">his father</persName></rs> on <placeName
+                     type="island" key="#i_sn">San Nicolas Island</placeName> to shoot the dogs
+                  sometime around <date when="1857">1857</date>, four years after the woman's
+                  removal. What stands out as particularly important is the report that the dogs
+                  were "of the Alaskan breed." The above accounts lead to the speculation that
+                  perhaps the dogs were introduced to <placeName type="island" key="#i_sn">San
+                     Nicolas Island</placeName> from the north. Whether or not their introduction to
+                     <placeName type="island" key="#i_sn">San Nicolas Island</placeName> coincided
+                  with that of <rs><persName type="nativeamerican" key="#lw">the Lone
+                        Woman</persName></rs> can only remain speculation.</p>
+            </div>
+            <div type="section">
+               <head><title type="section">UNANSWERED QUESTIONS</title></head>
+               <p>Given the following facts, there is reason to propose that <rs><persName
+                        type="nativeamerican" key="#lw">the Lone Woman of San Nicolas
+                        Island</persName></rs> may have been an Indian from the north, and not a
+                  native Nicoleño:</p>
+               <p>1. Indians from the north, particularly <rs><orgName type="group"
+                        key="#natam_aleuts; #natam_kodiak">peoples from Kodiak Island and the
+                        Aleutian Islands</orgName></rs>, participated in the California sea otter
+                  trade on and around <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> during <rs><date notBefore="1800" notAfter="1825">the first
+                        part of the nineteenth century</date></rs>. Was <rs><persName
+                        type="nativeamerican" key="#lw">this woman</persName></rs> on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs> as a result of this
+                  activity?</p>
+               <p>2. At the time of her rescue, no one could be found who understood the language
+                  spoken by <rs><persName type="nativeamerican" key="#lw">the Lone
+                     Woman</persName></rs>. Did she in fact speak a language from another Indian
+                  territory?</p>
+               <p>3. Were the dogs on <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName>, who were described as being of "the Alaskan breed," her
+                  companions as a result of circumstances related to her presence on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>?</p>
+               <p>4. Why did <persName type="author" key="#eha">Emma Hardacre</persName>, local
+                  expert on the subject, doubt the Lone Woman's origin? In <rs><title
+                        type="manuscript" key="#Hardacre1879">her log</title></rs>, she noted that
+                  these doubts arose after the publication of <rs><title type="article"
+                        key="#Hardacre1880_SM">her article on the subject</title></rs>, the article
+                  upon which all subsequent articles have been based.</p>
+               <p><emph>See notes beginning on page [65].</emph></p>
+               <p><emph>An anthropologist and authority on the <placeName type="island" key="#i_chi"
+                        >Channel Islands</placeName>, <persName type="author" key="#mda">Marla
+                        Daily</persName> is the President of the <orgName type="organization"
+                        key="#santacruzislandfoundation">Santa Cruz Island Foundation</orgName> and
+                     author of</emph> California's Channel Islands<emph>, now in its second
+                     edition.</emph></p>
+               <p>[...]</p>
+            </div>
+            <div type="section">
+               <head><title type="section">NOTES</title></head>
+               <p>[...]</p>
+               <div type="section">
+                  <head><title type="section"><hi rend="bold"><persName type="author" key="#mda"
+                              >DAILY</persName></hi></title> <title type="subsection">"Lone Woman,"
+                        pp. 36-41.</title></head>
+                  <p><rs><persName type="author" key="#mda">The author</persName></rs> would like to
+                     thank both <persName type="author" key="#cme">Clement Meighan</persName>,
+                        <orgName type="institution" key="#in_ucla">University of California, Los
+                        Angeles</orgName> Department of Anthropology, and <persName type="author"
+                        key="#jjo">John Johnson</persName>, Curator, <orgName type="museum"
+                        key="#mu_sbmuseum">Santa Barbara Museum of Natural History</orgName>, for
+                     encouraging the writing of this article. Additionally, I thank <persName
+                        type="author" key="#jjo">John Johnson</persName> for providing preliminary
+                     comments and suggestions. <persName key="#ibon">Isaac Bonilla</persName>
+                     generously gave me <rs><title key="#Hardacre1879">the Hardacre
+                           manuscript</title></rs> from his library, and additional reference
+                     materials were found in the Channel Islands Archives, <orgName type="museum"
+                        key="#mu_sbmuseum">Santa Barbara Museum of Natural History</orgName>.
+                     Linguistic comparisons were made with the help of <persName key="#mkrau"
+                        >Michael Krauss</persName>, <orgName key="#univakf">University of Alaska,
+                        Fairbanks</orgName>, and his colleague <persName key="#jleer">Jeff
+                        Leer</persName>. The <orgName type="organization"
+                        key="#santacruzislandfoundation">Santa Cruz Island Foundation</orgName> 1010
+                     Anacapa Street, <placeName type="city" key="#ci_sb">Santa Barbara,
+                        California</placeName> is to be thanked for its continued support of
+                     research concerning the <placeName type="island" key="#i_chi">California
+                        Channel Islands</placeName>.</p>
+                  <p><bibl>1. <persName type="author" key="#akroe">Alfred Kroeber</persName>,
+                              <emph><title type="book" key="#Kroeber1925">Handbook of the Indians of
+                              California</title></emph> (<orgName type="publisher"
+                           key="#govprinting">U.S. Government Printing Office</orgName>: Bureau of
+                        American Ethnology Bulletin Number 78, <date when="1925">1925</date>),
+                        633-4.</bibl></p>
+                  <p><bibl>2. For nearly a century, various anthropologists have looked into the
+                        question of <rs><persName type="nativeamerican" key="#lw">Juana
+                              Maria</persName></rs>. Alphabetically, this incomplete listing
+                        includes: <persName type="author" key="#sbo">Reverend Stephen
+                           Bowers</persName>; <persName type="author" key="#heb">Hal
+                           Eberhart</persName>; <persName type="author" key="#els">Albert B.
+                           Elsasser</persName>; <persName type="author" key="#jha">J. P.
+                           Harrington</persName>; <persName type="author" key="#rhe">Robert F.
+                           Heizer</persName>; <persName type="author" key="#thu">Travis
+                           Hudson</persName>; <persName type="author" key="#akroe">Alfred
+                           Kroeber</persName>; and <persName type="author" key="#cme">Clement
+                           Meighan</persName>. See: <persName type="author" key="#sbo">Stephen
+                           Bowers</persName>, "<title type="article" key="#Bowers1892">The Lone
+                           Woman of San Nicolas Island</title>," <emph><orgName type="publication"
+                              key="#venturaobserver">Ventura Weekly Observer</orgName></emph>, <date
+                           when="1892-12-09">December 9,1892</date>, p. 228, and <date
+                           when="1892-12-16">December 16,1892</date>, p. 238; J. P. Harrington's
+                        unpublished notes on file at the Santa Barbara Museum of Natural History;
+                           <persName type="author" key="#cme">Clement Meighan</persName> and
+                           <persName type="author" key="#heb">Hal Eberhart</persName>,
+                        "Archaeological Resources of San Nicolas Island, California," <orgName
+                           type="publication" key="#aman">American Antiquity</orgName> 19 (<date
+                           when="1953">1953</date>): 109-125; <persName type="author" key="#rhe"
+                           >Robert F. Heizer</persName> and <persName type="author" key="#els"
+                           >Albert B. Elsasser</persName>, <emph>Original Accounts of the Lone Woman
+                           of San Nicolas Island</emph> (<placeName type="city" key="#ci_ramona"
+                           >Ramona</placeName>: <orgName type="publication" key="#ballena">Ballena
+                           Press</orgName>, <date when="1973">1973</date>).</bibl></p>
+                  <p><bibl>3. <persName type="author" key="#sod">Scott O'Dell</persName>,
+                           <emph>Island of the Blue Dolphins</emph> (<placeName type="city"
+                           key="#ci_bo">Boston</placeName>: <orgName type="publisher"
+                           key="#houghton">Houghton Mifflin</orgName>, <date when="1961"
+                        >1961</date>).</bibl></p>
+                  <p><bibl>4. <persName type="author" key="#thu">Dee Travis Hudson</persName>,
+                           "<title type="article" key="#Hudson1978_52(1)">Some J.P. Harring ton
+                           Notes on the Lone Woman of San Nicolas Island</title>," <emph><orgName
+                              type="publication" key="#masterkey">Southwest Museum
+                              Masterkey</orgName></emph> 52 (January-March <date when="1978"
+                           >1978</date>): 23-8; "<title type="article" key="#Hudson1978_52(4)">An
+                           Additional Harrington Note on the Lone Woman of San Nicolas</title>,"
+                              <emph><orgName type="publication" key="#masterkey">Southwest
+                              Museum</orgName></emph> 52 (October-December <date when="1978"
+                           >1978</date>): 151-4; "<title type="article" key="#Hudson1980">Additional
+                           Harrington Notes on the Lone Woman</title>," <emph><orgName
+                              type="publication" key="#masterkey">Southwest Museum
+                              Masterkey</orgName></emph> 53 (July-September <date when="1980"
+                           >1980</date>): 109-12; "Recently Discovered Accounts Concerning the Lone
+                        Woman of San Nicolas Island," <emph>Journal of California and Great Basin
+                           Anthropology </emph>3 (1981): 187-99.</bibl></p>
+                  <p><bibl>5. <persName type="author" key="#aldo">Adelaide Doran</persName>,
+                              <emph><title type="book" key="#Doran1980">Pieces of Eight Channel
+                              Islands</title></emph> (<placeName type="city" key="#ci_gl"
+                           >Glendale</placeName>: <orgName type="publisher" key="#aclco">Arthur H.
+                           Clark Company</orgName>, <date when="1980">1980</date>),
+                     32-43.</bibl></p>
+                  <p><bibl>6. <persName type="author" key="#thu">Dee Travis Hudson</persName>,
+                        "Recently Discovered Accounts,"187-99. [sic]</bibl></p>
+                  <p><bibl>7. <persName type="author" key="#eha">Emma Hardacre</persName>, "<title
+                           type="article" key="#Hardacre1880_SM">Eighteen Years Alone: A Tale of the
+                           Pacific</title>," <emph><orgName type="publication" key="#scribners"
+                              >Scribner's Monthly</orgName></emph> (<date when="1880-09">September
+                           1880</date>): 657-64.</bibl></p>
+                  <p><bibl>8. <rs><title type="manuscript" key="#Hardacre1879">Original Emma
+                              Hardacre logbook</title></rs> in the private collection of
+                              <rs><persName type="author" key="#mda">the
+                        author</persName></rs>.</bibl></p>
+                  <p><bibl>9. See note 6 above.</bibl></p>
+                  <p><bibl>10. <persName type="author" key="#aog">Adele Ogden</persName>, <emph>The
+                           California Sea Otter Trade 1784-1848</emph> (<placeName type="city"
+                           key="#ci_berk">Berkeley</placeName>: <orgName type="publisher"
+                           key="#ucalpress">University of California Press</orgName>, <date
+                           when="1941">1941</date>).</bibl></p>
+                  <p><bibl>11. <title type="article" key="#SacramentoDailyUnion1856">Sacramento
+                              <emph>Daily Union</emph></title>, <date when="1856-12-29">December 29,
+                           1856</date>.</bibl></p>
+                  <p><bibl>12. See note 10 above.</bibl></p>
+                  <p><bibl>13. <persName key="#porr">Phil Orr</persName>, <emph>Prehistory of Santa
+                           Rosa Island</emph> (<placeName type="city" key="#ci_sb">Santa
+                           Barbara</placeName>: <orgName type="museum" key="#mu_sbmuseum">Santa
+                           Barbara Museum of Natural History</orgName>, <date when="1968"
+                           >1968</date>), 105.</bibl></p>
+                  <p><bibl>14. <persName type="frontiersman" key="#gni">George Nidever</persName>,
+                           "<title type="manuscript" key="#Nidever1878">The Life and Adventures of a
+                           Pioneer of California Since 1834</title>," <emph>Original Accounts of the
+                           Lone Woman of San Nicolas Island</emph> (<placeName type="city"
+                           key="#ci_ramona">Ramona</placeName>: <orgName type="publication"
+                           key="#ballena">Ballena Press</orgName>, <date when="1973">1973</date>),
+                        7-15.</bibl></p>
+                  <p><bibl>15. <emph><title type="article" key="#DailyDemocraticStateJournal1853"
+                              >Daily Democratic State Journal</title></emph>, <date
+                           when="1853-10-13">October 13, 1853</date>.</bibl></p>
+                  <p><bibl>16. See note 6 above.</bibl></p>
+                  <p><bibl>17. <persName type="author" key="#gteg">Gary Tegler</persName>, "Index of
+                        Harrington's Chumash Recordings," <emph>Institute of Archaeology, Occasional
+                           Paper Number 3</emph> (<placeName type="city" key="#ci_la">Los
+                           Angeles</placeName>, <date when="1979">1979</date>), 22-48.</bibl></p>
+                  <p><bibl>18. <persName type="author" key="#tth">Thomas H. Thompson</persName> and
+                           <persName type="author" key="#west">Albert A. West</persName>,
+                              <emph><title type="book" key="#Mason1883">History of Santa Barbara and
+                              Ventura Counties</title></emph> (<placeName type="city"
+                           key="#ci_oakland">Oakland</placeName>: <orgName type="publisher"
+                           key="#thompsonwest">Thompson and West</orgName>, <date when="1883"
+                           >1883</date>).</bibl></p>
+                  <p><bibl>19. See note 5 above.</bibl></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
