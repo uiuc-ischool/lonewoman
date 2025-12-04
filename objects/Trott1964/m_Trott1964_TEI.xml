@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#christianscimon">Christian
+                     Science Monitor</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">56</biblScope>
+               <biblScope unit="issue">44</biblScope>
+               <date when="1964-01-17"/>
+               <pubPlace><placeName type="city" key="#ci_boston">Boston</placeName>, <placeName
+                     type="state" key="#st_ma">Massachusetts</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Trott1964">Island Mystery about Kind Mrs. Robinson
+                     Crusoe</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#htr">Trott, Harlan</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">
+                  <hi rend="bold"><emph>Island Mystery</emph></hi></title>
+               <title type="sub"><hi rend="bold">About <rs><persName type="nativeamerican" key="#lw"
+                           >Kind Mrs. Robinson Crusoe</persName></rs></hi>. . . . . . . . . . .
+               </title></head>
+            <byline><hi>By <persName type="author" key="#htr">Harlan Trott</persName></hi></byline>
+            <p><span type="trope" n="8">The strange story of <rs><persName type="nativeamerican"
+                        key="#lw">a Mrs. Robinson Crusoe</persName></rs> who lived alone for
+                        <rs><date notBefore="1835" notAfter="1853" cert="high">18 years</date></rs>
+                  on California's deserted <placeName type="island" key="#i_sn">San Nicolas
+                     Island</placeName> is being pieced together by a couple of college professors
+                  who have been exploring <rs><placeName type="island" key="#i_sn">this outermost
+                        rock</placeName></rs> in the windswept <placeName type="island" key="#i_chi"
+                     >Channel Islands</placeName>.</span></p>
+            <p>The professors think <placeName type="island" key="#i_sn">San Nicolas</placeName>
+               very probably was seen by <persName type="seaman" key="#bfe">Bartolome
+                  Ferrelo</persName> when he left <placeName type="island" key="#i_scruz">Santa Cruz
+                  Island</placeName> on <date when="1543-02-18">Feb. 18, 1543</date>, to search for
+               other islands reported lying off the inner group. But <rs><persName type="seaman"
+                     key="#bfe">Juan Rodriquez Cabrillo's chief pilot</persName></rs> must have
+               thought <rs><placeName type="island" key="#i_sn">this 32-square-mile
+                  rock</placeName></rs> wasn't worth naming. <persName type="seaman" key="#svi"
+                  >Capt. Sebastian Vizcaino</persName> named it in <date when="1602">1602</date>;
+               but he was way out of his reckoning when he plotted it into his chart.</p>
+            <p>In <date when="1793">1793</date>, <persName type="seaman" key="#gva">Capt. George
+                  Vancouver</persName> discovered there was no <placeName type="island" key="#i_sn"
+                  >San Nicolas</placeName> where Vizcaino's chart showed.</p>
+            <p>Early fur traders found it later on; and because of all the sea otters playing in the
+               breakers, they named it Sea Otter Island.</p>
+            <p><span type="trope" n="8">Here is the way <rs><placeName type="island" key="#i_sn"
+                        >Mrs. Crusoe's lonely abode</placeName></rs> looked to <persName
+                     type="author" key="#gda">George Davidson</persName> when he was charting and
+                  sounding for the United States Coast and Geodetic Survey in <date when="1854"
+                     >1854</date>:</span></p>
+            <p>"Of <placeName type="island" key="#i_chi">the Channel Islands</placeName> this . . .
+               is the driest and most sterile. Two-thirds of the surface of <rs><placeName
+                     type="island" key="#i_sn">the island</placeName></rs> is covered with sand, and
+               the remainder with coarse grass. Small patches of scrub oak are found in a few
+               places, but no trees show on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> as made from seaward. It can be seen from the deck of a
+               vessel at a distance of 38 miles. . . ."</p>
+            <p>Nothing is known about how men first came to <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, but <rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">the earliest
+                     settlers</orgName></rs>&#8212;<rs><orgName type="nativeamericantribes"
+                     key="#natam_NicolenoTongva">Indians</orgName></rs>&#8212;found it much more
+               hospitable than it is today. The Indian name for the place was <rs><placeName
+                     type="island" key="#i_sn">Ghalashat</placeName></rs>.</p>
+            <p>The combined researches of <persName type="author" key="#cme">Prof. Clement W.
+                  Meighan</persName>, <orgName type="institution" key="#in_ucla">University of
+                  California</orgName> at Los Angeles anthropologist, and <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName> geologist <persName type="author"
+                  key="#rno">Prof. Robert M. Morris [Norris]</persName> lead to these conclusions.
+               The shells of land snails indicate a fairly heavy vegetation at one time and also
+               abundant water. Today there are only a few springs at the northwest end. From all the
+               archaeological remains, <rs><placeName type="island" key="#i_sn">San
+                     Nicolas</placeName></rs> was a bustling primitive community.</p>
+            <p><persName type="author" key="#cme">Dr. Meighan</persName> speculates some of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the Indian
+                     population</orgName></rs> of <rs><placeName type="island" key="#i_sn"
+                     >Ghalashat</placeName></rs> may have been recruited for <orgName type="mission"
+                  key="#mi_mainlandmissions">mainland missions</orgName> by the early Spaniards. In
+                  <date when="1835">1835</date> there were only 20 <persName type="group"
+                  key="#bhagroup">inhabitants</persName> left. <rs><date when="1835">That
+                     year</date></rs>
+               <rs><persName type="group" key="#aji; #ndur; #misfats">church authorities at Santa
+                     Barbara</persName></rs> decided to transfer <persName type="group"
+                  key="#bhagroup">this small population</persName> to <placeName type="region"
+                  key="#re_mld">the mainland</placeName>.</p>
+            <p><rs><persName type="nativeamerican" key="#lw">One woman</persName></rs> for some
+               reason was left behind. From time to time people on <placeName type="region"
+                  key="#re_mld">the mainland</placeName> thought about <rs><persName
+                     type="nativeamerican" key="#lw">the poor lost Nicoleno</persName></rs>, but no
+               action ever was taken to look for her. Many doubted that she still was living. In
+               time she drifted into the legendary limbo of the lost.</p>
+            <p>One early account shows no search was made for 15 years. Then <rs><persName
+                     type="group" key="#jru; #aji; #sanchez; #misfats">the mission
+                     fathers</persName></rs> offered a $200 reward to find her. An otter hunter
+               found an empty hut made of whalebones. In <date when="1853">1853</date>, <persName
+                  type="frontiersman" key="#gni">George Nidever</persName>, <rs><persName
+                     type="frontiersman" key="#gni">a Santa Barbara otterman</persName></rs>, headed
+               another <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">search
+                  party</persName></rs>. <persName type="frontiersman" key="#gni">Nidever</persName>
+               found a footprint, the first day ashore, and then a basket of feathers.</p>
+            <p>The next day, a distant figure was seen plodding up the hill to the whalebone hut.
+                     <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">Nidever's search
+                     party</persName></rs> followed. Inside the hut they found <rs><persName
+                     type="nativeamerican" key="#lw">a woman</persName></rs> about 50 years old
+               skinning a sea lion. She showed no fear. <rs><persName type="group"
+                     key="#cook; #msh; #poli; #nsk; #hva">The Indians</persName></rs> in the search
+               party fell on their knees. <rs><persName type="nativeamerican" key="#lw">The
+                     woman</persName></rs> offered them food&#8212;roots that had been roasted on an
+               open fire.</p>
+            <p>Her diet consisted of dried seal meat, fish, abalone, and sea urchins. Sewing was
+               done with bone needles. She had a knife made out of a piece of iron hoop stuck into a
+               rough driftwood handle. She wove grass into watertight baskets coated inside with
+               asphalt. <placeName type="island" key="#i_sn">San Nicolas</placeName> isn't very far
+               from <placeName type="region" key="#re_coaloilpoint">Coal Oil Point</placeName>,
+               where <persName type="author" key="#gda">coast surveyor Davidson</persName> a hundred
+               years ago found "the smell of petroleum . . . almost overpowering." <span
+                  type="trope" n="8">The castaway's dress was a single garment made from the skins
+                  of a seabird called the "shag" or green cormorant.</span></p>
+            <p>She left willingly with <persName type="frontiersman" key="#gni">Captain
+                  Nidever</persName> who took her to his home in <placeName type="city" key="#ci_sb"
+                  >Santa Barbara</placeName> and placed her in the care of <rs><persName key="#sni"
+                     >his Spanish wife</persName></rs>. None of the Indians understood the lost
+               woman's language. She seemed to enjoy the community's attentions, visiting various
+               families and dancing for their entertainment.</p>
+            <p>But she languished in her new environment. In six weeks after she was "rescued" from
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName>, <rs><persName
+                     type="nativeamerican" key="#lw">the "lost" woman</persName>
+               </rs> had passed on. <persName type="author" key="#cme">Dr. Meighan</persName> says
+               this is not unusual in cases where North American Indians were carried to <placeName
+                  type="country" key="#co_eng">England</placeName> or <orgName
+                  type="nativeamericantribes" key="#natam_inuit">Eskimos</orgName> have been brought
+               to <placeName type="country" key="#co_usa">the United States</placeName>.</p>
+            <p>Her birdskin dress is said to have been sent to <placeName type="museum"
+                  key="#mu_vaticanmuseum">the Vatican</placeName>. A few other primitive possessions
+               fowarded to <placeName type="city" key="#ci_sf">San Francisco</placeName> were
+               destroyed in the <date when="1906">1906</date> earthquake and fire. The untold part
+               of her story is wrapped in winter fogs or muted in the timeless surge of maelstrom
+               breakers beating against the 800-foot cliffs below the site ot that whalebone hut and
+               the winking 12-mile loom of San Nicolas Island's untended lighthouse.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

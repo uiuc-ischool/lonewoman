@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#cahistsocquarterly"
+                     >California Historical Society Quarterly</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">32</biblScope>
+               <biblScope unit="issue">3</biblScope>
+               <date when="1953"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#Thomson1953">Note on George Nidever: A "Clean-Living
+                     and Upright" Trapper</title>
+                  <biblScope unit="page" from="263" to="268"/>
+                  <author><persName type="author" key="#vth">Thomson, Virginia</persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"> Note on <persName type="frontiersman" key="#gni">George
+                     Nidever</persName></title> <title type="sub"><emph><rs><persName
+                           type="frontiersman" key="#gni">A "Clean-Living and Upright"
+                           Trapper</persName></rs></emph></title></head>
+            <byline><emph>By </emph><persName type="author" key="#vth">VIRGINIA
+               THOMSON</persName></byline>
+
+            <p>IN HIS "Answer to One Reader's Complaint about <emph>The Big Sky</emph>," <persName
+                  type="author" key="#wsl">William Sloane</persName>, the book's original publisher,
+               made the following statement from <placeName type="city" key="#ci_nyc">New York
+                  City</placeName> in <date when="1947">1947</date>, with regard to <persName
+                  type="author" key="#agu">Alfred B. Guthrie</persName>:</p>
+            <p>The purpose of <persName type="author" key="#wsl">the author</persName> has been to
+               show that in living and acting as they did (hunters and trappers), they destroyed the
+               wilderness, which was the only thing they really loved. I don't see how <persName
+                  type="author" key="#wsl">the author</persName> could have written the
+               story&#8212;and it is a very moral story&#8212;that he wanted to tell if his hero had
+               been a clean-living, upright man. There weren't any clean-living, upright men engaged
+               in despoiling the American wilderness at that time.</p>
+            <p>The purpose of the present article is to point out that there was at least one
+               "clean-living, upright man" engaged in trapping at that time, namely, <persName
+                  type="frontiersman" key="#gni">George Nidever</persName>, a native of <placeName
+                  type="state" key="#st_tn">Tennessee</placeName>, whose experiences in "despoiling
+               [?] the American wilderness" did not interfere with his becoming, and remaining, a
+               respected citizen of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>
+               for half a century.</p>
+            <p>As a young man, not wishing to pursue the comparatively static life of a farmer like
+                  <persName key="#gnis">his father</persName>, <persName type="frontiersman"
+                  key="#gni">George Nidever</persName> had chosen the opposite one of hunting and
+               trapping. While out after beaver with a party under <persName type="frontiersman"
+                  key="#rbe">Col. Robert Bean</persName> in <date notBefore="1830" notAfter="1833"
+                  >1830-33</date>, he explored areas that are now parts of <placeName type="state"
+                  key="#st_nm">New Mexico</placeName>, <placeName type="state" key="#st_wy"
+                  >Wyoming</placeName>, <placeName type="state" key="#st_mt">Montana</placeName>,
+               and <placeName type="state" key="#st_id">Idaho</placeName>.</p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> was no common trapper. He
+               was a marksman of such great ability that companies of trappers were said to have bet
+               as high as $5,000 that <persName type="frontiersman" key="#gni">Nidever</persName>
+               could kill more buffalo than any other man in <placeName type="region"
+                  key="#re_rockies">the Rocky Mountains</placeName>. While he was living in
+                  <placeName type="region" key="#re_local">California</placeName>, he became
+               renowned as a grizzly bear hunter; according to reports, he killed more than 200. Sea
+               otters on <placeName type="region" key="#re_calcoast">the coast of
+                  California</placeName> succumbed to his marksmanship to the recorded number of
+               1091, between the years <date when="1835">1835</date> and <date when="1848"
+                  >1848</date>.<hi rend="super">1</hi><note>1. These figures are based on references
+                  found in Nidever's autobiography, <title type="manuscript" key="#Nidever1878">Life
+                     and Adventures of George Nidever, a Pioneer of California since 1834,"</title>
+                  hereafter cited as <title type="manuscript" key="#Nidever1878">Nidever's
+                     Narrative</title> (manuscript, <placeName type="institution" key="#bancroft"
+                     >Bancroft Library</placeName>, pp. 5-6. <emph>See also</emph>
+                  <persName type="author" key="#hba">H. H. Bancroft</persName>, <emph>History of
+                     Nevada, Colorado and Wyoming</emph> (<placeName type="city" key="#ci_sf">San
+                     Francisco</placeName>, <date when="1890">1890</date>), p. 42; and his
+                     <emph>History of California</emph> (<placeName type="city" key="#ci_sf">San
+                     Francisco</placeName>, <date when="1886">1886</date>), IV, 753.</note> Even
+               when he was in his seventies, his skill did not desert him. On <date
+                  when="1878-09-01">September 1, 1878</date>, <persName type="author" key="#emu">E.
+                  F. Murray</persName>, an assistant of <persName type="author" key="#hba">Hubert
+                  Howe Bancroft</persName>, visited <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> in the vicinity of <placeName type="city" key="#ci_sb">Santa
+                  Barbara</placeName> and took down his autobiography; he also wrote a description
+               of him at 75 years of age:</p>
+            <p>The subject of this sketch. . . . is still strong and active. He is about the medium
+               height and inclined to be stout. He stoops the least bit but it may be from habit
+               rather than old age. His sight and hearing are still keen and his nerves remarkably
+               steady for one so old. He lives with <rs><persName key="#ini">his youngest
+                     daughter</persName></rs> and <rs><persName key="#sni">his wife</persName></rs>,
+               about a mile from <placeName type="city" key="#ci_sb">town</placeName>, on a piece of
+               land containing several acres. It is under cultivation and he keeps it free from
+               squirrels by shooting them with a Colt's revolver. If a chicken is wanted for dinner
+               he prefers shooting its head off with his rifle to using a shot gun, which he has
+               frequently to use, however, owing to the danger of using his rifle when there are so
+               many and near neighbors. <hi rend="super">2</hi><note>2. <title type="manuscript"
+                     key="#Nidever1878">Nidever's Narrative</title>, p. 3.</note></p>
+            <p><persName type="author" key="#emu">Murray</persName> induced <persName
+                  type="frontiersman" key="#gni">Nidever</persName> to shoot three shots at a paper
+               target, three inches square, hanging on a nail some sixty yards away. All three shots
+               landed on the paper, the second shot hitting the nail. <persName type="frontiersman"
+                  key="#gni">Nidever</persName> used a muzzle-loader in a resting position.</p>
+            <p><persName type="author" key="#wel">William Henry Ellison</persName> speaks of another
+               merit that <persName type="frontiersman" key="#gni">Nidever</persName> had as a
+               trapper; this was a "remarkable ability to recognize different Indian tribes and to
+               remember their location." <hi rend="super">3</hi><note>3. <persName type="author"
+                     key="#wel">William Henry Ellison</persName>, <title type="monograph"
+                     key="#Nidever1878"><emph>The Life and Adventures of George
+                     Nidever</emph></title> (<placeName type="city" key="#ci_berk"
+                     >Berkeley</placeName>, <date when="1937">1937</date>), 93, note 15.</note> As
+               will be seen later, his shrewdness on one occasion saved his own and others'
+               lives.</p>
+            <p>Physical difficulties never seemed to bother <persName type="frontiersman" key="#gni"
+                  >Nidever</persName>. While he was with Colonel Bean's party, dense timberlands
+               were encountered and 12 to 16 inches of snow in the mountain gorges of <placeName
+                  type="state" key="#st_wy">Wyoming</placeName>. After six days without food,
+                  <persName type="frontiersman" key="#gni">Nidever</persName> shot and killed two
+               buffalo bulls. The men were so hungry that they continued to eat the flesh of one
+               bull all night, until six o'clock the next morning. According to <persName
+                  type="frontiersman" key="#jdy">Job Dye</persName>, a member of the party, ". . . .
+               they would skin a small piece and cut off a chunk of meat and throw it into the fire,
+               and there let it remain until it became black and charred, when it was taken from the
+               smoking blaze and eaten, almost as raw as when it was alive in the buffalo hide." <hi
+                  rend="super">4</hi><note>4. <persName type="author" key="#jdy">Job Francis
+                     Dye</persName>, "Recollections of California," hereafter cited as Dye's
+                  Recollections (manuscript, <orgName type="institution" key="#bancroft">Bancroft
+                     Library</orgName>), p. 10. This manuscript was dictated to <persName
+                     type="author" key="#tsa">Thomas Savage</persName> by <persName
+                     type="frontiersman" key="#jdy">Dye</persName> in <date when="1877"
+                  >1877</date>.</note></p>
+            <p>In his own account and in the accounts of others who knew him, I have been unable to
+               find that <persName type="frontiersman" key="#gni">George Nidever</persName> used any
+               obscene language or profanity, or that he was disrespectful toward God and man. He
+               killed Indians only in self-defense, and not for scalps. Nor did he steal horses and
+               boats.</p>
+            <p>He lived among the toughest of men, but he was not like them in his morals. An
+               example of one of these "toughest of men" was <persName type="frontiersman"
+                  key="#igr">Isaac Graham</persName>, whom <persName type="author" key="#thi"
+                  >Theodore H. Hittell</persName> describes as "a man entirely without education,"
+               but possessed of "enterprise and intelligence" and "a considerable amount of personal
+               magnetism." <hi rend="super">5</hi><note>5. <persName type="author" key="#thi"
+                     >Theodore Henry Hittell</persName>, <title type="monograph" key="#Hittell1898"
+                        ><emph>History of California</emph></title> (<placeName type="city"
+                     key="#ci_sf">San Francisco</placeName>, <date notBefore="1885" notAfter="1897"
+                     >1885-1897</date>), II, 266.</note> He was a close companion of <persName
+                  type="frontiersman" key="#gni">Nidever</persName> at first. But their friendship
+               ceased when <persName type="frontiersman" key="#igr">Graham</persName> became leader
+               of a motley crew, who helped put <persName key="#jva">Alvarado</persName> in office
+               and then sought to take abusive advantage of <rs><persName key="#jva">the
+                     governor</persName></rs>.</p>
+            <p>In <date when="1844">1844</date>-<date when="1845">1845</date>, when <persName
+                  key="#jcastro">José Castro</persName> joined in a revolt to drive <persName
+                  key="#mmi">Gov. Manuel Micheltorena</persName> out of <placeName type="region"
+                  key="#re_upcal">California</placeName>, <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> refused to join the latter's foreign company. Even though he
+               favored <persName key="#mmi">Micheltorena</persName>, <persName type="frontiersman"
+                  key="#gni">Nidever</persName> had his scruples: many of the soldiers were freed
+               convicts, and the characters of officers and regulars questionable.</p>
+            <p>There was one incident in Nidever's life, of which he repented later. While with
+               Colonel Bean's company in <date when="1830">1830</date>, "below <placeName
+                  type="region" key="#re_cim">the mouth of the Cimmeron</placeName>," <hi
+                  rend="super">6</hi><note>6. Dye's Recollections, p. 4.</note>
+               <persName type="frontiersman" key="#gni">Nidever</persName> started out with
+                  <persName type="frontiersman" key="#igr">Isaac Graham</persName> to get buffalo.
+               They walked a full four miles from camp before they came upon any, and, when they
+               did, <rs><persName type="frontiersman" key="#gni; #igr">the two men</persName></rs>,
+               being on foot, had no trouble in approaching unnoticed. But they realized that they
+               had walked into a trap when 80 armed <orgName type="nativeamericantribes"
+                  key="#natam_arapaho">Arapaho Indians</orgName> appeared from nowhere and began
+               chasing them. The nearest timber was fully a mile and a half away, over by
+                     <rs><placeName type="region" key="#re_cim">the river</placeName></rs>. They
+               started running for their lives. <persName type="frontiersman" key="#igr"
+                  >Graham</persName>, the better athlete, could have left <persName
+                  type="frontiersman" key="#gni">Nidever</persName> in the rear, but "it was not his
+               character to desert a comrade in danger." <hi rend="super">7</hi><note>7. <title
+                     type="manuscript" key="#Nidever1878">Nidever's Narrative</title>, p. 22.</note>
+               Not until nearly a mile of ground had been covered did <rs><orgName
+                     type="nativeamericantribes" key="#natam_arapaho">their pursuers</orgName></rs>
+               catch up with <rs><persName type="frontiersman" key="#gni; #igr">the white
+                     men</persName></rs>; then, to their surprise, <rs><orgName
+                     type="nativeamericantribes" key="#natam_arapaho">the Indians</orgName></rs>
+               threw down their own guns and proceeded to give <rs><persName type="frontiersman"
+                     key="#gni; #igr">the two men</persName></rs> a rough shaking. By signs,
+                  <persName type="frontiersman" key="#gni">Nidever</persName> and <persName
+                  type="frontiersman" key="#igr">Graham</persName> made them understand that there
+               were 80 men in the camp of the white men&#8212;a slight exaggeration. <hi
+                  rend="super">8</hi><note>8. There were 43 men in the trapping party.</note> This
+               scheme had its desired effect, for <rs><orgName type="nativeamericantribes"
+                     key="#natam_arapaho">the Indians</orgName></rs> spared the white men's lives
+               and even accompanied them back to their camp. As will be seen, it didn't take long
+               for <orgName type="nativeamericantribes" key="#natam_arapaho">the Arapahoes</orgName>
+               to realize that they had been tricked.</p>
+            <p><persName type="frontiersman" key="#rbe">Colonel Bean</persName> decided to send out
+               six men to look for winter quarters and game, and, when volunteers were asked for,
+                  <persName type="frontiersman" key="#igr">Isaac Graham</persName>, <persName
+                  type="frontiersman" key="#gni">George Nidever</persName>, <persName
+                  type="frontiersman" key="#bas">James Basey</persName>, <persName
+                  type="frontiersman" key="#mni">Mark Nidever</persName> (George's younger brother),
+                  <persName type="frontiersman" key="#jdy">Job Dye</persName>, and <persName
+                  type="frontiersman" key="#fch">Frederick Christ</persName> were selected. <hi
+                  rend="super">9</hi><note>9. <title type="manuscript" key="#Nidever1878">Nidever's
+                     Narrative</title>, p. 28; Dye's Recollections, p. 5.</note>
+               <persName type="frontiersman" key="#gni; #bas; #mni; #igr; #jdy; #fch">The
+                  six</persName> traveled about 60 miles before they found a beautiful valley,
+               apparently made-to-order for a winter camp, in the vicinity of <placeName
+                  type="region" key="#re_arkriver">the Arkansas River</placeName>. <persName
+                  type="frontiersman" key="#mni">Mark Nidever</persName> and <persName
+                  type="frontiersman" key="#fch">Frederick Christ</persName> were sent back to
+               inform the main company and guide them to <rs><placeName type="region"
+                     key="#re_arkriver">the location</placeName></rs>. Meanwhile <rs><persName
+                     type="frontiersman" key="#gni; #bas; #jdy; #igr">the other four</persName></rs>
+               set to work killing buffalo and curing the meat for the winter. According to
+                  <persName type="frontiersman" key="#jdy">Dye</persName>, "In four days time we had
+               killed and hung up seventeen buffalo and covered them with hides; also a large
+               grizzly bear." <hi rend="super">10</hi><note>10. Dye's Recollections, p. 6.</note>
+               The meat was suspended beyond reach of wild animals, and <rs><persName
+                     type="frontiersman" key="#gni; #bas; #jdy; #igr">the men</persName></rs> then
+               moved their camp to a place on the side of the mountain, whence they could watch the
+               meat and the valley below without being seen themselves.</p>
+            <p>On the fifth day, late in the evening, <persName type="frontiersman" key="#gni"
+                  >George Nidever</persName> felt uneasy about the meat and decided to take a stroll
+               outside camp. Carrying his rifle with him, he walked about 400 yards before he saw
+               that a war party of about 80 <orgName type="nativeamericantribes"
+                  key="#natam_arapaho">Arapahoes</orgName>
+               <hi rend="super">11</hi><note>11. <emph>Ibid</emph>; <title type="manuscript"
+                     key="#Nidever1878">Nidever's Narrative</title>, p. 30. <persName
+                     type="frontiersman" key="#jdy">Dye</persName> says "about 75 <orgName
+                     type="nativeamericantribes" key="#natam_snake">Snake
+                  Indians</orgName>"&#8212;they were more likely <orgName
+                     type="nativeamericantribes" key="#natam_arapaho">Arapaho</orgName>, as may be
+                  seen from the account which follows.</note> were stealing the buffalo and bear
+               meat. He reported his findings to <rs><persName type="frontiersman"
+                     key="#bas; #jdy; #igr">his companions</persName></rs>, and all agreed to
+               abandon camp and look for Colonel Bean's main company. When they reached it, the
+               first thing that greeted <persName type="frontiersman" key="#gni">Nidever</persName>
+               was the news that <persName type="frontiersman" key="#mni; #fch">the two
+                  men</persName> sent back&#8212;his brother <persName type="frontiersman"
+                  key="#mni">Mark</persName>, and <persName type="frontiersman" key="#fch">Frederick
+                  Christ</persName>&#8212;had been killed by <rs><orgName
+                     type="nativeamericantribes" key="#natam_arapaho">the Indians</orgName></rs>.
+               They had reached camp in safety and were acting the part of guides for the return
+               journey, when they met the 75 to 80 <orgName type="nativeamericantribes"
+                  key="#natam_arapaho">Arapahoes</orgName> who had been stealing the buffalo meat.
+               The main company knew that <rs><persName type="frontiersman" key="#mni; #fch">the two
+                     men</persName></rs> had reached the place selected for winter-quarters, because
+               they found their names cut in the bark of a log on which they had sat before being
+               taken captive.<hi rend="super">12</hi><note>12. <title type="manuscript"
+                     key="#Nidever1878">Nidever's Narrative</title>, pp. 30-32; Dye's Recollections,
+                  pp. 6-9.</note>
+               <rs><orgName type="nativeamericantribes" key="#natam_arapaho">Their
+                  captors</orgName></rs> were the same <orgName type="nativeamericantribes"
+                  key="#natam_arapaho">Arapahoes</orgName> who had chased <persName
+                  type="frontiersman" key="#gni">George Nidever</persName> and <persName
+                  type="frontiersman" key="#igr">Isaac Graham</persName>; realizing that they had
+               been tricked, <rs><orgName type="nativeamericantribes" key="#natam_arapaho">the
+                     Indians</orgName></rs> had taken revenge on <rs><persName type="frontiersman"
+                     key="#mni; #fch">two men</persName></rs> not at all connected with the original
+               deception. Later on, <persName type="frontiersman" key="#gni">George</persName> met
+               some Mexicans. He recognized that one of them had his brother's gun. When questioned,
+               the man revealed that <rs><orgName type="nativeamericantribes" key="#natam_arapaho"
+                     >the Indians</orgName></rs> had sold Mark's gun to him, and Christ's to another
+               member of the Mexican party. Also gleaned was the fact that <persName
+                  type="frontiersman" key="#mni">Mark</persName> had killed three of <rs><orgName
+                     type="nativeamericantribes" key="#natam_arapaho">the Indians</orgName></rs>
+               before they killed him.</p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> said of <rs><persName
+                     type="frontiersman" key="#mni">his brother</persName></rs> that he ". . . . was
+               one of the best men we had in our company&#8212;active, strong, hardy, brave, and a
+               good shot. He was missed and mourned by all. " <hi rend="super">13</hi><note>13.
+                     <title type="manuscript" key="#Nidever1878">Nidever's Narrative</title>, p.
+                  32.</note></p>
+            <p><persName type="frontiersman" key="#gni">Nidever</persName> could not shake the
+               picture of his brother's death from his mind. Three years afterward, he was a member
+               of Capt. Joseph Reddeford Walker's party&#8212;the first party known to have crossed
+                  <placeName type="region" key="#re_sierranevada">the Sierra Nevada</placeName>
+               going west into <placeName type="region" key="#re_local">California</placeName>. Just
+               after entering <rs><placeName type="region" key="#re_sierranevada">the
+                     mountains</placeName></rs>, <persName type="frontiersman" key="#jwa">Captain
+                  Walker</persName> chose <persName type="frontiersman" key="#gni">George
+                  Nidever</persName> and <persName type="frontiersman" key="#zle">Zenas
+                  Leonard</persName> to help him select a camping-place. They decided to take
+               different routes. It was not long before <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> discovered fresh signs of Indians. Alarmed not only for his
+               own safety, but also for the safety of <persName type="frontiersman" key="#jwa"
+                  >Walker</persName> and <persName type="frontiersman" key="#zle"
+               >Leonard</persName>, he was looking around for more signs, when he happened to turn
+               in the direction from which he had come and saw two Indians trotting along the trail,
+               with their heads down. It was evident that they had seen <persName
+                  type="frontiersman" key="#zle">Leonard</persName> and <persName
+                  type="frontiersman" key="#jwa">Walker</persName> and had fled from the scene, for
+               every few yards they would stop, look back, and listen as if pursued.</p>
+            <p>At first <persName type="frontiersman" key="#gni">Nidever</persName> thought that
+               they were following his own tracks, and, going behind a tree, he prepared to meet
+               them. But the Indians were not even aware that he existed, for they passed in single
+               file a few feet from him, conversing as they went. He decided to let them go; then
+               the brutal mangling of <rs><persName type="frontiersman" key="#mni">his
+                     brother</persName></rs> came to his mind: ". . . . watching my chance, just
+               before they would have to turn around a small point of rocks, I fired, shooting both
+               of them dead at the first shot." <persName type="frontiersman" key="#zle">Zenas
+                  Leonard</persName> says that <persName type="frontiersman" key="#gni"
+                  >Nidever</persName> killed the Indians because he thought that they had already
+               attacked <persName type="frontiersman" key="#jwa">Walker</persName> and him; that
+                  <persName type="frontiersman" key="#jwa">Nidever</persName> was sorry when he
+               found out his mistake.</p>
+            <p>In describing Nidever's character, <persName type="author" key="#emu">E. F.
+                  Murray</persName>, <rs><persName type="author" key="#emu">Bancroft's
+                     assistant</persName></rs>, wrote: "He is quite unassuming and never brags of
+               his feats of skill, and almost everything of this nature relating to him I first
+               learned from others, obtaining a recital of them from him only by dint of
+               questioning. His truthfulness and integrity are beyond question, so that great weight
+               should be given to all he says." <hi rend="super">16</hi><note>16. <title
+                     type="manuscript" key="#Nidever1878">Nidever's Narrative</title>, p.
+               4.</note></p>
+            <p>Other trappers' lives could be cited, which would go far in refuting the charges
+                  <persName type="author" key="#wsl">Publisher Sloane</persName> made in his "Answer
+               . . . .," as quoted in the opening paragraph of this paper. Three such individuals
+               were <persName type="frontiersman" key="#jdy">Job Francis Dye</persName>, <persName
+                  type="frontiersman" key="#zle">Zenas Leonard</persName>, and <persName
+                  type="frontiersman" key="#ali">Allen Light</persName> (otherwise known as
+                     <rs><persName type="frontiersman" key="#ali">Black
+                     Steward</persName></rs>&#8212;<rs><persName type="frontiersman" key="#ali">the
+                     man</persName></rs> appointed by <persName key="#jva">Governor
+                  Alvarado</persName> in <date when="1839">1839</date>, to prevent illegal otter
+               hunting in <placeName type="region" key="#re_local">California</placeName>). <hi
+                  rend="super">17</hi><note>17. <persName type="author" key="#hba">H. H.
+                     Bancroft</persName>, <emph>History of the Northwest Coast</emph> (<placeName
+                     type="city" key="#ci_sf">San Francisco</placeName>, <date when="1884"
+                     >1884</date>), II, 604-607. <emph>See also</emph> Alvarado to Light, Santa
+                  Barbara, Jan. 27, 1839 (San Diego Archives, in <orgName type="institution"
+                     key="#bancroft">Bancroft Library</orgName>, p. 218).</note></p>
+         </div>
+         <div>
+            <head><title type="section">NOTES</title></head>
+            <div>
+               <p><bibl n="1">1. These figures are based on references found in Nidever's
+                     autobiography, <title type="manuscript" key="#Nidever1878">Life and Adventures
+                        of George Nidever, a Pioneer of California since 1834,"</title> hereafter
+                     cited as <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title> (manuscript, <placeName type="institution" key="#bancroft"
+                        >Bancroft Library</placeName>, pp. 5-6. <emph>See also</emph>
+                     <persName type="author" key="#hba">H. H. Bancroft</persName>, <emph>History of
+                        Nevada, Colorado and Wyoming</emph> (<placeName type="city" key="#ci_sf">San
+                        Francisco</placeName>, <date when="1890">1890</date>), p. 42; and his
+                        <emph>History of California</emph> (<placeName type="city" key="#ci_sf">San
+                        Francisco</placeName>, <date when="1886">1886</date>), IV, 753.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="2">2. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, p. 3.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="3">3. <persName type="author" key="#wel">William Henry
+                     Ellison</persName>, <title type="monograph" key="#Nidever1878"><emph>The Life
+                           and Adventures of George Nidever</emph></title> (<placeName type="city"
+                        key="#ci_berk">Berkeley</placeName>, <date when="1937">1937</date>), 93,
+                     note 15.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="4">4. <persName type="author" key="#jdy">Job Francis Dye</persName>,
+                     "Recollections of California," hereafter cited as Dye's Recollections
+                     (manuscript, <orgName type="institution" key="#bancroft">Bancroft
+                        Library</orgName>), p. 10. This manuscript was dictated to <persName
+                        type="author" key="#tsa">Thomas Savage</persName> by <persName
+                        type="frontiersman" key="#jdy">Dye</persName> in <date when="1877"
+                        >1877</date>.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="5">5. <persName type="author" key="#thi">Theodore Henry
+                        Hittell</persName>, <title type="monograph" key="#Hittell1898"><emph>History
+                           of California</emph></title> (<placeName type="city" key="#ci_sf">San
+                        Francisco</placeName>, <date notBefore="1885" notAfter="1897"
+                        >1885-1897</date>), II, 266.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="6">6. Dye's Recollections, p. 4.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="7">7. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, p. 22.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="8">8. There were 43 men in the trapping party.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="9">9. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, p. 28; Dye's Recollections, p. 5.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="10">10. Dye's Recollections, p. 6.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="11">11. <emph>Ibid</emph>; <title type="manuscript" key="#Nidever1878"
+                        >Nidever's Narrative</title>, p. 30. <persName type="frontiersman"
+                        key="#jdy">Dye</persName> says "about 75 <orgName
+                        type="nativeamericantribes" key="#natam_snake">Snake
+                     Indians</orgName>"&#8212;they were more likely <orgName
+                        type="nativeamericantribes" key="#natam_arapaho">Arapaho</orgName>, as may
+                     be seen from the account which follows.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="12">12. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, pp. 30-32; Dye's Recollections, pp. 6-9.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="13">13. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, p. 32.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="14">14. <title type="manuscript" key="#Nidever1878"
+                        ><emph>Ibid</emph>.</title>, p. 61.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="15">15. <editor key="#wwa">W. F. Wagner</editor>, ed., <emph>Narrative of
+                        the Adventures of Zenas Leonard</emph> (<placeName type="city" key="#ci_cl"
+                        >Cleveland</placeName>, <date when="1904">1904</date>), pp.
+                  168-69.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="16">16. <title type="manuscript" key="#Nidever1878">Nidever's
+                        Narrative</title>, p. 4.</bibl></p>
+            </div>
+            <div>
+               <p><bibl n="17">17. <persName type="author" key="#hba">H. H. Bancroft</persName>,
+                        <emph>History of the Northwest Coast</emph> (<placeName type="city"
+                        key="#ci_sf">San Francisco</placeName>, <date when="1884">1884</date>), II,
+                     604-607. <emph>See also</emph> Alvarado to Light, Santa Barbara, Jan. 27, 1839
+                     (San Diego Archives, in <orgName type="institution" key="#bancroft">Bancroft
+                        Library</orgName>, p. 218).</bibl></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

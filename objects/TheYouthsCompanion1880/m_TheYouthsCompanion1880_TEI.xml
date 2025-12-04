@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title type="newspaper"><orgName type="publication" key="#youthscompanion">The
+                     Youth's Companion</orgName></title>
+               <editor/><biblScope unit="volume">53</biblScope><biblScope unit="issue" n="40"
+                  >40</biblScope>
+               <date when="1880-09-30">September 30, 1880</date><pubPlace/>
+               <bibl><title type="article" key="#TheYouthsCompanion1880">A Female
+                     Crusoe</title><biblScope unit="page" n="329"/><author><persName key="#dne"
+                     > </persName></author>
+                  <date when="1880-09-30">September 30, 1880</date>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw">A
+                           FEMALE CRUSOE</persName></rs>.</hi></title></head>
+            <p><span type="trope" n="8">If <persName type="author" key="#dde">De Foe</persName> had
+                  only known of <rs><persName type="nativeamerican" key="#lw">a female
+                        Crusoe</persName></rs> living on <rs><placeName type="island" key="#i_sn">an
+                        ocean island</placeName></rs>, he might, perhaps, have wrought out a story
+                  superior to his <name type="fiction" key="#rcr">Robinson Crusoe</name>. Alexander
+                  Selkirk's brief life on <placeName type="island" key="#i_jf">Juan
+                     Fernandez</placeName> was trivial, either in the hardships endured or the
+                  difficulties conquered, compared with that of <rs><persName type="nativeamerican"
+                        key="#lw">a native woman</persName></rs> on <rs><placeName type="island"
+                        key="#i_sn">an island</placeName></rs> opposite <placeName type="region"
+                     key="#re_socal">Southern California</placeName>.</span></p>
+            <p><rs><persName type="group" key="#aji; #ndur; #misfats">The Catholic Fathers at South
+                     [Santa] Barbara</persName></rs> were transporting <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  natives</orgName></rs> of the <placeName type="island" key="#i_sn">Island St.
+                  Nicholas</placeName> to <rs><placeName type="region" key="#re_mld">the
+                     mainland</placeName></rs>. Among them was <rs><persName type="nativeamerican"
+                     key="#lw">a mother</persName></rs> who discovered that <rs><persName
+                     type="nativeamerican" key="#lwchild">her babe</persName></rs> had been left
+               behind. She begged that <rs><name type="ship" key="#sh_peoresnada">the
+                  ship</name></rs> might be put back, but <rs><persName type="group"
+                     key="#chu; #isp">the captain</persName></rs> refused. <span type="trope" n="9"
+                  >She leaped into the sea to swim ashore, but, as a storm prevailed, they all
+                  thought she was drowned.</span></p>
+            <p><rs><date when="1853">Eighteen years after</date></rs>, <persName type="group"
+                  key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">a company</persName> landed
+               on <rs><placeName type="island" key="#i_sn">the island</placeName></rs>. They found
+               traces of life, and after long search discovered <rs><persName type="nativeamerican"
+                     key="#lw">the woman</persName></rs>, and took her with them. <rs><persName
+                     type="nativeamerican" key="#lw">The poor mother</persName></rs> never found
+                     <rs><persName type="nativeamerican" key="#lwchild">her babe</persName></rs>,
+               but had managed to live in comparative comfort, though very lonely. <span
+                  type="trope" n="3"> After her long life chiefly in the open air, she could not
+                  bear the confinement of a house, and soon sickened and died.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>
