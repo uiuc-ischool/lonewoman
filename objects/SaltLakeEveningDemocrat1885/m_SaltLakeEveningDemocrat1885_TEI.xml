@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <title type="newspaper"><orgName type="publication"
+                                          key="#saltlakeevdem">Salt Lake Evening
+                                    Democrat</orgName></title>
+                              <publisher/>
+                              <editor/>
+                              <biblScope unit="volume"/>
+                              <biblScope unit="issue"/>
+                              <date when="1885-07-14"/>
+                              <pubPlace><placeName type="city" key="#ci_slc">Salt Lake
+                                          City</placeName>, <placeName type="state" key="#st_utah"
+                                          >Utah</placeName></pubPlace>
+                              <bibl>
+                                    <title type="article" key="#SaltLakeEveningDemocrat1885">A
+                                          Feminine Crusoe</title>
+                                    <biblScope unit="page" n="1"/>
+                                    <author><persName type="author" key="#dne"/></author>
+                              </bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican"
+                                                  key="#lw">A FEMININE
+                                    CRUSOE</persName></rs></hi></title><title type="sub"><hi
+                                          rend="bold">How She Lived <rs><date from="1835" to="1853"
+                                                  >Eighteen Years</date></rs> on a <rs><placeName
+                                                  type="island" key="#i_sn">Desert
+                                                  Island</placeName></rs>.</hi></title></head>
+                        <p>Seventy miles from <rs><placeName type="region" key="#re_mld">the
+                                          shore</placeName></rs> is <rs><placeName type="island"
+                                          key="#i_sn">San Nicolas island</placeName></rs>, the sixth
+                              of <rs><placeName type="island" key="#i_chi">the
+                                    group</placeName></rs> that clusters around the bay of
+                                    <placeName type="city" key="#ci_sb">Santa Barbara,
+                                    California</placeName>. It is celebrated for having been the
+                              residence for <rs><date from="1835" to="1853">eighteen
+                                    years</date></rs> of "<rs><persName type="nativeamerican"
+                                          key="#lw">The Lost Woman of San Nicolas</persName></rs>."
+                              As her name is famous, and as her story has been told in romance, I
+                              will give the bare facts about her as I found them to be, without any
+                              added ornament, and leave the fiction to the pen of the novelist.</p>
+                        <p>The <placeName type="island" key="#i_sn">island of San
+                                    Nicolas</placeName> was once densely populated. This is attested
+                              by the skulls and bones and other evidence of human abode that are
+                              found there. The <rs><orgName type="group"
+                                          key="#rfurcompany; #natam_aleuts; #natam_kodiak">Alaska
+                                          Indians</orgName></rs> frequently visited <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs> to
+                              hunt for the furs of the sea-otter. They took their women with them on
+                              these hunts, and on returning after the hunt was over they left them
+                              on <rs><placeName type="island" key="#i_sn">the
+                                    island</placeName></rs> to their fate. By order of <rs><orgName
+                                          type="government" key="#gov_mexico">the
+                                          Government</orgName></rs>, in <date when="1835"
+                                    >1835</date>, <persName type="group" key="#bhagruop">the
+                                    Indians</persName> were removed from <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs>.
+                                    <span type="trope" n="7">Just before they were to embark, and
+                                    carry away every human inhabitant, as was supposed,
+                                                <rs><persName type="nativeamerican" key="#lw">a
+                                                white Indian woman</persName></rs> begged the
+                                    privilege of going ashore for <rs><persName
+                                                type="nativeamerican" key="#lwchild">her
+                                                child</persName></rs>, which she had accidentally
+                                    left.</span> She was gone a long time in a fruitless search for
+                                          <rs><persName type="nativeamerican" key="#lwchild">her
+                                          offspring</persName></rs>. The wind blew a gale, the water
+                              was shallow; there was no one who was seeking <rs><persName
+                                          type="nativeamerican" key="#lw">the lost
+                                    one</persName></rs>. They set sail, intending to return for
+                                          <rs><persName type="nativeamerican" key="#lw">the lost
+                                          woman of San Nicolas</persName></rs>, but <rs><name
+                                          type="ship" key="#sh_peoresnada">the boat</name></rs>
+                              becoming unseaworthy, she was left to her fate. It was generally known
+                              that there was <rs><persName type="nativeamerican" key="#lw">a
+                                          woman</persName></rs> abandoned on <rs><placeName
+                                          type="island" key="#i_sn">the island</placeName></rs>, but
+                              no attempt was made for her deliverance. As the world soon forgets, so
+                                          <rs><persName type="nativeamerican" key="#lw">the woman of
+                                          San Nicolas</persName></rs> was forgotten, and the years
+                              passed away. <span type="trope" n="4"><rs><date when="1851">After a
+                                                lapse of sixteen years</date></rs>
+                                    <rs><persName type="frontiersman" key="#gni">a
+                                          man</persName></rs> who landed on <rs><placeName
+                                                type="island" key="#i_sn">the
+                                          island</placeName></rs> found that it was inhabited by
+                                    some one. The footprints of a human being sunk deep in the
+                                    ground were seen. The hardness of the ground was an indication
+                                    that they had been made a long time. From their size they
+                                    evidently belonged to <rs><persName type="nativeamerican"
+                                                key="#lw">a woman</persName></rs>. Circular
+                                    inclosures made of brush, six or seven feet through, were seen,
+                                    where some one had lived. Near the huts were sticks driven in
+                                    the ground and dried blubber hanging on them, thus prepared for
+                                    food.</span></p>
+                        <p><span type="trope" n="4">In <date when="1852">1852</date>
+                                    <placeName type="island" key="#i_sn">San Nicolas</placeName> was
+                                    visited again and another hunt was made for <rs><persName
+                                                type="nativeamerican" key="#lw">the long-lost
+                                                woman</persName></rs>. The huts were seen that had
+                                    been seen before, but the old blubber had been taken away, and
+                                    new food of the kind hung in its place. Wild dogs were found
+                                    which ran away at the approach of civilized men. In a basket
+                                    covered with sealskins that they found in a bush-heap was a
+                                    dress made of shag skins, cut in square pieces, a rope made of
+                                    sinew and several smaller articles, such as fishhooks and bone
+                                    needles. <rs><persName key="#gni; #tje; #nativeamericans">The
+                                                discoverers of these proofs</persName></rs> that
+                                    there lived on <rs><placeName type="island" key="#i_sn">that
+                                                island</placeName></rs> a human being, scattered
+                                    them on the ground, and on their return they found them gathered
+                                    together and placed in the basket again.</span></p>
+                        <p><span type="trope" n="4"><rs><persName type="group"
+                                                key="#ndur; #jru; #aji; #sanchez; #misfats">The
+                                                Catholic fathers of the "Old
+                                          Mission,"</persName></rs> the foremost in every good word
+                                    and work, offered a reward to anyone who would find
+                                                <rs><persName type="nativeamerican" key="#lw">the
+                                                lost woman</persName></rs>, and a third effort was
+                                    made in <date when="1853">1853</date> to discover <rs><persName
+                                                type="nativeamerican" key="#lw">the
+                                                prodigal</persName></rs> about whom there was such a
+                                    mystery and in whom the world of <rs><placeName type="region"
+                                                key="#re_calcoast">this coast</placeName></rs> was
+                                    beginning to take an interest. Fresh tracks of <rs><persName
+                                                type="nativeamerican" key="#lw">the
+                                          woman</persName></rs> were found. They belonged to very
+                                    small feet, and were like those that were seen in the first
+                                    attempt to find <rs><persName type="nativeamerican" key="#lw"
+                                                >the woman</persName></rs>. Huts made of whale ribs
+                                    and covered with brush were discovered. At length an object was
+                                    seen in the distance that appeared to be moving. <span
+                                          type="trope" n="1">Going toward it they saw <rs><persName
+                                                  type="nativeamerican" key="#lw">the
+                                                  woman</persName></rs> that for <rs><date
+                                                  from="1835" to="1853">eighteen years</date></rs>
+                                          had reigned <rs><persName type="nativeamerican" key="#lw"
+                                                  >queen of San Nicolas</persName></rs>, her
+                                          subjects being the wild animals, her robe a dress of
+                                          birdskins she had made, and her throne the hut she had
+                                          built. She was seated in an inclosure, so that only head
+                                          and shoulders could be seen. Two or three dogs were about
+                                          her that disappeared at the command of <rs><persName
+                                                  type="nativeamerican" key="#lw">their
+                                                  sovereign</persName></rs>. She was seated on some
+                                          grass that covered the ground and served her as a bed. Her
+                                          dress was neatly made of birdskins, extending to her
+                                          ankles, the feathers of which were pointed downward. Her
+                                          head was covered with a thick mat of yellowish-brown hair,
+                                          and her shoulders were bare. She was occupied in stripping
+                                          blubber from a piece of sealskin which she held across her
+                                          knee, and using for that purpose a knife made of an iron
+                                          hoop. In her hut was a fire, beside which she sat, talking
+                                          to herself, and, occasionally shading her eyes with her
+                                          hand, looked at the men that were in search of
+                                    her.</span></span></p>
+                        <p><span type="trope" n="1"><span type="trope" n="4"><span type="trope"
+                                                n="3">She received them with much courtesy, bowing
+                                                and smiling and showing that <rs><persName
+                                                  type="nativeamerican" key="#lw">this lost child of
+                                                  nature</persName></rs> had much of the politeness
+                                                of a true woman.</span> She took some roots in the
+                                          bag, roasted them in the fire, and gave them to
+                                                  <rs><persName type="group"
+                                                  key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                  >the men</persName></rs> to eat.</span> She
+                                    gathered up all her food, which was her chief concern, owing to
+                                    the famines she had experienced, washed herself at the spring,
+                                    and followed <rs><persName
+                                                key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >the men</persName></rs> cheerfully to <rs><name
+                                                type="ship" key="#sh_nidever">the
+                                    boat</name></rs>.</span> On being taken to <placeName
+                                    type="city" key="#ci_sb">Santa Barbara</placeName> she
+                              manifested great delight on seeing the sights of civilization. She
+                              became a universal favorite, and was presented with many gifts.
+                              Passengers on <rs><name type="ship" key="#sh_panama">the Panama
+                                          steamer</name></rs> that landed there all wanted to see
+                                          <rs><persName type="nativeamerican" key="#lw">the lost
+                                          woman of San Nicolas</persName></rs>. She related by signs
+                              her experience on <rs><placeName type="island" key="#i_sn">the
+                                          island</placeName></rs>, as she spoke a language that none
+                              of the Indians knew and none of <rs><persName type="group"
+                                          key="#jru; #aji; #sanchez; #misfats">the Spanish
+                                          fathers</persName></rs>, versed in Indian dialects, could
+                              understand. <span type="trope" n="3">Civilization, which prolongs the
+                                    life of some, shortened that of <rs><persName
+                                                type="nativeamerican" key="#lw">the woman of San
+                                                Nicolas</persName></rs>. An excessive love of fruit
+                                    led to her death in <placeName type="city" key="#ci_sb">Santa
+                                          Barbara</placeName> at the age of 50.</span> She was
+                              buried with the honors of <orgName type="church" key="#ch_catholic"
+                                    >the Catholic church</orgName> by <rs><persName type="group"
+                                          key="#jru; #aji; #sanchez; #misfats">Franciscan
+                                          fathers</persName></rs>, and her dress and trinkets were
+                              sent to <placeName type="city" key="#ci_rom">Rome</placeName> and
+                              placed in <rs><orgName type="museum" key="#mu_vaticanmuseum">that
+                                          receptacle of the world's curiosities</orgName></rs>.</p>
+                        <p><span type="trope" n="5">The story of <rs><persName type="nativeamerican"
+                                                key="#lw">the lost woman of San
+                                          Nicolas</persName></rs> will always remain a wonderment.
+                                    Her ingenuity is seen in the pails she made of grass, made to
+                                    hold water by smearing them with melted asphaltum, and in her
+                                    bird-skin dresses, her bone needles, her knife of iron hoop and
+                                    the language she invented and spoke. It is inexplicable to all
+                                    who have learned her story how a woman could live <rs><date
+                                                from="1835" to="1853">eighteen years</date></rs> on
+                                    an island around which the waves were beating a requiem to hope,
+                                    getting her food and cooking it without even those facilities
+                                    which are common to the savage, and making her dresses neatly
+                                    without the aid of needles except what she carved out of
+                                    bone.</span>
+                              <span type="trope" n="1">She laid aside one dress for <rs><date
+                                                from="1835" to="1853">eighteen years</date></rs>, to
+                                    be worn when the white men should come, of which she had a
+                                    presentiment. She built her own house, protected herself from
+                                    the cold, gained supreme control over the wild beasts about her
+                                    and preserved her love for men and women for well nigh two
+                                    decades of human life alone in the wild. With no previous
+                                    knowledge of civilization, solitude appeared to have educated
+                                    her for it. An ordinary woman would have perished with
+                                    despondency in such a desolate, hungry, naked, shelterless
+                                    outlook.</span></p>
+                  </div>
+            </body>
+      </text>
+</TEI>

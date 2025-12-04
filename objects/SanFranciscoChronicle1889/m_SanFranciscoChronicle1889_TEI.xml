@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#sfchronicle">San
+                            Francisco Sunday Chronicle </orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume">49</biblScope>
+                    <biblScope unit="issue">47</biblScope>
+                    <date when="1889-03-03"/>
+                    <pubPlace/>
+                    <bibl>
+                        <title type="article" key="#SanFranciscoChronicle1889">"The Channel Isles.
+                            California's Solitary Archipelago. Cabrillo's Unkown Grave. History and
+                            Description of the Santa Barbara Islands." </title>
+                        <biblScope unit="page" n="8"/>
+                        <author/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">THE <placeName type="island" key="#i_chi"
+                                >CHANNEL ISLES</placeName>.</hi></title>
+                    <title type="sub"><hi rend="bold"><rs><placeName type="island" key="#i_chi"
+                                    >California's Solitary
+                        Archipelago</placeName></rs>.</hi></title>
+                    <title type="sub"><hi rend="bold">CABRILLO'S UNKNOWN GRAVE History and
+                            Description of the <rs><placeName type="isand" key="#i_chi">Santa
+                                    Barbara Islands</placeName></rs>. </hi></title></head>
+                <p>Written for <orgName type="publication" key="#sfchronicle">the
+                        CHRONICLE</orgName>.</p>
+                <p>No one who examines a map of <placeName type="state" key="#st_cal"
+                        >California</placeName> can fail to remark how singularly few are the
+                    islands lying along <rs><placeName type="region" key="#re_calcoast">its
+                            coast</placeName></rs>. From <placeName type="city" key="#ci_sd">San
+                        Diego</placeName> clear up to <placeName type="region" key="#re_psg">Point
+                        St. George</placeName>, close up to the <placeName type="state" key="#st_or"
+                        >Oregon</placeName> boundary line, there are but two groups of islands,
+                            <rs><placeName type="island" key="#i_chi">those of the Santa Barbara
+                            channel</placeName></rs> and <rs><placeName type="island" key="#i_far"
+                            >the Farallones</placeName></rs>, lying southwest of <placeName
+                        type="region" key="#re_sfbay">San Francisco bay</placeName>[.] Not only are
+                    these the only two groupes [sic], but the islands forming them are all that
+                        <placeName type="state" key="#st_cal">California</placeName> can claim. Of
+                    these two groups the <placeName type="island" key="#i_chi">Channel
+                        islands</placeName> are really the only ones that deserve the name,
+                        <placeName type="island" key="#i_far">the Farallones</placeName> being but a
+                    collection of rocky islets. Notwithstanding this fact <rs><placeName
+                            type="island" key="#i_far">the southern group</placeName></rs> is to
+                    most people a terra incognita, yet neither its history nor its description is
+                    devoid of interest, as it is believed the present article will show.</p>
+                <p>First, then, as to the history of the <placeName type="island" key="#i_chi"
+                        >Channel islands</placeName>. <persName type="author" key="#gda">Professor
+                        George Davidson</persName> is of the opinion as are others that they were
+                    first discovered by <persName type="seaman" key="#jca">[C]abrill[o</persName>,]
+                    the Spanish navigator. In <date when="1542">1542</date>, an opinion with which
+                        <persName type="author" key="#hba">Bancroft</persName> coincides, although
+                    he doubts whether the date of discovery usually given (<date when="1542-09"
+                        >September, 1542</date>) does not reall[y] […]er to <placeName type="island"
+                        key="#i_lc">the Coronades</placeName> three de[sert] islands just below
+                        <placeName type="city" key="#ci_sd">San Diego</placeName>. According to
+                        <persName type="author" key="#hba">Bancroft</persName> the first [sigh]ting
+                    of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs> by
+                        <persName type="seaman" key="#jca">Cabr[illo]</persName> was in this wise[.]
+                    Leaving <placeName type="island" key="#i_sm">San [Mig]uel</placeName>
+                        (<placeName type="city" key="#ci_sd">San Diego</placeName>) <date
+                        when="1542-10-03">October 3d [3rd]</date> [he sailed] three days, or about
+                    eightee[n] leagues, along a c[oas]t of valley [and] plain[s] and s[m]okes, with
+                    high mountains in the interior, until he came to <rs><placeName type="region"
+                            key="#re_sbchannel">a channel</placeName></rs> formed by <placeName
+                        type="region" key="#re_mld">the mainland</placeName> and <rs><placeName
+                            type="island" key="#i_chi">a group of islands</placeName></rs> some
+                    seven leagues out[.] To the two largest islands he gave the names o[f] two of
+                    his vessels, the <name type="ship" key="#sh_salvador">San Salvador</name> a[nd]
+                        <name type="ship" key="#sh_lavictoria">La Victoria</name>, names which were
+                    afterward respectively supplanted by those of <placeName type="island"
+                        key="#i_scl">San Clemente</placeName> and <placeName type="island"
+                        key="#i_scatalina">Santa Catalina</placeName>. Both these islands appeared
+                    to be thickly populated, <orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">the inhabitants</orgName> showing themselves by
+                    turns timid and hostile. The Spaniards, however, appeased them by signs, and,
+                    some of them venturing off in a canoe to receive gifts, <persName type="seaman"
+                        key="#jca">Cabrillo</persName> returned with them and landed on
+                            <rs><placeName type="island" key="#i_scatalina">the
+                        island</placeName></rs> on or about <date when="1542-10-06">October 6,
+                        1542</date>. Next day they crowded over to <placeName type="region"
+                        key="#re_mld">the mainland</placeName>, and after remaining there four days
+                    proceeded further up the channel. On <date when="1542-10-13">the 13th</date>
+                    they anchored off the islands of <placeName type="island" key="#i_an">Anacopa
+                        [Anacapa]</placeName> and <placeName type="island" key="#i_scruz">Santa
+                        Cruz</placeName>, and then, on the <rs><date when="1542-10-15"
+                        >1[5]th</date></rs>, they sailed past <placeName type="island" key="#i_sr"
+                        >Santa Rosa</placeName>, naming it San Lucas, and so passed out of
+                        <placeName type="region" key="#re_sbchannel">the channel</placeName> without
+                    apparently discovering either <placeName type="island" key="#i_sn">San
+                        Nicholas</placeName> or <placeName type="island" key="#i_sm">San
+                        Miguel</placeName>.</p>
+                <p>"The narrative of what <persName type="seaman" key="#jca">Cabrillo</persName>
+                    said on the shores and <rs><placeName type="island" key="#i_chi">islands of the
+                            Santa Barbara channel</placeName></rs>," says <persName type="author"
+                        key="#hba">Bancroft</persName>, "except a uniform exaggeration in the size
+                    of <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>, and
+                    confusion in locating them, agrees very well with the truth as revealed by later
+                    mission annals, and by the relics exhumed in late years by antiquarians. <span
+                        type="trope" n="3">The region was certainly inhabited in early times by
+                                <rs><orgName type="group"
+                                key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                                >people</orgName></rs> who used canoes, lived main[l]y by fishing
+                        and were much superior in many respects to most other natives of
+                        California.</span> There was a tendency at first," he adds, "as is usual in
+                    such cases, to ascribe the channel relies [relics] to a prehistoric race, but
+                    nothing indicating such an origin has ever been found there."</p>
+                <p>After pushing north as far as <placeName type="region" key="#preyes">Point
+                        Reyes</placeName>, <persName type="seaman" key="#jca">Cabrillo</persName>
+                    and his fleet returned southward, and on the <date when="1542-11-23">23rd of
+                        November</date> re-entering the channel from the north discovered <placeName
+                        type="island" key="#i_sm">San Miguel</placeName>, which they named Posesion.
+                    Here they found a good harbor, now known as <placeName type="region"
+                        key="#re_cuylerharbor">Cuyler's Harbor</placeName>, and <persName
+                        type="seaman" key="#jca">Cabrillo</persName> being ill from the effects of a
+                    fall received in <date when="1542-10">October</date> and subsequent exposure, it
+                    was determined to winter there. <persName type="seaman" key="#jca"
+                        >Cabrillo</persName> died <date when="1543-02-03">January 3, 1543</date>,
+                    and was buried on <placeName type="island" key="#i_sm">San Miguel</placeName>
+                    near the harbor shore. No trace of his last resting place has, however, been
+                    found, and the drifting sands have perhaps made such a discovery doubtful.
+                        <persName type="seaman" key="#jca">Cabrillo</persName> was a Portuguese
+                    navigator in the Spanish service, of whom nothing is known beyond the skill and
+                    bravery displayed on this expedition, and the fact that his reputation was
+                    believed to justify his appointment as commander. As the burial place of
+                        <persName type="seaman" key="#jca">Cabrillo</persName>, <placeName
+                        type="island" key="#i_chi">the Channel islands</placeName>, then, have at
+                    least one claim to historical value, while to this bold mariner, <persName
+                        type="seaman" key="#jca">Juan Rodrigues Cabrillo</persName>, the first to
+                    discover her coasts, if to any one, <placeName type="state" key="#st_cal"
+                        >California</placeName> might with propriety erect a monument.</p>
+                <p>It may be added that numerous unsuccessful searches have been made to discover
+                    Cabrillo's grave. In <date when="1875">1875</date> Messrs. <persName
+                        type="author" key="#ata">Taylor</persName> and <persName type="frontiersman"
+                        key="#gni">Nidever</persName> and <rs><persName key="#alden">Admiral
+                            Alder</persName></rs> found the pits on a level near <placeName
+                        type="region" key="#re_cuylerharbor">Cuyler's harbor</placeName>, about ten
+                    feet in diameter, which they believed were the resting places of <persName
+                        type="seaman" key="#jca">Cabrillo</persName> and some of his men, but no
+                    bones were found. Everything, indeed, seems to have conspired to efface the
+                    memory of <persName type="seaman" key="#jca">Cabrillo</persName>. When dying he
+                    gave over the command to <persName type="seaman" key="#bfe">Bartolome
+                        Ferraio</persName>, his Levantine pilato mayor, and Ferraio's first act was
+                    to change the name of <rs><placeName type="island" key="#i_sm">the
+                            island</placeName></rs> from Posesion to Juan Rodrigues in honor of
+                            <rs><persName type="seaman" key="#jca">his late master</persName></rs>,
+                    but even that name has been taken away from <rs><placeName type="island"
+                            key="#i_sm">his island monument</placeName></rs>.</p>
+                <p>The man who performed this act of vandalism was that great name-changer <persName
+                        type="seaman" key="#svi">Sebastian Vizca[in]no</persName>, who, with a
+                    Spanish exploring fleet of three
+                    vessels<!--If we ever know for sure, it would be cool to have these-->, anchored
+                    in <placeName type="city" key="#ci_sd">San Diego</placeName> bay <date
+                        when="1603-11-10">November 10, 1603</date>. It had been sixty years since
+                        <persName type="seaman" key="#jca">Cabrillo</persName> had visited
+                            <rs><placeName type="city" key="#ci_sd">this bay</placeName></rs> and
+                    named it <placeName type="island" key="#i_sm">San Miguel</placeName>, but here
+                    as elsewhere on the <placeName type="region" key="#re_calcoast">California
+                        coast</placeName>
+                    <persName type="seaman" key="#svi">Vizcaino</persName> paid no heed to the
+                    disoveries of his predecessor. He named everything anew, and when he reached the
+                        <placeName type="region" key="#re_sbchannel">Santa Barbara
+                        channel</placeName>, with <rs><placeName type="island" key="#i_chi">its
+                            islands</placeName></rs>, he simply expunged every previous name and set
+                    up a completely new nomenclature of his own. <persName type="seaman" key="#gva"
+                        >Vancouver</persName> played a somewhat similar trick on <persName
+                        type="seaman" key="#svi">Vizcaino</persName> in <date when="1703"
+                        >1703</date>, and other navigators followed the same cheerful plan of
+                    rechristening everything, so that but very few of Vizcaino's original names have
+                    remained. <persName type="seaman" key="#svi">Viscaino</persName> [Vizcaino] only
+                    seems to have touched at <placeName type="island" key="#i_scatalina">Santa
+                        Catalina</placeName>, which he describes as having a large population of
+                    fishermen and [t]raders, who had large, well-built canoes and houses. They had
+                    no fear and were friendly, though skillful thieves. <persName
+                        type="missionfather" key="#asc">Padre de la Ascencion</persName>, who
+                    accompanied this expedition, gives very particular descriptions of a temple to
+                    the sun, to which they sacrificed birds, together with a quantity of images and
+                    [id]ols set up along the shore.</p>
+                <p>After this <rs><placeName type="island" key="#i_chi">the islands</placeName></rs>
+                    became well-known landmarks to those composing the various expeditions, both lay
+                    and clerical, and intercourse with <rs><placeName type="island" key="#i_chi">the
+                            islands</placeName></rs> became a common thing. The inevitable result
+                    was not long delayed. <rs><orgName type="group"
+                            key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash">The
+                            poor natives</orgName></rs> disappeared with pitiful rapidity. When
+                        <persName type="seaman" key="#shaler">Captain William Shaler</persName>
+                    touched as <placeName type="island" key="#i_scatalina">Santa
+                        Catalina</placeName> in his trading schooner in <date when="1804"
+                        >1804</date> he counted the number of inhabitants at 160, and when <persName
+                        key="#arril">Governor Arrillaga</persName> made his biennial report in <date
+                        when="1805">1805</date> he reported that the group had been visited by the
+                    "sarampion," or measles, which had carried off over 200 natives on two islands
+                    alone[.] Then came <rs><persName type="org"
+                            key="#1814huntingparty; #rfurcompany; #iba; #natam_aleuts; #natam_kodiak"
+                            >the Russians and Aleuts</persName></rs> on their otter-hunting
+                    expeditions, quarrels and massacres, until in <date when="1815"
+                        >1815</date> the few survivors took refuge in <orgName type="mission"
+                        key="#mi_mainlandmissions">the Channel missions</orgName>, leaving one
+                        <persName key="#lw">old woman</persName> on <placeName type="island"
+                        key="#i_sm">San Miguel</placeName> as the solitary relic of one of the most
+                    numerous and certainly the most interesting tribes of California Indians.
+                            <rs><placeName type="island" key="#i_chi">The islands</placeName></rs>
+                    passed into the possession of favored Spaniards, and from them were purchased
+                    and variously [secured] by their present owners, who use them for grazing and
+                    sheep ranches[.]</p>
+                <p>Archæologically spea[k]ing <placeName type="island" key="#i_chi">the Channel
+                        Islands</placeName> have not proved a very rich field, although some very
+                    interesting antiquarian relics have bee[n] gathered up by <persName
+                        type="author" key="#psc">Mr[.] Schumacher</persName> for <orgName
+                        type="museum" key="#mu_nationalmuseum">the National Museum</orgName>, by
+                    several [Euro]pean expeditions for their various [gov]ernments and by a number
+                    of privat[e] explorations[.] Entire skeletons of [In]dians have been found in
+                    many of the caves with which <rs><placeName type="island" key="#i_chi">the
+                            islands</placeName></rs> abound[.] The signs of their rancherias to[o]
+                    were formerly very frequent and the remains of metates, mo[r]tars and various
+                    ute[n]sils quite [c]ommon.</p>
+                <p>Next, as to the description of <rs><placeName type="island" key="#i_chi">the
+                            islands</placeName></rs>. Notwithstanding the many visits by navigators,
+                    the fact remains that until <rs><orgName key="#uscoastsurvey">the Coast
+                            Survey</orgName></rs> first examined them nothing a[ccu]rate was known
+                    of their number[,] peculiaritie[s,] exten[t], or position[.] Upon all maps of as
+                    recent date as <date when="1850">1850</date> a mythical island [c]al[l]ed San
+                    Juan was laid down, and upon a map of <rs><placeName type="country"
+                            key="#co_mex">the republic of Mexico</placeName></rs>, co[mpiled] in
+                        <placeName type="country" key="#co_usa">the United States</placeName> and
+                    dated <date when="1847">1847</date>, there are set down no less than twelve
+                    large islands, the positions and extent of which are most grotesquely
+                    erroneous[.] As a good description of <rs><placeName type="island" key="#i_chi"
+                            >the islands</placeName></rs> it may be said that they are of high, bold
+                    and rugged appearance, in many places show precipitou[s] cliffs, and are at
+                    present incapable of sustaining anything except a very sparse population.</p>
+                <p><placeName type="island" key="#i_scl">San Clemente</placeName> is twenty and a
+                    half miles long, with an average breadth of two miles and a circuit of fifty[.]
+                    It is high and bold, the southern end being the higher, and the land gradually
+                    [fall]ing to the northward. At the northwest end is a small indentation forming
+                    an anchorage, but it is anything but a safe and pleasant place in bad northwest
+                    weather, while even in heavy southerly weather there is a disagreeable swell.
+                    Upon the southeast end of <rs><placeName type="island" key="#i_scl">the
+                            island</placeName></rs> is a better anchorage called <placeName
+                        type="region" key="#re_smugglers2">Smugglers' cove</placeName>, a name which
+                    fully indicated its former use. The entire island is a mass of sandstone, which
+                    rises to a vast pyramid at the southeast 1500 feet high[.] The whole surface is
+                    bro[k]en by gulches, without a vestige of wood or a drop of running water.</p>
+                <p><placeName type="island" key="#i_scatalina">Santa Catalina</placeName> is
+                    seventeen and one-half miles long, with an average breadth of four miles and a
+                    circuit of forty-two. It rises to a height of about three thousand feet, and is
+                    remarkable for the great transverse break or depression, running partly through
+                    it, and forming an anchorage or cove at each side[.] The land connecting these
+                    is a low spit not over thirty feet high. A wharf has been built in the cove
+                    facing <placeName type="region" key="#re_mld">the mainland</placeName>, and
+                    small craft can readily find protection from the prevailing winds. The shores
+                    elsewhere are rocky, and on the southern side fearfully abrupt, but on the
+                    northern shore there are several indentations where boats may ride at almost any
+                    season. Deep and precipitous gulches mark the island, but there are several
+                    pleasant valleys where good water has been obtained by sinking wells. Scrub oak
+                    is plentiful, and a growth of chapparel covers almost the entire island[.] It
+                    has been stocked, and several settlers live on <rs><placeName type="island"
+                            key="#i_scatalina">the island</placeName></rs> in charge of the
+                    flocks.</p>
+                <p><placeName type="island" key="#i_sb">Santa Barbara</placeName> is a small island,
+                    having but two miles of shore line. Its elevation at the highest part is about
+                    500 feet, and the top has an area of about thirty acres well covered with soil,
+                    but no water is found, and not a vestige of wood. The shores are rocky and
+                    abrupt, presenting perpendicular cliffs to the full force of the swell on the
+                    northeast and south.</p>
+                <p><placeName type="island" key="#i_sn">San Nicolas</placeName> is the most distant
+                    from the coast of all <rs><placeName type="island" key="#i_chi">the
+                            islands</placeName></rs>, as well as the driest and most sterile. It is
+                    about 600 feet high, abrupt and flattopped. The sides are bold and precipitous,
+                    and composed of coarse sandstone. Its length is eight miles, with an average and
+                    nearly uniform width of three and one-half miles.</p>
+                <p><placeName type="island" key="#i_an">The island of Anacapa</placeName> is in fact
+                    a curiously formed group of three islands, their entire length being five miles.
+                    They are composed of coarse, dark gray sandstone, very rotten and crumbling, the
+                    sides are perpendicular, running up into a number of peaks, one of which is 930
+                    feet high. The whole formation is filled with innumerable cavities, giving it
+                    the appearance of an enormous blackened honeycomb. At the eastern end is found a
+                    very beautiful arch in one of the outlying rocks. The soil is loose and thin,
+                    producing only a few dwarfed species of cactus and a thick-leafed, succulent
+                    plant. Not a drop of water is to be found. <placeName type="island" key="#i_an"
+                        >Anacapa</placeName> is a place of great resort for the seal, sea lion and
+                    formerly the otter, but the latter have been killed off. It was on
+                            <rs><placeName type="island" key="#i_an">this island</placeName></rs>
+                    that the <name type="ship" key="#sh_generalscott">steamer Winfield Scott</name>
+                    ran ashore during a dense fog at midnight on <date when="1853-12-02">December 2,
+                        1853</date>, in calm weather.</p>
+                <p><placeName type="island" key="#i_scruz">Santa Cruz</placeName> is the largest of
+                            <rs><placeName type="island" key="#i_chi">the Channel
+                        group</placeName></rs>, having a length of twenty-one miles, an average
+                    width of four and a circuit of not less than fifty-three. On the northern side
+                    of the island and near the middle the shore makes a moderately deep curve,
+                    forming a ro[…]dstead [roadstead] called <placeName type="region"
+                        key="#re_prisonersharbor">Prisoner's Harbor</placeName>, at the opening of a
+                    valley, where are ple[n]ty of both wood and water. <rs><placeName type="island"
+                            key="#i_scruz">The island</placeName></rs> is bold and about 1700 feet
+                    in height. Its eastern part is extremely irregular, barren and destitute of
+                    water, while the northeastern portion is thickly strewn with large angular
+                    pieces of stone, broken as if with a hammer. Several species of cactus and
+                    course grasses flourish. Small gray foxes used to abound here. <rs><placeName
+                            type="island" key="#i_scruz">The island</placeName></rs> is composed of
+                    coarse, dark-gray sandstone, crumbling and rotten, like that of <placeName
+                        type="island" key="#i_an">Anacapa</placeName>.</p>
+                <p><placeName type="island" key="#i_sr">Santa Rosa</placeName> is in the shape of a
+                    parallelogram, fifteen miles long and ten wide. It has two or three modestly
+                    good anchorages, but the soundings around <rs><placeName type="island"
+                            key="#i_sr">the island</placeName></rs> do not show as deep water as
+                    around the others. It is not so bold as <placeName type="island" key="#i_scruz"
+                        >Santa Cruz</placeName>, but attains an elevation of 1172 feet[.] The hills
+                    are rocky and covered with coarse grass and bushes.</p>
+                <p><placeName type="island" key="#i_sm">San Miguel</placeName> is the most western
+                    of the <placeName type="island" key="#i_chi">Channel islands</placeName>, seven
+                    and one-half miles long, an average breadth of two and one-half miles and a
+                    circuit of twenty-one. Its western extremity is bold and narrow, gradually
+                    increasing in breadth until it attains three and one-half miles. The narrow end
+                    of the island is composed of sand dunes, therein differing from all the other
+                    islan[d]s[.] On the northeast side of <rs><placeName type="island" key="#i_sm"
+                            >the island</placeName></rs> is <placeName type="region"
+                        key="#re_cuylerharbor">Cuyler harbor</placeName> already referred to, where
+                    is good anchorage, and which was named by <orgName key="#uscoastsurvey">the
+                        United States Coast Survey</orgName> in <date when="1852">185[2]</date>
+                    after <persName type="seaman" key="#cuyler">Lieutenant Cuyler</persName>[.]</p>
+                <p>The total extent of <rs><placeName type="island" key="#i_chi">the Santa Barbara
+                            islands</placeName></rs> is 232 miles[.] They are much visited by fogs,
+                    and have a rainy season that commences in the early part of November and
+                    continues until the middle of March, although rainstorms are not infrequent in
+                    the summer[.]</p>
+            </div>
+        </body>
+    </text>
+</TEI>

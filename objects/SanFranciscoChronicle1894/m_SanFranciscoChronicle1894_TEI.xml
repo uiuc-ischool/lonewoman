@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sfchronicle">San Francisco
+                     Chronicle</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">60</biblScope>
+               <biblScope unit="issue">145</biblScope>
+               <date when="1894-12-07"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SanFranciscoChronicle1894">A Romance Of the Sea.
+                     Relics of a Lost Tribe of Indians. The Cruise of the Schooner Alexander.
+                     Upturned Graves of a Once Mighty People on San Nicolas Island</title>
+                  <biblScope unit="page" n="4"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A ROMANCE OF THE SEA</title>
+               <title type="sub">Relics of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">a Lost Tribe of Indians</orgName></rs>.</title>
+               <title type="sub">The Cruise of the <name type="ship" key="#sh_alex">Schooner
+                     Alexander</name>.</title>
+               <title type="sub">Upturned Graves of <rs><orgName type="nativeamericantribes"
+                        key="#natam_NicolenoTongva">a Once Mighty People</orgName></rs> on
+                     <placeName type="island" key="#i_sn">San Nicolas
+               Island</placeName>.</title></head>
+            <p>The <name type="ship" key="#sh_alex">schooner Alexander</name>, <persName
+                  type="seaman" key="#scott">Captain Scott</persName>, arrived in port from an
+               otter-hunting trip along <placeName type="region" key="#re_socalcoast">the southern
+                  coast</placeName>
+               <rs><date when="1894-12-01">last Saturday</date></rs>. <span type="trope" n="5"><span
+                     type="trope" n="6">The last point at which <persName type="seaman" key="#scott"
+                        >Captain Scott</persName> touched was <placeName type="island" key="#i_sn"
+                        >San Nicolas island</placeName>, and he brought from there many curious
+                     relics of an ancient race of Indians.</span></span></p>
+            <p><placeName type="island" key="#i_sn">San Nicolas island</placeName> is the most
+               southwesterly of <rs><placeName type="island" key="#i_chi">the little group off Santa
+                     Barbara</placeName></rs>, and it is many years since vessels have touched
+               there. <persName type="seaman" key="#scott">Captain Scott</persName> describes the
+               place as one of the most barren spots on the earth[,] and yet up to half a century
+               ago it was covered with vegetation and contained soil so rich that the rarest exotics
+               flourished there. Now it is a sandy waste, the only sign of habitation being a
+               flimsy-looking hut of rough boards. <span type="trope" n="7">Twenty of thirty sheep
+                  in a half-starved condition were the only signs of life visible, and on the
+                  hilltops bleaching in the sun were found the bones of hundreds of the ancient
+                  rulers of the island.</span></p>
+            <p>"We put in under the lee of <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>," said <persName type="seaman" key="#scott">Captain
+                  Scott</persName> yesterday, "to get a safe harbor until the weather was propitious
+               for otter hunting. While there I determined to go ashore and see what kind of a place
+               it was. We landed on the beach and the aspect was dreary enough. As far as the eye
+               could reach over hill and lowland there was nothing to be seen but sand and rocks,
+               and a little way off there were twenty or thirty sheep. They looked more like
+               wool-covered skeletons than anything else. One of the men ran after some of the
+               animals, and the latter hobbled about fifty yards and then dropped dead.</p>
+            <p>"<rs><placeName type="island" key="#i_sn">The island</placeName></rs> is about ten
+               miles long and five miles wide, and not a bit of soil is to be seen. There had been
+               soil there once, but the sheep had dug up the grass by the roots and the wind blew
+               the sand up all over <rs><placeName type="island" key="#i_sn">the
+                  island</placeName></rs>.<span type="trope" n="7"><span type="trope" n="5">We went
+                     to the top of a little hill and there saw a most curious sight. Evidently this
+                     had been the graveyard of the former inhabitants, but no cross or monument
+                     marked the spot of burial.</span></span></p>
+            <p>"<span type="trope" n="7"><span type="trope" n="5">The wind had swept up the [s]and
+                     and left bare the bones of the dead. All around us were grinning skulls and
+                     whitened skeletons, and the whistling wind, as it soughed through the little
+                     hills and valleys, lent a weird aspect to the scene. We gazed on the remains of
+                     what had been mighty specimens of manhood, for the size of the bones showed
+                     that the proportions of the dead men must have been immense. I am over six feet
+                     in height, and a number of thigh bones I measured extended far below my
+                     knee.</span></span></p>
+            <p>"<span type="trope" n="7"><span type="trope" n="5">I picked up this club," said
+                           <rs><persName type="seaman" key="#scott">the captain</persName></rs>,
+                     exhibiting a heavy bar of sandstone. "It is evidently a war club, which was
+                     used hundreds of years ago, and you can tell by its heft that it required a
+                     pretty strong man to wield it[.] "Here [sic] is a mortar and pestle which I
+                     also picked up[.] There were a number of them scattered about <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs>. They were probably
+                     the property of the medicine men of <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the tribe</orgName></rs>.</span></span></p>
+            <p>"<span type="trope" n="7"><span type="trope" n="5">I have heard that the name of
+                           <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           tribe</orgName></rs> never could be learned and that but little is known
+                     about <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                           Indians</orgName></rs>. The people living in and about <placeName
+                        type="city" key="#ci_sb">Santa Barbara</placeName> in years [g]one by could
+                     not understand their language and so never were able to find out much about
+                     them.</span></span><rs><date when="1864">Thirty years ago</date></rs>
+               <persName type="frontiersman" key="#gni">Captain Nidever</persName> went to
+                  <placeName type="island" key="#i_sn">San Nicolas</placeName> in <rs><name
+                     type="ship" key="#sh_peoresnada">a schooner</name></rs> and took off what was
+               left of <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     tribe</orgName></rs>. There were only fifteen there[,] one of the number being
+                     <rs><persName type="nativeamerican" key="#lw">a woman</persName></rs>. If
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     men</orgName></rs> had been warriors in times gone by their martial spirit was
+               then diminished, for they offered no resistance. When all hands were aboard and the
+               anchor was about to be weighed <rs><persName type="nativeamerican" key="#lw">the
+                     woman</persName></rs> [s]ignified that she wanted to go ashore and made
+                     <rs><persName type="group" key="#chu; #isp">the captain</persName></rs>
+               understand that <rs><persName type="nativeamerican" key="#lwchild">her
+                     papoose</persName></rs> had been left behind. She was rowed ashore, and as soon
+               as her feet touched the beach she sped away like a deer[.] She was a woman fully six
+               feet in height, comely and well formed, and built in proportion. After an unavailing
+               search for several hours the men returned to <rs><name type="ship"
+                     key="#sh_peoresnada">the vessel</name></rs>.</p>
+            <p>"<rs><persName type="nativeamerican" key="#lw">The woman</persName></rs> remained on
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for
+                     <rs><date from="1864" to="1874">ten years</date></rs> after that, although
+               several hunting parties went after her at different times from <placeName type="city"
+                  key="#ci_sb">Santa Barbara</placeName>. She lived in <placeName type="region"
+                  key="#re_lwcave">a cave</placeName>, subsisting on the mussels and abalones which
+               she gathered fro[m] the rocks. Finally she was caught[,] <rs><persName type="group"
+                     key="#gni; #cdi; #col; #cook; #msh; #poli; #nsk; #hva">her
+                  pursuers</persName></rs> having got on her trail and followed her to
+                     <rs><placeName type="region" key="#re_lwcave">her cavern home</placeName></rs>.
+                  <span type="trope" n="3">She was taken to <placeName type="city" key="#ci_sb"
+                     >Santa Barbara</placeName>, but civilization was too much for her and she died
+                  in a few months. She refused to sleep in a b[e]d, preferring the floor, and she
+                  used to play about the place like a child.</span>"</p>
+            <p>The war-club which <persName type="seaman" key="#scott">Captain Scott</persName>
+               brought up with him is twenty-four inches in length, nine inches in diameter at one
+               end and five inches at the handle. The mortar is thirteen inches in diameter and the
+               pestle is about half the size of the club. The mortar has the appearance of having
+               been hollowed out by the continual pounding of the pestle. Among the other relics of
+                     <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                     tribe</orgName></rs>
+               <persName type="seaman" key="#scott">Scott</persName> has a flint arrow-head about
+               two inches in length and sharp as a needle at the point. He also has two flint balls
+               with holes through them. He thinks that they are part of a three-ball catchall
+               similar to that used by the Patagonians. The instrument of the latter consists of
+               three balls, to which are attached strings[.] The latter meet and are fastened to a
+               long leash or rope, and when thrown at a horse, a bird or a man, if they strike the
+               object, the strings wind around and around, holding the victim as tightly as a fish
+               in the mes[h]es of a net.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

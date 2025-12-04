@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sfchronicle">San Francisco
+                     Chronicle</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">57</biblScope>
+               <biblScope unit="issue">176</biblScope>
+               <date when="1893-07-10"/>
+               <pubPlace><placeName key="#dne"/></pubPlace>
+               <bibl>
+                  <title type="article" key="#SanFranciscoChronicle1893_Jul10">A Female Crusoe.
+                     Story of the Lost Woman of San Nicholas. She Returned for Her Child and Spent
+                     Twenty Years on the Island</title>
+                  <biblScope unit="page" n="1"/>
+                  <author/>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main">A <rs><persName type="nativeamerican" key="#lw">FEMALE
+                        CRUSOE</persName></rs>.</title>
+               <title type="sub">STORY OF <rs><persName type="nativeamerican" key="#lw">THE LOST
+                        WOMAN</persName></rs> OF <persName type="island" key="#i_sn">SAN
+                     NICOLAS</persName>.</title>
+               <title type="sub">She Returned for <persName type="nativeamerican" key="#lwchild">Her
+                     Child</persName> and Spent <rs><date from="1836" to="1856">Twenty
+                     Years</date></rs> on <rs><placeName type="island" key="#i_sn">the
+                        Island</placeName></rs>.</title></head>
+            <p><span type="trope" n="8">The recent earthquake and electrical disturbances at
+                     <placeName type="island" key="#i_sn">San Nicolas island</placeName>, near
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, has revived
+                  interest in the story of <rs><persName type="nativeamerican" key="#lw">the old
+                        Indian woman</persName></rs> who led a <name type="fictional" key="#rcr"
+                     >Crusoe</name> life on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> for <rs><date from="1836" to="1856">many
+                        years</date></rs> and who was finally removed to <placeName type="city"
+                     key="#ci_sb">Santa Barbara</placeName> only to die from the effects of
+                  unaccustomed civilization. The following sketch of the <rs><persName
+                        type="nativeamerican" key="#lw">female Crusoe</persName></rs> is from
+                     "<title type="monograph" key="#Roberts1886">Santa Barbara and Around
+                     There</title>" by <persName type="author" key="#ero">Edward
+                  Roberts</persName>:</span></p>
+            <p>On <rs><placeName type="island" key="#i_sn">the smallest island
+                  [sic]</placeName></rs> was enacted the tragedy of the "<persName
+                  type="nativeamerican" key="#lw">Lost Woman of San Nicolas</persName>," which at
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName> is a familiar tale.
+               The story begins with the removal of <persName type="group" key="#bhagroup">a number
+                  of Indians</persName> from <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName> in <date when="1836">1836</date>. Just as they were embarking
+                     <rs><persName type="nativeamerican" key="#lw">one of the women</persName></rs>
+               discovered that <persName type="nativeamerican" key="#lwchild">her child</persName>
+               had been left behind. Returning for it, she was abandoned by <rs><persName
+                     type="group"
+                     key="#bhagroup; #1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                     >her companions</persName></rs>, who were obliged by a coming storm to set sail
+               for <placeName type="region" key="#re_mld">the mainland</placeName>. It was intended
+               to return so soon as the weather permitted, but years passed away and <rs><persName
+                     type="nativeamerican" key="#lw">the woman</persName></rs> in time was forgotten
+               and left to her fate.</p>
+            <p><span type="trope" n="4"><rs><date when="1856">Twenty years later</date></rs>, a
+                  hunter named <persName type="frontiersman" key="#gni">George Nidever</persName> of
+                     <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, visited
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> for
+                  otters. While there he determined to look for <rs><persName type="nativeamerican"
+                        key="#lw">the woman</persName></rs>. After careful search he found three
+                  huts made of whale-ribs and brush, and from where they stood extended an open
+                  plain, in the center of which <persName type="frontiersman" key="#gni"
+                     >Nidever</persName> saw <rs><persName type="nativeamerican" key="#lw">the
+                        object of his journey</persName></rs>. The woman's dress was made of skins
+                  and feathers, and her hair hung in tangled masses from her bare head. <span
+                     type="trope" n="1">When discovered, she was cutting blubber from a seal which
+                     she had killed, but on seeing <rs><persName type="frontiersman" key="#gni">her
+                           visitor</persName></rs> she received him with every manifestation of
+                     delight, and readily accompanied him to <name type="ship" key="#sh_nidever">his
+                        boat</name>.</span></span> Signs were made for her to enter it, and on her
+               doing so, <persName type="frontiersman" key="#gni">Nidever</persName> sailed for
+                     <rs><placeName type="region" key="#re_sbbay">the bay</placeName></rs>, and
+               brought <rs><persName type="nativeamerican" key="#lw">his charge</persName></rs> to
+                  <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.</p>
+            <p>Her arrival there created great excitement and hundreds called at <placeName
+                  key="#nideverhouse">Nidever's house</placeName> to see her. Although she could not
+               have been more than 50 years old, she was gray-haired and emaciated. <span
+                  type="trope" n="14">Her expression was one of blank ignorance and her skin was dry
+                  and wrinkled. Her language, strange as it may seem, considering the comparatively
+                  short time she had been lost, was unintelligible to all. Those who considered
+                  themselves masters of every Indian tongue could not understand a word that she
+                  said.</span> Owing to this fact the story of her hermitage was never known. What
+               became of <rs><persName type="nativeamerican" key="#lwchild">the
+                  child</persName></rs> she returned from <rs><name type="ship" key="#sh_nidever"
+                     >the boat</name></rs> to find on that fatal day in <date when="1836"
+                  >1836</date> is a matter of pure conjecture. How long it lived and where it was
+               buried were facts that could not be discovered. <span type="trope" n="14"
+                        ><rs><persName type="nativeamerican" key="#lw">The woman</persName></rs>
+                  appeared to have lost all human instincts, and, to every question asked made no
+                  answer that could be understood.</span> In three months after her rescue she died
+               and was buried by <rs><persName type="group" key="#jru; #aji; #sanchez; #misfats">the
+                     Mission fathers</persName></rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lone Woman and Last Indians Digital Archive</title>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name type="person">Sara L. Schwebel</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publisher</resp>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Research and Development</resp>
+                    <name type="org">The Lone Woman and Last Indians Digital Archive Research and
+                        Development Team</name>
+                    <name type="org">University of South Carolina Center for Digital
+                        Humanities</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>University of South Carolina</pubPlace>
+                <availability status="free">
+                    <p>Periodicals and books published before 1 January 1923 are in the public
+                        domain. If re-publishing, quoting from, or reproducing images from this
+                        digital archive, we request that you cite it as follows: Lone Woman and Last
+                        Indians Digital Archive, Center for Digital Humanities, University of South
+                        Carolina.</p>
+                    <p>Periodicals and books published on or after 1 January 1923 may be protected
+                        by U.S. Copyright Law. All attempts to secure permission for republishing
+                        post-1923 material in this archive have been made. The names, logos, and
+                        identifying images, as well as the content of the articles, remain the
+                        property of the periodicals and/or of the authors and artists themselves.
+                        Further reproduction, as well as quotation beyond fair use, is prohibited;
+                        permission must be obtained from the copyright holder. Archival material
+                        published in this archive is used with permission of the institution or
+                        library that holds it. Further reproduction, as well as quotation beyond
+                        fair use, is prohibited; permission must be obtained from the copyright
+                        holder.</p>
+                    <p>Responsibility for any use of the contents of this digital archive rests
+                        exclusively with the user.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="newspaper"><orgName type="publication" key="#sdru">Sacramento Daily
+                            Record Union </orgName></title>
+                    <publisher/>
+                    <editor/>
+                    <biblScope unit="volume"/>
+                    <biblScope unit="issue"/>
+                    <date when="1881-02-19"/>
+                    <pubPlace><placeName type="city" key="#ci_sac">Sacramento</placeName>,<placeName
+                            type="state" key="#st_cal">California</placeName></pubPlace>
+                    <bibl>
+                        <title type="article" key="#SacramentoDailyRecordUnion1881">"Pacific Coast
+                            Items." </title>
+                        <biblScope unit="page" n="8"/>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div type="article">
+                <head><title type="main"><hi rend="bold">PACIFIC COAST ITEMS.</hi></title>
+                </head>
+                <p>More fine marble has been found in <placeName type="state" key="#st_utah"
+                        >Utah</placeName>.</p>
+                <p>A steam flour mill is talked of in <placeName type="city" key="#ci_fabr">Fall
+                        Brook</placeName>, <placeName type="county" key="#co_sdcounty">San Diego
+                        county</placeName>.</p>
+                <p>Squirrel poison killed a number of horses for <persName key="#stanfarm">a
+                        Stanislaus farmer</persName> the other day.</p>
+                <p><persName type="group" key="#valmen">Some Vallejo gentlemen</persName> are about
+                    to send <persName key="#man25">a man</persName> to <placeName type="state"
+                        key="#st_ak">Alaska</placeName> to locate mines. <placeName type="county"
+                        key="#co_grant">Grant county, New Mexico</placeName>, offers $100 per head
+                    for scalps of hostile <orgName type="nativeamericantribes" key="#natam_apache"
+                        >Apaches</orgName>.</p>
+                <p><orgName type="publication" key="#calist">The <emph>Calistogian</emph></orgName>
+                    figures the wine product of <placeName type="county" key="#co_napa">Napa
+                        county</placeName> to be 2,910,750 gallons.</p>
+                <p>There are at present twenty-two buildings in <placeName type="city"
+                        key="#ci_astoria">Astoria, Or.</placeName>, in course of erection.</p>
+                <p>A large number of beaver and other fur-bearing animals have recently been trapped
+                    in <placeName type="county" key="#co_jackson">Jackson county,
+                    Oregon</placeName>.</p>
+                <p>The staff of surveyors from <placeName type="county" key="#co_sbern">San
+                        Bernardino</placeName> on the <orgName type="company" key="#socalrail"
+                        >Southern California Railroad</orgName> are in the canyon, heading toward
+                        <placeName type="city" key="#ci_tem">Temecula</placeName>.</p>
+                <p>Forty-seven men and women, new arrivals from <placeName type="country"
+                        key="#co_sz">Switzerland</placeName>, came to <placeName type="region"
+                        key="#re_son">Sonoma valley</placeName>
+                    <rs><date when="1881-02-16">last Wednesday</date></rs> to permanently locate
+                    there.</p>
+                <p>Stone coal is now the main excitement in the region of <placeName type="region"
+                        key="#re_tmgl">Ten-Mile and Looking-Glass, Douglas county,
+                        Oregon</placeName>. The impression is that the coal exists under most of the
+                    hills of that region.</p>
+                <p>Near <placeName type="city" key="#ci_canville">Canyonville, Douglas county,
+                        Or.</placeName>, <persName key="#boy5">a 12-year-old boy</persName> was
+                    hunting and met two panthers. He wounded one, and was attacked by the animal.
+                    Help arrived and both panthers were killed.</p>
+                <p>After the late flood, farmers along <placeName type="region" key="#re_bearcreek"
+                        >Bear creek, Jackson county, Oregon</placeName>, were busy gathering up
+                    rails that had lodged in the willows. The rule is that all rails that are washed
+                    on a man's land are considered to be his property.</p>
+                <p>The annual report of <persName key="#evarts">P. Evarts</persName>, the
+                    Superintendent of the Eureka and <orgName type="company" key="#palrail">Palisade
+                        Railroad</orgName>, shows that during the year <date when="1880">1880</date>
+                    the net profit was $248,232 94. The same official reports of the <orgName
+                        type="company" key="#rhrail">Ruby Hill Railroad</orgName> that its net
+                    profit was $80,741 18.</p>
+                <p>The work of preparing the old broom factory at <placeName type="region"
+                        key="#re_soval">South Vallejo</placeName> for a fish cannery is progressing.
+                    About $30,000 will be represented in the enterprise. About seventy hands will be
+                    employed, and the canning capacity will be 200 cases daily. Canning will begin
+                    in about a month.</p>
+                <p><placeName type="city" key="#ci_han">Hancock</placeName> is the name bestowed on
+                    the new town in the copper district in <placeName type="region" key="#re_mason"
+                        >Mason Valley, Esmeralda county, Nev</placeName>. The name was given last
+                    fall during the campaign, when it was said it could produce more fights to the
+                    quart of whisky than any town of its size in <rs><placeName type="state"
+                            key="#st_nv">the State</placeName></rs>.</p>
+                <p>In the Art Loan Exhibition at <placeName type="city" key="#ci_sb">Santa
+                        Barbara</placeName> there is a bone needle, a memento of <rs><persName
+                            type="nativeamerican" key="#lw">the Indian woman</persName></rs> of
+                        <placeName type="island" key="#i_sn">San Nicholas Island</placeName>, who
+                    was rescued by <persName type="frontiersman" key="#gni">Captain
+                        Nidever</persName>. When the tribe was removed to <placeName type="region"
+                        key="#re_mld">the mainland</placeName>, by accident <rs><persName
+                            type="nativeamerican" key="#lw">this woman</persName></rs> was left
+                    behind, and for <date from="1835" to="1853">a long term of years</date> she
+                    lived alone on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</p>
+                <p>At <placeName type="city" key="#ci_sanfe">Santa Fe, New Mexico</placeName>, the
+                    other day, a new railroad company known as the <orgName type="company"
+                        key="#jvhsrail">Jemez Valley Hot Springs Railroad Company</orgName>, was
+                    organized. This is the first company of the kind ever organized by citizens of
+                    the Territory. The road will run from <placeName type="city" key="#ci_berna"
+                        >Bernalillo</placeName> to the famous <placeName type="region"
+                        key="#re_jemezsprings">Jemez Hot Springs</placeName>, a distance of about
+                    thirty miles.</p>
+                <p>A number of citizens of <placeName type="city" key="#ci_lead">Leadville,
+                        Co.</placeName>, have asked that the saloons, gaming houses, theaters and
+                    bagnios be closed on Sunday. <persName key="#attorney">The City
+                        Attorney</persName> was instructed to draw up an ordinance to that effect,
+                    including also the business houses. The <orgName key="#merchasc">Merchants'
+                        Protective Association</orgName> have called a meeting to protest.</p>
+                <p>At <placeName key="#clarkranch">Clark Ranch</placeName>, near <placeName
+                        type="city" key="#ci_lead">Leadville, Col.</placeName>, a miner named
+                        <persName key="#miner">Gavin</persName> was recently, while in his cabin,
+                    buried under a snow-slide. The fire was out, and soon he was in darkness. He
+                    must escape, so he began to dig a tunnel. He worked till his hands were benumbed
+                    and frozen. He worked thus for six days and escaped, but is not expected to
+                    live.</p>
+                <p>The principal losses of cattle in <placeName type="state" key="#st_wy"
+                        >Wyoming</placeName>, <placeName type="state" key="#st_co"
+                        >Colorado</placeName> and <placeName type="state" key="#st_neb"
+                        >Nebraska</placeName> have been on the <placeName type="region"
+                        key="#re_laramie">Laramie plains</placeName> and along the line of the
+                    railroad toward the east and on the south, and the severest have been on the
+                    ranges between the <placeName type="region" key="#re_nplatte">North</placeName>
+                    and <placeName type="region" key="#re_splate">South Platte rivers</placeName>,
+                    east of <placeName type="city" key="#ci_jules">Julesburg</placeName>. In the
+                    sections mentioned 10 to 15 per cent. of the cattle have died, and in some
+                        <placeName type="state" key="#st_co">Colorado</placeName> herds the loss has
+                    gone as high as 50 per cent.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

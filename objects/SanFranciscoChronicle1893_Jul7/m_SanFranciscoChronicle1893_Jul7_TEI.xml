@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dne">San Francisco
+                     Chronicle </orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume">57</biblScope>
+               <biblScope unit="issue">178</biblScope>
+               <date when="1893-07-07"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SanFranciscoChronicle1893_Jul7">Peril on San Nicolas.
+                     A Tidal Wave and Heavy Earthquakes. The Old Harbor Filled With Sand. Electrical
+                     Storms Killed the Crawfish and Paralyzed the Kanakas</title>
+                  <biblScope unit="page" n="1"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+
+            <head><title type="main">PERIL ON <placeName type="island" key="#i_sn">SAN
+                     NICOLAS</placeName>.</title>
+               <title type="sub">A Tidal Wave and Heavy Earthquakes.</title>
+               <title type="sub"><rs><placeName type="region" key="#re_coralharbor">The Old
+                        Harbor</placeName></rs> Filled With Sand.</title>
+               <title type="sub">Electrical Storms Killed the Crawfish and Paralyzed the <orgName
+                     type="nativeamericantribes" key="#natam_hawaiian"
+               >Kanakas</orgName>.</title></head>
+            <byline>Special Dispatch to the <orgName type="publication" key="#sfchronicle"
+                  >CHRONICLE</orgName>.</byline>
+            <dateline><placeName type="city" key="#ci_sd">SAN DIEGO</placeName>, <date
+                  when="1893-07-06">July 6</date>.&#8212;</dateline>
+            <p>The steam schooner <name type="ship" key="#sh_jennie">Jennie Griffin</name> arrived
+               this morning from <placeName type="island" key="#i_sn">San Nicolas island</placeName>
+               and <persName type="seaman" key="#jmu">Captain Mullett</persName> and <persName
+                  type="group" key="#mullettcrew">the crew</persName> tell of strange and wonderful
+               meteorological disturbances on <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. <rs><name type="ship" key="#sh_jennie">The
+                     schooner</name></rs> is enganged in the crawfish business for the <orgName
+                  type="company" key="#paccoastfishing">Pacific Coast Fishing and Packing
+                  Company</orgName> of <rs><placeName type="city" key="#ci_sd">this
+                  city</placeName></rs>, and a couple of weeks ago left <rs><persName type="group"
+                     key="#mullettcrew">a gang of eight men</persName></rs> on <placeName
+                  type="island" key="#i_sn">San Nicolas island</placeName> to prosecute this
+               work.</p>
+            <p><span type="trope" n="5">The <name type="ship" key="#sh_jennie">Jennie Griffin</name>
+                  arrived there <date when="1893-06-25">last Sunday</date> to load the catch for
+                        <rs><placeName type="city" key="#ci_sd">this port</placeName></rs>, but
+                  recieved news instead which astounded <persName type="group" key="#mullettcrew"
+                     >the whole party</persName> and caused <persName type="seaman" key="#jmu"
+                     >Captain Mullett</persName> to take <rs><persName type="group"
+                        key="#mullettcrew">the gang</persName></rs> from the shore and leave
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> as
+                  quickly as he could.</span></p>
+            <p><span type="trope" n="5"><rs><persName type="group" key="#mullettcrew">The
+                        men</persName></rs> reported that <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> had been visited by a tremendous gale of wind
+                  which raised the sea until it resembled a tidal wave, completely filling with sand
+                        <rs><placeName type="region" key="#re_coralharbor">the only
+                        harbor</placeName></rs> of <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>, which is marked "<placeName type="region"
+                     key="#re_coralharbor">coral harbor</placeName>" on the Government charts.
+                     <persName type="seaman" key="#jmu">Captain Mullett</persName> was dumfounded to
+                  find a stretch of sand where two weeks ago he rode at anchor in <rs><placeName
+                        type="region" key="#re_coralharbor">the small but safe
+                     harbor</placeName></rs>. The big crawfish car, holding about five tons of fish,
+                  which was moored in the bay, was half covered with sand and the fish were
+                  lost.</span></p>
+            <p><span type="trope" n="5"><rs><persName type="group" key="#mullettcrew">The
+                        men</persName></rs> told <rs><persName type="group" key="#mullettcrew">the
+                        people on board</persName></rs> that the action of the water had been the
+                  most peculiar they had ever known and something seemed to foretell disaster. All
+                  the sea birds and living things acted strangely. On <date when="1893-04-26">June
+                     26th</date> at 11 A. M. a heavy earthquake was experienced on <rs><placeName
+                        type="island" key="#i_sn">the island</placeName></rs>, the oscillation being
+                  from east to west, the shock lasting several seconds.</span></p>
+            <p><span type="trope" n="5">On <date when="1893-04-30">June 30th</date> at 4 A. M.
+                  another was felt, continuing for some seconds. The weather was very foggy and the
+                  heat oppressive and stifling. A peculiar light covered the sea in spite of the fog
+                  which seemed to center about <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>.</span></p>
+            <p><span type="trope" n="5">On <date when="1893-04-30">June 30th</date>
+                  <rs><name type="ship" key="#sh_steamer4">a large ocean steamer</name></rs> was
+                  seen sailing within a few yards of the breakers. <persName type="seaman"
+                     key="#jmu">Captain Mullett</persName> thinks her compasses were affected by the
+                  strange electrical disturbances. The <name type="ship" key="#sh_jennie">Jennie
+                     Griffin</name> was in the neighborhood, and her two compasses would not work
+                  together while near <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs>. During the last few days <persName key="#foreman"
+                     >the foreman</persName> on <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> was unable to compel <rs><persName type="group"
+                        key="#mullettcrew">his men</persName></rs> to work, and nothing was done
+                  beyond getting water and wood.</span></p>
+            <p><span type="trope" n="5">Several of <rs><persName type="group" key="#mullettcrew">the
+                        fishermen</persName></rs> were <orgName type="nativeamericantribes"
+                     key="#natam_hawaiian">kanakas</orgName> [sic], who were scared almost to death,
+                  and prophesied that <rs><placeName type="island" key="#i_sn">the
+                        island</placeName></rs> would be swallowed up. All the crawfish caught in
+                  the pots died from some inexplicable cause. The uncanny aspect of nature&#8212;the
+                  gale, fog, heat and earthquakes&#8212;was too much for <rs><persName type="group"
+                        key="#mullettcrew">the men</persName></rs>, and they went wild with joy when
+                  the <name type="ship" key="#sh_jennie">Jennie Griffin</name> came abreast of
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> and
+                  they were taken off in the small boats.</span></p>
+            <p><span type="trope" n="5"><placeName type="island" key="#i_sn">San
+                     Nicholas</placeName> is the most westerly of the group known as the <placeName
+                     type="island" key="#i_chi">Santa Barbara islands</placeName>, and is about 150
+                  miles distant from <placeName type="city" key="#ci_sd">San Diego</placeName>.
+                        <rs><date when="1868">Twenty-five years ago</date></rs> it was covered in
+                  grass, which afforded pasture for thousands of sheep, and its owner lived there in
+                  a fine residence. A strange transformation has been going on since then. It is now
+                  a windy, barren, sandy waste, where but a few hundred sheep, without a shepherd,
+                  pass a miserable existence. It is but eight miles long and four wide, but wherever
+                  one digs can be found human bones and skulls.</span></p>
+            <p><span type="trope" n="5">The case of <rs><persName type="nativeamerican" key="#lw">an
+                        Indian woman</persName></rs>, who was left on <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs> for more than <rs><date from="1823"
+                        to="1853">thirty years</date></rs>, excited much interest several years ago.
+                     <span type="trope" n="14">She was abandoned by <rs><orgName
+                           type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                           people</orgName></rs> and in solitude forgot her own language.</span> She
+                  was found in <rs><placeName type="region" key="#re_lwcave">a cave</placeName></rs>
+                  subsisting on fish which she caught with hooks made out of abalone shells. She was
+                  taken off <rs><placeName type="island" key="#i_sn">the island</placeName></rs> by
+                        <rs><persName type="frontiersman" key="#gni">another hunter</persName></rs>,
+                  but her return to civilization was disastrous, as she soon succumbed to
+                  consumption.</span></p>
+            <p><span type="trope" n="5"><persName type="seaman" key="#jmu">Captain
+                     Mullett</persName>, who has visited <rs><placeName type="island" key="#i_sn"
+                        >the island</placeName></rs> many times during <date from="1873" to="1893"
+                     >the past twenty years</date>, says he was glad to get away from it with
+                        <rs><persName type="group" key="#mullettcrew">his men</persName></rs>. He
+                  has visited it for the last time.</span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

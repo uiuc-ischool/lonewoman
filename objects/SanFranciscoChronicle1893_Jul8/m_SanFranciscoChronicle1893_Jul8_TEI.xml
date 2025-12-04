@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South
+                  Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship
+                  program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#dne">San Fracisco Chronicle
+                  </orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="57"/>
+               <biblScope unit="issue" n="174"/>
+               <date when="1893-07-08"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SanFranciscoChronicle1893_Jul8"> </title>
+                  <biblScope unit="page" n="6"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <p>The story from <placeName type="island" key="#i_sn">San Nicolas island</placeName>
+               must be taken with the same allowances as
+               <!--It would be really cool to like to a title here. Find a text and include in Types & Keys to link here-->the
+               reports of volcanic activity near the <placeName type="region"
+                  key="#re_coloradoriver">mouth of the Colorado river</placeName>. Ignorant
+               fishermen and sailors are easily alarmed by anything that has the appearance of the
+               supernatural, and a heavy earthquake attended by changes in the familiar shore lines
+               would be sufficient to spread fear. <rs><placeName type="island" key="#i_sn">The
+                     island</placeName></rs> has never been held in favor with the Indians, which
+               accounts for the fact that <rs><persName type="nativeamerican" key="#lw">the lost
+                     woman of San Nicolas</persName></rs> was allowed to live on <rs><placeName
+                     type="island" key="#i_sn">the desolate spot</placeName></rs> for <rs><date
+                     from="1835" to="1853">nearly a half century</date></rs>. She, by the way, did
+               not belong to the original inhabitants whose skulls so thickly fill the soil of
+                     <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, but she
+               had gone with her people from <rs><placeName type="region" key="#re_mld">the
+                     neighboring mainland</placeName></rs>. <span type="trope" n="8">It was in
+                  transferring <persName type="group" key="#bhagroup">this handful of
+                     Indians</persName> to <rs><placeName type="mission" key="#mi_sb">a
+                        reservation in Santa Barbara county</placeName></rs> that she was left on
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs> where
+                  she led a <name type="fictional" key="#rcr">Crusoe</name> life for <rs><date
+                        from="1835" to="1853">so many years</date></rs>.</span>
+               <span type="trope" n="14"><span type="trope" n="6">She forgot her native speech and
+                     adopted some unintelligible gibberish, which probably gave rise to the legend
+                     that she was the last descendant of <rs><orgName type="nativeamericantribes"
+                           key="#natam_NicolenoTongva">the aborigines of the
+                     islands</orgName></rs>.</span></span></p>
+         </div>
+      </body>
+   </text>
+</TEI>

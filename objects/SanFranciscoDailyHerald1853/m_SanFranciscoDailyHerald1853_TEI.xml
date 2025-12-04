@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Lone Woman and Last Indians Digital Archive</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName>Sara L. Schwebel</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Digital Collections Manager</resp>
+               <persName>Rachel M. A. Manuszak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lead Programmer</resp>
+               <persName>Tyler Encke</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Provost Humanities Grants</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>University of South Carolina Department of English</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Center for Digital Humanities at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Magellan Scholar Program at the University of South Carolina</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Channel Islands National Park</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Student Conservation Association/AmeriCorps internship program</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>National Society of the Daughters of the American Revolution</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Carnegie-Whitney Grant from the American Library Association</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <persName>Richard H. Dittman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Financial support</resp>
+               <orgName>Children’s Literature Association</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <pubPlace>University of South Carolina</pubPlace>
+            <availability status="free">
+               <p>Periodicals and books published before 1 January 1923 are in the public domain. If
+                  re-publishing, quoting from, or reproducing images from this digital archive, we
+                  request that you cite it as follows: Lone Woman and Last Indians Digital Archive,
+                  Center for Digital Humanities, University of South Carolina.</p>
+               <p>Periodicals and books published on or after 1 January 1923 may be protected by
+                  U.S. Copyright Law. All attempts to secure permission for republishing post-1923
+                  material in this archive have been made. The names, logos, and identifying images,
+                  as well as the content of the articles, remain the property of the periodicals
+                  and/or of the authors and artists themselves. Further reproduction, as well as
+                  quotation beyond fair use, is prohibited; permission must be obtained from the
+                  copyright holder. Archival material published in this archive is used with
+                  permission of the institution or library that holds it. Further reproduction, as
+                  well as quotation beyond fair use, is prohibited; permission must be obtained from
+                  the copyright holder.</p>
+               <p>Responsibility for any use of the contents of this digital archive rests
+                  exclusively with the user.</p>
+            </availability>
+            <date/>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="newspaper"><orgName type="publication" key="#sherald">an Francisco Daily
+                     Herald</orgName></title>
+               <publisher/>
+               <editor/>
+               <biblScope unit="volume" n="4"/>
+               <biblScope unit="issue" n="165"/>
+               <date when="1853-11-13"/>
+               <pubPlace><placeName type="city" key="#ci_sf">San Francisco</placeName>, <placeName
+                     type="state" key="#st_cal">California</placeName></pubPlace>
+               <bibl>
+                  <title type="article" key="#SanFranciscoDailyHerald1853">The Wild Woman of San
+                     Nicolas</title>
+                  <biblScope unit="page" n="2"/>
+                  <author><persName type="author" key="#dne"> </persName></author>
+               </bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <body>
+         <div type="article">
+            <head><title type="main"><hi rend="bold"><rs><persName type="nativeamerican" key="#lw"
+                           >The Wild Woman of San Nicolas</persName></rs>.</hi></title></head>
+            <p><title type="article" key="#Santiago1853">We have already noticed the fact</title> of
+               the discovery of <rs><persName type="nativeamerican" key="#lw">an extraordinary
+                     woman</persName></rs> who was found living alone on the island of <placeName
+                  type="island" key="#i_sn">San Nicolas</placeName> on the <placeName type="region"
+                  key="re_socalcoast">southern coast of California</placeName>, about sixty miles
+               from the country of <placeName type="city" key="#ci_sb">Santa Barbara</placeName>.
+               Many interesting facts in connection with her history, have been brought to light and
+               published, and we are again induced to allude to the subject by the exhibition which
+               has been made us of her dress and the implements with which she was wont to occupy
+               herself during her solitary banishment. According to the most authentic accounts and
+               such as are believed to be reliable, <placeName type="island" key="#i_sn">San
+                  Nicolas</placeName>, as well as <rs><placeName type="group"
+                     key="#i_an; #i_scl; #i_sm; #i_sb; #i_scatalina; #i_scruz; #i_sr">the other
+                     islands</placeName></rs>, was once inhabited by <rs><orgName type="group"
+                     key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                     >Indians</orgName></rs>. Owing to a difficulty which occurred about the year
+                  <date when="1824">1824</date> or <date when="1825">1825</date>, between
+                     <rs><persName type="group"
+                     key="#1814huntingparty; #rfurcompany; iba; #natam_aleuts; #natam_kodiak">some
+                     Russians</persName></rs> who had visited <rs><placeName type="island"
+                     key="#i_sn">the island</placeName></rs> and <rs><orgName
+                     type="nativeamericantribes" key="#natam_NicolenoTongva">the
+                  natives</orgName></rs>, the male inhabitants were nearly all killed and the women
+               carried away. <rs><date when="1835">About eighteen years ago</date></rs>, the
+                     <rs><persName type="group" key="#bhagroup">last of those who were
+                     left</persName></rs>, some seventeen in number, were taken off, with their own
+               consent, by <persName type="seaman" key="#chu">Mr. Hubbard</persName>, captain of
+                     <rs><name type="ship" key="#sh_peoresnada">a small schooner</name></rs> owned
+               by <persName type="investor" key="#isp">Mr. Isaac Sparks</persName> of <placeName
+                  type="city" key="#ci_sb">Santa Barbara</placeName> and <persName key="#jgo">Mr.
+                  Gomez</persName> of <placeName type="city" key="#ci_mo">Monterey</placeName>.
+               After <rs><persName type="group" key="#bhagroup">the party</persName></rs> had gotten
+               on board, <rs><persName type="nativeamerican" key="#lw">one of the
+                  squaws</persName></rs> missed <rs><persName type="nativeamerican" key="#lwchild"
+                     >her child</persName></rs>, and was permitted to go in search of it; but in a
+               short time returned lamenting its disappearance and declaring that it had been
+               devoured by the wild dogs which infested <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs>. In the midst of her lamentations she fell down and
+               went to sleep on the beach, and a gale having sprung up, the <rs><name type="ship"
+                     key="#sh_peoresnada">the [sic] schooner</name></rs> was driven to sea and
+                     <rs><persName type="nativeamerican" key="#lw">the woman</persName></rs> left
+               upon the shore. Three months after <rs><name type="ship" key="#sh_peoresnada">the
+                     schooner</name></rs> touched at <rs><placeName type="island" key="#i_sn">the
+                     island</placeName></rs> in search of her, but no traces of her could be found,
+               with the exception of her footprins in the sand. Nearly <rs><date from="1835"
+                     to="1853">eighteen years</date></rs> have since elapsed, during which time she
+               has been left to her lonely fate, supposed to be dead and her history almost
+               forgotten.</p>
+            <p><span type="trope" n="4">In the early part of <rs><date when="1853-09">September of
+                        the present year</date></rs>, <persName type="frontiersman" key="#gni">Mr.
+                     Niedever</persName> of <placeName type="city" key="#ci_sb">Santa
+                     Barbara</placeName>, whilst engaged in otter hunting along <rs><placeName
+                        type="region" key="#re_socalcoast">the coast</placeName></rs>, touched at
+                        <rs><placeName type="island" key="#i_sn">the island</placeName></rs>, and
+                  suddenly came upon <rs><persName type="nativeamerican" key="#lw">this
+                        extraordinary woman</persName></rs>, who was engaged in curing bird-skins,
+                  of which her garment was made, and who manifested no surprise or timidity at the
+                  appearance of a white man. <span type="trope" n="3">Being of a gentle and
+                     confiding disposition, she was readily induced to leave <rs><placeName
+                           type="island" key="#i_sn">the island</placeName></rs>.</span> With her
+                  she brought away the curious articles which were yesterday exhibited to us, and
+                  which were unquestionably of her own manufacture, as she was at the time found
+                  occupied upon them. The most remarkable of the collection is the robe in which she
+                  was dressed. It is composed of fifty skins of sea-birds, sewn together with the
+                  sinews of seals, of which all her thread is composed. This garment is fastened all
+                  round, leaving openings merely for the head and arms, and hangs upon the person
+                  like a loose sack, reaching nearly to the feet. The needles used for sewing the
+                  garment are of fi[s]hbone, finely wrought and polished, and almost as sharp as
+                  those manufactured of steel. She had a curious jug, made of platted grass, and
+                  coated on the inside with a black substance resembling asphaltum. It is of a
+                  globular form, about nine inches in diameter, with a narrow neck&#8212;the height
+                  being about fourteen inches. It was evidently used as a water jug.</span></p>
+            <p><span type="trope" n="4">Another ingenious implement is her knife, which seems to
+                  have been manufactured out of a piece of hoop, sharpened and fastened in a rude
+                  wooden handle, by means of asphaltum and cord of sinews. Among the collection are
+                  two fishing hooks and lines&#8212;the former evidently manufactured out of nails,
+                  skillfully beat and sharpened, and the latter of dried sinews. Accompanying these
+                  are two pieces of cord, of different sizes, as neatly made of numerous strands of
+                  sinew as though the work had been performed by machinery. These articles were
+                  wrapped in the skin of one of the native animals of <rs><placeName type="island"
+                        key="#i_sn">the island</placeName></rs>, from which we may infer that she
+                  occupied her time both in fishing and hunting. <span type="trope" n="8">Taking her
+                     whole history together she seems to have lead [sic] a life and resorted to
+                     expedients strikingly like those attributed to the ideal <name type="fictional"
+                        key="#rcr">Robinson Crusoe</name>.</span> In this case the truth is as
+                  strange as the fiction. The food upon which she subsisted, at the time she was
+                  discovered, consisted of seal meat and roots. Her language was one peculiar to
+                  herself, bearing but a slight resemblance to any other known tongue. Upon her
+                  arrival in <placeName type="city" key="#ci_sb">Santa Barbara</placeName>, several
+                  of the Indians in that vicinity, acquainted with the dialects of the different
+                  tribes, were taken to her and attempted to open a conversation, but without avail.
+                  Their language and hers bore no resemblance to each other whatever. She was
+                  therefore unable to make any communications, except by signs. <span type="trope"
+                     n="3">Her age appeared to be upwards of sixty, and her manners as simple as
+                     those of a child. She was of medium stature, muscular in appearance, and well
+                     formed. Her eyes were large, and full; auburn hair, smooth and profuse;
+                     forehead low, broad, and intellectual; nose slightly aquiline and finely
+                     formed; mouth large, with a haughty, protruding lower lip, a[nd] a well set
+                     chin. Upon the whole, her appearance and mien were superior to those of the
+                     other Indians in the lower part of <rs><placeName type="state" key="#st_cal"
+                           >the State</placeName></rs>.</span></span></p>
+            <p>In <rs><persName type="group" key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni"
+                     >the family of Mr. George Niedever</persName></rs>, she lived very contentedly,
+               and apparently gratified with the change; she was evidently much pleased by the novel
+               sights which were presented to her, in horses and other large animals. She ate freely
+               of many things which were given to her, and seemed particularly fond of shell-fish,
+               coffee, liquor, and fruits, but her system was unu[s]ed to such a diet, and after too
+               free an indulgence she sickened and died on the <date when="1853-10-18">18th of
+                  October</date>. <span type="trope" n="6">She was undoubtedly the last of
+                        <rs><orgName type="nativeamericantribes" key="#natam_NicolenoTongva">her
+                        race</orgName></rs>.</span></p>
+            <p>During the brief period she remained in <rs><persName type="group"
+                     key="#gni; #sni; #ini; #gnijr; #jacobni; #mrni; #mrfni">the family of Mr.
+                     Niedever</persName></rs>, <rs><persName type="nativeamerican" key="#lw">this
+                     extraordinary woman</persName></rs>, whose intelligence was most wonderful, had
+               acquired a considerable facility in speaking Spanish, and had committed to memory the
+               Lord's Prayer, and seemed to comprehend the idea of the omnipotent Being. Previous to
+               her dissolution, she was baptized according to the rites of the <orgName
+                  type="church" key="#ch_catholic">Catholic Church</orgName>, by <persName
+                  type="missionfather" key="#sanchez">Father Sanchez</persName>, of the Franciscan
+               Order, and yielded up her last breath with apparent resignation. Had her life been
+               extended a few months longer, there is no doubt she would have been enabled to tell
+               her own wonderful story, as well as the history of <rs><persName
+                     type="nativeamerican" key="#lwchild">her lost child</persName></rs>; but as it
+               is, all is now buried in oblivion. The curious articles which we have endeavored to
+               describe, were forward[e]d to <rs><placeName type="city" key="#ci_sb">this
+                     city</placeName></rs> at the request of the ladies connected with the <orgName
+                  type="church" key="#ch_catholic">Catholic Church</orgName>, and will be exhibited
+               at the Fair which they design to open on <rs><date when="1853-11-15">Tuesday
+                     next</date></rs>, at the <placeName key="#musicalhall">Musical Hall</placeName>
+               on <placeName key="#bushst">Bush street</placeName>, for the purpose of aiding in the
+               commendable work of raising funds for the erection of <placeName key="#stmarys">St.
+                  Mary's Church.</placeName> They will probably be sold or raffled for during the
+               continuance of the Fair, and if so, would prove a rich contribution to a State
+               museum.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
