@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Lone Woman and Last Indians Digital Archive</title>
+                        <respStmt>
+                              <resp>Editor</resp>
+                              <name type="person">Sara L. Schwebel</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Publisher</resp>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Research and Development</resp>
+                              <name type="org">The Lone Woman and Last Indians Digital Archive
+                                    Research and Development Team</name>
+                              <name type="org">University of South Carolina Center for Digital
+                                    Humanities</name>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <pubPlace>University of South Carolina</pubPlace>
+                        <availability status="free">
+                              <p>Periodicals and books published before 1 January 1923 are in the
+                                    public domain. If re-publishing, quoting from, or reproducing
+                                    images from this digital archive, we request that you cite it as
+                                    follows: Lone Woman and Last Indians Digital Archive, Center for
+                                    Digital Humanities, University of South Carolina.</p>
+                              <p>Periodicals and books published on or after 1 January 1923 may be
+                                    protected by U.S. Copyright Law. All attempts to secure
+                                    permission for republishing post-1923 material in this archive
+                                    have been made. The names, logos, and identifying images, as
+                                    well as the content of the articles, remain the property of the
+                                    periodicals and/or of the authors and artists themselves.
+                                    Further reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder. Archival material published in this archive is used with
+                                    permission of the institution or library that holds it. Further
+                                    reproduction, as well as quotation beyond fair use, is
+                                    prohibited; permission must be obtained from the copyright
+                                    holder.</p>
+                              <p>Responsibility for any use of the contents of this digital archive
+                                    rests exclusively with the user.</p>
+                        </availability>
+                        <date/>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <title type="newspaper"><orgName type="publication"
+                                          key="#fresnorepublican">Fresno
+                                    Republican</orgName></title>
+                              <publisher/>
+                              <editor/>
+                              <biblScope unit="volume">5</biblScope>
+                              <biblScope unit="issue">2</biblScope>
+                              <date when="1880-09-25"/>
+                              <pubPlace><placeName type="city" key="#ci_fresno">Fresno</placeName>,
+                                          <placeName type="state" key="#st_cal"
+                                          >California</placeName></pubPlace>
+                              <bibl>
+                                    <title type="article" key="#TheFresnoRepublican1880">A Female
+                                          Robinson Crusoe</title>
+                                    <biblScope type="page" n="1"/>
+                                    <author><persName type="author" key="#dne"> </persName></author>
+                              </bibl>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text xml:lang="en">
+            <body>
+                  <div type="article">
+                        <head><title type="main"><rs><persName type="nativeamerican" key="#lw">A
+                                                Female Robinson
+                              Crusoe</persName></rs>.</title></head>
+                        <div n="1" type="section">
+                              <p><span type="trope" n="3"><title type="article"
+                                                key="#Hardacre1880_SM"
+                                                ><emph>Scribner's</emph></title> has a wonderfully
+                                          romantic story of an occurrence which happened on
+                                                  <rs><placeName type="island" key="#i_chi">the
+                                                  Santa Barbara islands</placeName></rs>, a cluster
+                                          off <rs><placeName type="region" key="#re_paccoast">the
+                                                  California coast</placeName></rs>, which, in
+                                                  <rs><date notBefore="1400" notAfter="1499-12-31"
+                                                  >the fifteenth century</date></rs>, were densely
+                                          peopled by <rs><orgName type="group"
+                                                  key="#natam_NicolenoTongva; #natam_GabrilenoTongva; #natam_chumash"
+                                                  >a superior race</orgName></rs>, described as
+                                          white, with light hair and ruddy cheeks, the women with
+                                          fine forms, beautiful eyes and modest demeanor, who
+                                          dressed in petticoats and capes of sealskin, embroidered
+                                          with pearl and small pink shells.</span>
+                                    <span type="trope" n="6">But in time <rs><orgName
+                                                  type="nativeamericantribes"
+                                                  key="#natam_NicolenoTongva">the
+                                                  inhabitants</orgName></rs> mysteriously melted
+                                          away, and in <date when="1835">1835</date>
+                                          <rs><name type="ship" key="#sh_peoresnada">a
+                                                  schooner</name></rs> was sent to bring <persName
+                                                type="group" key="#bhagroup">the remnant</persName>
+                                          to <placeName type="region" key="#re_mld">the main
+                                                land</placeName>.</span> After <rs><name type="ship"
+                                                key="#sh_peoresnada">the ship</name></rs> had
+                                    sailed, it was found that <rs><persName type="nativeamerican"
+                                                key="#lwchild">a child</persName></rs> had been left
+                                    behind, <rs><persName type="nativeamerican" key="#lw">the
+                                                mother</persName></rs> supposing it to have been
+                                    carried aboard by <rs><persName type="group"
+                                                key="#1835crew; #chu; #isp; #iwi; #jsjo; #jdy; #lbu; #natam_hawaiian; #nativeamericans"
+                                                >an old sailor</persName></rs>. She frantically
+                                    implored <rs><persName type="group" key="#chu; #isp">the
+                                                captain</persName></rs> to return, but, a storm
+                                    threatening, he refused. <span type="trope" n="9">She became
+                                          desperate, and jumping overboard swam for the
+                                          shore.</span> No attempt was made to rescue her, and the
+                                                <rs><persName type="group" key="#chu; #isp">captain
+                                                of the schooner</persName></rs>, although promising
+                                    to visit <rs><placeName type="island" key="#i_sn">the
+                                                island</placeName></rs> and take her off, never did
+                                    so, his <rs><name type="ship" key="#sh_peoresnada"
+                                          >vessel</name></rs> shortly after being destroyed in a
+                                    storm. <span type="trope" n="12">There being no other sea craft
+                                          on <rs><placeName type="region" key="#re_socalcoast">that
+                                                  coast</placeName></rs>, and no one caring to
+                                          attempt a passage of seventy miles in an open boat, the
+                                          event faded out of interest and finally out of memory
+                                          until <rs><date when="1850">fifteen years
+                                                afterward</date></rs>, when, under the promise of
+                                          $200, <rs><placeName type="island" key="#i_sn">the
+                                                  island</placeName></rs> was visited and searched,
+                                          but with no results.</span>
+                                    <span type="trope" n="3">The attempt, however, revived the
+                                          story, and <rs><date when="1853">three years
+                                                  afterward</date></rs>
+                                          <persName type="frontiersman" key="#gni">a
+                                                captain</persName> and <rs><persName type="group"
+                                                  key="#cdi; #col; #msh; #poli; #nsk; #hva">crew of
+                                                  otter-hunters</persName></rs>, walking along the
+                                          beach in "one of those limpid nights of which <placeName
+                                                type="state" key="#st_cal">California</placeName>
+                                          knows" saw on the lonely shore the print of a slender
+                                          naked foot. Search was begun, and after several days'
+                                          march a dangerous climb brought <rs><persName
+                                                  type="frontiersman" key="#cdi"
+                                                >Brown</persName></rs>, <rs><persName
+                                                  type="frontiersman" key="#cdi">the
+                                                  captain</persName></rs>, to a spot where there
+                                          were fresh footprints, which he followed up the cliffs
+                                          until they were lost in the thick moss. Then his eyes
+                                          caught a small object a long way off on the hills. It
+                                          appeared like a crow at first glance, but advancing
+                                          steadily he found it was the head of a woman barely
+                                          visible above the low-woven brush sides of her roofless
+                                          retreat in the bushes.</span> Her complexion was much
+                                    fairer than the ordinary Indian, and she had regular features,
+                                    and thick brown hair, which fell about her shoulders in a
+                                    tangled mat. She was talking to herself and watching with alarm
+                                                <rs><persName type="group"
+                                                key="#gni; #col; #cook; #msh; #poli; #nsk; #hva"
+                                                >Brown's companions</persName></rs> on the plat
+                                    below. When he stepped forward and spoke to her she ran a few
+                                    steps, then, controlling herself, stopped and answered him in an
+                                    unknown tongue. <span type="trope" n="1">She was dressed in a
+                                          tunic-shaped garment made of birds' plumage, low in the
+                                          neck, sleeveless, and reaching to the ankle. She greeted
+                                          them all with a simple dignity, and set about preparing
+                                          food for them.</span>
+                                    <span type="trope" n="10">They made her understand by signs that
+                                          she was to go with them, and she gladly did so. By signs
+                                          she, on her part, told her history. She had never found
+                                                  <rs><persName type="nativeamerican" key="#lwchild"
+                                                  >her child</persName></rs>, which was probably
+                                          destroyed by the wild dogs of the <rs><placeName
+                                                  type="island" key="#i_sn">the
+                                                island</placeName></rs>. She made a fire by rubbing
+                                          sticks together, and for <rs><date from="1835" to="1853"
+                                                  >eighteen years</date></rs> had kept it alight
+                                          like a vestal flame, and had lived on roots, fish, seals'
+                                          blubber and shell-fish.</span>
+                                    <span type="trope" n="3"><span type="trope" n="6">Her return to
+                                                the confining and unhealthful conditions of
+                                                civilization after her free out-door life soon
+                                                killed her. The story, of which this is only a brief
+                                                sketch, is wonderfully fascinating from beginning to
+                                                end.</span></span></p>
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>
