@@ -1,10 +1,13 @@
 {% comment %}
 
 Custom image gallery for Lone Woman Archive.
-Uses:
-- page.filename (preferred, relative to /objects/)
-- page.image_object_location (fallback)
-- page.object_location (legacy fallback)
+Resolves the full-size image path from (in priority order):
+  1. page.filename  (preferred, relative to /objects/)
+  2. page.image_object_location
+  3. page.object_location (legacy fallback)
+
+Thumbnail uses page.image_small when available, otherwise falls back
+to the full-size image path.
 
 Maintains Spotlight full-screen functionality.
 
@@ -22,18 +25,21 @@ Maintains Spotlight full-screen functionality.
 
 {%- if img_full != "" -%}
 
+{%- if page.image_small and page.image_small != "" -%}
+  {%- assign img_thumb = page.image_small -%}
+{%- else -%}
+  {%- assign img_thumb = img_full -%}
+{%- endif -%}
+
 <a id="{{ page.objectid }}"
    class="spotlight gallery-img"
    data-download="true"
    title="{{ page.title | escape }}"
    href="{{ img_full | relative_url }}">
-
-    <img src="{{ img_full | relative_url }}"
-         alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}"
-         class="img-fluid">
-
-    <div><small class="text-dark">Click to view full screen</small></div>
-
+  <img src="{{ img_thumb | relative_url }}"
+       alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}"
+       class="img-fluid">
+  <div><small class="text-dark">Click to view full screen</small></div>
 </a>
 
 {%- else -%}

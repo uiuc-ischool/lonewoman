@@ -1,0 +1,85 @@
+{% comment %}
+Compound gallery for parent items.
+Expects include.children (preferred) or falls back to filtering by image_parent_id == page.objectid.
+Uses child.object_location (recommended) with fallback to /objects/ + child.filename or child.image_object_location.
+{% endcomment %}
+
+{%- assign children = include.children -%}
+{%- if children == nil -%}
+  {%- assign all = site.data[site.metadata] -%}
+  {%- assign children = all | where: "image_parent_id", page.objectid -%}
+{%- endif -%}
+
+{%- if children and children.size > 0 -%}
+  {%- assign first = children[0] -%}
+
+  {%- comment -%} Build src for first image {%- endcomment -%}
+  {%- assign first_src = "" -%}
+  {%- if first.object_location and first.object_location != "" -%}
+    {%- assign first_src = first.object_location -%}
+  {%- elsif first.filename and first.filename != "" -%}
+    {%- assign first_src = "/objects/" | append: first.filename -%}
+  {%- elsif first.image_object_location and first.image_object_location != "" -%}
+    {%- assign first_src = first.image_object_location -%}
+  {%- endif -%}
+
+  <div class="card mb-4 text-center">
+    <div class="card-body">
+
+      {%- if first_src != "" -%}
+        <a class="spotlight"
+           data-download="true"
+           href="{{ first_src | relative_url }}"
+           title="{{ page.title | escape }}">
+          <img id="cbCompoundMain"
+               src="{{ first_src | relative_url }}"
+               alt="{{ page.title | escape }}"
+               class="img-fluid">
+        </a>
+        <div class="mt-2"><small class="text-dark">Click image to view full screen</small></div>
+      {%- else -%}
+        <p><em>Found children, but first child has no image path.</em></p>
+      {%- endif -%}
+
+      <div class="mt-3 d-flex flex-wrap justify-content-center" style="gap: .5rem;">
+        {% for it in children %}
+
+          {%- assign src = "" -%}
+          {%- if it.object_location and it.object_location != "" -%}
+            {%- assign src = it.object_location -%}
+          {%- elsif it.filename and it.filename != "" -%}
+            {%- assign src = "/objects/" | append: it.filename -%}
+          {%- elsif it.image_object_location and it.image_object_location != "" -%}
+            {%- assign src = it.image_object_location -%}
+          {%- endif -%}
+
+          {% if src != "" %}
+            <button type="button"
+                    class="btn btn-light p-1"
+                    style="border: 1px solid #ddd;"
+                    data-src="{{ src | relative_url }}"
+                    aria-label="View image {{ forloop.index }} of {{ children.size }}">
+              <img src="{{ src | relative_url }}"
+                   alt=""
+                   style="height: 80px; width: auto; display:block;">
+            </button>
+          {% endif %}
+
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const main = document.getElementById("cbCompoundMain");
+      const btns = Array.from(document.querySelectorAll("button[data-src]"));
+      if (!main || btns.length === 0) return;
+      btns.forEach((b) => b.addEventListener("click", () => { main.src = b.dataset.src; }));
+    })();
+  </script>
+
+{%- else -%}
+  <p><em>No child images linked to this item.</em></p>
+{%- endif -%}
