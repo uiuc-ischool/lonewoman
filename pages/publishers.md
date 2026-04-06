@@ -4,26 +4,28 @@ title: Publishers
 permalink: /publishers/
 ---
 
-{%- comment -%}
-Browse articles grouped by publication, A→Z.
-Uses the `publication` field from the metadata CSV.
-Only shows compound_object (article-level) records — not individual image sub-items.
-{%- endcomment -%}
-
 {%- assign all = site.data[site.metadata] -%}
 
-{%- comment -%} Keep only article-level compound objects that have a publication name {%- endcomment -%}
-{%- assign articles = all | where: "display_template", "compound_object" -%}
-{%- assign with_pub = articles | where_exp: 'r', 'r.publication and r.publication != ""' -%}
+{%- comment -%}
+  Build the article list manually with strip+downcase comparison to avoid
+  missed matches from whitespace in the CSV's image_display_template field.
+{%- endcomment -%}
+{%- assign articles = "" | split: "" -%}
+{%- for item in all -%}
+  {%- assign tmpl = item.image_display_template | strip | downcase -%}
+  {%- assign pub = item.publication | strip -%}
+  {%- if tmpl == "compound_object" and pub != "" -%}
+    {%- assign articles = articles | push: item -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{%- comment -%} Group by publication and sort groups alphabetically {%- endcomment -%}
-{%- assign groups = with_pub | group_by: 'publication' | sort: 'name' -%}
+{%- assign groups = articles | group_by: 'publication' | sort: 'name' -%}
 
 {%- if groups.size == 0 -%}
 <p><em>No publications found.</em></p>
 {%- else -%}
 
-  <p class="text-muted mb-1">{{ groups.size }} publications, {{ with_pub.size }} articles total</p>
+  <p class="text-muted mb-1">{{ groups.size }} publications &middot; {{ articles.size }} articles</p>
 
   {%- comment -%} A–Z jump links {%- endcomment -%}
   <p class="small mb-4">
@@ -32,7 +34,7 @@ Only shows compound_object (article-level) records — not individual image sub-
     {%- for g in groups -%}
       {%- assign letter = g.name | strip | upcase | slice: 0,1 -%}
       {%- unless seen contains letter -%}
-        <a href="#pub-{{ letter }}">{{ letter }}</a>{% unless forloop.last %} · {% endunless %}
+        <a href="#pub-{{ letter }}">{{ letter }}</a>{% unless forloop.last %} &middot; {% endunless %}
         {%- assign seen = seen | append: letter -%}
       {%- endunless -%}
     {%- endfor -%}
@@ -53,14 +55,15 @@ Only shows compound_object (article-level) records — not individual image sub-
         {{ pub_name }}
         <span class="text-muted fw-normal">({{ g.items | size }} article{% if g.items.size != 1 %}s{% endif %})</span>
       </h3>
-      <ul class="mb-0">
+      <ul class="list-unstyled ps-3 mb-0">
         {%- assign sorted_items = g.items | sort: 'date' -%}
         {%- for it in sorted_items -%}
+          {%- comment -%} Jekyll slugify (pretty mode) lowercases the objectid for the filename {%- endcomment -%}
           {%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
-          <li>
-            <a href="{{ item_url }}">{{ it.title }}</a>
-            {%- if it.date %} <span class="text-muted">({{ it.date | slice: 0,4 }})</span>{% endif -%}
-            {%- if it.author and it.author != "" %} — <em>{{ it.author }}</em>{% endif -%}
+          <li class="mb-1">
+            {%- if it.author and it.author != "" -%}{{ it.author }}, {%- endif -%}
+            <a href="{{ item_url }}">{{ it.title }}</a>,
+            {{ pub_name }}{% if it.date %}, {{ it.date | slice: 0,4 }}{% endif %}
           </li>
         {%- endfor -%}
       </ul>
