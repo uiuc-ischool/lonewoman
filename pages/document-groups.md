@@ -6,21 +6,18 @@ permalink: /groups/
 
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' -%}
-{%- assign originals = compounds | where_exp: 'item', 'item.reprint_type contains "original"' | sort: 'publication' -%}
+{%- assign originals = compounds | where_exp: 'item', 'item.reprint_type contains "original"' | sort: 'date' -%}
 
 {%- if originals.size == 0 -%}
 <p><em>No document groups found.</em></p>
 {%- else -%}
 <p class="text-muted mb-4">{{ originals.size }} document groups &middot; each Original followed by its Reprints</p>
-{%- assign current_letter = "" -%}
+{%- assign current_year = "" -%}
 {%- for orig in originals -%}
-{%- assign pub_name = orig.publication | strip -%}
-{%- assign letter = pub_name | upcase | slice: 0,1 -%}
-{%- assign alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
-{%- unless alpha contains letter -%}{%- assign letter = "#" -%}{%- endunless -%}
-{%- if letter != current_letter -%}
-<h2 id="letter-{{ letter }}" class="mt-5 border-bottom pb-1">{{ letter }}</h2>
-{%- assign current_letter = letter -%}
+{%- assign year = orig.date | slice: 0,4 -%}
+{%- if year != current_year -%}
+<h2 id="year-{{ year }}" class="mt-5 border-bottom pb-1">{{ year }}</h2>
+{%- assign current_year = year -%}
 {%- endif -%}
 {%- assign gid = orig.group_reprint_id -%}
 {%- assign group_items = compounds | where: 'group_reprint_id', gid | sort: 'date' -%}
