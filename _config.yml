@@ -35,15 +35,12 @@ author: CollectionBuilder
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: cb_complete_metadata_images_tropes_reprints_transcripts
-# page generation settings [optional!]
-# [optional: only used if you need to tweak CB defaults or generate from more than one data file]
-# page_gen:
-#   - data: 'demo-metadata'
-#     template: 'item'
-#     name: 'objectid'
-#     dir: 'items'
-#     extension: 'html' 
-#     filter: 'objectid'  
+# page generation settings
+# filter_condition uses image_parent_id (the correct field in this CSV) so only
+# parent compound objects get pages — child images are excluded from page gen and
+# from the prev/next browse-button chain.
+page_gen:
+  - filter_condition: '!record["image_parent_id"]'
 
 ##########
 # ORGANIZATION SETTINGS
