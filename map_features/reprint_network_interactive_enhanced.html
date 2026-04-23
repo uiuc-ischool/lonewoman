@@ -219,6 +219,66 @@
             Plotly.restyle(myPlot, update, [i]);
         }
 
+        // Add tropes to hover text (inserted above Group: line, semicolons → commas)
+        var articleTropes = {
+            "ChristianAdvocateAndJournal1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "CommercialAdvertiser1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "EdgefieldAdvertiser1847": "Noble Savage, Lazy Indian, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "GreatSouthernHerald1914": "Origins, Indians as Savage, Vanishing Indians, Wonder",
+            "HolmesCountyRepublican1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "HutchingsCaliforniaMagazine1857": "Signs Easily Interpreted, Discovery, Wild Child, Indians as Savage",
+            "LongIslander1848": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "LowellDailyCitizenAndNews1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "MaryboroughChronicle1897": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "NewBedfordMercury1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "NewOrleansDailyCrescent1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "NewYorkDailyTribune1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "NewYorkEveningExpress1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "NewYorkHerald1896": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "NorthOtagoTimes1902": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "PublicLedger1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "Russell1856_EB3(42)": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "Russell1856_HCF": "Girl Crusoe, Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "Russell1857_CC": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "Russell1857_CDT": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "SacramentoDailyUnion1856": "Girl Crusoe, Anti-Russian Sentiment, Indians as Savage, Noble Savage, Vanishing Indians, Indian Queen, Wild Child, Signs Easily Interpreted",
+            "SantaBarbaraGazette1856": "Signs Easily Interpreted, Wild Child, Discovery, Indians as Savage",
+            "SpiritOfTheTimes1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "Taylor1860_13(16)": "Wild Child, Indians as Savage, Wonder, Noble Savage, Vanishing Indians",
+            "TheArgus1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "TheBostonAtlas1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "TheBruceHerald1902": "Origins, Indians as Savage, Vanishing Indians, Wonder",
+            "TheFriend1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "TheGoulburnHerald1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "TheLivingAge1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "TheMemphisDailyAppeal1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "TheMorningBulletin1897": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "ThePolynesian1847": "Noble Savage, Lazy Indian, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "TheSaintPaulGlobe1896": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "TheTelegraph1898": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "TheVermontJournal1847": "Lazy Indian, Noble Savage, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child",
+            "WeeklyIrishTimes1896": "Origins, Indians as Savage, Vanishing Indians, Wonder, Noble Savage",
+            "WesternDemocrat1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "WilmingtonJournal1857": "Indians as Savage, No Boat Available, Discovery, Indian Queen, Signs Easily Interpreted, Vanishing Indians, Noble Savage",
+            "WisconsinHerald1847": "Noble Savage, Lazy Indian, Jump Overboard, Indian Queen, Girl Crusoe, Wild Child"
+        };
+
+        for (var ti = numEdgeTraces; ti < myPlot.data.length; ti++) {
+            var tr = myPlot.data[ti];
+            if (!tr.customdata || !tr.hovertext) continue;
+            var newHover = [];
+            for (var tj = 0; tj < tr.customdata.length; tj++) {
+                var aid = tr.customdata[tj];
+                var tropes = articleTropes[aid] || '';
+                var ht = tr.hovertext[tj];
+                if (tropes) {
+                    ht = ht.replace('<br>Group:', '<br>Tropes: ' + tropes + '<br>Group:');
+                }
+                newHover.push(ht);
+            }
+            Plotly.restyle(myPlot, {'hovertext': [newHover]}, [ti]);
+        }
+
         Plotly.relayout(myPlot, {
             'title.text': "Reprint Network: Movement Across Time and Space<br><sub>Node color = 25-year period (lighter → earlier in period, darker → later) | ⭐=Original, ⚫=Reprint | Lines = reprint connections (solid=direct, dashed=truncated, dotted=paraphrase)</sub>",
             'legend.x': 0.01,
