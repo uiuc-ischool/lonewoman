@@ -260,12 +260,42 @@ def build_traces(articles):
         tropes_raw = art.get('tropes', '')
         article_tropes[aid] = tropes_raw.replace('; ', ', ').replace(';', ', ')
 
+    import math
+
     # Coordinates
     coords = {}
     for art in articles:
         loc = art['publisher_location']
         if loc not in coords:
             coords[loc] = get_coords(loc)
+
+    # ── Per-article spread coordinates ──────────────────────────────────────
+    # Group all article IDs (originals + reprints) by location, then assign
+    # small circular offsets so overlapping nodes are distinct.
+    loc_to_aids = {}
+    for art in articles:
+        loc = art['publisher_location']
+        loc_to_aids.setdefault(loc, []).append(art['article_id'])
+
+    SPREAD_RADIUS = 0.55   # degrees – big enough to separate, small enough to look local
+    SPREAD_SCALE  = 1.25   # grow radius a bit more when there are many nodes
+
+    article_spread = {}
+    for loc, aids in loc_to_aids.items():
+        n = len(aids)
+        base_lat, base_lon = coords.get(loc, (0, 0))
+        if n == 1:
+            article_spread[aids[0]] = (base_lat, base_lon)
+        else:
+            # Scale radius with sqrt(n) so larger clusters spread more
+            r = SPREAD_RADIUS * (1 + SPREAD_SCALE * math.log(n) / 4)
+            for i, aid in enumerate(aids):
+                angle = 2 * math.pi * i / n - math.pi / 2  # start at top
+                dlat = r * math.sin(angle)
+                # longitude degrees are smaller near the poles – correct for that
+                cos_lat = math.cos(math.radians(base_lat)) or 0.01
+                dlon = r * math.cos(angle) / cos_lat
+                article_spread[aid] = (base_lat + dlat, base_lon + dlon)
 
     # Build edge traces (one per edge)
     traces = []
@@ -278,18 +308,11 @@ def build_traces(articles):
         orig = originals.get(gid)
         if not orig:
             continue
-        orig_loc = orig['publisher_location']
-        reprint_loc = art['publisher_location']
-        olat, olon = coords.get(orig_loc, (0, 0))
-        rlat, rlon = coords.get(reprint_loc, (0, 0))
-        # Slight jitter so lines from same origin don't stack on markers
-        import random
-        jitter = 0.5
-        olat2 = olat + random.uniform(-0.05, 0.05)
-        olon2 = olon + random.uniform(-0.05, 0.05)
+        olat, olon = article_spread.get(orig['article_id'], coords.get(orig['publisher_location'], (0, 0)))
+        rlat, rlon = article_spread.get(art['article_id'],  coords.get(art['publisher_location'],  (0, 0)))
         traces.append(go.Scattergeo(
-            lat=[olat2, rlat],
-            lon=[olon2, rlon],
+            lat=[olat, rlat],
+            lon=[olon, rlon],
             mode='lines',
             line=dict(color='rgba(100, 100, 100, 0.4)', width=2, dash=line_style(art['reprint_type'])),
             hoverinfo='skip',
@@ -305,10 +328,10 @@ def build_traces(articles):
     orig_lats, orig_lons, orig_cdata, orig_htext, orig_text = [], [], [], [], []
     for gid, orig in sorted(originals.items()):
         loc = orig['publisher_location']
-        lat, lon = coords.get(loc, (0, 0))
+        aid = orig['article_id']
+        lat, lon = article_spread.get(aid, coords.get(loc, (0, 0)))
         orig_lats.append(lat)
         orig_lons.append(lon)
-        aid = orig['article_id']
         orig_cdata.append(aid)
         year = article_years.get(aid, 1900)
         title_short = orig['title'][:60] + '...' if len(orig['title']) > 60 else orig['title']
@@ -355,10 +378,10 @@ def build_traces(articles):
         if 'original' in art['reprint_type']:
             continue
         loc = art['publisher_location']
-        lat, lon = coords.get(loc, (0, 0))
+        aid = art['article_id']
+        lat, lon = article_spread.get(aid, coords.get(loc, (0, 0)))
         rep_lats.append(lat)
         rep_lons.append(lon)
-        aid = art['article_id']
         rep_cdata.append(aid)
         year = article_years.get(aid, 1900)
         title_short = art['title'][:60] + '...' if len(art['title']) > 60 else art['title']
