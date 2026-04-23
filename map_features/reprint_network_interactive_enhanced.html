@@ -81,8 +81,127 @@
         });
         
         console.log('=== Click-to-Highlight Ready! Click any node. ===');
+        applyNewColorScheme();
     }
-    
+
+    function applyNewColorScheme() {
+        // Year lookup for every article in the dataset
+        var articleYears = {
+            "ChristianAdvocateAndJournal1847": 1847,
+            "CommercialAdvertiser1857": 1857,
+            "EdgefieldAdvertiser1847": 1847,
+            "GreatSouthernHerald1914": 1914,
+            "HolmesCountyRepublican1857": 1857,
+            "HutchingsCaliforniaMagazine1857": 1857,
+            "LongIslander1848": 1848,
+            "LowellDailyCitizenAndNews1857": 1857,
+            "MaryboroughChronicle1897": 1897,
+            "NewBedfordMercury1847": 1847,
+            "NewOrleansDailyCrescent1857": 1857,
+            "NewYorkDailyTribune1847": 1847,
+            "NewYorkEveningExpress1847": 1847,
+            "NorthOtagoTimes1902": 1902,
+            "PublicLedger1847": 1847,
+            "Russell1856_EB3(42)": 1856,
+            "Russell1856_HCF": 1856,
+            "Russell1857_CC": 1857,
+            "Russell1857_CDT": 1857,
+            "SacramentoDailyUnion1856": 1856,
+            "SantaBarbaraGazette1856": 1856,
+            "SpiritOfTheTimes1847": 1847,
+            "Taylor1860_13(16)": 1860,
+            "TheArgus1857": 1857,
+            "TheBostonAtlas1847": 1847,
+            "TheBruceHerald1902": 1902,
+            "TheFriend1847": 1847,
+            "TheGoulburnHerald1857": 1857,
+            "TheLivingAge1847": 1847,
+            "TheMemphisDailyAppeal1857": 1857,
+            "TheMorningBulletin1897": 1897,
+            "ThePolynesian1847": 1847,
+            "TheSaintPaulGlobe1896": 1896,
+            "TheTelegraph1898": 1898,
+            "TheVermontJournal1847": 1847,
+            "WeeklyIrishTimes1896": 1896,
+            "WesternDemocrat1857": 1857,
+            "WilmingtonJournal1857": 1857,
+            "WisconsinHerald1847": 1847,
+            "NewYorkHerald1896": 1896
+        };
+
+        // Map year → a value 1–9 where:
+        //   integer part = band number (1–8, one per 25-year period)
+        //   fractional part = position within that band (0=earliest, ~1=latest)
+        // cmin=1, cmax=9 so the colorscale spans the full [0,1] range
+        var bandStarts = [1825, 1850, 1875, 1900, 1925, 1950, 1975, 2000];
+        function getColorValue(year) {
+            for (var b = 0; b < 8; b++) {
+                if (year >= bandStarts[b] && year < bandStarts[b] + 25) {
+                    return (b + 1) + (year - bandStarts[b]) / 25.0;
+                }
+            }
+            return year < 1825 ? 1.0 : 9.0;
+        }
+
+        // 8 color families, each light→dark within its 1/8 slice of [0,1].
+        // Sharp visual jump at each band boundary (pairs at 0.Xyyy / 0.X+1).
+        var newColorscale = [
+            [0.0000, "rgb(198,219,239)"],  // Band 1 – 1825-1849 – light blue
+            [0.1249, "rgb(8,48,107)"],     //                      dark blue
+            [0.1250, "rgb(199,233,192)"],  // Band 2 – 1850-1874 – light green
+            [0.2499, "rgb(0,68,27)"],      //                      dark green
+            [0.2500, "rgb(253,208,162)"],  // Band 3 – 1875-1899 – light orange
+            [0.3749, "rgb(166,54,3)"],     //                      dark orange
+            [0.3750, "rgb(252,174,145)"],  // Band 4 – 1900-1924 – light red
+            [0.4999, "rgb(103,0,13)"],     //                      dark red
+            [0.5000, "rgb(218,218,235)"],  // Band 5 – 1925-1949 – light purple
+            [0.6249, "rgb(63,0,125)"],     //                      dark purple
+            [0.6250, "rgb(178,226,226)"],  // Band 6 – 1950-1974 – light teal
+            [0.7499, "rgb(0,88,88)"],      //                      dark teal
+            [0.7500, "rgb(255,247,188)"],  // Band 7 – 1975-1999 – light gold
+            [0.8749, "rgb(179,88,6)"],     //                      dark gold
+            [0.8750, "rgb(253,205,228)"],  // Band 8 – 2000-2024 – light pink
+            [1.0000, "rgb(197,27,125)"]    //                      dark pink
+        ];
+
+        var bandLabels = [
+            "1825–1849","1850–1874","1875–1899","1900–1924",
+            "1925–1949","1950–1974","1975–1999","2000–2024"
+        ];
+        var tickvals = [1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5];
+
+        for (var i = numEdgeTraces; i < myPlot.data.length; i++) {
+            var trace = myPlot.data[i];
+            if (!trace.customdata) continue;
+
+            var newColors = [];
+            for (var j = 0; j < trace.customdata.length; j++) {
+                var yr = articleYears[trace.customdata[j]] || 1900;
+                newColors.push(getColorValue(yr));
+            }
+
+            var update = {
+                'marker.color': [newColors],
+                'marker.colorscale': [newColorscale],
+                'marker.cmin': [1],
+                'marker.cmax': [9]
+            };
+
+            if (trace.name === 'Original') {
+                update['marker.colorbar.ticktext'] = [bandLabels];
+                update['marker.colorbar.tickvals'] = [tickvals];
+                update['marker.colorbar.title.text'] = ['25-Year Period'];
+                update['marker.showscale'] = [true];
+            }
+
+            Plotly.restyle(myPlot, update, [i]);
+        }
+
+        Plotly.relayout(myPlot, {
+            'title.text': "Reprint Network: Movement Across Time and Space<br><sub>Node color = 25-year period (lighter → earlier in period, darker → later) | ⭐=Original, ⚫=Reprint | Lines = reprint connections (solid=direct, dashed=truncated, dotted=paraphrase)</sub>"
+        });
+    }
+
     function handleClick(eventData) {
         console.log('=== Click detected ===');
         
