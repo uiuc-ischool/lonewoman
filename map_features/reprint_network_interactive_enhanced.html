@@ -79,7 +79,29 @@
             console.log('Double-click detected - resetting view');
             resetView();
         });
-        
+
+        // Legend click: hide the OTHER marker trace instead of the clicked one
+        myPlot.on('plotly_legendclick', function(eventData) {
+            var clicked = eventData.curveNumber;
+            for (var i = numEdgeTraces; i < myPlot.data.length; i++) {
+                if (i !== clicked && myPlot.data[i].customdata) {
+                    var cur = myPlot.data[i].visible;
+                    Plotly.restyle(myPlot, {'visible': cur === false ? true : false}, [i]);
+                }
+            }
+            return false; // prevent default toggle of the clicked trace
+        });
+
+        // Legend double-click: restore both traces
+        myPlot.on('plotly_legenddoubleclick', function() {
+            for (var i = numEdgeTraces; i < myPlot.data.length; i++) {
+                if (myPlot.data[i].customdata) {
+                    Plotly.restyle(myPlot, {'visible': true}, [i]);
+                }
+            }
+            return false;
+        });
+
         console.log('=== Click-to-Highlight Ready! Click any node. ===');
         applyNewColorScheme();
     }
@@ -198,7 +220,15 @@
         }
 
         Plotly.relayout(myPlot, {
-            'title.text': "Reprint Network: Movement Across Time and Space<br><sub>Node color = 25-year period (lighter → earlier in period, darker → later) | ⭐=Original, ⚫=Reprint | Lines = reprint connections (solid=direct, dashed=truncated, dotted=paraphrase)</sub>"
+            'title.text': "Reprint Network: Movement Across Time and Space<br><sub>Node color = 25-year period (lighter → earlier in period, darker → later) | ⭐=Original, ⚫=Reprint | Lines = reprint connections (solid=direct, dashed=truncated, dotted=paraphrase)</sub>",
+            'legend.x': 0.01,
+            'legend.y': 0.98,
+            'legend.xanchor': 'left',
+            'legend.yanchor': 'top',
+            'legend.bgcolor': 'rgba(255,255,255,0.88)',
+            'legend.bordercolor': '#bbb',
+            'legend.borderwidth': 1,
+            'legend.font': {size: 13}
         });
     }
 
