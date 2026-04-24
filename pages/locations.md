@@ -202,6 +202,7 @@ Jump to:
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endif -%}
 {%- endunless -%}
+{%- endunless -%}
 {%- endfor -%}
 </ul>
 {%- endif -%}
