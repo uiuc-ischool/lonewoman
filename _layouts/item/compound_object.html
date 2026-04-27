@@ -6,14 +6,212 @@ gallery: true
 
 {%- assign all = site.data[site.metadata] -%}
 {%- assign children = all | where: "image_parent_id", page.objectid -%}
+{%- assign document_tropes = page.tropes | split: "; " -%}
 
-<div class="mb-3">
-  <p class="text-muted small mb-0">
-    DEBUG compound_object:
-    parent objectid = <code>{{ page.objectid }}</code>,
-    children found = <strong>{{ children.size }}</strong>
-    <!-- USING compound_object layout -->
-  </p>
-</div>
+<style>
+  /* ── Two-column article viewer ─────────────────────────── */
+  .article-viewer {
+    display: flex;
+    gap: 1.75rem;
+    align-items: flex-start;
+  }
 
-{% include item/compound-gallery.html children=children %}
+  /* Left column: fixed ~48% so the transcript always has room */
+  .article-viewer-left {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+  /* Right column: fills remaining space; long transcripts scroll with the page */
+  .article-viewer-right {
+    flex: 1;
+    min-width: 0; /* prevent flex blowout on long words */
+  }
+
+  /* Expand-document mode: hide left column, transcript fills full width */
+  .article-viewer.doc-expanded .article-viewer-left {
+    display: none;
+  }
+
+  /* Button bar beneath the gallery / panel */
+  .viewer-controls {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: .6rem;
+  }
+
+  /* ── Mobile: stack columns ──────────────────────────────── */
+  @media (max-width: 767px) {
+    .article-viewer          { flex-direction: column; }
+    .article-viewer-left,
+    .article-viewer-right    { flex: none; max-width: 100%; width: 100%; }
+  }
+</style>
+
+<div class="article-viewer mb-4" id="article-viewer">
+
+  <!-- ── LEFT COLUMN: gallery ↔ interpretive panel ───────── -->
+  <div class="article-viewer-left" id="viewer-left">
+
+    <!-- Gallery (default visible) -->
+    <div id="gallery-view">
+      {% include item/compound-gallery.html children=children %}
+    </div>
+
+    <!-- Interpretive panel (swaps in when mode is active) -->
+    <div id="panel-view" class="d-none">
+      {% include interpretive-panel.html document_tropes=document_tropes %}
+    </div>
+
+    <!-- Controls below the gallery / panel -->
+    <div class="viewer-controls">
+      <button id="interpretive-mode-btn" class="btn btn-outline-secondary btn-sm">
+        Interpretive Mode
+      </button>
+      <button id="expand-doc-btn" class="btn btn-outline-secondary btn-sm">
+        Expand Document
+      </button>
+    </div>
+
+  </div><!-- /.article-viewer-left -->
+
+  <!-- ── RIGHT COLUMN: transcript ────────────────────────── -->
+  <div class="article-viewer-right" id="transcript-col">
+    {% if page.article_id != "" and page.article_id != nil %}
+
+      {% comment %} Inject trope CSS once {% endcomment %}
+      {% capture trope_css %}
+:root {
+  {% for trope in site.data.tropes -%}
+  --trope-{{ trope.id }}-color: {{ trope.color }};
+  {% endfor %}
+}
+mark.trope-mark {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+  transition: background-color 0.2s ease;
+}
+{% for trope in site.data.tropes -%}
+body.trope-active-{{ trope.id }} mark.trope-{{ trope.id }} {
+  background-color: var(--trope-{{ trope.id }}-color);
+}
+{% endfor %}
+      {% endcapture %}
+      <script>
+      if (!document.getElementById('trope-styles')) {
+        var s = document.createElement('style');
+        s.id = 'trope-styles';
+        s.textContent = {{ trope_css | jsonify }};
+        document.head.appendChild(s);
+      }
+      </script>
+
+      <div id="transcript-{{ page.article_id }}"
+           class="transcript-viewer"
+           data-src="{{ '/objects/' | append: page.article_id | append: '/' | append: page.article_id | append: '_transcript.json' | relative_url }}">
+        <p class="text-muted fst-italic small">Loading transcript…</p>
+      </div>
+
+      <script>
+      (function () {
+        var viewer = document.getElementById('transcript-{{ page.article_id }}');
+        if (!viewer) return;
+        fetch(viewer.dataset.src)
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(function (data) {
+            var frag = document.createDocumentFragment();
+            data.paragraphs.forEach(function (para) {
+              var p = document.createElement('p');
+              para.forEach(function (seg) {
+                if (seg.trope) {
+                  var mark = document.createElement('mark');
+                  mark.className = 'trope-mark trope-' + seg.trope;
+                  mark.dataset.trope = seg.trope;
+                  mark.textContent = seg.text;
+                  p.appendChild(mark);
+                } else {
+                  p.appendChild(document.createTextNode(seg.text));
+                }
+              });
+              frag.appendChild(p);
+            });
+            viewer.innerHTML = '';
+            viewer.appendChild(frag);
+          })
+          .catch(function (err) {
+            viewer.innerHTML = '<p class="text-muted fst-italic small">Transcript unavailable.</p>';
+            console.warn('transcript-viewer: failed to load', viewer.dataset.src, err);
+          });
+      }());
+      </script>
+
+    {% else %}
+      <p class="text-muted fst-italic small">No transcript available for this item.</p>
+    {% endif %}
+  </div>
+
+</div><!-- /.article-viewer -->
+
+<script>
+(function () {
+  var viewer      = document.getElementById('article-viewer');
+  var modeBtn     = document.getElementById('interpretive-mode-btn');
+  var expandBtn   = document.getElementById('expand-doc-btn');
+  var galleryView = document.getElementById('gallery-view');
+  var panelView   = document.getElementById('panel-view');
+  var panel       = document.getElementById('interpretive-panel');
+
+  /* ── Interpretive-mode helpers ────────────────────────── */
+  function enterInterpretiveMode() {
+    galleryView.classList.add('d-none');
+    panelView.classList.remove('d-none');
+    if (panel) panel.hidden = false;
+    modeBtn.textContent = 'Exit Interpretive Mode';
+    modeBtn.classList.replace('btn-outline-secondary', 'btn-secondary');
+  }
+
+  function exitInterpretiveMode() {
+    galleryView.classList.remove('d-none');
+    panelView.classList.add('d-none');
+    modeBtn.textContent = 'Interpretive Mode';
+    modeBtn.classList.replace('btn-secondary', 'btn-outline-secondary');
+    /* Clear all active trope highlights and uncheck all boxes */
+    document.body.className = document.body.className
+      .replace(/\btrope-active-\d+\b/g, '').trim();
+    document.querySelectorAll('.trope-checkbox').forEach(function (cb) {
+      cb.checked = false;
+    });
+  }
+
+  if (modeBtn) {
+    modeBtn.addEventListener('click', function () {
+      panelView.classList.contains('d-none')
+        ? enterInterpretiveMode()
+        : exitInterpretiveMode();
+    });
+  }
+
+  /* The panel's [X] (interpretive-panel.html) sets panel.hidden = true.
+     We add our listener to also restore the gallery. */
+  var closeBtn = document.getElementById('iPanel-close-btn');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', exitInterpretiveMode);
+  }
+
+  /* ── Expand-document toggle ───────────────────────────── */
+  if (expandBtn) {
+    expandBtn.addEventListener('click', function () {
+      var expanded = viewer.classList.toggle('doc-expanded');
+      expandBtn.textContent = expanded ? 'Collapse' : 'Expand Document';
+      expandBtn.classList.toggle('btn-secondary', expanded);
+      expandBtn.classList.toggle('btn-outline-secondary', !expanded);
+    });
+  }
+}());
+</script>

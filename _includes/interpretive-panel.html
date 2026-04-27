@@ -1,0 +1,152 @@
+{% comment %}
+  interpretive-panel.html
+  Side panel listing the tropes present in a document with toggle checkboxes.
+
+  Usage:
+    {% assign document_tropes = page.tropes | split: "; " %}
+    {% include interpretive-panel.html document_tropes=document_tropes %}
+
+  document_tropes: array of trope label strings (split from the CSV "tropes" field).
+    Matching is done against site.data.tropes label values.
+
+  The panel starts hidden. Show it from outside with:
+    document.getElementById('interpretive-panel').hidden = false;
+
+  Checking a box adds class trope-active-N to <body>; unchecking removes it.
+  Requires: _data/tropes.yml and the CSS injected by transcript-viewer.html.
+{% endcomment %}
+
+<style>
+  #interpretive-panel {
+    background-color: #f5f0e4;
+    border: 1px solid #d9d0bc;
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .iPanel-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .iPanel-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #2d5a1b;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .iPanel-close {
+    background: none;
+    border: none;
+    padding: 0 0 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #222;
+    cursor: pointer;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .iPanel-close:hover { color: #000; }
+
+  .iPanel-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .iPanel-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid #e0d8c8;
+  }
+  .iPanel-item:last-child { border-bottom: none; }
+
+  .iPanel-trope-name {
+    font-size: 0.95rem;
+    color: #222;
+  }
+
+  /* Custom checkbox — border color and fill set via --cb-color inline property */
+  .trope-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2.5px solid var(--cb-color, #888);
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+    transition: background-color 0.15s ease;
+  }
+
+  .trope-checkbox:checked {
+    background-color: var(--cb-color, #888);
+  }
+
+  /* White checkmark via pseudo-element */
+  .trope-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 7px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+  }
+</style>
+
+<div id="interpretive-panel" hidden>
+  <div class="iPanel-header">
+    <p class="iPanel-title">Tropes within this document:</p>
+    <button class="iPanel-close" id="iPanel-close-btn" aria-label="Close interpretive panel">[X]</button>
+  </div>
+
+  <ul class="iPanel-list">
+    {% for trope in site.data.tropes %}
+      {% if document_tropes contains trope.label %}
+      <li class="iPanel-item">
+        <span class="iPanel-trope-name">{{ trope.label }}</span>
+        <input
+          type="checkbox"
+          class="trope-checkbox"
+          data-trope="{{ trope.id }}"
+          style="--cb-color: {{ trope.color }};"
+          aria-label="Highlight {{ trope.label }}"
+        >
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+(function () {
+  // Close button
+  var closeBtn = document.getElementById('iPanel-close-btn');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function () {
+      document.getElementById('interpretive-panel').hidden = true;
+    });
+  }
+
+  // Checkbox toggles — add/remove trope-active-N on <body>
+  document.querySelectorAll('.trope-checkbox').forEach(function (cb) {
+    cb.addEventListener('change', function () {
+      document.body.classList.toggle('trope-active-' + this.dataset.trope, this.checked);
+    });
+  });
+}());
+</script>

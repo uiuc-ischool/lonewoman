@@ -45,15 +45,15 @@ if (!document.getElementById('trope-styles')) {
 }
 </script>
 
-<div id="transcript-{{ document_id }}"
+<div id="transcript-{{ include.document_id }}"
      class="transcript-viewer"
-     data-src="{{ '/objects/' | append: document_id | append: '/' | append: document_id | append: '_transcript.json' | relative_url }}">
+     data-src="{{ '/objects/' | append: include.document_id | append: '/' | append: include.document_id | append: '_transcript.json' | relative_url }}">
   <p class="text-muted fst-italic small">Loading transcript…</p>
 </div>
 
 <script>
 (function () {
-  var viewer = document.getElementById('transcript-{{ document_id }}');
+  var viewer = document.getElementById('transcript-{{ include.document_id }}');
   if (!viewer) return;
 
   fetch(viewer.dataset.src)
