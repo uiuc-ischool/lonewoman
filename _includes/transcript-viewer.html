@@ -1,0 +1,93 @@
+{% comment %}
+  transcript-viewer.html
+  Renders an interactive trope-highlighted transcript for a given article.
+
+  Usage:
+    {% include transcript-viewer.html document_id="AlbanyEveningJournal1853" %}
+
+  Requires:
+    _data/tropes.yml              — trope id / label / color entries
+    objects/{id}/{id}_transcript.json — produced by utilities/xml_to_json.py
+
+  The JSON is fetched at runtime (objects/ is served as static files).
+  Trope highlights are transparent by default; adding class trope-active-N
+  to <body> makes that trope's marks visible.
+{% endcomment %}
+
+{% comment %} Build the trope CSS block as a string so JS can inject it once,
+  even if this include appears more than once on a page. {% endcomment %}
+{% capture trope_css %}
+:root {
+  {% for trope in site.data.tropes -%}
+  --trope-{{ trope.id }}-color: {{ trope.color }};
+  {% endfor %}
+}
+mark.trope-mark {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+  transition: background-color 0.2s ease;
+}
+{% for trope in site.data.tropes -%}
+body.trope-active-{{ trope.id }} mark.trope-{{ trope.id }} {
+  background-color: var(--trope-{{ trope.id }}-color);
+}
+{% endfor %}
+{% endcapture %}
+
+<script>
+if (!document.getElementById('trope-styles')) {
+  var s = document.createElement('style');
+  s.id = 'trope-styles';
+  s.textContent = {{ trope_css | jsonify }};
+  document.head.appendChild(s);
+}
+</script>
+
+<div id="transcript-{{ document_id }}"
+     class="transcript-viewer"
+     data-src="{{ '/objects/' | append: document_id | append: '/' | append: document_id | append: '_transcript.json' | relative_url }}">
+  <p class="text-muted fst-italic small">Loading transcript…</p>
+</div>
+
+<script>
+(function () {
+  var viewer = document.getElementById('transcript-{{ document_id }}');
+  if (!viewer) return;
+
+  fetch(viewer.dataset.src)
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      var frag = document.createDocumentFragment();
+
+      data.paragraphs.forEach(function (para) {
+        var p = document.createElement('p');
+
+        para.forEach(function (seg) {
+          if (seg.trope) {
+            var mark = document.createElement('mark');
+            mark.className = 'trope-mark trope-' + seg.trope;
+            mark.dataset.trope = seg.trope;
+            mark.textContent = seg.text;
+            p.appendChild(mark);
+          } else {
+            p.appendChild(document.createTextNode(seg.text));
+          }
+        });
+
+        frag.appendChild(p);
+      });
+
+      viewer.innerHTML = '';
+      viewer.appendChild(frag);
+    })
+    .catch(function (err) {
+      viewer.innerHTML = '<p class="text-muted fst-italic small">Transcript unavailable.</p>';
+      console.warn('transcript-viewer: failed to load', viewer.dataset.src, err);
+    });
+}());
+</script>
