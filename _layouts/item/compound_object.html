@@ -129,10 +129,10 @@ body.trope-active-{{ trope.id }} mark.trope-{{ trope.id }} {
             data.paragraphs.forEach(function (para) {
               var p = document.createElement('p');
               para.forEach(function (seg) {
-                if (seg.trope) {
+                if (seg.tropes && seg.tropes.length) {
                   var mark = document.createElement('mark');
-                  mark.className = 'trope-mark trope-' + seg.trope;
-                  mark.dataset.trope = seg.trope;
+                  mark.className = 'trope-mark ' + seg.tropes.map(function(n) { return 'trope-' + n; }).join(' ');
+                  mark.dataset.tropes = seg.tropes.join(',');
                   mark.textContent = seg.text;
                   p.appendChild(mark);
                 } else {

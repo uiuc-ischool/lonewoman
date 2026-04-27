@@ -49,16 +49,20 @@ def get_inner_text(elem):
 def extract_segments(p_elem):
     """Walk a <p> element and return a list of text segments.
 
-    Handles trope spans at any depth inside inline elements.
-    Each segment: {'text': str} or {'text': str, 'trope': int}.
+    Handles nested/overlapping trope spans via an active_tropes stack.
+    Each segment: {'text': str} or {'text': str, 'tropes': [int, ...]}.
     """
     segments = []
     buf = []
+    active_tropes = []
 
     def flush():
         text = normalize("".join(buf))
         if text:
-            segments.append({"text": text})
+            seg = {"text": text}
+            if active_tropes:
+                seg["tropes"] = list(active_tropes)
+            segments.append(seg)
         buf.clear()
 
     def walk(elem):
@@ -77,13 +81,16 @@ def extract_segments(p_elem):
         if local == "span" and elem.get("type") == "trope":
             flush()
             trope_n = int(elem.get("n"))
-            trope_text = normalize(get_inner_text(elem))
-            if trope_text:
-                segments.append({"text": trope_text, "trope": trope_n})
+            active_tropes.append(trope_n)
+            if elem.text:
+                buf.append(elem.text)
+            for child in elem:
+                walk(child)
+            flush()
+            active_tropes.pop()
             if elem.tail:
                 buf.append(elem.tail)
         else:
-            # Regular inline element: include its text, recurse into children
             if elem.text:
                 buf.append(elem.text)
             for child in elem:
@@ -117,7 +124,7 @@ def process_lg(lg_elem):
 
     segment = {"text": "\n".join(lines)}
     if trope_n is not None:
-        segment["trope"] = trope_n
+        segment["tropes"] = [trope_n]
     return [segment]
 
 
