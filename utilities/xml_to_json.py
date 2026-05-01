@@ -30,12 +30,18 @@ ENTITY_TAG_MAP = {
 }
 
 
-def parse_entity_key(key_attr):
-    """Return the primary key from a (possibly compound) key attribute, stripping #."""
+def parse_entity_keys(key_attr):
+    """Return stripped keys from a key attribute.
+
+    Single key  → str.  Compound (contains ';') → list[str].
+    Returns None if the attribute is absent or empty.
+    """
     if not key_attr:
         return None
-    first = key_attr.split(";")[0].strip()
-    return first.lstrip("#") if first else None
+    parts = [p.strip().lstrip("#") for p in key_attr.split(";") if p.strip()]
+    if not parts:
+        return None
+    return parts[0] if len(parts) == 1 else parts
 
 
 def normalize(text):
@@ -105,8 +111,8 @@ def extract_segments(p_elem):
             if elem.tail:
                 buf.append(elem.tail)
         elif local in ENTITY_TAG_MAP or (local == "name" and elem.get("type") == "ship"):
-            key = parse_entity_key(elem.get("key"))
-            if key:
+            keys = parse_entity_keys(elem.get("key"))
+            if keys:
                 flush()
                 entity_type = "ship" if local == "name" else ENTITY_TAG_MAP[local]
                 text = normalize(get_inner_text(elem))
@@ -114,7 +120,10 @@ def extract_segments(p_elem):
                     seg = {"text": text}
                     if active_tropes:
                         seg["tropes"] = list(active_tropes)
-                    seg["entity_key"] = key
+                    if isinstance(keys, list):
+                        seg["entity_keys"] = keys
+                    else:
+                        seg["entity_key"] = keys
                     seg["entity_type"] = entity_type
                     segments.append(seg)
             else:
