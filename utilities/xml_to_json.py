@@ -23,6 +23,20 @@ BLOCK_SKIP = {"note", "head", "byline", "dateline", "opener", "closer", "salute"
 # Inline elements whose content should be dropped (e.g. footnote markers)
 INLINE_SKIP = {"note"}
 
+ENTITY_TAG_MAP = {
+    "persName": "person",
+    "orgName": "org",
+    "placeName": "place",
+}
+
+
+def parse_entity_key(key_attr):
+    """Return the primary key from a (possibly compound) key attribute, stripping #."""
+    if not key_attr:
+        return None
+    first = key_attr.split(";")[0].strip()
+    return first.lstrip("#") if first else None
+
 
 def normalize(text):
     return re.sub(r"\s+", " ", text).strip()
@@ -88,6 +102,26 @@ def extract_segments(p_elem):
                 walk(child)
             flush()
             active_tropes.pop()
+            if elem.tail:
+                buf.append(elem.tail)
+        elif local in ENTITY_TAG_MAP or (local == "name" and elem.get("type") == "ship"):
+            key = parse_entity_key(elem.get("key"))
+            if key:
+                flush()
+                entity_type = "ship" if local == "name" else ENTITY_TAG_MAP[local]
+                text = normalize(get_inner_text(elem))
+                if text:
+                    seg = {"text": text}
+                    if active_tropes:
+                        seg["tropes"] = list(active_tropes)
+                    seg["entity_key"] = key
+                    seg["entity_type"] = entity_type
+                    segments.append(seg)
+            else:
+                if elem.text:
+                    buf.append(elem.text)
+                for child in elem:
+                    walk(child)
             if elem.tail:
                 buf.append(elem.tail)
         else:

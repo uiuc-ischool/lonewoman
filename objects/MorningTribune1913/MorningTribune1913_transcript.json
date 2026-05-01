@@ -3,10 +3,198 @@
   "paragraphs": [
     [
       {
-        "text": "On an April morning in the year 1835 the schooner Peor es Nada, of Monterey sailed out of Santa Barbara harbor on an otter-hunting. Three [There] to the lower California coast. Three months later the schooner unloaded her cargo of pelts in San Diego harbor, and the skipper made a bargain with the Franciscan fathers there to sail to San Nicolas, one of the Santa Barbara islands thirty miles from the coast, and bring the islanders to the mainland. Before the destination was reached a gale sprung up, and landing was effected with the greatest difficulty. No time was wasted ashore. The islanders, some twenty in number, were hurried into the boats and all speed was made to reach the schooner. In the excitement and confusion a child was left behind. The mother supposed it to have been carried aboard in the arms of one of the sailors. She frantically implored the men to return. The captain said that it was impossible. He did not dare risk further the lives of his charges."
+        "text": "On an April morning in the year 1835 the schooner"
       },
       {
-        "text": "Finding that they were going out to sea, the young mother became desperate, and, eluding the sailors , [sic] jumped overboard and struck out through the angry waters for the shore.",
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": "sailed out of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "harbor on an otter-hunting. Three [There] to the"
+      },
+      {
+        "text": "lower California coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Three months later"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "unloaded her cargo of pelts in"
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": "harbor, and"
+      },
+      {
+        "text": "the skipper",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "made a bargain with"
+      },
+      {
+        "text": "the Franciscan fathers",
+        "entity_key": "aji",
+        "entity_type": "person"
+      },
+      {
+        "text": "there to sail to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", one of the"
+      },
+      {
+        "text": "Santa Barbara islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "thirty miles from"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and bring"
+      },
+      {
+        "text": "the islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Before the destination was reached a gale sprung up, and landing was effected with the greatest difficulty. No time was wasted ashore."
+      },
+      {
+        "text": "The islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ", some twenty in number, were hurried into the boats and all speed was made to reach"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". In the excitement and confusion"
+      },
+      {
+        "text": "a child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was left behind."
+      },
+      {
+        "text": "The mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "supposed it to have been carried aboard in the arms of one of"
+      },
+      {
+        "text": "the sailors",
+        "entity_key": "1835crew",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She frantically implored the men to return."
+      },
+      {
+        "text": "The captain",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "said that it was impossible. He did not dare risk further the lives of"
+      },
+      {
+        "text": "his charges",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Finding that they were going out to sea,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the young mother",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "became desperate, and, eluding",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the sailors",
+        "tropes": [
+          9
+        ],
+        "entity_key": "1835crew",
+        "entity_type": "person"
+      },
+      {
+        "text": ", [sic] jumped overboard and struck out through the angry waters for the shore.",
         "tropes": [
           9
         ]
@@ -17,21 +205,352 @@
     ],
     [
       {
-        "text": "The schooner weathered the storm and, after an adventurous voyage, reached San Pedro, where the islanders were landed. Some of them were sent by the Franciscan brothers to Los Angeles and the others were put to work in the neighboring mission of San Gabriel. It was the intention of the skipper to return to San Nicolas immediately to see if the woman or child were living; but imperative orders from the owner were received to convey at once a party of otter-hunters to Santa Rosa island and afterward to carry a cargo of lumber to San Francisco. But the Peor es Nada never made its second cruise to San Nicolas island, for on its northern trip the schooner capsized at the entrance to the Golden Gate. The crew were washed ashore and the schooner drifted out to sea."
+        "text": "The schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
       },
       {
-        "text": "At that time there were no other craft in the lower coast large enough to undertake the trip to San Nicolas",
+        "text": "weathered the storm and, after an adventurous voyage, reached"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where"
+      },
+      {
+        "text": "the islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were landed. Some of them were sent by"
+      },
+      {
+        "text": "the Franciscan brothers",
+        "entity_key": "aji",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "mi_losangeles",
+        "entity_type": "org"
+      },
+      {
+        "text": "and the others were put to work in"
+      },
+      {
+        "text": "the neighboring mission of San Gabriel",
+        "entity_key": "mi_sgabriel",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It was the intention of"
+      },
+      {
+        "text": "the skipper",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "to return to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "immediately to see if"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were living; but imperative orders from"
+      },
+      {
+        "text": "the owner",
+        "entity_key": "jgo",
+        "entity_type": "person"
+      },
+      {
+        "text": "were received to convey at once a party of otter-hunters to"
+      },
+      {
+        "text": "Santa Rosa island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "and afterward to carry a cargo of lumber to"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": ". But the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "never made its second cruise to"
+      },
+      {
+        "text": "San Nicolas island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for on its northern trip"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "capsized at the entrance to"
+      },
+      {
+        "text": "the Golden Gate",
+        "entity_key": "re_thegoldengate",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The crew were washed ashore and"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "drifted out to sea."
+      },
+      {
+        "text": "At that time there were no other craft in",
         "tropes": [
           12
         ]
       },
       {
-        "text": ". Days and weeks and months went by and those who at first had been most solicitous that assistance should be sent to the woman, began to salve their conscience[s] with the belief that, after all, it was impossible for the woman to reach the shore through the storm. The Franciscan fathers, however, did not forget, and for years---as late as 1850---they offered a reward of $200 to any one who should find and bring the woman or child to Santa Barbara alive. In that year Thomas Jeffries visited the island, but on his return to the mainland reported that not a trace of the woman or child, living or dead, had been found. Time passed swiftly on, and soon the woman and child of San Nicolas became nothing more than a memory."
+        "text": "the lower coast",
+        "tropes": [
+          12
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "large enough to undertake the trip to",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          12
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Days and weeks and months went by and those who at first had been most solicitous that assistance should be sent to"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", began to salve their conscience[s] with the belief that, after all, it was impossible for"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to reach"
+      },
+      {
+        "text": "the shore",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "through the storm."
+      },
+      {
+        "text": "The Franciscan fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": ", however, did not forget, and for years---as late as 1850---they offered a reward of $200 to any one who should find and bring"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "alive. In that year"
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "visited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but on his return to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "reported that not a trace of"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", living or dead, had been found. Time passed swiftly on, and soon"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "child of San Nicolas",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "became nothing more than a memory."
       }
     ],
     [
       {
-        "text": "In July, 1853, an otter-hunting expedition visited San Nicolas. It was in command of George Nidiver, a prominent resident of Santa Barbara. The evening after the arrival, Nidiver and one of his men were strolling along the beach. It was a typical Southern California night---a night when the stars hang large and low in the sky like Chinese lanterns and the moon is a great ball of amber. Nidiver stopped to light his pipe. He leaned over to scratch the match on his boot."
+        "text": "In July, 1853,"
+      },
+      {
+        "text": "an otter-hunting expedition",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "visited"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It was in command of"
+      },
+      {
+        "text": "George Nidiver",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a prominent resident of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The evening after the arrival,"
+      },
+      {
+        "text": "Nidiver",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and one of his men were strolling along the beach. It was a typical"
+      },
+      {
+        "text": "Southern California",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "night---a night when the stars hang large and low in the sky like Chinese lanterns and the moon is a great ball of amber."
+      },
+      {
+        "text": "Nidiver",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "stopped to light his pipe. He leaned over to scratch the match on his boot."
       },
       {
         "text": "The flaming match dropped from his hand:",
@@ -42,37 +561,481 @@
     ],
     [
       {
-        "text": "\"My God!\" he exclaimed. \"The woman of San Nicolas!\"",
-        "tropes": [
-          4
-        ]
-      }
-    ],
-    [
-      {
-        "text": "Nidiver pointed to the print of a slender foot in the sand. Then he raised his voice, shouting in Spanish that friends were come to rescue her. Hours were spent in searching the island, but no trace of the woman was found. The next day Nidiver discovered a basket of rushes hanging in a tree; it contained bone needles, thread made of sinews, and a partially completed robe of birds' plumage, made of small squares neatly matched and sewed together. Nidiver scattered the things about, saying that if they were picked up it would be proof that the owner had visited the spot. Inland they discovered several circular, roofless, inclosures, made of woven brush. Near these shelters were poles with dried meat hanging from elevated crosspieces. But there was no sight of the woman.",
-        "tropes": [
-          4
-        ]
-      }
-    ],
-    [
-      {
-        "text": "After several days of combing the island the otter-hunters gave up the search. There was no doubt in their minds that some one had been on the island recently. Either the woman or the child grown to womanhood had lived there, or perhaps both mother and child had survived .After [sic] two months of hunting and fishing, the expedition prepared to return to the mainland. But Nidiver was not satisfied with the quest for the mysterious woman of San Nicolas. He declared his belief that the woman was hiding from them. He swore an oath that if she were living he would find her and that if she were dead he would find the body, even if he had to scrape every inch of the island. The men of the expedition protested against the delay; they wanted to get home. But Captain Nidiver was firm. He was going to solve the mystery of San Nicolas, he said, if it took the rest of his life.",
-        "tropes": [
-          4
-        ]
-      }
-    ],
-    [
-      {
-        "text": "So the whole force once more took up the hunt. After several days['] march, they found fresh footprints, and these led up into the cliffs where they were lost in the thick moss that covered the ground. The men climbed up the slippery cliffs and suddenly they came upon the woman crouching in terror behind the low woven-brush sides of her roofless hut. Nidiver spoke to her.",
+        "text": "\"My God!\" he exclaimed. \"",
         "tropes": [
           4
         ]
       },
       {
-        "text": "The woman gave a frightened look into his face and ran a few steps; then she stopped and came timidly back and addressed the strangers in an unknown tongue. Among the Indian crew there were several dialects spoken, but no one in the party was able to understand a word she uttered. Nidiver describes her as a magnificent specimen of womanhood, between forty and fifty years old, erect, with well-formed neck and limbs and unwrinkled face. She wore a tunic-shaped garment made of birds' plumage low in the neck, sleeveless and reaching to the ankle----a dress similar to the one found in the tree.",
+        "text": "The woman of San Nicolas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "!\"",
+        "tropes": [
+          4
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "pointed to the print of a slender foot in the sand. Then he raised his voice, shouting in Spanish that friends were come to rescue her. Hours were spent in searching",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but no trace of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was found. The next day",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered a basket of rushes hanging in a tree; it contained bone needles, thread made of sinews, and a partially completed robe of birds' plumage, made of small squares neatly matched and sewed together.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "scattered the things about, saying that if they were picked up it would be proof that",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the owner",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had visited the spot. Inland they discovered several circular, roofless, inclosures, made of woven brush. Near these shelters were poles with dried meat hanging from elevated crosspieces. But there was no sight of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          4
+        ]
+      }
+    ],
+    [
+      {
+        "text": "After several days of combing",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "the otter-hunters",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "gave up the search. There was no doubt in their minds that some one had been on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "recently. Either",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the child",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "grown to womanhood had lived there, or perhaps both",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "mother",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "child",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had survived .After [sic] two months of hunting and fishing,",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the expedition",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "prepared to return to",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the mainland",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". But",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "was not satisfied with the quest for",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the mysterious woman of San Nicolas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". He declared his belief that",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was hiding from them. He swore an oath that if she were living he would find her and that if she were dead he would find the body, even if he had to scrape every inch of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "The men",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "of the expedition protested against the delay; they wanted to get home. But",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Captain Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "was firm. He was going to solve the mystery of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", he said, if it took the rest of his life.",
+        "tropes": [
+          4
+        ]
+      }
+    ],
+    [
+      {
+        "text": "So",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the whole force",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "once more took up the hunt. After several days['] march, they found fresh footprints, and these led up into the cliffs where they were lost in the thick moss that covered the ground.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "The men",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "climbed up the slippery cliffs and suddenly they came upon",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "crouching in terror behind the low woven-brush sides of her roofless hut.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "spoke to her.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "The woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "gave a frightened look into his face and ran a few steps; then she stopped and came timidly back and addressed",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the strangers",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "in an unknown tongue. Among",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the Indian crew",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cook",
+        "entity_type": "person"
+      },
+      {
+        "text": "there were several dialects spoken, but no one in",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the party",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cook",
+        "entity_type": "person"
+      },
+      {
+        "text": "was able to understand a word she uttered.",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "describes her as a magnificent specimen of womanhood, between forty and fifty years old, erect, with well-formed neck and limbs and unwrinkled face. She wore a tunic-shaped garment made of birds' plumage low in the neck, sleeveless and reaching to the ankle----a dress similar to the one found in the tree.",
         "tropes": [
           1
         ]
@@ -80,16 +1043,104 @@
     ],
     [
       {
-        "text": "The woman made no objection to leaving the island, and Captain Nidiver took her to his own home",
+        "text": "The woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "made no objection to leaving",
         "tropes": [
           1
         ]
       },
       {
-        "text": ". Her coming created a sensation all along the California coast. Efforts were made by the Franciscan fathers to learn her story, but although they had a hundred dialects at their command, they could not make themselves understood."
+        "text": "the island",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "The gentleness, modesty and sweetness of the woman from the sea were so foreign to the idea of savage nature, that many believed she was not an Indian, but a woman of distinction cast away on San Nicolas by shipwreck",
+        "text": ", and",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Captain Nidiver",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "took her to",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "his own home",
+        "tropes": [
+          1
+        ],
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Her coming created a sensation all along the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Efforts were made by"
+      },
+      {
+        "text": "the Franciscan fathers",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "to learn her story, but although they had a hundred dialects at their command, they could not make themselves understood."
+      },
+      {
+        "text": "The gentleness, modesty and sweetness of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the woman from the sea",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "were so foreign to the idea of savage nature, that many believed she was not an Indian, but a woman of distinction cast away on",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by shipwreck",
         "tropes": [
           3
         ]
@@ -98,10 +1149,68 @@
         "text": "."
       },
       {
-        "text": "Old sailors who had been on the Peor es Nada declared, however, that she was an Indian, and the same woman who had jumped from the schooner to save her child",
+        "text": "Old sailors",
+        "tropes": [
+          9
+        ],
+        "entity_key": "1835crew",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had been on the",
         "tropes": [
           9
         ]
+      },
+      {
+        "text": "Peor es Nada",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "declared, however, that she was an Indian, and",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the same woman",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had jumped from",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the schooner",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to save",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
       },
       {
         "text": "."
@@ -112,7 +1221,63 @@
         "text": "The mystery was never solved."
       },
       {
-        "text": "Civilization did not agree with the wild woman of the Pacific. She missed the outdoor life of her island camp. In a few weeks she began to droop and became so weak that she had to be carried about in a chair. One morning, while dozing in the sunshine on the veranda, she fell from the chair and remained insensible for hours. Mrs. Nidiver summoned the Mission priest. He baptized the unknown woman as \"Juana Marie\" and administered the last rite. As she breathed her last the sign of the cross was pressed to her cold brow",
+        "text": "Civilization did not agree with",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the wild woman of the Pacific",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She missed the outdoor life of her island camp. In a few weeks she began to droop and became so weak that she had to be carried about in a chair. One morning, while dozing in the sunshine on the veranda, she fell from the chair and remained insensible for hours.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Mrs. Nidiver",
+        "tropes": [
+          3
+        ],
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "summoned",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the Mission priest",
+        "tropes": [
+          3
+        ],
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": ". He baptized",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the unknown woman",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "as \"Juana Marie\" and administered the last rite. As she breathed her last the sign of the cross was pressed to her cold brow",
         "tropes": [
           3
         ]
@@ -123,7 +1288,87 @@
     ],
     [
       {
-        "text": "That was in the autumn of 1853. The people of Santa Barbara have for the most part forgotten the mystery of the unknown woman that came to them out of the sea one September evening almost three score years ago. Some of the old-timers remember the woman, and the Franciscan fathers will point out the grave of \"Juana Marie\" in the shadow of the Mission tower; but who she was and what she was are as much a mystery today as they were when the Peor es Nada sailed away from San Nicolas in a tempest, leaving an Indian woman struggling in the foam-lashed waves that rolled with the roar of huge artillery on the rock-coast of the island."
+        "text": "That was in the autumn of 1853. The people of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "have for the most part forgotten the mystery of"
+      },
+      {
+        "text": "the unknown woman that came to them out of the sea",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "one September evening almost three score years ago. Some of the old-timers remember"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "the Franciscan fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "will point out the grave of \""
+      },
+      {
+        "text": "Juana Marie",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "\" in the shadow of the"
+      },
+      {
+        "text": "Mission tower",
+        "entity_key": "sbmissioncemetary",
+        "entity_type": "place"
+      },
+      {
+        "text": "; but who she was and what she was are as much a mystery today as they were when the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "sailed away from"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in a tempest, leaving"
+      },
+      {
+        "text": "an Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "struggling in the foam-lashed waves that rolled with the roar of huge artillery on the rock-coast of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ]
   ]
