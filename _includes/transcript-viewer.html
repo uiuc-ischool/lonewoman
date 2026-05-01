@@ -62,28 +62,51 @@ if (!document.getElementById('trope-styles')) {
       return r.json();
     })
     .then(function (data) {
+      function buildSegmentNode(seg) {
+        var isEntity = seg.entity_key || seg.entity_keys;
+        var inner;
+        if (isEntity) {
+          inner = document.createElement('span');
+          inner.className = 'entity-link';
+          inner.dataset.entityType = seg.entity_type || '';
+          if (seg.entity_keys) {
+            inner.dataset.entityKeys = JSON.stringify(seg.entity_keys);
+          } else {
+            inner.dataset.entityKey = seg.entity_key;
+          }
+          inner.textContent = seg.text;
+        }
+        if (seg.tropes && seg.tropes.length) {
+          var mark = document.createElement('mark');
+          mark.className = 'trope-mark ' + seg.tropes.map(function(n) { return 'trope-' + n; }).join(' ');
+          mark.dataset.tropes = seg.tropes.join(',');
+          if (isEntity) { mark.appendChild(inner); } else { mark.textContent = seg.text; }
+          return mark;
+        }
+        return isEntity ? inner : document.createTextNode(seg.text);
+      }
+
       var frag = document.createDocumentFragment();
 
       data.paragraphs.forEach(function (para) {
         var p = document.createElement('p');
-
-        para.forEach(function (seg) {
-          if (seg.trope) {
-            var mark = document.createElement('mark');
-            mark.className = 'trope-mark trope-' + seg.trope;
-            mark.dataset.trope = seg.trope;
-            mark.textContent = seg.text;
-            p.appendChild(mark);
-          } else {
-            p.appendChild(document.createTextNode(seg.text));
-          }
-        });
-
+        para.forEach(function (seg) { p.appendChild(buildSegmentNode(seg)); });
         frag.appendChild(p);
       });
 
       viewer.innerHTML = '';
       viewer.appendChild(frag);
+
+      viewer.addEventListener('click', function (e) {
+        var link = e.target.closest('.entity-link');
+        if (!link) return;
+        var type = link.dataset.entityType || '';
+        if (link.dataset.entityKeys) {
+          openGroupPanel(JSON.parse(link.dataset.entityKeys));
+        } else {
+          openEntityPanel(link.dataset.entityKey, type);
+        }
+      });
     })
     .catch(function (err) {
       viewer.innerHTML = '<p class="text-muted fst-italic small">Transcript unavailable.</p>';
