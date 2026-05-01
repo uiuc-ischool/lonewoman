@@ -3,10 +3,104 @@
   "paragraphs": [
     [
       {
-        "text": "Of the group commonly called the Santa Barbara Islands, so near the mainland that on the map they seem mere crumbs of the Pacific coast, little is known even by Californians."
+        "text": "Of the group commonly called"
       },
       {
-        "text": "Scarcely an American but has read of the tropical islands where the mythical Robinson Crusoe was wrecked, yet few persons know that over the desolate steeps of a nearer island of the same vast sea hang the mystery, the horror and the pathos of a story of a captive woman; a story, if it could be fully told, more thrilling than that of Crusoe, inasmuch as one is fiction, the other fact; one, the supposed exploits of a hardy man, the other, the real desolation of a suffering woman; one, the tale of a mariner whom the waters flung against his will into a summer-land, the other, of one who voluntarily breasted the waves, and fought death, in response to the highest love of which the human heart is capable.",
+        "text": "the Santa Barbara Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", so near"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "that on the map they seem mere crumbs of"
+      },
+      {
+        "text": "the Pacific coast",
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", little is known even by Californians."
+      },
+      {
+        "text": "Scarcely an American but has read of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the tropical islands",
+        "tropes": [
+          8
+        ],
+        "entity_key": "i_jf",
+        "entity_type": "place"
+      },
+      {
+        "text": "where the mythical Robinson Crusoe was wrecked, yet few persons know that over the desolate steeps of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "a nearer island",
+        "tropes": [
+          8
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the same vast sea",
+        "tropes": [
+          8
+        ],
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": "hang the mystery, the horror and the pathos of a story of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "a captive woman",
+        "tropes": [
+          8
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "; a story, if it could be fully told, more thrilling than that of Crusoe, inasmuch as one is fiction, the other fact; one, the supposed exploits of a hardy man, the other, the real desolation of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "a suffering woman",
+        "tropes": [
+          8
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "; one, the tale of a mariner whom the waters flung against his will into a summer-land, the other, of one who voluntarily breasted the waves, and fought death, in response to the highest love of which the human heart is capable.",
         "tropes": [
           8
         ]
@@ -14,56 +108,656 @@
     ],
     [
       {
-        "text": "The Santa Barbara Islands, on one of which this strange romance was enacted, lie to the southward of Santa Barbara channel, the nearest of the group being about twenty-five miles distant from the mainland. The names of the islands are Anacapa, Santa Rosa, San Miguel, Santa Cruz, Santa Catilina, San Clemente, Santa Barbara[, San Nicolas]. They are now uninhabited, and have been so for years. The islands nearer the coast are used for sheep-grazing. A sail boat carries over the shearers and brings back the wool. The more distant are known to trappers as fine beds of otter and seal. The sea lions and sea elephants in the Centennial Exposition, New York Aquarium and Cincinnati Zoological Gardens were lassoed off the outlying islands of the Santa Barbara group. Boats visit the beaches for abalones, the meat of which is dried and shipped to China for food, while the shells (Haliotis splendens, Haliotis rufescens and Haliotis cracherodii), sold at an average price of fifty dollars per ton at the San Francisco wharf, are bought by dealers in marine shells, cut into jewelry to be sold to tourists, or shipped to Europe, to be manufactured into buttons and other pearl ornaments. Excepting the occasional camps of shearers, seal-hunters and abalone packers, the islands are totally deserted."
+        "text": "The Santa Barbara Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", on"
+      },
+      {
+        "text": "one of which",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "this strange romance was enacted, lie to the southward of"
+      },
+      {
+        "text": "Santa Barbara channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the nearest of the group",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "being about twenty-five miles distant from"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The names of"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "are"
+      },
+      {
+        "text": "Anacapa",
+        "entity_key": "i_an",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Catilina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "[,"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "]. They are now uninhabited, and have been so for years. The islands nearer the coast are used for sheep-grazing. A sail boat carries over the shearers and brings back the wool. The more distant are known to trappers as fine beds of otter and seal. The sea lions and sea elephants in"
+      },
+      {
+        "text": "the Centennial Exposition",
+        "entity_key": "centennial",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "New York Aquarium",
+        "entity_key": "mu_nyaquarium",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Cincinnati Zoological Gardens",
+        "entity_key": "mu_cincizoo",
+        "entity_type": "org"
+      },
+      {
+        "text": "were lassoed off the outlying islands of"
+      },
+      {
+        "text": "the Santa Barbara group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Boats visit the beaches for abalones, the meat of which is dried and shipped to"
+      },
+      {
+        "text": "China",
+        "entity_key": "co_china",
+        "entity_type": "place"
+      },
+      {
+        "text": "for food, while the shells (Haliotis splendens, Haliotis rufescens and Haliotis cracherodii), sold at an average price of fifty dollars per ton at the"
+      },
+      {
+        "text": "San Francisco wharf",
+        "entity_key": "re_sfwharf",
+        "entity_type": "place"
+      },
+      {
+        "text": ", are bought by dealers in marine shells, cut into jewelry to be sold to tourists, or shipped to"
+      },
+      {
+        "text": "Europe",
+        "entity_key": "re_europe",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to be manufactured into buttons and other pearl ornaments. Excepting the occasional camps of shearers, seal-hunters and abalone packers, the islands are totally deserted."
       }
     ],
     [
       {
-        "text": "Yet, wild and desolate as they now are, Cabrillo says that in the fifteenth century, they were densely peopled by a superior race, and that the main land was dotted by villages. The children of the islanders are described by early navigators as being \"white, with light hair and ruddy cheeks,\" and the women as having \"fine forms, beautiful eyes and a modest demeanor.\" The men wore loose cloaks, the women dressed in petticoats and capes of seal skin, heavily fringed and handsomely ornamented. The more industrious and wealthy embroidered their garments with pearl and pink shells. Necklaces of sparkling stones and carven ivory were worn by the higher caste, and ear rings of iris-hued abalone were not uncommon. They cooked their food in soapstone vessels, or in water heated by dropping hot stones into water-tight baskets.",
+        "text": "Yet, wild and desolate as they now are,",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Bancroft, in his \"Native Races,\" mentions, among articles of their manufacture, needles, awls and fish hooks of bone or shell; water-tight baskets, ollas of stone, and canoes, deep and long, with both stem and stern equally elevated above the water. Fletcher wrote of the coast when he visited it with Sir Francis Drake in 1579."
-      }
-    ],
-    [
+        "text": "Cabrillo",
+        "tropes": [
+          3
+        ],
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
       {
-        "text": "In the year 1542, Cabrillo landed at what is now known as San Miguel, and christened it Ysal de Posesion. He died on the island in 1543, and is buried in its sands."
-      }
-    ],
-    [
-      {
-        "text": "Going back still further in our search, we find that before the Spanish fleet, Sir Francis Drake or Cabrillo ever visited the coast, the villages thereon were thrifty and populous, and the isles of the sea swarming cities of the period."
-      }
-    ],
-    [
-      {
-        "text": "Of San Nicolas, on which the scenes of this wild romance are laid, very little has been known until a recent date. It is the outermost of the group, distant seventy miles from the coast, and thirty miles away from its nearest neighbor. It is thought to have been, at one time. [sic] the abode of a people differing in manners, habits and mode of life from the inhabitants both of the mainland and the neighboring islands. Mons. De Cessac, a gentleman engaged in collecting archaeological specimens for the French Government, says that the relics found by him on San Nicolas are more elaborate in form and finish, and show a superiority of workmanship. This testimony tends to confirm the story of the early voyagers concerning the cultivation and remarkable taste of the handsome dwellers in Gha-las-hat, centuries ago.",
+        "text": "says that in the fifteenth century, they were densely peopled by",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Mons. De Cessac has found also upon San Nicolas articles of warfare and domestic use, evidently belonging to a northern tribe, similar to those picked up by him on the borders of Alaska. Hence, he infers that the place was at one time the dwelling of north country tribes."
+        "text": "a superior race",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", and that",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the main land",
+        "tropes": [
+          3
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "was dotted by villages. The children of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the islanders",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "are described by early navigators as being \"white, with light hair and ruddy cheeks,\" and the women as having \"fine forms, beautiful eyes and a modest demeanor.\" The men wore loose cloaks, the women dressed in petticoats and capes of seal skin, heavily fringed and handsomely ornamented. The more industrious and wealthy embroidered their garments with pearl and pink shells. Necklaces of sparkling stones and carven ivory were worn by the higher caste, and ear rings of iris-hued abalone were not uncommon. They cooked their food in soapstone vessels, or in water heated by dropping hot stones into water-tight baskets.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Bancroft",
+        "entity_key": "hba",
+        "entity_type": "person"
+      },
+      {
+        "text": ", in his \"Native Races,\" mentions, among articles of their manufacture, needles, awls and fish hooks of bone or shell; water-tight baskets, ollas of stone, and canoes, deep and long, with both stem and stern equally elevated above the water."
+      },
+      {
+        "text": "Fletcher",
+        "entity_key": "fle",
+        "entity_type": "person"
+      },
+      {
+        "text": "wrote of"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "when he visited it with"
+      },
+      {
+        "text": "Sir Francis Drake",
+        "entity_key": "fdr",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1579."
       }
     ],
     [
       {
-        "text": "Corroborating Mons. De Cessac's opinion, search through ancient manuscripts has brought to light the fact that, many years ago, a ship belonging to Pope and Boardman, of Boston, and commanded by one Captain Whitmore, brought down from Sitka a lot of Kodiaks for the purpose of otter hunting on San Nicolas Island."
+        "text": "In the year 1542,"
       },
       {
-        "text": "They were left upon the island, and years of feud resulted in a massacre, in which every grown male islander was killed by the powerful and well armed Kodiaks.",
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "landed at what is now known as"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and christened it Ysal de Posesion. He died on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1543, and is buried in its sands."
+      }
+    ],
+    [
+      {
+        "text": "Going back still further in our search, we find that before"
+      },
+      {
+        "text": "the Spanish fleet",
+        "entity_key": "mi_spnavy",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Sir Francis Drake",
+        "entity_key": "fdr",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "ever visited"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the villages thereon were thrifty and populous, and"
+      },
+      {
+        "text": "the isles of the sea",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "swarming cities of the period."
+      }
+    ],
+    [
+      {
+        "text": "Of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", on which the scenes of this wild romance are laid, very little has been known until a recent date. It is the outermost of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the group",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", distant seventy miles from",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          3
+        ],
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and thirty miles away from its nearest neighbor. It is thought to have been, at one time. [sic] the abode of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "a people differing in manners, habits and mode of life",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "from",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the inhabitants both of the mainland and the neighboring islands",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Mons. De Cessac",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lce",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a gentleman engaged in collecting archaeological specimens for the",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "French Government",
+        "tropes": [
+          3
+        ],
+        "entity_key": "gov_french",
+        "entity_type": "org"
+      },
+      {
+        "text": ", says that the relics found by him on",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "are more elaborate in form and finish, and show a superiority of workmanship. This testimony tends to confirm the story of the early voyagers concerning the cultivation and remarkable taste of the handsome dwellers in",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Gha-las-hat",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", centuries ago.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Mons. De Cessac",
+        "entity_key": "lce",
+        "entity_type": "person"
+      },
+      {
+        "text": "has found also upon"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "articles of warfare and domestic use, evidently belonging to a northern tribe, similar to those picked up by him on the borders of"
+      },
+      {
+        "text": "Alaska",
+        "entity_key": "st_ak",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Hence, he infers that"
+      },
+      {
+        "text": "the place",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was at one time the dwelling of north country tribes."
+      }
+    ],
+    [
+      {
+        "text": "Corroborating Mons. De Cessac's opinion, search through ancient manuscripts has brought to light the fact that, many years ago, a ship belonging to"
+      },
+      {
+        "text": "Pope and Boardman",
+        "entity_key": "bp",
+        "entity_type": "org"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Boston",
+        "entity_key": "ci_bo",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and commanded by one"
+      },
+      {
+        "text": "Captain Whitmore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", brought down from"
+      },
+      {
+        "text": "Sitka",
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": "a lot of"
+      },
+      {
+        "text": "Kodiaks",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "for the purpose of otter hunting on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "They were left upon",
         "tropes": [
           11
         ]
       },
       {
-        "text": "The women were taken by the victors, lived with them as wives and bore children to the murderers of their husbands and fathers."
+        "text": "the island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "The fact is recorded that the inhabitants of San Nicolas faded away strangely and rapidly, so that, in 1830, less than two score men, women and children remained of the once dense population.",
+        "text": ", and years of feud resulted in a massacre, in which every grown male islander was killed by",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the powerful and well armed Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "The women were taken by"
+      },
+      {
+        "text": "the victors",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ", lived with them as wives and bore children to"
+      },
+      {
+        "text": "the murderers of their husbands and fathers",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The fact is recorded that",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the inhabitants of San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "faded away strangely and rapidly, so that, in 1830,",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "less than two score men, women and children",
+        "tropes": [
+          6
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "remained of the once dense population.",
         "tropes": [
           6
         ]
@@ -71,15 +765,163 @@
     ],
     [
       {
-        "text": "Meantime, Franciscan zealots poured from the south of Europe into America, and, under lead of Father Junipero Serra, found their way up the coast, building Churches beside the sea, planting gardens of olive and palm, making aqueducts and altars, founding a kingdom of temporal and spiritual splendor.. [sic] which leaves to Protestant America the names of saints set indelibly on every stream, headland and island along the southern slope of the Pacific. It was the dawn of a temporary civilization, imposing and wonderful, a civilization whose ruins are most artistic and fascinating."
+        "text": "Meantime,"
+      },
+      {
+        "text": "Franciscan zealots",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "poured from"
+      },
+      {
+        "text": "the south of Europe",
+        "entity_key": "re_southeurope",
+        "entity_type": "place"
+      },
+      {
+        "text": "into"
+      },
+      {
+        "text": "America",
+        "entity_key": "co_usa",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and, under lead of"
+      },
+      {
+        "text": "Father Junipero Serra",
+        "entity_key": "jse",
+        "entity_type": "person"
+      },
+      {
+        "text": ", found their way up"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", building Churches beside the sea, planting gardens of olive and palm, making aqueducts and altars, founding a kingdom of temporal and spiritual splendor.. [sic] which leaves to Protestant America the names of saints set indelibly on every stream, headland and island along"
+      },
+      {
+        "text": "the southern slope of the Pacific",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It was the dawn of a temporary civilization, imposing and wonderful, a civilization whose ruins are most artistic and fascinating."
       }
     ],
     [
       {
-        "text": "The missionaries pressed the Indians into service. They set them to tilling the soil, herding the flocks and quarrying the rock. The coast Indians having been put to labor, the thrifty padres turned their gaze to the islands in the offing, and brought SIX Tidings Sept 7 Mag [sic] to the mainland the people from Santa Rosa, San Miguel, Santa Cruz and Santa Catalina. The more distant island of San Nicolas was left a while to repose in its heathen darkness. How affairs progressed during that time on the island we have no account."
+        "text": "The missionaries",
+        "entity_key": "misfats",
+        "entity_type": "org"
       },
       {
-        "text": "At this day the queen isle of Gha-las-hat lies bare and silent as a tomb amidst the sea.",
+        "text": "pressed the Indians into service. They set them to tilling the soil, herding the flocks and quarrying the rock. The coast Indians having been put to labor,"
+      },
+      {
+        "text": "the thrifty padres",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "turned their gaze to"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "in the offing, and brought SIX Tidings Sept 7 Mag [sic] to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "the people",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Santa Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The more distant island of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was left a while to repose in its heathen darkness. How affairs progressed during that time on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "we have no account."
+      },
+      {
+        "text": "At this day",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the queen isle of Gha-las-hat",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "lies bare and silent as a tomb amidst the sea.",
         "tropes": [
           1
         ]
@@ -101,20 +943,314 @@
     ],
     [
       {
-        "text": "In the year 1835, Isaac Sparks and Lewis L. Burton, Americans, chartered a schooner of twenty tons burthen, for otter hunting on the lower California coast. The vessel was owned by a rich Spaniard of Monterey, and was commanded by Captain Charley Hubbard. The schooner bore the name Peor es Nada, and she started out of Santa Barbara harbor, on a fine April morning, followed by the eyes of the entire population. In those times the sight of a sailing vessel was not an every-day occurrence. It drew the men to the beach, the women to the casements, and attracted the friars from their usual meditative gaze on ground or book. For hours previous to the departure of the schooner, the curving stretch of sand had been alive with racing horsemen and lazy pedestrians, exchanging in Spanish words of praise concerning their visitor."
-      }
-    ],
-    [
-      {
-        "text": "After a successful cruise, the Peor es Nada came, three months later, into the more southerly harbor of San Pedro, unloaded her pelts, and immediately, under direction of Captain Williams, collector of the port, set sail for San Nicolas to bring the islanders to the mainland, in accordance with the will of the church fathers[.] Before they reached their destination a sudden gale came up, rising almost to the severity of a tempest. The winds—which by the Santa Yuez mountains are deflected from the valleys of the southern coast—struck with full force upon the upper end of San Nicolas, lashing the shoal waters into fury, and shooting the spray in volleys through the picturesque carvings of the low cliffs. The landing was effected with difficulty. The wind increased in violence. The weather became so boisterous as to endanger the safety of the vessel. No time was wasted. The islanders, some twenty in number, were hurried into the boats and all speed was made to reach the schooner."
-      }
-    ],
-    [
-      {
-        "text": "In the excitement and confusion of the final abandonment of their home, it was not known until they were on the ship that a child had been left behind. The mother supposed it to have been carried aboard in the arms of an old sailor. She frantically implored the men to return. The captain replied that they must get to a place of safety; after the storm—to-morrow, perhaps—they would come back for the baby."
+        "text": "In the year 1835,"
       },
       {
-        "text": "Finding that they were going out to sea, the young mother became desperate, and, despite all efforts to detain her, jumped overboard and struck out through the kelpy waters for the shore.",
+        "text": "Isaac Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Lewis L. Burton",
+        "entity_key": "lbu",
+        "entity_type": "person"
+      },
+      {
+        "text": ", Americans, chartered"
+      },
+      {
+        "text": "a schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "of twenty tons burthen, for otter hunting on"
+      },
+      {
+        "text": "the lower California coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was owned by"
+      },
+      {
+        "text": "a rich Spaniard",
+        "entity_key": "jgo",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and was commanded by"
+      },
+      {
+        "text": "Captain Charley Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": ". The schooner bore the name"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and she started out of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "harbor, on a fine April morning, followed by the eyes of the entire population. In those times the sight of a sailing vessel was not an every-day occurrence. It drew the men to the beach, the women to the casements, and attracted the friars from their usual meditative gaze on ground or book. For hours previous to the departure of"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", the curving stretch of sand had been alive with racing horsemen and lazy pedestrians, exchanging in Spanish words of praise concerning their visitor."
+      }
+    ],
+    [
+      {
+        "text": "After a successful cruise, the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "came, three months later, into the more southerly harbor of"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", unloaded her pelts, and immediately, under direction of"
+      },
+      {
+        "text": "Captain Williams",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", collector of the port, set sail for"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to bring"
+      },
+      {
+        "text": "the islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in accordance with the will of"
+      },
+      {
+        "text": "the church fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "[.] Before they reached their destination a sudden gale came up, rising almost to the severity of a tempest. The winds—which by the"
+      },
+      {
+        "text": "Santa Yuez mountains",
+        "entity_key": "re_santaynezmts",
+        "entity_type": "place"
+      },
+      {
+        "text": "are deflected from the valleys of"
+      },
+      {
+        "text": "the southern coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "—struck with full force upon the upper end of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", lashing the shoal waters into fury, and shooting the spray in volleys through the picturesque carvings of the low cliffs. The landing was effected with difficulty. The wind increased in violence. The weather became so boisterous as to endanger the safety of"
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". No time was wasted."
+      },
+      {
+        "text": "The islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ", some twenty in number, were hurried into the boats and all speed was made to reach"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "In the excitement and confusion of the final abandonment of"
+      },
+      {
+        "text": "their home",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", it was not known until they were on"
+      },
+      {
+        "text": "the ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "that"
+      },
+      {
+        "text": "a child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been left behind."
+      },
+      {
+        "text": "The mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "supposed it to have been carried aboard in the arms of"
+      },
+      {
+        "text": "an old sailor",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". She frantically implored"
+      },
+      {
+        "text": "the men",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to return."
+      },
+      {
+        "text": "The captain",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "replied that they must get to a place of safety; after the storm—to-morrow, perhaps—they would come back for"
+      },
+      {
+        "text": "the baby",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Finding that they were going out to sea,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the young mother",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "became desperate, and, despite all efforts to detain her, jumped overboard and struck out through the kelpy waters for the shore.",
         "tropes": [
           9
         ]
@@ -126,46 +1262,545 @@
         ]
       },
       {
-        "text": "No attempt was made to rescue her, and in a moment she was lost in the seething waves. The ship, already under headway, staggered through the storm; the affrighted islanders huddled together on deck, and fear shut every other emotion for the time from their hearts."
+        "text": "No attempt was made to rescue her, and in a moment she was lost in the seething waves."
+      },
+      {
+        "text": "The ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", already under headway, staggered through the storm;"
+      },
+      {
+        "text": "the affrighted islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "huddled together on deck, and fear shut every other emotion for the time from their hearts."
       }
     ],
     [
       {
-        "text": "After an adventurous voyage, the Peor es Nada eventually reached San Pedro, where the exiles were landed. Some of them were sent to Los Angelos, fifteen miles back from the coast; some were put to work in the neighboring mission of San Gabriel; two of the women were soon married to wealthy men of Los Angelos."
+        "text": "After an adventurous voyage, the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "eventually reached"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where"
+      },
+      {
+        "text": "the exiles",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were landed. Some of them were sent to"
+      },
+      {
+        "text": "Los Angelos",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", fifteen miles back from"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "; some were put to work in the neighboring"
+      },
+      {
+        "text": "mission of San Gabriel",
+        "entity_key": "mi_sg",
+        "entity_type": "org"
+      },
+      {
+        "text": ";"
+      },
+      {
+        "text": "two of the women",
+        "entity_keys": [
+          "Nicolenowoman1",
+          "Nicolenowoman2"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were soon married to"
+      },
+      {
+        "text": "wealthy men",
+        "entity_keys": [
+          "laresident1",
+          "laresident2"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Los Angelos",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "It was the intention of Captain Hubbard to return to San Nicolas immediately, to see if the woman or child were living. But the schooner had orders to come direct to Santa Barbara, to take George Nidiver and a party of otter hunters to Santa Rosa Island; afterward, carry from Monter[e]y a cargo of timber to San Francisco. The boat was in urgent demand along the coast, and these two trips were imperative before a second visit could be made to San Nicolas. Delaying their errand of humanity and justice a few weeks, they lost it forever; for on that very trip the Peor es Nada capsized at the entrance to the Golden Gate. The men were washed ashore in an almost exhausted condition, and the schooner drifted out to sea. It was reported long after, though without confirmation, to have been picked up by a Russian ship."
+        "text": "It was the intention of"
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "to return to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "immediately, to see if"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were living. But"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "had orders to come direct to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to take"
+      },
+      {
+        "text": "George Nidiver",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and a party of otter hunters to"
+      },
+      {
+        "text": "Santa Rosa Island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "; afterward, carry from"
+      },
+      {
+        "text": "Monter[e]y",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": "a cargo of timber to"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The boat",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was in urgent demand along"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and these two trips were imperative before a second visit could be made to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Delaying their errand of humanity and justice a few weeks, they lost it forever; for on that very trip the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "capsized at the entrance to"
+      },
+      {
+        "text": "the Golden Gate",
+        "entity_key": "re_thegoldengate",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The men were washed ashore in an almost exhausted condition, and"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "drifted out to sea. It was reported long after, though without confirmation, to have been picked up by"
+      },
+      {
+        "text": "a Russian ship",
+        "entity_key": "sh_russian",
+        "entity_type": "ship"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "After the loss of the Monterey schooner, there was no craft of any kind larger than the canoes and fishing-boats on the lower coast. No one cared to attempt a passage of seventy miles to San Nicolas in an open boat, and after a time the excitement and interest faded out.",
+        "text": "After the loss of",
         "tropes": [
           12
         ]
       },
       {
-        "text": "Those who at first had been most solicitous that assistance should be sent, settled into the belief that the couple had perished during the days of waiting; the remainder of the community, never having believed that the woman had reached shore through the storm, were indifferent, supposing that the child had died soon after the tragic death of the mother."
-      }
-    ],
-    [
-      {
-        "text": "Their uncertain fate lay heavy on the more tender-hearted of the Mission fathers; but it was not until 1850 that Father Gonazles [Gonzales] found an emissary to search for the lost. Thomas Jeffries had come into possession of a small schooner, and was offered $200 should he find and bring the woman or child to Santa Barbara alive. Fifteen years having passed since the abandonment of the island and no one having visited the spot during that time, the probability of the death of the parties was universally accepted, although no actual proof of death had been sought or found."
-      }
-    ],
-    [
-      {
-        "text": "But when Thomas Jeffries' boat was seen, at the close of a balmy day of mid-winter, coming up the bay without the signal he was to have displayed provided his search had been successful, the matter was settled. Groups of persons congregated on the sands. Some watched from shore the small craft fold her wings and settle to rest on the mirror-like water; others put off in canoes to meet the boatmen, and gossip concerning the trip. Jeffries had found no trace of living beings on the island, and whether the woman had been beaten to death in the surf, or died after gaining the land, would probably never be known. The schooner was left idly rocking close to shore; sailors and landsmen strolled slowly up to the town. Night mantled the moaning waters, and the great deep was left in possession of another secret."
-      }
-    ],
-    [
-      {
-        "text": "The return of Jeffries brought up afresh the incident which by some had been almost forgotten."
+        "text": "the Monterey schooner",
+        "tropes": [
+          12
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
       },
       {
-        "text": "For a few hours little was talked of save the heroic young mother and her child in the sea-girt isle.",
+        "text": ", there was no craft of any kind larger than the canoes and fishing-boats on",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "the lower coast",
+        "tropes": [
+          12
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". No one cared to attempt a passage of seventy miles to",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          12
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in an open boat, and after a time the excitement and interest faded out.",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "Those who at first had been most solicitous that assistance should be sent, settled into the belief that"
+      },
+      {
+        "text": "the couple",
+        "entity_keys": [
+          "lw",
+          "lwchild"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "had perished during the days of waiting; the remainder of the community, never having believed that"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had reached shore through the storm, were indifferent, supposing that"
+      },
+      {
+        "text": "the child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had died soon after the tragic death of"
+      },
+      {
+        "text": "the mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Their uncertain fate lay heavy on the more tender-hearted of the"
+      },
+      {
+        "text": "Mission fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "; but it was not until 1850 that"
+      },
+      {
+        "text": "Father Gonazles",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "[Gonzales] found an emissary to search for"
+      },
+      {
+        "text": "the lost",
+        "entity_keys": [
+          "lw",
+          "lwchild"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "had come into possession of"
+      },
+      {
+        "text": "a small schooner",
+        "entity_key": "sh_jeffries",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and was offered $200 should he find and bring"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "alive. Fifteen years having passed since the abandonment of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and no one having visited the spot during that time, the probability of the death of"
+      },
+      {
+        "text": "the parties",
+        "entity_keys": [
+          "lw",
+          "lwchild"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "was universally accepted, although no actual proof of death had been sought or found."
+      }
+    ],
+    [
+      {
+        "text": "But when"
+      },
+      {
+        "text": "Thomas Jeffries' boat",
+        "entity_key": "sh_jeffries",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was seen, at the close of a balmy day of mid-winter, coming up"
+      },
+      {
+        "text": "the bay",
+        "entity_key": "re_sbbay",
+        "entity_type": "place"
+      },
+      {
+        "text": "without the signal he was to have displayed provided his search had been successful, the matter was settled. Groups of persons congregated on the sands. Some watched from shore"
+      },
+      {
+        "text": "the small craft",
+        "entity_key": "sh_jeffries",
+        "entity_type": "ship"
+      },
+      {
+        "text": "fold her wings and settle to rest on the mirror-like water; others put off in canoes to meet the boatmen, and gossip concerning the trip."
+      },
+      {
+        "text": "Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "had found no trace of living beings on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and whether"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been beaten to death in the surf, or died after gaining the land, would probably never be known."
+      },
+      {
+        "text": "The schooner",
+        "entity_key": "sh_jeffries",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was left idly rocking close to shore; sailors and landsmen strolled slowly up to the town. Night mantled the moaning waters, and the great deep was left in possession of another secret."
+      }
+    ],
+    [
+      {
+        "text": "The return of"
+      },
+      {
+        "text": "Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "brought up afresh the incident which by some had been almost forgotten."
+      },
+      {
+        "text": "For a few hours little was talked of save",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the heroic young mother",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "in",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the sea-girt isle",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           3
         ]
@@ -173,7 +1808,15 @@
     ],
     [
       {
-        "text": "Time passed swiftly on, and in the dreamy full contentment of the land the dead woman of San Nicolas slipped from mind, and thought, and speech."
+        "text": "Time passed swiftly on, and in the dreamy full contentment of the land"
+      },
+      {
+        "text": "the dead woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "slipped from mind, and thought, and speech."
       }
     ]
   ]

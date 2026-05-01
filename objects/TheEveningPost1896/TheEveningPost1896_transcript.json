@@ -3,22 +3,189 @@
   "paragraphs": [
     [
       {
-        "text": "According to the best authorities the Island of San Nicolas, off the coast of Santa Barbara, and also the other islands in that vicinity, were once thickly populated: in fact, the large piles of shells, bones and other refuse still found on them prove that fact without other evidence."
+        "text": "According to the best authorities the"
+      },
+      {
+        "text": "Island of San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", off the coast of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and also"
+      },
+      {
+        "text": "the other islands in that vicinity",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were once thickly populated: in fact, the large piles of shells, bones and other refuse still found on them prove that fact without other evidence."
       }
     ],
     [
       {
-        "text": "From the statement made by George Nidever, who came to the Coast in 183[...]. It seems that the Alaska Indians were in the habit of making periodical [sic] visits to these islands for otter and otter skins."
+        "text": "From the statement made by"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who came to"
+      },
+      {
+        "text": "the Coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 183[...]. It seems that the"
+      },
+      {
+        "text": "Alaska Indians",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were in the habit of making periodical [sic] visits to"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "for otter and otter skins."
       }
     ],
     [
       {
-        "text": "They were supplied with firearms and were dangerous foes even to the white man, and much more so to the natives who had only stony implements of warfare."
+        "text": "They were supplied with firearms and were dangerous foes even to the white man, and much more so to"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "who had only stony implements of warfare."
       }
     ],
     [
       {
-        "text": "In 18[...] a number of these Indians were left on the San Nicolas island by a Russian vessel",
+        "text": "In 18[...] a number of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "these Indians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak",
+          "1814huntingparty"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were left on the",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "San Nicolas island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by a",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Russian vessel",
+        "tropes": [
+          11
+        ],
+        "entity_key": "sh_ilmena",
+        "entity_type": "ship"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "In a quarrel that ensued with",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the native population",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "they took possession of all native women, after having first killed every man and male child on",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "When the season of hunting was over they left",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", abandoning the women to their fate",
         "tropes": [
           11
         ]
@@ -29,10 +196,48 @@
     ],
     [
       {
-        "text": "In a quarrel that ensued with the native population they took possession of all native women, after having first killed every man and male child on the island",
-        "tropes": [
-          11
-        ]
+        "text": "This circumstance having come to the knowledge of"
+      },
+      {
+        "text": "the padres",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "of the"
+      },
+      {
+        "text": "Mission San Gabriel",
+        "entity_key": "mi_sgabriel",
+        "entity_type": "org"
+      },
+      {
+        "text": "they employed"
+      },
+      {
+        "text": "Isaac J. Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Lewis T. Burton",
+        "entity_key": "lbu",
+        "entity_type": "person"
+      },
+      {
+        "text": ", American hunters and trappers, to remove"
+      },
+      {
+        "text": "the women",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
       },
       {
         "text": "."
@@ -40,10 +245,36 @@
     ],
     [
       {
-        "text": "When the season of hunting was over they left the island, abandoning the women to their fate",
-        "tropes": [
-          11
-        ]
+        "text": "Having succeeded in getting"
+      },
+      {
+        "text": "the women",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "together on the beach ready for embarking"
+      },
+      {
+        "text": "one of them",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "made signs that"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been left behind, whereupon she was allowed to go back and get it. She was gone some time when a strong wind springing up, they did not dare to wait longer for her, fearing for the safety of"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
       },
       {
         "text": "."
@@ -51,32 +282,154 @@
     ],
     [
       {
-        "text": "This circumstance having come to the knowledge of the padres of the Mission San Gabriel they employed Isaac J. Sparks and Lewis T. Burton, American hunters and trappers, to remove the women."
+        "text": "The water, which is quite shoal about"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", becomes exceedingly rough in a storm, and there is no harbor of any kind that would afford shelter in a gale."
       }
     ],
     [
       {
-        "text": "Having succeeded in getting the women together on the beach ready for embarking one of them made signs that her child had been left behind, whereupon she was allowed to go back and get it. She was gone some time when a strong wind springing up, they did not dare to wait longer for her, fearing for the safety of the schooner."
+        "text": "The schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "reached"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "in safety, and"
+      },
+      {
+        "text": "the women",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were taken to"
+      },
+      {
+        "text": "the Mission",
+        "entity_key": "mi_sgabriel",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The water, which is quite shoal about the island, becomes exceedingly rough in a storm, and there is no harbor of any kind that would afford shelter in a gale."
+        "text": "It was the intention of"
+      },
+      {
+        "text": "the captain",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to return for"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had been left on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but being obliged to first make a trip to"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "this schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was wrecked near the"
+      },
+      {
+        "text": "Golden Gate",
+        "entity_key": "re_thegoldengate",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and all hands lost."
       }
     ],
     [
       {
-        "text": "The schooner reached San Pedro in safety, and the women were taken to the Mission."
-      }
-    ],
-    [
+        "text": "There was at that time no craft of any kind in",
+        "tropes": [
+          12
+        ]
+      },
       {
-        "text": "It was the intention of the captain of the schooner to return for the woman who had been left on the island, but being obliged to first make a trip to San Francisco this schooner was wrecked near the Golden Gate, and all hands lost."
-      }
-    ],
-    [
+        "text": "Santa Barbara",
+        "tropes": [
+          12
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
       {
-        "text": "There was at that time no craft of any kind in Santa Barbara larger than an Indian canoe and, the boats of the otter hunters left on the coast, and none cared to attempt the passage of the channel in an open boat.",
+        "text": "larger than an Indian canoe and, the boats of the otter hunters left on",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          12
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and none cared to attempt the passage of",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "the channel",
+        "tropes": [
+          12
+        ],
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "in an open boat.",
         "tropes": [
           12
         ]
@@ -84,17 +437,87 @@
     ],
     [
       {
-        "text": "It soon became known throughout the Coast that an Indian woman had been left helpless on the island, but no attempt was made to rescue her, and as the years passed by all thought she had perished."
+        "text": "It soon became known throughout"
+      },
+      {
+        "text": "the Coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "that an"
+      },
+      {
+        "text": "Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been left helpless on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but no attempt was made to rescue her, and as the years passed by all thought she had perished."
       }
     ],
     [
       {
-        "text": "In the year 1851 George Nidever and Thomas Jeffries had occasion to visit San Nicolas, and found signs that led them to believe that the woman still survived."
+        "text": "In the year 1851"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "had occasion to visit"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and found signs that led them to believe that"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "still survived."
       }
     ],
     [
       {
-        "text": "Soon after reaching the island they found the footprints of a human being, that, in all probability, had been made during the previous rainy season.",
+        "text": "Soon after reaching",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "they found the footprints of a human being, that, in all probability, had been made during the previous rainy season.",
         "tropes": [
           4
         ]
@@ -102,7 +525,21 @@
     ],
     [
       {
-        "text": "They were sunk quite deep in the ground, that was now hard and dry. They were distinctly defined and from their size they concluded, they were those of a woman.",
+        "text": "They were sunk quite deep in the ground, that was now hard and dry. They were distinctly defined and from their size they concluded, they were those of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -126,7 +563,57 @@
     ],
     [
       {
-        "text": "Nidever and Jeffries intended to make a thorough search for the woman, but fearing a storm they hastened to make the mainland.",
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Jeffries",
+        "tropes": [
+          4
+        ],
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "intended to make a thorough search for",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but fearing a storm they hastened to make",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the mainland",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -134,7 +621,49 @@
     ],
     [
       {
-        "text": "In the winter of 1852 Nidever made a second trip to the island, accompanied by the hunter Charles Brown.",
+        "text": "In the winter of 1852",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "made a second trip to",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", accompanied by the hunter",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Charles Brown",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -142,7 +671,35 @@
     ],
     [
       {
-        "text": "After searching around for some time and finding no trace of her they concluded that the wild dogs that infested the island must have eaten her. Nidever, however, discovered in the crotch of a small tree a basket, and upon throwing off the piece of sealskin that covered it he found, carefully laid together, a dress made of shag skins cut in square pieces, a rope made of sinew and several smaller articles, such as abalone fish hooks, bone needles, etc.",
+        "text": "After searching around for some time and finding no trace of her they concluded that the wild dogs that infested",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "must have eaten her.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", however, discovered in the crotch of a small tree a basket, and upon throwing off the piece of sealskin that covered it he found, carefully laid together, a dress made of shag skins cut in square pieces, a rope made of sinew and several smaller articles, such as abalone fish hooks, bone needles, etc.",
         "tropes": [
           4
         ]
@@ -150,7 +707,29 @@
     ],
     [
       {
-        "text": "Brown proposed replacing the articles and returning the basket to the tree where they had found it, but Nidever scattered the articles on the ground saying that if upon their return they found them replaced in the basket, it would be positive evidence of the woman's existence.",
+        "text": "Brown",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "proposed replacing the articles and returning the basket to the tree where they had found it, but",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "scattered the articles on the ground saying that if upon their return they found them replaced in the basket, it would be positive evidence of the woman's existence.",
         "tropes": [
           4
         ]
@@ -158,7 +737,38 @@
     ],
     [
       {
-        "text": "For the next few days the two men were busy hunting otters, and on about the fourth or fifth day a southeast wind began to blow, which soon increased to a gale, and it was with difficulty that they managed to reach San Miguel island.",
+        "text": "For the next few days",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the two men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were busy hunting otters, and on about the fourth or fifth day a southeast wind began to blow, which soon increased to a gale, and it was with difficulty that they managed to reach",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "San Miguel island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -166,7 +776,104 @@
     ],
     [
       {
-        "text": "In July, 1853, Nidever and a crew consisting of Brown and four Mission Indians made another trip to the island, with the intention of making a thorough and final search for the lost woman.",
+        "text": "In July, 1853,",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a crew",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "cdi",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "consisting of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "four Mission Indians",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "made another trip to",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", with the intention of making a thorough and final search for",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the lost woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -174,7 +881,65 @@
     ],
     [
       {
-        "text": "On reaching the island the party hunted in different directions without success until Brown reached the highest point on the island, when he caught sight of a small black object a long distance off that seemed to be moving. It looked at first glance very much like a crow.",
+        "text": "On reaching",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "the party",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "hunted in different directions without success until",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "reached the highest point on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", when he caught sight of a small black object a long distance off that seemed to be moving. It looked at first glance very much like a crow.",
         "tropes": [
           4
         ]
@@ -182,7 +947,21 @@
     ],
     [
       {
-        "text": "Walking toward it he soon saw it was the Indian woman.",
+        "text": "Walking toward it he soon saw it was",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the Indian woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           4
         ]
@@ -200,12 +979,53 @@
     ],
     [
       {
-        "text": "Without looking in the direction of Brown the woman gave a yell and the dogs disappeared."
+        "text": "Without looking in the direction of"
+      },
+      {
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "gave a yell and the dogs disappeared."
       }
     ],
     [
       {
-        "text": "Brown halted within a few yards of the woman, and at once began to signal to the rest of the party by placing his hat upon the ramrod of his gun and raising and lowering it."
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "halted within a few yards of"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and at once began to signal to"
+      },
+      {
+        "text": "the rest of the party",
+        "entity_keys": [
+          "gni",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "by placing his hat upon the ramrod of his gun and raising and lowering it."
       }
     ],
     [
@@ -215,7 +1035,23 @@
     ],
     [
       {
-        "text": "In the meantime Brown had an opportunity of observing the woman."
+        "text": "In the meantime"
+      },
+      {
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "had an opportunity of observing"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
@@ -252,7 +1088,41 @@
     ],
     [
       {
-        "text": "From the time Brown first arrived within hearing distance she kept up a continued talking to herself, occasionally shading her eyes with her hand and gazing steadily at the men who were seen walking around on the flat below. She was evidently much interested in their movements.",
+        "text": "From the time",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "first arrived within hearing distance she kept up a continued talking to herself, occasionally shading her eyes with her hand and gazing steadily at",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who were seen walking around on the flat below. She was evidently much interested in their movements.",
         "tropes": [
           1
         ]
@@ -260,7 +1130,41 @@
     ],
     [
       {
-        "text": "As the men came nearer Brown motioned them to spread out, so as to prevent her escape is [if] she were disposed to attempt it.",
+        "text": "As",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "came nearer",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "motioned them to spread out, so as to prevent her escape is [if] she were disposed to attempt it.",
         "tropes": [
           1
         ]
@@ -268,7 +1172,41 @@
     ],
     [
       {
-        "text": "Just before the men reached her camp Brown, who had not yet been seen by her, came around in front.",
+        "text": "Just before",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "reached her camp",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who had not yet been seen by her, came around in front.",
         "tropes": [
           1
         ]
@@ -284,7 +1222,47 @@
     ],
     [
       {
-        "text": "As fast as the other members of the party came up she greeted them in the same way, all the time talking, although not a word of hers could be understood, and the Indians spoke several dialects.",
+        "text": "As fast as",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the other members of the party",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "came up she greeted them in the same way, all the time talking, although not a word of hers could be understood, and",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the Indians",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "spoke several dialects.",
         "tropes": [
           1
         ]
@@ -292,7 +1270,29 @@
     ],
     [
       {
-        "text": "Nidever made signs for her to accompany them to the schooner, but she seemed unable to comprehend them until he intimated that, she must gather up all her food, when she set about the work with great alacrity, and commenced putting it in a large basket, such as was in general use among the Indians of the coast.",
+        "text": "Nidever",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "made signs for her to accompany them to",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the schooner",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", but she seemed unable to comprehend them until he intimated that, she must gather up all her food, when she set about the work with great alacrity, and commenced putting it in a large basket, such as was in general use among the Indians of the coast.",
         "tropes": [
           1
         ]
@@ -305,17 +1305,80 @@
     ],
     [
       {
-        "text": "When they reached the vessel she sought the vicinity of the stove, which indicated more of her bitter experiences on the island."
+        "text": "When they reached"
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "she sought the vicinity of the stove, which indicated more of her bitter experiences on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Brown made her a petticoat out of some bed ticking, with which she was much pleased, continually calling attention to it."
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "made her a petticoat out of some bed ticking, with which she was much pleased, continually calling attention to it."
       }
     ],
     [
       {
-        "text": "On the trip to Santa Barbara a furious gale arose, which threatened to engulf the little vessel. The woman made signs that she could allay the wind, and, kneeling down, facing the quarter from whence the wind blew, she commenced making incantations or prayers.",
+        "text": "On the trip to",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          1
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "a furious gale arose, which threatened to engulf",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the little vessel",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "The woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "made signs that she could allay the wind, and, kneeling down, facing the quarter from whence the wind blew, she commenced making incantations or prayers.",
         "tropes": [
           1
         ]
@@ -331,7 +1394,15 @@
     ],
     [
       {
-        "text": "On reaching Santa Barbara it is doubtful whether pleasure or wonder predominated in her mind."
+        "text": "On reaching"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "it is doubtful whether pleasure or wonder predominated in her mind."
       }
     ],
     [
@@ -352,22 +1423,126 @@
     ],
     [
       {
-        "text": "She was taken to Nidever's house, where she was tenderly cared for by his wife."
+        "text": "She was taken to"
+      },
+      {
+        "text": "Nidever's house",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she was tenderly cared for by"
+      },
+      {
+        "text": "his wife",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The story soon spread that the lost woman of San Nicolas had been found."
+        "text": "The story soon spread that"
+      },
+      {
+        "text": "the lost woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been found."
       }
     ],
     [
       {
-        "text": "The possibility of there being a woman living alone on a desert island in the ocean with only wild animals for companions had been discussed in many households, and was a subject of intense interest."
+        "text": "The possibility of there being"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "living alone on"
+      },
+      {
+        "text": "a desert island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in"
+      },
+      {
+        "text": "the ocean",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": "with only wild animals for companions had been discussed in many households, and was a subject of intense interest."
       }
     ],
     [
       {
-        "text": "Hundreds flocked the Nidever's house. Among others came Fathers Gonzales, Sanchez and Jimeno. Although familiar with all the dialects of the coast, not a word of her language could they understand. Indians from Santa Ynez, Los Angeles and other places were brought, with no better success. Not one of them understood even a word of her language."
+        "text": "Hundreds flocked"
+      },
+      {
+        "text": "the Nidever's house",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Among others came Fathers"
+      },
+      {
+        "text": "Gonzales",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Sanchez",
+        "entity_key": "sanchez",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Jimeno",
+        "entity_key": "aji",
+        "entity_type": "person"
+      },
+      {
+        "text": ". Although familiar with all the dialects of"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", not a word of her language could they understand. Indians from"
+      },
+      {
+        "text": "Santa Ynez",
+        "entity_key": "ci_sy",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "and other places were brought, with no better success. Not one of them understood even a word of her language."
       }
     ],
     [
@@ -380,7 +1555,35 @@
     ],
     [
       {
-        "text": "She related that when she went back after her child she wandered a long time without finding it, that when she concluded that the dogs had eaten her child she lay [down] and cried a long time and became sick, could not eat anything and [became so] weak that she could not walk[. She] finally recovered so that she [could get] around, and began to eat.",
+        "text": "She related that when she went back after",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "she wandered a long time without finding it, that when she concluded that the dogs had eaten",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "she lay [down] and cried a long time and became sick, could not eat anything and [became so] weak that she could not walk[. She] finally recovered so that she [could get] around, and began to eat.",
         "tropes": [
           10
         ]
@@ -412,7 +1615,31 @@
     ],
     [
       {
-        "text": "Nidever's family became much attached to her, and Nidever several times refused large sums which were offered to him to have her exhibited to the public in San Francisco."
+        "text": "Nidever's family became much attached to her, and"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "several times refused large sums which were"
+      },
+      {
+        "text": "offered",
+        "entity_key": "tru",
+        "entity_type": "person"
+      },
+      {
+        "text": "to him to have her exhibited to the public in"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
@@ -433,7 +1660,28 @@
     ],
     [
       {
-        "text": "She was buried by the padres, her funeral being attended by an immense concourse of people and most of her trinkets, including the wonderful feather dress, were taken to Rome."
+        "text": "She was buried by"
+      },
+      {
+        "text": "the padres",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", her funeral being attended by an immense concourse of people and most of her trinkets, including the wonderful feather dress, were taken to"
+      },
+      {
+        "text": "Rome",
+        "entity_key": "ci_rom",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ]
   ]

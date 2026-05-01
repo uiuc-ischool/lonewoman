@@ -8,7 +8,39 @@
     ],
     [
       {
-        "text": "Concerning the Islands of San Miguel, San Nicolas and Santa Rosa, not a native of these Islands is now to be found in or near this Mission, nor one who could give any information of them."
+        "text": "Concerning the Islands of"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ", not a native of these Islands is now to be found in or near"
+      },
+      {
+        "text": "this Mission",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": ", nor one who could give any information of them."
       }
     ],
     [
@@ -18,7 +50,55 @@
     ],
     [
       {
-        "text": "When the Franciscan Missionary Fathers arrived in California they found tribes of Indians scattered along the Coast, from San Diego to the bay of San Francisco, and varying in number to about two thousand, in each of the larger tribes. They enlightened them with the light of the Gospel, and founded for them the Missions to be seen at the present day."
+        "text": "When"
+      },
+      {
+        "text": "the Franciscan Missionary Fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "arrived in"
+      },
+      {
+        "text": "California",
+        "entity_key": "re_spcal",
+        "entity_type": "place"
+      },
+      {
+        "text": "they found tribes of Indians scattered along"
+      },
+      {
+        "text": "the Coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", from"
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": "to the"
+      },
+      {
+        "text": "bay of San Francisco",
+        "entity_key": "re_sfbay",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and varying in number to about two thousand, in each of the larger tribes. They enlightened them with the light of the Gospel, and founded for them"
+      },
+      {
+        "text": "the Missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": "to be seen at the present day."
       },
       {
         "text": "They were of a generous, and generally docile nature, copper-colored, and highly favored by the Omnipotent Arm in strength and other corporeal qualities.",
@@ -34,30 +114,234 @@
     ],
     [
       {
-        "text": "Along the coast and islands each tribe generally spoke a different language, but understood sufficient of their neighboring idioms for the purpose of commerce. With regard to grammatical construction in their language, it is superfluous to say they knew it not. The foregoing vocabulary of Santa Cruz has been taken from one of its natives. Take notice that it has to be pronounced like English, as it has been so written, and accurately, as the gutteral sound of the language would permit."
-      }
-    ],
-    [
-      {
-        "text": "The Indians['] name of the Island of Santa Cruz was Limooh or Limoo-eh. For the island of Santa Rosa the name was Hurmal, that of San Miguel was Two-a-can, that of San Nicolas was Ghalashat."
-      }
-    ],
-    [
-      {
-        "text": "For the foregoing vocabulary and notes the compiler is indebted to the kindness of the Rt. Rev. Teodoro Amat, Catholic Bishop of the Diocese of Monterey."
-      }
-    ],
-    [
-      {
-        "text": "The Indian, who gave the information, did not know the names of elk, wolf, beaver, squirrel, hare, duck, pigeon, tufted quail, nor the term for one thousand."
-      }
-    ],
-    [
-      {
-        "text": "An old American resident of Santa Barbara informs me that the Santa Barbara islands were pretty thickly populated in the early part of this century prior to 1816."
+        "text": "Along"
       },
       {
-        "text": "They had such bloody wars among themselves, for the fishing-grounds of each island, or each rancheria, that the priests had them all brought over to the main land and placed in the Missions of Santa Barbara, San Luis Obispo, San Buenaventura, Santa Ynez and La Purisima; but that very few, if any, are now left in those vicinities.",
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "each tribe generally spoke a different language, but understood sufficient of their neighboring idioms for the purpose of commerce. With regard to grammatical construction in their language, it is superfluous to say they knew it not. The foregoing vocabulary of"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "has been taken from one of its natives. Take notice that it has to be pronounced like English, as it has been so written, and accurately, as the gutteral sound of the language would permit."
+      }
+    ],
+    [
+      {
+        "text": "The Indians['] name of the"
+      },
+      {
+        "text": "Island of Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "was Limooh or Limoo-eh. For the"
+      },
+      {
+        "text": "island of Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "the name was Hurmal, that of"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "was Two-a-can, that of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was Ghalashat."
+      }
+    ],
+    [
+      {
+        "text": "For the foregoing vocabulary and notes"
+      },
+      {
+        "text": "the compiler",
+        "entity_key": "ata",
+        "entity_type": "person"
+      },
+      {
+        "text": "is indebted to the kindness of the"
+      },
+      {
+        "text": "Rt. Rev. Teodoro Amat",
+        "entity_key": "tbr",
+        "entity_type": "person"
+      },
+      {
+        "text": ", Catholic Bishop of the"
+      },
+      {
+        "text": "Diocese of Monterey",
+        "entity_key": "ch_diocese",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "The Indian",
+        "entity_key": "indian1",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who gave the information, did not know the names of elk, wolf, beaver, squirrel, hare, duck, pigeon, tufted quail, nor the term for one thousand."
+      }
+    ],
+    [
+      {
+        "text": "An old American resident",
+        "entity_key": "american",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "informs me that the"
+      },
+      {
+        "text": "Santa Barbara islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "were pretty thickly populated in the early part of this century prior to 1816."
+      },
+      {
+        "text": "They had such bloody wars among themselves, for the fishing-grounds of each island, or each rancheria, that",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the priests",
+        "tropes": [
+          11
+        ],
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "had them all brought over to",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the main land",
+        "tropes": [
+          11
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "and placed in the Missions of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          11
+        ],
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "San Luis Obispo",
+        "tropes": [
+          11
+        ],
+        "entity_key": "mi_slo",
+        "entity_type": "org"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "San Buenaventura",
+        "tropes": [
+          11
+        ],
+        "entity_key": "mi_venturamission",
+        "entity_type": "org"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Santa Ynez",
+        "tropes": [
+          11
+        ],
+        "entity_key": "mi_sy",
+        "entity_type": "org"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "La Purisima",
+        "tropes": [
+          11
+        ],
+        "entity_key": "mi_pur",
+        "entity_type": "org"
+      },
+      {
+        "text": "; but that very few, if any, are now left in those vicinities.",
         "tropes": [
           11
         ]
@@ -65,32 +349,543 @@
     ],
     [
       {
-        "text": "The islands off the coast of Santa Barbara, San Diego and Los Angeles countries [counties], are San Miguel, Santa Cruz, Santa Rosa, San Nicolas, Santa Barbara, Santa Cataline and San Clemente, and they are mentioned by Cabrillo in 1542, as being inhabited, and by Viscaino's in 1602, as (some of them) being very populous."
+        "text": "The islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
       },
       {
-        "text": "On Santa Catalina, Viscaino's vessels stopped several days, and were treated by the Indians with great hospitality.",
+        "text": "off the coast of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "co_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "co_sdcounty",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "co_la",
+        "entity_type": "org"
+      },
+      {
+        "text": "countries [counties], are"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Cataline",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and they are mentioned by"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1542, as being inhabited, and by"
+      },
+      {
+        "text": "Viscaino",
+        "entity_key": "svi",
+        "entity_type": "person"
+      },
+      {
+        "text": "'s in 1602, as (some of them) being very populous."
+      },
+      {
+        "text": "On",
         "tropes": [
           3
         ]
       },
       {
-        "text": "The historian of the expedition mentions the existence of a rude temple and worship of the sun by the natives, and of an immense black crow (probably the Condor), which was an object of great veneration among them, and on the shooting of which by a Spanish soldier, the Indians set up an awful howling of tremor and fear. This veneration of the Great Bird of Northwest America seems to have been universal among the California Indians; a reference will be found made to this subject in Dr. Herman's Ornithological Notes in the tenth volume of Railroad Reports."
+        "text": "Santa Catalina",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ", Viscaino's vessels stopped several days, and were treated by",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the Indians",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_Catalineno",
+        "entity_type": "org"
+      },
+      {
+        "text": "with great hospitality.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "The historian of the expedition",
+        "entity_key": "carp",
+        "entity_type": "person"
+      },
+      {
+        "text": "mentions the existence of a rude temple and worship of the sun by"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "natam_Catalineno",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and of an immense black crow (probably the Condor), which was an object of great veneration among them, and on the shooting of which by"
+      },
+      {
+        "text": "a Spanish soldier",
+        "entity_key": "spsol",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_Catalineno",
+        "entity_type": "org"
+      },
+      {
+        "text": "set up an awful howling of tremor and fear. This veneration of the Great Bird of"
+      },
+      {
+        "text": "Northwest America",
+        "entity_key": "re_nwamerica",
+        "entity_type": "place"
+      },
+      {
+        "text": "seems to have been universal among the California Indians; a reference will be found made to this subject in"
+      },
+      {
+        "text": "Dr. Herman",
+        "entity_key": "ahe",
+        "entity_type": "person"
+      },
+      {
+        "text": "'s Ornithological Notes in the tenth volume of Railroad Reports."
       }
     ],
     [
       {
-        "text": "Great havoc was committed on these island-tribes by the Indians of the main land, and those from the Northwest. We believe these Northwest Indians were Kodiaks and others, in the employ of the Russians of Bodega and Sitka, in search of sea-otters, fur-seals, and avelones [abalones], who used to make raids on their own account. In Hugo Reid's account of the Indians of Los Angeles county, published in the Los Angeles Star, in 1852, it is stated that the Missionaries gathered the enemies from caves on the islands of many of the San Clemente Indians, between 1825 and 1833, and had them decently buried, and what was singular every one of the skulls were found with a double row of teeth, both on the lower and upper jaw.",
+        "text": "Great havoc was committed on these",
         "tropes": [
           11
         ]
       },
       {
-        "text": "How true this statement is can only be ascertained by disentombing the bodies, which, it seems, were buried either at San Gabriel, San Diego, or Juan Capistrano Missions."
+        "text": "island-tribes",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "by the Indians of the main land, and",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "those from the Northwest",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". We believe these",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Northwest Indians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "were",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Kodiaks and others, in the employ of the Russians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Bodega",
+        "tropes": [
+          11
+        ],
+        "entity_key": "ci_bodega",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Sitka",
+        "tropes": [
+          11
+        ],
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in search of sea-otters, fur-seals, and avelones [abalones], who used to make raids on their own account. In",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Hugo Reid",
+        "tropes": [
+          11
+        ],
+        "entity_key": "hre",
+        "entity_type": "person"
+      },
+      {
+        "text": "'s account of the Indians of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Los Angeles county",
+        "tropes": [
+          11
+        ],
+        "entity_key": "co_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", published in the",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Los Angeles Star",
+        "tropes": [
+          11
+        ],
+        "entity_key": "lastar",
+        "entity_type": "org"
+      },
+      {
+        "text": ", in 1852, it is stated that",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the Missionaries",
+        "tropes": [
+          11
+        ],
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "gathered",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the enemies",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "from caves on",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "of many of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the San Clemente Indians",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_GabrilenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", between 1825 and 1833, and had them decently buried, and what was singular every one of the skulls were found with a double row of teeth, both on the lower and upper jaw.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "How true this statement is can only be ascertained by disentombing the bodies, which, it seems, were buried either at"
+      },
+      {
+        "text": "San Gabriel",
+        "entity_key": "mi_sg",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "mi_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": ", or"
+      },
+      {
+        "text": "Juan Capistrano",
+        "entity_key": "mi_jc",
+        "entity_type": "org"
+      },
+      {
+        "text": "Missions."
       }
     ],
     [
       {
-        "text": "In one of the raids of these Kodiak Indians they are said to have killed every Indian on the island of San Nicholas execpt two or three women; and only a short time ago appeared an account in the California journals of one of these females (or the last inhabitant of the island) having, with great difficulty, been taken off by the old California hunter, George Nidever, and carried to Santa Barbara in a semi-demented state.",
+        "text": "In one of the raids of these",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "Kodiak Indians",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "they are said to have killed every Indian on the",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "island of San Nicholas",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "execpt",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "two or three women",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "; and only a short time ago appeared an account in the California journals of",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "one of these females",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "(or",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "the last inhabitant of the island",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ") having, with great difficulty, been taken off by the old California hunter,",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "George Nidever",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and carried to",
+        "tropes": [
+          11,
+          6
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          11,
+          6
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "in a semi-demented state.",
         "tropes": [
           11,
           6
@@ -99,13 +894,183 @@
     ],
     [
       {
-        "text": "An American otter hunter, who has been engaged among the Santa Barbara Islands for the last six years, and who has visited every one of the California islands, from Cedros island to the Farallones, informs me that the remains of the Indians in the Channel islands, from Santa Catalina, up, indicate a very numerous population of Indians. There are supposed to be no Island Indians left now, neither on the main land, or elsewhere, certainly none at their former homes.",
+        "text": "An American otter hunter",
+        "tropes": [
+          6
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who has been engaged among the",
         "tropes": [
           6
         ]
       },
       {
-        "text": "On all these islands, he says, the remains of their huts, and signs of rancherias, from sea-shells, are very abundant. He says, in coming down from the North, in winter, the island of San Miguel, alias San Lucas, alias Juan Rodriguez, alias Isle Possession, alias San Bernardo, where Cabrillo, the discoverer of California, in 1543, is said to have died, would be, without doubt, the first one reached by vessels as the old navigators used."
+        "text": "Santa Barbara Islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "for the last six years, and who has visited every one of the California islands, from",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Cedros island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_cedros",
+        "entity_type": "place"
+      },
+      {
+        "text": "to",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Farallones",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_far",
+        "entity_type": "place"
+      },
+      {
+        "text": ", informs me that the remains of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Indians",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "in",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Channel islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", from",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Santa Catalina",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ", up, indicate a very numerous population of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Indians",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". There are supposed to be no",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Island Indians",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "left now, neither on",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the main land",
+        "tropes": [
+          6
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", or elsewhere, certainly none at their former homes.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "On all these islands, he says, the remains of their huts, and signs of rancherias, from sea-shells, are very abundant. He says, in coming down from the North, in winter, the"
+      },
+      {
+        "text": "island of San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ", alias San Lucas, alias Juan Rodriguez, alias Isle Possession, alias San Bernardo, where"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the discoverer of"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in 1543, is said to have died, would be, without doubt, the first one reached by vessels as the old navigators used."
       }
     ],
     [

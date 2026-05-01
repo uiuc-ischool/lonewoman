@@ -3,12 +3,68 @@
   "paragraphs": [
     [
       {
-        "text": "Indian Woman Lives 18 Years Alone on Island"
+        "text": "Indian Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "Lives 18 Years Alone on"
+      },
+      {
+        "text": "Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
       }
     ],
     [
       {
-        "text": "One of the most fascinating stories about California's Channel Islands is that of Juana Maria, the mysterious woman who brought down the curtain on the centuries-old Indian culture that thrived on the eight offshore islands.",
+        "text": "One of the most fascinating stories about",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "California's Channel Islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "is that of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Juana Maria",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the mysterious woman who brought down the curtain on",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the centuries-old Indian culture that thrived on the eight offshore islands",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -21,12 +77,81 @@
     ],
     [
       {
-        "text": "UCLA anthropologists Clement Meighan and Hal Eberhart identified 68 prehistoric village sites on San Nicolas Island and estimated that well over 1,000 Indians lived on the island at its peak population period."
+        "text": "UCLA anthropologists"
+      },
+      {
+        "text": "Clement Meighan",
+        "entity_key": "cme",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Hal Eberhart",
+        "entity_key": "heb",
+        "entity_type": "person"
+      },
+      {
+        "text": "identified 68 prehistoric village sites on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and estimated that well over 1,000 Indians lived on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "at its peak population period."
       }
     ],
     [
       {
-        "text": "They were a more peaceful people than the Indians who lived on the mainland and on the other Channel Islands, according to the two UCLA scientists, who came to that conclusion because of the scarcity of arrowheads unearthed.",
+        "text": "They were a more peaceful people than the Indians who lived on the mainland and",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "on the other Channel Islands",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "i_scl",
+          "i_sm",
+          "i_scatalina",
+          "i_scruz",
+          "i_sr"
+        ],
+        "entity_type": "place"
+      },
+      {
+        "text": ", according to",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the two UCLA scientists",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "cme",
+          "heb"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", who came to that conclusion because of the scarcity of arrowheads unearthed.",
         "tropes": [
           3
         ]
@@ -34,17 +159,154 @@
     ],
     [
       {
-        "text": "San Nicolas Island Indians existed on a seafood and bird economy, deriving their food supply from abalone, fish, sea lions, sea elephants and birds. The island apparently never did support a great deal of plant life."
+        "text": "San Nicolas Island Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "existed on a seafood and bird economy, deriving their food supply from abalone, fish, sea lions, sea elephants and birds."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "apparently never did support a great deal of plant life."
       }
     ],
     [
       {
-        "text": "By 1835 only a handful of Indians were still living on San Nicolas Island. The Franciscan priests decided to move the Indians to the mainland. Capt. Charles Hubbard's schooner, Peor es Nada, was chartered to bring the Indians to San Pedro."
+        "text": "By 1835 only"
+      },
+      {
+        "text": "a handful of Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were still living on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The Franciscan priests",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "decided to move"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Capt. Charles Hubbard's schooner,"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", was chartered to bring"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The story goes that a storm moved into the island and the seas became turbulent as the Indians were being loaded aboard the boat. As Capt. Hubbard prepared to leave one of the Indian women discovered her child had not been brought aboard the schooner as she had expected."
+        "text": "The story goes that a storm moved into"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and the seas became turbulent as"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were being loaded aboard"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". As"
+      },
+      {
+        "text": "Capt. Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "prepared to leave"
+      },
+      {
+        "text": "one of the Indian women",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had not been brought aboard"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "as she had expected."
       },
       {
         "text": "She jumped into the water and swam ashore.",
@@ -55,67 +317,561 @@
     ],
     [
       {
-        "text": "It was impossible for the boat to wait any longer as the stormy seas threatened to hurl the boat into the island's rocky seacoast. The Peor es Nada set sail across the choppy channel, leaving the Indian woman and her child alone on the island. The San Nicolas Island Indians were assimilated with other Indians at the San Gabriel Mission."
+        "text": "It was impossible for"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to wait any longer as the stormy seas threatened to hurl the boat into the island's rocky seacoast. The"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "set sail across the choppy channel, leaving"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "alone on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The"
+      },
+      {
+        "text": "San Nicolas Island Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were assimilated with other Indians at the"
+      },
+      {
+        "text": "San Gabriel Mission",
+        "entity_key": "mi_sgabriel",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Capt. Hubbard told the Franciscan fathers how the Indian woman and her child were left behind on San Nicolas Island. He had a commitment to transport a group of sea otter hunters led by George Nidever to Santa Rosa Island."
+        "text": "Capt. Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "told"
+      },
+      {
+        "text": "the Franciscan fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "how"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were left behind on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He had a commitment to transport a group of sea otter hunters led by"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Santa Rosa Island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "From Santa Rosa Island the Peor es Nada was to sail to San Francisco."
+        "text": "From"
+      },
+      {
+        "text": "Santa Rosa Island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was to sail to"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "\"But just as soon as I return to Southern California, if no one has transported the Indian woman and her child to the mainland, I will sail to San Nicolas and pick her up,\" Capt. Hubbard promised the mission priests."
+        "text": "\"But just as soon as I return to"
+      },
+      {
+        "text": "Southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", if no one has transported"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", I will sail to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and pick her up,\""
+      },
+      {
+        "text": "Capt. Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "promised"
+      },
+      {
+        "text": "the mission priests",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Capt. Hubbard was never able to keep his promise. Less than a month later the Peor es Nada sank in San Francisco Bay with the sea captain aboard."
+        "text": "Capt. Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "was never able to keep his promise. Less than a month later the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "sank in"
+      },
+      {
+        "text": "San Francisco Bay",
+        "entity_key": "re_sfbay",
+        "entity_type": "place"
+      },
+      {
+        "text": "with"
+      },
+      {
+        "text": "the sea captain",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "aboard."
       }
     ],
     [
       {
-        "text": "Fifteen years went by before anyone returned to the lonely desolate nine-mile-long, three and a half mile wide island, 76 miles out to sea from San Pedro, to look for the Indian woman and her child."
+        "text": "Fifteen years went by before anyone returned to"
+      },
+      {
+        "text": "the lonely desolate nine-mile-long, three and a half mile wide island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", 76 miles out to sea from"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to look for"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Few believed the woman and child survived for long. San Nicolas Island was overrun with packs of wild dogs. That plus the difficulty of a young woman eking out a living all by herself seemed to be an impossibility."
+        "text": "Few believed"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "survived for long."
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was overrun with packs of wild dogs. That plus the difficulty of a young woman eking out a living all by herself seemed to be an impossibility."
       }
     ],
     [
       {
-        "text": "In 1850, Thomas Jeffries and George Nidever sailed to the island with a crew of Indians to hunt otter. For six weeks they stripped otter and seals of hides, salted the skins and stowed them in a boat."
+        "text": "In 1850,"
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "sailed to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "with"
+      },
+      {
+        "text": "a crew of Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "to hunt otter. For six weeks they stripped otter and seals of hides, salted the skins and stowed them in a boat."
       }
     ],
     [
       {
-        "text": "Then one night an Indian who had been hiking around the island came running back where the otter hunters were camped. He told of seeing a human being running in the distance. He tried to catch up with the island phantom, but failed."
+        "text": "Then one night"
+      },
+      {
+        "text": "an Indian",
+        "entity_key": "sailor1",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had been hiking around"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "came running back where"
+      },
+      {
+        "text": "the otter hunters",
+        "entity_keys": [
+          "gni",
+          "tje",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were camped. He told of seeing a human being running in the distance. He tried to catch up with"
+      },
+      {
+        "text": "the island phantom",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but failed."
       }
     ],
     [
       {
-        "text": "Could it be the lost Indian woman of San Nicolas Island?"
+        "text": "Could it be"
+      },
+      {
+        "text": "the lost Indian woman of San Nicolas Island",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "?"
       }
     ],
     [
       {
-        "text": "But the shadowy creature was not seen again and the otter hunters returned to the mainland."
+        "text": "But"
+      },
+      {
+        "text": "the shadowy creature",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was not seen again and"
+      },
+      {
+        "text": "the otter hunters",
+        "entity_keys": [
+          "gni",
+          "tje",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "returned to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Three years later on another otter hunting excursion to the island, Nidever and Carl Detman found a basket containing a robe made of birds' plumage. Now they were convinced. The Indian woman who swam back to the island 18 years earlier to find her misplaced child, or the child, now a young woman, or both, were alive on the island."
+        "text": "Three years later on another otter hunting excursion to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Carl Detman",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "found a basket containing a robe made of birds' plumage. Now they were convinced."
+      },
+      {
+        "text": "The Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who swam back to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "18 years earlier to find"
+      },
+      {
+        "text": "her misplaced child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", or"
+      },
+      {
+        "text": "the child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", now a young woman, or both, were alive on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Nidever abandoned his hunt for otter. He and his men searched the island, canyon by canyon, cave by cave, until they finally succeeded.",
+        "text": "Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "abandoned his hunt for otter. He and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "his men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "searched",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", canyon by canyon, cave by cave, until they finally succeeded.",
         "tropes": [
           4
         ]
@@ -123,7 +879,21 @@
     ],
     [
       {
-        "text": "It was Detman who made the discovery a few days after the search began.",
+        "text": "It was",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "who made the discovery a few days after the search began.",
         "tropes": [
           4
         ]
@@ -137,7 +907,30 @@
         ]
       },
       {
-        "text": "She was seated in her hideaway, observing members of Nidever's party searching the beach below.",
+        "text": "She was seated in her hideaway, observing members of",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Nidever's party",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "searching the beach below.",
         "tropes": [
           1
         ]
@@ -153,7 +946,35 @@
     ],
     [
       {
-        "text": "Surprised by Detman, she accepted his presence calmly, ordering the dogs away. Despite the fact that Detman was the first person she faced in 18 years, she did not become alarmed.",
+        "text": "Surprised by",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", she accepted his presence calmly, ordering the dogs away. Despite the fact that",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "was the first person she faced in 18 years, she did not become alarmed.",
         "tropes": [
           1
         ]
@@ -161,7 +982,35 @@
     ],
     [
       {
-        "text": "She was dressed in cormorant feathers, a garment identical to the one found earlier by Detman and Nidever. She was in excellent physical condition. There was a large supply of food in her grass hut.",
+        "text": "She was dressed in cormorant feathers, a garment identical to the one found earlier by",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She was in excellent physical condition. There was a large supply of food in her grass hut.",
         "tropes": [
           1
         ]
@@ -169,7 +1018,106 @@
     ],
     [
       {
-        "text": "Through sign language, because none of the Indian otter hunters could understand her, she told how she hid on those rare occasions when boats came to the island. She was able to explain to the men that she found her child dead when she swam to the island the day the Peor es Nada left without her.",
+        "text": "Through sign language, because none of",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the Indian otter hunters",
+        "tropes": [
+          10
+        ],
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "could understand her, she told how she hid on those rare occasions when boats came to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She was able to explain to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          10
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "that she found her",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "dead when she swam to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "the day the",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Peor es Nada",
+        "tropes": [
+          10
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "left without her.",
         "tropes": [
           10
         ]
@@ -177,7 +1125,21 @@
     ],
     [
       {
-        "text": "She knew every inch of the island. She never wanted for food, living off birds, fish, abalone and seals' blubber. Water was easily available from the many existing springs. Her life was lonely. But in time she came to accept it and fled in fear from every visitor.",
+        "text": "She knew every inch of",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She never wanted for food, living off birds, fish, abalone and seals' blubber. Water was easily available from the many existing springs. Her life was lonely. But in time she came to accept it and fled in fear from every visitor.",
         "tropes": [
           10
         ]
@@ -185,28 +1147,127 @@
     ],
     [
       {
-        "text": "The boat returned to the mainland and Nidever brought the woman to his Santa Barbara home, where his wife cared for her. The story of her discovery spread far and wide."
+        "text": "The boat",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "returned to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "brought"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "his Santa Barbara home",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where"
+      },
+      {
+        "text": "his wife",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "cared for her. The story of her discovery spread far and wide."
       }
     ],
     [
       {
-        "text": "[The] Curious came for miles to see the strange wild woman, who, in reality, was a quiet, shy person."
+        "text": "[The] Curious came for miles to see"
+      },
+      {
+        "text": "the strange wild woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who, in reality, was a quiet, shy person."
       }
     ],
     [
       {
-        "text": "Mission padres searched without success for one of the Indians taken from the island in 1835, but none could be found who spoke the woman's language."
+        "text": "Mission padres",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "searched without success for one of"
+      },
+      {
+        "text": "the Indians taken from the island",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1835, but none could be found who spoke the woman's language."
       }
     ],
     [
       {
-        "text": "Civilization proved to be a greater challenge than life alone on San Nicolas. Despite her new diet of proper food, or perhaps because of it, she failed rapidly. In a short time she became too weak to walk.",
+        "text": "Civilization proved to be a greater challenge than life alone on",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Within three months of her discovery, the last of the Channel Island Indians died.",
+        "text": "San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Despite her new diet of proper food, or perhaps because of it, she failed rapidly. In a short time she became too weak to walk.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Within three months of her discovery,",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the last of the Channel Island Indians",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "died.",
         "tropes": [
           6
         ]
@@ -214,7 +1275,21 @@
     ],
     [
       {
-        "text": "With her also died the great culture of the islands that had thrived for centuries.",
+        "text": "With her also died the great culture of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "that had thrived for centuries.",
         "tropes": [
           6
         ]
@@ -222,37 +1297,217 @@
     ],
     [
       {
-        "text": "On her death bed one of the priests from the Santa Barbara Mission baptized her, giving her the name Juana Maria."
+        "text": "On her death bed"
+      },
+      {
+        "text": "one of the priests",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "from the"
+      },
+      {
+        "text": "Santa Barbara Mission",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": "baptized her, giving her the name Juana Maria."
       }
     ],
     [
       {
-        "text": "Her robe of cormorant feathers was sent to the Pope in Rome, where it remains to this day in the Vatican Museum."
+        "text": "Her robe of cormorant feathers was sent to"
+      },
+      {
+        "text": "the Pope in Rome",
+        "entity_key": "pop",
+        "entity_type": "person"
+      },
+      {
+        "text": ", where it remains to this day in the"
+      },
+      {
+        "text": "Vatican Museum",
+        "entity_key": "mu_vaticanmuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "She is buried in the Mission graveyard, where a plaque erected to her memory in 1928 reads:"
+        "text": "She is buried in"
+      },
+      {
+        "text": "the Mission graveyard",
+        "entity_key": "sbmissioncemetary",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where a plaque erected to her memory in 1928 reads:"
       }
     ],
     [
       {
-        "text": "Juana Maria Indian Woman Abandoned on San Nicolas Island eighteen years Found and brought to Santa Barbara by Captain George Nidever in 1853 Santa Barbara Chapter Daughters of the American Revolution 1928."
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "Indian Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "Abandoned on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "eighteen years Found and brought to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "Captain George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1853"
+      },
+      {
+        "text": "Santa Barbara Chapter",
+        "entity_key": "dar_sb",
+        "entity_type": "org"
+      },
+      {
+        "text": "Daughters of the",
+        "entity_key": "daughters",
+        "entity_type": "org"
+      },
+      {
+        "text": "American Revolution",
+        "entity_key": "daughters",
+        "entity_type": "org"
+      },
+      {
+        "text": "1928."
       }
     ],
     [
       {
-        "text": "Archeologist Arthur R. Sanger believed he had the skeleton of Juana Maria's child. Sanger searched the Channel Islands for 30 years collecting Indian artifacts for the Museum of the American Indian, New York, and the Los Angeles County Museum."
+        "text": "Archeologist"
+      },
+      {
+        "text": "Arthur R. Sanger",
+        "entity_key": "asa",
+        "entity_type": "person"
+      },
+      {
+        "text": "believed he had the skeleton of"
+      },
+      {
+        "text": "Juana Maria's child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Sanger",
+        "entity_key": "asa",
+        "entity_type": "person"
+      },
+      {
+        "text": "searched the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "for 30 years collecting Indian artifacts for the"
+      },
+      {
+        "text": "Museum of the American Indian",
+        "entity_key": "mu_americanindian",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "New York",
+        "entity_key": "st_ny",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and the"
+      },
+      {
+        "text": "Los Angeles County Museum",
+        "entity_key": "mu_lacountymuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "He was convinced his skeleton, one of thousands of Indian relics he collected and catalogued from the islands, was that of the Indian woman's child."
+        "text": "He was convinced his skeleton, one of thousands of Indian relics he collected and catalogued from"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was that of"
+      },
+      {
+        "text": "the Indian woman's child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "One reason for his conviction is that the skeleton was buried deeper than most on the island. Another reason was that beads buried with the baby were imported there in the 19th century. Sanger's collection included many skeletons and novel whale and sea turtle effigies, apparently used by the Indians as good luck pieces."
+        "text": "One reason for his conviction is that the skeleton was buried deeper than most on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Another reason was that beads buried with"
+      },
+      {
+        "text": "the baby",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were imported there in the 19th century. Sanger's collection included many skeletons and novel whale and sea turtle effigies, apparently used by the Indians as good luck pieces."
       }
     ]
   ]

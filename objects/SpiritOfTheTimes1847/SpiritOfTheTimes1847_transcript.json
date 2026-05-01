@@ -3,10 +3,75 @@
   "paragraphs": [
     [
       {
-        "text": "Off the coast of Alta California, about two degrees distant, bearing nearly west from Point San Pedro, which is in the latitude of 33 43 N, and longitude 118 14 W., will be found a small island, called by the Spaniards Saint Nicholas."
+        "text": "Off the coast of"
       },
       {
-        "text": "This island was formerly inhabited by an inoffensive, indolent race of Indians, who subsisted almost entirely upon fish, which they caught from the rocks, and muscles, which they found in the sands of the beach. They were a listless, quiet race of beings, who seldom had communication with others of the human family, and who had but few wants and fewer cares.",
+        "text": "Alta California",
+        "entity_key": "re_upcal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", about two degrees distant, bearing nearly west from"
+      },
+      {
+        "text": "Point San Pedro",
+        "entity_key": "re_pointsp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which is in the latitude of 33 43 N, and longitude 118 14 W., will be found a small island, called by the Spaniards"
+      },
+      {
+        "text": "Saint Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "This island",
+        "tropes": [
+          15,
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was formerly inhabited by",
+        "tropes": [
+          15,
+          3
+        ]
+      },
+      {
+        "text": "an inoffensive, indolent race of Indians",
+        "tropes": [
+          15,
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", who subsisted almost entirely upon fish, which they caught from the rocks, and muscles, which they found in the sands of the beach. They were",
+        "tropes": [
+          15,
+          3
+        ]
+      },
+      {
+        "text": "a listless, quiet race of beings",
+        "tropes": [
+          15,
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", who seldom had communication with others of the human family, and who had but few wants and fewer cares.",
         "tropes": [
           15,
           3
@@ -15,43 +80,348 @@
     ],
     [
       {
-        "text": "About the year eighteen hundred and eighteen or twenty, the Russians, from their settlements at the North, landed on this island a party of Kodiac Indians, for the purpose of hunting the sea otter, which, at that period, abounded in those waters. This party remained on the island for more than two years: and were the means of sowing the seeds of disease and contention amongst its unsuspecting and unsophisticated inhabitants."
-      }
-    ],
-    [
-      {
-        "text": "Some ten or twelve years after the departure of the Kodiacs, this tribe had become diminished to about twenty or thirty individuals, when the Governor of the department of California sent over a small vessel and removed them to the main."
-      }
-    ],
-    [
-      {
-        "text": "In the last boat, which was embarking with the last of this people, (some six or eight perhaps in number) to convey them to the vessel, which was to carry them from the home of their nativity forever, was one of the tribe, small in stature, not far advanced in years, and his dusky mate, then in the bloom of life."
+        "text": "About the year eighteen hundred and eighteen or twenty,"
       },
       {
-        "text": "The order had been given to shove from the shore; the oars had dipped in the wave, the boat was rising on the foaming surf, then breaking on the beach with awful roar, when, with the impulse of the moment as it were, this young and blooming bride of the red man, the imprint of whose footstep had been the last left on the sands of her island home, waved an adieu to her chosen mate, plunged into the abyss, \"strove through the surge,\" and, in another moment, stood alone on the shores of her native land.",
+        "text": "the Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", from"
+      },
+      {
+        "text": "their settlements at the North",
+        "entity_key": "re_russam",
+        "entity_type": "place"
+      },
+      {
+        "text": ", landed on"
+      },
+      {
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "a party of"
+      },
+      {
+        "text": "Kodiac Indians",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ", for the purpose of hunting the sea otter, which, at that period, abounded in those waters. This party remained on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "for more than two years: and were the means of sowing the seeds of disease and contention amongst its"
+      },
+      {
+        "text": "unsuspecting and unsophisticated inhabitants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Some ten or twelve years after the departure of"
+      },
+      {
+        "text": "the Kodiacs",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "this tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "had become diminished to about twenty or thirty individuals, when"
+      },
+      {
+        "text": "the Governor",
+        "entity_key": "ppi",
+        "entity_type": "person"
+      },
+      {
+        "text": "of the"
+      },
+      {
+        "text": "department of California",
+        "entity_key": "gov_dptcalifornia",
+        "entity_type": "org"
+      },
+      {
+        "text": "sent over"
+      },
+      {
+        "text": "a small vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and removed them to"
+      },
+      {
+        "text": "the main",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "In the last boat, which was embarking with the last of"
+      },
+      {
+        "text": "this people",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", (some six or eight perhaps in number) to convey them to"
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", which was to carry them from"
+      },
+      {
+        "text": "the home of their nativity",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "forever, was"
+      },
+      {
+        "text": "one of the tribe",
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": ", small in stature, not far advanced in years, and"
+      },
+      {
+        "text": "his dusky mate",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", then in the bloom of life."
+      },
+      {
+        "text": "The order had been given to shove from the shore; the oars had dipped in the wave,",
         "tropes": [
           9
         ]
       },
       {
-        "text": "She turned, to give the last lingering look to her departing help-mate; and then, gathering round her form her flowing mantle, wet by the ocean wave, in an instant disappeared forever from the sight of her astonished and sorrowing companions."
+        "text": "the boat",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was rising on the foaming surf, then breaking on the beach with awful roar, when, with the impulse of the moment as it were,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "this young and blooming bride of the red man",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the imprint of whose footstep had been the last left on the sands of",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her island home",
+        "tropes": [
+          9
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", waved an adieu to",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her chosen mate",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": ", plunged into the abyss, \"strove through the surge,\" and, in another moment, stood alone on the shores of",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her native land",
+        "tropes": [
+          9
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "She turned, to give the last lingering look to"
+      },
+      {
+        "text": "her departing help-mate",
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": "; and then, gathering round her form her flowing mantle, wet by the ocean wave, in an instant disappeared forever from the sight of her astonished and sorrowing companions."
       }
     ],
     [
       {
-        "text": "The vessel weighed anchor, spread her canvass [sic]; and, in forty eight hours, this remnant of the inhabitants of San Nicholas were landed on Point San Pedro, houseless and forlorn."
+        "text": "The vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "weighed anchor, spread her canvass [sic]; and, in forty eight hours,"
+      },
+      {
+        "text": "this remnant of the inhabitants of San Nicholas",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were landed on"
+      },
+      {
+        "text": "Point San Pedro",
+        "entity_key": "re_pointsp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", houseless and forlorn."
       }
     ],
     [
       {
-        "text": "From that period to the present—if she be not dead, or has not left within the past eighteen months—has resided alone, on the Isle of San Nicholas, this female Crusoe, the monarch of all she surveys.",
+        "text": "From that period to the present—if she be not dead, or has not left within the past eighteen months—has resided alone, on the",
         "tropes": [
           1,
           8
         ]
       },
       {
-        "text": "She preferred to part even with her chosen mate and sever every human tie that could be binding, rather than leave the home of her birth—that lonely little Isle, that had been to her a world, which she cared not to exchange for the abode of civilized man, with all its promised luxuries.",
+        "text": "Isle of San Nicholas",
+        "tropes": [
+          1,
+          8
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          1,
+          8
+        ]
+      },
+      {
+        "text": "this female Crusoe",
+        "tropes": [
+          1,
+          8
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the monarch of all she surveys.",
+        "tropes": [
+          1,
+          8
+        ]
+      },
+      {
+        "text": "She preferred to part even with",
+        "tropes": [
+          1,
+          3
+        ]
+      },
+      {
+        "text": "her chosen mate",
+        "tropes": [
+          1,
+          3
+        ],
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": "and sever every human tie that could be binding, rather than leave",
+        "tropes": [
+          1,
+          3
+        ]
+      },
+      {
+        "text": "the home of her birth",
+        "tropes": [
+          1,
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "—that lonely little Isle, that had been to her a world, which she cared not to exchange for the abode of civilized man, with all its promised luxuries.",
         "tropes": [
           1,
           3
@@ -60,7 +430,55 @@
     ],
     [
       {
-        "text": "Since our Crusoe became the sole monarch of the Isle, San Nicholas has been visited perhaps ten or twelve different times, by different individuals; but there she has continued to be found, with none to dispute her right—alone, solitary and forsaken.",
+        "text": "Since",
+        "tropes": [
+          8,
+          1
+        ]
+      },
+      {
+        "text": "our Crusoe",
+        "tropes": [
+          8,
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "became the sole monarch of",
+        "tropes": [
+          8,
+          1
+        ]
+      },
+      {
+        "text": "the Isle",
+        "tropes": [
+          8,
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          8,
+          1
+        ]
+      },
+      {
+        "text": "San Nicholas",
+        "tropes": [
+          8,
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "has been visited perhaps ten or twelve different times, by different individuals; but there she has continued to be found, with none to dispute her right—alone, solitary and forsaken.",
         "tropes": [
           8,
           1
@@ -69,7 +487,21 @@
     ],
     [
       {
-        "text": "Her dress, or covering, is composed of the skins of small birds, which she kills with stones, and sews them together with a kneedle of bone and the light sinews of the hair seal, sometimes found dead amongst the rocks. Her only food is a shell fish, of the muscle species, with now and then a still smaller fish, which the surf sometimes throws on to the beach. She never remains long in one spot; but is constantly wandering around the shores of the Island, sleeping, which she seldom does, in small caves and crevices in the rock.",
+        "text": "Her dress, or covering, is composed of the skins of small birds, which she kills with stones, and sews them together with a kneedle of bone and the light sinews of the hair seal, sometimes found dead amongst the rocks. Her only food is a shell fish, of the muscle species, with now and then a still smaller fish, which the surf sometimes throws on to the beach. She never remains long in one spot; but is constantly wandering around the shores of",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", sleeping, which she seldom does, in small caves and crevices in the rock.",
         "tropes": [
           1
         ]
@@ -93,7 +525,35 @@
     ],
     [
       {
-        "text": "Every endeavor has been made, and every inducement offered, by different individuals, to prevail upon her to leave the Island, but in vain. The only home she appears to desire, is her own little isle. Her last hope, if she has any, is, to finish her journey alone. She has no wish now, to hear again the sweet music of speech. Its sounds are no longer music to her ear—and, as for civilized man, his tameness is shocking even to her dormant senses.",
+        "text": "Every endeavor has been made, and every inducement offered, by different individuals, to prevail upon her to leave",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          14
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but in vain. The only home she appears to desire, is",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "her own little isle",
+        "tropes": [
+          14
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Her last hope, if she has any, is, to finish her journey alone. She has no wish now, to hear again the sweet music of speech. Its sounds are no longer music to her ear—and, as for civilized man, his tameness is shocking even to her dormant senses.",
         "tropes": [
           14
         ]
@@ -101,33 +561,172 @@
     ],
     [
       {
-        "text": "To all appearance, she is strong, healthy, and content to be alone. What can reconcile her to her lot, who can conjecture? Humanity may hope that contentment may continue to be hers, to the last hour; for she is destined to lie down and die alone, on the cold shore of her isolated home, with no one to administer to her last wants, and none to cover her cold body, when the spirit shall have left the clay."
+        "text": "To all appearance, she is strong, healthy, and content to be alone. What can reconcile her to her lot, who can conjecture? Humanity may hope that contentment may continue to be hers, to the last hour; for she is destined to lie down and die alone, on the cold shore of"
+      },
+      {
+        "text": "her isolated home",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", with no one to administer to her last wants, and none to cover her cold body, when the spirit shall have left the clay."
       }
     ],
     [
       {
-        "text": "But the story of our Crusoe's chosen mate, the companion of her early life, has yet to be told.",
+        "text": "But the story of",
         "tropes": [
           8
         ]
       },
       {
-        "text": "He saw her for the last time, as we have stated, when she stood alone on the shores of her own isle; when the boat with himself and his companions was dashing through the wild surf, that broke in uninterrupted succession against the rocks which encircled the resting place of his fathers, and which he was then leaving forever. With the remnant of the family from San Nicholas, our hero was landed at San Pedro, and there left, with the others who had accompanied him, to find a home in that land of strangers."
+        "text": "our Crusoe's chosen mate",
+        "tropes": [
+          8
+        ],
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the companion of her early life, has yet to be told.",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "He saw her for the last time, as we have stated, when she stood alone on the shores of"
+      },
+      {
+        "text": "her own isle",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "; when the boat with himself and his companions was dashing through the wild surf, that broke in uninterrupted succession against the rocks which encircled"
+      },
+      {
+        "text": "the resting place of his fathers",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and which he was then leaving forever. With the"
+      },
+      {
+        "text": "remnant of the family from San Nicholas",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "our hero",
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": "was landed at"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and there left, with the others who had accompanied him, to find a home in that land of strangers."
       }
     ],
     [
       {
-        "text": "San Pedro, it may be known, is a bleak, barren, bluff point, running out into the blue waters of the Pacific, on which no verdure is to be seen, and but one solitary abode of man, rising amid the desolation which surrounds it. The Pueblo de los Angelos is situated ten leagues distant, with one farm house between the one on the point and those of the town. The mission of San Gabriel lies yet farther on, some three or four leagues; where, at that time, might be found, perhaps three or four hundred converted Indians."
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", it may be known, is a bleak, barren, bluff point, running out into the blue waters of the Pacific, on which no verdure is to be seen, and but one solitary abode of man, rising amid the desolation which surrounds it. The"
+      },
+      {
+        "text": "Pueblo de los Angelos",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "is situated ten leagues distant, with one farm house between the one on the point and those of"
+      },
+      {
+        "text": "the town",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The"
+      },
+      {
+        "text": "mission of San Gabriel",
+        "entity_key": "mi_sg",
+        "entity_type": "place"
+      },
+      {
+        "text": "lies yet farther on, some three or four leagues; where, at that time, might be found, perhaps three or four hundred converted Indians."
       }
     ],
     [
       {
-        "text": "But our hero, as he may be called, never left the beach on which he was first landed. Alone and friendless, there he remained, an isolated being, till life ceased to animate his frame. True it is, that several times he was induced, and once or twice forced, to venture as far as the Pueblo, and even the mission of San Gabriel; but he always, as soon as at liberty, returned and resumed his old station on the beach, or fixed himself on the rocks which hung around the Point. And there he might always be seen, a solitary outcast, as it were, and more constantly when the sun was going down, with his eyes gazing on that celestial orb as it sank into the western horizon, a direction which he well knew pointed to the lost but never forgotten home of his nativity."
+        "text": "But"
+      },
+      {
+        "text": "our hero",
+        "entity_key": "lwhusband",
+        "entity_type": "person"
+      },
+      {
+        "text": ", as he may be called, never left the beach on which he was first landed. Alone and friendless, there he remained, an isolated being, till life ceased to animate his frame. True it is, that several times he was induced, and once or twice forced, to venture as far as"
+      },
+      {
+        "text": "the Pueblo",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and even the"
+      },
+      {
+        "text": "mission of San Gabriel",
+        "entity_key": "mi_sg",
+        "entity_type": "place"
+      },
+      {
+        "text": "; but he always, as soon as at liberty, returned and resumed his old station on the beach, or fixed himself on the rocks which hung around"
+      },
+      {
+        "text": "the Point",
+        "entity_key": "re_pointsp",
+        "entity_type": "place"
+      },
+      {
+        "text": ". And there he might always be seen, a solitary outcast, as it were, and more constantly when the sun was going down, with his eyes gazing on that celestial orb as it sank into the western horizon, a direction which he well knew pointed to"
+      },
+      {
+        "text": "the lost but never forgotten home of his nativity",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "With difficulty he sustained the wants of nature by fishing about the rocks, gathering muscles, and sometimes receiving a scanty pittance of corn from the house on the Point, or a few pence from a passing stranger."
+        "text": "With difficulty he sustained the wants of nature by fishing about the rocks, gathering muscles, and sometimes receiving a scanty pittance of corn from the house on"
+      },
+      {
+        "text": "the Point",
+        "entity_key": "re_pointsp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", or a few pence from a passing stranger."
       }
     ],
     [

@@ -3,18 +3,322 @@
   "paragraphs": [
     [
       {
-        "text": "We have already noticed the fact of the discovery of an extraordinary woman who was found living alone on the island of San Nicolas on the southern coast of California, about sixty miles from the country of Santa Barbara. Many interesting facts in connection with her history, have been brought to light and published, and we are again induced to allude to the subject by the exhibition which has been made us of her dress and the implements with which she was wont to occupy herself during her solitary banishment. According to the most authentic accounts and such as are believed to be reliable, San Nicolas, as well as the other islands, was once inhabited by Indians. Owing to a difficulty which occurred about the year 1824 or 1825, between some Russians who had visited the island and the natives, the male inhabitants were nearly all killed and the women carried away. About eighteen years ago, the last of those who were left, some seventeen in number, were taken off, with their own consent, by Mr. Hubbard, captain of a small schooner owned by Mr. Isaac Sparks of Santa Barbara and Mr. Gomez of Monterey. After the party had gotten on board, one of the squaws missed her child, and was permitted to go in search of it; but in a short time returned lamenting its disappearance and declaring that it had been devoured by the wild dogs which infested the island. In the midst of her lamentations she fell down and went to sleep on the beach, and a gale having sprung up, the the [sic] schooner was driven to sea and the woman left upon the shore. Three months after the schooner touched at the island in search of her, but no traces of her could be found, with the exception of her footprins in the sand. Nearly eighteen years have since elapsed, during which time she has been left to her lonely fate, supposed to be dead and her history almost forgotten."
+        "text": "We have already noticed the fact of the discovery of"
+      },
+      {
+        "text": "an extraordinary woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who was found living alone on the island of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "on the"
+      },
+      {
+        "text": "southern coast of California",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", about sixty miles from the country of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Many interesting facts in connection with her history, have been brought to light and published, and we are again induced to allude to the subject by the exhibition which has been made us of her dress and the implements with which she was wont to occupy herself during her solitary banishment. According to the most authentic accounts and such as are believed to be reliable,"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", as well as"
+      },
+      {
+        "text": "the other islands",
+        "entity_keys": [
+          "i_an",
+          "i_scl",
+          "i_sm",
+          "i_sb",
+          "i_scatalina",
+          "i_scruz",
+          "i_sr"
+        ],
+        "entity_type": "place"
+      },
+      {
+        "text": ", was once inhabited by"
+      },
+      {
+        "text": "Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". Owing to a difficulty which occurred about the year 1824 or 1825, between"
+      },
+      {
+        "text": "some Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who had visited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", the male inhabitants were nearly all killed and the women carried away. About eighteen years ago, the"
+      },
+      {
+        "text": "last of those who were left",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ", some seventeen in number, were taken off, with their own consent, by"
+      },
+      {
+        "text": "Mr. Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": ", captain of"
+      },
+      {
+        "text": "a small schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "owned by"
+      },
+      {
+        "text": "Mr. Isaac Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Mr. Gomez",
+        "entity_key": "jgo",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": ". After"
+      },
+      {
+        "text": "the party",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "had gotten on board,"
+      },
+      {
+        "text": "one of the squaws",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "missed"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and was permitted to go in search of it; but in a short time returned lamenting its disappearance and declaring that it had been devoured by the wild dogs which infested"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". In the midst of her lamentations she fell down and went to sleep on the beach, and a gale having sprung up, the"
+      },
+      {
+        "text": "the [sic] schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was driven to sea and"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "left upon the shore. Three months after"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "touched at"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in search of her, but no traces of her could be found, with the exception of her footprins in the sand. Nearly eighteen years have since elapsed, during which time she has been left to her lonely fate, supposed to be dead and her history almost forgotten."
       }
     ],
     [
       {
-        "text": "In the early part of September of the present year, Mr. Niedever of Santa Barbara, whilst engaged in otter hunting along the coast, touched at the island, and suddenly came upon this extraordinary woman, who was engaged in curing bird-skins, of which her garment was made, and who manifested no surprise or timidity at the appearance of a white man.",
+        "text": "In the early part of September of the present year,",
         "tropes": [
           4
         ]
       },
       {
-        "text": "Being of a gentle and confiding disposition, she was readily induced to leave the island.",
+        "text": "Mr. Niedever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          4
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", whilst engaged in otter hunting along",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", touched at",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and suddenly came upon",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "this extraordinary woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who was engaged in curing bird-skins, of which her garment was made, and who manifested no surprise or timidity at the appearance of a white man.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Being of a gentle and confiding disposition, she was readily induced to leave",
+        "tropes": [
+          4,
+          3
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4,
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           4,
           3
@@ -29,7 +333,21 @@
     ],
     [
       {
-        "text": "Another ingenious implement is her knife, which seems to have been manufactured out of a piece of hoop, sharpened and fastened in a rude wooden handle, by means of asphaltum and cord of sinews. Among the collection are two fishing hooks and lines—the former evidently manufactured out of nails, skillfully beat and sharpened, and the latter of dried sinews. Accompanying these are two pieces of cord, of different sizes, as neatly made of numerous strands of sinew as though the work had been performed by machinery. These articles were wrapped in the skin of one of the native animals of the island, from which we may infer that she occupied her time both in fishing and hunting.",
+        "text": "Another ingenious implement is her knife, which seems to have been manufactured out of a piece of hoop, sharpened and fastened in a rude wooden handle, by means of asphaltum and cord of sinews. Among the collection are two fishing hooks and lines—the former evidently manufactured out of nails, skillfully beat and sharpened, and the latter of dried sinews. Accompanying these are two pieces of cord, of different sizes, as neatly made of numerous strands of sinew as though the work had been performed by machinery. These articles were wrapped in the skin of one of the native animals of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", from which we may infer that she occupied her time both in fishing and hunting.",
         "tropes": [
           4
         ]
@@ -42,13 +360,43 @@
         ]
       },
       {
-        "text": "In this case the truth is as strange as the fiction. The food upon which she subsisted, at the time she was discovered, consisted of seal meat and roots. Her language was one peculiar to herself, bearing but a slight resemblance to any other known tongue. Upon her arrival in Santa Barbara, several of the Indians in that vicinity, acquainted with the dialects of the different tribes, were taken to her and attempted to open a conversation, but without avail. Their language and hers bore no resemblance to each other whatever. She was therefore unable to make any communications, except by signs.",
+        "text": "In this case the truth is as strange as the fiction. The food upon which she subsisted, at the time she was discovered, consisted of seal meat and roots. Her language was one peculiar to herself, bearing but a slight resemblance to any other known tongue. Upon her arrival in",
         "tropes": [
           4
         ]
       },
       {
-        "text": "Her age appeared to be upwards of sixty, and her manners as simple as those of a child. She was of medium stature, muscular in appearance, and well formed. Her eyes were large, and full; auburn hair, smooth and profuse; forehead low, broad, and intellectual; nose slightly aquiline and finely formed; mouth large, with a haughty, protruding lower lip, a[nd] a well set chin. Upon the whole, her appearance and mien were superior to those of the other Indians in the lower part of the State.",
+        "text": "Santa Barbara",
+        "tropes": [
+          4
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", several of the Indians in that vicinity, acquainted with the dialects of the different tribes, were taken to her and attempted to open a conversation, but without avail. Their language and hers bore no resemblance to each other whatever. She was therefore unable to make any communications, except by signs.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Her age appeared to be upwards of sixty, and her manners as simple as those of a child. She was of medium stature, muscular in appearance, and well formed. Her eyes were large, and full; auburn hair, smooth and profuse; forehead low, broad, and intellectual; nose slightly aquiline and finely formed; mouth large, with a haughty, protruding lower lip, a[nd] a well set chin. Upon the whole, her appearance and mien were superior to those of the other Indians in the lower part of",
+        "tropes": [
+          4,
+          3
+        ]
+      },
+      {
+        "text": "the State",
+        "tropes": [
+          4,
+          3
+        ],
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           4,
           3
@@ -57,10 +405,40 @@
     ],
     [
       {
-        "text": "In the family of Mr. George Niedever, she lived very contentedly, and apparently gratified with the change; she was evidently much pleased by the novel sights which were presented to her, in horses and other large animals. She ate freely of many things which were given to her, and seemed particularly fond of shell-fish, coffee, liquor, and fruits, but her system was unu[s]ed to such a diet, and after too free an indulgence she sickened and died on the 18th of October."
+        "text": "In"
       },
       {
-        "text": "She was undoubtedly the last of her race.",
+        "text": "the family of Mr. George Niedever",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", she lived very contentedly, and apparently gratified with the change; she was evidently much pleased by the novel sights which were presented to her, in horses and other large animals. She ate freely of many things which were given to her, and seemed particularly fond of shell-fish, coffee, liquor, and fruits, but her system was unu[s]ed to such a diet, and after too free an indulgence she sickened and died on the 18th of October."
+      },
+      {
+        "text": "She was undoubtedly the last of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -68,7 +446,95 @@
     ],
     [
       {
-        "text": "During the brief period she remained in the family of Mr. Niedever, this extraordinary woman, whose intelligence was most wonderful, had acquired a considerable facility in speaking Spanish, and had committed to memory the Lord's Prayer, and seemed to comprehend the idea of the omnipotent Being. Previous to her dissolution, she was baptized according to the rites of the Catholic Church, by Father Sanchez, of the Franciscan Order, and yielded up her last breath with apparent resignation. Had her life been extended a few months longer, there is no doubt she would have been enabled to tell her own wonderful story, as well as the history of her lost child; but as it is, all is now buried in oblivion. The curious articles which we have endeavored to describe, were forward[e]d to this city at the request of the ladies connected with the Catholic Church, and will be exhibited at the Fair which they design to open on Tuesday next, at the Musical Hall on Bush street, for the purpose of aiding in the commendable work of raising funds for the erection of St. Mary's Church. They will probably be sold or raffled for during the continuance of the Fair, and if so, would prove a rich contribution to a State museum."
+        "text": "During the brief period she remained in"
+      },
+      {
+        "text": "the family of Mr. Niedever",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "this extraordinary woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", whose intelligence was most wonderful, had acquired a considerable facility in speaking Spanish, and had committed to memory the Lord's Prayer, and seemed to comprehend the idea of the omnipotent Being. Previous to her dissolution, she was baptized according to the rites of the"
+      },
+      {
+        "text": "Catholic Church",
+        "entity_key": "ch_catholic",
+        "entity_type": "org"
+      },
+      {
+        "text": ", by"
+      },
+      {
+        "text": "Father Sanchez",
+        "entity_key": "sanchez",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of the Franciscan Order, and yielded up her last breath with apparent resignation. Had her life been extended a few months longer, there is no doubt she would have been enabled to tell her own wonderful story, as well as the history of"
+      },
+      {
+        "text": "her lost child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "; but as it is, all is now buried in oblivion. The curious articles which we have endeavored to describe, were forward[e]d to"
+      },
+      {
+        "text": "this city",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "at the request of the ladies connected with the"
+      },
+      {
+        "text": "Catholic Church",
+        "entity_key": "ch_catholic",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and will be exhibited at the Fair which they design to open on Tuesday next, at the"
+      },
+      {
+        "text": "Musical Hall",
+        "entity_key": "musicalhall",
+        "entity_type": "place"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "Bush street",
+        "entity_key": "bushst",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for the purpose of aiding in the commendable work of raising funds for the erection of"
+      },
+      {
+        "text": "St. Mary's Church.",
+        "entity_key": "stmarys",
+        "entity_type": "place"
+      },
+      {
+        "text": "They will probably be sold or raffled for during the continuance of the Fair, and if so, would prove a rich contribution to a State museum."
       }
     ]
   ]

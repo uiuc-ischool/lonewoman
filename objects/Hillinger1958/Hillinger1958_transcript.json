@@ -3,20 +3,103 @@
   "paragraphs": [
     [
       {
-        "text": "Screeching missiles scorch offshore skies in daily tests from Point Mugu on the mainland south of Ventura to barren, windswept San Nicolas, outermost of the Channel Islands."
-      }
-    ],
-    [
-      {
-        "text": "San Nicolas is also the pinniped capital of the United States, the home of some of nature's most amazing and amusing sea creatures."
-      }
-    ],
-    [
-      {
-        "text": "It's a 9-mile long, 3 1/2-mile wide mountain of sand, 76 miles out to sea from Los Angeles Harbor, that boasts a fascinating history highlighted by the tale of Juana Maria, one of the most astounding true stor[i]es of one person's fight for survival ever recorded in the annals of time."
+        "text": "Screeching missiles scorch offshore skies in daily tests from"
       },
       {
-        "text": "The saga of this mysterious woman brought the curtain down on the centuries-old Channel Island Indian culture that thrived through five distinct civilizations.",
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "south of"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "to barren, windswept"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", outermost of the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is also the pinniped capital of the"
+      },
+      {
+        "text": "United States",
+        "entity_key": "co_usa",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the home of some of nature's most amazing and amusing sea creatures."
+      }
+    ],
+    [
+      {
+        "text": "It's a 9-mile long, 3 1/2-mile wide mountain of sand, 76 miles out to sea from"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "Harbor, that boasts a fascinating history highlighted by the tale of"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", one of the most astounding true stor[i]es of one person's fight for survival ever recorded in the annals of time."
+      },
+      {
+        "text": "The saga of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "this mysterious woman",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "brought the curtain down on the centuries-old Channel Island Indian culture that thrived through five distinct civilizations.",
         "tropes": [
           6
         ]
@@ -24,44 +107,359 @@
     ],
     [
       {
-        "text": "San Nicolas is a bird Island, populated by thousands of ravens, cormorants, sea gulls, blue herons, bald eagles, canaries, larks and robins. It's also a rocket base for solar studies by International Geophysical Year scientists."
-      }
-    ],
-    [
-      {
-        "text": "Discovered by Cabrillo, the Island was named by Vizcaino in honor of St. Nicolas, the saint's day celebrated December 6, 1602, when the Spanish explorer's ship sailed by the Island."
-      }
-    ],
-    [
-      {
-        "text": "Some 68 prehistoric Indian village sites have been identified on San Nicolas by UCLA anthropologists Clement Meighan and Hal Eberhart who estimate that well over 1,000 Indians lived on the Island at its peak population period."
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "These aborigines, a more peaceful people than those who dwelled on the mainland or other Channel Islands, as evidenced by the scarcity of arrowheads unearthed, existed on a seafood and bird economy, deriving their food supply from abalone, fish, sea lions, sea elephants and birds.",
+        "text": "is a bird Island, populated by thousands of ravens, cormorants, sea gulls, blue herons, bald eagles, canaries, larks and robins. It's also a rocket base for solar studies by International Geophysical Year scientists."
+      }
+    ],
+    [
+      {
+        "text": "Discovered by"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the"
+      },
+      {
+        "text": "Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was named by"
+      },
+      {
+        "text": "Vizcaino",
+        "entity_key": "svi",
+        "entity_type": "person"
+      },
+      {
+        "text": "in honor of"
+      },
+      {
+        "text": "St. Nicolas",
+        "entity_key": "stnic",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the saint's day celebrated December 6, 1602, when the Spanish explorer's ship sailed by"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Some 68 prehistoric Indian village sites have been identified on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by UCLA anthropologists"
+      },
+      {
+        "text": "Clement Meighan",
+        "entity_key": "cme",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Hal Eberhart",
+        "entity_key": "heb",
+        "entity_type": "person"
+      },
+      {
+        "text": "who estimate that well over 1,000 Indians lived on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "at its peak population period."
+      },
+      {
+        "text": "These aborigines",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", a more peaceful people than those who dwelled on",
         "tropes": [
           3
         ]
       },
       {
-        "text": "The Island apparently never supported a great deal of plant life in the time of man's existence on it."
-      }
-    ],
-    [
-      {
-        "text": "Plundered by early 19th century otter hunters, by 1835 but a score of Indians was left on San Nicolas. That year Franciscan Mission fathers decided to remove the last of the San Nicolas Indians to the mainland. The schooner Peor es Nada was chartered to bring the aborigines to San Pedro."
-      }
-    ],
-    [
-      {
-        "text": "Charles Hubbard, captain of the small vessel, and his crew went to the Island, conveying word to the Indians there that they no longer need be subjected to the cruel forays by otter hunters. They were told by Captain Hubbard that they would be taken to the mainland where there was plenty to eat and life was much better."
-      }
-    ],
-    [
-      {
-        "text": "As the Indians piled their frugal belongings into the Peor es Nada, Captain Hubbard made haste to leave. A sudden gale churned up the sea and threatened to hurl the boat against the Island's rocky shores."
+        "text": "the mainland",
+        "tropes": [
+          3
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
       },
       {
-        "text": "One of the Indian women discovered that her child had not been brought aboard the schooner as she had expected and cried out that she had to go back for her baby. She leaped into the water and swam ashore.",
+        "text": "or other",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Channel Islands",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", as evidenced by the scarcity of arrowheads unearthed, existed on a seafood and bird economy, deriving their food supply from abalone, fish, sea lions, sea elephants and birds.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "The Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "apparently never supported a great deal of plant life in the time of man's existence on it."
+      }
+    ],
+    [
+      {
+        "text": "Plundered by early 19th century otter hunters, by 1835 but"
+      },
+      {
+        "text": "a score of Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "was left on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". That year"
+      },
+      {
+        "text": "Franciscan Mission fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "decided to remove the last of the"
+      },
+      {
+        "text": "San Nicolas Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The schooner"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was chartered to bring the aborigines to"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Charles Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": ", captain of"
+      },
+      {
+        "text": "the small vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "his crew",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "went to"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", conveying word to"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "there that they no longer need be subjected to the cruel forays by otter hunters. They were told by"
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "that they would be taken to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "where there was plenty to eat and life was much better."
+      }
+    ],
+    [
+      {
+        "text": "As"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "piled their frugal belongings into the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "made haste to leave. A sudden gale churned up the sea and threatened to hurl the boat against the Island's rocky shores."
+      },
+      {
+        "text": "One of the Indian women",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered that",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had not been brought aboard",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the schooner",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "as she had expected and cried out that she had to go back for",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her baby",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She leaped into the water and swam ashore.",
         "tropes": [
           9
         ]
@@ -69,60 +467,521 @@
     ],
     [
       {
-        "text": "It was impossible for Captain Hubbard to wait any longer. The Peor es Nada set sail across the choppy channel leaving the Indian woman and her child alone on the isolated Island."
-      }
-    ],
-    [
-      {
-        "text": "At Los Angeles Harbor, the last of the San Nicolas Indians were met by Franciscans who set about to assimilate them with the other Indians at the San Gabriel Mission."
-      }
-    ],
-    [
-      {
-        "text": "Captain Hubbard explained the unfortunate experience on the Island. He could not return immediately as he had a commitment to transport a group of otter hunters led by George Nidever to Santa Rosa Island and then continue on up the coast to San Francisco. Captain Hubbard expressed the hope of returning to San Nicolas for the Indian woman. But neither he nor the Peor es Nada ever had the opportunity. Less than a month later the boat with Captain Hubbard aboard sank in San Francisco Bay."
-      }
-    ],
-    [
-      {
-        "text": "Nor did anyone else return for the abandoned Indian woman on the lonely desolate Pacific isle. That is, not for 15 years."
-      }
-    ],
-    [
-      {
-        "text": "Through the long interval the story was often told, but few believed the woman or her child survived for long. San Nicolas at the time was overrun with packs of vicious wild dogs, descendants of animals loved by the Indian woman's forefathers. It was difficult enough for the small band of the Island's last Indian community to ward off the wild animals, but a young woman alone—impossible, thought those on the mainland who knew the story."
-      }
-    ],
-    [
-      {
-        "text": "At least that was the general feeling about the matter until 1850 when Thomas Jeffries and George Nidever with a crew of Indians sailed to the distant Island in a small boat. They went there to hunt otter and to find, if at all possible, the remains of the Indian woman."
-      }
-    ],
-    [
-      {
-        "text": "For six weeks they stripped otter and seal of hides, salted the skins and stowed them in the boat."
-      }
-    ],
-    [
-      {
-        "text": "Then one night an Indian who had been on a hike around the Island returned to the Island camp flushed with excitement. He told of seeing a figure running in the distance. He said he tried to catch up with the Island phantom, but failed. Truly, it did not seem possible. Could it be the lost woman?"
-      }
-    ],
-    [
-      {
-        "text": "Several trips and three years later—on another otter hunting excursion to the Island—Nidever and his companion, Carl Detman, ever on the alert now for the possibility that the Indian had actually seen the lost woman of San Nicolas, spotted a basket containing a robe sewed of birds' plumage. Now they were convinced. Incredible as it seemed, they knew the Indian woman who swam back to the Island 18 years earlier to find her misplaced child was still there and very much alive."
-      }
-    ],
-    [
-      {
-        "text": "Nidever abandoned his hunt for otter. He ordered his men to join him in searching the Island, canyon by canyon, cave by cave, never quitting until the mysterious woman was found."
-      }
-    ],
-    [
-      {
-        "text": "It was Detman who made the discovery a few days later. He traced her footprints to a grass shelter on one of the Island peaks."
+        "text": "It was impossible for"
       },
       {
-        "text": "She was seated in her hideaway, observing members of Nidever's party searching the beach below for her. A pack of dogs, trained to answer the wild woman's instant command, was at her side. Two pet ravens were also in the roofless enclosure.",
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "to wait any longer. The"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "set sail across the choppy channel leaving"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "alone on"
+      },
+      {
+        "text": "the isolated Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "At"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "Harbor, the last of the"
+      },
+      {
+        "text": "San Nicolas Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were met by"
+      },
+      {
+        "text": "Franciscans",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who set about to assimilate them with the other Indians at the"
+      },
+      {
+        "text": "San Gabriel Mission",
+        "entity_key": "mi_sgabriel",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "explained the unfortunate experience on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He could not return immediately as he had a commitment to transport a group of otter hunters led by"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Santa Rosa Island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "and then continue on up"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "expressed the hope of returning to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "for"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". But neither he nor the"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "ever had the opportunity. Less than a month later"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "with"
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "aboard sank in"
+      },
+      {
+        "text": "San Francisco Bay",
+        "entity_key": "re_sfbay",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Nor did anyone else return for"
+      },
+      {
+        "text": "the abandoned Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the lonely desolate Pacific isle",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". That is, not for 15 years."
+      }
+    ],
+    [
+      {
+        "text": "Through the long interval the story was often told, but few believed"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "or"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "survived for long."
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "at the time was overrun with packs of vicious wild dogs, descendants of animals loved by"
+      },
+      {
+        "text": "the Indian woman's forefathers",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". It was difficult enough for"
+      },
+      {
+        "text": "the small band of the Island's last Indian community",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "to ward off the wild animals, but"
+      },
+      {
+        "text": "a young woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "alone—impossible, thought those on"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "who knew the story."
+      }
+    ],
+    [
+      {
+        "text": "At least that was the general feeling about the matter until 1850 when"
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "with"
+      },
+      {
+        "text": "a crew of Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "person"
+      },
+      {
+        "text": "sailed to"
+      },
+      {
+        "text": "the distant Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in"
+      },
+      {
+        "text": "a small boat",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". They went there to hunt otter and to find, if at all possible, the remains of"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "For six weeks they stripped otter and seal of hides, salted the skins and stowed them in"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Then one night"
+      },
+      {
+        "text": "an Indian",
+        "entity_key": "sailor1",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had been on a hike around"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "returned to the Island camp flushed with excitement. He told of seeing a figure running in the distance. He said he tried to catch up with the Island phantom, but failed. Truly, it did not seem possible. Could it be"
+      },
+      {
+        "text": "the lost woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "?"
+      }
+    ],
+    [
+      {
+        "text": "Several trips and three years later—on another otter hunting excursion to"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "—"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and his companion,"
+      },
+      {
+        "text": "Carl Detman",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", ever on the alert now for the possibility that"
+      },
+      {
+        "text": "the Indian",
+        "entity_key": "sailor1",
+        "entity_type": "person"
+      },
+      {
+        "text": "had actually seen"
+      },
+      {
+        "text": "the lost woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", spotted a basket containing a robe sewed of birds' plumage. Now they were convinced. Incredible as it seemed, they knew"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who swam back to the"
+      },
+      {
+        "text": "Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "18 years earlier to find"
+      },
+      {
+        "text": "her misplaced child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was still there and very much alive."
+      }
+    ],
+    [
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "abandoned his hunt for otter. He ordered"
+      },
+      {
+        "text": "his men",
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to join him in searching"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", canyon by canyon, cave by cave, never quitting until"
+      },
+      {
+        "text": "the mysterious woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was found."
+      }
+    ],
+    [
+      {
+        "text": "It was"
+      },
+      {
+        "text": "Detman",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "who made the discovery a few days later. He traced her footprints to a grass shelter on one of the Island peaks."
+      },
+      {
+        "text": "She was seated in her hideaway, observing members of",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Nidever's party",
+        "tropes": [
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "searching the beach below for her. A pack of dogs, trained to answer the wild woman's instant command, was at her side. Two pet ravens were also in the roofless enclosure.",
         "tropes": [
           1
         ]
@@ -130,7 +989,35 @@
     ],
     [
       {
-        "text": "Surprised by Detman, she accepted his presence calmly, ordering the dogs away. Despite the fact that Detman was the first person she faced in 18 long difficult years, she did not become alarmed.",
+        "text": "Surprised by",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", she accepted his presence calmly, ordering the dogs away. Despite the fact that",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "was the first person she faced in 18 long difficult years, she did not become alarmed.",
         "tropes": [
           1
         ]
@@ -138,7 +1025,43 @@
     ],
     [
       {
-        "text": "The woman was dressed in cormorant feathers, a garment identical to the one found earlier by Detman and Nidever. She was in excellent physical condition. There was a large supply of food in her grass hut.",
+        "text": "The woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was dressed in cormorant feathers, a garment identical to the one found earlier by",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She was in excellent physical condition. There was a large supply of food in her grass hut.",
         "tropes": [
           1
         ]
@@ -146,7 +1069,142 @@
     ],
     [
       {
-        "text": "When Detman summoned Nidever and the entire party confronted the woman, she told them the story of her 18-year existence on the Island, not by word of mouth, for none could understand her dialect. But through sign language, she explained how she hid when boats came to San Nicolas on rare occasions. Her child was found dead when she swam to the Island the day the Peor es Nada left without her.",
+        "text": "When",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Detman",
+        "tropes": [
+          10
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "summoned",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Nidever",
+        "tropes": [
+          10
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the entire party",
+        "tropes": [
+          10
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "confronted",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", she told them the story of her 18-year existence on",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", not by word of mouth, for none could understand her dialect. But through sign language, she explained how she hid when boats came to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "on rare occasions.",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was found dead when she swam to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "the day the",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Peor es Nada",
+        "tropes": [
+          10
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "left without her.",
         "tropes": [
           10
         ]
@@ -154,7 +1212,21 @@
     ],
     [
       {
-        "text": "She knew every inch of the Island, had walked its length and breadth through the years with her dogs ever at her side. She never wanted for food, living off birds, fish, abalone and seals' blubber. Water was easy to obtain from the many existing springs. Her life was lonely. But in time she came to accept it and fled in fear from every visitor.",
+        "text": "She knew every inch of",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", had walked its length and breadth through the years with her dogs ever at her side. She never wanted for food, living off birds, fish, abalone and seals' blubber. Water was easy to obtain from the many existing springs. Her life was lonely. But in time she came to accept it and fled in fear from every visitor.",
         "tropes": [
           10
         ]
@@ -162,10 +1234,64 @@
     ],
     [
       {
-        "text": "When Nidever returned to the mainland he brought the Indian woman to his Santa Barbara home where his wife cared for her. The story of her discovery spread afar."
+        "text": "When"
       },
       {
-        "text": "The curious came from miles to see the strange wild woman, who, in reality, was a quiet, shy person amazingly attractive despite her unique ordeal.",
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "he brought"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "his Santa Barbara home",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": "where"
+      },
+      {
+        "text": "his wife",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "cared for her. The story of her discovery spread afar."
+      },
+      {
+        "text": "The curious came from miles to see",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "the strange wild woman",
+        "tropes": [
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who, in reality, was a quiet, shy person amazingly attractive despite her unique ordeal.",
         "tropes": [
           14
         ]
@@ -173,18 +1299,86 @@
     ],
     [
       {
-        "text": "Mission padres searched without success for one of the Indians taken from the Island in 1835. But no one could be found who spoke the woman's language."
+        "text": "Mission padres",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "searched without success for one of"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "taken from"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1835. But no one could be found who spoke the woman's language."
       }
     ],
     [
       {
-        "text": "Civilization proved to be a greater challenge than life alone on San Nicolas. Despite her new diet of proper food, or perhaps because of it, she failed rapidly. In a short time she became too weak to walk. Within three months of her discovery, the last of the Channel Island Indians died.",
+        "text": "Civilization proved to be a greater challenge than life alone on",
         "tropes": [
           3
         ]
       },
       {
-        "text": "With her also died the great culture of the Islands that had thrived for centuries.",
+        "text": "San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Despite her new diet of proper food, or perhaps because of it, she failed rapidly. In a short time she became too weak to walk. Within three months of her discovery, the last of the",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Channel Island Indians",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "died.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "With her also died the great culture of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "that had thrived for centuries.",
         "tropes": [
           6
         ]
@@ -192,92 +1386,619 @@
     ],
     [
       {
-        "text": "On her death bed one of the priests from the Santa Barbara Mission baptized her, giving her the name Juana Maria. Her robe of cormorant feathers was sent to the Pope in Rome, where it now rests in the Vatican Museum."
+        "text": "On her death bed one of the priests from the"
+      },
+      {
+        "text": "Santa Barbara Mission",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "baptized her, giving her the name Juana Maria. Her robe of cormorant feathers was sent to"
+      },
+      {
+        "text": "the Pope in Rome",
+        "entity_key": "pop",
+        "entity_type": "person"
+      },
+      {
+        "text": ", where it now rests in the"
+      },
+      {
+        "text": "Vatican Museum",
+        "entity_key": "mu_vaticanmuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "She was buried in the Mission graveyard, where a plaque erected to her memory in 1928 reads:"
+        "text": "She was buried in the"
+      },
+      {
+        "text": "Mission graveyard",
+        "entity_key": "sbmissioncemetary",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where a plaque erected to her memory in 1928 reads:"
       }
     ],
     [
       {
-        "text": "Juana Maria Indian Woman Abandoned on San Nicolas Island eighteen years Found and brought to Santa Barbara by Captain George Nidever in 1853 Santa Barbara Chapter Daughters of the American Revolution 1928"
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "Indian Woman Abandoned on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "eighteen years Found and brought to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "Captain George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1853"
+      },
+      {
+        "text": "Santa Barbara Chapter",
+        "entity_key": "dar_sb",
+        "entity_type": "org"
+      },
+      {
+        "text": "Daughters of the",
+        "entity_key": "daughters",
+        "entity_type": "org"
+      },
+      {
+        "text": "American Revolution",
+        "entity_key": "daughters",
+        "entity_type": "org"
+      },
+      {
+        "text": "1928"
       }
     ],
     [
       {
-        "text": "Archeologist Arthur R. Sanger of Los Angeles believes he has the skeleton of the Indian woman's child. Sanger has searched the Channel Islands for 30 years collecting Indian artifacts for the Museum of the American Indian, New York, and the Los Angeles County Museum."
+        "text": "Archeologist"
+      },
+      {
+        "text": "Arthur R. Sanger",
+        "entity_key": "asa",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "believes he has the skeleton of the"
+      },
+      {
+        "text": "Indian woman's child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Sanger",
+        "entity_key": "asa",
+        "entity_type": "person"
+      },
+      {
+        "text": "has searched the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "for 30 years collecting Indian artifacts for the"
+      },
+      {
+        "text": "Museum of the American Indian",
+        "entity_key": "mu_americanindian",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "New York",
+        "entity_key": "ci_nyc",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and the"
+      },
+      {
+        "text": "Los Angeles County Museum",
+        "entity_key": "mu_lacountymuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "He is convinced his skeleton, one of thousands of Indian relics he has collected and catalogued from the Islands, is that of Juana Maria's infant."
+        "text": "He is convinced his skeleton, one of thousands of Indian relics he has collected and catalogued from"
+      },
+      {
+        "text": "the Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", is that of"
+      },
+      {
+        "text": "Juana Maria's infant",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "One reason for his conviction is that the skeleton was buried deeper than most on the Island, which is being blown to sea by cyclone-like storms that buffet San Nicolas continuously. Another item that supports his belief is that beads buried with the child were imported there in the 19th century. Sanger's Indian collection includes many skeletons, and novel whale and sea turtle effigies, apparently used by the Indians as good luck pieces."
+        "text": "One reason for his conviction is that the skeleton was buried deeper than most on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which is being blown to sea by cyclone-like storms that buffet"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "continuously. Another item that supports his belief is that beads buried with"
+      },
+      {
+        "text": "the child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were imported there in the 19th century. Sanger's Indian collection includes many skeletons, and novel whale and sea turtle effigies, apparently used by the Indians as good luck pieces."
       }
     ],
     [
       {
-        "text": "Four years after Juana Maria was removed from San Nicolas, Captain Martin Kimberly introduced sheep to the already badly eroded Island. He and a continual succession ofIsland lessees sowed salt grass on the sandy terrain to provide nourishment for the thousands of sheep that roamed its hills and canyons for 84 years."
+        "text": "Four years after"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was removed from"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Captain Martin Kimberly",
+        "entity_key": "mkim",
+        "entity_type": "person"
+      },
+      {
+        "text": "introduced sheep to the already badly eroded"
+      },
+      {
+        "text": "Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He and a continual succession ofIsland lessees sowed salt grass on the sandy terrain to provide nourishment for the thousands of sheep that roamed its hills and canyons for 84 years."
       }
     ],
     [
       {
-        "text": "Others who ran sheep on San Nicolas included William Howland, the Vail brothers, L. P. Elliott and Roy Agee. The latter ended this phase of Island activity in 1941 with the activation of San Nicolas during World War II, first as an Army base and later as a Navy station."
+        "text": "Others who ran sheep on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "included"
+      },
+      {
+        "text": "William Howland",
+        "entity_key": "howland",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the"
+      },
+      {
+        "text": "Vail brothers",
+        "entity_keys": [
+          "eva",
+          "wvail"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "L. P. Elliott",
+        "entity_key": "lyell",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Roy Agee",
+        "entity_key": "ragee",
+        "entity_type": "person"
+      },
+      {
+        "text": ". The latter ended this phase of Island activity in 1941 with the activation of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "during World War II, first as an Army base and later as a Navy station."
       }
     ],
     [
       {
-        "text": "During the thirties the Navy maintained a weather station there. Total population of San Nicolas then was 15, including Navy and sheep ranch personnel."
+        "text": "During the thirties the"
+      },
+      {
+        "text": "Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "maintained a weather station there. Total population of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "then was 15, including"
+      },
+      {
+        "text": "Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "and sheep ranch personnel."
       }
     ],
     [
       {
-        "text": "Miss Alma R. McLain was employed on the Island as a school teacher for a time. Her student body consisted of Frances Agee and John Scrimiger. San Nicolas Elementary School was known as the smallest school in the country boasting a full time, fully accredited school teacher."
+        "text": "Miss Alma R. McLain",
+        "entity_key": "armclain",
+        "entity_type": "person"
+      },
+      {
+        "text": "was employed on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "as a school teacher for a time. Her student body consisted of"
+      },
+      {
+        "text": "Frances Agee",
+        "entity_key": "fragee",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "John Scrimiger",
+        "entity_key": "jscri",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "San Nicolas Elementary School",
+        "entity_key": "snelem",
+        "entity_type": "place"
+      },
+      {
+        "text": "was known as the smallest school in"
+      },
+      {
+        "text": "the country",
+        "entity_key": "co_usa",
+        "entity_type": "place"
+      },
+      {
+        "text": "boasting a full time, fully accredited school teacher."
       }
     ],
     [
       {
-        "text": "Since 1945 San Nicolas has served as one of the nation's most important guided missile proving grounds. In fact, Point Mugu, the Navy's giant Naval Air Missile Test Center on the California coast south of Ventura, was established solely because of the presence of San Nicolas Island 70 miles to the southwest."
+        "text": "Since 1945"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "has served as one of the nation's most important guided missile proving grounds. In fact,"
+      },
+      {
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the Navy's giant"
+      },
+      {
+        "text": "Naval Air Missile Test Center",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "on the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "south of"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was established solely because of the presence of"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "70 miles to the southwest."
       }
     ],
     [
       {
-        "text": "In the past 10 years a $5,000,000 labyrinth of electronic networks has been scattered about the sand-encrusted Island hills of San Nicolas. Theodolite, telemeter and radar towers speckle Island peaks, knolls and sand-swept mesas."
+        "text": "In the past 10 years a $5,000,000 labyrinth of electronic networks has been scattered about the sand-encrusted Island hills of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Theodolite, telemeter and radar towers speckle Island peaks, knolls and sand-swept mesas."
       }
     ],
     [
       {
-        "text": "The sea between San Nicolas and Point Mugu provides missile scientists with a perfect testing range. Instruments at Point Mugu, Laguna Peak behind the Ventura County Navy station, at the Santa Cruz Island facility and at San Nicolas record data which enable scientists and engineers to evaluate operations of the various missiles in flight."
+        "text": "The sea between"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "provides missile scientists with a perfect testing range. Instruments at"
+      },
+      {
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Laguna Peak",
+        "entity_key": "re_lagpeak",
+        "entity_type": "place"
+      },
+      {
+        "text": "behind the"
+      },
+      {
+        "text": "Ventura County Navy station",
+        "entity_key": "vcnavy",
+        "entity_type": "place"
+      },
+      {
+        "text": ", at the Santa Cruz Island facility and at"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "record data which enable scientists and engineers to evaluate operations of the various missiles in flight."
       }
     ],
     [
       {
-        "text": "Some missiles are fired into the sea between San Nicolas and the mainland or beyond the Island. Others such as the Regulus are actually put through their paces, guided to and landed on the San Nicolas airstrip and then shipped back by boat to Point Mugu for future test flights."
+        "text": "Some missiles are fired into the sea between"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "or beyond"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Others such as the Regulus are actually put through their paces, guided to and landed on the San Nicolas airstrip and then shipped back by boat to"
+      },
+      {
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "for future test flights."
       }
     ],
     [
       {
-        "text": "From the moment a guided missile is placed into its launcher until it is landed, destroyed or dragged dripping from the Pacific, it is the subject of at least one and often as many as 40 cameras. These photographs provide scientists with proof positive why the weapon did or did not react as anticipated."
+        "text": "From the moment a guided missile is placed into its launcher until it is landed, destroyed or dragged dripping from"
+      },
+      {
+        "text": "the Pacific",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": ", it is the subject of at least one and often as many as 40 cameras. These photographs provide scientists with proof positive why the weapon did or did not react as anticipated."
       }
     ],
     [
       {
-        "text": "The 250 Navy and civilian technicians stationed on bleak San Nicolas are all vitally involved in the study and development of guided missiles."
+        "text": "The 250 Navy and civilian technicians stationed on bleak"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "are all vitally involved in the study and development of guided missiles."
       }
     ],
     [
       {
-        "text": "\"Welcome to the poor man's Catalina,\" declared the officer in charge of the San Nicolas Station, as we disembarked from one of the two Navy four-engine Douglas DC4s that make daily runs between Point Mugu and San Nicolas."
+        "text": "\"Welcome to"
+      },
+      {
+        "text": "the poor man's Catalina",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ",\" declared the officer in charge of the"
+      },
+      {
+        "text": "San Nicolas Station",
+        "entity_key": "snnavy",
+        "entity_type": "place"
+      },
+      {
+        "text": ", as we disembarked from one of the two Navy four-engine Douglas DC4s that make daily runs between"
+      },
+      {
+        "text": "Point Mugu",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Swarms of sea gulls and raucous ravens soared above and about the Island operations tower, which also serves as administrative headquarters for the San Nicolas Island base."
+        "text": "Swarms of sea gulls and raucous ravens soared above and about"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "operations tower, which also serves as administrative headquarters for the San Nicolas Island base."
       }
     ],
     [
@@ -302,7 +2023,31 @@
     ],
     [
       {
-        "text": "There are thousands of the big, black birds on the Island, descendants of the same birds considered sacred by San Nicolas Indians. Ravens exist on mice that also thrive on the Island."
+        "text": "There are thousands of the big, black birds on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", descendants of the same birds considered sacred by"
+      },
+      {
+        "text": "San Nicolas Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". Ravens exist on mice that also thrive on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
@@ -312,32 +2057,120 @@
     ],
     [
       {
-        "text": "After being assigned quarters in one of the Island's concrete barracks, we rejoined the operations officer at Operations on the 502-foot airstrip. San Nicolas, ringed by cliffs averaging 500 feet in height, rises to a peak elevation of 890 feet."
+        "text": "After being assigned quarters in one of the Island's concrete barracks, we rejoined the operations officer at Operations on the 502-foot airstrip."
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", ringed by cliffs averaging 500 feet in height, rises to a peak elevation of 890 feet."
       }
     ],
     [
       {
-        "text": "We climbed aboard a powerful wagon for a trip to Lands End, an amazing stretch of sculptured rocks that extends to a needle-nose point into the sea. Here, abalone and lobster abound. Station personnel need not be skin divers to pry pink, blue and black abalone by the hundreds off weird shaped, eroded, sponge-like rocks during low tide. All that is necessary is to walk out on the rocks and pull them off. You don't even get your feet wet ..."
+        "text": "We climbed aboard a powerful wagon for a trip to"
+      },
+      {
+        "text": "Lands End",
+        "entity_key": "re_landsend",
+        "entity_type": "place"
+      },
+      {
+        "text": ", an amazing stretch of sculptured rocks that extends to a needle-nose point into the sea. Here, abalone and lobster abound. Station personnel need not be skin divers to pry pink, blue and black abalone by the hundreds off weird shaped, eroded, sponge-like rocks during low tide. All that is necessary is to walk out on the rocks and pull them off. You don't even get your feet wet ..."
       }
     ],
     [
       {
-        "text": "At night San Nicolas missile men drive to Lands End and catch lobster with bare hands. It's a great Island sport. Saucer-like pockets of clear water nestled in rocks at Lands End were filled with gorgeous ocean life—deep purple sea grass, sea urchins, brown sea moss, sea lettuce, black snails, hermit crabs and sea anemones of various sizes and colors. A 15-foot, jet black whale, victim of a vicious sea battle, washed ashore a day or two before our arrival, lay on a nearby sand spit. The operations officer checked his lobster traps and shouted with glee as he removed a half dozen tempting red snappers."
+        "text": "At night San Nicolas missile men drive to"
+      },
+      {
+        "text": "Lands End",
+        "entity_key": "re_landsend",
+        "entity_type": "place"
+      },
+      {
+        "text": "and catch lobster with bare hands. It's a great Island sport. Saucer-like pockets of clear water nestled in rocks at"
+      },
+      {
+        "text": "Lands End",
+        "entity_key": "re_landsend",
+        "entity_type": "place"
+      },
+      {
+        "text": "were filled with gorgeous ocean life—deep purple sea grass, sea urchins, brown sea moss, sea lettuce, black snails, hermit crabs and sea anemones of various sizes and colors. A 15-foot, jet black whale, victim of a vicious sea battle, washed ashore a day or two before our arrival, lay on a nearby sand spit. The operations officer checked his lobster traps and shouted with glee as he removed a half dozen tempting red snappers."
       }
     ],
     [
       {
-        "text": "Although unauthorized personnel are not allowed to land on the Island, Dick Probert's Avalon Air Transport amphibian line flies chartered groups to waters off the Island coast. This is Probert's skin divers' special. He anchors his amphib for four hours while sportsmen dive from the plane exploring the fascinating sea depths and bring up abalone and lobster for the flight home."
+        "text": "Although unauthorized personnel are not allowed to land on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", Dick Probert's"
+      },
+      {
+        "text": "Avalon Air Transport",
+        "entity_key": "avalon",
+        "entity_type": "org"
+      },
+      {
+        "text": "amphibian line flies chartered groups to waters off the Island coast. This is Probert's skin divers' special. He anchors his amphib for four hours while sportsmen dive from the plane exploring the fascinating sea depths and bring up abalone and lobster for the flight home."
       }
     ],
     [
       {
-        "text": "From Lands End we drove across five miles of sandy waste, by-passing evidences of kitchen middens and innumerable fossilized tree stumps, indication of the presence at one time of small forests on the now barren Island. Shrapnel, 20 mm. shells and live 100-pound bombs littered a large section of sand hills—souvenirs of the Thirties and Forties when San Nicolas was used as a Navy firing range."
+        "text": "From"
+      },
+      {
+        "text": "Lands End",
+        "entity_key": "re_landsend",
+        "entity_type": "place"
+      },
+      {
+        "text": "we drove across five miles of sandy waste, by-passing evidences of kitchen middens and innumerable fossilized tree stumps, indication of the presence at one time of small forests on the now barren"
+      },
+      {
+        "text": "Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Shrapnel, 20 mm. shells and live 100-pound bombs littered a large section of sand hills—souvenirs of the Thirties and Forties when"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was used as a Navy firing range."
       }
     ],
     [
       {
-        "text": "At one point we paused on the sandy roadbed to descend to a half-hidden cave where an Indian artist had scrawled drawings of ocean waves and sharks in various forms of motion. We wondered if Juana Maria had lived in this cave, if perhaps it was she who made the lasting impressions on the walls."
+        "text": "At one point we paused on the sandy roadbed to descend to a half-hidden"
+      },
+      {
+        "text": "cave",
+        "entity_key": "re_caveofwhales",
+        "entity_type": "place"
+      },
+      {
+        "text": "where an Indian artist had scrawled drawings of ocean waves and sharks in various forms of motion. We wondered if"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had lived in this cave, if perhaps it was she who made the lasting impressions on the walls."
       }
     ],
     [
@@ -357,7 +2190,20 @@
     ],
     [
       {
-        "text": "The Island has the largest number of sea lions found anywhere in the nation and one of the few herds of sea elephants in the world. More than 300 sea elephants, cows and their offspring have been counted on San Nicolas. The ugly mammal gets its name from its proboscis, a grotesque trunklike snout more than a foot long."
+        "text": "The Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "has the largest number of sea lions found anywhere in the nation and one of the few herds of sea elephants in the world. More than 300 sea elephants, cows and their offspring have been counted on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The ugly mammal gets its name from its proboscis, a grotesque trunklike snout more than a foot long."
       }
     ],
     [
@@ -387,12 +2233,28 @@
     ],
     [
       {
-        "text": "It was equally entertaining to observe the cooperation among the various wildlife on the Island—cooperation, that is, in some instances and downright thievery in others."
+        "text": "It was equally entertaining to observe the cooperation among the various wildlife on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "—cooperation, that is, in some instances and downright thievery in others."
       }
     ],
     [
       {
-        "text": "Cormorants, sea lions, sea elephants and sea gulls sounded alarms for each other, with the arrival of indigenous Island fox or wild cats that roam the Island in large numbers. They also \"blew the whistle\" as we approached one beach after another. The sea gulls took to the air. This alerted the cormorants. And when they swarmed into the air the rush of their wings alarmed the sea lions and sea elephants who subsequently took to the water."
+        "text": "Cormorants, sea lions, sea elephants and sea gulls sounded alarms for each other, with the arrival of indigenous Island fox or wild cats that roam"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in large numbers. They also \"blew the whistle\" as we approached one beach after another. The sea gulls took to the air. This alerted the cormorants. And when they swarmed into the air the rush of their wings alarmed the sea lions and sea elephants who subsequently took to the water."
       }
     ],
     [
@@ -407,72 +2269,287 @@
     ],
     [
       {
-        "text": "Sea elephants and cows were a major source of oil during old whaling days and were almost hunted to extinction. They are now making a comeback and increasing in numbers from year to year at San Nicolas. Taking them in captivity is prohibited in United States waters."
+        "text": "Sea elephants and cows were a major source of oil during old whaling days and were almost hunted to extinction. They are now making a comeback and increasing in numbers from year to year at"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Taking them in captivity is prohibited in United States waters."
       }
     ],
     [
       {
-        "text": "Later, back at the base, we sat in on a yarn-swapping session between Lincoln L. Jackson, 67, from Van Nuys, California, and C. W. Sanders, 36, boatswain's mate 2nd Class of Marion, Illino[i]s."
+        "text": "Later, back at the base, we sat in on a yarn-swapping session between"
+      },
+      {
+        "text": "Lincoln L. Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "person"
+      },
+      {
+        "text": ", 67, from"
+      },
+      {
+        "text": "Van Nuys, California",
+        "entity_key": "ci_vannuys",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "C. W. Sanders",
+        "entity_key": "cwsan",
+        "entity_type": "person"
+      },
+      {
+        "text": ", 36, boatswain's mate 2nd Class of"
+      },
+      {
+        "text": "Marion, Illino[i]s",
+        "entity_key": "ci_marion",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Jackson, area supervisor of range instrumentation, came to San Nicolas in 1946 when the missile base was activated. He has lived on the Island longer than anyone else now there."
+        "text": "Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "person"
+      },
+      {
+        "text": ", area supervisor of range instrumentation, came to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1946 when the missile base was activated. He has lived on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "longer than anyone else now there."
       }
     ],
     [
       {
-        "text": "San Nicolas' highest hill has been named Jackson Hill in his honor."
+        "text": "San Nicolas' highest hill has been named"
+      },
+      {
+        "text": "Jackson Hill",
+        "entity_key": "re_jacksonhill",
+        "entity_type": "place"
+      },
+      {
+        "text": "in his honor."
       }
     ],
     [
       {
-        "text": "Sanders is the veteran Islander among Navy men. They were discussing the winds that continuously sweep the Island."
+        "text": "Sanders",
+        "entity_key": "cwsan",
+        "entity_type": "person"
+      },
+      {
+        "text": "is the veteran Islander among Navy men. They were discussing the winds that continuously sweep"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "\"Our prevailing northwest winds average between 35 and 50 m.p.h. nearly every day of the year,\" Sanders related."
+        "text": "\"Our prevailing northwest winds average between 35 and 50 m.p.h. nearly every day of the year,\""
+      },
+      {
+        "text": "Sanders",
+        "entity_key": "cwsan",
+        "entity_type": "person"
+      },
+      {
+        "text": "related."
       }
     ],
     [
       {
-        "text": "\"But it blows much faster than that several times during the week,\" Jackson added. \"We have no half-way weather out her[e]. Sandstorms can be expected at all times. Fine sand seeps into everything and plays havoc with our machinery.\""
+        "text": "\"But it blows much faster than that several times during the week,\""
+      },
+      {
+        "text": "Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "person"
+      },
+      {
+        "text": "added. \"We have no half-way weather out her[e]. Sandstorms can be expected at all times. Fine sand seeps into everything and plays havoc with our machinery.\""
       }
     ],
     [
       {
-        "text": "\"Everybody learns to lean into the winds,\" Sanders continued. \"When we go ashore, we can always spot someone from the Island by the way he walks—with a San Nicolas tilt.\""
+        "text": "\"Everybody learns to lean into the winds,\""
+      },
+      {
+        "text": "Sanders",
+        "entity_key": "cwsan",
+        "entity_type": "person"
+      },
+      {
+        "text": "continued. \"When we go ashore, we can always spot someone from"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by the way he walks—with a San Nicolas tilt.\""
       }
     ],
     [
       {
-        "text": "\"The wind blows so fierce out here,\" Jackson noted, \"that we'll build a road with a bulldozer on Friday and by Monday there won't be a sign of the road left.\""
+        "text": "\"The wind blows so fierce out here,\""
+      },
+      {
+        "text": "Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "person"
+      },
+      {
+        "text": "noted, \"that we'll build a road with a bulldozer on Friday and by Monday there won't be a sign of the road left.\""
       }
     ],
     [
       {
-        "text": "There are 10 miles of paved road on the Island. The rest is constructed, as Jackson indicated, quite frequently. San Nicolas has its own fresh water supply. Tapped from Thousand Springs in the heart of the Island, it has a mineral taste, but those who live on San Nicolas swear by it, favoring it over mainland drinking water."
+        "text": "There are 10 miles of paved road on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The rest is constructed, as"
+      },
+      {
+        "text": "Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "person"
+      },
+      {
+        "text": "indicated, quite frequently."
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "has its own fresh water supply. Tapped from Thousand Springs in the heart of"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", it has a mineral taste, but those who live on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "swear by it, favoring it over mainland drinking water."
       }
     ],
     [
       {
-        "text": "Jackson and Sanders, like most of the personnel on the Island, enjoy hiking and fishing. They're both Island authorities and have unearthed four complete skeletons. Noteworthy feature of the skeletons are the teeth—none missing and not a pinpoint of cavity. But the teeth, in each case, were worn down by the rigorous chewing habits of their owners."
+        "text": "Jackson",
+        "entity_key": "lljackson",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Sanders",
+        "entity_key": "cwsan",
+        "entity_type": "person"
+      },
+      {
+        "text": ", like most of the personnel on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", enjoy hiking and fishing. They're both Island authorities and have unearthed four complete skeletons. Noteworthy feature of the skeletons are the teeth—none missing and not a pinpoint of cavity. But the teeth, in each case, were worn down by the rigorous chewing habits of their owners."
       }
     ],
     [
       {
-        "text": "Popular pastime on the Island is baseball—when the winds aren't blowing."
+        "text": "Popular pastime on"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is baseball—when the winds aren't blowing."
       }
     ],
     [
       {
-        "text": "\"This place grows on you,\" one of the men declared. \"We get ashore regularly, if we want. And we can save money over here. No one can say that San Nicolas with its crazy ravens, sea elephants and good fishing is a dull Island. And, of course, the missiles keep us busy.\""
+        "text": "\"This place grows on you,\" one of the men declared. \"We get ashore regularly, if we want. And we can save money over here. No one can say that"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "with its crazy ravens, sea elephants and good fishing is a dull Island. And, of course, the missiles keep us busy.\""
       }
     ],
     [
       {
-        "text": "In this International Geophysical Year 1957-1958, San Nicolas is playing an important role. At the dawn of the IGY year a mighty Deacon rocket with a Nike booster roared skyward from San Nicolas as a team of scientists began a study of solar rays in their relation to radio waves. The rocket was fired to penetrate the ionosphere, 50 miles above the earth, where radio waves are reflected back to earth. However, during solar flareups instead of bouncing the radio waves back to the earth, the ionosphere absorbs them, causing a radio blackout."
+        "text": "In this International Geophysical Year 1957-1958,"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is playing an important role. At the dawn of the IGY year a mighty Deacon rocket with a Nike booster roared skyward from"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "as a team of scientists began a study of solar rays in their relation to radio waves. The rocket was fired to penetrate the ionosphere, 50 miles above the earth, where radio waves are reflected back to earth. However, during solar flareups instead of bouncing the radio waves back to the earth, the ionosphere absorbs them, causing a radio blackout."
       }
     ],
     [
@@ -482,27 +2559,120 @@
     ],
     [
       {
-        "text": "No mention of San Nicolas Island is complete without information about Begg Rock, eight miles northwest of San Nicolas Island."
+        "text": "No mention of"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is complete without information about"
+      },
+      {
+        "text": "Begg Rock",
+        "entity_key": "re_johnrock",
+        "entity_type": "place"
+      },
+      {
+        "text": ", eight miles northwest of"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Begg Rock was named after the schooner John Begg which crashed and sank on the 15-foot high rock that rises abruptly from a depth of 50 fathoms. The John Begg ran head-on into the tiny pyramid of guano-capped land in 1824."
+        "text": "Begg Rock",
+        "entity_key": "re_johnrock",
+        "entity_type": "place"
+      },
+      {
+        "text": "was named after the schooner"
+      },
+      {
+        "text": "John Begg",
+        "entity_key": "sh_begg",
+        "entity_type": "ship"
+      },
+      {
+        "text": "which crashed and sank on the 15-foot high rock that rises abruptly from a depth of 50 fathoms. The"
+      },
+      {
+        "text": "John Begg",
+        "entity_key": "sh_begg",
+        "entity_type": "ship"
+      },
+      {
+        "text": "ran head-on into the tiny pyramid of guano-capped land in 1824."
       }
     ],
     [
       {
-        "text": "A reef extends northward and southward of the rock a little over 100 yards in each direction. A lighted whistle buoy marks Begg Rock 500 yards northward of its peak. The Navy has several lighted floats each about 10 feet long and four feet wide in its vicinity."
+        "text": "A reef extends northward and southward of the rock a little over 100 yards in each direction. A lighted whistle buoy marks"
+      },
+      {
+        "text": "Begg Rock",
+        "entity_key": "re_johnrock",
+        "entity_type": "place"
+      },
+      {
+        "text": "500 yards northward of its peak. The"
+      },
+      {
+        "text": "Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "has several lighted floats each about 10 feet long and four feet wide in its vicinity."
       }
     ],
     [
       {
-        "text": "No mention of San Nicolas is complete either without a buried treasure story. For there are legends galore about buried treasures here as well as on almost every one of the other Channel Islands."
+        "text": "No mention of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is complete either without a buried treasure story. For there are legends galore about buried treasures here as well as on almost every one of the other"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "This story is but a year old. Two of the Navy men found an old weathered parchment which captured the imagination of mainlanders from California to New York and all points in between. The parchment, barely legible, was discovered beneath the floor boards of an abandoned sheepherder's cabin. It read:"
+        "text": "This story is but a year old. Two of the Navy men found an old weathered parchment which captured the imagination of mainlanders from"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "New York",
+        "entity_key": "st_ny",
+        "entity_type": "place"
+      },
+      {
+        "text": "and all points in between. The parchment, barely legible, was discovered beneath the floor boards of an abandoned sheepherder's cabin. It read:"
       }
     ],
     [
@@ -512,7 +2682,15 @@
     ],
     [
       {
-        "text": "If the person who composed the ditty actually knew of a buried treasure, then it is or was at Lands End \"... where the tides do meet.\""
+        "text": "If the person who composed the ditty actually knew of a buried treasure, then it is or was at"
+      },
+      {
+        "text": "Lands End",
+        "entity_key": "re_landsend",
+        "entity_type": "place"
+      },
+      {
+        "text": "\"... where the tides do meet.\""
       }
     ]
   ]

@@ -3,10 +3,72 @@
   "paragraphs": [
     [
       {
-        "text": "One of the greatest honors it is possible to bestow on a human being—posthumous recognition—was awarded Juana Maria, \"The Lost Woman of San Nicolas Island,\" when the Daughters of the American Revolution led by Mrs. Alfred Brosseau, president-general, mission fathers and laymen placed a plaque in her memory in the gardens of the old mission here."
+        "text": "One of the greatest honors it is possible to bestow on a human being—posthumous recognition—was awarded"
       },
       {
-        "text": "And those who gathered for the ceremony heard once again the story of sacrifice and peril of the old woman.",
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", \""
+      },
+      {
+        "text": "The Lost Woman of San Nicolas Island",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ",\" when the"
+      },
+      {
+        "text": "Daughters of the American Revolution",
+        "entity_key": "daughters",
+        "entity_type": "org"
+      },
+      {
+        "text": "led by"
+      },
+      {
+        "text": "Mrs. Alfred Brosseau",
+        "entity_key": "abr",
+        "entity_type": "person"
+      },
+      {
+        "text": ", president-general,"
+      },
+      {
+        "text": "mission fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "and laymen placed a plaque in her memory in the gardens of the"
+      },
+      {
+        "text": "old mission",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": "here."
+      },
+      {
+        "text": "And those who gathered for the ceremony heard once again the story of sacrifice and peril of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the old woman",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           3
         ]
@@ -14,12 +76,145 @@
     ],
     [
       {
-        "text": "The story told of the mission fathers pressing all the Indians into service in Santa Barbara and then recruiting the island Indians. Because of its distance from Santa Barbara, San Nicolas was left alone until 1835, when the only large schooner on the coast visited the island and brought the twenty surviving Indians away from their native land."
+        "text": "The story told of the"
+      },
+      {
+        "text": "mission fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "pressing all"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "into service in"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and then recruiting the"
+      },
+      {
+        "text": "island Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". Because of its distance from"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was left alone until 1835, when"
+      },
+      {
+        "text": "the only large schooner on the coast",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "visited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and brought"
+      },
+      {
+        "text": "the twenty surviving Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "away from"
+      },
+      {
+        "text": "their native land",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "As they drew away from the shore, one of the women realized that her baby was not on board, and after frantically appealing in vain to the captain to turn back, she jumped overboard and disappeared in the waves.",
+        "text": "As they drew away from the shore,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "one of the women",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "realized that",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her baby",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was not on board, and after frantically appealing in vain to",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the captain",
+        "tropes": [
+          9
+        ],
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to turn back, she jumped overboard and disappeared in the waves.",
         "tropes": [
           9
         ]
@@ -27,7 +222,71 @@
     ],
     [
       {
-        "text": "The natives were distributed among the various missions, and the ship itself was wrecked near Golden Gate before an opportunity came to return for the woman who made such a sacrifice.",
+        "text": "The natives",
+        "tropes": [
+          3
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were distributed among",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the various missions",
+        "tropes": [
+          3
+        ],
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          3
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "itself was wrecked near",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Golden Gate",
+        "tropes": [
+          3
+        ],
+        "entity_key": "re_thegoldengate",
+        "entity_type": "place"
+      },
+      {
+        "text": "before an opportunity came to return for",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who made such a sacrifice.",
         "tropes": [
           3
         ]
@@ -35,12 +294,86 @@
     ],
     [
       {
-        "text": "The woman of San Nicolas became part of the lore of the Spanish settlement here. Fifteen years later, fishermen after sea otters reported having seen a figure running up and down the beach of San Nicolas again arousing interest in the legend of the lost woman."
+        "text": "The woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "became part of the lore of the"
+      },
+      {
+        "text": "Spanish settlement here",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Fifteen years later, fishermen after sea otters reported having seen a figure running up and down the beach of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "again arousing interest in the legend of"
+      },
+      {
+        "text": "the lost woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Capt. George Nidever, whose son still lives here, fitted out a ship and left for San Nicolas, but failed to find any traces of her until his third trip, when he was rewarded with a footprint of a slender foot in the sand. For days the island was searched, and the woman was found."
+        "text": "Capt. George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", whose"
+      },
+      {
+        "text": "son",
+        "entity_key": "gnijr",
+        "entity_type": "person"
+      },
+      {
+        "text": "still lives here, fitted out"
+      },
+      {
+        "text": "a ship",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and left for"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but failed to find any traces of her until his third trip, when he was rewarded with a footprint of a slender foot in the sand. For days"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was searched, and"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was found."
       },
       {
         "text": "After attempting to flee, she changed her mind and received each with dignity.",
@@ -49,17 +382,137 @@
         ]
       },
       {
-        "text": "She was brought to Santa Barbara and placed in the care of Capt. Nidever's Spanish wife. She could speak only in sign language, as there were few, if any, of her own tribe living then on the coast."
+        "text": "She was brought to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and placed in the care of"
+      },
+      {
+        "text": "Capt. Nidever's Spanish wife",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": ". She could speak only in sign language, as there were few, if any, of"
+      },
+      {
+        "text": "her own tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "living then on"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Before a month had elapsed, her new life and mode of living so affected her that she became ill and died. Just before she died, one of the mission fathers christened her Juana Maria, and she was buried in the old mission grounds."
+        "text": "Before a month had elapsed, her new life and mode of living so affected her that she became ill and died. Just before she died,"
+      },
+      {
+        "text": "one of the mission fathers",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "christened her"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and she was buried in the"
+      },
+      {
+        "text": "old mission grounds",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Juana Maria had pictured to Mrs. Nidever through signs, that her child probably had been killed by wild dogs before she could leave the ship which first attempted to remove her from San Nicolas.",
+        "text": "Juana Maria",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had pictured to",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Mrs. Nidever",
+        "tropes": [
+          10
+        ],
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "through signs, that",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "probably had been killed by wild dogs before she could leave",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          10
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "which first attempted to remove her from",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           10
         ]

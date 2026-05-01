@@ -3,24 +3,238 @@
   "paragraphs": [
     [
       {
-        "text": "—The San Francisco Transcript, of Sept. 15th, states that several leagues off Santa Barbara, in the Pacific, is a small cluster of Islands, once inhabited by Indians[.]"
+        "text": "—The San Francisco Transcript, of Sept. 15th, states that several leagues off"
       },
       {
-        "text": "One of these—San Nicholas—sixty miles from Santa Barbara, was visited in 1825, by a Russian ship, and in a dispute the sailors killed all the men but two, and carried off all the women.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in the Pacific, is"
+      },
+      {
+        "text": "a small cluster of Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", once inhabited by"
+      },
+      {
+        "text": "Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "[.]"
+      },
+      {
+        "text": "One of these—",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Some ten years afterward, the number of inhabitants had increased to seventeen, when they were all brought away by some Americans who visited the Island[.] One squaw missed her child when on board, and returned to find it. Meanwhile a gale sprang up, and the vessel left."
+        "text": "San Nicholas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "—sixty miles from",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          3
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was visited in 1825, by",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "a Russian ship",
+        "tropes": [
+          3
+        ],
+        "entity_key": "sh_ilmena",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and in a dispute",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the sailors",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "killed all the men but two, and carried off all the women.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Some ten years afterward, the number of inhabitants had increased to seventeen, when they were all brought away by"
+      },
+      {
+        "text": "some Americans",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who visited"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "[.]"
+      },
+      {
+        "text": "One squaw",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "missed"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "when on board, and returned to find it. Meanwhile a gale sprang up, and"
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "left."
       }
     ],
     [
       {
-        "text": "At the beginning of the present month, an American, George Niedever, who is now and has long been a resident of Santa Barbara, was engaged in otter hunting off the coast, and touched at San Nicholas. While travelling along the beach, to his great astonishment, he suddenly came upon this woman."
+        "text": "At the beginning of the present month, an American,"
       },
       {
-        "text": "She was engaged in cleaning or curing bird skins, which she sewed together to serve as a covering, and in a garment made of which she was dressed. She did not manifest much surprise at seeing Mr Niedever, but readily assented to his proposition to leave the island and accompany him to his schooner. She immediately set about making preparations for her departure.",
+        "text": "George Niedever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who is now and has long been a resident of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was engaged in otter hunting off the coast, and touched at"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". While travelling along the beach, to his great astonishment, he suddenly came upon"
+      },
+      {
+        "text": "this woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "She was engaged in cleaning or curing bird skins, which she sewed together to serve as a covering, and in a garment made of which she was dressed. She did not manifest much surprise at seeing",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Mr Niedever",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but readily assented to his proposition to leave",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and accompany him to",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "his schooner",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". She immediately set about making preparations for her departure.",
         "tropes": [
           1
         ]
@@ -28,7 +242,31 @@
     ],
     [
       {
-        "text": "She is now living with the family of Mr. Niedever, in Santa Barbara, where she has all her wants administered to[.]"
+        "text": "She is now living with"
+      },
+      {
+        "text": "the family of Mr. Niedever",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", in"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she has all her wants administered to[.]"
       },
       {
         "text": "She is about sixty years old, and is as simple as a child, and quite free from deception and guile.",
@@ -37,12 +275,49 @@
         ]
       },
       {
-        "text": "One of the reverend clergymen of the mission to Santa Barbara, accompanied by the writer, went to see her as soon as he heard of her arrival. He brought with him one of the Mission Indians, who could speak the language of one or two tribes of the California Indians. She was greatly delighted to see this Indian, but neither of them could understand a word of what the other said[.] She had a distinct articulation for almost every object she saw, but no one understands her except when she uses signs and gestures. She is very contented, and takes great delight in showing to her visitors as well as she can, how she dug the roots, caught the fish, manufactured her garments, and provided generally for her sustenance."
+        "text": "One of the reverend clergymen",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "of the"
+      },
+      {
+        "text": "mission to Santa Barbara",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": ", accompanied by"
+      },
+      {
+        "text": "the writer",
+        "entity_key": "gol",
+        "entity_type": "person"
+      },
+      {
+        "text": ", went to see her as soon as he heard of her arrival. He brought with him"
+      },
+      {
+        "text": "one of the Mission Indians",
+        "entity_key": "natamwoman1",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who could speak the language of one or two tribes of the California Indians. She was greatly delighted to see this Indian, but neither of them could understand a word of what the other said[.] She had a distinct articulation for almost every object she saw, but no one understands her except when she uses signs and gestures. She is very contented, and takes great delight in showing to her visitors as well as she can, how she dug the roots, caught the fish, manufactured her garments, and provided generally for her sustenance."
       }
     ],
     [
       {
-        "text": "Among the articles which she brought along with her from the island, were several needles, with which she sewed the bird's skins together. These needles are beautifully made, of fish bones, and show a superior degree of ingenuity. The thread which she used was the thin fibres of the sinews of a whale. She had also several fishing hooks, made of old nails that she probably found in some boards which she picked up on the shore. These nails were well bent and sharpened, and attached to lines made of fibres of whale sinews, beautifully twisted together. She had also among her moveables a soft clayey substance like brick, but whether she used this for dressing the bird's skins, or for simply giving a red color to her garments, no one could well make out.—She had a knife also about an inch long, which seems to have been a piece of an iron hoop. It is set in a wooden handle. She brought with her some seal meat, but how she could eat this seem incomprehensible. Ten or twenty yards is about as near as the olfactory organs would permit any of our party to go to it. She had a quantity of roots which are generally known here by the Indian name of cacometes[.] In taste they are like the kernel of an unripe nut."
+        "text": "Among the articles which she brought along with her from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were several needles, with which she sewed the bird's skins together. These needles are beautifully made, of fish bones, and show a superior degree of ingenuity. The thread which she used was the thin fibres of the sinews of a whale. She had also several fishing hooks, made of old nails that she probably found in some boards which she picked up on the shore. These nails were well bent and sharpened, and attached to lines made of fibres of whale sinews, beautifully twisted together. She had also among her moveables a soft clayey substance like brick, but whether she used this for dressing the bird's skins, or for simply giving a red color to her garments, no one could well make out.—She had a knife also about an inch long, which seems to have been a piece of an iron hoop. It is set in a wooden handle. She brought with her some seal meat, but how she could eat this seem incomprehensible. Ten or twenty yards is about as near as the olfactory organs would permit any of our party to go to it. She had a quantity of roots which are generally known here by the Indian name of cacometes[.] In taste they are like the kernel of an unripe nut."
       }
     ]
   ]

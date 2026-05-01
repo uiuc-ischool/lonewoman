@@ -6,7 +6,21 @@
         "text": "MESSRS. EDITORS: It has been said that \"there is nothing new under the Sun,\" and that every occurrence which we daily experience, or have any knowledge of has a prototype at some anterior period of the world's history."
       },
       {
-        "text": "This is doubtless the case as far as regards the general routine of events which have transpired from the development of the human passions, but in the instance I now beg to bring under your notice, I am not aware that anything similar has ever occurred in the history of the human race. The story of Robinson Crusoe may probably have had one or two facts, on the basis of which, DEFOE raised his romantic an beautiful superstructure, alike captivating to our youth and to our age, but it is generally believed that the heroes of his tale are more the creatures of his own imagination than reality.",
+        "text": "This is doubtless the case as far as regards the general routine of events which have transpired from the development of the human passions, but in the instance I now beg to bring under your notice, I am not aware that anything similar has ever occurred in the history of the human race. The story of Robinson Crusoe may probably have had one or two facts, on the basis of which,",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "DEFOE",
+        "tropes": [
+          8
+        ],
+        "entity_key": "dde",
+        "entity_type": "person"
+      },
+      {
+        "text": "raised his romantic an beautiful superstructure, alike captivating to our youth and to our age, but it is generally believed that the heroes of his tale are more the creatures of his own imagination than reality.",
         "tropes": [
           8
         ]
@@ -14,42 +28,520 @@
     ],
     [
       {
-        "text": "Several leagues off Santa Barbara, in the Pacific, there is a cluster of small islands, which were at one time inhabited by Indians, and from the traditions which exist among the native population at the South, as well as from facts known to several Americans who have been for a long time resident there, it appears that they contained a large population. The Indians on these islands were in the habit of making frequent excursions to the main land, touching at Santa Barbara and San Pedro, for the purpose of trading with the Indians who were then living in the southern part of the State; and the barter was carried on by means of shells, which was the principal medium of exchange between them. At the time the Missions of Alta California were established, towards the close of the last century, this intercourse was carried on to a great extent, and at a certain period of the year there was a story of Indian Fair held at some point of the southern coast, whither the Indians of the islands and Indians of the continent repaired in great numbers. Whether at the solicitation of the good Franciscan Fathers, or from choice, the Indians on the islands gradually settled down among the Mission Indians, at Santa Inez, Santa Barbara, Los Angeles, San Gabriel and San Diego."
+        "text": "Several leagues off"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in the Pacific, there is a"
+      },
+      {
+        "text": "cluster of small islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which were at one time inhabited by"
+      },
+      {
+        "text": "Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", and from the traditions which exist among the native population at the South, as well as from facts known to several Americans who have been for a long time resident there, it appears that they contained a large population."
+      },
+      {
+        "text": "The Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "were in the habit of making frequent excursions to"
+      },
+      {
+        "text": "the main land",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", touching at"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for the purpose of trading with the Indians who were then living in the southern part of"
+      },
+      {
+        "text": "the State",
+        "entity_key": "re_local",
+        "entity_type": "place"
+      },
+      {
+        "text": "; and the barter was carried on by means of shells, which was the principal medium of exchange between them. At the time the"
+      },
+      {
+        "text": "Missions of Alta California",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": "were established, towards the close of the last century, this intercourse was carried on to a great extent, and at a certain period of the year there was a story of Indian Fair held at some point of the"
+      },
+      {
+        "text": "southern coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", whither the"
+      },
+      {
+        "text": "Indians of the islands",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "and Indians of the continent repaired in great numbers. Whether at the solicitation of"
+      },
+      {
+        "text": "the good Franciscan Fathers",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": ", or from choice,"
+      },
+      {
+        "text": "the Indians on the islands",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "gradually settled down among"
+      },
+      {
+        "text": "the Mission Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": ", at"
+      },
+      {
+        "text": "Santa Inez",
+        "entity_key": "ci_sy",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Gabriel",
+        "entity_key": "ci_sg",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "One of these islands called San Nicholas, situated about sixty miles from Santa Barbara, was inhabited by a tribe of Indians who could never be induced from a desire of change, from the hope of greater comfort, or from a wish to embrace Christianity, to leave it.",
+        "text": "One of these islands called",
         "tropes": [
           3
         ]
       },
       {
-        "text": "About the year 1824 or 1825, this island was visited by a Russian ship, and some dispute having arisen between the sailors and the Indians, about the women, the Russians killed all the men except two, and carried off the women.",
+        "text": "San Nicholas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", situated about sixty miles from",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          3
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was inhabited by",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "a tribe of Indians",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "who could never be induced from a desire of change, from the hope of greater comfort, or from a wish to embrace Christianity, to leave it.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "About the year 1824 or 1825,",
         "tropes": [
           13
         ]
       },
       {
-        "text": "About ten years afterwards, Mr. WILLIAMS (who now owns the ranch called \"Del Chino,\" in Los Angelos,) with other Americans, had been in the habit of visiting the island, while hunting otters, which abound in those waters."
-      }
-    ],
-    [
-      {
-        "text": "At one of these visits he brought away with him on his departure, a young Indian squaw. At this time there were about seventeen Indians living on the island. Shortly afterwards, Mr. WILLIAMS prevailed upon Mr. HUBBARD, who was Captain of a small schooner, owned conjointly by Mr. ISAAC SPARKS, (now of Santa Barbara,) and Mr. GOMEZ, of Monterey, to bring over all the Indians who remained. This was easily accomplished, as the Indians were desirous to remove."
-      }
-    ],
-    [
-      {
-        "text": "After they had all got on board the schooner, one of the Indian women discovered that her child was missing, and asked permission to go on shore to look for it. This was at once granted. She remained a long time in the search, and at length made her appearance crying most bitterly. She said that she could not find her child, and expressed her apprehension that it had been eaten by wild dogs, which it seems infest the island. She remained on the beach lamenting the loss of her child; and whether through fatigue or excess of greif, she laid down and fell asleep."
-      }
-    ],
-    [
-      {
-        "text": "In the mean time, it commenced to blow a gale of wind, and the schooner put away, leaving her alone on this desert island."
+        "text": "this island",
+        "tropes": [
+          13
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "What the feelings of this poor child of nature were when she opened her eyes and took a survey of her situation are only known to herself and to the divine Providence, who still watches over her.",
+        "text": "was visited by",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "a Russian ship",
+        "tropes": [
+          13
+        ],
+        "entity_key": "sh_ilmena",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and some dispute having arisen between the sailors and",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "the Indians",
+        "tropes": [
+          13
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", about the women,",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "the Russians",
+        "tropes": [
+          13
+        ],
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "killed all the men except two, and carried off the women.",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "About ten years afterwards,"
+      },
+      {
+        "text": "Mr. WILLIAMS",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": "(who now owns the ranch called \""
+      },
+      {
+        "text": "Del Chino",
+        "entity_key": "cranch",
+        "entity_type": "place"
+      },
+      {
+        "text": ",\" in"
+      },
+      {
+        "text": "Los Angelos",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ",) with other Americans, had been in the habit of visiting"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", while hunting otters, which abound in those waters."
+      }
+    ],
+    [
+      {
+        "text": "At one of these visits he brought away with him on his departure,"
+      },
+      {
+        "text": "a young Indian squaw",
+        "entity_key": "Nicolenowoman1",
+        "entity_type": "person"
+      },
+      {
+        "text": ". At this time there were about seventeen Indians living on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Shortly afterwards,"
+      },
+      {
+        "text": "Mr. WILLIAMS",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": "prevailed upon"
+      },
+      {
+        "text": "Mr. HUBBARD",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who was Captain of"
+      },
+      {
+        "text": "a small schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", owned conjointly by"
+      },
+      {
+        "text": "Mr. ISAAC SPARKS",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": ", (now of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ",) and"
+      },
+      {
+        "text": "Mr. GOMEZ",
+        "entity_key": "jgo",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to bring over all"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "who remained. This was easily accomplished, as"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were desirous to remove."
+      }
+    ],
+    [
+      {
+        "text": "After they had all got on board"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "one of the Indian women",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered that"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was missing, and asked permission to go on shore to look for it. This was at once granted. She remained a long time in the search, and at length made her appearance crying most bitterly. She said that she could not find"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and expressed her apprehension that it had been eaten by wild dogs, which it seems infest"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She remained on the beach lamenting the loss of"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "; and whether through fatigue or excess of greif, she laid down and fell asleep."
+      }
+    ],
+    [
+      {
+        "text": "In the mean time, it commenced to blow a gale of wind, and"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "put away, leaving her alone on"
+      },
+      {
+        "text": "this desert island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "What the feelings of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "this poor child of nature",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "were when she opened her eyes and took a survey of her situation are only known to herself and to the divine Providence, who still watches over her.",
         "tropes": [
           3
         ]
@@ -57,15 +549,119 @@
     ],
     [
       {
-        "text": "About three months afterwards it is said the schooner again touched at the island to bring her away, but she could not be found. Since that time her foot-prints have been occasionally seen on the shore, and other indications met with, showing that she still existed."
+        "text": "About three months afterwards it is said"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "again touched at"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to bring her away, but she could not be found. Since that time her foot-prints have been occasionally seen on the shore, and other indications met with, showing that she still existed."
       }
     ],
     [
       {
-        "text": "At the beginning of the present month, and American, by the name of GEORGE NIEDEVER, who is now and has long been a resident or [of] Santa Barbara, was engaged in otter hunting off the coast, and touched at San Nicholas. While traveling along the beach, to his great astonishment, he suddenly came upon this woman."
+        "text": "At the beginning of the present month, and American, by the name of"
       },
       {
-        "text": "She was engaged cleaning or curing bird skins which she sewed together to serve as a covering, and in a garment made of which she was then dressed. She did not manifest much surprise at seeing Mr. NIEDEVER, but readily assented to his proposition to leave the island, and accompany him to his schooner. She immediately set about making preparations for her departure, and having packed up several bundles of bird-skins and other \"fixings\" which she had found serviceable in San Nicholas, she bade adieu forever to the land where, for so long a time, she might have soliloquized with poetic truth",
+        "text": "GEORGE NIEDEVER",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who is now and has long been a resident or [of]"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", was engaged in otter hunting off the coast, and touched at"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". While traveling along the beach, to his great astonishment, he suddenly came upon"
+      },
+      {
+        "text": "this woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "She was engaged cleaning or curing bird skins which she sewed together to serve as a covering, and in a garment made of which she was then dressed. She did not manifest much surprise at seeing",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "Mr. NIEDEVER",
+        "tropes": [
+          1
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but readily assented to his proposition to leave",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and accompany him to",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "his schooner",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". She immediately set about making preparations for her departure, and having packed up several bundles of bird-skins and other \"fixings\" which she had found serviceable in",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "San Nicholas",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", she bade adieu forever to the land where, for so long a time, she might have soliloquized with poetic truth",
         "tropes": [
           1
         ]
@@ -81,7 +677,31 @@
     ],
     [
       {
-        "text": "She is now living with the family of Mr. GEORGE NIEDEVER, in Santa Barbara, where she has all her wants administered to."
+        "text": "She is now living with"
+      },
+      {
+        "text": "the family of Mr. GEORGE NIEDEVER",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", in"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she has all her wants administered to."
       },
       {
         "text": "She is about 60 years old, and is as simple as a child, and quite free from deception and guile.",
@@ -90,12 +710,63 @@
         ]
       },
       {
-        "text": "One of the reverend clergymen of the Mission of Santa Barbara, accompanied by the writer, went to see her as soon as he heard of her arrival. He brought with him one of the Mission Indians who could speak the languages of one or two tribes of the California Indians. She was greatly delighted to see this Indian, but neither of them could understand a word of what the other said. She has a distinct articulation for almost every object she saw, but no one understands her unless when she uses signs and gestures. She is very contented, and takes great delight in showing to her visitors, as well as she can, how she dug the roots, caught the fish, manufactured her garments, and provided generally for her sustenance."
+        "text": "One of the reverend clergymen",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "of the"
+      },
+      {
+        "text": "Mission of Santa Barbara",
+        "entity_key": "mi_sb",
+        "entity_type": "org"
+      },
+      {
+        "text": ", accompanied by"
+      },
+      {
+        "text": "the writer",
+        "entity_key": "gol",
+        "entity_type": "person"
+      },
+      {
+        "text": ", went to see her as soon as he heard of her arrival. He brought with him"
+      },
+      {
+        "text": "one of the Mission Indians",
+        "entity_key": "natamwoman1",
+        "entity_type": "person"
+      },
+      {
+        "text": "who could speak the languages of one or two tribes of the California Indians. She was greatly delighted to see"
+      },
+      {
+        "text": "this Indian",
+        "entity_key": "natamwoman1",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but neither of them could understand a word of what the other said. She has a distinct articulation for almost every object she saw, but no one understands her unless when she uses signs and gestures. She is very contented, and takes great delight in showing to her visitors, as well as she can, how she dug the roots, caught the fish, manufactured her garments, and provided generally for her sustenance."
       }
     ],
     [
       {
-        "text": "She signifies that she is much better pleased with her present mode of life than she led on the island.",
+        "text": "She signifies that she is much better pleased with her present mode of life than she led on",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           10
         ]
@@ -103,12 +774,28 @@
     ],
     [
       {
-        "text": "She takes great delight in looking at horses and cows, having probably never seen such large animals before. On one occasion she caught hold of a horse by the tail, and had it not been that Mrs. NIEDEVER called her away, she might probably have suffered severely for her ignorance."
+        "text": "She takes great delight in looking at horses and cows, having probably never seen such large animals before. On one occasion she caught hold of a horse by the tail, and had it not been that"
+      },
+      {
+        "text": "Mrs. NIEDEVER",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "called her away, she might probably have suffered severely for her ignorance."
       }
     ],
     [
       {
-        "text": "Among the articles she brought along with her from the island, were several needles with which she sewed the birds' skins together. These needles are beautifully made of fish bones, and show a superior degree of ingenuity. The thread which she used was a thin fibre of the sinews of a whale. She had also several fishing hooks made of old nails that she probably found in some boards picked up on the shore. These nails were well bent and sharpened, and attached to a line made of fibres of whale sinews beautifully twisted together. She had also among her moveables a soft clayey substance like brick, but whether she used this for dressing the birds' skins, or for simply giving a red color to her garments, no one could well make out. She had a knife, also, about an inch long, which seems to have been a piece of an iron hoop[.] It is set in a wooden handle. She brought with her some seal meat, but how she could eat this seems incomprehensible. Ten or twenty yards is about as near as the olfactory nerves would permit any of our party to go to it. She had a quantity of roots which are generally known here by the Indian name of cacometes. In taste they are like the kernel of an unripe nut."
+        "text": "Among the articles she brought along with her from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were several needles with which she sewed the birds' skins together. These needles are beautifully made of fish bones, and show a superior degree of ingenuity. The thread which she used was a thin fibre of the sinews of a whale. She had also several fishing hooks made of old nails that she probably found in some boards picked up on the shore. These nails were well bent and sharpened, and attached to a line made of fibres of whale sinews beautifully twisted together. She had also among her moveables a soft clayey substance like brick, but whether she used this for dressing the birds' skins, or for simply giving a red color to her garments, no one could well make out. She had a knife, also, about an inch long, which seems to have been a piece of an iron hoop[.] It is set in a wooden handle. She brought with her some seal meat, but how she could eat this seems incomprehensible. Ten or twenty yards is about as near as the olfactory nerves would permit any of our party to go to it. She had a quantity of roots which are generally known here by the Indian name of cacometes. In taste they are like the kernel of an unripe nut."
       }
     ],
     [
@@ -119,12 +806,42 @@
         ]
       },
       {
-        "text": "For eighteen years has this poor creature lived alone on a desert island, with no one to share her hopes or her fears, her joys or her sorrows, but the Great Being who gave her life, and who has wonderfully preserved it under such extraordinary circumstances."
+        "text": "For eighteen years has"
+      },
+      {
+        "text": "this poor creature",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "lived alone on a"
+      },
+      {
+        "text": "desert island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", with no one to share her hopes or her fears, her joys or her sorrows, but the Great Being who gave her life, and who has wonderfully preserved it under such extraordinary circumstances."
       }
     ],
     [
       {
-        "text": "The learned and pious Father GONZALES regards it as a wonderful instance of the Providence of God, who, in his inscrutable ways has doubtless preserved her up to this time, as were some of her race, in the truths of Christianity.",
+        "text": "The learned and pious",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Father GONZALES",
+        "tropes": [
+          5
+        ],
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "regards it as a wonderful instance of the Providence of God, who, in his inscrutable ways has doubtless preserved her up to this time, as were some of her race, in the truths of Christianity.",
         "tropes": [
           5
         ]
@@ -132,7 +849,31 @@
     ],
     [
       {
-        "text": "The people of Santa Barbara have had their interest greatly excited by the arrival in their town of this distinguished stranger, and many of them have gone to see her. If anything further can be found out respecting her history, I shall not fail to make you acquainted with it."
+        "text": "The people of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "have had their interest greatly excited by the arrival in"
+      },
+      {
+        "text": "their town",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "this distinguished stranger",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and many of them have gone to see her. If anything further can be found out respecting her history, I shall not fail to make you acquainted with it."
       }
     ],
     [
@@ -142,7 +883,39 @@
     ],
     [
       {
-        "text": "And in conclusion I wish you would just say to the gentlemen of the BARNUM family, that they may sleep contented. No money they could raise could induce GEORGE NIEDEVER to let them have this poor Indian woman[.] GOLIAH."
+        "text": "And in conclusion I wish you would just say to the gentlemen of the"
+      },
+      {
+        "text": "BARNUM",
+        "entity_key": "pba",
+        "entity_type": "person"
+      },
+      {
+        "text": "family, that they may sleep contented. No money they could raise could induce"
+      },
+      {
+        "text": "GEORGE NIEDEVER",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "to let them have"
+      },
+      {
+        "text": "this poor Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "[.]"
+      },
+      {
+        "text": "GOLIAH",
+        "entity_key": "gol",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ]
   ]

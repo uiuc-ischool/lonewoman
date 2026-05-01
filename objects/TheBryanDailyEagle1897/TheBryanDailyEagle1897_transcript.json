@@ -3,50 +3,371 @@
   "paragraphs": [
     [
       {
-        "text": "(Santa Barbara Letter.)"
-      }
-    ],
-    [
-      {
-        "text": "THE Channel Islands have long been known among the old time residents of California as the Golgotha of the Pacific, for nowhere else in the world are there probably as many human bones and skeletons lying exposed to the elements as there."
-      }
-    ],
-    [
-      {
-        "text": "These islands have been objects of romantic legends, curiosity and mystery for two gentrations [sic] or more. Notwithstanding that they are 28 miles off the California shore, they are solitary and unfrequented."
-      }
-    ],
-    [
-      {
-        "text": "As far back as the memory of any person in South California runs, hundreds of white skeletons have dotted the valleys and hillsides of San Nicolas Island, one of the group. Strange utensils of serpentine, sandstone, and steatite are found there among the human bones, and the island and its inhabitants have a history so curious that it is difficult of comprehension."
-      }
-    ],
-    [
-      {
-        "text": "In 1835 the Franciscan padres in the Santa Barbara mission, learning that there were but 16 of the strange indian [sic] race then living, determined to rescue them from the island. They went over in a sloop and succeeded, as they thought, in getting all on board. At the last moment an Indian woman returned for her child, and remained."
+        "text": "("
       },
       {
-        "text": "Sixteen years later Capt. George Nidever and two men went from the coast in a sloop to hunt sea otters off San Nicolas. On landing they, like Cruso[e], were astonished to discover human footprints on the sand. They saw no one, however, and a storm compelled them to put to sea.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "Letter.)"
+      }
+    ],
+    [
+      {
+        "text": "THE",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "have long been known among the old time residents of"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "as"
+      },
+      {
+        "text": "the Golgotha of the Pacific",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for nowhere else in the world are there probably as many human bones and skeletons lying exposed to the elements as there."
+      }
+    ],
+    [
+      {
+        "text": "These islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "have been objects of romantic legends, curiosity and mystery for two gentrations [sic] or more. Notwithstanding that they are 28 miles off the"
+      },
+      {
+        "text": "California shore",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", they are solitary and unfrequented."
+      }
+    ],
+    [
+      {
+        "text": "As far back as the memory of any person in South C"
+      },
+      {
+        "text": "alifornia",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "runs, hundreds of white skeletons have dotted the valleys and hillsides of"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", one of"
+      },
+      {
+        "text": "the group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Strange utensils of serpentine, sandstone, and steatite are found there among the human bones, and"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "its inhabitants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "have a history so curious that it is difficult of comprehension."
+      }
+    ],
+    [
+      {
+        "text": "In 1835"
+      },
+      {
+        "text": "the Franciscan padres in the Santa Barbara mission",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", learning that there were but"
+      },
+      {
+        "text": "16 of the strange indian [sic] race",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "then living, determined to rescue them from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They went over in"
+      },
+      {
+        "text": "a sloop",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and succeeded, as they thought, in getting all on board. At the last moment"
+      },
+      {
+        "text": "an Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned for"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and remained."
+      },
+      {
+        "text": "Sixteen years later",
         "tropes": [
           4
         ]
       },
       {
-        "text": "It was two years later that the captain, revolving in his mind the sight of the footprints in the uncanny island, determined to go and discover and bring over the lonely woman of whom he had vaguely heard.",
+        "text": "Capt. George Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "two men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "tje",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "went from",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "in",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a sloop",
+        "tropes": [
+          4
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to hunt sea otters off",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". On landing they, like",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Cruso[e]",
+        "tropes": [
+          4
+        ],
+        "entity_key": "rcr",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were astonished to discover human footprints on the sand. They saw no one, however, and a storm compelled them to put to sea.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "It was two years later that",
         "tropes": [
           4,
           5
         ]
       },
       {
-        "text": "Men accompanied him, and at length they saw on the surf beaten shore a woman with long, tawney [sic] hair, dressed in a queer garb of colored bird skins, and scraping with a bone knife the blubber from a seal.",
+        "text": "the captain",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", revolving in his mind the sight of the footprints in",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the uncanny island",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", determined to go and discover and bring over",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the lonely woman",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "of whom he had vaguely heard.",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "Men",
+        "tropes": [
+          4,
+          1
+        ],
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "accompanied him, and at length they saw on the surf beaten shore",
         "tropes": [
           4,
           1
         ]
       },
       {
-        "text": "They surrounded and approached her stealthily. Although suddenly confronted, she did not appear to be in the least afraid, but smiled, and then falling on her knees, prayed to the sun. She offered no objection when, by signs, she was made to understand that she was to go with them in the boat.",
+        "text": "a woman",
+        "tropes": [
+          4,
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "with long, tawney [sic] hair, dressed in a queer garb of colored bird skins, and scraping with a bone knife the blubber from a seal.",
+        "tropes": [
+          4,
+          1
+        ]
+      },
+      {
+        "text": "They surrounded and approached her stealthily. Although suddenly confronted, she did not appear to be in the least afraid, but smiled, and then falling on her knees, prayed to the sun. She offered no objection when, by signs, she was made to understand that she was to go with them in",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the boat",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ".",
         "tropes": [
           1
         ]
@@ -54,21 +375,115 @@
     ],
     [
       {
-        "text": "They searched [reached] Santa Barbara across the rough sea, and the first thing the Indian woman saw was Dr. S. L. Shaw, who is still li[v]ing at the age of 80 years, riding a horse. She had never seen a spectacle like it, and thought the man and horse were one, and she knelt on the shore and offered her devotions to it."
+        "text": "They searched [reached]"
       },
       {
-        "text": "Two weeks afterward the last inhabitant of rock ribbed, tempest beaten San Nicolas died from eating food to which she was unaccustomed, and the curtain fell on her race forever.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "across the rough sea, and the first thing"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "saw was"
+      },
+      {
+        "text": "Dr. S. L. Shaw",
+        "entity_key": "ssh",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who is still li[v]ing at the age of 80 years, riding a horse. She had never seen a spectacle like it, and thought"
+      },
+      {
+        "text": "the man",
+        "entity_key": "ssh",
+        "entity_type": "person"
+      },
+      {
+        "text": "and horse were one, and she knelt on the shore and offered her devotions to it."
+      },
+      {
+        "text": "Two weeks afterward",
         "tropes": [
           6
         ]
       },
       {
-        "text": "The woman, known as the \"Lone Woman of San Nicholas,\" has been the subject of a score of romances and poems and food for a lot of philosophy of the coast."
+        "text": "the last inhabitant of rock ribbed, tempest beaten San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "died from eating food to which she was unaccustomed, and the curtain fell on",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "forever.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", known as the \"Lone Woman of San Nicholas,\" has been the subject of a score of romances and poems and food for a lot of philosophy of"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "San Nicolas is ten miles wide and four miles across at the widest point. Nothing more desolate than the general appearance of the island can be imagined. As far as the eye can trace there are barren levels, with innumerable circular depressions, showing where primitive dwellings once stood. Not a vestige remains of the materials used in the construction of these rancherias. Hundreds of shell mounds are scattered about, and are found to consist of astonishing numbers of mollusks, the bones of every species of fish found in the channel, skeletons of seals, sea elephants, sea otters, whales, the island fox and various aquatic birds. Without question these animals were used for food by the tribes that once thronged the island. There are numbers of canine skeletons, several of which indicate a species of bull terrier."
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is ten miles wide and four miles across at the widest point. Nothing more desolate than the general appearance of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "can be imagined. As far as the eye can trace there are barren levels, with innumerable circular depressions, showing where primitive dwellings once stood. Not a vestige remains of the materials used in the construction of these rancherias. Hundreds of shell mounds are scattered about, and are found to consist of astonishing numbers of mollusks, the bones of every species of fish found in the channel, skeletons of seals, sea elephants, sea otters, whales, the island fox and various aquatic birds. Without question these animals were used for food by the tribes that once thronged"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". There are numbers of canine skeletons, several of which indicate a species of bull terrier."
       }
     ],
     [
@@ -76,16 +491,66 @@
         "text": "An examination of some of the mounds discloses all sorts of curious utensils, stone cooking pots, water ollas, mortars, pestles, drills, bone needles, and fish hooks, shell beads, charm stones, pipes, cups, and a few arrow heads, spear points, and swords made of bone."
       },
       {
-        "text": "The absence of many weapons proves the peaceful attributes of the islanders. Small imitations of boats and fishes carved from crystalized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
+        "text": "The absence of many weapons proves the peaceful attributes of",
         "tropes": [
           3
         ]
       },
       {
-        "text": "In many places conical piles of small black pebbles contrast oddly with the white land. No trace is seen of the brush pens, in which the lone woman of San Nicolas for years found her only shelter from the cutting wind and sand."
+        "text": "the islanders",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
       },
       {
-        "text": "Every foot of this strange island is eloquent of the extinction of an almost unheard-of people.",
+        "text": ". Small imitations of boats and fishes carved from crystalized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "In many places conical piles of small black pebbles contrast oddly with the white land. No trace is seen of the brush pens, in which"
+      },
+      {
+        "text": "the lone woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "for years found her only shelter from the cutting wind and sand."
+      },
+      {
+        "text": "Every foot of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "this strange island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is eloquent of the extinction of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "an almost unheard-of people",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -93,16 +558,114 @@
     ],
     [
       {
-        "text": "The strangest of all the sights on this island is to be seen on the broad plateau south of the Chinese camp at Coral harbor. Here acres of the sand are littered with thousands of disjointed skeletons. Measurements have been made by several scientists of the thigh, leg and arm bones, and literally bushels of skulls and other parts of the human frame have been brought to Los Angeles from San Nicolas island for investigation."
+        "text": "The strangest of all the sights on"
       },
       {
-        "text": "The general opinion is that the physique of the Indian race that swarmed over the island then was very much larger than that of any civilized race of today, and that some of them must have been seven feet three inches tall. The skulls of this extinct tribe often measure several inches more than some of the skulls of today.",
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is to be seen on the broad plateau south of the"
+      },
+      {
+        "text": "Chinese camp at Coral harbor",
+        "entity_key": "re_chineseharbor",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Here acres of the sand are littered with thousands of disjointed skeletons. Measurements have been made by several scientists of the thigh, leg and arm bones, and literally bushels of skulls and other parts of the human frame have been brought to"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "San Nicolas island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "for investigation."
+      },
+      {
+        "text": "The general opinion is that the physique of the",
         "tropes": [
           5
         ]
       },
       {
-        "text": "Many skulls found lying about on the island show that their possessors must have suffered death from a club or blunt battle ax. No one has yet found a skull on San Nicholas that shows marks of a bullet."
+        "text": "Indian race",
+        "tropes": [
+          5
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "that swarmed over",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "then was very much larger than that of any civilized race of today, and that some of them must have been seven feet three inches tall. The skulls of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "this extinct tribe",
+        "tropes": [
+          5
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "often measure several inches more than some of the skulls of today.",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Many skulls found lying about on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "show that"
+      },
+      {
+        "text": "their possessors",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "must have suffered death from a club or blunt battle ax. No one has yet found a skull on"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "that shows marks of a bullet."
       }
     ]
   ]

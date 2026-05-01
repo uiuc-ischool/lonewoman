@@ -3,29 +3,241 @@
   "paragraphs": [
     [
       {
-        "text": "Seventy miles from the shore is San Nicholas Island, the sixth of the group that cluster around the Bay of Santa Barbara, California. It is celebrated for having been the residence for 18 years of \"The Lost Woman of San Nicholas.\" As her name is famous and as her story has been told in romance, I will give the bare facts about her as I found them to be, without any added ornament, and leave the fiction to the pen of the novelist."
+        "text": "Seventy miles from"
+      },
+      {
+        "text": "the shore",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "is"
+      },
+      {
+        "text": "San Nicholas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the sixth of"
+      },
+      {
+        "text": "the group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "that cluster around the Bay of"
+      },
+      {
+        "text": "Santa Barbara, California",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It is celebrated for having been the residence for 18 years of \""
+      },
+      {
+        "text": "The Lost Woman of San Nicholas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".\" As her name is famous and as her story has been told in romance, I will give the bare facts about her as I found them to be, without any added ornament, and leave the fiction to the pen of the novelist."
       }
     ],
     [
       {
-        "text": "The Island of San Nicol[a]s was once densely populated. This is attested by the skulls and bones and other evidences of human abode that are found there. The Alaska Indians frequently visited the island to hunt for the furs of the sea otter. They took their women with them on these hunts, and on returning after the hunt was over they left them on the island to their fate. By order of the government in 1835, the Indians were removed from the Island."
+        "text": "The"
       },
       {
-        "text": "Just before they were to embark, and carry away every human inhabitant, as it was supposed, a white Indian woman begged for the privilege of going ashore for her child, which she had accidentally left.",
+        "text": "Island of San Nicol[a]s",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was once densely populated. This is attested by the skulls and bones and other evidences of human abode that are found there. The"
+      },
+      {
+        "text": "Alaska Indians",
+        "entity_keys": [
+          "rfurcompany",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "frequently visited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to hunt for the furs of the sea otter. They took their women with them on these hunts, and on returning after the hunt was over they left them on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to their fate. By order of"
+      },
+      {
+        "text": "the government",
+        "entity_key": "gov_mexico",
+        "entity_type": "org"
+      },
+      {
+        "text": "in 1835,"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroupa",
+        "entity_type": "person"
+      },
+      {
+        "text": "were removed from"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Just before they were to embark, and carry away every human inhabitant, as it was supposed,",
         "tropes": [
           7
         ]
       },
       {
-        "text": "She was gone a long time in a fruitless search for her offspring. The wind blew a gale, the water was shallow, there was no one who was seeking the lost one. They set sail, intending to return for the lost woman of San Nicholas, but the boat becoming unseaworthy she was left to her fate."
+        "text": "a white Indian woman",
+        "tropes": [
+          7
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "begged for the privilege of going ashore for",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          7
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", which she had accidentally left.",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "She was gone a long time in a fruitless search for"
+      },
+      {
+        "text": "her offspring",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ". The wind blew a gale, the water was shallow, there was no one who was seeking"
+      },
+      {
+        "text": "the lost one",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". They set sail, intending to return for"
+      },
+      {
+        "text": "the lost woman of San Nicholas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "becoming unseaworthy she was left to her fate."
       }
     ],
     [
       {
-        "text": "It was generally known that there was a woman abandoned on the island, but no attempt was made for her deliverance. As the world soon forgets, so the woman of San Nicholas was forgotten, and the year passed away."
+        "text": "It was generally known that there was"
       },
       {
-        "text": "After a lapse of sixteen years a man who landed on the island found that",
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "abandoned on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but no attempt was made for her deliverance. As the world soon forgets, so"
+      },
+      {
+        "text": "the woman of San Nicholas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was forgotten, and the year passed away."
+      },
+      {
+        "text": "After a lapse of sixteen years",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a man",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "who landed on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "found that",
         "tropes": [
           4
         ]

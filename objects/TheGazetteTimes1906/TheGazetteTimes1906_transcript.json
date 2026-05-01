@@ -3,29 +3,199 @@
   "paragraphs": [
     [
       {
-        "text": "ABOUT 80 miles due northwest of San Pedro, in California, lies a desert island that has all the combined romance of the ages in its history. It is rarely visited and has but a single inhabitant, yet it has peculiar fascination for many people. The very elements seem to conspire to make the place forbidden, as it is almost invariably blows a gale of wind in the vicinity, and when one reaches the inho[s]pitable island there is no bay or harbor for a craft much larger than a rowboat."
+        "text": "ABOUT 80 miles due northwest of"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", lies"
+      },
+      {
+        "text": "a desert island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "that has all the combined romance of the ages in its history. It is rarely visited and has but"
+      },
+      {
+        "text": "a single inhabitant",
+        "entity_key": "shepherd",
+        "entity_type": "person"
+      },
+      {
+        "text": ", yet it has peculiar fascination for many people. The very elements seem to conspire to make the place forbidden, as it is almost invariably blows a gale of wind in the vicinity, and when one reaches"
+      },
+      {
+        "text": "the inho[s]pitable island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "there is no bay or harbor for a craft much larger than a rowboat."
       }
     ],
     [
       {
-        "text": "The island is about seven miles long by two or three in width and rises to a height of 800 to 1,000 feet in the center."
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "Windswept, forbidding, haunted by the spirits of storms, it does not invite inspection and appears to have been cursed by the elements, yet despite this the island was at one time the home of a numerous people, a race that has been lost sight of.",
+        "text": "is about seven miles long by two or three in width and rises to a height of 800 to 1,000 feet in the center."
+      },
+      {
+        "text": "Windswept, forbidding, haunted by the spirits of storms, it does not invite inspection and appears to have been cursed by the elements, yet despite this the island was at one time the home of a numerous people,",
         "tropes": [
           6
         ]
       },
       {
-        "text": "The writer made several attempts to reach the island in a 60-ton yacht and was literally blown off, finally making it one day about noon, coming to anchor near a long specter-like tongue of land that extends out into the ocean and where the tide ran like a millrace [sic] and a heavy groundswell swept around the point from the windward side. No more forbidding outlook can be imagined. The island of San Nicolas appears like a sand dune. The landing was a wave-swept beach that received a high swell from three points, and it was evident that skill on landing alone would make it possible."
+        "text": "a race that has been lost sight of",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The writer",
+        "entity_key": "author6",
+        "entity_type": "person"
+      },
+      {
+        "text": "made several attempts to reach"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in"
+      },
+      {
+        "text": "a 60-ton yacht",
+        "entity_key": "sh_yacht1",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and was literally blown off, finally making it one day about noon, coming to anchor near a long specter-like tongue of land that extends out into the ocean and where the tide ran like a millrace [sic] and a heavy groundswell swept around the point from the windward side. No more forbidding outlook can be imagined. The"
+      },
+      {
+        "text": "island of San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "appears like a sand dune. The landing was a wave-swept beach that received a high swell from three points, and it was evident that skill on landing alone would make it possible."
       }
     ],
     [
       {
-        "text": "The boat lay off waiting for a low sea, and finally went sailing in upon one of lesser size and the crew jumped overboard and held on to the boat that the undertow and back rush attempted to claim. In this manner the entire party landed and an investigation of the island was begun. The one inhabitant, a Basque, came down to the beach."
+        "text": "The boat",
+        "entity_key": "sh_yacht1",
+        "entity_type": "ship"
       },
       {
-        "text": "He had not heard the news of the world for a year, and did not display any ambition to learn it. But he was not happy. Too many dead people, too many bones that make wind spirits blow, he said, and when he heard that the party was after the remains of these dead people he showed an inclination to leave. In all probability there is not in any land a more remarkable mound that can be seen. About 10 feet in height and nearly a mile in length, it was at this time a veritable Golgotha, a collection of bones and implements of the lost people, ever changing, ever shifting; today exposing numbers of skeletons, tomorrow covering them up in sheets of sand. One could easily imagine that a battle had been fought here and the dead had been buried by the drifting sand, but this was not the case.",
+        "text": "lay off waiting for a low sea, and finally went sailing in upon one of lesser size and"
+      },
+      {
+        "text": "the crew",
+        "entity_keys": [
+          "author6",
+          "yachtcrew"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "jumped overboard and held on to"
+      },
+      {
+        "text": "the boat",
+        "entity_key": "sh_yacht1",
+        "entity_type": "ship"
+      },
+      {
+        "text": "that the undertow and back rush attempted to claim. In this manner"
+      },
+      {
+        "text": "the entire party",
+        "entity_keys": [
+          "author6",
+          "yachtcrew"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "landed and an investigation of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was begun."
+      },
+      {
+        "text": "The one inhabitant, a Basque",
+        "entity_key": "shepherd",
+        "entity_type": "person"
+      },
+      {
+        "text": ", came down to the beach."
+      },
+      {
+        "text": "He had not heard the news of the world for a year, and did not display any ambition to learn it. But he was not happy. Too many dead people, too many bones that make wind spirits blow, he said, and when he heard that",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "the party",
+        "tropes": [
+          7
+        ],
+        "entity_keys": [
+          "author6",
+          "yachtcrew"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "was after the remains of these dead people he showed an inclination to leave. In all probability there is not in any land a more remarkable mound that can be seen. About 10 feet in height and nearly a mile in length, it was at this time a veritable Golgotha, a collection of bones and implements of",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "the lost people",
+        "tropes": [
+          7
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", ever changing, ever shifting; today exposing numbers of skeletons, tomorrow covering them up in sheets of sand. One could easily imagine that a battle had been fought here and the dead had been buried by the drifting sand, but this was not the case.",
         "tropes": [
           7
         ]
@@ -33,7 +203,21 @@
     ],
     [
       {
-        "text": "The mound was a town site upon which hundreds of people had lived for untold ages. They had brought in their shells and fishbones, piled them up at the doors of their huts, slowly building themselves up higher and higher, until in time they came to live on the the top of a vast shell mound. Here they buried their dead, concealed their household goods, and when a man or woman died his or her possessions were buried with them, and so the big mounds were made up of shells, stone implements, fish and human bones—a monument of this lost race.",
+        "text": "The mound was a town site upon which hundreds of people had lived for untold ages. They had brought in their shells and fishbones, piled them up at the doors of their huts, slowly building themselves up higher and higher, until in time they came to live on the the top of a vast shell mound. Here they buried their dead, concealed their household goods, and when a man or woman died his or her possessions were buried with them, and so the big mounds were made up of shells, stone implements, fish and human bones—a monument of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "this lost race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -41,29 +225,301 @@
     ],
     [
       {
-        "text": "Where the original islanders came from, who they were or why they lived on such a wind-swept, nearly waterless island, is one of the mysteries, but it is known that the mission fathers visited San Nicolas years ago and took off the few survivors found there and divided them up among the various mainland tribes. When this human loot was being carried into execution a storm came up, and in the hurry of departure it was found that a woman had left her baby on the beach."
+        "text": "Where"
+      },
+      {
+        "text": "the original islanders",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "came from, who they were or why they lived on such"
+      },
+      {
+        "text": "a wind-swept, nearly waterless island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", is one of the mysteries, but it is known that the"
+      },
+      {
+        "text": "mission fathers",
+        "entity_keys": [
+          "ndur",
+          "aji",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "visited"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "years ago and took off"
+      },
+      {
+        "text": "the few survivors found there",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "and divided them up among the various mainland tribes. When"
+      },
+      {
+        "text": "this human loot",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "was being carried into execution a storm came up, and in the hurry of departure it was found that"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had left"
+      },
+      {
+        "text": "her baby",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "on the beach."
       }
     ],
     [
       {
-        "text": "It was impossible to land, so the captain sailed away, but not with the mother."
+        "text": "It was impossible to land, so"
       },
       {
-        "text": "She had plunged into the waves and swam a long distance to the shore, and, with her child, was deserted, the captain intending to return later for her.",
+        "text": "the captain",
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "sailed away, but not with"
+      },
+      {
+        "text": "the mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "She had plunged into the waves and swam a long distance to the shore, and, with",
         "tropes": [
           9
         ]
       },
       {
-        "text": "San Nicolas, however, was not visited for many years. The vessel was wrecked, but the legend lived and many years after a priest decided to visit the island and learn if the [w]oman had survived. An expedition was go[t] up in 1850, the party making a safe landing. They formed a line across the island in order not to miss any signs of human habitation and began a slow search from the south point north. They soon found evidence of ancient occupation, and in a deep canyon discovered a but [hut] and a woman, the mother who had been deserted years before. She was living in the hut, which was made of whale ribs and [sea] lion hair, her sole companions being several wild dogs that savagely charged the strangers."
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", was deserted,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the captain",
+        "tropes": [
+          9
+        ],
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "intending to return later for her.",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", however, was not visited for many years."
+      },
+      {
+        "text": "The vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was wrecked, but the legend lived and many years after"
+      },
+      {
+        "text": "a priest",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "decided to visit"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and learn if"
+      },
+      {
+        "text": "the [w]oman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had survived. An expedition was go[t] up in 1850,"
+      },
+      {
+        "text": "the party",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats",
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "making a safe landing. They formed a line across"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in order not to miss any signs of human habitation and began a slow search from the south point north. They soon found evidence of ancient occupation, and in a deep canyon discovered a but [hut] and"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the mother who had been deserted years before. She was living in the hut, which was made of whale ribs and [sea] lion hair, her sole companions being several wild dogs that savagely charged"
+      },
+      {
+        "text": "the strangers",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats",
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The woman could not make herself understood and, singularly enough, no one in all the Indian tribes in South California could be found who understood her."
+        "text": "The woman",
+        "entity_key": "lw",
+        "entity_type": "person"
       },
       {
-        "text": "She told her discoveries [discoverers] by signs that the wild dogs had killed her child long ago, that she killed sea lions and sea birds with stones and lived on them.",
+        "text": "could not make herself understood and, singularly enough, no one in all the Indian tribes in South"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "could be found who understood her."
+      },
+      {
+        "text": "She told",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her discoveries [discoverers]",
+        "tropes": [
+          10
+        ],
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats",
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "by signs that the wild dogs had killed",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "long ago, that she killed sea lions and sea birds with stones and lived on them.",
         "tropes": [
           10
         ]
@@ -71,15 +527,116 @@
     ],
     [
       {
-        "text": "At first she appeared to be afraid of the men, but, finding that they treated her kindly, she consented to go with them. She took all the rude articles she had used during the years of solitude, her skin dresses, made mostly from the skins of the [sea] lion, and so interesting were the costumes that they were sent to Rome to the Pope by the priest who instigated the rescue."
+        "text": "At first she appeared to be afraid of"
+      },
+      {
+        "text": "the men",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats",
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", but, finding that they treated her kindly, she consented to go with them. She took all the rude articles she had used during the years of solitude, her skin dresses, made mostly from the skins of the [sea] lion, and so interesting were the costumes that they were sent to"
+      },
+      {
+        "text": "Rome",
+        "entity_key": "ci_rom",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the Pope",
+        "entity_key": "pop",
+        "entity_type": "person"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "the priest",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who instigated the rescue."
       }
     ],
     [
       {
-        "text": "The woman was taken to Santa Barbara and named Maris [Maria], after the little vessel which accomplished her rescue. She was placed in care of a family who did everything possible for her."
+        "text": "The woman",
+        "entity_key": "lw",
+        "entity_type": "person"
       },
       {
-        "text": "She was bright and vivacious in disposition, learned some Spanish, danced and sang for her friends and was visited by Indians from various parts of California in an effort to find some one who could understand her.",
+        "text": "was taken to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and named Maris [Maria], after"
+      },
+      {
+        "text": "the little vessel",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "which accomplished her rescue. She was placed in care of"
+      },
+      {
+        "text": "a family",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who did everything possible for her."
+      },
+      {
+        "text": "She was bright and vivacious in disposition, learned some Spanish, danced and sang for her friends and was visited by Indians from various parts of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "California",
+        "tropes": [
+          3
+        ],
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "in an effort to find some one who could understand her.",
         "tropes": [
           3
         ]
@@ -94,7 +651,63 @@
     ],
     [
       {
-        "text": "The interesting mound which the writer examined on San Nicolas was formed during past centuries by the ancestors of this woman, and possesses an intense interest on this account. The island near the landing was 20 or 30 feet higher than the shore and reached through singular wind-worn passes, wind being the sculptor here. Once on the heights a broad mesa was seen as level as a floor and marked with lines which resembled ancient plowing or something of the kind. The mesa was covered with fine flinty stones about the size of peas, which the [h]erder says were picked up by the wind and blown through the air at times. They were arraigned [arranged] like chaff on a beach. The writer followed thi[s] mesa for several miles, and that the island had had a large and vigorous population at some distant time was evident."
+        "text": "The interesting mound which"
+      },
+      {
+        "text": "the writer",
+        "entity_key": "author6",
+        "entity_type": "person"
+      },
+      {
+        "text": "examined on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was formed during past centuries by"
+      },
+      {
+        "text": "the ancestors of this woman",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and possesses an intense interest on this account."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "near the landing was 20 or 30 feet higher than the shore and reached through singular wind-worn passes, wind being the sculptor here. Once on the heights a broad mesa was seen as level as a floor and marked with lines which resembled ancient plowing or something of the kind. The mesa was covered with fine flinty stones about the size of peas, which"
+      },
+      {
+        "text": "the [h]erder",
+        "entity_key": "shepherd",
+        "entity_type": "person"
+      },
+      {
+        "text": "says were picked up by the wind and blown through the air at times. They were arraigned [arranged] like chaff on a beach."
+      },
+      {
+        "text": "The writer",
+        "entity_key": "author6",
+        "entity_type": "person"
+      },
+      {
+        "text": "followed thi[s] mesa for several miles, and that"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "had had a large and vigorous population at some distant time was evident."
       },
       {
         "text": "Every short distance some object was found, now a pipe made from the vertebrae of a fish, a needle of fishbone, a dish made from a shell, the holes plugged with asphaltum. Here would be a stone club or mortar of steatite, a spearhead or a sinker and shell hooks that some fisherman centuries ago, perhaps, had dropped and forgotten.",
@@ -105,7 +718,23 @@
     ],
     [
       {
-        "text": "Everywhere piles of big pearly shells of a size unknown here were found, telling of the lives and work of these people. One mound was found covered by the ribs of whales and beneath them a flat rock bearing marks of various kinds and then the owner, a skeleton in perfect preservation, and all about it in the sand vessels of stone, flutes of bird bones and the various objects which went to make up the home of t[h]is unknown. In one spot six layers of skeletons were found, the lowest apparently very old. The question of age is always very interesting, but no one in contemplating these great shell deposits can form an adequate idea of their age.",
+        "text": "Everywhere piles of big pearly shells of a size unknown here were found, telling of the lives and work of",
+        "tropes": [
+          5,
+          7
+        ]
+      },
+      {
+        "text": "these people",
+        "tropes": [
+          5,
+          7
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". One mound was found covered by the ribs of whales and beneath them a flat rock bearing marks of various kinds and then the owner, a skeleton in perfect preservation, and all about it in the sand vessels of stone, flutes of bird bones and the various objects which went to make up the home of t[h]is unknown. In one spot six layers of skeletons were found, the lowest apparently very old. The question of age is always very interesting, but no one in contemplating these great shell deposits can form an adequate idea of their age.",
         "tropes": [
           5,
           7
@@ -114,7 +743,36 @@
     ],
     [
       {
-        "text": "The island evidently has been inhabited since the earliest times. It was doubtless fertile then, but the elements have conspired against it and it is doomed to be swept and covered with sand. The island is now frequented by the professional collectors, who go over from the mainland and live here for weeks and months, camping out on the sand dunes, weighting their tents down with rocks to prevent being blown into the sea. Every morning they go out with their hooks and poles, hunting for the spoils which have been uncovered by the wind in the night. In this way tons of material have been collected here and sent all over the world. Nearly all the great museums have collections from San Nicolas. The most conspicuous objects are the stone mortars, stone vessels weighing from 100 to 200 pounds. In walking over the large mounds numbers would be found broken in pieces by some vandal or some enemy in the long ago. That these ancient people were fond of ornaments is shown by the quanitity of beads found."
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "evidently has been inhabited since the earliest times. It was doubtless fertile then, but the elements have conspired against it and it is doomed to be swept and covered with sand."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is now frequented by the professional collectors, who go over from"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "and live here for weeks and months, camping out on the sand dunes, weighting their tents down with rocks to prevent being blown into the sea. Every morning they go out with their hooks and poles, hunting for the spoils which have been uncovered by the wind in the night. In this way tons of material have been collected here and sent all over the world. Nearly all the great museums have collections from"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The most conspicuous objects are the stone mortars, stone vessels weighing from 100 to 200 pounds. In walking over the large mounds numbers would be found broken in pieces by some vandal or some enemy in the long ago. That these ancient people were fond of ornaments is shown by the quanitity of beads found."
       }
     ]
   ]

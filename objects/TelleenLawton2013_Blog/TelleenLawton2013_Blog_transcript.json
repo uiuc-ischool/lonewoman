@@ -3,57 +3,555 @@
   "paragraphs": [
     [
       {
-        "text": "Along a rugged sandstone shoreline, elephant seals crowd the occasional coves, hauling out seasonally for birthing and mating. From 907-foot Jackson Hill, the Pacific undulates in every direction, allowing a backside view of Santa Barbara Island 28 miles northeast. A late-19th-century Basque sheepherder captured San Nicolas Island’s essence, musing, \"I have never felt a more irritating, searching, penetrating wind than this wraith of the spirits of San Nicolas, yet I found this island most attractive, from its very desolation.\""
+        "text": "Along a rugged sandstone shoreline, elephant seals crowd the occasional coves, hauling out seasonally for birthing and mating. From 907-foot"
+      },
+      {
+        "text": "Jackson Hill",
+        "entity_key": "re_jacksonhill",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the Pacific",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": "undulates in every direction, allowing a backside view of"
+      },
+      {
+        "text": "Santa Barbara Island",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "28 miles northeast."
+      },
+      {
+        "text": "A late-19th-century Basque sheepherder",
+        "entity_key": "fju",
+        "entity_type": "person"
+      },
+      {
+        "text": "captured San Nicolas Island’s essence, musing, \"I have never felt a more irritating, searching, penetrating wind than this wraith of the spirits of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", yet I found"
+      },
+      {
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "most attractive, from its very desolation.\""
       }
     ],
     [
       {
-        "text": "More than a century later, I stood above the wind-whipped waves at Rock Crusher, a dramatic beach on San Nicolas’s northwest. The isolation of this outermost Channel Island is undeniable, yet recent stunning discoveries have brought it into the news. Within its 22 square miles, history is being reclaimed, bucketful by bucketful."
+        "text": "More than a century later, I stood above the wind-whipped waves at"
+      },
+      {
+        "text": "Rock Crusher",
+        "entity_key": "re_rockcrusher",
+        "entity_type": "place"
+      },
+      {
+        "text": ", a dramatic beach on San Nicolas’s northwest. The isolation of"
+      },
+      {
+        "text": "this outermost Channel Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is undeniable, yet recent stunning discoveries have brought it into the news. Within its 22 square miles, history is being reclaimed, bucketful by bucketful."
       }
     ],
     [
       {
-        "text": "In the early 19th century, San Nicolas was home to the Lone Woman, whose story was immortalized in Scott O’Dell’s 1960 novel Island of the Blue Dolphins. He romanticized the life of an abandoned woman, \"Karana,\" into a Robinson Crusoe-like adventure. Recent finds are allowing the real Lone Woman to emerge, revealing clues about her fight for survival in that tumultuous time."
+        "text": "In the early 19th century,"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was home to"
+      },
+      {
+        "text": "the Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", whose story was immortalized in Scott O’Dell’s 1960 novel Island of the Blue Dolphins. He romanticized the life of an abandoned woman, \""
+      },
+      {
+        "text": "Karana",
+        "entity_key": "kar",
+        "entity_type": "person"
+      },
+      {
+        "text": ",\" into a Robinson Crusoe-like adventure. Recent finds are allowing"
+      },
+      {
+        "text": "the real Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to emerge, revealing clues about her fight for survival in that tumultuous time."
       }
     ],
     [
       {
-        "text": "The Lone Woman and her Nicoleño tribe were related to the mainland Tongva (Gabrielino) Indians. They hunted and fished the rich marine resources: sea lions and otters, fish and shellfish. Archaeologists have unearthed at least 22 village sites dating between 6,000 and 3,000 years ago."
+        "text": "The Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and her"
+      },
+      {
+        "text": "Nicoleño tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "were related to the"
+      },
+      {
+        "text": "mainland Tongva",
+        "entity_key": "natam_GabrilenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "("
+      },
+      {
+        "text": "Gabrielino",
+        "entity_key": "natam_GabrilenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ") Indians. They hunted and fished the rich marine resources: sea lions and otters, fish and shellfish. Archaeologists have unearthed at least 22 village sites dating between 6,000 and 3,000 years ago."
       }
     ],
     [
       {
-        "text": "In the 1800s, Russia sent otter-fur hunters down the Pacific coast, conscripting Aleutian Indians for labor. Letters tell of a violent conflict between Russians and Nicoleños in 1814, resulting in a Nicoleño killing a hunter. In response, the Russians apparently decimated the native population. In November 1835, the remaining Nicoleños, minus one woman, were removed to San Pedro."
+        "text": "In the 1800s,"
+      },
+      {
+        "text": "Russia",
+        "entity_key": "rfurcompany",
+        "entity_type": "org"
+      },
+      {
+        "text": "sent"
+      },
+      {
+        "text": "otter-fur hunters",
+        "entity_keys": [
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak",
+          "1814huntingparty"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "down the"
+      },
+      {
+        "text": "Pacific coast",
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", conscripting"
+      },
+      {
+        "text": "Aleutian Indians",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "for labor. Letters tell of a violent conflict between"
+      },
+      {
+        "text": "Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Nicoleños",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "in 1814, resulting in"
+      },
+      {
+        "text": "a Nicoleño",
+        "entity_key": "Nicolenoman1",
+        "entity_type": "person"
+      },
+      {
+        "text": "killing"
+      },
+      {
+        "text": "a hunter",
+        "entity_key": "aleman1",
+        "entity_type": "person"
+      },
+      {
+        "text": ". In response,"
+      },
+      {
+        "text": "the Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "apparently decimated"
+      },
+      {
+        "text": "the native population",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". In November 1835,"
+      },
+      {
+        "text": "the remaining Nicoleños",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ", minus"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", were removed to"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "O’Dell’s fiction depicts Karana running away from the rescue ship in a vain search for her lost younger brother. In fact, it’s unknown why the Lone Woman stayed. What is known is that she lived alone in a cave for 18 years before Captain George Nidever brought her to Santa Barbara. She died seven weeks later, on October 19, 1853, and was baptized Juana Maria."
+        "text": "O’Dell’s fiction depicts"
+      },
+      {
+        "text": "Karana",
+        "entity_key": "kar",
+        "entity_type": "person"
+      },
+      {
+        "text": "running away from"
+      },
+      {
+        "text": "the rescue ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "in a vain search for"
+      },
+      {
+        "text": "her lost younger brother",
+        "entity_key": "ram",
+        "entity_type": "person"
+      },
+      {
+        "text": ". In fact, it’s unknown why"
+      },
+      {
+        "text": "the Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "stayed. What is known is that she lived alone in a cave for 18 years before"
+      },
+      {
+        "text": "Captain George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "brought her to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She died seven weeks later, on October 19, 1853, and was baptized"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "For the next century, a few fisherman [sic], abalone divers and sheepherders inhabited the island . Ranching families—including the Kimberlys, Elliots and Agees—maintained as many as 15,000 sheep."
+        "text": "For the next century, a few fisherman [sic], abalone divers and sheepherders inhabited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Ranching families—including"
+      },
+      {
+        "text": "the Kimberlys",
+        "entity_key": "mkim",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Elliots",
+        "entity_keys": [
+          "ell",
+          "jel"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Agees",
+        "entity_key": "rag",
+        "entity_type": "person"
+      },
+      {
+        "text": "—maintained as many as 15,000 sheep."
       }
     ],
     [
       {
-        "text": "The U.S. Navy took possession of the island in the 1930s. Its mission was weapons testing, but environmental laws eventually brought the mandate to return the island to sustainable health. Sea otters, extirpated in the 1800s, were re-introduced in the late 1990s, but the program ended in 2012 because the otters wouldn’t stay."
+        "text": "The"
+      },
+      {
+        "text": "U.S. Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "took possession of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in the 1930s. Its mission was weapons testing, but environmental laws eventually brought the mandate to return"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to sustainable health. Sea otters, extirpated in the 1800s, were re-introduced in the late 1990s, but the program ended in 2012 because the otters wouldn’t stay."
       }
     ],
     [
       {
-        "text": "The Lone Woman’s story fascinated island adventurers. Letters and maps pinpointed her cave; its location was well known into the late 1800s. Then it was literally buried in history. Seven surveys of the island between 1926 and 2002 turned up no evidence of a habitable cave."
+        "text": "The Lone Woman’s story fascinated island adventurers. Letters and maps pinpointed"
+      },
+      {
+        "text": "her cave",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "; its location was well known into the late 1800s. Then it was literally buried in history. Seven surveys of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "between 1926 and 2002 turned up no evidence of a habitable cave."
       }
     ],
     [
       {
-        "text": "Meanwhile, Navy archaeological studies uncovered the Nicoleños’ rich ways of life. Middens revealed beads and tools originating from thousands of miles away. This spoke to the centrality of the island despite its physical separation. Excavations uncovered dogs buried ceremoniously, some with repaired bones underscoring their high value. But years of inquiry and diggings had frustrated the Navy’s San Nicolas archaeologist, Steven Schwartz, who was determined to unearth the Lone Woman’s cave."
+        "text": "Meanwhile, Navy archaeological studies uncovered the Nicoleños’ rich ways of life. Middens revealed beads and tools originating from thousands of miles away. This spoke to the centrality of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "despite its physical separation. Excavations uncovered dogs buried ceremoniously, some with repaired bones underscoring their high value. But years of inquiry and diggings had frustrated the Navy’s San Nicolas archaeologist,"
+      },
+      {
+        "text": "Steven Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who was determined to unearth"
+      },
+      {
+        "text": "the Lone Woman’s cave",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "In 2010, after 20 years of work, Schwartz received an inquiry from Scott Byram of U.C. Berkeley. Byram sought to verify information on an old map he was using. After answering his questions, Schwartz asked for any cave references on the map. Byram replied with a letter containing specific compass directions to the cave \"formerly inhabited by a wild Indian woman.\" The location was near Rock Crusher, under a sandstone ledge Schwartz had tested repeatedly. An exultant Schwartz, along with C.S.U. coastal archaeologist René L. Vellanoweth, were determined to dig deeper."
+        "text": "In 2010, after 20 years of work,"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "received an inquiry from"
+      },
+      {
+        "text": "Scott Byram",
+        "entity_key": "sby",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "U.C. Berkeley",
+        "entity_key": "in_ucb",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Byram",
+        "entity_key": "sby",
+        "entity_type": "person"
+      },
+      {
+        "text": "sought to verify information on an old map he was using. After answering his questions,"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "asked for any cave references on the map."
+      },
+      {
+        "text": "Byram",
+        "entity_key": "sby",
+        "entity_type": "person"
+      },
+      {
+        "text": "replied with a letter containing specific compass directions to"
+      },
+      {
+        "text": "the cave",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "\"formerly inhabited by"
+      },
+      {
+        "text": "a wild Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".\" The location was near"
+      },
+      {
+        "text": "Rock Crusher",
+        "entity_key": "re_rockcrusher",
+        "entity_type": "place"
+      },
+      {
+        "text": ", under a sandstone ledge"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "had tested repeatedly. An exultant"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ", along with C.S.U. coastal archaeologist"
+      },
+      {
+        "text": "René L. Vellanoweth",
+        "entity_key": "rve",
+        "entity_type": "person"
+      },
+      {
+        "text": ", were determined to dig deeper."
       }
     ],
     [
@@ -63,32 +561,165 @@
     ],
     [
       {
-        "text": "The cave is more than 75 feet deep. After removing some one million pounds of sand, researchers have yet to uncover most of the floor. Schwartz hopes the floor level will expose any artifacts that weren’t spirited away in the decades before the cave filled. While the inside is very dark, its size, warmth and protection from San Nicolas’s difficult weather make it ideal living quarters. It is large enough for a small village. Schwartz is 90% sure that this was the Lone Woman’s home."
+        "text": "The cave",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "is more than 75 feet deep. After removing some one million pounds of sand, researchers have yet to uncover most of the floor."
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "hopes the floor level will expose any artifacts that weren’t spirited away in the decades before the cave filled. While the inside is very dark, its size, warmth and protection from San Nicolas’s difficult weather make it ideal living quarters. It is large enough for a small village."
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "is 90% sure that this was"
+      },
+      {
+        "text": "the Lone Woman’s home",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Meanwhile, another fortuitous discovery is shedding additional light on the Lone Woman’s solitary life. In 2010, researchers from University of Oregon, Cal State Los Angeles and the Navy were following an ancient sediment layer, seeking evidence of the island’s earliest occupation. Suddenly they spied a box cache eroding from a beach cliff on the north side. Timing was critical, since snowy plover nesting season would soon close the area, and winter storms could erode the boxes into the sea."
+        "text": "Meanwhile, another fortuitous discovery is shedding additional light on the Lone Woman’s solitary life. In 2010, researchers from"
+      },
+      {
+        "text": "University of Oregon",
+        "entity_key": "in_uofo",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Cal State Los Angeles",
+        "entity_key": "in_calstatela",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "were following an ancient sediment layer, seeking evidence of the island’s earliest occupation. Suddenly they spied a box cache eroding from a beach cliff on the north side. Timing was critical, since snowy plover nesting season would soon close the area, and winter storms could erode the boxes into the sea."
       }
     ],
     [
       {
-        "text": "The other project was abandoned and the precarious cache carefully excavated. Two redwood boxes held more than 200 artifacts from the time of confluence of Nicoleño, native Alaskan and European cultures: the 19th century. Among them were harpoons with copper blades, a smoking pipe, a brass button and projectile points with redwood shafts. The cache may be one of several the Lone Woman is thought to have maintained while on different parts of the island."
+        "text": "The other project was abandoned and the precarious cache carefully excavated. Two redwood boxes held more than 200 artifacts from the time of confluence of"
+      },
+      {
+        "text": "Nicoleño",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "native Alaskan",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "and European cultures: the 19th century. Among them were harpoons with copper blades, a smoking pipe, a brass button and projectile points with redwood shafts. The cache may be one of several"
+      },
+      {
+        "text": "the Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "is thought to have maintained while on different parts of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "With these two discoveries fresh in the news, the 2012 Channel Islands Symposium commanded the excitement of a rock-star gathering. The discoveries were first announced there to standing-room-only crowds and subsequently detailed at a plethora of scientific meetings. Nicoleño descendants have been enthusiastic participants."
+        "text": "With these two discoveries fresh in the news,"
+      },
+      {
+        "text": "the 2012 Channel Islands Symposium",
+        "entity_key": "2012chisymp",
+        "entity_type": "org"
+      },
+      {
+        "text": "commanded the excitement of a rock-star gathering. The discoveries were first announced there to standing-room-only crowds and subsequently detailed at a plethora of scientific meetings."
+      },
+      {
+        "text": "Nicoleño descendants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "have been enthusiastic participants."
       }
     ],
     [
       {
-        "text": "These glimpses into the life of the Nicoleños and the Lone Woman allow researchers to ground the Island of the Blue Dolphins in reality. Twenty-first-century teachers can present O’Dell’s book as both a timeless literary classic and a novel reflecting its own time period’s cultural, historical and political biases."
+        "text": "These glimpses into the life of"
+      },
+      {
+        "text": "the Nicoleños",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the Lone Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "allow researchers to ground the Island of the Blue Dolphins in reality. Twenty-first-century teachers can present O’Dell’s book as both a timeless literary classic and a novel reflecting its own time period’s cultural, historical and political biases."
       }
     ],
     [
       {
-        "text": "San Nicolas Island suffered twin 19th-century catastrophes: the Nicoleño cultural tragedy and an ecological erosion disaster. In turn, the erosion may have preserved some of this important history by burial. But how much more is still buried or already eroded into the sea? The haunting beauty of this isolated island likely harbors many more secrets."
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "suffered twin 19th-century catastrophes: the Nicoleño cultural tragedy and an ecological erosion disaster. In turn, the erosion may have preserved some of this important history by burial. But how much more is still buried or already eroded into the sea? The haunting beauty of"
+      },
+      {
+        "text": "this isolated island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "likely harbors many more secrets."
       }
     ]
   ]

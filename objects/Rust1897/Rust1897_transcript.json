@@ -3,17 +3,293 @@
   "paragraphs": [
     [
       {
-        "text": "SAN NICOLAS ISLAND is about eight by four miles in extent and lies about eighty miles off the California coast southwest of Los Angeles city. The island is now nearly bare of vegetation, being wind-swept the greater part of the year so that it is unfit for human habitation."
+        "text": "SAN NICOLAS ISLAND",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is about eight by four miles in extent and lies about eighty miles off the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "southwest of"
+      },
+      {
+        "text": "Los Angeles city",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is now nearly bare of vegetation, being wind-swept the greater part of the year so that it is unfit for human habitation."
       }
     ],
     [
       {
-        "text": "It is properly called a desert, having very little water, nearly bare of vegetation, deserted by man and nearly so by animal life. The wind sweeps over the island so constantly that campers find it difficulty to sustain themselves for a brief visit and the seal and otter hunters prefer to live on shipboard during the season that a vessel can safely anchor in the vicinity. The island once supported quite a large population, as evidenced by the implements of stone, bone, shell and wood which are found in the graves of their dead and upon the wind-swept surface."
+        "text": "It is properly called a desert, having very little water, nearly bare of vegetation, deserted by man and nearly so by animal life. The wind sweeps over"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "so constantly that campers find it difficulty to sustain themselves for a brief visit and the seal and otter hunters prefer to live on shipboard during the season that a vessel can safely anchor in the vicinity."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "once supported quite"
+      },
+      {
+        "text": "a large population",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", as evidenced by the implements of stone, bone, shell and wood which are found in the graves of their dead and upon the wind-swept surface."
       }
     ],
     [
       {
-        "text": "Tradition tells us that the early inhabitants of the Island San Nicolas were a weak and defenceless people; that they were reduced in numbers by the Russians who came to the Islands for furs, bringing Alaskan Indians and that hostile Indians from the mainland also visited them and that these visitors killed the men to secure their otter skin clothing and carried off the women, thus reducing them, until about 1835 when the Mexican government sent a sloop called the \"Better than Nothing\" commanded by a sea otter hunter named Sparks to bring the seven or eight persons that remained to the mainland.",
+        "text": "Tradition tells us that",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the early inhabitants",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "of the",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "Island San Nicolas",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "were a weak and defenceless people; that they were reduced in numbers by",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the Russians",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_keys": [
+          "rfurcompany",
+          "iba",
+          "1814huntingparty"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who came to",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the Islands",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "for furs, bringing",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "Alaskan Indians",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak",
+          "1814huntingparty"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and that hostile Indians from the mainland also visited them and that",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "these visitors",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_keys": [
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak",
+          "1814huntingparty",
+          "natam_mainlandindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "killed",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "to secure their otter skin clothing and carried off",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the women",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", thus reducing them, until about 1835 when the",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "Mexican government",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "gov_mexico",
+        "entity_type": "org"
+      },
+      {
+        "text": "sent a",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "sloop called the \"Better than Nothing\"",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "commanded by a sea otter hunter named",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "Sparks",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "to bring the",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "seven or eight persons that remained",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to the",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "mainland",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           11,
           13
@@ -22,12 +298,144 @@
     ],
     [
       {
-        "text": "They induced them all to come to the beach, but one poor mother having left her child returned for it, when this noble white man sailed away leaving the poor woman and her child to the mercy of the wild dogs that inhabited the island. Imagine her desolation! They said that she would not live long so they did not return for her."
+        "text": "They induced them all to come to the beach, but"
+      },
+      {
+        "text": "one poor mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "having left"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned for it, when"
+      },
+      {
+        "text": "this noble white man",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "sailed away leaving"
+      },
+      {
+        "text": "the poor woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "to the mercy of the wild dogs that inhabited"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Imagine her desolation! They said that she would not live long so they did not return for her."
       }
     ],
     [
       {
-        "text": "In 1853, George Nidever and Charles Brown, sea otter hunters living at Santa Barbara, having seen human tracks on the island determined to find who it was and later they related to D. W. Thompson of Santa Barbara as follows:",
+        "text": "In 1853,",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "George Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Charles Brown",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", sea otter hunters living at",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          4
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", having seen human tracks on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "determined to find who it was and later they related to",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "D. W. Thompson",
+        "tropes": [
+          4
+        ],
+        "entity_key": "dth",
+        "entity_type": "person"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          4
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "as follows:",
         "tropes": [
           4
         ]
@@ -35,7 +443,58 @@
     ],
     [
       {
-        "text": "We went to the island three times before we found her. On the last trip we took some Indians and two or three white men. We took all on shore except the cook. Excepting her to hide, we scattered two or three hundred yards apart to cover the whole ground. We saw small tracks indicating a woman's foot, and found a basket containing some feathers which we scattered and found them gathered together again the same day, showing that she had been there.",
+        "text": "We went to",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "three times before we found her. On the last trip we took some",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Indians and two or three white men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". We took all on shore except",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the cook",
+        "tropes": [
+          4
+        ],
+        "entity_key": "cook",
+        "entity_type": "person"
+      },
+      {
+        "text": ". Excepting her to hide, we scattered two or three hundred yards apart to cover the whole ground. We saw small tracks indicating a woman's foot, and found a basket containing some feathers which we scattered and found them gathered together again the same day, showing that she had been there.",
         "tropes": [
           4
         ]
@@ -49,7 +508,20 @@
         ]
       },
       {
-        "text": "She was sitting by a fire. She had a brush fence two feet high around her hut to keep off the wind. She was skinning a seal. When she saw the Indians of her own class she offered them food, and exhibited no fear. We made signs to her to induce her to go with us which she did readily, taking along all she had. She carried a seal's head. Arriving at the water she washed herself and we have her some biscuit, which she seemed to enjoy, and made skirts for her out of bed ticking and sailor clothes. We stayed about one month and she camped with us living on the same, [sic] food we used, gathering fuel and water for herself and showing no disposition to leave us."
+        "text": "She was sitting by a fire. She had a brush fence two feet high around her hut to keep off the wind. She was skinning a seal. When she saw"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "of her own class she offered them food, and exhibited no fear. We made signs to her to induce her to go with us which she did readily, taking along all she had. She carried a seal's head. Arriving at the water she washed herself and we have her some biscuit, which she seemed to enjoy, and made skirts for her out of bed ticking and sailor clothes. We stayed about one month and she camped with us living on the same, [sic] food we used, gathering fuel and water for herself and showing no disposition to leave us."
       },
       {
         "text": "She busied herself making baskets, working on several at a time, but finishing none.",
@@ -66,21 +538,83 @@
     ],
     [
       {
-        "text": "When she reached Santa Barbara the priests tried to learn her history but no one could understand her talk and communication with her was made by signs."
+        "text": "When she reached"
       },
       {
-        "text": "Her friends who left the island before her were all dead.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "the priests",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "tried to learn her history but no one could understand her talk and communication with her was made by signs."
+      },
+      {
+        "text": "Her friends",
+        "tropes": [
+          6
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "who left",
         "tropes": [
           6
         ]
       },
       {
-        "text": "She was named after the little vessel that rescued her, \"Better than Nothing\"."
+        "text": "the island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "before her were all dead.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "She was named after"
+      },
+      {
+        "text": "the little vessel that rescued her, \"Better than Nothing\"",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "She enjoyed going from house to house and as Brown said \"was happy as a lady\". She would dance Indian dances to amuse the lookers[-]on, and was delighted with clothes given her.",
+        "text": "She enjoyed going from house to house and as",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Brown",
+        "tropes": [
+          3
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "said \"was happy as a lady\". She would dance Indian dances to amuse the lookers[-]on, and was delighted with clothes given her.",
         "tropes": [
           3
         ]
@@ -88,15 +622,96 @@
     ],
     [
       {
-        "text": "All persons treated her kindly and Nidever generously gave her a home at his house, refusing an offer from some one who wished to exhibit her for money. But the change was too sudden and great. After about five weeks she sickened and died under Nidever's roof."
+        "text": "All persons treated her kindly and"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "generously gave her a home at"
+      },
+      {
+        "text": "his house",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ", refusing"
+      },
+      {
+        "text": "an offer",
+        "entity_key": "tru",
+        "entity_type": "person"
+      },
+      {
+        "text": "from some one who wished to exhibit her for money. But the change was too sudden and great. After about five weeks she sickened and died under"
+      },
+      {
+        "text": "Nidever's roof",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "She was apparently about forty-five years of age. The priests acquired from Nidever her dress, bone needles and knives of bone and wood, nails pointed for catching fish, a rope neatly twisted of sinews, bottles made of grass and dishes of wood."
+        "text": "She was apparently about forty-five years of age."
       },
       {
-        "text": "They sent them to Rome, relics of the last inhabitant of San Nicolas.",
+        "text": "The priests",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "acquired from"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "her dress, bone needles and knives of bone and wood, nails pointed for catching fish, a rope neatly twisted of sinews, bottles made of grass and dishes of wood."
+      },
+      {
+        "text": "They sent them to",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Rome",
+        "tropes": [
+          6
+        ],
+        "entity_key": "ci_rom",
+        "entity_type": "place"
+      },
+      {
+        "text": ", relics of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the last inhabitant of San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -104,7 +719,15 @@
     ],
     [
       {
-        "text": "The following list of specimens were found on this island during the summer of 1897 and represent nearly all the necessary implements of a pre-historic family as well as the tools and manufactured ornaments and implements from a pre-historic workshop, a very remarkable find."
+        "text": "The following list of specimens were found on"
+      },
+      {
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "during the summer of 1897 and represent nearly all the necessary implements of a pre-historic family as well as the tools and manufactured ornaments and implements from a pre-historic workshop, a very remarkable find."
       }
     ],
     [
@@ -114,7 +737,23 @@
     ],
     [
       {
-        "text": "The steatite deposit nearest is on Catalina Island 50 miles away. The serpentine is from Piedras Blancas[.]"
+        "text": "The steatite deposit nearest is on"
+      },
+      {
+        "text": "Catalina Island",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "50 miles away. The serpentine is from"
+      },
+      {
+        "text": "Piedras Blancas",
+        "entity_key": "re_pblanca",
+        "entity_type": "place"
+      },
+      {
+        "text": "[.]"
       }
     ],
     [

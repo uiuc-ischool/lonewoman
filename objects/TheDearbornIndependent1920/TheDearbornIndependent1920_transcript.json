@@ -3,47 +3,120 @@
   "paragraphs": [
     [
       {
-        "text": "AN EXPEDITION of scientific students has been made up in California and Oregon, to explore thoroughly the channel islands off that part of the coast in California known as Santa Barbara and Ventura counties during the next six months. The party is to be sustained by Stanford University largely and to a less[er] extent by several denominational colleges in Southern California. Anthropological and archaeological students, who have spent several weeks each on these islands, say they are one of the very richest fields for work in that department of knowledge on the Pacific Coast."
-      }
-    ],
-    [
-      {
-        "text": "The channel islands constitute California's only archipelago, with the possible exceptions of the rocky and scanty Farallone Islands. They have been objects of romance, legends, curiosity and mystery for a generation.",
-        "tropes": [
-          5
-        ]
-      }
-    ],
-    [
-      {
-        "text": "The islands are within eighty-two miles of California's shore, yet are unfrequented, and years roll by with visits to them of less than fifty persons annually. Each island has its own particular strange, uncanny tradtions of the tribes of red men, and each has the countless traces of an occupation by thousands and thousands of Indians.",
-        "tropes": [
-          5
-        ]
-      }
-    ],
-    [
-      {
-        "text": "When Juan Rodriquez Cabrillo, the Portuguese navigator, sailed up the coast of California in 1542, he stopped for a day or two at each of the channel islands, and his records bear testimony that on the islands of Santa Barbara, Catalina, Clemente and St. Nicholas there were a \"vigorous and lusty race of natives, who thronged the shores of the little bays and headlands,\" and gazed in mute wonder at the white-sailed ship of the navigators.",
-        "tropes": [
-          6
-        ]
-      }
-    ],
-    [
-      {
-        "text": "Today the islands stand as they did more than 350 years ago, but the natives are only a memory, represented by immense quantities of stone implements, barrels of fine wampum and cartloads of human bones.",
-        "tropes": [
-          6
-        ]
-      }
-    ],
-    [
-      {
-        "text": "St. Nicholas Island lies eighty miles immediately opposite the little city of San Buenaventura (recently called by the more modern and easy name of Ventura) and is the most interesting of all the channel islands from many points of view. As far back as the memory of any person in Southern California extends, hundreds of white skeletons have dotted the valleys and hillsides."
+        "text": "AN EXPEDITION of scientific students has been made up in"
       },
       {
-        "text": "Strange utensils of serpentine[,] sandstone and steatite are found there among the human bones, and the island and its erstwhile inhabitants have a history so curious that it is difficult of comprehension.",
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Oregon",
+        "entity_key": "st_or",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to explore thoroughly the"
+      },
+      {
+        "text": "channel islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "off that part of the coast in"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "known as"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "co_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "co_ventura",
+        "entity_type": "place"
+      },
+      {
+        "text": "counties during the next six months. The party is to be sustained by"
+      },
+      {
+        "text": "Stanford University",
+        "entity_key": "in_stanford",
+        "entity_type": "org"
+      },
+      {
+        "text": "largely and to a less[er] extent by several denominational colleges in"
+      },
+      {
+        "text": "Southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Anthropological and archaeological students, who have spent several weeks each on"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", say they are one of the very richest fields for work in that department of knowledge on the"
+      },
+      {
+        "text": "Pacific Coast",
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "channel islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "constitute California's only archipelago, with the possible exceptions of the",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "rocky and scanty Farallone Islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_far",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They have been objects of romance, legends, curiosity and mystery for a generation.",
         "tropes": [
           5
         ]
@@ -51,7 +124,223 @@
     ],
     [
       {
-        "text": "In 1835 the Franciscan padres in the Santa Barbara mission, leaning that there were but sixteen of the strange and almost extinct human race then living there, determined to rescue them from the island. They went over in a sloop and succeeded, as they thought, in getting all on board.",
+        "text": "The islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "are within eighty-two miles of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "California's shore",
+        "tropes": [
+          5
+        ],
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", yet are unfrequented, and years roll by with visits to them of less than fifty persons annually. Each island has its own particular strange, uncanny tradtions of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the tribes of red men",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", and each has the countless traces of an occupation by thousands and thousands of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Indians",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          5
+        ]
+      }
+    ],
+    [
+      {
+        "text": "When",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Juan Rodriquez Cabrillo",
+        "tropes": [
+          6
+        ],
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the Portuguese navigator, sailed up the coast of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "California",
+        "tropes": [
+          6
+        ],
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1542, he stopped for a day or two at each of the",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "channel islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and his records bear testimony that on the islands of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Catalina",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Clemente",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "St. Nicholas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "there were a \"",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "vigorous and lusty race of natives",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", who thronged the shores of the little bays and headlands,\" and gazed in mute wonder at",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the white-sailed ship",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "sh_salvador",
+          "sh_lavictoria"
+        ],
+        "entity_type": "ship"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the navigators",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "jca",
+          "bfe"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -59,7 +348,39 @@
     ],
     [
       {
-        "text": "At the last moment an Indian woman returned for her child and one of the frequent storms of the channel islands springing up, the sloop was driven away without her. The sloop went on the rocks of Point Conception and all were lost.",
+        "text": "Today",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "stand as they did more than 350 years ago, but",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "are only a memory, represented by immense quantities of stone implements, barrels of fine wampum and cartloads of human bones.",
         "tropes": [
           6
         ]
@@ -67,20 +388,421 @@
     ],
     [
       {
-        "text": "Sixteen years later Captain George Nidever and two men went from the coast on a sloop to hunt otter off St. Nicholas. On landing they were, like Crusoe, astonished to discover human footprints in the sand. They saw no one, however, and a storm compelled them to put to sea.",
+        "text": "St. Nicholas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "lies eighty miles immediately opposite the little city of"
+      },
+      {
+        "text": "San Buenaventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "(recently called by the more modern and easy name of"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": ") and is the most interesting of all the"
+      },
+      {
+        "text": "channel islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "from many points of view. As far back as the memory of any person in"
+      },
+      {
+        "text": "Southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": "extends, hundreds of white skeletons have dotted the valleys and hillsides."
+      },
+      {
+        "text": "Strange utensils of serpentine[,] sandstone and steatite are found there among the human bones, and",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "its erstwhile inhabitants",
+        "tropes": [
+          5
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "have a history so curious that it is difficult of comprehension.",
+        "tropes": [
+          5
+        ]
+      }
+    ],
+    [
+      {
+        "text": "In 1835",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Franciscan padres in the Santa Barbara mission",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "ndur",
+          "aji",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", leaning that there were but",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "sixteen of the strange and almost extinct human race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "then living there, determined to rescue them from",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They went over in",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "a sloop",
+        "tropes": [
+          6
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and succeeded, as they thought, in getting all on board.",
+        "tropes": [
+          6
+        ]
+      }
+    ],
+    [
+      {
+        "text": "At the last moment",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "an Indian woman",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned for",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "and one of the frequent storms of the",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "channel islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "springing up,",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the sloop",
+        "tropes": [
+          6
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was driven away without her.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The sloop",
+        "tropes": [
+          6
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "went on the rocks of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Point Conception",
+        "tropes": [
+          6
+        ],
+        "entity_key": "re_pc",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "all",
+        "tropes": [
+          6
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were lost.",
+        "tropes": [
+          6
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Sixteen years later",
         "tropes": [
           4
         ]
       },
       {
-        "text": "It was two years thereafter that the adventurous captain, revolving in his mind the sight of the footprints on the uncanny island, determined to go to discover and bring over the lonely woman of whom he had vaguely heard.",
+        "text": "Captain George Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "two men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "tje",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "went from",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a sloop",
+        "tropes": [
+          4
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to hunt otter off",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "St. Nicholas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". On landing they were, like Crusoe, astonished to discover human footprints in the sand. They saw no one, however, and a storm compelled them to put to sea.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "It was two years thereafter that",
         "tropes": [
           4,
           5
         ]
       },
       {
-        "text": "Men accompanied him and at length they saw on the surf-beaten shore a woman with long tawny hair, dressed in a queer garb of colored bird skins and scraping with a bone knife the blubber from a seal.",
+        "text": "the adventurous captain",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", revolving in his mind the sight of the footprints on",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the uncanny island",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", determined to go to discover and bring over",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the lonely woman",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "of whom he had vaguely heard.",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "Men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "accompanied him and at length they saw on the surf-beaten shore",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "with long tawny hair, dressed in a queer garb of colored bird skins and scraping with a bone knife the blubber from a seal.",
         "tropes": [
           4
         ]
@@ -93,7 +815,29 @@
         ]
       },
       {
-        "text": "The wild woman offered no objection when by signs she was made to understand that she was to go with them in the boat.",
+        "text": "The wild woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "offered no objection when by signs she was made to understand that she was to go with them in",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the boat",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ".",
         "tropes": [
           1
         ]
@@ -101,21 +845,124 @@
     ],
     [
       {
-        "text": "They reached Santa Barbara across the rough sea, and the first thing the Indian woman saw was a man riding a horse. She had never seen nor heard of any object like it, and thought the man and horse were one, and she knelt on the shore and offered her devotions to it."
+        "text": "They reached"
       },
       {
-        "text": "Two weeks afterward the last inhabitant of rock-ribbed, tempest-tossed St. Nicholas died from eating food to which she was unaccustomed, furnished by her rescuers, and the curtain fell on her race forever.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "across the rough sea, and the first thing"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "saw was"
+      },
+      {
+        "text": "a man riding a horse",
+        "entity_keys": [
+          "riderhorseman",
+          "mrni",
+          "jsh",
+          "ssh"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". She had never seen nor heard of any object like it, and thought"
+      },
+      {
+        "text": "the man",
+        "entity_keys": [
+          "riderhorseman",
+          "mrni",
+          "jsh",
+          "ssh"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and horse were one, and she knelt on the shore and offered her devotions to it."
+      },
+      {
+        "text": "Two weeks afterward",
         "tropes": [
           6
         ]
       },
       {
-        "text": "The woman, known as the \"Lone Woman of St. Nicholas,\" has been the subject of a score of romances and poems."
+        "text": "the last inhabitant of rock-ribbed, tempest-tossed St. Nicholas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "died from eating food to which she was unaccustomed, furnished by",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her rescuers",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", and the curtain fell on",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "forever.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", known as the \"Lone Woman of St. Nicholas,\" has been the subject of a score of romances and poems."
       }
     ],
     [
       {
-        "text": "St. Nicholas is ten miles long and four miles wide at the widest point. Its topography shows a nearly level plateau, with an elevation of 800 to 1,000 feet. Two-thirds of the surface is covered with drifting sand, and the remainder grows a species of nutritious grass and moss, on which a thousand sheep find pasture."
+        "text": "St. Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is ten miles long and four miles wide at the widest point. Its topography shows a nearly level plateau, with an elevation of 800 to 1,000 feet. Two-thirds of the surface is covered with drifting sand, and the remainder grows a species of nutritious grass and moss, on which a thousand sheep find pasture."
       }
     ],
     [
@@ -128,7 +975,21 @@
         "text": "An examination of some mounds discloses all sorts of curious utensils—stone cooking pots, ollas, mortars, pestles, drills, bone needles and fishhooks, shell beads, charm stones, pipes, cups and a few arrow-heads, spear points, and swords made of bone."
       },
       {
-        "text": "The absence of many weapons proves the peaceful attributes of the islanders. Small imitations of boats and fish carved from crystallized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
+        "text": "The absence of many weapons proves the peaceful attributes of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the islanders",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". Small imitations of boats and fish carved from crystallized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
         "tropes": [
           3
         ]

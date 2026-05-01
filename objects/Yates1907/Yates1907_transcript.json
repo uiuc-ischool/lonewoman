@@ -3,21 +3,128 @@
   "paragraphs": [
     [
       {
-        "text": "SAN NICHOLAS ISLAND, one of the group of the Santa Barbara Islands, is about nine miles in length and four in width; water is plentiful; was formerly densely populated, but now is a treeless waste—the result of fire and the pasturage of sheep."
+        "text": "SAN NICHOLAS ISLAND",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", one of the group of the"
+      },
+      {
+        "text": "Santa Barbara Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", is about nine miles in length and four in width; water is plentiful; was formerly densely populated, but now is a treeless waste—the result of fire and the pasturage of sheep."
       }
     ],
     [
       {
-        "text": "We learn by tradition that the Alaska Indians, who were placed upon this island to trade with the natives, killed off the male inhabitants and took possession.",
+        "text": "We learn by tradition that the",
         "tropes": [
           11
         ]
       },
       {
-        "text": "In 1835 the padres sent a vessel to remove the women and children."
+        "text": "Alaska Indians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "rfurcompany",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
       },
       {
-        "text": "This was accomplished, with the exception of one woman, who jumped into the surf and swam ashore to hunt for her child, who had accidentally been left behind.",
+        "text": ", who were placed upon",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "this island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to trade with",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", killed off the male inhabitants and took possession.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "In 1835"
+      },
+      {
+        "text": "the padres",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "sent"
+      },
+      {
+        "text": "a vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to remove the women and children."
+      },
+      {
+        "text": "This was accomplished, with the exception of",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "one woman",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who jumped into the surf and swam ashore to hunt for",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who had accidentally been left behind.",
         "tropes": [
           9
         ]
@@ -25,16 +132,150 @@
     ],
     [
       {
-        "text": "The next we hear of the lone woman was in 1850, after a lapse of fifteen years.,"
+        "text": "The next we hear of the"
       },
       {
-        "text": "when Captain Nidever, of Santa Barbara, visited the islands and discovered traces of recent habitation; but it was not until 1853 that the female Robinson Crusoe was found and removed to the mainland, where from the sudden and complete change of manner of living, she soon died.",
+        "text": "lone woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was in 1850, after a lapse of fifteen years.,"
+      },
+      {
+        "text": "when",
         "tropes": [
           8
         ]
       },
       {
-        "text": "She had outlived her people and found no one able to converse with her in her almost forgotten language. It is supposed she was the last of her race; her clothing, made from skins, and needles of bone, were deposited in the Vatican, at Rome.",
+        "text": "Captain Nidever",
+        "tropes": [
+          8
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          8
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", visited",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          8
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "and discovered traces of recent habitation; but it was not until 1853 that the",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "female Robinson Crusoe",
+        "tropes": [
+          8
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was found and removed to",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the mainland",
+        "tropes": [
+          8
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where from the sudden and complete change of manner of living, she soon died.",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "She had outlived",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her people",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "and found no one able to converse with her in her almost forgotten language. It is supposed she was the last of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "; her clothing, made from skins, and needles of bone, were deposited in",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the Vatican",
+        "tropes": [
+          6
+        ],
+        "entity_key": "mu_vaticanmuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": ", at",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Rome",
+        "tropes": [
+          6
+        ],
+        "entity_key": "ci_rom",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -42,7 +283,49 @@
     ],
     [
       {
-        "text": "But the incidents connected with her stay upon and removal from the island will soon be forgotten, although the refuse heaps of its former inhabitants will remain as evidence of a lost people.",
+        "text": "But the incidents connected with her stay upon and removal from",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "will soon be forgotten, although the refuse heaps of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "its former inhabitants",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "will remain as evidence of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "a lost people",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -50,7 +333,23 @@
     ],
     [
       {
-        "text": "Who can realize the utter and wretched loneliness of the poor creature, who spent eighteen years among the deserted homes of her ancestors, where the ground was whitened by their bleaching bones?"
+        "text": "Who can realize the utter and wretched loneliness of the"
+      },
+      {
+        "text": "poor creature",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who spent eighteen years among the deserted homes of"
+      },
+      {
+        "text": "her ancestors",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", where the ground was whitened by their bleaching bones?"
       }
     ]
   ]

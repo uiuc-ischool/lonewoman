@@ -3,12 +3,92 @@
   "paragraphs": [
     [
       {
-        "text": "Some of Dye's shipments to the islands proving unremunerative from the great waste in handling such brittle lumber, he closed out the business at Santa Cruz. He decided to try otter or seal hunting, and invited me to join him. Our outfit consisted of three boats, similar to whale boats, and was made by Dye himself. They were clinker built, some fifteen feet long, and carried three men each: the hunter on the front seat, with three rifles and a paddle; a hand in midship with a paddle; and a steersman behind, with a paddle and a mast and sail to use when desired. We took provisions and ammunition in the boats."
+        "text": "Some of Dye's shipments to"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "proving unremunerative from the great waste in handling such brittle lumber, he closed out the business at"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He decided to try otter or seal hunting, and invited me to join him."
+      },
+      {
+        "text": "Our outfit",
+        "entity_key": "dawsongroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "consisted of three boats, similar to whale boats, and was made by"
+      },
+      {
+        "text": "Dye",
+        "entity_key": "jdy",
+        "entity_type": "person"
+      },
+      {
+        "text": "himself. They were clinker built, some fifteen feet long, and carried three men each: the hunter on the front seat, with three rifles and a paddle; a hand in midship with a paddle; and a steersman behind, with a paddle and a mast and sail to use when desired. We took provisions and ammunition in the boats."
       }
     ],
     [
       {
-        "text": "Setting out with Dye as hunter in one boat, I in another, and a man by the name of Simmons in in [sic] the third, we coasted from Monterey down to Santa Barbara, and out to and around Santa Rosa and San Miguel Islands, killing a few otter."
+        "text": "Setting out with"
+      },
+      {
+        "text": "Dye",
+        "entity_key": "jdy",
+        "entity_type": "person"
+      },
+      {
+        "text": "as hunter in one boat, I in another, and a man by the name of"
+      },
+      {
+        "text": "Simmons",
+        "entity_key": "sim",
+        "entity_type": "person"
+      },
+      {
+        "text": "in in [sic] the third, we coasted from"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": "down to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and out to and around"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Miguel Islands",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ", killing a few otter."
       }
     ],
     [
@@ -28,36 +108,310 @@
     ],
     [
       {
-        "text": "At Santa Barbara we found an old otter hunter, A. B. Thompson, who had formerly been in the business with vessels and Alaska Indians, and who proposed to go into partnership with us on the halves—he to furnish a vessel officered and manned, and to provision us; we to furnish boats, guns and ammunition and do the hunting. His offer was accepted; and two Santa Barbara hunters, Sparks and Nydever, joined in with us, making, with Dye, Simmons and myself, five boats. The advantage in having a vessel was that with water and provisions on board the hunters could be lowered at any point, the vessel cruising around until we got through, and in this way places inaccessible for boats could be hunted."
-      }
-    ],
-    [
-      {
-        "text": "We first visited San Nicholas Island, and, hunting around it, killed several otter. Here we searched on shore for a lone woman whom we knew to be on the island, but failed to find her, although we found her tracks. Why she was there I had best explain:"
-      }
-    ],
-    [
-      {
-        "text": "Such of the Santa Barbara Islands as had fresh water on them had once been inhabited by a low type of Indians, who eked out a miserable existence by fishing for and eating shellfish. Some were induced to emigrate and join the missions, but a remnant remained, and these being about to perish from starvation, an effort was made, headed by the priests, to have them all transported to the mainland."
+        "text": "At"
       },
       {
-        "text": "A vessel was sent, and at San Nicholas, after all were on board, this woman, from some freak, jumped overboard and swam ashore.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "we found an old otter hunter,"
+      },
+      {
+        "text": "A. B. Thompson",
+        "entity_key": "abt",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who had formerly been in the business with vessels and"
+      },
+      {
+        "text": "Alaska Indians",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", and who proposed to go into partnership with us on the halves—he to furnish a vessel officered and manned, and to provision us; we to furnish boats, guns and ammunition and do the hunting. His offer was accepted; and two Santa Barbara hunters,"
+      },
+      {
+        "text": "Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Nydever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", joined in with us, making, with"
+      },
+      {
+        "text": "Dye",
+        "entity_key": "jdy",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Simmons",
+        "entity_key": "sim",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "myself",
+        "entity_key": "nda",
+        "entity_type": "person"
+      },
+      {
+        "text": ", five boats. The advantage in having a vessel was that with water and provisions on board the hunters could be lowered at any point, the vessel cruising around until we got through, and in this way places inaccessible for boats could be hunted."
+      }
+    ],
+    [
+      {
+        "text": "We first visited"
+      },
+      {
+        "text": "San Nicholas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and, hunting around it, killed several otter. Here we searched on shore for a"
+      },
+      {
+        "text": "lone woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "whom we knew to be on the island, but failed to find her, although we found her tracks. Why she was there I had best explain:"
+      }
+    ],
+    [
+      {
+        "text": "Such of the"
+      },
+      {
+        "text": "Santa Barbara Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "as had fresh water on them had once been inhabited by a low type of"
+      },
+      {
+        "text": "Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", who eked out a miserable existence by fishing for and eating shellfish. Some were induced to emigrate and join"
+      },
+      {
+        "text": "the missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": ", but a remnant remained, and these being about to perish from starvation, an effort was made, headed by the"
+      },
+      {
+        "text": "priests",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", to have them all transported to the"
+      },
+      {
+        "text": "mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "A vessel",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was sent, and at",
         "tropes": [
           9
         ]
       },
       {
-        "text": "A southeast storm coming on, the captain made sail without further search. (Since that time I have seen an account of her rescue by George Nydever and Charley Brown, both of whom I knew. They found her while they were on an otter hunt, and carried her to the mainland, where she soon died from overeating.)"
+        "text": "San Nicholas",
+        "tropes": [
+          9
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", after all were on board,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "this woman",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", from some freak, jumped overboard and swam ashore.",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "A southeast storm coming on,"
+      },
+      {
+        "text": "the captain",
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "made sail without further search. (Since that time I have seen an account of her rescue by"
+      },
+      {
+        "text": "George Nydever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Charley Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", both of whom I knew. They found her while they were on an otter hunt, and carried her to the"
+      },
+      {
+        "text": "mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she soon died from overeating.)"
       }
     ],
     [
       {
-        "text": "On the brig Bolivar, we hunted all points along Lower California to Ceros Island, then, otter giving out, we abandoned the hunt and beat back against headwinds to Santa Barbara. Here a general division and setlting up was effected, and I found myself with forty dollars in money and five or six otter skins, a broken arm, and my feet so badly bruised that I could scarcely walk on crutches."
+        "text": "On the brig"
+      },
+      {
+        "text": "Bolivar",
+        "entity_key": "sh_bolivar",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", we hunted all points along"
+      },
+      {
+        "text": "Lower California",
+        "entity_key": "re_baja",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Ceros Island",
+        "entity_key": "i_cerros",
+        "entity_type": "place"
+      },
+      {
+        "text": ", then, otter giving out, we abandoned the hunt and beat back against headwinds to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Here a general division and setlting up was effected, and I found myself with forty dollars in money and five or six otter skins, a broken arm, and my feet so badly bruised that I could scarcely walk on crutches."
       }
     ],
     [
       {
-        "text": "My physical condition happened in this way: The vessel had dropped us on the island of Ceros to hunt, if favorable weather intervened, while she made further search below for otter. The weather continuing boisterous, part of us set out to traverse the island on foot. Soon after we left camp I, in order to get a shot at some spotted seals, ventured too near the brink of a projecting point. My feet flew up, I could find nothing to grasp, and I went over. But I yelled, gave my gun a cast that it might fall flat, and straightened my legs under me to lessen the shock. I do not know how far I fell, but when I came to, my comrades were around me, I was on a bed of sand, and all around were big rocks detached from the cliff above. On examination it was found that my left arm was broken, and my feet and legs so bruised that I could not walk. One man went back to camp for a sail, from which a litter was made, and I was carried to camp. Dye attempted to set my arm, but it remains till now a little crooked, and weaker than the other. My feet and ankles, though bloodshot for awhile [sic], in time became as sound as ever."
+        "text": "My physical condition happened in this way:"
+      },
+      {
+        "text": "The vessel",
+        "entity_key": "sh_bolivar",
+        "entity_type": "ship"
+      },
+      {
+        "text": "had dropped us on"
+      },
+      {
+        "text": "the island of Ceros",
+        "entity_key": "i_cerros",
+        "entity_type": "place"
+      },
+      {
+        "text": "to hunt, if favorable weather intervened, while she made further search below for otter. The weather continuing boisterous, part of us set out to traverse"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_cerros",
+        "entity_type": "place"
+      },
+      {
+        "text": "on foot. Soon after we left camp I, in order to get a shot at some spotted seals, ventured too near the brink of a projecting point. My feet flew up, I could find nothing to grasp, and I went over. But I yelled, gave my gun a cast that it might fall flat, and straightened my legs under me to lessen the shock. I do not know how far I fell, but when I came to, my"
+      },
+      {
+        "text": "comrades",
+        "entity_key": "dawsongroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were around me, I was on a bed of sand, and all around were big rocks detached from the cliff above. On examination it was found that my left arm was broken, and my feet and legs so bruised that I could not walk. One man went back to camp for a sail, from which a litter was made, and I was carried to camp."
+      },
+      {
+        "text": "Dye",
+        "entity_key": "jdy",
+        "entity_type": "person"
+      },
+      {
+        "text": "attempted to set my arm, but it remains till now a little crooked, and weaker than the other. My feet and ankles, though bloodshot for awhile [sic], in time became as sound as ever."
       }
     ]
   ]

@@ -3,10 +3,78 @@
   "paragraphs": [
     [
       {
-        "text": "The November number of Hutchings' California Magazine contains a narrative of an Indian woman brought from the barren and solitary island of San Nicolas to this city by Mr. George Nidever, three years ago."
+        "text": "The November number of Hutchings' California Magazine contains a narrative of"
       },
       {
-        "text": "All that was known of this remarkable woman, and all of her history while living on this island, she was able to impart by signs and gestures, (she had lost the knowledge of language), and the manner of her discovery and deliverance, her arrival here and death that soon followed, has before been published.",
+        "text": "an Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "brought from the barren and solitary island of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "this city",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "Mr. George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", three years ago."
+      },
+      {
+        "text": "All that was known of",
+        "tropes": [
+          10,
+          14,
+          4
+        ]
+      },
+      {
+        "text": "this remarkable woman",
+        "tropes": [
+          10,
+          14,
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and all of her history while living on",
+        "tropes": [
+          10,
+          14,
+          4
+        ]
+      },
+      {
+        "text": "this island",
+        "tropes": [
+          10,
+          14,
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", she was able to impart by signs and gestures, (she had lost the knowledge of language), and the manner of her discovery and deliverance, her arrival here and death that soon followed, has before been published.",
         "tropes": [
           10,
           14,
@@ -19,28 +87,410 @@
     ],
     [
       {
-        "text": "Speaking with a friend lately, an old and respectable resident of California, on this and kindred topics, we were enabled to trace the history of the Indians inhabiting this and other islands in our channel back to the year 1811. The account given of the war of extermination* against the Indians on this particular island is not uninteresting, and runs thus:"
+        "text": "Speaking with a friend lately, an old and respectable resident of"
+      },
+      {
+        "text": "California",
+        "entity_key": "re_local",
+        "entity_type": "place"
+      },
+      {
+        "text": ", on this and kindred topics, we were enabled to trace the history of"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "inhabiting"
+      },
+      {
+        "text": "this and other islands in our channel",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "back to the year 1811. The account given of the war of extermination* against"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "this particular island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is not uninteresting, and runs thus:"
       }
     ],
     [
       {
-        "text": "In the year 1811, a ship† owned by Boardman & Pope, of Boston, commanded by Captain Whittemore, trading on this coast, took from the port of Sitka, Russian America, about thirty Kodiak Indians, a part of a hardy tribe inhabiting the island of Kodiak, to the islands in the Santa Barbara Channel, for the purpose of killing sea otter, which were then very numerous in the neighborhood of these islands. Captain Whittemore, after landing the Kodiaks on the island, and placing in their hands fire arms and the necessary implements of the chase, sailed away to the coast of Lower California and South America."
+        "text": "In the year 1811,"
+      },
+      {
+        "text": "a ship",
+        "entity_key": "sh_charon",
+        "entity_type": "ship"
+      },
+      {
+        "text": "† owned by"
+      },
+      {
+        "text": "Boardman & Pope",
+        "entity_key": "bp",
+        "entity_type": "org"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Boston",
+        "entity_key": "ci_boston",
+        "entity_type": "place"
+      },
+      {
+        "text": ", commanded by"
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", trading on this coast, took from the port of"
+      },
+      {
+        "text": "Sitka, Russian America",
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": ", about"
+      },
+      {
+        "text": "thirty Kodiak Indians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", a part of a hardy tribe inhabiting the"
+      },
+      {
+        "text": "island of Kodiak",
+        "entity_key": "i_ko",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to the"
+      },
+      {
+        "text": "islands in the Santa Barbara Channel",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for the purpose of killing sea otter, which were then very numerous in the neighborhood of"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", after landing"
+      },
+      {
+        "text": "the Kodiaks",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and placing in their hands fire arms and the necessary implements of the chase, sailed away to the coast of"
+      },
+      {
+        "text": "Lower California",
+        "entity_key": "re_baja",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "South America",
+        "entity_key": "re_southamerica",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "In the absence of the ship a dispute arose between the Kodiaks and the natives of the islands [sic], originating in the seizure of the females by the Kodiaks. The Kodiaks, possessing more activity, endurance and knowledge of war, and possessing superior weapons, slaughtered the males without mercy, old and young. On the island of San Nicolas not a male, old or young, was spared.",
+        "text": "In the absence of",
         "tropes": [
           11
         ]
       },
       {
-        "text": "At the end of a year Captain Whittemore returned to the islands [sic], took the Kodiaks on board, and carried them back to Sitka."
+        "text": "the ship",
+        "tropes": [
+          11
+        ],
+        "entity_key": "sh_charon",
+        "entity_type": "ship"
+      },
+      {
+        "text": "a dispute arose between",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the islands [sic]",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", originating in the seizure of the females by",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "The Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ", possessing more activity, endurance and knowledge of war, and possessing superior weapons, slaughtered the males without mercy, old and young. On the",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "island of San Nicolas",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "not a male, old or young, was spared.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "At the end of a year"
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned to"
+      },
+      {
+        "text": "the islands [sic]",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", took"
+      },
+      {
+        "text": "the Kodiaks",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "on board, and carried them back to"
+      },
+      {
+        "text": "Sitka",
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "From this period little is known of the Indians remaining on these islands [sic] till the year 1836, when Captain Isaac Williams, late Collector of the Port San Pedro, visited this island in a small vessel, and took on board all the Indians remaining but one woman, who was left in the manner stated by Captain Russel in the California Magazine. The Indians of the islands [sic] were of the type of the coast Indians, and were no doubt a part of them."
+        "text": "From this period little is known of"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "remaining on"
+      },
+      {
+        "text": "these islands [sic]",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "till the year 1836, when"
+      },
+      {
+        "text": "Captain Isaac Williams, late Collector of the Port San Pedro",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", visited"
+      },
+      {
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in a"
+      },
+      {
+        "text": "small vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and took on board all"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "remaining but"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who was left in the manner stated by"
+      },
+      {
+        "text": "Captain Russel",
+        "entity_key": "cru",
+        "entity_type": "person"
+      },
+      {
+        "text": "in the California Magazine."
+      },
+      {
+        "text": "The Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "the islands [sic]",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "were of the type of the coast Indians, and were no doubt a part of them."
       }
     ]
   ]

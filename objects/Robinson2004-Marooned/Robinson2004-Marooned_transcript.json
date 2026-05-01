@@ -3,35 +3,245 @@
   "paragraphs": [
     [
       {
-        "text": "San Nicolas Island"
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
       }
     ],
     [
       {
-        "text": "A near-gale screams the loneliness of this remote outpost, an overgrown boulder that's a whipping post for weather sweeping across the Pacific. It's spring, sunny — and about 45 degrees with wind chill. Winter jackets are zipped to the neck. Gloves would be nice. And you start to wonder how a woman dressed in only cormorant feathers could have survived alone for 18 years in this blasted, treeless landscape where even the ravaged rocks tell you they got a raw deal. \"They found her right around here,\" shouts Steven Schwartz, an archeologist and environmental planner for the U.S. Navy. Tall, genial and sporting a gray beard circa Kenny Rogers' mid-\"Gambler\" period, Schwartz is straining to be heard over a thundering wind that delivers the sharp tang of seal droppings from the throng of flippers on the rocks below. San Nicolas is home to a radar and missile tracking installation, but that's not why Steve Schwartz has marooned himself here every week for the last 15 years."
-      }
-    ],
-    [
-      {
-        "text": "He's been trying to solve a mystery, to rescue from a century and a half of fable, a survivor who came to be known as the Lone Woman of San Nicolas."
-      }
-    ],
-    [
-      {
-        "text": "Schwartz waves his arm to indicate the area where she was discovered in 1853: a scene of rolling dunes, blown down to the bedrock in places and upholstered in 2,000-year-old abalone shells."
-      }
-    ],
-    [
-      {
-        "text": "The Lone Woman's ancestors left the shells here at what is now one of the richest archeologist sites in the U.S. They are reminders of 8,000 years of indigenous settlement on Ghalas-at, as the inhabitants called their island. An arid plateau ringed by cliffs and thick tangles of kelp, the island was protected from invaders through the years by its lack of safe harbors."
-      }
-    ],
-    [
-      {
-        "text": "Then, in the early 19th century, the world's lust for otter coats led Russian fur traders to drop off armed native Alaskan hunters. They were supposed to say for a few weeks, but the outing turned into a year."
+        "text": "A near-gale screams the loneliness of"
       },
       {
-        "text": "The stir-crazed Alaskans are said to have gone on a rampage, wiping out most of the local men.",
+        "text": "this remote outpost",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "an overgrown boulder that's a whipping post for weather",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "sweeping across"
+      },
+      {
+        "text": "the Pacific",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It's spring, sunny — and about 45 degrees with wind chill. Winter jackets are zipped to the neck. Gloves would be nice. And you start to wonder how"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "dressed in only cormorant feathers could have survived alone for 18 years in"
+      },
+      {
+        "text": "this blasted, treeless landscape",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "where even the ravaged rocks tell you they got a raw deal. \"They found her right around here,\" shouts"
+      },
+      {
+        "text": "Steven Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ", an archeologist and environmental planner for the"
+      },
+      {
+        "text": "U.S. Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": ". Tall, genial and sporting a gray beard circa"
+      },
+      {
+        "text": "Kenny Rogers",
+        "entity_key": "kro",
+        "entity_type": "person"
+      },
+      {
+        "text": "' mid-\"Gambler\" period,"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "is straining to be heard over a thundering wind that delivers the sharp tang of seal droppings from the throng of flippers on the rocks below."
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is home to a radar and missile tracking installation, but that's not why"
+      },
+      {
+        "text": "Steve Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "has marooned himself here every week for the last 15 years."
+      }
+    ],
+    [
+      {
+        "text": "He's been trying to solve a mystery, to rescue from a century and a half of fable,"
+      },
+      {
+        "text": "a survivor",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who came to be known as"
+      },
+      {
+        "text": "the Lone Woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "waves his arm to indicate the area where she was discovered in 1853: a scene of rolling dunes, blown down to the bedrock in places and upholstered in 2,000-year-old abalone shells."
+      }
+    ],
+    [
+      {
+        "text": "The Lone Woman's ancestors",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "left the shells here at what is now one of the richest archeologist sites in"
+      },
+      {
+        "text": "the U.S.",
+        "entity_key": "co_usa",
+        "entity_type": "place"
+      },
+      {
+        "text": "They are reminders of 8,000 years of indigenous settlement on"
+      },
+      {
+        "text": "Ghalas-at",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", as"
+      },
+      {
+        "text": "the inhabitants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "called"
+      },
+      {
+        "text": "their island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". An arid plateau ringed by cliffs and thick tangles of kelp,"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was protected from invaders through the years by its lack of safe harbors."
+      }
+    ],
+    [
+      {
+        "text": "Then, in the early 19th century, the world's lust for otter coats led"
+      },
+      {
+        "text": "Russian fur traders",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to drop off armed"
+      },
+      {
+        "text": "native Alaskan hunters",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". They were supposed to say for a few weeks, but the outing turned into a year."
+      },
+      {
+        "text": "The",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "stir-crazed Alaskans",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "are said to have gone on a rampage, wiping out most of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the local men",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           11
         ]
@@ -42,17 +252,214 @@
     ],
     [
       {
-        "text": "Though the Nicoleños had been self-sufficient since Europeans were scratching cave walls, the Santa Barbara Mission decided to sponsor a rescue operation — or at least that's the conventional wisdom. Schwartz notes that the missions had a high fatality rate among their Indian workers, who had no immunity to European diseases. The padres may have wanted to replenish their labor force."
+        "text": "Though the"
+      },
+      {
+        "text": "Nicoleños",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "had been self-sufficient since Europeans were scratching cave walls, the"
+      },
+      {
+        "text": "Santa Barbara Mission",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": "decided to sponsor a rescue operation — or at least that's the conventional wisdom."
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "notes that"
+      },
+      {
+        "text": "the missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": "had a high fatality rate among"
+      },
+      {
+        "text": "their Indian workers",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": ", who had no immunity to European diseases."
+      },
+      {
+        "text": "The padres",
+        "entity_key": "misfats",
+        "entity_type": "person"
+      },
+      {
+        "text": "may have wanted to replenish"
+      },
+      {
+        "text": "their labor force",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "A schooner under the helm of Capt. Charles Hubbard sailed for the island, arriving off its rugged northern tip. The crew set out across the dunes, rounded up six of the natives and took them back to the ship. But, as the vessel bucked offshore in a swelling storm, one woman remained unaccounted for."
+        "text": "A schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "under the helm of"
+      },
+      {
+        "text": "Capt. Charles Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "sailed for"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", arriving off its rugged northern tip."
+      },
+      {
+        "text": "The crew",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "set out across the dunes, rounded up six of"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "and took them back to"
+      },
+      {
+        "text": "the ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". But, as"
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "bucked offshore in a swelling storm,"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "remained unaccounted for."
       }
     ],
     [
       {
-        "text": "Some sources say the woman was \"away in the mountains,\" while the most popular explanation would become the defining, mythic tale. In this version, the woman boards the ship but then, as it heads for open waters, realizes that her child has been left behind. Desperate, she plunges over the rail into rolling waves to save her daughter.",
+        "text": "Some sources say",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was \"away in the mountains,\" while the most popular explanation would become the defining, mythic tale. In this version,",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "boards",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "but then, as it heads for open waters, realizes that",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "has been left behind. Desperate, she plunges over the rail into rolling waves to save",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her daughter",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           9
         ]
@@ -60,7 +467,15 @@
     ],
     [
       {
-        "text": "Schwartz has scoured the literature, artifacts and museums to separate facts from embroidery. \"The story of her jumping overboard does not show up until the 1880s,\" he says. \"By then the Victorian era is well underway, and literature takes on a flowery, even romantic flavor",
+        "text": "Schwartz",
+        "tropes": [
+          9
+        ],
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "has scoured the literature, artifacts and museums to separate facts from embroidery. \"The story of her jumping overboard does not show up until the 1880s,\" he says. \"By then the Victorian era is well underway, and literature takes on a flowery, even romantic flavor",
         "tropes": [
           9
         ]
@@ -71,17 +486,107 @@
     ],
     [
       {
-        "text": "The more likely scenario: With the storm threatening to slam the schooner onto the rocks and the Indians probably wracked by their abduction, the crew panicked and turned the rudder back toward the mainland without doing much of a head count. \"The earliest firsthand accounts simply state that she was mistakenly left behind,\" says Schwartz."
+        "text": "The more likely scenario: With the storm threatening to slam"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "onto the rocks and"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "probably wracked by their abduction,"
+      },
+      {
+        "text": "the crew",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "panicked and turned the rudder back toward"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "without doing much of a head count. \"The earliest firsthand accounts simply state that she was mistakenly left behind,\" says"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "EITHER way, people in the coastal settlements knew that a woman had been abandoned. Why were there no rescue attempts?"
+        "text": "EITHER way, people in the coastal settlements knew that"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been abandoned. Why were there no rescue attempts?"
       }
     ],
     [
       {
-        "text": "The usual alibi is that Hubbard had intended to go back but had orders to take a shipment of lumber to Monterey. Within a month, the schooner had foundered at the entrance to San Francisco Bay, and its crew ditched it."
+        "text": "The usual alibi is that"
+      },
+      {
+        "text": "Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "had intended to go back but had orders to take a shipment of lumber to"
+      },
+      {
+        "text": "Monterey",
+        "entity_key": "ci_mo",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Within a month,"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "had foundered at the entrance to"
+      },
+      {
+        "text": "San Francisco Bay",
+        "entity_key": "re_sfbay",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and its crew ditched it."
       },
       {
         "text": "Most accounts blame a lack of available ships in the mid-1830s for the failure of anyone to step in and make the crossing.",
@@ -92,7 +597,29 @@
     ],
     [
       {
-        "text": "Schwartz, who had assembled a stash of shipping data from a former job with the Army Corp of Engineers, didn't buy it. He investigated further with local marine historians.",
+        "text": "Schwartz",
+        "tropes": [
+          12
+        ],
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who had assembled a stash of shipping data from a former job with the",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "Army Corp of Engineers",
+        "tropes": [
+          12
+        ],
+        "entity_key": "mi_armycorp",
+        "entity_type": "org"
+      },
+      {
+        "text": ", didn't buy it. He investigated further with local marine historians.",
         "tropes": [
           12
         ]
@@ -103,7 +630,21 @@
         "text": "\""
       },
       {
-        "text": "There were plenty of boats big enough to get out here,\" he says. \"It didn't take a huge boat. It's just: Was there really reason enough to go back for one Indian?",
+        "text": "There were plenty of boats big enough to get out here,\" he says. \"It didn't take a huge boat. It's just: Was there really reason enough to go back for",
+        "tropes": [
+          12
+        ]
+      },
+      {
+        "text": "one Indian",
+        "tropes": [
+          12
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "?",
         "tropes": [
           12
         ]
@@ -114,17 +655,54 @@
     ],
     [
       {
-        "text": "So she was left atop a vacant rock to scour the horizon for a human trace and began a long confrontation with a social animal's deepest fears."
+        "text": "So she was left atop"
+      },
+      {
+        "text": "a vacant rock",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to scour the horizon for a human trace and began a long confrontation with a social animal's deepest fears."
       }
     ],
     [
       {
-        "text": "Schwartz says that sometimes when he's out there poking around amid the artifacts he can feel some of the isolation that must have haunted her as she wandered the paths her family and friends would never amble again. \"On the west end of the island, where you can't see any buildings or people, all of a sudden you get this sense of what it's like to be alone . . . the overwhelming sounds of the surf, the gulls crying.\""
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "says that sometimes when he's out there poking around amid the artifacts he can feel some of the isolation that must have haunted her as she wandered the paths"
+      },
+      {
+        "text": "her family and friends",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "would never amble again. \"On the west end of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where you can't see any buildings or people, all of a sudden you get this sense of what it's like to be alone . . . the overwhelming sounds of the surf, the gulls crying.\""
       }
     ],
     [
       {
-        "text": "If he'd been stranded here, Schwartz is sure that \"the hardest part would have been the loneliness, the wondering if someone were coming back for me, or if I was left for good . . . after some time you probably have to give up hope. That day [was] probably the worst of all.\""
+        "text": "If he'd been stranded here,"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "is sure that \"the hardest part would have been the loneliness, the wondering if someone were coming back for me, or if I was left for good . . . after some time you probably have to give up hope. That day [was] probably the worst of all.\""
       }
     ],
     [
@@ -134,22 +712,142 @@
     ],
     [
       {
-        "text": "\"It's loneliness that makes the loudest noise,\" wrote philosopher Eric Hoffer. For a deserted Nicoleño woman, it no doubt thundered up the arroyos and over the thrashing surf, drowning out all with the echo of what was no longer there. Humans are adaptable creatures, but how do you begin to adjust to a life without a single other human in it?"
+        "text": "\"It's loneliness that makes the loudest noise,\" wrote philosopher"
+      },
+      {
+        "text": "Eric Hoffer",
+        "entity_key": "eho",
+        "entity_type": "person"
+      },
+      {
+        "text": ". For"
+      },
+      {
+        "text": "a deserted Nicoleño woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", it no doubt thundered up the arroyos and over the thrashing surf, drowning out all with the echo of what was no longer there. Humans are adaptable creatures, but how do you begin to adjust to a life without a single other human in it?"
       }
     ],
     [
       {
-        "text": "\"It wouldn't surprise me if she went through the stage of grief that people go through when they lose their loved ones, coming finally to a stage of acceptance,\" says Larry Palinkas, a psychologist and professor at UC San Diego who has studied the effects of isolation on researchers in Antarctica."
+        "text": "\"It wouldn't surprise me if she went through the stage of grief that people go through when they lose their loved ones, coming finally to a stage of acceptance,\" says"
+      },
+      {
+        "text": "Larry Palinkas",
+        "entity_key": "lpa",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a psychologist and professor at"
+      },
+      {
+        "text": "UC San Diego",
+        "entity_key": "in_ucsd",
+        "entity_type": "org"
+      },
+      {
+        "text": "who has studied the effects of isolation on researchers in"
+      },
+      {
+        "text": "Antarctica",
+        "entity_key": "re_ant",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "San Nicolas in the 19th century may as well have been Antarctica. Exiled well east from the northern and southern Channel Island groups, the island is ideal for solitary confinement. On a rare clear day, the woman could have sighted some of the other islands and even the outlines of the mainland. But most of the year the relentless fog and clouds that cloaks this desert isle would have shut her off from even a glimpse of the rest of the world."
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in the 19th century may as well have been"
+      },
+      {
+        "text": "Antarctica",
+        "entity_key": "re_ant",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Exiled well east from the northern and southern"
+      },
+      {
+        "text": "Channel Island groups",
+        "entity_keys": [
+          "i_northernchi",
+          "i_southernchi"
+        ],
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is ideal for solitary confinement. On a rare clear day,"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "could have sighted some of"
+      },
+      {
+        "text": "the other islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "and even the outlines of"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ". But most of the year the relentless fog and clouds that cloaks"
+      },
+      {
+        "text": "this desert isle",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "would have shut her off from even a glimpse of the rest of the world."
       }
     ],
     [
       {
-        "text": "Prolonged isolation can cause serious psychological and even physical havoc for a species designated for contact. \"When you get cut off from the group, you're much more likely to feel sad, blue, depressed, hopeless,\" says Daniel Amen, a brain imagery specialist who teaches at UC Irvine College of Medicine."
+        "text": "Prolonged isolation can cause serious psychological and even physical havoc for a species designated for contact. \"When you get cut off from the group, you're much more likely to feel sad, blue, depressed, hopeless,\" says"
+      },
+      {
+        "text": "Daniel Amen",
+        "entity_key": "dam",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a brain imagery specialist who teaches at"
+      },
+      {
+        "text": "UC Irvine",
+        "entity_key": "in_ucirvine",
+        "entity_type": "org"
+      },
+      {
+        "text": "College of Medicine."
       }
     ],
     [
@@ -159,92 +857,443 @@
     ],
     [
       {
-        "text": "\"We're programmed to be connected with other people,\" Amen says. Talking and smiling and simply being with other people \"regulates certain systems in our brains and makes them work better.\" A lack of social stimulation can cause dendrites, the conduits through which information flows to brain cells, to shrink and disappear."
+        "text": "\"We're programmed to be connected with other people,\""
+      },
+      {
+        "text": "Amen",
+        "entity_key": "dam",
+        "entity_type": "person"
+      },
+      {
+        "text": "says. Talking and smiling and simply being with other people \"regulates certain systems in our brains and makes them work better.\" A lack of social stimulation can cause dendrites, the conduits through which information flows to brain cells, to shrink and disappear."
       }
     ],
     [
       {
-        "text": "Surrounded by the reminders of her family and friends — huts, tools, bowls, necklaces — but no hands, eyes or voices, the marooned woman had to find a way through a life unwitnessed and unshared. What thoughts could have overridden the despair to keep her brain healthy and prevent a descent into madness or a leap off one of numerous nearby cliffs?"
+        "text": "Surrounded by the reminders of"
+      },
+      {
+        "text": "her family and friends",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "— huts, tools, bowls, necklaces — but no hands, eyes or voices,"
+      },
+      {
+        "text": "the marooned woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had to find a way through a life unwitnessed and unshared. What thoughts could have overridden the despair to keep her brain healthy and prevent a descent into madness or a leap off one of numerous nearby cliffs?"
       }
     ],
     [
       {
-        "text": "Like Schwartz, Amen only has to hear of the woman's fate to be drawn in. \"She needed to keep hope about connection again,\" he says. \"She probably was able to develop her own rich internal life.\""
+        "text": "Like"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Amen",
+        "entity_key": "dam",
+        "entity_type": "person"
+      },
+      {
+        "text": "only has to hear of the woman's fate to be drawn in. \"She needed to keep hope about connection again,\" he says. \"She probably was able to develop her own rich internal life.\""
       }
     ],
     [
       {
-        "text": "At first, one of her biggest challenges would have been overcoming certain Nicoleño taboos that would have made essential survival tasks off-limits, says Schwartz. \"In her culture, activities were ascribed to male or female. It was probably taboo for her to touch a fish hook, [or] a spear for catching seals. She would really have had to grapple with that and overcome it.\""
+        "text": "At first, one of her biggest challenges would have been overcoming certain Nicoleño taboos that would have made essential survival tasks off-limits, says"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ". \"In her culture, activities were ascribed to male or female. It was probably taboo for her to touch a fish hook, [or] a spear for catching seals. She would really have had to grapple with that and overcome it.\""
       }
     ],
     [
       {
-        "text": "One thing that might have helped her cope with the social void was that San Nicolas was by no means absent of life. Close your eyes on her part of the island, and you are far from alone. Cormorants squawk. Hordes of sea elephants and sea lions debate the fine points of beachfront property with the restraint of a soccer mob in full riot. There were also dogs on the island."
+        "text": "One thing that might have helped her cope with the social void was that"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was by no means absent of life. Close your eyes on her part of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and you are far from alone. Cormorants squawk. Hordes of sea elephants and sea lions debate the fine points of beachfront property with the restraint of a soccer mob in full riot. There were also dogs on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "\"That's huge,\" says Amen. \"If you're connected to your animals, you're connected. You can talk to them, interact with them, feed them, have a relationship with them. The other thing that does is it gives her purpose. She could say, 'Hey, we gotta eat today, we have to explore today.'\""
+        "text": "\"That's huge,\" says"
+      },
+      {
+        "text": "Amen",
+        "entity_key": "dam",
+        "entity_type": "person"
+      },
+      {
+        "text": ". \"If you're connected to your animals, you're connected. You can talk to them, interact with them, feed them, have a relationship with them. The other thing that does is it gives her purpose. She could say, 'Hey, we gotta eat today, we have to explore today.'\""
       }
     ],
     [
       {
-        "text": "The pickings on land were sparse — only a few roots and tubers. But, as Schwartz discovered from digging through archeological sites, nature had stocked the local waters with a supply of more than 100 species of fish. Unlike the marooned fishermen, the woman had the skills from her culture to make use of the bounty."
+        "text": "The pickings on land were sparse — only a few roots and tubers. But, as"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered from digging through archeological sites, nature had stocked the local waters with a supply of more than 100 species of fish. Unlike the marooned fishermen,"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had the skills from her culture to make use of the bounty."
       }
     ],
     [
       {
-        "text": "She probably continued to eat as she had with her family, beside a fire in a protected part of a hut framed by whale bones and covered with seal skins. She could have used marcasite stones to spark a flame, but \"it would have been easier to keep one going all the time,\" says Schwartz. \"A typical meal would most likely be fish or shellfish, probably prepared every way known to man: raw, boiled, grilled, smoked. Maybe some bulbs too.\""
+        "text": "She probably continued to eat as she had with"
+      },
+      {
+        "text": "her family",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", beside a fire in a protected part of a hut framed by whale bones and covered with seal skins. She could have used marcasite stones to spark a flame, but \"it would have been easier to keep one going all the time,\" says"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": ". \"A typical meal would most likely be fish or shellfish, probably prepared every way known to man: raw, boiled, grilled, smoked. Maybe some bulbs too.\""
       }
     ],
     [
       {
-        "text": "On the island's northern edge, near one of the springs where the woman got her fresh water, there's a mountain of evidence for her menu, and how she fashioned it."
+        "text": "On the island's northern edge, near one of the springs where"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "got her fresh water, there's a mountain of evidence for her menu, and how she fashioned it."
       }
     ],
     [
       {
-        "text": "Schwartz pulls off a dirt road and parks his military-issue, cream-colored van alongside the mother lode of middens. Twenty acres of sand dunes loom 120 feet above the beach, blanketed as far as the eye can see with tools, utensils and seafood leftovers — as if they were plopped down an hour ago."
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "pulls off a dirt road and parks his military-issue, cream-colored van alongside the mother lode of middens. Twenty acres of sand dunes loom 120 feet above the beach, blanketed as far as the eye can see with tools, utensils and seafood leftovers — as if they were plopped down an hour ago."
       }
     ],
     [
       {
-        "text": "\"The whole culture is just kind of laying here, if you know how to read it,\" says Schwartz."
+        "text": "\"The whole culture is just kind of laying here, if you know how to read it,\" says"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Tiptoeing uphill between shells and artifacts to avoid crunching history, the archeologist leans over and picks up part of an abalone shell with a doughnut hole-sized gap in the middle. \"It's a fish hook blank,\" he says. The island woman would have worked it down from the hole into a j-shaped hook."
+        "text": "Tiptoeing uphill between shells and artifacts to avoid crunching history,"
+      },
+      {
+        "text": "the archeologist",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "leans over and picks up part of an abalone shell with a doughnut hole-sized gap in the middle. \"It's a fish hook blank,\" he says."
+      },
+      {
+        "text": "The island woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "would have worked it down from the hole into a j-shaped hook."
       }
     ],
     [
       {
-        "text": "A prize 10-inch stone pestle more than 1,000 years old sits undisturbed on the sand. Schwartz picks up a bone tool of a type the woman would have used for prying abalone meat from its shell. Most of the materials date from AD 700 to 800. The dinnerware is here too: mortars that served the fare. \"Seasoned archeologists say they see more in one day here than they have in a 20-year career,\" Schwartz says, grinning atop one of 538 archeological sites on his treasure isle, owned and protected by the U.S. Navy."
+        "text": "A prize 10-inch stone pestle more than 1,000 years old sits undisturbed on the sand."
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "picks up a bone tool of a type"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "would have used for prying abalone meat from its shell. Most of the materials date from AD 700 to 800. The dinnerware is here too: mortars that served the fare. \"Seasoned archeologists say they see more in one day here than they have in a 20-year career,\""
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "says, grinning atop one of 538 archeological sites on"
+      },
+      {
+        "text": "his treasure isle",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", owned and protected by"
+      },
+      {
+        "text": "the U.S. Navy",
+        "entity_key": "mi_navy",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Schwartz says that the woman fished and foraged the tidal pools and grasses. She may have hunted sea mammals or found them already dead on the beach. A 2-foot-long section of vertebrae hints at part of the Lone Woman's diet. The bones are from a dolphin spine. Schwartz speculates that the hill was used for spotting dolphin schools offshore."
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "says that"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "fished and foraged the tidal pools and grasses. She may have hunted sea mammals or found them already dead on the beach. A 2-foot-long section of vertebrae hints at part of the Lone Woman's diet. The bones are from a dolphin spine."
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "speculates that the hill was used for spotting dolphin schools offshore."
       }
     ],
     [
       {
-        "text": "THE WOMAN forged on — five, 10, 17 years — alone but not entirely forgotten. The journal of a passenger who sailed to Northern California during the Gold Rush fever of 1849 [1890], for instance, described a Channel Island \"on which there is a lone woman living.\""
+        "text": "THE WOMAN",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "forged on — five, 10, 17 years — alone but not entirely forgotten. The journal of"
+      },
+      {
+        "text": "a passenger",
+        "entity_key": "mjmc",
+        "entity_type": "person"
+      },
+      {
+        "text": "who sailed to"
+      },
+      {
+        "text": "Northern California",
+        "entity_key": "re_norcal",
+        "entity_type": "place"
+      },
+      {
+        "text": "during the Gold Rush fever of 1849 [1890], for instance, described"
+      },
+      {
+        "text": "a Channel Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "\"on which there is"
+      },
+      {
+        "text": "a lone woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "living.\""
       }
     ],
     [
       {
-        "text": "In the spring of 1852 a hunting party led by Santa Barbara hunter George Nidever set off for San Nicolas in search of gull eggs and sea otters. He didn't find any eggs, but he did stumble onto footprints on the beach and pieces of dried seal blubber hanging from poles. Tantalized, Nidever went back to the island later in the year and discovered more clues: fresh footprints and a basket someone had placed in a bush."
+        "text": "In the spring of 1852"
+      },
+      {
+        "text": "a hunting party",
+        "entity_keys": [
+          "tje",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "led by Santa Barbara hunter"
+      },
+      {
+        "text": "George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "set off for"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in search of gull eggs and sea otters. He didn't find any eggs, but he did stumble onto footprints on the beach and pieces of dried seal blubber hanging from poles. Tantalized,"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "went back to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "later in the year and discovered more clues: fresh footprints and a basket someone had placed in a bush."
       }
     ],
     [
       {
-        "text": "Rough seas drove him back to the mainland without finding the castaway. He was now convinced, though, that one very resourceful woman was still alive somewhere on the island."
+        "text": "Rough seas drove him back to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "without finding"
+      },
+      {
+        "text": "the castaway",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". He was now convinced, though, that"
+      },
+      {
+        "text": "one very resourceful woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was still alive somewhere on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Fired up by the new evidence, Santa Barbara missionaries pressed Nidever to go back and find her. His team arrived in 1853. One of his men, Carl Dittman, was combing the northwest dunes when he saw what he said looked like \"a small black object about the size of a crow, which seemed to be in motion.\""
+        "text": "Fired up by the new evidence,"
+      },
+      {
+        "text": "Santa Barbara missionaries",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "pressed"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "to go back and find her. His team arrived in 1853. One of his men,"
+      },
+      {
+        "text": "Carl Dittman",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", was combing the northwest dunes when he saw what he said looked like \"a small black object about the size of a crow, which seemed to be in motion.\""
       },
       {
         "text": "As he approached, the crow grew and changed colors. In fact, the greenish feathers came from a much larger bird, a cormorant, and this one seemed to have arms, not wings.",
@@ -255,7 +1304,35 @@
     ],
     [
       {
-        "text": "As Dittman watched, a woman appeared from beneath the feathers.",
+        "text": "As",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "Dittman",
+        "tropes": [
+          14
+        ],
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "watched,",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "a woman",
+        "tropes": [
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "appeared from beneath the feathers.",
         "tropes": [
           14
         ]
@@ -295,30 +1372,293 @@
     ],
     [
       {
-        "text": "Nidever reported passing two growling dogs on his way up to the dune. silenced them with a command. She put the seal aside and gestured for Nidever and his men to share roots around the fire in her hut."
-      }
-    ],
-    [
-      {
-        "text": "The crew included a couple of Native Americans, most likely Chumash, who couldn't understand the woman's language. Still, she seemed ecstatic to have company. Having no doubt stored plenty of topics for conversation, she \"jabbered to herself,\" Nidever said."
-      }
-    ],
-    [
-      {
-        "text": "\"The old woman was of medium height, but rather thick,\" he reported. \"She must have been about 50 years old, but she was still strong and active. Her face was pleasing as she was continually smiling. Her teeth were entire but worn to the gums.\""
-      }
-    ],
-    [
-      {
-        "text": "Making friends easily, she joined in with chores around the camp, as the men spent three weeks hunting otter. When it came time to leave, she gathered every scrap of her possessions — a necklace, fish hooks, a bone needle, awl, stone mortar rope, and all available food, including a rotting seal's head with brains spilling out. And then the winds that had swirled through millennia of hut-building and fishing parties snapped the sails of the schooner and swept the last native of the Channel Islands to the world beyond the horizon. She clapped and danced without a trace of self-consciousness — one benefit of isolation — as the mainland drew near."
-      }
-    ],
-    [
-      {
-        "text": "News of the rescue raced through the small town of Santa Barbara. Residents flocked to see her at Nidever's home. But no local Indian could decipher her dialect. Some scholars would later contend that this proved she was a descendant of the Alaskan otter hunters. At Schwartz's suggestion, however, a UCLA linguistics professor recently investigated, focusing on four words the woman spoke to one of her rescuers."
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
       },
       {
-        "text": "The linguist's study suggests that the woman's language was similar to those of natives closer to San Diego and the southern Channel Islands — Gabrieleño or Luiseño — evidence that the woman was a native Nicoleño. The last of a once-thriving culture.",
+        "text": "reported passing two growling dogs on his way up to the dune. silenced them with a command. She put the seal aside and gestured for"
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "his men",
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to share roots around the fire in her hut."
+      }
+    ],
+    [
+      {
+        "text": "The crew",
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "included"
+      },
+      {
+        "text": "a couple of Native Americans",
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", most likely"
+      },
+      {
+        "text": "Chumash",
+        "entity_key": "natam_Chumash",
+        "entity_type": "org"
+      },
+      {
+        "text": ", who couldn't understand the woman's language. Still, she seemed ecstatic to have company. Having no doubt stored plenty of topics for conversation, she \"jabbered to herself,\""
+      },
+      {
+        "text": "Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "said."
+      }
+    ],
+    [
+      {
+        "text": "\""
+      },
+      {
+        "text": "The old woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was of medium height, but rather thick,\" he reported. \"She must have been about 50 years old, but she was still strong and active. Her face was pleasing as she was continually smiling. Her teeth were entire but worn to the gums.\""
+      }
+    ],
+    [
+      {
+        "text": "Making friends easily, she joined in with chores around the camp, as"
+      },
+      {
+        "text": "the men",
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "natam_missionindians"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "spent three weeks hunting otter. When it came time to leave, she gathered every scrap of her possessions — a necklace, fish hooks, a bone needle, awl, stone mortar rope, and all available food, including a rotting seal's head with brains spilling out. And then the winds that had swirled through millennia of hut-building and fishing parties snapped the sails of"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and swept"
+      },
+      {
+        "text": "the last native of the Channel Islands",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to the world beyond the horizon. She clapped and danced without a trace of self-consciousness — one benefit of isolation — as"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "drew near."
+      }
+    ],
+    [
+      {
+        "text": "News of the rescue raced through the small town of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Residents flocked to see her at"
+      },
+      {
+        "text": "Nidever's home",
+        "entity_key": "nideverhouse",
+        "entity_type": "place"
+      },
+      {
+        "text": ". But no local Indian could decipher her dialect. Some scholars would later contend that this proved she was a descendant of"
+      },
+      {
+        "text": "the Alaskan otter hunters",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". At Schwartz's suggestion, however,"
+      },
+      {
+        "text": "a UCLA linguistics professor",
+        "entity_key": "pmu",
+        "entity_type": "person"
+      },
+      {
+        "text": "recently investigated, focusing on four words"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "spoke to one of her rescuers."
+      },
+      {
+        "text": "The linguist's study suggests that the woman's language was similar to those of natives closer to",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "San Diego",
+        "tropes": [
+          6
+        ],
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the southern Channel Islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_southernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": "—",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Gabrieleño",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_GabrilenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "or",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Luiseño",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_Luisenos",
+        "entity_type": "org"
+      },
+      {
+        "text": "— evidence that",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was a native",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Nicoleño",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The last of a once-thriving culture",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -326,32 +1666,125 @@
     ],
     [
       {
-        "text": "Language gap aside, the woman was gregarious and clearly enjoyed the attention, signing and dancing for her audiences. She marveled at horses, ox carts, clothes and mostly the food, gorging on fresh fruit."
+        "text": "Language gap aside,"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was gregarious and clearly enjoyed the attention, signing and dancing for her audiences. She marveled at horses, ox carts, clothes and mostly the food, gorging on fresh fruit."
       }
     ],
     [
       {
-        "text": "But in a twist out of Greek tragedy, the woman whom the mission named Juana Maria came down with dysentery and within two weeks of leaving the island, she died."
+        "text": "But in a twist out of Greek tragedy,"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "whom"
+      },
+      {
+        "text": "the mission",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": "named Juana Maria came down with dysentery and within two weeks of leaving"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", she died."
       }
     ],
     [
       {
-        "text": "\"She lasted 18 years on an island by herself but only two weeks when she got back to 'civilization,'\" says John Johnson, archeology curator at the Santa Barbara Museum of Natural History and an expert on local Native American cultures. \"There's a lesson there.\""
+        "text": "\"She lasted 18 years on"
+      },
+      {
+        "text": "an island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by herself but only two weeks when she got back to 'civilization,'\" says"
+      },
+      {
+        "text": "John Johnson",
+        "entity_key": "jjo",
+        "entity_type": "person"
+      },
+      {
+        "text": ", archeology curator at the"
+      },
+      {
+        "text": "Santa Barbara Museum of Natural History",
+        "entity_key": "mu_sbmuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "and an expert on local Native American cultures. \"There's a lesson there.\""
       }
     ],
     [
       {
-        "text": "A legacy too. Surrounded by the tools, pendants and household appliances of the society that helped one rugged individual to survive, Schwartz knows there's something even worse than the loneliness of a single soul. It's a culture that is missing a part of itself. As he stands jacket flapping on the dunes, he knows that the woman's people were also ours."
+        "text": "A legacy too. Surrounded by the tools, pendants and household appliances of the society that helped one rugged individual to survive,"
+      },
+      {
+        "text": "Schwartz",
+        "entity_key": "ssc",
+        "entity_type": "person"
+      },
+      {
+        "text": "knows there's something even worse than the loneliness of a single soul. It's a culture that is missing a part of itself. As he stands jacket flapping on the dunes, he knows that"
+      },
+      {
+        "text": "the woman's people",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "were also ours."
       }
     ],
     [
       {
-        "text": "Joe Robinson is author of \"Work to Live.\""
+        "text": "Joe Robinson",
+        "entity_key": "jro",
+        "entity_type": "person"
+      },
+      {
+        "text": "is author of \"Work to Live.\""
       }
     ],
     [
       {
-        "text": "The cover collage by Susan Tibbles includes a photo of an Indian woman whose identity remains a mystery. Some say she may be the Lone Woman of San Nicolas Island, but experts say this isn't true."
+        "text": "The cover collage by"
+      },
+      {
+        "text": "Susan Tibbles",
+        "entity_key": "sti",
+        "entity_type": "person"
+      },
+      {
+        "text": "includes a photo of an Indian woman whose identity remains a mystery. Some say she may be"
+      },
+      {
+        "text": "the Lone Woman of San Nicolas Island",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", but experts say this isn't true."
       }
     ]
   ]

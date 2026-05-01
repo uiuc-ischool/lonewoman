@@ -3,12 +3,92 @@
   "paragraphs": [
     [
       {
-        "text": "NEARLY 400 years ago Juan Rodriguez Cabrillo found these Isles of Summer, anchored in the azure sweep of the warm channel that flanks California's coast south from Point Concepcion. From Los Coronados north to the wind-swept San Miguel there are eleven islands; their shores bathed by the warm waters of the Japanese current, or Kuro Shiwo, and their sombre peaks and verdant valleys tempered by the fresh Westerly and the California sun."
+        "text": "NEARLY 400 years ago"
+      },
+      {
+        "text": "Juan Rodriguez Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "found these"
+      },
+      {
+        "text": "Isles of Summer",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", anchored in the azure sweep of"
+      },
+      {
+        "text": "the warm channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "that flanks"
+      },
+      {
+        "text": "California's coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "south from"
+      },
+      {
+        "text": "Point Concepcion",
+        "entity_key": "re_pc",
+        "entity_type": "place"
+      },
+      {
+        "text": ". From"
+      },
+      {
+        "text": "Los Coronados",
+        "entity_key": "i_lc",
+        "entity_type": "place"
+      },
+      {
+        "text": "north to the wind-swept"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "there are eleven islands; their shores bathed by the warm waters of the Japanese current, or Kuro Shiwo, and their sombre peaks and verdant valleys tempered by the fresh Westerly and the California sun."
       }
     ],
     [
       {
-        "text": "From these and other weather factors they gain a climate that is hard to equal, having the life of the Mediterranean's Cote d'Azur without its chill winds and the tropic beauty of Madeira without its heat. Actually, they are the tops of mountains rising out of the sea, transformed from barren peaks by a combination of meteorological conditions into gardens of rare beauty and charm. For every man who loves the outdoors the Channel Islands have their fascination."
+        "text": "From these and other weather factors they gain a climate that is hard to equal, having the life of the Mediterranean's"
+      },
+      {
+        "text": "Cote d'Azur",
+        "entity_key": "re_rivera",
+        "entity_type": "place"
+      },
+      {
+        "text": "without its chill winds and the tropic beauty of"
+      },
+      {
+        "text": "Madeira",
+        "entity_key": "ci_ma",
+        "entity_type": "place"
+      },
+      {
+        "text": "without its heat. Actually, they are the tops of mountains rising out of the sea, transformed from barren peaks by a combination of meteorological conditions into gardens of rare beauty and charm. For every man who loves the outdoors the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "have their fascination."
       }
     ],
     [
@@ -18,37 +98,567 @@
     ],
     [
       {
-        "text": "They are the yachtsman's paradise, for it is hard to think of another place on earth where a sailor could find such perfect cruising grounds, with summer weather and fair winds the year around and scores of beautiful little harbors where the yacht on leisurely cruise may anchor in safety. As for the thrill of cruising races, ask any Southland yachtsman who has fought his way down the west shore of San Clemente during a night of contrary currents and constantly shifting breezes, finally to round Pyramid Head and then go boiling home to San Pedro under press of the westerly."
+        "text": "They are the yachtsman's paradise, for it is hard to think of another place on earth where a sailor could find such perfect cruising grounds, with summer weather and fair winds the year around and scores of beautiful little harbors where the yacht on leisurely cruise may anchor in safety. As for the thrill of cruising races, ask any Southland yachtsman who has fought his way down the west shore of"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "during a night of contrary currents and constantly shifting breezes, finally to round"
+      },
+      {
+        "text": "Pyramid Head",
+        "entity_key": "pyramidhead",
+        "entity_type": "place"
+      },
+      {
+        "text": "and then go boiling home to"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "under press of the westerly."
       }
     ],
     [
       {
-        "text": "They have equal thrill for the hunter who has clambered rough canyons and over the needle crags of San Clemente in search of wild goats, or for his brother who in the dead of night has crawled for two miles on his belly to stalk the elusive white geese feeding on the tableland on Santa Rosa. Those lucky Nimrods who have hunted wild boars on Santa Cruz and Santa Rosa have enjoyed real danger and excitement and the man who likes upland game bird shooting can find his fill of doves and quail in the verdant slopes and wooded canyons of Santa Cruz."
+        "text": "They have equal thrill for the hunter who has clambered rough canyons and over the needle crags of"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "in search of wild goats, or for his brother who in the dead of night has crawled for two miles on his belly to stalk the elusive white geese feeding on the tableland on"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Those lucky"
+      },
+      {
+        "text": "Nimrods",
+        "entity_key": "nimrods",
+        "entity_type": "org"
+      },
+      {
+        "text": "who have hunted wild boars on"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "have enjoyed real danger and excitement and the man who likes upland game bird shooting can find his fill of doves and quail in the verdant slopes and wooded canyons of"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The eleven Channel Islands are divided into three distinct groups. Northernmost are the Santa Barbara group, lying about twenty miles offshore and ranging in an east-west line from Point Hueneme to Point Concepcion. They include Anacapa, Santa Cruz, Santa Rosa and San Miguel. To the southward and off Point Vicente is the Santa Catalina group, including Santa Catalina, San Clemente, Santa Barbara and San Nicolas. Some ten miles south of Point Loma, off San Diego, are the three black Los Coronados, called Las Islas Desiertas by Cabrillo."
+        "text": "The eleven"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "are divided into three distinct groups. Northernmost are the"
+      },
+      {
+        "text": "Santa Barbara group",
+        "entity_key": "i_northernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", lying about twenty miles offshore and ranging in an east-west line from"
+      },
+      {
+        "text": "Point Hueneme",
+        "entity_key": "re_ph",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Point Concepcion",
+        "entity_key": "re_pc",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They include"
+      },
+      {
+        "text": "Anacapa",
+        "entity_key": "i_an",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ". To the southward and off"
+      },
+      {
+        "text": "Point Vicente",
+        "entity_key": "re_pv",
+        "entity_type": "place"
+      },
+      {
+        "text": "is the"
+      },
+      {
+        "text": "Santa Catalina group",
+        "entity_key": "i_southernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", including"
+      },
+      {
+        "text": "Santa Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Some ten miles south of"
+      },
+      {
+        "text": "Point Loma",
+        "entity_key": "re_pl",
+        "entity_type": "place"
+      },
+      {
+        "text": ", off"
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": ", are the three black"
+      },
+      {
+        "text": "Los Coronados",
+        "entity_key": "i_lc",
+        "entity_type": "place"
+      },
+      {
+        "text": ", called"
+      },
+      {
+        "text": "Las Islas Desiertas",
+        "entity_key": "i_lilasdesiertas",
+        "entity_type": "place"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Catalina needs no introduction. Last year more than 700,000 persons visited the Magic Isle via steamers of the Wrigley fleet alone, in addition to the thousands who traveled to Avalon, the isthmus, Catalina Harbor and the island's myriad beauty spots aboard yachts. Catalina is needed, though, as a starting point for the early history of the Channel Islands, for on October 7, 1542, Cabrillo came ashore to visit an Indian village, variously located between Avalon and the isthmus. He named the Island San Salvador for his flagship and San Clemente was called La Victoria, after Cabrillo's other vessel. But when Vizcaino visited the California coast in 1602 he gave the islands their present names, as well as changing the names of practically all of the other islands, bays and important headlands Cabrillo had discovered sixty years before."
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "needs no introduction. Last year more than 700,000 persons visited the"
+      },
+      {
+        "text": "Magic Isle",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "via steamers of the Wrigley fleet alone, in addition to the thousands who traveled to"
+      },
+      {
+        "text": "Avalon",
+        "entity_key": "ci_av",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the isthmus",
+        "entity_key": "re_isthmus1",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Catalina Harbor",
+        "entity_key": "re_catalinaharbor",
+        "entity_type": "place"
+      },
+      {
+        "text": "and the island's myriad beauty spots aboard yachts."
+      },
+      {
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "is needed, though, as a starting point for the early history of the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for on October 7, 1542,"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "came ashore to visit an Indian village, variously located between"
+      },
+      {
+        "text": "Avalon",
+        "entity_key": "ci_av",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the isthmus",
+        "entity_key": "re_isthmus1",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He named the Island San Salvador for"
+      },
+      {
+        "text": "his flagship",
+        "entity_key": "sh_salvador",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "was called La Victoria, after"
+      },
+      {
+        "text": "Cabrillo's other vessel",
+        "entity_key": "sh_lavictoria",
+        "entity_type": "ship"
+      },
+      {
+        "text": ". But when"
+      },
+      {
+        "text": "Vizcaino",
+        "entity_key": "svi",
+        "entity_type": "person"
+      },
+      {
+        "text": "visited the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1602 he gave"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "their present names, as well as changing the names of practically all of the other islands, bays and important headlands"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "had discovered sixty years before."
       }
     ],
     [
       {
-        "text": "In Cabrillo's time all of the eight upper Channel Islands except Santa Barbara were peopled with Indian tribes living in varying states of barbaric civilization. Pimugna was the native name for Santa Catalina. Authorities agree that the Pimugnans and the natives of San Clemente, called Kinkapar, spoke a dialect called Netela, but among all of the other islanders there were such wide differences in language that those living on neighboring islands in sight of each other could not understand one another."
+        "text": "In Cabrillo's time all of the eight upper"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "except"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "were peopled with"
+      },
+      {
+        "text": "Indian tribes",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "living in varying states of barbaric civilization."
+      },
+      {
+        "text": "Pimugna",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "was the native name for"
+      },
+      {
+        "text": "Santa Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Authorities agree that the"
+      },
+      {
+        "text": "Pimugnans",
+        "entity_key": "natam_pimugnans",
+        "entity_type": "org"
+      },
+      {
+        "text": "and the natives of"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ", called"
+      },
+      {
+        "text": "Kinkapar",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ", spoke a dialect called Netela, but among"
+      },
+      {
+        "text": "all of the other islanders",
+        "entity_key": "natam_islanders",
+        "entity_type": "org"
+      },
+      {
+        "text": "there were such wide differences in language that those living on"
+      },
+      {
+        "text": "neighboring islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "in sight of each other could not understand one another."
       }
     ],
     [
       {
-        "text": "Vizcaino and Torquemada both declared the islanders to be physically and mentally superior to the Indians of the mainland and expressed admiration of their ability in building canoes and the dexterity with which they handled these craft, as well as their use of steatite for making mortars. These mortars, made at the steatite quarries at Empire Landing, the Pimugnans are believed to have taken across channel to San Pedro Bay and sold to the mainland natives as the real beginning of the port's sea-borne trade."
+        "text": "Vizcaino",
+        "entity_key": "svi",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Torquemada",
+        "entity_key": "tto",
+        "entity_type": "person"
+      },
+      {
+        "text": "both declared"
+      },
+      {
+        "text": "the islanders",
+        "entity_key": "natam_islanders",
+        "entity_type": "org"
+      },
+      {
+        "text": "to be physically and mentally superior to the Indians of the mainland and expressed admiration of their ability in building canoes and the dexterity with which they handled these craft, as well as their use of steatite for making mortars. These mortars, made at the steatite quarries at"
+      },
+      {
+        "text": "Empire Landing",
+        "entity_key": "empland",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the"
+      },
+      {
+        "text": "Pimugnans",
+        "entity_key": "natam_pimugnans",
+        "entity_type": "org"
+      },
+      {
+        "text": "are believed to have taken across"
+      },
+      {
+        "text": "channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "San Pedro Bay",
+        "entity_key": "spbay",
+        "entity_type": "place"
+      },
+      {
+        "text": "and sold to the mainland natives as the real beginning of the port's sea-borne trade."
       }
     ],
     [
       {
-        "text": "Excerpts from the diary of the Costanso expedition, which came up the California coast in 1769, 227 years after Cabrillo, indicates that the Indians were still thriving on the Channel Islands:"
+        "text": "Excerpts from the diary of the Costanso expedition, which came up the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1769, 227 years after"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": ", indicates that"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "were still thriving on the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ":"
       }
     ],
     [
@@ -78,7 +688,25 @@
         "text": "\""
       },
       {
-        "text": "The dexterity and skill of these Indians is surpassing in the construction of their launches made of pine planking. They are from twenty-two to twenty-seven and one-half feet in length, including their rake, and of four feet beam . . . They handle the boats With equal cleverness, and three or four men go out to the open sea to fish in them, as they have capacity to carry eight or ten. They use long oars with two blades, and row with unspeakable lightness and velocity.",
+        "text": "The dexterity and skill of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "these Indians",
+        "tropes": [
+          3
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "is surpassing in the construction of their launches made of pine planking. They are from twenty-two to twenty-seven and one-half feet in length, including their rake, and of four feet beam . . . They handle the boats With equal cleverness, and three or four men go out to the open sea to fish in them, as they have capacity to carry eight or ten. They use long oars with two blades, and row with unspeakable lightness and velocity.",
         "tropes": [
           3
         ]
@@ -89,10 +717,18 @@
         "text": "\""
       },
       {
-        "text": "They know all the arts of fishing, and fish abound along their coasts, as has been said of San Diego",
+        "text": "They know all the arts of fishing, and fish abound along their coasts, as has been said of",
         "tropes": [
           3
         ]
+      },
+      {
+        "text": "San Diego",
+        "tropes": [
+          3
+        ],
+        "entity_key": "ci_sd",
+        "entity_type": "place"
       },
       {
         "text": ".\""
@@ -100,18 +736,127 @@
     ],
     [
       {
-        "text": "Life on the Channel Islands was for these savages a paradise. The waters abounded then, as now, in marine life of every form, fish, seals, whales, sharks, crayfish, abalones, mussels. Vast heaps of these shells and skeletons still found at town sites attest to the fact that these Indians were expert fishermen."
+        "text": "Life on the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "was for these"
+      },
+      {
+        "text": "savages",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "a paradise. The waters abounded then, as now, in marine life of every form, fish, seals, whales, sharks, crayfish, abalones, mussels. Vast heaps of these shells and skeletons still found at town sites attest to the fact that"
+      },
+      {
+        "text": "these Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "were expert fishermen."
       }
     ],
     [
       {
-        "text": "The complete disappearance of the natives within the last century is one of the mysteries of the islands.",
+        "text": "The complete disappearance of",
         "tropes": [
           6
         ]
       },
       {
-        "text": "San Nicolas is known to have had native inhabitants until 1830 and the Lost Woman of San Nicolas was not taken off that dreary, wind-swept desert until 1851. Charles Frederick Holder, the great sportsman who spent some thirty years exploring and studying the Channel Islands, presents the most logical solution:"
+        "text": "the natives",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "within the last century is one of the mysteries of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is known to have had"
+      },
+      {
+        "text": "native inhabitants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "until 1830 and"
+      },
+      {
+        "text": "the Lost Woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was not taken off"
+      },
+      {
+        "text": "that dreary, wind-swept desert",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "until 1851."
+      },
+      {
+        "text": "Charles Frederick Holder",
+        "entity_key": "cho",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the great sportsman who spent some thirty years exploring and studying the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", presents the most logical solution:"
       }
     ],
     [
@@ -119,7 +864,53 @@
         "text": "\""
       },
       {
-        "text": "One cannot look upon the human remains, the skulls and skeletons, without wondering where the natives went, or what accomplished their extinction, as within a century and a half the inhabitants of all these populous islands have disappeared.",
+        "text": "One cannot look upon the human remains, the skulls and skeletons, without wondering where",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "went, or what accomplished their extinction, as within a century and a half",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the inhabitants",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "all these populous islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "have disappeared.",
         "tropes": [
           6
         ]
@@ -130,7 +921,78 @@
         "text": "\""
       },
       {
-        "text": "According to some, they were killed off by the Russians, Americans, or Alaskans who came down the coast yearly after sea otters, with which this coast abounded in the early part of the nineteenth century. These people, according to tradition, paid no attention to the inhabitants, shot them down, and robbed them on a freebooter plan for mere amusement.",
+        "text": "According to some, they were killed off by the Russians, Americans, or",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "Alaskans",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "who came down",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "yearly after sea otters, with which",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "this coast",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "abounded in the early part of the nineteenth century. These people, according to tradition, paid no attention to",
+        "tropes": [
+          11,
+          13
+        ]
+      },
+      {
+        "text": "the inhabitants",
+        "tropes": [
+          11,
+          13
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", shot them down, and robbed them on a freebooter plan for mere amusement.",
         "tropes": [
           11,
           13
@@ -139,97 +1001,1202 @@
     ],
     [
       {
-        "text": "\"To me a more plausible explanation of the disappearance of the natives is that the Mission Fathers induced them to give up their island life and settle about the missions, to be within easy reach of their teachings; and while many were killed in war, swept away by disease or by the invaders, doubtless the majority went to the various missions, where they soon lost their identity.\""
+        "text": "\"To me a more plausible explanation of the disappearance of"
+      },
+      {
+        "text": "the natives",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "is that the"
+      },
+      {
+        "text": "Mission Fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "induced them to give up their island life and settle about"
+      },
+      {
+        "text": "the missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": ", to be within easy reach of their teachings; and while many were killed in war, swept away by disease or by the invaders, doubtless"
+      },
+      {
+        "text": "the majority",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "went to the various missions, where they soon lost their identity.\""
       }
     ],
     [
       {
-        "text": "San Clemente Island, lying some twenty miles southwest of Catalina, is the weird fragment of some huge ancient volcano and its eighteen miles of lava flows, cactus-filled canyons, coast line caves and vast sand dunes present a remarkable spectacle of desolation, as compared to the grassy grazing plains of the middle island. Its windward coast is largely low and flat, with several bays and anchorages, but the eastern shore—apparently the inner rim of a giant volcano—presents nothing but towering cliffs of lava, in such grewsome, desolate expanse that one recalls the illustrations of Dante's Inferno."
+        "text": "San Clemente Island",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": ", lying some twenty miles southwest of"
+      },
+      {
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ", is the weird fragment of some huge ancient volcano and its eighteen miles of lava flows, cactus-filled canyons, coast line caves and vast sand dunes present a remarkable spectacle of desolation, as compared to the grassy grazing plains of the middle island. Its windward coast is largely low and flat, with several bays and anchorages, but the eastern shore—apparently the inner rim of a giant volcano—presents nothing but towering cliffs of lava, in such grewsome, desolate expanse that one recalls the illustrations of Dante's Inferno."
       }
     ],
     [
       {
-        "text": "The island is owned by the United States government and has long been inhabited by herders on the sheep ranch operated by E. G. Blair, and several coves shelter shacks of fishermen. Its highest peak rises to only 1960 feet, yet a great portion of it is so mountainous that it affords ideal country for the thousands of wild goats still hunted there about its needle-like lava crags and abysmal canyons."
+        "text": "The island",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "is owned by the"
+      },
+      {
+        "text": "United States government",
+        "entity_key": "gov_usa",
+        "entity_type": "org"
+      },
+      {
+        "text": "and has long been inhabited by herders on the sheep ranch operated by"
+      },
+      {
+        "text": "E. G. Blair",
+        "entity_key": "ebl",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and several coves shelter shacks of fishermen. Its highest peak rises to only 1960 feet, yet a great portion of it is so mountainous that it affords ideal country for the thousands of wild goats still hunted there about its needle-like lava crags and abysmal canyons."
       }
     ],
     [
       {
-        "text": "San Clemente offers a fair example of the unusual bird life of all the Channel Islands. Its crags are the home of the American bald eagle and on the broad plains of the middle island are found valley quail, the mourning [morning] dove, humming birds, the savanna sparrow, rock wren, the house finch, lark, 'pewee, the California shrike and most of the coast's warblers. Ravens abound on San Clemente and about its sea-torn cliffs live the American osprey, the white-throated swift and the belted kingfisher. Sea birds making the various islands their winter home include the royal tern, the black-footed albatross, pelicans,cormorants, grebes, loons and auklets and the many species of shore waders. At certain seasons ducks and geese are found about the more verdant islands of Santa Rosa and Santa Cruz."
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "offers a fair example of the unusual bird life of all the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Its crags are the home of the American bald eagle and on the broad plains of the middle island are found valley quail, the mourning [morning] dove, humming birds, the savanna sparrow, rock wren, the house finch, lark, 'pewee, the California shrike and most of the coast's warblers. Ravens abound on"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "and about its sea-torn cliffs live the American osprey, the white-throated swift and the belted kingfisher. Sea birds making the various islands their winter home include the royal tern, the black-footed albatross, pelicans,cormorants, grebes, loons and auklets and the many species of shore waders. At certain seasons ducks and geese are found about the more verdant islands of"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "Santa Barbara and San Nicolas, the other two islands of the Santa Catalina group, are both United States government reservations. Santa Barbara's twin peaks rise out of the channel forty-seven miles southwest of San Pedro, while bleak San Nicolas is some thirty farther offshore on almost the same bearing. A light has been estabilshed on little Santa Barbara, but it is uninhabited, save for large rookeries of cormorants, guillemots, pelicans, auklets and the upland birds of the other islands. Almost surrounded by huge kelp beds, Santa Barbara Island waters are fine fishing grounds but they are little frequented by amateur anglers because of the island's isolated position."
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the other two islands of the"
+      },
+      {
+        "text": "Santa Catalina group",
+        "entity_key": "i_southernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", are both"
+      },
+      {
+        "text": "United States government reservations",
+        "entity_key": "gov_usa",
+        "entity_type": "org"
+      },
+      {
+        "text": ". Santa Barbara's twin peaks rise out of"
+      },
+      {
+        "text": "the channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "forty-seven miles southwest of"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", while bleak"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is some thirty farther offshore on almost the same bearing. A light has been estabilshed on little"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but it is uninhabited, save for large rookeries of cormorants, guillemots, pelicans, auklets and the upland birds of the other islands. Almost surrounded by huge kelp beds, Santa Barbara Island waters are fine fishing grounds but they are little frequented by amateur anglers because of the island's isolated position."
       }
     ],
     [
       {
-        "text": "San Nicolas Island, inhabited only by the lonely herders tending the sheep kept there by Messrs. Edward Vail and R. L. Brooks, is the most desolate, wind-swept waste of the entire Channel group, but in its story there lies the strange tale of the \"Lost Woman of San Nicolas.\""
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", inhabited only by the lonely herders tending the sheep kept there by Messrs."
+      },
+      {
+        "text": "Edward Vail",
+        "entity_key": "eva",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "R. L. Brooks",
+        "entity_key": "rbr",
+        "entity_type": "person"
+      },
+      {
+        "text": ", is the most desolate, wind-swept waste of the entire"
+      },
+      {
+        "text": "Channel group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but in its story there lies the strange tale of the \""
+      },
+      {
+        "text": "Lost Woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".\""
       }
     ],
     [
       {
-        "text": "In 1830 a schooner was sent to the island by the Mission Fathers to take off the last remnants of the dying tribe of Indians that had once thrived on San Nicolas. It was the Better Than Nothing, from San Pedro, and Capt. Sparks and his crew had taken aboard the last of the natives—numbering about a dozen—when one woman begged to be put ashore, explaining that she had left her child behind. She went ashore, ran up the beach, found her baby and hurried back to the schooner, only to find that the Better Than Nothing was under way and heading offshore. Some versions of the tale indicate that the weather was so boisterous that Capt. Sparks was forced to put to sea. Others say that he deliberately left her."
+        "text": "In 1830"
+      },
+      {
+        "text": "a schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was sent to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "by the"
+      },
+      {
+        "text": "Mission Fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "to take off the"
+      },
+      {
+        "text": "last remnants of the dying tribe of Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "that had once thrived on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It was the"
+      },
+      {
+        "text": "Better Than Nothing",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", from"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "Capt. Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "his crew",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "had taken aboard the last of"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "—numbering about a dozen—when"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "begged to be put ashore, explaining that she had left"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "behind. She went ashore, ran up the beach, found"
+      },
+      {
+        "text": "her baby",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "and hurried back to"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", only to find that the"
+      },
+      {
+        "text": "Better Than Nothing",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was under way and heading offshore. Some versions of the tale indicate that the weather was so boisterous that"
+      },
+      {
+        "text": "Capt. Sparks",
+        "entity_key": "isp",
+        "entity_type": "person"
+      },
+      {
+        "text": "was forced to put to sea. Others say that he deliberately left her."
       }
     ],
     [
       {
-        "text": "At any rate, the schooner never returned and the woman's isolation became a matter of years. Finally, after twenty years, some otter hunter located her rude hut on the island, and reported it to the padres of the Mission Santa Barbara. Padre Gonzales dispatched Capt. Nidever to the island in search of her. On two trips he combed San Nicolas from end to end without success and on the third trip he took along a number of Indians and several Santa Barbara residents, including one Charles Brown."
+        "text": "At any rate,"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "never returned and the woman's isolation became a matter of years. Finally, after twenty years,"
+      },
+      {
+        "text": "some otter hunter",
+        "entity_keys": [
+          "gni",
+          "tje"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "located her rude hut on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and reported it to"
+      },
+      {
+        "text": "the padres of the Mission Santa Barbara",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Padre Gonzales",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": "dispatched"
+      },
+      {
+        "text": "Capt. Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in search of her. On two trips he combed"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "from end to end without success and on the third trip he took along a"
+      },
+      {
+        "text": "number of Indians",
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "several Santa Barbara residents",
+        "entity_keys": [
+          "cdi",
+          "col"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", including one"
+      },
+      {
+        "text": "Charles Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "On this trip Brown found her hut, made of whalebones and a brush roof, and later that day he and the Indians sighted her, watching them from the opposite side of a hill. By the time they reached the spot, however, she had disappeared. From Brown's narrative:"
+        "text": "On this trip"
+      },
+      {
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "found her hut, made of whalebones and a brush roof, and later that day he and"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "sighted her, watching them from the opposite side of a hill. By the time they reached the spot, however, she had disappeared. From Brown's narrative:"
       }
     ],
     [
       {
-        "text": "\"When we got across to the Indians, I said, 'There's nothing here, let's go back.' There was a basket and some feathers. She catched shags and had a coat made without sleeves, nicely covered with sealskin. I said to the Indians, 'You go to the hill and scatter the feathers and things in the basket, and if she is still alive she will find them.' The same day we found them all gathered up and put in the basket.\""
+        "text": "\"When we got across to"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", I said, 'There's nothing here, let's go back.' There was a basket and some feathers. She catched shags and had a coat made without sleeves, nicely covered with sealskin. I said to"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", 'You go to the hill and scatter the feathers and things in the basket, and if she is still alive she will find them.' The same day we found them all gathered up and put in the basket.\""
       }
     ],
     [
       {
-        "text": "Brown resumed the search the next morning and soon caught sight of her toiling up the hill toward the whalebone hut, carrying something heavy in her arms. He describes her capture:"
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "resumed the search the next morning and soon caught sight of her toiling up the hill toward the whalebone hut, carrying something heavy in her arms. He describes her capture:"
       }
     ],
     [
       {
-        "text": "\"She had a brush fence, about two feet high, to break the wind, and right in front of me she sat facing me. The sun was coming in her face. She was skinning a seal before I came up to her. Thinking she might run I stepped round her, and she bowed as if she knew me before, and when the Indians came up they all kneeled.\""
+        "text": "\"She had a brush fence, about two feet high, to break the wind, and right in front of me she sat facing me. The sun was coming in her face. She was skinning a seal before I came up to her. Thinking she might run I stepped round her, and she bowed as if she knew me before, and when"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "came up they all kneeled.\""
       }
     ],
     [
       {
-        "text": "After a month on San Nicolas, Capt. Nidever and Brown took the Lost Woman to the Mission of Santa Barbara, where she was christened Juana Maria. But the crew of Nidever's schooner had already named her \"Better Than Nothing\" and by that name she was known. She was estimated to have been about forty-five years old when found. All efforts to find Mission Indians who understood her dialect were fruitless and after six weeks at Santa Barbara she became ill and died—taking with her the enigma of the disappearance of the Channel Islanders."
+        "text": "After a month on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Capt. Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Brown",
+        "entity_key": "cdi",
+        "entity_type": "person"
+      },
+      {
+        "text": "took"
+      },
+      {
+        "text": "the Lost Woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to the"
+      },
+      {
+        "text": "Mission of Santa Barbara",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she was christened"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". But"
+      },
+      {
+        "text": "the crew",
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Nidever's schooner",
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "had already named her \""
+      },
+      {
+        "text": "Better Than Nothing",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "\" and by that name she was known. She was estimated to have been about forty-five years old when found. All efforts to find"
+      },
+      {
+        "text": "Mission Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "who understood her dialect were fruitless and after six weeks at"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "she became ill and died—taking with her the enigma of the disappearance of the"
+      },
+      {
+        "text": "Channel Islanders",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "San Nicolas' eight miles of lava flows, shifting sand dunes, its 900-foot fog-shrouded peak, its deep cut canyons, its bleak cliffs and the crashing seas breaking over its rocky shores make it just about one of the most desolate places on earth. Yet it was one of the most populous of all the islands when Cabrillo and Vizcaino visited the coast and it is still a great treasure ground for archeologists and souvenir hunters. It is the site of one of the largest aboriginal kitchen middens in the world and here may still be found skulls, pipes, beads, ollas, flint spear heads and other traces of the ancient island people. San Nicolas is literally being blown into the sea and while the northwester is howling with great force across its desolate expanse one can stand on this bleak desert and see Catalina, where at that same moment an ideal summer climate obtains."
+        "text": "San Nicolas' eight miles of lava flows, shifting sand dunes, its 900-foot fog-shrouded peak, its deep cut canyons, its bleak cliffs and the crashing seas breaking over its rocky shores make it just about one of the most desolate places on earth. Yet it was one of the most populous of all"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "when"
+      },
+      {
+        "text": "Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Vizcaino",
+        "entity_key": "svi",
+        "entity_type": "person"
+      },
+      {
+        "text": "visited"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "and it is still a great treasure ground for archeologists and souvenir hunters. It is the site of one of the largest aboriginal kitchen middens in the world and here may still be found skulls, pipes, beads, ollas, flint spear heads and other traces of"
+      },
+      {
+        "text": "the ancient island people",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is literally being blown into the sea and while the northwester is howling with great force across its desolate expanse one can stand on"
+      },
+      {
+        "text": "this bleak desert",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and see"
+      },
+      {
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where at that same moment an ideal summer climate obtains."
       }
     ],
     [
       {
-        "text": "Sailing up channel, the first of the Santa Barbara islands encountered is Anacapa, \"the everchanging,\" in reality three islands of grotesque shape. Anacapa is an island in the last stages of its existence, succumbing to the ravages of wind and sea, and its shores are therefore formed of myriad caves and arches, where the sea rushes in and out in its never-ceasing effort. The largest of Anacapa's three islets is a peak rising 980 feet above the sea, the whole Anacapa group, in fact, having the appearance of a mountain on edge rising out of the sea."
+        "text": "Sailing up channel, the first of the"
+      },
+      {
+        "text": "Santa Barbara islands",
+        "entity_key": "i_northernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": "encountered is"
+      },
+      {
+        "text": "Anacapa",
+        "entity_key": "i_an",
+        "entity_type": "place"
+      },
+      {
+        "text": ", \"the everchanging,\" in reality three islands of grotesque shape."
+      },
+      {
+        "text": "Anacapa",
+        "entity_key": "i_an",
+        "entity_type": "place"
+      },
+      {
+        "text": "is an island in the last stages of its existence, succumbing to the ravages of wind and sea, and its shores are therefore formed of myriad caves and arches, where the sea rushes in and out in its never-ceasing effort. The largest of Anacapa's three islets is a peak rising 980 feet above the sea,"
+      },
+      {
+        "text": "the whole Anacapa group",
+        "entity_key": "i_an",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in fact, having the appearance of a mountain on edge rising out of the sea."
       }
     ],
     [
       {
-        "text": "Although less than a hundred miles separate the Santa Barbara islands from the Santa Catalina group a striking change in climate is noted. The westerly wind blows with more gusto down the Santa Barbara Channel and its waters seem to be the camp ground of the grim fogs which often envelop the Anacapa Passage. Santa Cruz and Santa Rosa islands, next in order up channel, on the other hand enjoy a salubrious climate, which is like that of Catalina, tempered by a fresher, cooler west wind. These two islands, both approaching Catalina in size and topographical make-up, are surpassed by none of the Channel group in wild, verdant beauty. Santa Cruz's shores are lined with scores of little coves and bays, there being yachtsmen and fishermen who will tell you that Cochies Prietos—that perfect little gem of a harbor midway up the south shore—is the prettiest spot on earth. Santa Cruz is world-famous for its great multi-colored shore line caves. Several like the Painted Cave, have sea entrances and open up into cavern-canopied lakes under the mountains, while Cueva Valdez, near the east end, has both shore and sea entrances. The island is owned by the heirs of Justinian Caire, a Frenchman who a half-century ago established on its interior valley a beautiful rancho that is still a faithful reproduction of the vineyard country of Southern France. Sheep are also raised on the Caire rancho, while the island's tree-filled valleys and grassy slopes abound with California valley quail and doves."
+        "text": "Although less than a hundred miles separate the"
+      },
+      {
+        "text": "Santa Barbara islands",
+        "entity_key": "i_northernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": "from the"
+      },
+      {
+        "text": "Santa Catalina group",
+        "entity_key": "i_southernchi",
+        "entity_type": "place"
+      },
+      {
+        "text": "a striking change in climate is noted. The westerly wind blows with more gusto down the"
+      },
+      {
+        "text": "Santa Barbara Channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "and its waters seem to be the camp ground of the grim fogs which often envelop the Anacapa Passage."
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "islands, next in order up channel, on the other hand enjoy a salubrious climate, which is like that of"
+      },
+      {
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ", tempered by a fresher, cooler west wind."
+      },
+      {
+        "text": "These two islands",
+        "entity_keys": [
+          "i_scruz",
+          "i_sr"
+        ],
+        "entity_type": "place"
+      },
+      {
+        "text": ", both approaching"
+      },
+      {
+        "text": "Catalina",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "in size and topographical make-up, are surpassed by none of the"
+      },
+      {
+        "text": "Channel group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "in wild, verdant beauty. Santa Cruz's shores are lined with scores of little coves and bays, there being yachtsmen and fishermen who will tell you that"
+      },
+      {
+        "text": "Cochies Prietos",
+        "entity_key": "re_coche",
+        "entity_type": "place"
+      },
+      {
+        "text": "—that perfect little gem of a harbor midway up the south shore—is the prettiest spot on earth."
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "is world-famous for its great multi-colored shore line caves. Several like the"
+      },
+      {
+        "text": "Painted Cave",
+        "entity_key": "re_paintedcave",
+        "entity_type": "place"
+      },
+      {
+        "text": ", have sea entrances and open up into cavern-canopied lakes under the mountains, while"
+      },
+      {
+        "text": "Cueva Valdez",
+        "entity_key": "re_valdezcave",
+        "entity_type": "place"
+      },
+      {
+        "text": ", near the east end, has both shore and sea entrances."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "is owned by the heirs of"
+      },
+      {
+        "text": "Justinian Caire",
+        "entity_key": "jcaire",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a Frenchman who a half-century ago established on its interior valley a beautiful rancho that is still a faithful reproduction of the vineyard country of"
+      },
+      {
+        "text": "Southern France",
+        "entity_key": "re_sfrance",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Sheep are also raised on the"
+      },
+      {
+        "text": "Caire rancho",
+        "entity_key": "cairerancho",
+        "entity_type": "place"
+      },
+      {
+        "text": ", while the island's tree-filled valleys and grassy slopes abound with California valley quail and doves."
       }
     ],
     [
       {
-        "text": "Santa Rosa Island, just across the lively Santa Cruz Channel from Santa Cruz, approaches that island in size and natural beauty and contains one of the finest cattle ranches in California, maintained jointly by the Vail Company and the J. V. Vickers estate, owners of the island. It is the wild boar hunters' favorite territory and is a winter rendezvous for huge flocks of white geese, which feed on the upland grazing grounds. Like the other Channel Islands, Santa Rosa is mountainous and cut by deep canyons. Its highest peak, Monte Negro, rises to a height of 1565 feet. Don Carlos and Jose Carrillo, members of the pioneer California family, gained title to Santa Rosa by a grant from the King of Spain in 1834, from whose hands it later passes to the More brothers, of Santa Barbara, before its purchase by the Vail and Vickers interests."
+        "text": "Santa Rosa Island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ", just across the lively"
+      },
+      {
+        "text": "Santa Cruz Channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "Santa Cruz",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": ", approaches"
+      },
+      {
+        "text": "that island",
+        "entity_key": "i_scruz",
+        "entity_type": "place"
+      },
+      {
+        "text": "in size and natural beauty and contains one of the finest cattle ranches in"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", maintained jointly by the"
+      },
+      {
+        "text": "Vail Company",
+        "entity_key": "vailco",
+        "entity_type": "org"
+      },
+      {
+        "text": "and the"
+      },
+      {
+        "text": "J. V. Vickers",
+        "entity_key": "jjvickers",
+        "entity_type": "person"
+      },
+      {
+        "text": "estate, owners of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It is the wild boar hunters' favorite territory and is a winter rendezvous for huge flocks of white geese, which feed on the upland grazing grounds. Like the other"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "is mountainous and cut by deep canyons. Its highest peak,"
+      },
+      {
+        "text": "Monte Negro",
+        "entity_key": "mnegro",
+        "entity_type": "place"
+      },
+      {
+        "text": ", rises to a height of 1565 feet."
+      },
+      {
+        "text": "Don Carlos",
+        "entity_key": "ccar",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Jose Carrillo",
+        "entity_key": "jcarillo",
+        "entity_type": "person"
+      },
+      {
+        "text": ", members of the pioneer California family, gained title to"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": "by a grant from the"
+      },
+      {
+        "text": "King of Spain",
+        "entity_key": "kingsp",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1834, from whose hands it later passes to the"
+      },
+      {
+        "text": "More brothers",
+        "entity_keys": [
+          "tmor",
+          "amo",
+          "hmor"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", before its purchase by the"
+      },
+      {
+        "text": "Vail",
+        "entity_key": "eva",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Vickers",
+        "entity_key": "jjvickers",
+        "entity_type": "person"
+      },
+      {
+        "text": "interests."
       }
     ],
     [
       {
-        "text": "Three miles from Santa Rosa, separated by a channel of turbulent waters and dengerous currents, lies San Miguel, western sentinel of the entire channel group. Seven and one-half miles long, this desolate, wind-swept island is first seen as twin peaks rising out of the sea. It is government-owned. Treeless and swept continually by shifting dunes and storms of sand driven by the strong northwester, its shores are for the most part bold and rocky. Cuyler's Harbor, under the lee of Harris Point on the north shore, is the only harbor of value and even it is filled with kelp and shoals."
+        "text": "Three miles from"
+      },
+      {
+        "text": "Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ", separated by"
+      },
+      {
+        "text": "a channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": "of turbulent waters and dengerous currents, lies"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": ", western sentinel of"
+      },
+      {
+        "text": "the entire channel group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Seven and one-half miles long,"
+      },
+      {
+        "text": "this desolate, wind-swept island",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "is first seen as twin peaks rising out of the sea. It is government-owned. Treeless and swept continually by shifting dunes and storms of sand driven by the strong northwester, its shores are for the most part bold and rocky."
+      },
+      {
+        "text": "Cuyler's Harbor",
+        "entity_key": "re_cuylerharbor",
+        "entity_type": "place"
+      },
+      {
+        "text": ", under the lee of"
+      },
+      {
+        "text": "Harris Point",
+        "entity_key": "hpt",
+        "entity_type": "place"
+      },
+      {
+        "text": "on the north shore, is the only harbor of value and even it is filled with kelp and shoals."
       }
     ],
     [
       {
-        "text": "Somewhere along Cuyler's bleak expanse, the remains of Juan Rodriquez Cabrillo are believed to lie, for it was there he died on January 3, 1543, after suffering intensely for two months from the arm he had broken while at San Miguel in October. Dying in those lonely, stormy waters far from home, Cabrillo's valor and courage stayed with him to the last, for Bartolome Ferrelo, his pilot, says in describing his passage:"
+        "text": "Somewhere along"
+      },
+      {
+        "text": "Cuyler's bleak expanse",
+        "entity_key": "re_cuylerharbor",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the remains of"
+      },
+      {
+        "text": "Juan Rodriquez Cabrillo",
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "are believed to lie, for it was there he died on January 3, 1543, after suffering intensely for two months from the arm he had broken while at"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "in October. Dying in those lonely, stormy waters far from home, Cabrillo's valor and courage stayed with him to the last, for"
+      },
+      {
+        "text": "Bartolome Ferrelo",
+        "entity_key": "bfe",
+        "entity_type": "person"
+      },
+      {
+        "text": ", his pilot, says in describing his passage:"
       }
     ],
     [
@@ -239,7 +2206,50 @@
     ],
     [
       {
-        "text": "No monument marks his grave, but beneath the shifting sands of San Miguel lies the real discoverer of California. He and Ferrelo did more than all others to increase Spain's kingdom in the Pacific, yet the gallant efforts of these two bold sailors are commemorated by not a single prominent landmark along the coast that they were first to find."
+        "text": "No monument marks his grave, but beneath the shifting sands of"
+      },
+      {
+        "text": "San Miguel",
+        "entity_key": "i_sm",
+        "entity_type": "place"
+      },
+      {
+        "text": "lies the real discoverer of"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He and"
+      },
+      {
+        "text": "Ferrelo",
+        "entity_key": "bfe",
+        "entity_type": "person"
+      },
+      {
+        "text": "did more than all others to increase Spain's kingdom in the"
+      },
+      {
+        "text": "Pacific",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": ", yet the gallant efforts of these"
+      },
+      {
+        "text": "two bold sailors",
+        "entity_keys": [
+          "jca",
+          "bfe"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "are commemorated by not a single prominent landmark along the coast that they were first to find."
       }
     ]
   ]

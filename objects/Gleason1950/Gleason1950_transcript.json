@@ -3,10 +3,75 @@
   "paragraphs": [
     [
       {
-        "text": "San Nicolas stands as the southern outpost of the Channel Islands, 53 miles off the nearest point of the coast. Here the winds blow strong, scouring this wasting island into grains of stinging sand, forming a long spit reaching out from the eastern end, south of which is the safest anchorage on the island."
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
       },
       {
-        "text": "Eight miles long and but three in width, the island was once inhabited by a superior race of almost white Indians (likely due to a sojourn of various trading ships).",
+        "text": "stands as the southern outpost of the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", 53 miles off the nearest point of"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Here the winds blow strong, scouring"
+      },
+      {
+        "text": "this wasting island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "into grains of stinging sand, forming a long spit reaching out from the eastern end, south of which is the safest anchorage on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Eight miles long and but three in width,",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was once inhabited by",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "a superior race of almost white Indians",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "(likely due to a sojourn of various trading ships).",
         "tropes": [
           3
         ]
@@ -14,21 +79,213 @@
     ],
     [
       {
-        "text": "The Russians with their savage Aleut hunters in quest of sea otter found these women to their liking and killed the men who tried to defend them. By the time the otter were exterminated, only a small remnant of the tribe remained.",
+        "text": "The Russians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "with their savage",
         "tropes": [
           11
         ]
       },
       {
-        "text": "In 1835 the Padres of the mission at Santa Barbara, thinking to save the pagan souls on the island, decided to remove them to the mainland."
+        "text": "Aleut hunters",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "in quest of sea otter found these women to their liking and killed the men who tried to defend them. By the time the otter were exterminated, only a small remnant of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the tribe",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "remained.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "In 1835"
+      },
+      {
+        "text": "the Padres of the mission at Santa Barbara",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", thinking to save"
+      },
+      {
+        "text": "the pagan souls",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", decided to remove them to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "An ambitious Mexican named Joaquin Gomez, had built a little schooner at Santa Barbara. He was evidently not too well pleased with the result of his labors, for he christened her Peor es Nada, which freely translated means \"Better Than Nothing.\" Captained by Charles Hubbard, the vessel sailed to the tiny island and gathered up the surviving inhabitants. A storm was coming on and Captain Hubbard made hurried preparations to leave, when one of the women found that her babe was not on board."
+        "text": "An ambitious Mexican named"
       },
       {
-        "text": "The safety of the vessel demanded an immediate departure but the frantic mother dove from the rail and swam for shore.",
+        "text": "Joaquin Gomez",
+        "entity_key": "jgo",
+        "entity_type": "person"
+      },
+      {
+        "text": ", had built"
+      },
+      {
+        "text": "a little schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "at"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He was evidently not too well pleased with the result of his labors, for he christened her"
+      },
+      {
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", which freely translated means \"Better Than Nothing.\" Captained by"
+      },
+      {
+        "text": "Charles Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "sailed to"
+      },
+      {
+        "text": "the tiny island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and gathered up"
+      },
+      {
+        "text": "the surviving inhabitants",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": ". A storm was coming on and"
+      },
+      {
+        "text": "Captain Hubbard",
+        "entity_key": "chu",
+        "entity_type": "person"
+      },
+      {
+        "text": "made hurried preparations to leave, when"
+      },
+      {
+        "text": "one of the women",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "found that"
+      },
+      {
+        "text": "her babe",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was not on board."
+      },
+      {
+        "text": "The safety of",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the vessel",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "demanded an immediate departure but",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the frantic mother",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "dove from the rail and swam for shore.",
         "tropes": [
           9
         ]
@@ -36,25 +293,174 @@
     ],
     [
       {
-        "text": "The Peor es Nada reached San Pedro and the Indians were distributed among the various missions while the woman on the island was all but forgotten."
+        "text": "The"
       },
       {
-        "text": "Three attempts were made to find her during the next eighteen years and in 1853 a number of men went over with Captain George Midevar [Nidever], who combed the desolate wastes of the island. At last, under a shelter made of whalebone and brush, she was found, clad in a garment fashioned from bird skins and feathers.",
+        "text": "Peor es Nada",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "reached"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were distributed among the various missions while"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was all but forgotten."
+      },
+      {
+        "text": "Three attempts were made to find her during the next eighteen years and in 1853",
         "tropes": [
           4
         ]
       },
       {
-        "text": "By signs the frightened woman made it be known that the baby had been killed by wild dogs.",
+        "text": "a number of men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "went over with",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Captain George Midevar [Nidever]",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who combed the desolate wastes of",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". At last, under a shelter made of whalebone and brush, she was found, clad in a garment fashioned from bird skins and feathers.",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "By signs",
         "tropes": [
           10
         ]
       },
       {
-        "text": "She was taken to Santa Barbara and christened Juana Maria."
+        "text": "the frightened woman",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
       },
       {
-        "text": "Though she was given the best of care, she lived but six weeks, and the last inhabitant of San Nicolas was dead.",
+        "text": "made it be known that",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the baby",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been killed by wild dogs.",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "She was taken to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and christened"
+      },
+      {
+        "text": "Juana Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Though she was given the best of care, she lived but six weeks, and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the last inhabitant of San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "was dead.",
         "tropes": [
           6
         ]
@@ -62,7 +468,31 @@
     ],
     [
       {
-        "text": "Sheep were raised on San Nicolas at various times and during the great Los Angeles real estate boom of the '80s, town lots were laid out on the island. It is now a Naval Reserve and is surrounded by restricted areas except for two short stretches of shoreline."
+        "text": "Sheep were raised on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "at various times and during the great Los Angeles real estate boom of the '80s, town lots were laid out on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". It is now a"
+      },
+      {
+        "text": "Naval Reserve",
+        "entity_key": "re_pmugu",
+        "entity_type": "place"
+      },
+      {
+        "text": "and is surrounded by restricted areas except for two short stretches of shoreline."
       }
     ],
     [
@@ -72,7 +502,15 @@
     ],
     [
       {
-        "text": "Probably the most extensive abalone beds in the world are located here, due to the remoteness of the island and the restricted areas surrounding it."
+        "text": "Probably the most extensive abalone beds in the world are located here, due to the remoteness of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and the restricted areas surrounding it."
       }
     ]
   ]

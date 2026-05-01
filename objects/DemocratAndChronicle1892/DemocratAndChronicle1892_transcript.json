@@ -3,22 +3,238 @@
   "paragraphs": [
     [
       {
-        "text": "On the lon[e]ly windswept island of San Nicolas, eighty miles off the coast of Ventura county, where as far back as the memory of man runs hundreds of grisly white skeletons have dotted the valleys and hillsides, local archeologists are now gathering the relics of a strange extinct race."
+        "text": "On the lon[e]ly windswept"
+      },
+      {
+        "text": "island of San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", eighty miles off the coast of"
+      },
+      {
+        "text": "Ventura county",
+        "entity_key": "co_ventura",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where as far back as the memory of man runs hundreds of grisly white skeletons have dotted the valleys and hillsides, local archeologists are now gathering the relics of a"
+      },
+      {
+        "text": "strange extinct race",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "The island is ten miles long and oval in shape, being four miles across at the widest part. Strange utensils of serpentine, sandstone, and steatite are found there among the human bones, and the island and its erstwhile inhabitants have a history so curious that it is difficult of comprehension."
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is ten miles long and oval in shape, being four miles across at the widest part. Strange utensils of serpentine, sandstone, and steatite are found there among the human bones, and"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "its erstwhile inhabitants",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "have a history so curious that it is difficult of comprehension."
       }
     ],
     [
       {
-        "text": "In 1835 the padres of Santa Barbara, learning that there were but sixteen of the strange Indian race then living there, determined to rescue them from the island. They went over in a sloop and succeeded, as they thought, in getting all on board. At the last moment an Indian woman returned for her child, and one of the frequent storms of the channel islands springing up the sloop was driven away without her. The sloop went on the rocks of Point Conception and all on board were lost."
+        "text": "In 1835"
+      },
+      {
+        "text": "the padres of Santa Barbara",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", learning that there were but"
+      },
+      {
+        "text": "sixteen of the strange Indian race",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "then living there, determined to rescue them from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They went over in"
+      },
+      {
+        "text": "a sloop",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and succeeded, as they thought, in getting all on board. At the last moment"
+      },
+      {
+        "text": "an Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned for"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and one of the frequent storms of the"
+      },
+      {
+        "text": "channel islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "springing up"
+      },
+      {
+        "text": "the sloop",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was driven away without her."
+      },
+      {
+        "text": "The sloop",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "went on the rocks of"
+      },
+      {
+        "text": "Point Conception",
+        "entity_key": "re_pc",
+        "entity_type": "place"
+      },
+      {
+        "text": "and all on board were lost."
       }
     ],
     [
       {
-        "text": "Sixteen years later Capt. George Nidever and two men went from the coast on a sloop to hunt otter off San Nicolas. On landing, they were, like Crusoe, astonished to discover human footprints in the sand. They saw no one, however, and a storm compelled them to put to sea.",
+        "text": "Sixteen years later",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Capt. George Nidever",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "two men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "tje",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "went from",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the coast",
+        "tropes": [
+          4
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "on",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "a sloop",
+        "tropes": [
+          4
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": "to hunt otter off",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". On landing, they were, like",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Crusoe",
+        "tropes": [
+          4
+        ],
+        "entity_key": "rcr",
+        "entity_type": "place"
+      },
+      {
+        "text": ", astonished to discover human footprints in the sand. They saw no one, however, and a storm compelled them to put to sea.",
         "tropes": [
           4
         ]
@@ -26,14 +242,95 @@
     ],
     [
       {
-        "text": "It was two years thereafter that the adventurous captain, revolving in his mind the sight of the footprints in the uncanny island, determined to go and discover and bring over the lonely woman of whom he had vaguely heard.",
+        "text": "It was two years thereafter that",
         "tropes": [
           4,
           5
         ]
       },
       {
-        "text": "Men accompanied him, and at length they saw on the surf-beaten shore a woman with long tawny hair dressed in a queer garb of colored birdskins, and scraping, with a bone-knife, the blubber from a seal.",
+        "text": "the adventurous captain",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", revolving in his mind the sight of the footprints in",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the uncanny island",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", determined to go and discover and bring over",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "the lonely woman",
+        "tropes": [
+          4,
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "of whom he had vaguely heard.",
+        "tropes": [
+          4,
+          5
+        ]
+      },
+      {
+        "text": "Men",
+        "tropes": [
+          4,
+          1
+        ],
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "accompanied him, and at length they saw on the surf-beaten shore",
+        "tropes": [
+          4,
+          1
+        ]
+      },
+      {
+        "text": "a woman",
+        "tropes": [
+          4,
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "with long tawny hair dressed in a queer garb of colored birdskins, and scraping, with a bone-knife, the blubber from a seal.",
         "tropes": [
           4,
           1
@@ -42,7 +339,35 @@
     ],
     [
       {
-        "text": "They surrounded and approached her stealthily, and although suddenly confronted she did not appear in the least afraid, but smiled, and then, falling on her knees, prayed to the sun. The wild woman offered no objection when by signs she was made to understand that she was to go with them in the boat.",
+        "text": "They surrounded and approached her stealthily, and although suddenly confronted she did not appear in the least afraid, but smiled, and then, falling on her knees, prayed to the sun.",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "The wild woman",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "offered no objection when by signs she was made to understand that she was to go with them in",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "the boat",
+        "tropes": [
+          1
+        ],
+        "entity_key": "sh_nidever",
+        "entity_type": "ship"
+      },
+      {
+        "text": ".",
         "tropes": [
           1
         ]
@@ -50,10 +375,84 @@
     ],
     [
       {
-        "text": "They reached Santa Barbara across the rough sea and the first thing the Indian woman saw was Dr. S. L. Shaw, now 80 years old and yet living there, riding a horse. She had never seen or heard of any object like it and thought the man and horse were one and she knelt on the shore and offered her devotions to it."
+        "text": "They reached"
       },
       {
-        "text": "Two weeks afterward the last inhabitant of rock-ribbed, tempest-tossed San Nicolas died from eating food to which she was unaccustomed, furnished by her rescuers, and the curtain fell on her strange race forever.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "across the rough sea and the first thing"
+      },
+      {
+        "text": "the Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "saw was"
+      },
+      {
+        "text": "Dr. S. L. Shaw",
+        "entity_key": "ssh",
+        "entity_type": "person"
+      },
+      {
+        "text": ", now 80 years old and yet living there, riding a horse. She had never seen or heard of any object like it and thought"
+      },
+      {
+        "text": "the man",
+        "entity_key": "ssh",
+        "entity_type": "person"
+      },
+      {
+        "text": "and horse were one and she knelt on the shore and offered her devotions to it."
+      },
+      {
+        "text": "Two weeks afterward",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the last inhabitant of rock-ribbed, tempest-tossed San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "died from eating food to which she was unaccustomed, furnished by",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her rescuers",
+        "tropes": [
+          6
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and the curtain fell on",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her strange race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "forever.",
         "tropes": [
           6
         ]
@@ -61,10 +460,54 @@
     ],
     [
       {
-        "text": "Wild dogs had eaten her child. Her dress of red and blue feathers, a wonderful creation of barbaric hands, was sent to the pope of Rome."
+        "text": "Wild dogs had eaten"
       },
       {
-        "text": "Relic hunters have gathered mortars, pestles, ollas, toy steatite canoes, and other curious things there for some years past and shipped them to various eastern and European universities. Skeletons and parts of skeletons have also been collected in large numbers, but to-day the bones of thousands of Indians are scattered about there. Some lie face down, indicating that they have fallen in battle. There are so many human relics there that San Nicolas is known as the \"Isle of Skulls.\"",
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ". Her dress of red and blue feathers, a wonderful creation of barbaric hands, was sent to the"
+      },
+      {
+        "text": "pope of Rome",
+        "entity_key": "pop",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Relic hunters have gathered mortars, pestles, ollas, toy steatite canoes, and other curious things there for some years past and shipped them to various eastern and European universities. Skeletons and parts of skeletons have also been collected in large numbers, but to-day the bones of thousands of",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "Indians",
+        "tropes": [
+          7
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "are scattered about there. Some lie face down, indicating that they have fallen in battle. There are so many human relics there that",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          7
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is known as the \"Isle of Skulls.\"",
         "tropes": [
           7
         ]
@@ -72,7 +515,47 @@
     ],
     [
       {
-        "text": "\"The lonely island, whose highest part is but 1,040 feet above the sea,\" said a resident of Ventura last night, \"is noted for the high artistic class of many of its relics. Had the woman rescued, then 52 years old, not died a story passing strange would no doubt have been told of the race so long hemmed in by the waste of waters about. As it is much of the strange story is shrouded in mystery forever.\""
+        "text": "\""
+      },
+      {
+        "text": "The lonely island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", whose highest part is but 1,040 feet above the sea,\" said"
+      },
+      {
+        "text": "a resident",
+        "entity_key": "ventres",
+        "entity_type": "person"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "last night, \"is noted for the high artistic class of many of its relics. Had"
+      },
+      {
+        "text": "the woman rescued",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", then 52 years old, not died a story passing strange would no doubt have been told of"
+      },
+      {
+        "text": "the race so long hemmed in by the waste of waters about",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". As it is much of the strange story is shrouded in mystery forever.\""
       }
     ]
   ]

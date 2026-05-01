@@ -3,31 +3,332 @@
   "paragraphs": [
     [
       {
-        "text": "Under the title of \"Our Seaboard Islands on the Pacific,\" Mr. John E. Bennett contributes to this same magazine a very interesting and instructive paper dealing with the islands that lie off the Californian coast, and which are known as the Farallones."
+        "text": "Under the title of \"Our Seaboard Islands on the Pacific,\""
       },
       {
-        "text": "Of one of these islands, San Nicholas, he tells us that long before their discovery by Cabrillo, in 1542, this particular island was overrun by the Innuit Indians, who came down from the North, killed all the men, and carried off all things that they thought of any value, leaving only the women and children behind them.",
+        "text": "Mr. John E. Bennett",
+        "entity_key": "jbe",
+        "entity_type": "person"
+      },
+      {
+        "text": "contributes to"
+      },
+      {
+        "text": "this same magazine",
+        "entity_key": "sacheartrev",
+        "entity_type": "org"
+      },
+      {
+        "text": "a very interesting and instructive paper dealing with"
+      },
+      {
+        "text": "the islands that lie off the Californian coast",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and which are known as"
+      },
+      {
+        "text": "the Farallones",
+        "entity_key": "i_far",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Of one of these islands,",
         "tropes": [
           11
         ]
       },
       {
-        "text": "The original inhabitants of these islands are described by Cabrillo as a mild, but vigorous race.",
+        "text": "San Nicholas",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", he tells us that long before their discovery by",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Cabrillo",
+        "tropes": [
+          11
+        ],
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": ", in 1542,",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "this particular island",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was overrun by the",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Innuit Indians",
+        "tropes": [
+          11
+        ],
+        "entity_keys": [
+          "rfurcompany",
+          "natam_inuit"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", who came down from the North, killed all the men, and carried off all things that they thought of any value, leaving only the women and children behind them.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "The original inhabitants",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "of",
         "tropes": [
           3
         ]
       },
       {
-        "text": "The woman and children left on San Nicholas maintained themselves after the Innuit invasion, and the island again became peopled. In 1835 some Franciscan missionaries came to the island from California and persuaded the islanders to remove to the mainland and reside at the missions. When the boats had left the island one woman discovered that her child had been overlooked and left behind."
+        "text": "these islands",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
       },
       {
-        "text": "She jumped from the boat and swam back to San Nicholas, where she and her child were then the only inhbaitants.",
+        "text": "are described by",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Cabrillo",
+        "tropes": [
+          3
+        ],
+        "entity_key": "jca",
+        "entity_type": "person"
+      },
+      {
+        "text": "as",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "a mild, but vigorous race",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "The woman and children left on"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "maintained themselves after the Innuit invasion, and"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "again became peopled. In 1835 some"
+      },
+      {
+        "text": "Franciscan missionaries",
+        "entity_keys": [
+          "misfats",
+          "ndur",
+          "aji"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "came to"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "and persuaded"
+      },
+      {
+        "text": "the islanders",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to remove to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "and reside at"
+      },
+      {
+        "text": "the missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": ". When"
+      },
+      {
+        "text": "the boats",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "had left"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered that"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been overlooked and left behind."
+      },
+      {
+        "text": "She jumped from",
         "tropes": [
           9
         ]
       },
       {
-        "text": "The child died soon afterwards, but the mother lived to an advanced age, and near the end of her days she was brought to the Santa Barbara mission, at which her death took place."
+        "text": "the boat",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and swam back to",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "San Nicholas",
+        "tropes": [
+          9
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", where she and",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "were then the only inhbaitants.",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "The child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "died soon afterwards, but"
+      },
+      {
+        "text": "the mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "lived to an advanced age, and near the end of her days she was brought to the"
+      },
+      {
+        "text": "Santa Barbara mission",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", at which her death took place."
       }
     ]
   ]

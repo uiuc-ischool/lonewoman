@@ -3,12 +3,91 @@
   "paragraphs": [
     [
       {
-        "text": "Two prospectors recently visited the Island of San Nicholas, off the Ventura coast, with the purpose of taking up land. They found the land on the island, which is four miles wide by twelve long, utterly barren. On the western side sand is about the only thing seen, and this has been blown from the bench clear to the top of the island, 700 or 800 feet high."
+        "text": "Two prospectors",
+        "entity_key": "prospecting",
+        "entity_type": "person"
+      },
+      {
+        "text": "recently visited the"
+      },
+      {
+        "text": "Island of San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", off the"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "coast, with the purpose of taking up land. They found the land on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which is four miles wide by twelve long, utterly barren. On the western side sand is about the only thing seen, and this has been blown from the bench clear to the top of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", 700 or 800 feet high."
       }
     ],
     [
       {
-        "text": "On the other side of the island they found human bones for a distance of five miles along the beach. They were very thick, and it looked as if it had been a graveyard. They also discovered the remains of human bodies on the ridge, which runs lengthwise through the island. In some places two skeletons were seen close together, as if they had been buried in the same grave. The wind had blown off what covering of soil had been thrown over them. Bones were thickly strewn along this ridge for upward of three miles. From appearances upward of 4,000 Indians must have been buried there.",
+        "text": "On the other side of",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          7
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "they found human bones for a distance of five miles along the beach. They were very thick, and it looked as if it had been a graveyard. They also discovered the remains of human bodies on the ridge, which runs lengthwise through",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          7
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". In some places two skeletons were seen close together, as if they had been buried in the same grave. The wind had blown off what covering of soil had been thrown over them. Bones were thickly strewn along this ridge for upward of three miles. From appearances upward of 4,000",
+        "tropes": [
+          7
+        ]
+      },
+      {
+        "text": "Indians",
+        "tropes": [
+          7
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "must have been buried there.",
         "tropes": [
           7
         ]
@@ -16,10 +95,78 @@
     ],
     [
       {
-        "text": "A shanty which had been built on the west side was found buried clear to the roof in sand. There are now about 2,000 sheep on the island, and from a sort of rough grass they seem to keep fat. The party went into a cave which afforded an Indian woman, the sole occupant of the island, a home for seven years."
+        "text": "A shanty which had been built on the west side was found buried clear to the roof in sand. There are now about 2,000 sheep on"
       },
       {
-        "text": "It seems that when her party was leaving the island she jumped overboard and swam ashore in the night",
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and from a sort of rough grass they seem to keep fat."
+      },
+      {
+        "text": "The party",
+        "entity_key": "prospecting",
+        "entity_type": "person"
+      },
+      {
+        "text": "went into"
+      },
+      {
+        "text": "a cave",
+        "entity_key": "re_lwcave",
+        "entity_type": "place"
+      },
+      {
+        "text": "which afforded"
+      },
+      {
+        "text": "an Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the sole occupant of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", a home for seven years."
+      },
+      {
+        "text": "It seems that when",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "her party",
+        "tropes": [
+          9
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "was leaving",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          9
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "she jumped overboard and swam ashore in the night",
         "tropes": [
           9
         ]

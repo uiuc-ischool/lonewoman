@@ -3,27 +3,458 @@
   "paragraphs": [
     [
       {
-        "text": "Students of anthropology and ethnology are manifesting a lively interest in the explorations now being conducted on the Channel Islands, off the coast of California, by some 25 young men of the Smithsonian Institution and Leland Stanford University. The exploring expedition has been at work several weeks and the news now comes from the island that the field has been found so interesting that the exploration will continue until early spring—probably longer. Ten years ago the late Senator Hearst, of San Francisco, offered to sustain an expedition of scientists, who should spend a summer season in exploring San Nicolas and San Clemente Islands, and to give the results of their finds to the State University at Berk[e]ley, in California; but there arose such a feeling of jealousy among several of the leaders in the proposed expedition that the senator withdrew his offer."
+        "text": "Students of anthropology and ethnology are manifesting a lively interest in the explorations now being conducted on the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", off the coast of"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ", by some 25 young men of the"
+      },
+      {
+        "text": "Smithsonian Institution",
+        "entity_key": "mu_smithsonian",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Leland Stanford University",
+        "entity_key": "stanford",
+        "entity_type": "org"
+      },
+      {
+        "text": ". The exploring expedition has been at work several weeks and the news now comes from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "that the field has been found so interesting that the exploration will continue until early spring—probably longer. Ten years ago the late"
+      },
+      {
+        "text": "Senator Hearst",
+        "entity_key": "hearst",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": ", offered to sustain an expedition of scientists, who should spend a summer season in exploring"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "San Clemente",
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "Islands, and to give the results of their finds to the"
+      },
+      {
+        "text": "State University at Berk[e]ley",
+        "entity_key": "in_ucb",
+        "entity_type": "org"
+      },
+      {
+        "text": ", in"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "; but there arose such a feeling of jealousy among several of the leaders in the proposed expedition that"
+      },
+      {
+        "text": "the senator",
+        "entity_key": "hearst",
+        "entity_type": "person"
+      },
+      {
+        "text": "withdrew his offer."
       }
     ],
     [
       {
-        "text": "The Channel Islands constitute California's only archipelago with the possible exception of the rocky and scanty Farallone Islands. The former have been objects of romantic legends, curiosity and mystery for a generation or more. Notwithstanding all the islands are within 82 miles of the California shore, they are solitary and unfrequented, and years roll by without visits to them of more than 20 people annually. Each island has its own particular, strange, uncanny traditions, and each has countless traces of occupation by thousands of Indians.",
+        "text": "The",
         "tropes": [
           5
         ]
       },
       {
-        "text": "When Juan Rodriquez Cabrillo, the Portuguese navigator, sailed up the coast of California, in 1542, he stopped for a day or two at each of the Channel Islands, and his records bear testimony that on the Islands of Santa Barbara, Catalina, San Clemente and San Nicolas there were \"a vigorous and lusty race of natives, who thronged the shores of the little bays and headlands\" and gazed in mute wonder at the white-sailed ships of the navigators. Today the islands stand as they did over 350 years ago, but the natives are only a memory, represented by immense quantities of stone implements, barrels of fine wampum and literal carloads of human bones.",
+        "text": "Channel Islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "constitute California's only archipelago with the possible exception of the",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "rocky and scanty Farallone Islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_far",
+        "entity_type": "place"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "The former",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "have been objects of romantic legends, curiosity and mystery for a generation or more. Notwithstanding all",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "are within 82 miles of the",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "California shore",
+        "tropes": [
+          5
+        ],
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", they are solitary and unfrequented, and years roll by without visits to them of more than 20 people annually. Each island has its own particular, strange, uncanny traditions, and each has countless traces of occupation by thousands of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Indians",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "When",
         "tropes": [
           6
         ]
       },
       {
-        "text": "San Nicolas Island, which lies 80 miles immediately opposite the little City of Can [sic] Buenaventura (recently called by the more modern and easy name of Ventura), is the most interesting of all the Channel Islands from many points of view. As far back as the memory of any person in Southern California runs, hundreds of white skeletons have dotted the valleys and hillsides."
+        "text": "Juan Rodriquez Cabrillo",
+        "tropes": [
+          6
+        ],
+        "entity_key": "jca",
+        "entity_type": "person"
       },
       {
-        "text": "Strange utensils of serpentine, sandstone and steatite are found there among the human bones, and the island and its inhabitants have a history so curious that it is difficult of comprehension.",
+        "text": ", the Portuguese navigator, sailed up the",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "coast of California",
+        "tropes": [
+          6
+        ],
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in 1542, he stopped for a day or two at each of the",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Channel Islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and his records bear testimony that on the Islands of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "Catalina",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": ",",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "San Clemente",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_scl",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "there were \"",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "a vigorous and lusty race of natives",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", who thronged the shores of the little bays and headlands\" and gazed in mute wonder at",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the white-sailed ships",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "sh_salvador",
+          "sh_lavictoria"
+        ],
+        "entity_type": "ship"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the navigators",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "jca",
+          "bfe"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". Today",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the islands",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "stand as they did over 350 years ago, but",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          6
+        ],
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "are only a memory, represented by immense quantities of stone implements, barrels of fine wampum and literal carloads of human bones.",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which lies 80 miles immediately opposite the little City of"
+      },
+      {
+        "text": "Can [sic] Buenaventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "(recently called by the more modern and easy name of"
+      },
+      {
+        "text": "Ventura",
+        "entity_key": "ci_ven",
+        "entity_type": "place"
+      },
+      {
+        "text": "), is the most interesting of all the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "from many points of view. As far back as the memory of any person in"
+      },
+      {
+        "text": "Southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": "runs, hundreds of white skeletons have dotted the valleys and hillsides."
+      },
+      {
+        "text": "Strange utensils of serpentine, sandstone and steatite are found there among the human bones, and",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "its inhabitants",
+        "tropes": [
+          5
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "have a history so curious that it is difficult of comprehension.",
         "tropes": [
           5
         ]
@@ -31,7 +462,31 @@
     ],
     [
       {
-        "text": "Nothing more desolate than the general appearance of the island can be imagined. As far as the eye can trace there are innumerable circular depressions, showing where primitive dwellings once stood. Not a vestige remains of the materials used in the construction of these rancherias. Hundreds of shell mounds are scattered about, and are found to consist of astonishing numbers of mollusks, the bones of every species of fish found in the channel, skeletons of seals, sea elephants, whales, sea otter, the island fox and various aquatic birds. Without question these animals were used for food by the tribes that once thronged these boundaries. There are also numerous canine skeletons, several of which indicate a species of bull terrier. Judging from the immense quantities of dead land mollusks everywhere there must have been a time when the island supported luxuriant vegetation. Of all this verdure nothing is seen to-day but a few stunted thorn bushes, and now and then a cactus forlornly reaching its grotesque arms out of the interminable sweeps of sand."
+        "text": "Nothing more desolate than the general appearance of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "can be imagined. As far as the eye can trace there are innumerable circular depressions, showing where primitive dwellings once stood. Not a vestige remains of the materials used in the construction of these rancherias. Hundreds of shell mounds are scattered about, and are found to consist of astonishing numbers of mollusks, the bones of every species of fish found in the channel, skeletons of seals, sea elephants, whales, sea otter, the island fox and various aquatic birds. Without question these animals were used for food by"
+      },
+      {
+        "text": "the tribes",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "that once thronged these boundaries. There are also numerous canine skeletons, several of which indicate a species of bull terrier. Judging from the immense quantities of dead land mollusks everywhere there must have been a time when"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "supported luxuriant vegetation. Of all this verdure nothing is seen to-day but a few stunted thorn bushes, and now and then a cactus forlornly reaching its grotesque arms out of the interminable sweeps of sand."
       }
     ],
     [
@@ -39,16 +494,82 @@
         "text": "An examination of some of the mounds disclose[s] all sorts of curious utensils, stone cooking pots, water ollas, mortars, pestles, drills, bone needles and fishhooks, shell beads, charm stones, pipes, cups and a few arrow heads, spear points and swords made of bone."
       },
       {
-        "text": "The absence of many weapons proves the peaceful attributes of the islanders. Small imitations of boats and fishes carved from crystallized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
+        "text": "The absence of many weapons proves the peaceful attributes of",
         "tropes": [
           3
         ]
       },
       {
-        "text": "In many places conical piles of small black pebbles contrast oddly with white sand. In some instances these pebbles were closely packed in abalone shells. No trace is seen of the \"brush pens,\" in which the lone woman of San Nicolas for years found her only shelter from the cutting wind and sand. Nature, ever unmindful of the individual, long since merged the superhuman efforts of this courageous life into the universal fate of an entire race. Indeed,"
+        "text": "the islanders",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
       },
       {
-        "text": "every foot of this strange island is eloquent of the extinction of an almost unheard of people.",
+        "text": ". Small imitations of boats and fishes carved from crystallized talc and serpentine also show a rudimentary knowledge of the art of sculpture.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "In many places conical piles of small black pebbles contrast oddly with white sand. In some instances these pebbles were closely packed in abalone shells. No trace is seen of the \"brush pens,\" in which the"
+      },
+      {
+        "text": "lone woman of San Nicolas",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "for years found her only shelter from the cutting wind and sand. Nature, ever unmindful of the individual, long since merged the superhuman efforts of"
+      },
+      {
+        "text": "this courageous life",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "into the universal fate of"
+      },
+      {
+        "text": "an entire race",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ". Indeed,"
+      },
+      {
+        "text": "every foot of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "this strange island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is eloquent of the extinction of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "an almost unheard of people",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]

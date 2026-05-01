@@ -3,27 +3,238 @@
   "paragraphs": [
     [
       {
-        "text": "EDITOR OF THE HERALD:—Yesterday was a busy day at this place. We had five arrivals—the steamers Goliah and Thomas Hunt, and the brig Fremont, from San Francisco; the steamer Los Angeles, from San Diego, and the brig Prince de Joinville, from the Island of Santa Rosa. The beach at the landing-place was strewn with goods of every description. In no other day this year has so much merchandise been unladen here. Though Santa Barbara exhibits no improvement in number of buildings or increase in population, still its trade has augmented very considerably. The valleys back of, and surrounding it, has Santa Barbara alone as their mart, and yearly the wants of the native Californians become greater and more extravagant. Though they refuse to adopt some of our labor-saving inventions, they show a disposition rivalius [sic] in dress and imitate us in many of our habits. In horseback exercises they certainly have nothing to learn, but in their vehicles it would be difficult for any people to be more clumsy; and yet they steadily decline substituting our style of carts or wagons instead. Occasionally one of the wealthier classes indulges in the use of a carriage, and when they do, invariably they choose the oldest and clumsiest style."
+        "text": "EDITOR OF THE HERALD",
+        "entity_key": "editorher",
+        "entity_type": "person"
+      },
+      {
+        "text": ":—Yesterday was a busy day at"
+      },
+      {
+        "text": "this place",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". We had five arrivals—the steamers"
+      },
+      {
+        "text": "Goliah",
+        "entity_key": "sh_goliah",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Thomas Hunt",
+        "entity_key": "sh_thomashunt",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and the brig"
+      },
+      {
+        "text": "Fremont",
+        "entity_key": "sh_fremont",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", from"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": "; the steamer"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "sh_losangeles",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", from"
+      },
+      {
+        "text": "San Diego",
+        "entity_key": "ci_sd",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and the brig"
+      },
+      {
+        "text": "Prince de Joinville",
+        "entity_key": "sh_joinville",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", from the"
+      },
+      {
+        "text": "Island of Santa Rosa",
+        "entity_key": "i_sr",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The beach at the landing-place was strewn with goods of every description. In no other day this year has so much merchandise been unladen here. Though"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "exhibits no improvement in number of buildings or increase in population, still its trade has augmented very considerably. The valleys back of, and surrounding it, has"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "alone as their mart, and yearly the wants of the native Californians become greater and more extravagant. Though they refuse to adopt some of our labor-saving inventions, they show a disposition rivalius [sic] in dress and imitate us in many of our habits. In horseback exercises they certainly have nothing to learn, but in their vehicles it would be difficult for any people to be more clumsy; and yet they steadily decline substituting our style of carts or wagons instead. Occasionally one of the wealthier classes indulges in the use of a carriage, and when they do, invariably they choose the oldest and clumsiest style."
       }
     ],
     [
       {
-        "text": "A short time since I called to see the Wild Indian woman, of whom your paper has already spoke.",
+        "text": "A short time since I called to see the",
         "tropes": [
           14
         ]
       },
       {
-        "text": "She is living with Mr. George Nidever, an old trapper, who has been on this coast for the last eighteen years. She was brought by this gentleman from the Island of San Nicolas, seventy miles distant, and not, as before published, from the Island of Catalina. No person has yet been found that can speak or understand her language."
+        "text": "Wild Indian woman",
+        "tropes": [
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
       },
       {
-        "text": "By signs she has told Mr. N. that her child was killed and torn to pieces by the wild dogs with which the island is overrun.",
+        "text": ", of whom",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "your paper",
+        "tropes": [
+          14
+        ],
+        "entity_key": "sherald",
+        "entity_type": "org"
+      },
+      {
+        "text": "has already spoke.",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "She is living with"
+      },
+      {
+        "text": "Mr. George Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", an old trapper, who has been on"
+      },
+      {
+        "text": "this coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "for the last eighteen years. She was brought by"
+      },
+      {
+        "text": "this gentleman",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "from the"
+      },
+      {
+        "text": "Island of San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", seventy miles distant, and not, as before published, from the"
+      },
+      {
+        "text": "Island of Catalina.",
+        "entity_key": "i_scatalina",
+        "entity_type": "place"
+      },
+      {
+        "text": "No person has yet been found that can speak or understand her language."
+      },
+      {
+        "text": "By signs she has told",
         "tropes": [
           10
         ]
       },
       {
-        "text": "Her only dress was a sort of gown, sitting high upon the shoulders and reaching nearly to the knees, made of the skins and feathers of wild ducks, sewed together with the sinews of the seal. The handicraft shown in the manufacture of her needles, sewing stuff, baskets, water vessels—to make all of which a piece of the blade of an old knife seems to have been her only tool—is certainly curious. The water jugs are made of split sea-grass woven tightly together in flask form, and the borrom and part of the sides daubed over with asphaltum, springs of which are on the islands. She has a piece of netting made of sinews, some eight feet square, the knitting of which is precisely similar to that made for fishing."
+        "text": "Mr. N.",
+        "tropes": [
+          10
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "that",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her child",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "was killed and torn to pieces by the wild dogs with which",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is overrun.",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "Her only dress was a sort of gown, sitting high upon the shoulders and reaching nearly to the knees, made of the skins and feathers of wild ducks, sewed together with the sinews of the seal. The handicraft shown in the manufacture of her needles, sewing stuff, baskets, water vessels—to make all of which a piece of the blade of an old knife seems to have been her only tool—is certainly curious. The water jugs are made of split sea-grass woven tightly together in flask form, and the borrom and part of the sides daubed over with asphaltum, springs of which are on"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She has a piece of netting made of sinews, some eight feet square, the knitting of which is precisely similar to that made for fishing."
       },
       {
         "text": "Her food seems to have been chiefly the fat of the seal. Of this she brought some twenty pounds with her. It is rancid and smells awfully; still she relishes it.",
@@ -35,13 +246,41 @@
         "text": "She is very fond of shell-fish, coffee, and liquor of every sort; but does not care for beef, pork, bread, nor tea."
       },
       {
-        "text": "In person she is by far the best looking Indian, male or female, that I have ever seen on this coast. She has a large, full eye; her forehead is low and broad; her nose slightly aquiline and finely formed; her mouth is rather large, and indicates great firmness; he protruding lower lip gives a haughty tone to her look, and her well set chin fully sustains this trait. She is of medium stature, very masculine in appearance, and shows very little evidence of advanced age.",
+        "text": "In person she is by far the best looking Indian, male or female, that I have ever seen on",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Undoubtedly she is the last of her race.",
+        "text": "this coast",
+        "tropes": [
+          3
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She has a large, full eye; her forehead is low and broad; her nose slightly aquiline and finely formed; her mouth is rather large, and indicates great firmness; he protruding lower lip gives a haughty tone to her look, and her well set chin fully sustains this trait. She is of medium stature, very masculine in appearance, and shows very little evidence of advanced age.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Undoubtedly she is the last of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "her race",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           6
         ]
@@ -49,7 +288,63 @@
     ],
     [
       {
-        "text": "By the steamer of Wednesday, Captain Burke, once a noted man on this coast, arrived here, after an absence of thirteen years. Capt. Burke settled in Santa Barbara in 1825, and married into one of the wealthy native families. He is father-in-law to John Keys, Esq., one of the heaviest merchants south of San Francisco, and universally known for his princely hospitality."
+        "text": "By the"
+      },
+      {
+        "text": "steamer of Wednesday",
+        "entity_key": "sh_wednesday",
+        "entity_type": "ship"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "Captain Burke",
+        "entity_key": "burke",
+        "entity_type": "person"
+      },
+      {
+        "text": ", once a noted man on"
+      },
+      {
+        "text": "this coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", arrived here, after an absence of thirteen years."
+      },
+      {
+        "text": "Capt. Burke",
+        "entity_key": "burke",
+        "entity_type": "person"
+      },
+      {
+        "text": "settled in"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1825, and married into one of the wealthy native families. He is father-in-law to"
+      },
+      {
+        "text": "John Keys, Esq.",
+        "entity_key": "jke",
+        "entity_type": "person"
+      },
+      {
+        "text": ", one of the heaviest merchants south of"
+      },
+      {
+        "text": "San Francisco",
+        "entity_key": "ci_sf",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and universally known for his princely hospitality."
       }
     ],
     [
@@ -64,7 +359,39 @@
     ],
     [
       {
-        "text": "A young man from your city fell from his horse yesterday, while riding in company with Mr. McCahill, of the firm of Taaffe, McCahill & Co., and sustained severe, though not serious injury to his right ankle."
+        "text": "A"
+      },
+      {
+        "text": "young man",
+        "entity_key": "man8",
+        "entity_type": "person"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "your city",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "fell from his horse yesterday, while riding in company with"
+      },
+      {
+        "text": "Mr. McCahill",
+        "entity_key": "mcc",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of the firm of"
+      },
+      {
+        "text": "Taaffe, McCahill & Co.",
+        "entity_key": "co_taaffe",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and sustained severe, though not serious injury to his right ankle."
       }
     ],
     [
@@ -74,7 +401,79 @@
     ],
     [
       {
-        "text": "Should any of the good people of your city ever deem in worth their while to visit this town, let me advise them not to leave it without visiting the old Mission, or rather what remains of it. The Church is now one of the finest in California in exterior appearance, and internally it is the best adorned and most tastefully arranged that I have yet seen. It contains eleven large paintings and about twenty small ones, all of them excellently executed—indeed, a few are chef d'ouvres. The ruins of what was once a large Mission settlement lie scattered in every direction about the Church. Especially interesting amoung these ruins are the almost complete vestiges of a viaduct, reservoir, mill, and holy bathing houses. The walls, arches, cement and stone-work of each of these are in good condition; but they now stand merely the evidence of former use. A Friar of the Franciscan order officiates at the Mission."
+        "text": "Should any of the good people of"
+      },
+      {
+        "text": "your city",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "ever deem in worth their while to visit"
+      },
+      {
+        "text": "this town",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", let me advise them not to leave it without visiting"
+      },
+      {
+        "text": "the old Mission",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", or rather what remains of it."
+      },
+      {
+        "text": "The Church",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "is now one of the finest in"
+      },
+      {
+        "text": "California",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": "in exterior appearance, and internally it is the best adorned and most tastefully arranged that I have yet seen. It contains eleven large paintings and about twenty small ones, all of them excellently executed—indeed, a few are chef d'ouvres. The ruins of"
+      },
+      {
+        "text": "what was once a large Mission settlement",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "lie scattered in every direction about"
+      },
+      {
+        "text": "the Church",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Especially interesting amoung these ruins are the almost complete vestiges of a viaduct, reservoir, mill, and holy bathing houses. The walls, arches, cement and stone-work of each of these are in good condition; but they now stand merely the evidence of former use. A"
+      },
+      {
+        "text": "Friar",
+        "entity_key": "friar1",
+        "entity_type": "person"
+      },
+      {
+        "text": "of the Franciscan order officiates at"
+      },
+      {
+        "text": "the Mission",
+        "entity_key": "mi_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ]
   ]

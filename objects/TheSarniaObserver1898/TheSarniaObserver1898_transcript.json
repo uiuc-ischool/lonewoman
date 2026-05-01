@@ -3,10 +3,68 @@
   "paragraphs": [
     [
       {
-        "text": "Off the coast of southern California lie the Santa Barbara islands."
+        "text": "Off the"
       },
       {
-        "text": "They look very near the mainland on the map, as if it would only be a pleasant afternoon's work to explore them in a rowboat, but in fact they are far enough away from the homes and haunts of men to have been the scene of a history stranger, lonelier and more pitiful than the one De Foe \"made up\" about Robinson Crusoe.",
+        "text": "coast of southern California",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "lie the"
+      },
+      {
+        "text": "Santa Barbara islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "They look very near",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the mainland",
+        "tropes": [
+          8
+        ],
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "on the map, as if it would only be a pleasant afternoon's work to explore them in a rowboat, but in fact they are far enough away from the homes and haunts of men to have been the scene of a history stranger, lonelier and more pitiful than the one",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "De Foe",
+        "tropes": [
+          8
+        ],
+        "entity_key": "dde",
+        "entity_type": "person"
+      },
+      {
+        "text": "\"made up\" about",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "Robinson Crusoe",
+        "tropes": [
+          8
+        ],
+        "entity_key": "rcr",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           8
         ]
@@ -14,25 +72,261 @@
     ],
     [
       {
-        "text": "These islands have been long uninhabited, visited only by grazers who keep sheep on some and by trappers after otter and seal. But Indians used to make their home on the larger islands, and it was when the last of the tribe were being removed to the mainland that an accident occurred which caused a woman to spend on San Nicholas 18 years utterly alone."
-      }
-    ],
-    [
-      {
-        "text": "In 1835 Spanish missionaries were busy in southern California civilizing, teaching and converting the Indians—not such degraded beings as are now to be seen on the western coast, but a skillful people who learned well how to build and farm. The fathers had done much with the coast Indians and now turned their eyes to the little tribes on the rocky islands out at sea. They made arrangements to bring them one after another to the mainland. The Indians seem to have come willingly, but in one case the embarkation was effected with much difficulty on account of a storm."
-      }
-    ],
-    [
-      {
-        "text": "A schooner under the command of a Captain Williams had gone to San Nicholas—San Nicholas lies 79 miles out at sea—to bring away the Indians, about 20 of them, who lived there. A tempest fell upon the island as the schooner drew near, and to land was very difficult. All was wild hurry and confusion. The vessel was in danger, and the Indians were making a \"flitting\" for life. So it was not remarkable that as they were putting out to sea one young mother should find her child had been left behind. She thought it had been brought aboard by a sailor."
-      }
-    ],
-    [
-      {
-        "text": "When she discovered the truth, she was frantic. She prayed the captain to turn back, but he said the storm was too dangerous; they might all be shipwrecked and drowned."
+        "text": "These islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
       },
       {
-        "text": "The poor girl grew desperate, and she did what many a mother would be driven to do in like case—jumped overboard.",
+        "text": "have been long uninhabited, visited only by grazers who keep sheep on some and by trappers after otter and seal. But"
+      },
+      {
+        "text": "Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "used to make their home on the larger islands, and it was when"
+      },
+      {
+        "text": "the last of the tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "were being removed to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "that an accident occurred which caused"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "to spend on"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "18 years utterly alone."
+      }
+    ],
+    [
+      {
+        "text": "In 1835"
+      },
+      {
+        "text": "Spanish missionaries",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "were busy in"
+      },
+      {
+        "text": "southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": "civilizing, teaching and converting the Indians—not such degraded beings as are now to be seen on"
+      },
+      {
+        "text": "the western coast",
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", but a skillful people who learned well how to build and farm."
+      },
+      {
+        "text": "The fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "had done much with the coast Indians and now turned their eyes to"
+      },
+      {
+        "text": "the little tribes on the rocky islands",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "out at sea. They made arrangements to bring them one after another to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "seem to have come willingly, but in one case the embarkation was effected with much difficulty on account of a storm."
+      }
+    ],
+    [
+      {
+        "text": "A schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "under the command of a"
+      },
+      {
+        "text": "Captain Williams",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": "had gone to"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "—"
+      },
+      {
+        "text": "San Nicholas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "lies 79 miles out at sea—to bring away"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", about 20 of them, who lived there. A tempest fell upon"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "as"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "drew near, and to land was very difficult. All was wild hurry and confusion."
+      },
+      {
+        "text": "The vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was in danger, and"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "were making a \"flitting\" for life. So it was not remarkable that as they were putting out to sea"
+      },
+      {
+        "text": "one young mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "should find"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been left behind. She thought it had been brought aboard by"
+      },
+      {
+        "text": "a sailor",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "When she discovered the truth, she was frantic. She prayed"
+      },
+      {
+        "text": "the captain",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": "to turn back, but he said the storm was too dangerous; they might all be shipwrecked and drowned."
+      },
+      {
+        "text": "The poor girl",
+        "tropes": [
+          9
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "grew desperate, and she did what many a mother would be driven to do in like case—jumped overboard.",
         "tropes": [
           9
         ]
@@ -40,12 +334,68 @@
     ],
     [
       {
-        "text": "She could swim, and the last that was seen of her she was striking out bravely, making her way back to her deserted home and her baby. But only a moment was she visible."
+        "text": "She could swim, and the last that was seen of her she was striking out bravely, making her way back to"
+      },
+      {
+        "text": "her deserted home",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "her baby",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": ". But only a moment was she visible."
       }
     ],
     [
       {
-        "text": "No attempt was made to rescue her. The schooner landed its exiles at San Pedro. At that time vessels were very few on the coast, and the schooner was engaged for two trips, which, it was considered, must be made before she could return to look up the lost woman."
+        "text": "No attempt was made to rescue her."
+      },
+      {
+        "text": "The schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "landed its exiles at"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ". At that time vessels were very few on"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_paccoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "the schooner",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was engaged for two trips, which, it was considered, must be made before she could return to look up"
+      },
+      {
+        "text": "the lost woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
       },
       {
         "text": "On the latter of these trips she was wrecked, and there was nothing bigger than canoes and fishing boats left on all the lower coast.",
@@ -59,15 +409,61 @@
     ],
     [
       {
-        "text": "Some said both woman and child must by this time be dead, some that the mother never could have reached shore. Father Gonzales, however, was one person who was not satisfied, but 15 years passed before he could get anything done."
-      }
-    ],
-    [
-      {
-        "text": "The details of the searches made cannot be given here, but Thomas Jeffries, a man who for $200 made the first effort, did not find her. But he found so many seals and otters that other schooners made several trips there in the next few years, carrying hunters and bringing home spoils."
+        "text": "Some said both"
       },
       {
-        "text": "At last on one of these expeditions a Captain Nidiver found the print of [a] naked human foot in the sand.",
+        "text": "woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "must by this time be dead, some that the mother never could have reached shore."
+      },
+      {
+        "text": "Father Gonzales",
+        "entity_key": "jru",
+        "entity_type": "person"
+      },
+      {
+        "text": ", however, was one person who was not satisfied, but 15 years passed before he could get anything done."
+      }
+    ],
+    [
+      {
+        "text": "The details of the searches made cannot be given here, but"
+      },
+      {
+        "text": "Thomas Jeffries",
+        "entity_key": "tje",
+        "entity_type": "person"
+      },
+      {
+        "text": ", a man who for $200 made the first effort, did not find her. But he found so many seals and otters that other schooners made several trips there in the next few years, carrying hunters and bringing home spoils."
+      },
+      {
+        "text": "At last on one of these expeditions a",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Captain Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "found the print of [a] naked human foot in the sand.",
         "tropes": [
           4
         ]
@@ -75,7 +471,57 @@
     ],
     [
       {
-        "text": "\"There,\" he said, \"has passed the lost woman.\" And he vowed he would not leave till he found here. He and his men now raked the island as with a comb.",
+        "text": "\"There,\" he said, \"has passed",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the lost woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".\" And he vowed he would not leave till he found here. He and",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "his men",
+        "tropes": [
+          4
+        ],
+        "entity_keys": [
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "now raked",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          4
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "as with a comb.",
         "tropes": [
           4
         ]
@@ -83,7 +529,35 @@
     ],
     [
       {
-        "text": "Soon they came on an unfinished dress of birds' breasts, a beautiful thing of wonderful workmanship. It was in a basket of rushes hanging in a tree. Near a spring dried fish and blubber were hidden in the rocks. At last Nidiver himself saw the woman, wearing a dress, low necked and sleeveless, like the one in the basket.",
+        "text": "Soon they came on an unfinished dress of birds' breasts, a beautiful thing of wonderful workmanship. It was in a basket of rushes hanging in a tree. Near a spring dried fish and blubber were hidden in the rocks. At last",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "Nidiver",
+        "tropes": [
+          4
+        ],
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "himself saw",
+        "tropes": [
+          4
+        ]
+      },
+      {
+        "text": "the woman",
+        "tropes": [
+          4
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", wearing a dress, low necked and sleeveless, like the one in the basket.",
         "tropes": [
           4
         ]
@@ -94,7 +568,32 @@
     ],
     [
       {
-        "text": "No one could talk to [he]r, but with the most touching hospitality she set about getting a meal for him and his men.",
+        "text": "No one could talk to [he]r, but with the most touching hospitality she set about getting a meal for",
+        "tropes": [
+          3,
+          1
+        ]
+      },
+      {
+        "text": "him and his men",
+        "tropes": [
+          3,
+          1
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           3,
           1
@@ -106,17 +605,63 @@
     ],
     [
       {
-        "text": "The saddest thing is yet to be told. When they took her to the mainland, many Indians were brought to her, and she scanned each face eagerly, but no one who could even talk to her was ever found. Her little tribe was scattered and absorbed among other \"mission Indians\" as raindrops are lost in the sea."
+        "text": "The saddest thing is yet to be told. When they took her to"
+      },
+      {
+        "text": "the mainland",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": ", many Indians were brought to her, and she scanned each face eagerly, but no one who could even talk to her was ever found."
+      },
+      {
+        "text": "Her little tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "was scattered and absorbed among other \""
+      },
+      {
+        "text": "mission Indians",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "\" as raindrops are lost in the sea."
       }
     ],
     [
       {
-        "text": "She was treated with all tenderness by Captain Nidever's Spanish wife, who kept her and would not allow her to be made a show of, but when no human souls could be found who knew even her tongue she began to droop."
+        "text": "She was treated with all tenderness by"
+      },
+      {
+        "text": "Captain Nidever's Spanish wife",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who kept her and would not allow her to be made a show of, but when no human souls could be found who knew even her tongue she began to droop."
       }
     ],
     [
       {
-        "text": "She loved Mrs. Nidever's children devotedly and would tell over and over by signs how she had looked and looked for her baby and never found it.",
+        "text": "She loved Mrs. Nidever's children devotedly and would tell over and over by signs how she had looked and looked for",
+        "tropes": [
+          10
+        ]
+      },
+      {
+        "text": "her baby",
+        "tropes": [
+          10
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "and never found it.",
         "tropes": [
           10
         ]
@@ -124,12 +669,81 @@
     ],
     [
       {
-        "text": "The lady came to love her much, and when she grew weak she sent for seal's meat to try to tempt her appetite with the food she was used to. The sick woman patted her hands for \"Thank you,\" but she would not eat. She soon died."
+        "text": "The lady",
+        "entity_key": "sni",
+        "entity_type": "person"
+      },
+      {
+        "text": "came to love her much, and when she grew weak she sent for seal's meat to try to tempt her appetite with the food she was used to."
+      },
+      {
+        "text": "The sick woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "patted her hands for \"Thank you,\" but she would not eat. She soon died."
       }
     ],
     [
       {
-        "text": "Her beautiful feather gowns were sent to the pope. The Nidever family still keep some of her water tight baskets, several of her bone needles are treasured by a lady in San Francisco, and the grave of this pathetic, wonderful heroine is still pointed out by the priests in Santa Barbara. — Youth's Companion."
+        "text": "Her beautiful feather gowns were sent to"
+      },
+      {
+        "text": "the pope",
+        "entity_key": "pop",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The Nidever family",
+        "entity_keys": [
+          "gni",
+          "sni",
+          "ini",
+          "gnijr",
+          "jacobni",
+          "mrni",
+          "mrfni"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "still keep some of her water tight baskets, several of her bone needles are treasured by"
+      },
+      {
+        "text": "a lady in San Francisco",
+        "entity_key": "woman5",
+        "entity_type": "person"
+      },
+      {
+        "text": ", and the grave of this"
+      },
+      {
+        "text": "pathetic, wonderful heroine",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "is still pointed out by"
+      },
+      {
+        "text": "the priests",
+        "entity_key": "misfats",
+        "entity_type": "org"
+      },
+      {
+        "text": "in"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ". — Youth's Companion."
       }
     ]
   ]

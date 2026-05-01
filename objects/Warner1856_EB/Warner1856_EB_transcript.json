@@ -3,10 +3,106 @@
   "paragraphs": [
     [
       {
-        "text": "Some time ago there appeared in the Bulletin an interesting narrative, written by Capt. C. J. W. Russell, of an eighteen years' residence alone, by a Californian Indian woman, upon the island of San Nicolas, one of the Santa Barbara group. This narrative has drawn forth some relative remarks by the Los Angeles Star and the Santa Barbara Gazette. It would seem, from their accounts, that Capt. Russell has colored his narrative somewhat; or, at least, that his description of the story is not the one generally received in the lower country."
+        "text": "Some time ago there appeared in the Bulletin an interesting narrative, written by"
       },
       {
-        "text": "As the whole circumstances are very curious, and may form the foundation of some romance by a future Defoe (like the tale of Alexander Selkirk, the castaway on Juan Fernandez, which swelled into the \"Robinson Crusoe\" of the novelist), we take occasion to lay some additional particulars of the original narrative before our readers.",
+        "text": "Capt. C. J. W. Russell",
+        "entity_key": "cru",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of an eighteen years' residence alone, by"
+      },
+      {
+        "text": "a Californian Indian woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", upon the island of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", one of the"
+      },
+      {
+        "text": "Santa Barbara group",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ". This narrative has drawn forth some relative remarks by the Los Angeles Star and the Santa Barbara Gazette. It would seem, from their accounts, that"
+      },
+      {
+        "text": "Capt. Russell",
+        "entity_key": "cru",
+        "entity_type": "person"
+      },
+      {
+        "text": "has colored his narrative somewhat; or, at least, that his description of the story is not the one generally received in the lower country."
+      },
+      {
+        "text": "As the whole circumstances are very curious, and may form the foundation of some romance by a future",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "Defoe",
+        "tropes": [
+          8
+        ],
+        "entity_key": "dde",
+        "entity_type": "person"
+      },
+      {
+        "text": "(like the tale of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "Alexander Selkirk",
+        "tropes": [
+          8
+        ],
+        "entity_key": "ase",
+        "entity_type": "person"
+      },
+      {
+        "text": ", the castaway on",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "Juan Fernandez",
+        "tropes": [
+          8
+        ],
+        "entity_key": "i_jf",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which swelled into the \"Robinson Crusoe\" of",
+        "tropes": [
+          8
+        ]
+      },
+      {
+        "text": "the novelist",
+        "tropes": [
+          8
+        ],
+        "entity_key": "dde",
+        "entity_type": "person"
+      },
+      {
+        "text": "), we take occasion to lay some additional particulars of the original narrative before our readers.",
         "tropes": [
           8
         ]
@@ -14,24 +110,294 @@
     ],
     [
       {
-        "text": "The Los Angeles Star is indebted to Mr. J. J. Warner—\"than whom no man is better acquainted with modern transactions of this coast\"—for the following facts on this subject:"
+        "text": "The Los Angeles Star is indebted to"
+      },
+      {
+        "text": "Mr. J. J. Warner",
+        "entity_key": "jwar",
+        "entity_type": "person"
+      },
+      {
+        "text": "—\"than whom no man is better acquainted with modern transactions of"
+      },
+      {
+        "text": "this coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "\"—for the following facts on this subject:"
       }
     ],
     [
       {
-        "text": "Most of these islands forming the group to the south of Point Conception, were, at the time of the subjugation of Upper California by the Cross and Spanish arms inhabited by the Indians of the same race as those along the main. In the earlier period of the Missions, which were established within the present limits of this State, the inhabitants of those islands nearest the coast were brought over and incorporated with the neophites [sic] of Santa Barbara, San Buenaventura, and San Gabriel. The island of San Nicolas, being much farther seaward, the natives holding no intercourse with those of the main land, and but little, if any, with those of the islands adjacent to the coast, were undisturbed."
+        "text": "Most of"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "forming the group to the south of"
+      },
+      {
+        "text": "Point Conception",
+        "entity_key": "re_pc",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were, at the time of the subjugation of"
+      },
+      {
+        "text": "Upper California",
+        "entity_key": "re_spcal",
+        "entity_type": "place"
+      },
+      {
+        "text": "by"
+      },
+      {
+        "text": "the Cross",
+        "entity_key": "ch_catholic",
+        "entity_type": "org"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Spanish arms",
+        "entity_key": "gov_span",
+        "entity_type": "org"
+      },
+      {
+        "text": "inhabited by"
+      },
+      {
+        "text": "the Indians of the same race as those along the main",
+        "entity_keys": [
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ". In the earlier period of"
+      },
+      {
+        "text": "the Missions",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": ", which were established within the present limits of"
+      },
+      {
+        "text": "this State",
+        "entity_key": "st_cal",
+        "entity_type": "place"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "the inhabitants of those islands",
+        "entity_keys": [
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "nearest"
+      },
+      {
+        "text": "the coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "were brought over and incorporated with"
+      },
+      {
+        "text": "the neophites",
+        "entity_key": "natam_missionindians",
+        "entity_type": "org"
+      },
+      {
+        "text": "[sic] of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": ","
+      },
+      {
+        "text": "San Buenaventura",
+        "entity_key": "mi_venturamission",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "San Gabriel",
+        "entity_key": "mi_sg",
+        "entity_type": "org"
+      },
+      {
+        "text": ". The island of"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", being much farther seaward,"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "holding no intercourse with those of the main land, and but little, if any, with those of"
+      },
+      {
+        "text": "the islands adjacent to the coast",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", were undisturbed."
       }
     ],
     [
       {
-        "text": "In the prosecution of the business of collecting furs along this coast by the Russian Fur Company, a large party of traders and hunters, composed of Russians, half breeds and Codiac Indians, were in 1818, hunting and trading at the island of San Nicolas. During their stay at the island, jealousies sprung up, and with them difficulties and broils occurred between the hunters and natives.",
+        "text": "In the prosecution of the business of collecting furs along",
         "tropes": [
           13,
           11
         ]
       },
       {
-        "text": "The inhabitants were simple and harmless, their numbers insufficient to cause internal discord, and their remote situation offered no opportunity to cultivate the science of war.",
+        "text": "this coast",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "by the",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "Russian Fur Company",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "rfurcompany",
+        "entity_type": "org"
+      },
+      {
+        "text": ", a large party of traders and hunters, composed of",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "Russians, half breeds",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "halfbreeds"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "Codiac Indians",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ", were in 1818, hunting and trading at the island of",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". During their stay at",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", jealousies sprung up, and with them difficulties and broils occurred between the hunters and natives.",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "The inhabitants",
+        "tropes": [
+          13,
+          11,
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "were simple and harmless, their numbers insufficient to cause internal discord, and their remote situation offered no opportunity to cultivate the science of war.",
         "tropes": [
           13,
           11,
@@ -39,17 +405,74 @@
         ]
       },
       {
-        "text": "The hunters and traders were the reverse of harmlessness and simplicity, and without difficulty or loss on their part, exterminated all of the inhabitants which they could discover, except a small number of the females, whom they carried away with them on their departure.",
+        "text": "The hunters and traders were the reverse of harmlessness and simplicity, and without difficulty or loss on their part, exterminated all of",
         "tropes": [
           13,
           11
         ]
       },
       {
-        "text": "Two men and two women were undiscovered in their hiding-place, and after the sailing of the hunting party, remained the only inhabitants of the island."
+        "text": "the inhabitants",
+        "tropes": [
+          13,
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
       },
       {
-        "text": "Their numbers were increased by the slow but gradual course of nature until 1836, when the population consisted of seven persons, four males and three females, one of whom, of about twenty years of age, was of a fairer tint than her companions.",
+        "text": "which they could discover, except a small number of the females, whom they carried away with them on their departure.",
+        "tropes": [
+          13,
+          11
+        ]
+      },
+      {
+        "text": "Two men and two women",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "were undiscovered in their hiding-place, and after the sailing of the hunting party, remained the only inhabitants of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Their numbers were increased by the slow but gradual course of nature until 1836, when the population consisted of",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "seven persons, four males and three females,",
+        "tropes": [
+          3
+        ],
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "one of whom, of about twenty years of age, was of a fairer tint than",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "her companions",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
         "tropes": [
           3
         ]
@@ -57,72 +480,761 @@
     ],
     [
       {
-        "text": "The otter hunters, from Santa Barbara and Los Angeles, who, from 1830 to 1836, in the prosecution of their business along the shore of the main land and the neighboring Islands, sometimes extended the scene of their operations to the more remote Island."
+        "text": "The otter hunters, from"
       },
       {
-        "text": "The reports which they give of the timid half-breed maiden of San Nicolas, occasioned considerable sensation among their fellow-hunters who had not visited the Island, or who, on their visits, had not been so fortunate as to discover the inhabitants, who invariably sought to avoid the observation of strangers.",
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", who, from 1830 to 1836, in the prosecution of their business along the shore of"
+      },
+      {
+        "text": "the main land",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "the neighboring Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", sometimes extended the scene of their operations to"
+      },
+      {
+        "text": "the more remote Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The reports which they give of",
         "tropes": [
           3
         ]
       },
       {
-        "text": "Repeated attempts were made by the hunters, at various times, to induce this solitary family to hold intercourse with them, but which were only partially successful. In the summer of 1836, an American and an Englishman, residents of Los Angeles, sent an expedition from San Pedro to San Nicolas for the purpose of bringing away this family. After much delay and difficulty in accomplishing this object, they succeeded in getting six of the seven persons on board of their vessel, and sailed for San Pedro."
+        "text": "the timid half-breed maiden of San Nicolas",
+        "tropes": [
+          3
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
       },
       {
-        "text": "They were brought to Los Angeles, where, from the change of diet and habit, they soon sickened and died, with the exception of one old man and one middle-aged female.",
+        "text": ", occasioned considerable sensation among their fellow-hunters who had not visited",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the Island",
+        "tropes": [
+          3
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", or who, on their visits, had not been so fortunate as to discover",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "the inhabitants",
+        "tropes": [
+          3
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", who invariably sought to avoid the observation of strangers.",
+        "tropes": [
+          3
+        ]
+      },
+      {
+        "text": "Repeated attempts were made by the hunters, at various times, to induce"
+      },
+      {
+        "text": "this solitary family",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "to hold intercourse with them, but which were only partially successful. In the summer of 1836,"
+      },
+      {
+        "text": "an American and an Englishman",
+        "entity_keys": [
+          "jsjo",
+          "iwi"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", residents of"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", sent"
+      },
+      {
+        "text": "an expedition",
+        "entity_keys": [
+          "1835crew",
+          "chu",
+          "isp",
+          "iwi",
+          "jsjo",
+          "jdy",
+          "lbu",
+          "natam_hawaiian",
+          "nativeamericans"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "for the purpose of bringing away"
+      },
+      {
+        "text": "this family",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "bhagroup"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". After much delay and difficulty in accomplishing this object, they succeeded in getting"
+      },
+      {
+        "text": "six of the seven persons",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "on board of"
+      },
+      {
+        "text": "their vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and sailed for"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "They were brought to",
         "tropes": [
           6
         ]
       },
       {
-        "text": "The former became blind, in consequence of his sickness, but instinctively found his way to the ocean's shore, where, recovering his health, he, for many years, was the most notable object that met the eye of the visitor or traveler at San Pedro. He was unfortunately drowned, by falling from a steep bank into the ocean. The latter lived, for many years, in the family of one of our most respectable citizens, in whose care she was at the time of her death."
+        "text": "Los Angeles",
+        "tropes": [
+          6
+        ],
+        "entity_key": "ci_la",
+        "entity_type": "place"
       },
       {
-        "text": "The solitary female that was left on the Island, in consequence of her flight from those who brought away her relatives, remained there in regal solitude.",
+        "text": ", where, from the change of diet and habit, they soon sickened and died, with the exception of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "one old man",
+        "tropes": [
+          6
+        ],
+        "entity_key": "bha",
+        "entity_type": "person"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "one middle-aged female",
+        "tropes": [
+          6
+        ],
+        "entity_key": "Nicolenowoman3",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The former",
+        "entity_key": "bha",
+        "entity_type": "person"
+      },
+      {
+        "text": "became blind, in consequence of his sickness, but instinctively found his way to the ocean's shore, where, recovering his health, he, for many years, was the most notable object that met the eye of the visitor or traveler at"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ". He was unfortunately drowned, by falling from a steep bank into the ocean."
+      },
+      {
+        "text": "The latter",
+        "entity_key": "Nicolenowoman3",
+        "entity_type": "person"
+      },
+      {
+        "text": "lived, for many years, in the family of"
+      },
+      {
+        "text": "one of our most respectable citizens",
+        "entity_key": "man10",
+        "entity_type": "person"
+      },
+      {
+        "text": ", in whose care she was at the time of her death."
+      },
+      {
+        "text": "The solitary female",
+        "tropes": [
+          1
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "that was left on",
         "tropes": [
           1
         ]
       },
       {
-        "text": "She was frequently seen by the hunters who visited the Island in subsequent years, but all efforts to hold communication with her were unsuccessful, as she invariably fled from the approach of every human eye."
+        "text": "the Island",
+        "tropes": [
+          1
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", in consequence of her flight from those who brought away her relatives, remained there in regal solitude.",
+        "tropes": [
+          1
+        ]
+      },
+      {
+        "text": "She was frequently seen by the hunters who visited"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in subsequent years, but all efforts to hold communication with her were unsuccessful, as she invariably fled from the approach of every human eye."
       }
     ],
     [
       {
-        "text": "About 1853 or 1856, Mr. George Niedeever, who, for many years, had been engaged in other [otter] hunting, and had frequently visited the Island, found her, old, infirm and decriped [decrepit], suffering from hunger, and succeeded in removing her from her solitary and lonesome abode."
+        "text": "About 1853 or 1856,"
+      },
+      {
+        "text": "Mr. George Niedeever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who, for many years, had been engaged in other [otter] hunting, and had frequently visited"
+      },
+      {
+        "text": "the Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", found her, old, infirm and decriped [decrepit], suffering from hunger, and succeeded in removing her from her solitary and lonesome abode."
       }
     ],
     [
       {
-        "text": "The Santa Barbara Gazette remarks that this hapless woman had lost the knowledge of language, and that all that was known of her history while living on the island was ascertained by her signs and gestures.",
+        "text": "The Santa Barbara Gazette remarks that",
         "tropes": [
           14,
           10
         ]
       },
       {
-        "text": "The Gazette adds as to the extermination of the natives alluded to above:"
+        "text": "this hapless woman",
+        "tropes": [
+          14,
+          10
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "had lost the knowledge of language, and that all that was known of her history while living on",
+        "tropes": [
+          14,
+          10
+        ]
+      },
+      {
+        "text": "the island",
+        "tropes": [
+          14,
+          10
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "was ascertained by her signs and gestures.",
+        "tropes": [
+          14,
+          10
+        ]
+      },
+      {
+        "text": "The Gazette adds as to the extermination of"
+      },
+      {
+        "text": "the natives",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "alluded to above:"
       }
     ],
     [
       {
-        "text": "In the year 1811, a ship* owned by Boardman & Pope, of Boston, commanded by Captain Whittemore, trading on this coast, took from the Sitka, Russian America, about thirty Kodiak Indians, a part of a hardy tribe inhabiting the Island of Kodiak, to the islands in the Santa Barbara channel, for the purpose of killing sea otter, which were then very numerous in the neighborhood of these islands. Captain Whittemore, after landing the Kodiaks on the island, and placing in their hands fire arms and the necessary implements of the chase, sailed away to the coast of Lower California and South America."
+        "text": "In the year 1811,"
+      },
+      {
+        "text": "a ship",
+        "entity_key": "sh_charon",
+        "entity_type": "ship"
+      },
+      {
+        "text": "* owned by"
+      },
+      {
+        "text": "Boardman & Pope",
+        "entity_key": "bp",
+        "entity_type": "org"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Boston",
+        "entity_key": "ci_bo",
+        "entity_type": "place"
+      },
+      {
+        "text": ", commanded by"
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", trading on"
+      },
+      {
+        "text": "this coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", took from the"
+      },
+      {
+        "text": "Sitka, Russian America",
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": ", about thirty"
+      },
+      {
+        "text": "Kodiak Indians",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ", a part of a hardy tribe inhabiting the"
+      },
+      {
+        "text": "Island of Kodiak",
+        "entity_key": "i_ko",
+        "entity_type": "place"
+      },
+      {
+        "text": ", to"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "in the"
+      },
+      {
+        "text": "Santa Barbara channel",
+        "entity_key": "re_sbchannel",
+        "entity_type": "place"
+      },
+      {
+        "text": ", for the purpose of killing sea otter, which were then very numerous in the neighborhood of"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", after landing"
+      },
+      {
+        "text": "the Kodiaks",
+        "entity_key": "natam_kodiak",
+        "entity_type": "person"
+      },
+      {
+        "text": "on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", and placing in their hands fire arms and the necessary implements of the chase, sailed away to the coast of"
+      },
+      {
+        "text": "Lower California",
+        "entity_key": "re_baja",
+        "entity_type": "place"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "South America",
+        "entity_key": "sacoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "In the absence of the ship a dispute arose between the Kodiaks and the natives of the islands [sic], originating in the seizure of the females by the Kodiaks. The Kodiaks possessing more activity, endurance and knowledge of war, and possessing superior weapons, slaughtered the males without mercy, old and young. On the Island of San Nicolas not a male was spared.",
+        "text": "In the absence of",
         "tropes": [
           11
         ]
       },
       {
-        "text": "At the end of a year Captain Whittemore returned to the islands, took the Kodiaks on board, and carried them back to Sitka."
+        "text": "the ship",
+        "tropes": [
+          11
+        ],
+        "entity_key": "sh_charon",
+        "entity_type": "ship"
+      },
+      {
+        "text": "a dispute arose between",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "and",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the natives",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "of",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the islands [sic]",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", originating in the seizure of the females by",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "the Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": ".",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "The Kodiaks",
+        "tropes": [
+          11
+        ],
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "possessing more activity, endurance and knowledge of war, and possessing superior weapons, slaughtered the males without mercy, old and young. On the",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "Island of San Nicolas",
+        "tropes": [
+          11
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "not a male was spared.",
+        "tropes": [
+          11
+        ]
+      },
+      {
+        "text": "At the end of a year"
+      },
+      {
+        "text": "Captain Whittemore",
+        "entity_key": "whi",
+        "entity_type": "person"
+      },
+      {
+        "text": "returned to"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": ", took"
+      },
+      {
+        "text": "the Kodiaks",
+        "entity_key": "natam_kodiak",
+        "entity_type": "org"
+      },
+      {
+        "text": "on board, and carried them back to"
+      },
+      {
+        "text": "Sitka",
+        "entity_key": "ci_si",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "From this period little is known of the Indians remaining on these islands until the year 1836, when Captain Isaac Williams, late Collector of the port of San Pedro, visited this island in a small vessel, and took on board all the Indians remaining but one woman, who was left in the manner stated by Captain Russel in the California Magazine. The Indians of the islands were of the type of the coast Indians, and were no doubt a part of them."
+        "text": "From this period little is known of"
+      },
+      {
+        "text": "the Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "remaining on"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "until the year 1836, when"
+      },
+      {
+        "text": "Captain Isaac Williams",
+        "entity_key": "iwi",
+        "entity_type": "person"
+      },
+      {
+        "text": ", late Collector of the port of"
+      },
+      {
+        "text": "San Pedro",
+        "entity_key": "ci_sp",
+        "entity_type": "place"
+      },
+      {
+        "text": ", visited"
+      },
+      {
+        "text": "this island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in"
+      },
+      {
+        "text": "a small vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", and took on board all"
+      },
+      {
+        "text": "the Indians",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "remaining but"
+      },
+      {
+        "text": "one woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who was left in the manner stated by"
+      },
+      {
+        "text": "Captain Russel",
+        "entity_key": "cru",
+        "entity_type": "person"
+      },
+      {
+        "text": "in the California Magazine."
+      },
+      {
+        "text": "The Indians",
+        "entity_keys": [
+          "natam_NicolenoTongva",
+          "natam_GabrilenoTongva",
+          "natam_chumash"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "of"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "were of the type of the coast Indians, and were no doubt a part of them."
       }
     ]
   ]

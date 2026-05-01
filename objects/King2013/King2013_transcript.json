@@ -3,12 +3,60 @@
   "paragraphs": [
     [
       {
-        "text": "Scott O’Dell’s famous young-adult novel, Island of the Blue Dolphins, tells the tale of a Native American girl named Karana. She lives alone on San Nicolas Island, one of the more distant of the Channel Islands off the coast of southern California. Early in the story, Karana stands on a cliff and watches men who have sailed here from a distant country:"
+        "text": "Scott O’Dell’s famous young-adult novel, Island of the Blue Dolphins, tells the tale of a Native American girl named Karana. She lives alone on"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", one of the more distant of the"
+      },
+      {
+        "text": "Channel Islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "off"
+      },
+      {
+        "text": "the coast of southern California",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Early in the story, Karana stands on a cliff and watches men who have sailed here from"
+      },
+      {
+        "text": "a distant country",
+        "entity_key": "re_russam",
+        "entity_type": "place"
+      },
+      {
+        "text": ":"
       }
     ],
     [
       {
-        "text": "The wide beds of kelp which surround our island on three sides come close to the shore and spread out to sea for a distance of a league. In these deep beds, even on days of heavy winds, the Aleuts hunted. They left the shore at dawn in their skin canoes and did not return until night, towing after them the slain otter."
+        "text": "The wide beds of kelp which surround"
+      },
+      {
+        "text": "our island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "on three sides come close to the shore and spread out to sea for a distance of a league. In these deep beds, even on days of heavy winds,"
+      },
+      {
+        "text": "the Aleuts",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "hunted. They left the shore at dawn in their skin canoes and did not return until night, towing after them the slain otter."
       }
     ],
     [
@@ -18,27 +66,224 @@
     ],
     [
       {
-        "text": "Scott O’Dell is historically and biologically accurate with much of his novel. He based Karana on the true story of a woman who was stranded on San Nicolas for more than 20 years in the early 1800s. But who were the Aleuts? What were they doing hunting otters here? And would someone in the 1800s have actually thought of sea otters as cute and playful—as so many of us do today?"
+        "text": "Scott O’Dell",
+        "entity_key": "sod",
+        "entity_type": "person"
+      },
+      {
+        "text": "is historically and biologically accurate with much of his novel. He based Karana on the true story of"
+      },
+      {
+        "text": "a woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who was stranded on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "for more than 20 years in the early 1800s. But who were"
+      },
+      {
+        "text": "the Aleuts",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "? What were they doing hunting otters here? And would someone in the 1800s have actually thought of sea otters as cute and playful—as so many of us do today?"
       }
     ],
     [
       {
-        "text": "The Aleuts, or the Aleutians, were native hunters from the Aleutian Islands, which stretch into the far North Pacific beyond Alaska. Russian sea captains who sailed past these islands on their way to the coast of North America recruited them because the Aleutians were skilled in hunting all types of marine mammals with spears from kayaks. The Russians wanted seals, sea lions, elephant seals, and sea otters for meat, blubber, and their beautiful and valuable pelts."
+        "text": "The Aleuts",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": ", or"
+      },
+      {
+        "text": "the Aleutians",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": ", were native hunters from"
+      },
+      {
+        "text": "the Aleutian Islands",
+        "entity_key": "i_aleutian",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which stretch into the far North"
+      },
+      {
+        "text": "Pacific",
+        "entity_key": "re_pacific",
+        "entity_type": "place"
+      },
+      {
+        "text": "beyond"
+      },
+      {
+        "text": "Alaska",
+        "entity_key": "st_ak",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Russian sea captains who sailed past"
+      },
+      {
+        "text": "these islands",
+        "entity_key": "i_aleutian",
+        "entity_type": "place"
+      },
+      {
+        "text": "on their way to"
+      },
+      {
+        "text": "the coast of North America",
+        "entity_key": "re_nacoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "recruited them because"
+      },
+      {
+        "text": "the Aleutians",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "were skilled in hunting all types of marine mammals with spears from kayaks. The Russians wanted seals, sea lions, elephant seals, and sea otters for meat, blubber, and their beautiful and valuable pelts."
       }
     ],
     [
       {
-        "text": "Russians began hunting seals and sea otters in the mid-1700s, when they first began exploring the islands of the North Pacific. They seem to have killed—and brought home at great profit—far more animals than the Aleutians or Native Americans in the Pacific Northwest had hunted in previous centuries. As animals grew more and more scarce, they sailed their ships farther and farther south, until they were nearly to Mexico. They searched around the islands off this coast, such as San Nicolas. The extraordinarily dense fur of the sea otter fetched an exceptionally high price at the time, especially when trading with merchants in China."
+        "text": "Russians began hunting seals and sea otters in the mid-1700s, when they first began exploring the"
+      },
+      {
+        "text": "islands of the North Pacific",
+        "entity_keys": [
+          "i_aleutian",
+          "i_ko"
+        ],
+        "entity_type": "place"
+      },
+      {
+        "text": ". They seem to have killed—and brought home at great profit—far more animals than"
+      },
+      {
+        "text": "the Aleutians",
+        "entity_key": "natam_aleuts",
+        "entity_type": "org"
+      },
+      {
+        "text": "or Native Americans in the Pacific Northwest had hunted in previous centuries. As animals grew more and more scarce, they sailed their ships farther and farther south, until they were nearly to"
+      },
+      {
+        "text": "Mexico",
+        "entity_key": "re_upcal",
+        "entity_type": "place"
+      },
+      {
+        "text": ". They searched around"
+      },
+      {
+        "text": "the islands",
+        "entity_key": "i_chi",
+        "entity_type": "place"
+      },
+      {
+        "text": "off"
+      },
+      {
+        "text": "this coast",
+        "entity_key": "re_socalcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": ", such as"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". The extraordinarily dense fur of the sea otter fetched an exceptionally high price at the time, especially when trading with merchants in"
+      },
+      {
+        "text": "China",
+        "entity_key": "co_china",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "In Island of the Blue Dolphins, Karana at one point nurses a young sea otter back to health. She names the otter \"Won-a-nee,\" or \"Girl with the Large Eyes,\" and goes on to see her living back in the wild as a mother. Karana says: \"After that summer, after being friends with Won-a-nee and her young, I never killed another otter. I had an otter cape for my shoulders, which I used until it wore out, but never again did I make a new one.\" O’Dell wrote this novel in 1960, about the time that Americans were growing more environmentally aware—the first Earth Day was only a decade away. This does not mean, though, that people in earlier centuries did not consider the sea otter as cute as a puppy. West Coast Native Americans, according to one source at least, portrayed the sea otter in stories as a playful trickster and even as symbol of good luck."
+        "text": "In Island of the Blue Dolphins, Karana at one point nurses a young sea otter back to health. She names the otter \"Won-a-nee,\" or \"Girl with the Large Eyes,\" and goes on to see her living back in the wild as a mother. Karana says: \"After that summer, after being friends with Won-a-nee and her young, I never killed another otter. I had an otter cape for my shoulders, which I used until it wore out, but never again did I make a new one.\""
+      },
+      {
+        "text": "O’Dell",
+        "entity_key": "sod",
+        "entity_type": "person"
+      },
+      {
+        "text": "wrote this novel in 1960, about the time that Americans were growing more environmentally aware—the first Earth Day was only a decade away. This does not mean, though, that people in earlier centuries did not consider the sea otter as cute as a puppy. West Coast Native Americans, according to one source at least, portrayed the sea otter in stories as a playful trickster and even as symbol of good luck."
       }
     ],
     [
       {
-        "text": "Early Russian explorers also seem to have considered sea otters as fun-loving, even while they hunted them. The men of the Bering expedition in 1741 ate the meat from hundreds of sea otters and skinned them for their fur. Naturalist Georg Wilhelm Steller served up a baby sea otter to heal his ailing expedition leader. Yet Steller saw the otter as an \"extraordinarily beautiful and pleasant animal, as well as amusing and comical in its habits.\" Steller added: \"Not even the most loving human mother engages in the same kind of playing with her children...when the young are taken from them, they cry aloud like a little child and grieve.\""
+        "text": "Early Russian explorers also seem to have considered sea otters as fun-loving, even while they hunted them. The"
+      },
+      {
+        "text": "men of the Bering expedition",
+        "entity_key": "beringexpedition",
+        "entity_type": "person"
+      },
+      {
+        "text": "in 1741 ate the meat from hundreds of sea otters and skinned them for their fur. Naturalist"
+      },
+      {
+        "text": "Georg Wilhelm Steller",
+        "entity_key": "gst",
+        "entity_type": "person"
+      },
+      {
+        "text": "served up a baby sea otter to heal"
+      },
+      {
+        "text": "his ailing expedition leader",
+        "entity_key": "exleader",
+        "entity_type": "person"
+      },
+      {
+        "text": ". Yet"
+      },
+      {
+        "text": "Steller",
+        "entity_key": "gst",
+        "entity_type": "person"
+      },
+      {
+        "text": "saw the otter as an \"extraordinarily beautiful and pleasant animal, as well as amusing and comical in its habits.\""
+      },
+      {
+        "text": "Steller",
+        "entity_key": "gst",
+        "entity_type": "person"
+      },
+      {
+        "text": "added: \"Not even the most loving human mother engages in the same kind of playing with her children...when the young are taken from them, they cry aloud like a little child and grieve.\""
       }
     ],
     [
@@ -48,12 +293,28 @@
     ],
     [
       {
-        "text": "Hunters and habitat loss rendered sea otters almost extinct along the coast of North America by the late 1800s. Sea otter populations have since begun to return, but slowly. They remain on the endangered species list. Novels such as Island of the Blue Dolphins teach us about our history with these animals—and remind us to protect them."
+        "text": "Hunters and habitat loss rendered sea otters almost extinct along"
+      },
+      {
+        "text": "the coast of North America",
+        "entity_key": "re_nacoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "by the late 1800s. Sea otter populations have since begun to return, but slowly. They remain on the endangered species list. Novels such as Island of the Blue Dolphins teach us about our history with these animals—and remind us to protect them."
       }
     ],
     [
       {
-        "text": "In the next issue of Sea History: a Columbia River dinosaur fish? For past \"Animals in Sea History,\" go to www.seahistory.org."
+        "text": "In the next issue of"
+      },
+      {
+        "text": "Sea History",
+        "entity_key": "seahistory",
+        "entity_type": "org"
+      },
+      {
+        "text": ": a Columbia River dinosaur fish? For past \"Animals in Sea History,\" go to www.seahistory.org."
       }
     ]
   ]

@@ -3,10 +3,48 @@
   "paragraphs": [
     [
       {
-        "text": "AN expedition is being organized in Southern California for the purpose of exploring and making a scientific report on San Nicolas, the most remarkable island off the California coast."
+        "text": "AN expedition is being organized in"
       },
       {
-        "text": "When this task is performed it may be possible to fill up the gaps in the meagre but marvellous story of Maria Better Than Nothing, the wild woman of the island.",
+        "text": "Southern California",
+        "entity_key": "re_socal",
+        "entity_type": "place"
+      },
+      {
+        "text": "for the purpose of exploring and making a scientific report on"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", the most remarkable island off the"
+      },
+      {
+        "text": "California coast",
+        "entity_key": "re_calcoast",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "When this task is performed it may be possible to fill up the gaps in the meagre but marvellous story of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Maria Better Than Nothing, the wild woman of the island",
+        "tropes": [
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".",
         "tropes": [
           5
         ]
@@ -14,12 +52,88 @@
     ],
     [
       {
-        "text": "Maria's bones now rest in holy ground. She was buried by the mission in Santa Barbara, and the good fathers prayed over her body. If this was praiseworthy of the monks, there was in it also a certain appropriateness, for it was due to a particularly zealous group of Franciscan Fathers that Maria came to suffer her long and terrible isolation."
+        "text": "Maria's bones now rest in"
+      },
+      {
+        "text": "holy ground",
+        "entity_key": "sbmissioncemetary",
+        "entity_type": "place"
+      },
+      {
+        "text": ". She was buried by"
+      },
+      {
+        "text": "the mission in Santa Barbara",
+        "entity_key": "mi_santabarbaramission",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and"
+      },
+      {
+        "text": "the good fathers",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "prayed over her body. If this was praiseworthy of"
+      },
+      {
+        "text": "the monks",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", there was in it also a certain appropriateness, for it was due to"
+      },
+      {
+        "text": "a particularly zealous group of Franciscan Fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "that"
+      },
+      {
+        "text": "Maria",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "came to suffer her long and terrible isolation."
       }
     ],
     [
       {
-        "text": "Here is the Wild Woman's story precisely as any of the good people of Santa Barbara will tell it to you:",
+        "text": "Here is the Wild Woman's story precisely as any of the good people of",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          14
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "will tell it to you:",
         "tropes": [
           14
         ]
@@ -27,20 +141,225 @@
     ],
     [
       {
-        "text": "Many years ago it came to the knowledge of the pious monks of the southern coast that on a barren island, twelve miles long and four wide, lying some seventy miles away, there dwelt a tribe of Indians who knew little of civilization and nothing of the Church. This desert spot, wind-swept, wave-beaten, with no harbors and sparse vegetation, seemed to the Franciscans ill-adapted for permanent missionary work. So they made the astonishing determination to carry off the entire population of the island and divide it among the missions of the coast. A ship was fitted up and set sail."
-      }
-    ],
-    [
-      {
-        "text": "In the face of almost hopeless obstacles the missionaries, having succeeded in anchoring their ship off the hilly side of the island, forced friendly overtures upon the desert tribe, and at length persuaded the hundred natives to leave their sterile soil and embark for the land of sunshine and abundant produce."
-      }
-    ],
-    [
-      {
-        "text": "On the day of embarkation a gale swept fiercely across the island. The ship heaved restlessly, tugging at her anchor. The captain was about to give the order to set sail when one of the women discovered that her child had been left on shore. It was too late. The vessel could no longer resist the gale and her anchor was hauled in with all haste. But the woman's maternal passion could not be thwarted."
+        "text": "Many years ago it came to the knowledge of"
       },
       {
-        "text": "In a frenzy she leaped from the ship and swam back through the surf to the shore.",
+        "text": "the pious monks of the southern coast",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "that on"
+      },
+      {
+        "text": "a barren island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", twelve miles long and four wide, lying some seventy miles away, there dwelt"
+      },
+      {
+        "text": "a tribe of Indians",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "who knew little of civilization and nothing of"
+      },
+      {
+        "text": "the Church",
+        "entity_key": "ch_catholic",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "This desert spot",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", wind-swept, wave-beaten, with no harbors and sparse vegetation, seemed to"
+      },
+      {
+        "text": "the Franciscans",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "ill-adapted for permanent missionary work. So they made the astonishing determination to carry off"
+      },
+      {
+        "text": "the entire population of the island",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "and divide it among"
+      },
+      {
+        "text": "the missions of the coast",
+        "entity_key": "mi_mainlandmissions",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "A ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was fitted up and set sail."
+      }
+    ],
+    [
+      {
+        "text": "In the face of almost hopeless obstacles"
+      },
+      {
+        "text": "the missionaries",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", having succeeded in anchoring"
+      },
+      {
+        "text": "their ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "off the hilly side of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", forced friendly overtures upon"
+      },
+      {
+        "text": "the desert tribe",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": ", and at length persuaded"
+      },
+      {
+        "text": "the hundred natives",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "to leave"
+      },
+      {
+        "text": "their sterile soil",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "and embark for"
+      },
+      {
+        "text": "the land of sunshine and abundant produce",
+        "entity_key": "re_mld",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      }
+    ],
+    [
+      {
+        "text": "On the day of embarkation a gale swept fiercely across"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "heaved restlessly, tugging at her anchor."
+      },
+      {
+        "text": "The captain",
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "was about to give the order to set sail when"
+      },
+      {
+        "text": "one of the women",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "discovered that"
+      },
+      {
+        "text": "her child",
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "had been left on shore. It was too late."
+      },
+      {
+        "text": "The vessel",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "could no longer resist the gale and her anchor was hauled in with all haste. But the woman's maternal passion could not be thwarted."
+      },
+      {
+        "text": "In a frenzy she leaped from",
+        "tropes": [
+          9
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          9
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "and swam back through the surf to the shore.",
         "tropes": [
           9
         ]
@@ -48,17 +367,163 @@
     ],
     [
       {
-        "text": "Now for twenty years nothing was known of this poor creature. There was so little likelihood that she had survived that the responsibility of her rescue did not weigh heavily on the good fathers, who had, indeed, all that they could do in caring for and converting the Indians they had already imported. The captain who had been forced to abandon the young mother, had promised, it is true, to return for her, but his ship was afterward wrecked."
+        "text": "Now for twenty years nothing was known of"
+      },
+      {
+        "text": "this poor creature",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". There was so little likelihood that she had survived that the responsibility of her rescue did not weigh heavily on"
+      },
+      {
+        "text": "the good fathers",
+        "entity_keys": [
+          "aji",
+          "ndur",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", who had, indeed, all that they could do in caring for and converting"
+      },
+      {
+        "text": "the Indians they had already imported",
+        "entity_key": "bhagroup",
+        "entity_type": "person"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "The captain",
+        "entity_keys": [
+          "chu",
+          "isp"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "who had been forced to abandon"
+      },
+      {
+        "text": "the young mother",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", had promised, it is true, to return for her, but"
+      },
+      {
+        "text": "his ship",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "was afterward wrecked."
       }
     ],
     [
       {
-        "text": "After twenty years the oft-repeated story of the foresaken woman reached the ears of a warm-hearted and adventurous young priest. He enlisted the services of an otter hunter and several Indians, who, in a small schooner known as Better Than Nothing, set sail for the island, which had in the mean time been christened San Nicolas."
+        "text": "After twenty years the oft-repeated story of"
+      },
+      {
+        "text": "the foresaken woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "reached the ears of a warm-hearted and adventurous"
+      },
+      {
+        "text": "young priest",
+        "entity_keys": [
+          "jru",
+          "aji",
+          "sanchez",
+          "misfats"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ". He enlisted the services of an"
+      },
+      {
+        "text": "otter hunter",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": "and"
+      },
+      {
+        "text": "several Indians",
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", who, in a small schooner known as"
+      },
+      {
+        "text": "Better Than Nothing",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": ", set sail for"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", which had in the mean time been christened"
+      },
+      {
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "."
       }
     ],
     [
       {
-        "text": "There they found the woman. Not at first, because she had seen their approach and, timid as a deer, avoided them. A bunch of dried herbs and the smoldering ashes of a fire betrayed her presence on the island. And after a well-planned search they came upon the woman who had not seen a human face in twenty years."
+        "text": "There they found"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ". Not at first, because she had seen their approach and, timid as a deer, avoided them. A bunch of dried herbs and the smoldering ashes of a fire betrayed her presence on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". And after a well-planned search they came upon"
+      },
+      {
+        "text": "the woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "who had not seen a human face in twenty years."
       }
     ],
     [
@@ -72,7 +537,21 @@
     ],
     [
       {
-        "text": "From neck to ankle she was decorously enveloped in a single, marvellously contrived garment of birds' skins, forming a brilliant patchwork of feathers. Her pitiful desire to be decently garbed, though abandoned and unseen, had been accomplished by years of painstaking labor. A dress of birds' skins is not made in a day. About her shoulders—for the winds of San Nicolas are chilly—was a garment of sealskin.",
+        "text": "From neck to ankle she was decorously enveloped in a single, marvellously contrived garment of birds' skins, forming a brilliant patchwork of feathers. Her pitiful desire to be decently garbed, though abandoned and unseen, had been accomplished by years of painstaking labor. A dress of birds' skins is not made in a day. About her shoulders—for the winds of",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "San Nicolas",
+        "tropes": [
+          5
+        ],
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "are chilly—was a garment of sealskin.",
         "tropes": [
           5
         ]
@@ -88,7 +567,82 @@
     ],
     [
       {
-        "text": "She smiled in unmeaning fashion when the men approached, and began to make strange wordless sounds. The Indians of the party, thinking her more than human, fell down to worship her. The others tried to communicate with her by sign, but the poor wild woman understood nothing.",
+        "text": "She smiled in unmeaning fashion when",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the men",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col",
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "approached, and began to make strange wordless sounds.",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "The Indians of the party",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "cook",
+          "msh",
+          "poli",
+          "nsk",
+          "hva"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": ", thinking her more than human, fell down to worship her.",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "The others",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "tried to communicate with her by sign, but",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the poor wild woman",
+        "tropes": [
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "understood nothing.",
         "tropes": [
           5
         ]
@@ -96,7 +650,39 @@
     ],
     [
       {
-        "text": "But although she had come to share many characteristics of a wild animal, she had retained a curious gentleness of disposition. Therefore, the adventurers were able to persuade her to leave her hut and board the ship with them, after consenting that she should bring with her a tame otter to which she clung with savage fondness.",
+        "text": "But although she had come to share many characteristics of a wild animal, she had retained a curious gentleness of disposition. Therefore,",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the adventurers",
+        "tropes": [
+          5
+        ],
+        "entity_keys": [
+          "gni",
+          "cdi",
+          "col"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were able to persuade her to leave her hut and board",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          5
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "with them, after consenting that she should bring with her a tame otter to which she clung with savage fondness.",
         "tropes": [
           5
         ]
@@ -104,7 +690,63 @@
     ],
     [
       {
-        "text": "When they had brought her to Santa Barbara some Indians succeeded in drawing from the poor woman fragments of information about her appalling experience. But memory had almost left poor Maria Better Than Nothing, as they had named her, after the ship that rescued her.",
+        "text": "When they had brought her to",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Santa Barbara",
+        "tropes": [
+          5
+        ],
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "some Indians succeeded in drawing from",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the poor woman",
+        "tropes": [
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "fragments of information about her appalling experience. But memory had almost left poor",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "Maria Better Than Nothing",
+        "tropes": [
+          5
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", as they had named her, after",
+        "tropes": [
+          5
+        ]
+      },
+      {
+        "text": "the ship",
+        "tropes": [
+          5
+        ],
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "that rescued her.",
         "tropes": [
           5
         ]
@@ -112,18 +754,104 @@
     ],
     [
       {
-        "text": "The baby for whom she had risked her life was shortly after torn to death by dogs, and doubtless the grief which the young mother suffered because of this wrecked her mind.",
+        "text": "The baby",
+        "tropes": [
+          14
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "for whom she had risked her life was shortly after torn to death by dogs, and doubtless the grief which",
         "tropes": [
           14
         ]
       },
       {
-        "text": "For a long time she was ill and wanted to die, but instinct of self-preservation kept her alive and she lived on painfully year after year, making friends of the few animals on the island until the Better Than Nothing found her."
+        "text": "the young mother",
+        "tropes": [
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "suffered because of this wrecked her mind.",
+        "tropes": [
+          14
+        ]
+      },
+      {
+        "text": "For a long time she was ill and wanted to die, but instinct of self-preservation kept her alive and she lived on painfully year after year, making friends of the few animals on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "until"
+      },
+      {
+        "text": "the Better Than Nothing",
+        "entity_key": "sh_peoresnada",
+        "entity_type": "ship"
+      },
+      {
+        "text": "found her."
       }
     ],
     [
       {
-        "text": "Accustomed as she had become to a wild life, Maria could not resist the weakening influences of civilization. In less than three months the \"wild woman\" died, mourning to the very last the baby that had died a score of years before.",
+        "text": "Accustomed as she had become to a wild life,",
+        "tropes": [
+          3,
+          14
+        ]
+      },
+      {
+        "text": "Maria",
+        "tropes": [
+          3,
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "could not resist the weakening influences of civilization. In less than three months",
+        "tropes": [
+          3,
+          14
+        ]
+      },
+      {
+        "text": "the \"wild woman\"",
+        "tropes": [
+          3,
+          14
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": "died, mourning to the very last",
+        "tropes": [
+          3,
+          14
+        ]
+      },
+      {
+        "text": "the baby",
+        "tropes": [
+          3,
+          14
+        ],
+        "entity_key": "lwchild",
+        "entity_type": "person"
+      },
+      {
+        "text": "that had died a score of years before.",
         "tropes": [
           3,
           14
@@ -132,7 +860,23 @@
     ],
     [
       {
-        "text": "Maria's remarkable dress of feathers was afterward sent to Rome for preservation in the great museum of the Propaganda."
+        "text": "Maria's remarkable dress of feathers was afterward sent to"
+      },
+      {
+        "text": "Rome",
+        "entity_key": "ci_rom",
+        "entity_type": "place"
+      },
+      {
+        "text": "for preservation in"
+      },
+      {
+        "text": "the great museum of the Propaganda",
+        "entity_key": "mu_vaticanmuseum",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
       }
     ]
   ]

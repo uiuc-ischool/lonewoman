@@ -3,17 +3,90 @@
   "paragraphs": [
     [
       {
-        "text": "About 80 miles off the coast of Los Angeles to the southwest lies the Island of San Nicolas. Its shores are wind-swept and forbidding, it has neither tree nor shrub on its entire area, and its surface is largely composed of loose and shifting sands. The island is a tableland, 500 to 600 feet high, about nine miles in length, with an average width of about four miles."
+        "text": "About 80 miles off the coast of"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": "to the southwest lies"
+      },
+      {
+        "text": "the Island of San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ". Its shores are wind-swept and forbidding, it has neither tree nor shrub on its entire area, and its surface is largely composed of loose and shifting sands."
+      },
+      {
+        "text": "The island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "is a tableland, 500 to 600 feet high, about nine miles in length, with an average width of about four miles."
       }
     ],
     [
       {
-        "text": "San Nicolas has not always been as we now find it. At one time it had forests of trees and was densely populated. As late as 1853 Captain Nidever, of Santa Barbara, speaks of bushes. That it was densely populated is evidenced by the immense mounds of sea shells, principally abalone, which are yet found on the tableland of the interior. One row or rick of shells, as high as a man's head and almost a mile in length, must have required centuries to form."
+        "text": "San Nicolas",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "has not always been as we now find it. At one time it had forests of trees and was densely populated. As late as 1853"
+      },
+      {
+        "text": "Captain Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": ", speaks of bushes. That it was densely populated is evidenced by the immense mounds of sea shells, principally abalone, which are yet found on the tableland of the interior. One row or rick of shells, as high as a man's head and almost a mile in length, must have required centuries to form."
       }
     ],
     [
       {
-        "text": "But little is known of the character of the early inhabitants, although there are many persons still living who saw the last remnant of the race of Indians who formerly inhabited the island in the person of \"The Lone Woman of San Nicolas.\"",
+        "text": "But little is known of the character of the early inhabitants, although there are many persons still living who saw the last remnant of",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "the race of Indians who formerly inhabited the island",
+        "tropes": [
+          6
+        ],
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "in the person of \"",
+        "tropes": [
+          6
+        ]
+      },
+      {
+        "text": "The Lone Woman of San Nicolas",
+        "tropes": [
+          6
+        ],
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ".\"",
         "tropes": [
           6
         ]
@@ -21,15 +94,189 @@
     ],
     [
       {
-        "text": "Dr. Stephen Bowers, of Los Angeles, had the story of this woman, who for 18 years was the sole inhabitant of the island, directly from the lips of Captain John [sic] Nidever, who took her from the island to Santa Barbara in 1853."
+        "text": "Dr. Stephen Bowers",
+        "entity_key": "sbo",
+        "entity_type": "person"
+      },
+      {
+        "text": ", of"
+      },
+      {
+        "text": "Los Angeles",
+        "entity_key": "ci_la",
+        "entity_type": "place"
+      },
+      {
+        "text": ", had the story of"
+      },
+      {
+        "text": "this woman",
+        "entity_key": "lw",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who for 18 years was the sole inhabitant of"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": ", directly from the lips of"
+      },
+      {
+        "text": "Captain John [sic] Nidever",
+        "entity_key": "gni",
+        "entity_type": "person"
+      },
+      {
+        "text": ", who took her from"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to"
+      },
+      {
+        "text": "Santa Barbara",
+        "entity_key": "ci_sb",
+        "entity_type": "place"
+      },
+      {
+        "text": "in 1853."
       }
     ],
     [
       {
-        "text": "In the early days the Russians made occasional visits to San Nicolas Island in quest of the valuable fur of the sea otter. On one occasion they brought with them natives from Alaska, who were left on the island to prosecute the work of capturing otter, while they returned to the North. While the Russians were absent, these Alaska Indians, having been taught the use of firearms, took possession of the women of the island and killed all the native men and male children."
+        "text": "In the early days"
       },
       {
-        "text": "When the Russian ships came again they carried away the Alaskans back to their home and the",
+        "text": "the Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "made occasional visits to"
+      },
+      {
+        "text": "San Nicolas Island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "in quest of the valuable fur of the sea otter. On one occasion they brought with them"
+      },
+      {
+        "text": "natives",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "Alaska",
+        "entity_key": "re_russam",
+        "entity_type": "place"
+      },
+      {
+        "text": ", who were left on"
+      },
+      {
+        "text": "the island",
+        "entity_key": "i_sn",
+        "entity_type": "place"
+      },
+      {
+        "text": "to prosecute the work of capturing otter, while they returned to the North. While"
+      },
+      {
+        "text": "the Russians",
+        "entity_keys": [
+          "1814huntingparty",
+          "rfurcompany",
+          "iba",
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "person"
+      },
+      {
+        "text": "were absent, these"
+      },
+      {
+        "text": "Alaska Indians",
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": ", having been taught the use of firearms, took possession of"
+      },
+      {
+        "text": "the women of the island",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "and killed all"
+      },
+      {
+        "text": "the native men and male children",
+        "entity_key": "natam_NicolenoTongva",
+        "entity_type": "org"
+      },
+      {
+        "text": "."
+      },
+      {
+        "text": "When the",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "Russian ships",
+        "tropes": [
+          13
+        ],
+        "entity_key": "sh_ilmena",
+        "entity_type": "ship"
+      },
+      {
+        "text": "came again they carried away",
+        "tropes": [
+          13
+        ]
+      },
+      {
+        "text": "the Alaskans",
+        "tropes": [
+          13
+        ],
+        "entity_keys": [
+          "natam_aleuts",
+          "natam_kodiak"
+        ],
+        "entity_type": "org"
+      },
+      {
+        "text": "back to their home and the",
         "tropes": [
           13
         ]
