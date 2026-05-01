@@ -1,0 +1,208 @@
+{% comment %}
+  entity-panel.html
+  Provides the entity information panel and the global openEntityPanel /
+  openGroupPanel functions used by the transcript viewer.
+
+  Usage:
+    {% include entity-panel.html %}
+    (place inside .article-viewer-left, alongside gallery-view and panel-view)
+
+  Requires:
+    _data/entities.json  — built by utilities/build_entities_json.py
+{% endcomment %}
+
+<!-- Pre-load entity lookup from _data/entities.json -->
+<script>
+window.ENTITY_DATA = {{ site.data.entities | jsonify }};
+</script>
+
+<style>
+  #entity-panel {
+    background-color: #f5f0e4;
+    border: 1px solid #d9d0bc;
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ep-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+
+  .ep-back {
+    background: none;
+    border: none;
+    padding: 0 0.6rem 0 0;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2d5a1b;
+    cursor: pointer;
+    line-height: 1.3;
+    flex-shrink: 0;
+  }
+  .ep-back:hover { color: #000; }
+
+  .ep-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #2d5a1b;
+    margin: 0;
+    line-height: 1.3;
+    flex: 1;
+  }
+
+  .ep-close {
+    background: none;
+    border: none;
+    padding: 0 0 0 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #222;
+    cursor: pointer;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .ep-close:hover { color: #000; }
+
+  .ep-description {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .ep-group-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ep-group-list li {
+    padding: 0.45rem 0;
+    border-bottom: 1px solid #e0d8c8;
+  }
+  .ep-group-list li:last-child { border-bottom: none; }
+
+  .ep-group-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+    text-align: left;
+  }
+  .ep-group-btn:hover { color: #2d5a1b; }
+</style>
+
+<div id="entity-panel" class="d-none" role="region" aria-label="Entity information">
+  <div class="ep-header">
+    <button id="ep-back-btn" class="ep-back d-none" aria-label="Back">&#10094;</button>
+    <p id="ep-title" class="ep-title"></p>
+    <button id="ep-close-btn" class="ep-close" aria-label="Close entity panel">[X]</button>
+  </div>
+  <p id="ep-description" class="ep-description"></p>
+  <ul id="ep-group-list" class="ep-group-list d-none"></ul>
+</div>
+
+<script>
+(function () {
+  var panel     = document.getElementById('entity-panel');
+  var backBtn   = document.getElementById('ep-back-btn');
+  var closeBtn  = document.getElementById('ep-close-btn');
+  var titleEl   = document.getElementById('ep-title');
+  var descEl    = document.getElementById('ep-description');
+  var groupList = document.getElementById('ep-group-list');
+
+  /* Which left-column view was active when the panel opened: 'gallery' | 'interpretive' */
+  var _previousView  = 'gallery';
+  /* Keys array when navigating from a group panel into an individual entity */
+  var _lastGroupKeys = null;
+
+  function showPanel() {
+    /* If already visible, only update content — preserve _previousView */
+    if (!panel.classList.contains('d-none')) return;
+
+    var galleryView = document.getElementById('gallery-view');
+    var panelView   = document.getElementById('panel-view');
+
+    if (panelView && !panelView.classList.contains('d-none')) {
+      _previousView = 'interpretive';
+      panelView.classList.add('d-none');
+    } else {
+      _previousView = 'gallery';
+      if (galleryView) galleryView.classList.add('d-none');
+    }
+    panel.classList.remove('d-none');
+  }
+
+  function hidePanel() {
+    panel.classList.add('d-none');
+    _lastGroupKeys = null;
+
+    var galleryView = document.getElementById('gallery-view');
+    var panelView   = document.getElementById('panel-view');
+
+    if (_previousView === 'interpretive') {
+      if (panelView) panelView.classList.remove('d-none');
+    } else {
+      if (galleryView) galleryView.classList.remove('d-none');
+    }
+  }
+
+  window.openEntityPanel = function (key, type, fromGroupKeys) {
+    var entity = (window.ENTITY_DATA || {})[key] || {};
+    titleEl.textContent  = entity.name || key;
+    descEl.innerHTML     = entity.description || '';
+    descEl.classList.remove('d-none');
+    groupList.classList.add('d-none');
+    groupList.innerHTML  = '';
+
+    if (fromGroupKeys) {
+      _lastGroupKeys = fromGroupKeys;
+      backBtn.classList.remove('d-none');
+    } else {
+      _lastGroupKeys = null;
+      backBtn.classList.add('d-none');
+    }
+
+    showPanel();
+  };
+
+  window.openGroupPanel = function (keysArray) {
+    titleEl.textContent = 'Group of Annotations';
+    descEl.classList.add('d-none');
+    groupList.classList.remove('d-none');
+    groupList.innerHTML = '';
+
+    keysArray.forEach(function (key) {
+      var entity = (window.ENTITY_DATA || {})[key] || {};
+      var li     = document.createElement('li');
+      var btn    = document.createElement('button');
+      btn.className   = 'ep-group-btn';
+      btn.textContent = entity.name || key;
+      btn.addEventListener('click', function () {
+        window.openEntityPanel(key, entity.type || '', keysArray);
+      });
+      li.appendChild(btn);
+      groupList.appendChild(li);
+    });
+
+    _lastGroupKeys = keysArray;
+    backBtn.classList.add('d-none');
+    showPanel();
+  };
+
+  closeBtn.addEventListener('click', hidePanel);
+
+  backBtn.addEventListener('click', function () {
+    if (_lastGroupKeys) window.openGroupPanel(_lastGroupKeys);
+  });
+}());
+</script>
