@@ -3,375 +3,329 @@
 <head>
   <meta charset="UTF-8" />
   <title>The Boston Atlas (1847) — Reprint Network</title>
+  <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: #0f111e; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; overflow: hidden; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #0f111e; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+    /* ── Map fills the full viewport ── */
+    #map { position: fixed; inset: 0; }
 
     /* ── Header ── */
     #header {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 10000;
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       height: 48px;
-      background: rgba(10, 12, 24, 0.95);
+      background: rgba(10, 12, 24, 0.92);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid #1e2340;
-      display: flex; align-items: center; padding: 0 20px;
+      display: flex; align-items: center; padding: 0 18px; gap: 14px;
       color: #e2e8f0;
     }
-    #header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.04em; }
+    #header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.04em; flex: 1; }
+    #play-btn {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: #6366f1; border: none; color: white; cursor: pointer;
+      font-size: 13px; display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; transition: background 0.15s;
+    }
+    #play-btn:hover { background: #4f46e5; }
+    #reset-btn {
+      padding: 5px 12px; border-radius: 5px;
+      background: transparent; border: 1px solid #374151; color: #9ca3af;
+      cursor: pointer; font-size: 11px; transition: border-color 0.15s;
+    }
+    #reset-btn:hover { border-color: #6b7280; color: #e2e8f0; }
 
     /* ── Legend ── */
     #legend {
-      position: fixed; top: 60px; left: 16px; z-index: 9999;
-      background: rgba(10, 12, 24, 0.88);
+      position: fixed; top: 60px; left: 14px; z-index: 100;
+      background: rgba(10, 12, 24, 0.85);
       border: 1px solid #1e2340; border-radius: 8px;
-      padding: 12px 16px; color: #9ca3af; font-size: 12px;
+      padding: 12px 14px; font-size: 12px; color: #9ca3af;
     }
-    .legend-title {
+    .leg-title {
       color: #e2e8f0; font-weight: 600; font-size: 10px;
       letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 9px;
     }
-    .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
-    .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-    .legend-note {
+    .leg-row { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+    .leg-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .leg-note {
       margin-top: 8px; padding-top: 8px; border-top: 1px solid #1e2340;
-      font-size: 10px; color: #4b5563; line-height: 1.4;
+      font-size: 10px; color: #4b5563; line-height: 1.5;
     }
 
-    /* ── Speed panel ── */
-    #speed-panel {
-      position: fixed; bottom: 130px; right: 16px; z-index: 9999;
-      background: rgba(10, 12, 24, 0.88);
-      border: 1px solid #1e2340; border-radius: 8px;
-      padding: 12px 16px; color: #9ca3af; font-size: 12px;
-      min-width: 190px;
+    /* ── Bottom time + speed controls ── */
+    #controls {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      z-index: 100;
+      background: rgba(10, 12, 24, 0.90);
+      border: 1px solid #1e2340; border-radius: 10px;
+      padding: 14px 22px; min-width: 520px; max-width: 90vw;
+      color: #9ca3af; font-size: 12px;
     }
-    .panel-title {
-      color: #e2e8f0; font-weight: 600; font-size: 10px;
-      letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px;
-    }
-    .speed-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
-    #speed-label { color: #a5b4fc; font-weight: 700; font-size: 14px; }
-    #speed-slider { width: 100%; accent-color: #6366f1; cursor: pointer; }
-    .speed-endpoints { display: flex; justify-content: space-between; margin-top: 4px; font-size: 10px; color: #374151; }
+    .ctrl-row { display: flex; align-items: center; gap: 14px; }
+    .ctrl-label { font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: #4b5563; min-width: 48px; }
+    .ctrl-date { color: #e2e8f0; font-size: 13px; font-weight: 600; min-width: 110px; }
+    #time-slider { flex: 1; accent-color: #6366f1; cursor: pointer; }
+    .date-end { color: #6b7280; font-size: 11px; }
+    .ctrl-divider { width: 1px; height: 30px; background: #1e2340; flex-shrink: 0; }
+    .speed-row { display: flex; align-items: center; gap: 10px; }
+    #speed-slider { width: 100px; accent-color: #818cf8; cursor: pointer; }
+    #speed-val { color: #a5b4fc; font-weight: 700; min-width: 30px; }
 
-    /* ── Token modal ── */
-    #token-overlay {
-      position: fixed; inset: 0; z-index: 20000;
-      background: rgba(10, 12, 24, 0.97);
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      color: #e2e8f0;
+    /* ── Tooltip ── */
+    #tooltip {
+      position: fixed; z-index: 200; pointer-events: none;
+      display: none;
+      background: rgba(10, 12, 24, 0.93);
+      border: 1px solid #374151; border-radius: 7px;
+      padding: 10px 13px; font-size: 12px; color: #9ca3af;
+      max-width: 230px; line-height: 1.6;
     }
-    #token-overlay h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
-    #token-overlay p { font-size: 13px; color: #6b7280; max-width: 400px; text-align: center; line-height: 1.6; margin-bottom: 20px; }
-    #token-input {
-      width: 380px; padding: 10px 14px; border-radius: 6px;
-      border: 1px solid #374151; background: #1a1d32;
-      color: #e2e8f0; font-size: 13px; margin-bottom: 12px; outline: none;
-      font-family: monospace;
-    }
-    #token-input:focus { border-color: #6366f1; }
-    #load-btn {
-      padding: 10px 28px; background: #6366f1; color: white;
-      border: none; border-radius: 6px; font-size: 14px; font-weight: 600;
-      cursor: pointer; transition: background 0.15s;
-    }
-    #load-btn:hover { background: #4f46e5; }
-    .token-link { color: #818cf8; font-size: 11px; margin-top: 12px; text-decoration: none; }
-    .token-link:hover { text-decoration: underline; }
-    #token-error { color: #f87171; font-size: 12px; margin-top: 6px; min-height: 16px; }
+    .tt-pub { color: #e2e8f0; font-weight: 600; margin-bottom: 2px; font-size: 13px; }
+    .tt-type { display: inline-block; margin-top: 5px; padding: 1px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .tt-type-direct    { background: rgba(59,130,246,0.25); color: #93c5fd; }
+    .tt-type-original  { background: rgba(200,200,200,0.2); color: #d1d5db; }
+    .tt-type-truncated { background: rgba(249,115,22,0.25); color: #fdba74; }
+    .tt-type-paraphrase{ background: rgba(34,197,94,0.2);  color: #86efac; }
 
-    /* ── Map container ── */
-    #app { position: fixed; top: 48px; bottom: 0; left: 0; right: 0; }
+    /* ── Attribution ── */
+    .maplibregl-ctrl-attrib { font-size: 9px !important; }
   </style>
 </head>
 <body>
 
+<!-- Basemap -->
+<div id="map"></div>
+
 <!-- Header -->
 <div id="header">
   <h1>The Boston Atlas (1847) &mdash; Reprint Network</h1>
+  <button id="play-btn" title="Play / Pause">▶</button>
+  <button id="reset-btn">↺ Reset</button>
 </div>
 
 <!-- Legend -->
 <div id="legend">
-  <div class="legend-title">Reprint Type</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div><span>Direct</span></div>
-  <div class="legend-item"><div class="legend-dot" style="background:#d1d5db"></div><span>Original</span></div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f97316"></div><span>Truncated</span></div>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span>Paraphrase</span></div>
-  <div class="legend-note">Arc = Boston → reprint city<br>Color = reprint type</div>
+  <div class="leg-title">Reprint Type</div>
+  <div class="leg-row"><div class="leg-dot" style="background:#d1d5db"></div><span>Original</span></div>
+  <div class="leg-row"><div class="leg-dot" style="background:#3b82f6"></div><span>Direct</span></div>
+  <div class="leg-row"><div class="leg-dot" style="background:#f97316"></div><span>Truncated</span></div>
+  <div class="leg-row"><div class="leg-dot" style="background:#22c55e"></div><span>Paraphrase</span></div>
+  <div class="leg-note">Arc: origin city → reprint city<br>Points accumulate over time</div>
 </div>
 
-<!-- Speed slider -->
-<div id="speed-panel">
-  <div class="panel-title">Animation Speed</div>
-  <div class="speed-row"><span>Speed</span><span id="speed-label">1.0×</span></div>
-  <input type="range" id="speed-slider" min="0.1" max="8" step="0.1" value="1" />
-  <div class="speed-endpoints"><span>Slow</span><span>Fast</span></div>
+<!-- Time + speed controls -->
+<div id="controls">
+  <div class="ctrl-row">
+    <span class="ctrl-label">Date</span>
+    <span class="ctrl-date" id="cur-date">Jan 7, 1847</span>
+    <input type="range" id="time-slider" min="0" max="1000" value="0" step="1" />
+    <span class="date-end">Jan 21, 1848</span>
+    <div class="ctrl-divider"></div>
+    <div class="speed-row">
+      <span class="ctrl-label">Speed</span>
+      <input type="range" id="speed-slider" min="0.2" max="8" step="0.2" value="1" />
+      <span id="speed-val">1.0×</span>
+    </div>
+  </div>
 </div>
 
-<!-- Mapbox token modal -->
-<div id="token-overlay">
-  <h2>Mapbox Token Required</h2>
-  <p>Kepler.gl uses Mapbox GL for map tiles. Enter a free access token below — it is saved in your browser only and never transmitted elsewhere.</p>
-  <input id="token-input" type="text" placeholder="pk.eyJ1Ijoiex..." spellcheck="false" autocomplete="off" />
-  <button id="load-btn" onclick="initMap()">Load Map</button>
-  <div id="token-error"></div>
-  <a class="token-link" href="https://account.mapbox.com/access-tokens/" target="_blank">Get a free token at account.mapbox.com →</a>
-</div>
+<!-- Tooltip -->
+<div id="tooltip"></div>
 
-<!-- Map mount point -->
-<div id="app"></div>
-
-<!-- Dependencies (order matters) -->
-<script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/redux@4.2.1/dist/redux.min.js"></script>
-<script src="https://unpkg.com/react-redux@8.1.3/dist/react-redux.min.js"></script>
-<script src="https://unpkg.com/redux-thunk@2.4.2/dist/redux-thunk.min.js"></script>
-<script src="https://unpkg.com/kepler.gl@3.0.0/umd/keplergl.min.js"></script>
-
+<!-- Scripts -->
+<script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/deck.gl@8.9.35/dist.min.js"></script>
 <script>
-// ── Inline data (TheBostonAtlas1847_reprint group, sorted by date) ────────
-const CSV = `article_id,title,publication,date,publisher_location,lat,lng,origin_location,origin_lat,origin_lng,reprint_type,group_reprint_id
-TheBostonAtlas1847,"A Female Crusoe",Boston Atlas,1847-01-07,"Boston, Massachusetts",42.3588336,-71.0578303,"Boston, Massachusetts",42.3588336,-71.0578303,original,TheBostonAtlas1847_reprint
-NewYorkEveningExpress1847,"A Female Crusoe",New York Evening Express,1847-01-08,"New York, New York",40.7127281,-74.0060152,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-NewBedfordMercury1847,"A Female Crusoe",New-Bedford (MA) Mercury,1847-01-15,"Bedford, Massachusetts",42.4917301,-71.2817947,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-PublicLedger1847,"A Female Crusoe",Philadelphia Public Ledger,1847-01-16,"Philadelphia, Pennsylvania",39.9527237,-75.1635262,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-NewYorkDailyTribune1847,"A Female Crusoe",New York Daily Tribune,1847-01-18,"New York, New York",40.7127281,-74.0060152,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-SpiritOfTheTimes1847,"A Female Crusoe",Batavia (NY) Spirit of the Times,1847-01-19,"Batavia, New York",42.9980144,-78.1875515,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-EdgefieldAdvertiser1847,"A Female Crusoe",Edgefield (SC) Advertiser,1847-02-10,"Edgefield, South Carolina",33.7635851,-81.9759066,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-ChristianAdvocateAndJournal1847,"A Female Crusoe",NY Christian Advocate and Journal,1847-03-03,"New York, New York",40.7127281,-74.0060152,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-WisconsinHerald1847,"A Female Crusoe",Wisconsin Herald,1847-03-13,"Lancaster, Wisconsin",42.8477422,-90.7102299,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-TheLivingAge1847,"A Female Crusoe",Littell's Living Age,1847-03-27,"Ithaca, New York",42.4374175,-76.5483724,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-TheFriend1847,"A Female Crusoe",Friend,1847-05-08,"Philadelphia, Pennsylvania",39.9527237,-75.1635262,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-ThePolynesian1847,"A Female Crusoe",Honolulu Polynesian,1847-08-07,"Honolulu, Hawaii",21.304547,-157.855676,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-TheVermontJournal1847,"A Female Crusoe",Vermont Journal,1847-09-10,"Windsor, Vermont",43.4798875,-72.3866266,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint
-LongIslander1848,"A Female Crusoe",Long-Islander (Huntington NY),1848-01-21,"Huntington, New York",40.868154,-73.425676,"Boston, Massachusetts",42.3588336,-71.0578303,direct,TheBostonAtlas1847_reprint`;
+// ── Data ─────────────────────────────────────────────────────────────────
+const RAW = [
+  {article_id:'TheBostonAtlas1847',       publication:'Boston Atlas',                     date:'1847-01-07', publisher_location:'Boston, Massachusetts',      lat:42.3588336, lng:-71.0578303, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'original'},
+  {article_id:'NewYorkEveningExpress1847', publication:'New York Evening Express',          date:'1847-01-08', publisher_location:'New York, New York',          lat:40.7127281, lng:-74.0060152, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'NewBedfordMercury1847',     publication:'New-Bedford (MA) Mercury',          date:'1847-01-15', publisher_location:'Bedford, Massachusetts',      lat:42.4917301, lng:-71.2817947, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'PublicLedger1847',          publication:'Philadelphia Public Ledger',         date:'1847-01-16', publisher_location:'Philadelphia, Pennsylvania',  lat:39.9527237, lng:-75.1635262, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'NewYorkDailyTribune1847',   publication:'New York Daily Tribune',             date:'1847-01-18', publisher_location:'New York, New York',          lat:40.7127281, lng:-74.0060152, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'SpiritOfTheTimes1847',      publication:'Batavia (NY) Spirit of the Times',  date:'1847-01-19', publisher_location:'Batavia, New York',           lat:42.9980144, lng:-78.1875515, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'EdgefieldAdvertiser1847',   publication:'Edgefield (SC) Advertiser',          date:'1847-02-10', publisher_location:'Edgefield, South Carolina',  lat:33.7635851, lng:-81.9759066, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'ChristianAdvocate1847',     publication:'NY Christian Advocate & Journal',    date:'1847-03-03', publisher_location:'New York, New York',          lat:40.7127281, lng:-74.0060152, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'WisconsinHerald1847',       publication:'Wisconsin Herald',                   date:'1847-03-13', publisher_location:'Lancaster, Wisconsin',        lat:42.8477422, lng:-90.7102299, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'TheLivingAge1847',          publication:"Littell's Living Age",               date:'1847-03-27', publisher_location:'Ithaca, New York',            lat:42.4374175, lng:-76.5483724, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'TheFriend1847',             publication:'Friend',                             date:'1847-05-08', publisher_location:'Philadelphia, Pennsylvania',  lat:39.9527237, lng:-75.1635262, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'ThePolynesian1847',         publication:'Honolulu Polynesian',                date:'1847-08-07', publisher_location:'Honolulu, Hawaii',            lat:21.304547,  lng:-157.855676, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'TheVermontJournal1847',     publication:'Vermont Journal',                    date:'1847-09-10', publisher_location:'Windsor, Vermont',            lat:43.4798875, lng:-72.3866266, origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+  {article_id:'LongIslander1848',          publication:'Long-Islander (Huntington, NY)',     date:'1848-01-21', publisher_location:'Huntington, New York',        lat:40.868154,  lng:-73.425676,  origin_lat:42.3588336, origin_lng:-71.0578303, reprint_type:'direct'},
+];
 
-// ── Kepler.gl layer + filter config ───────────────────────────────────────
-// Color order follows Kepler.gl's alphabetical category sort:
-//   direct → #3b82f6 (blue)
-//   original → #d1d5db (light gray)
-//   paraphrase → #22c55e (green)
-//   truncated → #f97316 (orange)
-const COLOR_RANGE = {
-  name: 'Reprint Types',
-  type: 'custom',
-  category: 'Custom',
-  colors: ['#3b82f6', '#d1d5db', '#22c55e', '#f97316']
+// Compute Unix timestamps (ms) from date string — safe for pre-1970 dates
+RAW.forEach(d => { d.ts = new Date(d.date + 'T12:00:00Z').getTime(); });
+RAW.sort((a, b) => a.ts - b.ts);
+
+const MIN_TS = RAW[0].ts;
+const MAX_TS = RAW[RAW.length - 1].ts;
+const RANGE   = MAX_TS - MIN_TS;
+
+// ── Color map ─────────────────────────────────────────────────────────────
+const COLORS = {
+  original:   [209, 213, 219],  // gray
+  direct:     [59,  130, 246],  // blue
+  truncated:  [249, 115,  22],  // orange
+  paraphrase: [34,  197,  94],  // green
 };
+function getColor(d) { return COLORS[d.reprint_type] || [200, 200, 200]; }
 
-const KEPLER_CONFIG = {
-  version: 'v1',
-  config: {
-    visState: {
-      layers: [
-        // Arc layer: origin (Boston) → destination
-        {
-          id: 'arcs',
-          type: 'arc',
-          config: {
-            dataId: 'reprints',
-            label: 'Reprint Arcs',
-            color: [59, 130, 246],
-            columns: {
-              lat0: 'origin_lat',
-              lng0: 'origin_lng',
-              lat1: 'lat',
-              lng1: 'lng'
-            },
-            isVisible: true,
-            visConfig: {
-              opacity: 0.85,
-              thickness: 2,
-              colorRange: COLOR_RANGE,
-              sizeRange: [0, 10],
-              targetColor: null
-            },
-            hidden: false,
-            textLabel: []
-          },
-          visualChannels: {
-            colorField: { name: 'reprint_type', type: 'string' },
-            colorScale: 'ordinal',
-            sizeField: null,
-            sizeScale: 'linear'
-          }
-        },
-        // Point layer: reprint destination cities
-        {
-          id: 'points',
-          type: 'point',
-          config: {
-            dataId: 'reprints',
-            label: 'Reprint Destinations',
-            color: [59, 130, 246],
-            columns: { lat: 'lat', lng: 'lng', altitude: null },
-            isVisible: true,
-            visConfig: {
-              radius: 10,
-              fixedRadius: false,
-              opacity: 0.9,
-              outline: true,
-              thickness: 2,
-              colorRange: COLOR_RANGE,
-              radiusRange: [0, 50]
-            },
-            hidden: false,
-            textLabel: []
-          },
-          visualChannels: {
-            colorField: { name: 'reprint_type', type: 'string' },
-            colorScale: 'ordinal',
-            sizeField: null,
-            sizeScale: 'linear'
-          }
-        }
-      ],
-      filters: [
-        {
-          dataId: ['reprints'],
-          id: 'time-filter',
-          name: ['date'],
-          type: 'timeRange',
-          enlarged: true,
-          plotType: { type: 'histogram' },
-          // incremental = arcs/points accumulate as time advances
-          animationWindow: 'incremental',
-          speed: 1
-        }
-      ],
-      interactionConfig: {
-        tooltip: {
-          fieldsToShow: {
-            reprints: [
-              { name: 'publication', format: null },
-              { name: 'date', format: null },
-              { name: 'publisher_location', format: null },
-              { name: 'reprint_type', format: null }
-            ]
-          },
-          compareMode: false,
-          compareType: 'absolute',
-          enabled: true
-        },
-        brush: { size: 0.5, enabled: false },
-        geocoder: { enabled: false },
-        coordinate: { enabled: false }
-      }
-    },
-    mapState: {
-      bearing: 0,
-      dragRotate: false,
-      latitude: 38.5,
-      longitude: -96,
-      pitch: 0,
-      zoom: 4,
-      isSplit: false
-    },
-    mapStyle: {
-      styleType: 'dark',
-      topLayerGroups: {},
-      visibleLayerGroups: {
-        label: true,
-        road: true,
-        border: false,
-        building: false,
-        water: true,
-        land: true
-      }
-    }
-  }
-};
-
-// ── Map init ──────────────────────────────────────────────────────────────
-let keplerStore = null;
-
-function initMap() {
-  const input = document.getElementById('token-input');
-  const err = document.getElementById('token-error');
-  const token = (input.value || '').trim() || localStorage.getItem('mapbox_token') || '';
-
-  if (!token || !token.startsWith('pk.')) {
-    err.textContent = 'Token must start with "pk." — check your Mapbox account.';
-    return;
-  }
-  err.textContent = '';
-  localStorage.setItem('mapbox_token', token);
-  document.getElementById('token-overlay').style.display = 'none';
-  mountMap(token);
+// ── Date formatting (no JS Date locale needed) ────────────────────────────
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtDate(dateStr) {
+  const [y, m, day] = dateStr.split('-');
+  return `${MONTHS[+m - 1]} ${+day}, ${y}`;
+}
+// Interpolate date string from a timestamp
+function tsToDisplayDate(ts) {
+  const d = new Date(ts);
+  return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
 }
 
-function mountMap(token) {
-  const {
-    KeplerGl,
-    keplerGlReducer,
-    addDataToMap,
-    processCsvData
-  } = window.KeplerGl;
-
-  const { createStore, combineReducers, applyMiddleware } = window.Redux;
-  const { Provider } = window.ReactRedux;
-  const thunk = window.ReduxThunk.default;
-
-  // Build Redux store
-  const rootReducer = combineReducers({ keplerGl: keplerGlReducer });
-  keplerStore = createStore(rootReducer, {}, applyMiddleware(thunk));
-
-  // Parse inline CSV
-  const data = processCsvData(CSV);
-
-  // Mount Kepler component
-  const mapH = window.innerHeight - 48;
-  const app = React.createElement(
-    Provider,
-    { store: keplerStore },
-    React.createElement(KeplerGl, {
-      mapboxApiAccessToken: token,
-      id: 'map',
-      width: window.innerWidth,
-      height: mapH
-    })
-  );
-  const root = ReactDOM.createRoot(document.getElementById('app'));
-  root.render(app);
-
-  // Load data + config after the component mounts
-  setTimeout(() => {
-    keplerStore.dispatch(addDataToMap({
-      datasets: [{ info: { label: 'Reprints', id: 'reprints' }, data }],
-      config: KEPLER_CONFIG,
-      options: { centerMap: false, readOnly: false }
-    }));
-  }, 600);
-}
-
-// ── Speed slider → Kepler.gl animation speed ──────────────────────────────
-document.getElementById('speed-slider').addEventListener('input', function () {
-  const speed = parseFloat(this.value);
-  document.getElementById('speed-label').textContent = speed.toFixed(1) + '×';
-  if (!keplerStore) return;
-  try {
-    // updateFilter(filterIdx, prop, value) sets any property on a filter
-    const { updateFilter } = window.KeplerGl;
-    keplerStore.dispatch(updateFilter(0, 'speed', speed));
-  } catch (e) {
-    // If the API differs, Kepler's own speed control (clock icon) still works
-    console.warn('Speed dispatch failed:', e);
-  }
+// ── Maplibre basemap ──────────────────────────────────────────────────────
+const map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+  center: [-88, 39],
+  zoom: 4,
+  attributionControl: true
 });
 
-// ── Auto-fill saved token ─────────────────────────────────────────────────
-const saved = localStorage.getItem('mapbox_token');
-if (saved) {
-  document.getElementById('token-input').value = saved;
-  // Allow the kepler.gl script to fully initialize before auto-loading
-  window.addEventListener('load', () => setTimeout(() => initMap(), 200));
+// ── deck.gl overlay ───────────────────────────────────────────────────────
+const overlay = new deck.MapboxOverlay({ interleaved: false, layers: [] });
+map.addControl(overlay);
+
+// ── Animation state ───────────────────────────────────────────────────────
+// Full timeline plays in ~14 seconds at speed=1 (100ms ticks × 140 frames)
+const BASE_FRAMES = 140;
+let currentTs = MIN_TS;
+let isPlaying  = false;
+let animTimer  = null;
+let speed      = 1;
+let hoverInfo  = null;
+
+// ── Render ────────────────────────────────────────────────────────────────
+function render() {
+  const visible = RAW.filter(d => d.ts <= currentTs);
+  const arcData  = visible.filter(d => d.reprint_type !== 'original');
+
+  overlay.setProps({
+    layers: [
+      // Arcs: origin (Boston) → destination
+      new deck.ArcLayer({
+        id: 'arcs',
+        data: arcData,
+        getSourcePosition: d => [d.origin_lng, d.origin_lat],
+        getTargetPosition: d => [d.lng, d.lat],
+        getSourceColor:    d => getColor(d),
+        getTargetColor:    d => getColor(d),
+        getWidth: 2.5,
+        widthMinPixels: 1.5,
+        opacity: 0.82,
+        pickable: true,
+        onHover: handleHover,
+        updateTriggers: { data: currentTs }
+      }),
+      // Points: destination dots (accumulate)
+      new deck.ScatterplotLayer({
+        id: 'points',
+        data: visible,
+        getPosition:   d => [d.lng, d.lat],
+        getFillColor:  d => getColor(d),
+        getRadius: d => d.reprint_type === 'original' ? 55000 : 32000,
+        radiusMinPixels: d => d.reprint_type === 'original' ? 7 : 5,
+        radiusMaxPixels: 18,
+        opacity: 0.95,
+        stroked: true,
+        getLineColor: [255, 255, 255, 160],
+        lineWidthMinPixels: 1,
+        pickable: true,
+        onHover: handleHover,
+        updateTriggers: { data: currentTs }
+      }),
+    ],
+    getTooltip: null
+  });
 }
 
-// Enter key submits token form
-document.getElementById('token-input').addEventListener('keydown', e => {
-  if (e.key === 'Enter') initMap();
+// ── Tooltip ───────────────────────────────────────────────────────────────
+function handleHover({ object, x, y }) {
+  const el = document.getElementById('tooltip');
+  if (!object) { el.style.display = 'none'; return; }
+  const d = object;
+  const typeClass = `tt-type-${d.reprint_type}`;
+  el.innerHTML = `
+    <div class="tt-pub">${d.publication}</div>
+    <div>${d.publisher_location}</div>
+    <div>${fmtDate(d.date)}</div>
+    <span class="tt-type ${typeClass}">${d.reprint_type}</span>`;
+  // Keep tooltip inside viewport
+  const tw = 240, th = 100;
+  el.style.left = (x + 14 + tw > window.innerWidth  ? x - tw - 14 : x + 14) + 'px';
+  el.style.top  = (y + 14 + th > window.innerHeight ? y - th - 14 : y + 14) + 'px';
+  el.style.display = 'block';
+}
+
+// ── Animation step ────────────────────────────────────────────────────────
+function tick() {
+  const inc = (RANGE / BASE_FRAMES) * speed;
+  currentTs = Math.min(currentTs + inc, MAX_TS);
+  syncUI();
+  render();
+  if (currentTs >= MAX_TS) pause();
+}
+
+function play() {
+  if (currentTs >= MAX_TS) currentTs = MIN_TS;
+  isPlaying = true;
+  document.getElementById('play-btn').textContent = '⏸';
+  animTimer = setInterval(tick, 100);
+}
+
+function pause() {
+  isPlaying = false;
+  clearInterval(animTimer);
+  document.getElementById('play-btn').textContent = '▶';
+}
+
+function reset() {
+  pause();
+  currentTs = MIN_TS;
+  syncUI();
+  render();
+}
+
+// ── Sync UI to currentTs ──────────────────────────────────────────────────
+function syncUI() {
+  const pct = (currentTs - MIN_TS) / RANGE;
+  document.getElementById('time-slider').value = Math.round(pct * 1000);
+  document.getElementById('cur-date').textContent = tsToDisplayDate(currentTs);
+}
+
+// ── Controls ──────────────────────────────────────────────────────────────
+document.getElementById('play-btn').addEventListener('click', () => {
+  if (isPlaying) pause(); else play();
+});
+document.getElementById('reset-btn').addEventListener('click', reset);
+
+document.getElementById('time-slider').addEventListener('input', function () {
+  pause();
+  currentTs = MIN_TS + (RANGE * (this.value / 1000));
+  document.getElementById('cur-date').textContent = tsToDisplayDate(currentTs);
+  render();
+});
+
+document.getElementById('speed-slider').addEventListener('input', function () {
+  speed = parseFloat(this.value);
+  document.getElementById('speed-val').textContent = speed.toFixed(1) + '×';
+});
+
+// ── Initial render on map load ────────────────────────────────────────────
+map.on('load', () => {
+  render();  // show Boston origin point at t=0
 });
 </script>
 </body>
