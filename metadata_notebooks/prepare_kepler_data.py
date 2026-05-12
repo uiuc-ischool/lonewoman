@@ -16,7 +16,7 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 INPUT_CSV = Path("../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv")
 OUTPUT_CSV = Path("../_data/kepler_reprints.csv")
-CACHE_FILE = Path("../_data/geocode_cache.json")
+CACHE_FILE = Path("geocode_cache.json")
 
 OUTPUT_COLS = [
     "article_id", "title", "publication", "date",
