@@ -87,10 +87,18 @@ if (!document.getElementById('trope-styles')) {
       }
 
       var frag = document.createDocumentFragment();
+      // Punctuation that should NOT be preceded by a space (comma, period, etc.)
+      var NO_SPACE_BEFORE = /^[\s,;:!?.'")\]]/;
 
       data.paragraphs.forEach(function (para) {
         var p = document.createElement('p');
-        para.forEach(function (seg) { p.appendChild(buildSegmentNode(seg)); });
+        para.forEach(function (seg, i) {
+          // Insert a space between segments when the JSON omits it
+          if (i > 0 && !/\s$/.test(para[i - 1].text || '') && !NO_SPACE_BEFORE.test(seg.text || '')) {
+            p.appendChild(document.createTextNode(' '));
+          }
+          p.appendChild(buildSegmentNode(seg));
+        });
         frag.appendChild(p);
       });
 
