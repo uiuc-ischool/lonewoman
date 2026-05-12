@@ -164,6 +164,34 @@ const MIN_TS = RAW[0].ts;
 const MAX_TS = RAW[RAW.length - 1].ts;
 const RANGE   = MAX_TS - MIN_TS;
 
+// ── Splay: spread overlapping points into a small circle ─────────────────
+// Groups are built from ALL data so positions never jump as new points appear.
+const _locGroups = {};
+RAW.forEach(d => {
+  const key = `${d.lat},${d.lng}`;
+  if (!_locGroups[key]) _locGroups[key] = [];
+  _locGroups[key].push(d);
+});
+RAW.forEach(d => {
+  const key = `${d.lat},${d.lng}`;
+  d._n = _locGroups[key].length;   // total in this location group
+  d._i = _locGroups[key].indexOf(d); // this point's index within the group
+});
+
+// Returns [lng, lat] with a pixel-stable circular offset for clustered points.
+// SPLAY_PX is the radius in screen pixels; recomputed each render so zoom is respected.
+const SPLAY_PX = 14;
+function getSplayedPos(d, zoom) {
+  if (d._n === 1) return [d.lng, d.lat];
+  const metersPerPx = (40075016.686 / (256 * Math.pow(2, zoom)))
+                      * Math.cos(d.lat * Math.PI / 180);
+  const offsetM = SPLAY_PX * metersPerPx;
+  const latOff  = offsetM / 111320;
+  const lngOff  = offsetM / (111320 * Math.cos(d.lat * Math.PI / 180));
+  const angle   = (2 * Math.PI * d._i / d._n) - Math.PI / 2;
+  return [d.lng + Math.cos(angle) * lngOff, d.lat + Math.sin(angle) * latOff];
+}
+
 // ── Color map ─────────────────────────────────────────────────────────────
 const COLORS = {
   original:   [209, 213, 219],  // gray
@@ -209,17 +237,18 @@ let hoverInfo  = null;
 
 // ── Render ────────────────────────────────────────────────────────────────
 function render() {
+  const zoom    = map.getZoom();
   const visible = RAW.filter(d => d.ts <= currentTs);
-  const arcData  = visible.filter(d => d.reprint_type !== 'original');
+  const arcData = visible.filter(d => d.reprint_type !== 'original');
 
   overlay.setProps({
     layers: [
-      // Arcs: origin (Boston) → destination
+      // Arcs: origin (Boston) → splayed destination
       new deck.ArcLayer({
         id: 'arcs',
         data: arcData,
         getSourcePosition: d => [d.origin_lng, d.origin_lat],
-        getTargetPosition: d => [d.lng, d.lat],
+        getTargetPosition: d => getSplayedPos(d, zoom),
         getSourceColor:    d => getColor(d),
         getTargetColor:    d => getColor(d),
         getWidth: 2.5,
@@ -227,16 +256,16 @@ function render() {
         opacity: 0.82,
         pickable: true,
         onHover: handleHover,
-        updateTriggers: { data: currentTs }
+        updateTriggers: { getTargetPosition: [currentTs, zoom] }
       }),
-      // Points: destination dots (accumulate)
+      // Points: destination dots (accumulate), splayed when co-located
       new deck.ScatterplotLayer({
         id: 'points',
         data: visible,
-        getPosition:   d => [d.lng, d.lat],
-        getFillColor:  d => getColor(d),
-        getRadius: d => d.reprint_type === 'original' ? 55000 : 32000,
-        radiusMinPixels: d => d.reprint_type === 'original' ? 7 : 5,
+        getPosition:  d => getSplayedPos(d, zoom),
+        getFillColor: d => getColor(d),
+        getRadius:    d => d.reprint_type === 'original' ? 55000 : 32000,
+        radiusMinPixels: 5,
         radiusMaxPixels: 18,
         opacity: 0.95,
         stroked: true,
@@ -244,7 +273,7 @@ function render() {
         lineWidthMinPixels: 1,
         pickable: true,
         onHover: handleHover,
-        updateTriggers: { data: currentTs }
+        updateTriggers: { getPosition: [currentTs, zoom] }
       }),
     ],
     getTooltip: null
@@ -327,6 +356,9 @@ document.getElementById('speed-slider').addEventListener('input', function () {
 map.on('load', () => {
   render();  // show Boston origin point at t=0
 });
+
+// Re-render on zoom so splay radius stays pixel-stable
+map.on('zoom', () => render());
 </script>
 </body>
 </html>
