@@ -394,3 +394,24 @@
   };
 
 }());
+
+// ── Global registry for lazy initialization ────────────────────────────────
+// _includes/reprint-map.html stores each group's data array here, keyed by
+// container id.  The toggle listener below reads from it on first open.
+window._reprintMapRegistry = window._reprintMapRegistry || {};
+
+// ── Lazy initializer ───────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('details.map-group').forEach(function (det) {
+    det.addEventListener('toggle', function () {
+      if (!det.open) return;
+      var container = det.querySelector('.reprint-map-container');
+      if (!container || container.dataset.initialized) return;
+      var data = window._reprintMapRegistry[container.id];
+      if (data && typeof ReprintMap !== 'undefined') {
+        new ReprintMap(container.id, data, { autoplay: true });
+        container.dataset.initialized = 'true';
+      }
+    });
+  });
+});

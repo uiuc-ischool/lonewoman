@@ -2,6 +2,7 @@
 layout: page
 title: Document Groups
 permalink: /groups/
+use_reprint_maps: true
 ---
 
 {%- assign all = site.data[site.metadata] -%}
@@ -23,26 +24,40 @@ permalink: /groups/
 {%- assign group_items = compounds | where: 'group_reprint_id', gid | sort: 'date' -%}
 {%- assign reprint_count = group_items.size | minus: 1 -%}
 {%- assign orig_url = '/items/' | append: orig.objectid | downcase | append: '.html' | relative_url -%}
-<section class="mb-4">
-<h3 class="h5 mb-1"><a href="{{ orig_url }}">{{ orig.title }}</a> <span class="text-muted fw-normal small">({{ reprint_count }} reprint{% if reprint_count != 1 %}s{% endif %})</span></h3>
-<p class="text-muted small mb-2">{{ pub_name }}{% if orig.publisher_location != "" %}, {{ orig.publisher_location }}{% endif %}{% if orig.date %} &middot; {{ orig.date | slice: 0,4 }}{% endif %}{% if orig.author != "" %} &mdash; {{ orig.author }}{% endif %}</p>
-{%- if reprint_count > 0 -%}
-<ul class="list-unstyled ps-3 mb-0">
-{%- for it in group_items -%}
-{%- unless it.reprint_type contains "original" -%}
+<details class="map-group mb-4" id="group-{{ orig.objectid | downcase }}">
+<summary>
+<h3 class="h5 mb-1 d-inline">
+<a href="{{ orig_url }}">{{ orig.title }}</a>
+<span class="text-muted fw-normal small">
+({{ reprint_count }} reprint{% if reprint_count != 1 %}s{% endif %})
+</span>
+</h3>
+<span class="map-toggle-icon">▶</span>
+</summary>
+<p class="text-muted small mb-2">
+{{ pub_name }}{% if orig.publisher_location != "" %}, {{ orig.publisher_location }}{% endif %}
+{% if orig.date %} &middot; {{ orig.date | slice: 0,4 }}{% endif %}
+{% if orig.author != "" %} &mdash; {{ orig.author }}{% endif %}
+</p>
+{% if reprint_count > 0 %}
+<ul class="list-unstyled ps-3 mb-2">
+{% for it in group_items %}
+{% unless it.reprint_type contains "original" %}
 {%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
-{%- if it.reprint_type contains "direct" -%}
-{%- assign rtype = "Direct" -%}
-{%- elsif it.reprint_type contains "truncated" -%}
-{%- assign rtype = "Truncated" -%}
-{%- else -%}
-{%- assign rtype = it.reprint_type | capitalize -%}
-{%- endif -%}
-<li class="mb-1"><span class="badge bg-secondary me-1">{{ rtype }}</span><a href="{{ item_url }}">{{ it.publication }}</a>{% if it.publisher_location != "" %}, {{ it.publisher_location }}{% endif %}{% if it.date %} ({{ it.date | slice: 0,4 }}){% endif %}</li>
-{%- endunless -%}
-{%- endfor -%}
+{%- if it.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}
+{%- elsif it.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}
+{%- else -%}{%- assign rtype = it.reprint_type | capitalize -%}{%- endif -%}
+<li class="mb-1">
+<span class="badge bg-secondary me-1">{{ rtype }}</span>
+<a href="{{ item_url }}">{{ it.publication }}</a>
+{% if it.publisher_location != "" %}, {{ it.publisher_location }}{% endif %}
+{% if it.date %} ({{ it.date | slice: 0,4 }}){% endif %}
+</li>
+{% endunless %}
+{% endfor %}
 </ul>
-{%- endif -%}
-</section>
+{% endif %}
+{% include reprint-map.html group_id=orig.group_reprint_id %}
+</details>
 {%- endfor -%}
 {%- endif -%}

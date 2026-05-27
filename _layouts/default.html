@@ -2,6 +2,10 @@
 <html lang="en" class="h-100">
   <head prefix="og: http://ogp.me/ns#">
     {% include head/head.html %}
+    {% if page.use_reprint_maps %}
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css"
+          rel="stylesheet" />
+    {% endif %}
   </head>
   <body class="d-flex flex-column h-100">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
@@ -13,5 +17,10 @@
     {% include footer.html %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
+    {% if page.use_reprint_maps %}
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/deck.gl@8.9.35/dist.min.js"></script>
+    <script src="{{ '/assets/js/reprint-map.js' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

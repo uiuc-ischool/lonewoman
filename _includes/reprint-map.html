@@ -22,8 +22,9 @@
     {% endif %}
     {% endfor %}
   ];
-  if (typeof ReprintMap !== 'undefined' && data.length > 0) {
-    new ReprintMap('map-{{ include.group_id | slugify }}', data);
-  }
+  // Register data for lazy init — ReprintMap is called by the toggle listener
+  // in reprint-map.js when the enclosing <details> is first opened.
+  window._reprintMapRegistry = window._reprintMapRegistry || {};
+  window._reprintMapRegistry[{{ 'map-' | append: include.group_id | slugify | jsonify }}] = data;
 })();
 </script>
