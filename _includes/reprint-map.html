@@ -1,0 +1,29 @@
+{% assign map_data = site.data.kepler_reprints | where: 'group_reprint_id', include.group_id %}
+
+<div id="map-{{ include.group_id | slugify }}" class="reprint-map-container"
+     aria-label="Reprint network map for {{ include.group_id }}"></div>
+
+<script>
+(function() {
+  var data = [
+    {% for row in map_data %}
+    {% if row.lat != "" and row.lng != "" %}
+    {
+      article_id: {{ row.article_id | jsonify }},
+      publication: {{ row.publication | jsonify }},
+      date: {{ row.date | jsonify }},
+      publisher_location: {{ row.publisher_location | jsonify }},
+      lat: {{ row.lat }},
+      lng: {{ row.lng }},
+      origin_lat: {{ row.origin_lat | default: row.lat }},
+      origin_lng: {{ row.origin_lng | default: row.lng }},
+      reprint_type: {{ row.reprint_type | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+    {% endfor %}
+  ];
+  if (typeof ReprintMap !== 'undefined' && data.length > 0) {
+    new ReprintMap('map-{{ include.group_id | slugify }}', data);
+  }
+})();
+</script>
