@@ -161,7 +161,8 @@
       'background:rgba(10,12,24,0.85);border:1px solid #1e2340;border-radius:8px;' +
       'padding:10px 12px;font-size:12px;color:#9ca3af;' +
       'font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;',
-      '<div style="color:#e2e8f0;font-weight:600;font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px">Reprint Type</div>' +
+      '<div style="color:#6366f1;font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #1e2340">Reprint Network</div>' +
+      '<div style="color:#4b5563;font-size:9px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:5px">Type</div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#d1d5db;flex-shrink:0"></div><span>Original</span></div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#3b82f6;flex-shrink:0"></div><span>Direct</span></div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#f97316;flex-shrink:0"></div><span>Truncated</span></div>' +
@@ -453,29 +454,40 @@
 
 }());
 
-// ── Global registry for lazy initialization ────────────────────────────────
-// _includes/reprint-map.html stores each group's data array here, keyed by
-// container id.  The toggle listener below reads from it on first open.
-window._reprintMapRegistry = window._reprintMapRegistry || {};
+// ── Global registries ─────────────────────────────────────────────────────
+// _reprintMapRegistry  : data arrays, populated by _includes/reprint-map.html
+// _reprintMapInstances : live ReprintMap objects, keyed by container id
+window._reprintMapRegistry  = window._reprintMapRegistry  || {};
+window._reprintMapInstances = window._reprintMapInstances || {};
 
-// ── Lazy initializer ───────────────────────────────────────────────────────
+// ── Lazy initializer + pause-on-collapse ──────────────────────────────────
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('details.map-group').forEach(function (det) {
     det.addEventListener('toggle', function () {
-      if (!det.open) return;
       var container = det.querySelector('.reprint-map-container');
-      if (!container || container.dataset.initialized) return;
+      if (!container) return;
+
+      // ── Close: pause any running animation ──────────────────────────────
+      if (!det.open) {
+        var inst = window._reprintMapInstances[container.id];
+        if (inst) inst.pause();
+        return;
+      }
+
+      // ── Open: lazy-init on first reveal ─────────────────────────────────
+      if (container.dataset.initialized) return;
       var data = window._reprintMapRegistry[container.id];
       if (!data || typeof ReprintMap === 'undefined') return;
 
-      // Mark immediately to prevent double-init if the user rapidly toggles.
+      // Mark before the rAF so rapid open/close can't queue a second init.
       container.dataset.initialized = 'true';
 
       // Defer one frame so the browser reflows the container (it just transitioned
       // from display:none → visible via CSS).  Without this, MapLibre reads
       // clientWidth/clientHeight = 0 and creates a zero-size canvas.
       requestAnimationFrame(function () {
-        new ReprintMap(container.id, data, { autoplay: true });
+        var inst = new ReprintMap(container.id, data, { autoplay: true });
+        window._reprintMapInstances[container.id] = inst;
       });
     });
   });
