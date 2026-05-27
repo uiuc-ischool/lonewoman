@@ -35,7 +35,7 @@ use_reprint_maps: true
 <span class="map-toggle-icon">▶</span>
 </summary>
 <p class="text-muted small mb-2">
-{{ pub_name }}{% if orig.publisher_location != "" %}, {{ orig.publisher_location }}{% endif %}
+{{ orig.publication }}{% if orig.publisher_location != "" %}, {{ orig.publisher_location }}{% endif %}
 {% if orig.date %} &middot; {{ orig.date | slice: 0,4 }}{% endif %}
 {% if orig.author != "" %} &mdash; {{ orig.author }}{% endif %}
 </p>
