@@ -12,7 +12,7 @@
 /* ── Reprint Map Widget ──────────────────────────────────────── */
 .reprint-map-container {
   width: 100%;
-  height: 320px;
+  height: 480px;
   border-radius: 8px;
   overflow: hidden;
   margin-top: 0.75rem;
@@ -48,5 +48,5 @@ details.map-group:not([open]) .reprint-map-container {
 }
 
 @media (max-width: 600px) {
-  .reprint-map-container { height: 240px; }
+  .reprint-map-container { height: 300px; }
 }

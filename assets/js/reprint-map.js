@@ -319,6 +319,12 @@
           getTargetColor:    function (d) { return getColor(d); },
           getWidth: 2.5,
           widthMinPixels: 1.5,
+          // Flat arcs: 0.15 keeps short hops visible without making long arcs
+          // (e.g. Boston → Honolulu) absurdly tall.
+          // greatCircle routes arcs along the Earth's surface so long-distance
+          // lines follow a sensible geodesic path rather than a vertical spike.
+          getHeight: 0.15,
+          greatCircle: true,
           opacity: 0.82,
           pickable: true,
           onHover: handleHover,
