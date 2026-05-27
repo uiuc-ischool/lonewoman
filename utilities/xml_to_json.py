@@ -77,12 +77,21 @@ def extract_segments(p_elem):
     active_tropes = []
 
     def flush():
-        text = normalize("".join(buf))
-        if text:
-            seg = {"text": text}
-            if active_tropes:
-                seg["tropes"] = list(active_tropes)
-            segments.append(seg)
+        raw = "".join(buf)
+        # Collapse internal whitespace runs to a single space and strip
+        # *leading* whitespace (XML indentation artefacts).  A single trailing
+        # space is preserved when the raw text ended with whitespace — that
+        # space marks a natural word boundary before an upcoming entity tag,
+        # so the JS renderer doesn't need to guess whether to insert one.
+        text = re.sub(r"\s+", " ", raw).lstrip()
+        # Discard segments that are nothing but a single space.
+        if not text or text == " ":
+            buf.clear()
+            return
+        seg = {"text": text}
+        if active_tropes:
+            seg["tropes"] = list(active_tropes)
+        segments.append(seg)
         buf.clear()
 
     def walk(elem):
