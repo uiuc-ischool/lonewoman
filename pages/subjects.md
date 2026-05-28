@@ -33,6 +33,8 @@ permalink: /subjects.html
 {%- endfor -%}
 </div>
 
+{% include trope-sparklines.html %}
+
 {%- for trope in all_tropes -%}
 {%- assign trope_slug = trope | slugify -%}
 {%- assign trope_count = 0 -%}

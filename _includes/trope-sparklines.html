@@ -1,0 +1,264 @@
+{% comment %}
+  trope-sparklines.html
+  Renders a CSS-grid of D3 sparklines, one per trope, showing article frequency by year.
+  Data source: _data/kepler_reprints.csv (one row per unique article).
+  Trope order and colors come from _data/tropes.yml.
+  Loads D3 v7 from CDN on first use.
+{% endcomment %}
+
+<style>
+  .ts-section-hed {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 1.25rem;
+    letter-spacing: 0.01em;
+  }
+
+  .ts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem 3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @media (max-width: 991px) and (min-width: 576px) {
+    .ts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 575px) {
+    .ts-grid { grid-template-columns: 1fr; }
+  }
+
+  .ts-card {
+    transition: opacity 0.12s ease;
+  }
+
+  .ts-name {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .ts-card svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
+
+  .ts-axis text {
+    font-size: 9px;
+    fill: #aaa;
+    font-family: inherit;
+  }
+  .ts-axis .domain { display: none; }
+  .ts-axis .tick line { stroke: #e0e0e0; }
+
+  .ts-tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding: 3px 9px;
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 1.5;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    opacity: 0;
+    z-index: 9999;
+    white-space: nowrap;
+    transition: opacity 0.1s;
+  }
+</style>
+
+<p class="ts-section-hed">Article frequency by trope over time</p>
+<div class="ts-grid" id="ts-grid"></div>
+<div class="ts-tooltip" id="ts-tooltip"></div>
+
+<script>
+function initTropeSparklines() {
+  /* ── Trope metadata: id, label, color (in tropes.yml order) ─────────── */
+  var TROPES = [
+    {% for trope in site.data.tropes -%}
+    { id: {{ trope.id }}, label: {{ trope.label | jsonify }}, color: {{ trope.color | jsonify }} },
+    {% endfor %}
+  ];
+
+  /* ── Raw article-trope pairs from kepler_reprints.csv ───────────────── */
+  /* One object per trope per article (kepler_reprints has 1 row / article) */
+  var RAW = [
+    {% for item in site.data.kepler_reprints -%}
+      {% assign yr = item.date | slice: 0, 4 -%}
+      {% unless yr == "" or item.tropes == "" -%}
+        {% assign tarr = item.tropes | split: "; " -%}
+        {% for t in tarr -%}
+          {% assign ts = t | strip -%}
+          {% unless ts == "" -%}
+            { y: {{ yr | plus: 0 }}, t: {{ ts | jsonify }} },
+          {% endunless -%}
+        {% endfor -%}
+      {% endunless -%}
+    {% endfor %}
+  ];
+
+  /* ── Aggregate: counts[tropeLabel][year] = n ─────────────────────────── */
+  var counts = {};
+  TROPES.forEach(function (tr) { counts[tr.label] = {}; });
+  RAW.forEach(function (d) {
+    if (counts[d.t] !== undefined) {
+      counts[d.t][d.y] = (counts[d.t][d.y] || 0) + 1;
+    }
+  });
+
+  /* ── Global year extent ─────────────────────────────────────────────── */
+  var allY = RAW.map(function (d) { return d.y; });
+  var minY = d3.min(allY);
+  var maxY = d3.max(allY);
+  /* Round mid-tick to nearest 50-year mark */
+  var midTick = Math.round((minY + maxY) / 100) * 50;
+
+  /* ── SVG / chart dimensions ─────────────────────────────────────────── */
+  var W  = 240, H  = 78;
+  var ml = 26,  mr = 6, mt = 12, mb = 20;
+  var cw = W - ml - mr;
+  var ch = H - mt - mb;
+
+  var tooltip  = document.getElementById('ts-tooltip');
+  var gridEl   = document.getElementById('ts-grid');
+
+  /* ── Draw one sparkline per trope ────────────────────────────────────── */
+  TROPES.forEach(function (trope) {
+    var ymap = counts[trope.label] || {};
+
+    /* Full contiguous year series, zero-filled */
+    var series = [];
+    for (var y = minY; y <= maxY; y++) {
+      series.push({ year: y, count: ymap[y] || 0 });
+    }
+    var maxCount = d3.max(series, function (d) { return d.count; }) || 1;
+
+    /* Scales */
+    var xSc = d3.scaleLinear().domain([minY, maxY]).range([0, cw]);
+    var ySc = d3.scaleLinear().domain([0, maxCount]).range([ch, 0]);
+
+    /* Card container */
+    var card = document.createElement('div');
+    card.className = 'ts-card';
+    card.setAttribute('data-trope', trope.label);
+
+    var nameEl = document.createElement('div');
+    nameEl.className = 'ts-name';
+    nameEl.textContent = trope.label;
+    card.appendChild(nameEl);
+
+    var svg = d3.select(card)
+      .append('svg')
+      .attr('viewBox', '0 0 ' + W + ' ' + H)
+      .attr('aria-label', trope.label + ' article frequency over time');
+
+    var g = svg.append('g')
+      .attr('transform', 'translate(' + ml + ',' + mt + ')');
+
+    /* Filled area */
+    g.append('path')
+      .datum(series)
+      .attr('fill', trope.color)
+      .attr('fill-opacity', 0.22)
+      .attr('d', d3.area()
+        .x(function (d) { return xSc(d.year); })
+        .y0(ch)
+        .y1(function (d) { return ySc(d.count); })
+        .curve(d3.curveMonotoneX));
+
+    /* Line */
+    g.append('path')
+      .datum(series)
+      .attr('class', 'ts-line')
+      .attr('fill', 'none')
+      .attr('stroke', trope.color)
+      .attr('stroke-width', 1.6)
+      .attr('d', d3.line()
+        .x(function (d) { return xSc(d.year); })
+        .y(function (d) { return ySc(d.count); })
+        .curve(d3.curveMonotoneX));
+
+    /* Baseline */
+    g.append('line')
+      .attr('x1', 0).attr('x2', cw)
+      .attr('y1', ch).attr('y2', ch)
+      .attr('stroke', '#e4e4e4').attr('stroke-width', 0.75);
+
+    /* X axis: first year, mid-century tick, last year */
+    g.append('g')
+      .attr('class', 'ts-axis')
+      .attr('transform', 'translate(0,' + ch + ')')
+      .call(
+        d3.axisBottom(xSc)
+          .tickValues([minY, midTick, maxY])
+          .tickFormat(d3.format('d'))
+          .tickSize(3)
+      );
+
+    /* Y-axis: only the max count label, top-left */
+    g.append('text')
+      .attr('x', -4)
+      .attr('y', 0)
+      .attr('text-anchor', 'end')
+      .attr('dominant-baseline', 'hanging')
+      .style('font-size', '8px')
+      .style('fill', '#bbb')
+      .text(maxCount);
+
+    /* Invisible overlay for tooltip */
+    g.append('rect')
+      .attr('width', cw)
+      .attr('height', ch)
+      .attr('fill', 'transparent')
+      .on('mousemove', function (event) {
+        var mx  = d3.pointer(event)[0];
+        var yr  = Math.round(xSc.invert(mx));
+        yr      = Math.max(minY, Math.min(maxY, yr));
+        var d   = series[yr - minY];
+        if (!d) return;
+        tooltip.style.opacity = '1';
+        tooltip.style.left    = (event.clientX + 14) + 'px';
+        tooltip.style.top     = (event.clientY  - 30) + 'px';
+        tooltip.textContent   = d.year + ' — ' +
+                                d.count + ' article' + (d.count !== 1 ? 's' : '');
+      })
+      .on('mouseleave', function () {
+        tooltip.style.opacity = '0';
+      });
+
+    gridEl.appendChild(card);
+  });
+
+  /* ── Dim/highlight on card hover ──────────────────────────────────────── */
+  var allCards = Array.from(gridEl.querySelectorAll('.ts-card'));
+  allCards.forEach(function (card) {
+    card.addEventListener('mouseenter', function () {
+      allCards.forEach(function (c) {
+        c.style.opacity = (c === card) ? '1' : '0.2';
+      });
+    });
+    card.addEventListener('mouseleave', function () {
+      allCards.forEach(function (c) { c.style.opacity = '1'; });
+      tooltip.style.opacity = '0';
+    });
+  });
+}
+
+/* Load D3 v7 if not already present, then initialize */
+if (typeof d3 !== 'undefined') {
+  initTropeSparklines();
+} else {
+  var _d3s = document.createElement('script');
+  _d3s.src = 'https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js';
+  _d3s.onload = initTropeSparklines;
+  document.head.appendChild(_d3s);
+}
+</script>
