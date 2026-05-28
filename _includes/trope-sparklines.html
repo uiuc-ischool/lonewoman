@@ -92,7 +92,7 @@ function initTropeSparklines() {
 
   /* ── All article years (one entry per article) ────────────────────────── */
   var ALL_YRS = [
-    {% for item in site.data.kepler_reprints -%}
+    {% for item in site.data.article_ids_only -%}
       {% assign yr = item.date | slice: 0, 4 -%}
       {% unless yr == "" -%}{{ yr | plus: 0 }},{% endunless -%}
     {% endfor %}
@@ -100,7 +100,7 @@ function initTropeSparklines() {
 
   /* ── Raw article-trope pairs ──────────────────────────────────────────── */
   var RAW = [
-    {% for item in site.data.kepler_reprints -%}
+    {% for item in site.data.article_ids_only -%}
       {% assign yr = item.date | slice: 0, 4 -%}
       {% unless yr == "" or item.tropes == "" -%}
         {% assign tarr = item.tropes | split: "; " -%}

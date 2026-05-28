@@ -106,7 +106,7 @@ function initTropeBarcharts() {
   /* ── Article data: publisher_location + tropes string ──────────────── */
   /* Column names from kepler_reprints.csv: publisher_location, tropes     */
   var ARTICLES = [
-    {% for item in site.data.kepler_reprints -%}
+    {% for item in site.data.article_ids_only -%}
       {% assign loc_val = item.publisher_location | strip -%}
       {% assign tr_val  = item.tropes | strip -%}
       {% unless tr_val == "" -%}
