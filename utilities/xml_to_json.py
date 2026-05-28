@@ -78,12 +78,14 @@ def extract_segments(p_elem):
 
     def flush():
         raw = "".join(buf)
-        # Collapse internal whitespace runs to a single space and strip
-        # *leading* whitespace (XML indentation artefacts).  A single trailing
-        # space is preserved when the raw text ended with whitespace — that
-        # space marks a natural word boundary before an upcoming entity tag,
-        # so the JS renderer doesn't need to guess whether to insert one.
-        text = re.sub(r"\s+", " ", raw).lstrip()
+        text = re.sub(r"\s+", " ", raw)
+        # Strip leading whitespace only when it originated from XML indentation
+        # (raw starts with, or after leading spaces contains, a newline/tab).
+        # A plain leading space from a tag tail is a genuine word boundary and
+        # must be preserved so adjacent segments concatenate with a space.
+        stripped_of_spaces = raw.lstrip(' ')
+        if not stripped_of_spaces or stripped_of_spaces[0] in '\n\r\t':
+            text = text.lstrip()
         # Discard segments that are nothing but a single space.
         if not text or text == " ":
             buf.clear()
