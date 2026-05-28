@@ -13,9 +13,11 @@ permalink: /subjects.html
 
 <p class="text-muted mb-3">{{ all_tropes.size }} tropes across {{ compounds.size }} articles. Jump to a trope section below.</p>
 
-{% include trope-barcharts.html %}
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 
 {% include trope-sparklines.html %}
+
+{% include trope-barcharts.html %}
 
 {%- for trope in all_tropes -%}
 {%- assign trope_slug = trope | slugify -%}
@@ -35,6 +37,6 @@ permalink: /subjects.html
 {%- endif -%}
 {%- endfor -%}
 </ul>
-<p class="small mb-0"><a href="#trope-cloud" class="text-muted">↑ Back to cloud</a></p>
+<p class="small mb-0"><a href="#" class="text-muted">↑ Back to top</a></p>
 </section>
 {%- endfor -%}
