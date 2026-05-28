@@ -84,7 +84,9 @@ function initTropeSparklines() {
   /* ── Trope metadata: id, label, color (in tropes.yml order) ──────────── */
   var TROPES = [
     {% for trope in site.data.tropes -%}
+    {% unless trope.label == "Captivity" -%}
     { id: {{ trope.id }}, label: {{ trope.label | jsonify }}, color: {{ trope.color | jsonify }} },
+    {% endunless -%}
     {% endfor %}
   ];
 

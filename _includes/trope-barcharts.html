@@ -97,15 +97,20 @@ function initTropeBarcharts() {
   /* ── Trope metadata (tropes.yml order) ──────────────────────────────── */
   var TROPES = [
     {% for trope in site.data.tropes -%}
+    {% unless trope.label == "Captivity" -%}
     { id: {{ trope.id }}, label: {{ trope.label | jsonify }}, color: {{ trope.color | jsonify }} },
+    {% endunless -%}
     {% endfor %}
   ];
 
-  /* ── Article data: location + tropes string ─────────────────────────── */
+  /* ── Article data: publisher_location + tropes string ──────────────── */
+  /* Column names from kepler_reprints.csv: publisher_location, tropes     */
   var ARTICLES = [
     {% for item in site.data.kepler_reprints -%}
-      {% unless item.tropes == "" -%}
-        { loc: {{ item.publisher_location | strip | jsonify }}, tr: {{ item.tropes | jsonify }} },
+      {% assign loc_val = item.publisher_location | strip -%}
+      {% assign tr_val  = item.tropes | strip -%}
+      {% unless tr_val == "" -%}
+        { loc: {{ loc_val | jsonify }}, tr: {{ tr_val | jsonify }} },
       {% endunless -%}
     {% endfor %}
   ];
@@ -182,7 +187,15 @@ function initTropeBarcharts() {
 
   /* ── Draw function ──────────────────────────────────────────────────── */
   function drawBarchart(container, countMap) {
-    var maxVal = d3.max(TROPES, function (t) { return countMap[t.label] || 0; }) || 1;
+    var maxVal = d3.max(TROPES, function (t) { return countMap[t.label] || 0; });
+    if (!maxVal) {
+      var msg = document.createElement('p');
+      msg.textContent = 'No data';
+      msg.style.cssText = 'font-size:0.75rem;color:#aaa;margin:0.5rem 0 0;font-style:italic;';
+      container.appendChild(msg);
+      return;
+    }
+    maxVal = maxVal || 1;
 
     var xSc = d3.scaleBand()
       .domain(TROPES.map(function (t) { return t.label; }))
@@ -275,15 +288,17 @@ function initTropeBarcharts() {
   });
 }
 
-/* Use shared queue if available, otherwise load D3 directly */
-if (typeof _whenD3 === 'function') {
-  _whenD3(initTropeBarcharts);
-} else if (typeof d3 !== 'undefined') {
-  initTropeBarcharts();
-} else {
-  var _d3b = document.createElement('script');
-  _d3b.src = 'https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js';
-  _d3b.onload = initTropeBarcharts;
-  document.head.appendChild(_d3b);
-}
+document.addEventListener('DOMContentLoaded', function () {
+  var attempts = 0;
+  var interval = setInterval(function () {
+    attempts++;
+    if (typeof d3 !== 'undefined') {
+      clearInterval(interval);
+      initTropeBarcharts();
+    } else if (attempts > 50) {
+      clearInterval(interval);
+      console.warn('D3 failed to load for barcharts');
+    }
+  }, 100);
+});
 </script>
