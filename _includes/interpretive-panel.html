@@ -142,10 +142,10 @@
     });
   }
 
-  // Checkbox toggles — add/remove trope-active-N on <body>
+  // Checkbox toggles — rebuild box-shadow stripes on all trope-marked spans
   document.querySelectorAll('.trope-checkbox').forEach(function (cb) {
     cb.addEventListener('change', function () {
-      document.body.classList.toggle('trope-active-' + this.dataset.trope, this.checked);
+      if (window.recalculateStripes) window.recalculateStripes();
     });
   });
 }());
