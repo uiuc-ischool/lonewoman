@@ -137,6 +137,7 @@ function initTropeBarcharts() {
     if (!loc) return null;
     if (loc.indexOf('Washington, DC') >= 0 || loc.indexOf('District of Columbia') >= 0)
       return 'US East Coast';
+    if (loc.indexOf('Canada') >= 0) return 'Canada';
     var i;
     for (i = 0; i < EU_KEYS.length;   i++) if (loc.indexOf(EU_KEYS[i])   >= 0) return 'Europe';
     for (i = 0; i < ASIA_KEYS.length; i++) if (loc.indexOf(ASIA_KEYS[i]) >= 0) return 'Asia';
@@ -153,7 +154,7 @@ function initTropeBarcharts() {
   /* ── Build per-region trope counts ─────────────────────────────────── */
   var REGIONS = [
     'US East Coast', 'US Midwest & South', 'US West Coast',
-    'Europe', 'Asia', 'Australia & New Zealand'
+    'Canada', 'Europe', 'Asia', 'Australia & New Zealand'
   ];
 
   var overall = {};        /* tropeLabel → count */
