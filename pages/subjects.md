@@ -11,27 +11,9 @@ permalink: /subjects.html
 {%- assign trope_string = troped | map: 'tropes' | join: "; " -%}
 {%- assign all_tropes = trope_string | split: "; " | uniq | sort -%}
 
-<p class="text-muted mb-3">{{ all_tropes.size }} tropes across compound articles. Click a trope to jump to its document list.</p>
+<p class="text-muted mb-3">{{ all_tropes.size }} tropes across {{ compounds.size }} articles. Jump to a trope section below.</p>
 
-<div id="trope-cloud" class="text-center p-3 mb-5 bg-light border rounded">
-{%- for trope in all_tropes -%}
-{%- assign trope_count = 0 -%}
-{%- for item in compounds -%}
-{%- if item.tropes contains trope -%}
-{%- assign trope_count = trope_count | plus: 1 -%}
-{%- endif -%}
-{%- endfor -%}
-{%- assign trope_slug = trope | slugify -%}
-{%- if trope_count >= 250 -%}{%- assign fsize = "3.0rem" -%}
-{%- elsif trope_count >= 175 -%}{%- assign fsize = "2.5rem" -%}
-{%- elsif trope_count >= 125 -%}{%- assign fsize = "2.0rem" -%}
-{%- elsif trope_count >= 70 -%}{%- assign fsize = "1.7rem" -%}
-{%- elsif trope_count >= 30 -%}{%- assign fsize = "1.4rem" -%}
-{%- else -%}{%- assign fsize = "1.1rem" -%}
-{%- endif -%}
-<a href="#trope-{{ trope_slug }}" class="d-inline-block m-2 fw-semibold text-decoration-none link-primary" style="font-size: {{ fsize }};">{{ trope }}</a>
-{%- endfor -%}
-</div>
+{% include trope-barcharts.html %}
 
 {% include trope-sparklines.html %}
 

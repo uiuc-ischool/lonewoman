@@ -1,0 +1,286 @@
+{% comment %}
+  trope-barcharts.html
+  Renders trope-frequency bar charts: one overall + six regional.
+  Data source: _data/kepler_reprints.csv (one row per unique article).
+  Trope order and colors come from _data/tropes.yml.
+  Shares D3 v7 with trope-sparklines.html (loads once via guard).
+{% endcomment %}
+
+<style>
+  .bc-section-hed {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 1.25rem;
+    letter-spacing: 0.01em;
+  }
+
+  .bc-chart-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .bc-overall {
+    margin-bottom: 2rem;
+  }
+  .bc-overall svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
+
+  .bc-regional-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 767px) {
+    .bc-regional-grid { grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+  }
+  @media (max-width: 479px) {
+    .bc-regional-grid { grid-template-columns: 1fr; }
+  }
+
+  .bc-card svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
+
+  .bc-axis text {
+    font-size: 8.5px;
+    fill: #999;
+    font-family: inherit;
+  }
+  .bc-axis .domain { display: none; }
+  .bc-axis .tick line { stroke: #ececec; }
+
+  .bc-tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 1.5;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.09);
+    opacity: 0;
+    z-index: 9999;
+    white-space: nowrap;
+    transition: opacity 0.1s;
+  }
+</style>
+
+<p class="bc-section-hed">Trope frequency by publication region</p>
+
+<div class="bc-overall">
+  <div class="bc-chart-label" id="bc-overall-label">All Articles</div>
+  <div id="bc-overall-chart"></div>
+</div>
+
+<div class="bc-regional-grid" id="bc-regional-grid"></div>
+<div class="bc-tooltip" id="bc-tooltip"></div>
+
+<script>
+// @ts-nocheck
+function initTropeBarcharts() {
+
+  /* ── Trope metadata (tropes.yml order) ──────────────────────────────── */
+  var TROPES = [
+    {% for trope in site.data.tropes -%}
+    { id: {{ trope.id }}, label: {{ trope.label | jsonify }}, color: {{ trope.color | jsonify }} },
+    {% endfor %}
+  ];
+
+  /* ── Article data: location + tropes string ─────────────────────────── */
+  var ARTICLES = [
+    {% for item in site.data.kepler_reprints -%}
+      {% unless item.tropes == "" -%}
+        { loc: {{ item.publisher_location | strip | jsonify }}, tr: {{ item.tropes | jsonify }} },
+      {% endunless -%}
+    {% endfor %}
+  ];
+
+  /* ── Region classifier ──────────────────────────────────────────────── */
+  var EU_KEYS   = ['France','England','United Kingdom','Ireland','Scotland','Germany',
+                   'Netherlands','Belgium','Switzerland','Italy','Spain','Sweden',
+                   'Norway','Denmark','Austria','Portugal','Poland','Russia',
+                   'Limousin','Île-de-France'];
+  var ASIA_KEYS = ['India','Japan','China','Korea','Philippines','Singapore',
+                   'Malaysia','Indonesia','Thailand','Vietnam','Pakistan','Sri Lanka'];
+  var WEST_ST   = ['California','Oregon','Hawaii','Arizona','Nevada'];
+  var EAST_ST   = ['Maine','New Hampshire','Vermont','Massachusetts','Rhode Island',
+                   'Connecticut','New York','New Jersey','Delaware','Maryland',
+                   'Virginia','North Carolina','South Carolina','Georgia','Florida',
+                   'Pennsylvania','West Virginia'];
+  var MID_ST    = ['Alabama','Arkansas','Colorado','Idaho','Illinois','Indiana','Iowa',
+                   'Kansas','Kentucky','Louisiana','Michigan','Minnesota','Mississippi',
+                   'Missouri','Montana','Nebraska','New Mexico','North Dakota','Ohio',
+                   'Oklahoma','South Dakota','Tennessee','Texas','Utah','Wisconsin',
+                   'Wyoming','Alaska'];
+
+  function classifyRegion(loc) {
+    if (!loc) return null;
+    if (loc.indexOf('Washington, DC') >= 0 || loc.indexOf('District of Columbia') >= 0)
+      return 'US East Coast';
+    var i;
+    for (i = 0; i < EU_KEYS.length;   i++) if (loc.indexOf(EU_KEYS[i])   >= 0) return 'Europe';
+    for (i = 0; i < ASIA_KEYS.length; i++) if (loc.indexOf(ASIA_KEYS[i]) >= 0) return 'Asia';
+    if (loc.indexOf('Australia') >= 0 || loc.indexOf('New Zealand') >= 0)
+      return 'Australia & New Zealand';
+    for (i = 0; i < WEST_ST.length; i++) if (loc.indexOf(WEST_ST[i]) >= 0) return 'US West Coast';
+    /* Washington state — exclude DC already handled above */
+    if (/\bWashington\b/.test(loc)) return 'US West Coast';
+    for (i = 0; i < EAST_ST.length; i++) if (loc.indexOf(EAST_ST[i]) >= 0) return 'US East Coast';
+    for (i = 0; i < MID_ST.length;  i++) if (loc.indexOf(MID_ST[i])  >= 0) return 'US Midwest & South';
+    return null;
+  }
+
+  /* ── Build per-region trope counts ─────────────────────────────────── */
+  var REGIONS = [
+    'US East Coast', 'US Midwest & South', 'US West Coast',
+    'Europe', 'Asia', 'Australia & New Zealand'
+  ];
+
+  var overall = {};        /* tropeLabel → count */
+  var regional = {};       /* regionName → { tropeLabel → count } */
+  TROPES.forEach(function (t) { overall[t.label] = 0; });
+  REGIONS.forEach(function (r) {
+    regional[r] = {};
+    TROPES.forEach(function (t) { regional[r][t.label] = 0; });
+  });
+
+  ARTICLES.forEach(function (a) {
+    var tropes = a.tr.split(';').map(function (s) { return s.trim(); }).filter(Boolean);
+    tropes.forEach(function (tl) {
+      if (overall[tl] !== undefined) overall[tl]++;
+    });
+    var reg = classifyRegion(a.loc);
+    if (reg) {
+      tropes.forEach(function (tl) {
+        if (regional[reg][tl] !== undefined) regional[reg][tl]++;
+      });
+    }
+  });
+
+  /* ── SVG geometry ───────────────────────────────────────────────────── */
+  var W  = 480, H  = 196;
+  var ml = 36,  mr = 10, mt = 14, mb = 94;
+  var cw = W - ml - mr;   /* 434 */
+  var ch = H - mt - mb;   /* 88  */
+
+  var tooltip = document.getElementById('bc-tooltip');
+
+  /* ── Draw function ──────────────────────────────────────────────────── */
+  function drawBarchart(container, countMap) {
+    var maxVal = d3.max(TROPES, function (t) { return countMap[t.label] || 0; }) || 1;
+
+    var xSc = d3.scaleBand()
+      .domain(TROPES.map(function (t) { return t.label; }))
+      .range([0, cw])
+      .padding(0.28);
+
+    var ySc = d3.scaleLinear()
+      .domain([0, maxVal])
+      .range([ch, 0])
+      .nice();
+
+    var svg = d3.select(container)
+      .append('svg')
+      .attr('viewBox', '0 0 ' + W + ' ' + H);
+
+    var g = svg.append('g')
+      .attr('transform', 'translate(' + ml + ',' + mt + ')');
+
+    /* Horizontal grid lines */
+    g.append('g')
+      .attr('class', 'bc-axis')
+      .call(
+        d3.axisLeft(ySc)
+          .ticks(4)
+          .tickSize(-cw)
+          .tickFormat(d3.format('d'))
+      )
+      .select('.domain').remove();
+
+    /* Bars */
+    TROPES.forEach(function (trope) {
+      var val = countMap[trope.label] || 0;
+      var barH = ch - ySc(val);
+
+      var bar = g.append('rect')
+        .attr('x', xSc(trope.label))
+        .attr('y', ySc(val))
+        .attr('width', xSc.bandwidth())
+        .attr('height', Math.max(barH, 0))
+        .attr('fill', trope.color)
+        .attr('fill-opacity', val > 0 ? 0.82 : 0.15)
+        .attr('rx', 1);
+
+      bar.on('mousemove', function (event) {
+          tooltip.style.opacity = '1';
+          tooltip.style.left = (event.clientX + 14) + 'px';
+          tooltip.style.top  = (event.clientY  - 30) + 'px';
+          tooltip.textContent = trope.label + ' — ' + val +
+                                ' article' + (val !== 1 ? 's' : '');
+        })
+        .on('mouseleave', function () { tooltip.style.opacity = '0'; });
+    });
+
+    /* Baseline */
+    g.append('line')
+      .attr('x1', 0).attr('x2', cw)
+      .attr('y1', ch).attr('y2', ch)
+      .attr('stroke', '#ccc').attr('stroke-width', 0.75);
+
+    /* X axis — rotated labels */
+    var xAxis = g.append('g')
+      .attr('class', 'bc-axis')
+      .attr('transform', 'translate(0,' + ch + ')')
+      .call(d3.axisBottom(xSc).tickSize(0));
+
+    xAxis.select('.domain').remove();
+    xAxis.selectAll('text')
+      .attr('transform', 'rotate(-42)')
+      .attr('text-anchor', 'end')
+      .attr('dx', '-0.35em')
+      .attr('dy', '0.3em');
+  }
+
+  /* ── Overall chart ──────────────────────────────────────────────────── */
+  drawBarchart(document.getElementById('bc-overall-chart'), overall);
+
+  /* ── Regional charts ────────────────────────────────────────────────── */
+  var grid = document.getElementById('bc-regional-grid');
+  REGIONS.forEach(function (regionName) {
+    var card = document.createElement('div');
+    card.className = 'bc-card';
+
+    var lbl = document.createElement('div');
+    lbl.className = 'bc-chart-label';
+    lbl.textContent = regionName;
+    card.appendChild(lbl);
+
+    drawBarchart(card, regional[regionName]);
+    grid.appendChild(card);
+  });
+}
+
+if (typeof d3 !== 'undefined') {
+  initTropeBarcharts();
+} else {
+  var _d3b = document.createElement('script');
+  _d3b.src = 'https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js';
+  _d3b.onload = initTropeBarcharts;
+  document.head.appendChild(_d3b);
+}
+</script>
