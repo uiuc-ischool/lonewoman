@@ -275,7 +275,10 @@ function initTropeBarcharts() {
   });
 }
 
-if (typeof d3 !== 'undefined') {
+/* Use shared queue if available, otherwise load D3 directly */
+if (typeof _whenD3 === 'function') {
+  _whenD3(initTropeBarcharts);
+} else if (typeof d3 !== 'undefined') {
   initTropeBarcharts();
 } else {
   var _d3b = document.createElement('script');

@@ -13,7 +13,24 @@ permalink: /subjects.html
 
 <p class="text-muted mb-3">{{ all_tropes.size }} tropes across {{ compounds.size }} articles. Jump to a trope section below.</p>
 
-<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+/* Single D3 loader — both includes call _whenD3(fn) to register callbacks */
+window._d3q = [];
+window._whenD3 = function(fn) {
+  if (typeof d3 !== 'undefined') { fn(); return; }
+  window._d3q.push(fn);
+  if (!window._d3loading) {
+    window._d3loading = true;
+    var s = document.createElement('script');
+    s.src = 'https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js';
+    s.onload = function() {
+      window._d3q.forEach(function(f) { f(); });
+      window._d3q = [];
+    };
+    document.head.appendChild(s);
+  }
+};
+</script>
 
 {% include trope-sparklines.html %}
 

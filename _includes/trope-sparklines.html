@@ -260,8 +260,10 @@ function initTropeSparklines() {
   });
 }
 
-/* Load D3 v7 from CDN if not already present */
-if (typeof d3 !== 'undefined') {
+/* Use shared queue if available, otherwise load D3 directly */
+if (typeof _whenD3 === 'function') {
+  _whenD3(initTropeSparklines);
+} else if (typeof d3 !== 'undefined') {
   initTropeSparklines();
 } else {
   var _d3s = document.createElement('script');
