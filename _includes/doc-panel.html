@@ -1,0 +1,397 @@
+{% comment %}
+  doc-panel.html
+  Floating document preview panel for .doc-link clicks in the literary tropes essay.
+  Shows article metadata, a click-through image gallery, and a link to the full item page.
+  Requires: doc-links in the essay have data-doc-id="<lowercase-objectid>" attributes.
+{% endcomment %}
+
+<style>
+  .dp-panel {
+    position: fixed;
+    top: 72px;
+    right: 1.5rem;
+    width: 290px;
+    background: #f5f0e4;
+    border: 1px solid #d9d0bc;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    z-index: 1050;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .dp-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem 0.55rem;
+    border-bottom: 1px solid #e4ddd0;
+  }
+
+  .dp-meta {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .dp-pub {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #2d5a1b;
+    margin: 0 0 0.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .dp-date {
+    font-size: 0.74rem;
+    color: #666;
+    margin: 0 0 0.08rem;
+  }
+
+  .dp-author {
+    font-size: 0.74rem;
+    color: #555;
+    margin: 0;
+    font-style: italic;
+  }
+
+  .dp-close {
+    background: none;
+    border: none;
+    padding: 0 0 0 0.5rem;
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: #555;
+    cursor: pointer;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+  .dp-close:hover { color: #000; }
+
+  .dp-title {
+    font-size: 0.84rem;
+    font-style: italic;
+    color: #333;
+    padding: 0.45rem 1rem 0.5rem;
+    line-height: 1.35;
+    border-bottom: 1px solid #e4ddd0;
+  }
+
+  .dp-gallery {
+    position: relative;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 218px;
+  }
+
+  .dp-img {
+    max-width: 100%;
+    max-height: 218px;
+    object-fit: contain;
+    display: block;
+  }
+
+  .dp-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.72);
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    z-index: 2;
+    transition: background 0.12s;
+    line-height: 1;
+    padding: 0;
+  }
+  .dp-nav:hover { background: rgba(255,255,255,0.94); }
+  .dp-nav:disabled { opacity: 0.25; cursor: default; }
+  .dp-prev { left: 7px; }
+  .dp-next { right: 7px; }
+
+  .dp-counter {
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    padding: 0.28rem 0 0.3rem;
+    background: #1c1c1c;
+    color: #aaa;
+  }
+
+  .dp-footer {
+    padding: 0.5rem 1rem;
+    text-align: right;
+    border-top: 1px solid #e4ddd0;
+  }
+
+  .dp-open-link {
+    font-size: 0.8rem;
+    color: #2d5a1b;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .dp-open-link:hover { color: #1a3810; }
+
+  @media (max-width: 767px) {
+    .dp-panel {
+      top: auto;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+    }
+  }
+</style>
+
+<div id="doc-panel" class="dp-panel d-none" role="region" aria-label="Document preview">
+  <div class="dp-header">
+    <div class="dp-meta">
+      <p class="dp-pub" id="dp-pub"></p>
+      <p class="dp-date" id="dp-date"></p>
+      <p class="dp-author" id="dp-author"></p>
+    </div>
+    <button class="dp-close" id="dp-close" aria-label="Close document panel">[X]</button>
+  </div>
+  <p class="dp-title" id="dp-title"></p>
+  <div class="dp-gallery">
+    <button class="dp-nav dp-prev" id="dp-prev" aria-label="Previous image">&#10094;</button>
+    <img class="dp-img" id="dp-img" src="" alt="Document image" />
+    <button class="dp-nav dp-next" id="dp-next" aria-label="Next image">&#10095;</button>
+  </div>
+  <div class="dp-counter" id="dp-counter"></div>
+  <div class="dp-footer">
+    <a class="dp-open-link" id="dp-open-link" href="#" target="_blank">Open full article &rarr;</a>
+  </div>
+</div>
+
+<script>
+// @ts-nocheck
+(function () {
+  var BASE = '{{ site.baseurl }}';
+
+  var DOCS = {
+    'thebostonatlas1847__thebostonatlas1847_reprint__original': {
+      title: '“A Female Crusoe”',
+      pub: 'Boston Atlas',
+      author: '',
+      date: 'January 7, 1847',
+      url: BASE + '/items/thebostonatlas1847__thebostonatlas1847_reprint__original.html',
+      images: [
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_1.png',
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_2.png',
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_3.png',
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_4.png',
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_5.png',
+        'objects/TheBostonAtlas1847/TheBostonAtlas1847_DigSur_6.png'
+      ]
+    },
+    'thelivingage1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'Littell’s Living Age',
+      author: '',
+      date: 'March 27, 1847',
+      url: BASE + '/items/thelivingage1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_1.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_2.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_3.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_4.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_5.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_6.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_7.png',
+        'objects/TheLivingAge1847/TheLivingAge1847_DigSur_8.png'
+      ]
+    },
+    'newyorkeveningexpress1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'New York Evening Express',
+      author: '',
+      date: 'January 8, 1847',
+      url: BASE + '/items/newyorkeveningexpress1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_1.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_2.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_3.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_4.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_5.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_6.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_7.png',
+        'objects/NewYorkEveningExpress1847/NewYorkEveningExpress1847_DigSur_8.png'
+      ]
+    },
+    'publicledger1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'Philadelphia Public Ledger',
+      author: '',
+      date: 'January 16, 1847',
+      url: BASE + '/items/publicledger1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_1.png',
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_2.png',
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_3.png',
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_4.png',
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_5.png',
+        'objects/PublicLedger1847/PublicLedger1847_DigSur_6.png'
+      ]
+    },
+    'edgefieldadvertiser1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'Edgefield (SC) Advertiser',
+      author: '',
+      date: 'February 10, 1847',
+      url: BASE + '/items/edgefieldadvertiser1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_1.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_2.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_3.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_4.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_5.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_6.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_7.png',
+        'objects/EdgefieldAdvertiser1847/EdgefieldAdvertiser1847_DigSur_8.png'
+      ]
+    },
+    'wisconsinherald1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'Wisconsin Herald',
+      author: '',
+      date: 'March 13, 1847',
+      url: BASE + '/items/wisconsinherald1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_1.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_2.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_3.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_4.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_5.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_6.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_7.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_8.png',
+        'objects/WisconsinHerald1847/WisconsinHerald1847_DigSur_9.png'
+      ]
+    },
+    'thepolynesian1847__thebostonatlas1847_reprint__direct': {
+      title: '“A Female Crusoe”',
+      pub: 'Honolulu Polynesian',
+      author: '',
+      date: 'August 7, 1847',
+      url: BASE + '/items/thepolynesian1847__thebostonatlas1847_reprint__direct.html',
+      images: [
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_1.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_2.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_3.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_4.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_5.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_6.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_7.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_8.png',
+        'objects/ThePolynesian1847/ThePolynesian1847_DigSur_9.png'
+      ]
+    },
+    'nidever1878__nidever1878__na': {
+      title: 'The Life and Adventures of a Pioneer of California Since 1834',
+      pub: 'Manuscript C-D133, Bancroft Library',
+      author: 'George Nidever',
+      date: '1878',
+      url: BASE + '/items/nidever1878__nidever1878__na.html',
+      images: [
+        'objects/Nidever1878/Nidever1878_DigSur_1.png',
+        'objects/Nidever1878/Nidever1878_DigSur_2.png',
+        'objects/Nidever1878/Nidever1878_DigSur_3.png',
+        'objects/Nidever1878/Nidever1878_DigSur_4.png',
+        'objects/Nidever1878/Nidever1878_DigSur_5.png',
+        'objects/Nidever1878/Nidever1878_DigSur_6.png'
+      ]
+    }
+  };
+
+  var panel     = document.getElementById('doc-panel');
+  var pubEl     = document.getElementById('dp-pub');
+  var dateEl    = document.getElementById('dp-date');
+  var authorEl  = document.getElementById('dp-author');
+  var titleEl   = document.getElementById('dp-title');
+  var imgEl     = document.getElementById('dp-img');
+  var prevBtn   = document.getElementById('dp-prev');
+  var nextBtn   = document.getElementById('dp-next');
+  var counterEl = document.getElementById('dp-counter');
+  var openLink  = document.getElementById('dp-open-link');
+  var closeBtn  = document.getElementById('dp-close');
+
+  var currentImages = [];
+  var currentIdx    = 0;
+
+  function showImage(idx) {
+    currentIdx = idx;
+    imgEl.src = BASE + '/' + currentImages[idx];
+    imgEl.alt = 'Image ' + (idx + 1) + ' of ' + currentImages.length;
+    counterEl.textContent = (idx + 1) + ' / ' + currentImages.length;
+    prevBtn.disabled = (idx === 0);
+    nextBtn.disabled = (idx === currentImages.length - 1);
+  }
+
+  window.openDocPanel = function (docId) {
+    var doc = DOCS[docId];
+    if (!doc) return;
+    pubEl.textContent  = doc.pub;
+    dateEl.textContent = doc.date;
+    if (doc.author) {
+      authorEl.textContent = doc.author;
+      authorEl.style.display = '';
+    } else {
+      authorEl.style.display = 'none';
+    }
+    titleEl.textContent = doc.title;
+    openLink.href = doc.url;
+    currentImages = doc.images;
+    showImage(0);
+    panel.classList.remove('d-none');
+    panel.focus();
+  };
+
+  prevBtn.addEventListener('click', function () {
+    if (currentIdx > 0) showImage(currentIdx - 1);
+  });
+
+  nextBtn.addEventListener('click', function () {
+    if (currentIdx < currentImages.length - 1) showImage(currentIdx + 1);
+  });
+
+  closeBtn.addEventListener('click', function () {
+    panel.classList.add('d-none');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (panel.classList.contains('d-none')) return;
+    if (e.key === 'Escape') panel.classList.add('d-none');
+    if (e.key === 'ArrowLeft'  && !prevBtn.disabled) showImage(currentIdx - 1);
+    if (e.key === 'ArrowRight' && !nextBtn.disabled) showImage(currentIdx + 1);
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a.doc-link[data-doc-id]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var id = link.getAttribute('data-doc-id');
+        if (id && DOCS[id]) {
+          e.preventDefault();
+          window.openDocPanel(id);
+        }
+      });
+    });
+  });
+}());
+</script>

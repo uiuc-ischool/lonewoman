@@ -6,4 +6,6 @@ permalink: /literary-tropes/
 
 {% include entity-panel.html %}
 
+{% include doc-panel.html %}
+
 {% include literary-tropes-essay.html %}
