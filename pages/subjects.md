@@ -29,10 +29,13 @@ window._whenD3 = function(fn) {
 };
 </script>
 
+<p class="text-muted mb-4">The graphs below represent the frequency of articles that include a particular trope published across time. The first graph shows the publication of all articles in the data set across time.</p>
+
 {% include trope-sparklines.html %}
 
 {% include trope-barcharts.html %}
 
+{% comment %}
 {%- for trope in site.data.tropes -%}
 {%- unless trope.label == "Captivity" -%}
 {%- assign trope_label = trope.label -%}
@@ -57,3 +60,4 @@ window._whenD3 = function(fn) {
 </section>
 {%- endunless -%}
 {%- endfor -%}
+{% endcomment %}

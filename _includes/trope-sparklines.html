@@ -240,7 +240,7 @@ function initTropeSparklines() {
   /* ── 1. All-articles overview ─────────────────────────────────────────── */
   var allYmap = {};
   ALL_YRS.forEach(function (y) { allYmap[y] = (allYmap[y] || 0) + 1; });
-  drawSparkline('All Articles', makeSeries(allYmap), '#4a6741');
+  drawSparkline('Total Articles Published Across Time', makeSeries(allYmap), '#4a6741');
 
   /* ── 2. One sparkline per trope ───────────────────────────────────────── */
   TROPES.forEach(function (trope) {

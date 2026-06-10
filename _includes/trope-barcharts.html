@@ -80,14 +80,14 @@
   }
 </style>
 
-<p class="bc-section-hed">Trope frequency by publication region</p>
+<p class="bc-section-hed">Trope frequency across all articles</p>
 
 <div class="bc-overall">
   <div class="bc-chart-label" id="bc-overall-label">All Articles</div>
   <div id="bc-overall-chart"></div>
 </div>
 
-<div class="bc-regional-grid" id="bc-regional-grid"></div>
+<!-- <div class="bc-regional-grid" id="bc-regional-grid"></div> -->
 <div class="bc-tooltip" id="bc-tooltip"></div>
 
 <script>
@@ -158,24 +158,24 @@ function initTropeBarcharts() {
   ];
 
   var overall = {};        /* tropeLabel → count */
-  var regional = {};       /* regionName → { tropeLabel → count } */
+  /* var regional = {}; */
   TROPES.forEach(function (t) { overall[t.label] = 0; });
-  REGIONS.forEach(function (r) {
+  /* REGIONS.forEach(function (r) {
     regional[r] = {};
     TROPES.forEach(function (t) { regional[r][t.label] = 0; });
-  });
+  }); */
 
   ARTICLES.forEach(function (a) {
     var tropes = a.tr.split(';').map(function (s) { return s.trim(); }).filter(Boolean);
     tropes.forEach(function (tl) {
       if (overall[tl] !== undefined) overall[tl]++;
     });
-    var reg = classifyRegion(a.loc);
+    /* var reg = classifyRegion(a.loc);
     if (reg) {
       tropes.forEach(function (tl) {
         if (regional[reg][tl] !== undefined) regional[reg][tl]++;
       });
-    }
+    } */
   });
 
   /* ── SVG geometry ───────────────────────────────────────────────────── */
@@ -273,8 +273,8 @@ function initTropeBarcharts() {
   /* ── Overall chart ──────────────────────────────────────────────────── */
   drawBarchart(document.getElementById('bc-overall-chart'), overall);
 
-  /* ── Regional charts ────────────────────────────────────────────────── */
-  var grid = document.getElementById('bc-regional-grid');
+  /* ── Regional charts (silenced) ─────────────────────────────────────── */
+  /* var grid = document.getElementById('bc-regional-grid');
   REGIONS.forEach(function (regionName) {
     var card = document.createElement('div');
     card.className = 'bc-card';
@@ -286,7 +286,7 @@ function initTropeBarcharts() {
 
     drawBarchart(card, regional[regionName]);
     grid.appendChild(card);
-  });
+  }); */
 }
 
 document.addEventListener('DOMContentLoaded', function () {
