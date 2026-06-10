@@ -49,8 +49,7 @@ use_reprint_maps: true
 {%- else -%}{%- assign rtype = it.reprint_type | capitalize -%}{%- endif -%}
 <li class="mb-1">
 <span class="badge bg-secondary me-1">{{ rtype }}</span>
-<a href="{{ item_url }}">{{ it.publication }}</a>
-{% if it.publisher_location != "" %}, {{ it.publisher_location }}{% endif %}
+<a href="{{ item_url }}">{{ it.publication }}</a>{%- if it.publisher_location != "" %}, {{ it.publisher_location }}{% endif %}
 {% if it.date %} ({{ it.date | slice: 0,4 }}){% endif %}
 </li>
 {% endunless %}

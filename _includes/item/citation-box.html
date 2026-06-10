@@ -8,7 +8,8 @@
     <div class="card-body">
         <dl>
             <dt>Citation:</dt>
-            <dd>"{{ page.title }}", {{ site.title }}, {% if site.organization-name %}{{ site.organization-name }}, {% endif %}<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></dd>
+            {%- assign _t0 = page.title | slice: 0 -%}
+            <dd>{% if _t0 == '"' or _t0 == '"' %}{{ page.title }}{% else %}"{{ page.title }}"{% endif %}, {{ site.title }}, {% if site.organization-name %}{{ site.organization-name }}, {% endif %}<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></dd>
         </dl>
     </div>
 </div>
