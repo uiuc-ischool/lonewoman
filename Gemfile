@@ -7,6 +7,7 @@ gem 'jekyll'
 gem 'webrick'
 gem 'logger'
 gem 'base64'
+gem 'bigdecimal'
 gem 'ostruct'
 
 # needed for Rake tasks
