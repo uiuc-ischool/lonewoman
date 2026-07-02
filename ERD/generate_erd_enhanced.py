@@ -44,7 +44,6 @@ def create_enhanced_erd(csv_file, output_file='lonewoman_erd_enhanced'):
                 ('', 'acquisitions', 'VARCHAR'),
                 ('', 'document_intro', 'TEXT'),
                 ('', 'transcripts', 'TEXT'),
-                ('FK', 'group_reprint_id', 'VARCHAR'),
                 ('FK', 'publisher_location', 'VARCHAR'),
                 ('FK', 'publication', 'VARCHAR')
             ]
@@ -80,6 +79,14 @@ def create_enhanced_erd(csv_file, output_file='lonewoman_erd_enhanced'):
                 ('PK', 'group_reprint_id', 'VARCHAR'),
                 ('', 'reprint_type', 'VARCHAR'),
                 ('', 'reprint_order', 'INT')
+            ]
+        },
+        'Article_Reprint': {
+            'color': '#FFF3CD',
+            'attributes': [
+                ('PK,FK', 'article_id', 'VARCHAR'),
+                ('PK,FK', 'group_reprint_id', 'VARCHAR'),
+                ('', 'reprint_type', 'VARCHAR')
             ]
         },
         'Trope': {
@@ -128,7 +135,8 @@ def create_enhanced_erd(csv_file, output_file='lonewoman_erd_enhanced'):
         ('Article', 'Location', 'N', '1', 'published at'),
         ('Publication', 'Location', 'N', '1', 'located at'),
         ('Article', 'Images', '1', 'N', 'has'),
-        ('Article', 'Reprints', 'N', '1', 'belongs to'),
+        ('Article', 'Article_Reprint', '1', 'N', ''),
+        ('Reprints', 'Article_Reprint', '1', 'N', ''),
         ('Article', 'Article_Trope', '1', 'N', ''),
         ('Trope', 'Article_Trope', '1', 'N', ''),
     ]
@@ -170,7 +178,7 @@ def create_enhanced_erd(csv_file, output_file='lonewoman_erd_enhanced'):
         print(f"\n📊 Dataset Statistics:")
         print(f"  - Total records (images): {len(df)}")
         print(f"  - Unique articles: {df['article_id'].nunique()}")
-        print(f"  - Unique images: {df['object_id'].nunique()}")
+        print(f"  - Unique images: {df['objectid'].nunique()}")
         print(f"  - Unique publications: {df['publication'].nunique()}")
         print(f"  - Unique locations: {df['publisher_location'].nunique()}")
         print(f"  - Unique reprint groups: {df['group_reprint_id'].nunique()}")
