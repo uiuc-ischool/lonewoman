@@ -70,8 +70,12 @@ Makes the fully-merged CSV CollectionBuilder-compatible, with a focus on correct
 
 Read-only analysis notebook — does not modify any CSV. Identifies the many-to-many relationship between articles and document groups: which articles appear in more than one reprint group and which groups they belong to. Run this anytime to verify data integrity or to inspect the cross-group structure.
 
+Reads only `compound_object` rows (one per article per document group), groups by `article_id`, and flags any article with more than one distinct `group_reprint_id`. The 13 articles identified account for the difference between 481 unique articles and 494 compound-object rows in the master CSV — each dual-member article appears once per group.
+
 **Input:** `../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
-**Output:** `multi_group_articles.csv` (this folder) — the articles with more than one document group, with their group memberships listed
+**Output:** `../_data/multi_group_articles.csv` — the 13 articles belonging to more than one document group, with their group memberships as a semicolon-separated string and a `num_groups` count column
+
+See `site_documentation/many_to_many_relationships_erd.md` for the full list of the 13 articles and an explanation of why dual membership occurs.
 
 ---
 
@@ -120,5 +124,5 @@ _data/cb_complete_metadata_images_tropes_reprints_transcripts.csv  ← MASTER
 prepare_article_map_locations.py    article_document_group_analysis  (read-only, run anytime)
     │                                   │
     ▼                                   ▼
-_data/article_map_locations.csv     multi_group_articles.csv
+_data/article_map_locations.csv     _data/multi_group_articles.csv
 ```
