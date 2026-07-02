@@ -34,7 +34,7 @@ Two passes in one notebook:
 **Input:** `images_with_article_metadata.csv` (this folder), `../objects/` (TEI XML files + `_InitTransc.txt` files)
 **Output:** `metadata_with_tropes.csv` → `metadata_with_tropes_transcripts.csv` (both in this folder)
 
-> After this step, `metadata_with_tropes_transcripts.csv` must be combined with reprint data manually (or via a separate step) to produce `complete_metadata_images_tropes_reprints_transcripts.csv` at the project root before the next notebook can run.
+> After this step, `metadata_with_tropes_transcripts.csv` must be combined with reprint data manually (or via a separate step) to produce `complete_metadata_images_tropes_reprints_transcripts.csv` in this folder before the next notebook can run.
 
 ---
 
@@ -46,15 +46,16 @@ Two cells in sequence:
 2. **Merge into master CSV** — LEFT JOINs the long reprint table onto the master CSV by `article_id`, adding `group_reprint_id` and `reprint_type` columns. Overwrites the master CSV in place.
 
 **Input:** `document_groups.csv` (this folder), `complete_metadata_images_tropes_reprints_transcripts.csv` (this folder)
-**Output:** `document_groups_labeled.csv` (this folder), `complete_metadata_images_tropes_reprints_transcripts.csv` (updated in place) (updated in place)
+**Output:** `document_groups_labeled.csv` (this folder), `complete_metadata_images_tropes_reprints_transcripts.csv` (updated in place)
 
 ---
 
-## 5. `final_cb_metadata_additionals.ipynb`
+## 5. `prepare_cb_metadata_objectids.ipynb`
 
-Makes the fully-merged CSV CollectionBuilder-compatible:
+Makes the fully-merged CSV CollectionBuilder-compatible, with a focus on correctly resolving `objectid` uniqueness for articles that appear in multiple reprint groups:
 
-- Rebuilds `objectid` values from `article_id` + `group_reprint_id` + `reprint_type` to eliminate duplicate IDs caused by articles appearing in multiple reprint groups
+- Rebuilds `objectid` values from `article_id` + `group_reprint_id` + `reprint_type` to eliminate duplicate IDs
+- Derives `filename` from `image_object_location` (strips leading `objects/`)
 - Adds `object_location` column (prefixes each filename with `/objects/`)
 - Adds `display_template` column (copy of `image_display_template`)
 - Sets `format` column (`image` for image rows, `multiple` for compound_object rows)
@@ -65,7 +66,16 @@ Makes the fully-merged CSV CollectionBuilder-compatible:
 
 ---
 
-## 6. `prepare_kepler_data.py`
+## 6. `article_document_group_analysis.ipynb`
+
+Read-only analysis notebook — does not modify any CSV. Identifies the many-to-many relationship between articles and document groups: which articles appear in more than one reprint group and which groups they belong to. Run this anytime to verify data integrity or to inspect the cross-group structure.
+
+**Input:** `../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
+**Output:** `multi_group_articles.csv` (this folder) — the articles with more than one document group, with their group memberships listed
+
+---
+
+## 7. `prepare_kepler_data.py`
 
 Standalone script (not a notebook) that produces a separate CSV for Kepler.gl geographic arc visualization. Not part of the master CSV pipeline — reads from the already-finished master.
 
@@ -79,7 +89,7 @@ For each article in a reprint group, it records the article's own publication lo
 ## Pipeline at a glance
 
 ```
-objects/        atricle_metadata_starter.csv
+objects/        article_metadata_starter.csv
     │                       │
     ▼                       │
 image_metadata_maker ───────┘
@@ -95,14 +105,14 @@ trope_transc_metadata_adder  ← TEI XMLs + _InitTransc.txt files
 reprint_metadata_maker  ← document_groups.csv
     │ complete_metadata_images_tropes_reprints_transcripts.csv (updated in place)
     ▼
-final_cb_metadata_additionals
+prepare_cb_metadata_objectids
     │
     ▼
 _data/cb_complete_metadata_images_tropes_reprints_transcripts.csv  ← MASTER
-    │
-    ▼
-prepare_kepler_data.py  (visualization export, independent step)
-    │
-    ▼
-_data/kepler_reprints.csv
+    │                   │
+    ▼                   ▼
+prepare_kepler_data.py  article_document_group_analysis  (read-only, run anytime)
+    │                   │
+    ▼                   ▼
+_data/kepler_reprints.csv   multi_group_articles.csv
 ```
