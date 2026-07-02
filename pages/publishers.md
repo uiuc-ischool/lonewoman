@@ -5,7 +5,7 @@ permalink: /publishers/
 ---
 
 {%- assign all = site.data[site.metadata] -%}
-{%- assign articles = all | where_exp: 'item', 'item.image_display_template contains "compound_object"' -%}
+{%- assign articles = all | where_exp: 'item', 'item.display_template == "compound_object"' -%}
 {%- assign with_pub = articles | where_exp: 'item', 'item.publication != ""' -%}
 {%- assign groups = with_pub | group_by: 'publication' | sort: 'name' -%}
 
