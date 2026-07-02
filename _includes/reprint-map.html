@@ -1,4 +1,4 @@
-{% assign map_data = site.data.kepler_reprints | where: 'group_reprint_id', include.group_id %}
+{% assign map_data = site.data.article_map_locations | where: 'group_reprint_id', include.group_id %}
 
 <div id="map-{{ include.group_id | slugify }}" class="reprint-map-container"
      aria-label="Reprint network map for {{ include.group_id }}"></div>

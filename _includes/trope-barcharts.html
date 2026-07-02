@@ -1,7 +1,7 @@
 {% comment %}
   trope-barcharts.html
   Renders trope-frequency bar charts: one overall + six regional.
-  Data source: _data/kepler_reprints.csv (one row per unique article).
+  Data source: _data/article_ids_only.csv (one row per unique article).
   Trope order and colors come from _data/tropes.yml.
   Shares D3 v7 with trope-sparklines.html (loads once via guard).
 {% endcomment %}
@@ -104,7 +104,7 @@ function initTropeBarcharts() {
   ];
 
   /* ── Article data: publisher_location + tropes string ──────────────── */
-  /* Column names from kepler_reprints.csv: publisher_location, tropes     */
+  /* Column names from article_ids_only.csv: publisher_location, tropes     */
   var ARTICLES = [
     {% for item in site.data.article_ids_only -%}
       {% assign loc_val = item.publisher_location | strip -%}

@@ -1,5 +1,5 @@
 """
-Build _data/kepler_reprints.csv for Kepler.gl time + arc visualisation.
+Build _data/article_map_locations.csv for geographic arc visualisation.
 
 For each reprint group the "original" row supplies the arc origin coords;
 every other row in the group gets those coords as origin_lat / origin_lng.
@@ -15,7 +15,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 INPUT_CSV = Path("../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv")
-OUTPUT_CSV = Path("../_data/kepler_reprints.csv")
+OUTPUT_CSV = Path("../_data/article_map_locations.csv")
 CACHE_FILE = Path("geocode_cache.json")
 
 OUTPUT_COLS = [
