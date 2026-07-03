@@ -12,7 +12,7 @@ The user can browse the articles organized by publication, date, or location. Th
 
 The literary tropes essay page discusses the significance and movement of literary tropes in the press, as reporting and the exchange of information shape the cultural perception of historical events.
 
-The goal of this project is to show the research output of collected articles that influence Scott O'Dell's *Island of the Blue Dolphins*, and to teach users about the use and spread of texts and literary tropes. This website also aims to show and explore the many-to-many relationships of tropes within articles and articles within documents groups. Many tropes exist across the articles and some articles exist in mutliple document groups, showing the complex network of literary ideas within the historical press. 
+The goal of this project is to show the research output of collected articles that influence Scott O'Dell's *Island of the Blue Dolphins*, and to teach users about the use and spread of texts and literary tropes. This website also aims to show and explore the many-to-many relationships of tropes within articles and articles within documents groups. Many tropes exist across the articles and some articles exist in multiple document groups, showing the complex network of literary ideas within the historical press. 
 
 The files in this folder, site_documentation, describe how the website’s data, pages, and functionality were built so future stewards of the project can understand our process and the site’s inner workings. 
 

@@ -1,6 +1,6 @@
 # Document Groups Page: Organization and Reprint Network Maps
 
-The Document Groups page (`/groups/`) shows how individual newspaper articles about Juana Maria are organized into **document groups** — clusters of one original article and the reprints derived from it. Each group is displayed as a collapsible entry with a list of reprints and an animated map that shows the geographic spread of the text across time.
+The Document Groups page (`/groups/`) shows how individual newspaper articles are organized into **document groups** — clusters of one original article and the reprints derived from it. Each group is displayed as a collapsible entry with a list of reprints and an animated map that shows the geographic spread of the text across time.
 
 **URL:** `/groups/`  
 **Page file:** `pages/document-groups.md`
