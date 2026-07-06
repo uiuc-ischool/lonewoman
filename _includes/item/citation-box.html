@@ -1,15 +1,60 @@
-{% comment %}
+<!-- date parts -->
+{%- assign _date  = page.date | default: "" | strip -%}
+{%- assign _yr    = _date | slice: 0, 4 -%}
+{%- assign _mo    = _date | slice: 5, 2 | plus: 0 -%}
+{%- assign _dy    = _date | slice: 8, 2 | plus: 0 -%}
+{%- assign _months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," -%}
+{%- assign _mo_idx = _mo | minus: 1 -%}
+{%- if _mo > 0 -%}{%- assign _month_name = _months[_mo_idx] -%}{%- else -%}{%- assign _month_name = "" -%}{%- endif -%}
+<!-- day==1 + month==1 = year-only placeholder; day==1 = month+year only -->
+{%- if _dy > 1 and _month_name != "" -%}
+  {%- assign _date_display = _dy | append: " " | append: _month_name | append: " " | append: _yr -%}
+{%- elsif _mo > 1 and _month_name != "" -%}
+  {%- assign _date_display = _month_name | append: " " | append: _yr -%}
+{%- elsif _yr != "" -%}
+  {%- assign _date_display = _yr -%}
+{%- else -%}
+  {%- assign _date_display = "" -%}
+{%- endif -%}
 
-    Adds a basic citation box for the item with reference link to the item page.
+<!-- title: some titles already begin with a quote mark -->
+{%- assign _t0 = page.title | slice: 0 -%}
+{%- if _t0 == '"' or _t0 == '"' -%}
+  {%- assign _title_display = page.title -%}
+{%- else -%}
+  {%- capture _title_display -%}"{{ page.title }}"{%- endcapture -%}
+{%- endif -%}
 
-{%- endcomment -%}
+<!-- source type: archival_holding present = manuscript/archival -->
+{%- assign _is_archival = false -%}
+{%- if page.arhival_holding and page.arhival_holding != "" -%}
+  {%- assign _is_archival = true -%}
+{%- endif -%}
+
 <div class="card">
-    <div class="card-header">Attribution</div>
-    <div class="card-body">
-        <dl>
-            <dt>Citation:</dt>
-            {%- assign _t0 = page.title | slice: 0 -%}
-            <dd>{% if _t0 == '"' or _t0 == '"' %}{{ page.title }}{% else %}"{{ page.title }}"{% endif %}, {{ site.title }}, {% if site.organization-name %}{{ site.organization-name }}, {% endif %}<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></dd>
-        </dl>
-    </div>
+  <div class="card-header">Attribution</div>
+  <div class="card-body">
+    <dl class="mb-0">
+      <dt>Citation:</dt>
+      <dd>
+        {%- if _is_archival -%}
+          {%- if page.author and page.author != "" -%}{{ page.author }}, {% endif -%}
+          <em>{{ page.title }}</em>
+          {%- if _date_display != "" %}, {{ _date_display }}{%- endif -%}
+          {%- if page.arhival_holding != "" %}, {{ page.arhival_holding }}{%- endif -%}
+          {%- if page.archival_location and page.archival_location != "" %}, {{ page.archival_location }}{%- endif -%}
+          {%- if page.monograph_publishers and page.monograph_publishers != "" %}, {{ page.monograph_publishers }}{%- endif -%}
+        {%- else -%}
+          {%- if page.author and page.author != "" -%}{{ page.author }}, {% endif -%}
+          {{ _title_display }}
+          {%- if page.publication and page.publication != "" %}, <em>{{ page.publication }}</em>{%- endif -%}
+          {%- if page.volume_number and page.volume_number != "" %}, vol.&nbsp;{{ page.volume_number }}{%- endif -%}
+          {%- if page.issue_number and page.issue_number != "" %}, {{ page.issue_number }}{%- endif -%}
+          {%- if _date_display != "" %}, {{ _date_display }}{%- endif -%}
+          {%- if page.pages and page.pages != "" %}, {{ page.pages }}{%- endif -%}
+        {%- endif -%}
+        . Lone Woman and Last Indians Digital Archive, <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>
+      </dd>
+    </dl>
+  </div>
 </div>
