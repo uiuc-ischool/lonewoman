@@ -19,7 +19,7 @@ The Tropes page (`/subjects.html`) shows two D3-based charts that let readers ex
 - `tropes` — semicolon-separated trope labels (e.g. `Noble Savage; Discovery; Wonder`); articles with no tropes are excluded from the charts
 - `publisher_location` — free-text string (e.g. `Albany, New York`); used by the regional bar chart logic (currently commented out)
 
-**Tropes defined in `tropes.yml`:** 15 total. The "Captivity" trope (id 2) is excluded from both visualizations by an `unless trope.label == "Captivity"` guard, leaving **14 tropes** shown in the charts.
+**Tropes defined in `tropes.yml`:** 15 total. The "Captivity" trope (id 2) is excluded from both visualizations by an `unless trope.label == "Captivity"` guard, leaving **14 tropes** shown in the charts. There was no source data associated with the "Captivity" trope. 
 
 ---
 

@@ -1,6 +1,6 @@
 # Literary Tropes Essay Page
 
-The Literary Tropes page (`/literary-tropes/`) presents a scholarly essay by Dr. Sara Schwebel (2016) analyzing the 14 interpretive tropes used in press accounts of the Lone Woman. The text and images were ported directly from the previous version of the site. For the current archive, the essay was wired into the data infrastructure: named people, places, organizations, and ships in the prose are linked to entity descriptions from the archive's entity CSVs, and citations to specific archival documents open a floating image-gallery panel tied to the archive's digitized scans.
+The Literary Tropes page (`/literary-tropes/`) presents a scholarly essay by project editor Professor Sara Schwebel (2016) analyzing the 14 interpretive tropes used in press accounts of the Lone Woman. The text and images were ported directly from the previous version of the site. For the current archive, the essay was wired into the data infrastructure: named people, places, organizations, and ships in the prose are linked to entity descriptions from the archive's entity CSVs, and citations to specific archival documents open a floating image-gallery panel tied to the archive's digitized scans.
 
 **URL:** `/literary-tropes/`  
 **Page file:** `pages/literary-tropes.md`
