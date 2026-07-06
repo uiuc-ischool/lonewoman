@@ -8,6 +8,7 @@ permalink: /publishers/
 {%- assign articles = all | where_exp: 'item', 'item.display_template == "compound_object"' -%}
 {%- assign with_pub = articles | where_exp: 'item', 'item.publication != ""' -%}
 {%- assign groups = with_pub | group_by: 'publication' | sort: 'name' -%}
+{%- assign sn_data = site.data.article_sourcenotes -%}
 
 {%- if groups.size == 0 -%}
 <p><em>No publications found.</em></p>
@@ -23,8 +24,16 @@ permalink: /publishers/
 <h2 id="pub-{{ letter }}" class="mt-5 border-bottom pb-1">{{ letter }}</h2>
 {%- assign current_letter = letter -%}
 {%- endif -%}
+{%- assign first_item = g.items | first -%}
+{%- assign sn_entry = sn_data | where: 'article_id', first_item.article_id | first -%}
+{%- if sn_entry == nil or sn_entry.source_note == "" -%}
+{%- assign sn_entry = sn_data | where: 'publication', pub_name | first -%}
+{%- endif -%}
 <section class="mb-4">
 <h3 class="h5 mb-1">{{ pub_name }} <span class="text-muted fw-normal">({{ g.items | size }} article{% if g.items.size != 1 %}s{% endif %})</span></h3>
+{%- if sn_entry.source_note and sn_entry.source_note != "" -%}
+<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ sn_entry.source_note }}</p>
+{%- endif -%}
 <ul class="list-unstyled ps-3 mb-0">
 {%- assign sorted = g.items | sort: 'date' -%}
 {%- for it in sorted -%}
