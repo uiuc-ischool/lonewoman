@@ -57,6 +57,9 @@ use_reprint_maps: true
 </ul>
 {% endif %}
 {% include reprint-map.html group_id=orig.group_reprint_id %}
+{% if orig.document_intro and orig.document_intro != "" %}
+<p class="text-muted mt-3 mb-1" style="font-size:0.82em; line-height:1.6;">{{ orig.document_intro }}</p>
+{% endif %}
 </details>
 {%- endfor -%}
 {%- endif -%}
