@@ -1,6 +1,6 @@
 # Metadata Pipeline Overview
 
-This folder contains the notebooks and scripts that build the CollectionBuilder master metadata CSV from raw image files, article metadata, TEI XML annotations, and reprint/document-group data. Run them in the order listed below.
+The `metadata_notebooks/` folder contains the notebooks and scripts that build the CollectionBuilder master metadata CSV from raw image files, article metadata, TEI XML annotations, and reprint/document-group data. Run them in the order listed below.
 
 ---
 
@@ -8,8 +8,8 @@ This folder contains the notebooks and scripts that build the CollectionBuilder 
 
 Walks every article folder inside `objects/` and generates one parent row (`compound_object`) and one child row per image file (`image`) for each article. Also standardizes image filenames (converts `(N)` suffix notation to `_N`).
 
-**Input:** `../objects/` (image folders at project root)
-**Output:** `image_metadata_full.csv` (this folder)
+**Input:** `objects/` (image folders at project root)
+**Output:** `metadata_notebooks/image_metadata_full.csv`
 
 Columns produced: `object_id`, `article_id`, `image_display_template`, `image_parent_id`, `image_file`, `image_object_location`
 
@@ -19,8 +19,8 @@ Columns produced: `object_id`, `article_id`, `image_display_template`, `image_pa
 
 LEFT JOINs the image rows from Step 1 with the article-level metadata spreadsheet so that every image row carries the full article context (title, date, publication, author, etc.) repeated across it.
 
-**Input:** `image_metadata_full.csv` (this folder), `article_metadata_starter.csv` (this folder)
-**Output:** `images_with_article_metadata.csv` (this folder)
+**Input:** `metadata_notebooks/image_metadata_full.csv`, `metadata_notebooks/article_metadata_starter.csv`
+**Output:** `metadata_notebooks/images_with_article_metadata.csv`
 
 ---
 
@@ -31,10 +31,10 @@ Two passes in one notebook:
 1. **Tropes** — reads each article's TEI XML file (`objects/<article_id>/m_<article_id>_TEI.xml`) and extracts `<span type="trope" n="X">` tags, mapping them to human-readable labels (e.g. `Indian Queen`, `Captivity`, `Noble Savage`). Adds a semicolon-separated `tropes` column.
 2. **Transcripts** — reads each article's initial transcript file (`objects/<article_id>/<article_id>_InitTransc.txt`), handling multiple encodings. Adds a `transcripts` column to `compound_object` rows only.
 
-**Input:** `images_with_article_metadata.csv` (this folder), `../objects/` (TEI XML files + `_InitTransc.txt` files)
-**Output:** `metadata_with_tropes.csv` → `metadata_with_tropes_transcripts.csv` (both in this folder)
+**Input:** `metadata_notebooks/images_with_article_metadata.csv`, `objects/` (TEI XML files + `_InitTransc.txt` files)
+**Output:** `metadata_notebooks/metadata_with_tropes.csv` → `metadata_notebooks/metadata_with_tropes_transcripts.csv`
 
-> After this step, `metadata_with_tropes_transcripts.csv` must be combined with reprint data manually (or via a separate step) to produce `complete_metadata_images_tropes_reprints_transcripts.csv` in this folder before the next notebook can run.
+> After this step, `metadata_with_tropes_transcripts.csv` must be combined with reprint data manually (or via a separate step) to produce `metadata_notebooks/complete_metadata_images_tropes_reprints_transcripts.csv` before the next notebook can run.
 
 ---
 
@@ -45,8 +45,8 @@ Two cells in sequence:
 1. **Build long-form reprint table** — reads the wide-format `document_groups.csv` (one row per group, reprints spread across columns) and pivots it into a long table with columns `article_id`, `group_reprint_id` (e.g. `Stuart1878_reprint`), and `reprint_type` (`original`, `direct`, `truncated`, or `paraphrase`). Saves this as `document_groups_labeled.csv`.
 2. **Merge into master CSV** — LEFT JOINs the long reprint table onto the master CSV by `article_id`, adding `group_reprint_id` and `reprint_type` columns. Overwrites the master CSV in place.
 
-**Input:** `document_groups.csv` (this folder), `complete_metadata_images_tropes_reprints_transcripts.csv` (this folder)
-**Output:** `document_groups_labeled.csv` (this folder), `complete_metadata_images_tropes_reprints_transcripts.csv` (updated in place)
+**Input:** `metadata_notebooks/document_groups.csv`, `metadata_notebooks/complete_metadata_images_tropes_reprints_transcripts.csv`
+**Output:** `metadata_notebooks/document_groups_labeled.csv`, `metadata_notebooks/complete_metadata_images_tropes_reprints_transcripts.csv` (updated in place)
 
 ---
 
@@ -61,8 +61,8 @@ Makes the fully-merged CSV CollectionBuilder-compatible, with a focus on correct
 - Sets `format` column (`image` for image rows, `multiple` for compound_object rows)
 - Renames `object_id` to `article_image_tag`
 
-**Input:** `complete_metadata_images_tropes_reprints_transcripts.csv` (this folder)
-**Output:** `../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv` — **the master CollectionBuilder CSV**
+**Input:** `metadata_notebooks/complete_metadata_images_tropes_reprints_transcripts.csv`
+**Output:** `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv` — **the master CollectionBuilder CSV**
 
 ---
 
@@ -72,44 +72,44 @@ Read-only analysis notebook — does not modify any CSV. Identifies the many-to-
 
 Reads only `compound_object` rows (one per article per document group), groups by `article_id`, and flags any article with more than one distinct `group_reprint_id`. The 13 articles identified account for the difference between 481 unique articles and 494 compound-object rows in the master CSV — each dual-member article appears once per group.
 
-**Input:** `../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
-**Output:** `../_data/multi_group_articles.csv` — the 13 articles belonging to more than one document group, with their group memberships as a semicolon-separated string and a `num_groups` count column
+**Input:** `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
+**Output:** `_data/multi_group_articles.csv` — the 13 articles belonging to more than one document group, with their group memberships as a semicolon-separated string and a `num_groups` count column
 
-See `site_documentation/many_to_many_relationships_erd.md` for the full list of the 13 articles and an explanation of why dual membership occurs.
+See `site_documentation/data_relationships_erd_explainer.md` for the full list of the 13 articles and an explanation of why dual membership occurs.
 
 ---
 
 ## 7. `prepare_article_map_locations.py`
 
-Standalone script (not a notebook) that produces a CSV for geographic arc visualization of reprint travel. Not part of the master CSV pipeline — reads from the already-finished master.
+Standalone script (not a notebook) that produces a CSV for geographic arc visualization of reprint travel. Not part of the master CSV pipeline — reads from the already-finished master spreadsheet.
 
-For each article in a reprint group, it records the article's own publication location and the original publication's location as arc endpoints. Geocodes all `publisher_location` values via Nominatim (OpenStreetMap), caching results in `geocode_cache.json` to avoid redundant API calls on reruns. Filters to `compound_object` rows only (one row per article, no image children). Articles appearing in multiple document groups will have one row per group (494 rows total vs 481 unique articles).
+For each article in a reprint group, it records the article's own publication location and the original publication's location as arc endpoints. Geocodes all `publisher_location` values via Nominatim (OpenStreetMap), caching results in `metadata_notebooks/geocode_cache.json` to avoid redundant API calls on reruns. Filters to `compound_object` rows only (one row per article, no image children). Articles appearing in multiple document groups will have one row per group (494 rows total vs 481 unique articles).
 
-**Input:** `../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
-**Output:** `../_data/article_map_locations.csv`
+**Input:** `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv`
+**Output:** `_data/article_map_locations.csv`
 
 ---
 
 ## 8. `source_notes_cleaner.ipynb`
 
-Standalone notebook — not part of the master metadata pipeline. Produces a supplementary CSV of publication-level source note descriptions and article citations drawn from a separate spreadsheet on the Schwebel hard drive.
+Standalone notebook — not part of the master metadata pipeline. Produces a supplementary CSV of publication-level source note descriptions and article citations drawn from a separate tab from the original metadata source spreadsheet.
 
-Reads `../_source_data/drschwebel_harddrive_data/articlemetadata_sourcenotes.csv`, which contains one row per publication with source note text, a bibliography citation, and a list of article IDs cramped into a single cell. The notebook unfolds those multi-article rows so each article gets its own row, normalises dates to `yyyy-mm-dd`, strips HTML tags (`<i>`, `<a href>`, etc.) left over from the original data entry system, and drops known data errors.
+Reads `_source_data/drschwebel_harddrive_data/articlemetadata_sourcenotes.csv`, which contains one row per publication with source note text, a bibliography citation, and a list of article IDs cramped into a single cell. The notebook unfolds those multi-article rows so each article gets its own row, normalises dates to `yyyy-mm-dd`, strips HTML tags (`<i>`, `<a href>`, etc.) left over from the original data entry system, and drops known data errors.
 
-**Input:** `../_source_data/drschwebel_harddrive_data/articlemetadata_sourcenotes.csv`
-**Output:** `../_data/article_sourcenotes.csv`
+**Input:** `_source_data/drschwebel_harddrive_data/articlemetadata_sourcenotes.csv`
+**Output:** `_data/article_sourcenotes.csv`
 
 Columns: `number, publication, source_note, citation, article_id, citation_format, author, title, volume_number, issue_number, day, month, year, date, publisher, location, editor`
 
 The output CSV is used by the **Publishers page** (`pages/publishers.md`) to display a short paragraph describing each publication below its heading and above its article list. It is **not** merged into the master CollectionBuilder CSV — source notes are supplementary display content, not core article metadata.
 
-> **Coverage:** 315 of 368 publications have a source note. The remaining 53 have no entry in the source notes spreadsheet because they are **non-periodical sources** — books, monographs, manuscripts, theses, government reports, and French-language editions — for which publication descriptions were never written. This is expected; source notes were composed only for newspapers, magazines, and journals.
+> **Coverage:** 315 of 368 publications have a source note. The remaining 53 have no entry in the source notes spreadsheet because they are **non-periodical sources** — books, monographs, manuscripts, theses, government reports, and French-language editions — for which publication descriptions were never written. Source notes were composed only for newspapers, magazines, and journals.
 
 ---
 
 ## Reference: `_data/article_ids_only.csv`
 
-Not generated by any notebook in this folder — this is a manually created export containing exactly one row per unique article (481 rows), with no duplicates from multi-group articles and no image child rows. Columns are identical to `article_map_locations.csv`. It exists as a clean, flat reference for quickly understanding the total set of discrete articles and their locations, and is used directly by the trope bar charts and sparklines on the site.
+Not generated by any notebook in `metadata_notebooks/` — this is a manually created export containing exactly one row per unique article (481 rows), with no duplicates from multi-group articles and no image child rows. Columns are identical to `article_map_locations.csv`. It exists as a clean, flat reference for quickly understanding the total set of discrete articles and their locations, and is used directly by the trope bar charts and sparklines on the site.
 
 ---
 

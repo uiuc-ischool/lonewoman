@@ -46,9 +46,9 @@ Every row in the master CSV (`_data/cb_complete_metadata_images_tropes_reprints_
 | `image` (digitized scan pages) | 3,934 | One per individual scanned page — children of a compound_object |
 | **Total objectids** | **4,428** | Every row has a unique objectid |
 
-A `compound_object` row is the parent that groups all the scanned page images for one article together. Each `image` row has an `image_parent_id` pointing back to its compound_object parent. CollectionBuilder uses this parent–child structure to build the image gallery on each article page.
+A `compound_object` row is the parent that groups all the scanned page images for one article together. Each `image` row has an `image_parent_id` pointing back to its compound_object parent. CollectionBuilder uses this parent–child structure to build the image gallery on each article page. 
 
-The 494 compound_object rows (rather than 481) reflect the 13 dual-membership articles: each of those articles appears in two document groups and therefore has two compound_object rows — and two sets of image children. The image rows for dual-membership articles are duplicated once per group membership. The average article has **8.2 scanned pages**.
+The 494 compound_object rows (rather than 481) reflect the 13 dual-membership articles: each of those articles appears in two document groups and therefore has two compound_object rows — and two sets of image children. The image rows for dual-membership articles are duplicated once per document group membership. The parent-child relationship between compound objects and images should not be confused with the relationship between original article and subsequent reprints in document groups.The average article has **8.2 scanned pages**.
 
 ---
 
@@ -70,7 +70,7 @@ Standalone articles include books, monographs, manuscripts, and periodical artic
 
 ### 2. Source Note Coverage
 
-Source notes are publication-history descriptions that appear on the Publishers page. They were written exclusively for **periodical publications** (newspapers, magazines, journals). Books, manuscripts, theses, and government reports do not have source notes — this is intentional, not a data gap.
+Source notes are publication-history descriptions that appear on the Publishers page. They were written exclusively for **periodical publications** (newspapers, magazines, journals). Books, manuscripts, theses, and government reports do not have source notes.
 
 | Category | Count | % of 481 |
 |---|---|---|
@@ -78,7 +78,7 @@ Source notes are publication-history descriptions that appear on the Publishers 
 | Articles without a source note (non-periodical sources) | 59 | 12.3% |
 | **Total unique articles** | **481** | |
 
-The 59 articles without source notes are the same category as the standalone non-periodicals described above: books (e.g., *Handbook of the Indians of California*, *Island of the Blue Dolphins*), French-language editions, theses, and government reports. These sources are vital to the archive's scholarly context but are not newspaper-type publications for which a publication history would be written.
+The 59 articles without source notes are the same category as the standalone non-periodicals described above: books (e.g., *Handbook of the Indians of California*, *Bulletin of the United States Geological Survey of the Territories*), French-language editions, theses, and government reports. These sources are vital to the archive's scholarly context but are not newspaper-type publications for which a publication history would be written.
 
 Two of the 59 — George Nidever's *The Life and Adventures of a Pioneer of California Since 1834* (Manuscript C-D133) and Carl Dittman's *Narrative of a Seafaring Life on the Coast of California* (Manuscript C-D67) — are an exception on the Publishers page: because they have `document_intro` essays in the master CSV, those intro texts are displayed in place of a source note beneath their publication headings. All other non-periodical sources show no descriptive text on the Publishers page.
 
@@ -96,7 +96,7 @@ Document introductions are substantial analytical essays — ranging from roughl
 
 The three reprint-group intros (Boston Atlas, Daily Alta California, Hardacre/Scribner's Monthly) anchor three of the archive's most historically significant text-reprinting networks. They explain the cultural and journalistic context in which these founding documents circulated — why the Lone Woman's story spread so far and how it was transformed along the way. These three intros connect directly to the Literary Tropes essay, which traces how specific language and ideas moved through successive reprints.
 
-The two manuscript intros (Nidever and Dittman) discuss the two key eyewitness sources that most shaped the historical record. George Nidever's 1878 dictation became the most-cited account of the Lone Woman's removal from San Nicolas Island; Carl Dittman's parallel narrative, long overshadowed by Nidever's, offers a contrasting perspective shaped by Dittman's status as a foreign-born, naturalized citizen. Both intros appear on the Publishers page beneath their respective manuscript entries.
+The two manuscript intros (Nidever and Dittman) discuss the two key eyewitness sources that  shaped the historical record. Both intros appear on the Publishers page beneath their respective manuscript entries.
 
 Document intros appear on the Document Groups page beneath the interactive arc map for each group, and on the Publishers page beneath the publication heading. The 34 remaining document groups have no intro written for them.
 
@@ -144,7 +144,7 @@ Three sets of ERD diagrams were produced using Python's `graphviz` library (Grap
 
 **Generator:** `ERD/generate_filled_erd.ipynb`
 
-Individual article-level ERD diagrams were created for every article in the Boston Atlas 1847 document group — the largest and most historically central reprint network in the archive. Each diagram shows one article as a node connected to its images, publication, location, and document group, using actual data values from the master CSV rather than abstract column names.
+Individual article-level ERD diagrams were created for every article in the Boston Atlas 1847 document group. Each diagram shows one article as a node connected to its images, publication, location, and document group, using actual data values from the master CSV rather than abstract column names.
 
 The Boston Atlas 1847 group contains 15 articles, and one diagram exists for each:
 
