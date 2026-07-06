@@ -94,7 +94,7 @@ Document introductions are substantial analytical essays — ranging from roughl
 | Nidever1878 | Manuscript C-D133 | *(standalone)* | ~5,800 |
 | Dittman1878 | Manuscript C-D67 | *(standalone)* | ~6,200 |
 
-The three reprint-group intros (Boston Atlas, Daily Alta California, Hardacre/Scribner's Monthly) anchor three of the archive's most historically significant text-reprinting networks. They explain the cultural and journalistic context in which these founding documents circulated — why the Lone Woman's story spread so far and how it was transformed along the way. These three intros connect directly to the Literary Tropes essay, which traces how specific language and ideas moved through successive reprints.
+The three reprint-group intros (Boston Atlas, San Francisco Daily Alta California, Hardacre/Scribner's Monthly) anchor three of the archive's most historically significant text-reprinting networks. They explain the cultural and journalistic context in which these founding documents circulated — why the Lone Woman's story spread so far and how it was transformed along the way. These three intros connect directly to the Literary Tropes essay, which traces how specific language and ideas moved through successive reprints.
 
 The two manuscript intros (Nidever and Dittman) discuss the two key eyewitness sources that  shaped the historical record. Both intros appear on the Publishers page beneath their respective manuscript entries.
 
