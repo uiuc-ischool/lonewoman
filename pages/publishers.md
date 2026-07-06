@@ -31,8 +31,14 @@ permalink: /publishers/
 {%- endif -%}
 <section class="mb-4">
 <h3 class="h5 mb-1">{{ pub_name }} <span class="text-muted fw-normal">({{ g.items | size }} article{% if g.items.size != 1 %}s{% endif %})</span></h3>
+{%- assign desc_text = "" -%}
 {%- if sn_entry.source_note and sn_entry.source_note != "" -%}
-<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ sn_entry.source_note }}</p>
+{%- assign desc_text = sn_entry.source_note -%}
+{%- elsif first_item.document_intro and first_item.document_intro != "" -%}
+{%- assign desc_text = first_item.document_intro -%}
+{%- endif -%}
+{%- if desc_text != "" -%}
+<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ desc_text }}</p>
 {%- endif -%}
 <ul class="list-unstyled ps-3 mb-0">
 {%- assign sorted = g.items | sort: 'date' -%}
