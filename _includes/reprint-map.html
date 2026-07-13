@@ -7,7 +7,7 @@
 (function() {
   var data = [
     {% for row in map_data %}
-    {% if row.lat != "" and row.lng != "" %}
+    {% if row.lat and row.lng and row.lat != "" and row.lng != "" %}
     {
       article_id: {{ row.article_id | jsonify }},
       publication: {{ row.publication | jsonify }},

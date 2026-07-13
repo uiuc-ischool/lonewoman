@@ -8,6 +8,7 @@ Geocoding is done via geopy Nominatim and cached in geocode_cache.json.
 
 import csv
 import json
+import re
 import time
 from pathlib import Path
 
@@ -16,7 +17,7 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 INPUT_CSV = Path("../_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv")
 OUTPUT_CSV = Path("../_data/article_map_locations.csv")
-CACHE_FILE = Path("geocode_cache.json")
+CACHE_FILE = Path("../_data/geocode_cache.json")
 
 OUTPUT_COLS = [
     "article_id", "title", "publication", "date",
@@ -43,29 +44,53 @@ def save_cache():
 # ---------------------------------------------------------------------------
 # Geocoder
 # ---------------------------------------------------------------------------
+# NOTE: Nominatim geocodes present-day places, not historical ones — a location
+# like "Moscow, Russia, USSR" will never resolve because "USSR" isn't a country
+# Nominatim recognizes. If future data expansion adds more historical/defunct
+# place names, they'll show up in the "Locations NOT found" summary below and
+# will need either a simplified query (see simplify_query()/NZ_ISLAND_RE for an
+# example) or a manual lat/lng override.
 geolocator = Nominatim(user_agent="lonewoman_kepler_prep/1.0")
+
+# Nominatim doesn't reliably resolve New Zealand's "North Island"/"South Island"
+# as part of a compound query (e.g. "Thames, North Island, New Zealand" returns
+# no results) — strip that segment for the geocoding query only. The original
+# publisher_location string is left untouched everywhere else (output CSV, etc).
+NZ_ISLAND_RE = re.compile(r",\s*(North|South) Island")
+
+
+def simplify_query(location: str) -> str:
+    return NZ_ISLAND_RE.sub("", location)
+
+
+def _lookup(query: str) -> tuple[float | None, float | None]:
+    """Single rate-limited Nominatim call. Returns (lat, lng) or (None, None)."""
+    time.sleep(1.1)
+    try:
+        result = geolocator.geocode(query, timeout=10)
+    except (GeocoderTimedOut, GeocoderServiceError) as e:
+        print(f"  [WARN] geocoder error for '{query}': {e}")
+        return None, None
+    if result:
+        return result.latitude, result.longitude
+    return None, None
 
 
 def geocode(location: str) -> tuple[float | None, float | None]:
     if not location:
         return None, None
-    if location in cache:
-        entry = cache[location]
-        return entry["lat"], entry["lng"]
 
-    time.sleep(1.1)
-    try:
-        result = geolocator.geocode(location, timeout=10)
-    except (GeocoderTimedOut, GeocoderServiceError) as e:
-        print(f"  [WARN] geocoder error for '{location}': {e}")
-        cache[location] = {"lat": None, "lng": None}
-        save_cache()
-        return None, None
+    cached = cache.get(location)
+    if cached and cached.get("lat") is not None:
+        return cached["lat"], cached["lng"]
 
-    if result:
-        lat, lng = result.latitude, result.longitude
-    else:
-        lat, lng = None, None
+    lat, lng = _lookup(location)
+
+    # Retry with the NZ island qualifier stripped if the plain query failed
+    # and stripping it actually changes anything.
+    simplified = simplify_query(location)
+    if lat is None and simplified != location:
+        lat, lng = _lookup(simplified)
 
     cache[location] = {"lat": lat, "lng": lng}
     save_cache()
