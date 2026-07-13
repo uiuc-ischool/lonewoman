@@ -46,7 +46,39 @@ permalink: /publishers/
 {%- assign sorted = g.items | sort: 'date' -%}
 {%- for it in sorted -%}
 {%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
-<li class="mb-1"><a href="{{ item_url }}">{{ it.title }}</a>, {{ pub_name }}{% if it.publisher_location != "" %}, {{ it.publisher_location }}{% endif %}{% if it.date %}, {{ it.date | slice: 0,4 }}{% endif %}</li>
+{%- assign _t = it.title -%}
+{%- assign _t_last = _t | slice: -1 -%}
+
+{%- assign _loc = it.publisher_location | default: "" | strip -%}
+{%- assign _yr = "" -%}
+{%- if it.date and it.date != "" -%}{%- assign _yr = it.date | slice: 0,4 -%}{%- endif -%}
+
+{%- assign _meta = "" -%}
+{%- if pub_name != "" -%}{%- assign _meta = _meta | append: pub_name -%}{%- endif -%}
+{%- if _loc != "" -%}
+  {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+  {%- assign _meta = _meta | append: _loc -%}
+{%- endif -%}
+{%- if _yr != "" -%}
+  {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+  {%- assign _meta = _meta | append: _yr -%}
+{%- endif -%}
+
+{%- if _t_last == '"' or _t_last == '"' -%}
+  {%- assign _tlen_m1 = _t.size | minus: 1 -%}
+  {%- assign _t_body = _t | slice: 0, _tlen_m1 -%}
+  {%- if _meta != "" -%}
+<li class="mb-1"><a href="{{ item_url }}">{{ _t_body }}</a>,{{ _t_last }} {{ _meta }}</li>
+  {%- else -%}
+<li class="mb-1"><a href="{{ item_url }}">{{ _t_body }}</a>{{ _t_last }}</li>
+  {%- endif -%}
+{%- else -%}
+  {%- if _meta != "" -%}
+<li class="mb-1"><a href="{{ item_url }}">{{ _t }}</a>, {{ _meta }}</li>
+  {%- else -%}
+<li class="mb-1"><a href="{{ item_url }}">{{ _t }}</a></li>
+  {%- endif -%}
+{%- endif -%}
 {%- endfor -%}
 </ul>
 </section>

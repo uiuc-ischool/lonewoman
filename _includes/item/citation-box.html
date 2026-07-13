@@ -17,10 +17,28 @@
   {%- assign _date_display = "" -%}
 {%- endif -%}
 
-<!-- title: some titles already begin with a quote mark -->
+<!-- does any citation field follow the title before the closing period? -->
+{%- assign _has_more = false -%}
+{%- if page.publication and page.publication != "" -%}{%- assign _has_more = true -%}{%- endif -%}
+{%- if page.volume_number and page.volume_number != "" -%}{%- assign _has_more = true -%}{%- endif -%}
+{%- if page.issue_number and page.issue_number != "" -%}{%- assign _has_more = true -%}{%- endif -%}
+{%- if _date_display != "" -%}{%- assign _has_more = true -%}{%- endif -%}
+{%- if page.pages and page.pages != "" -%}{%- assign _has_more = true -%}{%- endif -%}
+
+<!-- title: some titles already begin/end with a quote mark; keep trailing punctuation inside the closing quote -->
 {%- assign _t0 = page.title | slice: 0 -%}
+{%- assign _t_last = page.title | slice: -1 -%}
+{%- assign _tlen_m1 = page.title.size | minus: 1 -%}
 {%- if _t0 == '"' or _t0 == '"' -%}
-  {%- assign _title_display = page.title -%}
+  {%- if _has_more and (_t_last == '"' or _t_last == '"') -%}
+    {%- assign _title_display = page.title | slice: 0, _tlen_m1 | append: ',' | append: _t_last -%}
+  {%- elsif _has_more -%}
+    {%- assign _title_display = page.title | append: ',' -%}
+  {%- else -%}
+    {%- assign _title_display = page.title -%}
+  {%- endif -%}
+{%- elsif _has_more -%}
+  {%- capture _title_display -%}"{{ page.title }},"{%- endcapture -%}
 {%- else -%}
   {%- capture _title_display -%}"{{ page.title }}"{%- endcapture -%}
 {%- endif -%}
@@ -47,11 +65,28 @@
         {%- else -%}
           {%- if page.author and page.author != "" -%}{{ page.author }}, {% endif -%}
           {{ _title_display }}
-          {%- if page.publication and page.publication != "" %}, <em>{{ page.publication }}</em>{%- endif -%}
-          {%- if page.volume_number and page.volume_number != "" %}, vol.&nbsp;{{ page.volume_number }}{%- endif -%}
-          {%- if page.issue_number and page.issue_number != "" %}, {{ page.issue_number }}{%- endif -%}
-          {%- if _date_display != "" %}, {{ _date_display }}{%- endif -%}
-          {%- if page.pages and page.pages != "" %}, {{ page.pages }}{%- endif -%}
+          {%- assign _meta = "" -%}
+          {%- if page.publication and page.publication != "" -%}
+            {%- capture _part -%}<em>{{ page.publication }}</em>{%- endcapture -%}
+            {%- assign _meta = _meta | append: _part -%}
+          {%- endif -%}
+          {%- if page.volume_number and page.volume_number != "" -%}
+            {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+            {%- assign _meta = _meta | append: "vol.&nbsp;" | append: page.volume_number -%}
+          {%- endif -%}
+          {%- if page.issue_number and page.issue_number != "" -%}
+            {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+            {%- assign _meta = _meta | append: page.issue_number -%}
+          {%- endif -%}
+          {%- if _date_display != "" -%}
+            {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+            {%- assign _meta = _meta | append: _date_display -%}
+          {%- endif -%}
+          {%- if page.pages and page.pages != "" -%}
+            {%- if _meta != "" -%}{%- assign _meta = _meta | append: ", " -%}{%- endif -%}
+            {%- assign _meta = _meta | append: page.pages -%}
+          {%- endif -%}
+          {%- if _meta != "" %} {{ _meta }}{%- endif -%}
         {%- endif -%}
         . Lone Woman and Last Indians Digital Archive, <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>
       </dd>

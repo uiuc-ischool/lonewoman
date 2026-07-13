@@ -10,7 +10,18 @@
             <dt>Citation:</dt>
             {%- assign _ct = child.title | default: page.title -%}
             {%- assign _ct0 = _ct | slice: 0 -%}
-            <dd>{% if _ct0 == '"' or _ct0 == '"' %}{{ _ct }}{% else %}"{{ _ct }}"{% endif %}, {{ site.title }}, {% if site.organization-name %}{{ site.organization-name }}, {% endif %}<a href="{{ page.url | absolute_url }}#{{ child.objectid }}">{{ page.url | absolute_url }}#{{ child.objectid }}</a></dd>
+            {%- assign _ct_last = _ct | slice: -1 -%}
+            {%- assign _ctlen_m1 = _ct.size | minus: 1 -%}
+            {%- if _ct0 == '"' or _ct0 == '"' -%}
+              {%- if _ct_last == '"' or _ct_last == '"' -%}
+                {%- assign _ct_display = _ct | slice: 0, _ctlen_m1 | append: ',' | append: _ct_last -%}
+              {%- else -%}
+                {%- assign _ct_display = _ct | append: ',' -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- capture _ct_display -%}"{{ _ct }},"{%- endcapture -%}
+            {%- endif -%}
+            <dd>{{ _ct_display }} {{ site.title }}, {% if site.organization-name %}{{ site.organization-name }}, {% endif %}<a href="{{ page.url | absolute_url }}#{{ child.objectid }}">{{ page.url | absolute_url }}#{{ child.objectid }}</a></dd>
         </dl>
     </div>
 </div>
