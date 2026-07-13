@@ -61,7 +61,7 @@ use_reprint_maps: true
 {% endif %}
 {% include reprint-map.html group_id=orig.group_reprint_id %}
 {% if orig.document_intro and orig.document_intro != "" %}
-<p class="text-muted mt-3 mb-1" style="font-size:0.82em; line-height:1.6;">{{ orig.document_intro }}</p>
+<p class="text-muted mt-3 mb-1" style="font-size:0.82em; line-height:1.6;">{{ orig.document_intro | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
 {% endif %}
 </details>
 {%- endfor -%}

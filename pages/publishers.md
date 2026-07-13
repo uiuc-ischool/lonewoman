@@ -40,7 +40,7 @@ permalink: /publishers/
 {%- assign desc_text = first_item.document_intro -%}
 {%- endif -%}
 {%- if desc_text != "" -%}
-<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ desc_text }}</p>
+<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ desc_text | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
 {%- endif -%}
 <ul class="list-unstyled ps-3 mb-0">
 {%- assign sorted = g.items | sort: 'date' -%}
