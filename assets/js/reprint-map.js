@@ -323,7 +323,23 @@
           // (e.g. Boston → Honolulu) absurdly tall.
           // greatCircle routes arcs along the Earth's surface so long-distance
           // lines follow a sensible geodesic path rather than a vertical spike.
-          getHeight: 0.15,
+          //
+          // One category still balloons too tall under greatCircle even at
+          // 0.15: pairs that sit on the same side of the equator but far apart
+          // in longitude (e.g. US → India) arc dramatically higher than pairs
+          // that cross the equator or are closer together in longitude
+          // (e.g. US → Britain, US → New Zealand look right as-is). Taper the
+          // height down for just that case.
+          getHeight: function (d) {
+            var oLat = (d.origin_lat && d.origin_lat !== 0) ? d.origin_lat : d.lat;
+            var oLng = (d.origin_lng && d.origin_lng !== 0) ? d.origin_lng : d.lng;
+            var sameSide = (oLat >= 0) === (d.lat >= 0);
+            var lngGap = Math.abs(oLng - d.lng);
+            if (lngGap > 180) lngGap = 360 - lngGap;
+            if (!sameSide || lngGap <= 120) return 0.15;
+            var t = Math.min(1, (lngGap - 120) / 60); // 0 at 120°, 1 at 180°
+            return 0.15 * (1 - t * 0.5);               // tapers down to 0.075
+          },
           greatCircle: true,
           opacity: 0.82,
           pickable: true,
