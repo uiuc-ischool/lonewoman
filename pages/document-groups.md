@@ -5,6 +5,9 @@ permalink: /groups/
 use_reprint_maps: true
 ---
 
+<h1 class="mb-3">{{ page.title }}</h1>
+<p class="mb-4">This document groups section reveals what articles contained text directly reprinted from earlier articles, establishing reprint families of original and later articles that are direct, truncated, or paraphrased reprints of the original text. The document groups are organized chronologically by the publication date of the original article, and each group includes an interactive map showing the spread of reprinted text across publications in time and space.</p>
+
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' -%}
 {%- assign originals = compounds | where_exp: 'item', 'item.reprint_type contains "original"' | sort: 'date' -%}

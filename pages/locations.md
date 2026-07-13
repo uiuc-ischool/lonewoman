@@ -4,6 +4,8 @@ title: Locations
 permalink: /locations.html
 ---
 
+<h1 class="mb-3">{{ page.title }}</h1>
+
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' | sort: 'publisher_location' -%}
 

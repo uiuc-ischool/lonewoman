@@ -4,6 +4,8 @@ title: Publishers
 permalink: /publishers/
 ---
 
+<h1 class="mb-3">{{ page.title }}</h1>
+
 {%- assign all = site.data[site.metadata] -%}
 {%- assign articles = all | where_exp: 'item', 'item.display_template == "compound_object"' -%}
 {%- assign with_pub = articles | where_exp: 'item', 'item.publication != ""' -%}

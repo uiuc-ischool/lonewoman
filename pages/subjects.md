@@ -4,6 +4,8 @@ title: Tropes
 permalink: /subjects.html
 ---
 
+<h1 class="mb-3">{{ page.title }}</h1>
+
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' -%}
 {%- assign sorted_compounds = compounds | sort: 'date' -%}
