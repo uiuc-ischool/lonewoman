@@ -16,7 +16,7 @@ The archive presents both a digital surrogate of each document and an annotated 
 
 ## Project History
 
-This digital archive project was first completed in **2019** by a collaborative group at the **University of South Carolina**. A second initiative was completed in **2026** by a collaborative group at the **University of Illinois Urbana-Champaign**, transferring the article images and data to a new website platform in order to maintain and update the project's functionality. The project editor, Professor Sara L. Schwebel, led both of these projects.
+This digital archive project was first completed in **2019** by a collaborative group at the **University of South Carolina**. A second initiative was completed in **2026** by a collaborative group at the **University of Illinois Urbana-Champaign**, transferring the article images and data to a new website platform in order to maintain and update the project's functionality. The editor, Professor Sara L. Schwebel, led both of these projects.
 
 The original **2019 project** was developed using the Django web framework with a MySQL database back-end. To transform the documents from their TEI-encoded state into a human-readable webpage, XSLT was used. The links generated through the XSLT transformation enable users to view documents in tandem with contextualizing maps and annotations. The georeferencing software MapTiler was used to add digital copies of historic maps of the California region to a Google Maps base engine.
 
