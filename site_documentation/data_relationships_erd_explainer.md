@@ -58,7 +58,7 @@ The analyses below are computed by `metadata_notebooks/article_document_group_an
 
 ### 1. Reprint Group Membership
 
-Most articles in the archive are members of at least one reprint network, but a substantial minority stand alone.
+Most articles in the archive are members of at least one reprint network, but a substantial minority stand alone. There are 39 document groups.
 
 | Category | Count | % of 481 |
 |---|---|---|
