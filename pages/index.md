@@ -57,8 +57,8 @@ The website consists of **481 distinct articles** across **368 unique publicatio
 
 ## Funding
 
-Financial support for this project was generously provided by: two University of South Carolina Provost Humanities Grants, the University of South Carolina Department of English, the Center for Digital Humanities at the Magellan Scholar Program at the Channel Islands National Park, the Student Conservation Association/AmeriCorps internship program, the National Society of the Daughters of the American Revolution, a Carnegie-Whitney Grant from the American Library Association, Richard H. Dittman, and the Children's Literature Association.
+Financial support for this project was generously provided by: two University of South Carolina Provost Humanities Grants, the University of South Carolina Department of English, the Center for Digital Humanities at the University of South Carolina, the Magellan Scholar Program at the Channel Islands National Park, the Student Conservation Association/AmeriCorps internship program, the National Society of the Daughters of the American Revolution, the Carnegie-Whitney Grant from the American Library Association, Richard H. Dittman, and the Children’s Literature Association. Funding for the 2026 project update was provided by the School of Information Sciences at the University of Illinois Urbana-Champaign.
 
 ---
 
-*Banner image credit: detail from Louis Chorlis' 1817 illustration of an Aleut in a kayak off the coast of St. Paul (Alaska) with sea lions on the beach and a large sailing ship in background. Alaska State Library, Louis Chorlis Collection, 139-48.*
+Banner image credit: detail from Louis Chorlis' 1817 illustration of an Aleut in a kayak off the coast of St. Paul (Alaska) with sea lions on the beach and a large sailing ship in background. Alaska State Library, Louis Chorlis Collection, 139-48.
