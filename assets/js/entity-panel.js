@@ -3,6 +3,20 @@
    Requires: window.ENTITY_DATA (injected by entity-panel.html via Liquid)
              #entity-panel and its child elements in the DOM
 */
+
+/* Some entities in the source data have no write-up yet (a handful of place
+   entities only ever got lat/lng, meant for a mini-map feature that was
+   never built). Rendering those as clickable produces an empty panel, so
+   callers use these to skip linking them — the entity tagging itself stays
+   in the data either way, this only controls whether it renders as a link. */
+window.entityHasDescription = function (key) {
+  var e = (window.ENTITY_DATA || {})[key];
+  return !!(e && e.description && e.description.trim() !== '');
+};
+window.groupHasDescription = function (keys) {
+  return (keys || []).some(window.entityHasDescription);
+};
+
 (function () {
   var panel     = document.getElementById('entity-panel');
   var backBtn   = document.getElementById('ep-back-btn');

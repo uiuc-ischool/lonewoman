@@ -516,6 +516,19 @@
 (function () {
   var essay = document.querySelector('.lw-essay');
   if (!essay) return;
+
+  // Unlike the transcript viewer (built from JSON at runtime), these
+  // entity-link spans are static HTML — skip linking any whose entity (or,
+  // for a group, every entity in it) has no description written yet, since
+  // that currently produces an empty, useless panel. Unwrap rather than
+  // remove so any inner markup (e.g. <em>) and the plain text survive.
+  essay.querySelectorAll('.entity-link').forEach(function (span) {
+    var keys = span.dataset.entityKeys ? JSON.parse(span.dataset.entityKeys) : [span.dataset.entityKey];
+    if (!window.groupHasDescription(keys)) {
+      span.replaceWith.apply(span, span.childNodes);
+    }
+  });
+
   essay.addEventListener('click', function (e) {
     var link = e.target.closest('.entity-link');
     if (!link) return;

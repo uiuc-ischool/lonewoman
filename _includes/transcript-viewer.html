@@ -84,6 +84,14 @@ window.recalculateStripes = function () {
     .then(function (data) {
       function buildSegmentNode(seg) {
         var isEntity = seg.entity_key || seg.entity_keys;
+        // Skip linking entities with no description written yet (empty panel
+        // otherwise) — the entity_key tagging stays in the data either way.
+        if (isEntity) {
+          var linkable = seg.entity_keys
+            ? window.groupHasDescription(seg.entity_keys)
+            : window.entityHasDescription(seg.entity_key);
+          if (!linkable) isEntity = false;
+        }
         var inner;
         if (isEntity) {
           inner = document.createElement('span');
