@@ -5,6 +5,7 @@ permalink: /locations.html
 ---
 
 <h1 class="mb-3">{{ page.title }}</h1>
+<p class="mb-4">This page organizes the documents in the archive by the place of publication. The tags "Direct," "Paraphrased," and "Truncated" indicate reprints of articles first published elsewhere. The "Document Groups" tab shows the original publication from which they were derived.</p>
 
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' | sort: 'publisher_location' -%}
@@ -52,6 +53,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endif -%}
@@ -76,6 +78,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endif -%}
@@ -92,6 +95,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -105,6 +109,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -118,6 +123,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -131,6 +137,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -144,6 +151,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -157,6 +165,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}
@@ -200,6 +209,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.publisher_location != "" %}, {{ art.publisher_location }}{% endif %}{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endif -%}
@@ -218,6 +228,7 @@ Jump to:
 {%- if art.reprint_type contains "original" -%}{%- assign rtype = "Original" -%}{%- assign rbadge = "bg-primary" -%}
 {%- elsif art.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}{%- assign rbadge = "bg-success" -%}
 {%- elsif art.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}{%- assign rbadge = "bg-secondary" -%}
+{%- elsif art.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}{%- assign rbadge = "bg-info" -%}
 {%- else -%}{%- assign rtype = art.reprint_type | capitalize -%}{%- assign rbadge = "bg-info" -%}{%- endif -%}
 <li class="mb-1"><span class="badge {{ rbadge }} me-1">{{ rtype }}</span><a href="{{ art_url }}">{{ art.publication }}</a>{% if art.date %} ({{ art.date | slice: 0,4 }}){% endif %}</li>
 {%- endfor -%}

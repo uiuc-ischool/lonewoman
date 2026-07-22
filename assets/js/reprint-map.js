@@ -33,6 +33,13 @@
     paraphrase: 'background:rgba(34,197,94,0.20);color:#86efac',
   };
 
+  const TYPE_LABELS = {
+    original:   'Original',
+    direct:     'Direct',
+    truncated:  'Truncated',
+    paraphrase: 'Paraphrased',
+  };
+
   // ── Helpers ────────────────────────────────────────────────────────────────
   function getColor(d) { return TYPE_COLORS[d.reprint_type] || [200, 200, 200]; }
 
@@ -166,7 +173,7 @@
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#d1d5db;flex-shrink:0"></div><span>Original</span></div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#3b82f6;flex-shrink:0"></div><span>Direct</span></div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><div style="width:9px;height:9px;border-radius:50%;background:#f97316;flex-shrink:0"></div><span>Truncated</span></div>' +
-      '<div style="display:flex;align-items:center;gap:8px"><div style="width:9px;height:9px;border-radius:50%;background:#22c55e;flex-shrink:0"></div><span>Paraphrase</span></div>'
+      '<div style="display:flex;align-items:center;gap:8px"><div style="width:9px;height:9px;border-radius:50%;background:#22c55e;flex-shrink:0"></div><span>Paraphrased</span></div>'
     );
     container.appendChild(legend);
 
@@ -380,7 +387,7 @@
         '<div>' + fmtDate(d.date) + '</div>' +
         '<span style="display:inline-block;margin-top:5px;padding:1px 7px;border-radius:4px;' +
         'font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;' + bStyle + '">' +
-        d.reprint_type + '</span>';
+        (TYPE_LABELS[d.reprint_type] || d.reprint_type) + '</span>';
 
       // Keep inside container bounds
       var cw = container.offsetWidth;

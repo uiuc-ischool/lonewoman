@@ -118,7 +118,7 @@ The `ReprintMap` constructor (defined in `reprint-map.js`) builds a self-contain
 | Original | Gray `#d1d5db` |
 | Direct | Blue `#3b82f6` |
 | Truncated | Orange `#f97316` |
-| Paraphrase | Green `#22c55e` |
+| Paraphrased | Green `#22c55e` |
 
 **Animation:** Articles appear in chronological order. A `currentTs` variable advances from `MIN_TS` to `MAX_TS` in `BASE_FRAMES = 140` ticks (at speed 1×). Each tick, only rows with `d.ts ≤ currentTs` are rendered, so the reprint network grows over time.
 

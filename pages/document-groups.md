@@ -49,6 +49,7 @@ use_reprint_maps: true
 {%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
 {%- if it.reprint_type contains "direct" -%}{%- assign rtype = "Direct" -%}
 {%- elsif it.reprint_type contains "truncated" -%}{%- assign rtype = "Truncated" -%}
+{%- elsif it.reprint_type contains "paraphrase" -%}{%- assign rtype = "Paraphrased" -%}
 {%- else -%}{%- assign rtype = it.reprint_type | capitalize -%}{%- endif -%}
 <li class="mb-1">
 <span class="badge bg-secondary me-1">{{ rtype }}</span>

@@ -50,7 +50,7 @@ Groups articles by the country and region of their `publisher_location`, with su
 | Blue (`bg-primary`) | Original |
 | Green (`bg-success`) | Direct |
 | Grey (`bg-secondary`) | Truncated |
-| Teal (`bg-info`) | Paraphrase (or any other type) |
+| Teal (`bg-info`) | Paraphrased (or any other type) |
 
 **How it works:**
 1. Filters metadata to `display_template == "compound_object"`, sorts by `publisher_location`
