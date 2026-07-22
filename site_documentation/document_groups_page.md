@@ -67,6 +67,7 @@ The `use_reprint_maps: true` flag tells `_layouts/default.html` to inject the CD
    - Original's publication, location, year, and author
    - A `<ul>` of reprints with colored type badges, linked to item pages
    - `{% include reprint-map.html group_id=orig.group_reprint_id %}` — the map for this group
+   - If the original article has a `document_intro`, a "Document Note" section below the map with that text (only a handful of groups/manuscripts have one)
 
 ---
 

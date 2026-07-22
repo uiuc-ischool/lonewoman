@@ -15,8 +15,10 @@ Groups all articles alphabetically by the `publication` field (the newspaper or 
 **What it shows:**
 - A count of total publications and articles at the top
 - A–Z letter headings as section anchors
+- Each publication is a Bootstrap accordion item, collapsed by default; expanding it reveals its articles and, if one exists, a source note
 - Under each publication: a list of its articles sorted by `date`, each linking to the article's item page (`/items/<objectid>.html`)
 - Each list entry: article title, publication name, `publisher_location` (if present), and year
+- Below the article list, a "Source Note" (from `_data/article_sourcenotes.csv`, falling back to the first article's `document_intro`) describing the publication itself, set apart from the article list by a divider and small label
 
 **How it works:**
 1. Filters metadata to `compound_object` rows → `articles`

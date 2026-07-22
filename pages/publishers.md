@@ -16,14 +16,18 @@ permalink: /publishers/
 <p><em>No publications found.</em></p>
 {%- else -%}
 <p class="text-muted mb-4">{{ groups.size }} publications &middot; {{ with_pub.size }} articles</p>
-{%- assign current_letter = "" -%}
+{%- assign current_letter = "~unset~" -%}
 {%- for g in groups -%}
 {%- assign pub_name = g.name | strip -%}
 {%- assign letter = pub_name | upcase | slice: 0,1 -%}
 {%- assign alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" -%}
-{%- unless alpha contains letter -%}{%- assign letter = "#" -%}{%- endunless -%}
+{%- unless letter != "" and alpha contains letter -%}{%- assign letter = "#" -%}{%- endunless -%}
 {%- if letter != current_letter -%}
+{% unless current_letter == "~unset~" %}
+</div>
+{% endunless %}
 <h2 id="pub-{{ letter }}" class="mt-5 border-bottom pb-1">{{ letter }}</h2>
+<div class="accordion mb-2">
 {%- assign current_letter = letter -%}
 {%- endif -%}
 {%- assign first_item = g.items | first -%}
@@ -31,18 +35,22 @@ permalink: /publishers/
 {%- if sn_entry == nil or sn_entry.source_note == "" -%}
 {%- assign sn_entry = sn_data | where: 'publication', pub_name | first -%}
 {%- endif -%}
-<section class="mb-4">
-<h3 class="h5 mb-1">{{ pub_name }} <span class="text-muted fw-normal">({{ g.items | size }} article{% if g.items.size != 1 %}s{% endif %})</span></h3>
 {%- assign desc_text = "" -%}
 {%- if sn_entry.source_note and sn_entry.source_note != "" -%}
 {%- assign desc_text = sn_entry.source_note -%}
 {%- elsif first_item.document_intro and first_item.document_intro != "" -%}
 {%- assign desc_text = first_item.document_intro -%}
 {%- endif -%}
-{%- if desc_text != "" -%}
-<p class="text-muted mb-2" style="font-size:0.82em; line-height:1.5;">{{ desc_text | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
-{%- endif -%}
-<ul class="list-unstyled ps-3 mb-0">
+{%- assign pid = pub_name | slugify | append: '-' | append: forloop.index -%}
+<div class="accordion-item">
+<h3 class="accordion-header h5" id="heading-{{ pid }}">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ pid }}" aria-expanded="false" aria-controls="collapse-{{ pid }}">
+{{ pub_name }} <span class="text-muted fw-normal small ms-2">({{ g.items | size }} article{% if g.items.size != 1 %}s{% endif %})</span>
+</button>
+</h3>
+<div id="collapse-{{ pid }}" class="accordion-collapse collapse" aria-labelledby="heading-{{ pid }}">
+<div class="accordion-body">
+<ul class="list-group list-group-flush mb-0">
 {%- assign sorted = g.items | sort: 'date' -%}
 {%- for it in sorted -%}
 {%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
@@ -68,19 +76,28 @@ permalink: /publishers/
   {%- assign _tlen_m1 = _t.size | minus: 1 -%}
   {%- assign _t_body = _t | slice: 0, _tlen_m1 -%}
   {%- if _meta != "" -%}
-<li class="mb-1"><a href="{{ item_url }}">{{ _t_body }}</a>,{{ _t_last }} {{ _meta }}</li>
+<li class="list-group-item px-0"><a href="{{ item_url }}">{{ _t_body }}</a>,{{ _t_last }} {{ _meta }}</li>
   {%- else -%}
-<li class="mb-1"><a href="{{ item_url }}">{{ _t_body }}</a>{{ _t_last }}</li>
+<li class="list-group-item px-0"><a href="{{ item_url }}">{{ _t_body }}</a>{{ _t_last }}</li>
   {%- endif -%}
 {%- else -%}
   {%- if _meta != "" -%}
-<li class="mb-1"><a href="{{ item_url }}">{{ _t }}</a>, {{ _meta }}</li>
+<li class="list-group-item px-0"><a href="{{ item_url }}">{{ _t }}</a>, {{ _meta }}</li>
   {%- else -%}
-<li class="mb-1"><a href="{{ item_url }}">{{ _t }}</a></li>
+<li class="list-group-item px-0"><a href="{{ item_url }}">{{ _t }}</a></li>
   {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </ul>
-</section>
+{%- if desc_text != "" -%}
+<div class="mt-3 pt-3 border-top">
+<h4 class="text-uppercase text-muted mb-1" style="font-size:0.75em; letter-spacing:.04em;">Source Note</h4>
+<p class="mb-0" style="font-size:0.95em; line-height:1.6; color:#495057;">{{ desc_text | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
+</div>
+{%- endif -%}
+</div>
+</div>
+</div>
 {%- endfor -%}
+</div>
 {%- endif -%}
