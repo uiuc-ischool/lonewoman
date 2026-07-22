@@ -24,6 +24,7 @@ Each article has a hand-encoded TEI XML file containing the transcript text with
 
 - **Trope spans:** `<span type="trope" n="3">` — marks a passage as belonging to trope #3. Trope numbers map to labels via `_data/tropes.yml`.
 - **Entity annotations:** `<persName key="#fremontcpt">`, `<placeName key="#ci_aca">`, `<orgName key="#natam_aleuts">`, `<name type="ship" key="#sh_active">` — links text to a named entity by key. A span can carry multiple keys separated by semicolons for group annotations.
+- **Struck-through text:** `<del rend="strikethrough">` — appears only in the small set of manuscript-source articles (dictated interviews and personal narratives, as opposed to periodical clippings). Marks text the original writer or transcriber crossed out. See [`data_relationships_erd_explainer.md`](data_relationships_erd_explainer.md#manuscript-articles-struck-through-text) for which articles these are and why they're unique in the archive.
 
 ---
 
@@ -41,6 +42,7 @@ Walks the XML body, collecting `<p>` paragraphs and splitting each into **segmen
 - Entity text: `{ "text": "George Nidever", "entity_key": "nidever", "entity_type": "person" }`
 - Both: `{ "text": "the Island", "tropes": [6], "entity_key": "ci_sni", "entity_type": "place" }`
 - Group annotation (multiple entities on same text): uses `entity_keys` (array) instead of `entity_key`
+- Struck-through text: adds `"deleted": true` to whatever segment it would otherwise be, e.g. `{ "text": "Colorado", "deleted": true }` or, if the crossed-out text was itself entity-tagged, `{ "text": "i", "entity_key": "lw", "entity_type": "person", "deleted": true }`. A `del_depth` counter in `extract_segments()` tracks nesting so text is flagged correctly even when a `<del>` wraps a nested entity tag.
 
 The output JSON structure:
 ```json
@@ -107,8 +109,9 @@ At build time, Jekyll serializes the entire `_data/entities.json` into the JS fi
 
 ## Runtime: Transcript Rendering
 
-**Layout:** `_layouts/item/compound_object.html` (right column)
-**Also available as a standalone include:** `_includes/transcript-viewer.html`
+**Rendering logic lives in one place:** `_includes/transcript-viewer.html`
+**Included by:** `_layouts/item/compound_object.html` (right column of the article page), via `{% include transcript-viewer.html document_id=page.article_id %}`
+
 
 The transcript `<div>` is rendered with a `data-src` attribute pointing to the JSON file:
 
@@ -127,6 +130,9 @@ An inline `fetch()` loads the JSON at runtime and calls `buildSegmentNode()` on 
 | Entity text | `<span class="entity-link" data-entity-key="..." data-entity-type="...">` |
 | Both (trope + entity) | `<mark>` wrapping a `<span>` |
 | Group entity | `<span class="entity-link" data-entity-keys='["key1","key2"]'>` |
+| Struck-through (`deleted: true`) | Whatever node the segment would otherwise be, wrapped in `<del class="transcript-deletion" title="Struck through in the original manuscript">` |
+
+The `.transcript-deletion` rule (injected into `<head>` alongside the trope color variables — see the `trope_css` capture block near the top of the include) renders it with `text-decoration: line-through` and reduced opacity, so it's still fully readable but visually distinct from the surrounding text. Because the wrap happens last in `buildSegmentNode()`, a struck-through entity is still a clickable `.entity-link` inside the `<del>` — the entity panel behaves normally even for crossed-out names.
 
 ---
 
@@ -192,8 +198,8 @@ Clicking any underlined entity text in the transcript triggers a click listener 
 | `_data/tropes.yml` | Trope id / label / color definitions |
 | `_includes/interpretive-panel.html` | Trope checklist panel; triggers `recalculateStripes()` |
 | `_includes/entity-panel.html` | Entity panel DOM and script loader |
-| `_includes/transcript-viewer.html` | Standalone include version of the transcript renderer |
-| `_layouts/item/compound_object.html` | Main article page layout; wires all of the above together |
+| `_includes/transcript-viewer.html` | The transcript renderer: trope CSS, `fetch()`, `buildSegmentNode()`, entity-link click handling, strikethrough wrapping |
+| `_layouts/item/compound_object.html` | Main article page layout; includes `transcript-viewer.html` and wires up the gallery/interpretive-panel/entity-panel views around it |
 
 ---
 

@@ -102,6 +102,27 @@ Document intros appear on the Document Groups page beneath the interactive arc m
 
 ---
 
+## Manuscript Articles: Struck-Through Text
+
+A small group of articles are not periodical clippings at all, but primary-source manuscripts — handwritten or typed interview transcripts and personal narratives. Six articles carry this kind of source material:
+
+| article_id | Source | Form | Reprint group |
+|---|---|---|---|
+| Nidever1878 | Manuscript C-D133, Bancroft Library | Dictated memoir | *(standalone)* |
+| Dittman1878 | Manuscript C-D67, Bancroft Library | Dictated narrative | *(standalone)* |
+| Hardacre1879 | — | Manuscript draft | *(standalone)* |
+| Murray1878 | — | Manuscript draft | *(standalone)* |
+| Terry1882 | Manuscript 770, Braun Research Library | Interview (Q&A) | Original of `Terry1882_reprint` |
+| Sheridan1925 | — | Typed narrative | Original of `Sheridan1925_reprint`, and also a member of `Terry1882_reprint` (see the multi-group table above) |
+
+Four of the six (Nidever1878, Dittman1878, Hardacre1879, Murray1878) are standalone sources with no reprint group. The other two, Terry1882 and Sheridan1925, are themselves the *original* document at the head of their own reprint networks — meaning some of the periodical articles elsewhere in the archive are reprints drawing on these manuscripts.
+
+Because these are original manuscripts rather than printed periodicals, they preserve something no newspaper reprint does: the author's or transcriber's own real-time corrections — crossed-out words, typo fixes, false starts, and abandoned phrasings, exactly as they appear on the page. The TEI encoding captures each of these with a `<del rend="strikethrough">` tag, and the website renders them **visibly struck through** in the transcript (rather than silently dropping them or showing them as ordinary, indistinguishable text). A reader can see, for example, that "Colorado" was crossed out in favor of "Bonito" as a nickname, or that a writer typed "St" then caught themselves mid-word and corrected "State." Where the original correction was illegible, the transcriber's own placeholder (`[...]`) is preserved and struck through the same way.
+
+Across the six manuscripts there are roughly 220 of these struck-through passages, ranging from single-letter typo corrections to entire abandoned clauses. This is a unique feature of the manuscript-type articles in the collection — periodical articles have no equivalent, since a printed newspaper page has no authorial second-guessing left on it to preserve. See [`article_page_transcripts_tropes_entities.md`](article_page_transcripts_tropes_entities.md) for how the strikethrough pipeline is implemented, from the TEI `<del>` tag through to the rendered transcript.
+
+---
+
 ## Many-to-Many: Articles and Document Groups
 
 An article can belong to more than one document group, and a document group contains many articles. This is a true many-to-many (N:M) relationship.
