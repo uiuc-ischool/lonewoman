@@ -14,7 +14,8 @@ Groups all articles alphabetically by the `publication` field (the newspaper or 
 
 **What it shows:**
 - A count of total publications and articles at the top
-- A–Z letter headings as section anchors
+- A "Manuscripts and Non-Periodical Texts" section at the very top, outside the A–Z scheme — covers archival manuscripts (grouped by publication names starting with "Manuscript") and any item with no real publisher name (labeled "Unattributed", with a location fallback if available)
+- A small "Periodical Sources" label, then the normal A–Z letter headings as section anchors resume for everything else
 - Each publication is a Bootstrap accordion item, collapsed by default; expanding it reveals its articles and, if one exists, a source note
 - Under each publication: a list of its articles sorted by `date`, each linking to the article's item page (`/items/<objectid>.html`)
 - Each list entry: article title, publication name, `publisher_location` (if present), and year
@@ -24,8 +25,10 @@ Groups all articles alphabetically by the `publication` field (the newspaper or 
 1. Filters metadata to `compound_object` rows → `articles`
 2. Filters out rows where `publication` is empty → `with_pub`
 3. Groups by `publication`, sorts groups alphabetically → `groups`
-4. Iterates groups, tracking first letter to insert A–Z headings
-5. Within each group, sorts articles by `date` before listing
+4. A first pass flags "special" groups — publication name starts with "Manuscript", or its first letter isn't A–Z (blank/odd names) — and collects their names into a delimited string
+5. Special groups render first, under "Manuscripts and Non-Periodical Texts," via a shared include (`_includes/publisher-accordion-item.html`)
+6. Remaining groups render under "Periodical Sources," resuming the normal per-letter A–Z headings, tracking first letter to insert each one
+7. Within each group, sorts articles by `date` before listing
 
 ---
 
@@ -91,7 +94,8 @@ The timeline page file (`pages/timeline.md`) contains only front matter and a he
 
 | File | Role |
 |---|---|
-| `pages/publishers.md` | Publishers browse page — full Liquid logic inline |
+| `pages/publishers.md` | Publishers browse page — groups into the special/periodical split, then loops per group |
+| `_includes/publisher-accordion-item.html` | Renders one accordion item (article list + source note); shared by both the manuscripts/non-periodical loop and the periodical loop |
 | `pages/locations.md` | Locations browse page — full Liquid logic inline |
 | `pages/timeline.md` | Timeline page stub — just front matter and a heading |
 | `_layouts/timeline.html` | CollectionBuilder timeline layout with all rendering logic |

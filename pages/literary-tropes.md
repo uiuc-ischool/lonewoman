@@ -1,5 +1,5 @@
 ---
-title: Tropes Interpretive Essay
+title: Tropes Introduction Essay
 layout: page
 permalink: /literary-tropes/
 ---

@@ -74,13 +74,13 @@ Source notes are publication-history descriptions that appear on the Publishers 
 
 | Category | Count | % of 481 |
 |---|---|---|
-| Articles with a source note (periodical sources) | 422 | 87.7% |
-| Articles without a source note (non-periodical sources) | 59 | 12.3% |
+| Articles with a source note (periodical sources) | 423 | 87.9% |
+| Articles without a source note (non-periodical sources) | 58 | 12.1% |
 | **Total unique articles** | **481** | |
 
-The 59 articles without source notes are the same category as the standalone non-periodicals described above: books (e.g., *Handbook of the Indians of California*, *Bulletin of the United States Geological Survey of the Territories*), French-language editions, theses, and government reports. These sources are vital to the archive's scholarly context but are not newspaper-type publications for which a publication history would be written.
+The 58 articles without source notes are the same category as the standalone non-periodicals described above: books (e.g., *Handbook of the Indians of California*, *Bulletin of the United States Geological Survey of the Territories*), French-language editions, theses, and government reports. These sources are vital to the archive's scholarly context but are not newspaper-type publications for which a publication history would be written.
 
-Two of the 59 — George Nidever's *The Life and Adventures of a Pioneer of California Since 1834* (Manuscript C-D133) and Carl Dittman's *Narrative of a Seafaring Life on the Coast of California* (Manuscript C-D67) — are an exception on the Publishers page: because they have `document_intro` essays in the master CSV, those intro texts are displayed in place of a source note beneath their publication headings. All other non-periodical sources show no descriptive text on the Publishers page.
+Two of the 58 — George Nidever's *The Life and Adventures of a Pioneer of California Since 1834* (Manuscript C-D133) and Carl Dittman's *Narrative of a Seafaring Life on the Coast of California* (Manuscript C-D67) — are an exception on the Publishers page: because they have `document_intro` essays in the master CSV, those intro texts are displayed in place of a source note beneath their publication headings. All other non-periodical sources show no descriptive text on the Publishers page.
 
 ### 3. Articles with Document Introductions
 
