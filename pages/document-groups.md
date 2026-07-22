@@ -6,7 +6,7 @@ use_reprint_maps: true
 ---
 
 <h1 class="mb-3">{{ page.title }}</h1>
-<p class="mb-4">This section reveals what articles contain text directly reprinted from earlier articles. The groups are reprint families including an original article and the later articles that are direct, truncated, or paraphrased reprints of that original text. The document groups are organized chronologically by the publication date of the original article, and each group includes an interactive map showing the spread of reprinted text across publications in time and space.</p>
+<p class="mb-4">This page shows the relationship between articles that were reprinted, in whole or in part, in other publications. Reprint families include an original article and later direct, truncated, or paraphrased reprints of that original text. The document groups are organized chronologically by the publication date of the parent article, and each group includes an interactive map showing the spread of reprinted text across publications in time and space.</p>
 
 {%- assign all = site.data[site.metadata] -%}
 {%- assign compounds = all | where: 'display_template', 'compound_object' -%}
@@ -61,9 +61,9 @@ use_reprint_maps: true
 {% endif %}
 {% include reprint-map.html group_id=orig.group_reprint_id %}
 {% if orig.document_intro and orig.document_intro != "" %}
-<div class="mt-3 pt-3 border-top">
+<div class="mt-3 pt-3 border-top" style="font-size:0.95em; line-height:1.6; color:#495057;">
 <h4 class="text-uppercase text-muted mb-1" style="font-size:0.75em; letter-spacing:.04em;">Document Note</h4>
-<p class="mb-0" style="font-size:0.95em; line-height:1.6; color:#495057;">{{ orig.document_intro | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
+{{ orig.document_intro | replace: "End Notes", "<strong>End Notes</strong>" | paragraphize: "mb-2" }}
 </div>
 {% endif %}
 </details>

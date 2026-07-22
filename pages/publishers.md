@@ -90,9 +90,9 @@ permalink: /publishers/
 {%- endfor -%}
 </ul>
 {%- if desc_text != "" -%}
-<div class="mt-3 pt-3 border-top">
+<div class="mt-3 pt-3 border-top" style="font-size:0.95em; line-height:1.6; color:#495057;">
 <h4 class="text-uppercase text-muted mb-1" style="font-size:0.75em; letter-spacing:.04em;">Source Note</h4>
-<p class="mb-0" style="font-size:0.95em; line-height:1.6; color:#495057;">{{ desc_text | newline_to_br | replace: "End Notes", "<strong>End Notes</strong>" }}</p>
+{{ desc_text | replace: "End Notes", "<strong>End Notes</strong>" | paragraphize: "mb-2" }}
 </div>
 {%- endif -%}
 </div>
