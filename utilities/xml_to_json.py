@@ -70,29 +70,35 @@ def extract_segments(p_elem):
     """Walk a <p> element and return a list of text segments.
 
     Handles nested/overlapping trope spans via an active_tropes stack.
-    Each segment: {'text': str} or {'text': str, 'tropes': [int, ...]}.
+    Each segment: {'text': str}, optionally with 'tropes': [int, ...] and/or
+    'deleted': True for text that was struck through in the manuscript.
     """
     segments = []
     buf = []
     active_tropes = []
+    del_depth = [0]  # >0 while inside a <del rend="strikethrough"> element
 
     def flush():
         raw = "".join(buf)
+        # Collapse whitespace runs (including newline/indent from XML
+        # pretty-printing) to a single space — never strip it here. Whitespace
+        # between an entity/trope tag and the next word (or vice versa) is a
+        # genuine mid-sentence word boundary and must be preserved so adjacent
+        # segments concatenate correctly. The only place a leading run should
+        # be dropped entirely is true paragraph-start text, which is handled
+        # separately where p_elem.text is first added to buf.
         text = re.sub(r"\s+", " ", raw)
-        # Strip leading whitespace only when it originated from XML indentation
-        # (raw starts with, or after leading spaces contains, a newline/tab).
-        # A plain leading space from a tag tail is a genuine word boundary and
-        # must be preserved so adjacent segments concatenate with a space.
-        stripped_of_spaces = raw.lstrip(' ')
-        if not stripped_of_spaces or stripped_of_spaces[0] in '\n\r\t':
-            text = text.lstrip()
-        # Discard segments that are nothing but a single space.
-        if not text or text == " ":
+        # A lone space is a real word boundary (e.g. between two back-to-back
+        # entity tags with nothing but whitespace between them in the XML) and
+        # must be kept as its own segment — only truly empty content is noise.
+        if not text:
             buf.clear()
             return
         seg = {"text": text}
         if active_tropes:
             seg["tropes"] = list(active_tropes)
+        if del_depth[0] > 0:
+            seg["deleted"] = True
         segments.append(seg)
         buf.clear()
 
@@ -121,6 +127,21 @@ def extract_segments(p_elem):
             active_tropes.pop()
             if elem.tail:
                 buf.append(elem.tail)
+        elif local == "del":
+            # Struck-through text in the manuscript. Keep it in the transcript
+            # (it has historical/editorial value) but flag it so the front end
+            # can render it with a visible strikethrough rather than as plain
+            # text indistinguishable from the author's final wording.
+            flush()
+            del_depth[0] += 1
+            if elem.text:
+                buf.append(elem.text)
+            for child in elem:
+                walk(child)
+            flush()
+            del_depth[0] -= 1
+            if elem.tail:
+                buf.append(elem.tail)
         elif local in ENTITY_TAG_MAP or (local == "name" and elem.get("type") == "ship"):
             keys = parse_entity_keys(elem.get("key"))
             if keys:
@@ -136,6 +157,8 @@ def extract_segments(p_elem):
                     else:
                         seg["entity_key"] = keys
                     seg["entity_type"] = entity_type
+                    if del_depth[0] > 0:
+                        seg["deleted"] = True
                     segments.append(seg)
             else:
                 if elem.text:
@@ -153,7 +176,10 @@ def extract_segments(p_elem):
                 buf.append(elem.tail)
 
     if p_elem.text:
-        buf.append(p_elem.text)
+        # Paragraph-initial text only: strip its leading whitespace so a
+        # paragraph doesn't start with a stray space from XML indentation
+        # right after the opening <p> tag.
+        buf.append(p_elem.text.lstrip())
     for child in p_elem:
         walk(child)
     flush()

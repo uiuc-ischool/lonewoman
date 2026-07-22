@@ -29,6 +29,11 @@ mark.trope-mark {
   padding: 0 1px 3px;
   transition: box-shadow 0.2s ease;
 }
+del.transcript-deletion {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  opacity: 0.6;
+}
 {% endcapture %}
 
 <script>
@@ -91,14 +96,26 @@ window.recalculateStripes = function () {
           }
           inner.textContent = seg.text;
         }
+        var node;
         if (seg.tropes && seg.tropes.length) {
           var mark = document.createElement('mark');
           mark.className = 'trope-mark ' + seg.tropes.map(function(n) { return 'trope-' + n; }).join(' ');
           mark.dataset.tropes = seg.tropes.join(',');
           if (isEntity) { mark.appendChild(inner); } else { mark.textContent = seg.text; }
-          return mark;
+          node = mark;
+        } else {
+          node = isEntity ? inner : document.createTextNode(seg.text);
         }
-        return isEntity ? inner : document.createTextNode(seg.text);
+        // Struck-through text in the manuscript: keep it visible but marked,
+        // rather than indistinguishable from the author's final wording.
+        if (seg.deleted) {
+          var del = document.createElement('del');
+          del.className = 'transcript-deletion';
+          del.title = 'Struck through in the original manuscript';
+          del.appendChild(node);
+          return del;
+        }
+        return node;
       }
 
       var frag = document.createDocumentFragment();
