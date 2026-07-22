@@ -16,10 +16,20 @@ gallery: true
     align-items: flex-start;
   }
 
-  /* Left column: fixed ~48% so the transcript always has room */
+  /* Left column: fixed ~48% so the transcript always has room.
+     Sticky so the gallery / interpretive panel / entity panel stay in view
+     while the (often much longer) transcript on the right is scrolled —
+     otherwise clicking an entity link leaves the panel above the fold with
+     no way to see it without scrolling back to the top. max-height +
+     overflow-y lets the column itself scroll if its own content (e.g. a
+     long entity description) is taller than the viewport. */
   .article-viewer-left {
     flex: 0 0 48%;
     max-width: 48%;
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
   }
 
   /* Right column: fills remaining space; long transcripts scroll with the page */
@@ -46,6 +56,9 @@ gallery: true
     .article-viewer          { flex-direction: column; }
     .article-viewer-left,
     .article-viewer-right    { flex: none; max-width: 100%; width: 100%; }
+    /* Stacked layout: sticky would just pin the panel above the transcript
+       and eat scroll space, rather than staying visible beside it. */
+    .article-viewer-left     { position: static; max-height: none; overflow-y: visible; }
   }
 </style>
 
