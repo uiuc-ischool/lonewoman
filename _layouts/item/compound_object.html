@@ -43,6 +43,21 @@ gallery: true
     display: none;
   }
 
+  /* The "Expand Document" button lives in the left column, so it disappears
+     along with it in expanded mode — this button is the only way back,
+     shown only while expanded, and kept in view via sticky positioning so
+     it's reachable without scrolling back to the top of a long transcript. */
+  .doc-collapse-btn {
+    display: none;
+    position: sticky;
+    top: 1rem;
+    z-index: 20;
+    margin-bottom: .75rem;
+  }
+  .article-viewer.doc-expanded .doc-collapse-btn {
+    display: inline-block;
+  }
+
   /* Button bar beneath the gallery / panel */
   .viewer-controls {
     display: flex;
@@ -94,6 +109,7 @@ gallery: true
 
   <!-- ── RIGHT COLUMN: transcript ────────────────────────── -->
   <div class="article-viewer-right" id="transcript-col">
+    <button id="collapse-doc-btn" class="btn btn-secondary btn-sm doc-collapse-btn" type="button">✕ Collapse Document</button>
     {% if page.article_id != "" and page.article_id != nil %}
       {% include transcript-viewer.html document_id=page.article_id %}
     {% else %}
@@ -149,12 +165,21 @@ gallery: true
   }
 
   /* ── Expand-document toggle ───────────────────────────── */
+  var collapseBtn = document.getElementById('collapse-doc-btn');
+  function setDocExpanded(expanded) {
+    viewer.classList.toggle('doc-expanded', expanded);
+    expandBtn.textContent = expanded ? 'Collapse' : 'Expand Document';
+    expandBtn.classList.toggle('btn-secondary', expanded);
+    expandBtn.classList.toggle('btn-outline-secondary', !expanded);
+  }
   if (expandBtn) {
     expandBtn.addEventListener('click', function () {
-      var expanded = viewer.classList.toggle('doc-expanded');
-      expandBtn.textContent = expanded ? 'Collapse' : 'Expand Document';
-      expandBtn.classList.toggle('btn-secondary', expanded);
-      expandBtn.classList.toggle('btn-outline-secondary', !expanded);
+      setDocExpanded(!viewer.classList.contains('doc-expanded'));
+    });
+  }
+  if (collapseBtn) {
+    collapseBtn.addEventListener('click', function () {
+      setDocExpanded(false);
     });
   }
 }());
