@@ -1,11 +1,14 @@
 {% comment %}
     This include creates a modal pop up with data export options.
-    The logic of which formats appear is based on config-nav stubs:
-    if subject.html, map.html, location.html, or timeline.html are present, 
-    corresponding data formats will be available for download.
+    Three data downloads only:
+      1. Complete Metadata — verbatim copy of the master source CSV, all rows/columns
+         (served by _plugins/copy_source_csv.rb, kept byte-identical to _data/<metadata>.csv)
+      2. Article Metadata — one row per article, matching the Data page table
+         (assets/data/article-metadata.csv)
+      3. Metadata Facets — unique value counts (assets/data/facets.json)
 {%- endcomment -%}
 
-{%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+{%- assign source_csv_name = site.metadata | append: '.csv' -%}
 <button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Download Data</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
@@ -18,64 +21,31 @@
             <div class="modal-body">
 
                 <p>Download this collection's data in a variety of reusable formats.</p>
-                
-                {% if site.data.theme.metadata-export-fields %}
+
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Complete Metadata</h2>
-                        <p class="card-text">All metadata fields for all collection items, available as a CSV spreadsheet (usable in Excel, Google Sheets, and similar programs) or JSON file (often used with web applications).</p>
-                        <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" download>Metadata CSV</a>
-                        <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata JSON</a>
+                        <p class="card-text">The full master metadata spreadsheet, exactly as it drives the site: one row per article per document group, plus one row per scanned page image (usable in Excel, Google Sheets, and similar programs).</p>
+                        <a href="{{ '/assets/data/' | append: source_csv_name | relative_url }}" class="btn btn-outline-dark" download>Complete Metadata CSV</a>
                     </div>
                 </div>
-                {%- endif -%}
-                {% if site.data.theme.metadata-facets-fields %}
+
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h2 class="card-title h4">Article Metadata</h2>
+                        <p class="card-text">A simplified, one-row-per-article spreadsheet — the same publication metadata (title, publication, author, date, location, tropes) shown in the table on this page.</p>
+                        <a href="{{ '/assets/data/article-metadata.csv' | relative_url }}" class="btn btn-outline-dark" download>Article Metadata CSV</a>
+                    </div>
+                </div>
+
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Metadata Facets</h2>
-                        <p class="card-text">List of unique values and their count for specific metadata fields, useful for understanding content of the fields.</p>
+                        <p class="card-text">List of unique values and their count for specific metadata fields (publication, author, format), useful for understanding content of the fields.</p>
                         <a href="{{ '/assets/data/facets.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Facets JSON</a>
                     </div>
                 </div>
-                {%- endif -%}
-                {% if stubs contains "subject" %}
-                <div class="card my-3">
-                    <div class="card-body">
-                        <h2 class="card-title h4">Subject Metadata</h2>
-                        <p class="card-text">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
-                        <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" download>Subjects CSV</a>
-                        <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects JSON</a>
-                    </div>
-                </div>
-                {% endif %}
-                {% if stubs contains "location" %}
-                <div class="card my-3">
-                    <div class="card-body">
-                        <h2 class="card-title h4">Locations</h2>
-                        <p class="card-text">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
-                        <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" download>Locations CSV</a>
-                        <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations JSON</a>
-                    </div>
-                </div>
-                {%- endif -%}
-                {% if stubs contains "map" %}
-                <div class="card my-3">
-                    <div class="card-body">
-                        <h2 class="card-title h4">GeoJSON</h2>
-                        <p class="card-text">Metadata for all collection items that have geographic coordinates in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
-                        <a href="{{ '/assets/data/geodata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Geodata JSON</a>
-                    </div>
-                </div>
-                {%- endif -%}
-                {% if stubs contains "timeline" %}
-                <div class="card my-3">
-                    <div class="card-body">
-                        <h2 class="card-title h4">Timeline</h2>
-                        <p class="card-text">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/">TimelineJS</a>.</p>
-                        <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
-                    </div>
-                </div>
-                {%- endif -%}
+
                 <div class="card my-3">
                     <div class="card-body">
                         <h2 class="card-title h4">Website Source Code</h2>
@@ -106,7 +76,32 @@
         }
     ],
     "hasPart" : [
-        {% if site.data.theme.metadata-facets-fields %}
+        {
+            "@type": "Dataset",
+            "name": "{{ site.title | escape }} complete metadata",
+            "description": "Complete master metadata export, including both article and image rows.",
+            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+            "distribution":[
+                {
+                    "@type":"DataDownload",
+                    "encodingFormat":"CSV",
+                    "contentUrl":"{{ '/assets/data/' | append: source_csv_name | absolute_url }}"
+                }
+            ]
+        },
+        {
+            "@type": "Dataset",
+            "name": "{{ site.title | escape }} article metadata",
+            "description": "Simplified article-level metadata export, one row per article.",
+            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+            "distribution":[
+                {
+                    "@type":"DataDownload",
+                    "encodingFormat":"CSV",
+                    "contentUrl":"{{ '/assets/data/article-metadata.csv' | absolute_url }}"
+                }
+            ]
+        },
         {
             "@type": "Dataset",
             "name": "{{ site.title | escape }} Metadata Facets",
@@ -117,95 +112,6 @@
                     "@type":"DataDownload",
                     "encodingFormat":"JSON",
                     "contentUrl":"{{ '/assets/data/facets.json' | absolute_url }}"
-                }
-            ]      
-        },
-        {%- endif -%}
-        {% if stubs contains "subject" %}
-        {
-            "@type": "Dataset",
-            "name": "{{ site.title | escape }} metadata subject counts",
-            "description": "Unique values and counts of metadata subject fields.",
-            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-            "distribution":[
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"CSV",
-                    "contentUrl":"{{ '/assets/data/subjects.csv' | absolute_url }}"
-                },
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"JSON",
-                    "contentUrl":"{{ '/assets/data/subjects.json' | absolute_url }}"
-                }
-            ]      
-        },
-        {%- endif -%}
-        {% if stubs contains "location" %}
-        {
-            "@type": "Dataset",
-            "name": "{{ site.title | escape }} metadata location counts",
-            "description": "Unique values and counts of metadata location fields.",
-            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-            "distribution":[
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"CSV",
-                    "contentUrl":"{{ '/assets/data/locations.csv' | absolute_url }}"
-                },
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"JSON",
-                    "contentUrl":"{{ '/assets/data/locations.json' | absolute_url }}"
-                }
-            ]      
-        },
-        {%- endif -%}
-        {% if stubs contains "map" %}
-        {
-            "@type": "Dataset",
-            "name": "{{ site.title | escape }} geographic metadata",
-            "description": "Geojson data containing all objects with lat-longs and associated descriptive metadata.",
-            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-            "distribution":[
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"JSON",
-                    "contentUrl":"{{ '/assets/data/geodata.json' | absolute_url }}"
-                }
-            ]      
-        },
-        {%- endif -%}
-        {% if stubs contains "timeline" %}
-        {
-            "@type": "Dataset",
-            "name": "{{ site.title | escape }} timeline metadata",
-            "description": "Time-based metadata formatted for TimelineJS or other applications.",
-            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-            "distribution":[
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"JSON",
-                    "contentUrl":"{{ '/assets/data/timelinejs.json' | absolute_url }}"
-                }
-            ]      
-        },
-        {%- endif -%}
-        {
-            "@type": "Dataset",
-            "name": "{{ site.title | escape }} full metadata",
-            "description": "Complete metadata export for {{ site.title | escape }} objects.",
-            "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-            "distribution":[
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"CSV",
-                    "contentUrl":"{{ '/assets/data/metadata.csv' | absolute_url }}"
-                },
-                {
-                    "@type":"DataDownload",
-                    "encodingFormat":"JSON",
-                    "contentUrl":"{{ '/assets/data/metadata.json' | absolute_url }}"
                 }
             ]
         }

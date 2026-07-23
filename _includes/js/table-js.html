@@ -17,9 +17,7 @@ $(document).ready( function () {
         buttons: [ 'excelHtml5', 'csvHtml5' ],
         // get the data from json
         columns: [ {% for i in (0..fcount) %}{ data: '{{ i }}' }{% unless forloop.last %},{% endunless %}{% endfor %} ],
-        columnDefs: [ 
-            // turn relative link into absolute
-            { "render": function ( data ) { return '{{ "/" | relative_url }}' + data; },"targets": {{ fcount }} },
+        columnDefs: [
             // combine link with first column
             { "render": function ( data, type, row ) { return '<a href="' + row['{{ fcount }}'] +'">'+ data +'</a>'; },"targets": 0 },
             // hide the link column

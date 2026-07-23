@@ -1,0 +1,11 @@
+---
+# Article-level metadata CSV — matches exactly what's shown in the table
+# on the Data page (one row per article; excludes individual scanned
+# page images). Columns come from _data/config-table.csv, plus article_id
+# and a link to the item page.
+---
+{%- assign items = site.data[site.metadata] | where: 'display_template', 'compound_object' -%}
+{%- assign fields = site.data.config-table | map: 'field' -%}
+article_id,{% for f in fields %}{{ f }}{% unless forloop.last %},{% endunless %}{% endfor %},reference_url
+{% for item in items %}"{{ item.article_id | escape }}",{% for f in fields %}"{{ item[f] | escape }}",{% endfor %}{{ '/items/' | relative_url }}{{ item.objectid | downcase }}.html
+{% endfor %}
