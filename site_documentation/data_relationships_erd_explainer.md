@@ -50,6 +50,10 @@ A `compound_object` row is the parent that groups all the scanned page images fo
 
 The 494 compound_object rows (rather than 481) reflect the 13 dual-membership articles: each of those articles appears in two document groups and therefore has two compound_object rows — and two sets of image children. The image rows for dual-membership articles are duplicated once per document group membership. The parent-child relationship between compound objects and images should not be confused with the relationship between original article and subsequent reprints in document groups.The average article has **8.2 scanned pages**.
 
+### The Data Page (`/data.html`)
+
+This objectid structure is exactly what the site's Data page exposes to visitors. Its "Complete Metadata" download is a verbatim copy of the master CSV — all 4,428 rows, compound_object and image alike. Its "Article Metadata" download collapses this down to the simplified, one-row-per-article view (494 rows) shown in the page's on-screen table, matching the article-level framing described throughout this document rather than the raw objectid structure. See `site_documentation/browse_pages_publishers_locations_timeline.md` for how Publishers/Locations/Timeline handle this same distinction.
+
 ---
 
 ## Article Coverage Analyses

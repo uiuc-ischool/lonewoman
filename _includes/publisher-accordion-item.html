@@ -26,13 +26,23 @@
 {%- elsif first_item.document_intro and first_item.document_intro != "" -%}
 {%- assign desc_text = first_item.document_intro -%}
 {%- endif -%}
-{%- comment -%} A handful of non-periodical items have no publication name at all — fall back to a label so the accordion button isn't blank. {%- endcomment -%}
+{%- comment -%}
+  A handful of non-periodical items have no publication name at all — fall
+  back to a label so the accordion button isn't blank. This is display-only:
+  it doesn't touch the "publication" field in the master CSV, so the item
+  stays correctly classified as blank/non-periodical (grouped under
+  Manuscripts and Non-Periodical Texts rather than sorted alphabetically).
+{%- endcomment -%}
 {%- assign display_name = pub_name -%}
 {%- if display_name == "" -%}
-{%- assign display_name = "Unattributed" -%}
-{%- if first_item.publisher_location and first_item.publisher_location != "" -%}
-{%- assign display_name = display_name | append: " (" | append: first_item.publisher_location | append: ")" -%}
-{%- endif -%}
+  {%- if first_item.article_id == "PointMuguHandout" -%}
+    {%- assign display_name = "Department of the Navy" -%}
+  {%- else -%}
+    {%- assign display_name = "Unattributed" -%}
+    {%- if first_item.publisher_location and first_item.publisher_location != "" -%}
+      {%- assign display_name = display_name | append: " (" | append: first_item.publisher_location | append: ")" -%}
+    {%- endif -%}
+  {%- endif -%}
 {%- endif -%}
 {%- assign pid = include.pid_prefix | append: '-' | append: pub_name | slugify | append: '-' | append: include.index -%}
 <div class="accordion-item">
