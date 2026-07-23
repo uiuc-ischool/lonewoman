@@ -1,0 +1,29 @@
+{% comment %}
+  timeline-card.html — one article thumbnail card for pages/timeline.md
+  Usage: {% include timeline-card.html item=it %}
+{% endcomment %}
+{%- assign it = include.item -%}
+{%- assign item_url = '/items/' | append: it.objectid | downcase | append: '.html' | relative_url -%}
+
+{%- assign thumb_src = "" -%}
+{%- if it.object_location and it.object_location != "" -%}
+  {%- assign thumb_src = it.object_location -%}
+{%- elsif it.filename and it.filename != "" -%}
+  {%- assign thumb_src = "/objects/" | append: it.filename -%}
+{%- elsif it.image_object_location and it.image_object_location != "" -%}
+  {%- assign thumb_src = it.image_object_location -%}
+{%- endif -%}
+
+<div class="col-6 col-md-4 col-lg-3">
+  <a href="{{ item_url }}" class="text-decoration-none text-body">
+    <div class="card h-100">
+      {%- if thumb_src != "" -%}
+      <img src="{{ thumb_src | relative_url }}" class="card-img-top" alt="" style="aspect-ratio: 4/3; object-fit: cover;" loading="lazy">
+      {%- endif -%}
+      <div class="card-body p-2">
+        <div class="small" style="display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">{{ it.title }}</div>
+        {%- if it.publication and it.publication != "" %}<div class="text-muted" style="font-size:0.75em;">{{ it.publication }}</div>{% endif -%}
+      </div>
+    </div>
+  </a>
+</div>

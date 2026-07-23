@@ -67,26 +67,24 @@ Country and state detection is purely string-based matching on `publisher_locati
 
 ---
 
-## Timeline (`pages/timeline.md` + `_layouts/timeline.html`)
+## Timeline (`pages/timeline.md`)
 
 **URL:** `/timeline.html`
 
-A standard CollectionBuilder timeline layout. Displays all articles organized by year in a table, with thumbnail images linking to each article page.
+Groups all articles by year, in the same style as Publishers/Locations (plain Liquid, no client-side JS). Articles with no `date` are shown in a separate "Undated" section rather than being dropped.
 
 **What it shows:**
-- A year-range header (first year → last year in the collection)
-- An optional year-jump dropdown (configured in `_data/theme.yml` via `year-navigation` or `year-nav-increment`)
-- A striped table with one row per year; each year row contains a responsive grid of article thumbnails
-- Clicking a thumbnail goes to the article's item page
+- Total article count and year range at the top, plus a "Jump to" year nav (and "Undated" link, if applicable)
+- One heading per year; under each, a responsive grid of article cards (thumbnail, title, publication), each linking to the article's item page
+- An "Undated" section at the end for any article with a blank `date`
 
 **How it works:**
-1. Reads items from the metadata CSV; excludes child objects (rows with a `parentid`) so only top-level article records appear
-2. Sorts by the `date` field (configurable via `site.data.theme.timeline-field`; defaults to `"date"`)
-3. Extracts years from the date field (handles `YYYY-MM-DD`, `MM/DD/YYYY`, and bare year formats)
-4. Deduplicates and sorts years, then groups articles by year for table rendering
-5. For each article, shows `image_thumb` if available, or a fallback card with the title and a format icon
+1. Filters metadata to `compound_object` rows, splits into `dated` and `undated` (guarding against Jekyll's `nil` for blank CSV cells, not just `""`)
+2. Sorts `dated` by `date` and derives the unique year list from the first 4 characters of each
+3. For each year, filters articles whose `date contains` that year and renders a card per article via a shared include (`_includes/timeline-card.html`)
+4. The card include builds the thumbnail `src` from `object_location`, falling back to `filename` then `image_object_location` — the same fallback chain used by `_includes/item/compound-gallery.html`
 
-The timeline page file (`pages/timeline.md`) contains only front matter and a heading — all the logic lives in `_layouts/timeline.html`, which is part of the CollectionBuilder template (see `site_documentation/collectionbuilder_template_documentation/`).
+This replaced the stock CollectionBuilder `_layouts/timeline.html`, which assumed a `parentid` field this project's data doesn't have (it uses `image_parent_id`) — that mismatch let individual scanned-page images appear as their own timeline entries, linking to item pages that don't exist for child images. `_layouts/timeline.html` is no longer used by any page but is left in place as an unused vendor file (see `site_documentation/collectionbuilder_template_documentation/`).
 
 ---
 
@@ -97,6 +95,7 @@ The timeline page file (`pages/timeline.md`) contains only front matter and a he
 | `pages/publishers.md` | Publishers browse page — groups into the special/periodical split, then loops per group |
 | `_includes/publisher-accordion-item.html` | Renders one accordion item (article list + source note); shared by both the manuscripts/non-periodical loop and the periodical loop |
 | `pages/locations.md` | Locations browse page — full Liquid logic inline |
-| `pages/timeline.md` | Timeline page stub — just front matter and a heading |
-| `_layouts/timeline.html` | CollectionBuilder timeline layout with all rendering logic |
+| `pages/timeline.md` | Timeline browse page — groups articles by year |
+| `_includes/timeline-card.html` | Renders one article thumbnail card; shared across all year sections (and "Undated") |
+| `_layouts/timeline.html` | Unused vendor CollectionBuilder layout — no longer referenced by any page |
 | `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv` | Source data for all three pages |
