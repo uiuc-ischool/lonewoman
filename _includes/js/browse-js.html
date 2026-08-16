@@ -1,4 +1,5 @@
-{%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.display_template == "compound_object"' -%}
+{%- assign all_records = site.data[site.metadata] -%}
+{%- assign items = all_records | where_exp: 'item', 'item.display_template == "compound_object"' -%}
 {%- assign fields = site.data.config-browse -%}
 {% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
 {% include js/browse-simple-js.html %}
@@ -20,8 +21,15 @@
  */
 var items = [
     {% for item in items %}
+    {%- assign browse_thumb = item.object_location -%}
+    {%- if item.arhival_holding == nil or item.arhival_holding == "" -%}
+      {%- assign item_children = all_records | where: 'image_parent_id', item.objectid -%}
+      {%- if item_children.size >= 3 -%}
+        {%- assign browse_thumb = item_children[2].object_location -%}
+      {%- endif -%}
+    {%- endif -%}
     { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }}, {%- endif -%} 
+        {% if browse_thumb and browse_thumb != "" %}"img": {{ browse_thumb | relative_url | jsonify }}, {%- endif -%}
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
