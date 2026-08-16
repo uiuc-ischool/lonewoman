@@ -1,8 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-author,Author,,,DCTERMS.creator,creator
 publication,Publisher,true,,,publisher
-publisher_location,Place of Publication,true,,,contentLocation
-date,Date,,,DCTERMS.date,datePublished
-tropes,Tropes,true,,DCTERMS.subject,keywords
-document_intro,Description,,,DCTERMS.description,description
+date,Date Created,,,DCTERMS.date,datePublished
+author,,,,DCTERMS.creator,creator
+publisher_location,,,,,contentLocation
+tropes,,,,DCTERMS.subject,keywords
+document_intro,,,,DCTERMS.description,description
