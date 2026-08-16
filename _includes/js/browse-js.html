@@ -64,7 +64,7 @@ function makeCard(obj) {
     
     // Image or icon
     if(obj.img) {
-        card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
+        card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}" style="aspect-ratio: 4/3; object-fit: cover; object-position: top;"></a>`;
     }
     
     // Title

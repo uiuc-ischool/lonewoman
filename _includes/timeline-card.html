@@ -14,11 +14,18 @@
   {%- assign thumb_src = it.image_object_location -%}
 {%- endif -%}
 
+{%- if it.arhival_holding == nil or it.arhival_holding == "" -%}
+  {%- assign it_children = site.data[site.metadata] | where: 'image_parent_id', it.objectid -%}
+  {%- if it_children.size >= 3 -%}
+    {%- assign thumb_src = it_children[2].object_location -%}
+  {%- endif -%}
+{%- endif -%}
+
 <div class="col-6 col-md-4 col-lg-3">
   <a href="{{ item_url }}" class="text-decoration-none text-body">
     <div class="card h-100">
       {%- if thumb_src != "" -%}
-      <img src="{{ thumb_src | relative_url }}" class="card-img-top" alt="" style="aspect-ratio: 4/3; object-fit: cover;" loading="lazy">
+      <img src="{{ thumb_src | relative_url }}" class="card-img-top" alt="" style="aspect-ratio: 4/3; object-fit: cover; object-position: top;" loading="lazy">
       {%- endif -%}
       <div class="card-body p-2">
         <div class="small" style="display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">{{ it.title }}</div>
