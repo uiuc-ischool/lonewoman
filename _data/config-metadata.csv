@@ -1,15 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-publication,Publisher,,,,publisher
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
+author,Author,,,DCTERMS.creator,creator
+publication,Publisher,true,,,publisher
+publisher_location,Place of Publication,true,,,contentLocation
+date,Date,,,DCTERMS.date,datePublished
+tropes,Tropes,true,,DCTERMS.subject,keywords
+document_intro,Description,,,DCTERMS.description,description
