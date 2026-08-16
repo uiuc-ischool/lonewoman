@@ -6,6 +6,34 @@ These three pages appear in the site toolbar and give readers different ways to 
 
 ---
 
+## Browse (`pages/browse.md`)
+
+**URL:** `/browse.html`
+
+Unlike Publishers, Locations, and Timeline below — which render entirely server-side via Liquid — the Browse page is built from client-side JS app: Jekyll only emits a JSON array of every article into the page, and `_includes/js/browse-js.html` handles filtering, faceting, sorting, and card rendering in the browser after load.
+
+**What it shows:**
+- A search/filter bar: field-select dropdown (desktop select + mobile dropdown), free-text filter box, date-range inputs, and (if `advanced-search` is enabled in `_data/theme.yml`) an Advanced Search modal for building multi-field AND/OR/NOT queries
+- A "Sort by" dropdown (Random by default, plus Title and any field with a `sort_name` set in `config-browse.csv`)
+- A responsive grid of article cards — thumbnail, title, and whichever fields from `config-browse.csv` aren't marked `hidden`
+- Active filter indicators and a running result count
+
+**Thumbnail construction (per card):**
+1. Default thumbnail is the article's own `object_location` field — its first scanned image
+2. If the article is *not* a manuscript (`arhival_holding` is empty) and has 3 or more child images (matched via `image_parent_id == objectid`), the thumbnail is swapped to the **third** image instead — typically a closer, more legible crop of the article text rather than a full front-page scan
+3. Manuscripts (`arhival_holding` set) and articles with fewer than 3 images always use the first image
+4. Thumbnails are lazy-loaded (`lazysizes`), so only cards actually scrolled into view get downloaded
+5. Displayed at a fixed `aspect-ratio: 4/3` with `object-fit: cover; object-position: top`, so cards line up at a consistent height and any cropping trims from the bottom rather than the masthead/headline at the top of the scan
+
+**Filterable vs. visible fields:** `_data/config-browse.csv` controls both, independently. Every row becomes a filter/sort/facet option regardless of its `hidden` value; only rows where `hidden` is not `true` are actually printed on the card. This lets a field (e.g. `document_intro`) stay searchable without cluttering the card grid.
+
+**How it works:**
+1. `_includes/js/browse-js.html` builds a `var items = [...]` JS array server-side: one object per `compound_object` row, with the fields listed in `config-browse.csv` plus `img`, `title`, `id`, and `parent`
+2. Field values, the field-select dropdown, sort options, and the Advanced Search modal's field list are all generated from `_data/config-browse.csv` — adding a row there both makes a field filterable and (unless `hidden`) visible on cards
+3. All actual filtering/sorting/rendering happens client-side in the browser after page load (see `_includes/js/browse-js.html`, or `_includes/js/browse-simple-js.html` if both `faceted-search` and `advanced-search` are disabled in `_data/theme.yml`)
+
+---
+
 ## Publishers (`pages/publishers.md`)
 
 **URL:** `/publishers/`
@@ -92,10 +120,35 @@ This replaced the stock CollectionBuilder `_layouts/timeline.html`, which assume
 
 | File | Role |
 |---|---|
+| `pages/browse.md` | Browse page — thin wrapper; layout + JS do the real work |
+| `_layouts/browse.html` | Browse page layout — filter bar, sort menu, Advanced Search modal trigger |
+| `_includes/js/browse-js.html` | Builds the `items` JSON array server-side and all client-side filter/sort/render/thumbnail logic |
+| `_includes/js/browse-simple-js.html` | Fallback browse JS used when `faceted-search` and `advanced-search` are both disabled |
+| `_includes/advanced-search-modal.html` | Advanced Search modal markup, field list generated from `config-browse.csv` |
+| `_data/config-browse.csv` | Controls which fields are filterable/sortable/faceted and which are visible on cards |
 | `pages/publishers.md` | Publishers browse page — groups into the special/periodical split, then loops per group |
 | `_includes/publisher-accordion-item.html` | Renders one accordion item (article list + source note); shared by both the manuscripts/non-periodical loop and the periodical loop |
 | `pages/locations.md` | Locations browse page — full Liquid logic inline |
 | `pages/timeline.md` | Timeline browse page — groups articles by year |
 | `_includes/timeline-card.html` | Renders one article thumbnail card; shared across all year sections (and "Undated") |
 | `_layouts/timeline.html` | Unused vendor CollectionBuilder layout — no longer referenced by any page |
-| `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv` | Source data for all three pages |
+| `_data/cb_complete_metadata_images_tropes_reprints_transcripts.csv` | Source data for all pages on this file |
+
+---
+
+## Search
+
+**URL:** `/search/` (page); toolbar box lives in `_includes/nav-search-lunr.html`
+
+Full-text search across the whole collection, powered by Lunr.js — a separate mechanism from Browse's field filtering above.
+
+**What user search terms connect to:** only the fields marked `index: true` in `_data/config-search.csv` are searchable — currently `title`, `date`, `author`, `publication`, `publisher_location`, `tropes`, and `document_intro`. A search for "Boston" matches because `publisher_location` (e.g. "Boston, Massachusetts") and `publication` (e.g. "Boston Evening Transcript") are indexed; a term that only appears in a non-indexed field (e.g. the full OCR transcript text, deliberately excluded to keep the client-side index small) won't return anything.
+
+**How it works:**
+1. The toolbar search box (`_includes/nav-search-lunr.html`) is a plain redirect — it URL-encodes whatever's typed and sends the browser to `/search/?q=...`
+2. `assets/js/lunr-store.js` is a Jekyll-templated JS file: at build time it loops over the metadata (child images included if `search-child-objects` is `true` in `_data/theme.yml`) and, for each `index: true` field in `config-search.csv`, copies that field's value into a JS `store` object keyed by item id
+3. `_includes/js/lunr-js.html` builds the actual Lunr index client-side from `store` on page load, reads `?q=` from the URL, and runs the search
+4. Lunr's query syntax works directly in the search box: `field:term` (scoped search), trailing `*` wildcards, `~N` fuzzy matching, `^N` term boosting — documented for users in the "Search Options" modal on the search page
+5. Each result links to `/items/<id>.html`, with `id` lowercased to match the actual generated filenames (item pages are slugified/lowercased by `_plugins/cb_page_gen.rb`)
+
+**Which fields display in results:** controlled by the `display: true` column in `config-search.csv`. The first CSV row (must be `title`) becomes the clickable result heading; subsequent `display: true` rows are printed underneath it.
