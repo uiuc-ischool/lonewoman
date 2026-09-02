@@ -295,6 +295,7 @@
         lineWidthMinPixels: 1,
         pickable: true,
         onHover: handleHover,
+        onClick: handleClick,
         updateTriggers: { getPosition: [currentTs, zoom], getRadius: [currentTs, zoom] }
       });
 
@@ -302,47 +303,42 @@
     }
 
     // ── Tooltip ───────────────────────────────────────────────────────────
-    // Multi-article clusters get a scrollable table. Since the mouse has to
-    // cross off the canvas to reach it, the tooltip itself takes over pointer
-    // events for that case (deck.gl's onHover then simply stops firing new
-    // events, so the last content stays put) and a mouseleave on the tooltip
-    // is what actually dismisses it.
-    function handleHover(info) {
-      var d = info.object, x = info.x, y = info.y;
-      if (!d) { hideTooltip(); return; }
+    // Hover gives a lightweight, ephemeral preview (full detail for a single
+    // article; just a count + prompt for a cluster, since a hover tooltip
+    // can never be scrolled — the pointer has to cross empty canvas to reach
+    // it, which cancels the hover before it gets there). Clicking a point
+    // "pins" the tooltip instead: it stops following the mouse and gets a
+    // close button, so a multi-article cluster's table can actually be
+    // scrolled.
+    var pinned = null;
 
-      var tw, th;
-      if (d.items.length === 1) {
-        var a = d.items[0];
-        var loc = a.publisher_location ? esc(a.publisher_location) : '';
-        tooltipEl.style.pointerEvents = 'none';
-        tooltipEl.innerHTML =
-          '<div style="color:#e2e8f0;font-weight:600;margin-bottom:2px;font-size:13px">' + esc(a.title) + '</div>' +
-          '<div>' + esc(a.publication) + (loc ? ', ' + loc : '') + '</div>' +
-          '<div>' + fmtDate(a.date) + '</div>';
-        tw = 240; th = 90;
-      } else {
-        var sorted = d.items.slice().sort(function (p, q) { return p.ts - q.ts; });
-        var rows = sorted.map(function (a) {
-          return '<tr>' +
-            '<td style="padding:2px 6px 2px 0;color:#e2e8f0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.title) + '</td>' +
-            '<td style="padding:2px 6px 2px 0;color:#9ca3af;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.publication) + '</td>' +
-            '<td style="padding:2px 0;color:#6b7280;white-space:nowrap;">' + fmtDate(a.date) + '</td>' +
-            '</tr>';
-        }).join('');
-        tooltipEl.style.pointerEvents = 'auto';
-        tooltipEl.innerHTML =
-          '<div style="color:#e2e8f0;font-weight:600;margin-bottom:5px;font-size:12px">' +
-          d.items.length + ' articles' +
-          (sorted[0].publisher_location ? ' &middot; ' + esc(sorted[0].publisher_location) : '') +
-          '</div>' +
-          '<div style="max-height:190px;overflow-y:auto;overflow-x:hidden;">' +
-          '<table style="border-collapse:collapse;table-layout:fixed;width:320px;font-size:11px;">' +
-          '<colgroup><col style="width:160px"><col style="width:100px"><col style="width:60px"></colgroup>' +
-          rows + '</table></div>';
-        tw = 340; th = 210;
-      }
+    function singleItemHtml(a) {
+      var loc = a.publisher_location ? esc(a.publisher_location) : '';
+      return '<div style="color:#e2e8f0;font-weight:600;margin-bottom:2px;font-size:13px">' + esc(a.title) + '</div>' +
+        '<div>' + esc(a.publication) + (loc ? ', ' + loc : '') + '</div>' +
+        '<div>' + fmtDate(a.date) + '</div>';
+    }
 
+    function clusterTableHtml(d) {
+      var sorted = d.items.slice().sort(function (p, q) { return p.ts - q.ts; });
+      var rows = sorted.map(function (a) {
+        return '<tr>' +
+          '<td style="padding:2px 6px 2px 0;color:#e2e8f0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.title) + '</td>' +
+          '<td style="padding:2px 6px 2px 0;color:#9ca3af;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.publication) + '</td>' +
+          '<td style="padding:2px 0;color:#6b7280;white-space:nowrap;">' + fmtDate(a.date) + '</td>' +
+          '</tr>';
+      }).join('');
+      return '<div style="color:#e2e8f0;font-weight:600;margin-bottom:5px;font-size:12px">' +
+        d.items.length + ' articles' +
+        (sorted[0].publisher_location ? ' &middot; ' + esc(sorted[0].publisher_location) : '') +
+        '</div>' +
+        '<div style="max-height:190px;overflow-y:auto;overflow-x:hidden;">' +
+        '<table style="border-collapse:collapse;table-layout:fixed;width:320px;font-size:11px;">' +
+        '<colgroup><col style="width:160px"><col style="width:100px"><col style="width:60px"></colgroup>' +
+        rows + '</table></div>';
+    }
+
+    function positionTooltip(x, y, tw, th) {
       var cw = container.offsetWidth;
       var ch = container.offsetHeight;
       tooltipEl.style.maxWidth = tw + 'px';
@@ -351,11 +347,58 @@
       tooltipEl.style.display = 'block';
     }
 
+    function handleHover(info) {
+      if (pinned) return; // frozen while a pinned tooltip is open
+      var d = info.object;
+      if (!d) { hideTooltip(); return; }
+
+      if (d.items.length === 1) {
+        tooltipEl.style.pointerEvents = 'none';
+        tooltipEl.innerHTML = singleItemHtml(d.items[0]);
+        positionTooltip(info.x, info.y, 240, 90);
+      } else {
+        tooltipEl.style.pointerEvents = 'none';
+        tooltipEl.innerHTML =
+          '<div style="color:#e2e8f0;font-weight:600;font-size:12px">' + d.items.length + ' articles' +
+          (d.items[0].publisher_location ? ' &middot; ' + esc(d.items[0].publisher_location) : '') + '</div>' +
+          '<div style="color:#6b7280;margin-top:3px;">Click to view list</div>';
+        positionTooltip(info.x, info.y, 220, 60);
+      }
+    }
+
+    function handleClick(info) {
+      var d = info.object;
+      if (!d) return;
+      pinned = d;
+
+      var closeBtn = '<button class="' + uid + '_close" style="position:absolute;top:6px;right:8px;background:none;' +
+        'border:none;color:#9ca3af;font-size:15px;line-height:1;cursor:pointer;padding:2px 4px;">&times;</button>';
+
+      var tw, th;
+      if (d.items.length === 1) {
+        tooltipEl.innerHTML = closeBtn + '<div style="padding-right:16px;">' + singleItemHtml(d.items[0]) + '</div>';
+        tw = 240; th = 100;
+      } else {
+        tooltipEl.innerHTML = closeBtn + '<div style="padding-right:16px;">' + clusterTableHtml(d) + '</div>';
+        tw = 340; th = 220;
+      }
+
+      tooltipEl.style.pointerEvents = 'auto';
+      positionTooltip(info.x, info.y, tw, th);
+
+      var btn = tooltipEl.querySelector('.' + uid + '_close');
+      if (btn) btn.addEventListener('click', closePinned);
+    }
+
+    function closePinned() {
+      pinned = null;
+      hideTooltip();
+    }
+
     function hideTooltip() {
       tooltipEl.style.display = 'none';
       tooltipEl.style.pointerEvents = 'none';
     }
-    tooltipEl.addEventListener('mouseleave', hideTooltip);
 
     // ── Animation helpers ─────────────────────────────────────────────────
     function syncUI() {
@@ -373,6 +416,7 @@
     }
 
     function play() {
+      closePinned(); // clusters shift as new points appear — a pinned table would go stale
       if (currentTs >= MAX_TS) currentTs = MIN_TS;
       isPlaying = true;
       playBtn.innerHTML = '⏸';
@@ -387,6 +431,7 @@
     }
 
     function reset() {
+      closePinned();
       pause();
       currentTs = MIN_TS;
       syncUI();
@@ -398,6 +443,7 @@
     resetBtn.addEventListener('click', reset);
 
     timeSlider.addEventListener('input', function () {
+      closePinned();
       pause();
       currentTs = MIN_TS + RANGE * (this.value / 1000);
       dateLabel.textContent = tsToDisplayDate(currentTs);
@@ -418,7 +464,7 @@
       if (!isSingleDate && options.autoplay) play();
     });
 
-    map.on('zoom', function () { render(); });
+    map.on('zoom', function () { closePinned(); render(); });
 
     // ── Public API ─────────────────────────────────────────────────────────
     return { play: play, pause: pause, reset: reset };
