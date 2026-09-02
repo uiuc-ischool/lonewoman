@@ -151,7 +151,7 @@
       '<span>One article</span></div>' +
       '<div style="display:flex;align-items:center;gap:8px;margin-top:4px;">' +
       '<div style="width:16px;height:16px;border-radius:50%;background:#6366f1;flex-shrink:0"></div>' +
-      '<span>Cluster &mdash; hover for list</span></div>'
+      '<span>Cluster &mdash; hover for list and click to hold table</span></div>'
     );
     container.appendChild(legend);
 

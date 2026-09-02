@@ -1,6 +1,6 @@
 # Complete Map Page: All Articles by Place of Publication
 
-The Complete Map page (`/map.html`) plots every article in the collection on a single world map, positioned by its place of publication. Unlike the [Document Groups](document_groups_page.md) reprint maps, which are scoped to one reprint family at a time and drawn on demand, this page loads all ~480 articles at once and reveals them over time with a play/slider control, clustering nearby points so dense cities (New York, Boston, San Francisco, etc.) don't overlap into an unreadable mess.
+The Complete Map page (`/map.html`) plots every article in the collection on a single world map, positioned by its place of publication. Unlike the [Document Groups](document_groups_page.md) reprint maps, which are scoped to one reprint family at a time and drawn on demand, this page loads all ~480 articles at once and reveals them over time with a play/slider control, clustering nearby points so dense cities (New York, Boston, San Francisco, etc.) don't overlap into an unreadable mess. Clicking a city cluster circle holds its article table open on screen, so its title/publisher/date metadata can be read and scrolled through at leisure instead of disappearing the moment the cursor moves.
 
 **URL:** `/map.html`
 **Page file:** `pages/map.md`
