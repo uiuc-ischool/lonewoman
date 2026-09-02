@@ -50,3 +50,20 @@ details.map-group:not([open]) .reprint-map-container {
 @media (max-width: 600px) {
   .reprint-map-container { height: 300px; }
 }
+
+/* ── All Articles Map Widget ─────────────────────────────────── */
+.all-articles-map-container {
+  width: 100%;
+  height: 75vh;
+  min-height: 480px;
+  max-height: 780px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 0.75rem;
+  background: #0f111e;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .all-articles-map-container { height: 65vh; min-height: 380px; }
+}

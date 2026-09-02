@@ -1,0 +1,36 @@
+{% comment %}
+  all-articles-map-data.html — bakes every article's location into a JS array
+  for assets/js/all-articles-map.js. Coordinates come from article_map_locations.csv
+  (keyed by article_id, deduped since some article_ids appear in more than one
+  reprint group); title/publication/date/publisher_location come from the
+  canonical metadata via article_id -> objectid join so the page reflects any
+  metadata edits without needing to regenerate the geocoded CSV.
+{% endcomment %}
+{%- assign compounds = site.data[site.metadata] | where: 'display_template', 'compound_object' -%}
+{%- assign geo = site.data.article_map_locations | where_exp: 'r', 'r.lat != nil and r.lat != "" and r.lng != nil and r.lng != ""' -%}
+{%- assign geo_grouped = geo | group_by: 'article_id' -%}
+
+<div id="all-articles-map" class="all-articles-map-container" aria-label="Map of every article in the collection by place of publication"></div>
+
+<script>
+(function() {
+  var data = [
+    {% for g in geo_grouped %}
+    {%- assign geo_row = g.items[0] -%}
+    {%- assign matches = compounds | where: 'article_id', g.name -%}
+    {%- if matches.size > 0 -%}
+    {%- assign item = matches[0] -%}
+    {
+      title: {{ item.title | jsonify }},
+      publication: {{ item.publication | jsonify }},
+      date: {{ item.date | jsonify }},
+      publisher_location: {{ item.publisher_location | jsonify }},
+      lat: {{ geo_row.lat }},
+      lng: {{ geo_row.lng }}
+    },
+    {%- endif -%}
+    {% endfor %}
+  ];
+  window._allArticlesMapData = data;
+})();
+</script>
