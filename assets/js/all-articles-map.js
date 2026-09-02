@@ -302,14 +302,20 @@
     }
 
     // ── Tooltip ───────────────────────────────────────────────────────────
+    // Multi-article clusters get a scrollable table. Since the mouse has to
+    // cross off the canvas to reach it, the tooltip itself takes over pointer
+    // events for that case (deck.gl's onHover then simply stops firing new
+    // events, so the last content stays put) and a mouseleave on the tooltip
+    // is what actually dismisses it.
     function handleHover(info) {
       var d = info.object, x = info.x, y = info.y;
-      if (!d) { tooltipEl.style.display = 'none'; return; }
+      if (!d) { hideTooltip(); return; }
 
       var tw, th;
       if (d.items.length === 1) {
         var a = d.items[0];
         var loc = a.publisher_location ? esc(a.publisher_location) : '';
+        tooltipEl.style.pointerEvents = 'none';
         tooltipEl.innerHTML =
           '<div style="color:#e2e8f0;font-weight:600;margin-bottom:2px;font-size:13px">' + esc(a.title) + '</div>' +
           '<div>' + esc(a.publication) + (loc ? ', ' + loc : '') + '</div>' +
@@ -319,18 +325,21 @@
         var sorted = d.items.slice().sort(function (p, q) { return p.ts - q.ts; });
         var rows = sorted.map(function (a) {
           return '<tr>' +
-            '<td style="padding:2px 8px 2px 0;color:#e2e8f0;max-width:170px;">' + esc(a.title) + '</td>' +
-            '<td style="padding:2px 8px 2px 0;color:#9ca3af;white-space:nowrap;">' + esc(a.publication) + '</td>' +
+            '<td style="padding:2px 6px 2px 0;color:#e2e8f0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.title) + '</td>' +
+            '<td style="padding:2px 6px 2px 0;color:#9ca3af;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + esc(a.publication) + '</td>' +
             '<td style="padding:2px 0;color:#6b7280;white-space:nowrap;">' + fmtDate(a.date) + '</td>' +
             '</tr>';
         }).join('');
+        tooltipEl.style.pointerEvents = 'auto';
         tooltipEl.innerHTML =
           '<div style="color:#e2e8f0;font-weight:600;margin-bottom:5px;font-size:12px">' +
           d.items.length + ' articles' +
           (sorted[0].publisher_location ? ' &middot; ' + esc(sorted[0].publisher_location) : '') +
           '</div>' +
-          '<div style="max-height:190px;overflow-y:auto;">' +
-          '<table style="border-collapse:collapse;font-size:11px;">' + rows + '</table></div>';
+          '<div style="max-height:190px;overflow-y:auto;overflow-x:hidden;">' +
+          '<table style="border-collapse:collapse;table-layout:fixed;width:320px;font-size:11px;">' +
+          '<colgroup><col style="width:160px"><col style="width:100px"><col style="width:60px"></colgroup>' +
+          rows + '</table></div>';
         tw = 340; th = 210;
       }
 
@@ -341,6 +350,12 @@
       tooltipEl.style.top  = (y + 14 + th > ch ? y - th - 14 : y + 14) + 'px';
       tooltipEl.style.display = 'block';
     }
+
+    function hideTooltip() {
+      tooltipEl.style.display = 'none';
+      tooltipEl.style.pointerEvents = 'none';
+    }
+    tooltipEl.addEventListener('mouseleave', hideTooltip);
 
     // ── Animation helpers ─────────────────────────────────────────────────
     function syncUI() {
