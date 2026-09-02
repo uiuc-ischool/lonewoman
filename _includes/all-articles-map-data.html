@@ -3,7 +3,7 @@
   for assets/js/all-articles-map.js. Coordinates come from article_map_locations.csv
   (keyed by article_id, deduped since some article_ids appear in more than one
   reprint group); title/publication/date/publisher_location come from the
-  canonical metadata via article_id -> objectid join so the page reflects any
+  canonical metadata, matched by article_id, so the page reflects any
   metadata edits without needing to regenerate the geocoded CSV.
 {% endcomment %}
 {%- assign compounds = site.data[site.metadata] | where: 'display_template', 'compound_object' -%}

@@ -147,7 +147,7 @@ Only loaded when `page.use_reprint_maps: true`:
 
 ## Files NOT Used by This Page
 
-`_layouts/map.html` and `_includes/js/map-js.html` are **not part of the document groups system**. They are stock CollectionBuilder files that power a separate Leaflet-based map of all collection items (used by other CB pages if configured). They are included in the repo as part of the CollectionBuilder template but are not connected to the document groups or reprint arc visualizations.
+`assets/js/all-articles-map.js` and `_includes/all-articles-map-data.html` are **not part of the document groups system** — they power the separate Complete Map page (`/map.html`, see [complete_map_page.md](complete_map_page.md)), which plots every article at once rather than one reprint group at a time. That page's `AllArticlesMap` widget was forked from this page's `ReprintMap`, so the two share a lot of visual DNA, but they run independently (separate `use_all_articles_map` / `use_reprint_maps` front-matter flags) and don't share data or JS.
 
 ---
 

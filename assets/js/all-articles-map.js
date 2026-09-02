@@ -2,9 +2,9 @@
  * all-articles-map.js
  * Full-collection map: every article plotted at its place of publication,
  * revealed over time with a play/slider control. Nearby articles are
- * clustered into a single circle (sized by count); hovering a single-article
- * circle shows its details, hovering a cluster shows a table of every
- * article in it.
+ * clustered into a single circle (sized by count); hovering a point shows a
+ * lightweight preview, clicking it pins a detail panel — a scrollable table
+ * of every article in it, for a cluster — that stays open until closed.
  *
  * Depends on (loaded by the page, not this file):
  *   MapLibre GL  3.6.2  — https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js
