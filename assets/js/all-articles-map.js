@@ -333,8 +333,8 @@
         (sorted[0].publisher_location ? ' &middot; ' + esc(sorted[0].publisher_location) : '') +
         '</div>' +
         '<div style="max-height:190px;overflow-y:auto;overflow-x:hidden;">' +
-        '<table style="border-collapse:collapse;table-layout:fixed;width:320px;font-size:11px;">' +
-        '<colgroup><col style="width:160px"><col style="width:100px"><col style="width:60px"></colgroup>' +
+        '<table style="border-collapse:collapse;table-layout:fixed;width:340px;font-size:11px;">' +
+        '<colgroup><col style="width:150px"><col style="width:100px"><col style="width:90px"></colgroup>' +
         rows + '</table></div>';
     }
 
@@ -380,7 +380,7 @@
         tw = 240; th = 100;
       } else {
         tooltipEl.innerHTML = closeBtn + '<div style="padding-right:16px;">' + clusterTableHtml(d) + '</div>';
-        tw = 340; th = 220;
+        tw = 370; th = 220;
       }
 
       tooltipEl.style.pointerEvents = 'auto';
