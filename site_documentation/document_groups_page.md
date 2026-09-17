@@ -9,7 +9,7 @@ The Document Groups page (`/groups/`) shows how individual newspaper articles ar
 
 ## What is a Document Group?
 
-A document group is a set of articles that share the same source text. Every group has exactly one **original** publication and zero or more **reprints**. Reprints are typed by how faithfully they reproduce the original:
+A document group is a set of articles that share the same source text. Every group has exactly one **original** publication and one or more **reprints**. Reprints are typed by how faithfully they reproduce the original:
 
 | Reprint type | Meaning |
 |---|---|
