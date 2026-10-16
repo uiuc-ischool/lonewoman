@@ -146,6 +146,14 @@
   document.querySelectorAll('.trope-checkbox').forEach(function (cb) {
     cb.addEventListener('change', function () {
       if (window.recalculateStripes) window.recalculateStripes();
+
+      // Jump the transcript to this trope's first highlighted mark, so it's
+      // obvious the highlighting actually happened even if that text is
+      // currently scrolled off-screen.
+      if (cb.checked) {
+        var firstMark = document.querySelector('.trope-' + cb.dataset.trope);
+        if (firstMark) firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     });
   });
 }());
