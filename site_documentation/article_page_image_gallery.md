@@ -111,7 +111,7 @@ JavaScript in `compound_object.html` manages swapping between views using `d-non
 Two buttons sit beneath the left column:
 
 - **Interpretive Mode** — hides the gallery and shows the trope checklist panel (see `_includes/interpretive-panel.html` and the transcript/trope documentation).
-- **Expand Document** — hides the entire left column, letting the transcript fill the full page width. Toggling again restores the two-column view.
+- **Expand Transcript** — hides the entire left column, letting the transcript fill the full page width. Toggling again restores the two-column view.
 
 On mobile (≤767px), the columns stack vertically.
 

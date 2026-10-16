@@ -43,7 +43,7 @@ gallery: true
     display: none;
   }
 
-  /* The "Expand Document" button lives in the left column, so it disappears
+  /* The "Expand Transcript" button lives in the left column, so it disappears
      along with it in expanded mode — this button is the only way back,
      shown only while expanded, and kept in view via sticky positioning so
      it's reachable without scrolling back to the top of a long transcript. */
@@ -101,7 +101,7 @@ gallery: true
         Interpretive Mode
       </button>
       <button id="expand-doc-btn" class="btn btn-outline-secondary btn-sm">
-        Expand Document
+        Expand Transcript
       </button>
     </div>
 
@@ -168,7 +168,7 @@ gallery: true
   var collapseBtn = document.getElementById('collapse-doc-btn');
   function setDocExpanded(expanded) {
     viewer.classList.toggle('doc-expanded', expanded);
-    expandBtn.textContent = expanded ? 'Collapse' : 'Expand Document';
+    expandBtn.textContent = expanded ? 'Collapse' : 'Expand Transcript';
     expandBtn.classList.toggle('btn-secondary', expanded);
     expandBtn.classList.toggle('btn-outline-secondary', !expanded);
   }
