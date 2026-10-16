@@ -23,7 +23,7 @@ Uses child.object_location (recommended) with fallback to /objects/ + child.file
     {%- assign first_src = first.image_object_location -%}
   {%- endif -%}
 
-  <div class="card mb-4 text-center">
+  <div class="card mb-4 text-center spotlight-group">
     <div class="card-body">
 
       {%- if first_src != "" -%}
@@ -40,6 +40,28 @@ Uses child.object_location (recommended) with fallback to /objects/ + child.file
       {%- else -%}
         <p><em>Found children, but first child has no image path.</em></p>
       {%- endif -%}
+
+      {%- comment -%}
+        Hidden links (one per remaining image) register the rest of this
+        article's images with the Spotlight full-screen viewer, so its own
+        next/prev controls cycle through every image in this article rather
+        than just the one that was opened. They're invisible and don't change
+        the visible thumbnail strip below, which still only swaps the inline
+        preview above on click.
+      {%- endcomment -%}
+      {% for it in children offset: 1 %}
+        {%- assign hidden_src = "" -%}
+        {%- if it.object_location and it.object_location != "" -%}
+          {%- assign hidden_src = it.object_location -%}
+        {%- elsif it.filename and it.filename != "" -%}
+          {%- assign hidden_src = "/objects/" | append: it.filename -%}
+        {%- elsif it.image_object_location and it.image_object_location != "" -%}
+          {%- assign hidden_src = it.image_object_location -%}
+        {%- endif -%}
+        {% if hidden_src != "" %}
+        <a class="spotlight" href="{{ hidden_src | relative_url }}" title="{{ page.title | escape }} [{{ forloop.index | plus: 1 }}]" style="display:none;" aria-hidden="true" tabindex="-1"></a>
+        {% endif %}
+      {% endfor %}
 
       <div class="mt-3 d-flex flex-wrap justify-content-center" style="gap: .5rem;">
         {% for it in children %}
