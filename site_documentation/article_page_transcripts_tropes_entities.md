@@ -162,6 +162,15 @@ boxShadow: "0 3px 0 0 #color1, 0 6px 0 0 #color3"
 
 Unchecking a trope removes its stripe. Exiting Interpretive Mode unchecks all boxes and clears all highlights.
 
+**Jump-to-highlight:** checking a box also scrolls the transcript so the highlight is actually visible, rather than leaving the user to hunt for it. The same checkbox `change` handler (in `_includes/interpretive-panel.html`) that calls `recalculateStripes()` also runs, when the box was just checked:
+
+```js
+var firstMark = document.querySelector('.trope-' + cb.dataset.trope);
+if (firstMark) firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+```
+
+This reuses the `trope-<N>` class that's already on every `<mark>` for CSS/JS targeting (see the segment-to-DOM table above) — no separate index or lookup is needed. `querySelector` returns the first matching element in document order, i.e. the first paragraph where that trope occurs, and the browser smooth-scrolls it to the vertical center of the viewport. Unchecking a box doesn't scroll anywhere; only the act of turning a highlight *on* jumps to it.
+
 ---
 
 ## Entity Panels
@@ -196,7 +205,7 @@ Clicking any underlined entity text in the transcript triggers a click listener 
 | `assets/js/entity-data.js` | Jekyll-processed bridge: serializes `entities.json` into `window.ENTITY_DATA` |
 | `assets/js/entity-panel.js` | Runtime: panel logic, `openEntityPanel()`, `openGroupPanel()` |
 | `_data/tropes.yml` | Trope id / label / color definitions |
-| `_includes/interpretive-panel.html` | Trope checklist panel; triggers `recalculateStripes()` |
+| `_includes/interpretive-panel.html` | Trope checklist panel; triggers `recalculateStripes()` and scrolls to that trope's first highlight |
 | `_includes/entity-panel.html` | Entity panel DOM and script loader |
 | `_includes/transcript-viewer.html` | The transcript renderer: trope CSS, `fetch()`, `buildSegmentNode()`, entity-link click handling, strikethrough wrapping |
 | `_layouts/item/compound_object.html` | Main article page layout; includes `transcript-viewer.html` and wires up the gallery/interpretive-panel/entity-panel views around it |
