@@ -109,7 +109,7 @@ gallery: true
 
   <!-- ── RIGHT COLUMN: transcript ────────────────────────── -->
   <div class="article-viewer-right" id="transcript-col">
-    <button id="collapse-doc-btn" class="btn btn-secondary btn-sm doc-collapse-btn" type="button">✕ Collapse Document</button>
+    <button id="collapse-doc-btn" class="btn btn-secondary btn-sm doc-collapse-btn" type="button">✕ Collapse Transcript</button>
     {% if page.article_id != "" and page.article_id != nil %}
       {% include transcript-viewer.html document_id=page.article_id %}
     {% else %}
@@ -168,7 +168,7 @@ gallery: true
   var collapseBtn = document.getElementById('collapse-doc-btn');
   function setDocExpanded(expanded) {
     viewer.classList.toggle('doc-expanded', expanded);
-    expandBtn.textContent = expanded ? 'Collapse' : 'Expand Transcript';
+    expandBtn.textContent = expanded ? 'Collapse Transcript' : 'Expand Transcript';
     expandBtn.classList.toggle('btn-secondary', expanded);
     expandBtn.classList.toggle('btn-outline-secondary', !expanded);
   }
